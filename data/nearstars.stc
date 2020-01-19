@@ -135,7 +135,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 
 	EllipticalOrbit {              # fully specified orientation
 		Period           27.54
-		SemiMajorAxis     1.64 # mass ratio 33.51:28.55J
+		SemiMajorAxis     1.64 # mass ratio 33.51J:28.55J
 		Eccentricity      0.34
 		Inclination      64.67
 		AscendingNode   295.52
@@ -152,7 +152,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 
 	EllipticalOrbit {              # fully specified orientation
 		Period           27.54
-		SemiMajorAxis     1.92 # mass ratio 33.51:28.55J
+		SemiMajorAxis     1.92 # mass ratio 33.51J:28.55J
 		Eccentricity      0.34
 		Inclination      64.67
 		AscendingNode   295.52
@@ -628,7 +628,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B"
 
 	EllipticalOrbit {             # fully specified orientation
 		Period          11.41
-		SemiMajorAxis    1.26 # mass ratio 75.0:70.1J
+		SemiMajorAxis    1.26 # mass ratio 75.0J:70.1J
 		Eccentricity     0.47
 		Inclination     77.95
 		AscendingNode  138.03
@@ -646,7 +646,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B"
 
 	EllipticalOrbit {              # fully specified orientation
 		Period           11.41
-		SemiMajorAxis     1.35 # mass ratio 75.0:70.1J
+		SemiMajorAxis     1.35 # mass ratio 75.0J:70.1J
 		Eccentricity      0.47
 		Inclination      77.95
 		AscendingNode   138.03
@@ -3288,7 +3288,7 @@ Modify 65859 # Ross 490
 	Radius 341000 # approx. for class
 }
 
-"G 141-36"
+"Giclas 141-36"
 {
 	RA 282.07307098
 	Dec -7.68921596
