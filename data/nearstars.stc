@@ -131,7 +131,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 {
 	OrbitBarycenter "Luhman 16"
 	SpectralType "L7.5"
-	AbsMag 23 # for approximate radius in Celestia
+	AbsMag 22.5 # for approximate radius in Celestia
 
 	EllipticalOrbit {              # fully specified orientation
 		Period           27.54
@@ -148,7 +148,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 {
 	OrbitBarycenter "Luhman 16"
 	SpectralType "T0.5"
-	AbsMag 24 # for approximate radius in Celestia
+	AbsMag 25.5 # for approximate radius in Celestia
 
 	EllipticalOrbit {              # fully specified orientation
 		Period           27.54
@@ -624,7 +624,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B"
 	OrbitBarycenter "EPS Ind B"
 	SpectralType "T1.5V"
 	Temperature 1280
-	AbsMag 26 # for correct radius in Celestia
+	AbsMag 34.5 # for approx. radius in Celestia
 
 	EllipticalOrbit {             # fully specified orientation
 		Period          11.41
@@ -642,7 +642,8 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B"
 	OrbitBarycenter "EPS Ind B"
 	SpectralType "T6V"
 	Temperature 850
-	AbsMag 33.5 # for correct radius in Celestia
+	Radius 60000 # approx.
+	AbsMag 40 # extremely low
 
 	EllipticalOrbit {              # fully specified orientation
 		Period           11.41
