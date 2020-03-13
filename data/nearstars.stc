@@ -47,6 +47,8 @@ Barycenter "Solar System Barycenter:SSB"
 
 	SpectralType "G2V"
 	AbsMag 4.83
+	Temperature 5780
+	BoloCorrection -0.08
 
 	UniformRotation
 	{
@@ -67,7 +69,7 @@ Barycenter "Solar System Barycenter:SSB"
 }
 
 # Distance from the same source as orbits
-Barycenter "Rigel Kentaurus:Toliman:ALF Cen:Gliese 559"
+Barycenter "Rigil Kentaurus:Toliman:ALF Cen:Gliese 559"
 {
 	RA  219.8993053 # mass ratio 1.133:0.972
 	Dec -60.8356249
@@ -1154,14 +1156,14 @@ Barycenter 54211 "Gliese 412:Lalande 21258" # orbits of A & B unknown
 # "The first super-Earth detection from the high cadence and high radial velocity 
 # precision Dharma Planet Survey"
 # https://arxiv.org/abs/1807.07098
-Barycenter "Keid:OMI2 Eri:40 Eri:Gliese 166:ADS 3093" # Orbits of A & (BC) unknown
+Barycenter 19849 "Keid:OMI2 Eri:40 Eri:Gliese 166:ADS 3093" # Orbits of A & (BC) unknown
 {
 	RA 63.82884851   # mass ratio 0.78:(0.573:0.2036)
 	Dec -7.654310215
 	Distance 16.305
 }
 
-19849 "Keid A:OMI2 Eri A:40 Eri A:Gliese 166 A:ADS 3093 A"
+"Keid A:OMI2 Eri A:40 Eri A:Gliese 166 A:ADS 3093 A"
 {
 	RA 63.81799886
 	Dec -7.65287169
@@ -1738,7 +1740,7 @@ Barycenter 94761 "Gliese 752:Ross 652:Wolf 1055" # orbit of A & B unknown
 	RotationPeriod 1105
 }
 
-"Van Biesbroek's Star:V1298 Aql:Gliese 752 B:Ross 652 B:Wolf 1055 B:VB 10"
+"Van Biesbroeck's Star:V1298 Aql:Gliese 752 B:Ross 652 B:Wolf 1055 B:VB 10"
 {
 	RA 289.242917
 	Dec 5.150278
@@ -2074,7 +2076,7 @@ Barycenter 34603 "Gliese 268:Ross 986"
 }
 
 # Masses from same source as orbit
-Barycenter "WISE 0720-0846:WISE J072003.20-084651.2"
+Barycenter "Scholz's Star:WISE 0720-0846:WISE J072003.20-084651.2"
 {
 	RA 110.01355700
 	Dec -8.78052900
@@ -2084,7 +2086,7 @@ Barycenter "WISE 0720-0846:WISE J072003.20-084651.2"
 # Apparent magnitude of A from Ivanov et al. (2015), A&A 574, A64
 # "Properties of the solar neighbor WISE J072003.20-084651.2"
 # https://www.aanda.org/articles/aa/abs/2015/02/aa24883-14/aa24883-14.html
-"WISE J0720-0846 A:WISE J072003.20-084651.2 A"
+"Scholz's Star A:WISE J0720-0846 A:WISE J072003.20-084651.2 A"
 {
 	OrbitBarycenter "WISE 0720-0846"
 	SpectralType "M9.5V"
@@ -2101,7 +2103,7 @@ Barycenter "WISE 0720-0846:WISE J072003.20-084651.2"
 	}
 }
 
-"WISE J0720-0846 B:WISE J072003.20-084651.2 B"
+"Scholz's Star B:WISE J0720-0846 B:WISE J072003.20-084651.2 B"
 {
 	OrbitBarycenter "WISE 0720-0846"
 	SpectralType "T5.5V"
@@ -3106,7 +3108,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	AppMag 10.22
 }
 
-"WISE 0607+2429:WISE 0607+2429:WISEP J060738.65+242953.4"
+"WISE 0607+2429:WISEP J060738.65+242953.4"
 {
 	RA 91.91259273
 	Dec 24.49911608
