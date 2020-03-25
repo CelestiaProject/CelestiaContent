@@ -3216,7 +3216,9 @@ Modify 106255 # Wolf 922
 	AppMag 2.79
 }
 
-# Masses from same source as orbit
+# Drummond et al. (1995), AJ 450, 380
+# "Full Adaptive Optics Images of ADS 9731 and mu Cassiopeiae: Orbits and Masses"
+# https://ui.adsabs.harvard.edu/abs/1995ApJ...450..380D/abstract
 Barycenter 5336 "MU Cas:30 Cas:Gliese 53"
 {
 	RA 17.06831127
