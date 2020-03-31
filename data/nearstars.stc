@@ -30,8 +30,8 @@
 # the Earth.
 # For a few orbits the nature of the node is known - these are
 # marked with the phrase "fully specified orientation".
-# Barycenter positions are based on mass estimates from the papers themselves,
-# or if lacking, RECONS. The values used are listed below.
+# Barycenter positions are based on mass estimates from the papers themselves. The 
+# values used are listed below.
 
 Barycenter "Solar System Barycenter:SSB"
 {
@@ -86,9 +86,9 @@ Barycenter "Rigil Kentaurus:Toliman:ALF Cen:Gliese 559"
 		Period           79.91
 		SemiMajorAxis    10.68 # mass ratio 1.133:0.972
 		Eccentricity      0.52
-		Inclination      82.98
-		AscendingNode    67.55
-		ArgOfPericenter   4.42
+		Inclination      82.61
+		AscendingNode   231.75
+		ArgOfPericenter 280.23
 		MeanAnomaly     199.75
 	}			 
 }
@@ -103,9 +103,9 @@ Barycenter "Rigil Kentaurus:Toliman:ALF Cen:Gliese 559"
 		Period           79.91
 		SemiMajorAxis    12.79 # mass ratio 1.133:0.972
 		Eccentricity      0.52
-		Inclination      82.98
-		AscendingNode    67.55
-		ArgOfPericenter 184.42
+		Inclination      82.61
+		AscendingNode   231.75
+		ArgOfPericenter 100.23
 		MeanAnomaly     199.75
 	}
 }
@@ -133,15 +133,15 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 {
 	OrbitBarycenter "Luhman 16"
 	SpectralType "L7.5"
-	AbsMag 22.5 # for approximate radius in Celestia
+	AbsMag 23 # for approximate radius in Celestia
 
 	EllipticalOrbit {              # fully specified orientation
 		Period           27.54
-		SemiMajorAxis     1.64 # mass ratio 33.51J:28.55J
+		SemiMajorAxis     1.64 # mass ratio 33.51:28.55J
 		Eccentricity      0.34
-		Inclination      64.67
-		AscendingNode   295.52
-		ArgOfPericenter 121.83
+		Inclination     135.69
+		AscendingNode   118.66
+		ArgOfPericenter 136.22
                 MeanAnomaly     127.58
 	}
 }
@@ -150,15 +150,15 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 {
 	OrbitBarycenter "Luhman 16"
 	SpectralType "T0.5"
-	AbsMag 25.5 # for approximate radius in Celestia
+	AbsMag 24 # for approximate radius in Celestia
 
 	EllipticalOrbit {              # fully specified orientation
 		Period           27.54
-		SemiMajorAxis     1.92 # mass ratio 33.51J:28.55J
+		SemiMajorAxis     1.92 # mass ratio 33.51:28.55J
 		Eccentricity      0.34
-		Inclination      64.67
-		AscendingNode   295.52
-		ArgOfPericenter 301.83
+		Inclination     135.69
+		AscendingNode   118.66
+		ArgOfPericenter 316.22
                 MeanAnomaly     127.58
 	}
 }
@@ -195,7 +195,10 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 	AppMag 7.520
 }
 
-# Distance from same source as orbits
+# Parameters from Bond et al. (2017), ApJ 840 (2), 70
+# "The Sirius System and Its Astrophysical Puzzles: Hubble Space Telescope and 
+# Ground-based Astrometry"
+# https://iopscience.iop.org/article/10.3847/1538-4357/aa6af8
 Barycenter 32349 "Sirius:Alhabor:ALF CMa:9 CMa:Gliese 244:ADS 5423"
 {
 	RA 101.28715533
@@ -210,9 +213,9 @@ Barycenter 32349 "Sirius:Alhabor:ALF CMa:9 CMa:Gliese 244:ADS 5423"
 	AppMag -1.46
 
 	EllipticalOrbit {              # fully specified orientation
-		Period           50.13
+		Period         50.1284
 		SemiMajorAxis     9.13 # mass ratio 2.063:1.018
-		Eccentricity      0.59
+		Eccentricity   0.59142
 		Inclination      97.01
 		AscendingNode   161.67
 		ArgOfPericenter   5.90
@@ -227,9 +230,9 @@ Barycenter 32349 "Sirius:Alhabor:ALF CMa:9 CMa:Gliese 244:ADS 5423"
 	AppMag 8.44
 
 	EllipticalOrbit {              # fully specified orientation
-		Period           50.09
+		Period         50.1284
 		SemiMajorAxis    10.65 # mass ratio 2.063:1.018
-		Eccentricity      0.59
+		Eccentricity   0.59142
 		Inclination      97.01
 		AscendingNode   161.67
 		ArgOfPericenter 185.90
@@ -256,13 +259,13 @@ Barycenter "Gliese 65:Luyten 726-8"
 	AppMag 12.7
 	Radius 114790
 
-	EllipticalOrbit {
-	 	Period           26.28
+	EllipticalOrbit {              # fully specified orbit
+	 	Period          26.284
 	 	SemiMajorAxis     2.72 # mass ratio 0.1225:0.1195
 	 	Eccentricity      0.62
-	 	Inclination      91.85
-		AscendingNode   157.40
-		ArgOfPericenter  40.22
+	 	Inclination      81.85
+		AscendingNode   337.40
+		ArgOfPericenter 346.32
 		MeanAnomaly      21.93
 	}
 
@@ -276,13 +279,13 @@ Barycenter "Gliese 65:Luyten 726-8"
 	AppMag 13.2
 	Radius 110600
 
-	EllipticalOrbit {
-		Period           26.28
+	EllipticalOrbit {              # fully specified orbit
+		Period          26.284
 		SemiMajorAxis     2.79 # mass ratio 0.1225:0.1195
 		Eccentricity      0.62
-	 	Inclination      91.85
-		AscendingNode   157.40
-		ArgOfPericenter 220.22
+	 	Inclination      81.85
+		AscendingNode   337.40
+		ArgOfPericenter 166.32
 		MeanAnomaly      21.93
 	}
 
@@ -334,7 +337,7 @@ Barycenter "Gliese 65:Luyten 726-8"
 	AppMag 11.153
 }
 
-# Segransan. et al. (2000), A&A 364, 665
+# Segransan et al. (2000), A&A 364, 665
 # "Accurate masses of very low mass stars. III. 16 new or improved masses"
 # http://adsabs.harvard.edu/abs/2000A%26A...364..665S
 Barycenter "Gliese 866:Luyten 789-6"
@@ -405,7 +408,7 @@ Barycenter "Gliese 866 A:Luyten 789-6 A"
 	}
 }
 
-# physical parameters from Kervella et al. (2008), A&A 488 (2), 667
+# Physical parameters from Kervella et al. (2008), A&A 488 (2), 667
 # "The radii of the nearby K5V and K7V stars 61 Cygni A & B. CHARA/FLUOR 
 # interferometry and CESAM2k modeling"
 # https://arxiv.org/abs/0806.4049
@@ -416,7 +419,7 @@ Barycenter "61 Cyg:Gliese 820:ADS 14636"
 	Distance 11.402
 }
 
-104214 "61 Cyg A:V1803 Cyg:Gliese 820 A:ADS 14636 A"
+104214 "61 Cyg A:Gliese 820 A:ADS 14636 A"
 {
 	OrbitBarycenter "61 Cyg"
 	SpectralType "K5V"
@@ -424,13 +427,13 @@ Barycenter "61 Cyg:Gliese 820:ADS 14636"
 	Radius 462600
 
 	EllipticalOrbit {
-		Period          678
-		SemiMajorAxis   39.64 # mass ratio 0.690:0.605
-		Eccentricity    0.49
-		Inclination     135
-		AscendingNode   166
-		ArgOfPericenter 200
-		MeanAnomaly     154
+		Period          618.7
+		SemiMajorAxis   41.23 # mass ratio 0.69:0.605
+		Eccentricity    0.54
+		Inclination     101
+		AscendingNode   295
+		ArgOfPericenter 281
+		MeanAnomaly     175
 	}
 }
 
@@ -442,17 +445,19 @@ Barycenter "61 Cyg:Gliese 820:ADS 14636"
 	Radius 413900
 
 	EllipticalOrbit {
-		Period         678
-		SemiMajorAxis  45.21 # mass ratio 0.690:0.605
-		Eccentricity   0.49
-		Inclination    135
-		AscendingNode  167
-		ArgOfPericenter 20
-		MeanAnomaly    155
+		Period          618.7
+		SemiMajorAxis   47.02 # mass ratio 0.69:0.605
+		Eccentricity    0.54
+		Inclination     101
+		AscendingNode   295
+		ArgOfPericenter 101
+		MeanAnomaly     175
 	}
 }
 
-# Distance from same source as orbit
+# Parameters from Bond et al. (2015), ApJ 813 (2), 106
+# "Hubble Space Telescope Astrometry of the Procyon System"
+# https://iopscience.iop.org/article/10.1088/0004-637X/813/2/106
 Barycenter 37279 "Procyon:Elgomaisa:ALF CMi:10 CMi:Gliese 280:ADS 6251"
 {
 	RA 114.82549791
@@ -611,7 +616,7 @@ Barycenter "EPS Ind:Gliese 845" # orbit of A & B components unknown
 	AppMag 4.69
 }
 
-# Dieterich et al. (2017) "Dynamical Masses of ε Indi B and C: Two Massive
+# Dieterich et al. (2018) "Dynamical Masses of ε Indi B and C: Two Massive
 # Brown Dwarfs at the Edge of the Stellar–substellar Boundary"
 # https://arxiv.org/abs/1807.09880
 Barycenter "EPS Ind B:CI Ind:Gliese 845 B"
@@ -628,7 +633,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B"
 	Temperature 1280
 	AbsMag 34.5 # for approx. radius in Celestia
 
-	EllipticalOrbit {             # fully specified orientation
+	EllipticalOrbit {
 		Period          11.41
 		SemiMajorAxis    1.26 # mass ratio 75.0J:70.1J
 		Eccentricity     0.47
@@ -647,7 +652,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B"
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
 
-	EllipticalOrbit {              # fully specified orientation
+	EllipticalOrbit {
 		Period           11.41
 		SemiMajorAxis     1.35 # mass ratio 75.0J:70.1J
 		Eccentricity      0.47
@@ -771,13 +776,13 @@ Barycenter 110893 "Gliese 860:ADS 15972:Kruger 60"
 	AppMag 9.93
 
 	EllipticalOrbit {
-		Period           44.67
-		SemiMajorAxis     3.46 # mass ratio 0.30:0.17
-		Eccentricity      0.41
-		Inclination      37.04
-		AscendingNode   126.59
-		ArgOfPericenter 264.09
-		MeanAnomaly     240.00
+		Period          44.581
+		SemiMajorAxis     3.48 # mass ratio 0.30:0.17
+		Eccentricity     0.408
+		Inclination      37.20
+		AscendingNode   129.48
+		ArgOfPericenter 262.00
+		MeanAnomaly     240.36
 	}
 }
 
@@ -789,12 +794,12 @@ Barycenter 110893 "Gliese 860:ADS 15972:Kruger 60"
 
 	EllipticalOrbit {
 		Period          44.67
-		SemiMajorAxis    6.10 # mass ratio 0.30:0.17
-		Eccentricity     0.41
-		Inclination     37.04
-		AscendingNode  126.59
-		ArgOfPericenter 84.09
-		MeanAnomaly    240.00
+		SemiMajorAxis    6.15 # mass ratio 0.30:0.17
+		Eccentricity    0.408
+		Inclination     37.20
+		AscendingNode  129.48
+		ArgOfPericenter 82.00
+		MeanAnomaly    240.36
 	}
 }
 
@@ -830,7 +835,7 @@ Barycenter 30920 "Gliese 234:Ross 614"
 		Eccentricity      0.38
 		Inclination      93.87
 		AscendingNode   322.71
-		ArgOfPericenter 347.29
+		ArgOfPericenter 167.29
 		MeanAnomaly      15.85
 	}
 }
@@ -847,7 +852,7 @@ Barycenter 30920 "Gliese 234:Ross 614"
 		Eccentricity      0.38
 		Inclination      93.87
 		AscendingNode   322.71
-		ArgOfPericenter 167.29
+		ArgOfPericenter 347.29
 		MeanAnomaly      15.85
 	}
 }
@@ -883,7 +888,7 @@ Barycenter "Gliese 473:Wolf 424"
 	SpectralType "M5.5V"
 	AppMag 13.18
 
-	EllipticalOrbit {             # fully specified orientation
+	EllipticalOrbit {
 		Period          15.81
 		SemiMajorAxis    1.86 # mass ratio 0.124:0.113
 		Eccentricity     0.30
@@ -900,7 +905,7 @@ Barycenter "Gliese 473:Wolf 424"
 	SpectralType "M5.5V"
 	AppMag 13.17
 
-	EllipticalOrbit {              # fully specified orientation
+	EllipticalOrbit {
 		Period           15.81
 		SemiMajorAxis     2.04 # mass ratio 0.124:0.113
 		Eccentricity      0.30
@@ -995,7 +1000,7 @@ Barycenter "Gliese 473:Wolf 424"
 	AppMag 11.513
 }
 
-113020 # Gliese 687
+113020 # Gliese 876
 {
 	RA 343.31971796
 	Dec -14.26369539
@@ -1028,7 +1033,7 @@ Barycenter "GJ 1245 A"
 	SpectralType "M5.5V"
 	AppMag 13.46
 
-	EllipticalOrbit {              # fully specified orientation
+	EllipticalOrbit {
 		Period           16.84
 		SemiMajorAxis     1.53 # mass ratio 0.111:0.076
 		Eccentricity      0.33
@@ -1045,7 +1050,7 @@ Barycenter "GJ 1245 A"
 	SpectralType "M7.5V"
 	AppMag 16.75
 
-	EllipticalOrbit {             # fully specified orientation
+	EllipticalOrbit {
 		Period          16.84
 		SemiMajorAxis    2.23 # mass ratio 0.111:0.076
 		Eccentricity     0.33
@@ -1190,14 +1195,14 @@ Barycenter "Keid BC:OMI2 Eri BC:40 Eri BC:Gliese 166 BC"
 	Radius 9100
 	AppMag 9.53
 
-	EllipticalOrbit {
-		Period         230.30
-		SemiMajorAxis    9.11 # mass ratio 0.573:0.2036
-		Eccentricity     0.43
-		Inclination     84.13
-		AscendingNode  216.59
-		ArgOfPericenter 80.71
-		MeanAnomaly     44.31
+	EllipticalOrbit {	
+		Period         222.74
+		SemiMajorAxis   8.855 # mass ratio 0.573:0.2036
+		Eccentricity    0.451
+		Inclination     83.57
+		AscendingNode  216.91
+		ArgOfPericenter 77.11
+		MeanAnomaly    245.29
 	}
 }
 
@@ -1209,13 +1214,13 @@ Barycenter "Keid BC:OMI2 Eri BC:40 Eri BC:Gliese 166 BC"
 	AppMag 11.17
 
 	EllipticalOrbit {
-		Period           230.3
-		SemiMajorAxis    25.64 # mass ratio 0.573:0.2036
-		Eccentricity      0.43
-		Inclination      84.13
-		AscendingNode   216.59
-		ArgOfPericenter 260.71
-		MeanAnomaly      44.31
+		Period          222.74
+		SemiMajorAxis    24.92 # mass ratio 0.573:0.2036
+		Eccentricity     0.451
+		Inclination      83.57
+		AscendingNode   216.91
+		ArgOfPericenter 257.11
+		MeanAnomaly     245.29
 	}
 }
 
@@ -1239,7 +1244,9 @@ Barycenter "Keid BC:OMI2 Eri BC:40 Eri BC:Gliese 166 BC"
 	AppMag 10.26
 }
 
-# Masses from same source as orbit
+# Eggenberger et al. (2008), A&A 482 (2), 631
+# "Analysis of 70 Ophiuchi AB including seismic constraints"
+# https://www.aanda.org/articles/aa/abs/2008/17/aa8624-07/aa8624-07.html
 Barycenter 88601 "70 Oph:Gliese 702:ADS 11046:Struve 2272"
 {
 	RA 271.36368827
@@ -1563,30 +1570,49 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	AppMag 4.680
 }
 
-Barycenter 29295 "Gliese 229:Luyten 668-21:LPM 230" # orbit of A & B unknown
+# Orbit from Brandt et al. (2019), eprint arXiv 1910.01652
+# "A Dynamical Mass of 70 ± 5 Jupiter Masses for Gliese 229B, the First Imaged T Dwarf"
+# https://arxiv.org/abs/1910.01652
+Barycenter 29295 "Gliese 229:Luyten 668-21:LPM 230"
 {
-	RA 92.64426427  # mass ratio 0.556:0.05
-	Dec -21.8644676
+	RA 92.64484913   # mass ratio 0.556:0.05
+	Dec -21.86626696
 	Distance 18.7775 # 173.6955 +/- 0.0457 mas
 }
 
 "Gliese 229 A:Luyten 668-21 A:LPM 230 A"
 {
-	RA 92.64423021
-	Dec -21.86462723
-	Distance 18.7775
+	OrbitBarycenter "Gliese 229"
 	SpectralType "M1V"
-	Radius 341000 # approx. for class
 	AppMag 8.125
+	Radius 341000 # approx. for class
+
+	EllipticalOrbit {             # fully specified orbit
+		Period            263
+		SemiMajorAxis    3.84 # mass ratio 0.54:70.4J
+		Eccentricity    0.846
+		Inclination      40.3
+		AscendingNode   345.3
+		ArgOfPericenter 246.9
+		MeanAnomaly     300.6
+	}
 }
 
 "Gliese 229 B:Luyten 668-21 B:LPM 230 B"
 {
-	RA 92.644643
-	Dec -21.862692
-	Distance 18.7775
+	OrbitBarycenter "Gliese 229"
 	SpectralType "T6.5V"
 	AbsMag 33.5 # for approximate radius in Celestia
+
+	EllipticalOrbit {             # fully specified orbit
+		Period            263
+		SemiMajorAxis   30.87 # mass ratio 0.54:70.4J
+		Eccentricity    0.846
+		Inclination      40.3
+		AscendingNode   345.3
+		ArgOfPericenter  66.9
+		MeanAnomaly     300.6
+	}
 }
 
 26857 # Ross 47
@@ -1668,7 +1694,7 @@ Barycenter 73182 "Gliese 570 BC"
 	Radius 270000 # approx. for class
 	AppMag 9.94
 
-	EllipticalOrbit {              # fully specified orientation
+	EllipticalOrbit {             # fully specified orientation
 		Period           0.846
 		SemiMajorAxis    0.53 # mass ratio 0.586:0.390
 		Eccentricity     0.76
@@ -1928,7 +1954,7 @@ Barycenter 1242 "GJ 1005:Luyten 722-22"
 	SpectralType "M3.5V"
 	AppMag 11.60
 
-	EllipticalOrbit {              # fully specified orientation
+	EllipticalOrbit {
 		Period           4.565
 		SemiMajorAxis     0.70 # mass ratio 0.179:0.112
 		Eccentricity      0.36
@@ -1945,7 +1971,7 @@ Barycenter 1242 "GJ 1005:Luyten 722-22"
 	SpectralType "M7V"
 	AppMag 14.02
 
-	EllipticalOrbit {            # fully specified orientation
+	EllipticalOrbit {
 		Period         4.565
 		SemiMajorAxis   1.12 # mass ratio 0.179:0.112
 		Eccentricity    0.36
@@ -1996,8 +2022,8 @@ Barycenter 99461 "Gliese 783:CD-36 13940:J Herschel 5173:HJ 5173" # orbit of A &
 # http://iopscience.iop.org/article/10.1088/0004-637X/760/1/55/meta
 Barycenter 34603 "Gliese 268:Ross 986"
 {
-	RA 3.86712874
-	Dec -16.133786
+	RA 107.50764113
+	Dec 38.52946844
 	Distance 19.8103 # 164.6395 +/- 0.1338 mas
 }
 
@@ -2007,14 +2033,14 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	SpectralType "M4.5V"
 	AppMag 12.05
 
-	EllipticalOrbit {
-		Period        0.028566
-		SemiMajorAxis    31.01 # mass ratio 0.22599:0.19248
-		Eccentricity      0.32
-		Inclination      35.99
-		AscendingNode   130.70
-		ArgOfPericenter 349.54
-		MeanAnomaly     248.39
+	EllipticalOrbit {              # fully specified orbit
+		Period        0.028547
+		SemiMajorAxis  0.03110 # mass ratio 0.22599:0.19248
+		Eccentricity    0.3203
+		Inclination       8.92
+		AscendingNode    66.51
+		ArgOfPericenter 161.27
+		MeanAnomaly     272.77
 	}
 }
 
@@ -2024,14 +2050,14 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	SpectralType "M6V"
 	AppMag 12.45
 
-	EllipticalOrbit {
-		Period        0.028566
-		SemiMajorAxis    36.41 # mass ratio 0.22599:0.19248
-		Eccentricity      0.32
-		Inclination      35.99
-		AscendingNode   130.70
-		ArgOfPericenter 169.54
-		MeanAnomaly     248.39
+	EllipticalOrbit {              # fully specified orbit
+		Period        0.028547
+		SemiMajorAxis  0.03641 # mass ratio 0.22599:0.19248
+		Eccentricity    0.3203
+		Inclination       8.92
+		AscendingNode    66.51
+		ArgOfPericenter 341.27
+		MeanAnomaly     272.77
 	}
 }
 
@@ -2073,51 +2099,6 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	SpectralType "M0V"
 	Radius 432000 # approx. for class
 	AppMag 7.966
-}
-
-# Masses from same source as orbit
-Barycenter "Scholz's Star:WISE 0720-0846:WISE J072003.20-084651.2"
-{
-	RA 110.01355700
-	Dec -8.78052900
-	Distance 20.22 # 6.2 +/- 0.7 pc
-}
-
-# Apparent magnitude of A from Ivanov et al. (2015), A&A 574, A64
-# "Properties of the solar neighbor WISE J072003.20-084651.2"
-# https://www.aanda.org/articles/aa/abs/2015/02/aa24883-14/aa24883-14.html
-"Scholz's Star A:WISE J0720-0846 A:WISE J072003.20-084651.2 A"
-{
-	OrbitBarycenter "WISE 0720-0846"
-	SpectralType "M9.5V"
-	AppMag 18.266
-
-	EllipticalOrbit {
-		Period            3.1
-		SemiMajorAxis     1.34 # mass ratio 0.081:0.062
-		Eccentricity      0.80
-		Inclination      39.0
-		AscendingNode   175.8
-		ArgOfPericenter 257.4
-		MeanAnomaly     203.2
-	}
-}
-
-"Scholz's Star B:WISE J0720-0846 B:WISE J072003.20-084651.2 B"
-{
-	OrbitBarycenter "WISE 0720-0846"
-	SpectralType "T5.5V"
-	AbsMag 32 # for approximate radius in Celestia
-
-	EllipticalOrbit {
-		Period           3.1
-		SemiMajorAxis    1.76 # mass ratio 0.081:0.062
-		Eccentricity     0.80
-		Inclination     39.0
-		AscendingNode  175.8
-		ArgOfPericenter 77.4
-		MeanAnomaly    203.2
-	}
 }
 
 "GJ 1221:LP 44-113"
@@ -2381,7 +2362,7 @@ Barycenter "Gliese 644:Wolf 630" # orbit of (AB) & C unknown
 	Distance 21.080
 }
 
-# Parallax and masses from Segransan. et al. (2000), A&A 364, 665
+# Parallax and masses from Segransan et al. (2000), A&A 364, 665
 # "Accurate masses of very low mass stars. III. 16 new or improved masses"
 # http://adsabs.harvard.edu/abs/2000A%26A...364..665S
 Barycenter 82817 "Gliese 644 A-B:Wolf 630 A-B"
@@ -2740,6 +2721,53 @@ Barycenter 106106 "Gliese 829:Ross 775"
 	}
 }
 
+# Dupuy et al. (2019), AJ 158 (5), 174
+# "WISE J072003.20-084651.2B is a Massive T Dwarf"
+# https://arxiv.org/abs/1908.06994
+Barycenter "Scholz's Star:WISE 0720-0846:WISE J072003.20-084651.2"
+{
+	RA 110.01355700
+	Dec -8.78052900
+	Distance 22.294 # 146.3 +1.2 -1.1 mas
+}
+
+# Apparent magnitude of A from Ivanov et al. (2015), A&A 574, A64
+# "Properties of the solar neighbor WISE J072003.20-084651.2"
+# https://www.aanda.org/articles/aa/abs/2015/02/aa24883-14/aa24883-14.html
+"Scholz's Star A:WISE J0720-0846 A:WISE J072003.20-084651.2 A"
+{
+	OrbitBarycenter "WISE 0720-0846"
+	SpectralType "M9.5V"
+	AppMag 18.266
+
+	EllipticalOrbit {              # fully specified orbit
+		Period            8.06
+		SemiMajorAxis     0.87 # mass ratio 99J:66J
+		Eccentricity      0.24
+		Inclination      59.8
+		AscendingNode   158.8
+		ArgOfPericenter  39.7
+		MeanAnomaly      18.4
+	}
+}
+
+"Scholz's Star B:WISE J0720-0846 B:WISE J072003.20-084651.2 B"
+{
+	OrbitBarycenter "WISE 0720-0846"
+	SpectralType "T5.5V"
+	AbsMag 32 # for approximate radius in Celestia
+
+	EllipticalOrbit {              # fully specified orbit
+		Period            8.06
+		SemiMajorAxis     1.31 # mass ratio 99J:66J
+		Eccentricity      0.24
+		Inclination      59.8
+		AscendingNode   158.8
+		ArgOfPericenter 219.7
+		MeanAnomaly      18.4
+	}
+}
+
 113296 # Ross 671
 {
 	RA 344.14501970
@@ -2902,7 +2930,7 @@ Modify 103096 # Gliese 809
 {
 	RA 126.280554
 	Dec 28.096545
-	Distance 23.461 # 139.02 ± 4.33 mas
+	Distance 23.461 # 139.02 +/- 4.33 mas
 	SpectralType "Y0.5V"
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
@@ -2924,8 +2952,8 @@ Modify 103096 # Gliese 809
 
 "V488 Hya:2MASS J08354256-0819237"
 {
-	RA 353.79359235
-	Dec -2.38905967
+	RA 128.92721804
+	Dec -8.32316374
 	Distance 23.5305 # 138.6098 +/- 0.2781 mas
 	SpectralType "L6.5V"
 	AbsMag 21.5 # for approximate radius in Celestia
@@ -3216,7 +3244,11 @@ Modify 106255 # Wolf 922
 	AppMag 2.79
 }
 
-# Drummond et al. (1995), AJ 450, 380
+# Orbit from Agati et al. (2015), A&A 574 (A6), 32
+# "Are the orbital poles of binary stars in the solar neighbourhood anisotropically 
+# distributed?"
+# https://www.aanda.org/articles/aa/abs/2015/02/aa23056-13/aa23056-13.html
+# Masses from Drummond et al. (1995), AJ 450, 380
 # "Full Adaptive Optics Images of ADS 9731 and mu Cassiopeiae: Orbits and Masses"
 # https://ui.adsabs.harvard.edu/abs/1995ApJ...450..380D/abstract
 Barycenter 5336 "MU Cas:30 Cas:Gliese 53"
@@ -3232,14 +3264,14 @@ Barycenter 5336 "MU Cas:30 Cas:Gliese 53"
 	SpectralType "G5VI"
 	AppMag 5.17
 
-	EllipticalOrbit {	      # fully specified orientation
-		Period         21.753
-		SemiMajorAxis   1.437 # mass ratio 0.742:0.173
-		Eccentricity    0.561
-		Inclination	 28.0
-		AscendingNode   334.7
-		ArgOfPericenter 135.0
-		MeanAnomaly     41.52
+	EllipticalOrbit {	       # fully specified orientation
+		Period           21.40
+		SemiMajorAxis    1.528 # mass ratio 0.742:0.173
+		Eccentricity      0.53
+		Inclination      30.86
+		AscendingNode   338.29
+		ArgOfPericenter 129.88
+		MeanAnomaly      45.42
 	}
 }
 
@@ -3249,14 +3281,14 @@ Barycenter 5336 "MU Cas:30 Cas:Gliese 53"
 	SpectralType "MVI"
 	AppMag 11.00
 
-	EllipticalOrbit {	      # fully specified orientation
-		Period         21.753
-		SemiMajorAxis   6.165 # mass ratio 0.742:0.173
-		Eccentricity    0.561
-		Inclination	 28.0
-		AscendingNode   334.7
-		ArgOfPericenter 315.0
-		MeanAnomaly     41.52
+	EllipticalOrbit {	       # fully specified orientation
+		Period           21.40
+		SemiMajorAxis    6.554 # mass ratio 0.742:0.173
+		Eccentricity      0.53
+		Inclination      30.86
+		AscendingNode   338.29
+		ArgOfPericenter 309.88
+		MeanAnomaly      45.42
 	}
 }
 
@@ -3296,7 +3328,7 @@ Modify 65859 # Ross 490
 "Giclas 141-36"
 {
 	RA 282.07307098
-	Dec -7.68921596
+	Dec 7.68921596
 	Distance 24.8596 # 131.1990 +/- 0.0788 mas
 	SpectralType "M5.0V"
 	Radius 140000 # approx. for class
