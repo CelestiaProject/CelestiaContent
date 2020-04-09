@@ -12,6 +12,7 @@ Conflicts: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-non
 Replaces: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
 Recommends: celestia
 Depends: ${misc:Depends}
+Pre-Depends: celestia-tools
 Description: data files for Celestia, a real-time visual space simulation
  Celestia is a free 3D astronomy program. Based on the Hipparcos
  Catalogue, it allows users to display objects ranging in scale from
