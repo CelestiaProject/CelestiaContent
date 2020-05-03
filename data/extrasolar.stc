@@ -99,7 +99,7 @@
 	AppMag 11.41
 }
 
-"TrES-3 (parent star):GSC 03089-00929"
+"Pipoltr:TrES-3 (parent star):GSC 03089-00929"
 {
 	RA 268.02917
 	Dec 37.54611
@@ -128,7 +128,7 @@
 
 # XO survey
 
-1016572041 "XO-1:GSC 02041-01657"
+1016572041 "Moldoveanu:XO-1:GSC 02041-01657"
 {
 	RA 240.549167
 	Dec 28.169722
@@ -155,7 +155,7 @@
 	AppMag 9.8
 }
 
-1019943793 "XO-4:GSC 03793-01994"
+1019943793 "Koit:XO-4:GSC 03793-01994"
 {
 	RA  110.388333
 	Dec 58.268055
@@ -164,7 +164,7 @@
 	AppMag 10.7
 }
 
-"XO-5:GSC 02959-00729"
+"Absolutno:XO-5:GSC 02959-00729"
 {
 	RA  116.71625
 	Dec 39.094444
@@ -184,7 +184,7 @@
 	AppMag 10.4
 }
 
-1008193466 "HAT-P-3:GSC 03466-00819"
+1008193466 "Dombay:HAT-P-3:GSC 03466-00819"
 {
 	RA 206.094167
 	Dec 48.028611
@@ -202,7 +202,7 @@
 	AppMag 11.2
 }
 
-1010872634 "HAT-P-5:GSC 02634-01087"
+1010872634 "Chaso\u0148:HAT-P-5:GSC 02634-01087"
 {
 	RA 274.40542
 	Dec 36.621389
@@ -211,7 +211,7 @@
 	AppMag 12
 }
 
-1009923239 "HAT-P-6:GSC 03239-00992"
+1009923239 "Sterrennacht:HAT-P-6:GSC 03239-00992"
 {
 	RA 354.77417
 	Dec 42.466111
@@ -238,7 +238,7 @@
 	AppMag 10.17
 }
 
-1002812463 "HAT-P-9:GSC 02463-00281"
+1002812463 "Tevel:HAT-P-9:GSC 02463-00281"
 {
 	RA 110.168333
 	Dec 37.140556
@@ -274,7 +274,7 @@
 	AppMag 10.7
 }
 
-1001523086 "HAT-P-14:GSC 03086-00152"
+1001523086 "Franz:HAT-P-14:GSC 03086-00152"
 {
 	RA 260.116250
 	Dec 38.242222
@@ -283,7 +283,7 @@
 	AppMag 9.98
 }
 
-1016872883 "HAT-P-15:GSC 02883-01687"
+1016872883 "Berehynia:HAT-P-15:GSC 02883-01687"
 {
 	RA 66.250000
 	Dec 39.460556
@@ -338,7 +338,7 @@
 	AppMag 11.339
 }
 
-1012293013 "HAT-P-21:GSC 03013-01229"
+1012293013 "Mazaalai:HAT-P-21:GSC 03013-01229"
 {
 	RA 171.275000
 	Dec 41.028056
@@ -356,7 +356,7 @@
 	AppMag 9.732
 }
 
-1013961632 "HAT-P-23:GSC 01632-01396"
+1013961632 "Moriah:HAT-P-23:GSC 01632-01396"
 {
 	RA 306.123750
 	Dec 16.762222
@@ -409,7 +409,7 @@
 	SpectralType "G3"
 	AppMag 13.03
 }
-1015393293 "HAT-P-29:GSC 03293-01539"
+1015393293 "Muspelheim:HAT-P-29:GSC 03293-01539"
 {
 	RA 33.131250
 	Dec 51.778889
@@ -454,7 +454,7 @@
 	AppMag 11.89
 }
 
-1012611622 "HAT-P-34:GSC 01622-01261"
+1012611622 "Sansuna:HAT-P-34:GSC 01622-01261"
 {
 	RA 303.195417
 	Dec 18.105000
@@ -472,7 +472,7 @@
 	AppMag 12.46
 }
 
-1022213020 "HAT-P-36:GSC 03020-0222"
+1022213020 "Tuiren:HAT-P-36:GSC 03020-0222"
 {
 	RA 188.266250
 	Dec 44.915278
@@ -499,7 +499,7 @@
 	AppMag 12.42
 }
 
-"HAT-P-40:GSC 03607-01028"
+"Taika:HAT-P-40:GSC 03607-01028"
 {
 	RA 335.512500
 	Dec 45.457500
@@ -564,7 +564,7 @@
 	AppMag 12.3
 }
 
-"WASP-6"
+"M\\u00e1rohu:WASP-6"
 {
 	RA 348.157208
 	Dec -22.673917
@@ -609,7 +609,7 @@
 	AppMag 11.69
 }
 
-"WASP-13"
+"Gloas:WASP-13"
 {
 	RA 140.102917
 	Dec 33.882222
@@ -627,7 +627,7 @@
 	AppMag 9.75
 }
 
-1011627283 "WASP-15"
+1011627283 "Nyamien:WASP-15"
 {
 	RA 208.927917
 	Dec -32.159722
@@ -645,7 +645,7 @@
 	AppMag 11.29
 }
 
-1019276787 "WASP-17:GSC 06787-01927"
+1019276787 "D\u00ecw\u00f6:WASP-17:GSC 06787-01927"
 {
 	RA 239.962083
 	Dec -28.061667
@@ -663,7 +663,7 @@
 	AppMag 12.3
 }
 
-"WASP-21:GSC 01715-00679"
+"Tangra:WASP-21:GSC 01715-00679"
 {
 	RA 347.492917
 	Dec 18.396111
@@ -672,7 +672,7 @@
 	AppMag 11.6
 }
 
-1003266446 "WASP-22:GSC 06446-00326"
+1003266446 "Tojil:WASP-22:GSC 06446-00326"
 {
 	RA 52.817917
 	Dec -23.819722
@@ -744,7 +744,7 @@
 	AppMag 11.66
 }
 
-1011550002 "WASP-32:GSC 00002-01155"
+1011550002 "Parumleo:WASP-32:GSC 00002-01155"
 {
 	RA 3.961667
 	Dec 1.200278
@@ -753,7 +753,7 @@
 	AppMag 11.3
 }
 
-1005406636 "WASP-34:GSC 06636-00540"
+1005406636 "Amansinaya:WASP-34:GSC 06636-00540"
 {
 	RA 165.39958
 	Dec -23.860556
@@ -789,7 +789,7 @@
 	AppMag 12.7
 }
 
-1011560950 "WASP-38:GSC 00950-01156"
+1011560950 "Irena:WASP-38:GSC 00950-01156"
 {
 	RA 243.960000
 	Dec 10.032500
@@ -798,7 +798,7 @@
 	AppMag 9.42
 }
 
-"WASP-39:GSC 04980-00761"
+"Malmok:WASP-39:GSC 04980-00761"
 {
 	RA 217.326667
 	Dec -3.444444
@@ -871,7 +871,7 @@
 	AppMag 11.06
 }
 
-1004625290 "WASP-50:GSC 05290-00462"
+1004625290 "Chaophraya:WASP-50:GSC 05290-00462"
 {
 	RA 43.687917
 	Dec -10.898056
@@ -880,7 +880,7 @@
 	AppMag 11.6
 }
 
-"WASP-52"
+"Anadolu:WASP-52"
 {
 	RA 348.495000
 	Dec 8.761389
@@ -943,7 +943,7 @@
 	AppMag 13.00
 }
 
-"WASP-60"
+"Morava:WASP-60"
 {
 	RA 356.666667
 	Dec 31.155833
@@ -961,7 +961,7 @@
 	AppMag 12.5
 }
 
-1008748900 "WASP-62:GSC 08900-00874"
+1008748900 "Naledi:WASP-62:GSC 08900-00874"
 {
 	RA 87.140000
 	Dec -63.988333
@@ -997,7 +997,7 @@
 	AppMag 12.5
 }
 
-1001160030 "WASP-71"
+1001160030 "Mpingo:WASP-71"
 {
 	RA 29.263333
 	Dec 0.758889
@@ -1024,7 +1024,7 @@
 	AppMag 12
 }
 
-1008347038 "WASP-79:GSC 07038-00834"
+1008347038 "Montuno:WASP-79:GSC 07038-00834"
 {
 	RA 66.370833
 	Dec -30.600556
@@ -1033,7 +1033,7 @@
 	AppMag 10.1
 }
 
-"WASP-80"
+"Petra:WASP-80"
 {
 	RA 303.167500
 	Dec -2.145556
@@ -2266,34 +2266,6 @@ Barycenter "KIC 4862625 A"
 	AppMag 9.8
 }
 
-53911 "TW Hya" # redefined because of absent spectral
-               # class in stars.dat
-{
-	RA 165.46625
-	Dec -34.70472
-	Distance 184.07
-	SpectralType "K8V"
-	AppMag 10.91
-}
-
-13044
-{
-	RA 30.793722
-	Dec -36.107500
-	Distance 2285
-	SpectralType "F2"
-	AppMag 9.94
-}
-
-114840
-{
-	RA 348.925833
-	Dec +58.043333
-	Distance 4900
-	SpectralType "K2III"
-	AppMag 8.19
-}
-
 # Figueira et al, 2010 (http://fr.arxiv.org/abs/1003.3678)
 # suggest the radial velocity is stellar rather than planetary
 #1002141355 "BD+20 1790"
@@ -2363,14 +2335,14 @@ Barycenter "KIC 4862625 A"
 
 # Definitions for some exoplanet stars in multiple systems
 
-Barycenter "TAU Boo:4 Boo"
+Barycenter "TAU Boo:4 Boo:Gliese 527"
 {
 	RA 206.815676
 	Dec 17.456869
 	Distance 50.868
 }
 
-67275 "TAU Boo A:4 Boo A"
+67275 "TAU Boo A:4 Boo A:Gliese 527 A"
 {
 	OrbitBarycenter "TAU Boo"
 	SpectralType "F7V"
@@ -2387,7 +2359,7 @@ Barycenter "TAU Boo:4 Boo"
 	}
 }
 
-"TAU Boo B:4 Boo B"
+"TAU Boo B:4 Boo B:Gliese 527 B"
 {
 	OrbitBarycenter "TAU Boo"
 	SpectralType "M2V"
@@ -2404,14 +2376,14 @@ Barycenter "TAU Boo:4 Boo"
 	}
 }
 
-Barycenter "UPS And:50 And"
+Barycenter "Titawin:UPS And:50 And:Gliese 61"
 {
 	RA 24.198715     # mass ratio 1.2:0.2
 	Dec 41.404487    #
 	Distance 43.928
 }
 
-7513 "UPS And A:50 And A"
+7513 "Titawin A:UPS And A:50 And A:Gliese 61 A"
 {
 	RA 24.199904
 	Dec 41.406384
@@ -2420,7 +2392,7 @@ Barycenter "UPS And:50 And"
 	AppMag 4.10
 }
 
-"UPS And B:50 And B:2MASS J0136504+412332"
+"Titawin B:UPS And B:50 And B:Gliese 61 B:2MASS J0136504+412332"
 {
 	RA 24.19158317
 	Dec 41.39310511
@@ -2446,18 +2418,18 @@ Barycenter "UPS And:50 And"
 	RA 32.600829       # from measured separation 
 	Dec -50.825444     # position angle
 	Distance 35.596
-	SpectralType "DC9" # "cool white dwarf, 5000±500K"
+	SpectralType "DC9" # "cool white dwarf, 5000Â±500K"
 	AbsMag 14.5        # typical for class
 }
 
-Barycenter "83 Leo"
+Barycenter "83 Leo:Gliese 429"
 {
 	RA 171.692540
 	Dec 3.009373
 	Distance 57.637
 }
 
-55846 "83 Leo A"
+55846 "83 Leo A:Gliese 429 A"
 {
 	OrbitBarycenter "83 Leo"
 	SpectralType "K0IV"
@@ -2474,7 +2446,7 @@ Barycenter "83 Leo"
 	}
 }
 
-55848 "83 Leo B"
+55848 "83 Leo B:Gliese 429 B"
 {
 	OrbitBarycenter "83 Leo"
 	SpectralType "K2V"
@@ -2491,14 +2463,14 @@ Barycenter "83 Leo"
 	}
 }
 
-Barycenter "94 Cet"
+Barycenter "94 Cet:Gliese 128"
 {
 	RA 48.193016
 	Dec -1.195933
 	Distance 72.984
 }
 
-14954 "94 Cet A"
+14954 "94 Cet A:Gliese 128 A"
 {
 	OrbitBarycenter "94 Cet"
 	SpectralType "F8V"
@@ -2515,7 +2487,7 @@ Barycenter "94 Cet"
 	}
 }
 
-"94 Cet B"
+"94 Cet B:Gliese 128 B"
 {
 	OrbitBarycenter "94 Cet"
 	SpectralType "M"          # guess from est. mass and AppMag
@@ -2599,7 +2571,7 @@ Barycenter "Gliese 777"
 	AppMag 14.40
 }
 
-"PSR 1257+12:PSR B1257+12:PSR J1300+1240"
+"Lich:PSR 1257+12:PSR B1257+12:PSR J1300+1240"
 {
 	RA 195.0125
 	Dec 12.6825
