@@ -137,7 +137,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 
 	EllipticalOrbit {              # fully specified orientation
 		Period           27.54
-		SemiMajorAxis     1.64 # mass ratio 33.51:28.55J
+		SemiMajorAxis     1.64 # mass ratio 33.51J:28.55J
 		Eccentricity      0.34
 		Inclination     135.69
 		AscendingNode   118.66
@@ -154,7 +154,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 
 	EllipticalOrbit {              # fully specified orientation
 		Period           27.54
-		SemiMajorAxis     1.92 # mass ratio 33.51:28.55J
+		SemiMajorAxis     1.92 # mass ratio 33.51J:28.55J
 		Eccentricity      0.34
 		Inclination     135.69
 		AscendingNode   118.66
@@ -419,7 +419,7 @@ Barycenter "61 Cyg:Gliese 820:ADS 14636"
 	Distance 11.402
 }
 
-104214 "61 Cyg A:Gliese 820 A:ADS 14636 A"
+104214 "61 Cyg A:V1803 Cyg:Gliese 820 A:ADS 14636 A"
 {
 	OrbitBarycenter "61 Cyg"
 	SpectralType "K5V"
@@ -503,14 +503,14 @@ Barycenter 37279 "Procyon:Elgomaisa:ALF CMi:10 CMi:Gliese 280:ADS 6251"
 # "How to Constrain Your M Dwarf: Measuring Effective Temperature, 
 # Bolometric Luminosity, Mass, and Radius"
 # http://iopscience.iop.org/article/10.1088/0004-637X/804/1/64/meta
-Barycenter "Gliese 725:ADS 11632:Struve 2398"
+Barycenter "Gliese 725:Struve 2398:ADS 11632"
 {
 	RA 280.6949398  # mass ratio 0.334:0.248
 	Dec 59.6288903
 	Distance 11.488
 }
 
-91768 "Gliese 725 A:ADS 11632 A:Struve 2398 A"
+91768 "Gliese 725 A:Struve 2398 A:ADS 11632 A"
 {
 	OrbitBarycenter "ADS 11632"
 	SpectralType "M3V"
@@ -527,7 +527,7 @@ Barycenter "Gliese 725:ADS 11632:Struve 2398"
 	}
 }
 
-91772 "Gliese 725 B:ADS 11632 B:Struve 2398 B"
+91772 "Gliese 725 B:Struve 2398 B:ADS 11632 B"
 {
 	OrbitBarycenter "ADS 11632"
 	SpectralType "M3.5V"
@@ -548,14 +548,14 @@ Barycenter "Gliese 725:ADS 11632:Struve 2398"
 # "The HADES RV Programme with HARPS-N at TNG. VIII. GJ15A: a multiple
 # wide planetary system sculpted by binary interaction"
 # https://arxiv.org/abs/1804.03476
-Barycenter 1475 "Gliese 15:ADS 246:Groombridge 34"
+Barycenter 1475 "Gliese 15:Groombridge 34:ADS 246"
 {
 	RA 4.600573040  # mass ratio 0.38:0.15
 	Dec 44.02478402
 	Distance 11.619
 }
 
-"GX And:Gliese 15 A:ADS 246 A:Groombridge 34 A"
+"GX And:Gliese 15 A:Groombridge 34 A:ADS 246 A"
 {
 	OrbitBarycenter "Groombridge 34"
 	SpectralType "M2V"
@@ -573,7 +573,7 @@ Barycenter 1475 "Gliese 15:ADS 246:Groombridge 34"
 	}
 }
 
-"GQ And:Gliese 15 B:ADS 246 B:Groombridge 34 B"
+"GQ And:Gliese 15 B:Groombridge 34 B:ADS 246 B"
 {
 	OrbitBarycenter "Groombridge 34"
 	SpectralType "M3.5V"
@@ -762,14 +762,14 @@ Barycenter "SCR 1845-6357"
 	}
 }
 
-Barycenter 110893 "Gliese 860:ADS 15972:Kruger 60"
+Barycenter 110893 "Gliese 860:Kruger 60:ADS 15972"
 {
 	RA 336.9985152  # mass ratio 0.30:0.17
 	Dec 57.69579262 # only used parallax of A
 	Distance 13.0780 # 249.3926 +/- 0.1653 mas
 }
 
-"Gliese 860 A:ADS 15972 A:Kruger 60 A"
+"Gliese 860 A:Kruger 60 A:ADS 15972 A"
 {
 	OrbitBarycenter "Kruger 60"
 	SpectralType "M3V"
@@ -786,7 +786,7 @@ Barycenter 110893 "Gliese 860:ADS 15972:Kruger 60"
 	}
 }
 
-2000923991 "DO Cep:Gliese 860 B:ADS 15972 B:Kruger 60 B"
+2000923991 "DO Cep:Gliese 860 B:Kruger 60 B:ADS 15972 B"
 {
 	OrbitBarycenter "Kruger 60"
 	SpectralType "M4V"
@@ -1133,7 +1133,7 @@ Barycenter 54211 "Gliese 412:Lalande 21258" # orbits of A & B unknown
 	Dec -47.01426260
 	Distance 15.8847 # 205.3266 +/- 0.2545 mas
 	SpectralType "L9V"
-	Radius 70000 # approx.
+	Radius 60000 # approx.
 	AppMag 22.921
 }
 
@@ -1247,14 +1247,14 @@ Barycenter "Keid BC:OMI2 Eri BC:40 Eri BC:Gliese 166 BC"
 # Eggenberger et al. (2008), A&A 482 (2), 631
 # "Analysis of 70 Ophiuchi AB including seismic constraints"
 # https://www.aanda.org/articles/aa/abs/2008/17/aa8624-07/aa8624-07.html
-Barycenter 88601 "70 Oph:Gliese 702:ADS 11046:Struve 2272"
+Barycenter 88601 "70 Oph:Gliese 702:Struve 2272:ADS 11046"
 {
 	RA 271.36368827
 	Dec 2.50009883
 	Distance 16.580 # 196.72 +/- 0.83 mas
 }
 
-"70 Oph A:Gliese 702 A:ADS 11046 A:Struve 2272 A"
+"70 Oph A:Gliese 702 A:Struve 2272 A:ADS 11046 A"
 {
 	OrbitBarycenter "70 Oph"
 	SpectralType "K0V"
@@ -1271,7 +1271,7 @@ Barycenter 88601 "70 Oph:Gliese 702:ADS 11046:Struve 2272"
 	}
 }
 
-"70 Oph B:Gliese 702 B:ADS 11046 B:Struve 2272 B"
+"70 Oph B:Gliese 702 B:Struve 2272 B:ADS 11046 B"
 {
 	OrbitBarycenter "70 Oph"
 	SpectralType "K4V"
@@ -1288,9 +1288,9 @@ Barycenter 88601 "70 Oph:Gliese 702:ADS 11046:Struve 2272"
 	}
 }
 
-# rotational parameters from Monnier et al. (2007), Science 317 (5836), 342
-# "Imaging the Surface of Altair"
-# https://arxiv.org/abs/0706.0867
+# rotational parameters from Bouchaud et al. (2020), A&A 633, A78
+# "A realistic two-dimensional model of Altair"
+# https://arxiv.org/abs/1912.03138
 97649 # Altair
 {
 	RA 297.69582730
@@ -1298,14 +1298,15 @@ Barycenter 88601 "70 Oph:Gliese 702:ADS 11046:Struve 2272"
 	Distance 16.730 # 194.95 +/- 0.57
 	SpectralType "A7IV"
 	AppMag 0.76
+	Radius 1396700 # equatorial radius
 
-	SemiAxes [ 1 0.81 1 ] # equatorial radius 24% greater than polar
+	SemiAxes [ 1 0.779 1 ] # equatorial radius 28.3% greater than polar
 
 	UniformRotation
 	{
-		Period         10.4
-		Inclination    77.86 # inclination (i) = 57.2 deg
-		AscendingNode 252.65 # orientation (alpha) = -61.8 deg
+		Period          7.79 # from equatorial rotational velocity
+		Inclination    81.21 # inclination (i) = 50.65 deg
+		AscendingNode 246.44 # orientation (alpha) = 301.13 deg
 	}
 }
 
@@ -1347,6 +1348,7 @@ Barycenter "GJ 1116"  # orbit of A & B unknown
 	Distance 16.8516 # 193.5457 +/- 0.9420 mas
 	AppMag 17.48 # calculated from J, H, and Ks bands
 	SpectralType "T6"
+	Radius 60000 # approx.
 	RotationPeriod 1.74
 	Temperature 1000
 }
@@ -1851,7 +1853,7 @@ Barycenter 3821 "Achird:ETA Cas:24 Cas:Gliese 34:ADS 671"
 	}
 }
 
-Barycenter "36 Oph:Gliese 663:ADS 10417" # orbit of (AB) & C unknown
+Barycenter "Guniibuu:36 Oph:Gliese 663:ADS 10417" # orbit of (AB) & C unknown
 {
 	RA 258.907618286 # mass ratio (0.75:0.76):0.72
 	Dec -26.58414637
@@ -1859,7 +1861,7 @@ Barycenter "36 Oph:Gliese 663:ADS 10417" # orbit of (AB) & C unknown
 }
 
 # Distance from average of distances from Gaia DR2 parallax for A and B
-Barycenter 84405 "36 Oph AB:Gliese 663 AB"
+Barycenter 84405 "Guniibuu AB:36 Oph AB:Gliese 663 AB"
 {
 	RA 258.837020242 # mass ratio 0.75:0.76
 	Dec -26.60226476 # A: 167.8221 +/- 0.1556 mas
@@ -1869,7 +1871,7 @@ Barycenter 84405 "36 Oph AB:Gliese 663 AB"
 # Average masses from Luck, R. E. (2017), AJ 153 (1), 21
 # "Abundances in the Local Region II: F, G, and K Dwarfs and Subgiants"
 # http://iopscience.iop.org/article/10.3847/1538-3881/153/1/21/meta
-"36 Oph A:Gliese 663 A:ADS 10417 A"
+"Guniibuu A:36 Oph A:Gliese 663 A:ADS 10417 A"
 {
 	OrbitBarycenter "36 Oph AB"
 	SpectralType "K2V"
@@ -1886,7 +1888,7 @@ Barycenter 84405 "36 Oph AB:Gliese 663 AB"
 	}
 }
 
-"36 Oph B:Gliese 663 B:ADS 10417 B"
+"Guniibuu B:36 Oph B:Gliese 663 B:ADS 10417 B"
 {
 	OrbitBarycenter "36 Oph AB"
 	SpectralType "K1V"
@@ -1903,7 +1905,7 @@ Barycenter 84405 "36 Oph AB:Gliese 663 AB"
 	}
 }
 
-84478 "36 Oph C:V2215 Oph:Gliese 664:Gliese 663 C:ADS 10417 C"
+84478 "Guniibuu C:36 Oph C:V2215 Oph:Gliese 664:Gliese 663 C:ADS 10417 C"
 {
 	RA 259.05567807
 	Dec -26.5461481
@@ -2121,14 +2123,14 @@ Barycenter 34603 "Gliese 268:Ross 986"
 }
 
 # Distance from average of distances from Gaia DR2 parallax for A and B
-Barycenter 116132 "Gliese 896"
+Barycenter 116132 "Gliese 896:BD+19 5116"
 {
 	RA 352.96797137 # mass ratio (0.34:0.13):(0.16:0.09)
 	Dec 19.93724591 # A: 159.7098 +/- 0.0827 mas
 	Distance 20.400 # B: 160.0598 +/- 0.1079 mas
 }
 
-Barycenter "Gliese 896 A"
+Barycenter "Gliese 896 A:BD+19 5116 A"
 {
 	OrbitBarycenter "Gliese 896"
 
@@ -2143,7 +2145,7 @@ Barycenter "Gliese 896 A"
 	}
 }
 
-Barycenter "Gliese 896 B"
+Barycenter "Gliese 896 B:BD+19 5116 B"
 {
 	OrbitBarycenter "Gliese 896"
 
@@ -2158,7 +2160,7 @@ Barycenter "Gliese 896 B"
 	}
 }
 
-"EQ Peg:Gliese 896 Aa"
+"EQ Peg:Gliese 896 Aa:BD+19 5116 Aa"
 {
 	OrbitBarycenter "Gliese 896 A"
 	SpectralType "M3.5V"
@@ -2175,7 +2177,7 @@ Barycenter "Gliese 896 B"
 
 }
 
-"Gliese 896 Ab"
+"Gliese 896 Ab:BD+19 5116 Ab"
 {
 	OrbitBarycenter "Gliese 896 A"
 	SpectralType "M7V" # from apparent magnitude
@@ -2190,7 +2192,7 @@ Barycenter "Gliese 896 B"
 	}
 }
 
-"Gliese 896 Ba"
+"Gliese 896 Ba:BD+19 5116 Ba"
 {
 	OrbitBarycenter "Gliese 896 B"
 	SpectralType "M4.5V"
@@ -2206,7 +2208,7 @@ Barycenter "Gliese 896 B"
 	}
 }
 
-"Gliese 896 Bb"
+"Gliese 896 Bb:BD+19 5116 Bb"
 {
 	OrbitBarycenter "Gliese 896 B"
 	SpectralType "M9V" # from apparent magnitude
@@ -2232,14 +2234,14 @@ Barycenter "Gliese 896 B"
 }
 
 # Distance from average of distances from Gaia DR2 parallax for A and B
-Barycenter "Gliese 338:ADS 7251:Struve 1321"
+Barycenter "Gliese 338:Struve 1321:ADS 7251"
 {
 	RA 138.59887190 # mass ratio 0.60:0.60
 	Dec 52.68648597 # A: 157.8796 +/- 0.0366 mas
 	Distance 20.658 # B: 157.8851 +/- 0.0414 mas
 }
 
-45343 "Gliese 338 A:ADS 7251 A:Struve 1321 A"
+45343 "Gliese 338 A:Struve 1321 A:ADS 7251 A"
 {
 	OrbitBarycenter "ADS 7251"
 	SpectralType "K7V"
@@ -2256,7 +2258,7 @@ Barycenter "Gliese 338:ADS 7251:Struve 1321"
 	}
 }
 
-120005 "Gliese 338 B:ADS 7251 B:Struve 1321 B"
+120005 "Gliese 338 B:Struve 1321 B:ADS 7251 B"
 {
 	OrbitBarycenter "ADS 7251"
 	SpectralType "M0V"
@@ -2342,7 +2344,7 @@ Barycenter 84140 "Gliese 661:BD+45 2505"
 	RA 88.78971006
 	Dec -4.16862949
 	Distance 21.0084 # 155.2501 +/- 0.0287 mas
-	SpectralType "DZ11"
+	SpectralType "DZ9" # DZ11
 	AppMag 14.45
 }
 
@@ -2365,7 +2367,7 @@ Barycenter "Gliese 644:Wolf 630" # orbit of (AB) & C unknown
 # Parallax and masses from Segransan et al. (2000), A&A 364, 665
 # "Accurate masses of very low mass stars. III. 16 new or improved masses"
 # http://adsabs.harvard.edu/abs/2000A%26A...364..665S
-Barycenter 82817 "Gliese 644 A-B:Wolf 630 A-B"
+Barycenter 82817 "Gliese 644 AB:Wolf 630 AB"
 {
 	RA 253.86982326
 	Dec -8.3363299
@@ -2374,7 +2376,7 @@ Barycenter 82817 "Gliese 644 A-B:Wolf 630 A-B"
 
 "V1054 Oph:Gliese 644 A:Wolf 630 A"
 {
-	OrbitBarycenter "Gliese 644 A-B"
+	OrbitBarycenter "Gliese 644 AB"
 	SpectralType "M2.5V"
 	AppMag 9.73
 
@@ -2391,7 +2393,7 @@ Barycenter 82817 "Gliese 644 A-B:Wolf 630 A-B"
 
 Barycenter "Gliese 644 B:Wolf 630 B"
 {
-	OrbitBarycenter "Gliese 644 A-B"
+	OrbitBarycenter "Gliese 644 AB"
 
 	EllipticalOrbit {             # fully specified orientation
 		Period           1.718
@@ -2779,7 +2781,7 @@ Barycenter "Scholz's Star:WISE 0720-0846:WISE J072003.20-084651.2"
 }
 
 # Used parallax of component B, from Gaia DR2
-# Winters et al. (2019), eprint arXiv 1906.10147
+# Winters et al. (2019), AJ 158 (4), 152
 # "Three Red Suns in the Sky: A Transiting, Terrestrial Planet in a Triple 
 # M Dwarf System at 6.9 Parsecs"
 # https://arxiv.org/abs/1906.10147
@@ -2962,31 +2964,19 @@ Modify 103096 # Gliese 809
 # Distance from average of distances from Gaia DR2 parallax for A and B
 Barycenter "Gliese 105" # orbit of (AB) and C unknown
 {
-	RA 39.027432618 # mass ratio ((0.81:0.08):0.17):0.21
-	Dec 6.884370406 # A: 138.2084 +/- 0.1436 mas
-	Distance 23.577 # B: 138.4637 +/- 0.0886 mas
+	RA 39.028581069 # mass ratio (0.81:0.082):0.21
+	Dec 6.883949884 # A: 138.2084 +/- 0.1436 mas
+	Distance 23.591 # B: 138.4637 +/- 0.0886 mas
 }
 
-Barycenter 12114 "Gliese 105 A-B"
+# Masses from Golimowski et al. (2002), AJ 120 (4), 2082
+# "The Very Low Mass Component of the Gliese 105 System"
+# https://iopscience.iop.org/article/10.1086/301567
+Barycenter 12114 "Gliese 105 A"
 {
-	RA 39.020265166 # mass ratio (0.81:0.08):0.17
-	Dec 6.886891351
+	RA 39.020334067 # mass ratio 0.81:0.082
+	Dec 6.886846623
 	Distance 23.599 # 138.2084 +/- 0.1436 mas
-}
-
-Barycenter "Gliese 105 A"
-{
-	OrbitBarycenter "Gliese 105"
-
-	EllipticalOrbit {
-		Period            201
-		SemiMajorAxis     6.1 # mass ratio (0.81:0.08):0.17
-		Eccentricity      0.4
-		Inclination     132.2
-		AscendingNode     6.4
-		ArgOfPericenter 277.2
-		MeanAnomaly     351.0
-	}
 }
 
 "Gliese 105 Aa"
@@ -2997,7 +2987,7 @@ Barycenter "Gliese 105 A"
 
 	EllipticalOrbit {
 		Period           61
-		SemiMajorAxis  0.11 # mass ratio 0.81:0.08
+		SemiMajorAxis  0.11 # mass ratio 0.81:0.082
 		Eccentricity   0.67
 		Inclination      61
 		AscendingNode   356
@@ -3006,15 +2996,15 @@ Barycenter "Gliese 105 A"
 	}
 }
 
-"Gliese 105 Ab"
+"Gliese 105 Ab" # SIMBAD calls it GJ 105 C
 {
 	OrbitBarycenter "Gliese 105 A"
-	SpectralType "M7.5V"
-	AppMag 16.90
+	SpectralType "M7V"
+	AppMag 16.77
 
 	EllipticalOrbit {
 		Period           61
-		SemiMajorAxis  1.13 # mass ratio 0.81:0.08
+		SemiMajorAxis  1.13 # mass ratio 0.81:0.082
 		Eccentricity   0.67
 		Inclination      61
 		AscendingNode   356
@@ -3023,26 +3013,7 @@ Barycenter "Gliese 105 A"
 	}
 }
 
-# Spectral type from same source as orbit; mass and magnitude estimated
-# from spectral type
-"Gliese 105 B"
-{
-	OrbitBarycenter "Gliese 105"
-	SpectralType "M4.5V"
-	AbsMag 12.6 # guess from spectral type
-
-	EllipticalOrbit {
-		Period           201
-		SemiMajorAxis   32.2 # mass ratio (0.81:0.08):0.17
-		Eccentricity     0.4
-		Inclination    132.2
-		AscendingNode    6.4
-		ArgOfPericenter 97.2
-		MeanAnomaly    351.0
-	}
-}
-
-"BX Cet:Gliese 105 C" # SIMBAD calls it GJ 105 B
+"BX Cet:Gliese 105 B"
 {
 	RA 39.06361119
 	Dec 6.87164564
@@ -3301,13 +3272,16 @@ Barycenter 5336 "MU Cas:30 Cas:Gliese 53"
 	AppMag 5.24
 }
 
+# Rotational parameters based on disk parameters, from
+# MacGregor et al. (2017), ApJ 842 (1), 8
+# "A Complete ALMA Map of the Fomalhaut Debris Disk"
+# https://arxiv.org/abs/1705.05867
 Modify 113368 # Fomalhaut 
 {
 	UniformRotation
 	{
-	    Inclination    81.8    # rotation pole matches debris disk
-	    AscendingNode  176.6   # Bouquin et al. (2009) A&A 498, L41-44
-# (http://www.aanda.org/index.php?option=article&access=doi&doi=10.1051/0004-6361/200911854)
+		Inclination    83.2  # rotation pole matches debris disk
+		AscendingNode  177.5 # inclination 65.6 deg, position angle 337.9 deg
  	}
 }
 
@@ -3355,17 +3329,18 @@ Modify 65859 # Ross 490
 	AppMag 12.624
 }
 
+# rotational parameters from Monnier et al. (2012), ApJL 761 (1), L3
+# "Resolving Vega and the Inclination Controversy with CHARA/MIRC"
+# https://arxiv.org/abs/1211.6055
 Modify 91262 # Vega
 {
-	SemiAxes [ 1 0.80 1 ] # equatorial radius 25% greater than polar
+	SemiAxes [ 1 0.887 1 ] # equatorial radius 12.7% greater than polar
 
 	UniformRotation
 	{
-	    Period         12.4
-	    # Inclination    28   # rotation pole points
-	    # AscendingNode  15   # towards solar system
-	    Inclination   147.35 # inclination (i) = 4.54
-	    AscendingNode 192.95 # inclination (i) = 8.6
+		Period         17.04
+		Inclination   150.91 # inclination (i) = 6.2
+		AscendingNode 208.14 # pole position angle = -58
 	}
 }
 

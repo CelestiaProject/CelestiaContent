@@ -67,14 +67,14 @@
      }
  }
 
- Barycenter 2762 "BU Cet:13 Cet:GJ 23:ADS 490 AB:CCDM J00352-0336AB"
+ Barycenter 2762 "13 Cet:BU Cet:Gliese 23:ADS 490 AB:CCDM J00352-0336AB"
  {
      RA         8.811004
      Dec       -3.592758
      Distance  69.323486
  }
  
- "BU Cet A:13 Cet A:GJ 23 A:ADS 490 A:CCDM J00352-0336A"
+ "13 Cet A:BU Cet A:Gliese 23 A:ADS 490 A:CCDM J00352-0336A"
  {
      OrbitBarycenter "BU Cet"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
@@ -91,7 +91,7 @@
      }
  }
 
- "BU Cet B:13 Cet B:GJ 23 B:ADS 490 B:CCDM J00352-0336B"
+ "13 Cet B:BU Cet B:Gliese 23 B:ADS 490 B:CCDM J00352-0336B"
  {
      OrbitBarycenter "BU Cet"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
@@ -108,14 +108,14 @@
      }
  }
 
- Barycenter 7372 "BB Scl:GJ 60:CCDM J01350-2954ABC"
+ Barycenter 7372 "BB Scl:Gliese 60:CCDM J01350-2954ABC"
  {
      RA        23.753989
      Dec      -29.910563
      Distance  70.537846
  }
  
- "BB Scl A:GJ 60 A:CCDM J01350-2954A"
+ "BB Scl A:Gliese 60 A:CCDM J01350-2954A"
  {
      OrbitBarycenter "BB Scl"
      SpectralType    "K3V"    # lacking, used HIP data of the entire system!
@@ -132,7 +132,7 @@
      }
  }
 
- "BB Scl B:GJ 60 B:CCDM J01350-2954B"
+ "BB Scl B:Gliese 60 B:CCDM J01350-2954B"
  {
      OrbitBarycenter "BB Scl"
      SpectralType    "K3V"    # lacking, used HIP data of the entire system!
@@ -354,14 +354,14 @@
      }
  }
 
- Barycenter 33451 "CCDM J06573-3530AB"
+ Barycenter 33451 "Gliese 255:CCDM J06573-3530AB"
  {
      RA       104.323388
      Dec      -35.507201
      Distance 140.589224
  }
  
- "CCDM J06573-3530A"
+ "Gliese 255 A:CCDM J06573-3530A"
  {
      OrbitBarycenter "CCDM J06573-3530AB"
      SpectralType    "F8IV"                                           
@@ -378,7 +378,7 @@
      }
  }
 
- "CCDM J06573-3530B"
+ "Gliese 255 B:CCDM J06573-3530B"
  {
      OrbitBarycenter "CCDM J06573-3530AB"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
@@ -477,14 +477,14 @@
      }
  }
 
- Barycenter 44248 "10 UMa:GJ 332:CCDM J09007+4147AB"
+ Barycenter 44248 "10 UMa:Gliese 332:CCDM J09007+4147AB"
  {
      RA       135.161465
      Dec       41.783442
      Distance  52.413145
  }
  
- "10 UMa A:GJ 332 A:CCDM J09007+4147A"
+ "10 UMa A:Gliese 332 A:CCDM J09007+4147A"
  {
      OrbitBarycenter "10 UMa"
      SpectralType    "F3V"                                            
@@ -501,7 +501,7 @@
      }
  }
 
- "10 UMa B:GJ 332 B:CCDM J09007+4147B"
+ "10 UMa B:Gliese 332 B:CCDM J09007+4147B"
  {
      OrbitBarycenter "10 UMa"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
@@ -518,14 +518,14 @@
      }
  }
 
- Barycenter 45170 "PI1 Cnc:81 Cnc:GJ 337 A:CCDM J09123+1459AP"
+ Barycenter 45170 "PI1 Cnc:81 Cnc:Gliese 337 A:CCDM J09123+1459AP"
  {
      RA       138.074439
      Dec       14.995441
      Distance  66.415598
  }
  
- "PI1 Cnc A:81 Cnc A:GJ 337 Aa:CCDM J09123+1459A"
+ "PI1 Cnc A:81 Cnc A:Gliese 337 Aa:CCDM J09123+1459A"
  {
      OrbitBarycenter "PI1 Cnc"
      SpectralType    "G8V"                                            
@@ -542,7 +542,7 @@
      }
  }
 
- "PI1 Cnc B:81 Cnc B:GJ 337 Ab:CCDM J09123+1459P"
+ "PI1 Cnc B:81 Cnc B:Gliese 337 Ab:CCDM J09123+1459P"
  {
      OrbitBarycenter "PI1 Cnc"
      SpectralType    "G8V"                                            
@@ -682,14 +682,14 @@
      }
  }
 
-#  Barycenter 82817 "V1054 Oph:GJ 644:CCDM J16555-0820AB"
+#  Barycenter 82817 "V1054 Oph:Gliese 644:CCDM J16555-0820AB"
 #  {
 #      RA       253.871852
 #      Dec       -8.334207
 #      Distance  20.207360
 #  }
 #  
-#  "V1054 Oph A:GJ 644 A:CCDM J16555-0820A"
+#  "V1054 Oph A:Gliese 644 A:CCDM J16555-0820A"
 #  {
 #      OrbitBarycenter "V1054 Oph"
 #      SpectralType    "M3V"    # lacking, used HIP data of the entire system!
@@ -706,7 +706,7 @@
 #      }
 #  }
 
-#  "V1054 Oph B:GJ 644 B:CCDM J16555-0820B"
+#  "V1054 Oph B:Gliese 644 B:CCDM J16555-0820B"
 #  {
 #      OrbitBarycenter "V1054 Oph"
 #      SpectralType    "M3V"    # lacking, used HIP data of the entire system!
@@ -723,16 +723,16 @@
 #      }
 #  }
 
-#  Barycenter 84140 "GJ 661:CCDM J17121+4540AB"
+#  Barycenter 84140 "Gliese 661:CCDM J17121+4540AB"
 #  {
 #      RA       258.031753
 #      Dec       45.669843
 #      Distance  19.497101
 #  }
 #  
-#  "GJ 661 A:CCDM J17121+4540A"
+#  "Gliese 661 A:CCDM J17121+4540A"
 #  {
-#      OrbitBarycenter "GJ 661"
+#      OrbitBarycenter "Gliese 661"
 #      SpectralType    "M3V"    # lacking, used HIP data of the entire system!
 #      AppMag          9.93 
 #  
@@ -747,9 +747,9 @@
 #      }
 #  }
 
-#  "GJ 661 B:CCDM J17121+4540B"
+#  "Gliese 661 B:CCDM J17121+4540B"
 #  {
-#      OrbitBarycenter "GJ 661"
+#      OrbitBarycenter "Gliese 661"
 #      SpectralType    "M3V"    # lacking, used HIP data of the entire system!
 #      AppMag          10.35
 #  
@@ -846,14 +846,14 @@
      }
  }
 
- Barycenter 89937 "CHI Dra A:44 Dra:GJ 713:CCDM J18211+7245A"
+ Barycenter 89937 "CHI Dra A:44 Dra:Gliese 713:CCDM J18211+7245A"
  {
      RA       275.259744
      Dec       72.733698
      Distance  26.280477
  }
  
- "CHI Dra Aa:44 Dra A:GJ 713 A:CCDM J18211+7245Aa"
+ "CHI Dra Aa:44 Dra A:Gliese 713 A:CCDM J18211+7245Aa"
  {
      OrbitBarycenter "CHI Dra A"
      SpectralType    "F7V"                                            
@@ -870,7 +870,7 @@
      }
  }
 
- "CHI Dra Ab:44 Dra B:GJ 713 B:CCDM J18211+7245Ab"
+ "CHI Dra Ab:44 Dra B:Gliese 713 B:CCDM J18211+7245Ab"
  {
      OrbitBarycenter "CHI Dra A"
      SpectralType    "F7V"    # lacking, used HIP data of the entire system!
@@ -928,16 +928,16 @@
      }
  }
 
- Barycenter 104858 "GJ 822:ADS 14773 AB:CCDM J21145+1001AB"
+ Barycenter 104858 "DEL Equ:7 Equ:Gliese 822:ADS 14773 AB:CCDM J21145+1001AB"
  {
      RA       318.619959
      Dec       10.007719
      Distance  60.300795
  }
  
- "GJ 822 A:ADS 14773 A:CCDM J21145+1001A"
+ "DEL Equ A:7 Equ A:Gliese 822 A:ADS 14773 A:CCDM J21145+1001A"
  {
-     OrbitBarycenter "GJ 822"
+     OrbitBarycenter "Gliese 822"
      SpectralType    "F8V"                                            
      AppMag          5.31 
  
@@ -952,9 +952,9 @@
      }
  }
 
- "GJ 822 B:ADS 14773 B:CCDM J21145+1001B"
+ "DEL Equ B:7 Equ B:Gliese 822 B:ADS 14773 B:CCDM J21145+1001B"
  {
-     OrbitBarycenter "GJ 822"
+     OrbitBarycenter "Gliese 822"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
      AppMag          5.39 
  
@@ -1133,14 +1133,14 @@
      }
  }
 
- Barycenter 171 "85 Peg A:GJ 914 A:ADS 17175 A:CCDM J00021+2706A"
+ Barycenter 171 "85 Peg A:Gliese 914 A:ADS 17175 A:CCDM J00021+2706A"
  {
      RA         0.540189
      Dec       27.084489
      Distance  39.694171
  }
  
- "85 Peg Aa:GJ 914 Aa:ADS 17175 Aa:CCDM J00021+2706Aa"
+ "85 Peg Aa:Gliese 914 Aa:ADS 17175 Aa:CCDM J00021+2706Aa"
  {
      OrbitBarycenter "85 Peg A"
      SpectralType    "G3V"    # lacking, used HIP data of the entire system!
@@ -1157,7 +1157,7 @@
      }
  }
 
- "85 Peg Ab:GJ 914 Ab:ADS 17175 Ab:CCDM J00021+2706Ab"
+ "85 Peg Ab:Gliese 914 Ab:ADS 17175 Ab:CCDM J00021+2706Ab"
  {
      OrbitBarycenter "85 Peg A"
      SpectralType    "G3V"    # lacking, used HIP data of the entire system!
@@ -1215,16 +1215,16 @@
      }
  }
 
- Barycenter 2941 "GJ 25:ADS 520 AB:CCDM J00373-2446AB"
+ Barycenter 2941 "Gliese 25:ADS 520 AB:CCDM J00373-2446AB"
  {
      RA         9.332449
      Dec      -24.767226
      Distance  50.233636
  }
  
- "GJ 25 A:ADS 520 A:CCDM J00373-2446A"
+ "Gliese 25 A:ADS 520 A:CCDM J00373-2446A"
  {
-     OrbitBarycenter "GJ 25"
+     OrbitBarycenter "Gliese 25"
      SpectralType    "G8V"                                            
      AppMag          6.32 
  
@@ -1239,9 +1239,9 @@
      }
  }
 
- "GJ 25 B:ADS 520 B:CCDM J00373-2446B"
+ "Gliese 25 B:ADS 520 B:CCDM J00373-2446B"
  {
-     OrbitBarycenter "GJ 25"
+     OrbitBarycenter "Gliese 25"
      SpectralType    "G8V"                                            
      AppMag          6.64 
  
@@ -1263,7 +1263,7 @@
      Distance  70.598918
  }
  
- "CCDM J01157-6852"
+ "CCDM J01157-6852 C"
  {
      OrbitBarycenter "CCDM J01157-6852CD"
      SpectralType    "K2V"    # lacking, used HIP data of the entire system!
@@ -1280,7 +1280,7 @@
      }
  }
 
- "CCDM J01157-6852"
+ "CCDM J01157-6852 D"
  {
      OrbitBarycenter "CCDM J01157-6852CD"
      SpectralType    "K2V"    # lacking, used HIP data of the entire system!
@@ -1338,16 +1338,16 @@
      }
  }
 
- Barycenter 11452 "GJ 98:ADS 1865 AB:CCDM J02278+0426AB"
+ Barycenter 11452 "Gliese 98:ADS 1865 AB:CCDM J02278+0426AB"
  {
      RA        36.940879
      Dec        4.431569
      Distance  55.917538
  }
  
- "GJ 98 A:ADS 1865 A:CCDM J02278+0426A"
+ "Gliese 98 A:ADS 1865 A:CCDM J02278+0426A"
  {
-     OrbitBarycenter "GJ 98"
+     OrbitBarycenter "Gliese 98"
      SpectralType    "K7V"    # lacking, used HIP data of the entire system!
      AppMag          9.45 
  
@@ -1362,9 +1362,9 @@
      }
  }
 
- "GJ 98 B:ADS 1865 B:CCDM J02278+0426B"
+ "Gliese 98 B:ADS 1865 B:CCDM J02278+0426B"
  {
-     OrbitBarycenter "GJ 98"
+     OrbitBarycenter "Gliese 98"
      SpectralType    "K7V"    # lacking, used HIP data of the entire system!
      AppMag          9.61 
  
@@ -1379,14 +1379,14 @@
      }
  }
 
- Barycenter 40167 "Tegmine:ADS 6650 ABC:CCDM J08123+1738ABC"
+ Barycenter 40167 "Tegmine:ZET Cnc:16 Cnc:ADS 6650 ABC:CCDM J08123+1738ABC"
  {
      RA       123.052956
      Dec       17.648136
      Distance  81.807625
  }
  
- "Tegmine A:ADS 6650 A:CCDM J08123+1738A"
+ "Tegmine A:ZET1 Cnc:16 Cnc A:ADS 6650 A:CCDM J08123+1738A"
  {
      OrbitBarycenter "Tegmine"
      SpectralType    "G0V"    # lacking, used HIP data of the entire system!
@@ -1403,7 +1403,7 @@
      }
  }
 
- "Tegmine B:ADS 6650 B:CCDM J08123+1738B"
+ "Tegmine B:ZET2 Cnc:16 Cnc B:ADS 6650 B:CCDM J08123+1738B"
  {
      OrbitBarycenter "Tegmine"
      SpectralType    "G0V"    # lacking, used HIP data of the entire system!
@@ -1420,14 +1420,14 @@
      }
  }
 
- Barycenter 42430 "ADS 6914 AB:CCDM J08391-2240AB"
+ Barycenter 42430 "Gliese 314:ADS 6914 AB:CCDM J08391-2240AB"
  {
      RA       129.783626
      Dec      -22.662907
      Distance  63.271969
  }
  
- "ADS 6914 A:CCDM J08391-2240A"
+ "Gliese 314 A:ADS 6914 A:CCDM J08391-2240A"
  {
      OrbitBarycenter "ADS 6914 AB"
      SpectralType    "G3"     # lacking, used HIP data of the entire system!
@@ -1444,7 +1444,7 @@
      }
  }
 
- "ADS 6914 B:CCDM J08391-2240B"
+ "Gliese 314 B:ADS 6914 B:CCDM J08391-2240B"
  {
      OrbitBarycenter "ADS 6914 AB"
      SpectralType    "G5V"    # lacking, used HIP data of the entire system!
@@ -1461,14 +1461,14 @@
      }
  }
 
- Barycenter 45617 "IP Cnc:GJ 340:ADS 7284 AB:CCDM J09179+2834AB"
+ Barycenter 45617 "IP Cnc:Gliese 340:ADS 7284 AB:CCDM J09179+2834AB"
  {
      RA       139.472597
      Dec       28.561751
      Distance  56.313363
  }
  
- "IP Cnc A:GJ 340 A:ADS 7284 A:CCDM J09179+2834A"
+ "IP Cnc A:Gliese 340 A:ADS 7284 A:CCDM J09179+2834A"
  {
      OrbitBarycenter "IP Cnc"
      SpectralType    "K3V"    # lacking, used HIP data of the entire system!
@@ -1485,7 +1485,7 @@
      }
  }
 
- "IP Cnc B:GJ 340 B:ADS 7284 B:CCDM J09179+2834B"
+ "IP Cnc B:Gliese 340 B:ADS 7284 B:CCDM J09179+2834B"
  {
      OrbitBarycenter "IP Cnc"
      SpectralType    "K3V"    # lacking, used HIP data of the entire system!
@@ -1502,14 +1502,14 @@
      }
  }
 
- Barycenter 46651 "PSI Vel:CCDM J09307-4028AB"
+ Barycenter 46651 "PSI Vel:Gliese 351:CCDM J09307-4028AB"
  {
      RA       142.675471
      Dec      -40.466888
      Distance  61.367262
  }
  
- "PSI Vel A:CCDM J09307-4028A"
+ "PSI Vel A:Gliese 351 A:CCDM J09307-4028A"
  {
      OrbitBarycenter "PSI Vel"
      SpectralType    "F0IV"                                           
@@ -1526,7 +1526,7 @@
      }
  }
 
- "PSI Vel B:CCDM J09307-4028B"
+ "PSI Vel B:Gliese 351 B:CCDM J09307-4028B"
  {
      OrbitBarycenter "PSI Vel"
      SpectralType    "F3IV"                                           
@@ -1584,14 +1584,14 @@
      }
  }
 
- Barycenter 61941 "Porrima:GAM Vir B:29 Vir B:GJ 482 B:ADS 8630 B:CCDM J12417-0127B"
+ Barycenter 61941 "Porrima:GAM Vir B:29 Vir B:Gliese 482 B:ADS 8630 B:CCDM J12417-0127B"
  {
      RA       190.416676
      Dec       -1.449522
      Distance  38.112526
  }
  
- "Porrima A:GAM Vir Ba:29 Vir Ba:GJ 482 Ba:ADS 8630 Ba:CCDM J12417-0127Ba"
+ "Porrima A:GAM Vir Ba:29 Vir Ba:Gliese 482 Ba:ADS 8630 Ba:CCDM J12417-0127Ba"
  {
      OrbitBarycenter "Porrima"
      SpectralType    "F0V"    # lacking, used HIP data of the entire system!
@@ -1608,7 +1608,7 @@
      }
  }
 
- "Porrima B:GAM Vir Bb:29 Vir Bb:GJ 482 Bb:ADS 8630 Bb:CCDM J12417-0127Bb"
+ "Porrima B:GAM Vir Bb:29 Vir Bb:Gliese 482 Bb:ADS 8630 Bb:CCDM J12417-0127Bb"
  {
      OrbitBarycenter "Porrima"
      SpectralType    "F0V"    # lacking, used HIP data of the entire system!
@@ -1666,14 +1666,14 @@
      }
  }
 
- Barycenter 64241 "ALF Com:42 Com:ADS 8804 AB:CCDM J13100+1732AB"
+ Barycenter 64241 "Diadem:ALF Com:42 Com:Gliese 501:ADS 8804 AB:CCDM J13100+1732AB"
  {
      RA       197.498126
      Dec       17.529112
      Distance  58.140285
  }
  
- "ALF Com A:42 Com A:ADS 8804 A:CCDM J13100+1732A"
+ "Diadem A:ALF Com A:42 Com A:Gliese 501 A:ADS 8804 A:CCDM J13100+1732A"
  {
      OrbitBarycenter "ALF Com"
      SpectralType    "F5V"                                            
@@ -1690,7 +1690,7 @@
      }
  }
 
- "ALF Com B:42 Com B:ADS 8804 B:CCDM J13100+1732B"
+ "Diadem B:ALF Com B:42 Com B:Gliese 501 B:ADS 8804 B:CCDM J13100+1732B"
  {
      OrbitBarycenter "ALF Com"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
@@ -1707,16 +1707,16 @@
      }
  }
 
- Barycenter 65026 "GJ 508:ADS 8862 AB:CCDM J13198+4747AB"
+ Barycenter 65026 "Gliese 508:ADS 8862 AB:CCDM J13198+4747AB"
  {
      RA       199.939900
      Dec       47.778072
      Distance  34.921520
  }
  
- "GJ 508 A:ADS 8862 A:CCDM J13198+4747A"
+ "Gliese 508 A:ADS 8862 A:CCDM J13198+4747A"
  {
-     OrbitBarycenter "GJ 508"
+     OrbitBarycenter "Gliese 508"
      SpectralType    "K0"     # lacking, used HIP data of the entire system!
      AppMag          8.89 
  
@@ -1731,9 +1731,9 @@
      }
  }
 
- "GJ 508 B:ADS 8862 B:CCDM J13198+4747B"
+ "Gliese 508 B:ADS 8862 B:CCDM J13198+4747B"
  {
-     OrbitBarycenter "GJ 508"
+     OrbitBarycenter "Gliese 508"
      SpectralType    "K0"     # lacking, used HIP data of the entire system!
      AppMag          9.97 
  
@@ -1748,16 +1748,16 @@
      }
  }
 
- Barycenter 67422 "GJ 528:ADS 9031:CCDM J13491+2659AB"
+ Barycenter 67422 "Gliese 528:ADS 9031:CCDM J13491+2659AB"
  {
      RA       207.267814
      Dec       26.980129
      Distance  43.733843
  }
  
- "GJ 528 A:ADS 9031 A:CCDM J13491+2659A"
+ "Gliese 528 A:ADS 9031 A:CCDM J13491+2659A"
  {
-     OrbitBarycenter "GJ 528"
+     OrbitBarycenter "Gliese 528"
      SpectralType    "K2"     # lacking, used HIP data of the entire system!
      AppMag          7.69 
  
@@ -1772,9 +1772,9 @@
      }
  }
 
- "GJ 528 B:ADS 9031 B:CCDM J13491+2659B"
+ "Gliese 528 B:ADS 9031 B:CCDM J13491+2659B"
  {
-     OrbitBarycenter "GJ 528"
+     OrbitBarycenter "Gliese 528"
      SpectralType    "K2"     # lacking, used HIP data of the entire system!
      AppMag          8.13 
  
@@ -1789,14 +1789,14 @@
      }
  }
 
-#  Barycenter 71683 "ALF Cen A:GJ 559 A:CCDM J14396-6050A"
+#  Barycenter 71683 "ALF Cen A:Gliese 559 A:CCDM J14396-6050A"
 #  {
 #      RA       219.920408
 #      Dec      -60.835145
 #      Distance   4.321180
 #  }
 #  
-#  "ALF Cen Aa:GJ 559 Aa:CCDM J14396-6050Aa"
+#  "ALF Cen Aa:Gliese 559 Aa:CCDM J14396-6050Aa"
 #  {
 #      OrbitBarycenter "ALF Cen A"
 #      SpectralType    "M5V"                                            
@@ -1813,7 +1813,7 @@
 #      }
 #  }
 
-#  "ALF Cen Ab:GJ 559 Ab:CCDM J14396-6050Ab"
+#  "ALF Cen Ab:Gliese 559 Ab:CCDM J14396-6050Ab"
 #  {
 #      OrbitBarycenter "ALF Cen A"
 #      SpectralType    "K1V"                                            
@@ -1830,14 +1830,14 @@
 #      }
 #  }
 
-#  Barycenter 72659 "XI Boo:37 Boo:GJ 566:ADS 9413 AB:CCDM J14513+1906AB"
+#  Barycenter 72659 "XI Boo:37 Boo:Gliese 566:ADS 9413 AB:CCDM J14513+1906AB"
 #  {
 #      RA       222.847018
 #      Dec       19.100634
 #      Distance  21.893341
 #  }
 #  
-#  "XI Boo A:37 Boo A:GJ 566 A:ADS 9413 A:CCDM J14513+1906A"
+#  "XI Boo A:37 Boo A:Gliese 566 A:ADS 9413 A:CCDM J14513+1906A"
 #  {
 #      OrbitBarycenter "XI Boo"
 #      SpectralType    "K5V"                                            
@@ -1854,7 +1854,7 @@
 #      }
 #  }
 
-#  "XI Boo B:37 Boo B:GJ 566 B:ADS 9413 B:CCDM J14513+1906B"
+#  "XI Boo B:37 Boo B:Gliese 566 B:ADS 9413 B:CCDM J14513+1906B"
 #  {
 #      OrbitBarycenter "XI Boo"
 #      SpectralType    "G8V"    # lacking, used HIP data of the entire system!
@@ -1871,14 +1871,14 @@
 #      }
 #  }
 
- Barycenter 75312 "ETA CrB:2 CrB:ADS 9617 AB:CCDM J15233+3018AB"
+ Barycenter 75312 "ETA CrB:2 CrB:Gliese 584:ADS 9617 AB:CCDM J15233+3018AB"
  {
      RA       230.800943
      Dec       30.288242
      Distance  58.264916
  }
  
- "ETA CrB A:2 CrB A:ADS 9617 A:CCDM J15233+3018A"
+ "ETA CrB A:2 CrB A:Gliese 584 A:ADS 9617 A:CCDM J15233+3018A"
  {
      OrbitBarycenter "ETA CrB"
      SpectralType    "G2V"                                            
@@ -1895,7 +1895,7 @@
      }
  }
 
- "ETA CrB B:2 CrB B:ADS 9617 B:CCDM J15233+3018B"
+ "ETA CrB B:2 CrB B:Gliese 584 B:ADS 9617 B:CCDM J15233+3018B"
  {
      OrbitBarycenter "ETA CrB"
      SpectralType    "G2V"                                            
@@ -1994,16 +1994,16 @@
      }
  }
 
- Barycenter 76382 "GJ 593:ADS 9716 AB:CCDM J15360+3949AB"
+ Barycenter 76382 "Gliese 593:ADS 9716 AB:CCDM J15360+3949AB"
  {
      RA       234.010786
      Dec       39.802406
      Distance  72.756413
  }
  
- "GJ 593 A:ADS 9716 A:CCDM J15360+3949A"
+ "Gliese 593 A:ADS 9716 A:CCDM J15360+3949A"
  {
-     OrbitBarycenter "GJ 593"
+     OrbitBarycenter "Gliese 593"
      SpectralType    "K2V"    # lacking, used HIP data of the entire system!
      AppMag          7.59 
  
@@ -2018,9 +2018,9 @@
      }
  }
 
- "GJ 593 B:ADS 9716 B:CCDM J15360+3949B"
+ "Gliese 593 B:ADS 9716 B:CCDM J15360+3949B"
  {
-     OrbitBarycenter "GJ 593"
+     OrbitBarycenter "Gliese 593"
      SpectralType    "K2V"    # lacking, used HIP data of the entire system!
      AppMag          7.78 
  
@@ -2035,14 +2035,14 @@
      }
  }
 
- Barycenter 80725 "ADS 10075 AB:CCDM J16289+1825AB"
+ Barycenter 80725 "Gliese 627:ADS 10075 AB:CCDM J16289+1825AB"
  {
      RA       247.220326
      Dec       18.413117
      Distance  64.117751
  }
  
- "ADS 10075 A:CCDM J16289+1825A"
+ "Gliese 627 A:ADS 10075 A:CCDM J16289+1825A"
  {
      OrbitBarycenter "ADS 10075 AB"
      SpectralType    "K1V"                                            
@@ -2059,7 +2059,7 @@
      }
  }
 
- "ADS 10075 B:CCDM J16289+1825B"
+ "Gliese 627 B:ADS 10075 B:CCDM J16289+1825B"
  {
      OrbitBarycenter "ADS 10075 AB"
      SpectralType    "K2V"    # lacking, used HIP data of the entire system!
@@ -2076,16 +2076,16 @@
      }
  }
 
-#  Barycenter 84709 "GJ 667:CCDM J17190-3459AB"
+#  Barycenter 84709 "Gliese 667:CCDM J17190-3459AB"
 #  {
 #      RA       259.734835
 #      Dec      -34.989574
 #      Distance  22.295919
 #  }
 #  
-#  "GJ 667 A:CCDM J17190-3459A"
+#  "Gliese 667 A:CCDM J17190-3459A"
 #  {
-#      OrbitBarycenter "GJ 667"
+#      OrbitBarycenter "Gliese 667"
 #      SpectralType    "K4V"    # lacking, used HIP data of the entire system!
 #      AppMag          6.37 
 #  
@@ -2100,9 +2100,9 @@
 #      }
 #  }
 
-#  "GJ 667 B:CCDM J17190-3459B"
+#  "Gliese 667 B:CCDM J17190-3459B"
 #  {
-#      OrbitBarycenter "GJ 667"
+#      OrbitBarycenter "Gliese 667"
 #      SpectralType    "K4V"    # lacking, used HIP data of the entire system!
 #      AppMag          7.37 
 #  
@@ -2117,16 +2117,16 @@
 #      }
 #  }
 
- Barycenter 85667 "GJ 678:ADS 10598 AB:CCDM J17304-0104AB"
+ Barycenter 85667 "Gliese 678:ADS 10598 AB:CCDM J17304-0104AB"
  {
      RA       262.599465
      Dec       -1.062504
      Distance  53.303971
  }
  
- "GJ 678 A:ADS 10598 A:CCDM J17304-0104A"
+ "Gliese 678 A:ADS 10598 A:CCDM J17304-0104A"
  {
-     OrbitBarycenter "GJ 678"
+     OrbitBarycenter "Gliese 678"
      SpectralType    "G5V"                                            
      AppMag          6.16 
  
@@ -2141,9 +2141,9 @@
      }
  }
 
- "GJ 678 B:ADS 10598 B:CCDM J17304-0104B"
+ "Gliese 678 B:ADS 10598 B:CCDM J17304-0104B"
  {
-     OrbitBarycenter "GJ 678"
+     OrbitBarycenter "Gliese 678"
      SpectralType    "G9IV"                                           
      AppMag          6.23 
  
@@ -2158,14 +2158,14 @@
      }
  }
 
- Barycenter 86036 "26 Dra:ADS 10660 AB:CCDM J17351+6152AB"
+ Barycenter 86036 "26 Dra:Gliese 684:ADS 10660 AB:CCDM J17351+6152AB"
  {
      RA       263.746878
      Dec       61.875831
      Distance  46.284518
  }
  
- "26 Dra A:ADS 10660 A:CCDM J17351+6152A"
+ "26 Dra A:Gliese 684 A:ADS 10660 A:CCDM J17351+6152A"
  {
      OrbitBarycenter "26 Dra"
      SpectralType    "G0V"    # lacking, used HIP data of the entire system!
@@ -2182,7 +2182,7 @@
      }
  }
 
- "26 Dra B:ADS 10660 B:CCDM J17351+6152B"
+ "26 Dra B:Gliese 684 B:ADS 10660 B:CCDM J17351+6152B"
  {
      OrbitBarycenter "26 Dra"
      SpectralType    "G0V"    # lacking, used HIP data of the entire system!
@@ -2199,14 +2199,14 @@
      }
  }
 
-#  Barycenter 88601 "V2391 Oph:70 Oph:GJ 702:ADS 11046 AB:CCDM J18055+0230AB"
+#  Barycenter 88601 "V2391 Oph:70 Oph:Gliese 702:ADS 11046 AB:CCDM J18055+0230AB"
 #  {
 #      RA       271.363386
 #      Dec        2.502439
 #      Distance  16.580266
 #  }
 #  
-#  "V2391 Oph A:70 Oph A:GJ 702 A:ADS 11046 A:CCDM J18055+0230A"
+#  "V2391 Oph A:70 Oph A:Gliese 702 A:ADS 11046 A:CCDM J18055+0230A"
 #  {
 #      OrbitBarycenter "V2391 Oph"
 #      SpectralType    "K0V"                                            
@@ -2223,7 +2223,7 @@
 #      }
 #  }
 
-#  "V2391 Oph B:70 Oph B:GJ 702 B:ADS 11046 B:CCDM J18055+0230B"
+#  "V2391 Oph B:70 Oph B:Gliese 702 B:ADS 11046 B:CCDM J18055+0230B"
 #  {
 #      OrbitBarycenter "V2391 Oph"
 #      SpectralType    "K5V"                                            
@@ -2240,46 +2240,48 @@
 #      }
 #  }
 
- Barycenter 93017 "ADS 11871 AB:CCDM J18570+3254AB"
- {
-     RA       284.256123
-     Dec       32.901624
-     Distance  48.507882
- }
- 
- "ADS 11871 A:CCDM J18570+3254A"
- {
-     OrbitBarycenter "ADS 11871 AB"
-     SpectralType    "G0V"    # lacking, used HIP data of the entire system!
-     AppMag          5.42 
- 
-     EllipticalOrbit {
-         Period              61.000
-         SemiMajorAxis        7.519 # mass ratio 1.07 : 0.71
-         Eccentricity         0.250
-         Inclination         39.191
-         AscendingNode      251.476
-         ArgOfPericenter    250.397
-         MeanAnomaly        166.426
-     }
- }
-
- "ADS 11871 B:CCDM J18570+3254B"
- {
-     OrbitBarycenter "ADS 11871 AB"
-     SpectralType    "G0V"    # lacking, used HIP data of the entire system!
-     AppMag          8.03 
- 
-     EllipticalOrbit {
-         Period              61.000
-         SemiMajorAxis       11.222 # mass ratio 1.07 : 0.71
-         Eccentricity         0.250
-         Inclination         39.191
-         AscendingNode      251.476
-         ArgOfPericenter     70.397
-         MeanAnomaly        166.426
-     }
- }
+#  Star already in 'extrasolar.stc'
+#
+# Barycenter 93017 "Gliese 738:ADS 11871 AB:CCDM J18570+3254AB"
+# {
+#     RA       284.256123
+#     Dec       32.901624
+#     Distance  48.507882
+# }
+# 
+# "Gliese 738 A:ADS 11871 A:CCDM J18570+3254A"
+# {
+#     OrbitBarycenter "ADS 11871 AB"
+#     SpectralType    "G0V"    # lacking, used HIP data of the entire system!
+#     AppMag          5.42 
+# 
+#     EllipticalOrbit {
+#         Period              61.000
+#         SemiMajorAxis        7.519 # mass ratio 1.07 : 0.71
+#         Eccentricity         0.250
+#         Inclination         39.191
+#         AscendingNode      251.476
+#         ArgOfPericenter    250.397
+#         MeanAnomaly        166.426
+#     }
+# }
+#
+# "Gliese 738 B:ADS 11871 B:CCDM J18570+3254B"
+# {
+#     OrbitBarycenter "ADS 11871 AB"
+#     SpectralType    "G0V"    # lacking, used HIP data of the entire system!
+#     AppMag          8.03 
+# 
+#     EllipticalOrbit {
+#         Period              61.000
+#         SemiMajorAxis       11.222 # mass ratio 1.07 : 0.71
+#         Eccentricity         0.250
+#         Inclination         39.191
+#         AscendingNode      251.476
+#         ArgOfPericenter     70.397
+#         MeanAnomaly        166.426
+#     }
+# }
 
  Barycenter 93506 "Ascella:ZET Sgr:38 Sgr:ADS 11950 AB:CCDM J19026-2953AB"
  {
@@ -2445,14 +2447,14 @@
      }
  }
 
- Barycenter 107788 "V373 Peg:13 Peg:CCDM J21501+1717AB"
+ Barycenter 107788 "13 Peg:V373 Peg:CCDM J21501+1717AB"
  {
      RA       327.536016
      Dec       17.285957
      Distance 109.013035
  }
  
- "V373 Peg A:13 Peg A:CCDM J21501+1717A"
+ "13 Peg A:V373 Peg A:CCDM J21501+1717A"
  {
      OrbitBarycenter "V373 Peg"
      SpectralType    "F2III"  # lacking, used HIP data of the entire system!
@@ -2469,7 +2471,7 @@
      }
  }
 
- "V373 Peg B:13 Peg B:CCDM J21501+1717B"
+ "13 Peg B:V373 Peg B:CCDM J21501+1717B"
  {
      OrbitBarycenter "V373 Peg"
      SpectralType    "F2III"  # lacking, used HIP data of the entire system!
@@ -2486,16 +2488,16 @@
      }
  }
 
-#  Barycenter 110893 "GJ 860 A:ADS 15972 A:CCDM J22281+5741A"
+#  Barycenter 110893 "Gliese 860 A:ADS 15972 A:CCDM J22281+5741A"
 #  {
 #      RA       337.001740
 #      Dec       57.697020
 #      Distance  13.049812
 #  }
 #  
-#  "GJ 860 Aa:ADS 15972 Aa:CCDM J22281+5741Aa"
+#  "Gliese 860 Aa:ADS 15972 Aa:CCDM J22281+5741Aa"
 #  {
-#      OrbitBarycenter "GJ 860 A"
+#      OrbitBarycenter "Gliese 860 A"
 #      SpectralType    "M2V"    # lacking, used HIP data of the entire system!
 #      AppMag          9.78 
 #  
@@ -2510,9 +2512,9 @@
 #      }
 #  }
 
-#  "GJ 860 Ab:ADS 15972 Ab:CCDM J22281+5741Ab"
+#  "Gliese 860 Ab:ADS 15972 Ab:CCDM J22281+5741Ab"
 #  {
-#      OrbitBarycenter "GJ 860 A"
+#      OrbitBarycenter "Gliese 860 A"
 #      SpectralType    "M2V"    # lacking, used HIP data of the entire system!
 #      AppMag          11.40
 #  
@@ -2609,14 +2611,14 @@
      }
  }
 
- Barycenter 2552 "V547 Cas:GJ 22 A:ADS 433 A:CCDM J00325+6714A"
+ Barycenter 2552 "V547 Cas:Gliese 22 A:ADS 433 A:CCDM J00325+6714A"
  {
      RA         8.111719
      Dec       67.236216
      Distance  32.830096
  }
  
- "V547 Cas A:GJ 22 Aa:ADS 433 Aa:CCDM J00325+6714Aa"
+ "V547 Cas A:Gliese 22 Aa:ADS 433 Aa:CCDM J00325+6714Aa"
  {
      OrbitBarycenter "V547 Cas"
      SpectralType    "M2.5"                                           
@@ -2633,7 +2635,7 @@
      }
  }
 
- "V547 Cas B:GJ 22 Ab:ADS 433 Ab:CCDM J00325+6714Ab"
+ "V547 Cas B:Gliese 22 Ab:ADS 433 Ab:CCDM J00325+6714Ab"
  {
      OrbitBarycenter "V547 Cas"
      SpectralType    "M2.5V"  # lacking, used HIP data of the entire system!
@@ -2773,16 +2775,16 @@
      }
  }
 
- Barycenter 7918 "GJ 67"
+ Barycenter 7918 "Gliese 67"
  {
      RA        25.443816
      Dec       42.613807
      Distance  41.549936
  }
  
- "GJ 67 A"
+ "Gliese 67 A"
  {
-     OrbitBarycenter "GJ 67"
+     OrbitBarycenter "Gliese 67"
      SpectralType    "G1.5V"                                          
      AppMag          5.09 
  
@@ -2797,9 +2799,9 @@
      }
  }
 
- "GJ 67 B"
+ "Gliese 67 B"
  {
-     OrbitBarycenter "GJ 67"
+     OrbitBarycenter "Gliese 67"
      SpectralType    "G2V"    # lacking, used HIP data of the entire system!
      AppMag          11.09
  
@@ -2937,16 +2939,16 @@
      }
  }
 
- Barycenter 12717 "GJ 110:CCDM J02434-6643AB"
+ Barycenter 12717 "Gliese 110:CCDM J02434-6643AB"
  {
      RA        40.860271
      Dec      -66.714056
      Distance 177.264674
  }
  
- "GJ 110 A:CCDM J02434-6643A"
+ "Gliese 110 A:CCDM J02434-6643A"
  {
-     OrbitBarycenter "GJ 110"
+     OrbitBarycenter "Gliese 110"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
      AppMag          6.93 
  
@@ -2961,9 +2963,9 @@
      }
  }
 
- "GJ 110 B:CCDM J02434-6643B"
+ "Gliese 110 B:CCDM J02434-6643B"
  {
-     OrbitBarycenter "GJ 110"
+     OrbitBarycenter "Gliese 110"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
      AppMag          7.30 
  
@@ -2978,14 +2980,14 @@
      }
  }
 
- Barycenter 14879 "ALF For:12 Eri:GJ 127 A:ADS 2402 A:CCDM J03121-2859A"
+ Barycenter 14879 "Dalim:ALF For:12 Eri:Gliese 127 A:ADS 2402 A:CCDM J03121-2859A"
  {
      RA        48.017833
      Dec      -28.989106
      Distance  46.436076
  }
  
- "ALF For A:12 Eri A:GJ 127 Aa:ADS 2402 Aa:CCDM J03121-2859Aa"
+ "Dalim A:ALF For A:12 Eri A:Gliese 127 Aa:ADS 2402 Aa:CCDM J03121-2859Aa"
  {
      OrbitBarycenter "ALF For"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
@@ -3002,7 +3004,7 @@
      }
  }
 
- "ALF For B:12 Eri B:GJ 127 Ab:ADS 2402 Ab:CCDM J03121-2859Ab"
+ "Dalim B:ALF For B:12 Eri B:Gliese 127 Ab:ADS 2402 Ab:CCDM J03121-2859Ab"
  {
      OrbitBarycenter "ALF For"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
@@ -3675,16 +3677,16 @@
      }
  }
 
- Barycenter 23452 "GJ 185:CCDM J05025-2115AB"
+ Barycenter 23452 "Gliese 185:CCDM J05025-2115AB"
  {
      RA        75.618792
      Dec      -21.256105
      Distance  27.975555
  }
  
- "GJ 185 A:CCDM J05025-2115A"
+ "Gliese 185 A:CCDM J05025-2115A"
  {
-     OrbitBarycenter "GJ 185"
+     OrbitBarycenter "Gliese 185"
      SpectralType    "M0V"    # lacking, used HIP data of the entire system!
      AppMag          8.53 
  
@@ -3699,9 +3701,9 @@
      }
  }
 
- "GJ 185 B:CCDM J05025-2115B"
+ "Gliese 185 B:CCDM J05025-2115B"
  {
-     OrbitBarycenter "GJ 185"
+     OrbitBarycenter "Gliese 185"
      SpectralType    "M0V"    # lacking, used HIP data of the entire system!
      AppMag          10.67
  
@@ -3798,14 +3800,14 @@
      }
  }
 
-#  Barycenter 30920 "V577 Mon:GJ 234 A:CCDM J06294-0249A"
+#  Barycenter 30920 "V577 Mon:Gliese 234 A:CCDM J06294-0249A"
 #  {
 #      RA        97.345812
 #      Dec       -2.812477
 #      Distance  13.460177
 #  }
 #  
-#  "V577 Mon A:GJ 234 Aa:CCDM J06294-0249Aa"
+#  "V577 Mon A:Gliese 234 Aa:CCDM J06294-0249Aa"
 #  {
 #      OrbitBarycenter "V577 Mon"
 #      SpectralType    "M4.5V"  # lacking, used HIP data of the entire system!
@@ -3822,7 +3824,7 @@
 #      }
 #  }
 
-#  "V577 Mon B:GJ 234 Ab:CCDM J06294-0249Ab"
+#  "V577 Mon B:Gliese 234 Ab:CCDM J06294-0249Ab"
 #  {
 #      OrbitBarycenter "V577 Mon"
 #      SpectralType    "M4.5V"  # lacking, used HIP data of the entire system!
@@ -4003,14 +4005,14 @@
      }
  }
 
- Barycenter 38382 "9 Pup:GJ 291:ADS 6420 AB:CCDM J07518-1354AB"
+ Barycenter 38382 "9 Pup:Gliese 291:ADS 6420 AB:CCDM J07518-1354AB"
  {
      RA       117.943099
      Dec      -13.897190
      Distance  53.831820
  }
  
- "9 Pup A:GJ 291 A:ADS 6420 A:CCDM J07518-1354A"
+ "9 Pup A:Gliese 291 A:ADS 6420 A:CCDM J07518-1354A"
  {
      OrbitBarycenter "9 Pup"
      SpectralType    "G2V"                                            
@@ -4027,7 +4029,7 @@
      }
  }
 
- "9 Pup B:GJ 291 B:ADS 6420 B:CCDM J07518-1354B"
+ "9 Pup B:Gliese 291 B:ADS 6420 B:CCDM J07518-1354B"
  {
      OrbitBarycenter "9 Pup"
      SpectralType    "G2V"    # lacking, used HIP data of the entire system!
@@ -4085,14 +4087,14 @@
      }
  }
 
- Barycenter 40239 "ADS 6664 AB:CCDM J08131-1355AB"
+ Barycenter 40239 "Gliese 301:ADS 6664 AB:CCDM J08131-1355AB"
  {
      RA       123.285873
      Dec      -13.915796
      Distance  67.320330
  }
  
- "ADS 6664 A:CCDM J08131-1355A"
+ "Gliese 301 A:ADS 6664 A:CCDM J08131-1355A"
  {
      OrbitBarycenter "ADS 6664 AB"
      SpectralType    "M0V"    # lacking, used HIP data of the entire system!
@@ -4109,7 +4111,7 @@
      }
  }
 
- "ADS 6664 B:CCDM J08131-1355B"
+ "Gliese 301 B:ADS 6664 B:CCDM J08131-1355B"
  {
      OrbitBarycenter "ADS 6664 AB"
      SpectralType    "M0V"    # lacking, used HIP data of the entire system!
@@ -4372,16 +4374,16 @@
      }
  }
 
- Barycenter 46706 "GJ 352:CCDM J09313-1329AB"
+ Barycenter 46706 "Gliese 352:CCDM J09313-1329AB"
  {
      RA       142.829169
      Dec      -13.488848
      Distance  32.655887
  }
  
- "GJ 352 A:CCDM J09313-1329A"
+ "Gliese 352 A:CCDM J09313-1329A"
  {
-     OrbitBarycenter "GJ 352"
+     OrbitBarycenter "Gliese 352"
      SpectralType    "M4"                                             
      AppMag          10.73
  
@@ -4396,9 +4398,9 @@
      }
  }
 
- "GJ 352 B:CCDM J09313-1329B"
+ "Gliese 352 B:CCDM J09313-1329B"
  {
-     OrbitBarycenter "GJ 352"
+     OrbitBarycenter "Gliese 352"
      SpectralType    "M2"     # lacking, used HIP data of the entire system!
      AppMag          10.92
  
@@ -4536,14 +4538,14 @@
      }
  }
 
- Barycenter 54204 "GJ 3642:CCDM J11053-2718AB"
+ Barycenter 54204 "CHI1 Hya:GJ 3642:CCDM J11053-2718AB"
  {
      RA       166.333469
      Dec      -27.293595
      Distance 141.014700
  }
  
- "GJ 3642 A:CCDM J11053-2718A"
+ "CHI1 Hya A:GJ 3642 A:CCDM J11053-2718A"
  {
      OrbitBarycenter "GJ 3642"
      SpectralType    "F3IV"                                           
@@ -4560,7 +4562,7 @@
      }
  }
 
- "GJ 3642 B:CCDM J11053-2718B"
+ "CHI1 Hya B:GJ 3642 B:CCDM J11053-2718B"
  {
      OrbitBarycenter "GJ 3642"
      SpectralType    "V"      # lacking, used HIP data of the entire system!
@@ -4577,14 +4579,14 @@
      }
  }
 
- Barycenter 55425 "CCDM J11210-5429AB"
+ Barycenter 55425 "PI Cen:CCDM J11210-5429AB"
  {
      RA       170.251842
      Dec      -54.491014
      Distance 357.639254
  }
  
- "CCDM J11210-5429A"
+ "PI Cen A:CCDM J11210-5429A"
  {
      OrbitBarycenter "CCDM J11210-5429AB"
      SpectralType    "B5V"                                            
@@ -4601,7 +4603,7 @@
      }
  }
 
- "CCDM J11210-5429B"
+ "PI Cen B:CCDM J11210-5429B"
  {
      OrbitBarycenter "CCDM J11210-5429AB"
      SpectralType    "B5V"    # lacking, used HIP data of the entire system!
@@ -5192,16 +5194,16 @@
      }
  }
 
-#  Barycenter 73182 "GJ 570 B:ADS 9446 B:CCDM J14574-2124B"
+#  Barycenter 73182 "Gliese 570 B:ADS 9446 B:CCDM J14574-2124B"
 #  {
 #      RA       224.358045
 #      Dec      -21.407472
 #      Distance  19.326124
 #  }
 #  
-#  "GJ 570 Ba:ADS 9446 Ba:CCDM J14574-2124Ba"
+#  "Gliese 570 Ba:ADS 9446 Ba:CCDM J14574-2124Ba"
 #  {
-#      OrbitBarycenter "GJ 570 B"
+#      OrbitBarycenter "Gliese 570 B"
 #      SpectralType    "M1.5V"                                          
 #      AppMag          8.38 
 #  
@@ -5216,9 +5218,9 @@
 #      }
 #  }
 
-#  "GJ 570 Bb:ADS 9446 Bb:CCDM J14574-2124Bb"
+#  "Gliese 570 Bb:ADS 9446 Bb:CCDM J14574-2124Bb"
 #  {
-#      OrbitBarycenter "GJ 570 B"
+#      OrbitBarycenter "Gliese 570 B"
 #      SpectralType    "M3V"                                            
 #      AppMag          10.15
 #  
@@ -5397,14 +5399,14 @@
      }
  }
 
- Barycenter 78662 "CCDM J16035-5747A"
+ Barycenter 78662 "IOT1 Nor:CCDM J16035-5747A"
  {
      RA       240.884253
      Dec      -57.774874
      Distance 128.462781
  }
  
- "CCDM J16035-5747Aa"
+ "IOT1 Nor A:CCDM J16035-5747Aa"
  {
      OrbitBarycenter "CCDM J16035-5747A"
      SpectralType    "A7IV"                                           
@@ -5421,7 +5423,7 @@
      }
  }
 
- "CCDM J16035-5747Ab"
+ "IOT1 Nor B:CCDM J16035-5747Ab"
  {
      OrbitBarycenter "CCDM J16035-5747A"
      SpectralType    "A7IV"   # lacking, used HIP data of the entire system!
@@ -5479,16 +5481,16 @@
      }
  }
 
- Barycenter 83838 "C Her:ADS 10360 AB:CCDM J17080+3556AB"
+ Barycenter 83838 "c Her:ADS 10360 AB:CCDM J17080+3556AB"
  {
      RA       257.008670
      Dec       35.935215
      Distance 176.976126
  }
  
- "C Her A:ADS 10360 A:CCDM J17080+3556A"
+ "c Her A:ADS 10360 A:CCDM J17080+3556A"
  {
-     OrbitBarycenter "C Her"
+     OrbitBarycenter "c Her"
      SpectralType    "A5"     # lacking, used HIP data of the entire system!
      AppMag          6.15 
  
@@ -5503,9 +5505,9 @@
      }
  }
 
- "C Her B:ADS 10360 B:CCDM J17080+3556B"
+ "c Her B:ADS 10360 B:CCDM J17080+3556B"
  {
-     OrbitBarycenter "C Her"
+     OrbitBarycenter "c Her"
      SpectralType    "A5"     # lacking, used HIP data of the entire system!
      AppMag          6.33 
  
@@ -5561,16 +5563,16 @@
      }
  }
 
- Barycenter 84123 "GJ 660 A:CCDM J17119-0151A"
+ Barycenter 84123 "Gliese 660 A:CCDM J17119-0151A"
  {
      RA       257.969065
      Dec       -1.850968
      Distance  33.217945
  }
  
- "GJ 660 Aa:CCDM J17119-0151Aa"
+ "Gliese 660 Aa:CCDM J17119-0151Aa"
  {
-     OrbitBarycenter "GJ 660 A"
+     OrbitBarycenter "Gliese 660 A"
      SpectralType    "M3V"    # lacking, used HIP data of the entire system!
      AppMag          12.13
  
@@ -5585,9 +5587,9 @@
      }
  }
 
- "GJ 660 Ab:CCDM J17119-0151Ab"
+ "Gliese 660 Ab:CCDM J17119-0151Ab"
  {
-     OrbitBarycenter "GJ 660 A"
+     OrbitBarycenter "Gliese 660 A"
      SpectralType    "M3V"    # lacking, used HIP data of the entire system!
      AppMag          12.15
  
@@ -5602,16 +5604,16 @@
      }
  }
 
- Barycenter 85582 "GJ 677:ADS 10585 AB:CCDM J17293+2924AB"
+ Barycenter 85582 "Gliese 677:ADS 10585 AB:CCDM J17293+2924AB"
  {
      RA       262.334185
      Dec       29.392615
      Distance  77.492754
  }
  
- "GJ 677 A:ADS 10585 A:CCDM J17293+2924A"
+ "Gliese 677 A:ADS 10585 A:CCDM J17293+2924A"
  {
-     OrbitBarycenter "GJ 677"
+     OrbitBarycenter "Gliese 677"
      SpectralType    "K2"                                             
      AppMag          9.66 
  
@@ -5626,9 +5628,9 @@
      }
  }
 
- "GJ 677 B:ADS 10585 B:CCDM J17293+2924B"
+ "Gliese 677 B:ADS 10585 B:CCDM J17293+2924B"
  {
-     OrbitBarycenter "GJ 677"
+     OrbitBarycenter "Gliese 677"
      SpectralType    "K2"     # lacking, used HIP data of the entire system!
      AppMag          10.06
  
@@ -5766,16 +5768,16 @@
      }
  }
 
- Barycenter 88745 "B Her:99 Her:GJ 704:ADS 11077 AB:CCDM J18071+3034AB"
+ Barycenter 88745 "b Her:99 Her:Gliese 704:ADS 11077 AB:CCDM J18071+3034AB"
  {
      RA       271.756699
      Dec       30.561868
      Distance  51.019396
  }
  
- "B Her A:99 Her A:GJ 704 A:ADS 11077 A:CCDM J18071+3034A"
+ "b Her A:99 Her A:Gliese 704 A:ADS 11077 A:CCDM J18071+3034A"
  {
-     OrbitBarycenter "B Her"
+     OrbitBarycenter "b Her"
      SpectralType    "F7V"    # lacking, used HIP data of the entire system!
      AppMag          5.19 
  
@@ -5790,9 +5792,9 @@
      }
  }
 
- "B Her B:99 Her B:GJ 704 B:ADS 11077 B:CCDM J18071+3034B"
+ "b Her B:99 Her B:Gliese 704 B:ADS 11077 B:CCDM J18071+3034B"
  {
-     OrbitBarycenter "B Her"
+     OrbitBarycenter "b Her"
      SpectralType    "F7V"    # lacking, used HIP data of the entire system!
      AppMag          8.90 
  
@@ -5848,14 +5850,14 @@
      }
  }
 
- Barycenter 88964 "73 Oph:ADS 11111 AB:CCDM J18096+0359AB"
+ Barycenter 88964 "73 Oph:V2666 Oph:ADS 11111 AB:CCDM J18096+0359AB"
  {
      RA       272.391101
      Dec        3.993287
      Distance 178.721644
  }
  
- "73 Oph A:ADS 11111 A:CCDM J18096+0359A"
+ "73 Oph A:V2666 Oph A:ADS 11111 A:CCDM J18096+0359A"
  {
      OrbitBarycenter "73 Oph"
      SpectralType    "F2V"                                            
@@ -5872,7 +5874,7 @@
      }
  }
 
- "73 Oph B:ADS 11111 B:CCDM J18096+0359B"
+ "73 Oph B:V2666 Oph B:ADS 11111 B:CCDM J18096+0359B"
  {
      OrbitBarycenter "73 Oph"
      SpectralType    "F2V"    # lacking, used HIP data of the entire system!
@@ -6094,16 +6096,16 @@
      }
  }
 
- Barycenter 94739 "GJ 750:CCDM J19167-4553AB"
+ Barycenter 94739 "Gliese 750:CCDM J19167-4553AB"
  {
      RA       289.178087
      Dec      -45.888342
      Distance  52.505956
  }
  
- "GJ 750 A:CCDM J19167-4553A"
+ "Gliese 750 A:CCDM J19167-4553A"
  {
-     OrbitBarycenter "GJ 750"
+     OrbitBarycenter "Gliese 750"
      SpectralType    "K9V"    # lacking, used HIP data of the entire system!
      AppMag          10.16
  
@@ -6118,9 +6120,9 @@
      }
  }
 
- "GJ 750 B:CCDM J19167-4553B"
+ "Gliese 750 B:CCDM J19167-4553B"
  {
-     OrbitBarycenter "GJ 750"
+     OrbitBarycenter "Gliese 750"
      SpectralType    "K9V"    # lacking, used HIP data of the entire system!
      AppMag          10.23
  
@@ -6545,16 +6547,16 @@
      }
  }
 
- Barycenter 113996 "H Aqr:83 Aqr:ADS 16497 AB:CCDM J23052-0743AB"
+ Barycenter 113996 "h Aqr:83 Aqr:ADS 16497 AB:CCDM J23052-0743AB"
  {
      RA       346.290478
      Dec       -7.693819
      Distance 209.484265
  }
  
- "H Aqr A:83 Aqr A:ADS 16497 A:CCDM J23052-0743A"
+ "h Aqr A:83 Aqr A:ADS 16497 A:CCDM J23052-0743A"
  {
-     OrbitBarycenter "H Aqr"
+     OrbitBarycenter "h Aqr"
      SpectralType    "A9III"                                          
      AppMag          6.12 
  
@@ -6569,9 +6571,9 @@
      }
  }
 
- "H Aqr B:83 Aqr B:ADS 16497 B:CCDM J23052-0743B"
+ "h Aqr B:83 Aqr B:ADS 16497 B:CCDM J23052-0743B"
  {
-     OrbitBarycenter "H Aqr"
+     OrbitBarycenter "h Aqr"
      SpectralType    "F2V"    # lacking, used HIP data of the entire system!
      AppMag          6.42 
  
