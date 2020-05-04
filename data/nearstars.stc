@@ -1133,7 +1133,7 @@ Barycenter 54211 "Gliese 412:Lalande 21258" # orbits of A & B unknown
 	Dec -47.01426260
 	Distance 15.8847 # 205.3266 +/- 0.2545 mas
 	SpectralType "L9V"
-	Radius 70000 # approx.
+	Radius 60000 # approx.
 	AppMag 22.921
 }
 
@@ -1347,6 +1347,7 @@ Barycenter "GJ 1116"  # orbit of A & B unknown
 	Distance 16.8516 # 193.5457 +/- 0.9420 mas
 	AppMag 17.48 # calculated from J, H, and Ks bands
 	SpectralType "T6"
+	Radius 60000 # approx.
 	RotationPeriod 1.74
 	Temperature 1000
 }
@@ -2779,7 +2780,7 @@ Barycenter "Scholz's Star:WISE 0720-0846:WISE J072003.20-084651.2"
 }
 
 # Used parallax of component B, from Gaia DR2
-# Winters et al. (2019), eprint arXiv 1906.10147
+# Winters et al. (2019), AJ 158 (4), 152
 # "Three Red Suns in the Sky: A Transiting, Terrestrial Planet in a Triple 
 # M Dwarf System at 6.9 Parsecs"
 # https://arxiv.org/abs/1906.10147
@@ -2962,31 +2963,19 @@ Modify 103096 # Gliese 809
 # Distance from average of distances from Gaia DR2 parallax for A and B
 Barycenter "Gliese 105" # orbit of (AB) and C unknown
 {
-	RA 39.027432618 # mass ratio ((0.81:0.08):0.17):0.21
-	Dec 6.884370406 # A: 138.2084 +/- 0.1436 mas
-	Distance 23.577 # B: 138.4637 +/- 0.0886 mas
+	RA 39.028581069 # mass ratio (0.81:0.082):0.21
+	Dec 6.883949884 # A: 138.2084 +/- 0.1436 mas
+	Distance 23.591 # B: 138.4637 +/- 0.0886 mas
 }
 
-Barycenter 12114 "Gliese 105 A-B"
+# Masses from Golimowski et al. (2002), AJ 120 (4), 2082
+# "The Very Low Mass Component of the Gliese 105 System"
+# https://iopscience.iop.org/article/10.1086/301567
+Barycenter 12114 "Gliese 105 A"
 {
-	RA 39.020265166 # mass ratio (0.81:0.08):0.17
-	Dec 6.886891351
+	RA 39.020334067 # mass ratio 0.81:0.082
+	Dec 6.886846623
 	Distance 23.599 # 138.2084 +/- 0.1436 mas
-}
-
-Barycenter "Gliese 105 A"
-{
-	OrbitBarycenter "Gliese 105"
-
-	EllipticalOrbit {
-		Period            201
-		SemiMajorAxis     6.1 # mass ratio (0.81:0.08):0.17
-		Eccentricity      0.4
-		Inclination     132.2
-		AscendingNode     6.4
-		ArgOfPericenter 277.2
-		MeanAnomaly     351.0
-	}
 }
 
 "Gliese 105 Aa"
@@ -2997,7 +2986,7 @@ Barycenter "Gliese 105 A"
 
 	EllipticalOrbit {
 		Period           61
-		SemiMajorAxis  0.11 # mass ratio 0.81:0.08
+		SemiMajorAxis  0.11 # mass ratio 0.81:0.082
 		Eccentricity   0.67
 		Inclination      61
 		AscendingNode   356
@@ -3006,15 +2995,15 @@ Barycenter "Gliese 105 A"
 	}
 }
 
-"Gliese 105 Ab"
+"Gliese 105 Ab" # SIMBAD calls it GJ 105 C
 {
 	OrbitBarycenter "Gliese 105 A"
-	SpectralType "M7.5V"
-	AppMag 16.90
+	SpectralType "M7V"
+	AppMag 16.77
 
 	EllipticalOrbit {
 		Period           61
-		SemiMajorAxis  1.13 # mass ratio 0.81:0.08
+		SemiMajorAxis  1.13 # mass ratio 0.81:0.082
 		Eccentricity   0.67
 		Inclination      61
 		AscendingNode   356
@@ -3023,26 +3012,7 @@ Barycenter "Gliese 105 A"
 	}
 }
 
-# Spectral type from same source as orbit; mass and magnitude estimated
-# from spectral type
-"Gliese 105 B"
-{
-	OrbitBarycenter "Gliese 105"
-	SpectralType "M4.5V"
-	AbsMag 12.6 # guess from spectral type
-
-	EllipticalOrbit {
-		Period           201
-		SemiMajorAxis   32.2 # mass ratio (0.81:0.08):0.17
-		Eccentricity     0.4
-		Inclination    132.2
-		AscendingNode    6.4
-		ArgOfPericenter 97.2
-		MeanAnomaly    351.0
-	}
-}
-
-"BX Cet:Gliese 105 C" # SIMBAD calls it GJ 105 B
+"BX Cet:Gliese 105 B"
 {
 	RA 39.06361119
 	Dec 6.87164564
