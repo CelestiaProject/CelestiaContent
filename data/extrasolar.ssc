@@ -27467,7 +27467,7 @@ AltSurface "limit of knowledge" "HD 216956/b"
 }
 
 
-"A" "PSR 1257+12"   # PSR J1300+1240
+"A:Draugr" "PSR 1257+12"   # PSR J1300+1240
 # Star not present in Celestia's default stars.dat file.
 
 {
@@ -27500,7 +27500,7 @@ AltSurface "limit of knowledge" "PSR 1257+12/A"
 }
 
 
-"B" "PSR 1257+12"   # PSR J1300+1240
+"B:Poltergeist" "PSR 1257+12"   # PSR J1300+1240
 # Star not present in Celestia's default stars.dat file.
 
 {
@@ -27533,7 +27533,7 @@ AltSurface "limit of knowledge" "PSR 1257+12/B"
 }
 
 
-"C" "PSR 1257+12"   # PSR J1300+1240
+"C:Phobetor" "PSR 1257+12"   # PSR J1300+1240
 # Star not present in Celestia's default stars.dat file.
 
 {
@@ -27561,37 +27561,6 @@ AltSurface "limit of knowledge" "PSR 1257+12/B"
 }
 
 AltSurface "limit of knowledge" "PSR 1257+12/C"
-{
-	Texture "extrasolar-lok.*"
-}
-
-
-"D" "PSR 1257+12"   # PSR J1300+1240
-# Star not present in Celestia's default stars.dat file.
-
-{
-	Texture "asteroid.*"
-
-	Mass      0.0004     # M.sin(i) = 0.0004 earths
-	Radius     500
-	Oblateness 0.05
-
-	InfoURL "http://live.psu.edu/story/10180"
-
-	EllipticalOrbit {
-		Period          3.95
-		SemiMajorAxis   2.8
-		Inclination     119.2
-		AscendingNode   152.2
-	}
-
-	Obliquity             119 # guess, to match inclination
-	EquatorAscendingNode  152 # guess, to match ascending node
-
-	RotationPeriod  5 # plausible guess
-}
-
-AltSurface "limit of knowledge" "PSR 1257+12/D"
 {
 	Texture "extrasolar-lok.*"
 }

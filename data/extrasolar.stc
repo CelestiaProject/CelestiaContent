@@ -2599,11 +2599,11 @@ Barycenter "Gliese 777"
 	AppMag 14.40
 }
 
-"PSR 1257+12:PSR B1257+12:PSR J1300+1240"
+"PSR 1257+12:PSR B1257+12:PSR J1300+1240:Lich"
 {
 	RA 195.0125
 	Dec 12.6825
-	Distance 1000
+	Distance 2300
 	SpectralType "Q"
 	AbsMag 27         # for approximate radius in Celestia
 
