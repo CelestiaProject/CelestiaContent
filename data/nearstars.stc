@@ -137,7 +137,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 
 	EllipticalOrbit {              # fully specified orientation
 		Period           27.54
-		SemiMajorAxis     1.64 # mass ratio 33.51:28.55J
+		SemiMajorAxis     1.64 # mass ratio 33.51J:28.55J
 		Eccentricity      0.34
 		Inclination     135.69
 		AscendingNode   118.66
@@ -154,7 +154,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 
 	EllipticalOrbit {              # fully specified orientation
 		Period           27.54
-		SemiMajorAxis     1.92 # mass ratio 33.51:28.55J
+		SemiMajorAxis     1.92 # mass ratio 33.51J:28.55J
 		Eccentricity      0.34
 		Inclination     135.69
 		AscendingNode   118.66
@@ -1288,9 +1288,9 @@ Barycenter 88601 "70 Oph:Gliese 702:ADS 11046:Struve 2272"
 	}
 }
 
-# rotational parameters from Monnier et al. (2007), Science 317 (5836), 342
-# "Imaging the Surface of Altair"
-# https://arxiv.org/abs/0706.0867
+# rotational parameters from Bouchaud et al. (2020), A&A 633, A78
+# "A realistic two-dimensional model of Altair"
+# https://arxiv.org/abs/1912.03138
 97649 # Altair
 {
 	RA 297.69582730
@@ -1298,14 +1298,15 @@ Barycenter 88601 "70 Oph:Gliese 702:ADS 11046:Struve 2272"
 	Distance 16.730 # 194.95 +/- 0.57
 	SpectralType "A7IV"
 	AppMag 0.76
+	Radius 1396700 # equatorial radius
 
-	SemiAxes [ 1 0.81 1 ] # equatorial radius 24% greater than polar
+	SemiAxes [ 1 0.779 1 ] # equatorial radius 28.3% greater than polar
 
 	UniformRotation
 	{
-		Period         10.4
-		Inclination    77.86 # inclination (i) = 57.2 deg
-		AscendingNode 252.65 # orientation (alpha) = -61.8 deg
+		Period          7.79 # from equatorial rotational velocity
+		Inclination    81.21 # inclination (i) = 50.65 deg
+		AscendingNode 246.44 # orientation (alpha) = 301.13 deg
 	}
 }
 
@@ -3271,13 +3272,16 @@ Barycenter 5336 "MU Cas:30 Cas:Gliese 53"
 	AppMag 5.24
 }
 
+# Rotational parameters based on disk parameters, from
+# MacGregor et al. (2017), ApJ 842 (1), 8
+# "A Complete ALMA Map of the Fomalhaut Debris Disk"
+# https://arxiv.org/abs/1705.05867
 Modify 113368 # Fomalhaut 
 {
 	UniformRotation
 	{
-	    Inclination    81.8    # rotation pole matches debris disk
-	    AscendingNode  176.6   # Bouquin et al. (2009) A&A 498, L41-44
-# (http://www.aanda.org/index.php?option=article&access=doi&doi=10.1051/0004-6361/200911854)
+		Inclination    83.2  # rotation pole matches debris disk
+		AscendingNode  177.5 # inclination 65.6 deg, position angle 337.9 deg
  	}
 }
 
@@ -3325,17 +3329,18 @@ Modify 65859 # Ross 490
 	AppMag 12.624
 }
 
+# rotational parameters from Monnier et al. (2012), ApJL 761 (1), L3
+# "Resolving Vega and the Inclination Controversy with CHARA/MIRC"
+# https://arxiv.org/abs/1211.6055
 Modify 91262 # Vega
 {
-	SemiAxes [ 1 0.80 1 ] # equatorial radius 25% greater than polar
+	SemiAxes [ 1 0.887 1 ] # equatorial radius 12.7% greater than polar
 
 	UniformRotation
 	{
-	    Period         12.4
-	    # Inclination    28   # rotation pole points
-	    # AscendingNode  15   # towards solar system
-	    Inclination   147.35 # inclination (i) = 4.54
-	    AscendingNode 192.95 # inclination (i) = 8.6
+		Period         17.04
+		Inclination   150.91 # inclination (i) = 6.2
+		AscendingNode 208.14 # pole position angle = -58
 	}
 }
 
