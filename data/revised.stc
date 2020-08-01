@@ -23,15 +23,15 @@ Modify 746 # Caph: rapidly rotating star, rotational parameters from
            # and alpha Leonis"
            # https://arxiv.org/abs/1105.0740
 {
-    Radius 2636700 # equatorial radius
-    SemiAxes [ 1 0.81 1 ] # equatorial radius 24% greater than polar
+	Radius 2636700 # equatorial radius
+	SemiAxes [ 1 0.81 1 ] # equatorial radius 24% greater than polar
 
-    UniformRotation
-    {
-        Period         21.43 # from rotation rate
-        Inclination   125.88 # inclination (i) = 19.9 deg
-        AscendingNode 287.38 # orientation (alpha) = -7.09 deg
-    }        
+	UniformRotation
+	{
+		Period        21.43 # from rotation rate
+		Inclination   125.88 # inclination (i) = 19.9 deg
+		AscendingNode 287.38 # orientation (alpha) = -7.09 deg
+	}		
 }
 
 Modify 3693 # Zet And: rapidly rotating star, rotational parameters from
@@ -40,14 +40,14 @@ Modify 3693 # Zet And: rapidly rotating star, rotational parameters from
             # starspot asymmetry"
             # https://arxiv.org/abs/1709.10107
 {
-    Radius 11061630 # equatorial radius
-    SemiAxes [ 1 0.94 1 ] # equatorial radius 6% greater than polar
+	Radius 11061630 # equatorial radius
+	SemiAxes [ 1 0.94 1 ] # equatorial radius 6% greater than polar
 
-    UniformRotation
-    {
-        Inclination   151.6 # inclination (i) = 70.0 deg
-        AscendingNode 210.2 # orientation (alpha) = 126.0 deg
-    }
+	UniformRotation
+	{
+		Inclination   151.6 # inclination (i) = 70.0 deg
+		AscendingNode 210.2 # orientation (alpha) = 126.0 deg
+	}
 }
 
 Modify 7588 # Achernar: rapidly rotating star, rotational parameters from
@@ -56,14 +56,14 @@ Modify 7588 # Achernar: rapidly rotating star, rotational parameters from
             # parameters revealed by the VLTI"
             # https://www.aanda.org/articles/aa/abs/2014/09/aa24144-14/aa24144-14.html
 {
-    SemiAxes [ 1 0.74 1 ] # equatorial radius 35.2% greater than polar
+	SemiAxes [ 1 0.74 1 ] # equatorial radius 35.2% greater than polar
 
-    UniformRotation
-    {
-        Period         37.25
-        Inclination    68.76 # inclination (i) = 60.6 deg
-        AscendingNode 323.15 # orientation (alpha) = 216.9 deg
-    }
+	UniformRotation
+	{
+		Period        37.25
+		Inclination   68.76 # inclination (i) = 60.6 deg
+		AscendingNode 323.15 # orientation (alpha) = 216.9 deg
+	}
 }
 
 Modify 8709 # Improved spectral class from McCook & Sion
@@ -97,15 +97,15 @@ Modify 17358 # Del Per: rapidly rotating star, rotational parameters from
              # δ Persei with the visible VEGA/CHARA interferometer"
              # https://www.aanda.org/articles/aa/abs/2017/08/aa29934-16/aa29934-16.html
 {
-    Radius 7304850 # equatorial radius
-    SemiAxes [ 1 0.89 1 ] # equatorial radius 12% greater than polar
+	Radius 7304850 # equatorial radius
+	SemiAxes [ 1 0.89 1 ] # equatorial radius 12% greater than polar
 
-    UniformRotation
-    {
-        Period         72 # from equatorial rotational velocity
-        Inclination    49 # inclination (i) = 85 deg
-        AscendingNode 281 # orientation (alpha) = 23 deg
-    }
+	UniformRotation
+	{
+		Period        72 # from equatorial rotational velocity
+		Inclination   49 # inclination (i) = 85 deg
+		AscendingNode 281 # orientation (alpha) = 23 deg
+	}
 }
 
 Modify 17797 # Spectral class of primary component from SIMBAD
@@ -128,15 +128,15 @@ Modify 49669 # Regulus: rapidly rotating star, rotational parameters from
              # "Differential interferometry of the rapid rotator Regulus"
              # https://arxiv.org/abs/1808.01399
 {
-    Radius 2894100
-    SemiAxes [ 1 0.76 1 ] # equatorial radius 35% greater than polar
+	Radius 2894100
+	SemiAxes [ 1 0.76 1 ] # equatorial radius 35% greater than polar
 
-    UniformRotation
-    {
-        Period         14.63
-        Inclination   122.54 # inclination (i) = 86.3 deg
-        AscendingNode 145.74 # orientation (alpha) = 258 deg
-    }
+	UniformRotation
+	{
+		Period        14.63
+		Inclination   122.54 # inclination (i) = 86.3 deg
+		AscendingNode 145.74 # orientation (alpha) = 258 deg
+	}
 }
 
 Modify 54061 # Dubhe: Spectral class from SIMBAD, replaces "F7V comp"
@@ -185,20 +185,32 @@ Modify 86032 # Rasalhague: rapidly rotating star, rotational parameters from
              # Rasalhague (α Ophiuchi)"
              # https://arxiv.org/abs/1012.0787
 {
-    Radius 1988300
-    SemiAxes [ 1 0.84 1 ] # equatorial radius 19.7% greater than polar
+	Radius 1988300
+	SemiAxes [ 1 0.84 1 ] # equatorial radius 19.7% greater than polar
 
-    UniformRotation
-    {
-        Period         14.55 # from rotation rate
-        Inclination    65.12 # inclination (i) = 87.5 deg
-        AscendingNode 239.23 # orientation (alpha) = -53.5 deg
-    }
+	UniformRotation
+	{
+		Period        14.55 # from rotation rate
+		Inclination   65.12 # inclination (i) = 87.5 deg
+		AscendingNode 239.23 # orientation (alpha) = -53.5 deg
+	}
 }
 
 Modify 88267 # 95 Her: Spectral class from SIMBAD; replaces "G5"
 {
 	SpectralType "A5III"
+}
+
+Modify 89931 # Del Sgr: Distance from Hipparcos parallax, which is more accurate than the Gaia parallax
+{
+	Distance 347.726 # 9.38 +/- 0.18 mas
+	AppMag 2.72 # keep same magnitude
+}
+
+Modify 92791 # Del2 Lyr: Distance from Hipparcos parallax, which is more accurate than the Gaia parallax
+{
+	Distance 736.269 # 4.43 +/- 0.18 mas
+	AppMag 4.22 # keep same magnitude
 }
 
 Modify 95071 # Improved spectral class from McCook & Sion
@@ -221,15 +233,15 @@ Modify 105199 # Alderamin: rapidly rotating star, rotational parameters from
               # "Imaging and Modeling Rapidly Rotating Stars: α Cephei and α Ophiuchi"
               # https://arxiv.org/abs/0906.2241
 {
-    Radius 1906200
-    SemiAxes [ 1 0.79 1 ] # equatorial radius 27% greater than polar
+	Radius 1906200
+	SemiAxes [ 1 0.79 1 ] # equatorial radius 27% greater than polar
 
-    UniformRotation
-    {
-        Period        12.22 # from v sin i, equatorial radius, and inclination
-        Inclination  132.90 # inclination (i) = 55.70 deg
-        AscendingNode 28.56 # orientation (alpha) = -178.84 deg
-    }
+	UniformRotation
+	{
+		Period        12.22 # from v sin i, equatorial radius, and inclination
+		Inclination   132.90 # inclination (i) = 55.70 deg
+		AscendingNode 28.56 # orientation (alpha) = -178.84 deg
+	}
 }
 
 Modify 105259 # Spectral class from SIMBAD; replaces "B3Vv comp"
@@ -253,15 +265,15 @@ Modify 108874 # Omi Aqr: rapidly rotating star, rotational parameters from
               # the edge-on Be star o Aquarii"
               # https://arxiv.org/abs/2002.09552
 {
-    Radius 3732400 # equatorial radius
-    SemiAxes [ 1 0.89 1 ] # equatorial radius 12% greater than polar
+	Radius 3732400 # equatorial radius
+	SemiAxes [ 1 0.89 1 ] # equatorial radius 12% greater than polar
 
-    UniformRotation
-    {
-        Period         17.7 # from equatorial rotational velocity
-        Inclination   130.3 # inclination (i) = 63.6 deg
-        AscendingNode 179.1 # orientation (alpha) = 110 deg
-    }
+	UniformRotation
+	{
+		Period        17.7 # from equatorial rotational velocity
+		Inclination   130.3 # inclination (i) = 63.6 deg
+		AscendingNode 179.1 # orientation (alpha) = 110 deg
+	}
 }
 
 # "Remove" spurious HIP stars

@@ -69,7 +69,7 @@ Barycenter "Solar System Barycenter:SSB"
 }
 
 # Distance from the same source as orbits
-Barycenter "Rigil Kentaurus:Toliman:ALF Cen:Gliese 559"
+Barycenter "ALF Cen:Gliese 559"
 {
 	RA  219.8993053 # mass ratio 1.133:0.972
 	Dec -60.8356249
