@@ -4,27 +4,28 @@ Scientific Data Base
 # Grant Hutchison
     Supplied the correct orientations for the major planets, their moons, and a
     number of asteroids and also worked on these data files:
-        Solarsys.ssc, nearstars.stc, extrasolar.ssc, extrasolar.stc, earth_locs.ssc
+        solarsys.ssc, nearstars.stc, extrasolar.ssc, extrasolar.stc, earth_locs.ssc
 
 # Fridger Schrempp
     Complete NGC/IC galaxy database + local group galaxies (galaxies.dsc)
-        Data base on globular clusters (globulars.dsc)
 
-        Data base on visual and spectroscopic binaries (visualbins.stc,
-        spectbins.stc)
+    Database of globular clusters (globulars.dsc)
 
-        World-capitals.ssc
+    Database of visual and spectroscopic binaries (visualbins.stc,
+    spectbins.stc)
+
+    World-capitals.ssc
 
     Asterisms.dat
 
 # Andrew Tribick
-    Significant update of the stars.dat base based on Gaia DR2 data
+    Significant update of the star database based on Gaia DR2 data
     (see: https://github.com/ajtribick/celestia-gaia-stardb);
     licensed under CC-BY-SA 4.0.
 
-        CHARM2 stellar radii (charm2.stc)
+    CHARM2 stellar radii (charm2.stc)
 
-        Open cluster catalog (openclusters.dsc)
+    Open cluster catalog (openclusters.dsc)
 
 # LukeCEL
     Complete update of nearstars.stc
@@ -37,14 +38,51 @@ https://www.deviantart.com/celestiaofficial/gallery/68412929/Release-Textures
 
    In particular, there are textures of Jupiter, Saturn, Phobos and Deimos.
 
+# FarGetaNik
+
+    Mercury:
+    Normal map derived from USGS DEM, details improved with a texture reposted by Kexitt.
+    Surface texture based on USGS color map, gaps filled with larger greyscale map.
+
+    Venus:
+    Normal map derived from USGS DEM.
+    Surface texture based on John Van Vliet's addon.
+    Cloud texture based on Snowfall's texture.
+
+    Earth:
+    Surface texture derived from:
+        https://www.earthstartsbeating.com/2019/01/16/mappamondo/
+    and improved by the specular map derived from Natural Earth II by Tom Patterson
+        http://www.shadedrelief.com/natural3/pages/extra.html
+    Normal map derived from the BMNG datadet.
+    Night texture derived from BMNG dataset and colored with a night texture by JVV, posted on the Celestia forum:
+        http://celestia.space/forum/viewtopic.php?f=23&t=17477
+    Cloud Texture from the BMNG dataset
+
+    Moon:
+    Normal map derived from USGS DEM.
+    Surface texture derived from LRO map posted on the Celestial Matters forum:
+        http://forum.celestialmatters.org/viewtopic.php?f=2&t=800
+    Improved with the CGI Moon Kit
+        https://svs.gsfc.nasa.gov/4720
+
+    Mars:
+    Surface texture based on USGS Viking map, details are from Surveyor data:
+        http://www.msss.com/mgcwg/mgm/
+    Color and cloud texture extracted from a map on the NASA photojournal, brightness adjusted with the USGS albedo map.
+    Normal map derived from USGS DEM.
+
+# Fireon12064
+
+    Created the new asteroid.jpg texture.
+
 # Most of the old maps are from David Seal's site: http://maps.jpl.nasa.gov/.
 
    Some of these maps were modified, with fictional terrain added to fill in
    gaps. The Galileo spacecraft model is also from David Seal's site (though
    it was converted from Inventor to 3DS format.)
 
-# The Mars, Neptune, and Uranus textures and Mars bump maps are all from James
-  Hastings-Trew's collection.
+# The Neptune and Uranus textures are from James Hastings-Trew's collection.
 
 # Grant Hutchison
 
@@ -55,9 +93,6 @@ https://www.deviantart.com/celestiaofficial/gallery/68412929/Release-Textures
 # Jens Meyer
 
    Dione and Rhea are USGS maps colored and modified by Jens Meyer.
-
-   The Moon map is based on data from PDS Map-A-Planet at with colors from
-   Mark Robinson.
 
 # Fridger Schrempp
 
@@ -79,29 +114,13 @@ https://www.deviantart.com/celestiaofficial/gallery/68412929/Release-Textures
    The Iapetus texture was created from the Oct 2008 Ciclops map
    (http://photojournal.jpl.nasa.gov/catalog/PIA11116)
 
-   The Lunar topography and bump maps, using Clementine laser altimeter data,
-   merged in the polar regions with topographic data  from Clementine 750 nm
-   oblique and nadir images.
-
-   The Mercury map was created from a combination of Mariner 10 imaging
-   with recent MESSENGER WAC images from the first two flybys, as collected
-   and reprojected by Steve Albers.
-
 # Phil Stooke
 
    Proteus, Janus, Prometheus and Epimetheus maps are from Phil Stooke.
 
    The Ida and Gaspra photomosaic maps are by Phil Stooke.
 
-# Venus's clouds and the textures for Ganymede, Callisto and Saturn are from
-  Björn Jónsson.
-
-# Venus's surface is a copyright-free NASA image, prepared from Magellan radar
-  data. The original is available at
-    http://www.solarviews.com/cap/venus/venmap.htm
-
-# The Earth texture was created by NASA using data from the MODIS instrument
-  aboard the Terra satellite.
+# The textures for Ganymede, Callisto and Saturn are from Björn Jónsson.
 
 # Steve Albers
    The Io and Europa maps are by Steve Albers.
@@ -116,8 +135,6 @@ https://www.deviantart.com/celestiaofficial/gallery/68412929/Release-Textures
   (http://www.johnstonsarchive.net/spaceart/cylmaps.html), and further modified
   by Jens Meyer and Grant Hutchison.
 
-# The asteroid.jpg texture was created by Paul Roberts.
-
 # The textures for the five classes of extrasolar giant planet were created by
   Andrew Tribick.
 
@@ -125,6 +142,14 @@ https://www.deviantart.com/celestiaofficial/gallery/68412929/Release-Textures
 
   The map of Enceladus is derived from the December 2008 CICLOPS map:
   http://ciclops.org/view/5447/Map_of_Enceladus_December_2008
+
+# Stars:
+    O, B, A star textures derived from SDO images of a Sun without spots
+    F, G, K star textures derived from SDO images featuring spots
+    M star texture based on images from the Swedish Solar Telescope:
+        https://www.isf.astro.su.se/
+    L star texture derived from IR images of the Sun by SDO
+    T star texture derived from a fictional texture by John Van Vliet
 
 Note on content from JPL
 ------------------------
