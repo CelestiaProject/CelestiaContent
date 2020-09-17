@@ -320,12 +320,6 @@ Modify 82257 # DN Dra: improved spectral class from McCook & Sion
 	SpectralType "DAV4"
 }
 
-Modify 85605 # Fix anomalously low distance
-{
-	Distance 1790 # Parallax 1.8221 +/- 0.0265
-	AppMag 11.03 # keep same magnitude
-}
-
 Modify 82724 # Fix anomalously low distance
 {
 	Distance 205.10 # Parallax 15.9032 +/- 0.0336
@@ -341,6 +335,28 @@ Modify 82725 # Fix anomalously low distance
 Modify 84716 # Spectral class from SIMBAD, replacing "N7"
 {
 	SpectralType "WN8h"
+}
+
+Modify 85605 # Fix anomalously low distance
+{
+	Distance 1790 # Parallax 1.8221 +/- 0.0265
+	AppMag 11.03 # keep same magnitude
+}
+
+Modify 85755 # 51 Oph: rapidly rotating star, rotational parameters from
+             # Jamialahmadi et al. (2011), A&A 579, A81
+             # "The peculiar fast-rotating star 51 Ophiuchi probed by VEGA/CHARA"
+             # https://arxiv.org/abs/1709.04872
+{
+	Radius 5621000
+	SemiAxes [ 1 0.70 1 ] # equatorial radius 43% greater than polar
+
+	UniformRotation
+	{
+		Period        36.75 # from equatorial rotational velocity
+		Inclination   46 # inclination (i) = 80 deg
+		AscendingNode 97 # position angle of major axis = 138 deg
+	}
 }
 
 Modify 86032 # Rasalhague: rapidly rotating star, rotational parameters from
