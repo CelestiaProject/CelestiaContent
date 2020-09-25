@@ -769,7 +769,7 @@ Barycenter 110893 "Gliese 860:Kruger 60:ADS 15972"
 	Distance 13.0780 # 249.3926 +/- 0.1653 mas
 }
 
-"Gliese 860 A:Kruger 60 A:ADS 15972 A"
+1000923991 "Gliese 860 A:Kruger 60 A:ADS 15972 A"
 {
 	OrbitBarycenter "Kruger 60"
 	SpectralType "M3V"
@@ -1254,7 +1254,7 @@ Barycenter 88601 "70 Oph:Gliese 702:Struve 2272:ADS 11046"
 	Distance 16.580 # 196.72 +/- 0.83 mas
 }
 
-"70 Oph A:Gliese 702 A:Struve 2272 A:ADS 11046 A"
+1052130434 "70 Oph A:Gliese 702 A:Struve 2272 A:ADS 11046 A"
 {
 	OrbitBarycenter "70 Oph"
 	SpectralType "K0V"
@@ -1271,7 +1271,7 @@ Barycenter 88601 "70 Oph:Gliese 702:Struve 2272:ADS 11046"
 	}
 }
 
-"70 Oph B:Gliese 702 B:Struve 2272 B:ADS 11046 B"
+1052120434 "70 Oph B:Gliese 702 B:Struve 2272 B:ADS 11046 B"
 {
 	OrbitBarycenter "70 Oph"
 	SpectralType "K4V"
@@ -1453,7 +1453,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	Distance 18.020
 }
 
-"Gliese 169.1 A:Stein 2051 A"
+1004123744 "Gliese 169.1 A:Stein 2051 A"
 {
 	RA 67.79795272
 	Dec 58.97706349
@@ -1573,7 +1573,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 }
 
 # Orbit from Brandt et al. (2019), eprint arXiv 1910.01652
-# "A Dynamical Mass of 70 ± 5 Jupiter Masses for Gliese 229B, the First Imaged T Dwarf"
+# "A Dynamical Mass of 70 ± 5 Jupiter Masses for Gliese 229B, the First Imaged T Dwarf"
 # https://arxiv.org/abs/1910.01652
 Barycenter 29295 "Gliese 229:Luyten 668-21:LPM 230"
 {
@@ -1836,7 +1836,7 @@ Barycenter 3821 "Achird:ETA Cas:24 Cas:Gliese 34:ADS 671"
 	}
 }
 
-"Achird B:ETA Cas B:24 Cas B:Gliese 34 B:ADS 671 B"
+2026693663 "Achird B:ETA Cas B:24 Cas B:Gliese 34 B:ADS 671 B"
 {
 	OrbitBarycenter "ETA Cas"
 	SpectralType "K7V"
@@ -1871,7 +1871,7 @@ Barycenter 84405 "Guniibuu AB:36 Oph AB:Gliese 663 AB"
 # Average masses from Luck, R. E. (2017), AJ 153 (1), 21
 # "Abundances in the Local Region II: F, G, and K Dwarfs and Subgiants"
 # http://iopscience.iop.org/article/10.3847/1538-3881/153/1/21/meta
-"Guniibuu A:36 Oph A:Gliese 663 A:ADS 10417 A"
+1003266820 "Guniibuu A:36 Oph A:Gliese 663 A:ADS 10417 A"
 {
 	OrbitBarycenter "36 Oph AB"
 	SpectralType "K2V"
@@ -1888,7 +1888,7 @@ Barycenter 84405 "Guniibuu AB:36 Oph AB:Gliese 663 AB"
 	}
 }
 
-"Guniibuu B:36 Oph B:Gliese 663 B:ADS 10417 B"
+2003266820 "Guniibuu B:36 Oph B:Gliese 663 B:ADS 10417 B"
 {
 	OrbitBarycenter "36 Oph AB"
 	SpectralType "K1V"
@@ -2564,7 +2564,7 @@ Barycenter 72659 "XI Boo:37 Boo:Gliese 566:ADS 9413"
 	Distance 21.893 # 148.98 +/- 0.48 mas
 }
 
-"XI Boo A:37 Boo A:Gliese 566 A:ADS 9413 A"
+1007221481 "XI Boo A:37 Boo A:Gliese 566 A:ADS 9413 A"
 {
 	OrbitBarycenter "XI Boo"
 	SpectralType "G7Ve"
@@ -2581,7 +2581,7 @@ Barycenter 72659 "XI Boo:37 Boo:Gliese 566:ADS 9413"
 	}
 }
 
-"XI Boo B:37 Boo B:Gliese 566 B:ADS 9413 B"
+2007221481 "XI Boo B:37 Boo B:Gliese 566 B:ADS 9413 B"
 {
 	OrbitBarycenter "XI Boo"
 	SpectralType "K5Ve"
@@ -3063,7 +3063,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	Distance 23.6316 # 138.0171 +/- 0.0918 mas
 }
 
-"Gliese 667 A:CD-34 11626 A"
+1008507370 "Gliese 667 A:CD-34 11626 A"
 {
 	OrbitBarycenter "Gliese 667 AB"
 	SpectralType "K4V"
@@ -3080,7 +3080,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	}
 }
 
-"Gliese 667 B:CD-34 11626 B"
+2008507370 "Gliese 667 B:CD-34 11626 B"
 {
 	OrbitBarycenter "Gliese 667 AB"
 	SpectralType "K5V"
@@ -3363,7 +3363,7 @@ Barycenter 55203 "Alula Australis:XI UMa:53 UMa:Gliese 423:ADS 8119"
 # Masses from Fuhrmann et al. (2016), MNRAS 459 (2), 1682
 # "Evidence for very nearby hidden white dwarfs"
 # https://doi.org/10.1093/mnras/stw760
-Barycenter "Alula Australis A:XI UMa A:53 UMa A:Gliese 423 A:ADS 8119 A"
+Barycenter 1026342520 "Alula Australis A:XI UMa A:53 UMa A:Gliese 423 A:ADS 8119 A"
 {
 	OrbitBarycenter "Alula Australis"
 
@@ -3378,7 +3378,7 @@ Barycenter "Alula Australis A:XI UMa A:53 UMa A:Gliese 423 A:ADS 8119 A"
 	}
 }
 
-Barycenter "Alula Australis B:XI UMa B:53 UMa B:Gliese 423 B:ADS 8119 B"
+Barycenter 2026342520 "Alula Australis B:XI UMa B:53 UMa B:Gliese 423 B:ADS 8119 B"
 {
 	OrbitBarycenter "Alula Australis"
 
@@ -3452,8 +3452,8 @@ Barycenter "Alula Australis B:XI UMa B:53 UMa B:Gliese 423 B:ADS 8119 B"
 # Fuhrmann et al. (2016) suggest it could be a white dwarf
 {
 	OrbitBarycenter "Alula Australis B"
-	SpectralType "M5V" # estimate from mass
-	AbsMag 16          # for approximate radius in Celestia
+	SpectralType "D"
+	AbsMag 11.3 # for approximate radius in Celestia
 
 	EllipticalOrbit {
 		Period          0.0109 # 3.981 d
