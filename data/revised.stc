@@ -107,12 +107,6 @@ Modify 13380 # Spectral class from SIMBAD, replacing "G9"
 	SpectralType "WC6"
 }
 
-Modify 14559 # Fix anomalously low distance
-{
-	Distance 772.41 # Parallax 4.2227 +/- 0.0771
-	AppMag 11.683 # keep same magnitude
-}
-
 Modify 14647 # Spectral class from SIMBAD, replacing "C7:,3"
 {
 	SpectralType "A0"
@@ -236,14 +230,6 @@ Modify 66383 # KN Cen: spectral class from SIMBAD, replacing "M0"
 	SpectralType "G8Iab"
 }
 
-Modify 67593 # Fix anomalously low distance
-             # Spectral class estimated from Tycho BT-VT indices, using Mamajek's table
-{
-	Distance 2214 # Parallax 1.4731 +/- 0.0329
-	AppMag 11.38 # keep same magnitude
-	SpectralType "K5"
-}
-
 Modify 66948 # Spectral class from SIMBAD, replacing "A3"
 {
 	SpectralType "WC7"
@@ -259,17 +245,13 @@ Modify 72105 # Eps Boo: Primary spectral class from SIMBAD
 	SpectralType "K0III"
 }
 
-Modify 72509 # Fix anomalously high distance; spectral class from SIMBAD
+Modify 72509 # Spectral class from SIMBAD
 {
-	Distance 67.565 # Parallax 48.2743 +/- 0.0849
-	AppMag 12.066 # keep same magnitude
 	SpectralType "M1.5V"
 }
 
-Modify 72511 # Fix anomalously low distance; spectral class from SIMBAD
+Modify 72511 # Spectral class from SIMBAD
 {
-	Distance 67.570 # Parallax 48.2709 +/- 0.0423
-	AppMag 11.656 # keep same magnitude
 	SpectralType "M1.5V"
 }
 
@@ -320,27 +302,9 @@ Modify 82257 # DN Dra: improved spectral class from McCook & Sion
 	SpectralType "DAV4"
 }
 
-Modify 82724 # Fix anomalously low distance
-{
-	Distance 205.10 # Parallax 15.9032 +/- 0.0336
-	AppMag 11.772 # keep same magnitude
-}
-
-Modify 82725 # Fix anomalously low distance
-{
-	Distance 7159 # Parallax 0.4556 +/- 0.0337
-	AppMag 11.58 # keep same magnitude
-}
-
 Modify 84716 # Spectral class from SIMBAD, replacing "N7"
 {
 	SpectralType "WN8h"
-}
-
-Modify 85605 # Fix anomalously low distance
-{
-	Distance 1790 # Parallax 1.8221 +/- 0.0265
-	AppMag 11.03 # keep same magnitude
 }
 
 Modify 85755 # 51 Oph: rapidly rotating star, rotational parameters from
@@ -453,12 +417,6 @@ Modify 98107 # Spectral class from SIMBAD, replacing "A0"
 	SpectralType "K2/4"
 }
 
-Modify 98681 # Fix anomalously low distance
-{
-	Distance 2092 # Parallax 1.5592 +/- 0.0525
-	AppMag 9.677 # keep same magnitude
-}
-
 Modify 99002 # V1676 Cyg: spectral class from SIMBAD, replacing "O9.5 I COMP"
 {
 	SpectralType "WN5+O9I"
@@ -565,9 +523,3 @@ Modify 117059 # Improved spectral class from McCook & Sion
 {
 	SpectralType "DA4"
 }
-
-# "Remove" spurious HIP stars
-# http://simbad.u-strasbg.fr/simbad/sim-id?Ident=HIP+114110
-# http://simbad.u-strasbg.fr/simbad/sim-id?Ident=HIP+114176
-Barycenter 114110 { RA 0 Dec 0 Distance 4.7e+10 }
-Barycenter 114176 { RA 0 Dec 0 Distance 4.7e+10 }
