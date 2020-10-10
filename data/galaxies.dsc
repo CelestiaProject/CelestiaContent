@@ -7171,7 +7171,7 @@ Galaxy "NGC 223:IC 44:UGC 450:MCG0-2-129"
         InfoURL "http://simbad.u-strasbg.fr/sim-id.pl?Ident=NGC 223"
 }
 
-Galaxy "M 31:NGC 224:UGC 454:MCG 7-2-16"
+Galaxy "Andromeda Galaxy:M 31:NGC 224:UGC 454:MCG 7-2-16"
 {
         Type  "Sb"
         RA            0.7122
@@ -11240,7 +11240,7 @@ Galaxy "NGC 597:ESO 353-11:MCG -6-4-44:IRAS 1299-3345"
         InfoURL "http://simbad.u-strasbg.fr/sim-id.pl?Ident=NGC 597"
 }
 
-Galaxy "M 33:NGC 598:UGC 1117:MCG 5-4-69"
+Galaxy "Triangulum Galaxy:M 33:NGC 598:UGC 1117:MCG 5-4-69"
 {
         Type  "Sc"
         RA            1.5642
