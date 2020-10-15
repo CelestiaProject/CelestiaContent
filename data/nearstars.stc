@@ -1310,31 +1310,49 @@ Barycenter 88601 "70 Oph:Gliese 702:Struve 2272:ADS 11046"
 	}
 }
 
-Barycenter "GJ 1116"  # orbit of A & B unknown
+# Orbit from Tokovinin et al. (2020), AJ 160 (1), 7
+# "Speckle Interferometry at SOAR in 2019"
+# https://arxiv.org/abs/2005.05305
+# Distance from average of distances from Gaia DR2 parallax for A and B
+Barycenter "GJ 1116"
 {
-	RA 134.5629579  # mass ratio 0.11:0.10
-	Dec 19.76308611
-	Distance 16.735
+	RA 134.56295790 # mass ratio 0.11:0.10
+	Dec 19.76308611 # A: 194.7225 +/- 0.1251 mas
+	Distance 16.735 # B: 195.0836 +/- 0.1754 mas
 }
 
 "EI Cnc:GJ 1116 A"
 {
-	RA 134.56280747
-	Dec 19.76340108
-	Distance 16.7498 # 194.7225 +/- 0.1251 mas
+	OrbitBarycenter "GJ 1116"
 	SpectralType "M8Ve"
-	Radius 76500 # approx. for class
 	AppMag 13.93
+
+	EllipticalOrbit {
+		Period          134.4
+		SemiMajorAxis   7.902 # mass ratio 0.11:0.10
+		Eccentricity    0.661
+		Inclination     84.9
+		AscendingNode   59.9
+		ArgOfPericenter 22.9
+		MeanAnomaly     343.3
+	}
 }
 
 "GJ 1116 B:LP 426-40"
 {
-	RA 134.56312344
-	Dec 19.76273963
-	Distance 16.7189 # 195.0836 +/- 0.1754 mas
+	OrbitBarycenter "GJ 1116"
 	SpectralType "M7V"
-	Radius 83500 # approx. for class
 	AppMag 13.75
+
+	EllipticalOrbit {
+		Period          134.4
+		SemiMajorAxis   8.692 # mass ratio 0.11:0.10
+		Eccentricity    0.661
+		Inclination     84.9
+		AscendingNode   59.9
+		ArgOfPericenter 202.9
+		MeanAnomaly     343.3
+	}
 }
 
 # rotation period from Burningham et al. (2016), MNRAS 463 (2), 2202
@@ -2233,47 +2251,56 @@ Barycenter "Gliese 896 B:BD+19 5116 B"
 	AppMag 10.560
 }
 
+# Parameters from Gonzalez-Alvarez et al. (2020), A&A 637, A93
+# "The CARMENES search for exoplanets around M dwarfs. A super-Earth planet orbiting 
+# HD 79211 (GJ 338 B)"
+# https://arxiv.org/abs/2003.13052
 # Distance from average of distances from Gaia DR2 parallax for A and B
 Barycenter "Gliese 338:Struve 1321:ADS 7251"
 {
-	RA 138.59887190 # mass ratio 0.60:0.60
-	Dec 52.68648597 # A: 157.8796 +/- 0.0366 mas
+	RA 138.59872250 # mass ratio 0.69:0.64
+	Dec 52.46994924 # A: 157.8796 +/- 0.0366 mas
 	Distance 20.658 # B: 157.8851 +/- 0.0414 mas
 }
 
 45343 "Gliese 338 A:Struve 1321 A:ADS 7251 A"
 {
-	OrbitBarycenter "ADS 7251"
-	SpectralType "K7V"
+	OrbitBarycenter "Gliese 338"
+	SpectralType "M0.0V"
+	Radius 403500
 	AppMag 7.63
 
 	EllipticalOrbit {
-		Period         975
-		SemiMajorAxis   51 # mass ratio 0.6:0.6
-		Eccentricity  0.28
-		Inclination    113
-		AscendingNode   13
-		ArgOfPericenter 97
-		MeanAnomaly    264
+		Period          1295
+		SemiMajorAxis   63.0 # mass ratio 0.69:0.64
+		Eccentricity    0.01
+		Inclination     123.3
+		AscendingNode   348.8
+		ArgOfPericenter 184.3
+		MeanAnomaly     135.4
 	}
+
+	RotationPeriod 391.2 # 16.3 d
 }
 
 120005 "Gliese 338 B:Struve 1321 B:ADS 7251 B"
 {
-	OrbitBarycenter "ADS 7251"
-	SpectralType "M0V"
-	Radius 432000 # approx. for class
+	OrbitBarycenter "Gliese 338"
+	SpectralType "M0.0V"
+	Radius 403500
 	AppMag 7.70
 
 	EllipticalOrbit {
-		Period          975
-		SemiMajorAxis    52 # mass ratio 0.6:0.6
-		Eccentricity   0.28
-		Inclination     113
-		AscendingNode    13
-		ArgOfPericenter 277
-		MeanAnomaly     264
+		Period          1295
+		SemiMajorAxis   67.9 # mass ratio 0.69:0.64
+		Eccentricity    0.01
+		Inclination     123.3
+		AscendingNode   348.8
+		ArgOfPericenter 4.3
+		MeanAnomaly     135.4
 	}
+
+	RotationPeriod 398.64 # 16.61 d
 }
 
 "LHS 2090:LP 368-128"
@@ -3215,34 +3242,31 @@ Modify 106255 # Wolf 922
 	AppMag 2.79
 }
 
-# Orbit from Agati et al. (2015), A&A 574 (A6), 32
-# "Are the orbital poles of binary stars in the solar neighbourhood anisotropically 
-# distributed?"
-# https://www.aanda.org/articles/aa/abs/2015/02/aa23056-13/aa23056-13.html
-# Masses from Drummond et al. (1995), AJ 450, 380
-# "Full Adaptive Optics Images of ADS 9731 and mu Cassiopeiae: Orbits and Masses"
-# https://ui.adsabs.harvard.edu/abs/1995ApJ...450..380D/abstract
+# Parameters from Bond et al. (2020), ApJ 904 (2), 112
+# "Hubble Space Telescope Astrometry of the Metal-poor Visual Binary μ Cassiopeiae:
+# Dynamical Masses, Helium Content, and Age"
 Barycenter 5336 "MU Cas:30 Cas:Gliese 53"
 {
 	RA 17.06831127
-	Dec 54.92034067
-	Distance 24.638 # 132.38 +/- 0.82 mas
+	Dec 54.9203406
+	Distance 24.586 # 132.66 +/- 0.69 mas
 }
 
 "MU Cas A:30 Cas A:Gliese 53 A"
 {
 	OrbitBarycenter "MU Cas"
-	SpectralType "G5VI"
-	AppMag 5.17
+	SpectralType "G5V"
+	AppMag 5.166
+	Radius 548900
 
 	EllipticalOrbit {	       # fully specified orientation
-		Period           21.40
-		SemiMajorAxis    1.528 # mass ratio 0.742:0.173
-		Eccentricity      0.53
-		Inclination      30.86
-		AscendingNode   338.29
-		ArgOfPericenter 129.88
-		MeanAnomaly      45.42
+		Period          21.568
+		SemiMajorAxis   1.4186 # mass ratio 0.7440:0.1728
+		Eccentricity    0.5885
+		Inclination      25.62
+		AscendingNode   344.53
+		ArgOfPericenter 124.96
+		MeanAnomaly      46.34
 	}
 }
 
@@ -3252,14 +3276,14 @@ Barycenter 5336 "MU Cas:30 Cas:Gliese 53"
 	SpectralType "MVI"
 	AppMag 11.00
 
-	EllipticalOrbit {	       # fully specified orientation
-		Period           21.40
-		SemiMajorAxis    6.554 # mass ratio 0.742:0.173
-		Eccentricity      0.53
-		Inclination      30.86
-		AscendingNode   338.29
-		ArgOfPericenter 309.88
-		MeanAnomaly      45.42
+	EllipticalOrbit {
+		Period          21.568
+		SemiMajorAxis   6.1080 # mass ratio 0.7440:0.1728
+		Eccentricity    0.5885
+		Inclination      25.62
+		AscendingNode   344.53
+		ArgOfPericenter 304.96
+		MeanAnomaly      46.34
 	}
 }
 
