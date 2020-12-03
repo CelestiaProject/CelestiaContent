@@ -375,18 +375,6 @@ Modify 89769 # CV Ser: spectral class from SIMBAD, replacing "O8/9III/V"
 	SpectralType "WC8+O8/9III/V"
 }
 
-Modify 89931 # Del Sgr: Distance from Hipparcos 2 parallax (Gaia parallax has high error)
-{
-	Distance 347.726 # 9.38 +/- 0.18 mas
-	AppMag 2.72 # keep same magnitude
-}
-
-Modify 92791 # Del2 Lyr: Distance from Hipparcos 2 parallax
-{
-	Distance 736.269 # 4.43 +/- 0.18 mas
-	AppMag 4.22 # keep same magnitude
-}
-
 Modify 94049 # Spectral class from SIMBAD, replacing "F5V"
 {
 	SpectralType "R2"
