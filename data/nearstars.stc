@@ -47,7 +47,7 @@ Barycenter "Solar System Barycenter:SSB"
 
 	SpectralType "G2V"
 	AbsMag 4.83
-	Temperature 5780
+	Temperature 5772
 	BoloCorrection -0.08
 
 	UniformRotation
@@ -142,7 +142,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 		Inclination     135.69
 		AscendingNode   118.66
 		ArgOfPericenter 136.22
-                MeanAnomaly     127.58
+		MeanAnomaly     127.58
 	}
 }
 
@@ -159,7 +159,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 		Inclination     135.69
 		AscendingNode   118.66
 		ArgOfPericenter 316.22
-                MeanAnomaly     127.58
+		MeanAnomaly     127.58
 	}
 }
 
@@ -168,7 +168,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 	RA 133.795125
 	Dec -7.2451389
 	Distance 7.264 # 449 +/- 8 mas
-	SpectralType "Y2"
+	SpectralType "Y4"
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
 }
