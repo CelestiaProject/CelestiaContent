@@ -128,14 +128,6 @@ Type "City"
 }
 
 
-Location "Astana" "Sol/Earth"
-{
-LongLat [ 71.5 51.1666 0 ]
-Importance 132.33
-Type "City"
-}
-
-
 Location "Asuncion" "Sol/Earth"
 {
 LongLat [ -57.6666 -25.2666 0 ]
@@ -688,6 +680,14 @@ Type "City"
 }
 
 
+Location "Hong Kong" "Sol/Earth"
+{
+LongLat [ 114.15 22.2833 0 ]
+Importance 264.54
+Type "City"
+}
+
+
 Location "Honiara" "Sol/Earth"
 {
 LongLat [ 159.95 -9.4333 0 ]
@@ -1180,6 +1180,14 @@ Location "Nuku'alofa" "Sol/Earth"
 {
 LongLat [ -175.2 -21.1333 0 ]
 Importance  46.10
+Type "City"
+}
+
+
+Location "Nur-Sultan" "Sol/Earth"
+{
+LongLat [ 71.5 51.1666 0 ]
+Importance 132.33
 Type "City"
 }
 
@@ -1804,14 +1812,6 @@ Location "Victoria" "Sol/Earth"
 {
 LongLat [ 55.45 -4.6333 0 ]
 Importance 39.53
-Type "City"
-}
-
-
-Location "Victoria" "Sol/Earth"
-{
-LongLat [ 114.15 22.2833 0 ]
-Importance 264.54
 Type "City"
 }
 

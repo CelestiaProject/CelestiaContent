@@ -36,7 +36,6 @@ set(DATA_SOURCES
   minormoons.ssc
   moon_locs.ssc
   neptunemoons_locs.ssc
-  numberedmoons.ssc
   openclusters.dsc
   outersys.ssc
   ring_locs.ssc

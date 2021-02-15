@@ -1,0 +1,13 @@
+# haumea.cms
+# ellipsoid with very little irregularity to represent Haumea while retaining a circular ring
+
+
+SphereDisplacementMesh
+{
+	Size		[ 1.0 0.442 0.734 ]
+	NoiseOffset	[ 17 42 45 ]
+	FeatureHeight 	0.01
+	Slices		100
+	Rings		50
+	Octaves		25
+}
