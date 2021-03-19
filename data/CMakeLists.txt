@@ -18,7 +18,6 @@ set(DATA_SOURCES
   revised.stc
   spectbins.stc
   visualbins.stc
-  stars.txt
   asteroids.ssc
   comets.ssc
   dwarfplanets.ssc
