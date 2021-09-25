@@ -107,7 +107,7 @@
         Mie            0.02
         MieAsymmetry   -0.2
         Rayleigh       [ 0.0031 0.0058 0.0120 ]
-        CloudMap       "venus-clouds.png"
+        CloudMap       "venus-clouds.*"
         CloudHeight    48.5
         CloudSpeed     90
     }
