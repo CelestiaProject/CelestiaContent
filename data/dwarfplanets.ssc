@@ -45,7 +45,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 "Pluto:134340 Pluto" "Sol/Pluto-Charon"
 {
 	Class       "dwarfplanet"
-	Texture     "pluto-lok.*"
+	Texture     "pluto.*"
 	# NormalMap "pluto-normal.*"
 	Radius      1188.3
 	Atmosphere
@@ -83,7 +83,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 "Charon:134340 Pluto I:Pluto I:S-1978 P 1:S-1978 134340 I" "Sol/Pluto-Charon"
 {
 	Class       "moon"
-	Texture     "charon-lok.*"
+	Texture     "charon.*"
 	# NormalMap "charon-normal.*"
 	Radius      606
 	EllipticalOrbit
