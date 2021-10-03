@@ -4,27 +4,28 @@ Scientific Data Base
 # Grant Hutchison
     Supplied the correct orientations for the major planets, their moons, and a
     number of asteroids and also worked on these data files:
-        Solarsys.ssc, nearstars.stc, extrasolar.ssc, extrasolar.stc, earth_locs.ssc
+        solarsys.ssc, nearstars.stc, extrasolar.ssc, extrasolar.stc, earth_locs.ssc
 
 # Fridger Schrempp
     Complete NGC/IC galaxy database + local group galaxies (galaxies.dsc)
-        Data base on globular clusters (globulars.dsc)
 
-        Data base on visual and spectroscopic binaries (visualbins.stc,
-        spectbins.stc)
+    Database of globular clusters (globulars.dsc)
 
-        World-capitals.ssc
+    Database of visual and spectroscopic binaries (visualbins.stc,
+    spectbins.stc)
+
+    World-capitals.ssc
 
     Asterisms.dat
 
 # Andrew Tribick
-    Significant update of the stars.dat base based on Gaia DR2 data
+    Significant update of the star database based on Gaia DR2 data
     (see: https://github.com/ajtribick/celestia-gaia-stardb);
     licensed under CC-BY-SA 4.0.
 
-        CHARM2 stellar radii (charm2.stc)
+    CHARM2 stellar radii (charm2.stc)
 
-        Open cluster catalog (openclusters.dsc)
+    Open cluster catalog (openclusters.dsc)
 
 # LukeCEL
     Complete update of nearstars.stc
@@ -32,10 +33,9 @@ Scientific Data Base
 Texture maps
 ------------
 
-# The new textures repository in their original quality can be found here:
-https://www.deviantart.com/celestiaofficial/gallery/68412929/Release-Textures
+# Askaniy (https://www.deviantart.com/askaniy)
 
-   In particular, there are textures of Jupiter, Saturn, Phobos and Deimos.
+   Textures of Phobos, Deimos, Jupiter, Europa, Ganymede, Callisto, Saturn, Pluto, and Charon.
 
 # Most of the old maps are from David Seal's site: http://maps.jpl.nasa.gov/.
 
@@ -60,10 +60,6 @@ https://www.deviantart.com/celestiaofficial/gallery/68412929/Release-Textures
    Mark Robinson.
 
 # Fridger Schrempp
-
-   'Available data' Pluto and Charon textures using maps created by Marc Buie
-   at Lowell Observatory.  Buie's maps were generated from photometric data
-   gathered during six years of mutual occultations of Pluto and Charon.
 
    Titan's cloud texture in natural colors and its surface map at near-infrared
    wavelength. They are based on resources available from the imaging site
@@ -93,8 +89,7 @@ https://www.deviantart.com/celestiaofficial/gallery/68412929/Release-Textures
 
    The Ida and Gaspra photomosaic maps are by Phil Stooke.
 
-# Venus's clouds and the textures for Ganymede, Callisto and Saturn are from
-  Björn Jónsson.
+# Venus's clouds are from Björn Jónsson.
 
 # Venus's surface is a copyright-free NASA image, prepared from Magellan radar
   data. The original is available at
@@ -104,7 +99,7 @@ https://www.deviantart.com/celestiaofficial/gallery/68412929/Release-Textures
   aboard the Terra satellite.
 
 # Steve Albers
-   The Io and Europa maps are by Steve Albers.
+   The Io map is by Steve Albers.
 
 # The textures for the Uranian satellites were created by Ivan Rivera from JPL
   data. His Celestia page is: http://bruckner.homelinux.net/celestia.html
@@ -116,15 +111,22 @@ https://www.deviantart.com/celestiaofficial/gallery/68412929/Release-Textures
   (http://www.johnstonsarchive.net/spaceart/cylmaps.html), and further modified
   by Jens Meyer and Grant Hutchison.
 
-# The asteroid.jpg texture was created by Paul Roberts.
-
-# The textures for the five classes of extrasolar giant planet were created by
-  Andrew Tribick.
-
 # CICLOPS
 
   The map of Enceladus is derived from the December 2008 CICLOPS map:
   http://ciclops.org/view/5447/Map_of_Enceladus_December_2008
+
+# Star textures created by FarGetaNik from the following sources:
+    O, B, A star textures derived from SDO images of a Sun without spots
+    F, G, K star textures derived from SDO images featuring spots
+    M star texture based on images from the Swedish Solar Telescope:
+        https://www.isf.astro.su.se/
+    L star texture derived from IR images of the Sun by SDO
+    T star texture derived from a fictional texture by John Van Vliet
+    White dwarf texture is a grayscale version of the A star texture
+
+# The exoplanet textures (exo-classN and venuslike) and the asteroid.jpg
+  texture were created by cubicApocalypse, licensed under CC-BY 4.0.
 
 Note on content from JPL
 ------------------------
