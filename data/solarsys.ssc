@@ -1,4 +1,5 @@
-# Planets and major natural satellites of the Solar system.
+# Planets and major natural satellites of the Solar System.
+# The rest of the Solar System's natural satellites are in minormoons.ssc.
 #
 # The orbital and physical data for the planets necessarily come from a
 # variety of sources.
@@ -18,6 +19,9 @@
 # spherical variables. VSOP87 solutions", Astronomy & Astrophysics 202
 # (1988) 309-315.
 #
+# The orbits of the Galilean satellites are from J. H. Lieske's "E5" theory
+# as given in Jean Meeus's _Astronomical Algorithms_, pp. 301-315
+#
 # The orbits of the following Saturnian satellites are from Gerard Dourneau
 # (1987), "Observations et etude du mouvement des huit premiers satellites
 # de Saturne":
@@ -32,10 +36,10 @@
 # system body may be replaced by a SPICE kernel or a file of postion/velocity
 # samples. Detailed documentation on how to do this may be found on the
 # Celestia WikiBook:
-#    http://en.wikibooks.org/wiki/Celestia/Trajectories#CustomOrbit
+#    https://en.wikibooks.org/wiki/Celestia/Trajectories#CustomOrbit
 # It is also possible to use JPL's DE405 or DE406 ephemeris For the positions
-# of the  planets, Moon, and Pluto. Details are here:
-#    http://en.wikibooks.org/wiki/Celestia/JPL_Ephemerides
+# of the planets, Moon, and Pluto. Details are here:
+#    https://en.wikibooks.org/wiki/Celestia/JPL_Ephemerides
 # *******************
 #
 #
@@ -51,7 +55,15 @@
 #
 #
 # When alternate data sources are used for orbits or rotational elements, the
-# source is noted by a comment in the body definition
+# source is noted by a comment in the body definition.
+#
+#
+# === Temperature, Albedo and Colors ===
+# Bond albedo values were taken from the English Wikipedia, for Mars:
+# http://www.tak2000.com/data/planets/mars.htm
+# Geometric albedo and colors of planets was calculated from the spectra
+# from this paper:
+# https://arxiv.org/abs/1609.05048
 
 "Mercury" "Sol"
 {
@@ -714,127 +726,6 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
     }
 }
 
-"Prometheus:Saturn XVI:1980 S 27" "Sol/Saturn"
-{
-    Texture     "prometheus.*"
-    Mesh        "prometheus.cmod"
-    Radius      74 # maximum semi-axis
-    MeshCenter  [ 0.75 -2.68 1.064 ]
-
-    EllipticalOrbit
-    {
-        Epoch             2453005.5   # 2004 Jan 1 00:00UT
-        Period            0.612986
-        SemiMajorAxis     139380
-        Eccentricity      0.0023
-        Inclination       0.0056
-        AscendingNode   226.1099
-        LongOfPericenter 23.3280
-        MeanLongitude   266.2144
-    }
-
-    # orientate meridian at epoch
-    UniformRotation
-    {
-        Epoch 2453005.5   # 2004 Jan 1 00:00UT
-        MeridianAngle 86
-    }
-
-    Albedo 0.6
-}
-
-"Pandora:Saturn XVII:1980 S 26" "Sol/Saturn"
-{
-    Texture     "asteroid.jpg"
-    Mesh        "pandora.cmod"
-    Radius      57 # maximum semi-axis
-    MeshCenter [ 0.692 -1.454 -0.422 ]
-
-    EllipticalOrbit
-    {
-        Epoch             2453005.5   # 2004 Jan 1 00:00UT
-        Period            0.6285036
-        SemiMajorAxis     141710
-        Eccentricity      0.0042
-        Inclination       0.0522
-        AscendingNode   290.0163
-        LongOfPericenter 10.4899
-        MeanLongitude   212.6961
-    }
-
-    # orientate meridian at epoch
-    UniformRotation
-    {
-        Epoch    2453005.5   # 2004 Jan 1 00:00UT
-        MeridianAngle 33
-    }
-
-    Albedo 0.5
-}
-
-"Epimetheus:Saturn XI:1980 S 3" "Sol/Saturn"
-{
-    Texture     "epimetheus.*"
-    Mesh        "epimetheus.cmod"
-    Radius      72 # maximum semi-axis
-    MeshCenter  [ -5.196 -2.241 -1.878 ]
-
-     EllipticalOrbit
-    {
-        Epoch              2453005.5   # 2004 Jan 1 00:00UT
-        Period             0.6945      # 0.6943: period set to Janus/Epimetheus average
-        SemiMajorAxis      151410
-        Eccentricity       0.0098
-        Inclination        0.3541
-        AscendingNode     45.5973
-        LongOfPericenter 358.5774
-        MeanLongitude    306.0531
-    }
-
-    # orientate meridian at epoch
-    UniformRotation
-    {
-        Epoch     2453005.5   # 2004 Jan 1 00:00UT
-        MeridianAngle 126
-    }
-
-    Albedo 0.5
-}
-
-AltSurface "Limit of knowledge" "Sol/Saturn/Epimetheus"
-{
-    Texture "epimetheus-lok.*"
-}
-
-"Janus:Saturn X:1980 S 1" "Sol/Saturn"
-{
-    Texture     "janus.*"
-    Mesh        "janus.cmod"
-    Radius      96 # maximum semi-axis
-    MeshCenter  [ -1.552 1.358 2.257 ]
-
-    EllipticalOrbit
-    {
-    Epoch              2453005.5   # 2004 Jan 1 00:00UT
-    Period             0.6945      # 0.6947: period set to Janus/Epimetheus average
-    SemiMajorAxis      151460
-    Eccentricity       0.0067
-    Inclination        0.1649
-    AscendingNode      8.1758
-    LongOfPericenter 248.2856
-    MeanLongitude    131.5137
-    }
-
-    # orientate meridian at epoch
-    UniformRotation
-    {
-        Epoch     2453005.5   # 2004 Jan 1 00:00UT
-        MeridianAngle 312
-    }
-
-    Albedo 0.6
-}
-
 "Mimas:Saturn I" "Sol/Saturn"
 {
     Texture "mimas.*"
@@ -1443,35 +1334,6 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
         Outer  62947
         Texture "neptune-rings.png"
     }
-}
-
-"Larissa:Neptune VII:1989 N 2" "Sol/Neptune"
-{
-    Texture     "asteroid.jpg"
-    Mesh        "larissa.cmod"
-    Radius      100 # maximum semi-axis
-    MeshCenter  [ 4.564 -0.126 0.302 ]
-
-    EllipticalOrbit
-    {
-        Period          0.554654
-        SemiMajorAxis   73548
-        Eccentricity    0.0014
-        Inclination     0.744
-        AscendingNode   324.857
-        ArgOfPericenter 215.004 # J2000.0
-        MeanAnomaly     157.543
-    }
-
-    BodyFrame { EquatorJ2000 {} }
-    UniformRotation
-    {
-        Inclination    46.59
-        AscendingNode  29.36
-        MeridianAngle 179.41
-    }
-
-    Albedo 0.056
 }
 
 "Proteus:Neptune VIII:1989 N 1" "Sol/Neptune"
