@@ -37,14 +37,55 @@ Texture maps
 
    Textures of Phobos, Deimos, Jupiter, Europa, Ganymede, Callisto, Saturn, Pluto, and Charon.
 
+# FarGetaNik (https://www.deviantart.com/fargetanik)
+
+   Stars:
+   O, B, A star textures derived from SDO images of a Sun without spots
+   F, G, K star textures derived from SDO images featuring spots
+   M star texture based on images from the Swedish Solar Telescope:
+      https://www.isf.astro.su.se/
+   L star texture derived from IR images of the Sun by SDO
+   T star texture derived from a fictional texture by John Van Vliet
+   White dwarf texture is a grayscale version of the A star texture
+
+   Mercury:
+   Normal map derived from USGS DEM, details improved with a texture reposted by Kexitt.
+   Surface texture based on USGS color map, gaps filled with larger greyscale map.
+
+   Venus:
+   Normal map derived from USGS DEM.
+   Surface texture based on John Van Vliet's addon.
+
+   Earth:
+   Surface texture derived from:
+      https://www.earthstartsbeating.com/2019/01/16/mappamondo/
+   and improved by the specular map derived from Natural Earth II by Tom Patterson
+      http://www.shadedrelief.com/natural3/pages/extra.html
+   Normal map derived from the BMNG datadet.
+   Night texture derived from BMNG dataset and colored with a night texture by JVV, posted on the Celestia forum:
+      http://celestia.space/forum/viewtopic.php?f=23&t=17477
+   Cloud Texture from the BMNG dataset
+
+   Moon:
+   Normal map derived from USGS DEM.
+   Surface texture derived from LRO map posted on the Celestial Matters forum:
+      http://forum.celestialmatters.org/viewtopic.php?f=2&t=800
+   Improved with the CGI Moon Kit
+      https://svs.gsfc.nasa.gov/4720
+
+   Mars:
+   Surface texture based on USGS Viking map, details are from Surveyor data:
+      http://www.msss.com/mgcwg/mgm/
+   Color and cloud texture extracted from a map on the NASA photojournal, brightness adjusted with the USGS albedo map.
+   Normal map derived from USGS DEM.
+
 # Most of the old maps are from David Seal's site: http://maps.jpl.nasa.gov/.
 
    Some of these maps were modified, with fictional terrain added to fill in
    gaps. The Galileo spacecraft model is also from David Seal's site (though
    it was converted from Inventor to 3DS format.)
 
-# The Mars, Neptune, and Uranus textures and Mars bump maps are all from James
-  Hastings-Trew's collection.
+# The Neptune and Uranus textures are from James Hastings-Trew's collection.
 
 # Grant Hutchison
 
@@ -55,9 +96,6 @@ Texture maps
 # Jens Meyer
 
    Dione and Rhea are USGS maps colored and modified by Jens Meyer.
-
-   The Moon map is based on data from PDS Map-A-Planet at with colors from
-   Mark Robinson.
 
 # Fridger Schrempp
 
@@ -79,10 +117,6 @@ Texture maps
    merged in the polar regions with topographic data  from Clementine 750 nm
    oblique and nadir images.
 
-   The Mercury map was created from a combination of Mariner 10 imaging
-   with recent MESSENGER WAC images from the first two flybys, as collected
-   and reprojected by Steve Albers.
-
 # Phil Stooke
 
    Proteus, Janus, Prometheus and Epimetheus maps are from Phil Stooke.
@@ -90,13 +124,6 @@ Texture maps
    The Ida and Gaspra photomosaic maps are by Phil Stooke.
 
 # Venus's clouds are from Björn Jónsson.
-
-# Venus's surface is a copyright-free NASA image, prepared from Magellan radar
-  data. The original is available at
-    http://www.solarviews.com/cap/venus/venmap.htm
-
-# The Earth texture was created by NASA using data from the MODIS instrument
-  aboard the Terra satellite.
 
 # Steve Albers
    The Io map is by Steve Albers.
@@ -115,15 +142,6 @@ Texture maps
 
   The map of Enceladus is derived from the December 2008 CICLOPS map:
   http://ciclops.org/view/5447/Map_of_Enceladus_December_2008
-
-# Star textures created by FarGetaNik from the following sources:
-    O, B, A star textures derived from SDO images of a Sun without spots
-    F, G, K star textures derived from SDO images featuring spots
-    M star texture based on images from the Swedish Solar Telescope:
-        https://www.isf.astro.su.se/
-    L star texture derived from IR images of the Sun by SDO
-    T star texture derived from a fictional texture by John Van Vliet
-    White dwarf texture is a grayscale version of the A star texture
 
 # The exoplanet textures (exo-classN and venuslike) and the asteroid.jpg
   texture were created by cubicApocalypse, licensed under CC-BY 4.0.

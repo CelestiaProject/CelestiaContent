@@ -67,339 +67,334 @@
 
 "Mercury" "Sol"
 {
-    Class       "planet"
-    Texture     "mercury.*"
-    # NormalMap "mercury-normal.*"
-    Color       [ 1.0 0.794 0.580 ]
-    Radius      2439.7
-    CustomOrbit "vsop87-mercury"
+	Class	"planet"
+	Texture	"mercury.*"
+	NormalMap	"mercury-normal.*"
+	Color	[ 1.0 0.95415 0.86031 ]
+	Radius	2439.7
+	CustomOrbit	"vsop87-mercury"
 
-    # Overridden by CustomOrbit
-    # EllipticalOrbit
-    # {
-    #     Epoch           2457754.5  # 2017 Jan 01
-    #     Period          0.240846335370278
-    #     SemiMajorAxis   0.3870982883171065
-    #     Eccentricity    0.2056271908367409
-    #     Inclination     7.003994155746581
-    #     AscendingNode   48.30931074679484
-    #     ArgOfPericenter 29.1701873778266
-    #     MeanAnomaly     26.14989275135402
-    # }
+	# Overridden by CustomOrbit
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	0.240846264317122
+	#	SemiMajorAxis	0.3870982121840369
+	#	Eccentricity	0.2056302929816634
+	#	Inclination	7.00501414069919
+	#	AscendingNode	48.3305373398104
+	#	ArgOfPericenter	29.12428280936123
+	#	MeanAnomaly	174.7958829506606
+	# }
 
-    BodyFrame      { EquatorJ2000 {} }
-    CustomRotation "iau-mercury"
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-mercury"
 
-    # Overridden by CustomRotation
-    # UniformRotation
-    # {
-    #     Period        1407.509405
-    #     Inclination   28.55
-    #     AscendingNode 11.01
-    #     MeridianAngle 329.548
-    # }
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Period	1407.509405
+	#	Inclination	28.55
+	#	AscendingNode	11.01
+	#	MeridianAngle	329.548
+	# }
 
-    GeomAlbedo      0.141380
-    BondAlbedo      0.088
-
-    InfoURL "https://en.wikipedia.org/wiki/Mercury_(planet)"
+	LunarLambert	0.5
+	GeomAlbedo	0.141380
+	BondAlbedo	0.088
+	InfoURL	"https://en.wikipedia.org/wiki/Mercury_(planet)"
 }
 
 "Venus" "Sol"
 {
-    Class       "planet"
-    Texture     "venus.*"
-    # NormalMap "venus-normal.*"
-    Radius      6051.8
+	Class	"planet"
+	Texture	"venus.*"
+	NormalMap	"venus-normal.*"
+	Color	[ 0.98965 1.0 0.98452 ]
+	Radius	6051.8
+	Atmosphere
+	{
+		Height	200
+		MieScaleHeight	27
+		Mie	0.02
+		MieAsymmetry	-0.2
+		Rayleigh	[ 0.0031 0.0058 0.0120 ]
+		#Absorption	[ 0.0044 0.0040 0.0004 ]
+		CloudHeight	48.5
+		CloudSpeed	90
+		CloudMap	"venus-clouds.*"
+	}
+	CustomOrbit	"vsop87-venus"
 
-    Atmosphere
-    {
-        Height         200
-        MieScaleHeight 27
-        Mie            0.02
-        MieAsymmetry   -0.2
-        Rayleigh       [ 0.0031 0.0058 0.0120 ]
-        CloudMap       "venus-clouds.*"
-        CloudHeight    48.5
-        CloudSpeed     90
-    }
-    CustomOrbit "vsop87-venus"
+	# Overridden by CustomOrbit
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	0.615190499860112
+	#	SemiMajorAxis	0.7233269274790103
+	#	Eccentricity	0.006755786250503024
+	#	Inclination	3.394589648659516
+	#	AscendingNode	76.67837463924961
+	#	ArgOfPericenter	55.18596653686583
+	#	MeanAnomaly	50.11477187351476
+	# }
 
-    # Overridden by CustomOrbit
-    # EllipticalOrbit
-    # {
-    #     Epoch           2457754.5  # 2017 Jan 01
-    #     Period          0.615190941031932
-    #     SemiMajorAxis   0.7233272732921288
-    #     Eccentricity    0.006740611200116246
-    #     Inclination     3.394407540605979
-    #     AscendingNode   76.63344927192618
-    #     ArgOfPericenter 55.01851197233226
-    #     MeanAnomaly     278.7601029077279
-    # }
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-venus"
 
-    BodyFrame      { EquatorJ2000 {} }
-    CustomRotation "iau-venus"
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Period	5832.443616
+	#	Inclination	157.16
+	#	AscendingNode	182.76
+	#	MeridianAngle	19.80
+	# }
 
-    # Overridden by CustomRotation
-    # UniformRotation
-    # {
-    #     Period        5832.443616
-    #     Inclination   157.16
-    #     AscendingNode 182.76
-    #     MeridianAngle 19.80
-    # }
-
-    GeomAlbedo      0.672604
-    BondAlbedo      0.760
-    TempDiscrepancy 507.5
-
-    InfoURL "https://en.wikipedia.org/wiki/Venus"
+	LunarLambert	0.5
+	GeomAlbedo	0.672604
+	BondAlbedo	0.760
+	TempDiscrepancy	507.5
+	InfoURL	"https://en.wikipedia.org/wiki/Venus"
 }
 
 "Earth" "Sol"
 {
-    Class         "planet"
-    Texture       "earth.*"
-    NightTexture  "earth-night.*"
-    NormalMap     "earth-normal.*"
-    Color         [ 0.856 0.910 1.0 ]
-    SpecularColor [ 0.50 0.44 0.40 ]
-    SpecularPower 120
-    Radius        6378.140
-    Oblateness    0.0033528
-    Atmosphere
-    {
-        Height           100
-        Mie              0.0015
-        MieAsymmetry     -0.7
-        MieScaleHeight   10
-        Rayleigh         [ 0.0029 0.0053 0.0110 ]
-        Absorption       [ 0.00036 0.00029 0.00002 ]
-        CloudHeight      7
-        CloudSpeed       0
-        CloudMap         "earth-clouds.*"
-        CloudShadowDepth 1.0
-    }
-    CustomOrbit "vsop87-earth"
+	Class	"planet"
+	Texture	"earth.*"
+	NightTexture	"earth-night.*"
+	NormalMap	"earth-normal.*"
+	Color	[ 0.87572 0.91517 1.0 ]
+	SpecularColor	[ 0.50 0.44 0.40 ]
+	SpecularPower	120
+	Radius	6378.140
+	Oblateness	0.0033528
+	Atmosphere
+	{
+		Height	100
+		Mie	0.0002
+		MieAsymmetry	-0.7
+		MieScaleHeight	8.5
+		Rayleigh	[ 0.0054 0.0081 0.0167 ]
+		Absorption	[ 0.0027 0.0017 0.0002 ]
+		CloudHeight	7
+		CloudSpeed	65
+		CloudMap	"earth-clouds.*"
+		CloudShadowDepth	1.0
+	}
+	CustomOrbit	"vsop87-earth"
 
-    # Overridden by CustomOrbit
-    # EllipticalOrbit
-    # {
-    #     Epoch           2457754.5  # 2017 Jan 01
-    #     Period          1.00115230968135
-    #     SemiMajorAxis   1.000756460381853
-    #     Eccentricity    0.01742757053311079
-    #     Inclination     0.003361356887019717
-    #     AscendingNode   140.0148334495845
-    #     ArgOfPericenter 323.4532596516743
-    #     MeanAnomaly     357.1577020155666
-    # }
+	# Overridden by CustomOrbit
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	1.00069071545358
+	#	SemiMajorAxis	1.000448828928361
+	#	Eccentricity	0.0171186290535764
+	#	Inclination	0.000418134426968885
+	#	AscendingNode	135.0829426264774
+	#	ArgOfPericenter	326.7259945200456
+	#	MeanAnomaly	358.6172562406391
+	# }
 
-    # Orientation of Earth's axis with respect to the ecliptic plane and
-    # equinox of J2000 is computed with the long period extension of
-    # extension of the the P03 precession model presented in
-    # "Long-periodic Precession Parameters", J. Vondrak (2006)
-    BodyFrame      { EclipticJ2000 {} }
-    CustomRotation "earth-p03lp"
+	# Orientation of Earth's axis with respect to the ecliptic plane and
+	# equinox of J2000 is computed with the long period extension of
+	# extension of the the P03 precession model presented in
+	# "Long-periodic Precession Parameters", J. Vondrak (2006)
+	BodyFrame	{ EclipticJ2000 {} }
+	CustomRotation	"earth-p03lp"
 
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #     Period        23.93447117
-    #     Inclination   -23.4392911
-    #     MeridianAngle 280.147
-    # }
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Period	23.93447117
+	#	Inclination	-23.4392911
+	#	MeridianAngle	280.147
+	# }
 
-    GeomAlbedo      0.449576
-    BondAlbedo      0.306
-    TempDiscrepancy 33.5
-
-    InfoURL "https://en.wikipedia.org/wiki/Earth"
+	LunarLambert	0.5
+	GeomAlbedo	0.449576
+	BondAlbedo	0.306
+	TempDiscrepancy	33.5
+	InfoURL	"https://en.wikipedia.org/wiki/Earth"
 }
 
 "Moon:Earth I" "Sol/Earth"
 {
-    Class       "moon"
-    Texture     "moon.*"
-    BumpMap     "moonbump.*"
-    BumpHeight  3.5
-    # NormalMap "moon-normal.*"
-    Radius      1738.14
-    Oblateness  0.00125
-    CustomOrbit "moon"
+	Class	"moon"
+	Texture	"moon.*"
+	NormalMap	"moon-normal.*"
+	Color	[ 1.0 0.94582 0.865 ]
+	Radius	1738.14
+	Oblateness	0.00125
+	CustomOrbit	"moon"
 
-    # Overridden by CustomOrbit
-    # OrbitFrame
-    # {
-    #     EclipticJ2000   { Center "Sol/Earth" }
-    # }
-    # EllipticalOrbit
-    # {
-    #     Epoch           2457754.5  # 2017 Jan 01
-    #     Period          27.321582
-    #     SemiMajorAxis   384399
-    #     Eccentricity    0.0554
-    #     Inclination     5.107
-    #     AscendingNode   154.316
-    #     ArgOfPericenter 271.378
-    #     MeanAnomaly     250.217
-    # }
+	# Overridden by CustomOrbit
+	# OrbitFrame
+	# {
+	#	EclipticJ2000	{ Center "Sol/Earth" }
+	# }
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	27.321661
+	#	SemiMajorAxis	384399
+	#	Eccentricity	0.05490
+	#	Inclination	5.240273
+	#	AscendingNode	123.958056
+	#	ArgOfPericenter	308.922672
+	#	MeanAnomaly	146.673275
+	# }
 
-    OrbitFrame
-    {
-        EquatorJ2000 { Center "Sol/Earth" }
-    }
-    BodyFrame      { EquatorJ2000 {} }
-    CustomRotation "iau-moon"
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/Earth" }
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-moon"
 
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #     Inclination   23.4608
-    #     AscendingNode 359.9949
-    #     MeridianAngle 38.3213
-    # }
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Inclination	23.4608
+	#	AscendingNode	359.9949
+	#	MeridianAngle	38.3213
+	# }
 
-    GeomAlbedo      0.136
-    BondAlbedo      0.11
-
-    InfoURL "https://en.wikipedia.org/wiki/Moon"
+	LunarLambert	0.5
+	GeomAlbedo	0.136
+	BondAlbedo	0.11
+	InfoURL	"https://en.wikipedia.org/wiki/Moon"
 }
 
 "Mars" "Sol"
 {
-    Class       "planet"
-    Texture     "mars.*"
-    BumpMap     "marsbump.*"
-    BumpHeight  2.5
-    # NormalMap "mars-normal.*"
-    Color       [ 1.0 0.75 0.7 ]
-    Radius      3396.2
-    Oblateness  0.00589
-    Atmosphere
-    {
-        Height         110
-        Lower          [ 0.8 0.6 0.6 ]
-        Upper          [ 0.7 0.3 0.3 ]
-        Sky            [ 0.83 0.75 0.65 ]
-        Sunset         [ 0.7 0.7 0.8 ]
-        CloudHeight    20
-        CloudSpeed     32
-        CloudMap       "mars-clouds.dds"
-        Mie            0.0024
-        MieAsymmetry   -0.15
-        Rayleigh       [ 0.0010 0.0006 0.0003 ]
-        Absorption     [ 0 0 0 ]
-        MieScaleHeight 11
-    }
-    CustomOrbit "vsop87-mars"
+	Class	"planet"
+	Texture	"mars.*"
+	NormalMap	"mars-normal.*"
+	Color	[ 1.0 0.79855 0.56429 ]
+	Radius	3396.2
+	Oblateness	0.00589
+	Atmosphere
+	{
+		Height	80
+		Mie	0.003
+		MieScaleHeight	11.1
+		Rayleigh	[ 0.00022 0.00034 0.00070 ]
+		Absorption	[ 0.0020 0.0020 0.0030 ]
+		CloudHeight	30
+		CloudSpeed	32
+		CloudMap	"mars-clouds.*"
+	}
+	CustomOrbit	"vsop87-mars"
 
-    # Overridden by CustomOrbit
-    # EllipticalOrbit
-    # {
-    #     Epoch           2457754.5  # 2017 Jan 01
-    #     Period          1.880920881311
-    #     SemiMajorAxis   1.523730861440858
-    #     Eccentricity    0.09351281582486497
-    #     Inclination     1.848383740665303
-    #     AscendingNode   49.50720731023872
-    #     ArgOfPericenter 286.6752161228218
-    #     MeanAnomaly     33.24771046442243
-    # }
+	# Overridden by CustomOrbit
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	1.88082484103404
+	#	SemiMajorAxis	1.523678992954245
+	#	Eccentricity	0.09331510145396012
+	#	Inclination	1.849876432291737
+	#	AscendingNode	49.56200626315643
+	#	ArgOfPericenter	286.5373825261921
+	#	MeanAnomaly	19.35648274604994
+	# }
 
-    BodyFrame      { EquatorJ2000 {} }
-    CustomRotation "iau-mars"
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-mars"
 
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #     Period        24.622962156
-    #     Inclination   37.11350
-    #     AscendingNode 47.68143
-    #     MeridianAngle 176.630
-    # }
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Period	24.622962156
+	#	Inclination	37.11350
+	#	AscendingNode	47.68143
+	#	MeridianAngle	176.630
+	# }
 
-    GeomAlbedo      0.174821
-    BondAlbedo      0.290
-    TempDiscrepancy 2
-
-    InfoURL "https://en.wikipedia.org/wiki/Mars"
+	LunarLambert	0.5
+	GeomAlbedo	0.174821
+	BondAlbedo	0.290
+	TempDiscrepancy	2
+	InfoURL	"https://en.wikipedia.org/wiki/Mars"
 }
 
 "Phobos:Mars I" "Sol/Mars"
 {
-    Class       "minormoon"
-    Mesh        "phobos.cmod"
-    Orientation [ 90 0 1 0 ]
-    Texture     "phobos.*"
-    Radius      13.5
-    OrbitFrame
-    {
-        EclipticJ2000   { Center "Sol/Mars" }
-    }
-    EllipticalOrbit
-    {
-        Epoch           2455570.5  # 2011 Jan 09
-        Period          0.31891023
-        SemiMajorAxis   9376
-        Eccentricity    0.0151
-        Inclination     25.643
-        AscendingNode   83.152
-        ArgOfPericenter 297.757
-        MeanAnomaly     121.066
-    }
-    BodyFrame      { EquatorJ2000 {} }
-    CustomRotation "iau-phobos"
+	Class	"minormoon"
+	Mesh	"phobos.cmod"
+	Orientation	[ 90 0 1 0 ]
+	Texture	"phobos.*"
+	Color	[ 1.0 0.98516 0.94386 ]
+	Radius	13.1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Mars" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2456655.5  # 2013 Dec 29
+		Period	0.31891023
+		SemiMajorAxis	9376
+		Eccentricity	0.0151
+		Inclination	27.235297
+		AscendingNode	84.938846
+		ArgOfPericenter	48.660664
+		MeanAnomaly	85.232720
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-phobos"
 
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #     Inclination   37.10
-    #     AscendingNode 47.68
-    #     MeridianAngle 35.06
-    # }
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Inclination	37.10
+	#	AscendingNode	47.68
+	#	MeridianAngle	35.06
+	# }
 
-    GeomAlbedo 0.071
-
-    InfoURL "https://en.wikipedia.org/wiki/Phobos_(moon)"
+	LunarLambert	0.5
+	GeomAlbedo	0.071
+	InfoURL	"https://en.wikipedia.org/wiki/Phobos_(moon)"
 }
 
 "Deimos:Mars II" "Sol/Mars"
 {
-    Class   "minormoon"
-    Mesh    "deimos.cmod"
-    Texture "deimos.*"
-    Radius  7.5
-    OrbitFrame
-    {
-        EclipticJ2000   { Center "Sol/Mars" }
-    }
-    EllipticalOrbit
-    {
-        Epoch           2443431.5  # 1977 Oct 15
-        Period          1.2624407
-        SemiMajorAxis   23458
-        Eccentricity    0.00033
-        Inclination     24.167
-        AscendingNode   84.377
-        ArgOfPericenter 61.617
-        MeanAnomaly     213.688
-    }
-    BodyFrame      { EquatorJ2000 {} }
-    CustomRotation "iau-deimos"
+	Class	"minormoon"
+	Mesh	"deimos.cmod"
+	Texture	"deimos.*"
+	Color	[ 1.0 0.97168 0.93149 ]
+	Radius	7.8
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Mars" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2443431.5  # 1977 Oct 15
+		Period	1.2624407
+		SemiMajorAxis	23463.2
+		Eccentricity	0.00033
+		Inclination	24.167070
+		AscendingNode	84.377158
+		ArgOfPericenter	61.616854
+		MeanAnomaly	213.688382
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-deimos"
 
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #     Inclination   36.48
-    #     AscendingNode 47.65
-    #     MeridianAngle 79.41
-    # }
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Inclination	36.48
+	#	AscendingNode	47.65
+	#	MeridianAngle	79.41
+	# }
 
-    GeomAlbedo 0.068
-
-    InfoURL "https://en.wikipedia.org/wiki/Deimos_(moon)"
+	LunarLambert	0.5
+	GeomAlbedo	0.068
+	InfoURL	"https://en.wikipedia.org/wiki/Deimos_(moon)"
 }
 
 "Jupiter" "Sol"
