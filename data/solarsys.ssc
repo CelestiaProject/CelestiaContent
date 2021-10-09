@@ -399,274 +399,263 @@
 
 "Jupiter" "Sol"
 {
-    Class      "planet"
-    Texture    "jupiter.*"  # from 2000 by Cassini-Huygens
-    Color      [ 1.0 0.908 0.720 ]
-    Radius     71492
-    Oblateness 0.06487
-    Atmosphere
-    {
-        Height         1000
-        Mie            0.001
-        MieScaleHeight 27
-        MieAsymmetry   -0.15
-        Rayleigh       [ 0.00018 0.00034 0.00070 ]
-        Absorption     [ 0.00050 0.00070 0.00100 ]
-    }
-    CustomOrbit "vsop87-jupiter"
+	Class	"planet"
+	Texture	"jupiter.*"  # from 2000 by Cassini-Huygens
+	Color	[ 1.0 0.98663 0.91433 ]
+	Radius	71492
+	Oblateness	0.06487
+	Atmosphere
+	{
+		Height	1000
+		Mie	0.0001
+		MieScaleHeight	28
+		MieAsymmetry	-0.15
+		Rayleigh	[ 0.00095 0.00145 0.00298 ]
+		Absorption	[ 0.00033 0.00010 0.00001 ]
+	}
+	CustomOrbit	"vsop87-jupiter"
 
-    # Overridden by CustomOrbit
-    # EllipticalOrbit
-    # {
-    #     Epoch           2457754.5  # 2017 Jan 01
-    #     Period          11.8595633820361
-    #     SemiMajorAxis   5.202097143329861
-    #     Eccentricity    0.04890570181149351
-    #     Inclination     1.303729399278313
-    #     AscendingNode   100.5170015792149
-    #     ArgOfPericenter 273.721095361612
-    #     MeanAnomaly     176.1022184526773
-    # }
+	# Overridden by CustomOrbit
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	11.8672211183947
+	#	SemiMajorAxis	5.204336236587197
+	#	Eccentricity	0.04878759832915376
+	#	Inclination	1.304632514444227
+	#	AscendingNode	100.4912520138616
+	#	ArgOfPericenter	275.0689654447587
+	#	MeanAnomaly	18.81562670870565
+	# }
 
-    BodyFrame   { EclipticJ2000 {} }
-    UniformRotation  # from Celestia Origin
-    {
-        Period        9.92491250
-        Inclination   2.22
-        AscendingNode 337.80
-        MeridianAngle 305.38
-    }
-    # v1.6 comments:
-    # IAU rotation not used for Jupiter; it is based on System III
-    # (radio emissions), not the cloud positions. In Celestia, we're
-    # more interested in having the Great Red Spot appear in the
-    # (approximately) correct place.
-    # BodyFrame { EclipticJ2000 {} }
-    # UniformRotation
-    # {
-    # Period        9.927953    # System II (for GRS)
-    # # Period      9.92491250  # System III (radio emissions)
-    # Inclination   2.22
-    # AscendingNode 337.80
-    # MeridianAngle 334      # for correct position of GRS, July 2008
-                             # (equal to 461 minus current W longitude of GRS)
-    # MeridianAngle 305.38   # correct System III prime meridian
-    # }
-
-    GeomAlbedo      0.510901
-    BondAlbedo      0.503
-    TempDiscrepancy 62.5  # for 1 bar level
-
-    InfoURL "https://en.wikipedia.org/wiki/Jupiter"
+	BodyFrame	{ EclipticJ2000 {} }
+	UniformRotation
+	{
+		Period	9.92491250
+		Inclination	2.22
+		AscendingNode	337.80
+		MeridianAngle	305.38
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.510901
+	BondAlbedo	0.503
+	TempDiscrepancy	62.5  # for 1 bar level
+	Rings
+	{
+		Inner	122500
+		Outer	129360
+		Texture	"jupiter-rings.*"
+	}
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter"
 }
 
 AltSurface "2018 (Hubble)" "Sol/Jupiter"
 {
-    Texture "jupiter-2018.*"
+	Texture	"jupiter-2018.*"
+	LunarLambert	0.5
 }
 
 "Io:Jupiter I" "Sol/Jupiter"
 {
-    Class          "moon"
-    Texture        "io.*"
-    # NightTexture "io-night.png"
-    # NormalMap    "io-normal.*"
-    Color          [ 1.0 0.9 0.6 ]
-    SemiAxes       [ 1830 1818.7 1815.3 ]
-    Atmosphere
-    {
-        Height         200
-        Mie            0.00002
-        MieScaleHeight 50
-    }
-    CustomOrbit "io"
+	Class	"moon"
+	Texture	"io.*"
+	Color	[ 1.0 0.94191 0.70074 ]
+	SemiAxes	[ 1829.4 1819.4 1815.7 ]
+	Atmosphere
+	{
+		Height	500
+		Mie	0.000005
+		MieScaleHeight	50
+	}
+	CustomOrbit	"io"
 
-    # Overridden by CustomOrbit
-    # OrbitFrame
-    # {
-    #     EclipticJ2000   { Center "Sol/Jupiter" }
-    # }
-    # EllipticalOrbit
-    # {
-    #     Epoch           2457754.5  # 2017 Jan 01
-    #     Period          1.769137786
-    #     SemiMajorAxis   421800
-    #     Eccentricity    0.0041
-    #     Inclination     2.190
-    #     AscendingNode   337.909
-    #     ArgOfPericenter 153.044
-    #     MeanAnomaly     211.920
-    # }
+	# Overridden by CustomOrbit
+	# OrbitFrame
+	# {
+	#	EclipticJ2000	{ Center "Sol/Jupiter" }
+	# }
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	1.769137786
+	#	SemiMajorAxis	421769
+	#	Eccentricity	0.0041
+	#	Inclination	2.212554
+	#	AscendingNode	336.850441
+	#	ArgOfPericenter	66.167954
+	#	MeanAnomaly	335.152150
+	# }
 
-    BodyFrame      { EquatorJ2000 {} }
-    CustomRotation "iau-io"
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-io"
 
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #     Inclination   25.50
-    #     AscendingNode 358.05
-    #     MeridianAngle 200.39
-    # }
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Inclination	25.50
+	#	AscendingNode	358.05
+	#	MeridianAngle	200.39
+	# }
 
-    GeomAlbedo      0.63
-    BondAlbedo      0.56
-    TempDiscrepancy 11
-
-    InfoURL "https://en.wikipedia.org/wiki/Io_(moon)"
+	LunarLambert	0.5
+	GeomAlbedo	0.63
+	BondAlbedo	0.56
+	TempDiscrepancy	11
+	InfoURL	"https://en.wikipedia.org/wiki/Io_(moon)"
 }
 
 AltSurface "Limit of knowledge" "Sol/Jupiter/Io"
 {
-    Texture        "io.*"
-    OverlayTexture "io-lok-mask.png"
+	Texture	"io.*"
+	OverlayTexture	"io-lok-mask.*"
+	LunarLambert	0.5
 }
 
 "Europa:Jupiter II" "Sol/Jupiter"
 {
-    Class       "moon"
-    Texture     "europa.*"
-    # NormalMap "europa-normal.*"
-    Color       [ 1.0 1.0 0.9 ]
-    Radius      1560.8
-    CustomOrbit "europa"
+	Class	"moon"
+	Texture	"europa.*"
+	Color	[ 1.0 0.95939 0.85366 ]
+	SemiAxes	[ 1562.6 1560.3 1559.5 ]
+	CustomOrbit	"europa"
 
-    # Overridden by CustomOrbit
-    # OrbitFrame
-    # {
-    #     EclipticJ2000   { Center "Sol/Jupiter" }
-    # }
-    # EllipticalOrbit
-    # {
-    #     Epoch           2457754.5  # 2017 Jan 01
-    #     Period          3.551181
-    #     SemiMajorAxis   671100
-    #     Eccentricity    0.0094
-    #     Inclination     2.689
-    #     AscendingNode   338.535
-    #     ArgOfPericenter 340.607
-    #     MeanAnomaly     99.955
-    # }
+	# Overridden by CustomOrbit
+	# OrbitFrame
+	# {
+	#	EclipticJ2000	{ Center "Sol/Jupiter" }
+	# }
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	3.551181
+	#	SemiMajorAxis	671079
+	#	Eccentricity	0.0094
+	#	Inclination	1.790890
+	#	AscendingNode	332.628081
+	#	ArgOfPericenter	254.647596
+	#	MeanAnomaly	345.411243
+	# }
 
-    BodyFrame      { EquatorJ2000 {} }
-    CustomRotation "iau-europa"
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-europa"
 
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #     Inclination   25.49
-    #     AscendingNode 358.08
-    #     MeridianAngle 36.022
-    # }
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Inclination	25.49
+	#	AscendingNode	358.08
+	#	MeridianAngle	36.022
+	# }
 
-    GeomAlbedo 0.67
-    BondAlbedo 0.68
-
-    InfoURL "https://en.wikipedia.org/wiki/Europa_(moon)"
+	LunarLambert	0.5
+	GeomAlbedo	0.67
+	BondAlbedo	0.68
+	InfoURL	"https://en.wikipedia.org/wiki/Europa_(moon)"
 }
 
 AltSurface "Limit of knowledge" "Sol/Jupiter/Europa"
 {
-    Texture        "europa.*"
-    OverlayTexture "europa-lok-mask.png"
+	Texture	"europa.*"
+	OverlayTexture	"europa-lok-mask.*"
+	LunarLambert	0.5
 }
 
 "Ganymede:Jupiter III" "Sol/Jupiter"
 {
-    Class       "moon"
-    Texture     "ganymede.*"
-    # NormalMap "ganymede-normal.*"
-    Color       [ 0.8 0.6 0.5 ]
-    Radius      2634.1
-    CustomOrbit "ganymede"
+	Class	"moon"
+	Texture	"ganymede.*"
+	Color	[ 1.0 0.96761 0.89281 ]
+	SemiAxes	[ 2634.5 2633 2631.5 ]
+	CustomOrbit	"ganymede"
 
-    # Overridden by CustomOrbit
-    # OrbitFrame
-    # {
-    #     EclipticJ2000   { Center "Sol/Jupiter" }
-    # }
-    # EllipticalOrbit
-    # {
-    #     Epoch           2457754.5  # 2017 Jan 01
-    #     Period          7.15455296
-    #     SemiMajorAxis   1070400
-    #     Eccentricity    0.0013
-    #     Inclination     2.293
-    #     AscendingNode   340.773
-    #     ArgOfPericenter 346.869
-    #     MeanAnomaly     219.548
-    # }
+	# Overridden by CustomOrbit
+	# OrbitFrame
+	# {
+	#	EclipticJ2000	{ Center "Sol/Jupiter" }
+	# }
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	7.15455296
+	#	SemiMajorAxis	1070428
+	#	Eccentricity	0.0013
+	#	Inclination	2.214148
+	#	AscendingNode	343.170954
+	#	ArgOfPericenter	319.809696
+	#	MeanAnomaly	277.048780
+	# }
 
-    BodyFrame      { EquatorJ2000 {} }
-    CustomRotation "iau-ganymede"
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-ganymede"
 
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #     Inclination   25.43
-    #     AscendingNode 358.20
-    #     MeridianAngle 44.064
-    # }
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Inclination	25.43
+	#	AscendingNode	358.20
+	#	MeridianAngle	44.064
+	# }
 
-    GeomAlbedo 0.43
-    BondAlbedo 0.35
-
-    InfoURL "https://en.wikipedia.org/wiki/Ganymede_(moon)"
+	LunarLambert	0.5
+	GeomAlbedo	0.43
+	BondAlbedo	0.35
+	InfoURL	"https://en.wikipedia.org/wiki/Ganymede_(moon)"
 }
 
 AltSurface "Limit of knowledge" "Sol/Jupiter/Ganymede"
 {
-    Texture        "ganymede.*"
-    OverlayTexture "ganymede-lok-mask.png"
+	Texture	"ganymede.*"
+	OverlayTexture	"ganymede-lok-mask.*"
+	LunarLambert	0.5
 }
 
 "Callisto:Jupiter IV" "Sol/Jupiter"
 {
-    Class       "moon"
-    Texture     "callisto.*"
-    # NormalMap "callisto-normal.*"
-    Color       [ 0.6 0.6 0.4 ]
-    Radius      2410.3
-    CustomOrbit "callisto"
+	Class	"moon"
+	Texture	"callisto.*"
+	Color	[ 1.0 0.9573 0.86499 ]
+	SemiAxes	[ 2409.5 2409.5 2409 ]
+	CustomOrbit	"callisto"
 
-    # Overridden by CustomOrbit
-    # OrbitFrame
-    # {
-    #     EclipticJ2000   { Center "Sol/Jupiter" }
-    # }
-    # EllipticalOrbit
-    # {
-    #     Epoch           2457754.5  # 2017 Jan 01
-    #     Period          16.6890184
-    #     SemiMajorAxis   1882700
-    #     Eccentricity    0.0074
-    #     Inclination     1.973
-    #     AscendingNode   337.171
-    #     ArgOfPericenter 28.724
-    #     MeanAnomaly     98.879
-    # }
+	# Overridden by CustomOrbit
+	# OrbitFrame
+	# {
+	#	EclipticJ2000	{ Center "Sol/Jupiter" }
+	# }
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	16.6890184
+	#	SemiMajorAxis	1882700
+	#	Eccentricity	0.0074
+	#	Inclination	2.016906
+	#	AscendingNode	337.941534
+	#	ArgOfPericenter	16.127956
+	#	MeanAnomaly	85.118909
+	# }
 
-    BodyFrame      { EquatorJ2000 {} }
-    CustomRotation "iau-callisto"
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-callisto"
 
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #     Inclination   25.17
-    #     AscendingNode 358.72
-    #     MeridianAngle 259.51
-    # }
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Inclination	25.17
+	#	AscendingNode	358.72
+	#	MeridianAngle	259.51
+	# }
 
-    GeomAlbedo 0.22
-    BondAlbedo 0.11
-
-    InfoURL "https://en.wikipedia.org/wiki/Callisto_(moon)"
+	LunarLambert	0.5
+	GeomAlbedo	0.22
+	BondAlbedo	0.11
+	InfoURL	"https://en.wikipedia.org/wiki/Callisto_(moon)"
 }
 
 AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 {
-    Texture        "callisto.*"
-    OverlayTexture "callisto-lok-mask.png"
+	Texture	"callisto.*"
+	OverlayTexture	"callisto-lok-mask.*"
+	LunarLambert	0.5
 }
 
 "Saturn" "Sol"

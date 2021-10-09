@@ -35,7 +35,9 @@ Texture maps
 
 # Askaniy (https://www.deviantart.com/askaniy)
 
-   Textures of Phobos, Deimos, Jupiter, Europa, Ganymede, Callisto, Saturn, Pluto, and Charon.
+   Textures of Phobos, Jupiter, Ganymede, Saturn, Pluto, and Charon.
+
+   The Deimos and Callisto textures were made by Askaniy from JVV's textures.
 
 # FarGetaNik (https://www.deviantart.com/fargetanik)
 
@@ -79,6 +81,14 @@ Texture maps
    Color and cloud texture extracted from a map on the NASA photojournal, brightness adjusted with the USGS albedo map.
    Normal map derived from USGS DEM.
 
+   Jupiter's rings are derived from spacecraft imagery found on the NASA photojournal.
+
+   Io's surface texture is derived from USGS maps and JVV's map.
+
+# The Europa texture is by John van Vliet.
+
+   Other textures derived from work by JVV are listed above.
+
 # Most of the old maps are from David Seal's site: http://maps.jpl.nasa.gov/.
 
    Some of these maps were modified, with fictional terrain added to fill in
@@ -113,20 +123,13 @@ Texture maps
    The Iapetus texture was created from the Oct 2008 Ciclops map
    (http://photojournal.jpl.nasa.gov/catalog/PIA11116)
 
-   The Lunar topography and bump maps, using Clementine laser altimeter data,
-   merged in the polar regions with topographic data  from Clementine 750 nm
-   oblique and nadir images.
-
 # Phil Stooke
 
    Proteus, Janus, Prometheus and Epimetheus maps are from Phil Stooke.
 
    The Ida and Gaspra photomosaic maps are by Phil Stooke.
 
-# Venus's clouds are from Björn Jónsson.
-
-# Steve Albers
-   The Io map is by Steve Albers.
+# Venus's clouds are from Björn Jónsson, recolored by FarGetaNik.
 
 # The textures for the Uranian satellites were created by Ivan Rivera from JPL
   data. His Celestia page is: http://bruckner.homelinux.net/celestia.html
@@ -136,7 +139,7 @@ Texture maps
 
 # Amalthea is a shaded relief map by Phil Stooke, colored by Wm. Robert Johnston
   (http://www.johnstonsarchive.net/spaceart/cylmaps.html), and further modified
-  by Jens Meyer and Grant Hutchison.
+  by Jens Meyer, Grant Hutchison, and Askaniy.
 
 # CICLOPS
 
@@ -216,8 +219,9 @@ covered.
 3D Models
 ---------
 
-# New space bodies models can be found in Greg Friger's 3D Asteroid Catalogue:
+# New space bodies models can be found in Greg Frieger's 3D Asteroid Catalogue:
     https://space.frieger.com/asteroids/
+  The individual models are from various sources, listed individually.
 
 # Models of Mars Global Surveyor and Mars Odyssey were created by Shrox:
     http://www.shrox.com/
@@ -244,7 +248,11 @@ covered.
   On August 20, 2020, Scott Hudson waived the commercial use restrictions on
   these models, permitting unrestricted use of them.
 
-# 3D models of Amalthea, Janus, Epimetheus, Prometheus, Pandora,
+# The Phobos model is by Rob Gaskell: https://sbn.psi.edu/pds/resource/phobosshape.html
+
+# The Deimos model is by John van Vliet.
+
+# 3D models of Amalthea, Thebe, Janus, Epimetheus, Prometheus, Pandora,
   Hyperion, Larissa, Proteus, Vesta, Ida, Gaspra and Halley are derived from
   Phil Stooke's Cartography of Non-Spherical Worlds.
 

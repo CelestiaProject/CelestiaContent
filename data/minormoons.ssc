@@ -10,1370 +10,2319 @@
 
 # Minor moons of Jupiter
 
-"Metis:Jupiter XVI:1979 J 3" "Sol/Jupiter"
+"Metis:Jupiter XVI:S 1979 J 3" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 30 20 20 ]
-
-    EllipticalOrbit
-    {
-    Period      0.294780
-    SemiMajorAxis   127979
-    Eccentricity    0.0012
-    Inclination 0.019
-    AscendingNode   263.953 #
-    ArgOfPericenter 274.588 # J2000.0
-    MeanAnomaly 7.649   #
-    }
-
-    RotationOffset      366
-
-    Albedo 0.061
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.82 0.64 ]
+	BlendTexture	true
+	SemiAxes	[ 30 20 17 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451547.5  # 2000 Jan 04
+		Period	0.2947802
+		SemiMajorAxis	127960
+		Eccentricity	0.0002
+		Inclination	2.223400
+		AscendingNode	337.566894
+		ArgOfPericenter	3.698191
+		MeanAnomaly	356.055993
+	}
+	UniformRotation
+	{
+		MeridianAngle	366
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.061
+	InfoURL	"https://en.wikipedia.org/wiki/Metis_(moon)"
 }
 
-"Adrastea:Jupiter XV:1979 J 1" "Sol/Jupiter"
+"Adrastea:Jupiter XV:S 1979 J 1" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 10 8 7 ]
-
-    EllipticalOrbit
-    {
-    Period      0.29826
-    SemiMajorAxis   128980
-    Eccentricity    0.0018
-    Inclination 0.054
-    AscendingNode   36.236  #
-    ArgOfPericenter 213.656 # J2000.0
-    MeanAnomaly 344.875 #
-    }
-
-    RotationOffset       55
-
-    Albedo 0.1
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 10 8 7 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2450600.5  # 1997 Jun 01
+		Period	0.2982614
+		SemiMajorAxis	128980
+		Eccentricity	0.0015
+		Inclination	2.208538
+		AscendingNode	338.099050
+		ArgOfPericenter	344.990296
+		MeanAnomaly	359.173664
+	}
+	UniformRotation
+	{
+		MeridianAngle	55
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Adrastea_(moon)"
 }
 
 "Amalthea:Jupiter V" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture "amalthea.*"
-    Color   [ 0.63 0.45 0.35 ]
-    Mesh "amalthea.cmod"
-    Radius    134 # maximum semi-axis
-    MeshCenter [ -13.616 -0.448 -4.436 ]
+	Class	"minormoon"
+	Mesh	"amalthea.cmod"
+	Texture	"amalthea.*"
+	Color	[ 1.0 0.748 0.579 ]
+	Radius	131
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2452583.5  # 2002 Nov 05
+		Period	0.49817943
+		SemiMajorAxis	181365.84
+		Eccentricity	0.00319
+		Inclination	1.961072
+		AscendingNode	330.184787
+		ArgOfPericenter	258.668062
+		MeanAnomaly	36.001500
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-amalthea"
 
-    EllipticalOrbit
-    {
-    Epoch      2452583.763194445 # 2002 Nov 5 06:19UT (Galileo encounter)
-    Period          0.498179     # mean
-    SemiMajorAxis   181994.78    # at epoch
-    Eccentricity    0.0045045    # at epoch
-    Inclination     0.384285     # at epoch
-    AscendingNode   220.288958   # at epoch
-    ArgOfPericenter 301.622765   # at epoch
-    MeanAnomaly     315.352094   # at epoch
-    }
+	# Overriden by CustomRotation
+	# UniformRotation
+	# {
+	#	Inclination	25.51
+	#	AscendingNode	358.05
+	#	MeridianAngle	231.67
+	# }
 
-    BodyFrame { EquatorJ2000 {} }
-    CustomRotation "iau-amalthea"
-
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #    Inclination    25.51
-    #    AscendingNode 358.05
-    #    MeridianAngle 231.67
-    # }
-
-    Albedo          0.06
+	LunarLambert	0.5
+	GeomAlbedo	0.090
+	InfoURL	"https://en.wikipedia.org/wiki/Amalthea_(moon)"
 }
 
-"Thebe:Jupiter XIV:1979 J 2" "Sol/Jupiter"
+"Thebe:Jupiter XIV:S 1979 J 2" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 58 49 42 ]
-
-    EllipticalOrbit
-    {
-    Period      0.6745
-    SemiMajorAxis   221900
-    Eccentricity    0.0177
-    Inclination 1.075   #
-    AscendingNode   0.415   #
-    ArgOfPericenter 28.001  # J2000.0
-    MeanAnomaly 181.090 #
-    }
-
-    Obliquity         0.0
-    RotationOffset       29.5
-
-    Albedo 0.047
+	Class	"minormoon"
+	Mesh	"thebe.cmod"
+	Orientation	[ 1 180 0 0 ]
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.88 0.75 ]
+	BlendTexture	true
+	Radius	58
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451547.5  # 2000 Jan 04
+		Period	0.674536
+		SemiMajorAxis	221889
+		Eccentricity	0.0175
+		Inclination	3.287041
+		AscendingNode	336.986660
+		ArgOfPericenter	37.994357
+		MeanAnomaly	66.589905
+	}
+	UniformRotation
+	{
+		MeridianAngle	29.5
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.047
+	InfoURL	"https://en.wikipedia.org/wiki/Thebe_(moon)"
 }
 
-"Themisto:Jupiter XVIII:2000 J 1" "Sol/Jupiter"
+"Themisto:Jupiter XVIII:S 1975 J 1:S 2000 J 1" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      4.0
-
-    EllipticalOrbit
-    {
-    Period      130.02
-    SemiMajorAxis   7507000
-    Eccentricity    0.2420
-    Inclination 47.584  #
-    AscendingNode   223.444 #
-    ArgOfPericenter 238.413 # J2000.0
-    MeanAnomaly     289.151 #
-    }
-
-    RotationPeriod  10   # Guess
-
-    Albedo 0.04
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	4.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	130.200230
+		SemiMajorAxis	7405264.419
+		Eccentricity	0.203913
+		Inclination	45.483645
+		AscendingNode	202.317030
+		ArgOfPericenter	238.408454
+		MeanAnomaly	182.658856
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Themisto_(moon)"
 }
 
 "Leda:Jupiter XIII" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      10
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	9
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	239.499143
+		SemiMajorAxis	11117369.619
+		Eccentricity	0.167795
+		Inclination	27.358545
+		AscendingNode	216.674923
+		ArgOfPericenter	267.436108
+		MeanAnomaly	42.721837
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Leda_(moon)"
+}
 
-    EllipticalOrbit
-    {
-    Period      240.92
-    SemiMajorAxis   11650000
-    Eccentricity    0.1636
-    Inclination 28.776  #
-    AscendingNode   235.611 # J2000.0
-    ArgOfPericenter 275.215 #
-    MeanAnomaly     232.639 #
-    }
+"Ersa:Jupiter LXXI:S 2018 J 1" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	247.904518
+		SemiMajorAxis	11375985.514
+		Eccentricity	0.138802
+		Inclination	30.501409
+		AscendingNode	111.901166
+		ArgOfPericenter	303.307245
+		MeanAnomaly	59.028990
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Ersa_(moon)"
+}
 
-    RotationPeriod  10      # Guess
-
-    Albedo 0.04
+"Pandia:Jupiter LXV:S 2017 J 4" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	249.814801
+		SemiMajorAxis	11434350.813
+		Eccentricity	0.170906
+		Inclination	28.654662
+		AscendingNode	249.676866
+		ArgOfPericenter	195.020013
+		MeanAnomaly	296.209279
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Pandia_(moon)"
 }
 
 "Himalia:Jupiter VI" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 75 60 60 ]
-
-    EllipticalOrbit
-    {
-    Period      250.56
-    SemiMajorAxis   11461000
-    Eccentricity    0.1623
-    Inclination 30.182  #
-    AscendingNode   90.236  #
-    ArgOfPericenter 316.730 # J2000.0
-    MeanAnomaly 78.236  #
-    }
-
-    RotationPeriod  9.6
-
-    Albedo 0.04
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 102.8 102.8 70.7 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	252.892366
+		SemiMajorAxis	11528068.498
+		Eccentricity	0.141416
+		Inclination	30.505140
+		AscendingNode	63.928151
+		ArgOfPericenter	330.084672
+		MeanAnomaly	215.283717
+	}
+	UniformRotation
+	{
+		Period	7.782
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Himalia_(moon)"
 }
 
 "Lysithea:Jupiter X" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      18
-
-    EllipticalOrbit
-    {
-    Period      259.20
-    SemiMajorAxis   11717000
-    Eccentricity    0.1124
-    Inclination 25.989  #
-    AscendingNode   33.831  #
-    ArgOfPericenter 45.606  # J2000.0
-    MeanAnomaly     328.460 #
-    }
-
-    RotationPeriod  10      # Guess
-
-    Albedo 0.04
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	19
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	256.620470
+		SemiMajorAxis	11641088.737
+		Eccentricity	0.135788
+		Inclination	27.240958
+		AscendingNode	7.893922
+		ArgOfPericenter	53.302995
+		MeanAnomaly	94.313415
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Lysithea_(moon)"
 }
 
 "Elara:Jupiter VII" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      43
-
-    EllipticalOrbit
-    {
-    Period      259.64
-    SemiMajorAxis   11741000
-    Eccentricity    0.2174
-    Inclination 30.520  #
-    AscendingNode   137.714 #
-    ArgOfPericenter 126.817 # J2000.0
-    MeanAnomaly     346.909 #
-    }
-
-    RotationPeriod  12
-
-    Albedo 0.04
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	39
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	258.322533
+		SemiMajorAxis	11692505.842
+		Eccentricity	0.222365
+		Inclination	29.549339
+		AscendingNode	110.859326
+		ArgOfPericenter	137.161578
+		MeanAnomaly	111.055085
+	}
+	UniformRotation
+	{
+		Period	12
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Elara_(moon)"
 }
 
-"Iocaste:Jupiter XXIV:2000 J 3" "Sol/Jupiter"
+"Dia:Jupiter LIII:S 2000 J 11" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      2.6
-
-    EllipticalOrbit
-    {
-    Period      631.49
-    SemiMajorAxis   21269000
-    Eccentricity    0.2156
-    Inclination 148.117 #
-    AscendingNode   294.484 #
-    ArgOfPericenter 95.230  # J2000.0
-    MeanAnomaly     182.064 #
-    }
-
-    RotationPeriod  10   # Guess
-
-    Albedo 0.04
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	275.173191
+		SemiMajorAxis	12195608.709
+		Eccentricity	0.197181
+		Inclination	28.321938
+		AscendingNode	291.962580
+		ArgOfPericenter	166.549499
+		MeanAnomaly	57.380099
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Dia_(moon)"
 }
 
-"Praxidike:Jupiter XXVII:2000 J 7" "Sol/Jupiter"
+"Carpo:Jupiter XLVI:S 2003 J 20" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      3.4
-
-    EllipticalOrbit
-    {
-    Period      625.30
-    SemiMajorAxis   21147000
-    Eccentricity    0.2296
-    Inclination 141.869 #
-    AscendingNode   305.912 #
-    ArgOfPericenter 185.546 # J2000.0
-    MeanAnomaly     127.898 #
-    }
-
-    RotationPeriod  10   # Guess
-
-    Albedo 0.04
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	453.719657
+		SemiMajorAxis	17021237.509
+		Eccentricity	0.265587
+		Inclination	58.741391
+		AscendingNode	52.177289
+		ArgOfPericenter	78.578484
+		MeanAnomaly	269.762562
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Carpo_(moon)"
 }
 
-"Harpalyke:Jupiter XXII:2000 J 5" "Sol/Jupiter"
+"Valetudo:Jupiter LXII:S 2016 J 2" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      2.2
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	0.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	508.719990
+		SemiMajorAxis	18370399.650
+		Eccentricity	0.232587
+		Inclination	34.452421
+		AscendingNode	286.820439
+		ArgOfPericenter	343.940893
+		MeanAnomaly	304.994989
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Valetudo_(moon)"
+}
 
-    EllipticalOrbit
-    {
-    Period      623.34
-    SemiMajorAxis   21105000
-    Eccentricity    0.2259
-    Inclination 148.725 #
-    AscendingNode   54.669  #
-    ArgOfPericenter 100.638 # J2000.0
-    MeanAnomaly     255.488 #
-    }
+"Euporie:Jupiter XXXIV:S 2001 J 10" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	557.055206
+		SemiMajorAxis	19516333.325
+		Eccentricity	0.126715
+		Inclination	147.905804
+		AscendingNode	64.261907
+		ArgOfPericenter	82.140628
+		MeanAnomaly	310.837700
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Euporie_(moon)"
+}
 
-    RotationPeriod  10   # Guess
+"Jupiter LV:S 2003 J 18" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	577.570367
+		SemiMajorAxis	19992602.769
+		Eccentricity	0.080689
+		Inclination	144.025382
+		AscendingNode	169.571508
+		ArgOfPericenter	92.020329
+		MeanAnomaly	104.382385
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LV"
+}
 
-    Albedo 0.04
+"Eupheme:Jupiter LX:S 2003 J 3" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	581.868658
+		SemiMajorAxis	20091670.408
+		Eccentricity	0.390020
+		Inclination	149.139264
+		AscendingNode	226.762806
+		ArgOfPericenter	69.197501
+		MeanAnomaly	188.588647
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Eupheme_(moon)"
+}
+
+"S 2003 J 16" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	590.488929
+		SemiMajorAxis	20289619.606
+		Eccentricity	0.354236
+		Inclination	147.396456
+		AscendingNode	6.656824
+		ArgOfPericenter	50.250001
+		MeanAnomaly	147.896653
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2003_J_16"
+}
+
+"Jupiter LXVIII:S 2017 J 7" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	591.817906
+		SemiMajorAxis	20320051.417
+		Eccentricity	0.440442
+		Inclination	149.477447
+		AscendingNode	268.403775
+		ArgOfPericenter	285.439655
+		MeanAnomaly	203.893898
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LXVIII"
 }
 
 "Ananke:Jupiter XII" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      14
-
-    EllipticalOrbit
-    {
-    Period      629.77
-    SemiMajorAxis   21276000
-    Eccentricity    0.2435
-    Inclination 149.828 #
-    AscendingNode   33.659  #
-    ArgOfPericenter 76.129  # J2000.0
-    MeanAnomaly     271.820 #
-    }
-
-    RotationPeriod  10  # Guess
-
-    Albedo 0.04
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	14
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	595.578388
+		SemiMajorAxis	20406037.885
+		Eccentricity	0.360360
+		Inclination	149.967085
+		AscendingNode	14.707108
+		ArgOfPericenter	74.503950
+		MeanAnomaly	115.031931
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Ananke_(moon)"
 }
 
-"Isonoe:Jupiter XXVI:2000 J 6" "Sol/Jupiter"
+"Harpalyke:Jupiter XXII:S 2000 J 5" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      1.9
-
-    EllipticalOrbit
-    {
-    Period      725.52
-    SemiMajorAxis   23217000
-    Eccentricity    0.2461
-    Inclination 168.026 #
-    AscendingNode   152.118 #
-    ArgOfPericenter 126.560 # J2000.0
-    MeanAnomaly     116.296 #
-    }
-
-    RotationPeriod  10   # Guess
-
-    Albedo 0.04
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	596.027323
+		SemiMajorAxis	20416291.042
+		Eccentricity	0.240113
+		Inclination	149.159913
+		AscendingNode	35.557718
+		ArgOfPericenter	103.752689
+		MeanAnomaly	93.675087
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Harpalyke_(moon)"
 }
 
-"Erinome:Jupiter XXV:2000 J 4" "Sol/Jupiter"
+"S 2003 J 12" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      1.6
-
-    EllipticalOrbit
-    {
-    Period      728.26
-    SemiMajorAxis   23279000
-    Eccentricity    0.2659
-    Inclination 159.212 #
-    AscendingNode   336.042 #
-    ArgOfPericenter 2.668   # J2000.0
-    MeanAnomaly     273.099 #
-    }
-
-    RotationPeriod  10   # Guess
-
-    Albedo 0.04
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	0.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	599.056728
+		SemiMajorAxis	20485411.799
+		Eccentricity	0.191696
+		Inclination	152.247659
+		AscendingNode	54.653753
+		ArgOfPericenter	49.876056
+		MeanAnomaly	24.573712
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2003_J_12"
 }
 
-"Taygete:Jupiter XX:2000 J 9" "Sol/Jupiter"
+"Jupiter LII:S 2010 J 2" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      2.5
-
-    EllipticalOrbit
-    {
-    Period      732.24
-    SemiMajorAxis   23360000
-    Eccentricity    0.2516
-    Inclination 160.215 #
-    AscendingNode   326.765 #
-    ArgOfPericenter 211.713 # J2000.0
-    MeanAnomaly     116.364 #
-    }
-
-    RotationPeriod  10   # Guess
-
-    Albedo 0.04
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	0.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	600.703030
+		SemiMajorAxis	20522926.213
+		Eccentricity	0.224511
+		Inclination	144.358753
+		AscendingNode	0.888358
+		ArgOfPericenter	30.323337
+		MeanAnomaly	135.548129
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LII"
 }
 
-"Chaldene:Jupiter XXI:2000 J 10" "Sol/Jupiter"
+"Praxidike:Jupiter XXVII:S 2000 J 7" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      1.9
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	3.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	602.458806
+		SemiMajorAxis	20562897.309
+		Eccentricity	0.128936
+		Inclination	145.790619
+		AscendingNode	284.838470
+		ArgOfPericenter	215.577100
+		MeanAnomaly	302.193389
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Praxidike_(moon)"
+}
 
-    EllipticalOrbit
-    {
-    Period      723.78
-    SemiMajorAxis   23179000
-    Eccentricity    0.2512
-    Inclination 167.733 #
-    AscendingNode   152.657 #
-    ArgOfPericenter 227.365 # J2000.0
-    MeanAnomaly     275.502 #
-    }
+"S 2003 J 2" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	609.573117
+		SemiMajorAxis	20724462.190
+		Eccentricity	0.194417
+		Inclination	146.373346
+		AscendingNode	352.309205
+		ArgOfPericenter	183.255937
+		MeanAnomaly	237.826109
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2003_J_2"
+}
 
-    RotationPeriod  10   # Guess
+"Euanthe:Jupiter XXXIII:S 2001 J 7" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	610.539295
+		SemiMajorAxis	20746355.525
+		Eccentricity	0.273280
+		Inclination	147.168677
+		AscendingNode	266.994937
+		ArgOfPericenter	300.421143
+		MeanAnomaly	216.689514
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Euanthe_(moon)"
+}
 
-    Albedo 0.04
+"Orthosie:Jupiter XXXV:S 2001 J 9" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	610.598236
+		SemiMajorAxis	20747690.719
+		Eccentricity	0.280198
+		Inclination	143.498828
+		AscendingNode	213.190203
+		ArgOfPericenter	233.182794
+		MeanAnomaly	23.573713
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Orthosie_(moon)"
+}
+
+"Jupiter LXIV:S 2017 J 3" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	611.363361
+		SemiMajorAxis	20765019.370
+		Eccentricity	0.193889
+		Inclination	148.263009
+		AscendingNode	28.573042
+		ArgOfPericenter	114.241754
+		MeanAnomaly	63.019801
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LXIV"
+}
+
+"Iocaste:Jupiter XXIV:S 2000 J 3" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	617.291707
+		SemiMajorAxis	20899041.280
+		Eccentricity	0.262087
+		Inclination	149.689148
+		AscendingNode	270.726451
+		ArgOfPericenter	84.433036
+		MeanAnomaly	38.383750
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Iocaste_(moon)"
+}
+
+"Mneme:Jupiter XL:S 2003 J 21" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	622.027649
+		SemiMajorAxis	21005798.476
+		Eccentricity	0.279434
+		Inclination	146.191398
+		AscendingNode	5.142507
+		ArgOfPericenter	47.744162
+		MeanAnomaly	81.647880
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Mneme_(moon)"
+}
+
+"Thyone:Jupiter XXIX:S 2001 J 2" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	624.157735
+		SemiMajorAxis	21053726.330
+		Eccentricity	0.406305
+		Inclination	150.436956
+		AscendingNode	240.242822
+		ArgOfPericenter	95.438986
+		MeanAnomaly	86.342431
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Thyone_(moon)"
+}
+
+"Jupiter LIV:S 2016 J 1" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	0.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	629.242224
+		SemiMajorAxis	21167909.658
+		Eccentricity	0.330157
+		Inclination	146.275726
+		AscendingNode	247.268841
+		ArgOfPericenter	292.780783
+		MeanAnomaly	59.535206
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LIV"
+}
+
+"Thelxinoe:Jupiter XLII:S 2003 J 22" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	633.472059
+		SemiMajorAxis	21262665.712
+		Eccentricity	0.158742
+		Inclination	150.471317
+		AscendingNode	178.230070
+		ArgOfPericenter	310.756109
+		MeanAnomaly	122.220933
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Thelxinoe_(moon)"
+}
+
+"Helike:Jupiter XLV:S 2003 J 6" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	634.687665
+		SemiMajorAxis	21289858.460
+		Eccentricity	0.212325
+		Inclination	156.625353
+		AscendingNode	98.486976
+		ArgOfPericenter	291.390319
+		MeanAnomaly	267.072809
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Helike_(moon)"
+}
+
+"Hermippe:Jupiter XXX:S 2001 J 3" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	638.891112
+		SemiMajorAxis	21383754.812
+		Eccentricity	0.231059
+		Inclination	148.184114
+		AscendingNode	338.073059
+		ArgOfPericenter	300.313089
+		MeanAnomaly	339.076379
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Hermippe_(moon)"
+}
+
+"Philophrosyne:Jupiter LVIII:S 2003 J 15" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	654.429821
+		SemiMajorAxis	21729085.865
+		Eccentricity	0.194675
+		Inclination	145.532422
+		AscendingNode	233.635450
+		ArgOfPericenter	58.502814
+		MeanAnomaly	208.027734
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Philophrosyne_(moon)"
+}
+
+"Jupiter LVI:S 2011 J 2" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	0.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	665.011918
+		SemiMajorAxis	21962697.882
+		Eccentricity	0.503352
+		Inclination	156.099168
+		AscendingNode	24.598253
+		ArgOfPericenter	255.218168
+		MeanAnomaly	119.573542
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LVI"
+}
+
+"Kallichore:Jupiter XLIV:S 2003 J 11" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	671.091864
+		SemiMajorAxis	22096359.014
+		Eccentricity	0.310756
+		Inclination	164.379471
+		AscendingNode	24.690745
+		ArgOfPericenter	26.276016
+		MeanAnomaly	202.444256
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Kallichore_(moon)"
+}
+
+"Chaldene:Jupiter XXI:S 2000 J 10" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	673.485422
+		SemiMajorAxis	22148868.011
+		Eccentricity	0.210192
+		Inclination	165.337207
+		AscendingNode	139.415840
+		ArgOfPericenter	234.118569
+		MeanAnomaly	99.545452
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Chaldene_(moon)"
+}
+
+"Arche:Jupiter XLIII:S 2002 J 1" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	678.489380
+		SemiMajorAxis	22258442.483
+		Eccentricity	0.357429
+		Inclination	160.995398
+		AscendingNode	340.050258
+		ArgOfPericenter	177.243969
+		MeanAnomaly	209.875176
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Arche_(moon)"
+}
+
+"Jupiter LXIX:S 2017 J 8" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	0.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	678.731055
+		SemiMajorAxis	22263727.728
+		Eccentricity	0.328223
+		Inclination	165.646538
+		AscendingNode	101.178267
+		ArgOfPericenter	320.591076
+		MeanAnomaly	191.927424
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LXIX"
+}
+
+"Kale:Jupiter XXXVII:S 2001 J 8" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	685.087102
+		SemiMajorAxis	22402505.674
+		Eccentricity	0.232779
+		Inclination	166.835090
+		AscendingNode	57.307744
+		ArgOfPericenter	52.451202
+		MeanAnomaly	14.894113
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Kale_(moon)"
+}
+
+"Jupiter LXXII:S 2011 J 1" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	688.644554
+		SemiMajorAxis	22479991.719
+		Eccentricity	0.190236
+		Inclination	164.440790
+		AscendingNode	254.469338
+		ArgOfPericenter	39.599296
+		MeanAnomaly	58.659921
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LXXII"
+}
+
+"Jupiter LXI:S 2003 J 19" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	688.677669
+		SemiMajorAxis	22480712.384
+		Eccentricity	0.197011
+		Inclination	164.519792
+		AscendingNode	22.873633
+		ArgOfPericenter	176.240143
+		MeanAnomaly	26.465851
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LXI"
+}
+
+"Cyllene:Jupiter XLVIII:S 2003 J 13" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	689.226915
+		SemiMajorAxis	22492663.596
+		Eccentricity	0.299292
+		Inclination	145.454539
+		AscendingNode	255.723929
+		ArgOfPericenter	222.820262
+		MeanAnomaly	260.232681
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Cyllene_(moon)"
+}
+
+"Taygete:Jupiter XX:S 2000 J 9" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	2.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	690.189587
+		SemiMajorAxis	22513603.010
+		Eccentricity	0.187375
+		Inclination	163.777877
+		AscendingNode	311.398321
+		ArgOfPericenter	257.333114
+		MeanAnomaly	244.136297
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Taygete_(moon)"
+}
+
+"Jupiter LXX:S 2017 J 9" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	691.183098
+		SemiMajorAxis	22535203.019
+		Eccentricity	0.276456
+		Inclination	156.661346
+		AscendingNode	245.122331
+		ArgOfPericenter	271.154421
+		MeanAnomaly	73.762074
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LXX"
+}
+
+"Eurydome:Jupiter XXXII:S 2001 J 4" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	693.054545
+		SemiMajorAxis	22575862.211
+		Eccentricity	0.214127
+		Inclination	146.538275
+		AscendingNode	300.439657
+		ArgOfPericenter	225.265508
+		MeanAnomaly	107.450981
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Eurydome_(moon)"
+}
+
+"Jupiter LI:S 2010 J 1" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	699.823411
+		SemiMajorAxis	22722618.641
+		Eccentricity	0.185206
+		Inclination	162.971276
+		AscendingNode	291.172052
+		ArgOfPericenter	199.985018
+		MeanAnomaly	332.757242
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LI"
+}
+
+"S 2003 J 9" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	0.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	704.006415
+		SemiMajorAxis	22813074.010
+		Eccentricity	0.330921
+		Inclination	167.132058
+		AscendingNode	46.588541
+		ArgOfPericenter	272.241841
+		MeanAnomaly	195.961074
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2003_J_9"
+}
+
+"Jupiter LXVII:S 2017 J 6" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	704.289772
+		SemiMajorAxis	22819195.173
+		Eccentricity	0.241575
+		Inclination	144.931317
+		AscendingNode	320.374880
+		ArgOfPericenter	18.221051
+		MeanAnomaly	323.849159
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LXVII"
+}
+
+"Aitne:Jupiter XXXI:S 2001 J 11" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	706.741456
+		SemiMajorAxis	22872121.354
+		Eccentricity	0.202910
+		Inclination	165.003206
+		AscendingNode	6.871695
+		ArgOfPericenter	91.907849
+		MeanAnomaly	279.032108
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Aitne_(moon)"
 }
 
 "Carme:Jupiter XI" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      23
-
-    EllipticalOrbit
-    {
-    Period      734.17
-    SemiMajorAxis   23404000
-    Eccentricity    0.2533
-    Inclination 166.287 #
-    AscendingNode   131.608 #
-    ArgOfPericenter 0.166   # J2000.0
-    MeanAnomaly     259.474 #
-    }
-
-    RotationPeriod  10  # Guess
-
-    Albedo 0.04
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	23
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	707.952880
+		SemiMajorAxis	22898250.584
+		Eccentricity	0.229726
+		Inclination	165.107057
+		AscendingNode	124.360040
+		ArgOfPericenter	22.592350
+		MeanAnomaly	59.718480
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Carme_(moon)"
 }
 
-"Pasiphae:Jupiter VIII" "Sol/Jupiter"
+"Callirrhoe:Jupiter XVII:S 1999 J 1:1999 UX18" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      30
-
-    EllipticalOrbit
-    {
-    Period      743.63
-    SemiMajorAxis   23624000
-    Eccentricity    0.4090
-    Inclination 138.021 #
-    AscendingNode   338.919 #
-    ArgOfPericenter 174.075 # J2000.0
-    MeanAnomaly     279.225 #
-    }
-
-    RotationPeriod  10      # Guess
-
-    Albedo 0.04
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	3.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	708.864416
+		SemiMajorAxis	22917901.709
+		Eccentricity	0.186381
+		Inclination	143.346547
+		AscendingNode	282.953296
+		ArgOfPericenter	65.606739
+		MeanAnomaly	231.638431
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Callirrhoe_(moon)"
 }
 
-"Kalyke:Jupiter XXIII:2000 J 2" "Sol/Jupiter"
+"Erinome:Jupiter XXV:S 2000 J 4" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      2.6
-
-    EllipticalOrbit
-    {
-    Period      742.98
-    SemiMajorAxis   23583000
-    Eccentricity    0.2453
-    Inclination 165.215 #
-    AscendingNode   52.607  #
-    ArgOfPericenter 232.978 # J2000.0
-    MeanAnomaly     225.334 #
-    }
-
-    RotationPeriod  10   # Guess
-
-    Albedo 0.04
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	710.289387
+		SemiMajorAxis	22948604.726
+		Eccentricity	0.317342
+		Inclination	161.349922
+		AscendingNode	319.227072
+		ArgOfPericenter	2.980678
+		MeanAnomaly	85.078396
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Erinome_(moon)"
 }
 
-"Megaclite:Jupiter XIX:2000 J 8" "Sol/Jupiter"
+"Pasithee:Jupiter XXXVIII:S 2001 J 6" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      2.7
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	715.539943
+		SemiMajorAxis	23061558.672
+		Eccentricity	0.263838
+		Inclination	163.113637
+		AscendingNode	327.565309
+		ArgOfPericenter	223.097872
+		MeanAnomaly	40.058703
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Pasithee_(moon)"
+}
 
-    EllipticalOrbit
-    {
-    Period      752.82
-    SemiMajorAxis   23806000
-    Eccentricity    0.4210
-    Inclination 150.370 #
-    AscendingNode   317.211 #
-    ArgOfPericenter 313.167 # J2000.0
-    MeanAnomaly     116.082 #
-    }
-
-    RotationPeriod  10   # Guess
-
-    Albedo 0.04
+"Eirene:Jupiter LVII:S 2003 J 5" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	715.700860
+		SemiMajorAxis	23065016.052
+		Eccentricity	0.227857
+		Inclination	165.611006
+		AscendingNode	183.487838
+		ArgOfPericenter	75.510720
+		MeanAnomaly	173.076258
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Eirene_(moon)"
 }
 
 "Sinope:Jupiter IX" "Sol/Jupiter"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      19
-
-    EllipticalOrbit
-    {
-    Period      758.90
-    SemiMajorAxis   23939000
-    Eccentricity    0.2495
-    Inclination 150.190 #
-    AscendingNode   332.196 #
-    ArgOfPericenter 356.497 # J2000.0
-    MeanAnomaly     157.451 #
-    }
-
-    RotationPeriod  10      # Guess
-
-    Albedo 0.04
-}
-
-"Callirrhoe:Jupiter XVII:1999 J 1" "Sol/Jupiter"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      4.3
-
-    EllipticalOrbit
-    {
-    Period      758.77
-    SemiMajorAxis   24102000
-    Eccentricity    0.2827
-    Inclination 138.004 #
-    AscendingNode   302.562 #
-    ArgOfPericenter 16.381  # J2000.0
-    MeanAnomaly     117.900 #
-    }
-
-    RotationPeriod  10   # Guess
-
-    Albedo 0.04
-}
-
-"Autonoe:Jupiter XXVIII:2001 J 1" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2.0
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.82 0.64 ]
+	BlendTexture	true
+	Radius	19
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Period		765.95
-	SemiMajorAxis	24046000
-	Eccentricity	0.3168
-	Inclination	149.551	#
-	AscendingNode	290.639	#
-	ArgOfPericenter	65.418	# J2000.0
-	MeanAnomaly     134.044	#
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	720.794567
+		SemiMajorAxis	23174323.848
+		Eccentricity	0.217313
+		Inclination	153.871116
+		AscendingNode	313.636136
+		ArgOfPericenter	346.793901
+		MeanAnomaly	342.285462
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Sinope_(moon)"
 }
 
-"Thyone:Jupiter XXIX:2001 J 2" "Sol/Jupiter"
+"Eukelade:Jupiter XLVII:S 2003 J 1" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2.0
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Period		627.21
-	SemiMajorAxis	20939000
-	Eccentricity	0.2286
-	Inclination	150.100	#
-	AscendingNode	266.835	#
-	ArgOfPericenter	109.494	# J2000.0
-	MeanAnomaly     242.603	#
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	720.949231
+		SemiMajorAxis	23177638.812
+		Eccentricity	0.228897
+		Inclination	164.634748
+		AscendingNode	202.126604
+		ArgOfPericenter	310.889007
+		MeanAnomaly	22.549574
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Eukelade_(moon)"
 }
 
-"Hermippe:Jupiter XXX:2001 J 3" "Sol/Jupiter"
+"Isonoe:Jupiter XXVI:S 2000 J 6" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2.0
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Period		633.90
-	SemiMajorAxis	21131000
-	Eccentricity	0.2096
-	Inclination	147.712	#
-	AscendingNode	353.025	#
-	ArgOfPericenter	277.841	# J2000.0
-	MeanAnomaly     158.433	#
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	723.929016
+		SemiMajorAxis	23241459.186
+		Eccentricity	0.290366
+		Inclination	165.112993
+		AscendingNode	144.478709
+		ArgOfPericenter	137.967230
+		MeanAnomaly	293.427254
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Isonoe_(moon)"
 }
 
-"Eurydome:Jupiter XXXII:2001 J 4" "Sol/Jupiter"
+"S 2003 J 4" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.5
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Period		717.33
-	SemiMajorAxis	22865000
-	Eccentricity	0.2759
-	Inclination	144.350	#
-	AscendingNode	321.938	#
-	ArgOfPericenter	225.861	# J2000.0
-	MeanAnomaly     281.794	#
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	725.940799
+		SemiMajorAxis	23284497.420
+		Eccentricity	0.254481
+		Inclination	144.507212
+		AscendingNode	179.737520
+		ArgOfPericenter	204.177990
+		MeanAnomaly	45.248023
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2003_J_4"
 }
 
-"Sponde:Jupiter XXXVI:2001 J 5" "Sol/Jupiter"
+"Autonoe:Jupiter XXVIII:S 2001 J 1" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Period		748.34
-	SemiMajorAxis	23487000
-	Eccentricity	0.3121
-	Inclination	153.405	#
-	AscendingNode	128.207	#
-	ArgOfPericenter	52.911	# J2000.0
-	MeanAnomaly     177.408	#
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	730.374825
+		SemiMajorAxis	23379215.392
+		Eccentricity	0.384889
+		Inclination	152.167578
+		AscendingNode	272.237874
+		ArgOfPericenter	78.483133
+		MeanAnomaly	287.498905
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Autonoe_(moon)"
 }
 
-"Pasithee:Jupiter XXXVIII:2001 J 6" "Sol/Jupiter"
+"Herse:Jupiter L:S 2003 J 17" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Period		719.44
-	SemiMajorAxis	23004000
-	Eccentricity	0.2675
-	Inclination	161.049	#
-	AscendingNode	341.650	#
-	ArgOfPericenter	210.162	# J2000.0
-	MeanAnomaly     237.866	#
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	730.684665
+		SemiMajorAxis	23385826.894
+		Eccentricity	0.264374
+		Inclination	162.552920
+		AscendingNode	304.051989
+		ArgOfPericenter	327.586628
+		MeanAnomaly	322.561753
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Herse_(moon)"
 }
 
-"Euanthe:Jupiter XXXIII:2001 J 7" "Sol/Jupiter"
+"Pasiphae:Jupiter VIII:1908 CJ" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.5
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	29
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Period		620.49
-	SemiMajorAxis	20797000
-	Eccentricity	0.2321
-	Inclination	145.251	#
-	AscendingNode	290.469	#
-	ArgOfPericenter	316.075	# J2000.0
-	MeanAnomaly     353.616	#
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	732.361796
+		SemiMajorAxis	23421597.993
+		Eccentricity	0.386853
+		Inclination	140.278187
+		AscendingNode	322.751488
+		ArgOfPericenter	172.852154
+		MeanAnomaly	91.955945
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Pasiphae_(moon)"
 }
 
-"Kale:Jupiter XXXVII:2001 J 8" "Sol/Jupiter"
+"S 2003 J 10" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Period		729.47
-	SemiMajorAxis	23217000
-	Eccentricity	0.2599
-	Inclination	166.119	#
-	AscendingNode	69.924	#
-	ArgOfPericenter	60.165	# J2000.0
-	MeanAnomaly     175.650	#
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	732.387354
+		SemiMajorAxis	23422142.906
+		Eccentricity	0.544031
+		Inclination	159.303398
+		AscendingNode	160.744688
+		ArgOfPericenter	184.205377
+		MeanAnomaly	68.927982
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2003_J_10"
 }
 
-"Orthosie:Jupiter XXXV:2001 J 9" "Sol/Jupiter"
+"Kore:Jupiter XLIX:S 2003 J 14" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Period		622.56
-	SemiMajorAxis	20720000
-	Eccentricity	0.2808
-	Inclination	145.538	#
-	AscendingNode	237.202	#
-	ArgOfPericenter	247.923	# J2000.0
-	MeanAnomaly     161.134	#
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	735.414995
+		SemiMajorAxis	23486648.920
+		Eccentricity	0.321763
+		Inclination	134.862050
+		AscendingNode	333.816775
+		ArgOfPericenter	150.018375
+		MeanAnomaly	198.157550
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Kore_(moon)"
 }
 
-"Euporie:Jupiter XXXIV:2001 J 10" "Sol/Jupiter"
+"Jupiter LXIII:S 2017 J 2" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Period		550.74
-	SemiMajorAxis	19304000
-	Eccentricity	0.1432
-	Inclination	146.861	#
-	AscendingNode	82.199	#
-	ArgOfPericenter	105.607	# J2000.0
-	MeanAnomaly     56.246	#
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	738.805492
+		SemiMajorAxis	23558780.833
+		Eccentricity	0.179726
+		Inclination	164.162880
+		AscendingNode	3.431686
+		ArgOfPericenter	154.760696
+		MeanAnomaly	100.401621
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LXIII"
 }
 
-"Aitne:Jupiter XXXI:2001 J 11" "Sol/Jupiter"
+"Hegemone:Jupiter XXXIX:S 2003 J 8" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.5
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Period		730.18
-	SemiMajorAxis	23229000
-	Eccentricity	0.2643
-	Inclination	163.705	#
-	AscendingNode	17.939	#
-	ArgOfPericenter	69.387	# J2000.0
-	MeanAnomaly     120.574	#
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	739.548075
+		SemiMajorAxis	23574564.364
+		Eccentricity	0.336491
+		Inclination	147.543922
+		AscendingNode	319.900272
+		ArgOfPericenter	196.984393
+		MeanAnomaly	50.302054
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Hegemone_(moon)"
 }
 
-"Arche:Jupiter XLIII:2002 J 1" "Sol/Jupiter"
+"Sponde:Jupiter XXXVI:S 2001 J 5" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.5
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Period		723.90
-	SemiMajorAxis	22931000
-	Eccentricity	0.2588
-	Inclination	160.380	#
-	AscendingNode	356.413	#
-	ArgOfPericenter	171.807	# J2000.0
-	MeanAnomaly     29.942	#
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	742.353985
+		SemiMajorAxis	23634156.015
+		Eccentricity	0.348470
+		Inclination	152.681175
+		AscendingNode	121.803653
+		ArgOfPericenter	84.626162
+		MeanAnomaly	327.320469
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Sponde_(moon)"
 }
 
-"Eukelade:Jupiter XLVII:2003 J 1" "Sol/Jupiter"
+"Kalyke:Jupiter XXIII:S 2000 J 2" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2.0
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.82 0.64 ]
+	BlendTexture	true
+	Radius	2.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		746.39		# mean
-	SemiMajorAxis	23661000	# mean
-	Eccentricity	0.2721		# mean
-	Inclination	164.105
-	AscendingNode	244.009
-	ArgOfPericenter	344.815
-	MeanAnomaly     18.464
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	750.419952
+		SemiMajorAxis	23805043.728
+		Eccentricity	0.266320
+		Inclination	166.243556
+		AscendingNode	38.322755
+		ArgOfPericenter	231.193434
+		MeanAnomaly	49.935219
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Kalyke_(moon)"
 }
 
-"2003 J 2" "Sol/Jupiter"
+"Aoede:Jupiter XLI:S 2003 J 7" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		979.99		# mean
-	SemiMajorAxis	29541000	# mean
-	Eccentricity	0.2255		# mean
-	Inclination	149.167
-	AscendingNode	24.567
-	ArgOfPericenter	165.326
-	MeanAnomaly     337.868
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	757.603946
+		SemiMajorAxis	23956730.863
+		Eccentricity	0.470534
+		Inclination	156.820469
+		AscendingNode	169.618834
+		ArgOfPericenter	50.326641
+		MeanAnomaly	14.267260
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Aoede_(moon)"
 }
 
-"2003 J 3" "Sol/Jupiter"
+"Megaclite:Jupiter XIX:S 2000 J 8" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	3
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		583.88		# mean
-	SemiMajorAxis	20221000	# mean
-	Eccentricity	0.1970		# mean
-	Inclination	146.629
-	AscendingNode	262.887
-	ArgOfPericenter	72.641
-	MeanAnomaly     271.954
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	766.770104
+		SemiMajorAxis	24149576.339
+		Eccentricity	0.567693
+		Inclination	150.496692
+		AscendingNode	300.989088
+		ArgOfPericenter	305.606886
+		MeanAnomaly	309.249376
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Megaclite_(moon)"
 }
 
-"2003 J 4" "Sol/Jupiter"
+"S 2003 J 23" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		755.24		# mean
-	SemiMajorAxis	23930000	# mean
-	Eccentricity	0.3618		# mean
-	Inclination	145.092
-	AscendingNode	211.910
-	ArgOfPericenter	201.451
-	MeanAnomaly     75.428
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	779.912810
+		SemiMajorAxis	24424748.523
+		Eccentricity	0.494909
+		Inclination	149.370733
+		AscendingNode	34.066134
+		ArgOfPericenter	243.874265
+		MeanAnomaly	332.659085
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2003_J_23"
 }
 
-"2003 J 5" "Sol/Jupiter"
+"Jupiter LXVI:S 2017 J 5" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2.0
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		738.73		# mean
-	SemiMajorAxis	23495000	# mean
-	Eccentricity	0.2478		# mean
-	Inclination	166.487
-	AscendingNode	231.685
-	ArgOfPericenter	144.401
-	MeanAnomaly     125.909
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	782.075045
+		SemiMajorAxis	24469871.439
+		Eccentricity	0.217268
+		Inclination	166.672822
+		AscendingNode	44.344070
+		ArgOfPericenter	273.534986
+		MeanAnomaly	265.362471
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LXVI"
 }
 
-"Helike:Jupiter XLV:2003 J 6" "Sol/Jupiter"
+"Jupiter LIX:S 2017 J 1" "Sol/Jupiter"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2.0
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		634.77		# mean
-	SemiMajorAxis	21263000	# mean
-	Eccentricity	0.1558		# mean
-	Inclination	157.740
-	AscendingNode	117.752
-	ArgOfPericenter	293.662
-	MeanAnomaly     326.097
+		Epoch	2451897.5  # 2000 Dec 19
+		Period	786.096201
+		SemiMajorAxis	24553676.729
+		Eccentricity	0.285289
+		Inclination	146.336359
+		AscendingNode	251.617407
+		ArgOfPericenter	69.747383
+		MeanAnomaly	65.443463
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"Aoede:Jupiter XLI:2003 J 7" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2.0
-
-	EllipticalOrbit
+	UniformRotation
 	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		761.50		# mean
-	SemiMajorAxis	23981000	# mean
-	Eccentricity	0.4322		# mean
-	Inclination	160.844
-	AscendingNode	219.018
-	ArgOfPericenter	96.186
-	MeanAnomaly     343.823
+		Period	10
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"Hegemone:Jupiter XXXIX:2003 J 8" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.5
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		739.60		# mean
-	SemiMajorAxis	23947000	# mean
-	Eccentricity	0.3276		# mean
-	Inclination	150.102
-	AscendingNode	350.813
-	ArgOfPericenter	217.762
-	MeanAnomaly     43.073
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"2003 J 9" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		0.5
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		733.29		# mean
-	SemiMajorAxis	23384000	# mean
-	Eccentricity	0.2632		# mean
-	Inclination	165.070
-	AscendingNode	72.935
-	ArgOfPericenter	314.062
-	MeanAnomaly     150.232
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"2003 J 10" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		716.25		# mean
-	SemiMajorAxis	23041000	# mean
-	Eccentricity	0.4295		# mean
-	Inclination	164.202
-	AscendingNode	195.659
-	ArgOfPericenter	177.632
-	MeanAnomaly     113.134
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"Kallichore:Jupiter XLIV:2003 J 11" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		764.73		# mean
-	SemiMajorAxis	24043000	# mean
-	Eccentricity	0.2640		# mean
-	Inclination	162.600
-	AscendingNode	50.546
-	ArgOfPericenter	353.932
-	MeanAnomaly     260.174
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"2003 J 12" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		0.5
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		489.50		# mean
-	SemiMajorAxis	17582000	# mean
-	Eccentricity	0.5095		# mean
-	Inclination	141.880
-	AscendingNode	82.853
-	ArgOfPericenter	19.516
-	MeanAnomaly     113.072
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"Cyllene:Jupiter XLVIII:2003 J 13" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		751.94		# mean
-	SemiMajorAxis	23951000	# mean
-	Eccentricity	0.4116		# mean
-	Inclination	141.205
-	AscendingNode	281.643
-	ArgOfPericenter	212.880
-	MeanAnomaly     277.114
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"Kore:Jupiter XLIX:2003 J 14" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		779.18		# mean
-	SemiMajorAxis	24011000	# mean
-	Eccentricity	0.3351		# mean
-	Inclination	136.767
-	AscendingNode	2.112
-	ArgOfPericenter	127.569
-	MeanAnomaly     225.954
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"2003 J 15" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		689.77		# mean
-	SemiMajorAxis	22627000	# mean
-	Eccentricity	0.1910		# mean
-	Inclination	142.204
-	AscendingNode	266.001
-	ArgOfPericenter	28.760
-	MeanAnomaly     270.870
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"2003 J 16" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		616.36		# mean
-	SemiMajorAxis	20957000	# mean
-	Eccentricity	0.2246		# mean
-	Inclination	147.370
-	AscendingNode	41.164
-	ArgOfPericenter	72.310
-	MeanAnomaly     206.244
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"Herse:Jupiter L:2003 J 17" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		714.47		# mean
-	SemiMajorAxis	22992000	# mean
-	Eccentricity	0.2378		# mean
-	Inclination	161.918
-	AscendingNode	332.506
-	ArgOfPericenter	355.621
-	MeanAnomaly     309.139
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"2003 J 18" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		596.59		# mean
-	SemiMajorAxis	20514000	# mean
-	Eccentricity	0.0221		# mean
-	Inclination	147.719
-	AscendingNode	204.340
-	ArgOfPericenter	123.909
-	MeanAnomaly     174.708
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"2003 J 19" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		740.42		# mean
-	SemiMajorAxis	23533000	# mean
-	Eccentricity	0.2556		# mean
-	Inclination	162.048
-	AscendingNode	51.355
-	ArgOfPericenter	180.864
-	MeanAnomaly     34.860
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"Carpo:Jupiter XLVI:2003 J 20" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.5
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		456.10 		# mean
-	SemiMajorAxis	16989000	# mean
-	Eccentricity	0.4297		# mean
-	Inclination	54.223
-	AscendingNode	72.057
-	ArgOfPericenter	78.282
-	MeanAnomaly     140.992
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"Mneme:Jupiter XL:2003 J 21" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		620.04 		# mean
-	SemiMajorAxis	21069000	# mean
-	Eccentricity	0.2273		# mean
-	Inclination	145.402
-	AscendingNode	34.889
-	ArgOfPericenter	48.811
-	MeanAnomaly     168.011
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"Thelxinoe:Jupiter XLII:2003 J 22" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		628.09 		# mean
-	SemiMajorAxis	21162000	# mean
-	Eccentricity	0.2206		# mean
-	Inclination	150.941
-	AscendingNode	215.311
-	ArgOfPericenter	323.714
-	MeanAnomaly     191.904
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
-}
-
-"2003 J 23" "Sol/Jupiter"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.0
-
-	EllipticalOrbit
-	{
-	Epoch		2452644.5	# 2003 Jan 5
-	Period		732.44 		# mean
-	SemiMajorAxis	23563000	# mean
-	Eccentricity	0.2714		# mean
-	Inclination	146.420
-	AscendingNode	67.747
-	ArgOfPericenter	253.422
-	MeanAnomaly     328.912
-	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.04
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jupiter_LIX"
 }
 
 
