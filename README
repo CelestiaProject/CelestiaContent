@@ -85,43 +85,24 @@ Texture maps
 
    Io's surface texture is derived from USGS maps and JVV's map.
 
+   Saturn's Ring Texture is a composite of data found on Björn Jónsson's site.
+
+   Mimas, Enceladus, Tethys, Dione, Rhea, Iapetus textures are derived from enhanced color maps by Paul Schenk, found on
+   the NASA photojounal. Rhea texture is based on an Albedo map by Björn Jónsson, details added from the JPL map.
+   Tethys and Dione normal maps are derived from models by Rob Gaskell.
+
+   Hyperion & Phoebe:
+   Textures derieved from a texture by JVV
+
 # The Europa texture is by John van Vliet.
 
    Other textures derived from work by JVV are listed above.
-
-# Most of the old maps are from David Seal's site: http://maps.jpl.nasa.gov/.
-
-   Some of these maps were modified, with fictional terrain added to fill in
-   gaps. The Galileo spacecraft model is also from David Seal's site (though
-   it was converted from Inventor to 3DS format.)
 
 # The Neptune and Uranus textures are from James Hastings-Trew's collection.
 
 # Grant Hutchison
 
-   Saturn's rings were built by Grant Hutchison from Cassini imaging.
-
    The Eros map is a shaded relief generated from the NEAR laser rangefinder.
-
-# Jens Meyer
-
-   Dione and Rhea are USGS maps colored and modified by Jens Meyer.
-
-# Fridger Schrempp
-
-   Titan's cloud texture in natural colors and its surface map at near-infrared
-   wavelength. They are based on resources available from the imaging site
-   (Ciclops) of the Cassini mission http://ciclops.org/
-
-   The Phoebe base texture was created from the cylindrical map published by
-   the Cassini imaging team
-   (http://photojournal.jpl.nasa.gov/catalog/PIA07775)
-
-   The Tethys textures are based on the Oct 2008 Ciclops map
-   (http://photojournal.jpl.nasa.gov/catalog/PIA11116)
-
-   The Iapetus texture was created from the Oct 2008 Ciclops map
-   (http://photojournal.jpl.nasa.gov/catalog/PIA11116)
 
 # Phil Stooke
 
@@ -134,20 +115,19 @@ Texture maps
 # The textures for the Uranian satellites were created by Ivan Rivera from JPL
   data. His Celestia page is: http://bruckner.homelinux.net/celestia.html
 
-# The Hyperion map is a photomosaic assembled by Phil Stooke and
-  colored by Jens Meyer.
-
 # Amalthea is a shaded relief map by Phil Stooke, colored by Wm. Robert Johnston
   (http://www.johnstonsarchive.net/spaceart/cylmaps.html), and further modified
   by Jens Meyer, Grant Hutchison, and Askaniy.
 
-# CICLOPS
-
-  The map of Enceladus is derived from the December 2008 CICLOPS map:
-  http://ciclops.org/view/5447/Map_of_Enceladus_December_2008
+# Titan's surface texture is a composite of Cassini ISS and Radar maps from USGS,
+  created by FarGetaNik and further modified by Askaniy. Titan's specular texture
+  is by Askaniy. Titan's cloud texture is by Fridger Schrempp, based on resources
+  available from the imaging site (Ciclops) of the Cassini mission http://ciclops.org/
 
 # The exoplanet textures (exo-classN and venuslike) and the asteroid.jpg
   texture were created by cubicApocalypse, licensed under CC-BY 4.0.
+
+# The icymoon.jpg texture was created by trappistplanets based on an image of Methone.
 
 Note on content from JPL
 ------------------------
@@ -223,6 +203,9 @@ covered.
     https://space.frieger.com/asteroids/
   The individual models are from various sources, listed individually.
 
+# The Galileo spacecraft model is from David Seal's site: http://maps.jpl.nasa.gov/
+  (though it was converted from Inventor to 3DS format.)
+
 # Models of Mars Global Surveyor and Mars Odyssey were created by Shrox:
     http://www.shrox.com/
   They are included under the Creative Commons Attribution 4.0 International
@@ -248,16 +231,19 @@ covered.
   On August 20, 2020, Scott Hudson waived the commercial use restrictions on
   these models, permitting unrestricted use of them.
 
-# The Phobos model is by Rob Gaskell: https://sbn.psi.edu/pds/resource/phobosshape.html
+# The Phobos, Mimas, and Phoebe models are by Rob Gaskell:
+    https://sbn.psi.edu/pds/resource/phobosshape.html
+    https://sbn.psi.edu/pds/resource/mimasshape.html
+    https://sbn.psi.edu/pds/resource/phoebeshape.html
 
 # The Deimos model is by John van Vliet.
 
-# 3D models of Amalthea, Thebe, Janus, Epimetheus, Prometheus, Pandora,
-  Hyperion, Larissa, Proteus, Vesta, Ida, Gaspra and Halley are derived from
-  Phil Stooke's Cartography of Non-Spherical Worlds.
+# 3D models of Amalthea, Thebe, Larissa, Proteus, Vesta, Ida, Gaspra and Halley
+  are derived from Phil Stooke's Cartography of Non-Spherical Worlds.
+    https://sbn.psi.edu/pds/resource/stkshape.html
+
+# Models of Pan, Daphnis, Atlas, Prometheus, Pandora, Epimetheus, Janus,
+  Telesto, Calypso, Helene, and Hyperion are from:
+    https://sbn.psi.edu/pds/resource/saturnsatshapes.html
 
 # The 3D model of Eros was prepared from the NEAR laser rangefinder shape model.
-
-# The Phoebe mesh was designed by Jerry Gardner aka Jestr, jestr@ntlworld.com,
-  based on Phoebe's bumpy topography display from Cassini,
-  http://photojournal.jpl.nasa.gov/catalog/PIA06070
