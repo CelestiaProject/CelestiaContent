@@ -2328,1260 +2328,2231 @@
 
 # Minor moons of Saturn
 
-"Prometheus:Saturn XVI:1980 S 27" "Sol/Saturn"
+"S 2009 S 1" "Sol/Saturn"
 {
-    Texture     "prometheus.*"
-    Mesh        "prometheus.cmod"
-    Radius      74 # maximum semi-axis
-    MeshCenter  [ 0.75 -2.68 1.064 ]
-
-    EllipticalOrbit
-    {
-        Epoch             2453005.5   # 2004 Jan 1 00:00UT
-        Period            0.612986
-        SemiMajorAxis     139380
-        Eccentricity      0.0023
-        Inclination       0.0056
-        AscendingNode   226.1099
-        LongOfPericenter 23.3280
-        MeanLongitude   266.2144
-    }
-
-    # orientate meridian at epoch
-    UniformRotation
-    {
-        Epoch 2453005.5   # 2004 Jan 1 00:00UT
-        MeridianAngle 86
-    }
-
-    Albedo 0.6
-}
-
-"Pandora:Saturn XVII:1980 S 26" "Sol/Saturn"
-{
-    Texture     "asteroid.jpg"
-    Mesh        "pandora.cmod"
-    Radius      57 # maximum semi-axis
-    MeshCenter [ 0.692 -1.454 -0.422 ]
-
-    EllipticalOrbit
-    {
-        Epoch             2453005.5   # 2004 Jan 1 00:00UT
-        Period            0.6285036
-        SemiMajorAxis     141710
-        Eccentricity      0.0042
-        Inclination       0.0522
-        AscendingNode   290.0163
-        LongOfPericenter 10.4899
-        MeanLongitude   212.6961
-    }
-
-    # orientate meridian at epoch
-    UniformRotation
-    {
-        Epoch    2453005.5   # 2004 Jan 1 00:00UT
-        MeridianAngle 33
-    }
-
-    Albedo 0.5
-}
-
-"Epimetheus:Saturn XI:1980 S 3" "Sol/Saturn"
-{
-    Texture     "epimetheus.*"
-    Mesh        "epimetheus.cmod"
-    Radius      72 # maximum semi-axis
-    MeshCenter  [ -5.196 -2.241 -1.878 ]
-
-     EllipticalOrbit
-    {
-        Epoch              2453005.5   # 2004 Jan 1 00:00UT
-        Period             0.6945      # 0.6943: period set to Janus/Epimetheus average
-        SemiMajorAxis      151410
-        Eccentricity       0.0098
-        Inclination        0.3541
-        AscendingNode     45.5973
-        LongOfPericenter 358.5774
-        MeanLongitude    306.0531
-    }
-
-    # orientate meridian at epoch
-    UniformRotation
-    {
-        Epoch     2453005.5   # 2004 Jan 1 00:00UT
-        MeridianAngle 126
-    }
-
-    Albedo 0.5
-}
-
-AltSurface "Limit of knowledge" "Sol/Saturn/Epimetheus"
-{
-    Texture "epimetheus-lok.*"
-}
-
-"Janus:Saturn X:1980 S 1" "Sol/Saturn"
-{
-    Texture     "janus.*"
-    Mesh        "janus.cmod"
-    Radius      96 # maximum semi-axis
-    MeshCenter  [ -1.552 1.358 2.257 ]
-
-    EllipticalOrbit
-    {
-    Epoch              2453005.5   # 2004 Jan 1 00:00UT
-    Period             0.6945      # 0.6947: period set to Janus/Epimetheus average
-    SemiMajorAxis      151460
-    Eccentricity       0.0067
-    Inclination        0.1649
-    AscendingNode      8.1758
-    LongOfPericenter 248.2856
-    MeanLongitude    131.5137
-    }
-
-    # orientate meridian at epoch
-    UniformRotation
-    {
-        Epoch     2453005.5   # 2004 Jan 1 00:00UT
-        MeridianAngle 312
-    }
-
-    Albedo 0.6
-}
-
-"Pan:Saturn XVIII:1981 S 13" "Sol/Saturn"   # Cassini-epoch data
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 17.6 17.3 11.5 ]
-
-    EllipticalOrbit
-    {
-    Epoch       2453177.5 # 2004 Jun 21 00:00UT
-    Period      0.57505
-    SemiMajorAxis   133584
-    Eccentricity    0.00021
-    Inclination 0.007
-    AscendingNode   263.0
-    LongOfPericenter 209.0
-    MeanLongitude   106.645
-    }
-
-    RotationEpoch       2453177.5 # 2004 Jun 21 00:00UT
-    Obliquity         0.0
-    RotationOffset      287
-
-    Albedo 0.5
-}
-
-"Atlas:Saturn XV:1980 S 28" "Sol/Saturn"   # Cassini-epoch data
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 22.8 19.0 9.6 ]
-
-    EllipticalOrbit
-    {
-    Epoch       2453177.5 # 2004 Jun 21 00:00UT
-    Period      0.60169
-    SemiMajorAxis   137665
-    Eccentricity    0.0012
-    Inclination 0.009
-    AscendingNode   241.0
-    LongOfPericenter 42.3
-    MeanLongitude   331.432
-    }
-
-    RotationEpoch       2453177.5 # 2004 Jun 21 00:00UT
-    Obliquity         0.0
-    RotationOffset      151
-
-    Albedo 0.4
-}
-
-"Telesto:Saturn XIII:1980 S 13" "Sol/Saturn"
-# Leading Lagrange point of Tethys
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 15 12.5 7.5 ]
-
-    EllipticalOrbit
-    {
-    Period      1.887802
-    SemiMajorAxis   294660
-    Eccentricity    0.0010
-    Inclination 1.170   #
-    AscendingNode   188.718 #
-    ArgOfPericenter 358.944 # J2000.0
-    MeanAnomaly     18.554  #
-    }
-
-    Obliquity         1.2
-    EquatorAscendingNode     80.8
-    RotationOffset      306.0
-
-    Albedo 1.0
-}
-
-"Calypso:Saturn XIV:1980 S 25" "Sol/Saturn"
-# Trailing Lagrange point of Tethys
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 15 8 8 ]
-
-    EllipticalOrbit
-    {
-    Period      1.887802
-    SemiMajorAxis   294660
-    Eccentricity    0.0005
-    Inclination 1.472   #
-    AscendingNode   273.860 #
-    ArgOfPericenter 186.307 # J2000.0
-    MeanAnomaly     348.156 #
-    }
-
-    Obliquity         1.6   #
-    EquatorAscendingNode     12.4   # J2000.0
-    RotationOffset      255
-
-    Albedo 0.7
-}
-
-"Helene:Saturn XII:1980 S 6" "Sol/Saturn"
-# Leading Lagrange point of Dione
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 18 16 15 ]
-
-    EllipticalOrbit
-    {
-    Period      2.736915
-    SemiMajorAxis   377400
-    Eccentricity    0.0001
-    Inclination 0.202   #
-    AscendingNode   121.154 #
-    ArgOfPericenter 48.574  # J2000.0
-    MeanAnomaly     19.782  #
-    }
-
-    RotationOffset       10
-
-    Albedo 0.6
-}
-
-"Ymir:Saturn XIX:2000 S 1" "Sol/Saturn"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		8
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"icymoon.*"
+	Color	[ 1.0 0.941 0.808 ]
+	BlendTexture	true
+	Radius	0.15
 	EllipticalOrbit
 	{
-	Period		1312.37
-	SemiMajorAxis	23096000
-	Eccentricity	0.3331
-	Inclination	145.961	#
-	AscendingNode	7.260	#
-	ArgOfPericenter	16.394	# J2000.0
-	MeanAnomaly     216.669	#
+		Epoch	2455038.97976  # 2009 Jul 26 11:30:51
+		Period	0.47249694420833
+		SemiMajorAxis	117000
+		Eccentricity	0.0
+		Inclination	0.0
+		AscendingNode	0.0
+		ArgOfPericenter	0.0
+		MeanAnomaly	145.0
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		MeridianAngle	296.8
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.5
+	InfoURL	"https://en.wikipedia.org/wiki/S/2009_S_1"
 }
 
-"Paaliaq:Saturn XX:2000 S 2" "Sol/Saturn"
+"Pan:Saturn XVIII:S 1981 S 13" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		9.5
-
+	Class	"minormoon"
+	Mesh	"pan.cmod"
+	Texture	"icymoon.*"
+	Color	[ 1.0 0.980 0.839 ]
+	BlendTexture	true
+	Radius	17.2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Period		686.91
-	SemiMajorAxis	15199000
-	Eccentricity	0.3636
-	Inclination	75.327	#
-	AscendingNode	182.777	#
-	ArgOfPericenter	239.203	# J2000.0
-	MeanAnomaly     304.651	#
+		Epoch	2457819.5  # 2017 Mar 07
+		Period	0.575050718
+		SemiMajorAxis	133584
+		Eccentricity	0.0000144
+		Inclination	28.051652
+		AscendingNode	169.525535
+		ArgOfPericenter	182.709410
+		MeanAnomaly	0.034670
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Epoch	2453177.5  # 2004 Jun 21
+		MeridianAngle	287
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.5
+	InfoURL	"https://en.wikipedia.org/wiki/Pan_(moon)"
 }
 
-"Siarnaq:Saturn XXIX:2000 S 3" "Sol/Saturn"
+"Daphnis:Saturn XXXV:S 2005 S 1" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		16
-
+	Class	"minormoon"
+	Mesh	"daphnis.cmod"
+	Texture	"icymoon.*"
+	Color	[ 1.0 0.969 0.910 ]
+	BlendTexture	true
+	Radius	4.3
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Period		893.08
-	SemiMajorAxis	18160000
-	Eccentricity	0.2948
-	Inclination	60.642	#
-	AscendingNode	235.860	#
-	ArgOfPericenter	99.707	# J2000.0
-	MeanAnomaly     190.719	#
+		Epoch	2457769.5  # 2017 Jan 16
+		Period	0.5940798
+		SemiMajorAxis	136505.5
+		Eccentricity	0.0000331
+		Inclination	28.051450
+		AscendingNode	169.526938
+		ArgOfPericenter	309.379074
+		MeanAnomaly	359.875523
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Epoch	2457769.5  # 2017 Jan 16
+		MeridianAngle	130
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.5
+	InfoURL	"https://en.wikipedia.org/wiki/Daphnis_(moon)"
 }
 
-"Tarvos:Saturn XXI:2000 S 4" "Sol/Saturn"
+"Atlas:Saturn XV:S 1980 S 28" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		6.5
-
+	Class	"minormoon"
+	Mesh	"atlas.cmod"
+	Texture	"icymoon.*"
+	Color	[ 1.0 0.965 0.847 ]
+	BlendTexture	true
+	Radius	20.4
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Period		925.60
-	SemiMajorAxis	18247000
-	Eccentricity	0.5355
-	Inclination	36.341	#
-	AscendingNode	244.676	#
-	ArgOfPericenter	332.621	# J2000.0
-	MeanAnomaly     255.729	#
+		Epoch	2457855.5  # 2017 Apr 12
+		Period	0.6016947883
+		SemiMajorAxis	137665
+		Eccentricity	0.0012
+		Inclination	28.051123
+		AscendingNode	169.531417
+		ArgOfPericenter	293.154789
+		MeanAnomaly	13.446178
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Epoch	2453177.5  # 2004 Jun 21
+		MeridianAngle	151
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.4
+	InfoURL	"https://en.wikipedia.org/wiki/Atlas_(moon)"
 }
 
-"Kiviuq:Saturn XXIV:2000 S 5" "Sol/Saturn"
+"Prometheus:Saturn XVI:S 1980 S 27" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		7
-
+	Class	"minormoon"
+	Mesh	"prometheus.cmod"
+	Texture	"prometheus.*"
+	Color	[ 1.0 0.976 0.937 ]
+	BlendTexture	true
+	Radius	67.8
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Period		449.22
-	SemiMajorAxis	11365000
-	Eccentricity	0.3335
-	Inclination	76.796	#
-	AscendingNode	182.386	#
-	ArgOfPericenter	93.291	# J2000.0
-	MeanAnomaly     168.548	#
+		Epoch	2457362.5  # 2015 Dec 06
+		Period	0.612990038
+		SemiMajorAxis	139378
+		Eccentricity	0.0022
+		Inclination	28.044691
+		AscendingNode	169.534762
+		ArgOfPericenter	178.087116
+		MeanAnomaly	8.275425
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Epoch	2453005.5  # 2004 Jan 01
+		MeridianAngle	86
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.6
+	InfoURL	"https://en.wikipedia.org/wiki/Prometheus_(moon)"
 }
 
-"Ijiraq:Saturn XXII:2000 S 6" "Sol/Saturn"
+"Pandora:Saturn XVII:S 1980 S 26" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		5
-
+	Class	"minormoon"
+	Mesh	"pandora.cmod"
+	Texture	"icymoon.*"
+	Color	[ 1.0 0.976 0.949 ]
+	BlendTexture	true
+	Radius	52
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Period		451.48
-	SemiMajorAxis	11440000
-	Eccentricity	0.3216
-	Inclination	23.892	#
-	AscendingNode	326.568	#
-	ArgOfPericenter	88.423	# J2000.0
-	MeanAnomaly     28.424	#
+		Epoch	2457740.5  # 2016 Dec 18
+		Period	0.628504213
+		SemiMajorAxis	141711
+		Eccentricity	0.0042
+		Inclination	28.054034
+		AscendingNode	169.418793
+		ArgOfPericenter	106.067788
+		MeanAnomaly	24.007368
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Epoch	2453005.5  # 2004 Jan 01
+		MeridianAngle	33
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.6
+	InfoURL	"https://en.wikipedia.org/wiki/Pandora_(moon)"
 }
 
-"Thrymr:Saturn XXX:2000 S 7" "Sol/Saturn"
+"Epimetheus:Saturn XI:S 1980 S 3" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2.8
-
+	Class	"minormoon"
+	Mesh	"epimetheus.cmod"
+	Texture	"epimetheus.*"
+	Color	[ 1.0 0.976 0.937 ]
+	BlendTexture	true
+	Radius	64.9
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Period		1086.91
-	SemiMajorAxis	20382000
-	Eccentricity	0.4701
-	Inclination	150.486	#
-	AscendingNode	10.020	#
-	ArgOfPericenter	23.091	# J2000.0
-	MeanAnomaly     350.670	#
+		Epoch	2457783.5  # 2017 Jan 30
+		Period	0.69449693  # 0.694333517: period set to Janus/Epimetheus average
+		SemiMajorAxis	151422
+		Eccentricity	0.0098
+		Inclination	28.402302
+		AscendingNode	169.425600
+		ArgOfPericenter	114.044328
+		MeanAnomaly	83.365760
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Epoch	2453005.5  # 2004 Jan 01
+		MeridianAngle	126
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.73
+	BondAlbedo	0.41
+	InfoURL	"https://en.wikipedia.org/wiki/Epimetheus_(moon)"
 }
 
-"Skathi:Saturn XXVII:2000 S 8" "Sol/Saturn"
+"Janus:Saturn X:S 1966 S 2:S 1979 S 2:S 1980 S 1:S 1980 S 2" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3.2
-
+	Class	"minormoon"
+	Mesh	"janus.cmod"
+	Texture	"janus.*"
+	Color	[ 1.0 0.976 0.937 ]
+	BlendTexture	true
+	Radius	101.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Period		728.93
-	SemiMajorAxis	15647000
-	Eccentricity	0.2697
-	Inclination	148.361	#
-	AscendingNode	67.100	#
-	ArgOfPericenter	148.021	# J2000.0
-	MeanAnomaly     117.271	#
+		Epoch	2457783.5  # 2017 Jan 30
+		Period	0.69449693  # 0.694660342: period set to Janus/Epimetheus average
+		SemiMajorAxis	151472
+		Eccentricity	0.0068
+		Inclination	28.166292
+		AscendingNode	169.272081
+		ArgOfPericenter	15.353026
+		MeanAnomaly	93.676495
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Epoch	2453005.5  # 2004 Jan 01
+		MeridianAngle	312
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.71
+	BondAlbedo	0.37
+	InfoURL	"https://en.wikipedia.org/wiki/Janus_(moon)"
 }
 
-"Mundilfari:Saturn XXV:2000 S 9" "Sol/Saturn"
+"Aegaeon:Saturn LIII:S 2008 S 1" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2.8
-
+	Class	"minormoon"
+	Texture	"icymoon.*"
+	SemiAxes	[ 0.7 0.25 0.2 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Period		951.38
-	SemiMajorAxis	18709000
-	Eccentricity	0.2078
-	Inclination	150.253	#
-	AscendingNode	338.432	#
-	ArgOfPericenter	16.508	# J2000.0
-	MeanAnomaly     97.432	#
+		Epoch	2457375.5  # 2015 Dec 19
+		Period	0.80811114
+		SemiMajorAxis	167493.665
+		Eccentricity	0.00042277
+		Inclination	28.051281
+		AscendingNode	169.527397
+		ArgOfPericenter	46.503060
+		MeanAnomaly	1.064699
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		MeridianAngle	335
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.15
+	InfoURL	"https://en.wikipedia.org/wiki/Aegaeon_(moon)"
 }
 
-"Erriapus:Saturn XXVIII:2000 S 10" "Sol/Saturn" # (previously Erriapo)
+"Methone:Saturn XXXII:S 2004 S 1" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		4.3
-
+	Class	"minormoon"
+	Texture	"icymoon.*"
+	SemiAxes	[ 1.94 1.29 1.21 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Period		871.92
-	SemiMajorAxis	17616000
-	Eccentricity	0.4740
-	Inclination	13.545	#
-	AscendingNode	286.903	#
-	ArgOfPericenter	332.997	# J2000.0
-	MeanAnomaly     306.656	#
+		Epoch	2456067.5  # 2012 May 20
+		Period	1.009573975
+		SemiMajorAxis	194440
+		Eccentricity	0.0001
+		Inclination	28.060787
+		AscendingNode	169.547233
+		ArgOfPericenter	346.235329
+		MeanAnomaly	16.189134
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Epoch	2453177.5  # 2004 Jun 21
+		MeridianAngle	335
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.7
+	InfoURL	"https://en.wikipedia.org/wiki/Methone_(moon)"
 }
 
-"Albiorix:Saturn XXVI:2000 S 11" "Sol/Saturn"
+"Anthe:Saturn XLIX:S 2007 S 4" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		13
-
+	Class	"minormoon"
+	Texture	"icymoon.*"
+	SemiAxes	[ 1.15 0.85 0.85 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Period		783.45
-	SemiMajorAxis	16404000
-	Eccentricity	0.4778
-	Inclination	31.518	#
-	AscendingNode	259.354	#
-	ArgOfPericenter	112.808	# J2000.0
-	MeanAnomaly     17.224	#
+		Epoch	2457417.5  # 2016 Jan 30
+		Period	1.05089
+		SemiMajorAxis	197700
+		Eccentricity	0.0011
+		Inclination	28.036145
+		AscendingNode	169.495192
+		ArgOfPericenter	317.838016
+		MeanAnomaly	336.638804
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	LunarLambert	0.5
+	GeomAlbedo	0.5
+	InfoURL	"https://en.wikipedia.org/wiki/Anthe_(moon)"
 }
 
-"Suttungr:Saturn XXIII:2000 S 12" "Sol/Saturn"
+"Pallene:Saturn XXXIII:S 1981 S 14:S 2004 S 2" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2.8
-
+	Class	"minormoon"
+	Texture	"icymoon.*"
+	SemiAxes	[ 2.88 2.08 1.84 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Period		1016.31
-	SemiMajorAxis	19463000
-	Eccentricity	0.1138
-	Inclination	150.914	#
-	AscendingNode	10.905	#
-	ArgOfPericenter	350.499	# J2000.0
-	MeanAnomaly     317.642	#
+		Epoch	2455818.5  # 2011 Sept 14
+		Period	1.153745829
+		SemiMajorAxis	212280
+		Eccentricity	0.0040
+		Inclination	27.956054
+		AscendingNode	169.856215
+		ArgOfPericenter	218.558432
+		MeanAnomaly	250.286921
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Epoch	2453177.5  # 2004 Jun 21
+		MeridianAngle	266
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.5
+	InfoURL	"https://en.wikipedia.org/wiki/Pallene_(moon)"
 }
 
-"Narvi:Saturn XXXI:2003 S 1" "Sol/Saturn"
+"Telesto:Saturn XIII:Tethys B:S 1980 S 13:S 1980 S 24:S 1980 S 33:S 1981 S 1" "Sol/Saturn"
+# L4 Tethys trojan
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3.3
-
+	Class	"minormoon"
+	Mesh	"telesto.cmod"
+	Texture	"icymoon.*"
+	Color	[ 0.988 0.992 1.0 ]
+	BlendTexture	true
+	Radius	16.3
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2452629.5	# 2002 Dec 21
-	Period		956.19		# mean
-	SemiMajorAxis	18719000	# mean
-	Eccentricity	0.3522		# mean
-	Inclination	106.989
-	AscendingNode	9.524
-	ArgOfPericenter	172.396
-	MeanAnomaly     139.109
+		Epoch	2455640.5  # 2011 Mar 20
+		Period	1.887802
+		SemiMajorAxis	294710
+		Eccentricity	0.0002
+		Inclination	27.887540
+		AscendingNode	172.016316
+		ArgOfPericenter	14.341738
+		MeanAnomaly	355.789388
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		MeridianAngle	306.0
+	}
+	LunarLambert	0.5
+	GeomAlbedo	1.0
+	InfoURL	"https://en.wikipedia.org/wiki/Telesto_(moon)"
 }
 
-"Methone:Saturn XXXII:2004 S 1" "Sol/Saturn"
+"Calypso:Saturn XIV:Tethys C:S 1980 S 25:S 1980 S 29:S 1980 S 30:S 1980 S 32:S 1981 S 2" "Sol/Saturn"
+# L5 Tethys trojan
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.6
-
+	Class	"minormoon"
+	Mesh	"calypso.cmod"
+	Texture	"icymoon.*"
+	Color	[ 1.0 0.984 0.969 ]
+	BlendTexture	true
+	Radius	15.1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		 2453177.5 # 2004 Jun 21 00:00UT
-	Period		 1.00971
-	SemiMajorAxis	 194251
-	Eccentricity	 0.001
-	Inclination	 0.018
-	AscendingNode	 311.0
-	LongOfPericenter 308.0
-	MeanLongitude    154.79
+		Epoch	2455240.5  # 2010 Feb 13
+		Period	1.887802
+		SemiMajorAxis	294710
+		Eccentricity	0.0005
+		Inclination	27.910362
+		AscendingNode	166.339482
+		ArgOfPericenter	298.617147
+		MeanAnomaly	359.826241
 	}
-
-	RotationEpoch	 2453177.5 # 2004 Jun 21 00:00UT
-	RotationOffset	 335
+	UniformRotation
+	{
+		MeridianAngle	255
+	}
+	LunarLambert	0.5
+	GeomAlbedo	1.34
+	InfoURL	"https://en.wikipedia.org/wiki/Calypso_(moon)"
 }
 
-"Pallene:Saturn XXXIII:2004 S 2" "Sol/Saturn"
+"Polydeuces:Saturn XXXIV:Dione C:S 2004 S 5" "Sol/Saturn"
+# L5 Dione trojan
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2.2
-
+	Class	"minormoon"
+	Texture	"icymoon.*"
+	SemiAxes	[ 1.5 1.25 1 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		 2453177.5 # 2004 Jun 21 00:00UT
-	Period		 1.15374
-	SemiMajorAxis 	 212283
-	Eccentricity	 0.004
-	Inclination	 0.181
-	AscendingNode	 327.0
-	LongOfPericenter 38
-	MeanLongitude    85.51
+		Epoch	2453418.5  # 2005 Feb 17
+		Period	2.736915
+		SemiMajorAxis	377200
+		Eccentricity	0.0192
+		Inclination	27.936177
+		AscendingNode	169.230195
+		ArgOfPericenter	141.419730
+		MeanAnomaly	147.541378
 	}
-
-	RotationEpoch	 2453177.5 # 2004 Jun 21 00:00UT
-	RotationOffset   266
+	UniformRotation
+	{
+		Epoch	2453006.5  # 2004 Jan 02
+		MeridianAngle	248
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.5
+	InfoURL	"https://en.wikipedia.org/wiki/Polydeuces_(moon)"
 }
 
-"Polydeuces:Saturn XXXIV:2004 S 5" "Sol/Saturn"
-# Trailing Lagrange point of Dione
+"Helene:Saturn XII:Dione B:S 1980 S 6" "Sol/Saturn"
+# L4 Dione trojan
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		1.75
-
+	Class	"minormoon"
+	Mesh	"helene.cmod"
+	Texture	"icymoon.*"
+	Radius	21.7
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		 2453006.5 # 2004 Jan 2 00:00UT
-	Period		 2.73690
-	SemiMajorAxis 	 377390
-	Eccentricity	 0.0182
-	Inclination	 0.1705
-	AscendingNode	 262
-	LongOfPericenter 103.22
-	MeanLongitude    67.61
+		Epoch	2455258.5  # 2010 Mar 03
+		Period	2.736915
+		SemiMajorAxis	377420
+		Eccentricity	0.0071
+		Inclination	27.836876
+		AscendingNode	169.597925
+		ArgOfPericenter	124.703054
+		MeanAnomaly	14.256125
 	}
-
-	RotationEpoch	 2453006.5 # 2004 Jan 2 00:00UT
-	RotationOffset   248
+	UniformRotation
+	{
+		MeridianAngle	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	1.67
+	InfoURL	"https://en.wikipedia.org/wiki/Helene_(moon)"
 }
 
-"2004 S 7" "Sol/Saturn"
+"Kiviuq:Saturn XXIV:S 2000 S 5" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	SemiAxes	[ 11 5 5 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453400.5	# 2005 Jan 30
-	Period		1101.99
-	SemiMajorAxis	20576693
-	Eccentricity	0.5541269
-	Inclination	150.244
-	AscendingNode	29.863
-	ArgOfPericenter	100.469
-	MeanAnomaly     292.198
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	450.634524
+		SemiMajorAxis	11335424.127
+		Eccentricity	0.165022
+		Inclination	48.596315
+		AscendingNode	350.084794
+		ArgOfPericenter	94.794762
+		MeanAnomaly	30.087974
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	21.97
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Kiviuq_(moon)"
 }
 
-"Fornjot:Saturn XLII:2004 S 8" "Sol/Saturn" # MPEC 2006-C74
+"Ijiraq:Saturn XXII:S 2000 S 6" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.88 0.75 ]
+	BlendTexture	true
+	SemiAxes	[ 6 5.5 5.5 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		1430.37
-	SemiMajorAxis	24484380
-	Eccentricity	0.1663457
-	Inclination	171.801
-	AscendingNode	 71.103
-	ArgOfPericenter	331.856
-	MeanAnomaly      40.554              
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	452.612331
+		SemiMajorAxis	11368566.885
+		Eccentricity	0.343515
+		Inclination	49.708153
+		AscendingNode	149.248060
+		ArgOfPericenter	69.989623
+		MeanAnomaly	245.448893
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	13.03
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Ijiraq_(moon)"
 }
 
-"Farbauti:Saturn XL:2004 S 9" "Sol/Saturn" # MPEC 2006-C72
+"Paaliaq:Saturn XX:S 2000 S 2" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2.5
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	SemiAxes	[ 10.5 10 10 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		1054.78
-	SemiMajorAxis	19984780
-	Eccentricity	0.1747573
-	Inclination	152.085
-	AscendingNode	332.181
-	ArgOfPericenter	351.158
-	MeanAnomaly     310.328
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	684.055546
+		SemiMajorAxis	14972088.287
+		Eccentricity	0.438663
+		Inclination	45.748121
+		AscendingNode	346.671384
+		ArgOfPericenter	244.341030
+		MeanAnomaly	74.021004
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	18.79
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Paaliaq"
 }
 
-"Aegir:Saturn XXXVI:2004 S 10" "Sol/Saturn" # MPEC 2006-C55
+"Skathi:Saturn XXVII:S 2000 S 8" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 4 3 3 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		1093.12
-	SemiMajorAxis	20466110
-	Eccentricity	0.2255397
-	Inclination	163.662
-	AscendingNode	  4.888
-	ArgOfPericenter	264.241
-	MeanAnomaly      25.842
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	730.209793
+		SemiMajorAxis	15638193.016
+		Eccentricity	0.228681
+		Inclination	149.393919
+		AscendingNode	285.953154
+		ArgOfPericenter	221.643886
+		MeanAnomaly	178.258864
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	11.1
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Skathi_(moon)"
 }
 
-"Bebhionn:Saturn XXXVII:2004 S 11" "Sol/Saturn" # MPEC 2006-C55
+"S 2004 S 37" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		838.77
-	SemiMajorAxis	17153520
-	Eccentricity	0.3189491
-	Inclination	 37.707
-	AscendingNode	 28.249
-	ArgOfPericenter	 10.424     
-	MeanAnomaly      59.188              
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	742.306795
+		SemiMajorAxis	15810432.770
+		Eccentricity	0.502430
+		Inclination	164.025323
+		AscendingNode	147.597344
+		ArgOfPericenter	95.166623
+		MeanAnomaly	223.891493
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_37"
 }
 
-"2004 S 12" "Sol/Saturn"
+"S 2007 S 2" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2.5
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453400.5	# 2005 Jan 30
-	Period		1048.54
-	SemiMajorAxis	19905866
-	Eccentricity	0.3962529
-	Inclination	163.328
-	AscendingNode	30.672
-	ArgOfPericenter	96.528
-	MeanAnomaly     286.163
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	749.670172
+		SemiMajorAxis	15914815.979
+		Eccentricity	0.225866
+		Inclination	176.669611
+		AscendingNode	112.604071
+		ArgOfPericenter	62.175339
+		MeanAnomaly	52.989247
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2007_S_2"
 }
 
-"2004 S 13" "Sol/Saturn"
+"Albiorix:Saturn XXVI:S 2000 S 11" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	SemiAxes	[ 16.5 12.5 12.5 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453400.5	# 2005 Jan 30
-	Period		905.85
-	SemiMajorAxis	18056253
-	Eccentricity	0.2610261
-	Inclination	145.257
-	AscendingNode	339.270
-	ArgOfPericenter	6.322
-	MeanAnomaly     33.254
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	791.957901
+		SemiMajorAxis	16507812.641
+		Eccentricity	0.486763
+		Inclination	38.222208
+		AscendingNode	109.342571
+		ArgOfPericenter	55.034454
+		MeanAnomaly	59.321327
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	13.33
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Albiorix_(moon)"
 }
 
-"Hati:Saturn XLIII:2004 S 14" "Sol/Saturn" # MPEC 2006-C74
+"Bebhionn:Saturn XXXVII:S 2004 S 11" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 3.5 2.5 2.5 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		1033.05
-	SemiMajorAxis	19709340
-	Eccentricity	0.3080404
-	Inclination	169.323
-	AscendingNode	160.912
-	ArgOfPericenter	 30.574
-	MeanAnomaly     224.303
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	818.472602
+		SemiMajorAxis	16874240.366
+		Eccentricity	0.331763
+		Inclination	40.713173
+		AscendingNode	193.295923
+		ArgOfPericenter	12.397839
+		MeanAnomaly	138.952840
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	16.33
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Bebhionn_(moon)"
 }
 
-"Bergelmir:Saturn XXXVIII:2004 S 15" "Sol/Saturn" # MPEC 2006-C55
+"S 2004 S 31" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		985.95
-	SemiMajorAxis	19105640
-	Eccentricity	0.1297284
-	Inclination	155.983
-	AscendingNode	 30.246
-	ArgOfPericenter	146.038
-	MeanAnomaly      34.682
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	846.533849
+		SemiMajorAxis	17257757.116
+		Eccentricity	0.221966
+		Inclination	49.657690
+		AscendingNode	81.690404
+		ArgOfPericenter	251.940721
+		MeanAnomaly	214.864761
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_31"
 }
 
-"Fenrir:Saturn XLI:2004 S 16" "Sol/Saturn" # MPEC 2006-C72
+"Saturn LX:S 2004 S 29" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		1212.53
-	SemiMajorAxis	21930640
-	Eccentricity	0.1049966
-	Inclination	163.768
-	AscendingNode	 47.473
-	ArgOfPericenter	124.324
-	MeanAnomaly      66.315
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	854.378617
+		SemiMajorAxis	17364210.713
+		Eccentricity	0.513584
+		Inclination	41.673615
+		AscendingNode	149.051647
+		ArgOfPericenter	320.968038
+		MeanAnomaly	175.840531
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_29"
 }
 
-"2004 S 17" "Sol/Saturn"
+"Skoll:Saturn XLVII:S 2006 S 8" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 2.5 2 2 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453400.5	# 2005 Jan 30
-	Period		985.45
-	SemiMajorAxis	19099175
-	Eccentricity	0.2259100
-	Inclination	153.848
-	AscendingNode	331.252
-	ArgOfPericenter	175.790
-	MeanAnomaly     165.425
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	868.344787
+		SemiMajorAxis	17552929.208
+		Eccentricity	0.386356
+		Inclination	155.745898
+		AscendingNode	297.022862
+		ArgOfPericenter	199.184727
+		MeanAnomaly	341.904611
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	7.26
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Skoll_(moon)"
 }
 
-"Bestla:Saturn XXXIX:2004 S 18" "Sol/Saturn" # MPEC 2006-C55
+"Tarqeq:Saturn LII:S 2007 S 1" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3.5
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 3.5 2.5 2.5 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		1097.35
-	SemiMajorAxis	20518960
-	Eccentricity	0.7453905
-	Inclination	153.357
-	AscendingNode	115.433
-	ArgOfPericenter	 82.190
-	MeanAnomaly     288.253
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	881.206509
+		SemiMajorAxis	17725830.733
+		Eccentricity	0.081494
+		Inclination	51.531690
+		AscendingNode	92.571773
+		ArgOfPericenter	57.562236
+		MeanAnomaly	75.256120
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	76.13
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Tarqeq_(moon)"
 }
 
-"Hyrrokkin:Saturn XLIV:2004 S 19" "Sol/Saturn" # (previously Hyrokkin) MPEC 2006-M44
+"Tarvos:Saturn XXI:S 2000 S 4" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		4
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	SemiAxes	[ 7.5 7 7 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		914.29
-	SemiMajorAxis	18168300
-	Eccentricity	0.3604062
-	Inclination	151.827
-	AscendingNode	248.953
-	ArgOfPericenter 268.525     
-	MeanAnomaly      89.589              
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	889.225167
+		SemiMajorAxis	17833200.706
+		Eccentricity	0.559408
+		Inclination	35.373425
+		AscendingNode	92.016158
+		ArgOfPericenter	282.402055
+		MeanAnomaly	173.992991
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	10.691
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Tarvos_(moon)"
 }
 
-"Daphnis:Saturn XXXV:2005 S 1" "Sol/Saturn"
+"Erriapus:Saturn XXVIII:S 2000 S 10" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture "asteroid.jpg"
-	Mesh    "asteroid.cms"
-	Radius 3.5
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	SemiAxes	[ 5.5 4 4 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Period          0.5998503
-	SemiMajorAxis	136500     # Fit to Celestia's Keeler Gap
-#	Eccentricity      0.004827 # Fit to Celestia's Keeler Gap
-	Inclination       0.000950
-	AscendingNode   191.701
-	ArgOfPericenter 281.908
-	MeanAnomaly       0.000
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	894.061008
+		SemiMajorAxis	17897796.688
+		Eccentricity	0.550011
+		Inclination	37.385410
+		AscendingNode	131.281674
+		ArgOfPericenter	302.238045
+		MeanAnomaly	241.538105
 	}
-
-	Albedo 0.5
+	UniformRotation
+	{
+		Period	28.15
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Erriapus"
 }
 
-"2006 S 1" "Sol/Saturn" # MPEC 2006-M45
+"Siarnaq:Saturn XXIX:S 2000 S 3" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	SemiAxes	[ 21 18 18 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		972.41
-	SemiMajorAxis	18930200
-	Eccentricity	0.1302807
-	Inclination	159.579
-	AscendingNode	178.730
-	ArgOfPericenter 138.788     
-	MeanAnomaly     241.766              
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	915.981496
+		SemiMajorAxis	18189158.213
+		Eccentricity	0.451392
+		Inclination	46.780657
+		AscendingNode	62.542892
+		ArgOfPericenter	66.089185
+		MeanAnomaly	125.041400
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	10.18785
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Siarnaq"
 }
 
-"Kari:Saturn XLV:2006 S 2" "Sol/Saturn" # MPEC 2006-M48
+"Greip:Saturn LI:S 2006 S 4" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3.5
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 2.5 2 2 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		1245.06
-	SemiMajorAxis	22321200
-	Eccentricity	0.3399560
-	Inclination	154.373
-	AscendingNode	115.635
-	ArgOfPericenter 181.696     
-	MeanAnomaly     209.511              
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	916.868854
+		SemiMajorAxis	18200903.502
+		Eccentricity	0.378317
+		Inclination	172.389829
+		AscendingNode	342.249529
+		ArgOfPericenter	146.001474
+		MeanAnomaly	218.767412
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	12.75
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Greip_(moon)"
 }
 
-"2006 S 3" "Sol/Saturn" # MPEC 2006-M45
+"Hyrrokkin:Saturn XLIV:S 2004 S 19" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 4 3.5 3.5 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		1142.37
-	SemiMajorAxis	21076300
-	Eccentricity	0.4709957
-	Inclination	150.165
-	AscendingNode	 38.575
-	ArgOfPericenter 190.856     
-	MeanAnomaly     100.635              
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	945.978027
+		SemiMajorAxis	18584127.062
+		Eccentricity	0.375744
+		Inclination	154.093412
+		AscendingNode	44.260761
+		ArgOfPericenter	262.034061
+		MeanAnomaly	209.837689
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	12.76
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Hyrrokkin_(moon)"
 }
 
-"Greip:Saturn LI:2006 S 4" "Sol/Saturn" # MPEC 2006-M45
+"Mundilfari:Saturn XXV:S 2000 S 9" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 4 2.5 2.5 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		906.56
-	SemiMajorAxis	18065700
-	Eccentricity	0.3735237
-	Inclination	175.914
-	AscendingNode	235.009
-	ArgOfPericenter 141.501     
-	MeanAnomaly     105.502              
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	946.562915
+		SemiMajorAxis	18591786.517
+		Eccentricity	0.193697
+		Inclination	169.735955
+		AscendingNode	79.995680
+		ArgOfPericenter	301.401510
+		MeanAnomaly	356.192299
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	6.74
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Mundilfari_(moon)"
 }
 
-"Loge:Saturn XLVI:2006 S 5" "Sol/Saturn" # MPEC 2006-M48
+"S 2006 S 1" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		1300.95
-	SemiMajorAxis	22984300
-	Eccentricity	0.1423235
-	Inclination	171.183
-	AscendingNode	197.088
-	ArgOfPericenter  46.810     
-	MeanAnomaly     218.554              
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	947.597792
+		SemiMajorAxis	18605334.978
+		Eccentricity	0.083084
+		Inclination	154.222334
+		AscendingNode	340.552423
+		ArgOfPericenter	156.657142
+		MeanAnomaly	341.176363
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2006_S_1"
 }
 
-"Jarnsaxa:Saturn L:2006 S 6" "Sol/Saturn" # MPEC 2007-D79
+"S 2004 S 13" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	3
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2454200.5	# 2007 Apr 10
-	Period		978.75
-	SemiMajorAxis	19012500
-	Eccentricity	0.1929545
-	Inclination	164.138
-	AscendingNode	232.487
-	ArgOfPericenter 234.702     
-	MeanAnomaly      70.074
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	950.877289
+		SemiMajorAxis	18648237.153
+		Eccentricity	0.288174
+		Inclination	167.517971
+		AscendingNode	221.014878
+		ArgOfPericenter	6.150090
+		MeanAnomaly	303.527274
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_13"
 }
 
-"Surtur:Saturn XLVIII:2006 S 7" "Sol/Saturn" # MPEC 2006-N06
+"S 2007 S 3" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		1242.36
-	SemiMajorAxis	22288900
-	Eccentricity	0.3688000
-	Inclination	169.482
-	AscendingNode	 58.170
-	ArgOfPericenter 329.289     
-	MeanAnomaly      50.553              
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	954.745064
+		SemiMajorAxis	18698771.804
+		Eccentricity	0.221460
+		Inclination	177.124880
+		AscendingNode	94.463763
+		ArgOfPericenter	279.741783
+		MeanAnomaly	182.250519
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2007_S_3"
 }
 
-"Skoll:Saturn XLVII:2006 S 8" "Sol/Saturn" # MPEC 2006-M48
+"Suttungr:Saturn XXIII:S 2000 S 12" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 3.5 3 3 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2453800.5	# 2006 Mar 6
-	Period		862.37
-	SemiMajorAxis	17473800
-	Eccentricity	0.4221689
-	Inclination	161.837
-	AscendingNode	121.645
-	ArgOfPericenter 206.421     
-	MeanAnomaly     229.323              
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	983.815051
+		SemiMajorAxis	19076430.235
+		Eccentricity	0.161599
+		Inclination	174.425262
+		AscendingNode	253.202027
+		ArgOfPericenter	59.615687
+		MeanAnomaly	176.084765
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	7.67
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Suttungr_(moon)"
 }
 
-"Tarqeq:Saturn LII:2007 S 1" "Sol/Saturn" # MPEC 2007-G38
+"Saturn LIV:S 2004 S 20" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3.5
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2454200.5	# 2007 Apr 10
-	Period		894.91
-	SemiMajorAxis	17910560
-	Eccentricity	0.1081156
-	Inclination	 46.073
-	AscendingNode	 16.099
-	ArgOfPericenter  65.594     
-	MeanAnomaly     126.537
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	997.285951
+		SemiMajorAxis	19250171.410
+		Eccentricity	0.197387
+		Inclination	162.453512
+		AscendingNode	339.284691
+		ArgOfPericenter	292.365594
+		MeanAnomaly	344.154627
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_20"
 }
 
-"2007 S 2" "Sol/Saturn" # MPEC 2007-J09
+"Narvi:Saturn XXXI:S 2003 S 1" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		3
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	3.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2454200.5	# 2007 Apr 10
-	Period		792.96
-	SemiMajorAxis	16523160
-	Eccentricity	0.2181375
-	Inclination	170.320
-	AscendingNode	314.099
-	ArgOfPericenter  62.038     
-	MeanAnomaly     184.606
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	997.380438
+		SemiMajorAxis	19251387.286
+		Eccentricity	0.312080
+		Inclination	136.423787
+		AscendingNode	184.370570
+		ArgOfPericenter	174.824922
+		MeanAnomaly	342.429761
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	10.21
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Narvi_(moon)"
 }
 
-"2007 S 3" "Sol/Saturn" # MPEC 2007-J09
+"Jarnsaxa:Saturn L:S 2006 S 6" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		2.5
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	3
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2454200.5	# 2007 Apr 10
-	Period		991.66
-	SemiMajorAxis	19179340
-	Eccentricity	0.1506156
-	Inclination	171.507
-	AscendingNode	337.152
-	ArgOfPericenter 284.032     
-	MeanAnomaly     199.246
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	997.428185
+		SemiMajorAxis	19252001.697
+		Eccentricity	0.230864
+		Inclination	162.684087
+		AscendingNode	15.863465
+		ArgOfPericenter	225.102338
+		MeanAnomaly	64.001550
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.06
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Jarnsaxa_(moon)"
 }
 
-"Anthe:Saturn XLIX:2007 S 4" "Sol/Saturn"
+"S 2004 S 12" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture "asteroid.jpg"
-	Mesh    "asteroid.cms"
-	Radius 1.1
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Period          1.041149
-	SemiMajorAxis   198105.6
-	Eccentricity    0.001102
-	Inclination     0.0186
-	AscendingNode   251.702
-	ArgOfPericenter 349.181
-	MeanAnomaly     355.247
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1010.253590
+		SemiMajorAxis	19416684.266
+		Eccentricity	0.408310
+		Inclination	163.958283
+		AscendingNode	313.817486
+		ArgOfPericenter	100.867659
+		MeanAnomaly	198.732555
 	}
-
-	Albedo 0.06  # Estimate
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_12"
 }
 
-# Hedman et al. "Aegaeon (Saturn LIII), a G-ring object"
-# Icarus 2010;207: 433-447
-"Aegaeon:Saturn LIII:2008 S 1" "Sol/Saturn"
+"Bergelmir:Saturn XXXVIII:S 2004 S 15" "Sol/Saturn"
 {
-	Class "minormoon"
-	Texture	"asteroid.jpg"
-	Mesh    "asteroid.cms"
-	Radius 0.24
-
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	3
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	EllipticalOrbit
 	{
-	Epoch		2454467.00075444
-	Period		0.80811114
-	SemiMajorAxis	167493.665
-	Eccentricity	0.00042277
-	Inclination	0.0007
-	AscendingNode	350
-	LongOfPericenter 312.728
-	MeanLongitude	5.641248
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1015.904774
+		SemiMajorAxis	19489025.972
+		Eccentricity	0.122301
+		Inclination	157.765014
+		AscendingNode	213.190399
+		ArgOfPericenter	153.242881
+		MeanAnomaly	156.522611
 	}
+	UniformRotation
+	{
+		Period	8.13
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Bergelmir_(moon)"
+}
 
-	Albedo 0.06  # Estimate
+"Saturn LIX:S 2004 S 27" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1021.981839
+		SemiMajorAxis	19566669.943
+		Eccentricity	0.147158
+		Inclination	167.750078
+		AscendingNode	85.723365
+		ArgOfPericenter	125.074601
+		MeanAnomaly	121.643202
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_27"
+}
+
+"S 2004 S 17" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1029.128606
+		SemiMajorAxis	19657784.377
+		Eccentricity	0.195025
+		Inclination	167.191027
+		AscendingNode	17.469108
+		ArgOfPericenter	183.149786
+		MeanAnomaly	73.132154
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_17"
+}
+
+"Hati:Saturn XLIII:S 2004 S 14" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 3 2 2 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1035.607849
+		SemiMajorAxis	19740206.399
+		Eccentricity	0.325585
+		Inclination	162.419711
+		AscendingNode	323.048760
+		ArgOfPericenter	17.943698
+		MeanAnomaly	21.793672
+	}
+	UniformRotation
+	{
+		Period	5.45
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Hati_(moon)"
+}
+
+"Farbauti:Saturn XL:S 2004 S 9" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1054.291775
+		SemiMajorAxis	19976926.848
+		Eccentricity	0.240362
+		Inclination	157.543885
+		AscendingNode	145.694152
+		ArgOfPericenter	338.089692
+		MeanAnomaly	114.333516
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Farbauti_(moon)"
+}
+
+"Thrymr:Saturn XXX:S 2000 S 7" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 3.5 3 3 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1069.668097
+		SemiMajorAxis	20170693.455
+		Eccentricity	0.509053
+		Inclination	174.735319
+		AscendingNode	247.928235
+		ArgOfPericenter	80.261090
+		MeanAnomaly	186.205407
+	}
+	UniformRotation
+	{
+		Period	38.79
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Thrymr_(moon)"
+}
+
+"S 2004 S 7" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	3
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1073.378961
+		SemiMajorAxis	20217316.939
+		Eccentricity	0.494642
+		Inclination	165.267062
+		AscendingNode	339.420785
+		ArgOfPericenter	104.572497
+		MeanAnomaly	201.341285
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_7"
+}
+
+"Saturn LXI:S 2004 S 30" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1086.275278
+		SemiMajorAxis	20378930.939
+		Eccentricity	0.140849
+		Inclination	157.584349
+		AscendingNode	259.209289
+		ArgOfPericenter	257.365810
+		MeanAnomaly	155.661230
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_30"
+}
+
+"Bestla:Saturn XXXIX:S 2004 S 18" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 4 2.5 2.5 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1104.943519
+		SemiMajorAxis	20611749.367
+		Eccentricity	0.741648
+		Inclination	147.456497
+		AscendingNode	289.559944
+		ArgOfPericenter	87.079054
+		MeanAnomaly	62.936951
+	}
+	UniformRotation
+	{
+		Period	14.6238
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Bestla_(moon)"
+}
+
+"Saturn LVII:S 2004 S 25" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1122.735336
+		SemiMajorAxis	20832420.247
+		Eccentricity	0.471005
+		Inclination	173.981062
+		AscendingNode	261.811695
+		ArgOfPericenter	305.188893
+		MeanAnomaly	3.200561
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_25"
+}
+
+"Saturn LV:S 2004 S 22" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1136.110965
+		SemiMajorAxis	20997550.509
+		Eccentricity	0.246097
+		Inclination	177.467347
+		AscendingNode	278.165852
+		ArgOfPericenter	84.491878
+		MeanAnomaly	284.302365
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_22"
+}
+
+"Saturn LXII:S 2004 S 32" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1140.169533
+		SemiMajorAxis	21047527.632
+		Eccentricity	0.250878
+		Inclination	158.584132
+		AscendingNode	298.650005
+		ArgOfPericenter	55.546899
+		MeanAnomaly	293.078910
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_32"
+}
+
+"Aegir:Saturn XXXVI:S 2004 S 10" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	3
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1144.663113
+		SemiMajorAxis	21102792.353
+		Eccentricity	0.199076
+		Inclination	167.537648
+		AscendingNode	191.854934
+		ArgOfPericenter	254.251121
+		MeanAnomaly	188.936352
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Aegir_(moon)"
+}
+
+"S 2006 S 3" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1159.729247
+		SemiMajorAxis	21287559.434
+		Eccentricity	0.457229
+		Inclination	151.678522
+		AscendingNode	215.704182
+		ArgOfPericenter	192.998919
+		MeanAnomaly	263.763123
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2006_S_3"
+}
+
+"Saturn LXV:S 2004 S 35" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1181.282918
+		SemiMajorAxis	21550503.250
+		Eccentricity	0.224188
+		Inclination	176.190616
+		AscendingNode	326.642943
+		ArgOfPericenter	184.145452
+		MeanAnomaly	84.775784
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_35"
+}
+
+"Kari:Saturn XLV:S 2006 S 2" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 4 2.5 2.5 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1182.006394
+		SemiMajorAxis	21559301.411
+		Eccentricity	0.365107
+		Inclination	149.260763
+		AscendingNode	290.330552
+		ArgOfPericenter	163.021001
+		MeanAnomaly	51.313757
+	}
+	UniformRotation
+	{
+		Period	7.7
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Kari_(moon)"
+}
+
+"Saturn LVI:S 2004 S 23" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1231.137935
+		SemiMajorAxis	22152663.097
+		Eccentricity	0.332589
+		Inclination	177.909968
+		AscendingNode	202.990894
+		ArgOfPericenter	107.705348
+		MeanAnomaly	179.173126
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_23"
+}
+
+"S 2004 S 28" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1238.650772
+		SemiMajorAxis	22242693.912
+		Eccentricity	0.103667
+		Inclination	170.895723
+		AscendingNode	136.257954
+		ArgOfPericenter	208.515678
+		MeanAnomaly	204.290951
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_28"
+}
+
+"Fenrir:Saturn XLI:S 2004 S 16" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1250.358223
+		SemiMajorAxis	22382629.370
+		Eccentricity	0.096549
+		Inclination	163.348478
+		AscendingNode	237.681215
+		ArgOfPericenter	141.101769
+		MeanAnomaly	224.009820
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Fenrir_(moon)"
+}
+
+"Loge:Saturn XLVI:S 2006 S 5" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 2.5 2 2 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1281.597959
+		SemiMajorAxis	22753908.386
+		Eccentricity	0.185641
+		Inclination	165.701502
+		AscendingNode	342.042081
+		ArgOfPericenter	19.919864
+		MeanAnomaly	72.371302
+	}
+	UniformRotation
+	{
+		Period	6.9
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Loge_(moon)"
+}
+
+"S 2004 S 21" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1289.502496
+		SemiMajorAxis	22847372.296
+		Eccentricity	0.273575
+		Inclination	155.310168
+		AscendingNode	117.385095
+		ArgOfPericenter	200.113058
+		MeanAnomaly	247.083313
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_21"
+}
+
+"Saturn LXVI:S 2004 S 38" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1301.827844
+		SemiMajorAxis	22992728.146
+		Eccentricity	0.433035
+		Inclination	154.341081
+		AscendingNode	130.864393
+		ArgOfPericenter	343.277447
+		MeanAnomaly	223.539028
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_38"
+}
+
+"S 2004 S 24" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1303.562407
+		SemiMajorAxis	23013147.371
+		Eccentricity	0.071554
+		Inclination	35.550621
+		AscendingNode	346.060415
+		ArgOfPericenter	13.850201
+		MeanAnomaly	171.598367
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_24"
+}
+
+"S 2004 S 36" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1308.947602
+		SemiMajorAxis	23076484.125
+		Eccentricity	0.702417
+		Inclination	146.211638
+		AscendingNode	212.067162
+		ArgOfPericenter	204.039642
+		MeanAnomaly	227.534110
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_36"
+}
+
+"Ymir:Saturn XIX:S 2000 S 1" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 10 7 7 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1313.136202
+		SemiMajorAxis	23125687.367
+		Eccentricity	0.351958
+		Inclination	172.340987
+		AscendingNode	213.429645
+		ArgOfPericenter	34.827277
+		MeanAnomaly	321.879876
+	}
+	UniformRotation
+	{
+		Period	11.92220
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.06
+	InfoURL	"https://en.wikipedia.org/wiki/Ymir_(moon)"
+}
+
+"Surtur:Saturn XLVIII:S 2006 S 7" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	3
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1318.821400
+		SemiMajorAxis	23192387.439
+		Eccentricity	0.345747
+		Inclination	167.321269
+		AscendingNode	257.385625
+		ArgOfPericenter	324.517477
+		MeanAnomaly	234.606823
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Surtur_(moon)"
+}
+
+"S 2004 S 39" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1334.292249
+		SemiMajorAxis	23373411.715
+		Eccentricity	0.093288
+		Inclination	167.135047
+		AscendingNode	178.766761
+		ArgOfPericenter	194.482341
+		MeanAnomaly	203.545985
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_39"
+}
+
+"Saturn LXIV:S 2004 S 34" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1345.408828
+		SemiMajorAxis	23503054.931
+		Eccentricity	0.230633
+		Inclination	165.897374
+		AscendingNode	297.010322
+		ArgOfPericenter	348.790012
+		MeanAnomaly	86.107786
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_34"
+}
+
+"Saturn LXIII:S 2004 S 33" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1428.752625
+		SemiMajorAxis	24463926.384
+		Eccentricity	0.425451
+		Inclination	163.257726
+		AscendingNode	74.528761
+		ArgOfPericenter	300.082043
+		MeanAnomaly	199.607275
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_33"
+}
+
+"Fornjot:Saturn XLII:S 2004 S 8" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 2.5 2 2 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1482.026
+		SemiMajorAxis	25068329.629
+		Eccentricity	0.142
+		Inclination	168.186
+		AscendingNode	270.795
+		ArgOfPericenter	340.97
+		MeanAnomaly	235.435
+	}
+	UniformRotation
+	{
+		Period	9.5
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Fornjot_(moon)"
+}
+
+"Saturn LVIII:S 2004 S 26" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453167.5  # 2004 Jun 11
+		Period	1518.822872
+		SemiMajorAxis	25481572.150
+		Eccentricity	0.226935
+		Inclination	170.788453
+		AscendingNode	339.687974
+		ArgOfPericenter	141.421890
+		MeanAnomaly	149.699225
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_26"
 }
 
 
