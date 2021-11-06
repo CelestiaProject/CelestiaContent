@@ -35,7 +35,7 @@ Texture maps
 
 # Askaniy (https://www.deviantart.com/askaniy)
 
-   Textures of Phobos, Jupiter, Ganymede, Saturn, Pluto, and Charon.
+   Textures of Phobos, Jupiter, Ganymede, Saturn, Uranus, Puck, Pluto, and Charon.
 
    The Deimos and Callisto textures were made by Askaniy from JVV's textures.
 
@@ -85,7 +85,7 @@ Texture maps
 
    Io's surface texture is derived from USGS maps and JVV's map.
 
-   Saturn's Ring Texture is a composite of data found on Björn Jónsson's site.
+   Saturn's ring texture is a composite of data found on Björn Jónsson's site.
 
    Mimas, Enceladus, Tethys, Dione, Rhea, Iapetus textures are derived from enhanced color maps by Paul Schenk, found on
    the NASA photojounal. Rhea texture is based on an Albedo map by Björn Jónsson, details added from the JPL map.
@@ -94,11 +94,18 @@ Texture maps
    Hyperion & Phoebe:
    Textures derieved from a texture by JVV
 
+   Uranus's rings are a composite of transparency data and voyager imagery.
+
+   Miranda:
+   Texture by Robin Charles Gilbert and shading reduced with the normal map:
+      http://www.robingilbert.com/blog/2017-08-20-atlas-of-miranda/
+   Normal map derived from a DEM by Paul Schenk
+
 # The Europa texture is by John van Vliet.
 
    Other textures derived from work by JVV are listed above.
 
-# The Neptune and Uranus textures are from James Hastings-Trew's collection.
+# The Neptune texture is from James Hastings-Trew's collection.
 
 # Grant Hutchison
 
@@ -247,3 +254,5 @@ covered.
     https://sbn.psi.edu/pds/resource/saturnsatshapes.html
 
 # The 3D model of Eros was prepared from the NEAR laser rangefinder shape model.
+
+# The Puck model is by Askaniy.

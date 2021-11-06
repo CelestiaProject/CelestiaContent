@@ -4558,504 +4558,659 @@
 
 # Minor moons of Uranus
 
-"Cordelia:Uranus VI:1986 U 7" "Sol/Uranus"
+"Cordelia:Uranus VI:S 1986 U 7" "Sol/Uranus"
 {
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 25 18 18 ]
-
-    EllipticalOrbit
-    {
-    Period      0.3350331
-    SemiMajorAxis   49752
-    Eccentricity    0.0003
-    Inclination 0.085
-    AscendingNode   307.256 #
-    ArgOfPericenter 276.012 # J2000.0
-    MeanAnomaly     352.546 #
-    }
-
-    RotationOffset       36
-
-    Albedo 0.07
-}
-
-"Ophelia:Uranus VII:1986 U 8" "Sol/Uranus"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 27 19 19 ]
-
-    EllipticalOrbit
-    {
-    Period      0.3764089
-    SemiMajorAxis   53764
-    Eccentricity    0.0099
-    Inclination 0.104
-    AscendingNode   92.308  #
-    ArgOfPericenter 165.041 # J2000.0
-    MeanAnomaly     78.064  #
-    }
-
-    RotationOffset      155
-
-    Albedo 0.07
-}
-
-"Bianca:Uranus VIII:1986 U 9" "Sol/Uranus"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 32 23 23 ]
-
-    EllipticalOrbit
-    {
-    Period      0.4345772
-    SemiMajorAxis   59165
-    Eccentricity    0.0009
-    Inclination 0.193
-    AscendingNode   242.850 #
-    ArgOfPericenter 24.255  # J2000.0
-    MeanAnomaly     324.540 #
-    }
-
-    RotationOffset       52
-
-    Albedo 0.07
-}
-
-"Cressida:Uranus IX:1986 U 3" "Sol/Uranus"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 46 37 37 ]
-
-    EllipticalOrbit
-    {
-    Period      0.4635700
-    SemiMajorAxis   61777
-    Eccentricity    0.0004
-    Inclination 0.006
-    AscendingNode   112.262 #
-    ArgOfPericenter 184.425 # J2000.0
-    MeanAnomaly     3.135   #
-    }
-
-
-    RotationOffset      120
-
-    Albedo 0.07
-}
-
-"Desdemona:Uranus X:1986 U 6" "Sol/Uranus"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 45 27 27 ]
-
-    EllipticalOrbit
-    {
-    Period      0.4736510
-    SemiMajorAxis   62659
-    Eccentricity    0.0001
-    Inclination 0.113
-    AscendingNode   133.615 #
-    ArgOfPericenter 141.145 # J2000.0
-    MeanAnomaly     357.199 #
-    }
-
-    RotationOffset        92
-
-    Albedo 0.07
-}
-
-"Juliet:Uranus XI:1986 U 2" "Sol/Uranus"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 75 37 37 ]
-
-    EllipticalOrbit
-    {
-    Period      0.4930660
-    SemiMajorAxis   64358
-    Eccentricity    0.0007
-    Inclination 0.065
-    AscendingNode   332.582 #
-    ArgOfPericenter 32.168 # J2000.0
-    MeanAnomaly     51.564  #
-    }
-
-    RotationOffset      236
-
-    Albedo 0.07
-}
-
-"Portia:Uranus XII:1986 U 1" "Sol/Uranus"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 78 63 63 ]
-
-    EllipticalOrbit
-    {
-    Period      0.5131958
-    SemiMajorAxis   66097
-    Eccentricity    0.0001
-    Inclination 0.059
-    AscendingNode   308.717 #
-    ArgOfPericenter 24.520  # J2000.0
-    MeanAnomaly     356.184 #
-    }
-
-    RotationOffset      149
-
-    Albedo 0.07
-}
-
-"Rosalind:Uranus XIII:1986 U 4" "Sol/Uranus"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      36
-
-    EllipticalOrbit
-    {
-    Period      0.5584589
-    SemiMajorAxis   69927
-    Eccentricity    0.0001
-    Inclination 0.279
-    AscendingNode   206.572 #
-    ArgOfPericenter 180.858 # J2000.0
-    MeanAnomaly     9.041   #
-    }
-
-    RotationOffset      216
-
-    Albedo 0.07
-}
-
-"Belinda:Uranus XIV:1986 U 5" "Sol/Uranus"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 64 32 32 ]
-
-    EllipticalOrbit
-    {
-    Period      0.6235248
-    SemiMajorAxis   75255
-    Eccentricity    0.0001
-    Inclination 0.031
-    AscendingNode   277.820 #
-    ArgOfPericenter 119.908 # J2000.0
-    MeanAnomaly     6.896   #
-    }
-
-    RotationOffset      225
-
-    Albedo 0.07
-}
-
-"Puck:Uranus XV:1985 U 1" "Sol/Uranus"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      81
-
-    EllipticalOrbit
-    {
-    Period      0.7618321
-    SemiMajorAxis   86004
-    Eccentricity    0.0001
-    Inclination 0.319
-    AscendingNode   214.713 #
-    ArgOfPericenter 33.582  # J2000.0
-    MeanAnomaly     12.990  #
-    }
-
-    RotationOffset       81
-
-    Albedo 0.07
-}
-
-"Caliban:Uranus XVI:1997 U 1" "Sol/Uranus"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      49
-
-    EllipticalOrbit
-    {
-    Period      579.73
-    SemiMajorAxis   7231000
-    Eccentricity    0.1587
-    Inclination 42.491  #
-    AscendingNode   7.152   #
-    ArgOfPericenter 328.345 # J2000.0
-    MeanAnomaly     26.273  #
-    }
-
-    RotationPeriod  10   # Guess
-
-    Albedo 0.07
-}
-
-"Stephano:Uranus XX:1999 U 2" "Sol/Uranus"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      10
-
-    EllipticalOrbit
-    {
-    Period      677.36
-    SemiMajorAxis   8004000
-    Eccentricity    0.2292
-    Inclination 47.483  #
-    AscendingNode   18.306  #
-    ArgOfPericenter 358.810 # J2000.0
-    MeanAnomaly     255.381 #
-    }
-
-    RotationPeriod  10   # Guess
-
-    Albedo 0.07
-}
-
-"Sycorax:Uranus XVII:1997 U 2" "Sol/Uranus"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      95
-
-    EllipticalOrbit
-    {
-    Period      1288.30
-    SemiMajorAxis   12179000
-    Eccentricity    0.5224
-    Inclination 82.190  #
-    AscendingNode   27.683  #
-    ArgOfPericenter 285.483 # J2000.0
-    MeanAnomaly     261.598 #
-    }
-
-    RotationPeriod  10   # Guess
-
-    Albedo 0.07
-}
-
-"Prospero:Uranus XVIII:1999 U 3" "Sol/Uranus"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      15
-
-    EllipticalOrbit
-    {
-    Period      1978.29
-    SemiMajorAxis   16256000
-    Eccentricity    0.4448
-    Inclination 112.068 #
-    AscendingNode   16.124  #
-    ArgOfPericenter 21.033  # J2000.0
-    MeanAnomaly     247.473 #
-    }
-
-    RotationPeriod  10   # Guess
-
-    Albedo 0.07
-}
-
-"Setebos:Uranus XIX:1999 U 1" "Sol/Uranus"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    Mesh        "asteroid.cms"
-    Radius      15
-
-    EllipticalOrbit
-    {
-    Period      2225.21
-    SemiMajorAxis   17418000
-    Eccentricity    0.5914
-    Inclination 79.227  #
-    AscendingNode   33.869  #
-    ArgOfPericenter 275.958 # J2000.0
-    MeanAnomaly     173.109 #
-    }
-
-    RotationPeriod  10   # Guess
-
-    Albedo 0.07
-}
-
-"Trinculo:Uranus XXI:2001 U 1" "Sol/Uranus"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		5
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 25 18 18 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
 	EllipticalOrbit
 	{
-	Period		749.24
-	SemiMajorAxis	8504000
-	Eccentricity	0.2200
-	Inclination	70.509	#
-	AscendingNode	7.574	#
-	ArgOfPericenter	128.839	# J2000.0
-	MeanAnomaly     182.392	#
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	0.33503384
+		SemiMajorAxis	49751.722
+		Eccentricity	0.00026
+		Inclination	97.884000
+		AscendingNode	167.597792
+		ArgOfPericenter	215.670318
+		MeanAnomaly	4.561096
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.07
+	UniformRotation
+	{
+		MeridianAngle	36
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.08
+	InfoURL	"https://en.wikipedia.org/wiki/Cordelia_(moon)"
 }
 
-"Ferdinand:Uranus XXIV:2001 U 2" "Sol/Uranus"
+"Ophelia:Uranus VII:S 1986 U 8" "Sol/Uranus"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		6
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 27 19 19 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
 	EllipticalOrbit
 	{
-	Period		2887.21
-	SemiMajorAxis	20901000
-	Eccentricity	0.3682
-	Inclination	75.339	#
-	AscendingNode	10.695	#
-	ArgOfPericenter	109.325	# J2000.0
-	MeanAnomaly     25.166	#
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	0.37640039
+		SemiMajorAxis	53763.390
+		Eccentricity	0.00992
+		Inclination	97.770276
+		AscendingNode	167.609085
+		ArgOfPericenter	208.889169
+		MeanAnomaly	68.042151
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.07
+	UniformRotation
+	{
+		MeridianAngle	155
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.08
+	InfoURL	"https://en.wikipedia.org/wiki/Ophelia_(moon)"
 }
 
-
-"Francisco:Uranus XXII:2001 U 3" "Sol/Uranus"
+"Bianca:Uranus VIII:S 1986 U 9" "Sol/Uranus"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		6
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 32 23 23 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
 	EllipticalOrbit
 	{
-	Period		266.56
-	SemiMajorAxis	4276000
-	Eccentricity	0.1459
-	Inclination	70.110	#
-	AscendingNode	329.112	#
-	ArgOfPericenter	195.118	# J2000.0
-	MeanAnomaly     20.667	#
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	0.434578986
+		SemiMajorAxis	59165.550
+		Eccentricity	0.00092
+		Inclination	97.820162
+		AscendingNode	167.659318
+		ArgOfPericenter	24.145954
+		MeanAnomaly	338.548828
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.07
+	UniformRotation
+	{
+		MeridianAngle	52
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.08
+	InfoURL	"https://en.wikipedia.org/wiki/Bianca_(moon)"
 }
 
-"Margaret:Uranus XXIII:2003 U 3" "Sol/Uranus"
+"Cressida:Uranus IX:S 1986 U 3" "Sol/Uranus"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		5.5
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 46 37 37 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
 	EllipticalOrbit
 	{
-	Period		1687.01
-	SemiMajorAxis	14345000
-	Eccentricity	0.6608
-	Inclination	137.282	#
-	AscendingNode	217.574	#
-	ArgOfPericenter	128.558	# J2000.0
-	MeanAnomaly     325.270	#
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	0.463569601
+		SemiMajorAxis	61766.730
+		Eccentricity	0.00036
+		Inclination	97.697129
+		AscendingNode	167.598291
+		ArgOfPericenter	243.484050
+		MeanAnomaly	23.508680
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.07
+	UniformRotation
+	{
+		MeridianAngle	120
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.08
+	InfoURL	"https://en.wikipedia.org/wiki/Cressida_(moon)"
 }
 
-"Perdita:Uranus XXV:1986 U 10" "Sol/Uranus"
+"Desdemona:Uranus X:S 1986 U 6" "Sol/Uranus"
 {
-	Class "minormoon"
-	Texture "asteroid.jpg"
-	Mesh    "asteroid.cms"
-	Radius 10
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 45 27 27 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
 	EllipticalOrbit
 	{
-	Period            0.63877
-	SemiMajorAxis   76462
-	Eccentricity      0.01160
-	Inclination       0.470
-	AscendingNode   150.095
-	ArgOfPericenter 199.193
-	MeanAnomaly     270.068
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	0.473649597
+		SemiMajorAxis	62658.364
+		Eccentricity	0.00013
+		Inclination	97.762544
+		AscendingNode	167.583929
+		ArgOfPericenter	156.564436
+		MeanAnomaly	332.645579
 	}
-
-	RotationPeriod  10   # guess
-
-	Albedo 0.07  # guess
+	UniformRotation
+	{
+		MeridianAngle	92
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.08
+	InfoURL	"https://en.wikipedia.org/wiki/Desdemona_(moon)"
 }
 
-"Mab:Uranus XXVI:2003 U 1" "Sol/Uranus"
+"Juliet:Uranus XI:S 1986 U 2" "Sol/Uranus"
 {
-	Class "minormoon"
-	Texture "asteroid.jpg"
-	Mesh    "asteroid.cms"
-	Radius 5
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 75 37 37 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
 	EllipticalOrbit
 	{
-	Period          0.92362
-	SemiMajorAxis   97771
-	Eccentricity      0.00242
-	Inclination       0.133
-	AscendingNode   224.525
-	ArgOfPericenter 123.862
-	MeanAnomaly     255.590
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	0.493065490
+		SemiMajorAxis	64358.222
+		Eccentricity	0.00066
+		Inclination	97.747420
+		AscendingNode	167.664626
+		ArgOfPericenter	11.981912
+		MeanAnomaly	337.182978
 	}
-
-	RotationPeriod  10   # guess
-
-	Albedo 0.07   # guess
+	UniformRotation
+	{
+		MeridianAngle	236
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.08
+	InfoURL	"https://en.wikipedia.org/wiki/Juliet_(moon)"
 }
 
-"Cupid:Uranus XXVII:2003 U 2" "Sol/Uranus"
+"Portia:Uranus XII:S 1986 U 1" "Sol/Uranus"
 {
-	Class "minormoon"
-	Texture "asteroid.jpg"
-	Mesh    "asteroid.cms"
-	Radius 5
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 78 63 63 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
 	EllipticalOrbit
 	{
-	Period          0.61359
-	SemiMajorAxis   74439
-	Eccentricity      0.000884
-	Inclination       0.0991
-	AscendingNode    79.496
-	ArgOfPericenter 106.781
-	MeanAnomaly     123.625
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	0.5131959201
+		SemiMajorAxis	66097.265
+		Eccentricity	0.00005
+		Inclination	97.730829
+		AscendingNode	167.608555
+		ArgOfPericenter	259.164587
+		MeanAnomaly	353.282931
 	}
+	UniformRotation
+	{
+		MeridianAngle	149
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.08
+	InfoURL	"https://en.wikipedia.org/wiki/Portia_(moon)"
+}
 
-	RotationPeriod  10   # guess
+"Rosalind:Uranus XIII:S 1986 U 4" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Radius	36
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	0.558459529
+		SemiMajorAxis	69926.795
+		Eccentricity	0.00011
+		Inclination	97.742392
+		AscendingNode	167.605646
+		ArgOfPericenter	306.349800
+		MeanAnomaly	358.930224
+	}
+	UniformRotation
+	{
+		MeridianAngle	216
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.08
+	InfoURL	"https://en.wikipedia.org/wiki/Rosalind_(moon)"
+}
 
-	Albedo 0.07   # guess
+"Cupid:Uranus XXVII:S 2003 U 2" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	9
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	0.618
+		SemiMajorAxis	74392
+		Eccentricity	0.0013
+		Inclination	97.847305
+		AscendingNode	167.587980
+		ArgOfPericenter	5.332857
+		MeanAnomaly	80.715076
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.07
+	InfoURL	"https://en.wikipedia.org/wiki/Cupid_(moon)"
+}
+
+"Belinda:Uranus XIV:S 1986 U 5" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 64 32 32 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	0.623527470
+		SemiMajorAxis	75255.613
+		Eccentricity	0.00007
+		Inclination	97.717815
+		AscendingNode	167.635496
+		ArgOfPericenter	23.037486
+		MeanAnomaly	9.005716
+	}
+	UniformRotation
+	{
+		MeridianAngle	225
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.08
+	InfoURL	"https://en.wikipedia.org/wiki/Belinda_(moon)"
+}
+
+"Perdita:Uranus XXV:S 1986 U 10" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Radius	15
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	0.638021
+		SemiMajorAxis	76417
+		Eccentricity	0.0012
+		Inclination	97.759279
+		AscendingNode	167.655016
+		ArgOfPericenter	6.579126
+		MeanAnomaly	33.178749
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.08
+	InfoURL	"https://en.wikipedia.org/wiki/Perdita_(moon)"
+}
+
+"Puck:Uranus XV:S 1985 U 1" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"puck.cmod"
+	Orientation	[ -90 0 1 0 ]
+	Texture	"puck.*"
+	Radius	83.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	0.76183287
+		SemiMajorAxis	86004.444
+		Eccentricity	0.00012
+		Inclination	97.642027
+		AscendingNode	167.326292
+		ArgOfPericenter	305.063804
+		MeanAnomaly	347.920939
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.11
+	InfoURL	"https://en.wikipedia.org/wiki/Puck_(moon)"
+}
+
+"Mab:Uranus XXVI:S 2003 U 1" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	12.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	0.9229
+		SemiMajorAxis	97736
+		Eccentricity	0.0025
+		Inclination	97.627583
+		AscendingNode	167.573980
+		ArgOfPericenter	63.135530
+		MeanAnomaly	30.643751
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.103
+	InfoURL	"https://en.wikipedia.org/wiki/Mab_(moon)"
+}
+
+"Francisco:Uranus XXII:S 2001 U 3" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	11
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	267.049351
+		SemiMajorAxis	4275056.723
+		Eccentricity	0.140732
+		Inclination	147.577565
+		AscendingNode	103.033802
+		ArgOfPericenter	123.323431
+		MeanAnomaly	0.986811
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Francisco_(moon)"
+}
+
+"Caliban:Uranus XVI:S 1997 U 1" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	Radius	21
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	579.934303
+		SemiMajorAxis	7169134.509
+		Eccentricity	0.081654
+		Inclination	139.496105
+		AscendingNode	174.115207
+		ArgOfPericenter	340.545941
+		MeanAnomaly	102.616065
+	}
+	UniformRotation
+	{
+		Period	9.948
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.22
+	InfoURL	"https://en.wikipedia.org/wiki/Caliban_(moon)"
+}
+
+"Stephano:Uranus XX:S 1999 U 2" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	16
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	677.699371
+		SemiMajorAxis	7953755.781
+		Eccentricity	0.150428
+		Inclination	141.435916
+		AscendingNode	188.105997
+		ArgOfPericenter	28.421081
+		MeanAnomaly	68.938272
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Stephano_(moon)"
+}
+
+"Trinculo:Uranus XXI:S 2001 U 1" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	9
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	748.157793
+		SemiMajorAxis	8495905.364
+		Eccentricity	0.214102
+		Inclination	166.167526
+		AscendingNode	197.099132
+		ArgOfPericenter	162.472495
+		MeanAnomaly	254.289698
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Trinculo_(moon)"
+}
+
+"Sycorax:Uranus XVII:S 1997 U 2" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.94 0.88 ]
+	BlendTexture	true
+	SemiAxes	[ 79.5 71 71 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	1279.806236
+		SemiMajorAxis	12151885.761
+		Eccentricity	0.461715
+		Inclination	153.729839
+		AscendingNode	255.227886
+		ArgOfPericenter	16.353510
+		MeanAnomaly	278.817821
+	}
+	BodyFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	UniformRotation
+	{
+		Period	6.9162
+		Inclination	45
+		AscendingNode	86
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.065
+	InfoURL	"https://en.wikipedia.org/wiki/Sycorax_(moon)"
+}
+
+"Margaret:Uranus XXIII:S 2003 U 3" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	10
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	1644.331255
+		SemiMajorAxis	14361740.370
+		Eccentricity	0.821926
+		Inclination	56.590471
+		AscendingNode	42.174989
+		ArgOfPericenter	63.023515
+		MeanAnomaly	299.248437
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Margaret_(moon)"
+}
+
+"Prospero:Uranus XVIII:S 1999 U 3" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 25.5 17.5 17.5 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	1982.107459
+		SemiMajorAxis	16266682.649
+		Eccentricity	0.386169
+		Inclination	144.557267
+		AscendingNode	319.109474
+		ArgOfPericenter	166.936231
+		MeanAnomaly	46.094769
+	}
+	UniformRotation
+	{
+		Period	7.145
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.07
+	InfoURL	"https://en.wikipedia.org/wiki/Prospero_(moon)"
+}
+
+"Setebos:Uranus XIX:S 1999 U 1" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 22.5 17.5 17.5 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	2202.490592
+		SemiMajorAxis	17451130.712
+		Eccentricity	0.471454
+		Inclination	149.952312
+		AscendingNode	247.836623
+		ArgOfPericenter	355.712446
+		MeanAnomaly	80.261564
+	}
+	UniformRotation
+	{
+		Period	4.255
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Setebos_(moon)"
+}
+
+"Ferdinand:Uranus XXIV:S 2001 U 2" "Sol/Uranus"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 11 7 7 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Uranus" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2446454.5  # 1986 Jan 24
+		Period	2798.858771
+		SemiMajorAxis	20473944.418
+		Eccentricity	0.332426
+		Inclination	168.320013
+		AscendingNode	217.711465
+		ArgOfPericenter	159.534038
+		MeanAnomaly	91.491751
+	}
+	UniformRotation
+	{
+		Period	11.84
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Ferdinand_(moon)"
 }
 
 
