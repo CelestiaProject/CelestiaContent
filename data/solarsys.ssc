@@ -452,7 +452,6 @@
 AltSurface "2018 (Hubble)" "Sol/Jupiter"
 {
 	Texture	"jupiter-2018.*"
-	LunarLambert	0.5
 }
 
 "Io:Jupiter I" "Sol/Jupiter"
@@ -1112,247 +1111,302 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 
 "Uranus" "Sol"
 {
-    Texture     "uranus.*"
-    Color       [ 0.606 0.948 1.0 ]
-    HazeColor   [ 0.5 0.8 1.0 ]
-    HazeDensity 0.2
-    Radius      25559 # equatorial
-    Oblateness  0.0229
+	Class	"planet"
+	Texture	"uranus.*"
+	Color	[ 0.86828 0.97 1.0 ]
+	Radius	25559
+	Oblateness	0.0229
+	Atmosphere
+	{
+		Height	500
+		Mie	0.0014
+		MieScaleHeight	27.7
+		MieAsymmetry	-0.1
+		Rayleigh	[ 0.00026 0.00048 0.00100 ]
+	}
+	CustomOrbit	"vsop87-uranus"
 
-    CustomOrbit "vsop87-uranus"
+	# Overridden by CustomOrbit
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	84.3282227348361
+	#	SemiMajorAxis	19.23015641645675
+	#	Eccentricity	0.04439249637662888
+	#	Inclination	0.7726557415122474
+	#	AscendingNode	74.00240744954429
+	#	ArgOfPericenter	96.59160786069499
+	#	MeanAnomaly	142.8890153357523
+	# }
 
-    # Overridden by CustomOrbit
-    # EllipticalOrbit
-    # {
-    #    Period           84.0139
-    #    SemiMajorAxis    19.1913
-    #    Eccentricity      0.0472
-    #    Inclination       0.7699
-    #    AscendingNode     74.230
-    #    LongOfPericenter 170.964
-    #    MeanLongitude    313.232
-    # }
-
-    Atmosphere
-    {
-        Height 130
-        Lower [ 0.75 0.85 1.0 ]
-        Upper [ 0.5 0.8 0.9 ]
-        Sky [ 0.6 0.7 0.7 ]
-    }
-
-    BodyFrame { EclipticJ2000 {} }
-    UniformRotation
-    {
-        Period         17.24  # System III (magnetic field)
-        Inclination    97.722
-        AscendingNode 167.647
-        MeridianAngle 331.13  # correct System III prime meridian
-    }
-
-    GeomAlbedo      0.437118
-    BondAlbedo      0.300
-    TempDiscrepancy 17.8  # for 1 bar level
-
-    Rings
-    {
-        Inner  41837
-        Outer  51179
-        Texture "uranus-rings.png"
-    }
+	BodyFrame	{ EclipticJ2000 {} }
+	UniformRotation
+	{
+		Period	17.24
+		Inclination	97.722
+		AscendingNode	167.647
+		MeridianAngle	331.13
+	}
+	GeomAlbedo	0.437118
+	BondAlbedo	0.300
+	TempDiscrepancy	17.8  # for 1 bar level
+	Rings
+	{
+		Inner	37812
+		Outer	52392
+		Texture	"uranus-rings.*"
+	}
+	InfoURL	"https://en.wikipedia.org/wiki/Uranus"
 }
-
 
 "Miranda:Uranus V" "Sol/Uranus"
 {
-    Texture "miranda.*"
-    Radius   235.8
+	Class	"moon"
+	Texture	"miranda-lok.*"
+	# NormalMap	"miranda-normal.*"
+	Color	[ 0.98357 0.98913 1.0 ]
+	SemiAxes	[ 240 234.2 232.9 ]
+	CustomOrbit	"miranda"
 
-    CustomOrbit "miranda"
+	# Overridden by CustomOrbit
+	# OrbitFrame
+	# {
+	#	EclipticJ2000	{ Center "Sol/Uranus" }
+	# }
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	1.413479
+	#	SemiMajorAxis	129390
+	#	Eccentricity	0.0013
+	#	Inclination	97.267986
+	#	AscendingNode	172.065967
+	#	ArgOfPericenter	261.816760
+	#	MeanAnomaly	61.247779
+	# }
 
-    # Overridden by CustomOrbit
-    # EllipticalOrbit
-    # {
-    #    Period         1.413
-    #    SemiMajorAxis  129800
-    #    Eccentricity   0.0027
-    #    Inclination    4.22
-    #    MeanAnomaly    120
-    # }
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-miranda"
 
-    BodyFrame { EquatorJ2000 {} }
-    CustomRotation "iau-miranda"
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Inclination	74.92
+	#	AscendingNode	167.43
+	#	MeridianAngle	149.30
+	# }
 
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #    Period         33.92350159 # enforce sync rotation
-    #    Inclination    74.92
-    #    AscendingNode 167.43
-    #    MeridianAngle 149.30
-    # }
-
-    Albedo         0.32
+	LunarLambert	0.5
+	GeomAlbedo	0.32
+	BondAlbedo	0.28
+	InfoURL	"https://en.wikipedia.org/wiki/Miranda_(moon)"
 }
 
 AltSurface "Limit of knowledge" "Sol/Uranus/Miranda"
 {
-    Texture "miranda.*"
-    OverlayTexture "miranda-lok-mask.png"
+	Texture	"miranda-lok.*"
+	LunarLambert	0.5
 }
 
 "Ariel:Uranus I" "Sol/Uranus"
 {
-    Texture "ariel.*"
-    Radius   578.9
+	Class	"moon"
+	Texture	"ariel.*"
+	# NormalMap	"ariel-normal.*"
+	Color	[ 1.0 1.0 0.999 ]
+	SemiAxes	[ 581.1 577.9 577.7 ]
+	CustomOrbit	"ariel"
 
-    CustomOrbit "ariel"
+	# Overridden by CustomOrbit
+	# OrbitFrame
+	# {
+	#	EclipticJ2000	{ Center "Sol/Uranus" }
+	# }
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	2.520379
+	#	SemiMajorAxis	191020
+	#	Eccentricity	0.0012
+	#	Inclination	97.721321
+	#	AscendingNode	167.616776
+	#	ArgOfPericenter	43.284123
+	#	MeanAnomaly	154.841923
+	# }
 
-    # Overridden by CustomOrbit
-    # EllipticalOrbit
-    # {
-    #    Period         2.520
-    #    SemiMajorAxis  191200
-    #    Eccentricity   0.0034
-    #    Inclination    0.31
-    #    MeanAnomaly    56
-    # }
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-ariel"
 
-    BodyFrame { EquatorJ2000 {} }
-    CustomRotation "iau-ariel"
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Inclination	74.90
+	#	AscendingNode	167.43
+	#	MeridianAngle	23.78
+	# }
 
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #    Period         60.48909292 # enforce sync rotation
-    #    Inclination    74.90
-    #    AscendingNode 167.43
-    #    MeridianAngle  23.78
-    # }
-
-    Albedo         0.39
+	LunarLambert	0.5
+	GeomAlbedo	0.53
+	BondAlbedo	0.23
+	InfoURL	"https://en.wikipedia.org/wiki/Ariel_(moon)"
 }
 
 AltSurface "Limit of knowledge" "Sol/Uranus/Ariel"
 {
-    Texture "ariel.*"
-    OverlayTexture "ariel-lok-mask.png"
+	Texture	"ariel.*"
+	OverlayTexure	"ariel-lok-mask.*"
+	LunarLambert	0.5
 }
 
 "Umbriel:Uranus II" "Sol/Uranus"
 {
-    Texture "umbriel.*"
-    Radius   584.7
+	Class	"moon"
+	Texture	"umbriel.*"
+	# NormalMap	"umbriel-normal.*"
+	Color	[ 1.0 0.99769 0.99749 ]
+	Radius	584.7
+	CustomOrbit	"umbriel"
 
-    CustomOrbit "umbriel"
+	# Overridden by CustomOrbit
+	# OrbitFrame
+	# {
+	#	EclipticJ2000	{ Center "Sol/Uranus" }
+	# }
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	4.1441772
+	#	SemiMajorAxis	266000
+	#	Eccentricity	0.0039
+	#	Inclination	97.679326
+	#	AscendingNode	167.637075
+	#	ArgOfPericenter	334.489611
+	#	MeanAnomaly	271.690065
+	# }
 
-    # Overridden by CustomOrbit
-    # EllipticalOrbit
-    # {
-    #    Period         4.144
-    #    SemiMajorAxis  266000
-    #    Eccentricity   0.0050
-    #    Inclination    0.36
-    #    MeanAnomaly    280
-    # }
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-umbriel"
 
-    BodyFrame { EquatorJ2000 {} }
-    CustomRotation "iau-umbriel"
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Inclination	74.90
+	#	AscendingNode	167.43
+	#	MeridianAngle	71.95
+	# }
 
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #    Period         99.46022991 # enforce sync rotation
-    #    Inclination    74.90
-    #    AscendingNode 167.43
-    #    MeridianAngle  71.95
-    # }
-
-    Albedo         0.21
+	LunarLambert	0.5
+	GeomAlbedo	0.26
+	BondAlbedo	0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Umbriel_(moon)"
 }
 
 AltSurface "Limit of knowledge" "Sol/Uranus/Umbriel"
 {
-    Texture "umbriel.*"
-    OverlayTexture "umbriel-lok-mask.png"
+	Texture	"umbriel.*"
+	OverlayTexure	"umbriel-lok-mask.*"
+	LunarLambert	0.5
 }
 
 "Titania:Uranus III" "Sol/Uranus"
 {
-    Texture "titania.*"
-    Radius   788.9
+	Class	"moon"
+	Texture	"titania.*"
+	# NormalMap	"titania-normal.*"
+	Color	[ 1.0 0.98945 0.97393 ]
+	Radius	788.4
+	CustomOrbit	"titania"
 
-    CustomOrbit "titania"
+	# Overridden by CustomOrbit
+	# OrbitFrame
+	# {
+	#	EclipticJ2000	{ Center "Sol/Uranus" }
+	# }
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	8.706234
+	#	SemiMajorAxis	435910
+	#	Eccentricity	0.0011
+	#	Inclination	97.821207
+	#	AscendingNode	167.613219
+	#	ArgOfPericenter	203.953805
+	#	MeanAnomaly	72.597842
+	# }
 
-    # Overridden by CustomOrbit
-    # EllipticalOrbit
-    # {
-    #    Period         8.706
-    #    SemiMajorAxis  435800
-    #    Eccentricity   0.0022
-    #    Inclination    0.10
-    #    MeanAnomaly    30
-    # }
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-titania"
 
-    BodyFrame { EquatorJ2000 {} }
-    CustomRotation "iau-titania"
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Inclination	74.90
+	#	AscendingNode	167.43
+	#	MeridianAngle	102.26
+	# }
 
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #    Period        208.94077099 # enforce sync rotation
-    #    Inclination    74.90
-    #    AscendingNode 167.43
-    #    MeridianAngle 102.26
-    # }
-
-    Albedo         0.27
+	LunarLambert	0.5
+	GeomAlbedo	0.35
+	BondAlbedo	0.17
+	InfoURL	"https://en.wikipedia.org/wiki/Titania_(moon)"
 }
 
 AltSurface "Limit of knowledge" "Sol/Uranus/Titania"
 {
-    Texture "titania.*"
-    OverlayTexture "titania-lok-mask.png"
+	Texture	"titania.*"
+	OverlayTexure	"titania-lok-mask.*"
+	LunarLambert	0.5
 }
 
 "Oberon:Uranus IV" "Sol/Uranus"
 {
-    Texture "oberon.*"
-    Radius   761.4
+	Class	"moon"
+	Texture	"oberon.*"
+	# NormalMap	"oberon-normal.*"
+	Color	[ 1.0 0.98881 0.97178 ]
+	Radius	761.4
+	CustomOrbit	"oberon"
 
-    CustomOrbit "oberon"
+	# Overridden by CustomOrbit
+	# OrbitFrame
+	# {
+	#	EclipticJ2000	{ Center "Sol/Uranus" }
+	# }
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	13.463234
+	#	SemiMajorAxis	583520
+	#	Eccentricity	0.0014
+	#	Inclination	97.877864
+	#	AscendingNode	167.756308
+	#	ArgOfPericenter	252.847153
+	#	MeanAnomaly	94.662801
+	# }
 
-    # Overridden by CustomOrbit
-    # EllipticalOrbit
-    # {
-    #    Period        13.463
-    #    SemiMajorAxis  583600
-    #    Eccentricity   0.0008
-    #    Inclination    0.10
-    #    MeanAnomaly    150
-    # }
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-oberon"
 
-    BodyFrame { EquatorJ2000 {} }
-    CustomRotation "iau-oberon"
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Inclination	74.90
+	#	AscendingNode	167.43
+	#	MeridianAngle	173.23
+	# }
 
-    # Overriden by CustomRotation
-    # UniformRotation
-    # {
-    #    Period        323.117567539 # enforce sync rotation
-    #    Inclination    74.90
-    #    AscendingNode 167.43
-    #    MeridianAngle 173.23
-    # }
-
-    Albedo         0.23
+	LunarLambert	0.5
+	GeomAlbedo	0.31
+	BondAlbedo	0.14
+	InfoURL	"https://en.wikipedia.org/wiki/Oberon_(moon)"
 }
 
 AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 {
-    Texture "oberon.*"
-    OverlayTexture "oberon-lok-mask.png"
+	Texture	"oberon.*"
+	OverlayTexure	"oberon-lok-mask.*"
+	LunarLambert	0.5
 }
-
 
 "Neptune" "Sol"
 {
