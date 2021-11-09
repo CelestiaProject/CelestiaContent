@@ -5216,236 +5216,332 @@
 
 # Minor satellites of Neptune
 
-"Larissa:Neptune VII:1989 N 2" "Sol/Neptune"
+"Naiad:Neptune III:S 1989 N 6" "Sol/Neptune"
 {
-    Texture     "asteroid.jpg"
-    Mesh        "larissa.cmod"
-    Radius      100 # maximum semi-axis
-    MeshCenter  [ 4.564 -0.126 0.302 ]
-
-    EllipticalOrbit
-    {
-        Period          0.554654
-        SemiMajorAxis   73548
-        Eccentricity    0.0014
-        Inclination     0.744
-        AscendingNode   324.857
-        ArgOfPericenter 215.004 # J2000.0
-        MeanAnomaly     157.543
-    }
-
-    BodyFrame { EquatorJ2000 {} }
-    UniformRotation
-    {
-        Inclination    46.59
-        AscendingNode  29.36
-        MeridianAngle 179.41
-    }
-
-    Albedo 0.056
-}
-
-"Naiad:Neptune III:1989 N 6" "Sol/Neptune"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 47 30 26 ]
-
-    EllipticalOrbit
-    {
-    Period      0.294396
-    SemiMajorAxis   48227
-    Eccentricity    0.0004
-    Inclination 5.167   #
-    AscendingNode   8.998   #
-    ArgOfPericenter 30.956  # J2000.0
-    MeanAnomaly     7.538   #
-    }
-
-    Obliquity         0.1
-    EquatorAscendingNode    346.7
-    RotationOffset      242.9
-
-    Albedo 0.060
-}
-
-"Thalassa:Neptune IV:1989 N 5" "Sol/Neptune"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 54 50 26 ]
-
-    EllipticalOrbit
-    {
-    Period      0.311485
-    SemiMajorAxis   50075
-    Eccentricity    0.0002
-    Inclination 0.381   #
-    AscendingNode   353.390 #
-    ArgOfPericenter 274.850 # J2000.0
-    MeanAnomaly     350.880 #
-    }
-
-    RotationOffset      77.6
-
-    Albedo 0.060
-}
-
-"Despina:Neptune V:1989 N 3" "Sol/Neptune"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 90 74 64 ]
-
-    EllipticalOrbit
-    {
-    Period      0.334655
-    SemiMajorAxis   52526
-    Eccentricity    0.0002
-    Inclination 0.589   #
-    AscendingNode   334.279 #
-    ArgOfPericenter 133.891 # J2000.0
-    MeanAnomaly     349.678 #
-    }
-
-    RotationOffset      282.0
-
-    Albedo 0.059
-}
-
-"Galatea:Neptune VI:1989 N 4" "Sol/Neptune"
-{
-    Class "minormoon"
-    Texture     "asteroid.jpg"
-    SemiAxes [ 102 92 72 ]
-
-    EllipticalOrbit
-    {
-    Period      0.428745
-    SemiMajorAxis   61953
-    Eccentricity    0.0000
-    Inclination 0.565   #
-    AscendingNode   327.929 #
-    ArgOfPericenter 89.060  # J2000.0
-    MeanAnomaly     2.357   #
-    }
-
-    RotationOffset      233.6
-
-    Albedo 0.063
-}
-
-"Halimede:Neptune IX:2002 N 1" "Sol/Neptune"
-{
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		24
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 48 30 26 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Neptune" }
+	}
 	EllipticalOrbit
 	{
-	Period		1879.71
-	SemiMajorAxis	15728000
-	Eccentricity	0.5711
-	Inclination	139.094	#
-	AscendingNode	163.249	#
-	ArgOfPericenter	148.454	# J2000.0
-	MeanAnomaly     230.015	#
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	0.2943958
+		SemiMajorAxis	48224.41
+		Eccentricity	0.0047
+		Inclination	33.097475
+		AscendingNode	50.705828
+		ArgOfPericenter	68.933372
+		MeanAnomaly	354.335183
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.155
+	UniformRotation
+	{
+		MeridianAngle	242.9
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.072
+	InfoURL	"https://en.wikipedia.org/wiki/Naiad_(moon)"
 }
 
-"Sao:Neptune XI:2002 N 2" "Sol/Neptune"
+"Thalassa:Neptune IV:S 1989 N 5" "Sol/Neptune"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		24
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 54 50 26 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Neptune" }
+	}
 	EllipticalOrbit
 	{
-	Period		2914.07
-	SemiMajorAxis	22422000
-	Eccentricity	0.2931
-	Inclination	26.351	#
-	AscendingNode	23.961	#
-	ArgOfPericenter	47.566	# J2000.0
-	MeanAnomaly     14.560	#
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	0.31148444
+		SemiMajorAxis	50074.44
+		Eccentricity	0.00176
+		Inclination	28.583199
+		AscendingNode	48.999293
+		ArgOfPericenter	170.470579
+		MeanAnomaly	357.658510
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.155
+	UniformRotation
+	{
+		MeridianAngle	77.6
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.091
+	InfoURL	"https://en.wikipedia.org/wiki/Thalassa_(moon)"
 }
 
-"Laomedeia:Neptune XII:2002 N 3" "Sol/Neptune"
+"Despina:Neptune V:S 1989 N 3" "Sol/Neptune"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		24
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 90 74 64 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Neptune" }
+	}
 	EllipticalOrbit
 	{
-	Period		3167.85
-	SemiMajorAxis	23571000
-	Eccentricity	0.4237
-	Inclination	9.933	#
-	AscendingNode	13.595	#
-	ArgOfPericenter	122.752	# J2000.0
-	MeanAnomaly     154.007	#
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	0.33465551
+		SemiMajorAxis	52525.95
+		Eccentricity	0.00038
+		Inclination	28.441193
+		AscendingNode	48.705257
+		ArgOfPericenter	206.079137
+		MeanAnomaly	7.659222
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.155
+	UniformRotation
+	{
+		MeridianAngle	282.0
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.09
+	InfoURL	"https://en.wikipedia.org/wiki/Despina_(moon)"
 }
 
-"Neso:Neptune XIII:2002 N 4" "Sol/Neptune"
+"Galatea:Neptune VI:S 1989 N 4" "Sol/Neptune"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		30
-
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 102 92 72 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Neptune" }
+	}
 	EllipticalOrbit
 	{
-	Period		9373.99
-	SemiMajorAxis	48387000
-	Eccentricity	0.4945
-	Inclination	113.569	#
-	AscendingNode	351.648	#
-	ArgOfPericenter	 77.981	# J2000.0
-	MeanAnomaly     216.988	#
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	0.42874431
+		SemiMajorAxis	61952.57
+		Eccentricity	0.00022
+		Inclination	28.482346
+		AscendingNode	48.730913
+		ArgOfPericenter	94.040655
+		MeanAnomaly	346.601960
 	}
-
-	RotationPeriod  10   # Guess
-
-	Albedo 0.155
+	UniformRotation
+	{
+		MeridianAngle	233.6
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.08
+	InfoURL	"https://en.wikipedia.org/wiki/Galatea_(moon)"
 }
 
-"Psamathe:Neptune X:2003 N 1" "Sol/Neptune"
+"Larissa:Neptune VII:S 1981 N 1:S 1989 N 2" "Sol/Neptune"
 {
-	Class "minormoon"
-	Texture	 	"asteroid.jpg"
-	Mesh		"asteroid.cms"
-	Radius		14
-
+	Class	"minormoon"
+	Mesh	"larissa.cmod"
+	MeshCenter	[ 4.564 -0.126 0.302 ]
+	Texture	"larissa.*"
+	Radius	108
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Neptune" }
+	}
 	EllipticalOrbit
 	{
-	Period		9115.91
-	SemiMajorAxis	46695000
-	Eccentricity	0.4499
-	Inclination	118.763	#
-	AscendingNode	288.194	#
-	ArgOfPericenter	161.232	# J2000.0
-	MeanAnomaly     182.071	#
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	0.55465332
+		SemiMajorAxis	73548.26
+		Eccentricity	0.001393
+		Inclination	28.693900
+		AscendingNode	48.446761
+		ArgOfPericenter	109.167352
+		MeanAnomaly	310.958996
 	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Inclination	46.59
+		AscendingNode	29.36
+		MeridianAngle	179.41
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.09
+	InfoURL	"https://en.wikipedia.org/wiki/Larissa_(moon)"
+}
 
-	RotationPeriod  10   # Guess
+"Hippocamp:Neptune XIV:S 2004 N 1" "Sol/Neptune"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	17.4
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Neptune" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	0.950
+		SemiMajorAxis	105283
+		Eccentricity	0.00084
+		Inclination	28.732987
+		AscendingNode	48.550228
+		ArgOfPericenter	235.612981
+		MeanAnomaly	337.247813
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.09
+	InfoURL	"https://en.wikipedia.org/wiki/Hippocamp_(moon)"
+}
 
-	Albedo 0.155
+"Halimede:Neptune IX:S 2002 N 1" "Sol/Neptune"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	30.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Neptune" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	1878.003763
+		SemiMajorAxis	16580660.817
+		Eccentricity	0.257621
+		Inclination	112.189115
+		AscendingNode	217.072482
+		ArgOfPericenter	157.963831
+		MeanAnomaly	222.929859
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Halimede_(moon)"
+}
+
+"Sao:Neptune XI:S 2002 N 2" "Sol/Neptune"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	20
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Neptune" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	2903.402282
+		SemiMajorAxis	22168807.848
+		Eccentricity	0.140565
+		Inclination	53.633016
+		AscendingNode	62.733568
+		ArgOfPericenter	62.777123
+		MeanAnomaly	266.557147
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Sao_(moon)"
+}
+
+"Laomedeia:Neptune XII:S 2002 N 3" "Sol/Neptune"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	20
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Neptune" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	3165.898534
+		SemiMajorAxis	23485628.722
+		Eccentricity	0.369558
+		Inclination	37.991619
+		AscendingNode	54.310707
+		ArgOfPericenter	133.919743
+		MeanAnomaly	82.522618
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Laomedeia"
+}
+
+"Psamathe:Neptune X:S 2003 N 1" "Sol/Neptune"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	19
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Neptune" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	9185.728992
+		SemiMajorAxis	47776384.583
+		Eccentricity	0.355333
+		Inclination	122.523974
+		AscendingNode	319.348509
+		ArgOfPericenter	138.511529
+		MeanAnomaly	17.562417
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Psamathe_(moon)"
+}
+
+"Neso:Neptune XIII:S 2002 N 4" "Sol/Neptune"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	30
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Neptune" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	9561.918091
+		SemiMajorAxis	49072050.914
+		Eccentricity	0.730912
+		Inclination	133.608549
+		AscendingNode	15.350808
+		ArgOfPericenter	50.727424
+		MeanAnomaly	90.944380
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Neso_(moon)"
 }

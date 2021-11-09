@@ -1410,152 +1410,164 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 
 "Neptune" "Sol"
 {
-    Texture     "neptune.*"
-    Color       [ 0.523 0.848 1.0 ]
-    HazeColor   [ 0.6 1 0.75 ]
-    HazeDensity 0.35
-    Radius      24766 # equatorial
-    Oblateness  0.017
+	Class	"planet"
+	Texture	"neptune.*"
+	Color	[ 0.78302 0.91535 1.0 ]
+	Radius	24764
+	Oblateness	0.0171
+	Atmosphere
+	{
+		Height	500
+		Mie	0.002
+		MieScaleHeight	20.3
+		MieAsymmetry	-0.1
+		Rayleigh	[ 0.00104 0.00193 0.00400 ]
+		Absorption	[ 0.00000 0.00050 0.00100 ]
+	}
+	CustomOrbit	"vsop87-neptune"
 
-    CustomOrbit "vsop87-neptune"
+	# Overridden by CustomOrbit
+	# EllipticalOrbit
+	# {
+	#	Epoch	2451545.0  # 2000 Jan 01 12:00
+	#	Period	165.087916323222
+	#	SemiMajorAxis	30.09392573136601
+	#	Eccentricity	0.01120361794639117
+	#	Inclination	1.770211285182674
+	#	AscendingNode	131.7839137619412
+	#	ArgOfPericenter	267.3151968586168
+	#	MeanAnomaly	266.1055972475706
+	# }
 
-    # Overridden by CustomOrbit
-    # EllipticalOrbit
-    # {
-    #    Period           164.793
-    #    SemiMajorAxis     30.0690
-    #    Eccentricity      0.0086
-    #    Inclination       1.7692
-    #    AscendingNode   131.722
-    #    LongOfPericenter 44.971
-    #    MeanLongitude   304.880
-    # }
-
-    Atmosphere
-    {
-        Height 130
-        Lower [ 0.6 0.65 1.0 ]
-        Upper [ 0.5 0.55 0.9 ]
-        Sky [ 0.5 0.7 0.9 ]
-    }
-
-    BodyFrame { EclipticJ2000 {} }
-    UniformRotation
-    {
-        Period          16.11 # System III (magnetic field)
-        Inclination     28.03
-        AscendingNode   49.24
-        MeridianAngle  228.66 # correct System III prime meridian
-    }
-
-    GeomAlbedo      0.409338
-    BondAlbedo      0.290
-    TempDiscrepancy 25.1  # for 1 bar level
-
-    Rings
-    {
-        Inner  53150
-        Outer  62947
-        Texture "neptune-rings.png"
-    }
+	BodyFrame	{ EclipticJ2000 {} }
+	UniformRotation
+	{
+		Period	16.11
+		Inclination	28.03
+		AscendingNode	49.24
+		MeridianAngle	228.66
+	}
+	GeomAlbedo	0.409338
+	BondAlbedo	0.290
+	TempDiscrepancy	25.1  # for 1 bar level
+	Rings
+	{
+		Inner	40900
+		Outer	62947
+		Texture	"neptune-rings.*"
+	}
+	InfoURL	"https://en.wikipedia.org/wiki/Neptune"
 }
 
-"Proteus:Neptune VIII:1989 N 1" "Sol/Neptune"
+"Proteus:Neptune VIII:S 1989 N 1" "Sol/Neptune"
 {
-    Mesh        "proteus.cmod"
-    Texture     "proteus.*" # Phil Stooke
-    Radius      219 # maximum semi-axis
-    MeshCenter  [ -4.146 -0.022 5.153 ]
-
-    EllipticalOrbit
-    {
-        Epoch           2450085.5 # 1996 Jan 3 00:00UT
-        Period          1.122315  # mean
-        SemiMajorAxis   117647    # mean
-        Eccentricity    0.0005    # mean
-        Inclination     1.090     # at epoch
-        AscendingNode   330.943   # at epoch
-        ArgOfPericenter 267.246   # at epoch
-        MeanAnomaly     213.916   # at epoch
-    }
-
-    BodyFrame { EquatorJ2000 {} }
-    UniformRotation
-    {
-        Inclination    47.09
-        AscendingNode  29.27
-        MeridianAngle  93.38
-    }
-
-    Albedo         0.061
+	Class	"moon"
+	Mesh	"proteus.cmod"
+	Texture	"proteus.*"
+	Radius	212
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Neptune" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	1.12231477
+		SemiMajorAxis	117647
+		Eccentricity	0.00053
+		Inclination	28.908433
+		AscendingNode	48.083589
+		ArgOfPericenter	81.195458
+		MeanAnomaly	34.162384
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period	26.93555448
+		Inclination	47.09
+		AscendingNode	29.27
+		MeridianAngle	93.38
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.096
+	InfoURL	"https://en.wikipedia.org/wiki/Proteus_(moon)"
 }
 
 "Triton:Neptune I" "Sol/Neptune"
 {
-    Texture "triton.*"
-    Radius   1353.4
-
-    Atmosphere
-    {
-        Height 1
-        Lower [ 0.5 0.5 0.5 ]
-        Upper [ 0.5 0.5 0.5 ]
-        Sky [ 0.0 0.0 0.0 ]
-    }
-
-    EllipticalOrbit
-    {
-        Epoch           2447763.5    # 1989 Aug 25 00:00UT (Voyager encounter)
-        Period          5.8768541    #  mean
-        SemiMajorAxis   354765.286   # at epoch
-        Eccentricity    0.00002285   # at epoch
-        Inclination     156.826240   # at epoch
-        AscendingNode   147.899288   # at epoch
-        ArgOfPericenter 293.092400   # at epoch
-        MeanAnomaly     315.726316   # at epoch
-    }
-
-    BodyFrame { EquatorJ2000 {} }
-    UniformRotation
-    {
-        Epoch     2447763.5  # 1989 Aug 25 00:00UT (Voyager encounter)
-        Inclination   110.44 # at epoch
-        AscendingNode 206.17 # at epoch
-        MeridianAngle  77.41 # at epoch
-    }
-
-    Albedo         0.756
+	Class	"moon"
+	Texture	"triton.*"
+	Color	[ 1.0 0.99024 0.96338 ]
+	SemiAxes	[ 1354.6 1352.8 1352.4 ]
+	Atmosphere
+	{
+		Height	32
+		Mie	0.0003
+		MieScaleHeight	8
+		Absorption	[ 0.00200 0.00200 0.00250 ]
+	}
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Neptune" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	5.8768541
+		SemiMajorAxis	354759
+		Eccentricity	0.000016
+		Inclination	130.909204
+		AscendingNode	213.174202
+		ArgOfPericenter	278.113474
+		MeanAnomaly	349.996104
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Epoch	2447763.5  # 1989 Aug 25
+		Inclination	110.44
+		AscendingNode	206.17
+		MeridianAngle	77.41
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.719
+	BondAlbedo	0.65
+	InfoURL	"https://en.wikipedia.org/wiki/Triton_(moon)"
 }
 
 AltSurface "Limit of knowledge" "Sol/Neptune/Triton"
 {
-    Texture "triton.*"
-    OverlayTexture "triton-lok-mask.png"
+	Texture	"triton.*"
+	OverlayTexture	"triton-lok-mask.*"
+	LunarLambert	0.5
 }
 
 "Nereid:Neptune II" "Sol/Neptune"
 {
-    Mesh    "asteroid.cms"
-    Texture "asteroid.jpg"
-    Radius  170
-
-    EllipticalOrbit
-    {
-        Epoch           2447763.5 # 1989 Aug 25 00:00UT (Voyager encounter)
-        Period          360.13619 # mean
-        SemiMajorAxis   5513400   # mean
-        Eccentricity    0.7512    # mean
-        Inclination     28.385    # at epoch
-        AscendingNode   190.678   # at epoch
-        ArgOfPericenter 17.690    # at epoch
-        MeanAnomaly     36.056    # at epoch
-    }
-
-    # Figure of 11.52 +/- 0.14 hours from Grav, T. et al. (2003)
-    # "The Short Rotation Period of Nereid", ApJ 591
-    UniformRotation
-    {
-        Period 11.52
-    }
-    Albedo          0.155
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	SemiAxes	[ 199 168 153 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Neptune" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	359.396374
+		SemiMajorAxis	5506217.008
+		Eccentricity	0.753882
+		Inclination	5.055101
+		AscendingNode	319.892917
+		ArgOfPericenter	296.451886
+		MeanAnomaly	36.055860
+	}
+	UniformRotation
+	{
+		Period	11.594
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.155
+	InfoURL	"https://en.wikipedia.org/wiki/Nereid_(moon)"
 }
