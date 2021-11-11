@@ -64,8 +64,6 @@ Texture maps
    and improved by the specular map derived from Natural Earth II by Tom Patterson
       http://www.shadedrelief.com/natural3/pages/extra.html
    Normal map derived from the BMNG datadet.
-   Night texture derived from BMNG dataset and colored with a night texture by JVV, posted on the Celestia forum:
-      http://celestia.space/forum/viewtopic.php?f=23&t=17477
    Cloud Texture from the BMNG dataset
 
    Moon:
@@ -127,6 +125,12 @@ Texture maps
 # Amalthea is a shaded relief map by Phil Stooke, colored by Wm. Robert Johnston
   (http://www.johnstonsarchive.net/spaceart/cylmaps.html), and further modified
   by Jens Meyer, Grant Hutchison, and Askaniy.
+
+# Earth's night texture created by FarGetaNik from the BMNG dataset and colored
+  with a night texture by JVV, posted on the Celestia forum:
+    http://celestia.space/forum/viewtopic.php?f=23&t=17477
+  and further improved by nussun based on a NASA Earth Observatory image:
+    https://earthobservatory.nasa.gov/features/NightLights/page3.php
 
 # Titan's surface texture is a composite of Cassini ISS and Radar maps from USGS,
   created by FarGetaNik and further modified by Askaniy. Titan's specular texture
