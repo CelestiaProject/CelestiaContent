@@ -37,6 +37,8 @@ Texture maps
 
    Textures of Phobos, Jupiter, Ganymede, Saturn, Uranus, Puck, Neptune, Triton, Pluto, and Charon.
 
+   Haumea's (fictional) ring texture is by Askaniy.
+
    The Deimos and Callisto textures were made by Askaniy from JVV's textures.
 
 # FarGetaNik (https://www.deviantart.com/fargetanik)
@@ -79,6 +81,10 @@ Texture maps
    Color and cloud texture extracted from a map on the NASA photojournal, brightness adjusted with the USGS albedo map.
    Normal map derived from USGS DEM.
 
+   Ceres:
+   Texture is a composite of individual color filter maps by NASA, gaps improved by SevenSpheres
+   Normal map derived from USGS DEM.
+
    Jupiter's rings are derived from spacecraft imagery found on the NASA photojournal.
 
    Io's surface texture is derived from USGS maps and JVV's map.
@@ -98,6 +104,8 @@ Texture maps
    Texture by Robin Charles Gilbert and shading reduced with the normal map:
       http://www.robingilbert.com/blog/2017-08-20-atlas-of-miranda/
    Normal map derived from a DEM by Paul Schenk
+
+   Pluto and Charon normal maps derived from the USGS DEMs.
 
 # The Europa texture is by John van Vliet.
 
@@ -262,3 +270,5 @@ covered.
 # The 3D model of Eros was prepared from the NEAR laser rangefinder shape model.
 
 # The Puck model is by Askaniy.
+
+# The Hydra model is by LukeCEL.
