@@ -526,32 +526,3 @@
 
 	Albedo 0.15 
 }
-
-# Centaurs
-"2060 Chiron:Chiron:1977 UB:95P Chiron" "Sol" 
-{ 
-	Class "asteroid" 
-	Texture "asteroid.jpg" 
-        Color [ 1.000 0.960 0.919 ]
-	BlendTexture true
-	Radius 144 
-
-	EllipticalOrbit 
-	{ 
-	Epoch        2449608.5      # 1994 Sep 13 00:00UT
-	Period            50.90359 
-	SemiMajorAxis     13.734941 
-	Eccentricity       0.384424 
-	Inclination        6.927771 
-	AscendingNode    209.395188 
-	ArgOfPericenter  339.432152 
-	MeanAnomaly      349.983669 
-	} 
-
-	UniformRotation
-	{
-	Period 5.918 
-	}
-
-	Albedo 0.048 
-}

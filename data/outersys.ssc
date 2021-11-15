@@ -1,203 +1,967 @@
-# The largest Edgeworth-Kuiper belt objects
+# Colors are mainly derived from B-V and V-R indices, most of which
+# come from the MBOSS compilation: http://www.eso.org/~ohainaut/MBOSS/
+# and converted using FarGetaNik's color calculator:
+# https://docs.google.com/spreadsheets/d/1_mMXYzeYE4JcXJFrn4j5XWJvf2ik13r8v1BZ7G9I4EY/
+# Centaur colors are derived from SMASS spectra and converted
+# to RGB values using Matt Wronkiewicz's spectrum2rgb utility
+# that is distributed with the Celestia source package.
 
-"90482 Orcus:Orcus:2004 DW" "Sol" { 
+# Orbits for satellites have been taken from Emelyanov & Drozdov (2020), MNRAS 494 (2), 2410
+# "Determination of the orbits of 62 moons of asteroids based on astrometric observations."
+# with exceptions being listed as comments over this file.
+# In cases where the system barycenters have been defined as ReferencePoints, the
+# mass ratios (and thus relative semi-major axes) have been computed from the cube of
+# the component sizes, under the assumption of equal densities for both of them.
 
-	Class "asteroid" 
-	Texture "asteroid.jpg" 
-	Color   [ 0.65 0.45 0.35 ]
-	BlendTexture true
-	Radius  800 
+# Likely dwarf planets
 
-	InfoURL "http://www.gps.caltech.edu/~chad/2004dw/" 
-
-	EllipticalOrbit {
-		Period           245.976 
-      		SemiMajorAxis     39.258 
-		Eccentricity       0.2258 
-		Inclination       20.539 
-		AscendingNode    268.457 
-		ArgOfPericenter   73.731 
-		MeanAnomaly      150.066 
-   	} 
-
-	Albedo 0.09
-
+# Braga-Ribas et al. (2013), ApJ 773 (1), 26
+# "The Size, Shape, Albedo, Density, and Atmospheric Limit of Transneptunian Object
+# (50000) Quaoar from Multi-chord Stellar Occultations"
+# https://iopscience.iop.org/article/10.1088/0004-637X/773/1/26
+"50000 Quaoar:Quaoar:2002 LM60" "Sol"
+{
+	Class	"asteroid"
+	# Class	"dwarfplanet"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.893 0.787 ]
+	BlendTexture	true
+	Radius	569  # equatorial
+	Oblateness	0.0897
+	EllipticalOrbit
+	{
+		Epoch	2458600.5  # 2019 Apr 27
+		Period	288.784516916471
+		SemiMajorAxis	43.689506100204
+		Eccentricity	0.03955774099
+		Inclination	7.988143985547
+		AscendingNode	188.837473399366
+		ArgOfPericenter	146.461981388786
+		MeanAnomaly	300.65535440942
+	}
 	UniformRotation
 	{
-	Period     48.0   # guess
+		Period	8.8394
 	}
-
+	LunarLambert	0.5
+	GeomAlbedo	0.109
+	InfoURL	"https://en.wikipedia.org/wiki/50000_Quaoar"
 }
 
-"50000 Quaoar:Quaoar:2002 LM60" "Sol" {
-
-	Class "asteroid"
-	Texture "asteroid.jpg"
-	Color   [ 0.60 0.45 0.35 ] # only slight red
-	BlendTexture true
-	Radius 625
-	Oblateness 0.12 # minimum axis ratio of 1.133
-	
-	InfoURL "http://www.gps.caltech.edu/~chad/quaoar/"
-
-
-	EllipticalOrbit	{
-		Period          283.234
-		SemiMajorAxis    43.128
-		Eccentricity      0.0395
-		Inclination       8.005
-		AscendingNode   189.081
-		ArgOfPericenter 163.885
-	        MeanAnomaly     258.858
-	}
-
-	Albedo 0.12
-
-	UniformRotation
+"Weywot:50000 Quaoar I:Quaoar I:S 2006 (50000) 1" "Sol/Quaoar"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.5 0.5 0.5 ]  # adjust texture brightness for albedo
+	BlendTexture	true
+	Radius	85  # JOA 10 (1), 24
+	OrbitFrame
 	{
-	Period     17.6788 # for a double-peaked light curve
+		EquatorJ2000	{ Center "Sol/Quaoar" }
 	}
+	EllipticalOrbit
+	{
+		Epoch	2453300.5  # 2004 Oct 22
+		Period	12.4315
+		SemiMajorAxis	13583
+		Eccentricity	0.057
+		Inclination	36.9
+		AscendingNode	357.0
+		ArgOfPericenter	10.1
+		MeanAnomaly	69.2
+	}
+	UniformRotation  # to match orbit plane
+	{
+		Inclination	13.5
+		AscendingNode	352.3
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.03  # recalculated for size
+	InfoURL	"https://en.wikipedia.org/wiki/Weywot_(moon)"
 }
 
-"28978 Ixion:Ixion:2001 KX76" "Sol" { 
-
-	Class "asteroid" 
-	Texture "asteroid.jpg" 
-	Color   [ 0.65 0.45 0.35 ] # "reddish"
-	BlendTexture true
-	Radius 600 
-
-	InfoURL "http://www.noao.edu/outreach/press/pr01/pr0110.html"	
-
-	EllipticalOrbit { 
-		Epoch        2452400.5       # 2002 May 6 00:00UT
-		Period           246.50564 
-		SemiMajorAxis     39.3138672 
-		Eccentricity       0.2447032 
-		Inclination       19.68326 
-		AscendingNode     71.0155 
-		ArgOfPericenter  300.9234 
-		MeanAnomaly      259.585 
-	} 
-
-	Albedo 0.04 
-
+"90377 Sedna:Sedna:2003 VB12" "Sol"
+{
+	Class	"asteroid"
+	# Class	"dwarfplanet"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.860 0.692 ]
+	BlendTexture	true
+	Radius	497.5
+	EllipticalOrbit
+	{
+		Epoch	2459000.5  # 2020 May 31
+		Period	10662.6713802939
+		SemiMajorAxis	484.438385675118
+		Eccentricity	0.842587388666
+		Inclination	11.930691895012
+		AscendingNode	144.247866905974
+		ArgOfPericenter	311.352204298832
+		MeanAnomaly	358.116930442029
+	}
 	UniformRotation
 	{
-	Period 30.0 
+		Period	10.273
 	}
+	LunarLambert	0.5
+	GeomAlbedo	0.32
+	InfoURL	"https://en.wikipedia.org/wiki/90377_Sedna"
 }
 
-"20000 Varuna:Varuna:2000 WR106" "Sol" { 
-
-	Class "asteroid" 
-	Texture "asteroid.jpg" 
-	Color   [ 0.65 0.45 0.35 ] # "reddish"
-	BlendTexture true
-	Radius 450 
-	Oblateness 0.333 # axis ratio 1.5:1
-
-	InfoURL "http://www.aas.org/publications/baas/v34n3/dps2002/9.htm"
-
-	EllipticalOrbit { 
-		Epoch        2452400.5      # 2002 May 6 00:00UT 
-		Period           284.83446 
-		SemiMajorAxis     43.290196 
-		Eccentricity       0.053794 
-		Inclination       17.12557 
-		AscendingNode     97.2843 
-		ArgOfPericenter  275.5744 
-		MeanAnomaly       82.67171 
-	} 
-
-	Albedo 0.07 
-
-	UniformRotation
+# Brown & Butler (2018), AJ 156 (4), 164
+# "Medium-sized Satellites of Large Kuiper Belt Objects"
+# https://iopscience.iop.org/article/10.3847/1538-3881/aad9f2
+# Secondary size from Sickafoose et al. (2019), Icarus 319, 657
+# "A stellar occultation by Vanth, a satellite of (90482) Orcus"
+# https://arxiv.org/abs/1810.08977
+ReferencePoint "Orcus-Vanth" "Sol"
+{
+	EllipticalOrbit
 	{
-	Period 6.3442 # for a double-peaked light curve 
+		Epoch	2458600.5  # 2019 Apr 27
+		Period	246.057751828792
+		SemiMajorAxis	39.266232423648
+		Eccentricity	0.224154696
+		Inclination	20.593075065434
+		AscendingNode	268.806388631985
+		ArgOfPericenter	72.159737740794
+		MeanAnomaly	180.346243925382
 	}
-} 
-
-"55565 2002 AW197:2002 AW197" "Sol" { 
-
-	Class "asteroid" 
-	Texture "asteroid.jpg" 
-	Color   [ 0.65 0.45 0.35 ]
-	BlendTexture true
-	Radius  450 
-
-	InfoURL "http://www.aas.org/publications/baas/v34n3/dps2002/301.htm"
-
-	EllipticalOrbit {
-		Period           323.976 
-      		SemiMajorAxis     47.171 
-		Eccentricity       0.1257 
-		Inclination       24.370 
-		AscendingNode    297.463 
-		ArgOfPericenter  296.073 
-		MeanAnomaly      272.766 
-   	} 
-
-	Albedo 0.10
-
-	UniformRotation
-	{
-	Period     48.0   # guess
-	}
+	# Make the orbit and label visible
+	Visible true
+	Clickable true
 }
 
-"2004 XR190" "Sol" { 
-
-	Class "asteroid" 
-	Texture "asteroid.jpg" 
-	Radius 320 # "diameter is between 425-850km" 
-
-	InfoURL "http://arxiv.org/abs/astro-ph/0512430"	
-
-	EllipticalOrbit { 
-		Epoch        2453800.5       # 2006 Mar 6 00:00UT
-		Period           434.981 
-		SemiMajorAxis     57.409       
-		Eccentricity       0.111       
-		Inclination       46.735      
-		AscendingNode    252.369 
-		ArgOfPericenter  284.115 
-		MeanAnomaly      268.060 
-	} 
-
-	UniformRotation
+"90482 Orcus:Orcus:2004 DW" "Sol"
+{
+	Class	"asteroid"
+	# Class	"dwarfplanet"
+	Texture	"asteroid.*"
+	Color	[ 0.998 1.000 0.995 ]
+	BlendTexture	true
+	Radius	455
+	OrbitFrame
 	{
-	Period     48.0   # guess
+		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
 	}
+	EllipticalOrbit
+	{
+		Epoch	2454000.0  # 2006 Sept 21 12:00
+		Period	9.3072
+		SemiMajorAxis	940
+		Eccentricity	0.021
+		Inclination	100.2
+		AscendingNode	87.2
+		ArgOfPericenter	305.6
+		MeanAnomaly	321.4
+	}
+	UniformRotation  # to match mutual orbit
+	{
+		Inclination	98.2
+		AscendingNode	83.3
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.23
+	InfoURL	"https://en.wikipedia.org/wiki/90482_Orcus"
 }
 
-# Inner Oort cloud
+"Vanth:90482 Orcus I:Orcus I:S 2005 (90482) 1" "Sol/Orcus"
+{
+	Class	"moon"
+	Texture	"asteroid.*"
+	Color	[ 0.69 0.60 0.51 ]  # reddish; adjusted for albedo
+	BlendTexture	true
+	Radius	221.25
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2454000.0  # 2006 Sept 21 12:00
+		Period	9.3072
+		SemiMajorAxis	8175
+		Eccentricity	0.021
+		Inclination	100.2
+		AscendingNode	87.2
+		ArgOfPericenter	125.6
+		MeanAnomaly	321.4
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.08
+	InfoURL	"https://en.wikipedia.org/wiki/Vanth_(moon)"
+}
 
-"90377 Sedna:Sedna:2003 VB12" "Sol" { 
+# Kiss et al. (2019), Icarus 334, 3
+# "The mass and density of the dwarf planet (225088) 2007 OR10"
+# https://arxiv.org/abs/1903.05439
+# Color indices from Boehnhardt et al. (2014), EMP 114 (1-2), 35
+# "Photometry of Transneptunian Objects for the Herschel Key Program 'TNOs are Cool'"
+"225088 Gonggong:Gonggong:2007 OR10" "Sol"
+{
+	Class	"asteroid"
+	# Class	"dwarfplanet"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.818 0.604 ]
+	BlendTexture	true
+	Radius	615
+	Oblateness	0.03
+	EllipticalOrbit
+	{
+		Epoch	2459000.5  # 2020 May 31
+		Period	554.216220202748
+		SemiMajorAxis	67.47051418678518
+		Eccentricity	0.5004814860780427
+		Inclination	30.6568537182735
+		AscendingNode	336.8538560791695
+		ArgOfPericenter	207.6663020246991
+		MeanAnomaly	106.0196839227434
+	}
+	UniformRotation  # assume coplanarity with satellite orbit
+	{
+		Period	22.40
+		Inclination	63.553
+		AscendingNode	35.972
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.14
+	InfoURL	"https://en.wikipedia.org/wiki/225088_Gonggong"
+}
 
-	Class "asteroid" 
-	Texture "asteroid.jpg" 
-	Color   [ 0.75 0.45 0.35 ] # almost as red as Mars
-	BlendTexture true
-	Radius 850 
+"Xiangliu:225088 Gonggong I:Gonggong I:S 2010 (225088) 1" "Sol/Gonggong"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	50  # dynamical upper limit
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/Gonggong" }
+	}
+	EllipticalOrbit  # prograde solution
+	{
+		Epoch	2457000.0  # 2014 Dec 08 12:00
+		Period	25.22073
+		SemiMajorAxis	24021
+		Eccentricity	0.2908
+		Inclination	83.08
+		AscendingNode	31.99
+		ArgOfPericenter	77.06
+		MeanAnomaly	96.52
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.2
+	InfoURL	"https://en.wikipedia.org/wiki/Xiangliu_(moon)"
+}
 
-	InfoURL "http://www.gps.caltech.edu/~mbrown/sedna/"
+# Notable centaurs
 
-	EllipticalOrbit {
-		Epoch        2453200.5     # 2004 Jul 14 00:00UT 
-		Period         12258.809 
-		SemiMajorAxis    531.658  
-		Eccentricity       0.8574  
-		Inclination       11.930 
-		AscendingNode    144.493 
-		ArgOfPericenter  311.827 
-		MeanAnomaly      357.881 
-	} 
-
-	Albedo 0.05 
-
+# Ortiz et al. (2015), A&A 576, A18
+# "Possible ring material around centaur (2060) Chiron"
+# https://www.aanda.org/articles/aa/abs/2015/04/aa24461-14/aa24461-14.html
+"2060 Chiron:Chiron:1977 UB:95P Chiron" "Sol"
+{
+	Class	"asteroid"
+	# Class	"comet"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.960 0.919 ]
+	BlendTexture	true
+	SemiAxes	[ 100 84 70 ]
+	EllipticalOrbit
+	{
+		Epoch	2457000.5  # 2014 Dec 09
+		Period	50.367656524406
+		SemiMajorAxis	13.63836664794301
+		Eccentricity	0.3820988962489677
+		Inclination	6.93836227190589
+		AscendingNode	209.2780463186957
+		ArgOfPericenter	339.3496505871891
+		MeanAnomaly	134.5261255874151
+	}
 	UniformRotation
 	{
-	Period 10 # (much shorter than previously thought)
+		Period	5.917813
+		Inclination	66
+		AscendingNode	234
 	}
-} 
+	LunarLambert	0.5
+	GeomAlbedo	0.08  # main body
+	Rings  # derived from ring radius, component widths and average gap size
+	{
+		Inner	313
+		Outer	335
+		Texture	"chariklo-rings.*"
+	}
+	InfoURL	"https://en.wikipedia.org/wiki/2060_Chiron"
+}
+
+# Leiva et al. (2017), AJ 154 (4), 159
+# "Size and Shape of Chariklo from Multi-epoch Stellar Occultations"
+# https://iopscience.iop.org/article/10.3847/1538-3881/aa8956
+"10199 Chariklo:Chariklo:1997 CU26" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.903 0.786 ]
+	BlendTexture	true
+	Radius	143  # equatorial
+	Oblateness	0.329
+	EllipticalOrbit
+	{
+		Epoch	2458000.5  # 2017 Sept 04
+		Period	62.934615411961
+		SemiMajorAxis	15.821740368798
+		Eccentricity	0.172090627773
+		Inclination	23.382362400587
+		AscendingNode	300.416187483083
+		ArgOfPericenter	242.895770634609
+		MeanAnomaly	77.670023037241
+	}
+	BodyFrame	{ EquatorJ2000 { } }
+	UniformRotation
+	{
+		Period	7.004
+		Inclination	48.52
+		AscendingNode	241.3
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.038  # main body
+	Rings  # derived from ring radii and average widths by Braga-Ribas et al. (2014)
+	{
+		Inner	387.3
+		Outer	406.5
+		Texture	"chariklo-rings.*"
+	}
+	InfoURL	"https://en.wikipedia.org/wiki/10199_Chariklo"
+}
+
+# Notable trans-Neptunian objects
+
+"15760 Albion:Albion:1992 QB1" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.872 0.798 ]
+	BlendTexture	true
+	Radius	54
+	EllipticalOrbit
+	{
+		Epoch	2458200.5  # 2018 Mar 23
+		Period	288.991711307239
+		SemiMajorAxis	43.710400891912
+		Eccentricity	0.06597077878
+		Inclination	2.186162143948
+		AscendingNode	359.407421030794
+		ArgOfPericenter	0.155188951253
+		MeanAnomaly	32.083132101851
+	}
+	UniformRotation
+	{
+		Period	6  # guess
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.2  # assumed
+	InfoURL	"https://en.wikipedia.org/wiki/15760_Albion"
+}
+
+"19521 Chaos:Chaos:1998 WH24" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.909 0.810 ]
+	BlendTexture	true
+	Radius	300
+	EllipticalOrbit
+	{
+		Epoch	2457000.5  # 2014 Dec 09
+		Period	311.355238689112
+		SemiMajorAxis	45.937284248341
+		Eccentricity	0.107954342926
+		Inclination	12.037508936202
+		AscendingNode	49.989281303915
+		ArgOfPericenter	57.52567525546
+		MeanAnomaly	336.892338216847
+	}
+	UniformRotation
+	{
+		Period	95.64
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.050
+	InfoURL	"https://en.wikipedia.org/wiki/19521_Chaos"
+}
+
+# Fernández-Valenzuela et al. (2019), ApJL 883 (1), L21
+# "The Changing Rotational Light-curve Amplitude of Varuna and Evidence for a Close-in Satellite"
+# https://iopscience.iop.org/article/10.3847/2041-8213/ab40c2
+"20000 Varuna:Varuna:2000 WR106" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.902 0.813 ]
+	BlendTexture	true
+	Radius	502  # long-axis from occultation
+	SemiAxes	[ 1 0.6 0.432 ]  # hydrostatic equilibrium assumed
+	EllipticalOrbit
+	{
+		Epoch	2458600.5  # 2019 Apr 27
+		Period	279.826385408313
+		SemiMajorAxis	42.781266787405
+		Eccentricity	0.054126386935
+		Inclination	17.219680092474
+		AscendingNode	97.369341977692
+		ArgOfPericenter	262.875078141022
+		MeanAnomaly	117.223797711347
+	}
+	UniformRotation
+	{
+		Period	6.343572
+		Inclination	154
+		AscendingNode	143
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.127
+	InfoURL	"https://en.wikipedia.org/wiki/20000_Varuna"
+}
+
+"28978 Ixion:Ixion:2001 KX76" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.910 0.782 ]
+	BlendTexture	true
+	Radius	308.5
+	EllipticalOrbit
+	{
+		Epoch	2458200.5  # 2018 Mar 23
+		Period	250.267192068746
+		SemiMajorAxis	39.712797304978
+		Eccentricity	0.242215549692
+		Inclination	19.580788128563
+		AscendingNode	70.991108341519
+		ArgOfPericenter	298.578486340711
+		MeanAnomaly	284.989387403958
+	}
+	UniformRotation
+	{
+		Period	12.4
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.141
+	InfoURL	"https://en.wikipedia.org/wiki/28978_Ixion"
+}
+
+ReferencePoint "Huya System" "Sol"
+{
+	EllipticalOrbit
+	{
+		Epoch	2458600.5  # 2019 Apr 27
+		Period	251.421969003257
+		SemiMajorAxis	39.834864782384
+		Eccentricity	0.283442833541
+		Inclination	15.470167417658
+		AscendingNode	169.327766003688
+		ArgOfPericenter	68.273717081769
+		MeanAnomaly	5.794887299879
+	}
+	# Make the orbit and label visible
+	Visible true
+	Clickable true
+}
+
+"38628 Huya:Huya:2000 EB173" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.909 0.799 ]
+	BlendTexture	true
+	Radius	203
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Huya System" }
+	}
+	EllipticalOrbit
+	{
+		Period	3.2
+		SemiMajorAxis	220
+		ArgOfPericenter	180
+	}
+	UniformRotation
+	{
+		Period	5.28
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.083
+	InfoURL	"https://en.wikipedia.org/wiki/38628_Huya"
+}
+
+"S 2012 (38628) 1" "Sol/Huya"
+{
+	Class	"moon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.909 0.799 ]  # assume same color as primary
+	BlendTexture	true
+	Radius	106.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Huya System" }
+	}
+	EllipticalOrbit
+	{
+		Period	3.2
+		SemiMajorAxis	1520
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.083
+	InfoURL	"https://en.wikipedia.org/wiki/38628_Huya#Satellite"
+}
+
+ReferencePoint "Lempo-Hiisi" "Sol"
+{
+	EllipticalOrbit
+	{
+		Epoch	2459000.5  # 2020 May 31
+		Period	247.19679115028
+		SemiMajorAxis	39.387318757017
+		Eccentricity	0.22455832984
+		Inclination	8.424461855429
+		AscendingNode	97.009607347932
+		ArgOfPericenter	294.394299538569
+		MeanAnomaly	7.806887967339
+	}
+	# Make the orbit and label visible
+	Visible true
+	Clickable true
+}
+
+"47171 Lempo:Lempo:1999 TC36:1999 TC36 A1" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.82 0.64 ]
+	BlendTexture	true
+	Radius	136
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/Lempo-Hiisi" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453880.0  # 2006 May 24 12:00
+		Period	1.9068
+		SemiMajorAxis	382
+		Eccentricity	0.101
+		Inclination	88.9
+		AscendingNode	330.0
+		ArgOfPericenter	257.7
+		MeanAnomaly	136.7
+	}
+	BodyFrame
+	{
+		EquatorJ2000	{ Center "Sol/Lempo-Hiisi" }
+	}
+	UniformRotation
+	{
+		Period	45.7632
+		Inclination	88.9
+		AscendingNode	330.0
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.079
+	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo"
+}
+
+"Hiisi:47171 Lempo II:Lempo II:S 2007 (47171) 1:1999 TC36 A2" "Sol/Lempo"
+{
+	Class	"asteroid"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.82 0.64 ]
+	BlendTexture	true
+	Radius	125.5
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/Lempo-Hiisi" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453880.0  # 2006 May 24 12:00
+		Period	1.9068
+		SemiMajorAxis	485
+		Eccentricity	0.101
+		Inclination	88.9
+		AscendingNode	330.0
+		ArgOfPericenter	77.7
+		MeanAnomaly	136.7
+	}
+	BodyFrame
+	{
+		EquatorJ2000	{ Center "Sol/Lempo-Hiisi" }
+	}
+	UniformRotation
+	{
+		Period	45.7632
+		Inclination	88.9
+		AscendingNode	330.0
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.079
+	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo#Hiisi"
+}
+
+"Paha:47171 Lempo I:Lempo I:S 2001 (47171) 1:1999 TC36 B" "Sol/Lempo"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.82 0.64 ]
+	BlendTexture	true
+	Radius	66
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/Lempo-Hiisi" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453880.0  # 2006 May 24 12:00
+		Period	50.302
+		SemiMajorAxis	7411
+		Eccentricity	0.2949
+		Inclination	79.3
+		AscendingNode	325.2
+		ArgOfPericenter	326.9
+		MeanAnomaly	349.0
+	}
+	BodyFrame
+	{
+		EquatorJ2000	{ Center "Sol/Lempo-Hiisi" }
+	}
+	UniformRotation
+	{
+		Inclination	79.3
+		AscendingNode	325.2
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.079
+	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo#Paha"
+}
+
+"(55565) 2002 AW197:2002 AW197" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.916 0.822 ]
+	BlendTexture	true
+	Radius	384
+	EllipticalOrbit
+	{
+		Epoch	2457000.5  # 2014 Dec 09
+		Period	327.45458650153
+		SemiMajorAxis	47.50747155598051
+		Eccentricity	0.1299130054972144
+		Inclination	24.33298092458305
+		AscendingNode	297.4107993216403
+		ArgOfPericenter	293.228355614586
+		MeanAnomaly	292.6022119780332
+	}
+	UniformRotation
+	{
+		Period	8.86
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.112
+	InfoURL	"https://en.wikipedia.org/wiki/(55565)_2002_AW197"
+}
+
+# Sizes from Grundy et al. (2019), Icarus 334, 62
+# "Mutual orbit orientations of transneptunian binaries"
+"120347 Salacia:Salacia:2004 SB60" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.990 0.988 ]
+	BlendTexture	true
+	Radius	423
+	EllipticalOrbit
+	{
+		Epoch	2458600.5  # 2019 Apr 27
+		Period	272.746950367937
+		SemiMajorAxis	42.056629776848
+		Eccentricity	0.108461545461
+		Inclination	23.921526737521
+		AscendingNode	279.893292403391
+		ArgOfPericenter	310.976065097087
+		MeanAnomaly	122.990298098042
+	}
+	UniformRotation  # assume coplanarity with satellite orbit
+	{
+		Period	6.5
+		Inclination	18.0
+		AscendingNode	110.4
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.044
+	InfoURL	"https://en.wikipedia.org/wiki/120347_Salacia"
+}
+
+"Actaea:120347 Salacia I:Salacia I:S 2006 (120347) 1" "Sol/Salacia"
+{
+	Class	"moon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.990 0.988 ]  # assume same color as primary
+	BlendTexture	true
+	Radius	142
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/Salacia" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2454300.0  # 2007 Jul 18 12:00
+		Period	5.4938
+		SemiMajorAxis	5709
+		Eccentricity	0.005
+		Inclination	23.7
+		AscendingNode	46.1
+		ArgOfPericenter	43.2
+		MeanAnomaly	214.5
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.044
+	InfoURL	"https://en.wikipedia.org/wiki/Actaea_(moon)"
+}
+
+# Souami et al. (2020), eprint arXiv:2008.04818
+# "A multi-chord stellar occultation by the large trans-Neptunian object (174567) Varda"
+# https://arxiv.org/abs/2008.04818
+ReferencePoint "Varda-Ilmare" "Sol"
+{
+	EllipticalOrbit
+	{
+		Epoch	2458600.5  # 2019 Apr 27
+		Period	313.172905368821
+		SemiMajorAxis	46.115896173605
+		Eccentricity	0.141526560086
+		Inclination	21.504104172455
+		AscendingNode	184.054354566194
+		ArgOfPericenter	180.060322195174
+		MeanAnomaly	273.863817291683
+	}
+	# Make the orbit and label visible
+	Visible true
+	Clickable true
+}
+
+"174567 Varda:Varda:2003 MW12" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.929 0.842 ]
+	BlendTexture	true
+	Radius	381  # equatorial
+	Oblateness	0.043
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/Varda-Ilmare" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2455300.0  # 2010 Apr 13 12:00
+		Period	5.7503
+		SemiMajorAxis	474
+		Eccentricity	0.021
+		Inclination	103.8
+		AscendingNode	5.2
+		ArgOfPericenter	106.1
+		MeanAnomaly	167.3
+	}
+	UniformRotation  # to match mutual orbit
+	{
+		Period	5.91
+		Inclination	80.5
+		AscendingNode	5.1
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.097
+	InfoURL	"https://en.wikipedia.org/wiki/174567_Varda"
+}
+
+"Ilmare:174567 Varda I:Varda I:S 2009 (174567) 1" "Sol/Varda"
+{
+	Class	"moon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.941 0.875 0.793 ]  # assume same color as primary; adjusted for albedo
+	BlendTexture	true
+	Radius	178
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/Varda-Ilmare" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2455300.0  # 2010 Apr 13 12:00
+		Period	5.7503
+		SemiMajorAxis	4363
+		Eccentricity	0.021
+		Inclination	103.8
+		AscendingNode	5.2
+		ArgOfPericenter	286.1
+		MeanAnomaly	167.3
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.085
+	InfoURL	"https://en.wikipedia.org/wiki/Ilmar%C3%AB_(moon)"
+}
+
+# Size from Ortiz et al. (2019), eprint arXiv:1905.04335
+# "Stellar Occultations by Transneptunian objects: from Predictions to Observations
+# and Prospects for the Future"
+# https://arxiv.org/abs/1905.04335
+# Secondary size calculated from radius ratio in Grundy et al. (2019), Icarus 334, 30
+"229762 G!kun||'homdima:G!kun||'homdima:2007 UK126" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	SemiAxes	[ 339 339 305.7 ]
+	EllipticalOrbit
+	{
+		Epoch	2458600.5  # 2019 Apr 27
+		Period	620.170586943397
+		SemiMajorAxis	72.722473453493
+		Eccentricity	0.484308985566
+		Inclination	23.377937957267
+		AscendingNode	131.094164373881
+		ArgOfPericenter	346.87585252865
+		MeanAnomaly	344.208559857227
+	}
+	UniformRotation
+	{
+		Period	11.05
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.142
+	InfoURL	"https://en.wikipedia.org/wiki/229762_G%C7%83k%C3%BAn%C7%81%CA%BCh%C3%B2md%C3%ADm%C3%A0"
+}
+
+"G!o'e !Hu:229762 G!kun||'homdima I:G!kun||'homdima I:S 2008 (229762) 1" "Sol/G!kun||'homdima"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 1.00 0.88 0.75 ]  # reddish
+	BlendTexture	true
+	Radius	72
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/G!kun||'homdima" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2457000.0  # 2014 Dec 08 12:00
+		Period	11.3147
+		SemiMajorAxis	6012
+		Eccentricity	0.025
+		Inclination	43.7
+		AscendingNode	110.9
+		ArgOfPericenter	340.4
+		MeanAnomaly	252.9
+	}
+	UniformRotation  # to match orbit plane
+	{
+		Inclination	55.6
+		AscendingNode	128.5
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.142
+	InfoURL	"https://en.wikipedia.org/wiki/229762_G%C7%83k%C3%BAn%C7%81%CA%BCh%C3%B2md%C3%ADm%C3%A0#Satellite"
+}
+
+"471143 Dziewanna:Dziewanna:2010 EK139" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Radius	235
+	EllipticalOrbit
+	{
+		Epoch	2458600.5  # 2019 Apr 27
+		Period	592.690238887424
+		SemiMajorAxis	70.558019446608
+		Eccentricity	0.539041175938
+		Inclination	29.461007837273
+		AscendingNode	346.212834481045
+		ArgOfPericenter	284.36092112018
+		MeanAnomaly	348.21494174118
+	}
+	UniformRotation
+	{
+		Period	7.07
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.25
+	InfoURL	"https://en.wikipedia.org/wiki/471143_Dziewanna"
+}
+
+"486958 Arrokoth:Arrokoth:2014 MU69:Ultima Thule:1110113Y:PT1" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"arrokoth.cmod"
+	Orientation	[ -50 0 1 0 ]
+	Texture	"arrokoth.*"
+	Radius	18  # maximum semi-axis
+	EllipticalOrbit
+	{
+		Epoch	2458484.5  # 2019 Jan 01 (New Horizons encounter)
+		Period	297.371052339075
+		SemiMajorAxis	44.55129423264393
+		Eccentricity	0.04097873475827028
+		Inclination	2.451769758298457
+		AscendingNode	158.9786644650622
+		ArgOfPericenter	174.6720281547497
+		MeanAnomaly	315.8844151813905
+	}
+	UniformRotation
+	{
+		Period	15.938
+		Inclination	98.18711913
+		AscendingNode	42.5072541
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.165
+	BondAlbedo	0.061
+	InfoURL	"https://en.wikipedia.org/wiki/486958_Arrokoth"
+}
+
+"2004 XR190" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 1.000 0.971 0.919 ]
+	BlendTexture	true
+	Radius	290
+	EllipticalOrbit
+	{
+		Epoch	2457000.5  # 2014 Dec 09
+		Period	438.44713749626
+		SemiMajorAxis	57.71287256830396
+		Eccentricity	0.1094918923387402
+		Inclination	46.59497186792814
+		AscendingNode	252.3628385298381
+		ArgOfPericenter	281.6361935007498
+		MeanAnomaly	277.636302515104
+	}
+	UniformRotation
+	{
+		Period	6  # guess
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.09  # assumed
+	InfoURL	"https://en.wikipedia.org/wiki/2004_XR190"
+}
