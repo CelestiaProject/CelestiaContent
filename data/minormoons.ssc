@@ -1767,6 +1767,36 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Eirene_(moon)"
 }
 
+"S 2003 J 24" "Sol/Jupiter"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	1.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2459600.5  # 2022 Jan 21
+		Period	716.71
+		SemiMajorAxis	23088000
+		Eccentricity	0.2544888
+		Inclination	162.10541
+		AscendingNode	292.24546
+		ArgOfPericenter	194.55878
+		MeanAnomaly	152.20189
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2003_J_24"
+}
+
 "Sinope:Jupiter IX" "Sol/Jupiter"
 {
 	Class	"minormoon"
@@ -2829,6 +2859,36 @@
 	LunarLambert	0.5
 	GeomAlbedo	1.67
 	InfoURL	"https://en.wikipedia.org/wiki/Helene_(moon)"
+}
+
+"S 2019 S 1" "Sol/Saturn"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Radius	2.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2459600.5  # 2022 Jan 21
+		Period	443.78
+		SemiMajorAxis	11221100
+		Eccentricity	0.6229181
+		Inclination	44.37877
+		AscendingNode	159.52422
+		ArgOfPericenter	106.16901
+		MeanAnomaly	66.33288
+	}
+	UniformRotation
+	{
+		Period	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/S/2019_S_1"
 }
 
 "Kiviuq:Saturn XXIV:S 2000 S 5" "Sol/Saturn"
