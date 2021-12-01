@@ -1,8 +1,9 @@
-celestiacontent (1.7.0~git20200306+59e133f+0) UNRELEASED; urgency=medium
+celestiacontent (1.7.0~git20211202+668347e9+0) bionic; urgency=medium
 
   * New snapshot build
+  * Install translations for celestia-data.
 
- -- Hleb Valoshka <375gnu@gmail.com>  Fri, 06 Mar 2020 18:47:48 +0300
+ -- Hleb Valoshka <375gnu@gmail.com>  Thu, 02 Dec 2021 11:09:22 +0200
 
 celestia (1.6.1+dfsg-3.1) unstable; urgency=low
 
