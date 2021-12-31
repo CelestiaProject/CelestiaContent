@@ -19,7 +19,7 @@ Scientific Data Base
     Asterisms.dat
 
 # Andrew Tribick
-    Significant update of the star database based on Gaia DR2 data
+    Significant update of the star database based on Gaia EDR3 data
     (see: https://github.com/ajtribick/celestia-gaia-stardb);
     licensed under CC-BY-SA 4.0.
 
@@ -29,6 +29,9 @@ Scientific Data Base
 
 # LukeCEL
     Complete update of nearstars.stc
+
+# Thomas Tarrants (Sirius_Alpha)
+    Updated exoplanet catalogue (extrasolar.stc, extrasolar.ssc)
 
 Texture maps
 ------------
