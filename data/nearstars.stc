@@ -1775,7 +1775,7 @@ Barycenter 94761 "Gliese 752:Ross 652:Wolf 1055" # orbit of A & B unknown
 	Distance 19.2810 # 169.1590 +/- 0.0520 mas
 }
 
-"V1428 Aql:Gliese 752 A:Ross 652 A:Wolf 1055 A"
+"V1428 Aql:Gliese 752 A:Ross 652 A:Wolf 1055 A:HD 180617 A"
 {
 	RA 289.23023552
 	Dec 5.16889968
@@ -1786,7 +1786,7 @@ Barycenter 94761 "Gliese 752:Ross 652:Wolf 1055" # orbit of A & B unknown
 	RotationPeriod 1105
 }
 
-"Van Biesbroeck's Star:V1298 Aql:Gliese 752 B:Ross 652 B:Wolf 1055 B:VB 10"
+"Van Biesbroeck's Star:V1298 Aql:Gliese 752 B:Ross 652 B:Wolf 1055 B:VB 10:HD 180617 B"
 {
 	RA 289.242917
 	Dec 5.150278
