@@ -1,4 +1,4 @@
-# This .ssc file was created by Thomas Tarrants on 31/12/2021. You can contact me for any reason at
+# This .ssc file was created by Thomas Tarrants on 1/1/2022. You can contact me for any reason at
 # e-mail: twtarrants@gmail.com 	 facebook: https://www.facebook.com/thomas.tarrants
 # 
 # In cases where a transiting planet's radius has not been explicitly stated, it has been estimated from
@@ -20134,7 +20134,7 @@
 	InfoURL "http://arxiv.org/abs/1005.2860v1"
 }
 
-"HD 180617 Ab:Gliese 758 Ab:b" "HD 180617 A"
+"HD 180617 Ab:Gliese 752 Ab:b" "HD 180617 A"
 {
 	Class "planet"
 	Texture "venuslike.*"
@@ -35954,7 +35954,7 @@
 	InfoURL "http://arxiv.org/abs/1802.05277"
 }
 
-"K2-222 b:EPIC 220709978.01:b" "K2-222"
+"K2-222 b:EPIC 220709978.01:TOI-4648.01:b" "K2-222"
 {
 	Class "planet"
 	Texture "venuslike.*"
