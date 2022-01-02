@@ -1,6 +1,6 @@
 # Revisions to stars listed in Celestia distribution stars.dat
 #
-# These consist of improvements or revisions to the Gaia DR2+XHIP
+# These consist of improvements or revisions to the Gaia EDR3+XHIP
 # data from which stars.dat was prepared, and additional data
 # for some bright star systems.
 # Commonly used sources are listed below, and other sources are 
@@ -350,11 +350,6 @@ Modify 86986 # Spectral class from SIMBAD, replacing "B0"
 	SpectralType "sdO"
 }
 
-Modify 87946 # Spectral class from SIMBAD, replacing "M4.VI"
-{
-	SpectralType "A2V"
-}
-
 Modify 88267 # 95 Her: Spectral class from SIMBAD; replaces "A2V"
 {
 	SpectralType "A5III"
@@ -386,11 +381,7 @@ Modify 95071 # Improved spectral class from McCook & Sion
 }
 
 Modify 97629 # Chi Cyg: Spectral class from SIMBAD; replaces "K0III"
-             # Distance from Whitelock et al. (2008), MNRAS 386 (1), 313
-             # "AGB variables and the Mira period–luminosity relation"
-             # https://arxiv.org/abs/0801.4465
 {
-	Distance 550 # 170 pc
 	AppMag 4.24
 	SpectralType "S6"
 }
@@ -510,4 +501,13 @@ Modify 114995 # V628 Cas: spectral class from SIMBAD, replacing "M1"
 Modify 117059 # Improved spectral class from McCook & Sion
 {
 	SpectralType "DA4"
+}
+
+1028098626 # Eta Car - data from SIMBAD
+{
+	RA 161.2647742
+	Dec -59.6844309
+	Distance 7500 # 2.3 kpc
+	AppMag 6.48
+	SpectralType "OBepec"
 }
