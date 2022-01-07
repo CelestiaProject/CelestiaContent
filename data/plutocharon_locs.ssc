@@ -1,0 +1,470 @@
+# 66 locations on Pluto and Charon.
+# SSC-file author: CLM tool by Askaniy (https://github.com/Askaniy/CelestiaLocationsMaker)
+
+
+# 52 locations on Pluto.
+
+Location "Adlivun Cavus" "Sol/Pluto"
+{
+	LongLat	[ 188.86 -15.4 0 ]
+	Size	21.4
+	Type	"CB"
+}
+
+Location "Alcyonia Lacus" "Sol/Pluto"
+{
+	LongLat	[ 151.95 36.44 0 ]
+	Size	30
+	Type	"LC"
+}
+
+Location "Al-Idrisi Montes" "Sol/Pluto"
+{
+	LongLat	[ 156.01 33.99 0 ]
+	Size	383
+	Type	"MO"
+}
+
+Location "Baret Montes" "Sol/Pluto"
+{
+	LongLat	[ 157.8 14.6 0 ]
+	Size	170.39
+	Type	"MO"
+}
+
+Location "Beatrice Fossa" "Sol/Pluto"
+{
+	LongLat	[ 129.26 0.19 0 ]
+	Size	382
+	Type	"FO"
+}
+
+Location "Burney" "Sol/Pluto"
+{
+	LongLat	[ 133.79 45.68 0 ]
+	Size	296
+	Type	"AA"
+}
+
+Location "Coleman Mons" "Sol/Pluto"
+{
+	LongLat	[ 167.98 -24.17 0 ]
+	Size	32
+	Type	"MO"
+}
+
+Location "Coughlin" "Sol/Pluto"
+{
+	LongLat	[ 150.54 15.24 0 ]
+	Size	45
+	Type	"AA"
+}
+
+Location "Djanggawul Fossae" "Sol/Pluto"
+{
+	LongLat	[ 84.31 41 0 ]
+	Size	585
+	Type	"FO"
+}
+
+Location "Dumuzi Fossa" "Sol/Pluto"
+{
+	LongLat	[ 127.9 30.56 0 ]
+	Size	619
+	Type	"FO"
+}
+
+Location "Edgeworth" "Sol/Pluto"
+{
+	LongLat	[ 109.42 6.86 0 ]
+	Size	149
+	Type	"AA"
+}
+
+Location "Elcano Montes" "Sol/Pluto"
+{
+	LongLat	[ 143.7 -26.04 0 ]
+	Size	488
+	Type	"MO"
+}
+
+Location "Elliot" "Sol/Pluto"
+{
+	LongLat	[ 138.86 12.04 0 ]
+	Size	96
+	Type	"AA"
+}
+
+Location "Hardaway" "Sol/Pluto"
+{
+	LongLat	[ 140.97 46.85 0 ]
+	Size	11.07
+	Type	"AA"
+}
+
+Location "Hardie" "Sol/Pluto"
+{
+	LongLat	[ 141.58 23.82 0 ]
+	Size	25
+	Type	"AA"
+}
+
+Location "HAYABUSA TERRA" "Sol/Pluto"
+{
+	LongLat	[ 229.88 46.07 0 ]
+	Size	1115
+	Type	"TA"
+}
+
+Location "Hekla Cavus" "Sol/Pluto"
+{
+	LongLat	[ 154.66 6.86 0 ]
+	Size	98.41
+	Type	"CB"
+}
+
+Location "Hermod Fossae" "Sol/Pluto"
+{
+	LongLat	[ 119.34 -8.63 0 ]
+	Size	592
+	Type	"FO"
+}
+
+Location "Hillary Montes" "Sol/Pluto"
+{
+	LongLat	[ 169.58 3.26 0 ]
+	Size	388
+	Type	"MO"
+}
+
+Location "Hunahpu Valles" "Sol/Pluto"
+{
+	LongLat	[ 154.41 49.09 0 ]
+	Size	295
+	Type	"VA"
+}
+
+Location "Hyecho Palus" "Sol/Pluto"
+{
+	LongLat	[ 167.44 -17.43 0 ]
+	Size	322.56
+	Type	"PA"
+}
+
+Location "Inanna Fossa" "Sol/Pluto"
+{
+	LongLat	[ 129.29 33.05 0 ]
+	Size	613
+	Type	"FO"
+}
+
+Location "Kaknú Fossa" "Sol/Pluto"
+{
+	LongLat	[ 122.07 -30.45 0 ]
+	Size	249
+	Type	"FO"
+}
+
+Location "Khare" "Sol/Pluto"
+{
+	LongLat	[ 94.56 27.85 0 ]
+	Size	58
+	Type	"AA"
+}
+
+Location "Kiladze" "Sol/Pluto"
+{
+	LongLat	[ 212.92 28.39 0 ]
+	Size	44.42
+	Type	"AA"
+}
+
+Location "LOWELL REGIO" "Sol/Pluto"
+{
+	LongLat	[ 338 86 0 ]
+	Size	1215
+	Type	"RE"
+}
+
+Location "Lunokhod Planitia" "Sol/Pluto"
+{
+	LongLat	[ 109.57 30.75 0 ]
+	Size	557
+	Type	"PL"
+}
+
+Location "Mwindo Fossae" "Sol/Pluto"
+{
+	LongLat	[ 245.78 34.74 0 ]
+	Size	406
+	Type	"FO"
+}
+
+Location "Oort" "Sol/Pluto"
+{
+	LongLat	[ 92.05 7.86 0 ]
+	Size	123
+	Type	"AA"
+}
+
+Location "Piccard Mons" "Sol/Pluto"
+{
+	LongLat	[ 176.79 -35.26 0 ]
+	Size	257
+	Type	"MO"
+}
+
+Location "Pigafetta Montes" "Sol/Pluto"
+{
+	LongLat	[ 146.44 -6.83 0 ]
+	Size	234
+	Type	"MO"
+}
+
+Location "PIONEER TERRA" "Sol/Pluto"
+{
+	LongLat	[ 192.4 56.58 0 ]
+	Size	598
+	Type	"TA"
+}
+
+Location "Piri Rupes" "Sol/Pluto"
+{
+	LongLat	[ 108.9 27.13 0 ]
+	Size	549
+	Type	"RU"
+}
+
+Location "Pulfrich" "Sol/Pluto"
+{
+	LongLat	[ 135.99 77.8 0 ]
+	Size	37.7
+	Type	"AA"
+}
+
+Location "Ranger Planitia" "Sol/Pluto"
+{
+	LongLat	[ 127.91 20.89 0 ]
+	Size	370.59
+	Type	"PL"
+}
+
+Location "Ride Rupes" "Sol/Pluto"
+{
+	LongLat	[ 163.19 -19.66 0 ]
+	Size	235
+	Type	"RU"
+}
+
+Location "Simonelli" "Sol/Pluto"
+{
+	LongLat	[ 314.76 12.79 0 ]
+	Size	286
+	Type	"AA"
+}
+
+Location "Sleipnir Fossa" "Sol/Pluto"
+{
+	LongLat	[ 234.51 23.7 0 ]
+	Size	508
+	Type	"FO"
+}
+
+Location "Sputnik Planitia" "Sol/Pluto"
+{
+	LongLat	[ 178.69 19.51 0 ]
+	Size	1492
+	Type	"PL"
+}
+
+Location "Tabei Montes" "Sol/Pluto"
+{
+	LongLat	[ 164.33 -11.73 0 ]
+	Size	105
+	Type	"MO"
+}
+
+Location "Tartarus Dorsa" "Sol/Pluto"
+{
+	LongLat	[ 233.09 8.5 0 ]
+	Size	850
+	Type	"DO"
+}
+
+Location "Tenzing Montes" "Sol/Pluto"
+{
+	LongLat	[ 177.38 -15.61 0 ]
+	Size	283
+	Type	"MO"
+}
+
+Location "TOMBAUGH REGIO" "Sol/Pluto"
+{
+	LongLat	[ 183.22 7.62 0 ]
+	Size	2300
+	Type	"RE"
+}
+
+Location "Uncama Fossa" "Sol/Pluto"
+{
+	LongLat	[ 142.62 23.96 0 ]
+	Size	227
+	Type	"FO"
+}
+
+Location "VEGA TERRA" "Sol/Pluto"
+{
+	LongLat	[ 85.49 33.96 0 ]
+	Size	1614
+	Type	"TA"
+}
+
+Location "VENERA TERRA" "Sol/Pluto"
+{
+	LongLat	[ 117.62 56.89 0 ]
+	Size	742
+	Type	"TA"
+}
+
+Location "VIKING TERRA" "Sol/Pluto"
+{
+	LongLat	[ 150.97 12.34 0 ]
+	Size	1171
+	Type	"TA"
+}
+
+Location "Virgil Fossae" "Sol/Pluto"
+{
+	LongLat	[ 122.76 5.23 0 ]
+	Size	710
+	Type	"FO"
+}
+
+Location "VOYAGER TERRA" "Sol/Pluto"
+{
+	LongLat	[ 153.52 60.08 0 ]
+	Size	843
+	Type	"TA"
+}
+
+Location "Wright Mons" "Sol/Pluto"
+{
+	LongLat	[ 173.24 -21.36 0 ]
+	Size	165
+	Type	"MO"
+}
+
+Location "Zagar" "Sol/Pluto"
+{
+	LongLat	[ 155.23 -5.74 0 ]
+	Size	93
+	Type	"AA"
+}
+
+Location "Zheng He Montes" "Sol/Pluto"
+{
+	LongLat	[ 160.57 19.01 0 ]
+	Size	101
+	Type	"MO"
+}
+
+
+# 14 locations on Charon.
+
+Location "Argo Chasma" "Sol/Pluto/Charon"
+{
+	LongLat	[ 80.4 27.8 0 ]
+	Size	355
+	Type	"CM"
+}
+
+Location "Butler Mons" "Sol/Pluto/Charon"
+{
+	LongLat	[ 38.74 -9.48 0 ]
+	Size	90.6
+	Type	"MO"
+}
+
+Location "Caleuche Chasma" "Sol/Pluto/Charon"
+{
+	LongLat	[ 241.8 72.5 0 ]
+	Size	400
+	Type	"CM"
+}
+
+Location "Clarke Montes" "Sol/Pluto/Charon"
+{
+	LongLat	[ 7.05 -5.12 0 ]
+	Size	74.6
+	Type	"MO"
+}
+
+Location "Cora" "Sol/Pluto/Charon"
+{
+	LongLat	[ 351.72 17.09 0 ]
+	Size	9
+	Type	"AA"
+}
+
+Location "Dorothy" "Sol/Pluto/Charon"
+{
+	LongLat	[ 40.58 58.53 0 ]
+	Size	261
+	Type	"AA"
+}
+
+Location "Kubrick Mons" "Sol/Pluto/Charon"
+{
+	LongLat	[ 30.8 3.6 0 ]
+	Size	40
+	Type	"MO"
+}
+
+Location "Mandjet Chasma" "Sol/Pluto/Charon"
+{
+	LongLat	[ 294.4 4.8 0 ]
+	Size	385
+	Type	"CM"
+}
+
+Location "McCaffrey Dorsum" "Sol/Pluto/Charon"
+{
+	LongLat	[ 294.89 74.28 0 ]
+	Size	420
+	Type	"DO"
+}
+
+Location "Nasreddin" "Sol/Pluto/Charon"
+{
+	LongLat	[ 308.6 25.5 0 ]
+	Size	29.7
+	Type	"AA"
+}
+
+Location "Nemo" "Sol/Pluto/Charon"
+{
+	LongLat	[ 314.1 -15.7 0 ]
+	Size	44
+	Type	"AA"
+}
+
+Location "Pirx" "Sol/Pluto/Charon"
+{
+	LongLat	[ 256.3 55.2 0 ]
+	Size	90
+	Type	"AA"
+}
+
+Location "Revati" "Sol/Pluto/Charon"
+{
+	LongLat	[ 35.4 20.7 0 ]
+	Size	40
+	Type	"AA"
+}
+
+Location "Sadko" "Sol/Pluto/Charon"
+{
+	LongLat	[ 331.2 -16.1 0 ]
+	Size	28
+	Type	"AA"
+}
