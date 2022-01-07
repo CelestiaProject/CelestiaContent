@@ -1,126 +1,162 @@
-Location "Kepler Dorsum" "Sol/Mars/Phobos"
-{
-    LongLat [ -30 -30 0 ]
-    Size 3
-    Type "DO"
-}
+# 22 locations on Phobos and Deimos.
+# SSC-file author: CLM tool by Askaniy (https://github.com/Askaniy/CelestiaLocationsMaker)
+
+
+# 20 locations on Phobos.
 
 Location "Clustril" "Sol/Mars/Phobos"
 {
-    LongLat [ -91 60 0 ]
-    Size 3.4
-    Type "AA"
+	LongLat	[ 269 60 0 ]
+	Size	3.4
+	Type	"AA"
 }
 
 Location "D'Arrest" "Sol/Mars/Phobos"
 {
-    LongLat [ -179 -39 0 ]
-    Size 2.1
-    Type "AA"
+	LongLat	[ 181 -39 0 ]
+	Size	2.1
+	Type	"AA"
 }
 
 Location "Drunlo" "Sol/Mars/Phobos"
 {
-    LongLat [ -92 36.5 0 ]
-    Size 4.2
-    Type "AA"
+	LongLat	[ 268 36.5 0 ]
+	Size	4.2
+	Type	"AA"
 }
 
 Location "Flimnap" "Sol/Mars/Phobos"
 {
-    LongLat [ -350 60 0 ]
-    Size 1.5
-    Type "AA"
+	LongLat	[ 10 60 0 ]
+	Size	1.5
+	Type	"AA"
 }
 
 Location "Grildrig" "Sol/Mars/Phobos"
 {
-    LongLat [ -195 81 0 ]
-    Size 2.6
-    Type "AA"
+	LongLat	[ 165 81 0 ]
+	Size	2.6
+	Type	"AA"
 }
 
 Location "Gulliver" "Sol/Mars/Phobos"
 {
-    LongLat [ -163 62 0 ]
-    Size 5.5
-    Type "AA"
+	LongLat	[ 197 62 0 ]
+	Size	5.5
+	Type	"AA"
 }
 
 Location "Hall" "Sol/Mars/Phobos"
 {
-    LongLat [ -210 -80 0 ]
-    Size 5.4
-    Type "AA"
+	LongLat	[ 150 -80 0 ]
+	Size	5.4
+	Type	"AA"
+}
+
+Location "Kepler Dorsum" "Sol/Mars/Phobos"
+{
+	LongLat	[ 4 -45 0 ]
+	Size	15
+	Type	"DO"
+}
+
+Location "Lagado Planitia" "Sol/Mars/Phobos"
+{
+	LongLat	[ 129 19 0 ]
+	Size	4
+	Type	"PL"
+}
+
+Location "LAPUTA REGIO" "Sol/Mars/Phobos"
+{
+	LongLat	[ 95 0 0 ]
+	Size	14
+	Type	"RE"
 }
 
 Location "Limtoc" "Sol/Mars/Phobos"
 {
-    LongLat [ -54 -11 0 ]
-    Size 2.0
-    Type "AA"
+	LongLat	[ 306 -11 0 ]
+	Size	2
+	Type	"AA"
+}
+
+Location "Öpik" "Sol/Mars/Phobos"
+{
+	LongLat	[ 63 -7 0 ]
+	Size	2
+	Type	"AA"
 }
 
 Location "Reldresal" "Sol/Mars/Phobos"
 {
-    LongLat [ -39 41 0 ]
-    Size 2.9
-    Type "AA"
+	LongLat	[ 321 41 0 ]
+	Size	2.9
+	Type	"AA"
 }
 
 Location "Roche" "Sol/Mars/Phobos"
 {
-    LongLat [ -183 53 0 ]
-    Size 2.3
-    Type "AA"
+	LongLat	[ 177 53 0 ]
+	Size	2.3
+	Type	"AA"
 }
 
 Location "Sharpless" "Sol/Mars/Phobos"
 {
-    LongLat [ -154 -27.5 0 ]
-    Size 1.8
-    Type "AA"
+	LongLat	[ 206 -27.5 0 ]
+	Size	1.8
+	Type	"AA"
+}
+
+Location "Shklovsky" "Sol/Mars/Phobos"
+{
+	LongLat	[ 112 24 0 ]
+	Size	2
+	Type	"AA"
 }
 
 Location "Skyresh" "Sol/Mars/Phobos"
 {
-    LongLat [ -320 52.5 0 ]
-    Size 1.5
-    Type "AA"
+	LongLat	[ 40 52.5 0 ]
+	Size	1.5
+	Type	"AA"
 }
 
 Location "Stickney" "Sol/Mars/Phobos"
 {
-    LongLat [ -49 1 0 ]
-    Size 9.0
-    Type "AA"
+	LongLat	[ 311 1 0 ]
+	Size	9
+	Type	"AA"
 }
 
 Location "Todd" "Sol/Mars/Phobos"
 {
-    LongLat [ -153 -9 0 ]
-    Size 2.6
-    Type "AA"
+	LongLat	[ 207 -9 0 ]
+	Size	2.6
+	Type	"AA"
 }
 
 Location "Wendell" "Sol/Mars/Phobos"
 {
-    LongLat [ -132 -1 0 ]
-    Size 1.7
-    Type "AA"
+	LongLat	[ 228 -1 0 ]
+	Size	1.7
+	Type	"AA"
 }
+
+
+# 2 locations on Deimos.
 
 Location "Swift" "Sol/Mars/Deimos"
 {
-    LongLat [ -358 14 0 ]
-    Size 1.5
-    Type "AA"
+	LongLat	[ 1.8 12.5 0 ]
+	Size	1
+	Type	"AA"
 }
 
 Location "Voltaire" "Sol/Mars/Deimos"
 {
-    LongLat [ -2 23 0 ]
-    Size 3
-    Type "AA"
+	LongLat	[ 356.5 22 0 ]
+	Size	1.9
+	Type	"AA"
 }
-
