@@ -11,6 +11,22 @@ Architecture: all
 Conflicts: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
 Replaces: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
 Recommends: celestia
+Depends: ${misc:Depends}, celestia-textures-medres | celestia-textures-hires | celestia-textures-lores
+Pre-Depends: celestia-tools
+Description: data files for Celestia, a real-time visual space simulation
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This package installs the data files for Celestia.
+
+Package: celestia-textures-medres
+Architecture: all
+Conflicts: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
+Replaces: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
+Recommends: celestia
 Depends: ${misc:Depends}
 Pre-Depends: celestia-tools
 Description: data files for Celestia, a real-time visual space simulation
@@ -20,4 +36,36 @@ Description: data files for Celestia, a real-time visual space simulation
  OpenGL. Unlike most planetarium software, the user is free to travel
  about the Universe.
  .
- This package contains the data files for Celestia.
+ This package contains the medium resolution textures for Celestia.
+
+Package: celestia-textures-hires
+Architecture: all
+Conflicts: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
+Replaces: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
+Recommends: celestia
+Depends: ${misc:Depends}
+Pre-Depends: celestia-tools
+Description: data files for Celestia, a real-time visual space simulation
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This package contains the high resolution textures for Celestia.
+
+Package: celestia-textures-lores
+Architecture: all
+Conflicts: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
+Replaces: celestia (<< 1.4.1), celestia-common (<< 1.7.0~), celestia-common-nonfree (<< 1.7.0~)
+Recommends: celestia
+Depends: ${misc:Depends}
+Pre-Depends: celestia-tools
+Description: data files for Celestia, a real-time visual space simulation
+ Celestia is a free 3D astronomy program. Based on the Hipparcos
+ Catalogue, it allows users to display objects ranging in scale from
+ artificial satellites to entire galaxies in three dimensions using
+ OpenGL. Unlike most planetarium software, the user is free to travel
+ about the Universe.
+ .
+ This package contains the low resolution textures for Celestia.

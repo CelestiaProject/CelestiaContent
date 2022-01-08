@@ -13,7 +13,7 @@ EOF
 
 test -d debian || usage
 
-VERSION="1.7.0"
+VERSION="1:1.0"
 DATE=$(date +"%Y%m%d")
 COMMIT=$(git log --pretty=format:"%h" -1)
 test -n "${RELEASE}" || RELEASE=0
