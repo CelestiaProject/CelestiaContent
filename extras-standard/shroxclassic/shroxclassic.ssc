@@ -1,47 +1,377 @@
 # Gemini and Mercury models created by Shrox -- http://www.shrox.com/
 
-"Gemini" "Sol/Earth"
-{
-	Class "spacecraft"
-	Mesh "gemini.3ds"
-	Radius 0.0075
-
-	# Data for Gemini VII mission.  Only the SMA, inclination, and period
-	# are approximately correct.
-	EllipticalOrbit
-	{
-		Period            0.06686
-		SemiMajorAxis  6705
-		Eccentricity      0
-		Inclination      28.89
-		AscendingNode   133
-		ArgOfPericenter  96
-		MeanAnomaly       8
-	}
-
-	Albedo 	      0.10
-}
-
-"Friendship 7" "Sol/Earth"
+"Friendship 7:Mercury-Atlas 6:MA-6" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "mercury7.3ds"
 	Radius 0.003
 
-	# I'm missing good orbital data for this mission.  The period,
-	# inclination, and SMA are correct.
-	#
-	# Launched Feb 20, 1962, 9:47:49am EST
+	Beginning	"1962 02 20 14:47:39"
+	Ending	"1962 02 20 19:43:02"
+
 	EllipticalOrbit
 	{
-		Period            0.06144
-		SemiMajorAxis  6587 # perigee 100 miles, apogee 160 miles
-		Eccentricity      0.00737
-		Inclination      32.54
-		AscendingNode   329
-		ArgOfPericenter  96
-		MeanAnomaly     287
+		Epoch			2437716.120428
+		Period		      0.06163432875274006
+		SemiMajorAxis	   6591.017982
+		Eccentricity	      0.00895884
+		Inclination	     32.3145
+		AscendingNode	    233.246
+		ArgOfPericenter	     70.56
+		MeanAnomaly	      2.552
 	}
 
 	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Mercury-Atlas_6"
+}
+
+"Aurora 7:Mercury-Atlas 7:MA-7" "Sol/Earth"
+{
+	Class "spacecraft"
+	Mesh "mercury7.3ds"
+	Radius 0.003
+
+	Beginning	"1962 05 24 12:45:16"
+	Ending	"1962 05 24 17:41:21"
+
+	EllipticalOrbit
+	{
+		Epoch			2437809.035472
+		Period		      0.06164664756502034
+		SemiMajorAxis	   6591.896181
+		Eccentricity	      0.00909215
+		Inclination	     31.5815
+		AscendingNode	    296.483
+		ArgOfPericenter	     68.56
+		MeanAnomaly	      2.435
+	}
+
+	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Mercury-Atlas_7"
+}
+
+"Sigma 7:Mercury-Atlas 8:MA-8" "Sol/Earth"
+{
+	Class "spacecraft"
+	Mesh "mercury7.3ds"
+	Radius 0.003
+
+	Beginning	"1962 10 03 12:15:12"
+	Ending	"1962 10 03 21:28:22"
+
+	EllipticalOrbit
+	{
+		Epoch			2437941.014575
+		Period		      0.06181907270169401
+		SemiMajorAxis	   6604.182109
+		Eccentricity	      0.0109228
+		Inclination	     31.5815
+		AscendingNode	     58.9605
+		ArgOfPericenter	     68.75
+		MeanAnomaly	      2.577
+	}
+
+	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Mercury-Atlas_8"
+}
+
+"Faith 7:Mercury-Atlas 9:MA-9" "Sol/Earth"
+{
+	Class "spacecraft"
+	Mesh "mercury7.3ds"
+	Radius 0.003
+
+	Beginning	"1963 05 15 13:04:13"
+	Ending	"1963 05 16 23:24:02"
+
+	EllipticalOrbit
+	{
+		Epoch			2438165.048714
+		Period		      0.0616485276539301
+		SemiMajorAxis	   6592.030206
+		Eccentricity	      0.00903037
+		Inclination	     28.4102
+		AscendingNode	    276.696
+		ArgOfPericenter	     81.82
+		MeanAnomaly	      3.047
+	}
+
+	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Mercury-Atlas_9"
+}
+
+"Gemini 1" "Sol/Earth"
+{
+	Class "spacecraft"
+	Mesh "gemini.3ds"
+	Radius 0.0075
+
+	Beginning	"1964 04 08 16:01:01"
+	Ending	"1964 04 12 15:00:00"
+
+	EllipticalOrbit
+	{
+		Epoch			2438494.228211
+		Period		      0.06153502434371658
+		SemiMajorAxis	   6583.9365059999955
+		Eccentricity	      0.008822329999970388
+		Inclination	     33.00
+		AscendingNode	    298.779
+		ArgOfPericenter	     71.01
+		MeanAnomaly	      0.299
+	}
+
+	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Gemini_1"
+}
+
+"Gemini 3:Molly Brown" "Sol/Earth"
+{
+	Class "spacecraft"
+	Mesh "gemini.3ds"
+	Radius 0.0075
+
+	Beginning	"1965 03 23 14:24:00"
+	Ending	"1965 03 23 19:16:31"
+
+	EllipticalOrbit
+	{
+		Epoch			2438843.106912
+		Period		      0.061294464097777265
+		SemiMajorAxis	   6566.766153
+		Eccentricity	      0.00529286
+		Inclination	     33.00
+		AscendingNode	    260.501
+		ArgOfPericenter	     68.77
+		MeanAnomaly	     15.720
+	}
+
+	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Gemini_3"
+}
+
+"Gemini 4" "Sol/Earth"
+{
+	Class "spacecraft"
+	Mesh "gemini.3ds"
+	Radius 0.0075
+
+	Beginning	"1965 06 03 15:15:59"
+	Ending	"1965 06 07 17:12:11"
+
+	EllipticalOrbit
+	{
+		Epoch			2438915.313043
+		Period		      0.0617661156752711
+		SemiMajorAxis	   6600.409942
+		Eccentricity	      0.0097569
+		Inclination	     33.00
+		AscendingNode	    344.553
+		ArgOfPericenter	     69.02
+		MeanAnomaly	    -74.387
+	}
+
+	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Gemini_4"
+}
+
+"Gemini 5" "Sol/Earth"
+{
+	Class "spacecraft"
+	Mesh "gemini.3ds"
+	Radius 0.0075
+
+	Beginning	"1965 08 21 13:59:59"
+	Ending	"1965 08 29 12:55:13"
+
+	EllipticalOrbit
+	{
+		Epoch			2438994.165461
+		Period		      0.06215946370026765
+		SemiMajorAxis	   6628.402748
+		Eccentricity	      0.0143916
+		Inclination	     33.00
+		AscendingNode	     42.5651
+		ArgOfPericenter	     69.15
+		MeanAnomaly	    102.944
+	}
+
+	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Gemini_5"
+}
+
+"Gemini 7" "Sol/Earth"
+{
+	Class "spacecraft"
+	Mesh "gemini.3ds"
+	Radius 0.0075
+
+	Beginning	"1965 12 04 19:30:03"
+	Ending	"1965 12 18 14:05:04"
+
+	EllipticalOrbit
+	{
+		Epoch			2438994.165461
+		Period		      0.06278355807970352
+		SemiMajorAxis	   6672.695894
+		Eccentricity	      0.000294861
+		Inclination	     28.9991
+		AscendingNode	    131.385
+		ArgOfPericenter	    155.45
+		MeanAnomaly	    -71.246
+	}
+
+	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Gemini_7"
+}
+
+"Gemini 6A" "Sol/Earth"
+{
+	Class "spacecraft"
+	Mesh "gemini.3ds"
+	Radius 0.0075
+	Orientation	[ 160 1 0 0 ]
+
+	Beginning	"1965 12 15 13:37:26"
+	Ending	"1965 12 16 15:28:50"
+
+	EllipticalOrbit
+	{
+		Epoch			2438994.165461
+		Period		      0.06278355807970352
+		SemiMajorAxis	   6672.692894
+		Eccentricity	      0.000294861
+		Inclination	     28.9991
+		AscendingNode	    131.385
+		ArgOfPericenter	    155.45
+		MeanAnomaly	    -71.24579
+	}
+
+	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Gemini_6A"
+}
+
+"Gemini 8" "Sol/Earth"
+{
+	Class "spacecraft"
+	Mesh "gemini.3ds"
+	Radius 0.0075
+
+	Beginning	"1966 03 16 16:41:02"
+	Ending	"1966 03 17 03:22:28"
+
+	EllipticalOrbit
+	{
+		Epoch			2439201.460957
+		Period		      0.06258295986552115
+		SemiMajorAxis	   6658.475136
+		Eccentricity	      0.00304585
+		Inclination	     28.9178
+		AscendingNode	    242.767
+		ArgOfPericenter	    293.29
+		MeanAnomaly	   -102.038
+	}
+
+	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Gemini_8"
+}
+
+"Gemini 9A" "Sol/Earth"
+{
+	Class "spacecraft"
+	Mesh "gemini.3ds"
+	Radius 0.0075
+
+	Beginning	"1966 06 03 13:39:33"
+	Ending	"1966 06 06 14:00:23"
+
+	EllipticalOrbit
+	{
+		Epoch			2439280.198106
+		Period		      0.06270888385754662
+		SemiMajorAxis	   6667.40388
+		Eccentricity	      0.000929008
+		Inclination	     28.8901
+		AscendingNode	    298.034
+		ArgOfPericenter	    110.32
+		MeanAnomaly	    -21.456
+	}
+
+	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Gemini_9A"
+}
+
+"Gemini 10" "Sol/Earth"
+{
+	Class "spacecraft"
+	Mesh "gemini.3ds"
+	Radius 0.0075
+
+	Beginning	"1966 07 18 22:20:26"
+	Ending	"1966 07 21 21:07:05"
+
+	EllipticalOrbit
+	{
+		Epoch			2439201.460957
+		Period		      0.06258295986552115
+		SemiMajorAxis	   6660.475136
+		Eccentricity	      0.00304585
+		Inclination	     28.9178
+		AscendingNode	    242.767
+		ArgOfPericenter	    293.29
+		MeanAnomaly	      2.038
+	}
+
+	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Gemini_10"
+}
+
+"Gemini 11" "Sol/Earth"
+{
+	Class "spacecraft"
+	Mesh "gemini.3ds"
+	Radius 0.0075
+
+	Beginning	"1966 09 12 14:42:26"
+	Ending	"1966 09 15 13:59:35"
+
+	EllipticalOrbit
+	{
+		Epoch			2439382.835717
+		Period		      0.07042676341910496
+		SemiMajorAxis	   7203.814751
+		Eccentricity	      0.0751574
+		Inclination	     28.9935
+		AscendingNode	     29.5379
+		ArgOfPericenter	     58.82
+		MeanAnomaly	    178.453
+	}
+
+	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Gemini_11"
+}
+
+"Gemini 12" "Sol/Earth"
+{
+	Class "spacecraft"
+	Mesh "gemini.3ds"
+	Radius 0.0075
+
+	Beginning	"1966 09 12 14:42:26"
+	Ending	"1966 09 15 13:59:35"
+
+	EllipticalOrbit
+	{
+		Epoch			2439443.160451
+		Period		      0.06278175497113697
+		SemiMajorAxis	   6672.568136
+		Eccentricity	      0.000971107
+		Inclination	     28.9994
+		AscendingNode	    179.624
+		ArgOfPericenter	     91.99
+		MeanAnomaly	   -141.9
+	}
+
+	Albedo 	      0.10
+	InfoURL	"https://en.wikipedia.org/wiki/Gemini_12"
 }

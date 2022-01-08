@@ -10,35 +10,54 @@
 # All required textures by Bob Hundley (converted from BMP to JPG by
 # Ulrich Dickmann)
 
-"ISS" "Sol/Earth"
+"ISS:International Space Station" "Sol/Earth"
 {
-    Class "spacecraft"
-    Mesh "iss.cmod"
-    Radius 0.040
-
-    Beginning           2451138    # Zarya module launched 20 Nov 1998
-
-    EllipticalOrbit {
-        Period          0.064176392
-        SemiMajorAxis   6767
-        Eccentricity    0.0016886
-        Inclination      51.5684
-        AscendingNode   343.1518
-        ArgOfPericenter 346.2476
-        MeanAnomaly      13.8216
-        Epoch           2452028.18381755
-    }
-
-    UniformRotation
-    {
-        Inclination    51.5684
-        MeridianAngle  -90
-        AscendingNode 343.1518
-    }
-
-    Orientation [ 90 0 0 1 ]
-
-    Albedo        0.10
+	Class	"spacecraft"
+	Mesh	"iss.cmod"
+	Orientation	[ -90 1 0 0 ]
+	Radius	0.04
+	Beginning	"1998 11 20"
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Earth" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2458849.5  # 2020 Jan 01
+		Period	0.06445847826018161
+		SemiMajorAxis	6790.814562595674
+		Eccentricity	0.0007643647994965259
+		Inclination	59.22036656730745
+		AscendingNode	116.0030712877944
+		ArgOfPericenter	60.93938405214742
+		MeanAnomaly	3.168957773956868
+	}
+	FixedRotation	{ }
+	BodyFrame
+	{
+		TwoVector
+		{
+			Center	"Sol/Earth/ISS"
+			Primary
+			{
+				Axis	"z"
+				RelativePosition
+				{
+					Observer	"Sol/Earth/ISS"
+					Target	"Sol/Earth"
+				}
+			}
+			Secondary
+			{
+				Axis	"y"
+				RelativeVelocity
+				{
+					Observer	"Sol/Earth/ISS"
+					Target	"Sol/Earth"
+				}
+			}
+		}
+	}
+	Albedo	0.4
+	InfoURL	"https://en.wikipedia.org/wiki/International_Space_Station"
 }
-
-	

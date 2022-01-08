@@ -3,7 +3,8 @@
 	Class "spacecraft"
 	Mesh "marsodyssey.3ds"
 	Radius 0.01
-
+	Beginning "2001 10 24"
+	#Ending 2047?
 	# Orbital elements are only very approximately correct
 	# after completion of aerobraking phase.  These were taken
 	# from the Mars Odyssey PIP, and only reflect the planned,
@@ -20,26 +21,54 @@
 	ArgOfPericenter   0.0
 	MeanAnomaly       0.0
 	}
+	InfoURL "https://en.wikipedia.org/wiki/2001_Mars_Odyssey"
 }
 
-"MGS" "Sol/Mars"
+"Mars Global Surveyor:MGS:1996-062A" "Sol/Mars"
 {
-	Class "spacecraft"
-	Mesh "marsglobalsurvr.3ds"
-	Radius 0.01
-
-	# The most recent orbital elements I could find for MGS
-	# are from March:
+	Class	"spacecraft"
+	Mesh	"marsglobalsurvr.3ds"
+	Radius	0.01
+	Beginning	"1997 09 11 01:17"
+	# Ending 2047?
 	# http://mars.jpl.nasa.gov/mgs/status/nav/orbparam-peri2.txt
 	EllipticalOrbit
 	{
-	Epoch             2451973.25864
-	Period            0.08127579
-	SemiMajorAxis     3767.968213
-	Eccentricity      0.005809
-	Inclination      93.0092
-	AscendingNode    28.452982
-	ArgOfPericenter 267.202961
-	MeanAnomaly       0.0
+		Epoch	2451973.25864  # 2001 Mar 04 18:12:26
+		Period	0.08127579
+		SemiMajorAxis	3767.968213
+		Eccentricity	0.005809
+		Inclination	93.0092
+		AscendingNode	28.452982
+		ArgOfPericenter	267.202961
+		MeanAnomaly	0.0
 	}
+	FixedRotation	{ }
+	BodyFrame
+	{
+		TwoVector
+		{
+			Center	"Sol/Mars/Mars Global Surveyor"
+			Primary
+			{
+				Axis	"y"
+				RelativePosition
+				{
+					Observer	"Sol/Mars/Mars Global Surveyor"
+					Target	"Sol/Mars"
+				}
+			}
+			Secondary
+			{
+				Axis	"x"
+				RelativeVelocity
+				{
+					Observer	"Sol/Mars/Mars Global Surveyor"
+					Target	"Sol/Mars"
+				}
+			}
+		}
+	}
+	Albedo	0.3
+	InfoURL	"https://en.wikipedia.org/wiki/Mars_Global_Surveyor"
 }

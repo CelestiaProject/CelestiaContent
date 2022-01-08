@@ -1,21 +1,52 @@
-"Hubble" "Sol/Earth"
+"Hubble:HST:1990-037B" "Sol/Earth"
 {
-	Class "spacecraft"
-	Mesh "hubble.cmod"
-	Radius 0.007                  # 14 meters across
-	Beginning         2448007     # Deployed 25 April 1990
-	# Ending 2010?
-
-	EllipticalOrbit {
-		Period          0.06903
-		SemiMajorAxis   6767
-		Eccentricity    0.0012082
-		Inclination      28.4675
-		AscendingNode    51.0100
-		ArgOfPericenter  27.0378
-		MeanAnomaly     333.0836
-		Epoch           2452028.18381755
+	Class	"spacecraft"
+	Mesh	"hubble.cmod"
+	Orientation	[ 90 1 0 0 ]
+	Radius	0.0066
+	Beginning	"1990 04 25 02:02"
+	# Ending 2030-2040
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Earth" }
 	}
-
-	Albedo       0.10
+	EllipticalOrbit
+	{
+		Epoch	2458849.5  # 2020 Jan 01
+		Period	0.06634292587840411
+		SemiMajorAxis	6922.531166334413
+		Eccentricity	0.001609879881253929
+		Inclination	5.725618102014545
+		AscendingNode	328.596353484936
+		ArgOfPericenter	70.27491284257643
+		MeanAnomaly	329.4655179433556
+	}
+	FixedRotation	{ }
+	BodyFrame
+	{
+		TwoVector
+		{
+			Center	"Sol/Earth/Hubble"
+			Primary
+			{
+				Axis	"x"
+				RelativePosition
+				{
+					Observer	"Sol/Earth/Hubble"
+					Target	"Sol/Earth"
+				}
+			}
+			Secondary
+			{
+				Axis	"y"
+				RelativeVelocity
+				{
+					Observer	"Sol/Earth/Hubble"
+					Target	"Sol/Earth"
+				}
+			}
+		}
+	}
+	Albedo	0.5
+	InfoURL	"https://en.wikipedia.org/wiki/Hubble_Space_Telescope"
 }
