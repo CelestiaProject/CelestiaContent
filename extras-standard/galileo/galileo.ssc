@@ -1,83 +1,159 @@
-"Galileo" "Sol"
+"Galileo:1989-084B" "Sol"
 {
-    Class "spacecraft"
-    Radius   0.01
+	Class	"spacecraft"
+	Mesh	"galileo.cmod"
+	MeshCenter	[ 0.01 0 4.27 ]
+	Radius	0.0074
+	Timeline
+	[
+		{ # Phase 1: Launch and cruise
+			Beginning	"1989 10 19 01:30:00"
+			Ending	"1995 12 07 00:00:00"
+			OrbitFrame
+			{
+				EclipticJ2000	{ Center "Sol" }
+			}
+			SampledTrajectory
+			{
+				Source	"galileo-cruise.xyzv"
+				DoublePrecision	true
+				Interpolation	"cubic"
+			}
+			BodyFrame
+			{
+				TwoVector
+				{
+					Center	"Sol/Galileo"
+					Primary
+					{
+						Axis	"z"
+						RelativePosition
+						{
+							Observer	"Sol/Galileo"
+							Target	"Sol/Earth"
+						}
+					}
+					Secondary
+					{
+						Axis	"x"
+						RelativeVelocity
+						{
+							Observer	"Sol/Galileo"
+							Target	"Sol/Earth"
+						}
+					}
+				}
+			}
+			UniformRotation
+			{
+				Period	0.0055556
+			}
+		}
+		{ # Phase 2: Jupiter orbit
+			Ending	"2003 09 21 18:58:00"
+			OrbitFrame
+			{
+				EclipticJ2000	{ Center "Sol/Jupiter" }
+			}
+			SampledTrajectory
+			{
+				Source	"galileo-orbit.xyzv"
+				DoublePrecision	true
+				Interpolation	"cubic"
+			}
+			BodyFrame
+			{
+				TwoVector
+				{
+					Center	"Sol/Galileo"
+					Primary
+					{
+						Axis	"z"
+						RelativePosition
+						{
+							Observer	"Sol/Galileo"
+							Target	"Sol/Earth"
+						}
+					}
+					Secondary
+					{
+						Axis	"x"
+						RelativeVelocity
+						{
+							Observer	"Sol/Galileo"
+							Target	"Sol/Earth"
+						}
+					}
+				}
+			}
+			UniformRotation
+			{
+				Period	0.0055556
+			}
+		}
+	]
+	Albedo	0.05
+	InfoURL	"https://en.wikipedia.org/wiki/Galileo_(spacecraft)"
+}
 
-    Mesh "galileo.3ds"
-    # Orient the model so that the High Gain Antenna points in -z
-    # and the sensor boom points in +y
-    Orientation     [ -90 1 0 0 ]
-    NormalizeMesh false
-    #MeshScale 0.000001  # Mesh units are apparently mm
-    MeshScale 0.02
-
-    InfoURL "http://galileo.jpl.nasa.gov"
-
-    Timeline [
-
-    # Phase 1: Launch and cruise
-    {
-        Beginning "1989 10 19 02:47"   # Launch
-        Ending    "1995 12  1 00:00"   # A few days before orbit insertion burn
-
-        SampledTrajectory { Source "galileo-cruise.xyzv" }
-
-        # Use a two vector frame to keep the spacecraft's High Gain Antenna
-        # pointed toward the Earth. The secondary axis is chosen
-        # (arbitrarily) as ecliptic north
-        BodyFrame {
-            TwoVector {
-                Primary {
-                    Axis "-z"
-                    RelativePosition {
-                        Observer "Sol/Galileo"
-                        Target "Sol/Earth"
-                    }
-                }
-                Secondary {
-                    Axis "x"
-                    ConstantVector {
-                        Vector [ 0 0 1 ]
-                        Frame { EclipticJ2000 { } }
-                    }
-                }
-            }
-        }
-        FixedRotation { }
-    }
-
-    # Phase 2: Jupiter orbit
-    {
-        Ending    "2003  9 21 18:58"   # Crash into Jupiter
-
-        OrbitFrame { EclipticJ2000 { Center "Sol/Jupiter" } }
-        SampledTrajectory { Source "galileo-orbit.xyzv" }
-
-        # Use a two vector frame to keep the spacecraft's High Gain Antenna
-        # pointed toward the Earth. The secondary axis is chosen
-        # (arbitrarily) as ecliptic north
-        BodyFrame {
-            TwoVector {
-                Primary {
-                    Axis "-z"
-                    RelativePosition {
-                        Observer "Sol/Galileo"
-                        Target "Sol/Earth"
-                    }
-                }
-                Secondary {
-                    Axis "x"
-                    ConstantVector {
-                        Vector [ 0 0 1 ]
-                        Frame { EclipticJ2000 { } }
-                    }
-                }
-            }
-        }
-        FixedRotation { }
-    }
-
-    ] # End timeline
-
-    Albedo         0.50
+"Galileo Probe:1989-084E" "Sol/Galileo"
+{
+	Class	"spacecraft"
+	Mesh	"galileo-probe.3ds"
+	Radius	0.00089
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Jupiter" }
+	}
+	Timeline
+	[
+		{ # Phase 1: With Galileo
+			Beginning	"1989 10 19 01:30:00"
+			Ending	"1995 07 13 05:32:00"
+			OrbitFrame	{ BodyFixed { Center "Sol/Galileo" } }
+			BodyFrame	{ BodyFixed { Center "Sol/Galileo" } }
+			FixedRotation	{ Inclination 180 }
+			FixedPosition	{ Planetographic [ 94.83364 -89.95999 -0.006 ] }
+		}
+		{ # Phase 2: Free flight to Jupiter
+			Ending	"1995 12 07 22:07:00"
+			SampledTrajectory
+			{
+				Source	"galileo-probe.xyzv"
+				DoublePrecision	true
+				Interpolation	"cubic"
+			}
+		}
+	]
+	BodyFrame
+	{
+		TwoVector
+		{
+			Center	"Sol/Galileo/Galileo Probe"
+			Primary
+			{
+				Axis	"-z"
+				RelativePosition
+				{
+					Observer	"Sol/Galileo/Galileo Probe"
+					Target	"Sol/Jupiter"
+				}
+			}
+			Secondary
+			{
+				Axis	"x"
+				RelativeVelocity
+				{
+					Observer	"Sol/Galileo/Galileo Probe"
+					Target	"Sol/Jupiter"
+				}
+			}
+		}
+	}
+	UniformRotation
+	{
+		Period	0.0015873
+	}
+	Albedo	0.2
+	InfoURL	"https://en.wikipedia.org/wiki/Galileo_Probe"
 }

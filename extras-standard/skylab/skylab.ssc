@@ -6,23 +6,49 @@
 	Mesh "skylab.3ds"
 	Radius 0.015
 
-	Beginning         2441817     # 14 May 1973
-	Ending            2444066     # 11 Jul 1979
+	Beginning	"1973 05 14 17:30:00"
+	Ending	"1979 07 11 16:37:00"
 
-	EllipticalOrbit {		
-		Epoch       2462901.80828343		
-		Period            0.06475959		
-		SemiMajorAxis  6811.939		
-		Eccentricity      0.0009421		
-		Inclination      50.0459		
-		AscendingNode    24.3850		
-		ArgOfPericenter 272.0174		
-		MeanAnomaly      87.9670		
-	}		
+	EllipticalOrbit
+	{
+		Epoch			2442005.78583330
+		Period		   0.06470574
+		SemiMajorAxis	6808.162
+		Eccentricity	   0.0010544
+		Inclination	  50.0379
+		AscendingNode	 148.2353
+		ArgOfPericenter	 321.3613
+		MeanAnomaly	  38.6556
+	}
 	
-	Obliquity        23.45       # Sun-synchronous orientation 
-	RotationPeriod 8766.15265008 # by Matt McIrvin
-	RotationOffset  191          #
-
+	Orientation		[ 90 0 0 1 ]		
 	Albedo 	      0.10
+
+	FixedRotation {}
+	BodyFrame
+	{
+		TwoVector
+		{
+			Center	"Sol/Earth/Skylab"
+			Primary
+			{
+				Axis	"y"
+				RelativePosition
+				{
+					Observer	"Sol/Earth/Skylab"
+					Target	"Sol"
+				}
+			}
+
+			Secondary
+			{
+				Axis	"x"
+				RelativeVelocity
+				{
+					Observer	"Sol/Earth/Skylab"
+					Target	"Sol"
+				}
+			}
+		}
+	}
 }
