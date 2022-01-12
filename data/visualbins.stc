@@ -2240,7 +2240,7 @@
 #      }
 #  }
 
-#  Star already in 'extrasolar.stc'
+# Star included in 'extrasolar.stc'
 #
 # Barycenter 93017 "Gliese 738:ADS 11871 AB:CCDM J18570+3254AB"
 # {
@@ -5686,46 +5686,48 @@
      }
  }
 
- Barycenter 86221 "GJ 9595:CCDM J17372+2754AB"
- {
-     RA       264.295130
-     Dec       27.895848
-     Distance  96.186081
- }
- 
- "GJ 9595 A:CCDM J17372+2754A"
- {
-     OrbitBarycenter "GJ 9595"
-     SpectralType    "M0"     # lacking, used HIP data of the entire system!
-     AppMag          9.80 
- 
-     EllipticalOrbit {
-         Period              24.000
-         SemiMajorAxis        4.422 # mass ratio 0.67 : 0.63
-         Eccentricity         0.210
-         Inclination         30.179
-         AscendingNode       13.829
-         ArgOfPericenter    305.459
-         MeanAnomaly        220.500
-     }
- }
-
- "GJ 9595 B:CCDM J17372+2754B"
- {
-     OrbitBarycenter "GJ 9595"
-     SpectralType    "M0"     # lacking, used HIP data of the entire system!
-     AppMag          10.41
- 
-     EllipticalOrbit {
-         Period              24.000
-         SemiMajorAxis        4.755 # mass ratio 0.67 : 0.63
-         Eccentricity         0.210
-         Inclination         30.179
-         AscendingNode       13.829
-         ArgOfPericenter    125.459
-         MeanAnomaly        220.500
-     }
- }
+# Star included in 'extrasolar.stc'
+#
+# Barycenter 86221 "GJ 9595:CCDM J17372+2754AB"
+# {
+#     RA       264.295130
+#     Dec       27.895848
+#     Distance  96.186081
+# }
+# 
+# "GJ 9595 A:CCDM J17372+2754A"
+# {
+#     OrbitBarycenter "GJ 9595"
+#     SpectralType    "M0"     # lacking, used HIP data of the entire system!
+#     AppMag          9.80 
+# 
+#     EllipticalOrbit {
+#         Period              24.000
+#         SemiMajorAxis        4.422 # mass ratio 0.67 : 0.63
+#         Eccentricity         0.210
+#         Inclination         30.179
+#         AscendingNode       13.829
+#         ArgOfPericenter    305.459
+#         MeanAnomaly        220.500
+#     }
+# }
+#
+# "GJ 9595 B:CCDM J17372+2754B"
+# {
+#     OrbitBarycenter "GJ 9595"
+#     SpectralType    "M0"     # lacking, used HIP data of the entire system!
+#     AppMag          10.41
+# 
+#     EllipticalOrbit {
+#         Period              24.000
+#         SemiMajorAxis        4.755 # mass ratio 0.67 : 0.63
+#         Eccentricity         0.210
+#         Inclination         30.179
+#         AscendingNode       13.829
+#         ArgOfPericenter    125.459
+#         MeanAnomaly        220.500
+#     }
+# }
 
  Barycenter 87204 "CCDM J17490+3704AB"
  {
