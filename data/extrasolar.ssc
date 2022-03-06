@@ -1,4 +1,4 @@
-# This .ssc file was created by Thomas Tarrants on 2/2/2022. You can contact me for any reason at
+# This .ssc file was created by Thomas Tarrants on 6/3/2022. You can contact me for any reason at
 # e-mail: twtarrants@gmail.com 	 facebook: https://www.facebook.com/thomas.tarrants
 # 
 # In cases where a transiting planet's radius has not been explicitly stated, it has been estimated from
@@ -302,34 +302,6 @@
 		AscendingNode 154.36447
 	}
 	InfoURL "http://arxiv.org/abs/1006.3070"
-}
-
-"1SWASP J140747.93-394542.6 b:b" "1SWASP J140747.93-394542.6"
-{
-	Class "planet"
-	Texture "browndwarf.*"
-	Emissive true
-	Color [1 0.5 0.5]
-	Mass 6356.33
-	Radius 77067
-	Oblateness 0.07
-	EllipticalOrbit
-	{
-		Epoch 2454220
-		Period 10.198494
-		SemiMajorAxis 3.9
-		Inclination 109.72579
-		AscendingNode 214.20552
-		ArgOfPericenter 63.15961
-		MeanAnomaly 90
-	}
-	UniformRotation
-	{
-		Period 2.349735
-		Inclination 109.72579
-		AscendingNode 214.20552
-	}
-	InfoURL "http://arxiv.org/abs/1410.6577"
 }
 
 "23 Lib b:b" "23 Lib"
@@ -896,34 +868,6 @@
 		SemiMajorAxis 0.81
 	}
 	InfoURL "http://adsabs.harvard.edu/abs/2008PASJ...60..539S"
-}
-
-"Orbitar:42 Dra Ab:b" "42 Dra A"
-{
-	Class "planet"
-	Texture "exo-class3.*"
-	Color [0.53 0.62 1]
-	GeomAlbedo 0.1
-	Mass 1233.128
-	Radius 82833
-	Oblateness 0.08
-	EllipticalOrbit
-	{
-		Epoch 2452757.4
-		Period 1.311704
-		SemiMajorAxis 1.19
-		Eccentricity 0.38
-		Inclination 5.51286
-		AscendingNode 84.11687
-		ArgOfPericenter 230.54932
-	}
-	UniformRotation
-	{
-		Period 5.733962
-		Inclination 5.51286
-		AscendingNode 84.11687
-	}
-	InfoURL "http://www.aanda.org/articles/aa/full_html/2009/21/aa10837-08/aa10837-08.html"
 }
 
 "Taphao Thong:47 UMa b:b" "47 UMa"
@@ -1550,6 +1494,7 @@
 	Radius 9482
 	EllipticalOrbit
 	{
+		Epoch 2453571.92932
 		Period 0.050185
 		SemiMajorAxis 0.127
 		Eccentricity 0.27
@@ -1578,12 +1523,13 @@
 	Radius 10805
 	EllipticalOrbit
 	{
+		Epoch 2453571.92932
 		Period 0.243395
 		SemiMajorAxis 0.364
 		Eccentricity 0.25
 		Inclination 54.1393
 		AscendingNode 262.45112
-		ArgOfPericenter 149.63766
+		ArgOfPericenter 37.90204
 		MeanAnomaly 268.71721
 	}
 	UniformRotation
@@ -1605,13 +1551,14 @@
 	Radius 12923
 	EllipticalOrbit
 	{
+		Epoch 2453571.92932
 		Period 0.402519
 		SemiMajorAxis 0.509
 		Eccentricity 0.29
 		Inclination 54.1393
 		AscendingNode 262.45112
 		ArgOfPericenter 53.3719
-		MeanAnomaly 2.52
+		MeanAnomaly 144.38536
 	}
 	UniformRotation
 	{
@@ -1870,22 +1817,24 @@
 {
 	Class "planet"
 	Texture "venuslike.*"
-	Mass 17.162
-	Radius 27905
+	Mass 11.7
+	Radius 22617
 	EllipticalOrbit
 	{
 		Epoch 2458330.39051
 		Period 0.02317
-		SemiMajorAxis 0.0645
-		Inclination 79.23362
-		AscendingNode 307.20735
-		ArgOfPericenter 77.05171
-		MeanAnomaly 90
+		SemiMajorAxis 0.0654
+		Eccentricity 0.04
+		Inclination 79.24193
+		AscendingNode 307.24412
+		ArgOfPericenter 256.04484
+		MeanAnomaly 275.57934
 	}
 	UniformRotation
 	{
-		Inclination 79.23362
-		AscendingNode 307.20735
+		Period 201.180457
+		Inclination 79.24193
+		AscendingNode 307.24412
 	}
 	InfoURL "https://www.nature.com/articles/s41586-020-2400-z"
 }
@@ -1894,22 +1843,24 @@
 {
 	Class "planet"
 	Texture "venuslike.*"
-	GeomAlbedo 0.05
-	Radius 20624
+	Mass 22.2
+	Radius 16310
 	EllipticalOrbit
 	{
-		Epoch 2458342.2223
+		Epoch 2458342.22231
 		Period 0.051633
-		SemiMajorAxis 0.1101
-		Inclination 74.57156
-		AscendingNode 307.92419
-		ArgOfPericenter 76.95006
-		MeanAnomaly 90
+		SemiMajorAxis 0.0993
+		Eccentricity 0.041
+		Inclination 74.51176
+		AscendingNode 307.65573
+		ArgOfPericenter 230.02162
+		MeanAnomaly 301.12754
 	}
 	UniformRotation
 	{
-		Inclination 74.57156
-		AscendingNode 307.92419
+		Period 448.096435
+		Inclination 74.51176
+		AscendingNode 307.65573
 	}
 	InfoURL "http://arxiv.org/abs/2012.13238v1"
 }
@@ -8766,7 +8717,7 @@
 	InfoURL "http://arxiv.org/abs/0904.4704"
 }
 
-"HAT-P-13 b:b" "HAT-P-13"
+"HAT-P-13 b:TOI-5374.01:b" "HAT-P-13"
 {
 	Class "planet"
 	Texture "exo-class5.*"
@@ -8890,24 +8841,24 @@
 	Color [0.49 0.89 1]
 	GeomAlbedo 0.5
 	Mass 1332.604
-	Radius 90115
+	Radius 91583
 	EllipticalOrbit
 	{
-		Epoch 2455968.64684
+		Epoch 2455027.60356
 		Period 0.0076
 		SemiMajorAxis 0.0413
 		Eccentricity 0.036
-		Inclination 76.89761
-		AscendingNode 14.00745
-		ArgOfPericenter 340.92129
+		Inclination 75.89484
+		AscendingNode 15.38855
+		ArgOfPericenter 340.59642
 		MeanAnomaly 239.47185
 	}
 	UniformRotation
 	{
 		# Pseudosynchronous Rotation
 		Period 66.109116
-		Inclination 76.89761
-		AscendingNode 14.00745
+		Inclination 75.89484
+		AscendingNode 15.38855
 	}
 	InfoURL "http://arxiv.org/abs/1005.2009"
 }
@@ -13989,23 +13940,26 @@
 "HD 107148 Ac:c" "HD 107148 A"
 {
 	Class "planet"
-	Texture "venuslike.*"
-	Mass 19.9
-	Radius 29973
+	Texture "exo-class3.*"
+	Color [0.53 0.62 1]
+	GeomAlbedo 0.1
+	Mass 21.612
+	Radius 31466
 	EllipticalOrbit
 	{
-		Epoch 2455203.4
-		Period 0.050176
-		SemiMajorAxis 0.1406
-		Eccentricity 0.34
+		Epoch 2451553.08
+		Period 0.050177
+		SemiMajorAxis 0.1415
+		Eccentricity 0.4
 		Inclination 66.62829
 		AscendingNode 6.47547
-		ArgOfPericenter 46.05725
+		ArgOfPericenter 38.74796
+		MeanAnomaly 60
 	}
 	UniformRotation
 	{
 		# Pseudosynchronous Rotation
-		Period 254.559753
+		Period 215.07826
 		Inclination 66.62829
 		AscendingNode 6.47547
 	}
@@ -14018,22 +13972,23 @@
 	Texture "exo-class3.*"
 	Color [0.53 0.62 1]
 	GeomAlbedo 0.1
-	Mass 64.517
-	Radius 59925
+	Mass 62.292
+	Radius 58699
 	EllipticalOrbit
 	{
-		Epoch 2439969
-		Period 0.211313
-		SemiMajorAxis 0.3668
-		Eccentricity 0.174
+		Epoch 2451553.08
+		Period 0.211321
+		SemiMajorAxis 0.3692
+		Eccentricity 0.15
 		Inclination 66.62829
 		AscendingNode 6.47547
-		ArgOfPericenter 165.74796
+		ArgOfPericenter 313.74796
+		MeanAnomaly 318
 	}
 	UniformRotation
 	{
 		# Pseudosynchronous Rotation
-		Period 1566.387263
+		Period 1631.49068
 		Inclination 66.62829
 		AscendingNode 6.47547
 	}
@@ -15005,34 +14960,6 @@
 	InfoURL "http://arxiv.org/abs/1601.07595v1"
 }
 
-"HD 114899 b:b" "HD 114899"
-{
-	Class "planet"
-	Texture "exo-class4.*"
-	NightTexture "exo-class4night.*"
-	Color [0 0.36 1]
-	GeomAlbedo 0.05
-	Mass 254.253
-	Radius 88792
-	EllipticalOrbit
-	{
-		Period 0.115455
-		SemiMajorAxis 0.272
-		Eccentricity 0.36
-		Inclination 42.51304
-		AscendingNode 63.27149
-		ArgOfPericenter 163.04726
-	}
-	UniformRotation
-	{
-		# Pseudosynchronous Rotation
-		Period 554.656681
-		Inclination 42.51304
-		AscendingNode 63.27149
-	}
-	InfoURL "http://arXiv.org/abs/1911.11954v1"
-}
-
 "HD 11506 c:c" "HD 11506"
 {
 	Class "planet"
@@ -15870,33 +15797,6 @@
 	InfoURL "https://www.aanda.org/articles/aa/abs/2010/04/aa13523-09/aa13523-09.html"
 }
 
-"HD 126105 b:b" "HD 126105"
-{
-	Class "planet"
-	Texture "exo-class3.*"
-	Color [0.53 0.62 1]
-	GeomAlbedo 0.1
-	Mass 492.616
-	Radius 86246
-	Oblateness 0.08
-	EllipticalOrbit
-	{
-		Period 1.475154
-		SemiMajorAxis 1.33
-		Eccentricity 0.22
-		Inclination 70.80896
-		AscendingNode 43.86883
-		ArgOfPericenter 222.71606
-	}
-	UniformRotation
-	{
-		Period 9.445801
-		Inclination 70.80896
-		AscendingNode 43.86883
-	}
-	InfoURL "http://arXiv.org/abs/1911.11954v1"
-}
-
 "HD 12648 b:b" "HD 12648"
 {
 	Class "planet"
@@ -16714,32 +16614,6 @@
 	InfoURL "http://arxiv.org/abs/1003.3445"
 }
 
-"HD 13652 b:b" "HD 13652"
-{
-	Class "planet"
-	Texture "exo-class3.*"
-	Color [0.53 0.62 1]
-	GeomAlbedo 0.1
-	Mass 603.851
-	Radius 85476
-	Oblateness 0.08
-	EllipticalOrbit
-	{
-		Period 1.661875
-		SemiMajorAxis 1.51
-		Inclination 84.48463
-		AscendingNode 243.17801
-		ArgOfPericenter 133.17302
-	}
-	UniformRotation
-	{
-		Period 8.455461
-		Inclination 84.48463
-		AscendingNode 243.17801
-	}
-	InfoURL "http://arXiv.org/abs/1911.11954v1"
-}
-
 "HD 136925 b:b" "HD 136925"
 {
 	Class "planet"
@@ -16860,17 +16734,17 @@
 	EllipticalOrbit
 	{
 		Epoch 2456537.49
-		Period 0.038837
+		Period 0.038841
 		SemiMajorAxis 0.105
-		Eccentricity 0.042
+		Eccentricity 0.0441
 		Inclination 53.88221
 		AscendingNode 240.21901
-		ArgOfPericenter 64.97446
+		ArgOfPericenter 17.07446
 	}
 	UniformRotation
 	{
 		# Pseudosynchronous Rotation
-		Period 336.881216
+		Period 336.549995
 		Inclination 53.88221
 		AscendingNode 240.21901
 	}
@@ -16886,17 +16760,18 @@
 	Radius 19938
 	EllipticalOrbit
 	{
-		Period 0.147168
+		Period 0.147057
 		SemiMajorAxis 0.2554
-		Eccentricity 0.156
+		Eccentricity 0.0929
 		Inclination 53.88221
 		AscendingNode 240.21901
-		ArgOfPericenter 152.97446
+		ArgOfPericenter 44.57446
+		MeanAnomaly 353.439
 	}
 	UniformRotation
 	{
 		# Pseudosynchronous Rotation
-		Period 1125.188558
+		Period 1225.58743
 		Inclination 53.88221
 		AscendingNode 240.21901
 	}
@@ -18802,33 +18677,6 @@
 		AscendingNode 57.7472
 	}
 	InfoURL "http://arxiv.org/abs/1311.5271"
-}
-
-"HD 159743 b:b" "HD 159743"
-{
-	Class "planet"
-	Texture "exo-class3.*"
-	Color [0.53 0.62 1]
-	GeomAlbedo 0.1
-	Mass 305.104
-	Radius 88083
-	EllipticalOrbit
-	{
-		Period 0.279535
-		SemiMajorAxis 0.484
-		Eccentricity 0.12
-		Inclination 87.39702
-		AscendingNode 80.39719
-		ArgOfPericenter 114.84246
-	}
-	UniformRotation
-	{
-		# Pseudosynchronous Rotation
-		Period 2255.230338
-		Inclination 87.39702
-		AscendingNode 80.39719
-	}
-	InfoURL "http://arXiv.org/abs/1911.11954v1"
 }
 
 "HD 159868 c:c" "HD 159868"
@@ -21735,33 +21583,6 @@
 	InfoURL "http://arxiv.org/abs/1107.1748v1"
 }
 
-"HD 205577 b:b" "HD 205577"
-{
-	Class "planet"
-	Texture "exo-class3.*"
-	Color [0.53 0.62 1]
-	GeomAlbedo 0.1
-	Mass 2955.693
-	Radius 79707
-	Oblateness 0.07
-	EllipticalOrbit
-	{
-		Period 4.615962
-		SemiMajorAxis 2.87
-		Eccentricity 0.972
-		Inclination 107.81213
-		AscendingNode 148.97639
-		ArgOfPericenter 226.52046
-	}
-	UniformRotation
-	{
-		Period 3.563892
-		Inclination 107.81213
-		AscendingNode 148.97639
-	}
-	InfoURL "http://arXiv.org/abs/1911.11954v1"
-}
-
 "Samagiya:HD 205739 b:b" "HD 205739"
 {
 	Class "planet"
@@ -22178,7 +21999,7 @@
 	Texture "exo-class4.*"
 	NightTexture "exo-class4night.*"
 	Color [0 0.36 1]
-	GeomAlbedo 0.038
+	GeomAlbedo 0.096
 	Mass 226.921
 	Radius 96477
 	EllipticalOrbit
@@ -24701,15 +24522,15 @@
 		Epoch 2458469.757
 		Period 0.004239
 		SemiMajorAxis 0.0251
-		Inclination 85.0497
-		AscendingNode 78.54905
-		ArgOfPericenter 66.71286
+		Inclination 85.15223
+		AscendingNode 78.78804
+		ArgOfPericenter 66.69245
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 85.0497
-		AscendingNode 78.54905
+		Inclination 85.15223
+		AscendingNode 78.78804
 	}
 	InfoURL "http://arxiv.org/abs/2201.12661"
 }
@@ -27646,33 +27467,6 @@
 		AscendingNode 254.71764
 	}
 	InfoURL "https://ui.adsabs.harvard.edu/abs/2020JKAS...53...27L/abstract"
-}
-
-"HD 6037 b:b" "HD 6037"
-{
-	Class "planet"
-	Texture "exo-class3.*"
-	Color [0.53 0.62 1]
-	GeomAlbedo 0.1
-	Mass 762.76
-	Radius 84602
-	Oblateness 0.08
-	EllipticalOrbit
-	{
-		Period 3.080082
-		SemiMajorAxis 2.39
-		Eccentricity 0.1
-		Inclination 103.26787
-		AscendingNode 216.56368
-		ArgOfPericenter 113.01488
-	}
-	UniformRotation
-	{
-		Period 7.446365
-		Inclination 103.26787
-		AscendingNode 216.56368
-	}
-	InfoURL "http://arXiv.org/abs/1911.11954v1"
 }
 
 "HD 60532 b:b" "HD 60532"
@@ -32183,7 +31977,7 @@
 	InfoURL "http://arxiv.org/abs/1608.00459"
 }
 
-"K2-105 b:EPIC 211525389.01:b" "K2-105"
+"K2-105 b:EPIC 211525389.01:TOI-5164.01:b" "K2-105"
 {
 	Class "planet"
 	Texture "venuslike.*"
@@ -33285,23 +33079,23 @@
 {
 	Class "planet"
 	Texture "asteroid.*"
-	GeomAlbedo 0.205
+	GeomAlbedo 0.282
 	Mass 5.08
-	Radius 9620
+	Radius 9748
 	EllipticalOrbit
 	{
-		Epoch 2457744.0716
+		Epoch 2457744.071508
 		Period 0.000767
 		SemiMajorAxis 0.00716
-		Inclination 66.88417
-		AscendingNode 349.83956
-		ArgOfPericenter 92.83448
+		Inclination 67.2021
+		AscendingNode 344.69628
+		ArgOfPericenter 94.8417
 		MeanAnomaly 182.2
 	}
 	UniformRotation
 	{
-		Inclination 66.88417
-		AscendingNode 349.83956
+		Inclination 67.2021
+		AscendingNode 344.69628
 	}
 	LunarLambert 1.0
 	InfoURL "http://arxiv.org/abs/1711.02097v1"
@@ -33316,13 +33110,13 @@
 	Radius 44597
 	EllipticalOrbit
 	{
-		Epoch 2457751.1546
-		Period 0.021214
-		SemiMajorAxis 0.066794
+		Epoch 2458371.07415
+		Period 0.021216
+		SemiMajorAxis 0.066797
 		Inclination 67.03411
 		AscendingNode 347.07724
-		ArgOfPericenter 93.9158
-		MeanAnomaly 238.5
+		ArgOfPericenter 93.91578
+		MeanAnomaly 90
 	}
 	UniformRotation
 	{
@@ -34046,7 +33840,7 @@
 	InfoURL "http://arxiv.org/abs/1802.05277"
 }
 
-"K2-165 d:EPIC 201528828.03:d" "K2-165"
+"K2-165 d:EPIC 201528828.03:TOI-5178.01:d" "K2-165"
 {
 	Class "planet"
 	Texture "venuslike.*"
@@ -35877,7 +35671,7 @@
 	InfoURL "http://arXiv.org/abs/2011.11698"
 }
 
-"K2-212 b:EPIC 220321605.01:b" "K2-212"
+"K2-212 b:EPIC 220321605.01:TOI-5155.01:b" "K2-212"
 {
 	Class "planet"
 	Texture "venuslike.*"
@@ -37263,7 +37057,7 @@
 	InfoURL "http://arxiv.org/abs/1806.11504"
 }
 
-"K2-253 b:EPIC 228809550.01:b" "K2-253"
+"K2-253 b:EPIC 228809550.01:TOI-5173.01:b" "K2-253"
 {
 	Class "planet"
 	Texture "exo-class4.*"
@@ -37926,7 +37720,7 @@
 	InfoURL "http://arxiv.org/abs/1810.04074"
 }
 
-"K2-27 Bb:EPIC 201546283.01:b" "K2-27 B"
+"K2-27 Bb:EPIC 201546283.01:TOI-5168.01:b" "K2-27 B"
 {
 	Class "planet"
 	Texture "venuslike.*"
@@ -38003,7 +37797,7 @@
 	InfoURL "http://arxiv.org/abs/1810.04074v1"
 }
 
-"K2-271 b:EPIC 211713099.01:b" "K2-271"
+"K2-271 b:EPIC 211713099.01:TOI-5162.01:b" "K2-271"
 {
 	Class "planet"
 	Texture "exo-class3.*"
@@ -38099,7 +37893,7 @@
 	InfoURL "http://arxiv.org/abs/1810.04074v1"
 }
 
-"K2-275 Ab:EPIC 212012119.01:b" "K2-275 A"
+"K2-275 Ab:EPIC 212012119.01:TOI-5123.01:b" "K2-275 A"
 {
 	Class "planet"
 	Texture "venuslike.*"
@@ -40195,7 +39989,7 @@
 	InfoURL "http://arxiv.org/abs/2108.05621"
 }
 
-"K2-333 b:EPIC 211647930.01:b" "K2-333"
+"K2-333 b:EPIC 211647930.01:TOI-5170.01:b" "K2-333"
 {
 	Class "planet"
 	Texture "exo-class3.*"
@@ -40882,7 +40676,7 @@
 	InfoURL "http://arxiv.org/abs/2108.05621"
 }
 
-"K2-353 b:EPIC 251554286.01:b" "K2-353"
+"K2-353 b:EPIC 251554286.01:TOI-5163.01:b" "K2-353"
 {
 	Class "planet"
 	Texture "exo-class3.*"
@@ -85558,7 +85352,7 @@
 		Inclination 83.70901
 		AscendingNode 287.13208
 	}
-	InfoURL "http://arxiv.org/abs/1202.5424v1"
+	InfoURL "http://arxiv.org/abs/1201.5424"
 }
 
 "Kepler-33 c:KOI-707.04:c" "Kepler-33"
@@ -85583,7 +85377,7 @@
 		Inclination 82.57899
 		AscendingNode 287.58464
 	}
-	InfoURL "http://arxiv.org/abs/1202.5424v1"
+	InfoURL "http://arxiv.org/abs/1201.5424"
 }
 
 "Kepler-33 d:KOI-707.01:d" "Kepler-33"
@@ -85609,7 +85403,7 @@
 		Inclination 82.59752
 		AscendingNode 287.5772
 	}
-	InfoURL "http://arxiv.org/abs/1202.5424v1"
+	InfoURL "http://arxiv.org/abs/1201.5424"
 }
 
 "Kepler-33 e:KOI-707.03:e" "Kepler-33"
@@ -85633,7 +85427,7 @@
 		Inclination 82.56133
 		AscendingNode 287.59173
 	}
-	InfoURL "http://arxiv.org/abs/1202.5424v1"
+	InfoURL "http://arxiv.org/abs/1201.5424"
 }
 
 "Kepler-33 f:KOI-707.02:f" "Kepler-33"
@@ -85657,7 +85451,7 @@
 		Inclination 82.54926
 		AscendingNode 287.59658
 	}
-	InfoURL "http://arxiv.org/abs/1202.5424v1"
+	InfoURL "http://arxiv.org/abs/1201.5424"
 }
 
 "Kepler-330 b:KOI-1891.02:b" "Kepler-330"
@@ -89422,7 +89216,7 @@
 		Inclination 102.2436
 		AscendingNode 345.48663
 	}
-	InfoURL "http://arxiv.org/abs/1106.2118v1"
+	InfoURL "http://arxiv.org/abs/1106.3225"
 }
 
 "Kepler-390 Ab:KOI-2498.01:b" "Kepler-390 A"
@@ -111730,6 +111524,27 @@
 	InfoURL "https://arxiv.org/abs/2103.01896"
 }
 
+"KMT-2021-BLG-0748L b:b" "KMT-2021-BLG-0748L"
+{
+	Class "planet"
+	Texture "exo-class1.*"
+	Color [0.96 0.96 1]
+	GeomAlbedo 0.5
+	Mass 143.017
+	Radius 91069
+	Oblateness 0.09
+	EllipticalOrbit
+	{
+		Period 6.312612
+		SemiMajorAxis 2.43
+	}
+	UniformRotation
+	{
+		Period 18.511075
+	}
+	InfoURL "http://arxiv.org/abs/2202.03022"
+}
+
 "KMT-2021-BLG-0912L b:b" "KMT-2021-BLG-0912L"
 {
 	Class "planet"
@@ -111747,6 +111562,65 @@
 		Period 14.867319
 	}
 	InfoURL "http://arxiv.org/abs/2111.04861v1"
+}
+
+"KMT-2021-BLG-1253L b:b" "KMT-2021-BLG-1253L"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	Mass 19.05
+	Radius 29212
+	Oblateness 0.03
+	EllipticalOrbit
+	{
+		Period 3.824817
+		SemiMajorAxis 1.52
+	}
+	UniformRotation
+	{
+		Period 16.269487
+	}
+	InfoURL "http://arxiv.org/abs/2202.03022"
+}
+
+"KMT-2021-BLG-1372L b:b" "KMT-2021-BLG-1372L"
+{
+	Class "planet"
+	Texture "exo-class1.*"
+	Color [0.96 0.96 1]
+	GeomAlbedo 0.5
+	Mass 61.27
+	Radius 58130
+	Oblateness 0.05
+	EllipticalOrbit
+	{
+		Period 5.629227
+		SemiMajorAxis 2.37
+	}
+	UniformRotation
+	{
+		Period 18.052122
+	}
+	InfoURL "http://arxiv.org/abs/2202.03022"
+}
+
+"KMT-2021-BLG-1391L b:b" "KMT-2021-BLG-1391L"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	Mass 4.55
+	Radius 12568
+	Oblateness 0.01
+	EllipticalOrbit
+	{
+		Period 5.696437
+		SemiMajorAxis 2.29
+	}
+	UniformRotation
+	{
+		Period 14.322744
+	}
+	InfoURL "http://arxiv.org/abs/2202.03022"
 }
 
 "KOI-120 Ab:KOI-120.01:b" "KOI-120 A"
@@ -112126,6 +112000,7 @@
 		Inclination 101.25272
 		AscendingNode 122.20058
 	}
+	InfoURL "http://arxiv.org/abs/2108.03323"
 }
 
 "Lalande 21185 b:b" "Lalande 21185"
@@ -117011,26 +116886,49 @@
 	Class "planet"
 	Texture "venuslike.*"
 	NightTexture "venuslikenight.*"
-	Mass 4.5
+	Mass 3.63
 	Radius 13577
 	EllipticalOrbit
 	{
 		Epoch 2458519.8068
-		Period 0.017161
+		Period 0.01716
 		SemiMajorAxis 0.068
-		Eccentricity 0.066
-		Inclination 101.04281
-		AscendingNode 193.45241
-		ArgOfPericenter 40.99945
-		MeanAnomaly 45.57789
+		Inclination 101.0383
+		AscendingNode 193.45222
+		ArgOfPericenter 92.29942
 	}
 	UniformRotation
 	{
-		Period 146.603858
-		Inclination 101.04281
-		AscendingNode 193.45241
+		Inclination 101.0383
+		AscendingNode 193.45222
 	}
 	InfoURL "http://arxiv.org/abs/1809.05967v1"
+}
+
+"PI Men d:d" "PI Men"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	GeomAlbedo 0.05
+	Mass 14.588
+	Radius 23724
+	EllipticalOrbit
+	{
+		Epoch 2457595.46
+		Period 0.341246
+		SemiMajorAxis 0.50275
+		Eccentricity 0.22
+		Inclination 80.33424
+		AscendingNode 192.62715
+		ArgOfPericenter 325.28937
+	}
+	UniformRotation
+	{
+		Period 2312.486667
+		Inclination 80.33424
+		AscendingNode 192.62715
+	}
+	InfoURL "http://arxiv.org/abs/2203.01018"
 }
 
 "PI Men b:b" "PI Men"
@@ -117039,22 +116937,22 @@
 	Texture "browndwarf.*"
 	Emissive true
 	Color [1 0.5 0.5]
-	Mass 4153.861
-	Radius 78523
+	Mass 4004.488
+	Radius 78649
 	Oblateness 0.07
 	EllipticalOrbit
 	{
-		Epoch 2456536.01
-		Period 5.719836
+		Epoch 2456540.34
+		Period 5.717536
 		SemiMajorAxis 3.315
-		Eccentricity 0.6447
+		Eccentricity 0.6396
 		Inclination 59.63242
 		AscendingNode 191.68856
-		ArgOfPericenter 333.86597
+		ArgOfPericenter 333.64597
 	}
 	UniformRotation
 	{
-		Period 2.961593
+		Period 3.021187
 		Inclination 59.63242
 		AscendingNode 191.68856
 	}
@@ -118018,6 +117916,50 @@
 		AscendingNode 64.58929
 	}
 	InfoURL "http://arxiv.org/abs/2109.09397v1"
+}
+
+"Sand 178 Ab:2MASS J12582222+2630162 b:b" "Sand 178 A"
+{
+	Class "planet"
+	Texture "browndwarf.*"
+	Emissive true
+	Color [1 0.5 0.5]
+	Mass 3308.47
+	Radius 79313
+	EllipticalOrbit
+	{
+		Period 0.339302
+		SemiMajorAxis 0.346092
+		Eccentricity 0.41
+	}
+	UniformRotation
+	{
+		# Pseudosynchronous Rotation
+		Period 1412.048685
+	}
+	InfoURL "https://doi.org/10.1093/mnras/stab2349"
+}
+
+"Sand 178 Bb:2MASS J12582326+2630091 b:b" "Sand 178 B"
+{
+	Class "planet"
+	Texture "exo-class1.*"
+	Color [0.96 0.96 1]
+	GeomAlbedo 0.5
+	Mass 1080.576
+	Radius 83316
+	EllipticalOrbit
+	{
+		Period 0.032526
+		SemiMajorAxis 0.043164
+		Eccentricity 0.598
+	}
+	UniformRotation
+	{
+		# Pseudosynchronous Rotation
+		Period 70.506694
+	}
+	InfoURL "https://doi.org/10.1093/mnras/stab2349"
 }
 
 "SDSS J122859.93+104032.9 b:b" "SDSS J122859.93+104032.9"
@@ -119720,6 +119662,30 @@
 	InfoURL "http://arxiv.org/abs/2107.05430"
 }
 
+"TOI-1759 Ab:TOI-1759.91:b" "TOI-1759 A"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	Mass 10.8
+	Radius 20005
+	EllipticalOrbit
+	{
+		Epoch 2458745.4654
+		Period 0.051609
+		SemiMajorAxis 0.117312
+		Inclination 70.82278
+		AscendingNode 324.4846
+		ArgOfPericenter 166.11422
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 70.82278
+		AscendingNode 324.4846
+	}
+	InfoURL "http://arxiv.org/abs/2202.01240"
+}
+
 "TOI-178 b:b" "TOI-178"
 {
 	Class "planet"
@@ -120062,6 +120028,33 @@
 		AscendingNode 237.85869
 	}
 	InfoURL "http://arxiv.org/abs/2111.12074"
+}
+
+"TOI-2136 b:TOI-2136.01:b" "TOI-2136"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	Mass 4.7
+	Radius 14016
+	EllipticalOrbit
+	{
+		Epoch 2459214.0032
+		Period 0.021497
+		SemiMajorAxis 0.0533
+		Eccentricity 0.07
+		Inclination 86.2506
+		AscendingNode 279.87944
+		ArgOfPericenter 149.15285
+		MeanAnomaly 82.4619
+	}
+	UniformRotation
+	{
+		# Pseudosynchronous Rotation
+		Period 183.062088
+		Inclination 86.2506
+		AscendingNode 279.87944
+	}
+	InfoURL "http://arxiv.org/abs/2202.10182"
 }
 
 "TOI-216 b:TOI-216.02:b" "TOI-216"
@@ -120441,7 +120434,7 @@
 		Inclination 68.18886
 		AscendingNode 22.62189
 	}
-	InfoURL "https://exofop.ipac.caltech.edu/tess/target.php?id=10837041"
+	InfoURL "http://arxiv.org/abs/2201.12661v1"
 }
 
 "TOI-2427 b:TOI-2427.01:b" "TOI-2427"
@@ -120479,15 +120472,15 @@
 	{
 		Epoch 2458411.21989
 		Period 0.001016
-		SemiMajorAxis 0.006323
-		Inclination 71.81481
-		AscendingNode 40.72085
-		ArgOfPericenter 75.01176
+		SemiMajorAxis 0.00632
+		Inclination 71.81418
+		AscendingNode 40.71839
+		ArgOfPericenter 75.01253
 	}
 	UniformRotation
 	{
-		Inclination 71.81481
-		AscendingNode 40.72085
+		Inclination 71.81418
+		AscendingNode 40.71839
 	}
 	LunarLambert 1.0
 	InfoURL "http://arxiv.org/abs/2201.13274v1"
@@ -122249,6 +122242,44 @@
 	InfoURL "http://arxiv.org/abs/1410.5971"
 }
 
+"TYC 1995-1627-1 Ab:2MASS J12525132+2735131 b:b" "TYC 1995-1627-1 A"
+{
+	Class "planet"
+	Texture "exo-class3.*"
+	Color [0.53 0.62 1]
+	GeomAlbedo 0.1
+	Mass 2186.577
+	Radius 80771
+	EllipticalOrbit
+	{
+		Period 0.096044
+		SemiMajorAxis 0.205457
+	}
+	InfoURL "https://doi.org/10.1093/mnras/stab2349"
+}
+
+"TYC 1995-1627-1 Bb:2MASS J12530085+2734189 b:b" "TYC 1995-1627-1 B"
+{
+	Class "planet"
+	Texture "exo-class3.*"
+	Color [0.53 0.62 1]
+	GeomAlbedo 0.1
+	Mass 2637.877
+	Radius 80107
+	EllipticalOrbit
+	{
+		Period 0.066557
+		SemiMajorAxis 0.144433
+		Eccentricity 0.681
+	}
+	UniformRotation
+	{
+		# Pseudosynchronous Rotation
+		Period 99.023435
+	}
+	InfoURL "https://doi.org/10.1093/mnras/stab2349"
+}
+
 "TYC 3318-1333-1 b:b" "TYC 3318-1333-1"
 {
 	Class "planet"
@@ -123178,21 +123209,21 @@
 	Color [0.49 0.89 1]
 	GeomAlbedo 0.5
 	Mass 283.492
-	Radius 89766
+	Radius 94380
 	EllipticalOrbit
 	{
-		Epoch 2456413.79019
+		Epoch 2456413.7949
 		Period 0.007325
 		SemiMajorAxis 0.0397
-		Inclination 111.44046
-		AscendingNode 195.95037
-		ArgOfPericenter 46.64763
+		Inclination 111.94388
+		AscendingNode 196.52632
+		ArgOfPericenter 46.86051
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 111.44046
-		AscendingNode 195.95037
+		Inclination 111.94388
+		AscendingNode 196.52632
 	}
 	InfoURL "http://arxiv.org/abs/1410.3449v1"
 }
@@ -123533,29 +123564,29 @@
 "WASP-120 b:TOI-415.01:b" "WASP-120"
 {
 	Class "planet"
-	Texture "exo-class5.*"
-	NightTexture "exo-class5night.*"
-	Color [0.49 0.89 1]
-	GeomAlbedo 0.5
+	Texture "exo-class4.*"
+	NightTexture "exo-class4night.*"
+	Color [0 0.36 1]
+	GeomAlbedo 0.05
 	Mass 1592.261
-	Radius 105915
+	Radius 88787
 	EllipticalOrbit
 	{
-		Epoch 2456779.43556
+		Epoch 2456912.35261
 		Period 0.009887
 		SemiMajorAxis 0.0522
 		Eccentricity 0.059
-		Inclination 72.60581
-		AscendingNode 61.5252
-		ArgOfPericenter 346.78554
+		Inclination 71.98017
+		AscendingNode 61.23516
+		ArgOfPericenter 346.87374
 		MeanAnomaly 121.45528
 	}
 	UniformRotation
 	{
 		# Pseudosynchronous Rotation
 		Period 84.896875
-		Inclination 72.60581
-		AscendingNode 61.5252
+		Inclination 71.98017
+		AscendingNode 61.23516
 	}
 	InfoURL "http://arxiv.org/abs/1509.02210v1"
 }
@@ -123566,7 +123597,7 @@
 	Texture "exo-class5.*"
 	NightTexture "exo-class5night.*"
 	Color [0.49 0.89 1]
-	GeomAlbedo 0.24
+	GeomAlbedo 0.069
 	Mass 375.977
 	Radius 130384
 	EllipticalOrbit
@@ -123986,21 +124017,21 @@
 	Color [0.49 0.89 1]
 	GeomAlbedo 0.5
 	Mass 479.903
-	Radius 96477
+	Radius 104866
 	EllipticalOrbit
 	{
-		Epoch 2456776.90615
+		Epoch 2456776.9055
 		Period 0.014279
 		SemiMajorAxis 0.0661
-		Inclination 65.87476
-		AscendingNode 355.0155
-		ArgOfPericenter 83.08706
+		Inclination 66.18947
+		AscendingNode 357.64958
+		ArgOfPericenter 82.01685
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 65.87476
-		AscendingNode 355.0155
+		Inclination 66.18947
+		AscendingNode 357.64958
 	}
 	InfoURL "http://arxiv.org/abs/1607.07859v1"
 }
@@ -125595,21 +125626,21 @@
 	Color [0 0.36 1]
 	GeomAlbedo 0.05
 	Mass 120.135
-	Radius 89486
+	Radius 96477
 	EllipticalOrbit
 	{
-		Epoch 2456367.3093
+		Epoch 2455715.66591
 		Period 0.013414
 		SemiMajorAxis 0.0581
-		Inclination 57.73561
-		AscendingNode 5.82836
-		ArgOfPericenter 64.00117
+		Inclination 57.79787
+		AscendingNode 5.97902
+		ArgOfPericenter 63.92082
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 57.73561
-		AscendingNode 5.82836
+		Inclination 57.79787
+		AscendingNode 5.97902
 	}
 	InfoURL "http://arxiv.org/abs/1402.1482"
 }
@@ -126365,16 +126396,16 @@
 	Class "planet"
 	Texture "asteroid.*"
 	GeomAlbedo 0.11
-	Mass 6.83
-	Radius 11532
+	Mass 6.77
+	Radius 11519
 	EllipticalOrbit
 	{
-		Epoch 2457011.34861
+		Epoch 2457011.34862
 		Period 0.002162
 		SemiMajorAxis 0.01694
 		Inclination 69.63589
 		AscendingNode 324.79222
-		ArgOfPericenter 91.26913
+		ArgOfPericenter 91.26912
 		MeanAnomaly 90
 	}
 	UniformRotation
@@ -126393,11 +126424,11 @@
 	NightTexture "exo-class4night.*"
 	Color [0 0.36 1]
 	GeomAlbedo 0.016
-	Mass 363.1
-	Radius 80466
+	Mass 363.6
+	Radius 80529
 	EllipticalOrbit
 	{
-		Epoch 2456354.946
+		Epoch 2457007.932103
 		Period 0.011387
 		SemiMajorAxis 0.051285
 		Inclination 69.59864
@@ -126418,23 +126449,24 @@
 	Class "planet"
 	Texture "venuslike.*"
 	NightTexture "venuslikenight.*"
-	Mass 13.1
-	Radius 22783
+	Mass 14.2
+	Radius 22725
 	EllipticalOrbit
 	{
-		Epoch 2457006.36931
-		Period 0.024725
-		SemiMajorAxis 0.085994
+		Epoch 2457006.36955
+		Period 0.024724
+		SemiMajorAxis 0.085992
+		Eccentricity 0.01
 		Inclination 69.59807
-		AscendingNode 328.35064
-		ArgOfPericenter 90.0294
-		MeanAnomaly 88.39577
+		AscendingNode 328.34865
+		ArgOfPericenter 106.53009
+		MeanAnomaly 72.40363
 	}
 	UniformRotation
 	{
-		Period 216.73848
+		Period 216.603237
 		Inclination 69.59807
-		AscendingNode 328.35064
+		AscendingNode 328.34865
 	}
 	InfoURL "https://arxiv.org/abs/1508.02411"
 }
@@ -126445,23 +126477,23 @@
 	Texture "exo-class1.*"
 	Color [0.96 0.96 1]
 	GeomAlbedo 0.5
-	Mass 398.42
-	Radius 87057
+	Mass 399.121
+	Radius 87050
 	Oblateness 0.08
 	EllipticalOrbit
 	{
-		Period 1.611225
+		Period 1.612047
 		SemiMajorAxis 1.393
-		Eccentricity 0.296
-		Inclination 69.60359
-		AscendingNode 327.04136
-		ArgOfPericenter 202.88578
+		Eccentricity 0.295
+		Inclination 69.6036
+		AscendingNode 327.0407
+		ArgOfPericenter 202.48601
 	}
 	UniformRotation
 	{
-		Period 10.602009
-		Inclination 69.60359
-		AscendingNode 327.04136
+		Period 10.591882
+		Inclination 69.6036
+		AscendingNode 327.0407
 	}
 	InfoURL "https://arxiv.org/abs/1509.07750"
 }
@@ -127331,24 +127363,24 @@
 	Color [0.49 0.89 1]
 	GeomAlbedo 0.5
 	Mass 289.213
-	Radius 128986
+	Radius 127937
 	EllipticalOrbit
 	{
-		Epoch 2459117.687201
+		Epoch 2456107.84623
 		Period 0.004955
 		SemiMajorAxis 0.03304
 		Eccentricity 0.016
-		Inclination 9.907
-		AscendingNode 64.65615
-		ArgOfPericenter 112.41527
+		Inclination 10.50305
+		AscendingNode 68.46297
+		ArgOfPericenter 108.66858
 		MeanAnomaly 27.14828
 	}
 	UniformRotation
 	{
 		# Pseudosynchronous Rotation
 		Period 43.370526
-		Inclination 9.907
-		AscendingNode 64.65615
+		Inclination 10.50305
+		AscendingNode 68.46297
 	}
 	InfoURL "http://arxiv.org/abs/1310.5607v1"
 }
@@ -128599,7 +128631,7 @@
 	InfoURL "http://arxiv.org/abs/0805.2921"
 }
 
-"Makropulos:XO-5 b:b" "XO-5"
+"Makropulos:XO-5 b:TOI-5373.01:b" "XO-5"
 {
 	Class "planet"
 	Texture "exo-class4.*"
