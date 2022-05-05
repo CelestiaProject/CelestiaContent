@@ -1,4 +1,4 @@
-"Galileo:1989-084B" "Sol/Jupiter"
+"Galileo:1989-084B" "Sol"
 {
 	Class	"spacecraft"
 	Mesh	"galileo.cmod"
@@ -23,13 +23,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Jupiter/Galileo"
+					Center	"Sol/Galileo"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Jupiter/Galileo"
+							Observer	"Sol/Galileo"
 							Target	"Sol/Earth"
 						}
 					}
@@ -38,7 +38,7 @@
 						Axis	"x"
 						RelativeVelocity
 						{
-							Observer	"Sol/Jupiter/Galileo"
+							Observer	"Sol/Galileo"
 							Target	"Sol/Earth"
 						}
 					}
@@ -65,13 +65,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Jupiter/Galileo"
+					Center	"Sol/Galileo"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Jupiter/Galileo"
+							Observer	"Sol/Galileo"
 							Target	"Sol/Earth"
 						}
 					}
@@ -80,7 +80,7 @@
 						Axis	"x"
 						RelativeVelocity
 						{
-							Observer	"Sol/Jupiter/Galileo"
+							Observer	"Sol/Galileo"
 							Target	"Sol/Earth"
 						}
 					}
@@ -96,7 +96,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Galileo_(spacecraft)"
 }
 
-"Galileo Probe:1989-084E" "Sol/Jupiter/Galileo"
+"Galileo Probe:1989-084E" "Sol/Galileo"
 {
 	Class	"spacecraft"
 	Mesh	"galileo-probe.3ds"
@@ -110,9 +110,9 @@
 		{ # Phase 1: With Galileo
 			Beginning	"1989 10 19 01:30:00"
 			Ending	"1995 07 13 05:32:00"
-			OrbitFrame	{ BodyFixed { Center "Sol/Jupiter/Galileo" } }
-			BodyFrame	{ BodyFixed { Center "Sol/Jupiter/Galileo" } }
-			FixedRotation	{ Inclination 0 }
+			OrbitFrame	{ BodyFixed { Center "Sol/Galileo" } }
+			BodyFrame	{ BodyFixed { Center "Sol/Galileo" } }
+			FixedRotation	{ Inclination 180 }
 			FixedPosition	{ Planetographic [ 94.83364 -89.95999 -0.006 ] }
 		}
 		{ # Phase 2: Free flight to Jupiter
@@ -129,13 +129,13 @@
 	{
 		TwoVector
 		{
-			Center	"Sol/Jupiter/Galileo/Galileo Probe"
+			Center	"Sol/Galileo/Galileo Probe"
 			Primary
 			{
 				Axis	"-z"
 				RelativePosition
 				{
-					Observer	"Sol/Jupiter/Galileo/Galileo Probe"
+					Observer	"Sol/Galileo/Galileo Probe"
 					Target	"Sol/Jupiter"
 				}
 			}
@@ -144,7 +144,7 @@
 				Axis	"x"
 				RelativeVelocity
 				{
-					Observer	"Sol/Jupiter/Galileo/Galileo Probe"
+					Observer	"Sol/Galileo/Galileo Probe"
 					Target	"Sol/Jupiter"
 				}
 			}
