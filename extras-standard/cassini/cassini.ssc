@@ -1,4 +1,4 @@
-"Cassini:1997-061A" "Sol"
+"Cassini:1997-061A" "Sol/Saturn"
 {
 	Class	"spacecraft"
 	Mesh	"cassini.3ds"
@@ -23,13 +23,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -38,7 +38,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -62,13 +62,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -77,7 +77,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -101,13 +101,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -116,7 +116,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -140,13 +140,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -155,7 +155,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -179,13 +179,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -194,7 +194,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -218,13 +218,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -233,7 +233,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -257,13 +257,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -272,7 +272,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -296,13 +296,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -311,7 +311,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -335,13 +335,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -350,7 +350,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -374,13 +374,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -389,7 +389,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -413,13 +413,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -428,7 +428,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -452,13 +452,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -467,7 +467,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -491,13 +491,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -506,7 +506,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -530,13 +530,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -545,7 +545,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -569,13 +569,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -584,7 +584,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -596,101 +596,109 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Cassini-Huygens"
 }
 
-"Huygens:1997-061C" "Sol/Cassini"
+"Huygens:1997-061C" "Sol/Saturn/Cassini"
 {
 	Class	"spacecraft"
 	Mesh	"huygens.3ds"
 	Orientation	[ -90 0 0 1 ]
 	Radius	0.00135
-	Timeline
-	[
-		{ # Phase 1: With Cassini
-			Beginning	"1997 10 15 09:28:00"
-			Ending	"2004 12 25 02:02:00"
-			OrbitFrame	{ BodyFixed { Center "Sol/Cassini" } }
-			BodyFrame	{ BodyFixed { Center "Sol/Cassini" } }
-			FixedPosition	[ -0.0014 0 0.0002 ]
-			FixedRotation	{ Inclination 90 AscendingNode 90 }
+
+Timeline
+[
+	# Phase 1: With Cassini
+	{ 
+		Beginning	"1997 10 15 09:28:00"
+		Ending	"2004 12 25 02:02:00"
+		OrbitFrame
+		{ BodyFixed { Center "Sol/Saturn/Cassini" } }
+		BodyFrame
+		{ BodyFixed { Center "Sol/Saturn/Cassini" } }
+		FixedPosition	[ -0.0014 0 0.0002 ]
+		FixedRotation	{ Inclination 90 AscendingNode 270 }
+	}
+
+	# Phase 2: Free flight to Titan
+	{ 
+		Ending	"2005 01 14 11:22:00"
+		OrbitFrame
+		{
+			EclipticJ2000	{ Center "Sol/Saturn/Titan" }
 		}
-		{ # Phase 2: Free flight to Titan
-			Ending	"2005 01 14 11:22:00"
-			OrbitFrame
+		SampledTrajectory
+		{
+			Source	"huygens.xyzv"
+			DoublePrecision	true
+			Interpolation	"cubic"
+		}
+		BodyFrame
+		{
+			TwoVector
 			{
-				EclipticJ2000	{ Center "Sol/Saturn/Titan" }
-			}
-			SampledTrajectory
-			{
-				Source	"huygens.xyzv"
-				DoublePrecision	true
-				Interpolation	"cubic"
-			}
-			BodyFrame
-			{
-				TwoVector
+				Center	"Sol/Saturn/Cassini/Huygens"
+				Primary
 				{
-					Center	"Sol/Cassini/Huygens"
-					Primary
+					Axis	"z"
+					RelativePosition
 					{
-						Axis	"z"
-						RelativePosition
-						{
-							Observer	"Sol/Cassini/Huygens"
-							Target	"Sol/Saturn"
-						}
+						Observer	"Sol/Saturn/Cassini/Huygens"
+						Target	"Sol/Saturn"
 					}
-					Secondary
+				}
+				Secondary
+				{
+					Axis	"y"
+					RelativeVelocity
 					{
-						Axis	"y"
-						RelativeVelocity
-						{
-							Observer	"Sol/Cassini/Huygens"
-							Target	"Sol/Saturn"
-						}
+						Observer	"Sol/Saturn/Cassini/Huygens"
+						Target	"Sol/Saturn"
 					}
 				}
 			}
-			UniformRotation
-			{
-				Period	0.0022222
-			}
 		}
-		{ # Phase 3: On Titan
-			OrbitFrame
+		UniformRotation
+		{
+			Period	0.0022222
+		}
+	}
+
+	# Phase 3: On Titan
+	{
+		OrbitFrame
+		{
+			BodyFixed	{ Center "Sol/Saturn/Titan" }
+		}
+		BodyFrame
+		{
+			TwoVector
 			{
-				BodyFixed	{ Center "Sol/Saturn/Titan" }
-			}
-			BodyFrame
-			{
-				TwoVector
+				Center	"Sol/Saturn/Cassini/Huygens"
+				Primary
 				{
-					Center	"Sol/Cassini/Huygens"
-					Primary
+					Axis	"z"
+					RelativePosition
 					{
-						Axis	"z"
-						RelativePosition
-						{
-							Observer	"Sol/Cassini/Huygens"
-							Target	"Sol/Saturn/Titan"
-						}
+						Observer	"Sol/Saturn/Cassini/Huygens"
+						Target	"Sol/Saturn/Titan"
 					}
-					Secondary
+				}
+				Secondary
+				{
+					Axis	"y"
+					RelativeVelocity
 					{
-						Axis	"y"
-						RelativeVelocity
-						{
-							Observer	"Sol/Cassini/Huygens"
-							Target	"Sol/Saturn/Titan"
-						}
+						Observer	"Sol/Saturn/Cassini/Huygens"
+						Target	"Sol/Saturn/Titan"
 					}
 				}
 			}
-			FixedRotation	{ }
-			FixedPosition
-			{
-				Planetographic	[ 163.17754 -10.29358 0.91926 ]
-			}
 		}
-	]
+		FixedRotation	{ }
+		FixedPosition
+		{
+			Planetographic	[ 163.17754 -10.29358 0.91926 ]
+		}
+	}
+]
 	Albedo	0.3
 	InfoURL	"https://en.wikipedia.org/wiki/Huygens_(spacecraft)"
 }
