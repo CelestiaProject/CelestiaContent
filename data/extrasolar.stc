@@ -1,4 +1,4 @@
-# This .stc file was created by Thomas Tarrants on 31/3/2022. You can contact me for any reason at
+# This .stc file was created by Thomas Tarrants on 2/6/2022. You can contact me for any reason at
 # e-mail: twtarrants@gmail.com 	 facebook: https://www.facebook.com/thomas.tarrants
 # 
 # This source information for this file has been gathered from numerous sources ranging from SIMBAD
@@ -780,24 +780,6 @@ Barycenter "2MASS J02495639-0557352:2MASS J0246-0557"
 		AscendingNode -18.41202
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=2MASS J04372171+2651014"
-}
-
-"2MASS J06023447-0034369:TIC 11755687"
-{
-	RA 90.64364
-	Dec -0.576935
-	Distance 1201.39973
-	AppMag 13.24
-	SpectralType "G9"
-	Temperature 5370
-	Radius 670079
-	UniformRotation
-	{
-		Period 600
-		Inclination 90.25602
-		AscendingNode 90.59053
-	}
-	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=2MASS J06023447-0034369"
 }
 
 Barycenter "2MASS J11193254–1137466:TWA 42"
@@ -1821,6 +1803,24 @@ Barycenter "94 Cet BC:Gliese 128 BC:HD 19994 BC:HIP 14954 BC:HR 962 BC"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=94 Cet"
 }
 
+22910 "AB Aur"
+{
+	RA 73.941025
+	Dec 30.551192
+	Distance 508.60948
+	AppMag 7.06
+	SpectralType "A0Ve"
+	Temperature 9770
+	Radius 1455351
+	UniformRotation
+	{
+		Period 600
+		Inclination 72.74099
+		AscendingNode 20.88058
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=AB Aur"
+}
+
 Barycenter 25647 "AB Dor"
 {
 	RA 82.186645
@@ -2064,21 +2064,46 @@ Barycenter "AD 3116:EPIC 211946007:NGC 2632 HSHJ 430"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=AU Mic"
 }
 
-71865 "b Cen:HR 5471"
+Barycenter 71865 "b Cen:HR 5471"
 {
 	RA 220.489961
 	Dec -37.793498
 	Distance 339.0395
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=b Cen"
+}
+
+"b Cen B:HD 129116 B:HIP 71865 B:HR 5471 B"
+{
+	OrbitBarycenter "b Cen"
+	AbsMag -0.9
+	SpectralType "B5"
+	Temperature 15700
+	Radius 2367556
+	EllipticalOrbit
+	{
+		Period 0.296677
+		SemiMajorAxis 0.53671
+	}
+	InfoURL "http://arxiv.org/abs/1309.3811"
+}
+
+"b Cen A:HD 129116 A:HIP 71865 A:HR 5471 A"
+{
+	OrbitBarycenter "b Cen"
 	AppMag 4
 	SpectralType "B3V"
 	Temperature 18310
 	Radius 2423263
-	SemiAxes [ 1 0.972 1 ]
+	SemiAxes [ 1 0.961 1 ]
+	EllipticalOrbit
+	{
+		Period 0.296677
+		SemiMajorAxis 0.4217
+		ArgOfPericenter 180
+	}
 	UniformRotation
 	{
 		Period 32.7859856452822
-		Inclination 117.92391
-		AscendingNode 279.25494
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=b Cen"
 }
@@ -3561,7 +3586,6 @@ Barycenter "DE CVn"
 	OrbitBarycenter "DE CVn"
 	AppMag 12.5
 	SpectralType "DA6"
-	Temperature 8000
 	Radius 6963
 	EllipticalOrbit
 	{
@@ -3723,7 +3747,6 @@ Barycenter "DP Leo"
 	OrbitBarycenter "DP Leo"
 	AppMag 17.5
 	SpectralType "DA4"
-	Temperature 13500
 	Radius 7938
 	EllipticalOrbit
 	{
@@ -3829,7 +3852,6 @@ Barycenter "DW UMa"
 	OrbitBarycenter "DW UMa"
 	AbsMag 12.5
 	SpectralType "DA6"
-	Temperature 8900
 	Radius 8356
 	EllipticalOrbit
 	{
@@ -4028,6 +4050,64 @@ Barycenter 1018731400 "EPIC 212036875:2MASS J08584567+2052088:TIC 203214138:TOI-
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=EPIC 212036875"
 }
 
+Barycenter "EPIC 215816368:2MASS J19433920-2329131"
+{
+	RA 295.913319
+	Dec -23.486995
+	Distance 5058.25062
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=EPIC 215816368"
+}
+
+"EPIC 215816368 B:2MASS J19433920-2329131 B"
+{
+	OrbitBarycenter "EPIC 215816368"
+	AbsMag 20.9
+	SpectralType "L2"
+	Temperature 1960
+	Radius 123789
+	EllipticalOrbit
+	{
+		Epoch 2457304.55391
+		Period 0.027778
+		SemiMajorAxis 0.08429
+		Inclination 79.98925
+		AscendingNode 294.02583
+		ArgOfPericenter 87.8169
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 79.98925
+		AscendingNode 294.02583
+	}
+	InfoURL "http://arXiv.org/abs/1706.03858"
+}
+
+"EPIC 215816368 A:2MASS J19433920-2329131 A"
+{
+	OrbitBarycenter "EPIC 215816368"
+	AppMag 15.84
+	SpectralType "G9V"
+	Temperature 5320
+	Radius 834215
+	EllipticalOrbit
+	{
+		Epoch 2457304.55391
+		Period 0.027778
+		SemiMajorAxis 0.00628
+		Inclination 79.98925
+		AscendingNode 294.02583
+		ArgOfPericenter 267.8169
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 79.98925
+		AscendingNode 294.02583
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=EPIC 215816368"
+}
+
 78159 "EPS CrB:13 CrB:HR 5947:BD+27 2558" # Eps CrB A
 {
 	RA 239.396881
@@ -4059,7 +4139,6 @@ Barycenter 19921 "EPS Ret:GJ 9153:Gliese 167.3:HR 1355:TYC 8508-2041-1"
 	OrbitBarycenter "EPS Ret"
 	AppMag 12.5
 	SpectralType "DA3"
-	Temperature 15310
 	Radius 9192
 	EllipticalOrbit
 	{
@@ -4204,6 +4283,42 @@ Barycenter 19921 "EPS Ret:GJ 9153:Gliese 167.3:HR 1355:TYC 8508-2041-1"
 		AscendingNode 130.76829
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=G 9-40"
+}
+
+"Gaia-1:TIC 11755687"
+{
+	RA 90.64364
+	Dec -0.576935
+	Distance 1201.39973
+	AppMag 13.2
+	SpectralType "G8"
+	Temperature 5470
+	Radius 662916
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.51899
+		AscendingNode 86.68944
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Gaia-1"
+}
+
+1005154123 "Gaia-2:TIC 147797743"
+{
+	RA 110.735255
+	Dec 67.252553
+	Distance 675.84492
+	AppMag 11.28
+	SpectralType "G3"
+	Temperature 5720
+	Radius 740906
+	UniformRotation
+	{
+		Period 600
+		Inclination 101.16142
+		AscendingNode 106.03715
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Gaia-2"
 }
 
 "Gaia14aae"
@@ -4926,8 +5041,8 @@ Barycenter 1292 "GJ 3021"
 	UniformRotation
 	{
 		Period 516.96
-		Inclination 95.58178
-		AscendingNode 78.66813
+		Inclination 94.58905
+		AscendingNode 73.74823
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=GJ 3470"
 }
@@ -5081,8 +5196,8 @@ Barycenter "GJ 3473:TIC 452866790:TOI-488"
 	Distance 30.70825
 	AppMag 10.15
 	SpectralType "M1V"
-	Temperature 3522
-	Radius 318227
+	Temperature 3512
+	Radius 333547
 	UniformRotation
 	{
 		Period 1152
@@ -6087,7 +6202,6 @@ Barycenter 10138 "Gliese 86:TYC 8048-1022-1:HR 637" # GJ 86
 	OrbitBarycenter "Gliese 86"
 	AppMag 11.8
 	SpectralType "DQ6"
-	Temperature 3870
 	Radius 6963
 	EllipticalOrbit
 	{
@@ -6166,8 +6280,8 @@ Barycenter 10138 "Gliese 86:TYC 8048-1022-1:HR 637" # GJ 86
 	UniformRotation
 	{
 		Period 600
-		Inclination 96.50918
-		AscendingNode 105.25821
+		Inclination 89.27167
+		AscendingNode 102.65419
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=GJ 9224"
 }
@@ -6409,7 +6523,6 @@ Barycenter "GK Vir"
 	OrbitBarycenter "GK Vir"
 	AbsMag 12.5
 	SpectralType "DA1"
-	Temperature 50000
 	Radius 11838
 	EllipticalOrbit
 	{
@@ -6745,11 +6858,11 @@ Barycenter 1001523086 "Franz:HAT-P-14:WASP-27"
 	Distance 631.30226
 	AppMag 12.41
 	SpectralType "G5"
-	Temperature 5568
+	Temperature 5620
 	Radius 752047
 	UniformRotation
 	{
-		Period 600
+		Period 857.888873882633
 		Inclination 81.05697
 		AscendingNode 67.14678
 	}
@@ -6858,8 +6971,8 @@ Barycenter 1004172717 "HAT-P-17:TOI-1283:TIC 266593143"
 	Radius 389254
 	EllipticalOrbit
 	{
-		Period 180.402606
-		SemiMajorAxis 22.1853
+		Period 180.024628
+		SemiMajorAxis 22.24313
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HAT-P-17"
 }
@@ -6868,20 +6981,20 @@ Barycenter 1004172717 "HAT-P-17:TOI-1283:TIC 266593143"
 {
 	OrbitBarycenter "HAT-P-17"
 	AppMag 10.38
-	SpectralType "K"
-	Temperature 5332
-	Radius 584926
+	SpectralType "G0"
+	Temperature 5350
+	Radius 598852
 	EllipticalOrbit
 	{
-		Period 180.402606
-		SemiMajorAxis 13.8147
+		Period 180.024628
+		SemiMajorAxis 13.75687
 		ArgOfPericenter 180
 	}
 	UniformRotation
 	{
-		Period 1823.0138570006
-		Inclination 72.01145
-		AscendingNode 321.20111
+		Period 1244.27929922263
+		Inclination 71.59537
+		AscendingNode 321.64143
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HAT-P-17"
 }
@@ -6994,18 +7107,18 @@ Barycenter "HAT-P-20:TIC 26826078:TOI-5096"
 
 1012293013 "Mazaalai:HAT-P-21:TOI-1800:TIC 17993892"
 {
-	RA 171.275
-	Dec 41.028056
-	Distance 911.53405
+	RA 171.274941
+	Dec 41.027962
+	Distance 926.84285
 	AppMag 11.46
 	SpectralType "G3"
-	Temperature 5588
-	Radius 769456
+	Temperature 5699
+	Radius 869032
 	UniformRotation
 	{
-		Period 381.6
-		Inclination 114.82836
-		AscendingNode 168.04893
+		Period 381.12
+		Inclination 115.25877
+		AscendingNode 167.39806
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HAT-P-21"
 }
@@ -7167,8 +7280,8 @@ Barycenter 1010270320 "HAT-P-26"
 	Radius 408752
 	EllipticalOrbit
 	{
-		Period 334.610996
-		SemiMajorAxis 31.34088
+		Period 337.016623
+		SemiMajorAxis 31.0139
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HAT-P-26"
 }
@@ -7178,19 +7291,19 @@ Barycenter 1010270320 "HAT-P-26"
 	OrbitBarycenter "HAT-P-26"
 	AppMag 11.76
 	SpectralType "K1"
-	Temperature 5079
-	Radius 548716
+	Temperature 5100
+	Radius 637847
 	EllipticalOrbit
 	{
-		Period 334.610996
-		SemiMajorAxis 22.65912
+		Period 337.016623
+		SemiMajorAxis 22.9861
 		ArgOfPericenter 180
 	}
 	UniformRotation
 	{
-		Period 600
-		Inclination 109.86476
-		AscendingNode 214.03239
+		Period 585.92305017984
+		Inclination 110.26654
+		AscendingNode 212.6046
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HAT-P-26"
 }
@@ -7272,13 +7385,13 @@ Barycenter "HAT-P-27:WASP-40"
 	Distance 1031.81272
 	AppMag 11.83
 	SpectralType "F8"
-	Temperature 6115
-	Radius 861373
+	Temperature 6140
+	Radius 885744
 	UniformRotation
 	{
-		Period 600
-		Inclination 71.79977
-		AscendingNode 33.76984
+		Period 297.291490526251
+		Inclination 71.27884
+		AscendingNode 34.45106
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HAT-P-29"
 }
@@ -8735,9 +8848,9 @@ Barycenter "HATS-1:TOI-766"
 
 "HATS-11:K2-143:EPIC 216414930"
 {
-	RA 289.401
-	Dec -22.389917
-	Distance 3162.26488
+	RA 289.40075
+	Dec -22.389923
+	Distance 2946.30533
 	AppMag 14.02
 	SpectralType "F9"
 	Temperature 6060
@@ -8745,17 +8858,17 @@ Barycenter "HATS-1:TOI-766"
 	UniformRotation
 	{
 		Period 461.830177106818
-		Inclination 82.40609
-		AscendingNode 286.20144
+		Inclination 82.40583
+		AscendingNode 286.92758
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HATS-11"
 }
 
 "HATS-12:K2-144:EPIC 218131080"
 {
-	RA 289.203
-	Dec -19.355889
-	Distance 1219.95886
+	RA 289.202395
+	Dec -19.355904
+	Distance 1431.19926
 	AppMag 12.76
 	SpectralType "F6"
 	Temperature 6408
@@ -8763,8 +8876,8 @@ Barycenter "HATS-1:TOI-766"
 	UniformRotation
 	{
 		Period 408.813863416673
-		Inclination 82.91278
-		AscendingNode 280.37456
+		Inclination 82.94205
+		AscendingNode 279.94169
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HATS-12"
 }
@@ -10137,7 +10250,7 @@ Barycenter "HATS-65"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HATS-71"
 }
 
-"HATS-72:TOI-294:TIC 188570092:2MASS J22360631-1659597"
+"HATS-72:WASP-191:TOI-294:TIC 188570092"
 {
 	RA 339.026329
 	Dec -16.999941
@@ -10291,8 +10404,8 @@ Barycenter "HATS-74:TIC 219189765:TOI-737"
 	UniformRotation
 	{
 		Period 398.834035963886
-		Inclination 82.00695
-		AscendingNode 285.69085
+		Inclination 81.9125
+		AscendingNode 288.15323
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HATS-9"
 }
@@ -11088,7 +11201,6 @@ Barycenter 60081 # HD 107148
 	OrbitBarycenter "HD 107148"
 	AppMag 12.5
 	SpectralType "DA8"
-	Temperature 6150
 	Radius 6500
 	EllipticalOrbit
 	{
@@ -11316,7 +11428,6 @@ Barycenter 61300 # HD 109271
 	OrbitBarycenter "HD 109271"
 	AppMag 12.5
 	SpectralType "DA9"
-	Temperature 5095
 	Radius 6500
 	EllipticalOrbit
 	{
@@ -12076,7 +12187,6 @@ Barycenter 66435 "HR 5139:TYC 4405-1859-1" # HD 118904
 	OrbitBarycenter "HD 118904"
 	AbsMag 12.5
 	SpectralType "DA"
-	Temperature 4000
 	Radius 6500
 	EllipticalOrbit
 	{
@@ -13878,7 +13988,6 @@ Barycenter "GJ 9559:Gliese 620.1:HD 147513:HR 6094"
 	OrbitBarycenter "HD 147513"
 	AppMag 11.03
 	SpectralType "DA2"
-	Temperature 4230
 	Radius 6500
 	EllipticalOrbit
 	{
@@ -15401,6 +15510,60 @@ Barycenter "Gliese 743.2:HD 177830"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 177830"
 }
 
+Barycenter 94235 "TIC 464646604:TOI-4399" # HD 178085 
+{
+	RA 287.741043
+	Dec -60.272202
+	Distance 190.95002
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 178085"
+}
+
+"HD 178085 B:TIC 464646604 B:HIP 94235 B:TOI-4399 B"
+{
+	OrbitBarycenter "HD 178085"
+	AbsMag 12.8
+	SpectralType "M4"
+	Temperature 3200
+	Radius 179656
+	EllipticalOrbit
+	{
+		Period 365
+		SemiMajorAxis 45.24668
+		Eccentricity 0.25
+		Inclination 54.28434
+		AscendingNode 278.98694
+		ArgOfPericenter 358.90023
+		MeanAnomaly 161.73
+	}
+	InfoURL "http://arxiv.org/abs/2204.11975"
+}
+
+"HD 178085 A:TIC 464646604 A:HIP 94235 A:TOI-4399 A"
+{
+	OrbitBarycenter "HD 178085"
+	AppMag 8.31
+	SpectralType "G1V"
+	Temperature 5991
+	Radius 752047
+	EllipticalOrbit
+	{
+		Period 365
+		SemiMajorAxis 10.75332
+		Eccentricity 0.25
+		Inclination 54.28434
+		AscendingNode 278.98694
+		ArgOfPericenter 178.90023
+		MeanAnomaly 161.73
+	}
+	UniformRotation
+	{
+		Period 53.76
+		Inclination 81.28976
+		AscendingNode 284.07377
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 178085"
+}
+
 Barycenter 94076 "HR 7272:TYC 2648-2151-1" # HD 178911 
 {
 	RA 287.268133
@@ -16746,7 +16909,7 @@ Barycenter 104903 "TYC 6359-848-1" # HD 202206
 {
 	RA 319.224806
 	Dec 27.258122
-	Distance 618.25833
+	Distance 598.05633
 	AppMag 8.22
 	SpectralType "K0III"
 	Temperature 4988
@@ -17665,9 +17828,9 @@ Barycenter 111928 "BD+31 4757:TYC 2736-824-1" # HD 214823
 
 112190 "GJ 4291" # HD 215152 A
 {
-	RA 340.8375
-	Dec -6.400833
-	Distance 70.48471
+	RA 340.838762
+	Dec -6.40082
+	Distance 70.3948
 	AppMag 8.13
 	SpectralType "K3V"
 	Temperature 4935
@@ -17675,8 +17838,8 @@ Barycenter 111928 "BD+31 4757:TYC 2736-824-1" # HD 214823
 	UniformRotation
 	{
 		Period 876
-		Inclination 112.01445
-		AscendingNode 157.55814
+		Inclination 112.01466
+		AscendingNode 157.55998
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 215152"
 }
@@ -18903,6 +19066,24 @@ Barycenter 18387 "TYC 8874-376-1" # HD 25171
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 25723"
 }
 
+31635 "Gliese 239:TOI-4599:TIC 307809773" # HD 260655 A
+{
+	RA 99.294995
+	Dec 17.564815
+	Distance 32.60803
+	AppMag 9.77
+	SpectralType "M0V"
+	Temperature 3803
+	Radius 305693
+	UniformRotation
+	{
+		Period 900
+		Inclination 93.44336
+		AscendingNode 96.11702
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 260655"
+}
+
 Barycenter 19428 # HD 26161 
 {
 	RA 62.411901
@@ -19153,6 +19334,24 @@ Barycenter 1010028090 "HD 274870:TOI-1406:TIC 231736113"
 		AscendingNode -131.00397
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 27969"
+}
+
+20295 "TOI-282:TIC 29781292" # HD 28109 A
+{
+	RA 65.23805
+	Dec -68.102643
+	Distance 457.40972
+	AppMag 9.38
+	SpectralType "F8/G0V"
+	Temperature 6120
+	Radius 1006908
+	UniformRotation
+	{
+		Period 228.23186469462
+		Inclination 79.04334
+		AscendingNode 67.05215
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 28109"
 }
 
 20723 # HD 28185 A
@@ -19876,6 +20075,24 @@ Barycenter 23889 "TYC 6481-1002-1" # HD 33283
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 34445"
 }
 
+1006911577 "HD 348661:TOI-2158:TIC 342642208"
+{
+	RA 276.810255
+	Dec 20.526853
+	Distance 640.57664
+	AppMag 10.89
+	SpectralType "G5"
+	Temperature 5673
+	Radius 981839
+	UniformRotation
+	{
+		Period 463.144060967719
+		Inclination 90.27613
+		AscendingNode 273.15169
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 348661"
+}
+
 25883 # HD 35759 A
 {
 	RA 82.888964
@@ -19930,11 +20147,11 @@ Barycenter 23889 "TYC 6481-1002-1" # HD 33283
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 36112"
 }
 
-26381 # HD 37124 A
+26381 "Gliese 209" # HD 37124 A
 {
-	RA 84.258333
-	Dec 20.730556
-	Distance 103.3657
+	RA 84.260361
+	Dec 20.730787
+	Distance 103.18356
 	AppMag 7.68
 	SpectralType "G4V"
 	Temperature 5610
@@ -19942,8 +20159,8 @@ Barycenter 23889 "TYC 6481-1002-1" # HD 33283
 	UniformRotation
 	{
 		Period 816.869597125951
-		Inclination 92.16019
-		AscendingNode -92.66982
+		Inclination 92.1594
+		AscendingNode -92.66811
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 37124"
 }
@@ -20801,6 +21018,67 @@ Barycenter "HD 43691 BC:HIP 30057 BC:BD+41 1415 BC"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 44385"
 }
 
+Barycenter 1011220133 "HD 44717:TIC 293853437:TOI-629"
+{
+	RA 95.82788
+	Dec 0.883363
+	Distance 1055.99948
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 44717"
+}
+
+"HD 44717 B:TOI-629.01:TIC 293853437 B"
+{
+	OrbitBarycenter "HD 44717"
+	AbsMag 20.9
+	SpectralType "L2"
+	Temperature 1960
+	Radius 77601
+	EllipticalOrbit
+	{
+		Epoch 2459204.2552
+		Period 0.023869
+		SemiMajorAxis 0.10587
+		Eccentricity 0.2986
+		Inclination 91.79884
+		AscendingNode 94.10158
+		ArgOfPericenter 256.03743
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 91.79884
+		AscendingNode 94.10158
+	}
+	InfoURL "http://arxiv.org/abs/2205.10854"
+}
+
+"HD 44717 A:TIC 293853437 A:TOI-629 A"
+{
+	OrbitBarycenter "HD 44717"
+	AppMag 8.74
+	SpectralType "A2V"
+	Temperature 9100
+	Radius 1650326
+	SemiAxes [ 1 0.986 1 ]
+	EllipticalOrbit
+	{
+		Epoch 2459204.2552
+		Period 0.023869
+		SemiMajorAxis 0.00313
+		Eccentricity 0.2986
+		Inclination 91.79884
+		AscendingNode 94.10158
+		ArgOfPericenter 76.03743
+	}
+	UniformRotation
+	{
+		Period 50.5947987714902
+		Inclination 91.79884
+		AscendingNode 94.10158
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 44717"
+}
+
 30503 "GJ 3394:HR 2318" # HD 45184 A
 {
 	RA 96.182832
@@ -20841,7 +21119,7 @@ Barycenter "HD 43691 BC:HIP 30057 BC:BD+41 1415 BC"
 {
 	RA 96.41031
 	Dec -31.480952
-	Distance 112.15934
+	Distance 111.95068
 	AppMag 8.06
 	SpectralType "K0V"
 	Temperature 5434
@@ -21473,6 +21751,18 @@ Barycenter "HD 59686:HR 2877"
 		AscendingNode 54.88464
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 60532"
+}
+
+1038026539 "n Pup:HD 60584:HR 2909"
+{
+	RA 113.577574
+	Dec -23.473665
+	Distance 99.59965
+	AppMag 5.77
+	SpectralType "F5V"
+	Temperature 6510
+	Radius 1016656
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 60584"
 }
 
 38228 "V377 Gem:TOI-1726:TIC 130181866" # HD 63433 A
@@ -22552,18 +22842,18 @@ Barycenter "HD 8326"
 
 47202 "Kalausi" # HD 83443 A
 {
-	RA 144.295833
-	Dec -43.271944
-	Distance 133.55281
+	RA 144.299281
+	Dec -43.272204
+	Distance 133.23693
 	AppMag 8.23
 	SpectralType "K0V"
-	Temperature 5460
-	Radius 724194
+	Temperature 5442
+	Radius 654560
 	UniformRotation
 	{
 		Period 847.2
-		Inclination 33.75917
-		AscendingNode 12.47149
+		Inclination 108.84599
+		AscendingNode 141.93118
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 83443"
 }
@@ -22581,7 +22871,6 @@ Barycenter 6511 # HD 8535
 	OrbitBarycenter "HD 8535"
 	AbsMag 12.5
 	SpectralType "DA8"
-	Temperature 6000
 	Radius 6500
 	EllipticalOrbit
 	{
@@ -23922,7 +24211,6 @@ Barycenter 116454 "K2-2:TYC 585-774-1:EPIC 60021410"
 	OrbitBarycenter "K2-2"
 	AppMag 12.5
 	SpectralType "DA6.7"
-	Temperature 7500
 	Radius 7645
 	EllipticalOrbit
 	{
@@ -24028,7 +24316,6 @@ Barycenter 38594 "Ross 429" # HIP 38594
 	OrbitBarycenter 38594
 	AppMag 12.5
 	SpectralType "DA9"
-	Temperature 4000
 	Radius 6500
 	EllipticalOrbit
 	{
@@ -24812,11 +25099,11 @@ Barycenter 70849 "GJ 9482:Gliese 550.3"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=K2-116"
 }
 
-"K2-117:EPIC 211331236:2MASS J08552535+1028087"
+"K2-117:EPIC 211331236:TIC 458686847:TOI-5528"
 {
-	RA 133.855667
-	Dec 10.469139
-	Distance 332.44926
+	RA 133.855684
+	Dec 10.46914
+	Distance 333.4792
 	AppMag 14.66
 	SpectralType "M1V"
 	Temperature 3676
@@ -24825,7 +25112,7 @@ Barycenter 70849 "GJ 9482:Gliese 550.3"
 	{
 		Period 600
 		Inclination 105.99763
-		AscendingNode 131.39767
+		AscendingNode 131.39769
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=K2-117"
 }
@@ -25134,7 +25421,7 @@ Barycenter "K2-122:EPIC 212006344:2MASS J08255432+2021344"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=K2-130"
 }
 
-"K2-131:EPIC 228732031:2MASS J12110036-0945547"
+"K2-131:EPIC 228732031:TIC 176868951:TOI-5534"
 {
 	RA 182.751577
 	Dec -9.765216
@@ -25208,18 +25495,18 @@ Barycenter "K2-122:EPIC 212006344:2MASS J08255432+2021344"
 
 1020086300 "K2-139:EPIC 218916923"
 {
-	RA 289.066529
-	Dec -17.910689
-	Distance 504.0272
+	RA 289.066538
+	Dec -17.910669
+	Distance 498.92309
 	AppMag 11.65
 	SpectralType "K0V"
-	Temperature 5287
-	Radius 598852
+	Temperature 5245
+	Radius 600941
 	UniformRotation
 	{
 		Period 413.76
-		Inclination 82.53386
-		AscendingNode 287.59416
+		Inclination 82.54762
+		AscendingNode 287.41316
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=K2-139"
 }
@@ -26012,12 +26299,12 @@ Barycenter "K2-151"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=K2-18"
 }
 
-"K2-180:EPIC 211319617:2MASS J08255135+1014491"
+"K2-180:EPIC 211319617:TIC 366411016:TOI-5529"
 {
-	RA 126.463917
-	Dec 10.246972
-	Distance 668.90074
-	AppMag 12.61 # From 2MASS JHK
+	RA 126.463932
+	Dec 10.246961
+	Distance 663.86322
+	AppMag 12.6
 	SpectralType "K2V"
 	Temperature 5263
 	Radius 474208
@@ -26025,7 +26312,7 @@ Barycenter "K2-151"
 	{
 		Period 600
 		Inclination 103.50038
-		AscendingNode 123.02015
+		AscendingNode 123.02016
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=K2-180"
 }
@@ -27716,15 +28003,15 @@ Barycenter 1004865818 "K2-265:BD-15 6276:EPIC 206011496"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=K2-265"
 }
 
-Barycenter "K2-266:EPIC 248435473:2MASS J10314450+0056152"
+Barycenter "K2-266"
 {
-	RA 157.935458
-	Dec 0.937583
-	Distance 253.52196
+	RA 157.93544
+	Dec 0.937575
+	Distance 253.41756
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=K2-266"
 }
 
-"K2-266 B:EPIC 248435395:2MASS J10314450+0056152 B"
+"K2-266 B:EPIC 248435395"
 {
 	OrbitBarycenter "K2-266"
 	AppMag 12.78 # From 2MASS JHK
@@ -27735,41 +28022,41 @@ Barycenter "K2-266:EPIC 248435473:2MASS J10314450+0056152"
 	{
 		Period 167774.806416
 		SemiMajorAxis 1661.9253
-		Inclination 82.27651
-		AscendingNode 69.24761
+		Inclination 82.2765
+		AscendingNode 69.2476
 		ArgOfPericenter 68.15979
 		MeanAnomaly 255.95712
 	}
 	UniformRotation
 	{
 		Period 600
-		Inclination 111.27212
-		AscendingNode 153.65846
+		Inclination 111.27211
+		AscendingNode 153.65844
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=K2-266"
 }
 
-"K2-266 A:EPIC 248435473:2MASS J10314450+0056152 A"
+"K2-266 A:EPIC 248435473:TOI-5520:TIC 374180079"
 {
 	OrbitBarycenter "K2-266"
 	AppMag 11.72 # From 2MASS JHK
-	SpectralType "K6"
+	SpectralType "K5V"
 	Temperature 4284
 	Radius 444265
 	EllipticalOrbit
 	{
 		Period 167774.806416
 		SemiMajorAxis 1654.0747
-		Inclination 82.27651
-		AscendingNode 69.24761
+		Inclination 82.2765
+		AscendingNode 69.2476
 		ArgOfPericenter 248.15979
 		MeanAnomaly 255.95712
 	}
 	UniformRotation
 	{
 		Period 600
-		Inclination 111.17552
-		AscendingNode 153.02864
+		Inclination 111.17551
+		AscendingNode 153.02862
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=K2-266"
 }
@@ -28889,7 +29176,7 @@ Barycenter "K2-290 AB:EPIC 249624646 AB"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=K2-307"
 }
 
-"K2-308:EPIC 246865365:2MASS J05132138+1624510"
+"K2-308:EPIC 246865365:TIC 411697517:TOI-5535"
 {
 	RA 78.339131
 	Dec 16.41436
@@ -29155,7 +29442,7 @@ Barycenter "K2-32:EPIC 205071984"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=K2-320"
 }
 
-"K2-321:EPIC 248480671"
+"K2-321:EPIC 248480671:TIC 277833995:TOI-5524"
 {
 	RA 156.40528
 	Dec 2.514353
@@ -30901,11 +31188,11 @@ Barycenter "K2-32:EPIC 205071984"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=K2-42"
 }
 
-"K2-43:EPIC 201205469"
+"K2-43:EPIC 201205469:TOI-5523:TIC 443616612"
 {
-	RA 169.117125
-	Dec -3.975439
-	Distance 598.41844
+	RA 169.117153
+	Dec -3.975432
+	Distance 594.69769
 	AppMag 15.6
 	SpectralType "M1V"
 	Temperature 3939
@@ -30913,8 +31200,8 @@ Barycenter "K2-32:EPIC 205071984"
 	UniformRotation
 	{
 		Period 600
-		Inclination 112.90633
-		AscendingNode 167.55309
+		Inclination 112.90634
+		AscendingNode 167.55312
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=K2-43"
 }
@@ -32060,7 +32347,7 @@ Barycenter "K2-76:EPIC 206432863"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KAP CrB"
 }
 
-Barycenter 1021302785 "KELT-1:TOI-1476:TIC 432549364"
+Barycenter "KELT-1"
 {
 	RA 0.362154
 	Dec 39.383828
@@ -32068,7 +32355,7 @@ Barycenter 1021302785 "KELT-1:TOI-1476:TIC 432549364"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KELT-1"
 }
 
-"KELT-1 B:TOI-1476 B:TIC 432549364 B"
+"KELT-1 B"
 {
 	OrbitBarycenter "KELT-1"
 	AbsMag 12.8
@@ -32087,7 +32374,7 @@ Barycenter 1021302785 "KELT-1:TOI-1476:TIC 432549364"
 	InfoURL "https://arxiv.org/abs/1206.1635"
 }
 
-Barycenter "KELT-1 A:TOI-1476 A:TIC 432549364 A"
+Barycenter "KELT-1 A"
 {
 	OrbitBarycenter "KELT-1"
 	EllipticalOrbit
@@ -32101,7 +32388,7 @@ Barycenter "KELT-1 A:TOI-1476 A:TIC 432549364 A"
 	}
 }
 
-"KELT-1 Aa:TOI-1476 Aa:TIC 432549364 Aa"
+1021302785 "KELT-1 Aa:TOI-1476:TIC 432549364"
 {
 	OrbitBarycenter "KELT-1 A"
 	AppMag 10.63
@@ -32127,7 +32414,7 @@ Barycenter "KELT-1 A:TOI-1476 A:TIC 432549364 A"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KELT-1"
 }
 
-"KELT-1 Ab:TOI-1476.01:TIC 432549364 Ab"
+"KELT-1 Ab:TOI-1476.01"
 {
 	OrbitBarycenter "KELT-1 A"
 	AbsMag 20.9
@@ -32149,7 +32436,7 @@ Barycenter "KELT-1 A:TOI-1476 A:TIC 432549364 A"
 		Inclination 67.87972
 		AscendingNode 358.66391
 	}
-	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KELT-1"
+	InfoURL "https://arxiv.org/abs/1206.1635"
 }
 
 1000648378 "KELT-10"
@@ -32267,10 +32554,10 @@ Barycenter 1000868146 "KELT-15:TOI-505"
 	SpectralType "A2"
 	Temperature 7459
 	Radius 1145479
-	SemiAxes [ 1 0.993 1 ]
+	SemiAxes [ 1 0.991 1 ]
 	UniformRotation
 	{
-		Period 45.2316409466966
+		Period 41.2299139996697
 		Inclination 103.75704
 		AscendingNode 127.41409
 	}
@@ -32333,7 +32620,7 @@ Barycenter 1014940764 "KELT-19:BD+07 1721:TOI-508"
 {
 	RA 111.50954
 	Dec 7.615787
-	Distance 905.98889
+	Distance 960.41225
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KELT-19"
 }
 
@@ -32346,8 +32633,8 @@ Barycenter 1014940764 "KELT-19:BD+07 1721:TOI-508"
 	Radius 568910
 	EllipticalOrbit
 	{
-		Period 1501.989656
-		SemiMajorAxis 115.66256
+		Period 1639.340508
+		SemiMajorAxis 122.61049
 		Inclination 75.80536
 		AscendingNode 22.01611
 		ArgOfPericenter 81.34754
@@ -32363,11 +32650,11 @@ Barycenter 1014940764 "KELT-19:BD+07 1721:TOI-508"
 	SpectralType "A8V"
 	Temperature 7500
 	Radius 1274302
-	SemiAxes [ 1 0.969 1 ]
+	SemiAxes [ 1 0.968 1 ]
 	EllipticalOrbit
 	{
-		Period 1501.989656
-		SemiMajorAxis 62.11508
+		Period 1639.340508
+		SemiMajorAxis 65.84637
 		Inclination 75.80536
 		AscendingNode 22.01611
 		ArgOfPericenter 261.34754
@@ -32375,7 +32662,7 @@ Barycenter 1014940764 "KELT-19:BD+07 1721:TOI-508"
 	}
 	UniformRotation
 	{
-		Period 26.227321999301
+		Period 25.7535537927365
 		Inclination 97.22443
 		AscendingNode 105.39697
 	}
@@ -32457,7 +32744,7 @@ Barycenter 1012742676 "KELT-21:HD 332124:TIC 203189770:TOI-1198"
 {
 	RA 304.800021
 	Dec 32.581045
-	Distance 1556.60765
+	Distance 1588.37051
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KELT-21"
 }
 
@@ -34801,9 +35088,9 @@ Barycenter "Kepler-1076:KOI-2059:KIC 12301181"
 
 "Kepler-1077:KOI-2062:KIC 6774880"
 {
-	RA 291.03363
-	Dec 42.26786
-	Distance 3708.42524
+	RA 291.033638
+	Dec 42.267864
+	Distance 3730.48153
 	AppMag 15.02 # From 2MASS JHK
 	SpectralType "F9"
 	Temperature 6091
@@ -34812,16 +35099,16 @@ Barycenter "Kepler-1076:KOI-2059:KIC 12301181"
 	{
 		Period 600
 		Inclination 82.86451
-		AscendingNode 288.9131
+		AscendingNode 288.91311
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1077"
 }
 
 "Kepler-1078:KOI-2063:KIC 7449541"
 {
-	RA 293.20059
-	Dec 43.050041
-	Distance 8718.41754
+	RA 293.200568
+	Dec 43.05004
+	Distance 7756.38526
 	AppMag 15.81 # From 2MASS JHK
 	SpectralType "G5"
 	Temperature 5667
@@ -34829,17 +35116,17 @@ Barycenter "Kepler-1076:KOI-2059:KIC 12301181"
 	UniformRotation
 	{
 		Period 600
-		Inclination 97.12797
-		AscendingNode 283.919
+		Inclination 97.12798
+		AscendingNode 283.91898
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1078"
 }
 
 "Kepler-1079:KOI-2067:KIC 9304101"
 {
-	RA 299.5495
-	Dec 45.769749
-	Distance 1568.81036
+	RA 299.549515
+	Dec 45.769741
+	Distance 1974.19042
 	AppMag 12.74
 	SpectralType "G2V"
 	Temperature 5636
@@ -34848,16 +35135,16 @@ Barycenter "Kepler-1076:KOI-2059:KIC 12301181"
 	{
 		Period 600
 		Inclination 78.73252
-		AscendingNode 297.46006
+		AscendingNode 297.46007
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1079"
 }
 
 Barycenter "Kepler-108:KOI-119:KIC 9471974"
 {
-	RA 294.558912
+	RA 294.55936
 	Dec 46.062256
-	Distance 4206.29353
+	Distance 3289.18919
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-108"
 }
 
@@ -34872,16 +35159,16 @@ Barycenter "Kepler-108:KOI-119:KIC 9471974"
 	{
 		Period 3867.237268
 		SemiMajorAxis 192.63634
-		Inclination 155.74308
-		AscendingNode 224.5863
-		ArgOfPericenter 113.72982
+		Inclination 155.74295
+		AscendingNode 224.58699
+		ArgOfPericenter 113.73013
 		MeanAnomaly 125
 	}
 	UniformRotation
 	{
 		Period 600
-		Inclination 74.63135
-		AscendingNode 278.58507
+		Inclination 74.63117
+		AscendingNode 278.58548
 	}
 	InfoURL "https://arxiv.org/abs/1606.04485"
 }
@@ -34897,9 +35184,9 @@ Barycenter "Kepler-108:KOI-119:KIC 9471974"
 	{
 		Period 3867.237268
 		SemiMajorAxis 134.36366
-		Inclination 155.74308
-		AscendingNode 224.5863
-		ArgOfPericenter 293.72982
+		Inclination 155.74295
+		AscendingNode 224.58699
+		ArgOfPericenter 293.73013
 		MeanAnomaly 125
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-108"
@@ -34907,27 +35194,27 @@ Barycenter "Kepler-108:KOI-119:KIC 9471974"
 
 "Kepler-1080:KOI-2069:KIC 11360571"
 {
-	RA 296.46448
-	Dec 49.182907
-	Distance 4696.947
-	AppMag 13.35 # From 2MASS JHK
-	SpectralType "F5"
+	RA 296.464502
+	Dec 49.182905
+	Distance 4599.57693
+	AppMag 13.57
+	SpectralType "F7IV"
 	Temperature 6564
 	Radius 944237
 	UniformRotation
 	{
 		Period 600
-		Inclination 80.91067
-		AscendingNode 294.14326
+		Inclination 80.91066
+		AscendingNode 294.14328
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1080"
 }
 
 "Kepler-1081:KOI-2071:KIC 6035124"
 {
-	RA 289.44452
-	Dec 41.31776
-	Distance 1387.36654
+	RA 289.444554
+	Dec 41.317771
+	Distance 1375.25721
 	AppMag 13.87 # From 2MASS JHK
 	SpectralType "G8V"
 	Temperature 5272
@@ -34935,17 +35222,17 @@ Barycenter "Kepler-108:KOI-119:KIC 9471974"
 	UniformRotation
 	{
 		Period 600
-		Inclination 82.94589
-		AscendingNode 287.66881
+		Inclination 82.94587
+		AscendingNode 287.66884
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1081"
 }
 
 "Kepler-1082:KOI-2072:KIC 12058147"
 {
-	RA 289.35867
-	Dec 50.59848
-	Distance 2464.717
+	RA 289.358698
+	Dec 50.598485
+	Distance 2396.796
 	AppMag 13.55 # From 2MASS JHK
 	SpectralType "G0V"
 	Temperature 5866
@@ -34953,16 +35240,16 @@ Barycenter "Kepler-108:KOI-119:KIC 9471974"
 	UniformRotation
 	{
 		Period 600
-		Inclination 82.47095
-		AscendingNode 287.85199
+		Inclination 82.47094
+		AscendingNode 287.85202
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1082"
 }
 
 "Kepler-1083:KOI-2074:KIC 8866137"
 {
-	RA 283.16196
-	Dec 45.198311
+	RA 283.161903
+	Dec 45.19831
 	Distance 3021.08188
 	AppMag 16.09 # From 2MASS JHK
 	SpectralType "K1"
@@ -34971,35 +35258,35 @@ Barycenter "Kepler-108:KOI-119:KIC 9471974"
 	UniformRotation
 	{
 		Period 600
-		Inclination 86.43641
-		AscendingNode 281.45124
+		Inclination 86.43644
+		AscendingNode 281.45119
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1083"
 }
 
 1011213547 "Kepler-1084:KOI-2075:KIC 10857519"
 {
-	RA 290.10196
-	Dec 48.251141
-	Distance 1338.021
-	AppMag 12.25 # From 2MASS JHK
+	RA 290.101975
+	Dec 48.251133
+	Distance 1311.07449
+	AppMag 12.02
 	SpectralType "F8V"
 	Temperature 6084
 	Radius 945630
 	UniformRotation
 	{
 		Period 600
-		Inclination 84.8848
-		AscendingNode 287.58187
+		Inclination 84.88479
+		AscendingNode 287.58188
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1084"
 }
 
 "Kepler-1085:KOI-2076:KIC 9517393"
 {
-	RA 287.47763
-	Dec 46.141178
-	Distance 4632.23974
+	RA 287.477635
+	Dec 46.141169
+	Distance 4568.0112
 	AppMag 15.24 # From 2MASS JHK
 	SpectralType "F9"
 	Temperature 6063
@@ -35008,16 +35295,16 @@ Barycenter "Kepler-108:KOI-119:KIC 9471974"
 	{
 		Period 600
 		Inclination 83.18528
-		AscendingNode 286.09496
+		AscendingNode 286.09497
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1085"
 }
 
 Barycenter "Kepler-1086:KOI-2078:KIC 9351316"
 {
-	RA 295.25116
-	Dec 45.842972
-	Distance 1540.36082
+	RA 295.251165
+	Dec 45.842969
+	Distance 1532.04002
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1086"
 }
 
@@ -35032,7 +35319,7 @@ Barycenter "Kepler-1086:KOI-2078:KIC 9351316"
 	{
 		Period 537862.50004
 		SemiMajorAxis 3370.41274
-		Inclination 155.3478
+		Inclination 155.34779
 		AscendingNode 225.43516
 		ArgOfPericenter 114.00497
 		MeanAnomaly 148.66889
@@ -35051,7 +35338,7 @@ Barycenter "Kepler-1086:KOI-2078:KIC 9351316"
 	{
 		Period 537862.50004
 		SemiMajorAxis 4105.58726
-		Inclination 155.3478
+		Inclination 155.34779
 		AscendingNode 225.43516
 		ArgOfPericenter 294.00497
 		MeanAnomaly 148.66889
@@ -44253,20 +44540,62 @@ Barycenter "Kepler-1480:KOI-3365:KIC 11455428"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1516"
 }
 
-1006673133 "Kepler-1517:KOI-3728:KIC 7515679:TIC 158555987:TOI-4594"
+Barycenter 1006673133 "Kepler-1517:KOI-3728:KIC 7515679:TIC 158555987:TOI-4594"
 {
 	RA 287.807208
 	Dec 43.188798
 	Distance 2832.19868
-	AppMag 12.23
-	SpectralType "A9"
-	Temperature 7358
-	Radius 2811125
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1517"
+}
+
+"Kepler-1517 B:KOI-3728.01:KIC 7515679 B:TOI-4594.01:TIC 158555987 B"
+{
+	OrbitBarycenter "Kepler-1517"
+	AbsMag 19.57
+	SpectralType "M9"
+	Temperature 2400
+	Radius 166388
+	EllipticalOrbit
+	{
+		Epoch 2454955.4112371
+		Period 0.015184
+		SemiMajorAxis 0.13202
+		Eccentricity 0.031
+		Inclination 86.60384
+		AscendingNode 284.79192
+		ArgOfPericenter 120.76617
+	}
 	UniformRotation
 	{
 		Period 600
-		Inclination 86.18439
-		AscendingNode 284.98115
+		Inclination 86.60384
+		AscendingNode 284.79192
+	}
+	InfoURL "http://arxiv.org/abs/1605.02398"
+}
+
+"Kepler-1517 A:KOI-3728 A:KIC 7515679 A:TIC 158555987 A:TOI-4594 A"
+{
+	OrbitBarycenter "Kepler-1517"
+	AppMag 12.23
+	SpectralType "A9"
+	Temperature 7358
+	Radius 3036042
+	EllipticalOrbit
+	{
+		Epoch 2454955.4112371
+		Period 0.015184
+		SemiMajorAxis 0.00498
+		Eccentricity 0.031
+		Inclination 86.60384
+		AscendingNode 284.79192
+		ArgOfPericenter 300.76617
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 86.60384
+		AscendingNode 284.79192
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1517"
 }
@@ -46951,18 +47280,18 @@ Barycenter "Kepler-1627:KOI-5245:KIC 6184894"
 
 "Kepler-1643:KOI-6186:KIC 8653134"
 {
-	RA 300.431
-	Dec 44.751015
+	RA 300.430988
+	Dec 44.751007
 	Distance 1125.76281
 	AppMag 14.21 # From 2MASS JHK
-	SpectralType "K2"
-	Temperature 5101
-	Radius 466548
+	SpectralType "K3"
+	Temperature 4916
+	Radius 616261
 	UniformRotation
 	{
-		Period 600
+		Period 122.544
 		Inclination 78.93998
-		AscendingNode 298.058
+		AscendingNode 298.05799
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1643"
 }
@@ -47290,8 +47619,8 @@ Barycenter "Kepler-1651:KOI-1725"
 	UniformRotation
 	{
 		Period 477.456010166822
-		Inclination 84.90803
-		AscendingNode 283.00446
+		Inclination 68.21619
+		AscendingNode 242.60556
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-1656"
 }
@@ -66822,20 +67151,62 @@ Barycenter "Kepler-755:KOI-1050:KIC 5809890"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-761"
 }
 
-"Kepler-762:KOI-1074:KIC 10272640:TIC 159725995:TOI-4595"
+Barycenter "Kepler-762:KOI-1074:KIC 10272640:TIC 159725995:TOI-4595"
 {
 	RA 291.27565
 	Dec 47.329512
 	Distance 6554.58199
-	AppMag 15.36 # From 2MASS JHK
-	SpectralType "F6"
-	Temperature 6322
-	Radius 748566
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-762"
+}
+
+"Kepler-762 B:KOI-1074.01:KIC 10272640 B:TOI-4595.01:TIC 159725995 B"
+{
+	OrbitBarycenter "Kepler-762"
+	AbsMag 14.3
+	SpectralType "M5"
+	Temperature 3030
+	Radius 96477
+	EllipticalOrbit
+	{
+		Epoch 2455190.118242
+		Period 0.010323
+		SemiMajorAxis 0.04226
+		Eccentricity 0.222
+		Inclination 85.29596
+		AscendingNode 288.30064
+		ArgOfPericenter 39.48243
+	}
 	UniformRotation
 	{
 		Period 600
-		Inclination 81.74798
-		AscendingNode 289.64205
+		Inclination 85.29596
+		AscendingNode 288.30064
+	}
+	InfoURL "http://arxiv.org/abs/1606.02398"
+}
+
+"Kepler-762 A:KOI-1074 A:KIC 10272640 A:TIC 159725995 A:TOI-4595 A"
+{
+	OrbitBarycenter "Kepler-762"
+	AppMag 15.36 # From 2MASS JHK
+	SpectralType "F6"
+	Temperature 6322
+	Radius 905242
+	EllipticalOrbit
+	{
+		Epoch 2455190.118242
+		Period 0.010323
+		SemiMajorAxis 0.00574
+		Eccentricity 0.222
+		Inclination 85.29596
+		AscendingNode 288.30064
+		ArgOfPericenter 219.48243
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 85.29596
+		AscendingNode 288.30064
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Kepler-762"
 }
@@ -67159,7 +67530,6 @@ Barycenter "Kepler-779:KOI-1146:KIC 8351704"
 	OrbitBarycenter "Kepler-779"
 	AbsMag 12.5
 	SpectralType "DA"
-	Temperature 4000
 	Radius 6500
 	EllipticalOrbit
 	{
@@ -72002,7 +72372,6 @@ Barycenter "KIC 10544976"
 	OrbitBarycenter "KIC 10544976"
 	AppMag 12.5
 	SpectralType "DA2"
-	Temperature 20470
 	Radius 9470
 	EllipticalOrbit
 	{
@@ -72465,6 +72834,42 @@ Barycenter 1006653162 "Boyajian's Star:KIC 8462852"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2018-BLG-1996L"
 }
 
+"KMT-2018-BLG-2004L"
+{
+	RA 268.427417
+	Dec -30.34035
+	Distance 22765.6888
+	AbsMag 7.36
+	SpectralType "K5"
+	Temperature 4410
+	Radius 486045
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.54995
+		AscendingNode 95.41745
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2018-BLG-2004L"
+}
+
+"KMT-2018-BLG-2718L"
+{
+	RA 268.233667
+	Dec -30.218411
+	Distance 14644.4044
+	AbsMag 5.91
+	SpectralType "K1"
+	Temperature 5170
+	Radius 566821
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.50169
+		AscendingNode 95.12238
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2018-BLG-2718L"
+}
+
 "KMT-2019-BLG-0253L:OGLE-2019-BLG-0410L:MOA-2019-BLG-127L"
 {
 	RA 267.882583
@@ -72537,6 +72942,24 @@ Barycenter 1006653162 "Boyajian's Star:KIC 8462852"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2019-BLG-0953L"
 }
 
+"KMT-2019-BLG-1042L"
+{
+	RA 270.544042
+	Dec -27.580669
+	Distance 21526.296
+	AbsMag 11.14
+	SpectralType "M3"
+	Temperature 3410
+	Radius 256949
+	UniformRotation
+	{
+		Period 600
+		Inclination 89.91689
+		AscendingNode 94.63061
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2019-BLG-1042L"
+}
+
 "KMT-2019-BLG-1339L:OGLE-2019-BLG-1019L"
 {
 	RA 265.743417
@@ -72553,6 +72976,24 @@ Barycenter 1006653162 "Boyajian's Star:KIC 8462852"
 		AscendingNode 88.28434
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2019-BLG-1339L"
+}
+
+"KMT-2019-BLG-1552L:OGLE-2019-BLG-1142L"
+{
+	RA 269.595792
+	Dec -27.566939
+	Distance 15003.176
+	AbsMag 6.17
+	SpectralType "K2"
+	Temperature 5040
+	Radius 531307
+	UniformRotation
+	{
+		Period 600
+		Inclination 89.54271
+		AscendingNode 93.7467
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2019-BLG-1552L"
 }
 
 Barycenter "KMT-2019-BLG-1715L:OGLE-2019-BLG-1190L:MOA-2019-BLG-352L"
@@ -72612,6 +73053,24 @@ Barycenter "KMT-2019-BLG-1715L:OGLE-2019-BLG-1190L:MOA-2019-BLG-352L"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2019-BLG-1953L"
 }
 
+"KMT-2019-BLG-2974L"
+{
+	RA 267.852083
+	Dec -29.423161
+	Distance 19895.516
+	AbsMag 9.69
+	SpectralType "M1"
+	Temperature 3700
+	Radius 345385
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.52473
+		AscendingNode 93.9961
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2019-BLG-2974L"
+}
+
 Barycenter "KMT-2020-BLG-0414L:MOA-2020-BLG-0109L"
 {
 	RA 271.915
@@ -72657,16 +73116,58 @@ Barycenter "KMT-2020-BLG-0414L:MOA-2020-BLG-0109L"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2020-BLG-0414L"
 }
 
-"KMT-2021-BLG-0322L:MOA-2021-BLG-091L"
+"KMT-2021-BLG-0171L"
 {
-	RA 270.911667
-	Dec -29.604389
+	RA 269.242417
+	Dec -30.092939
+	Distance 15003.176
+	AbsMag 6.17
+	SpectralType "K2"
+	Temperature 5040
+	Radius 531307
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.93102
+		AscendingNode 95.91641
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2021-BLG-0171L"
+}
+
+"KMT-2021-BLG-0240L"
+{
+	RA 267.577292
+	Dec -30.004969
 	Distance 21526.296
-	AbsMag 8.13
-	SpectralType "K7"
-	Temperature 4070
-	Radius 455406
-	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2021-BLG-0322L"
+	AbsMag 8.69
+	SpectralType "K9"
+	Temperature 3940
+	Radius 384380
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.28956
+		AscendingNode 94.31975
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2021-BLG-0240L"
+}
+
+"KMT-2021-BLG-0320L"
+{
+	RA 269.388125
+	Dec -30.503939
+	Distance 22667.842
+	AbsMag 11.14
+	SpectralType "M3"
+	Temperature 3410
+	Radius 256949
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.89144
+		AscendingNode 96.45178
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2021-BLG-0320L"
 }
 
 "KMT-2021-BLG-0748L"
@@ -72741,6 +73242,24 @@ Barycenter "KMT-2020-BLG-0414L:MOA-2020-BLG-0109L"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2021-BLG-1253L"
 }
 
+"KMT-2021-BLG-1303L:MOA-2021-BLG-182L"
+{
+	RA 271.863875
+	Dec -29.281581
+	Distance 20482.5968
+	AbsMag 8.69
+	SpectralType "K9"
+	Temperature 3940
+	Radius 384380
+	UniformRotation
+	{
+		Period 600
+		Inclination 90.14161
+		AscendingNode 97.53243
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2021-BLG-1303L"
+}
+
 "KMT-2021-BLG-1372L"
 {
 	RA 264.488542
@@ -72775,6 +73294,60 @@ Barycenter "KMT-2020-BLG-0414L:MOA-2020-BLG-0109L"
 		AscendingNode 95.23476
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2021-BLG-1391L"
+}
+
+"KMT-2021-BLG-1554L"
+{
+	RA 267.803417
+	Dec -31.864167
+	Distance 25048.7808
+	AbsMag 19.57
+	SpectralType "M9"
+	Temperature 2400
+	Radius 66152
+	UniformRotation
+	{
+		Period 600
+		Inclination 87.90138
+		AscendingNode 96.33736
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2021-BLG-1554L"
+}
+
+"KMT-2021-BLG-1689L:MOA-2021-BLG-258L"
+{
+	RA 269.577583
+	Dec -30.145311
+	Distance 23483.232
+	AbsMag 8.47
+	SpectralType "K8"
+	Temperature 4000
+	Radius 408752
+	UniformRotation
+	{
+		Period 600
+		Inclination 89.05165
+		AscendingNode 96.27382
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2021-BLG-1689L"
+}
+
+"KMT-2021-BLG-1898L"
+{
+	RA 265.691875
+	Dec -27.375839
+	Distance 22504.764
+	AbsMag 9.69
+	SpectralType "M1"
+	Temperature 3700
+	Radius 345385
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.01375
+		AscendingNode 90.03274
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KMT-2021-BLG-1898L"
 }
 
 Barycenter "KOI-120:KIC 11869052"
@@ -73047,6 +73620,66 @@ Barycenter "KOI-415:KIC 6289650"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KOI-415"
 }
 
+Barycenter "KOI-554:KIC 5443837"
+{
+	RA 290.351136
+	Dec 40.686989
+	Distance 5437.74592
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KOI-554"
+}
+
+"KOI-554.01:KOI-554 B:KIC 5443837 B"
+{
+	OrbitBarycenter "KOI-554"
+	AbsMag 18.84
+	SpectralType "M8"
+	Temperature 2500
+	Radius 53831
+	EllipticalOrbit
+	{
+		Epoch 2455003.544
+		Period 0.010016
+		SemiMajorAxis 0.0282
+		Eccentricity 0.042
+		Inclination 89.89789
+		AscendingNode 284.78102
+		ArgOfPericenter 312.09086
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 89.89789
+		AscendingNode 284.78102
+	}
+	InfoURL "http://arxiv.org/abs/1606.02398"
+}
+
+"KOI-554 A:KIC 5443837 A"
+{
+	OrbitBarycenter "KOI-554"
+	AppMag 14.56 # From 2MASS JHK
+	SpectralType "G0V"
+	Temperature 6108
+	Radius 752047
+	EllipticalOrbit
+	{
+		Epoch 2455003.544
+		Period 0.010016
+		SemiMajorAxis 0.0021
+		Eccentricity 0.042
+		Inclination 89.89789
+		AscendingNode 284.78102
+		ArgOfPericenter 132.09086
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 89.89789
+		AscendingNode 284.78102
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KOI-554"
+}
+
 Barycenter "KOI-607:KIC 5441980"
 {
 	RA 289.809122
@@ -73165,6 +73798,80 @@ Barycenter "KOI-686:KIC 7906882"
 		AscendingNode 294.25494
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KOI-686"
+}
+
+"KOI-7368:KIC 10736489"
+{
+	RA 293.947618
+	Dec 48.06525
+	Distance 861.63844
+	AppMag 12.83 # From 2MASS JHK
+	SpectralType "K0"
+	Temperature 5241
+	Radius 609994
+	UniformRotation
+	{
+		Period 62.544
+		Inclination 97.9665
+		AscendingNode 285.82233
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KOI-7368"
+}
+
+Barycenter "KOI-7913:KIC 8873450"
+{
+	RA 286.74851
+	Dec 45.158719
+	Distance 891.18531
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KOI-7913"
+}
+
+"KOI-7913 B:KIC 8873450 B"
+{
+	OrbitBarycenter "KOI-7913"
+	AbsMag 8.13
+	SpectralType "K7"
+	Temperature 4038
+	Radius 529218
+	EllipticalOrbit
+	{
+		Period 25202.469324
+		SemiMajorAxis 524.56403
+		Inclination 156.80132
+		AscendingNode 211.05406
+		ArgOfPericenter 106.91739
+		MeanAnomaly 231.17
+	}
+	UniformRotation
+	{
+		Period 63.408
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KOI-7913"
+}
+
+"KOI-7913 A:KIC 8873450 A"
+{
+	OrbitBarycenter "KOI-7913"
+	AppMag 14.22
+	SpectralType "K5"
+	Temperature 4324
+	Radius 550109
+	EllipticalOrbit
+	{
+		Period 25202.469324
+		SemiMajorAxis 434.83597
+		Inclination 156.80132
+		AscendingNode 211.05406
+		ArgOfPericenter 286.91739
+		MeanAnomaly 231.17
+	}
+	UniformRotation
+	{
+		Period 81.288
+		Inclination 84.69492
+		AscendingNode 284.90934
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=KOI-7913"
 }
 
 Barycenter "KOI-959:KIC 10002261:LHS 6343"
@@ -74142,11 +74849,11 @@ Barycenter "Stepanian's Star:LX Ser"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=MOA-2011-BLG-028L"
 }
 
-"MOA-2011-BLG-262L"
+"MOA-2011-BLG-262L:OGLE-2011-BLG-0703L"
 {
 	RA 270.097833
 	Dec -31.245258
-	Distance 1630.78
+	Distance 23483.232
 	AbsMag 16.62
 	SpectralType "M6"
 	Temperature 2850
@@ -74358,6 +75065,24 @@ Barycenter "Stepanian's Star:LX Ser"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=MOA-2016-BLG-319L"
 }
 
+"MOA-2020-BLG-135L:KMT-2020-BLG-0579L"
+{
+	RA 268.4235
+	Dec -29.807567
+	Distance 25766.324
+	AbsMag 12.8
+	SpectralType "M4"
+	Temperature 3200
+	Radius 179656
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.67017
+		AscendingNode 94.89145
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=MOA-2020-BLG-135L"
+}
+
 "MOA-bin-1L"
 {
 	RA 267.791667
@@ -74401,11 +75126,11 @@ Barycenter "Stepanian's Star:LX Ser"
 	Distance 50.8969
 	AppMag 5.15
 	SpectralType "G3IV-V"
-	Temperature 5700
-	Radius 967913
+	Temperature 5773
+	Radius 926132
 	UniformRotation
 	{
-		Period 600
+		Period 521.421167701246
 		Inclination 75.47035
 		AscendingNode 111.98768
 	}
@@ -74482,6 +75207,25 @@ Barycenter "MU2 Oct"
 		AscendingNode 108.3568
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=MU2 Oct"
+}
+
+82545 "Pipirima:MU2 Sco:HR 6252"
+{
+	RA 253.083939
+	Dec -38.017535
+	Distance 552.80678
+	AppMag 3.54
+	SpectralType "B2IV"
+	Temperature 21700
+	Radius 3899504
+	SemiAxes [ 1 0.994 1 ]
+	UniformRotation
+	{
+		Period 130.883046143633
+		Inclination 108.29954
+		AscendingNode 239.60922
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=MU2 Sco"
 }
 
 Barycenter "V2134 Oph:MXB 1658-298"
@@ -74636,6 +75380,7 @@ Barycenter "V2134 Oph:MXB 1658-298"
 	Distance 27723.26
 	AbsMag 16
 	SpectralType "Q"
+	Temperature 6640
 	Radius 10
 	UniformRotation
 	{
@@ -74644,6 +75389,24 @@ Barycenter "V2134 Oph:MXB 1658-298"
 		AscendingNode 84.3951
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=NGC 6440 X-2"
+}
+
+"NGC 6440H:PSR J1748-2021H"
+{
+	RA 267.221665
+	Dec -20.359808
+	Distance 27723.26
+	AbsMag 16
+	SpectralType "Q"
+	Temperature 6640
+	Radius 10
+	UniformRotation
+	{
+		Period 7.91246307938278E-07
+		Inclination 88.73407
+		AscendingNode 84.39988
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=NGC 6440H"
 }
 
 "NGTS-1:2MASS J05305145-3637508:TOI-551"
@@ -74954,7 +75717,7 @@ Barycenter "NGTS-19:TIC 48481940"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=NGTS-19"
 }
 
-1012987282 "NGTS-2:2MASS J14202949-3112074:TIC 125739286:TOI-1934"
+1012987282 "NGTS-2:WASP-179:TIC 125739286:TOI-1934"
 {
 	RA 215.122917
 	Dec -31.201856
@@ -75395,7 +76158,6 @@ Barycenter "NN Ser"
 	OrbitBarycenter "NN Ser"
 	AppMag 16.6
 	SpectralType "DAO1"
-	Temperature 57000
 	Radius 14693
 	EllipticalOrbit
 	{
@@ -75721,7 +76483,7 @@ Barycenter "OGLE-2006-BLG-284L"
 "OGLE-2006-BLG-284L A"
 {
 	OrbitBarycenter "OGLE-2006-BLG-284L"
-	AppMag 16.4
+	AbsMag 11.14
 	SpectralType "M3"
 	Temperature 3410
 	Radius 256949
@@ -76436,6 +77198,12 @@ Barycenter "OGLE-2013-BLG-0341L"
 	SpectralType "G3"
 	Temperature 5720
 	Radius 703303
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.17663
+		AscendingNode 95.3505
+	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2016-BLG-0596L"
 }
 
@@ -76784,6 +77552,24 @@ Barycenter "OGLE-2016-BLG-0613L"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2017-BLG-1522L"
 }
 
+"OGLE-2017-BLG-1691L:KMT-2017-BLG-0752L"
+{
+	RA 263.593833
+	Dec -29.284831
+	Distance 23776.7724
+	AbsMag 10.3
+	SpectralType "M2"
+	Temperature 3550
+	Radius 302212
+	UniformRotation
+	{
+		Period 600
+		Inclination 86.84941
+		AscendingNode 90.06537
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2017-BLG-1691L"
+}
+
 "OGLE-2018-BLG-0383L:KMT-2018-BLG-0900L"
 {
 	RA 268.68075
@@ -76946,6 +77732,24 @@ Barycenter "OGLE-2016-BLG-0613L"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2018-BLG-0799L"
 }
 
+"OGLE-2018-BLG-0932L:KMT-2018-BLG-2087L:MOA-2018-BLG-163L"
+{
+	RA 268.351208
+	Dec -29.021806
+	Distance 21591.5272
+	AbsMag 6.98
+	SpectralType "K4"
+	Temperature 4600
+	Radius 505543
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.80346
+		AscendingNode 94.05254
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2018-BLG-0932L"
+}
+
 "OGLE-2018-BLG-0962L:KMT-2018-BLG-2071L"
 {
 	RA 268.174792
@@ -77000,6 +77804,24 @@ Barycenter "OGLE-2016-BLG-0613L"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2018-BLG-1011L"
 }
 
+"OGLE-2018-BLG-1126L:KMT-2018-BLG-2064L"
+{
+	RA 268.355875
+	Dec -31.724719
+	Distance 18590.892
+	AbsMag 7.36
+	SpectralType "K5"
+	Temperature 4410
+	Radius 486045
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.1605
+		AscendingNode 96.70189
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2018-BLG-1126L"
+}
+
 "OGLE-2018-BLG-1185L:MOA-2018-BLG-288L"
 {
 	RA 269.79275
@@ -77016,6 +77838,24 @@ Barycenter "OGLE-2016-BLG-0613L"
 		AscendingNode 94.19294
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2018-BLG-1185L"
+}
+
+"OGLE-2018-BLG-1212L:MOA-2018-BLG-365L:KMT-2018-BLG-2299L"
+{
+	RA 271.077625
+	Dec -28.194083
+	Distance 5055.418
+	AbsMag 14.3
+	SpectralType "M5"
+	Temperature 3030
+	Radius 138572
+	UniformRotation
+	{
+		Period 600
+		Inclination 90.03288
+		AscendingNode 95.73064
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2018-BLG-1212L"
 }
 
 "OGLE-2018-BLG-1269L:KMT-2018-BLG-2418L"
@@ -77036,6 +77876,24 @@ Barycenter "OGLE-2016-BLG-0613L"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2018-BLG-1269L"
 }
 
+"OGLE-2018-BLG-1367L:MOA-2018-BLG-320L:KMT-2018-BLG-0914L"
+{
+	RA 269.755625
+	Dec -29.168361
+	Distance 17514.5772
+	AbsMag 12.8
+	SpectralType "M4"
+	Temperature 3200
+	Radius 179656
+	UniformRotation
+	{
+		Period 600
+		Inclination 89.33228
+		AscendingNode 95.47672
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2018-BLG-1367L"
+}
+
 "OGLE-2018-BLG-1428L:KMT-2018-BLG-0423L"
 {
 	RA 265.548708
@@ -77052,6 +77910,42 @@ Barycenter "OGLE-2016-BLG-0613L"
 		AscendingNode 88.67341
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2018-BLG-1428L"
+}
+
+"OGLE-2018-BLG-1544L:KMT-2018-BLG-0787L"
+{
+	RA 269.128833
+	Dec -30.402861
+	Distance 20547.828
+	AbsMag 8.13
+	SpectralType "K7"
+	Temperature 4070
+	Radius 455406
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.81323
+		AscendingNode 96.11639
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2018-BLG-1544L"
+}
+
+"OGLE-2018-BLG-1647L:KMT-2018-BLG-2060L"
+{
+	RA 268.962375
+	Dec -31.817
+	Distance 25701.0928
+	AbsMag 17.81
+	SpectralType "M7"
+	Temperature 2650
+	Radius 82168
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.37427
+		AscendingNode 97.34212
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2018-BLG-1647L"
 }
 
 Barycenter "OGLE-2018-BLG-1700L:KMT-2018-BLG-2330L"
@@ -77187,6 +78081,45 @@ Barycenter "OGLE-2018-BLG-1700L:KMT-2018-BLG-2330L"
 		AscendingNode 94.04599
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2019-BLG-1053L"
+}
+
+Barycenter "OGLE-2019-BLG-1470L:KMT-2019-BLG-2814L"
+{
+	RA 271.949208
+	Dec -27.033556
+	Distance 19895.516
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2019-BLG-1470L"
+}
+
+"OGLE-2019-BLG-1470L B:KMT-2019-BLG-2814L B"
+{
+	OrbitBarycenter "OGLE-2019-BLG-1470L"
+	AbsMag 14.3
+	SpectralType "M5"
+	Temperature 3030
+	Radius 138572
+	EllipticalOrbit
+	{
+		Period 1.549018
+		SemiMajorAxis 0.91667
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2019-BLG-1470L"
+}
+
+"OGLE-2019-BLG-1470L A:KMT-2019-BLG-2814L A"
+{
+	OrbitBarycenter "OGLE-2019-BLG-1470L"
+	AbsMag 8.91
+	SpectralType "M0"
+	Temperature 3870
+	Radius 389254
+	EllipticalOrbit
+	{
+		Period 1.549018
+		SemiMajorAxis 0.28333
+		ArgOfPericenter 180
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=OGLE-2019-BLG-1470L"
 }
 
 "OGLE-2019-BLG-1492L:KMT-2019-BLG-3004L"
@@ -77584,7 +78517,6 @@ Barycenter "OY Car"
 	OrbitBarycenter "OY Car"
 	AppMag 12.5
 	SpectralType "DA3"
-	Temperature 18600
 	Radius 6664
 	EllipticalOrbit
 	{
@@ -77825,6 +78757,7 @@ Barycenter "PSI1 Dra AC:31 Dra AC:Gliese 694.1 AC"
 	Distance 2313.16312
 	AbsMag 16
 	SpectralType "Q"
+	Temperature 0
 	Radius 10
 	UniformRotation
 	{
@@ -77892,6 +78825,7 @@ Barycenter "PSR B1620-26:PSR J1623-2631"
 	Distance 3913.872
 	AbsMag 16
 	SpectralType "Q"
+	Temperature 6640
 	Radius 10
 	UniformRotation
 	{
@@ -77909,6 +78843,7 @@ Barycenter "PSR B1620-26:PSR J1623-2631"
 	Distance 1646.83666
 	AbsMag 16
 	SpectralType "Q"
+	Temperature 1960
 	Radius 10
 	UniformRotation
 	{
@@ -77926,6 +78861,7 @@ Barycenter "PSR B1620-26:PSR J1623-2631"
 	Distance 2054.7828
 	AbsMag 16
 	SpectralType "Q"
+	Temperature 7030
 	Radius 10
 	UniformRotation
 	{
@@ -77943,6 +78879,7 @@ Barycenter "PSR B1620-26:PSR J1623-2631"
 	Distance 684.9276
 	AbsMag 16
 	SpectralType "Q"
+	Temperature 6640
 	Radius 10
 	UniformRotation
 	{
@@ -77960,6 +78897,7 @@ Barycenter "PSR B1620-26:PSR J1623-2631"
 	Distance 4566.184 # Hongjun An, et al. (2017)
 	AbsMag 16
 	SpectralType "Q"
+	Temperature 10700
 	Radius 10
 	UniformRotation
 	{
@@ -77977,6 +78915,7 @@ Barycenter "PSR B1620-26:PSR J1623-2631"
 	Distance 9099.7524
 	AbsMag 16
 	SpectralType "Q"
+	Temperature 6640
 	Radius 10
 	UniformRotation
 	{
@@ -77994,6 +78933,7 @@ Barycenter "PSR B1620-26:PSR J1623-2631"
 	Distance 1630.78
 	AbsMag 16
 	SpectralType "Q"
+	Temperature 6510
 	Radius 10
 	UniformRotation
 	{
@@ -78011,6 +78951,7 @@ Barycenter "PSR B1620-26:PSR J1623-2631"
 	Distance 741.26364
 	AbsMag 16
 	SpectralType "Q"
+	Temperature 6640
 	Radius 10
 	UniformRotation
 	{
@@ -78409,6 +79350,24 @@ Barycenter 63510 "DT Vir:Gliese 494:Ross 458:TYC 886-839-1:Wolf 462"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Ross 458"
 }
 
+"Gliese 585:Ross 508"
+{
+	RA 230.963071
+	Dec 17.465957
+	Distance 36.59395
+	AppMag 11.22 # From 2MASS JHK
+	SpectralType "M4.5V"
+	Temperature 3071
+	Radius 147137
+	UniformRotation
+	{
+		Period 600
+		Inclination 57.93784
+		AscendingNode 20.41747
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Ross 508"
+}
+
 Barycenter "ROXs 12"
 {
 	RA 246.616834
@@ -78544,7 +79503,6 @@ Barycenter "RR Cae:GJ 2034"
 	OrbitBarycenter "RR Cae"
 	AppMag 12.5
 	SpectralType "DA7.8"
-	Temperature 7260
 	Radius 13927
 	EllipticalOrbit
 	{
@@ -78744,7 +79702,6 @@ Barycenter "SW Sex"
 	OrbitBarycenter "SW Sex"
 	AbsMag 12.5
 	SpectralType "DA"
-	Temperature 3550
 	Radius 6500
 	EllipticalOrbit
 	{
@@ -78807,6 +79764,7 @@ Barycenter "SW Sex"
 	Distance 26092.48
 	AbsMag 16
 	SpectralType "Q"
+	Temperature 9200
 	Radius 10
 	UniformRotation
 	{
@@ -78884,8 +79842,8 @@ Barycenter 67275 "TAU Boo:4 Boo:Gliese 527:TYC 1460-132-1:BD+18 2782:HR 5185"
 	UniformRotation
 	{
 		Period 96
-		Inclination 75.36527
-		AscendingNode 93.41771
+		Inclination 77.16244
+		AscendingNode 94.05248
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TAU Boo"
 }
@@ -79074,6 +80032,24 @@ Barycenter 1001602483 "TIC 172900988"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1075"
 }
 
+1000889409 "TOI-1107:TIC 394561119"
+{
+	RA 155.607576
+	Dec -82.218883
+	Distance 937.98459
+	AppMag 10.55
+	SpectralType "F6"
+	Temperature 6311
+	Radius 1260375
+	UniformRotation
+	{
+		Period 178.697811057194
+		Inclination 109.87089
+		AscendingNode 153.75959
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1107"
+}
+
 1022007925 "TOI-1130:TIC 254113311"
 {
 	RA 286.375932
@@ -79090,6 +80066,24 @@ Barycenter 1001602483 "TIC 172900988"
 		AscendingNode 282.89981
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1130"
+}
+
+1011364239 "TOI-1181:TIC 229510866"
+{
+	RA 297.215873
+	Dec 64.35435
+	Distance 1013.00121
+	AppMag 10.58
+	SpectralType "F9IV"
+	Temperature 6177
+	Radius 1323046
+	UniformRotation
+	{
+		Period 195.690753011364
+		Inclination 82.5089
+		AscendingNode 295.01944
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1181"
 }
 
 Barycenter "TOI-1201:TIC 29960110:2MASS J02485926-1432152"
@@ -79152,7 +80146,7 @@ Barycenter 1000208970 "TOI-1213:TIC 399144800"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1213"
 }
 
-"TOI-1213 B:TIC 399144800 B"
+"TOI-1213.01:TOI-1213 B:TIC 399144800 B"
 {
 	OrbitBarycenter "TOI-1213"
 	AbsMag 17.81
@@ -79312,6 +80306,58 @@ Barycenter 1000208970 "TOI-1213:TIC 399144800"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1238"
 }
 
+Barycenter 1021074423 "TOI-1246:TIC 230127302"
+{
+	RA 251.116485
+	Dec 70.429639
+	Distance 557.82722
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1246"
+}
+
+"TOI-1246 B:TIC 230127302 B"
+{
+	OrbitBarycenter "TOI-1246"
+	AbsMag 10.3
+	SpectralType "M2"
+	Temperature 3488
+	Radius 302212
+	EllipticalOrbit
+	{
+		Period 19127.187143
+		SemiMajorAxis 533.48594
+		Inclination 172.11682
+		AscendingNode 52.22515
+		ArgOfPericenter 339.82529
+		MeanAnomaly 71.42047
+	}
+	InfoURL "http://arxiv.org/abs/2009.12234"
+}
+
+"TOI-1246 A:TIC 230127302 A"
+{
+	OrbitBarycenter "TOI-1246"
+	AppMag 11.86
+	SpectralType "K1"
+	Temperature 5151
+	Radius 598852
+	EllipticalOrbit
+	{
+		Period 19127.187143
+		SemiMajorAxis 239.09721
+		Inclination 172.11682
+		AscendingNode 52.22515
+		ArgOfPericenter 159.82529
+		MeanAnomaly 71.42047
+	}
+	UniformRotation
+	{
+		Period 912
+		Inclination 98.39557
+		AscendingNode 252.62482
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1246"
+}
+
 1001928856 "TOI-125:TIC 52368076"
 {
 	RA 23.594728
@@ -79361,7 +80407,6 @@ Barycenter "TOI-1259:TIC 288735205"
 	OrbitBarycenter "TOI-1259"
 	AppMag 19.23
 	SpectralType "DA8"
-	Temperature 6300
 	Radius 9122
 	EllipticalOrbit
 	{
@@ -79444,7 +80489,7 @@ Barycenter "TOI-1278:TIC 163539739:2MASS J21215495+3538557"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1278"
 }
 
-"TOI-1278 B:TIC 163539739 B:2MASS J21215495+3538557 B"
+"TOI-1278.01:TOI-1278 B:TIC 163539739 B:2MASS J21215495+3538557 B"
 {
 	OrbitBarycenter "TOI-1278"
 	AbsMag 20.9
@@ -79760,7 +80805,7 @@ Barycenter "TOI-148:TIC 393940766:2MASS J22331696-3809349"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-148"
 }
 
-"TOI-148 B:TIC 393940766 B:2MASS J22331696-3809349 B"
+"TOI-148.01:TOI-148 B:TIC 393940766 B:2MASS J22331696-3809349 B"
 {
 	OrbitBarycenter "TOI-148"
 	AbsMag 20.9
@@ -79828,6 +80873,58 @@ Barycenter "TOI-148:TIC 393940766:2MASS J22331696-3809349"
 		AscendingNode 111.32823
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-150"
+}
+
+Barycenter 1003824480 "TOI-1516:TIC 376637093"
+{
+	RA 340.08442
+	Dec 69.503738
+	Distance 804.50902
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1516"
+}
+
+"TOI-1516 B:TIC 376637093 B"
+{
+	OrbitBarycenter "TOI-1516"
+	AbsMag 11.14
+	SpectralType "M3"
+	Temperature 3369
+	Radius 256949
+	EllipticalOrbit
+	{
+		Period 60269.24383
+		SemiMajorAxis 1283.29542
+		Inclination 155.07288
+		AscendingNode 308.63869
+		ArgOfPericenter 152.54249
+		MeanAnomaly 28.0985
+	}
+	InfoURL "http://arxiv.org/abs/2009.12234"
+}
+
+"TOI-1516 A:TIC 376637093 A"
+{
+	OrbitBarycenter "TOI-1516"
+	AppMag 10.86
+	SpectralType "F8V"
+	Temperature 6170
+	Radius 866943
+	EllipticalOrbit
+	{
+		Period 60269.24383
+		SemiMajorAxis 471.7931
+		Inclination 155.07288
+		AscendingNode 308.63869
+		ArgOfPericenter 332.54249
+		MeanAnomaly 28.0985
+	}
+	UniformRotation
+	{
+		Period 109.645036326847
+		Inclination 68.0382
+		AscendingNode 338.45154
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1516"
 }
 
 1008734292 "TOI-1518:TIC 427761355"
@@ -80027,6 +81124,58 @@ Barycenter "TOI-1634:TIC 201186294"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1696"
 }
 
+Barycenter 1010094525 "TOI-1710:TIC 445805961"
+{
+	RA 94.28276
+	Dec 76.21078
+	Distance 264.63606
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1710"
+}
+
+"TOI-1710 B:TIC 445805961 B"
+{
+	OrbitBarycenter "TOI-1710"
+	AbsMag 11.14
+	SpectralType "M3"
+	Temperature 3415
+	Radius 256949
+	EllipticalOrbit
+	{
+		Period 181028.483769
+		SemiMajorAxis 2476.54754
+		Inclination 142.79657
+		AscendingNode 1.68693
+		ArgOfPericenter 87.184
+		MeanAnomaly 202.9569
+	}
+	InfoURL "http://arxiv.org/abs/2009.12234"
+}
+
+"TOI-1710 A:TIC 445805961 A"
+{
+	OrbitBarycenter "TOI-1710"
+	AppMag 9.54
+	SpectralType "G5V"
+	Temperature 5665
+	Radius 674057
+	EllipticalOrbit
+	{
+		Period 181028.483769
+		SemiMajorAxis 1132.46968
+		Inclination 142.79657
+		AscendingNode 1.68693
+		ArgOfPericenter 267.184
+		MeanAnomaly 202.9569
+	}
+	UniformRotation
+	{
+		Period 540
+		Inclination 92.02097
+		AscendingNode 93.68869
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1710"
+}
+
 1003016932 "TOI-172"
 {
 	RA 316.631875
@@ -80203,6 +81352,76 @@ Barycenter 1007364266 "TOI-1759:TIC 408636441"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1807"
 }
 
+1003071992 "TOI-1811:TIC 376524552"
+{
+	RA 188.92258
+	Dec 27.214423
+	Distance 413.10147
+	AppMag 11.51
+	SpectralType "K3"
+	Temperature 4753
+	Radius 538271
+	UniformRotation
+	{
+		Period 284.684790194234
+		Inclination 114.95465
+		AscendingNode 186.31874
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1811"
+}
+
+Barycenter "TOI-1820"
+{
+	RA 187.686475
+	Dec 27.452146
+	Distance 849.29823
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1820"
+}
+
+"TOI-1820 B"
+{
+	OrbitBarycenter "TOI-1820"
+	AbsMag 14.3
+	SpectralType "M"
+	Temperature 3030
+	Radius 138572
+	EllipticalOrbit
+	{
+		Period 1052.089131
+		SemiMajorAxis 95.36011
+		Inclination 118.04591
+		AscendingNode 85.15898
+		ArgOfPericenter 63.47085
+		MeanAnomaly 101.7
+	}
+	InfoURL "http://arxiv.org/abs/2204.13956"
+}
+
+1018631991 "TIC 393831507:TOI-1820 A"
+{
+	OrbitBarycenter "TOI-1820"
+	AppMag 10.9
+	SpectralType "G3"
+	Temperature 5734
+	Radius 1051473
+	EllipticalOrbit
+	{
+		Period 1052.089131
+		SemiMajorAxis 14.63989
+		Inclination 118.04591
+		AscendingNode 85.15898
+		ArgOfPericenter 243.47085
+		MeanAnomaly 101.7
+	}
+	UniformRotation
+	{
+		Period 407.814951714209
+		Inclination 115.50825
+		AscendingNode 183.98955
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1820"
+}
+
 1000280892 "TOI-1842:TIC 404505029"
 {
 	RA 201.96276
@@ -80255,6 +81474,103 @@ Barycenter 1007364266 "TOI-1759:TIC 408636441"
 		AscendingNode 297.24901
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1899"
+}
+
+Barycenter 1002936716 "TOI-1982:TIC 437329044"
+{
+	RA 207.584963
+	Dec -23.383351
+	Distance 896.30383
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1982"
+}
+
+"TOI-1982.01:TOI-1982 B:TIC 437329044 B"
+{
+	OrbitBarycenter "TOI-1982"
+	AbsMag 20.9
+	SpectralType "L2"
+	Temperature 1960
+	Radius 75504
+	EllipticalOrbit
+	{
+		Epoch 2459323.823
+		Period 0.047016
+		SemiMajorAxis 0.13948
+		Eccentricity 0.2725
+		Inclination 110.26085
+		AscendingNode 207.79285
+		ArgOfPericenter 165.46644
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 110.26085
+		AscendingNode 207.79285
+	}
+	InfoURL "http://arxiv.org/abs/2205.10854"
+}
+
+"TOI-1982 A:TIC 437329044 A"
+{
+	OrbitBarycenter "TOI-1982"
+	AppMag 10.55
+	SpectralType "F7V"
+	Temperature 6325
+	Radius 1051473
+	SemiAxes [ 1 0.994 1 ]
+	EllipticalOrbit
+	{
+		Epoch 2459323.823
+		Period 0.047016
+		SemiMajorAxis 0.00622
+		Eccentricity 0.2725
+		Inclination 110.26085
+		AscendingNode 207.79285
+		ArgOfPericenter 345.46644
+	}
+	UniformRotation
+	{
+		Period 48.8336158252776
+		Inclination 110.26085
+		AscendingNode 207.79285
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-1982"
+}
+
+1007974595 "TOI-2025:TIC 394050135"
+{
+	RA 282.795161
+	Dec 82.245434
+	Distance 1129.77935
+	AppMag 11.6
+	SpectralType "G1"
+	Temperature 5880
+	Radius 1086290
+	UniformRotation
+	{
+		Period 315.989068546771
+		Inclination 88.35363
+		AscendingNode 282.69324
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2025"
+}
+
+1010294308 "TOI-2046:TIC 468574941"
+{
+	RA 16.184843
+	Dec 74.331349
+	Distance 939.14596
+	AppMag 11.55
+	SpectralType "F8V"
+	Temperature 6143
+	Radius 861373
+	UniformRotation
+	{
+		Period 170.838495538617
+		Inclination 73.47109
+		AscendingNode 14.99781
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2046"
 }
 
 "TOI-206:TIC 55650590:2MASS J04545692-6231205"
@@ -80390,6 +81706,127 @@ Barycenter "TOI-2119:TIC 236387002"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2136"
 }
 
+86040 "TOI-2145:TIC 88992642"
+{
+	RA 263.758112
+	Dec 40.695058
+	Distance 737.87611
+	AppMag 9.06
+	SpectralType "F8"
+	Temperature 6189
+	Radius 1906579
+	UniformRotation
+	{
+		Period 171.526183521225
+		Inclination 94.80619
+		AscendingNode 263.13094
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2145"
+}
+
+Barycenter 1014004498 "TOI-2152:TIC 395393265"
+{
+	RA 26.338411
+	Dec 77.790174
+	Distance 1046.51222
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2152"
+}
+
+"TOI-2152 C:TIC 395393265 C"
+{
+	OrbitBarycenter "TOI-2152"
+	AbsMag 12.8
+	SpectralType "M4V"
+	Temperature 3200
+	Radius 139268
+	EllipticalOrbit
+	{
+		Period 309206.399059
+		SemiMajorAxis 5362.46528
+		Inclination 149.25524
+		AscendingNode 338.23873
+		ArgOfPericenter 134.22393
+		MeanAnomaly 300
+	}
+	InfoURL "http://arxiv.org/abs/2205.05709"
+}
+
+Barycenter "TOI-2152 AB:TIC 395393265 AB"
+{
+	OrbitBarycenter "TOI-2152"
+	EllipticalOrbit
+	{
+		Period 309206.399059
+		SemiMajorAxis 637.53472
+		Inclination 149.24968
+		AscendingNode 338.24132
+		ArgOfPericenter 314.20384
+		MeanAnomaly 300
+	}
+}
+
+"TOI-2152 A:TIC 395393265 A"
+{
+	OrbitBarycenter "TOI-2152 AB"
+	AppMag 11.44
+	SpectralType "F4"
+	Temperature 6630
+	Radius 1122500
+	EllipticalOrbit
+	{
+		Period 2781.794147
+		SemiMajorAxis 61.92102
+		Inclination 149.24968
+		AscendingNode 338.24132
+		ArgOfPericenter 314.20384
+		MeanAnomaly 85.8
+	}
+	UniformRotation
+	{
+		Period 362.802263887032
+		Inclination 72.41472
+		AscendingNode 26.8784
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2152"
+}
+
+"TOI-2152 B:TIC 395393265 B"
+{
+	OrbitBarycenter "TOI-2152 AB"
+	AbsMag 9.69
+	SpectralType "M1V"
+	Temperature 3600
+	Radius 278536
+	EllipticalOrbit
+	{
+		Period 2781.794147
+		SemiMajorAxis 188.07898
+		Inclination 149.24968
+		AscendingNode 338.24132
+		ArgOfPericenter 134.20384
+		MeanAnomaly 85.8
+	}
+	InfoURL "http://arxiv.org/abs/2205.05709"
+}
+
+1001384617 "TOI-2154:TIC 428787891"
+{
+	RA 71.028622
+	Dec 84.3642
+	Distance 975.40523
+	AppMag 11.07
+	SpectralType "F7"
+	Temperature 6280
+	Radius 972091
+	UniformRotation
+	{
+		Period 314.188561033682
+		Inclination 88.43574
+		AscendingNode 69.39349
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2154"
+}
+
 "TOI-216:2MASS J04555525-6315362"
 {
 	RA 73.98023
@@ -80444,6 +81881,58 @@ Barycenter "TOI-2119:TIC 236387002"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2184"
 }
 
+Barycenter "TOI-2193"
+{
+	RA 313.691268
+	Dec -72.804637
+	Distance 1113.38841
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2193"
+}
+
+"TIC 1988059412:TOI-2193 B"
+{
+	OrbitBarycenter "TOI-2193"
+	AppMag 16.57 # From 2MASS JHK
+	SpectralType "K9"
+	Temperature 3913
+	Radius 356944
+	EllipticalOrbit
+	{
+		Period 12811.616895
+		SemiMajorAxis 429.36686
+		Inclination 37.67899
+		AscendingNode 199.51795
+		ArgOfPericenter 116.71473
+		MeanAnomaly 124
+	}
+	InfoURL "http://arxiv.org/abs/2205.09728"
+}
+
+1001679329 "TIC 401604346:TOI-2193 A"
+{
+	OrbitBarycenter "TOI-2193"
+	AppMag 11.98
+	SpectralType "G0"
+	Temperature 5966
+	Radius 869032
+	EllipticalOrbit
+	{
+		Period 12811.616895
+		SemiMajorAxis 214.1091
+		Inclination 37.67944
+		AscendingNode 199.51754
+		ArgOfPericenter 296.71367
+		MeanAnomaly 124
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 65.8867
+		AscendingNode 305.00778
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2193"
+}
+
 1012638897 "TOI-220:TIC 150098860"
 {
 	RA 91.799862
@@ -80478,6 +81967,42 @@ Barycenter "TOI-2119:TIC 236387002"
 		AscendingNode 56.39661
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2202"
+}
+
+1008087962 "TOI-2207:TIC 90850770"
+{
+	RA 307.596597
+	Dec -44.887507
+	Distance 1224.40123
+	AppMag 11.32
+	SpectralType "F9"
+	Temperature 6101
+	Radius 1089076
+	UniformRotation
+	{
+		Period 600
+		Inclination 75.45024
+		AscendingNode 304.16226
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2207"
+}
+
+1002839498 "TOI-2236:TIC 394722182"
+{
+	RA 20.166311
+	Dec -86.979931
+	Distance 1139.80779
+	AppMag 11.41
+	SpectralType "F7"
+	Temperature 6248
+	Radius 1095343
+	UniformRotation
+	{
+		Period 600
+		Inclination 61.63617
+		AscendingNode 22.51664
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2236"
 }
 
 "TOI-2257:TIC 198485881"
@@ -80606,6 +82131,24 @@ Barycenter "TOI-2119:TIC 236387002"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2411"
 }
 
+1011487009 "TOI-2421:TIC 70524163"
+{
+	RA 33.153868
+	Dec -35.390902
+	Distance 1058.32955
+	AppMag 11.42
+	SpectralType "G6"
+	Temperature 5607
+	Radius 1218595
+	UniformRotation
+	{
+		Period 600
+		Inclination 67.92715
+		AscendingNode 32.95267
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2421"
+}
+
 1005627021 "TOI-2427:TIC 142937186"
 {
 	RA 52.290973
@@ -80642,6 +82185,25 @@ Barycenter "TOI-2119:TIC 236387002"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2445"
 }
 
+1017450725 "HD 250208:TIC 97568467:TOI-2497"
+{
+	RA 90.062533
+	Dec 11.884175
+	Distance 906.74451
+	AppMag 9.55
+	SpectralType "A9"
+	Temperature 7360
+	Radius 1641970
+	SemiAxes [ 1 0.992 1 ]
+	UniformRotation
+	{
+		Period 72.3681258385085
+		Inclination 89.64634
+		AscendingNode 88.20566
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 250208"
+}
+
 1003697520 "TOI-251:TIC 224225541"
 {
 	RA 353.061824
@@ -80658,6 +82220,102 @@ Barycenter "TOI-2119:TIC 236387002"
 		AscendingNode 350.18981
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-251"
+}
+
+Barycenter 1006540229 "TOI-2543:TIC 270604417"
+{
+	RA 136.596952
+	Dec 3.567695
+	Distance 1353.40056
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2543"
+}
+
+"TOI-2543.01:TOI-2543 B:TIC 270604417 B"
+{
+	OrbitBarycenter "TOI-2543"
+	AbsMag 20.9
+	SpectralType "L2"
+	Temperature 1960
+	Radius 66415
+	EllipticalOrbit
+	{
+		Epoch 2459233.345
+		Period 0.020651
+		SemiMajorAxis 0.07505
+		Eccentricity 0.009
+		Inclination 106.53571
+		AscendingNode 132.96192
+		ArgOfPericenter 224.74338
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 106.53571
+		AscendingNode 132.96192
+	}
+	InfoURL "http://arxiv.org/abs/2205.10854"
+}
+
+"TOI-2543 A:TIC 270604417 A"
+{
+	OrbitBarycenter "TOI-2543"
+	AppMag 11.18
+	SpectralType "F9V"
+	Temperature 6060
+	Radius 1295192
+	EllipticalOrbit
+	{
+		Epoch 2459233.345
+		Period 0.020651
+		SemiMajorAxis 0.00375
+		Eccentricity 0.009
+		Inclination 106.53571
+		AscendingNode 132.96192
+		ArgOfPericenter 44.74338
+	}
+	UniformRotation
+	{
+		Period 275.675266180579
+		Inclination 106.53571
+		AscendingNode 132.96192
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2543"
+}
+
+"TOI-2567:TIC 258920431"
+{
+	RA 288.46585
+	Dec 66.347899
+	Distance 1680.7833
+	AppMag 12.41
+	SpectralType "G6"
+	Temperature 5611
+	Radius 1174029
+	UniformRotation
+	{
+		Period 600
+		Inclination 84.46154
+		AscendingNode 286.99519
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2567"
+}
+
+"TOI-2570:TIC 239816546"
+{
+	RA 87.188073
+	Dec 32.084112
+	Distance 1169.14364
+	AppMag 12.65
+	SpectralType "G2"
+	Temperature 5771
+	Radius 762492
+	UniformRotation
+	{
+		Period 600
+		Inclination 89.22481
+		AscendingNode 85.17553
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-2570"
 }
 
 Barycenter "TOI-263:TIC 120916706:2MASS J02282595-2505505"
@@ -80775,6 +82433,58 @@ Barycenter "TOI-263:TIC 120916706:2MASS J02282595-2505505"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-270"
 }
 
+Barycenter "TOI-3331"
+{
+	RA 271.324279
+	Dec -34.107017
+	Distance 732.54638
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-3331"
+}
+
+"TIC 1565174683:TOI-3331 B"
+{
+	OrbitBarycenter "TOI-3331"
+	AppMag 14.82 # From 2MASS JHK
+	SpectralType "K6"
+	Temperature 4172
+	Radius 403877
+	EllipticalOrbit
+	{
+		Period 11501.234611
+		SemiMajorAxis 376.56902
+		Inclination 79.32715
+		AscendingNode 181.11577
+		ArgOfPericenter 90.536
+		MeanAnomaly 48
+	}
+	InfoURL "http://arxiv.org/abs/2205.09728"
+}
+
+1006157399 "TIC 194795551:TOI-3331 A"
+{
+	OrbitBarycenter "TOI-3331"
+	AppMag 11.64
+	SpectralType "G6"
+	Temperature 5609
+	Radius 662916
+	EllipticalOrbit
+	{
+		Period 11501.234611
+		SemiMajorAxis 221.54031
+		Inclination 79.32715
+		AscendingNode 181.11577
+		ArgOfPericenter 270.536
+		MeanAnomaly 48
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.62383
+		AscendingNode 266.69348
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-3331"
+}
+
 1021768608 "HD 300730:TOI-3362:TIC 464300749"
 {
 	RA 155.984332
@@ -80791,6 +82501,58 @@ Barycenter "TOI-263:TIC 120916706:2MASS J02282595-2505505"
 		AscendingNode 153.73644
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD 300730"
+}
+
+Barycenter "TOI-3540:TIC 17865622"
+{
+	RA 328.911371
+	Dec 28.1795
+	Distance 921.08444
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-3540"
+}
+
+"TOI-3540 B:TIC 17865622 B"
+{
+	OrbitBarycenter "TOI-3540"
+	AppMag 14.01 # From 2MASS JHK
+	SpectralType "K3"
+	Temperature 4819
+	Radius 529915
+	EllipticalOrbit
+	{
+		Period 3037.324338
+		SemiMajorAxis 148.89229
+		Inclination 127.90251
+		AscendingNode 253.07145
+		ArgOfPericenter 115.57616
+		MeanAnomaly 200
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-3540"
+}
+
+"TOI-3540 A:TIC 17865622 A"
+{
+	OrbitBarycenter "TOI-3540"
+	AppMag 11.57 # From 2MASS JHK
+	SpectralType "G2"
+	Temperature 5810
+	Radius 855106
+	EllipticalOrbit
+	{
+		Period 3037.324338
+		SemiMajorAxis 110.0739
+		Inclination 127.90251
+		AscendingNode 253.07145
+		ArgOfPericenter 295.57616
+		MeanAnomaly 200
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 75.46147
+		AscendingNode 320.38408
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-3540"
 }
 
 "TOI-3629:TIC 455784423"
@@ -80811,6 +82573,24 @@ Barycenter "TOI-263:TIC 120916706:2MASS J02282595-2505505"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-3629"
 }
 
+1012233275 "TOI-3693:TIC 240823272"
+{
+	RA 15.654442
+	Dec 51.303983
+	Distance 573.45102
+	AppMag 11.95
+	SpectralType "G9"
+	Temperature 5321
+	Radius 550805
+	UniformRotation
+	{
+		Period 600
+		Inclination 67.78142
+		AscendingNode 16.65387
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-3693"
+}
+
 Barycenter "TOI-3714"
 {
 	RA 69.552232
@@ -80824,7 +82604,6 @@ Barycenter "TOI-3714"
 	OrbitBarycenter "TOI-3714"
 	AbsMag 12.5
 	SpectralType "DA"
-	Temperature 5880
 	Radius 6500
 	EllipticalOrbit
 	{
@@ -80879,6 +82658,24 @@ Barycenter "TOI-3714"
 		AscendingNode 88.15931
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-3757"
+}
+
+1007364346 "TOI-4137:TIC 417646390"
+{
+	RA 77.612626
+	Dec 70.391092
+	Distance 1110.80989
+	AppMag 11.31
+	SpectralType "F8"
+	Temperature 6202
+	Radius 1001337
+	UniformRotation
+	{
+		Period 600
+		Inclination 88.27714
+		AscendingNode 75.69876
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-4137"
 }
 
 1015884417 "TOI-4138:TIC 257060897"
@@ -81271,7 +83068,7 @@ Barycenter 1001517653 "TOI-569:TIC 123482865"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-569"
 }
 
-"TOI-569 b:TIC 123482865 b"
+"TOI-569.01:TOI-569 b:TIC 123482865 b"
 {
 	OrbitBarycenter "TOI-569"
 	AbsMag 20.9
@@ -81321,6 +83118,24 @@ Barycenter 1001517653 "TOI-569:TIC 123482865"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-569"
 }
 
+"TOI-620:TIC 296739893:LP 727-31"
+{
+	RA 142.173288
+	Dec -12.165487
+	Distance 107.67707
+	AppMag 12.26
+	SpectralType "M3V"
+	Temperature 3633
+	Radius 382987
+	UniformRotation
+	{
+		Period 215.76
+		Inclination 107.147
+		AscendingNode 137.40232
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-620"
+}
+
 1008467099 "TOI-640:TIC 147977348"
 {
 	RA 99.734614
@@ -81365,7 +83180,7 @@ Barycenter 1004958911 "TOI-681:TIC 410450228"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-681"
 }
 
-"TOI-681 B:TIC 410450228 B"
+"TOI-681.01:TOI-681 B:TIC 410450228 B"
 {
 	OrbitBarycenter "TOI-681"
 	AbsMag 18.84
@@ -81461,7 +83276,7 @@ Barycenter 1000829177 "TOI-746:TIC 167418903"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-746"
 }
 
-"TOI-746 B:TIC 167418903 B"
+"TOI-746.01:TOI-746 B:TIC 167418903 B"
 {
 	OrbitBarycenter "TOI-746"
 	AbsMag 19.57
@@ -81981,7 +83796,7 @@ Barycenter 1003629266 "TOI-905:TIC 261867566"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TOI-954"
 }
 
-"TRAPPIST-1:K2-112:2MASS J23062928-0502285:EPIC 246199087"
+"TRAPPIST-1:K2-112:2MASS J23062928-0502285:EPIC 246199087:SPECULOOS-1"
 {
 	RA 346.622368
 	Dec -5.041398
@@ -82411,17 +84226,17 @@ Barycenter 1016271995 # TYC 1995-1627-1
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=UKIRT-2017-BLG-001L"
 }
 
-Barycenter 7513 "Titawin:UPS And:50 And:Gliese 61:HR 458" # Ups And 
+Barycenter 7513 "Titawin:UPS And:50 And:Gliese 61:HR 458"
 {
 	RA 24.199342
 	Dec 41.405457
 	Distance 44.00378
-	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Ups And"
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=UPS And"
 }
 
-"Titawin B:UPS And B:50 And B:Gliese 61 B:HD 9826 B:2MASS J01365042+4123325:HR 458 B:HIP 7513 B" # Ups And B
+"Titawin B:UPS And B:50 And B:Gliese 61 B:HD 9826 B:2MASS J01365042+4123325:HR 458 B:HIP 7513 B"
 {
-	OrbitBarycenter "Ups And"
+	OrbitBarycenter "UPS And"
 	AppMag 11.71 # From 2MASS JHK
 	SpectralType "M4.5V"
 	Temperature 3195
@@ -82435,12 +84250,12 @@ Barycenter 7513 "Titawin:UPS And:50 And:Gliese 61:HR 458" # Ups And
 		ArgOfPericenter 114.50392
 		MeanAnomaly 148.7736
 	}
-	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Ups And"
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=UPS And"
 }
 
-"Titawin A:UPS And A:50 And A:Gliese 61 A:HD 9826 A:HR 458 A:HIP 7513 A" # Ups And A
+"Titawin A:UPS And A:50 And A:Gliese 61 A:HD 9826 A:HR 458 A:HIP 7513 A"
 {
-	OrbitBarycenter "Ups And"
+	OrbitBarycenter "UPS And"
 	AppMag 4.1
 	SpectralType "F8V"
 	Temperature 6212
@@ -82460,7 +84275,7 @@ Barycenter 7513 "Titawin:UPS And:50 And:Gliese 61:HR 458" # Ups And
 		Inclination 111.48359
 		AscendingNode 256.23396
 	}
-	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Ups And"
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=UPS And"
 }
 
 56647 "UPS Leo:91 Leo:HR 4471"
@@ -82590,7 +84405,6 @@ Barycenter "UZ For"
 	OrbitBarycenter "UZ For"
 	AppMag 18.2
 	SpectralType "DA"
-	Temperature 4410
 	Radius 6500
 	EllipticalOrbit
 	{
@@ -82609,7 +84423,7 @@ Barycenter "UZ For"
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=UZ For"
 }
 
-1003381258 "V1298 Tau:K2-309:HD 284154:EPIC 210818897"
+1003381258 "V1298 Tau:K2-309:HD 284154 B:EPIC 210818897"
 {
 	RA 61.33163
 	Dec 20.157101
@@ -82640,7 +84454,6 @@ Barycenter "V2051 Oph:PM J17083-2548S"
 	OrbitBarycenter "V2051 Oph"
 	AbsMag 12.5
 	SpectralType "DA5"
-	Temperature 9500
 	Radius 7172
 	EllipticalOrbit
 	{
@@ -83980,15 +85793,15 @@ Barycenter 1005487280 "WASP-131:HD 122173:TOI-828"
 	RA 217.609122
 	Dec -46.159201
 	Distance 402.29916
-	AppMag 12.4
+	AppMag 11.94
 	SpectralType "K4"
-	Temperature 4775
-	Radius 515292
+	Temperature 4714
+	Radius 524344
 	UniformRotation
 	{
-		Period 999.28166976329
-		Inclination 108.15944
-		AscendingNode 219.65871
+		Period 792
+		Inclination 107.38273
+		AscendingNode 218.33577
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=WASP-132"
 }
@@ -84453,17 +86266,17 @@ Barycenter "WASP-145"
 1002953083 "WASP-148"
 {
 	RA 254.130583
-	Dec 44.302653
-	Distance 809.2197
+	Dec 44.302652
+	Distance 812.26279
 	AppMag 12.04
-	SpectralType "G8"
+	SpectralType "G5V"
 	Temperature 5460
-	Radius 639240
+	Radius 635062
 	UniformRotation
 	{
-		Period 485.080208906246
-		Inclination 98.87455
-		AscendingNode 254.24825
+		Period 481.909750024505
+		Inclination 84.39969
+		AscendingNode 75.65716
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=WASP-148"
 }
@@ -85470,6 +87283,24 @@ Barycenter 73608 "WASP-189:BD-02 3933:HR 5599:TYC 5004-900-1"
 		AscendingNode 219.15917
 	}
 	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=WASP-192"
+}
+
+1005166647 "WASP-193"
+{
+	RA 164.349384
+	Dec -29.997129
+	Distance 1231.93957
+	AppMag 12.19
+	SpectralType "F9"
+	Temperature 6076
+	Radius 918472
+	UniformRotation
+	{
+		Period 372.799267811441
+		Inclination 111.21492
+		AscendingNode 161.15271
+	}
+	InfoURL "http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=WASP-193"
 }
 
 Barycenter "WASP-2"
@@ -87971,7 +89802,6 @@ Barycenter "WASP-98"
 	OrbitBarycenter "WASP-98"
 	AppMag 20.18
 	SpectralType "DC6"
-	Temperature 8270
 	Radius 6500
 	EllipticalOrbit
 	{
@@ -88077,7 +89907,6 @@ Barycenter "G 229-20"
 	OrbitBarycenter "G 229-20"
 	AppMag 17.24
 	SpectralType "DA9"
-	Temperature 4960
 	Radius 8795
 	EllipticalOrbit
 	{
