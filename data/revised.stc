@@ -200,6 +200,11 @@ Modify 56662 # Improved spectral class from Gliese catalogue (Gliese 433.1)
 	SpectralType "DA3"
 }
 
+Modify 56709 # Spectral class from SIMBAD, replacing "B5"
+{
+	SpectralType "F8/G0p"
+}
+
 Modify 64778 # UY Cen: spectral class from SIMBAD, replacing "K5. P,V"
 {
 	SpectralType "S6/8"
