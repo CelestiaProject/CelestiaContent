@@ -3565,7 +3565,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Suttungr_(moon)"
 }
 
-"Saturn LIV:S 2004 S 20" "Sol/Saturn"
+"Gridr:Saturn LIV:S 2004 S 20" "Sol/Saturn"
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
@@ -3592,7 +3592,7 @@
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.04
-	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_20"
+	InfoURL	"https://en.wikipedia.org/wiki/Gridr_(moon)"
 }
 
 "Narvi:Saturn XXXI:S 2003 S 1" "Sol/Saturn"
@@ -3715,7 +3715,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Bergelmir_(moon)"
 }
 
-"Saturn LIX:S 2004 S 27" "Sol/Saturn"
+"Eggther:Saturn LIX:S 2004 S 27" "Sol/Saturn"
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
@@ -3742,7 +3742,7 @@
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.04
-	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_27"
+	InfoURL	"https://en.wikipedia.org/wiki/Eggther_(moon)"
 }
 
 "S 2004 S 17" "Sol/Saturn"
@@ -3895,7 +3895,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_7"
 }
 
-"Saturn LXI:S 2004 S 30" "Sol/Saturn"
+"Beli:Saturn LXI:S 2004 S 30" "Sol/Saturn"
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
@@ -3922,7 +3922,7 @@
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.04
-	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_30"
+	InfoURL	"https://en.wikipedia.org/wiki/Beli_(moon)"
 }
 
 "Bestla:Saturn XXXIX:S 2004 S 18" "Sol/Saturn"
@@ -3955,7 +3955,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Bestla_(moon)"
 }
 
-"Saturn LVII:S 2004 S 25" "Sol/Saturn"
+"Gerd:Saturn LVII:S 2004 S 25" "Sol/Saturn"
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
@@ -3982,10 +3982,10 @@
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.04
-	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_25"
+	InfoURL	"https://en.wikipedia.org/wiki/Gerd_(moon)"
 }
 
-"Saturn LV:S 2004 S 22" "Sol/Saturn"
+"Angrboda:Saturn LV:S 2004 S 22" "Sol/Saturn"
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
@@ -4012,10 +4012,10 @@
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.04
-	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_22"
+	InfoURL	"https://en.wikipedia.org/wiki/Angrboda_(moon)"
 }
 
-"Saturn LXII:S 2004 S 32" "Sol/Saturn"
+"Gunnlod:Saturn LXII:S 2004 S 32" "Sol/Saturn"
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
@@ -4042,7 +4042,7 @@
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.04
-	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_32"
+	InfoURL	"https://en.wikipedia.org/wiki/Gunnlod_(moon)"
 }
 
 "Aegir:Saturn XXXVI:S 2004 S 10" "Sol/Saturn"
@@ -4105,7 +4105,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/S/2006_S_3"
 }
 
-"Saturn LXV:S 2004 S 35" "Sol/Saturn"
+"Alvaldi:Saturn LXV:S 2004 S 35" "Sol/Saturn"
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
@@ -4132,7 +4132,7 @@
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.04
-	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_35"
+	InfoURL	"https://en.wikipedia.org/wiki/Alvaldi_(moon)"
 }
 
 "Kari:Saturn XLV:S 2006 S 2" "Sol/Saturn"
@@ -4165,7 +4165,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Kari_(moon)"
 }
 
-"Saturn LVI:S 2004 S 23" "Sol/Saturn"
+"Skrymir:Saturn LVI:S 2004 S 23" "Sol/Saturn"
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
@@ -4192,7 +4192,7 @@
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.04
-	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_23"
+	InfoURL	"https://en.wikipedia.org/wiki/Skrymir_(moon)"
 }
 
 "S 2004 S 28" "Sol/Saturn"
@@ -4315,7 +4315,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_21"
 }
 
-"Saturn LXVI:S 2004 S 38" "Sol/Saturn"
+"Geirrod:Saturn LXVI:S 2004 S 38" "Sol/Saturn"
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
@@ -4342,7 +4342,7 @@
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.04
-	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_38"
+	InfoURL	"https://en.wikipedia.org/wiki/Geirrod_(moon)"
 }
 
 "S 2004 S 24" "Sol/Saturn"
@@ -4525,7 +4525,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_34"
 }
 
-"Saturn LXIII:S 2004 S 33" "Sol/Saturn"
+"Thiazzi:Saturn LXIII:S 2004 S 33" "Sol/Saturn"
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
@@ -4552,7 +4552,7 @@
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.04
-	InfoURL	"https://en.wikipedia.org/wiki/S/2004_S_33"
+	InfoURL	"https://en.wikipedia.org/wiki/Thiazzi_(moon)"
 }
 
 "Fornjot:Saturn XLII:S 2004 S 8" "Sol/Saturn"
