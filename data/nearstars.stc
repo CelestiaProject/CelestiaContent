@@ -2184,103 +2184,48 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	AppMag 11.317
 }
 
-Barycenter 116132 "Gliese 896:BD+19 5116"
+# "3D orbital architecture of a dwarf binary system and its planetary companion"
+# https://arxiv.org/abs/2208.14553
+Barycenter 116132 "EQ Peg:Gliese 896:BD+19 5116"
 {
-	RA 352.97066249 # mass ratio (0.34:0.13):(0.16:0.09)
-	Dec 19.93710426 # A: 159.6634 +/- 0.0341 mas
-	Distance 20.418 # B: 159.9085 +/- 0.0513 mas
+	RA 352.97054871 # mass ratio 0.43814:0.16527
+	Dec 19.93708072
+	Distance 20.400 # 159.88 +/- 0.17 mas
 }
 
-Barycenter 1000231723 "Gliese 896 A:BD+19 5116 A"
+1000231723 "EQ Peg A:Gliese 896 A:BD+19 5116 A"
 {
 	OrbitBarycenter "Gliese 896"
-
-	EllipticalOrbit {
-		Period            359
-		SemiMajorAxis    14.9 # mass ratio (0.34:0.13):(0.16:0.09)
-		Eccentricity      0.2
-		Inclination      19.6
-		AscendingNode   138.8
-		ArgOfPericenter 119.1
-		MeanAnomaly     352.0
-	}
-}
-
-Barycenter 2000231723 "Gliese 896 B:BD+19 5116 B"
-{
-	OrbitBarycenter "Gliese 896"
-
-	EllipticalOrbit {
-		Period            359
-		SemiMajorAxis    28.1 # mass ratio (0.34:0.13):(0.16:0.09)
-		Eccentricity      0.2
-		Inclination      19.6
-		AscendingNode   138.8
-		ArgOfPericenter 299.1
-		MeanAnomaly     352.0
-	}
-}
-
-"EQ Peg:Gliese 896 Aa:BD+19 5116 Aa"
-{
-	OrbitBarycenter "Gliese 896 A"
 	SpectralType "M3.5V"
 	Radius 225000 # approx. for class
 	AppMag 10.27
 
 	EllipticalOrbit {
-		Period          3.5 # "of the order of a few years"
-		SemiMajorAxis   0.5 # mass ratio 0.34:0.13
-		Inclination	 20 # to match orbital plane of system
-		AscendingNode   140
-		ArgOfPericenter 180
-	}
-
-}
-
-"Gliese 896 Ab:BD+19 5116 Ab"
-{
-	OrbitBarycenter "Gliese 896 A"
-	SpectralType "M7V" # from apparent magnitude
-	Radius 84000 # approx. for estimated class
-	AppMag 13.26
-
-	EllipticalOrbit {
-		Period          3.5 # "of the order of a few years"
-		SemiMajorAxis   1.2 # mass ratio 0.34:0.13
-		Inclination	 20 # to match orbital plane of system
-		AscendingNode   140
+		Epoch       2401891.34
+		Period          229.0613
+		SemiMajorAxis     8.6646 # mass ratio 0.43814:0.16527
+		Eccentricity      0.108047
+		Inclination     118.196
+		AscendingNode    83.078
+		ArgOfPericenter 296.426
 	}
 }
 
-"Gliese 896 Ba:BD+19 5116 Ba"
+2000231723 "EQ Peg B:Gliese 896 B:BD+19 5116 B"
 {
-	OrbitBarycenter "Gliese 896 B"
+	OrbitBarycenter "Gliese 896"
 	SpectralType "M4.5V"
 	Radius 160000 # approx. for class
 	AppMag 12.21
 
 	EllipticalOrbit {
-		Period          4.1 # "of the order of a few years"
-		SemiMajorAxis   0.6 # mass ratio 0.16:0.09
-		Inclination	 20 # to match orbital plane of system
-		AscendingNode   140
-		ArgOfPericenter 180
-	}
-}
-
-"Gliese 896 Bb:BD+19 5116 Bb"
-{
-	OrbitBarycenter "Gliese 896 B"
-	SpectralType "M9V" # from apparent magnitude
-	Radius 56000 # approx. for class
-	AppMag 15.40
-
-	EllipticalOrbit {
-		Period          4.1 # "of the order of a few years"
-		SemiMajorAxis   1.0 # mass ratio 0.16:0.09
-		Inclination	 20 # to match orbital plane of system
-		AscendingNode   140
+		Epoch       2401891.34
+		Period          229.0613
+		SemiMajorAxis    22.9704 # mass ratio 0.43814:0.16527
+		Eccentricity      0.108047
+		Inclination     118.196
+		AscendingNode    83.078
+		ArgOfPericenter 116.426
 	}
 }
 
