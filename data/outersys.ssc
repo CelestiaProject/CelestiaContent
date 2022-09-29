@@ -939,7 +939,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/486958_Arrokoth"
 }
 
-"2004 XR190" "Sol"
+"(612911) 2004 XR190:2004 XR190" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
@@ -963,5 +963,5 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.09  # assumed
-	InfoURL	"https://en.wikipedia.org/wiki/2004_XR190"
+	InfoURL	"https://en.wikipedia.org/wiki/(612911)_2004_XR190"
 }
