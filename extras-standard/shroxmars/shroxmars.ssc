@@ -1,37 +1,62 @@
-"Mars Odyssey" "Sol/Mars"
+# 2001 Mars Odyssey
+
+"Mars Odyssey:2001-013A" "Sol/Mars"
 {
 	Class "spacecraft"
 	Mesh "marsodyssey.3ds"
 	Radius 0.01
-	Beginning "2001 10 24"
-	#Ending 2047?
-	# Orbital elements are only very approximately correct
-	# after completion of aerobraking phase.  These were taken
-	# from the Mars Odyssey PIP, and only reflect the planned,
-	# and not the actual final orbit.  A better source would be
-	# appreciated.
+	Beginning	"2001 10 24 12:21:00"
+	#Ending	"2025 12 31 12:00:00"	# Estimated end-of-life
 	EllipticalOrbit
 	{
-	Epoch             2452251.70833
-	Period            0.0822
-	SemiMajorAxis     3797.2
-	Eccentricity      0.0
-	Inclination       93.1
-	AscendingNode     35
-	ArgOfPericenter   0.0
-	MeanAnomaly       0.0
+		Epoch    2452623.5	#  2002-Dec-15 00:00:00  
+		Period        0.08232123167015755
+		SemiMajorAxis 3800.228229494881
+		Eccentricity  0.007407825218454815
+		Inclination   66.47629586306351
+		AscendingNode   267.81047621026045
+		ArgOfPericenter 267.04767367769887
+		MeanAnomaly   109.67418185221293
+	}
+	FixedRotation	{ }
+	BodyFrame
+	{
+		TwoVector
+		{
+			Center	"Sol/Mars/Mars Odyssey"
+			Primary
+			{
+				Axis	"y"
+				RelativePosition
+				{
+					Observer	"Sol/Mars/Mars Odyssey"
+					Target	"Sol/Earth"
+				}
+			}
+			Secondary
+			{
+				Axis	"x"
+				RelativeVelocity
+				{
+					Observer	"Sol/Mars/Mars Odyssey"
+					Target	"Sol/Mars"
+				}
+			}
+		}
 	}
 	InfoURL "https://en.wikipedia.org/wiki/2001_Mars_Odyssey"
 }
 
-"Mars Global Surveyor:MGS:1996-062A" "Sol/Mars"
+# Mars Global Surveyor
+
+"MGS:Mars Global Surveyor:1996-062A" "Sol/Mars"
 {
 	Class	"spacecraft"
 	Mesh	"marsglobalsurvr.3ds"
 	Radius	0.01
-	Beginning	"1997 09 11 01:17"
-	# Ending 2047?
-	# http://mars.jpl.nasa.gov/mgs/status/nav/orbparam-peri2.txt
+	Beginning	"1997 09 11 01:17:00"
+	#Ending	"2006 11 02 12:00:00"	# Date of Last Contact
+	Ending	"2047 12 31 12:00:00"	# Predicted orbital decay
 	EllipticalOrbit
 	{
 		Epoch	2451973.25864  # 2001 Mar 04 18:12:26
@@ -48,22 +73,22 @@
 	{
 		TwoVector
 		{
-			Center	"Sol/Mars/Mars Global Surveyor"
+			Center	"Sol/Mars/MGS"
 			Primary
 			{
-				Axis	"y"
+				Axis	"-y"
 				RelativePosition
 				{
-					Observer	"Sol/Mars/Mars Global Surveyor"
-					Target	"Sol/Mars"
+					Observer	"Sol/Mars/MGS"
+					Target	"Sol/Earth"
 				}
 			}
 			Secondary
 			{
-				Axis	"x"
+				Axis	"z"
 				RelativeVelocity
 				{
-					Observer	"Sol/Mars/Mars Global Surveyor"
+					Observer	"Sol/Mars/MGS"
 					Target	"Sol/Mars"
 				}
 			}

@@ -1,36 +1,31 @@
 # International Space Station
-
+#
 # The model is a deconstruction of Andrew Farnaby's complete ISS model located
 # on bh's website (http://www.bobhundley.com/celestia/iss.html).
 #
-# "New ISS" is a modification of the model that can be found here:
-# http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1199
-# the ISS model of June 2008 (with Kibo) by krisci3 (modified in order to work
-# with JPG by Ulrich Dickmann, a.k.a. Adirondack)
+# The configuration shown is what the ISS looked like in July 2021 shortly
+# after the arrival of Nauka. Model modified by DaveBowman2001.
+# 
 # All required textures by Bob Hundley (converted from BMP to JPG by
-# Ulrich Dickmann)
+# Ulrich Dickmann and DaveBowman2001)
 
 "ISS:International Space Station" "Sol/Earth"
 {
 	Class	"spacecraft"
 	Mesh	"iss.cmod"
-	Orientation	[ -90 1 0 0 ]
-	Radius	0.04
-	Beginning	"1998 11 20"
-	OrbitFrame
-	{
-		EclipticJ2000	{ Center "Sol/Earth" }
-	}
+	Radius	0.0567145655
+	Beginning "1998 11 20 06:40:00"
+	Ending    "2031 01 31 00:00:00"
 	EllipticalOrbit
 	{
-		Epoch	2458849.5  # 2020 Jan 01
-		Period	0.06445847826018161
-		SemiMajorAxis	6790.814562595674
-		Eccentricity	0.0007643647994965259
-		Inclination	59.22036656730745
-		AscendingNode	116.0030712877944
-		ArgOfPericenter	60.93938405214742
-		MeanAnomaly	3.168957773956868
+		Epoch            2452028.183817550
+		SemiMajorAxis    6767.00000000
+		Eccentricity     0.00168860
+		Inclination      51.56840000
+		AscendingNode    343.15180000
+		LongOfPericenter 329.3994000
+		Period           0.064176392
+		MeanAnomaly      13.8216000
 	}
 	FixedRotation	{ }
 	BodyFrame
@@ -40,7 +35,7 @@
 			Center	"Sol/Earth/ISS"
 			Primary
 			{
-				Axis	"z"
+				Axis	"-y"
 				RelativePosition
 				{
 					Observer	"Sol/Earth/ISS"
@@ -49,7 +44,7 @@
 			}
 			Secondary
 			{
-				Axis	"y"
+				Axis	"z"
 				RelativeVelocity
 				{
 					Observer	"Sol/Earth/ISS"
@@ -58,6 +53,5 @@
 			}
 		}
 	}
-	Albedo	0.4
 	InfoURL	"https://en.wikipedia.org/wiki/International_Space_Station"
 }

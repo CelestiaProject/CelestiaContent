@@ -1,4 +1,4 @@
-"Galileo:1989-084B" "Sol"
+"Galileo:1989-084B" "Sol/Jupiter"
 {
 	Class	"spacecraft"
 	Mesh	"galileo.cmod"
@@ -6,7 +6,8 @@
 	Radius	0.0074
 	Timeline
 	[
-		{ # Phase 1: Launch and cruise
+		# Phase 1: Launch and cruise
+		{
 			Beginning	"1989 10 19 01:30:00"
 			Ending	"1995 12 07 00:00:00"
 			OrbitFrame
@@ -23,13 +24,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Galileo"
+					Center	"Sol/Jupiter/Galileo"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Galileo"
+							Observer	"Sol/Jupiter/Galileo"
 							Target	"Sol/Earth"
 						}
 					}
@@ -38,7 +39,7 @@
 						Axis	"x"
 						RelativeVelocity
 						{
-							Observer	"Sol/Galileo"
+							Observer	"Sol/Jupiter/Galileo"
 							Target	"Sol/Earth"
 						}
 					}
@@ -49,7 +50,8 @@
 				Period	0.0055556
 			}
 		}
-		{ # Phase 2: Jupiter orbit
+		# Phase 2: Jupiter orbit
+		{
 			Ending	"2003 09 21 18:58:00"
 			OrbitFrame
 			{
@@ -65,13 +67,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Galileo"
+					Center	"Sol/Jupiter/Galileo"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Galileo"
+							Observer	"Sol/Jupiter/Galileo"
 							Target	"Sol/Earth"
 						}
 					}
@@ -80,7 +82,7 @@
 						Axis	"x"
 						RelativeVelocity
 						{
-							Observer	"Sol/Galileo"
+							Observer	"Sol/Jupiter/Galileo"
 							Target	"Sol/Earth"
 						}
 					}
@@ -96,64 +98,66 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Galileo_(spacecraft)"
 }
 
-"Galileo Probe:1989-084E" "Sol/Galileo"
+"Galileo Probe:1989-084E" "Sol/Jupiter/Galileo"
 {
 	Class	"spacecraft"
 	Mesh	"galileo-probe.3ds"
 	Radius	0.00089
-	OrbitFrame
-	{
-		EclipticJ2000	{ Center "Sol/Jupiter" }
-	}
 	Timeline
 	[
-		{ # Phase 1: With Galileo
+		# Phase 1: With Galileo
+		{
 			Beginning	"1989 10 19 01:30:00"
 			Ending	"1995 07 13 05:32:00"
-			OrbitFrame	{ BodyFixed { Center "Sol/Galileo" } }
-			BodyFrame	{ BodyFixed { Center "Sol/Galileo" } }
-			FixedRotation	{ Inclination 180 }
-			FixedPosition	{ Planetographic [ 94.83364 -89.95999 -0.006 ] }
+			OrbitFrame
+			{ BodyFixed { Center "Sol/Jupiter/Galileo" } }
+			BodyFrame
+			{ BodyFixed { Center "Sol/Jupiter/Galileo" } }
+			FixedRotation	{ Inclination 0 }
+			FixedPosition [ 0 0 -0.00155 ]
 		}
-		{ # Phase 2: Free flight to Jupiter
+		# Phase 2: Free flight to Jupiter
+		{
 			Ending	"1995 12 07 22:07:00"
+			OrbitFrame
+			{ EclipticJ2000	{ Center "Sol/Jupiter" } }
 			SampledTrajectory
 			{
 				Source	"galileo-probe.xyzv"
 				DoublePrecision	true
 				Interpolation	"cubic"
 			}
+			BodyFrame
+			{
+			  TwoVector
+			  {
+				Center	"Sol/Jupiter/Galileo/Galileo Probe"
+				Primary
+				{
+				  Axis	"-z"
+				  RelativePosition
+				  {
+					Observer "Sol/Jupiter/Galileo/Galileo Probe"
+					Target   "Sol/Jupiter"
+				  }
+				}
+				Secondary
+				{
+				  Axis	"x"
+				  RelativeVelocity
+				  {
+					Observer "Sol/Jupiter/Galileo/Galileo Probe"
+					Target   "Sol/Jupiter"
+				  }
+				}
+			  }
+			}
+			UniformRotation
+			{
+				Period	0.0055556
+			}
 		}
 	]
-	BodyFrame
-	{
-		TwoVector
-		{
-			Center	"Sol/Galileo/Galileo Probe"
-			Primary
-			{
-				Axis	"-z"
-				RelativePosition
-				{
-					Observer	"Sol/Galileo/Galileo Probe"
-					Target	"Sol/Jupiter"
-				}
-			}
-			Secondary
-			{
-				Axis	"x"
-				RelativeVelocity
-				{
-					Observer	"Sol/Galileo/Galileo Probe"
-					Target	"Sol/Jupiter"
-				}
-			}
-		}
-	}
-	UniformRotation
-	{
-		Period	0.0015873
-	}
 	Albedo	0.2
 	InfoURL	"https://en.wikipedia.org/wiki/Galileo_Probe"
 }
