@@ -1,11 +1,12 @@
-"Cassini:1997-061A" "Sol"
+"Cassini:1997-061A" "Sol/Saturn"
 {
 	Class	"spacecraft"
 	Mesh	"cassini.3ds"
 	Radius	0.011
 	Timeline
 	[
-		{ # Phase 1: Launch and cruise
+		# Phase 1: Launch and cruise
+		{
 			Beginning	"1997 10 15 09:28:00"
 			Ending	"2004 06 11 00:00:00"
 			OrbitFrame
@@ -23,13 +24,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -38,14 +39,15 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
 				}
 			}
 		}
-		{ # Phase 2: Saturn orbit (year 1)
+		# Phase 2: Saturn orbit (year 1)
+		{
 			Ending	"2005 06 11 00:00:00"
 			OrbitFrame
 			{
@@ -62,13 +64,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -77,14 +79,15 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
 				}
 			}
 		}
-		{ # Phase 3: Saturn orbit (year 2)
+		# Phase 3: Saturn orbit (year 2)
+		{
 			Ending	"2006 06 11 00:00:00"
 			OrbitFrame
 			{
@@ -101,13 +104,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -116,14 +119,15 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
 				}
 			}
 		}
-		{ # Phase 4: Saturn orbit (year 3)
+		# Phase 4: Saturn orbit (year 3)
+		{
 			Ending	"2007 06 11 00:00:00"
 			OrbitFrame
 			{
@@ -140,13 +144,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -155,14 +159,15 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
 				}
 			}
 		}
-		{ # Phase 5: Saturn orbit (year 4)
+		# Phase 5: Saturn orbit (year 4)
+		{
 			Ending	"2008 06 11 00:00:00"
 			OrbitFrame
 			{
@@ -179,13 +184,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -194,14 +199,15 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
 				}
 			}
 		}
-		{ # Phase 6: Saturn orbit (year 5)
+		# Phase 6: Saturn orbit (year 5)
+		{
 			Ending	"2009 06 11 00:00:00"
 			OrbitFrame
 			{
@@ -218,13 +224,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -233,14 +239,15 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
 				}
 			}
 		}
-		{ # Phase 7: Saturn orbit (year 6)
+		# Phase 7: Saturn orbit (year 6)
+		{
 			Ending	"2010 06 11 00:00:00"
 			OrbitFrame
 			{
@@ -257,13 +264,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -272,14 +279,15 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
 				}
 			}
 		}
-		{ # Phase 8: Saturn orbit (year 7)
+		# Phase 8: Saturn orbit (year 7)
+		{
 			Ending	"2011 06 11 00:00:00"
 			OrbitFrame
 			{
@@ -296,13 +304,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -311,14 +319,15 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
 				}
 			}
 		}
-		{ # Phase 9: Saturn orbit (year 8)
+		# Phase 9: Saturn orbit (year 8)
+		{
 			Ending	"2012 06 11 00:00:00"
 			OrbitFrame
 			{
@@ -335,13 +344,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -350,14 +359,15 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
 				}
 			}
 		}
-		{ # Phase 10: Saturn orbit (year 9)
+		# Phase 10: Saturn orbit (year 9)
+		{
 			Ending	"2013 06 11 00:00:00"
 			OrbitFrame
 			{
@@ -374,13 +384,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -389,14 +399,15 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
 				}
 			}
 		}
-		{ # Phase 11: Saturn orbit (year 10)
+		# Phase 11: Saturn orbit (year 10)
+		{
 			Ending	"2014 06 11 00:00:00"
 			OrbitFrame
 			{
@@ -413,13 +424,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -428,14 +439,15 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
 				}
 			}
 		}
-		{ # Phase 12: Saturn orbit (year 11)
+		# Phase 12: Saturn orbit (year 11)
+		{
 			Ending	"2015 06 11 00:00:00"
 			OrbitFrame
 			{
@@ -452,13 +464,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -467,14 +479,15 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
 				}
 			}
 		}
-		{ # Phase 13: Saturn orbit (year 12)
+		# Phase 13: Saturn orbit (year 12)
+		{
 			Ending	"2016 06 11 00:00:00"
 			OrbitFrame
 			{
@@ -491,13 +504,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -506,14 +519,15 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
 				}
 			}
 		}
-		{ # Phase 14: Saturn orbit (year 13)
+		# Phase 14: Saturn orbit (year 13)
+		{
 			Ending	"2017 06 11 00:00:00"
 			OrbitFrame
 			{
@@ -530,13 +544,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -545,14 +559,15 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
 				}
 			}
 		}
-		{ # Phase 15: Saturn orbit (year 14)
+		# Phase 15: Saturn orbit (year 14)
+		{
 			Ending	"2017 09 15 10:34:00"
 			OrbitFrame
 			{
@@ -569,13 +584,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini"
+					Center	"Sol/Saturn/Cassini"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -584,7 +599,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini"
+							Observer	"Sol/Saturn/Cassini"
 							Target	"Sol/Earth"
 						}
 					}
@@ -596,7 +611,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Cassini-Huygens"
 }
 
-"Huygens:1997-061C" "Sol/Cassini"
+"Huygens:1997-061C" "Sol/Saturn/Titan"
 {
 	Class	"spacecraft"
 	Mesh	"huygens.3ds"
@@ -604,15 +619,17 @@
 	Radius	0.00135
 	Timeline
 	[
-		{ # Phase 1: With Cassini
+		# Phase 1: With Cassini
+		{
 			Beginning	"1997 10 15 09:28:00"
 			Ending	"2004 12 25 02:02:00"
-			OrbitFrame	{ BodyFixed { Center "Sol/Cassini" } }
-			BodyFrame	{ BodyFixed { Center "Sol/Cassini" } }
-			FixedPosition	[ -0.0014 0 0.0002 ]
-			FixedRotation	{ Inclination 90 AscendingNode 90 }
+			OrbitFrame	{ BodyFixed { Center "Sol/Saturn/Cassini" } }
+			BodyFrame	{ BodyFixed { Center "Sol/Saturn/Cassini" } }
+			FixedPosition	[ -0.0014 0 -0.0002 ]
+			FixedRotation	{ Inclination 270 AscendingNode 90 }
 		}
-		{ # Phase 2: Free flight to Titan
+		# Phase 2: Free flight to Titan
+		{
 			Ending	"2005 01 14 11:22:00"
 			OrbitFrame
 			{
@@ -628,13 +645,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini/Huygens"
+					Center	"Sol/Saturn/Titan/Huygens"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini/Huygens"
+							Observer	"Sol/Saturn/Titan/Huygens"
 							Target	"Sol/Saturn"
 						}
 					}
@@ -643,7 +660,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini/Huygens"
+							Observer	"Sol/Saturn/Titan/Huygens"
 							Target	"Sol/Saturn"
 						}
 					}
@@ -654,7 +671,8 @@
 				Period	0.0022222
 			}
 		}
-		{ # Phase 3: On Titan
+		# Phase 3: On Titan
+		{
 			OrbitFrame
 			{
 				BodyFixed	{ Center "Sol/Saturn/Titan" }
@@ -663,13 +681,13 @@
 			{
 				TwoVector
 				{
-					Center	"Sol/Cassini/Huygens"
+					Center	"Sol/Saturn/Titan/Huygens"
 					Primary
 					{
 						Axis	"z"
 						RelativePosition
 						{
-							Observer	"Sol/Cassini/Huygens"
+							Observer	"Sol/Saturn/Titan/Huygens"
 							Target	"Sol/Saturn/Titan"
 						}
 					}
@@ -678,7 +696,7 @@
 						Axis	"y"
 						RelativeVelocity
 						{
-							Observer	"Sol/Cassini/Huygens"
+							Observer	"Sol/Saturn/Titan/Huygens"
 							Target	"Sol/Saturn/Titan"
 						}
 					}
