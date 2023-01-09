@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.1.0)
 
 project(celestia VERSION "1.7.0" LANGUAGES NONE)
 
-option(NATIVE_OSX_APP "Support native OSX paths read data from (Default: off)" OFF)
 option(ENABLE_NLS     "Enable object names translation? (Default: on)" ON)
 
 # Use our cmake files
@@ -19,12 +18,14 @@ if(ENABLE_NLS)
   include(FixGettext)
 endif()
 
-if(NATIVE_OSX_APP)
-  set(CMAKE_INSTALL_PREFIX "${PROJECT_BINARY_DIR}/${PROJECT_NAME}.app/Contents")
-  set(CMAKE_INSTALL_FULL_LOCALEDIR "${CMAKE_INSTALL_PREFIX}/Resources/locale")
-  set(CMAKE_INSTALL_BINDIR "MacOS")
-  set(DATADIR "${CMAKE_INSTALL_PREFIX}/Resources")
-  set(FULL_DATADIR "${CMAKE_INSTALL_PREFIX}/Resources")
+if(WIN32)
+  set(CMAKE_INSTALL_BINDIR ".")
+  set(CMAKE_INSTALL_DATAROOTDIR ".")
+  set(CMAKE_INSTALL_DATADIR ".")
+  set(CMAKE_INSTALL_FULL_LOCALEDIR "locale")
+  set(CMAKE_INSTALL_LOCALEDIR "${CMAKE_INSTALL_FULL_LOCALEDIR}")
+  set(DATADIR "${CMAKE_INSTALL_DATADIR}")
+  set(FULL_DATADIR ".")
 else()
   set(DATADIR "${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}")
   set(FULL_DATADIR "${CMAKE_INSTALL_FULL_DATADIR}/${PROJECT_NAME}")
