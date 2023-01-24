@@ -17,6 +17,9 @@
 # https://iopscience.iop.org/article/10.3847/1538-4365/abd107
 # Other sources appear as comments for individual star systems.
 
+# Additional Gliese designations are from Golovin et al. (2022) "The Fifth
+# Catalogue of Nearby Stars", https://dc.g-vo.org/CNS5
+
 # Because the magnitude system breaks down for extremely dim stars (such as late
 # T or Y dwarfs), they have been given an arbitrary but extremely low AbsMag
 # value of 40, and their radii have also been set to a value around ~1 Jupiter
@@ -136,14 +139,14 @@ Barycenter "ALF Cen:Gliese 559"
 # "TESS Observations of the Luhman 16 AB Brown Dwarf System: Rotational Periods,
 # Lightcurve Evolution, and Zonal Circulation"
 # https://iopscience.iop.org/article/10.3847/1538-4357/abcb97
-Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
+Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 {
 	RA 162.30328243
 	Dec -53.31757381
 	Distance 6.5029 # 501.557 +/- 0.082 mas
 }
 
-"Luhman 16 A:WISE 1049-5319 A:WISE J104915.57-531906.1 A"
+"Luhman 16 A:WISE 1049-5319 A:WISE J104915.57-531906.1 A:GJ 11551 A"
 {
 	OrbitBarycenter "Luhman 16"
 	SpectralType "L7.5"
@@ -163,7 +166,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 	RotationPeriod 6.94
 }
 
-"Luhman 16 B:WISE 1049-5319 B:WISE J104915.57-531906.1 B"
+"Luhman 16 B:WISE 1049-5319 B:WISE J104915.57-531906.1 B:GJ 11551 B"
 {
 	OrbitBarycenter "Luhman 16"
 	SpectralType "T0.5"
@@ -184,7 +187,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1"
 }
 
 # parameters from Kirkpatrick et al. (2021)
-"WISE 0855-0714:WISE J085510.83-071442.5"
+"WISE 0855-0714:WISE J085510.83-071442.5:GJ 11286"
 {
 	RA 133.780984
 	Dec -7.243932
@@ -725,7 +728,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B"
 	AppMag 9.872
 }
 
-"Teegarden's Star:SO0253+1652:SO025300.5+165258"
+"Teegarden's Star:SO0253+1652:SO025300.5+165258:GJ 10393"
 {
 	RA 43.26964248
 	Dec 16.86437382
@@ -756,14 +759,14 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B"
 # parameters from Vigan et al. (2012), A&A 540, A131
 # "High-contrast spectroscopy of SCR J1845-6357 B"
 # https://www.aanda.org/articles/aa/abs/2012/04/aa18426-11/aa18426-11.html
-Barycenter "SCR 1845-6357"
+Barycenter "SCR 1845-6357:GJ 12724"
 {
 	RA 281.29804386
 	Dec -63.96056737
 	Distance 13.0638 # 249.6651 +/- 0.1330 mas
 }
 
-"SCR 1845-6357 A"
+"SCR 1845-6357 A:GJ 12724 A"
 {
 	OrbitBarycenter "SCR 1845-6357"
 	SpectralType "M8.5V"
@@ -776,7 +779,7 @@ Barycenter "SCR 1845-6357"
 	}
 }
 
-"SCR 1845-6357 B"
+"SCR 1845-6357 B:GJ 12724 B"
 {
 	OrbitBarycenter "SCR 1845-6357"
 	SpectralType "T6V"
@@ -829,7 +832,7 @@ Barycenter 110893 "Gliese 860:Kruger 60:ADS 15972"
 	}
 }
 
-"DENIS 1048-3956:DENIS J104814.6-395606:RECONS 2"
+"DENIS 1048-3956:DENIS J104814.6-395606:RECONS 2:GJ 11547"
 {
 	RA 162.05388772
 	Dec -39.93962595
@@ -842,7 +845,7 @@ Barycenter 110893 "Gliese 860:Kruger 60:ADS 15972"
 # "The Properties of the 500 K Dwarf UGPS J072227.51-054031.2 and a Study
 # of the Far-red Flux of Cold Brown Dwarfs"
 # https://iopscience.iop.org/article/10.1088/0004-637X/748/2/74
-"UGPS 0722-0540:UGPS J072227.51-054031.2"
+"UGPS 0722-0540:UGPS J072227.51-054031.2:GJ 11075"
 {
 	RA 110.6161250
 	Dec -5.6753056
@@ -998,7 +1001,7 @@ Barycenter "Gliese 473:Wolf 424"
 }
 
 # parameters from Kirkpatrick et al. (2021)
-"WISE 1639-6847:WISE J163940.83-684738.6"
+"WISE 1639-6847:WISE J163940.83-684738.6:GJ 12393"
 {
 	RA 249.922582
 	Dec -68.798903
@@ -1097,7 +1100,7 @@ Barycenter "GJ 1245 A"
 # rotation period, radius from Burningham et al. (2016), MNRAS 463, 2
 # "A LOFAR mini-survey for low-frequency radio emission from the nearest brown dwarfs"
 # https://academic.oup.com/mnras/article/463/2/2202/2892466
-"WISE 1741+2553:WISE J174124.25+255319.6"
+"WISE 1741+2553:WISE J174124.25+255319.6:GJ 12549"
 {
 	RA 265.352586
 	Dec 25.892878
@@ -1137,7 +1140,7 @@ Barycenter "GJ 1245 A"
 	AppMag 13.837
 }
 
-"DENIS 0255-4700:DENIS-P J025503.5-470050:2MASS 0255-4700:2MASS J02550357-4700509"
+"DENIS 0255-4700:DENIS-P J025503.5-470050:2MASS 0255-4700:2MASS J02550357-4700509:GJ 10402"
 {
 	RA 43.77198593
 	Dec -47.01672836
@@ -1406,7 +1409,7 @@ Barycenter "GJ 1116"
 # "A LOFAR mini-survey for low-frequency radio emission from the nearest brown
 # dwarfs"
 # https://academic.oup.com/mnras/article/463/2/2202/2892466
-"WISE 1506+7027:WISE J150649.97+702736.1"
+"WISE 1506+7027:WISE J150649.97+702736.1:GJ 12169"
 {
 	RA 226.70263615
 	Dec 70.46161913
@@ -1428,7 +1431,7 @@ Barycenter "GJ 1116"
 	AppMag 11.31
 }
 
-"WISE 0817-6155:WISEP J081729.74-615504.1"
+"WISE 0817-6155:WISEP J081729.74-615504.1:GJ 11204"
 {
 	RA 124.37351806
 	Dec -61.91613022
@@ -1450,7 +1453,8 @@ Barycenter "GJ 1116"
 # magnitude from Perez Garrido et al. (2014), A&A 567, A6
 # "2MASS J154043.42-510135.7: a new addition to the 5 pc population"
 # https://www.aanda.org/articles/aa/abs/2014/07/aa23615-14/aa23615-14.html
-"WISE 1540-5101:WISE J154045.65-510139.2"
+# Appears to be duplicated in CNS5 GJ 12258=GJ 12259
+"WISE 1540-5101:WISE J154045.65-510139.2:GJ 12258:GJ 12259"
 {
 	RA 235.19517746
 	Dec -51.02810131
@@ -1464,7 +1468,7 @@ Barycenter "GJ 1116"
 # "The phyical properties of four 600K T dwarfs."
 # http://iopscience.iop.org/article/10.1088/0004-637X/695/2/1517/meta
 # unresolved binary; separation and orbit unknown
-"2MASS 0939-2448 A:2MASS J09393548-2448279 A"
+"2MASS 0939-2448 A:2MASS J09393548-2448279 A:GJ 11394 A"
 {
 	RA 144.897865
 	Dec -24.807761
@@ -1475,7 +1479,7 @@ Barycenter "GJ 1116"
 	AbsMag 40 # extremely low
 }
 
-"2MASS 0939-2448 B:2MASS J09393548-2448279 B"
+"2MASS 0939-2448 B:2MASS J09393548-2448279 B:GJ 11394 B"
 {
 	RA 144.897885
 	Dec -24.807761
@@ -1546,7 +1550,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 # "Uniform Atmospheric Retrieval Analysis of Ultracool Dwarfs. II. Properties 
 # of 11 T dwarfs"
 # http://iopscience.iop.org/0004-637X/848/2/83/
-"2MASS 1114-2618:2MASS J11145133-2618235"
+"2MASS 1114-2618:2MASS J11145133-2618235:GJ 11600"
 {
 	RA 168.7032979
 	Dec -26.3074976
@@ -1578,7 +1582,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 }
 
 # parameters from Kirkpatrick et al. (2021)
-"WISE 0350-5658:WISE J035000.32-565830.2"
+"WISE 0350-5658:WISE J035000.32-565830.2:GJ 10528"
 {
 	RA 57.500868
 	Dec -56.975831
@@ -1589,7 +1593,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	AbsMag 40 # extremely low
 }
 
-"2MASS 1835+3259:2MASS J18353790+3259545"
+"2MASS 1835+3259:2MASS J18353790+3259545:GJ 12692"
 {
 	RA 278.90744885
 	Dec 32.99478716
@@ -1612,7 +1616,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 # coordinates, parallax from Dupuy & Liu (2012), ApJS 201 (2), 19
 # "The Hawaii Infrared Parallax Program. I. Ultracool Binaries and the L/T Transition"
 # http://iopscience.iop.org/article/10.1088/0067-0049/201/2/19/meta
-"2MASS 0415-0935:2MASS J04151954-0935066"
+"2MASS 0415-0935:2MASS J04151954-0935066:GJ 10582"
 {
 	RA 63.8381022
 	Dec -9.5835266
@@ -1975,7 +1979,7 @@ Barycenter 84405 "Guniibuu AB:36 Oph AB:Gliese 663 AB"
 # BT-Settl model parameters from Beichman et al. (2014), ApJ 783 (2), 68
 # "WISE Y Dwarfs as Probes of the Brown Dwarf-Exoplanet Connection"
 # https://iopscience.iop.org/article/10.1088/0004-637X/783/2/68/meta
-"WISE 1541-2250:WISE J1541-2250:WISEPA J154151.66-225025.2"
+"WISE 1541-2250:WISE J1541-2250:WISEPA J154151.66-225025.2:GJ 12260"
 {
 	RA 235.463692
 	Dec -22.840586
@@ -2119,7 +2123,7 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	AppMag 3.56
 }
 
-"2MASS 0136+0933:2MASS J01365662+0933473:SIMP J013656.5+093347"
+"2MASS 0136+0933:2MASS J01365662+0933473:SIMP J013656.5+093347:GJ 10218"
 {
 	RA 24.24124979
 	Dec 9.56307045
@@ -2131,7 +2135,7 @@ Barycenter 34603 "Gliese 268:Ross 986"
 # coordinates, parallax from Schilbach, Röser & Scholz (2009), A&A 493 (2), L27-L30
 # "Trigonometric parallaxes of ten ultracool subdwarfs"
 # https://www.aanda.org/articles/aa/abs/2009/02/aa11281-08/aa11281-08.html
-"2MASS 0937+2931:2MASS J09373487+2931409"
+"2MASS 0937+2931:2MASS J09373487+2931409:GJ 11388"
 {
 	RA 144.395250
 	Dec 29.528189
@@ -2154,7 +2158,7 @@ Barycenter 34603 "Gliese 268:Ross 986"
 # BT-Settl model parameters from Beichman et al. (2014), ApJ 783 (2), 68
 # "WISE Y Dwarfs as Probes of the Brown Dwarf-Exoplanet Connection"
 # https://iopscience.iop.org/article/10.1088/0004-637X/783/2/68/meta
-"WISE 2209+2711:WISE J220905.73+271143.9"
+"WISE 2209+2711:WISE J220905.73+271143.9:GJ 13202"
 {
 	RA 332.275805
 	Dec 27.193641
@@ -2240,7 +2244,7 @@ Barycenter 116132 "EQ Peg:Gliese 896:BD+19 5116"
 }
 
 # parameters from Kirkpatrick et al. (2021)
-"WISE 1405+5534:WISE J140518.39+553421.3"
+"WISE 1405+5534:WISE J140518.39+553421.3:GJ 12023"
 {
 	RA 211.320620
 	Dec 55.572896
@@ -2302,7 +2306,7 @@ Barycenter "Gliese 338:Struve 1321:ADS 7251"
 	RotationPeriod 398.64 # 16.61 d
 }
 
-"LHS 2090:LP 368-128"
+"LHS 2090:LP 368-128:GJ 11309"
 {
 	RA 135.09564332
 	Dec 21.83206260
@@ -2363,7 +2367,7 @@ Barycenter 84140 "Gliese 661:BD+45 2505"
 	}
 }
 
-"2MASS 1503+2525:2MASS J15031961+2525196"
+"2MASS 1503+2525:2MASS J15031961+2525196:GJ 12162"
 {
 	RA 225.83214226
 	Dec 25.42464449
@@ -2372,7 +2376,7 @@ Barycenter 84140 "Gliese 661:BD+45 2505"
 	AbsMag 32 # for approximate radius in Celestia
 }
 
-"LP 944-20"
+"LP 944-20:GJ 10513"
 {
 	RA 54.89857021
 	Dec -35.42759364
@@ -2539,7 +2543,7 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 }
 
 # parameters from Kirkpatrick et al. (2021)
-"WISE 0825+2805:WISE J082507.35+280548.5"
+"WISE 0825+2805:WISE J082507.35+280548.5:GJ 11222"
 {
 	RA 126.280525
 	Dec 28.096445
@@ -2551,7 +2555,7 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 }
 
 # parameters from Kirkpatrick et al. (2021)
-"WISE 0410+1502:WISE J041022.71+150248.4"
+"WISE 0410+1502:WISE J041022.71+150248.4:GJ 10571"
 {
 	RA 62.596159
 	Dec 15.043733
@@ -2563,7 +2567,7 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 }
 
 # parameters from Kirkpatrick et al. (2021)
-"2MASS 0521+1025:2MASS J05212615+1025328:WISE J052126.29+102528.4"
+"2MASS 0521+1025:2MASS J05212615+1025328:WISE J052126.29+102528.4:GJ 10757"
 {
 	RA 80.359997
 	Dec 10.423818
@@ -2775,7 +2779,7 @@ Barycenter 106106 "Gliese 829:Ross 775"
 # Dupuy et al. (2019), AJ 158 (5), 174
 # "WISE J072003.20-084651.2B is a Massive T Dwarf"
 # https://arxiv.org/abs/1908.06994
-Barycenter "Scholz's Star:WISE 0720-0846:WISE J072003.20-084651.2"
+Barycenter "Scholz's Star:WISE 0720-0846:WISE J072003.20-084651.2:GJ 11068"
 {
 	RA 110.01336164
 	Dec -8.78107327
@@ -2785,7 +2789,7 @@ Barycenter "Scholz's Star:WISE 0720-0846:WISE J072003.20-084651.2"
 # Apparent magnitude of A from Ivanov et al. (2015), A&A 574, A64
 # "Properties of the solar neighbor WISE J072003.20-084651.2"
 # https://www.aanda.org/articles/aa/abs/2015/02/aa24883-14/aa24883-14.html
-"Scholz's Star A:WISE 0720-0846 A:WISE J072003.20-084651.2 A"
+"Scholz's Star A:WISE 0720-0846 A:WISE J072003.20-084651.2 A:GJ 11068 A"
 {
 	OrbitBarycenter "WISE 0720-0846"
 	SpectralType "M9.5V"
@@ -2803,7 +2807,7 @@ Barycenter "Scholz's Star:WISE 0720-0846:WISE J072003.20-084651.2"
 	}
 }
 
-"Scholz's Star B:WISE 0720-0846 B:WISE J072003.20-084651.2 B"
+"Scholz's Star B:WISE 0720-0846 B:WISE J072003.20-084651.2 B:GJ 11068 B"
 {
 	OrbitBarycenter "WISE 0720-0846"
 	SpectralType "T5.5V"
@@ -2821,7 +2825,7 @@ Barycenter "Scholz's Star:WISE 0720-0846:WISE J072003.20-084651.2"
 	}
 }
 
-"2MASS 1928+2356:2MASS J19284155+2356016"
+"2MASS 1928+2356:2MASS J19284155+2356016:GJ 12834"
 {
 	RA 292.17175326
 	Dec 23.93500480
@@ -2834,7 +2838,7 @@ Barycenter "Scholz's Star:WISE 0720-0846:WISE J072003.20-084651.2"
 # "Preliminary Trigonometric Parallaxes of 184 Late-T and Y Dwarfs and an
 # Analysis of the Field Substellar Mass Function into the 'Planetary' Mass Regime"
 # https://iopscience.iop.org/article/10.3847/1538-4365/aaf6af
-"WISE 0254+0223:WISE J025409.51+022358.6"
+"WISE 0254+0223:WISE J025409.51+022358.6:GJ 10400"
 {
 	RA 43.5328583
 	Dec 2.3989861
@@ -2850,14 +2854,16 @@ Barycenter "Scholz's Star:WISE 0720-0846:WISE J072003.20-084651.2"
 # "Three Red Suns in the Sky: A Transiting, Terrestrial Planet in a Triple 
 # M Dwarf System at 6.9 Parsecs"
 # https://arxiv.org/abs/1906.10147
-Barycenter 14101 "LTT 1445"
+# CNS5 lists the entire system as GJ 3193 ABC, and does not contain an entry
+# for GJ 3192
+Barycenter 14101 "LTT 1445:GJ 3193"
 {
 	RA 45.46154733 # mass ratio 0.257:(0.215:0.161)
 	Dec -16.59369072
 	Distance 22.3867 # 145.6922 +/- 0.0244 mas
 }
 
-1006945865 "LTT 1445 A:GJ 3193:LP 771-96:Luyten 730-18:RECONS 4"
+1006945865 "LTT 1445 A:GJ 3193 A:LP 771-96:Luyten 730-18:RECONS 4"
 {
 	RA 45.46242451
 	Dec -16.59453281
@@ -2867,14 +2873,16 @@ Barycenter 14101 "LTT 1445"
 	Radius 186400
 }
 
-Barycenter "LTT 1445 BC:GJ 3192:LP 771-95"
+# CNS5 does not list the GJ 3192 designation
+Barycenter "LTT 1445 BC:GJ 3193 BC:GJ 3192:LP 771-95"
 {
 	RA 45.46094777
 	Dec -16.59311514
 	Distance 22.3867
 }
 
-"LTT 1445 B:GJ 3192 A:LP 771-95 A"
+# CNS5 does not list the GJ 3192 designation
+"LTT 1445 B:GJ 3193 B:GJ 3192 A:LP 771-95 A"
 {
 	OrbitBarycenter "LTT 1445 BC"
 	SpectralType "M4V" # estimate from mass and radius
@@ -2892,7 +2900,8 @@ Barycenter "LTT 1445 BC:GJ 3192:LP 771-95"
 	}
 }
 
-"LTT 1445 C:GJ 3192 B:LP 771-95 B"
+# CNS5 does not list the GJ 3192 designation
+"LTT 1445 C:GJ 3193 C:GJ 3192 B:LP 771-95 B"
 {
 	OrbitBarycenter "LTT 1445 BC"
 	SpectralType "M4V" # estimate from mass and radius
@@ -2921,6 +2930,7 @@ Barycenter "LTT 1445 BC:GJ 3192:LP 771-95"
 }
 
 # parameters from Kirkpatrick et al. (2021)
+# Not in CNS5
 "CWISE 1055+5443:CWISE J105512.11+544328.3"
 {
 	RA 163.799544
@@ -2952,7 +2962,7 @@ Modify 103096 # Gliese 809
 	Radius 341000 # approx. for class
 }
 
-"2MASS 2146+3813:2MASS J21462206+3813047"
+"2MASS 2146+3813:2MASS J21462206+3813047:GJ 13136"
 {
 	RA 326.59288194
 	Dec 38.21751708
@@ -2976,7 +2986,7 @@ Modify 103096 # Gliese 809
 # BT-Settl model parameters from Beichman et al. (2014), ApJ 783 (2), 68
 # "WISE Y Dwarfs as Probes of the Brown Dwarf-Exoplanet Connection"
 # https://iopscience.iop.org/article/10.1088/0004-637X/783/2/68/meta
-"WISE 2056+1459:WISE J205628.91+145953.2"
+"WISE 2056+1459:WISE J205628.91+145953.2:GJ 13033"
 {
 	RA 314.121593
 	Dec 14.998858
@@ -2998,7 +3008,7 @@ Modify 103096 # Gliese 809
 }
 
 # parameters from Kirkpatrick et al. (2021)
-"WISE 0049+2151:WISE J004945.61+215120.0"
+"WISE 0049+2151:WISE J004945.61+215120.0:GJ 10131"
 {
 	RA 12.439534
 	Dec 21.855377
@@ -3082,7 +3092,7 @@ Barycenter 12114 "Gliese 105 AC"
 	Radius 225000 # approx. for class
 }
 
-"V488 Hya:2MASS J08354256-0819237"
+"V488 Hya:2MASS J08354256-0819237:GJ 11250"
 {
 	RA 128.92481210
 	Dec -8.32181827
@@ -3161,7 +3171,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	AppMag 10.22
 }
 
-"WISE 0607+2429:WISEP J060738.65+242953.4"
+"WISE 0607+2429:WISEP J060738.65+242953.4:GJ 10869"
 {
 	RA 91.91027347
 	Dec 24.49769409
@@ -3174,7 +3184,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 # BT-Settl model parameters from Beichman et al. (2014), ApJ 783 (2), 68
 # "WISE Y Dwarfs as Probes of the Brown Dwarf-Exoplanet Connection"
 # https://iopscience.iop.org/article/10.1088/0004-637X/783/2/68/meta
-"WISE 0313+7807:WISE J031325.94+780744.3"
+"WISE 0313+7807:WISE J031325.94+780744.3:GJ 10442"
 {
 	RA 48.359149
 	Dec 78.129087
@@ -3185,7 +3195,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	AbsMag 40 # extremely low
 }
 
-"2MASS 1507-1627:2MASS J15074769-1627386"
+"2MASS 1507-1627:2MASS J15074769-1627386:GJ 12172"
 {
 	RA 226.94794580
 	Dec -16.46512505
@@ -3215,7 +3225,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 }
 
 # parameters from Kirkpatrick et al. (2021)
-"WISE 2000+3629:WISE J200050.19+362950.1"
+"WISE 2000+3629:WISE J200050.19+362950.1:GJ 12908"
 {
 	RA 300.209094
 	Dec 36.497796
@@ -3332,7 +3342,7 @@ Barycenter 83945 "GJ 3991:Giclas 203-47"
 	AppMag 5.24
 }
 
-"Giclas 141-36"
+"Giclas 141-36:GJ 12735"
 {
 	RA 282.07475874
 	Dec 7.69032389
@@ -3351,7 +3361,7 @@ Modify 65859 # Ross 490
 # BT-Settl model parameters from Beichman et al. (2014), ApJ 783 (2), 68
 # "WISE Y Dwarfs as Probes of the Brown Dwarf-Exoplanet Connection"
 # https://iopscience.iop.org/article/10.1088/0004-637X/783/2/68/meta
-"WISE 1738+2732:WISE J173835.53+273259.0"
+"WISE 1738+2732:WISE J173835.53+273259.0:GJ 12541"
 {
 	RA 264.648568
 	Dec 27.549203
@@ -3373,7 +3383,7 @@ Modify 65859 # Ross 490
 }
 
 # parameters from Kirkpatrick et al. (2021)
-"WISE 2354+0240:WISEA J235402.79+024014.1"
+"WISE 2354+0240:WISEA J235402.79+024014.1:GJ 13441"
 {
 	RA 358.512498
 	Dec 2.669898
@@ -3398,7 +3408,7 @@ Modify 65859 # Ross 490
 	AppMag 11.76
 }
 
-"Fomalhaut C:ALF PsA C:LP 876-10"
+"Fomalhaut C:ALF PsA C:LP 876-10:GJ 13282"
 {
 	RA 342.02033817
 	Dec -24.36962742
