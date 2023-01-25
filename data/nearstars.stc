@@ -647,14 +647,15 @@ Barycenter "EPS Ind:Gliese 845" # orbit of A & B components unknown
 # Dieterich et al. (2018) "Dynamical Masses of ε Indi B and C: Two Massive
 # Brown Dwarfs at the Edge of the Stellar–substellar Boundary"
 # https://arxiv.org/abs/1807.09880
-Barycenter "EPS Ind B:CI Ind:Gliese 845 B"
+# Duplicated in CNS5: Gliese 845 B = GJ 13185
+Barycenter "EPS Ind B:CI Ind:Gliese 845 B:GJ 13185"
 {
 	RA 331.07645260
 	Dec -56.79381207
 	Distance 11.780 # 276.88 +/- 0.81 mas
 }
 
-"EPS Ind Ba:CI Ind A:Gliese 845 Ba"
+"EPS Ind Ba:CI Ind A:Gliese 845 Ba:GJ 13185 A"
 {
 	OrbitBarycenter "EPS Ind B"
 	SpectralType "T1.5V"
@@ -673,7 +674,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B"
 	}
 }
 
-"EPS Ind Bb:CI Ind B:Gliese 845 Bb"
+"EPS Ind Bb:CI Ind B:Gliese 845 Bb:GJ 13185 B"
 {
 	OrbitBarycenter "EPS Ind B"
 	SpectralType "T6V"
