@@ -18,16 +18,14 @@ set(DATA_SOURCES
   revised.stc
   spectbins.stc
   visualbins.stc
+  asteroids_locs.ssc
   asteroids.ssc
   comets.ssc
+  dwarfplanets_locs.ssc
   dwarfplanets.ssc
   earth_locs.ssc
-  eros_locs.ssc
   galaxies.dsc
-  gaspra_locs.ssc
   globulars.dsc
-  ida_locs.ssc
-  itokawa_locs.ssc
   jupitermoons_locs.ssc
   mars_locs.ssc
   marsmoons_locs.ssc
@@ -37,7 +35,6 @@ set(DATA_SOURCES
   neptunemoons_locs.ssc
   openclusters.dsc
   outersys.ssc
-  plutocharon_locs.ssc
   pulsars.stc
   ring_locs.ssc
   saturnmoons_locs.ssc
