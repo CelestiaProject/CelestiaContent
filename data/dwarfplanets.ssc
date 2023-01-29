@@ -276,11 +276,13 @@ ReferencePoint "Pluto-Charon" "Sol"
 	}
 	UniformRotation
 	{
-		Epoch	2449249.91125  # 1993 Sept 19 09:52:12
-		Period	9.074170
-		Inclination	23.236
-		AscendingNode	21.418
-		MeridianAngle	170
+	        # C. Raymond, JPL and T. Roatsch, DLR (28-Jun-2018)
+		# https://sbnarchive.psi.edu/pds3/dawn/fc/DWNCSPC_4_01/DOCUMENT/CERES_COORD_SYS_180628.HTM
+		Epoch	2451545.0         # J2000
+		Period	9.074169392       # Omega = 952.1532635 +/- 0.000002 deg/day
+		Inclination	23.23967  # Dec   = 66.76033 deg
+		AscendingNode	21.42763  # RA    = 291.42763 deg
+		MeridianAngle	170.309
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.090
