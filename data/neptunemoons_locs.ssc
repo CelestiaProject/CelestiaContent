@@ -1,4 +1,4 @@
-# 62 locations on the moons of Neptune.
+# 62 locations on Proteus and Triton.
 # SSC-file author: CLM tool by Askaniy (https://github.com/Askaniy/CelestiaLocationsMaker)
 
 
@@ -6,7 +6,7 @@
 
 Location "Pharos" "Sol/Neptune/Proteus"
 {
-	LongLat	[ -5 -20 4 ]
+	LongLat	[ -5 -25 0 ]
 	Size	255
 	Type	"AA"
 }
@@ -44,7 +44,7 @@ Location "Andvari" "Sol/Neptune/Triton"
 
 Location "Apep Cavus" "Sol/Neptune/Triton"
 {
-	LongLat	[ -301.5 -20 0 ]
+	LongLat	[ 58.5 -20 0 ]
 	Size	25
 	Type	"CB"
 }
@@ -58,7 +58,7 @@ Location "Awib Dorsa" "Sol/Neptune/Triton"
 
 Location "Bheki Cavus" "Sol/Neptune/Triton"
 {
-	LongLat	[ -308 -16 0 ]
+	LongLat	[ 52 -16 0 ]
 	Size	25
 	Type	"CB"
 }
@@ -72,14 +72,14 @@ Location "Bia Sulci" "Sol/Neptune/Triton"
 
 Location "Boynne Sulci" "Sol/Neptune/Triton"
 {
-	LongLat	[ -350 13 0 ]
+	LongLat	[ 10 13 0 ]
 	Size	500
 	Type	"SU"
 }
 
 Location "BUBEMBE REGIO" "Sol/Neptune/Triton"
 {
-	LongLat	[ -335 -18 0 ]
+	LongLat	[ 25 -18 0 ]
 	Size	700
 	Type	"RE"
 }
@@ -100,7 +100,7 @@ Location "Cipango Planum" "Sol/Neptune/Triton"
 
 Location "Dagon Cavus" "Sol/Neptune/Triton"
 {
-	LongLat	[ -345 -29 0 ]
+	LongLat	[ 15 -29 0 ]
 	Size	25
 	Type	"CB"
 }
@@ -128,7 +128,7 @@ Location "Gandvik Patera" "Sol/Neptune/Triton"
 
 Location "Hekt Cavus" "Sol/Neptune/Triton"
 {
-	LongLat	[ -342 -26 0 ]
+	LongLat	[ 18 -26 0 ]
 	Size	25
 	Type	"CB"
 }
@@ -142,14 +142,14 @@ Location "Hili" "Sol/Neptune/Triton"
 
 Location "Hirugo Cavus" "Sol/Neptune/Triton"
 {
-	LongLat	[ -345 -14.5 0 ]
+	LongLat	[ 15 -14.5 0 ]
 	Size	25
 	Type	"CB"
 }
 
 Location "Ho Sulci" "Sol/Neptune/Triton"
 {
-	LongLat	[ -305 -2 0 ]
+	LongLat	[ 55 -2 0 ]
 	Size	300
 	Type	"SU"
 }
@@ -177,7 +177,7 @@ Location "Kasu Patera" "Sol/Neptune/Triton"
 
 Location "Kasyapa Cavus" "Sol/Neptune/Triton"
 {
-	LongLat	[ -358 -7.5 0 ]
+	LongLat	[ 2 -7.5 0 ]
 	Size	25
 	Type	"CB"
 }
@@ -198,7 +198,7 @@ Location "Kikimora Maculae" "Sol/Neptune/Triton"
 
 Location "Kormet Sulci" "Sol/Neptune/Triton"
 {
-	LongLat	[ -335.5 -23 0 ]
+	LongLat	[ 24.5 -23 0 ]
 	Size	300
 	Type	"SU"
 }
@@ -240,7 +240,7 @@ Location "Leviathan Patera" "Sol/Neptune/Triton"
 
 Location "Lo Sulci" "Sol/Neptune/Triton"
 {
-	LongLat	[ -321 -3.8 0 ]
+	LongLat	[ 39 -3.8 0 ]
 	Size	150
 	Type	"SU"
 }
@@ -254,14 +254,14 @@ Location "Mah Cavus" "Sol/Neptune/Triton"
 
 Location "Mahilani" "Sol/Neptune/Triton"
 {
-	LongLat	[ -359.5 50.5 0 ]
+	LongLat	[ 0.5 50.5 0 ]
 	Size	25
 	Type	"PU"
 }
 
 Location "Mangwe Cavus" "Sol/Neptune/Triton"
 {
-	LongLat	[ -343 7 0 ]
+	LongLat	[ 17 7 0 ]
 	Size	25
 	Type	"CB"
 }
@@ -296,14 +296,14 @@ Location "Namazu Macula" "Sol/Neptune/Triton"
 
 Location "Ob Sulci" "Sol/Neptune/Triton"
 {
-	LongLat	[ -328 6 0 ]
+	LongLat	[ 32 6 0 ]
 	Size	300
 	Type	"SU"
 }
 
 Location "Ormet Sulci" "Sol/Neptune/Triton"
 {
-	LongLat	[ -337 -17 0 ]
+	LongLat	[ 23 -17 0 ]
 	Size	300
 	Type	"SU"
 }
@@ -324,7 +324,7 @@ Location "Raz Fossae" "Sol/Neptune/Triton"
 
 Location "Rem Maculae" "Sol/Neptune/Triton"
 {
-	LongLat	[ -349.5 -13 0 ]
+	LongLat	[ 10.5 -13 0 ]
 	Size	150
 	Type	"MA"
 }
@@ -359,7 +359,7 @@ Location "Sipapu Planitia" "Sol/Neptune/Triton"
 
 Location "Slidr Sulci" "Sol/Neptune/Triton"
 {
-	LongLat	[ -350 -23.5 0 ]
+	LongLat	[ 10 -23.5 0 ]
 	Size	200
 	Type	"SU"
 }
@@ -373,7 +373,7 @@ Location "Tangaroa" "Sol/Neptune/Triton"
 
 Location "Tano Sulci" "Sol/Neptune/Triton"
 {
-	LongLat	[ -337 -33.5 0 ]
+	LongLat	[ 23 -33.5 0 ]
 	Size	300
 	Type	"SU"
 }
@@ -387,7 +387,7 @@ Location "Tuonela Planitia" "Sol/Neptune/Triton"
 
 Location "UHLANGA REGIO" "Sol/Neptune/Triton"
 {
-	LongLat	[ -357 37 0 ]
+	LongLat	[ 3 37 0 ]
 	Size	1000
 	Type	"RE"
 }
@@ -422,7 +422,7 @@ Location "Vodyanoy" "Sol/Neptune/Triton"
 
 Location "Yasu Sulci" "Sol/Neptune/Triton"
 {
-	LongLat	[ -347 -2 0 ]
+	LongLat	[ 13 -2 0 ]
 	Size	300
 	Type	"SU"
 }

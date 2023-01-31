@@ -1,4 +1,4 @@
-# 700 locations on the moons of Jupiter.
+# 707 locations on Amalthea, Thebe, Io, Europa, Ganymede and Callisto.
 # SSC-file author: CLM tool by Askaniy (https://github.com/Askaniy/CelestiaLocationsMaker)
 
 
@@ -6,28 +6,28 @@
 
 Location "Gaea" "Sol/Jupiter/Amalthea"
 {
-	LongLat	[ 270 -80 0 ]
+	LongLat	[ -90 -80 0 ]
 	Size	80
 	Type	"AA"
 }
 
 Location "Ida Facula" "Sol/Jupiter/Amalthea"
 {
-	LongLat	[ 185 20 0 ]
+	LongLat	[ -175 20 0 ]
 	Size	50
 	Type	"FA"
 }
 
 Location "Lyctos Facula" "Sol/Jupiter/Amalthea"
 {
-	LongLat	[ 190 -20 0 ]
+	LongLat	[ -170 -20 0 ]
 	Size	25
 	Type	"FA"
 }
 
 Location "Pan" "Sol/Jupiter/Amalthea"
 {
-	LongLat	[ 325 55 0 ]
+	LongLat	[ -35 55 0 ]
 	Size	100
 	Type	"AA"
 }
@@ -37,7 +37,7 @@ Location "Pan" "Sol/Jupiter/Amalthea"
 
 Location "Zethus" "Sol/Jupiter/Thebe"
 {
-	LongLat	[ 185 10 0 ]
+	LongLat	[ -175 10 0 ]
 	Size	40
 	Type	"AA"
 }
@@ -47,7 +47,7 @@ Location "Zethus" "Sol/Jupiter/Thebe"
 
 Location "Ababinili Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 217.83 12.78 0 ]
+	LongLat	[ -142.17 12.78 0 ]
 	Size	103.63
 	Type	"PE"
 }
@@ -68,21 +68,21 @@ Location "Agni Patera" "Sol/Jupiter/Io"
 
 Location "Ah Peku Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 253.02 10.36 0 ]
+	LongLat	[ -106.98 10.36 0 ]
 	Size	84.91
 	Type	"PE"
 }
 
 Location "Aidne Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 182.89 -1.76 0 ]
+	LongLat	[ -177.11 -1.76 0 ]
 	Size	29.8
 	Type	"PE"
 }
 
 Location "Altjirra Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 251.18 -34.4 0 ]
+	LongLat	[ -108.82 -34.4 0 ]
 	Size	60.27
 	Type	"PE"
 }
@@ -96,14 +96,14 @@ Location "Amaterasu Patera" "Sol/Jupiter/Io"
 
 Location "Amirani" "Sol/Jupiter/Io"
 {
-	LongLat	[ 244.82 25.02 0 ]
+	LongLat	[ -115.18 25.02 0 ]
 	Size	415.23
 	Type	"ER"
 }
 
 Location "Angpetu Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 351.15 -21.18 0 ]
+	LongLat	[ -8.85 -21.18 0 ]
 	Size	18.5
 	Type	"PE"
 }
@@ -131,14 +131,14 @@ Location "Argos Planum" "Sol/Jupiter/Io"
 
 Location "Arinna Fluctus" "Sol/Jupiter/Io"
 {
-	LongLat	[ 210.81 31.63 0 ]
+	LongLat	[ -149.19 31.63 0 ]
 	Size	121.66
 	Type	"FL"
 }
 
 Location "Arusha Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 258.51 -38.99 0 ]
+	LongLat	[ -101.49 -38.99 0 ]
 	Size	69.51
 	Type	"PE"
 }
@@ -173,28 +173,28 @@ Location "Babbar Patera" "Sol/Jupiter/Io"
 
 Location "BACTRIA REGIO" "Sol/Jupiter/Io"
 {
-	LongLat	[ 236.47 -48.25 0 ]
+	LongLat	[ -123.53 -48.25 0 ]
 	Size	663.1
 	Type	"RE"
 }
 
 Location "Balder Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 203.84 11.46 0 ]
+	LongLat	[ -156.16 11.46 0 ]
 	Size	36.95
 	Type	"PE"
 }
 
 Location "Belenus Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 202.27 2.93 0 ]
+	LongLat	[ -157.73 2.93 0 ]
 	Size	22.13
 	Type	"PE"
 }
 
 Location "Bochica Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 341.12 -61.5 0 ]
+	LongLat	[ -18.88 -61.5 0 ]
 	Size	54.14
 	Type	"PE"
 }
@@ -208,7 +208,7 @@ Location "Boösaule Montes" "Sol/Jupiter/Io"
 
 Location "BOSPHORUS REGIO" "Sol/Jupiter/Io"
 {
-	LongLat	[ 239.43 -2.3 0 ]
+	LongLat	[ -120.57 -2.3 0 ]
 	Size	1607.21
 	Type	"RE"
 }
@@ -222,14 +222,14 @@ Location "BULICAME REGIO" "Sol/Jupiter/Io"
 
 Location "Camaxtli Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 223.2 15.28 0 ]
+	LongLat	[ -136.8 15.28 0 ]
 	Size	55.99
 	Type	"PE"
 }
 
 Location "Capaneus Mensa" "Sol/Jupiter/Io"
 {
-	LongLat	[ 238.6 -16.82 0 ]
+	LongLat	[ -121.4 -16.82 0 ]
 	Size	288.08
 	Type	"MN"
 }
@@ -243,14 +243,14 @@ Location "Carancho Patera" "Sol/Jupiter/Io"
 
 Location "Cataquil Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 343.34 -24.21 0 ]
+	LongLat	[ -16.66 -24.21 0 ]
 	Size	117.66
 	Type	"PE"
 }
 
 Location "Catha Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 258.42 -53.72 0 ]
+	LongLat	[ -101.58 -53.72 0 ]
 	Size	65.71
 	Type	"PE"
 }
@@ -264,14 +264,14 @@ Location "Caucasus Mons" "Sol/Jupiter/Io"
 
 Location "Chaac Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 202.56 11.96 0 ]
+	LongLat	[ -157.44 11.96 0 ]
 	Size	95.55
 	Type	"PE"
 }
 
 Location "CHALYBES REGIO" "Sol/Jupiter/Io"
 {
-	LongLat	[ 275.33 56.88 0 ]
+	LongLat	[ -84.67 56.88 0 ]
 	Size	760.29
 	Type	"RE"
 }
@@ -306,14 +306,14 @@ Location "Crimea Mons" "Sol/Jupiter/Io"
 
 Location "Cuchi Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 215.35 -0.83 0 ]
+	LongLat	[ -144.65 -0.83 0 ]
 	Size	74.14
 	Type	"PE"
 }
 
 Location "Culann Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 199.89 -19.88 0 ]
+	LongLat	[ -160.11 -19.88 0 ]
 	Size	28.85
 	Type	"PE"
 }
@@ -369,7 +369,7 @@ Location "Dorian Montes" "Sol/Jupiter/Io"
 
 Location "Dusura Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 240.97 37.53 0 ]
+	LongLat	[ -119.03 37.53 0 ]
 	Size	65.62
 	Type	"PE"
 }
@@ -390,14 +390,14 @@ Location "Egypt Mons" "Sol/Jupiter/Io"
 
 Location "Ekhi Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 271.51 -28.36 0 ]
+	LongLat	[ -88.49 -28.36 0 ]
 	Size	51.68
 	Type	"PE"
 }
 
 Location "Emakong Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 240.15 -3.37 0 ]
+	LongLat	[ -119.85 -3.37 0 ]
 	Size	77.42
 	Type	"PE"
 }
@@ -411,14 +411,14 @@ Location "Epaphus Mensa" "Sol/Jupiter/Io"
 
 Location "Estan Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 272.41 21.53 0 ]
+	LongLat	[ -87.59 21.53 0 ]
 	Size	95.6
 	Type	"PE"
 }
 
 Location "Ethiopia Planum" "Sol/Jupiter/Io"
 {
-	LongLat	[ 335.55 -45.48 0 ]
+	LongLat	[ -24.45 -45.48 0 ]
 	Size	328.01
 	Type	"PM"
 }
@@ -439,7 +439,7 @@ Location "Euboea Montes" "Sol/Jupiter/Io"
 
 Location "Euxine Mons" "Sol/Jupiter/Io"
 {
-	LongLat	[ 233.56 26.32 0 ]
+	LongLat	[ -126.44 26.32 0 ]
 	Size	282.13
 	Type	"MO"
 }
@@ -495,35 +495,35 @@ Location "Girru Patera" "Sol/Jupiter/Io"
 
 Location "Gish Bar Mons" "Sol/Jupiter/Io"
 {
-	LongLat	[ 271.05 18.5 0 ]
+	LongLat	[ -88.95 18.5 0 ]
 	Size	218.54
 	Type	"MO"
 }
 
 Location "Gish Bar Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 269.7 16.18 0 ]
+	LongLat	[ -90.3 16.18 0 ]
 	Size	117.13
 	Type	"PE"
 }
 
 Location "Grannos Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 214.66 11.17 0 ]
+	LongLat	[ -145.34 11.17 0 ]
 	Size	43.56
 	Type	"PE"
 }
 
 Location "Grian Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 348.15 -11.3 0 ]
+	LongLat	[ -11.85 -11.3 0 ]
 	Size	87.8
 	Type	"PE"
 }
 
 Location "Haemus Montes" "Sol/Jupiter/Io"
 {
-	LongLat	[ 313.39 -70.12 0 ]
+	LongLat	[ -46.61 -70.12 0 ]
 	Size	331.26
 	Type	"MO"
 }
@@ -537,7 +537,7 @@ Location "Haokah Patera" "Sol/Jupiter/Io"
 
 Location "Hatchawa Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 328.03 -59.51 0 ]
+	LongLat	[ -31.97 -59.51 0 ]
 	Size	85.3
 	Type	"PE"
 }
@@ -572,14 +572,14 @@ Location "Hermes Mensa" "Sol/Jupiter/Io"
 
 Location "Hi'iaka Montes" "Sol/Jupiter/Io"
 {
-	LongLat	[ 278.04 -4.68 0 ]
+	LongLat	[ -81.96 -4.68 0 ]
 	Size	500
 	Type	"MO"
 }
 
 Location "Hi'iaka Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 280.52 -3.55 0 ]
+	LongLat	[ -79.48 -3.55 0 ]
 	Size	141.96
 	Type	"PE"
 }
@@ -607,21 +607,21 @@ Location "Huo Shen Patera" "Sol/Jupiter/Io"
 
 Location "Hybristes Planum" "Sol/Jupiter/Io"
 {
-	LongLat	[ 341.63 -54.39 0 ]
+	LongLat	[ -18.37 -54.39 0 ]
 	Size	195.84
 	Type	"PM"
 }
 
 Location "ILLYRIKON REGIO" "Sol/Jupiter/Io"
 {
-	LongLat	[ 182.23 -70.88 0 ]
+	LongLat	[ -177.77 -70.88 0 ]
 	Size	1000.51
 	Type	"RE"
 }
 
 Location "Ilmarinen Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 358.8 -14.41 0 ]
+	LongLat	[ -1.2 -14.41 0 ]
 	Size	39.79
 	Type	"PE"
 }
@@ -663,7 +663,7 @@ Location "Isum Patera" "Sol/Jupiter/Io"
 
 Location "Itzamna Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 260.82 -15.81 0 ]
+	LongLat	[ -99.18 -15.81 0 ]
 	Size	142.46
 	Type	"PE"
 }
@@ -677,7 +677,7 @@ Location "Iynx Mensa" "Sol/Jupiter/Io"
 
 Location "Janus Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 320.98 -4.56 0 ]
+	LongLat	[ -39.02 -4.56 0 ]
 	Size	53.22
 	Type	"PE"
 }
@@ -691,28 +691,28 @@ Location "Kami-Nari Patera" "Sol/Jupiter/Io"
 
 Location "Kanehekili" "Sol/Jupiter/Io"
 {
-	LongLat	[ 326.64 -17.46 0 ]
+	LongLat	[ -33.36 -17.46 0 ]
 	Size	100
 	Type	"ER"
 }
 
 Location "Kanehekili Fluctus" "Sol/Jupiter/Io"
 {
-	LongLat	[ 326.63 -17.18 0 ]
+	LongLat	[ -33.37 -17.18 0 ]
 	Size	258.69
 	Type	"FL"
 }
 
 Location "Kane Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 348.25 -48.42 0 ]
+	LongLat	[ -11.75 -48.42 0 ]
 	Size	132.22
 	Type	"PE"
 }
 
 Location "Karei Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 346.83 0.2 0 ]
+	LongLat	[ -13.17 0.2 0 ]
 	Size	35.37
 	Type	"PE"
 }
@@ -754,8 +754,8 @@ Location "Kurdalagon Patera" "Sol/Jupiter/Io"
 
 Location "Laki-oi Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 301.64 -40 0 ]
-	Size	58.4
+	LongLat	[ -58.36 -40 0 ]
+	Size	58.41
 	Type	"PE"
 }
 
@@ -768,7 +768,7 @@ Location "Lei-Kung Fluctus" "Sol/Jupiter/Io"
 
 Location "Lei-zi Fluctus" "Sol/Jupiter/Io"
 {
-	LongLat	[ 315.07 13.48 0 ]
+	LongLat	[ -44.93 13.48 0 ]
 	Size	176.92
 	Type	"FL"
 }
@@ -831,7 +831,7 @@ Location "Mafuike Patera" "Sol/Jupiter/Io"
 
 Location "Malik Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 230.34 -34.15 0 ]
+	LongLat	[ -129.66 -34.15 0 ]
 	Size	117.85
 	Type	"PE"
 }
@@ -873,28 +873,28 @@ Location "Masaya Patera" "Sol/Jupiter/Io"
 
 Location "Masubi" "Sol/Jupiter/Io"
 {
-	LongLat	[ 302.7 -50.29 0 ]
+	LongLat	[ -57.3 -50.29 0 ]
 	Size	509.1
 	Type	"ER"
 }
 
 Location "Masubi Fluctus" "Sol/Jupiter/Io"
 {
-	LongLat	[ 302.23 -50.89 0 ]
+	LongLat	[ -57.77 -50.89 0 ]
 	Size	499.94
 	Type	"FL"
 }
 
 Location "Maui" "Sol/Jupiter/Io"
 {
-	LongLat	[ 237.72 19.69 0 ]
+	LongLat	[ -122.28 19.69 0 ]
 	Size	109.89
 	Type	"ER"
 }
 
 Location "Maui Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 235.77 16.61 0 ]
+	LongLat	[ -124.23 16.61 0 ]
 	Size	38.12
 	Type	"PE"
 }
@@ -908,14 +908,14 @@ Location "Mazda Paterae" "Sol/Jupiter/Io"
 
 Location "Mbali Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 355.04 -31.43 0 ]
+	LongLat	[ -4.96 -31.43 0 ]
 	Size	49.8
 	Type	"PE"
 }
 
 Location "MEDIA REGIO" "Sol/Jupiter/Io"
 {
-	LongLat	[ 300.1 10.62 0 ]
+	LongLat	[ -59.9 10.62 0 ]
 	Size	2627.92
 	Type	"RE"
 }
@@ -929,14 +929,14 @@ Location "Menahka Patera" "Sol/Jupiter/Io"
 
 Location "Mentu Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 220.61 7.01 0 ]
+	LongLat	[ -139.39 7.01 0 ]
 	Size	101.65
 	Type	"PE"
 }
 
 Location "Michabo Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 192.44 1.13 0 ]
+	LongLat	[ -167.56 1.13 0 ]
 	Size	96.7
 	Type	"PE"
 }
@@ -957,21 +957,21 @@ Location "Mithra Patera" "Sol/Jupiter/Io"
 
 Location "Monan Mons" "Sol/Jupiter/Io"
 {
-	LongLat	[ 255.8 15.54 0 ]
+	LongLat	[ -104.2 15.54 0 ]
 	Size	293.77
 	Type	"MO"
 }
 
 Location "Monan Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 255.19 19.82 0 ]
+	LongLat	[ -104.81 19.82 0 ]
 	Size	137.49
 	Type	"PE"
 }
 
 Location "Mongibello Mons" "Sol/Jupiter/Io"
 {
-	LongLat	[ 292.95 22.67 0 ]
+	LongLat	[ -67.05 22.67 0 ]
 	Size	214.57
 	Type	"MO"
 }
@@ -985,14 +985,14 @@ Location "Mulungu Patera" "Sol/Jupiter/Io"
 
 Location "MYCENAE REGIO" "Sol/Jupiter/Io"
 {
-	LongLat	[ 195.05 -36.6 0 ]
+	LongLat	[ -164.95 -36.6 0 ]
 	Size	594.01
 	Type	"RE"
 }
 
 Location "Namarrkun Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 184.48 10.06 0 ]
+	LongLat	[ -175.52 10.06 0 ]
 	Size	17.02
 	Type	"PE"
 }
@@ -1013,7 +1013,7 @@ Location "Nile Montes" "Sol/Jupiter/Io"
 
 Location "Nina Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 197.37 -38.15 0 ]
+	LongLat	[ -162.63 -38.15 0 ]
 	Size	43.51
 	Type	"PE"
 }
@@ -1027,7 +1027,7 @@ Location "Ninurta Patera" "Sol/Jupiter/Io"
 
 Location "Nusku Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 356.39 -64.96 0 ]
+	LongLat	[ -3.61 -64.96 0 ]
 	Size	127.99
 	Type	"PE"
 }
@@ -1062,7 +1062,7 @@ Location "Päive Patera" "Sol/Jupiter/Io"
 
 Location "Pan Mensa" "Sol/Jupiter/Io"
 {
-	LongLat	[ 329.14 -51.8 0 ]
+	LongLat	[ -30.86 -51.8 0 ]
 	Size	287.48
 	Type	"MN"
 }
@@ -1104,21 +1104,21 @@ Location "Podja Patera" "Sol/Jupiter/Io"
 
 Location "Prometheus" "Sol/Jupiter/Io"
 {
-	LongLat	[ 206.06 -1.52 0 ]
+	LongLat	[ -153.94 -1.52 0 ]
 	Size	438.79
 	Type	"ER"
 }
 
 Location "Prometheus Mensa" "Sol/Jupiter/Io"
 {
-	LongLat	[ 207.83 -2.49 0 ]
+	LongLat	[ -152.17 -2.49 0 ]
 	Size	178.7
 	Type	"MN"
 }
 
 Location "Prometheus Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 207.59 -0.64 0 ]
+	LongLat	[ -152.41 -0.64 0 ]
 	Size	28.27
 	Type	"PE"
 }
@@ -1139,7 +1139,7 @@ Location "Pyerun Patera" "Sol/Jupiter/Io"
 
 Location "Radegast Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 200.01 -27.81 0 ]
+	LongLat	[ -159.99 -27.81 0 ]
 	Size	25.75
 	Type	"PE"
 }
@@ -1181,7 +1181,7 @@ Location "Reiden Patera" "Sol/Jupiter/Io"
 
 Location "Reshef Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 201.95 27.7 0 ]
+	LongLat	[ -158.05 27.7 0 ]
 	Size	59.18
 	Type	"PE"
 }
@@ -1195,21 +1195,21 @@ Location "Reshet Patera" "Sol/Jupiter/Io"
 
 Location "Ruaumoko Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 220.26 14.72 0 ]
+	LongLat	[ -139.74 14.72 0 ]
 	Size	18.28
 	Type	"PE"
 }
 
 Location "Ruwa Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 358.35 0.2 0 ]
+	LongLat	[ -1.65 0.2 0 ]
 	Size	51.39
 	Type	"PE"
 }
 
 Location "Savitr Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 236.81 48.51 0 ]
+	LongLat	[ -123.19 48.51 0 ]
 	Size	104.8
 	Type	"PE"
 }
@@ -1237,14 +1237,14 @@ Location "Sethlaus Patera" "Sol/Jupiter/Io"
 
 Location "Seth Mons" "Sol/Jupiter/Io"
 {
-	LongLat	[ 225.87 -10.76 0 ]
+	LongLat	[ -134.13 -10.76 0 ]
 	Size	128.02
 	Type	"MO"
 }
 
 Location "Seth Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 227.97 -5.31 0 ]
+	LongLat	[ -132.03 -5.31 0 ]
 	Size	18.48
 	Type	"PE"
 }
@@ -1258,28 +1258,28 @@ Location "Shakuru Patera" "Sol/Jupiter/Io"
 
 Location "Shamash Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 207.47 -35.49 0 ]
+	LongLat	[ -152.53 -35.49 0 ]
 	Size	112.98
 	Type	"PE"
 }
 
 Location "Shamshu Mons" "Sol/Jupiter/Io"
 {
-	LongLat	[ 288.59 -12.04 0 ]
+	LongLat	[ -71.41 -12.04 0 ]
 	Size	210
 	Type	"MO"
 }
 
 Location "Shamshu Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 296.83 -9.95 0 ]
+	LongLat	[ -63.17 -9.95 0 ]
 	Size	107.12
 	Type	"PE"
 }
 
 Location "Shango Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 259.49 32.46 0 ]
+	LongLat	[ -100.51 32.46 0 ]
 	Size	90.8
 	Type	"PE"
 }
@@ -1293,7 +1293,7 @@ Location "Shoshu Patera" "Sol/Jupiter/Io"
 
 Location "Sigurd Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 261.95 -5.77 0 ]
+	LongLat	[ -98.05 -5.77 0 ]
 	Size	52.87
 	Type	"PE"
 }
@@ -1307,35 +1307,35 @@ Location "Silpium Mons" "Sol/Jupiter/Io"
 
 Location "Siun Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 359.68 -49.75 0 ]
+	LongLat	[ -0.32 -49.75 0 ]
 	Size	52.49
 	Type	"PE"
 }
 
 Location "Skythia Mons" "Sol/Jupiter/Io"
 {
-	LongLat	[ 262.19 26.33 0 ]
+	LongLat	[ -97.81 26.33 0 ]
 	Size	249.62
 	Type	"MO"
 }
 
 Location "Sobo Fluctus" "Sol/Jupiter/Io"
 {
-	LongLat	[ 209.24 14.03 0 ]
+	LongLat	[ -150.76 14.03 0 ]
 	Size	44.78
 	Type	"FL"
 }
 
 Location "Steropes Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 221.08 15.5 0 ]
+	LongLat	[ -138.92 15.5 0 ]
 	Size	27.74
 	Type	"PE"
 }
 
 Location "Sui Jen Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 357.44 -19.14 0 ]
+	LongLat	[ -2.56 -19.14 0 ]
 	Size	28.01
 	Type	"PE"
 }
@@ -1349,7 +1349,7 @@ Location "Surt" "Sol/Jupiter/Io"
 
 Location "Surya Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 208.64 21.53 0 ]
+	LongLat	[ -151.36 21.53 0 ]
 	Size	55.77
 	Type	"PE"
 }
@@ -1377,28 +1377,28 @@ Location "Talos Paterae" "Sol/Jupiter/Io"
 
 Location "Taranis Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 332.03 -71.12 0 ]
+	LongLat	[ -27.97 -71.12 0 ]
 	Size	95.76
 	Type	"PE"
 }
 
 Location "TARSUS REGIO" "Sol/Jupiter/Io"
 {
-	LongLat	[ 306.6 -36.69 0 ]
+	LongLat	[ -53.4 -36.69 0 ]
 	Size	1498.59
 	Type	"RE"
 }
 
 Location "Tawhaki Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 283.79 3.39 0 ]
+	LongLat	[ -76.21 3.39 0 ]
 	Size	47.42
 	Type	"PE"
 }
 
 Location "Tawhaki Vallis" "Sol/Jupiter/Io"
 {
-	LongLat	[ 287.24 0.31 0 ]
+	LongLat	[ -72.76 0.31 0 ]
 	Size	165.67
 	Type	"VA"
 }
@@ -1412,28 +1412,28 @@ Location "Taw Patera" "Sol/Jupiter/Io"
 
 Location "Telegonus Mensae" "Sol/Jupiter/Io"
 {
-	LongLat	[ 244.63 -52.37 0 ]
+	LongLat	[ -115.37 -52.37 0 ]
 	Size	329.5
 	Type	"MN"
 }
 
 Location "Thomagata Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 194.03 25.65 0 ]
+	LongLat	[ -165.97 25.65 0 ]
 	Size	55.2
 	Type	"PE"
 }
 
 Location "Thor" "Sol/Jupiter/Io"
 {
-	LongLat	[ 226.88 39.2 0 ]
+	LongLat	[ -133.12 39.2 0 ]
 	Size	240.3
 	Type	"ER"
 }
 
 Location "Tien Mu Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 225.66 12.31 0 ]
+	LongLat	[ -134.34 12.31 0 ]
 	Size	26.71
 	Type	"PE"
 }
@@ -1447,14 +1447,14 @@ Location "Tiermes Patera" "Sol/Jupiter/Io"
 
 Location "Tohil Mons" "Sol/Jupiter/Io"
 {
-	LongLat	[ 198.43 -28.42 0 ]
+	LongLat	[ -161.57 -28.42 0 ]
 	Size	433.44
 	Type	"MO"
 }
 
 Location "Tohil Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 201.91 -26.25 0 ]
+	LongLat	[ -158.09 -26.25 0 ]
 	Size	126.46
 	Type	"PE"
 }
@@ -1468,14 +1468,14 @@ Location "Tol-Ava Patera" "Sol/Jupiter/Io"
 
 Location "Tsũi Goab Fluctus" "Sol/Jupiter/Io"
 {
-	LongLat	[ 196.55 -1.27 0 ]
+	LongLat	[ -163.45 -1.27 0 ]
 	Size	111.38
 	Type	"FL"
 }
 
 Location "Tsũi Goab Tholus" "Sol/Jupiter/Io"
 {
-	LongLat	[ 197.05 -0.18 0 ]
+	LongLat	[ -162.95 -0.18 0 ]
 	Size	48.54
 	Type	"TH"
 }
@@ -1489,35 +1489,35 @@ Location "Tung Yo Fluctus" "Sol/Jupiter/Io"
 
 Location "Tung Yo Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 359.05 -18 0 ]
+	LongLat	[ -0.95 -18 0 ]
 	Size	49.59
 	Type	"PE"
 }
 
 Location "Tupan Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 218.85 -18.68 0 ]
+	LongLat	[ -141.15 -18.68 0 ]
 	Size	78.55
 	Type	"PE"
 }
 
 Location "Tvashtar Mensae" "Sol/Jupiter/Io"
 {
-	LongLat	[ 240.06 61.6 0 ]
+	LongLat	[ -119.94 61.6 0 ]
 	Size	293
 	Type	"MN"
 }
 
 Location "Tvashtar Paterae" "Sol/Jupiter/Io"
 {
-	LongLat	[ 236.47 62.76 0 ]
+	LongLat	[ -123.53 62.76 0 ]
 	Size	305
 	Type	"PE"
 }
 
 Location "Ukko Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 341.52 30.82 0 ]
+	LongLat	[ -18.48 30.82 0 ]
 	Size	36.03
 	Type	"PE"
 }
@@ -1531,14 +1531,14 @@ Location "Ülgen Patera" "Sol/Jupiter/Io"
 
 Location "Uta Fluctus" "Sol/Jupiter/Io"
 {
-	LongLat	[ 343.86 -33.12 0 ]
+	LongLat	[ -16.14 -33.12 0 ]
 	Size	366.67
 	Type	"FL"
 }
 
 Location "Uta Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 337.48 -35.86 0 ]
+	LongLat	[ -22.52 -35.86 0 ]
 	Size	33.84
 	Type	"PE"
 }
@@ -1566,14 +1566,14 @@ Location "Vivasvant Patera" "Sol/Jupiter/Io"
 
 Location "Volund" "Sol/Jupiter/Io"
 {
-	LongLat	[ 188.25 29.33 0 ]
+	LongLat	[ -171.75 29.33 0 ]
 	Size	427.26
 	Type	"ER"
 }
 
 Location "Wabasso Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 193.35 -22.89 0 ]
+	LongLat	[ -166.65 -22.89 0 ]
 	Size	30.6
 	Type	"PE"
 }
@@ -1587,38 +1587,45 @@ Location "Wayland Patera" "Sol/Jupiter/Io"
 
 Location "Yaw Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 227.66 9.62 0 ]
+	LongLat	[ -132.34 9.62 0 ]
 	Size	36.55
 	Type	"PE"
 }
 
 Location "Zal Montes" "Sol/Jupiter/Io"
 {
-	LongLat	[ 282.82 38.43 0 ]
+	LongLat	[ -77.18 38.43 0 ]
 	Size	436
 	Type	"MO"
 }
 
 Location "Zal Patera" "Sol/Jupiter/Io"
 {
-	LongLat	[ 285.54 40.14 0 ]
+	LongLat	[ -74.46 40.14 0 ]
 	Size	168.11
 	Type	"PE"
 }
 
 Location "Zamama" "Sol/Jupiter/Io"
 {
-	LongLat	[ 187.71 18.7 0 ]
+	LongLat	[ -172.29 18.7 0 ]
 	Size	198
 	Type	"ER"
 }
 
 
-# 121 locations on Europa.
+# 128 locations on Europa.
+
+Location "Acacallis Linea" "Sol/Jupiter/Europa"
+{
+	LongLat	[ 134.44 -5.27 0 ]
+	Size	940
+	Type	"LI"
+}
 
 Location "Adonis Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 237.4 -61 0 ]
+	LongLat	[ -122.6 -61 0 ]
 	Size	1560
 	Type	"LI"
 }
@@ -1639,21 +1646,21 @@ Location "Agenor Linea" "Sol/Jupiter/Europa"
 
 Location "Áine" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 182.5 -43 0 ]
+	LongLat	[ -177.5 -43 0 ]
 	Size	5
 	Type	"AA"
 }
 
 Location "Alphesiboea Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 184.1 -25.1 0 ]
+	LongLat	[ -175.9 -25.1 0 ]
 	Size	1438
 	Type	"LI"
 }
 
 Location "Amaethon" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 182.53 13.82 0 ]
+	LongLat	[ -177.47 13.82 0 ]
 	Size	1.7
 	Type	"AA"
 }
@@ -1665,6 +1672,13 @@ Location "Amergin" "Sol/Jupiter/Europa"
 	Type	"AA"
 }
 
+Location "Ancaeus Linea" "Sol/Jupiter/Europa"
+{
+	LongLat	[ 177.54 57.82 0 ]
+	Size	145
+	Type	"LI"
+}
+
 Location "Androgeos Linea" "Sol/Jupiter/Europa"
 {
 	LongLat	[ 80.7 11.7 0 ]
@@ -1674,7 +1688,7 @@ Location "Androgeos Linea" "Sol/Jupiter/Europa"
 
 Location "Angus" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 284.9 -12.6 0 ]
+	LongLat	[ -75.1 -12.6 0 ]
 	Size	4.5
 	Type	"AA"
 }
@@ -1684,6 +1698,13 @@ Location "ANNWN REGIO" "Sol/Jupiter/Europa"
 	LongLat	[ 40 20 0 ]
 	Size	2300
 	Type	"RE"
+}
+
+Location "Arachne Linea" "Sol/Jupiter/Europa"
+{
+	LongLat	[ 140.04 -8.82 0 ]
+	Size	954
+	Type	"LI"
 }
 
 Location "ARGADNEL REGIO" "Sol/Jupiter/Europa"
@@ -1702,7 +1723,7 @@ Location "Argiope Linea" "Sol/Jupiter/Europa"
 
 Location "Arran Chaos" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 279.5 13.4 0 ]
+	LongLat	[ -80.5 13.4 0 ]
 	Size	26
 	Type	"CH"
 }
@@ -1723,42 +1744,42 @@ Location "Astypalaea Linea" "Sol/Jupiter/Europa"
 
 Location "Autonoë Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 194.9 18.2 0 ]
+	LongLat	[ -165.1 18.2 0 ]
 	Size	760
 	Type	"LI"
 }
 
 Location "Avagddu" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 190.5 1.4 0 ]
+	LongLat	[ -169.5 1.4 0 ]
 	Size	10
 	Type	"AA"
 }
 
 Location "BALGATAN REGIO" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 330 -50 0 ]
+	LongLat	[ -30 -50 0 ]
 	Size	2500
 	Type	"RE"
 }
 
 Location "Balor" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 262.2 -52.8 0 ]
+	LongLat	[ -97.8 -52.8 0 ]
 	Size	4.8
 	Type	"AA"
 }
 
 Location "Beenalaght Fossa" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 277.92 1.2 0 ]
+	LongLat	[ -82.08 1.2 0 ]
 	Size	882
 	Type	"FO"
 }
 
 Location "Belenos Mensa" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 284.92 42.75 0 ]
+	LongLat	[ -75.08 42.75 0 ]
 	Size	34
 	Type	"MN"
 }
@@ -1772,7 +1793,7 @@ Location "Belus Linea" "Sol/Jupiter/Europa"
 
 Location "Boeotia Macula" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 193.2 -53.6 0 ]
+	LongLat	[ -166.8 -53.6 0 ]
 	Size	30
 	Type	"MA"
 }
@@ -1786,21 +1807,21 @@ Location "Borvo Mensa" "Sol/Jupiter/Europa"
 
 Location "Bress" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 261.34 37.64 0 ]
+	LongLat	[ -98.66 37.64 0 ]
 	Size	10
 	Type	"AA"
 }
 
 Location "Brigid" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 278.7 10.8 0 ]
+	LongLat	[ -81.3 10.8 0 ]
 	Size	9.5
 	Type	"AA"
 }
 
 Location "Butterdon Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 359.9 -44.7 0 ]
+	LongLat	[ -0.1 -44.7 0 ]
 	Size	1900
 	Type	"LI"
 }
@@ -1821,7 +1842,7 @@ Location "Callanish" "Sol/Jupiter/Europa"
 
 Location "Camulus" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 278.9 -26.5 0 ]
+	LongLat	[ -81.1 -26.5 0 ]
 	Size	4.5
 	Type	"AA"
 }
@@ -1842,7 +1863,7 @@ Location "Chthonius Linea" "Sol/Jupiter/Europa"
 
 Location "Cilicia Flexus" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 188.3 -59.5 0 ]
+	LongLat	[ -171.7 -59.5 0 ]
 	Size	1312
 	Type	"FE"
 }
@@ -1856,7 +1877,7 @@ Location "Cilix" "Sol/Jupiter/Europa"
 
 Location "Cliodhna" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 283.6 -2.5 0 ]
+	LongLat	[ -76.4 -2.5 0 ]
 	Size	3
 	Type	"AA"
 }
@@ -1870,14 +1891,14 @@ Location "Conamara Chaos" "Sol/Jupiter/Europa"
 
 Location "Corick Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 341.7 17.8 0 ]
+	LongLat	[ -18.3 17.8 0 ]
 	Size	1300
 	Type	"LI"
 }
 
 Location "Cormac" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 271.9 -36.9 0 ]
+	LongLat	[ -88.1 -36.9 0 ]
 	Size	4
 	Type	"AA"
 }
@@ -1891,7 +1912,7 @@ Location "Cyclades Macula" "Sol/Jupiter/Europa"
 
 Location "Dagda" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 191.26 37.35 0 ]
+	LongLat	[ -168.74 37.35 0 ]
 	Size	9.8
 	Type	"AA"
 }
@@ -1905,28 +1926,35 @@ Location "Deirdre" "Sol/Jupiter/Europa"
 
 Location "Delphi Flexus" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 185.9 -68.2 0 ]
+	LongLat	[ -174.1 -68.2 0 ]
 	Size	793
 	Type	"FE"
 }
 
 Location "Diarmuid" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 258 -61.3 0 ]
+	LongLat	[ -102 -61.3 0 ]
 	Size	8.2
 	Type	"AA"
 }
 
+Location "Dinrigh Chaos" "Sol/Jupiter/Europa"
+{
+	LongLat	[ -132.16 -46.48 0 ]
+	Size	335
+	Type	"CH"
+}
+
 Location "Drizzlecomb Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 248.3 7.7 0 ]
+	LongLat	[ -111.7 7.7 0 ]
 	Size	1500
 	Type	"LI"
 }
 
 Location "Drumskinny Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 199 48.3 0 ]
+	LongLat	[ -161 48.3 0 ]
 	Size	1375
 	Type	"LI"
 }
@@ -1940,7 +1968,7 @@ Location "DYFED REGIO" "Sol/Jupiter/Europa"
 
 Location "Dylan" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 275.6 -55.3 0 ]
+	LongLat	[ -84.4 -55.3 0 ]
 	Size	5.3
 	Type	"AA"
 }
@@ -1961,7 +1989,7 @@ Location "Eightercua Fossa" "Sol/Jupiter/Europa"
 
 Location "Elathan" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 280.2 -31.9 0 ]
+	LongLat	[ -79.8 -31.9 0 ]
 	Size	2.5
 	Type	"AA"
 }
@@ -1975,7 +2003,7 @@ Location "Eochaid" "Sol/Jupiter/Europa"
 
 Location "Euphemus Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 314.3 -11.4 0 ]
+	LongLat	[ -45.7 -11.4 0 ]
 	Size	1250
 	Type	"LI"
 }
@@ -1994,9 +2022,16 @@ Location "Glaukos Linea" "Sol/Jupiter/Europa"
 	Type	"LI"
 }
 
+Location "Goirias Chaos" "Sol/Jupiter/Europa"
+{
+	LongLat	[ 179.25 10.77 0 ]
+	Size	470
+	Type	"CH"
+}
+
 Location "Gortyna Flexus" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 215.4 -42.1 0 ]
+	LongLat	[ -144.6 -42.1 0 ]
 	Size	940
 	Type	"FE"
 }
@@ -2010,7 +2045,7 @@ Location "Govannan" "Sol/Jupiter/Europa"
 
 Location "Gráinne" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 260.6 -59.7 0 ]
+	LongLat	[ -99.4 -59.7 0 ]
 	Size	13.5
 	Type	"AA"
 }
@@ -2031,14 +2066,14 @@ Location "Gwern" "Sol/Jupiter/Europa"
 
 Location "Gwydion" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 278.4 -60.5 0 ]
+	LongLat	[ -81.6 -60.5 0 ]
 	Size	5
 	Type	"AA"
 }
 
 Location "Harmonia Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 188.3 28 0 ]
+	LongLat	[ -171.7 28 0 ]
 	Size	1154
 	Type	"LI"
 }
@@ -2052,7 +2087,7 @@ Location "Hyperenor Linea" "Sol/Jupiter/Europa"
 
 Location "Ino Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 185.4 -1.7 0 ]
+	LongLat	[ -174.6 -1.7 0 ]
 	Size	1515
 	Type	"LI"
 }
@@ -2085,6 +2120,13 @@ Location "Kermario Fossae" "Sol/Jupiter/Europa"
 	Type	"FO"
 }
 
+Location "Leix Chaos" "Sol/Jupiter/Europa"
+{
+	LongLat	[ -136.2 -39.39 0 ]
+	Size	415
+	Type	"CH"
+}
+
 Location "Libya Linea" "Sol/Jupiter/Europa"
 {
 	LongLat	[ 179 -54 0 ]
@@ -2108,7 +2150,7 @@ Location "Luchtar" "Sol/Jupiter/Europa"
 
 Location "Lug" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 315.69 27.99 0 ]
+	LongLat	[ -44.31 27.99 0 ]
 	Size	11
 	Type	"AA"
 }
@@ -2122,7 +2164,7 @@ Location "Mael Dúin" "Sol/Jupiter/Europa"
 
 Location "Maeve" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 281.1 58.8 0 ]
+	LongLat	[ -78.9 58.8 0 ]
 	Size	21.3
 	Type	"AA"
 }
@@ -2143,7 +2185,7 @@ Location "Math" "Sol/Jupiter/Europa"
 
 Location "Maughanasilly Fossa" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 204.81 -34.24 0 ]
+	LongLat	[ -155.19 -34.24 0 ]
 	Size	920
 	Type	"FO"
 }
@@ -2157,7 +2199,7 @@ Location "Mehen Linea" "Sol/Jupiter/Europa"
 
 Location "Ménec Fossae" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 182.13 -51.98 0 ]
+	LongLat	[ -177.87 -51.98 0 ]
 	Size	33
 	Type	"FO"
 }
@@ -2185,14 +2227,14 @@ Location "Minos Linea" "Sol/Jupiter/Europa"
 
 Location "Morvran" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 207.4 -4.9 0 ]
+	LongLat	[ -152.6 -4.9 0 ]
 	Size	15
 	Type	"AA"
 }
 
 Location "Moyle Cavus" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 192 -25 0 ]
+	LongLat	[ -168 -25 0 ]
 	Size	145
 	Type	"CB"
 }
@@ -2206,7 +2248,7 @@ Location "MOYTURA REGIO" "Sol/Jupiter/Europa"
 
 Location "Murias Chaos" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 276.2 22.4 0 ]
+	LongLat	[ -83.8 22.4 0 ]
 	Size	116
 	Type	"CH"
 }
@@ -2248,7 +2290,7 @@ Location "Onga Linea" "Sol/Jupiter/Europa"
 
 Location "Pelagon Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 186.4 35.5 0 ]
+	LongLat	[ -173.6 35.5 0 ]
 	Size	616.7
 	Type	"LI"
 }
@@ -2283,14 +2325,14 @@ Location "Phoenix Linea" "Sol/Jupiter/Europa"
 
 Location "POWYS REGIO" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 215 0 0 ]
+	LongLat	[ -145 0 0 ]
 	Size	2000
 	Type	"RE"
 }
 
 Location "Pryderi" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 200.9 -66.1 0 ]
+	LongLat	[ -159.1 -66.1 0 ]
 	Size	1.7
 	Type	"AA"
 }
@@ -2302,9 +2344,16 @@ Location "Pwyll" "Sol/Jupiter/Europa"
 	Type	"AA"
 }
 
+Location "Rathcroghan Chaos" "Sol/Jupiter/Europa"
+{
+	LongLat	[ 178.08 -10.08 0 ]
+	Size	430
+	Type	"CH"
+}
+
 Location "Rathmore Chaos" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 285 25.4 0 ]
+	LongLat	[ -75 25.4 0 ]
 	Size	57
 	Type	"CH"
 }
@@ -2325,14 +2374,14 @@ Location "Rhiannon" "Sol/Jupiter/Europa"
 
 Location "Sarpedon Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 267.1 -49.5 0 ]
+	LongLat	[ -92.9 -49.5 0 ]
 	Size	900
 	Type	"LI"
 }
 
 Location "Sharpitor Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 188.3 65.4 0 ]
+	LongLat	[ -171.7 65.4 0 ]
 	Size	1650
 	Type	"LI"
 }
@@ -2353,21 +2402,21 @@ Location "Sparti Linea" "Sol/Jupiter/Europa"
 
 Location "Staldon Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 332.6 -0.8 0 ]
+	LongLat	[ -27.4 -0.8 0 ]
 	Size	1525
 	Type	"LI"
 }
 
 Location "Taliesin" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 222 -22.8 0 ]
+	LongLat	[ -138 -22.8 0 ]
 	Size	50
 	Type	"AA"
 }
 
 Location "TARA REGIO" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 285 -10 0 ]
+	LongLat	[ -75 -10 0 ]
 	Size	1780
 	Type	"RE"
 }
@@ -2381,14 +2430,14 @@ Location "Tectamus Linea" "Sol/Jupiter/Europa"
 
 Location "Tegid" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 195.6 0.8 0 ]
+	LongLat	[ -164.4 0.8 0 ]
 	Size	29.7
 	Type	"AA"
 }
 
 Location "Telephassa Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 182.8 -0.8 0 ]
+	LongLat	[ -177.2 -0.8 0 ]
 	Size	777
 	Type	"LI"
 }
@@ -2409,14 +2458,14 @@ Location "Thera Macula" "Sol/Jupiter/Europa"
 
 Location "Thrace Macula" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 187.9 -45.9 0 ]
+	LongLat	[ -172.1 -45.9 0 ]
 	Size	180.2
 	Type	"MA"
 }
 
 Location "Thynia Linea" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 205.5 -59.2 0 ]
+	LongLat	[ -154.5 -59.2 0 ]
 	Size	412.6
 	Type	"LI"
 }
@@ -2430,21 +2479,21 @@ Location "Tormsdale Linea" "Sol/Jupiter/Europa"
 
 Location "Tuag" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 187.64 59.92 0 ]
+	LongLat	[ -172.36 59.92 0 ]
 	Size	15.2
 	Type	"AA"
 }
 
 Location "Tyre" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 213.4 33.6 0 ]
+	LongLat	[ -146.6 33.6 0 ]
 	Size	149
 	Type	"LG"
 }
 
 Location "Uaithne" "Sol/Jupiter/Europa"
 {
-	LongLat	[ 269.3 -48.5 0 ]
+	LongLat	[ -90.7 -48.5 0 ]
 	Size	6.5
 	Type	"AA"
 }
@@ -2468,14 +2517,14 @@ Location "Yelland Linea" "Sol/Jupiter/Europa"
 
 Location "Abydos Facula" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 206.56 33.33 0 ]
+	LongLat	[ -153.44 33.33 0 ]
 	Size	180
 	Type	"FA"
 }
 
 Location "Achelous" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 348.22 61.9 0 ]
+	LongLat	[ -11.78 61.9 0 ]
 	Size	40
 	Type	"AA"
 }
@@ -2489,7 +2538,7 @@ Location "Adad" "Sol/Jupiter/Ganymede"
 
 Location "Adapa" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 328.68 73.08 0 ]
+	LongLat	[ -31.32 73.08 0 ]
 	Size	57
 	Type	"AA"
 }
@@ -2524,7 +2573,7 @@ Location "Akitu Sulcus" "Sol/Jupiter/Ganymede"
 
 Location "Aleyin" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 225.92 15.14 0 ]
+	LongLat	[ -134.08 15.14 0 ]
 	Size	12.4
 	Type	"AA"
 }
@@ -2545,21 +2594,21 @@ Location "Amon" "Sol/Jupiter/Ganymede"
 
 Location "Amset" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 181.25 -14.41 0 ]
+	LongLat	[ -178.75 -14.41 0 ]
 	Size	11
 	Type	"AA"
 }
 
 Location "Anat" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 232 -4.1 0 ]
+	LongLat	[ -128 -4.1 0 ]
 	Size	2.9
 	Type	"AA"
 }
 
 Location "Andjeti" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 198.9 -52.75 0 ]
+	LongLat	[ -161.1 -52.75 0 ]
 	Size	52
 	Type	"AA"
 }
@@ -2594,14 +2643,14 @@ Location "Anu" "Sol/Jupiter/Ganymede"
 
 Location "Anubis" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 231.34 -84.44 0 ]
+	LongLat	[ -128.66 -84.44 0 ]
 	Size	114
 	Type	"AA"
 }
 
 Location "Anzu" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 297.27 63.51 0 ]
+	LongLat	[ -62.73 63.51 0 ]
 	Size	210
 	Type	"AA"
 }
@@ -2622,21 +2671,21 @@ Location "Apsu Sulci" "Sol/Jupiter/Ganymede"
 
 Location "Aquarius Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 356 52.4 0 ]
+	LongLat	[ -4 52.4 0 ]
 	Size	1420
 	Type	"SU"
 }
 
 Location "Arbela Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 356 -34 0 ]
+	LongLat	[ -4 -34 0 ]
 	Size	3850
 	Type	"SU"
 }
 
 Location "Ashîma" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 237.02 -39.05 0 ]
+	LongLat	[ -122.98 -39.05 0 ]
 	Size	84
 	Type	"AA"
 }
@@ -2671,21 +2720,21 @@ Location "Ba'al" "Sol/Jupiter/Ganymede"
 
 Location "Babylon Sulci" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 264.5 -22.5 0 ]
+	LongLat	[ -95.5 -22.5 0 ]
 	Size	3100
 	Type	"SU"
 }
 
 Location "BARNARD REGIO" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 348.4 -6.8 0 ]
+	LongLat	[ -11.6 -6.8 0 ]
 	Size	3200
 	Type	"RE"
 }
 
 Location "Bau" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 311.33 23.05 0 ]
+	LongLat	[ -48.67 23.05 0 ]
 	Size	77
 	Type	"AA"
 }
@@ -2699,14 +2748,14 @@ Location "Bes" "Sol/Jupiter/Ganymede"
 
 Location "Bigeh Facula" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 265.7 29 0 ]
+	LongLat	[ -94.3 29 0 ]
 	Size	224
 	Type	"FA"
 }
 
 Location "Borsippa Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 360 -60 0 ]
+	LongLat	[ 0 -60 0 ]
 	Size	3300
 	Type	"SU"
 }
@@ -2741,14 +2790,14 @@ Location "Byblus Sulcus" "Sol/Jupiter/Ganymede"
 
 Location "Chrysor" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 225.66 15.3 0 ]
+	LongLat	[ -134.34 15.3 0 ]
 	Size	7
 	Type	"AA"
 }
 
 Location "Cisti" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 295.77 -31.6 0 ]
+	LongLat	[ -64.23 -31.6 0 ]
 	Size	70
 	Type	"AA"
 }
@@ -2762,21 +2811,21 @@ Location "Coptos Facula" "Sol/Jupiter/Ganymede"
 
 Location "Damkina" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 355.12 -30.17 0 ]
+	LongLat	[ -4.88 -30.17 0 ]
 	Size	190
 	Type	"AA"
 }
 
 Location "Danel" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 338.7 -4.33 0 ]
+	LongLat	[ -21.3 -4.33 0 ]
 	Size	56
 	Type	"AA"
 }
 
 Location "Dardanus Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 347.3 -31.5 0 ]
+	LongLat	[ -12.7 -31.5 0 ]
 	Size	1500
 	Type	"SU"
 }
@@ -2797,28 +2846,28 @@ Location "Diment" "Sol/Jupiter/Ganymede"
 
 Location "Dukug Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 357.5 83.7 0 ]
+	LongLat	[ -2.5 83.7 0 ]
 	Size	385
 	Type	"SU"
 }
 
 Location "Ea" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 211.27 17.72 0 ]
+	LongLat	[ -148.73 17.72 0 ]
 	Size	20
 	Type	"AA"
 }
 
 Location "Edfu Facula" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 212.9 25.7 0 ]
+	LongLat	[ -147.1 25.7 0 ]
 	Size	184
 	Type	"FA"
 }
 
 Location "El" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 208.64 1.01 0 ]
+	LongLat	[ -151.36 1.01 0 ]
 	Size	55
 	Type	"AA"
 }
@@ -2832,7 +2881,7 @@ Location "Elam Sulci" "Sol/Jupiter/Ganymede"
 
 Location "Enki Catena" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 346.14 38.84 0 ]
+	LongLat	[ -13.86 38.84 0 ]
 	Size	160
 	Type	"CA"
 }
@@ -2853,7 +2902,7 @@ Location "Enlil" "Sol/Jupiter/Ganymede"
 
 Location "En-zu" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 191.6 11.59 0 ]
+	LongLat	[ -168.4 11.59 0 ]
 	Size	5
 	Type	"AA"
 }
@@ -2867,14 +2916,14 @@ Location "Epigeus" "Sol/Jupiter/Ganymede"
 
 Location "Erech Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 180.8 -7.3 0 ]
+	LongLat	[ -179.2 -7.3 0 ]
 	Size	953
 	Type	"SU"
 }
 
 Location "Erichthonius" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 184.74 -15.32 0 ]
+	LongLat	[ -175.26 -15.32 0 ]
 	Size	31
 	Type	"AA"
 }
@@ -2895,14 +2944,14 @@ Location "Etana" "Sol/Jupiter/Ganymede"
 
 Location "Gad" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 222.44 -13.56 0 ]
+	LongLat	[ -137.56 -13.56 0 ]
 	Size	72
 	Type	"AA"
 }
 
 Location "GALILEO REGIO" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 233 45 0 ]
+	LongLat	[ -127 45 0 ]
 	Size	4439
 	Type	"RE"
 }
@@ -2923,35 +2972,35 @@ Location "Geinos" "Sol/Jupiter/Ganymede"
 
 Location "Gilgamesh" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 235.17 -62.84 0 ]
+	LongLat	[ -124.83 -62.84 0 ]
 	Size	153
 	Type	"AA"
 }
 
 Location "Gir" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 214.25 34.05 0 ]
+	LongLat	[ -145.75 34.05 0 ]
 	Size	73
 	Type	"AA"
 }
 
 Location "Gula" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 347.7 64.15 0 ]
+	LongLat	[ -12.3 64.15 0 ]
 	Size	38
 	Type	"AA"
 }
 
 Location "Gushkin" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 314.02 20.75 0 ]
+	LongLat	[ -45.98 20.75 0 ]
 	Size	40.5
 	Type	"AA"
 }
 
 Location "Halieus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 192.86 34.45 0 ]
+	LongLat	[ -167.14 34.45 0 ]
 	Size	90
 	Type	"AA"
 }
@@ -2965,7 +3014,7 @@ Location "Hammamat Patera" "Sol/Jupiter/Ganymede"
 
 Location "Hamra Patera" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 188.63 -77.35 0 ]
+	LongLat	[ -171.37 -77.35 0 ]
 	Size	43
 	Type	"PE"
 }
@@ -2979,7 +3028,7 @@ Location "Hapi" "Sol/Jupiter/Ganymede"
 
 Location "Harakhtes" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 259.74 35.95 0 ]
+	LongLat	[ -100.26 35.95 0 ]
 	Size	108
 	Type	"AA"
 }
@@ -3007,7 +3056,7 @@ Location "Hathor" "Sol/Jupiter/Ganymede"
 
 Location "Hay-tau" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 226.87 14.44 0 ]
+	LongLat	[ -133.13 14.44 0 ]
 	Size	27
 	Type	"AA"
 }
@@ -3021,7 +3070,7 @@ Location "Hedetet" "Sol/Jupiter/Ganymede"
 
 Location "Heliopolis Facula" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 213 18.5 0 ]
+	LongLat	[ -147 18.5 0 ]
 	Size	50
 	Type	"FA"
 }
@@ -3042,7 +3091,7 @@ Location "Hershef" "Sol/Jupiter/Ganymede"
 
 Location "Humbaba" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 292.69 -55.15 0 ]
+	LongLat	[ -67.31 -55.15 0 ]
 	Size	40
 	Type	"AA"
 }
@@ -3056,28 +3105,28 @@ Location "Hursag Sulcus" "Sol/Jupiter/Ganymede"
 
 Location "Ilah" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 199.38 22 0 ]
+	LongLat	[ -160.62 22 0 ]
 	Size	76
 	Type	"AA"
 }
 
 Location "Ilus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 249.57 -13.46 0 ]
+	LongLat	[ -110.43 -13.46 0 ]
 	Size	90
 	Type	"AA"
 }
 
 Location "Irkalla" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 245.16 -32.52 0 ]
+	LongLat	[ -114.84 -32.52 0 ]
 	Size	117
 	Type	"AA"
 }
 
 Location "Ishkur" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 351.63 0.37 0 ]
+	LongLat	[ -8.37 0.37 0 ]
 	Size	67
 	Type	"AA"
 }
@@ -3098,21 +3147,21 @@ Location "Isis" "Sol/Jupiter/Ganymede"
 
 Location "Kadi" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 181.5 47.68 0 ]
+	LongLat	[ -178.5 47.68 0 ]
 	Size	87
 	Type	"AA"
 }
 
 Location "Khensu" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 207.07 1.02 0 ]
+	LongLat	[ -152.93 1.02 0 ]
 	Size	17
 	Type	"AA"
 }
 
 Location "Khepri" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 212.44 20.41 0 ]
+	LongLat	[ -147.56 20.41 0 ]
 	Size	47
 	Type	"AA"
 }
@@ -3168,7 +3217,7 @@ Location "Kittu" "Sol/Jupiter/Ganymede"
 
 Location "Kulla" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 246.13 33.22 0 ]
+	LongLat	[ -113.87 33.22 0 ]
 	Size	93
 	Type	"AA"
 }
@@ -3182,7 +3231,7 @@ Location "Lagamal" "Sol/Jupiter/Ganymede"
 
 Location "Lagash Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 195.99 -8.99 0 ]
+	LongLat	[ -164.01 -8.99 0 ]
 	Size	1575
 	Type	"SU"
 }
@@ -3196,14 +3245,14 @@ Location "Lakhamu Fossa" "Sol/Jupiter/Ganymede"
 
 Location "Lakhmu Fossae" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 232 50.4 0 ]
+	LongLat	[ -128 50.4 0 ]
 	Size	3700
 	Type	"FO"
 }
 
 Location "Laomedon" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 282.1 20.9 0 ]
+	LongLat	[ -77.9 20.9 0 ]
 	Size	64
 	Type	"AA"
 }
@@ -3217,7 +3266,7 @@ Location "Larsa Sulci" "Sol/Jupiter/Ganymede"
 
 Location "Latpon" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 188.79 58.74 0 ]
+	LongLat	[ -171.21 58.74 0 ]
 	Size	43
 	Type	"AA"
 }
@@ -3231,7 +3280,7 @@ Location "Lugalmeslam" "Sol/Jupiter/Ganymede"
 
 Location "Lumha" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 205.77 36.01 0 ]
+	LongLat	[ -154.23 36.01 0 ]
 	Size	58
 	Type	"AA"
 }
@@ -3259,7 +3308,7 @@ Location "Mashu Sulcus" "Sol/Jupiter/Ganymede"
 
 Location "Mehit" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 195.61 28.95 0 ]
+	LongLat	[ -164.39 28.95 0 ]
 	Size	47
 	Type	"AA"
 }
@@ -3280,21 +3329,21 @@ Location "MELOTTE REGIO" "Sol/Jupiter/Ganymede"
 
 Location "Memphis Facula" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 228.09 14.1 0 ]
+	LongLat	[ -131.91 14.1 0 ]
 	Size	361
 	Type	"FA"
 }
 
 Location "Menhit" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 219.68 -36.31 0 ]
+	LongLat	[ -140.32 -36.31 0 ]
 	Size	140
 	Type	"AA"
 }
 
 Location "Min" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 358.74 29.23 0 ]
+	LongLat	[ -1.26 29.23 0 ]
 	Size	33
 	Type	"AA"
 }
@@ -3329,14 +3378,14 @@ Location "Mor" "Sol/Jupiter/Ganymede"
 
 Location "Mot" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 194.05 9.93 0 ]
+	LongLat	[ -165.95 9.93 0 ]
 	Size	23
 	Type	"AA"
 }
 
 Location "Mummu Sulci" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 180 -39 0 ]
+	LongLat	[ -180 -39 0 ]
 	Size	2680
 	Type	"SU"
 }
@@ -3350,28 +3399,28 @@ Location "Musa Patera" "Sol/Jupiter/Ganymede"
 
 Location "Mush" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 245.23 -15.12 0 ]
+	LongLat	[ -114.77 -15.12 0 ]
 	Size	99
 	Type	"AA"
 }
 
 Location "Mysia Sulci" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 352.2 -7 0 ]
+	LongLat	[ -7.8 -7 0 ]
 	Size	5066
 	Type	"SU"
 }
 
 Location "Nabu" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 358.81 -45.39 0 ]
+	LongLat	[ -1.19 -45.39 0 ]
 	Size	40
 	Type	"AA"
 }
 
 Location "Nah-Hunte" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 274.74 -17.76 0 ]
+	LongLat	[ -85.26 -17.76 0 ]
 	Size	47
 	Type	"AA"
 }
@@ -3413,14 +3462,14 @@ Location "Nefertum" "Sol/Jupiter/Ganymede"
 
 Location "Neheh" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 297.34 72.13 0 ]
+	LongLat	[ -62.66 72.13 0 ]
 	Size	54
 	Type	"AA"
 }
 
 Location "Neith" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 353.03 29.45 0 ]
+	LongLat	[ -6.97 29.45 0 ]
 	Size	90
 	Type	"AA"
 }
@@ -3434,14 +3483,14 @@ Location "Nergal" "Sol/Jupiter/Ganymede"
 
 Location "NICHOLSON REGIO" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 353.6 -33.1 0 ]
+	LongLat	[ -6.4 -33.1 0 ]
 	Size	3900
 	Type	"RE"
 }
 
 Location "Nidaba" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 236.57 17.75 0 ]
+	LongLat	[ -123.43 17.75 0 ]
 	Size	199
 	Type	"AA"
 }
@@ -3455,7 +3504,7 @@ Location "Nigirsu" "Sol/Jupiter/Ganymede"
 
 Location "Nineveh Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 307 23.2 0 ]
+	LongLat	[ -53 23.2 0 ]
 	Size	1700
 	Type	"SU"
 }
@@ -3469,28 +3518,28 @@ Location "Ningishzida" "Sol/Jupiter/Ganymede"
 
 Location "Ninkasi" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 311.15 59.21 0 ]
+	LongLat	[ -48.85 59.21 0 ]
 	Size	81
 	Type	"AA"
 }
 
 Location "Ninki" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 239.21 -8.37 0 ]
+	LongLat	[ -120.79 -8.37 0 ]
 	Size	194
 	Type	"AA"
 }
 
 Location "Ninlil" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 241.68 6.27 0 ]
+	LongLat	[ -118.32 6.27 0 ]
 	Size	91
 	Type	"AA"
 }
 
 Location "Ninsum" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 219.45 -14.35 0 ]
+	LongLat	[ -140.55 -14.35 0 ]
 	Size	88
 	Type	"AA"
 }
@@ -3525,21 +3574,21 @@ Location "Ombos" "Sol/Jupiter/Ganymede"
 
 Location "Osiris" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 193.69 -38 0 ]
+	LongLat	[ -166.31 -38 0 ]
 	Size	107
 	Type	"AA"
 }
 
 Location "PERRINE REGIO" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 332 34 0 ]
+	LongLat	[ -28 34 0 ]
 	Size	3800
 	Type	"RE"
 }
 
 Location "Philae Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 191.8 68.4 0 ]
+	LongLat	[ -168.2 68.4 0 ]
 	Size	900
 	Type	"SU"
 }
@@ -3553,7 +3602,7 @@ Location "Philus Sulcus" "Sol/Jupiter/Ganymede"
 
 Location "Phrygia Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 339.4 12 0 ]
+	LongLat	[ -20.6 12 0 ]
 	Size	3700
 	Type	"SU"
 }
@@ -3595,14 +3644,14 @@ Location "Saltu" "Sol/Jupiter/Ganymede"
 
 Location "Sapas" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 326.01 57.45 0 ]
+	LongLat	[ -33.99 57.45 0 ]
 	Size	56
 	Type	"AA"
 }
 
 Location "Sati" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 347.2 30.84 0 ]
+	LongLat	[ -12.8 30.84 0 ]
 	Size	95
 	Type	"AA"
 }
@@ -3630,14 +3679,14 @@ Location "Seker" "Sol/Jupiter/Ganymede"
 
 Location "Selket" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 254.3 15.03 0 ]
+	LongLat	[ -105.7 15.03 0 ]
 	Size	168
 	Type	"AA"
 }
 
 Location "Serapis" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 315.89 -12.4 0 ]
+	LongLat	[ -44.11 -12.4 0 ]
 	Size	169
 	Type	"AA"
 }
@@ -3658,7 +3707,7 @@ Location "Shuruppak Sulcus" "Sol/Jupiter/Ganymede"
 
 Location "Sicyon Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 344.7 33.7 0 ]
+	LongLat	[ -15.3 33.7 0 ]
 	Size	2125
 	Type	"SU"
 }
@@ -3672,14 +3721,14 @@ Location "Sin" "Sol/Jupiter/Ganymede"
 
 Location "Sippar Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 189.8 -19.9 0 ]
+	LongLat	[ -170.2 -19.9 0 ]
 	Size	3260
 	Type	"SU"
 }
 
 Location "Siwah Facula" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 217 7 0 ]
+	LongLat	[ -143 7 0 ]
 	Size	220
 	Type	"FA"
 }
@@ -3693,7 +3742,7 @@ Location "Tammuz" "Sol/Jupiter/Ganymede"
 
 Location "Tanit" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 323.38 57.49 0 ]
+	LongLat	[ -36.62 57.49 0 ]
 	Size	26
 	Type	"AA"
 }
@@ -3728,7 +3777,7 @@ Location "Teshub" "Sol/Jupiter/Ganymede"
 
 Location "Tettu Facula" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 199.04 37.6 0 ]
+	LongLat	[ -160.96 37.6 0 ]
 	Size	189
 	Type	"FA"
 }
@@ -3742,7 +3791,7 @@ Location "Thebes Facula" "Sol/Jupiter/Ganymede"
 
 Location "Thoth" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 212.75 -43.22 0 ]
+	LongLat	[ -147.25 -43.22 0 ]
 	Size	102
 	Type	"AA"
 }
@@ -3756,7 +3805,7 @@ Location "Tiamat Sulcus" "Sol/Jupiter/Ganymede"
 
 Location "Tros" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 332.74 11.14 0 ]
+	LongLat	[ -27.26 11.14 0 ]
 	Size	94
 	Type	"AA"
 }
@@ -3777,14 +3826,14 @@ Location "Upuant" "Sol/Jupiter/Ganymede"
 
 Location "Ur Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 182.5 49.5 0 ]
+	LongLat	[ -177.5 49.5 0 ]
 	Size	1145
 	Type	"SU"
 }
 
 Location "Uruk Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 200 3.4 0 ]
+	LongLat	[ -160 3.4 0 ]
 	Size	2200
 	Type	"SU"
 }
@@ -3798,21 +3847,21 @@ Location "We-ila" "Sol/Jupiter/Ganymede"
 
 Location "Wepwawet" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 300.19 -69.89 0 ]
+	LongLat	[ -59.81 -69.89 0 ]
 	Size	86
 	Type	"AA"
 }
 
 Location "Xibalba Sulcus" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 288.9 43 0 ]
+	LongLat	[ -71.1 43 0 ]
 	Size	2200
 	Type	"SU"
 }
 
 Location "Yaroun Patera" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 217.85 -46.65 0 ]
+	LongLat	[ -142.15 -46.65 0 ]
 	Size	96
 	Type	"PE"
 }
@@ -3826,14 +3875,14 @@ Location "Zakar" "Sol/Jupiter/Ganymede"
 
 Location "Zaqar" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 322.59 58.16 0 ]
+	LongLat	[ -37.41 58.16 0 ]
 	Size	33
 	Type	"AA"
 }
 
 Location "Zu Fossae" "Sol/Jupiter/Ganymede"
 {
-	LongLat	[ 209.5 38.5 0 ]
+	LongLat	[ -150.5 38.5 0 ]
 	Size	2900
 	Type	"FO"
 }
@@ -3843,49 +3892,49 @@ Location "Zu Fossae" "Sol/Jupiter/Ganymede"
 
 Location "Adal" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 280.3 75.5 0 ]
+	LongLat	[ -79.7 75.5 0 ]
 	Size	41.7
 	Type	"AA"
 }
 
 Location "Adlinda" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 324.4 -48.5 0 ]
+	LongLat	[ -35.6 -48.5 0 ]
 	Size	840
 	Type	"LG"
 }
 
 Location "Aegir" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 256.2 -45.8 0 ]
+	LongLat	[ -103.8 -45.8 0 ]
 	Size	53.9
 	Type	"AA"
 }
 
 Location "Agloolik" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 277.6 -47.7 0 ]
+	LongLat	[ -82.4 -47.7 0 ]
 	Size	61.6
 	Type	"AA"
 }
 
 Location "Ägröi" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 349.1 43.2 0 ]
+	LongLat	[ -10.9 43.2 0 ]
 	Size	67.4
 	Type	"AA"
 }
 
 Location "Ahti" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 257.6 41.4 0 ]
+	LongLat	[ -102.4 41.4 0 ]
 	Size	54.8
 	Type	"AA"
 }
 
 Location "Ajleke" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 258.6 22.7 0 ]
+	LongLat	[ -101.4 22.7 0 ]
 	Size	70
 	Type	"AA"
 }
@@ -3906,28 +3955,28 @@ Location "Alfr" "Sol/Jupiter/Callisto"
 
 Location "Áli" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 304.1 59 0 ]
+	LongLat	[ -55.9 59 0 ]
 	Size	32.9
 	Type	"AA"
 }
 
 Location "Ánarr" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 359.5 44 0 ]
+	LongLat	[ -0.5 44 0 ]
 	Size	41.7
 	Type	"AA"
 }
 
 Location "Arcas" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 292.5 -85.6 0 ]
+	LongLat	[ -67.5 -85.6 0 ]
 	Size	60.9
 	Type	"AA"
 }
 
 Location "Asgard" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 220.1 32.2 0 ]
+	LongLat	[ -139.9 32.2 0 ]
 	Size	1400
 	Type	"LG"
 }
@@ -3941,70 +3990,70 @@ Location "Askr" "Sol/Jupiter/Callisto"
 
 Location "Audr" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 279.4 -30.9 0 ]
+	LongLat	[ -80.6 -30.9 0 ]
 	Size	80.8
 	Type	"AA"
 }
 
 Location "Austri" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 295.5 -80.9 0 ]
+	LongLat	[ -64.5 -80.9 0 ]
 	Size	15
 	Type	"AA"
 }
 
 Location "Aziren" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 181.8 35.4 0 ]
+	LongLat	[ -178.2 35.4 0 ]
 	Size	55.6
 	Type	"AA"
 }
 
 Location "Balkr" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 348.3 28.9 0 ]
+	LongLat	[ -11.7 28.9 0 ]
 	Size	68
 	Type	"AA"
 }
 
 Location "Barri" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 289.5 -31.5 0 ]
+	LongLat	[ -70.5 -31.5 0 ]
 	Size	69
 	Type	"AA"
 }
 
 Location "Bavörr" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 340 49.1 0 ]
+	LongLat	[ -20 49.1 0 ]
 	Size	85.3
 	Type	"AA"
 }
 
 Location "Beli" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 279.8 62.6 0 ]
+	LongLat	[ -80.2 62.6 0 ]
 	Size	55.6
 	Type	"AA"
 }
 
 Location "Biflindi" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 285.9 -53.6 0 ]
+	LongLat	[ -74.1 -53.6 0 ]
 	Size	58
 	Type	"AA"
 }
 
 Location "Bragi" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 299.3 75.5 0 ]
+	LongLat	[ -60.7 75.5 0 ]
 	Size	61.8
 	Type	"AA"
 }
 
 Location "Brami" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 341 28.8 0 ]
+	LongLat	[ -19 28.8 0 ]
 	Size	75.7
 	Type	"AA"
 }
@@ -4025,98 +4074,98 @@ Location "Buga" "Sol/Jupiter/Callisto"
 
 Location "Buri" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 314.5 -37.5 0 ]
+	LongLat	[ -45.5 -37.5 0 ]
 	Size	86
 	Type	"AA"
 }
 
 Location "Burr" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 225.5 42.7 0 ]
+	LongLat	[ -134.5 42.7 0 ]
 	Size	75.4
 	Type	"AA"
 }
 
 Location "Dag" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 286.7 58.5 0 ]
+	LongLat	[ -73.3 58.5 0 ]
 	Size	46.6
 	Type	"AA"
 }
 
 Location "Danr" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 283.1 62.5 0 ]
+	LongLat	[ -76.9 62.5 0 ]
 	Size	45.2
 	Type	"AA"
 }
 
 Location "Debegey" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 193.8 10.2 0 ]
+	LongLat	[ -166.2 10.2 0 ]
 	Size	125
 	Type	"AA"
 }
 
 Location "Dia" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 309.5 73 0 ]
+	LongLat	[ -50.5 73 0 ]
 	Size	34.4
 	Type	"AA"
 }
 
 Location "Doh" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 218.6 30.6 0 ]
+	LongLat	[ -141.4 30.6 0 ]
 	Size	59.5
 	Type	"AA"
 }
 
 Location "Dryops" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 325.2 80 0 ]
+	LongLat	[ -34.8 80 0 ]
 	Size	31.5
 	Type	"AA"
 }
 
 Location "Durinn" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 270.9 67 0 ]
+	LongLat	[ -89.1 67 0 ]
 	Size	51.6
 	Type	"AA"
 }
 
 Location "Egdir" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 324.1 33.9 0 ]
+	LongLat	[ -35.9 33.9 0 ]
 	Size	60.6
 	Type	"AA"
 }
 
 Location "Egres" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 183.4 42.5 0 ]
+	LongLat	[ -176.6 42.5 0 ]
 	Size	45.5
 	Type	"AA"
 }
 
 Location "Eikin Catena" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 344.5 -8.9 0 ]
+	LongLat	[ -15.5 -8.9 0 ]
 	Size	223.1
 	Type	"CA"
 }
 
 Location "Erlik" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 358.7 66.8 0 ]
+	LongLat	[ -1.3 66.8 0 ]
 	Size	26.6
 	Type	"AA"
 }
 
 Location "Fadir" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 347.4 56.6 0 ]
+	LongLat	[ -12.6 56.6 0 ]
 	Size	78.6
 	Type	"AA"
 }
@@ -4130,14 +4179,14 @@ Location "Fili" "Sol/Jupiter/Callisto"
 
 Location "Fimbulthul Catena" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 295.2 8.2 0 ]
+	LongLat	[ -64.8 8.2 0 ]
 	Size	287
 	Type	"CA"
 }
 
 Location "Finnr" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 355.7 15.5 0 ]
+	LongLat	[ -4.3 15.5 0 ]
 	Size	80
 	Type	"AA"
 }
@@ -4151,28 +4200,28 @@ Location "Freki" "Sol/Jupiter/Callisto"
 
 Location "Frodi" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 220.1 68.4 0 ]
+	LongLat	[ -139.9 68.4 0 ]
 	Size	45.9
 	Type	"AA"
 }
 
 Location "Fulla" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 251.9 74 0 ]
+	LongLat	[ -108.1 74 0 ]
 	Size	58.9
 	Type	"AA"
 }
 
 Location "Fulnir" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 324.7 60.1 0 ]
+	LongLat	[ -35.3 60.1 0 ]
 	Size	43.1
 	Type	"AA"
 }
 
 Location "Gandalfr" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 296.4 -80.5 0 ]
+	LongLat	[ -63.6 -80.5 0 ]
 	Size	17
 	Type	"AA"
 }
@@ -4193,21 +4242,21 @@ Location "Geri" "Sol/Jupiter/Callisto"
 
 Location "Ginandi" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 307.9 -85.3 0 ]
+	LongLat	[ -52.1 -85.3 0 ]
 	Size	44.4
 	Type	"AA"
 }
 
 Location "Gipul Catena" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 305.8 68.5 0 ]
+	LongLat	[ -54.2 68.5 0 ]
 	Size	641
 	Type	"CA"
 }
 
 Location "Gisl" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 325.4 57.2 0 ]
+	LongLat	[ -34.6 57.2 0 ]
 	Size	37
 	Type	"AA"
 }
@@ -4228,14 +4277,14 @@ Location "Göll" "Sol/Jupiter/Callisto"
 
 Location "Gomul Catena" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 312.9 35.5 0 ]
+	LongLat	[ -47.1 35.5 0 ]
 	Size	342.6
 	Type	"CA"
 }
 
 Location "Göndul" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 245.9 60 0 ]
+	LongLat	[ -114.1 60 0 ]
 	Size	45.5
 	Type	"AA"
 }
@@ -4249,7 +4298,7 @@ Location "Grimr" "Sol/Jupiter/Callisto"
 
 Location "Gunnr" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 255.3 64.6 0 ]
+	LongLat	[ -104.7 64.6 0 ]
 	Size	61.1
 	Type	"AA"
 }
@@ -4263,14 +4312,14 @@ Location "Gunntro Catena" "Sol/Jupiter/Callisto"
 
 Location "Gymir" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 311.2 63.7 0 ]
+	LongLat	[ -48.8 63.7 0 ]
 	Size	40.6
 	Type	"AA"
 }
 
 Location "Hábrok" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 228.1 76.2 0 ]
+	LongLat	[ -131.9 76.2 0 ]
 	Size	37.2
 	Type	"AA"
 }
@@ -4298,21 +4347,21 @@ Location "Heimdall" "Sol/Jupiter/Callisto"
 
 Location "Hepti" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 336.6 64.5 0 ]
+	LongLat	[ -23.4 64.5 0 ]
 	Size	48.6
 	Type	"AA"
 }
 
 Location "Hijsi" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 188.5 63.1 0 ]
+	LongLat	[ -171.5 63.1 0 ]
 	Size	54.1
 	Type	"AA"
 }
 
 Location "Hödr" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 270.8 69.1 0 ]
+	LongLat	[ -89.2 69.1 0 ]
 	Size	76.5
 	Type	"AA"
 }
@@ -4326,14 +4375,14 @@ Location "Hoenir" "Sol/Jupiter/Callisto"
 
 Location "Högni" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 355.2 -11.8 0 ]
+	LongLat	[ -4.8 -11.8 0 ]
 	Size	76
 	Type	"AA"
 }
 
 Location "Höldr" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 251.8 43.9 0 ]
+	LongLat	[ -108.2 43.9 0 ]
 	Size	68.1
 	Type	"AA"
 }
@@ -4347,7 +4396,7 @@ Location "Igaluk" "Sol/Jupiter/Callisto"
 
 Location "Ilma" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 192.8 -29.9 0 ]
+	LongLat	[ -167.2 -29.9 0 ]
 	Size	102
 	Type	"AA"
 }
@@ -4361,28 +4410,28 @@ Location "Ivarr" "Sol/Jupiter/Callisto"
 
 Location "Jalkr" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 277.3 -38.6 0 ]
+	LongLat	[ -82.7 -38.6 0 ]
 	Size	93.5
 	Type	"AA"
 }
 
 Location "Jumal" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 242 58.9 0 ]
+	LongLat	[ -118 58.9 0 ]
 	Size	58.5
 	Type	"AA"
 }
 
 Location "Jumo" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 348.2 65.7 0 ]
+	LongLat	[ -11.8 65.7 0 ]
 	Size	43.6
 	Type	"AA"
 }
 
 Location "Kári" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 243.7 48.2 0 ]
+	LongLat	[ -116.3 48.2 0 ]
 	Size	34.5
 	Type	"AA"
 }
@@ -4396,7 +4445,7 @@ Location "Karl" "Sol/Jupiter/Callisto"
 
 Location "Keelut" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 269.1 -76.8 0 ]
+	LongLat	[ -90.9 -76.8 0 ]
 	Size	64
 	Type	"AA"
 }
@@ -4410,7 +4459,7 @@ Location "Kol Facula" "Sol/Jupiter/Callisto"
 
 Location "Kul'" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 238.1 62.9 0 ]
+	LongLat	[ -121.9 62.9 0 ]
 	Size	40.5
 	Type	"AA"
 }
@@ -4424,7 +4473,7 @@ Location "Lempo" "Sol/Jupiter/Callisto"
 
 Location "Ljekio" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 197.7 49.1 0 ]
+	LongLat	[ -162.3 49.1 0 ]
 	Size	23.8
 	Type	"AA"
 }
@@ -4438,7 +4487,7 @@ Location "Lodurr" "Sol/Jupiter/Callisto"
 
 Location "Lofn" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 337.7 -56.5 0 ]
+	LongLat	[ -22.3 -56.5 0 ]
 	Size	200
 	Type	"AA"
 }
@@ -4459,49 +4508,49 @@ Location "Losy" "Sol/Jupiter/Callisto"
 
 Location "Lycaon" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 354.1 -45.4 0 ]
+	LongLat	[ -5.9 -45.4 0 ]
 	Size	59
 	Type	"AA"
 }
 
 Location "Maderatcha" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 264.7 30.7 0 ]
+	LongLat	[ -95.3 30.7 0 ]
 	Size	66.2
 	Type	"AA"
 }
 
 Location "Mera" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 284.8 64.1 0 ]
+	LongLat	[ -75.2 64.1 0 ]
 	Size	39.5
 	Type	"AA"
 }
 
 Location "Mimir" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 306.8 32.6 0 ]
+	LongLat	[ -53.2 32.6 0 ]
 	Size	47.7
 	Type	"AA"
 }
 
 Location "Mitsina" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 256.3 57.5 0 ]
+	LongLat	[ -103.7 57.5 0 ]
 	Size	40.4
 	Type	"AA"
 }
 
 Location "Modi" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 240.7 66.4 0 ]
+	LongLat	[ -119.3 66.4 0 ]
 	Size	37.8
 	Type	"AA"
 }
 
 Location "Nakki" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 290.3 -56.4 0 ]
+	LongLat	[ -69.7 -56.4 0 ]
 	Size	59.8
 	Type	"AA"
 }
@@ -4515,35 +4564,35 @@ Location "Nama" "Sol/Jupiter/Callisto"
 
 Location "Nár" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 314 -1.5 0 ]
+	LongLat	[ -46 -1.5 0 ]
 	Size	56.9
 	Type	"AA"
 }
 
 Location "Nerrivik" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 303.6 -16.9 0 ]
+	LongLat	[ -56.4 -16.9 0 ]
 	Size	44.3
 	Type	"AA"
 }
 
 Location "Nidi" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 265.1 66.4 0 ]
+	LongLat	[ -94.9 66.4 0 ]
 	Size	49.3
 	Type	"AA"
 }
 
 Location "Nirkes" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 195.7 31.4 0 ]
+	LongLat	[ -164.3 31.4 0 ]
 	Size	58.5
 	Type	"AA"
 }
 
 Location "Njord" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 227.4 16.7 0 ]
+	LongLat	[ -132.6 16.7 0 ]
 	Size	44.6
 	Type	"AA"
 }
@@ -4557,7 +4606,7 @@ Location "Nori" "Sol/Jupiter/Callisto"
 
 Location "Norov-Ava" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 247.2 54.6 0 ]
+	LongLat	[ -112.8 54.6 0 ]
 	Size	41.4
 	Type	"AA"
 }
@@ -4571,35 +4620,35 @@ Location "Nuada" "Sol/Jupiter/Callisto"
 
 Location "Numi-Torum" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 267.1 -50.1 0 ]
+	LongLat	[ -92.9 -50.1 0 ]
 	Size	75.6
 	Type	"AA"
 }
 
 Location "Nyctimus" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 356.1 -62.8 0 ]
+	LongLat	[ -3.9 -62.8 0 ]
 	Size	34
 	Type	"AA"
 }
 
 Location "Oluksak" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 296.5 -47.8 0 ]
+	LongLat	[ -63.5 -47.8 0 ]
 	Size	86.7
 	Type	"AA"
 }
 
 Location "Omol'" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 243.1 42.3 0 ]
+	LongLat	[ -116.9 42.3 0 ]
 	Size	60.4
 	Type	"AA"
 }
 
 Location "Orestheus" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 312.3 -46.7 0 ]
+	LongLat	[ -47.7 -46.7 0 ]
 	Size	22.5
 	Type	"AA"
 }
@@ -4613,42 +4662,42 @@ Location "Oski" "Sol/Jupiter/Callisto"
 
 Location "Ottar" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 256.1 61.5 0 ]
+	LongLat	[ -103.9 61.5 0 ]
 	Size	59.8
 	Type	"AA"
 }
 
 Location "Pekko" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 354.6 18.3 0 ]
+	LongLat	[ -5.4 18.3 0 ]
 	Size	62
 	Type	"AA"
 }
 
 Location "Randver" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 306.1 -71.9 0 ]
+	LongLat	[ -53.9 -71.9 0 ]
 	Size	28
 	Type	"AA"
 }
 
 Location "Reginleif" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 263.5 -66 0 ]
+	LongLat	[ -96.5 -66 0 ]
 	Size	54.8
 	Type	"AA"
 }
 
 Location "Reginn" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 269.9 39.8 0 ]
+	LongLat	[ -90.1 39.8 0 ]
 	Size	57
 	Type	"AA"
 }
 
 Location "Reifnir" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 305.7 -50.8 0 ]
+	LongLat	[ -54.3 -50.8 0 ]
 	Size	36.8
 	Type	"AA"
 }
@@ -4662,14 +4711,14 @@ Location "Rigr" "Sol/Jupiter/Callisto"
 
 Location "Rongoteus" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 253.9 53.6 0 ]
+	LongLat	[ -106.1 53.6 0 ]
 	Size	35.5
 	Type	"AA"
 }
 
 Location "Rota" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 251.6 27.2 0 ]
+	LongLat	[ -108.4 27.2 0 ]
 	Size	45
 	Type	"AA"
 }
@@ -4683,42 +4732,42 @@ Location "Saga" "Sol/Jupiter/Callisto"
 
 Location "Sarakka" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 306.5 -3.3 0 ]
+	LongLat	[ -53.5 -3.3 0 ]
 	Size	47.7
 	Type	"AA"
 }
 
 Location "Seqinek" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 334.6 55.5 0 ]
+	LongLat	[ -25.4 55.5 0 ]
 	Size	80.7
 	Type	"AA"
 }
 
 Location "Sholmo" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 343.8 53.7 0 ]
+	LongLat	[ -16.2 53.7 0 ]
 	Size	57
 	Type	"AA"
 }
 
 Location "Sid Catena" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 256.1 49.2 0 ]
+	LongLat	[ -103.9 49.2 0 ]
 	Size	81.4
 	Type	"CA"
 }
 
 Location "Sigyn" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 331 35.9 0 ]
+	LongLat	[ -29 35.9 0 ]
 	Size	49.8
 	Type	"AA"
 }
 
 Location "Skeggold" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 328.1 -49.7 0 ]
+	LongLat	[ -31.9 -49.7 0 ]
 	Size	43
 	Type	"AA"
 }
@@ -4732,14 +4781,14 @@ Location "Sköll" "Sol/Jupiter/Callisto"
 
 Location "Skuld" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 322.1 10 0 ]
+	LongLat	[ -37.9 10 0 ]
 	Size	91.8
 	Type	"AA"
 }
 
 Location "Sudri" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 224.4 55.9 0 ]
+	LongLat	[ -135.6 55.9 0 ]
 	Size	69.5
 	Type	"AA"
 }
@@ -4753,28 +4802,28 @@ Location "Sumbur" "Sol/Jupiter/Callisto"
 
 Location "Svol Catena" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 322.8 10.6 0 ]
+	LongLat	[ -37.2 10.6 0 ]
 	Size	161
 	Type	"CA"
 }
 
 Location "Tapio" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 251.4 30.1 0 ]
+	LongLat	[ -108.6 30.1 0 ]
 	Size	52.2
 	Type	"AA"
 }
 
 Location "Thekkr" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 298 -80.3 0 ]
+	LongLat	[ -62 -80.3 0 ]
 	Size	13
 	Type	"AA"
 }
 
 Location "Thorir" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 293.3 -31.9 0 ]
+	LongLat	[ -66.7 -31.9 0 ]
 	Size	62.7
 	Type	"AA"
 }
@@ -4788,21 +4837,21 @@ Location "Tindr" "Sol/Jupiter/Callisto"
 
 Location "Tontu" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 259.7 27.6 0 ]
+	LongLat	[ -100.3 27.6 0 ]
 	Size	40.2
 	Type	"AA"
 }
 
 Location "Tornarsuk" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 232.4 28.8 0 ]
+	LongLat	[ -127.6 28.8 0 ]
 	Size	99
 	Type	"AA"
 }
 
 Location "Tyll" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 193.5 44.8 0 ]
+	LongLat	[ -166.5 44.8 0 ]
 	Size	68.7
 	Type	"AA"
 }
@@ -4816,14 +4865,14 @@ Location "Tyn" "Sol/Jupiter/Callisto"
 
 Location "Uksakka" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 317.8 -49.5 0 ]
+	LongLat	[ -42.2 -49.5 0 ]
 	Size	22.5
 	Type	"AA"
 }
 
 Location "Utgard" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 226 45 0 ]
+	LongLat	[ -134 45 0 ]
 	Size	610
 	Type	"LG"
 }
@@ -4837,7 +4886,7 @@ Location "Valfödr" "Sol/Jupiter/Callisto"
 
 Location "Valhalla" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 304 14.7 0 ]
+	LongLat	[ -56 14.7 0 ]
 	Size	3000
 	Type	"LG"
 }
@@ -4851,21 +4900,21 @@ Location "Vali" "Sol/Jupiter/Callisto"
 
 Location "Vanapagan" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 201.5 39.5 0 ]
+	LongLat	[ -158.5 39.5 0 ]
 	Size	62.7
 	Type	"AA"
 }
 
 Location "Veralden" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 264.5 33.3 0 ]
+	LongLat	[ -95.5 33.3 0 ]
 	Size	75.2
 	Type	"AA"
 }
 
 Location "Vestri" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 307.5 45.3 0 ]
+	LongLat	[ -52.5 45.3 0 ]
 	Size	77.3
 	Type	"AA"
 }
@@ -4893,28 +4942,28 @@ Location "Vitr" "Sol/Jupiter/Callisto"
 
 Location "Vu-Murt" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 189.7 21.5 0 ]
+	LongLat	[ -170.3 21.5 0 ]
 	Size	34.5
 	Type	"AA"
 }
 
 Location "Vutash" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 257.7 31.6 0 ]
+	LongLat	[ -102.3 31.6 0 ]
 	Size	46.2
 	Type	"AA"
 }
 
 Location "Ymir" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 260.3 51.5 0 ]
+	LongLat	[ -99.7 51.5 0 ]
 	Size	79
 	Type	"AA"
 }
 
 Location "Yuryung" "Sol/Jupiter/Callisto"
 {
-	LongLat	[ 274.3 -54.7 0 ]
+	LongLat	[ -85.7 -54.7 0 ]
 	Size	75.1
 	Type	"AA"
 }
