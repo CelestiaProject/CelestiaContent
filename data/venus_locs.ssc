@@ -4,14 +4,14 @@
 
 Location "Abe Mango Dorsa" "Sol/Venus"
 {
-	LongLat	[ -212 -47 0 ]
+	LongLat	[ 148 -47 0 ]
 	Size	800
 	Type	"DO"
 }
 
 Location "Abeona Mons" "Sol/Venus"
 {
-	LongLat	[ -273.1 44.8 0 ]
+	LongLat	[ 86.9 44.8 0 ]
 	Size	375
 	Type	"MO"
 }
@@ -32,7 +32,7 @@ Location "Abika" "Sol/Venus"
 
 Location "Abington" "Sol/Venus"
 {
-	LongLat	[ -277.7 47.8 0 ]
+	LongLat	[ 82.3 47.8 0 ]
 	Size	21.7
 	Type	"AA"
 }
@@ -53,28 +53,28 @@ Location "Abundia Corona" "Sol/Venus"
 
 Location "Achall Corona" "Sol/Venus"
 {
-	LongLat	[ -259.6 31.2 0 ]
+	LongLat	[ 100.4 31.2 0 ]
 	Size	265
 	Type	"CR"
 }
 
 Location "Achek Dorsa" "Sol/Venus"
 {
-	LongLat	[ -230 37.2 0 ]
+	LongLat	[ 130 37.2 0 ]
 	Size	1000
 	Type	"DO"
 }
 
 Location "Acrea Corona" "Sol/Venus"
 {
-	LongLat	[ -243.7 -24.2 0 ]
+	LongLat	[ 116.3 -24.2 0 ]
 	Size	200
 	Type	"CR"
 }
 
 Location "Adaiah" "Sol/Venus"
 {
-	LongLat	[ -253.4 47.3 0 ]
+	LongLat	[ 106.6 47.3 0 ]
 	Size	18
 	Type	"AA"
 }
@@ -95,7 +95,7 @@ Location "Addams" "Sol/Venus"
 
 Location "Aditi Dorsa" "Sol/Venus"
 {
-	LongLat	[ -189 30 0 ]
+	LongLat	[ 171 30 0 ]
 	Size	1200
 	Type	"DO"
 }
@@ -130,14 +130,14 @@ Location "Aegina Farrum" "Sol/Venus"
 
 Location "Aeracura Corona" "Sol/Venus"
 {
-	LongLat	[ -238.5 19 0 ]
+	LongLat	[ 121.5 19 0 ]
 	Size	250
 	Type	"CR"
 }
 
 Location "Aethelflaed" "Sol/Venus"
 {
-	LongLat	[ -196.6 18.2 0 ]
+	LongLat	[ 163.4 18.2 0 ]
 	Size	20
 	Type	"AA"
 }
@@ -158,7 +158,7 @@ Location "Afiruwa" "Sol/Venus"
 
 Location "Aftenia" "Sol/Venus"
 {
-	LongLat	[ -324 -49.95 0 ]
+	LongLat	[ 36 -49.95 0 ]
 	Size	7
 	Type	"AA"
 }
@@ -172,7 +172,7 @@ Location "Afua" "Sol/Venus"
 
 Location "Aglaonice" "Sol/Venus"
 {
-	LongLat	[ -339.9 26.4 0 ]
+	LongLat	[ 20.1 26.4 0 ]
 	Size	63.7
 	Type	"AA"
 }
@@ -207,14 +207,14 @@ Location "Agrippina" "Sol/Venus"
 
 Location "Agrona Linea" "Sol/Venus"
 {
-	LongLat	[ -280 -40 0 ]
+	LongLat	[ 80 -40 0 ]
 	Size	2300
 	Type	"LI"
 }
 
 Location "Ahava" "Sol/Venus"
 {
-	LongLat	[ -187.3 -53.6 0 ]
+	LongLat	[ 172.7 -53.6 0 ]
 	Size	10.4
 	Type	"AA"
 }
@@ -228,7 +228,7 @@ Location "Ahsabkab Vallis" "Sol/Venus"
 
 Location "Ahsonnutli Dorsa" "Sol/Venus"
 {
-	LongLat	[ -196.5 -47.9 0 ]
+	LongLat	[ 163.5 -47.9 0 ]
 	Size	1708
 	Type	"DO"
 }
@@ -242,7 +242,7 @@ Location "Aibarchin Planitia" "Sol/Venus"
 
 Location "Aida-Wedo Dorsa" "Sol/Venus"
 {
-	LongLat	[ -214 -73 0 ]
+	LongLat	[ 146 -73 0 ]
 	Size	450
 	Type	"DO"
 }
@@ -256,14 +256,14 @@ Location "Aife Fossae" "Sol/Venus"
 
 Location "Aigul" "Sol/Venus"
 {
-	LongLat	[ -280.4 -38.2 0 ]
+	LongLat	[ 79.6 -38.2 0 ]
 	Size	6
 	Type	"AA"
 }
 
 Location "Aikhylu Chasma" "Sol/Venus"
 {
-	LongLat	[ -292 -32 0 ]
+	LongLat	[ 68 -32 0 ]
 	Size	300
 	Type	"CM"
 }
@@ -298,49 +298,49 @@ Location "Aisha" "Sol/Venus"
 
 Location "Aita" "Sol/Venus"
 {
-	LongLat	[ -270.7 -8.9 0 ]
+	LongLat	[ 89.3 -8.9 0 ]
 	Size	14
 	Type	"AA"
 }
 
 Location "Aitchison Patera" "Sol/Venus"
 {
-	LongLat	[ -349.4 16.7 0 ]
+	LongLat	[ 10.6 16.7 0 ]
 	Size	28
 	Type	"PE"
 }
 
 Location "Ajina Fossae" "Sol/Venus"
 {
-	LongLat	[ -258 45 0 ]
+	LongLat	[ 102 45 0 ]
 	Size	300
 	Type	"FO"
 }
 
 Location "Akeley" "Sol/Venus"
 {
-	LongLat	[ -244.5 -8 0 ]
+	LongLat	[ 115.5 -8 0 ]
 	Size	23.4
 	Type	"AA"
 }
 
 Location "Ak-Ene Corona" "Sol/Venus"
 {
-	LongLat	[ -254.7 -9.4 0 ]
+	LongLat	[ 105.3 -9.4 0 ]
 	Size	150
 	Type	"CR"
 }
 
 Location "Akewa Dorsa" "Sol/Venus"
 {
-	LongLat	[ -184 -45.5 0 ]
+	LongLat	[ 176 -45.5 0 ]
 	Size	900
 	Type	"DO"
 }
 
 Location "Akhmatova" "Sol/Venus"
 {
-	LongLat	[ -307.9 -61.3 0 ]
+	LongLat	[ 52.1 -61.3 0 ]
 	Size	41.4
 	Type	"AA"
 }
@@ -354,14 +354,14 @@ Location "Akhtamar Planitia" "Sol/Venus"
 
 Location "Akiko" "Sol/Venus"
 {
-	LongLat	[ -187.3 -30.6 0 ]
+	LongLat	[ 172.7 -30.6 0 ]
 	Size	17.4
 	Type	"AA"
 }
 
 Location "Akka Tholus" "Sol/Venus"
 {
-	LongLat	[ -233 -75.1 0 ]
+	LongLat	[ 127 -75.1 0 ]
 	Size	19.4
 	Type	"TH"
 }
@@ -375,7 +375,7 @@ Location "Akkruva Colles" "Sol/Venus"
 
 Location "Akna Montes" "Sol/Venus"
 {
-	LongLat	[ -318.2 -68.9 0 ]
+	LongLat	[ 41.8 -68.9 0 ]
 	Size	830
 	Type	"MO"
 }
@@ -389,14 +389,14 @@ Location "Akosua" "Sol/Venus"
 
 Location "Aksentyeva" "Sol/Venus"
 {
-	LongLat	[ -271.9 42 0 ]
+	LongLat	[ 88.1 42 0 ]
 	Size	42.5
 	Type	"AA"
 }
 
 Location "Akuanda Dorsa" "Sol/Venus"
 {
-	LongLat	[ -232 -63.5 0 ]
+	LongLat	[ 128 -63.5 0 ]
 	Size	800
 	Type	"DO"
 }
@@ -410,14 +410,14 @@ Location "Akuba" "Sol/Venus"
 
 Location "Alajen Vallis" "Sol/Venus"
 {
-	LongLat	[ -337.1 3.3 0 ]
+	LongLat	[ 22.9 3.3 0 ]
 	Size	200
 	Type	"VA"
 }
 
 Location "Albasty Fossae" "Sol/Venus"
 {
-	LongLat	[ -336.5 9 0 ]
+	LongLat	[ 23.5 9 0 ]
 	Size	500
 	Type	"FO"
 }
@@ -431,49 +431,49 @@ Location "Albys Vallis" "Sol/Venus"
 
 Location "Alcott" "Sol/Venus"
 {
-	LongLat	[ -354.4 59.5 0 ]
+	LongLat	[ 5.6 59.5 0 ]
 	Size	66
 	Type	"AA"
 }
 
 Location "Alcyone Tholus" "Sol/Venus"
 {
-	LongLat	[ -256.4 2.1 0 ]
+	LongLat	[ 103.6 2.1 0 ]
 	Size	70
 	Type	"TH"
 }
 
 Location "Aleksota Mons" "Sol/Venus"
 {
-	LongLat	[ -308.5 9 0 ]
+	LongLat	[ 51.5 9 0 ]
 	Size	250
 	Type	"MO"
 }
 
 Location "Ale Tholus" "Sol/Venus"
 {
-	LongLat	[ -247 -68.2 0 ]
+	LongLat	[ 113 -68.2 0 ]
 	Size	87
 	Type	"TH"
 }
 
 Location "Alima" "Sol/Venus"
 {
-	LongLat	[ -229.2 46 0 ]
+	LongLat	[ 130.8 46 0 ]
 	Size	10.3
 	Type	"AA"
 }
 
 Location "Alimat" "Sol/Venus"
 {
-	LongLat	[ -205.9 29.5 0 ]
+	LongLat	[ 154.1 29.5 0 ]
 	Size	13.5
 	Type	"AA"
 }
 
 Location "Alina" "Sol/Venus"
 {
-	LongLat	[ -267.78 -8.3 0 ]
+	LongLat	[ 92.22 -8.3 0 ]
 	Size	3.7
 	Type	"AA"
 }
@@ -487,7 +487,7 @@ Location "Alison" "Sol/Venus"
 
 Location "Alkonost Dorsa" "Sol/Venus"
 {
-	LongLat	[ -341 5 0 ]
+	LongLat	[ 19 5 0 ]
 	Size	730
 	Type	"DO"
 }
@@ -508,7 +508,7 @@ Location "Allatu Corona" "Sol/Venus"
 
 Location "Alma" "Sol/Venus"
 {
-	LongLat	[ -228.8 2.4 0 ]
+	LongLat	[ 131.2 2.4 0 ]
 	Size	16.8
 	Type	"AA"
 }
@@ -529,7 +529,7 @@ Location "Almeida" "Sol/Venus"
 
 Location "Alpan Fluctus" "Sol/Venus"
 {
-	LongLat	[ -349 7.5 0 ]
+	LongLat	[ 11 7.5 0 ]
 	Size	500
 	Type	"FL"
 }
@@ -550,7 +550,7 @@ Location "Altana" "Sol/Venus"
 
 Location "Al-Taymuriyya" "Sol/Venus"
 {
-	LongLat	[ -336.1 -32.9 0 ]
+	LongLat	[ 23.9 -32.9 0 ]
 	Size	19
 	Type	"AA"
 }
@@ -564,14 +564,14 @@ Location "Al-Uzza Undae" "Sol/Venus"
 
 Location "Ama Corona" "Sol/Venus"
 {
-	LongLat	[ -278.2 45.7 0 ]
+	LongLat	[ 81.8 45.7 0 ]
 	Size	300
 	Type	"CR"
 }
 
 Location "Amalasuntha" "Sol/Venus"
 {
-	LongLat	[ -342.4 11.5 0 ]
+	LongLat	[ 17.6 11.5 0 ]
 	Size	15.4
 	Type	"AA"
 }
@@ -599,7 +599,7 @@ Location "Ambar-ona Corona" "Sol/Venus"
 
 Location "Amelia" "Sol/Venus"
 {
-	LongLat	[ -280.45 -8.57 0 ]
+	LongLat	[ 79.55 -8.57 0 ]
 	Size	3.3
 	Type	"AA"
 }
@@ -613,7 +613,7 @@ Location "Amenardes" "Sol/Venus"
 
 Location "Ament Corona" "Sol/Venus"
 {
-	LongLat	[ -217.9 67.2 0 ]
+	LongLat	[ 142.1 67.2 0 ]
 	Size	115
 	Type	"CR"
 }
@@ -627,14 +627,14 @@ Location "Aminata" "Sol/Venus"
 
 Location "Amitolane Dorsa" "Sol/Venus"
 {
-	LongLat	[ -335 77 0 ]
+	LongLat	[ 25 77 0 ]
 	Size	900
 	Type	"DO"
 }
 
 Location "Among Corona" "Sol/Venus"
 {
-	LongLat	[ -213.5 13.4 0 ]
+	LongLat	[ 146.5 13.4 0 ]
 	Size	210
 	Type	"CR"
 }
@@ -648,7 +648,7 @@ Location "Amra Tholus" "Sol/Venus"
 
 Location "Anahit Corona" "Sol/Venus"
 {
-	LongLat	[ -277.3 -77.1 0 ]
+	LongLat	[ 82.7 -77.1 0 ]
 	Size	324
 	Type	"CR"
 }
@@ -690,7 +690,7 @@ Location "Andreianova" "Sol/Venus"
 
 Location "Angerona Tholus" "Sol/Venus"
 {
-	LongLat	[ -287.2 29.8 0 ]
+	LongLat	[ 72.8 29.8 0 ]
 	Size	200
 	Type	"TH"
 }
@@ -711,14 +711,14 @@ Location "Anicia" "Sol/Venus"
 
 Location "Anjea Corona" "Sol/Venus"
 {
-	LongLat	[ -282.8 29 0 ]
+	LongLat	[ 77.2 29 0 ]
 	Size	145
 	Type	"CR"
 }
 
 Location "Annabelle" "Sol/Venus"
 {
-	LongLat	[ -286.29 4.15 0 ]
+	LongLat	[ 73.71 4.15 0 ]
 	Size	7.7
 	Type	"AA"
 }
@@ -746,14 +746,14 @@ Location "Anning Paterae" "Sol/Venus"
 
 Location "Anpao Dorsa" "Sol/Venus"
 {
-	LongLat	[ -207 -62 0 ]
+	LongLat	[ 153 -62 0 ]
 	Size	550
 	Type	"DO"
 }
 
 Location "Anqet Farra" "Sol/Venus"
 {
-	LongLat	[ -311.5 -33.6 0 ]
+	LongLat	[ 48.5 -33.6 0 ]
 	Size	125
 	Type	"FR"
 }
@@ -767,7 +767,7 @@ Location "Anthony Patera" "Sol/Venus"
 
 Location "Antiope Linea" "Sol/Venus"
 {
-	LongLat	[ -350 40 0 ]
+	LongLat	[ 10 40 0 ]
 	Size	1300
 	Type	"LI"
 }
@@ -795,14 +795,14 @@ Location "Anush" "Sol/Venus"
 
 Location "Anya" "Sol/Venus"
 {
-	LongLat	[ -297.8 -39.5 0 ]
+	LongLat	[ 62.2 -39.5 0 ]
 	Size	18.1
 	Type	"AA"
 }
 
 Location "Apakura Tholus" "Sol/Venus"
 {
-	LongLat	[ -208.8 -40.3 0 ]
+	LongLat	[ 151.2 -40.3 0 ]
 	Size	10
 	Type	"TH"
 }
@@ -851,35 +851,35 @@ Location "Aranyani Chasma" "Sol/Venus"
 
 Location "Ardwinna Chasma" "Sol/Venus"
 {
-	LongLat	[ -197 -21 0 ]
+	LongLat	[ 163 -21 0 ]
 	Size	500
 	Type	"CM"
 }
 
 Location "Arev Dorsa" "Sol/Venus"
 {
-	LongLat	[ -216 52 0 ]
+	LongLat	[ 144 52 0 ]
 	Size	420
 	Type	"DO"
 }
 
 Location "Argimpasa Fluctus" "Sol/Venus"
 {
-	LongLat	[ -175.5 -0 0 ]
+	LongLat	[ -175.5 0 0 ]
 	Size	950
 	Type	"FL"
 }
 
 Location "Ariadne" "Sol/Venus"
 {
-	LongLat	[ -360 -43.9 0 ]
+	LongLat	[ 0 -43.9 0 ]
 	Size	23.6
 	Type	"AA"
 }
 
 Location "Arianrod Fossae" "Sol/Venus"
 {
-	LongLat	[ -239.9 -37 0 ]
+	LongLat	[ 120.1 -37 0 ]
 	Size	715
 	Type	"FO"
 }
@@ -914,7 +914,7 @@ Location "Arubani Fluctus" "Sol/Venus"
 
 Location "Aruru Corona" "Sol/Venus"
 {
-	LongLat	[ -262 -9 0 ]
+	LongLat	[ 98 -9 0 ]
 	Size	450
 	Type	"CR"
 }
@@ -928,14 +928,14 @@ Location "Asherat Colles" "Sol/Venus"
 
 Location "Ashnan Corona" "Sol/Venus"
 {
-	LongLat	[ -357 -50.2 0 ]
+	LongLat	[ 3 -50.2 0 ]
 	Size	300
 	Type	"CR"
 }
 
 Location "Ashtart Tholus" "Sol/Venus"
 {
-	LongLat	[ -247 -48.7 0 ]
+	LongLat	[ 113 -48.7 0 ]
 	Size	138
 	Type	"TH"
 }
@@ -949,7 +949,7 @@ Location "Asiaq Dorsa" "Sol/Venus"
 
 Location "Asintmah Corona" "Sol/Venus"
 {
-	LongLat	[ -208 -25.9 0 ]
+	LongLat	[ 152 -25.9 0 ]
 	Size	150
 	Type	"CR"
 }
@@ -970,14 +970,14 @@ Location "Asomama Corona" "Sol/Venus"
 
 Location "Aspasia Corona" "Sol/Venus"
 {
-	LongLat	[ -189.1 -56.1 0 ]
+	LongLat	[ 170.9 -56.1 0 ]
 	Size	200
 	Type	"CR"
 }
 
 Location "ASTERIA REGIO" "Sol/Venus"
 {
-	LongLat	[ -267.5 -21.6 0 ]
+	LongLat	[ 92.5 -21.6 0 ]
 	Size	1131
 	Type	"RE"
 }
@@ -991,7 +991,7 @@ Location "Astkhik Planum" "Sol/Venus"
 
 Location "Astrid" "Sol/Venus"
 {
-	LongLat	[ -335.2 21.4 0 ]
+	LongLat	[ 24.8 21.4 0 ]
 	Size	10.5
 	Type	"AA"
 }
@@ -1005,7 +1005,7 @@ Location "Atahensik Corona" "Sol/Venus"
 
 Location "Atai Mons" "Sol/Venus"
 {
-	LongLat	[ -291 22 0 ]
+	LongLat	[ 69 22 0 ]
 	Size	250
 	Type	"MO"
 }
@@ -1019,7 +1019,7 @@ Location "Atalanta Planitia" "Sol/Venus"
 
 Location "Atanua Mons" "Sol/Venus"
 {
-	LongLat	[ -308.9 -9.5 0 ]
+	LongLat	[ 51.1 -9.5 0 ]
 	Size	1000
 	Type	"MO"
 }
@@ -1033,7 +1033,7 @@ Location "Atargatis Corona" "Sol/Venus"
 
 Location "Atete Corona" "Sol/Venus"
 {
-	LongLat	[ -243.5 16 0 ]
+	LongLat	[ 116.5 16 0 ]
 	Size	600
 	Type	"CR"
 }
@@ -1047,21 +1047,21 @@ Location "Athena Tessera" "Sol/Venus"
 
 Location "Atira Mons" "Sol/Venus"
 {
-	LongLat	[ -267.6 -52.2 0 ]
+	LongLat	[ 92.4 -52.2 0 ]
 	Size	152
 	Type	"MO"
 }
 
 Location "ATLA REGIO" "Sol/Venus"
 {
-	LongLat	[ -200.1 -9.2 0 ]
+	LongLat	[ 159.9 -9.2 0 ]
 	Size	3200
 	Type	"RE"
 }
 
 Location "Atropos Tessera" "Sol/Venus"
 {
-	LongLat	[ -304 -71.5 0 ]
+	LongLat	[ 56 -71.5 0 ]
 	Size	469
 	Type	"TE"
 }
@@ -1075,14 +1075,14 @@ Location "Atse Estsan Corona" "Sol/Venus"
 
 Location "Atsyrkhus Mons" "Sol/Venus"
 {
-	LongLat	[ -227 78.5 0 ]
+	LongLat	[ 133 78.5 0 ]
 	Size	170
 	Type	"MO"
 }
 
 Location "Attabeira Corona" "Sol/Venus"
 {
-	LongLat	[ -211.5 1.5 0 ]
+	LongLat	[ 148.5 1.5 0 ]
 	Size	240
 	Type	"CR"
 }
@@ -1103,21 +1103,21 @@ Location "Audra Planitia" "Sol/Venus"
 
 Location "Audrey" "Sol/Venus"
 {
-	LongLat	[ -348.1 -23.8 0 ]
+	LongLat	[ 11.9 -23.8 0 ]
 	Size	15.2
 	Type	"AA"
 }
 
 Location "Aurelia" "Sol/Venus"
 {
-	LongLat	[ -331.8 -20.3 0 ]
+	LongLat	[ 28.2 -20.3 0 ]
 	Size	31.1
 	Type	"AA"
 }
 
 Location "Auska Dorsum" "Sol/Venus"
 {
-	LongLat	[ -357.8 -59.9 0 ]
+	LongLat	[ 2.2 -59.9 0 ]
 	Size	361
 	Type	"DO"
 }
@@ -1159,14 +1159,14 @@ Location "Avfruvva Vallis" "Sol/Venus"
 
 Location "Avviyar" "Sol/Venus"
 {
-	LongLat	[ -353.7 18 0 ]
+	LongLat	[ 6.3 18 0 ]
 	Size	20.6
 	Type	"AA"
 }
 
 Location "Awenhai Mons" "Sol/Venus"
 {
-	LongLat	[ -248 60 0 ]
+	LongLat	[ 112 60 0 ]
 	Size	100
 	Type	"MO"
 }
@@ -1194,21 +1194,21 @@ Location "Ayisatu" "Sol/Venus"
 
 Location "Ayrton Patera" "Sol/Venus"
 {
-	LongLat	[ -227.3 -6 0 ]
+	LongLat	[ 132.7 -6 0 ]
 	Size	85
 	Type	"PE"
 }
 
 Location "Azham Corona" "Sol/Venus"
 {
-	LongLat	[ -252.7 -66.4 0 ]
+	LongLat	[ 107.3 -66.4 0 ]
 	Size	380
 	Type	"CR"
 }
 
 Location "Azimua Tholi" "Sol/Venus"
 {
-	LongLat	[ -249.35 34.05 0 ]
+	LongLat	[ 110.65 34.05 0 ]
 	Size	40
 	Type	"TH"
 }
@@ -1229,7 +1229,7 @@ Location "Bachira" "Sol/Venus"
 
 Location "Bachue Corona" "Sol/Venus"
 {
-	LongLat	[ -261.4 -73.3 0 ]
+	LongLat	[ 98.6 -73.3 0 ]
 	Size	463
 	Type	"CR"
 }
@@ -1250,7 +1250,7 @@ Location "Badb Linea" "Sol/Venus"
 
 Location "Bagbartu Mons" "Sol/Venus"
 {
-	LongLat	[ -279 -65.5 0 ]
+	LongLat	[ 81 -65.5 0 ]
 	Size	600
 	Type	"MO"
 }
@@ -1264,7 +1264,7 @@ Location "Ba'het Corona" "Sol/Venus"
 
 Location "Bahriyat" "Sol/Venus"
 {
-	LongLat	[ -357.5 -50.3 0 ]
+	LongLat	[ 2.5 -50.3 0 ]
 	Size	5
 	Type	"AA"
 }
@@ -1278,21 +1278,21 @@ Location "Baker" "Sol/Venus"
 
 Location "Bakhtadze Patera" "Sol/Venus"
 {
-	LongLat	[ -219.5 -45.5 0 ]
+	LongLat	[ 140.5 -45.5 0 ]
 	Size	50
 	Type	"PE"
 }
 
 Location "Bakisat" "Sol/Venus"
 {
-	LongLat	[ -356.8 -26 0 ]
+	LongLat	[ 3.2 -26 0 ]
 	Size	7.4
 	Type	"AA"
 }
 
 Location "Balch" "Sol/Venus"
 {
-	LongLat	[ -282.9 -29.9 0 ]
+	LongLat	[ 77.1 -29.9 0 ]
 	Size	40
 	Type	"AA"
 }
@@ -1306,7 +1306,7 @@ Location "Baltis Vallis" "Sol/Venus"
 
 Location "Banba Corona" "Sol/Venus"
 {
-	LongLat	[ -209.2 47.2 0 ]
+	LongLat	[ 150.8 47.2 0 ]
 	Size	110
 	Type	"CR"
 }
@@ -1327,14 +1327,14 @@ Location "Ban Zhao" "Sol/Venus"
 
 Location "Baranamtarra" "Sol/Venus"
 {
-	LongLat	[ -267.8 -17.9 0 ]
+	LongLat	[ 92.2 -17.9 0 ]
 	Size	25.5
 	Type	"AA"
 }
 
 Location "Barauka" "Sol/Venus"
 {
-	LongLat	[ -346.3 -10.6 0 ]
+	LongLat	[ 13.7 -10.6 0 ]
 	Size	12.9
 	Type	"AA"
 }
@@ -1348,7 +1348,7 @@ Location "Barbale Dorsa" "Sol/Venus"
 
 Location "Barnes Patera" "Sol/Venus"
 {
-	LongLat	[ -229.2 15.5 0 ]
+	LongLat	[ 130.8 15.5 0 ]
 	Size	15
 	Type	"PE"
 }
@@ -1362,14 +1362,14 @@ Location "Barrera" "Sol/Venus"
 
 Location "Barrymore" "Sol/Venus"
 {
-	LongLat	[ -195.7 52.3 0 ]
+	LongLat	[ 164.3 52.3 0 ]
 	Size	56.6
 	Type	"AA"
 }
 
 Location "Barsova" "Sol/Venus"
 {
-	LongLat	[ -223 -61.3 0 ]
+	LongLat	[ 137 -61.3 0 ]
 	Size	76
 	Type	"AA"
 }
@@ -1383,21 +1383,21 @@ Location "Barto" "Sol/Venus"
 
 Location "Barton" "Sol/Venus"
 {
-	LongLat	[ -337.5 -27.4 0 ]
+	LongLat	[ 22.5 -27.4 0 ]
 	Size	52.2
 	Type	"AA"
 }
 
 Location "Bascom" "Sol/Venus"
 {
-	LongLat	[ -302.2 10.4 0 ]
+	LongLat	[ 57.8 10.4 0 ]
 	Size	34.6
 	Type	"AA"
 }
 
 Location "Bashkirtseff" "Sol/Venus"
 {
-	LongLat	[ -194 -14.7 0 ]
+	LongLat	[ 166 -14.7 0 ]
 	Size	36.2
 	Type	"AA"
 }
@@ -1411,7 +1411,7 @@ Location "Bassi" "Sol/Venus"
 
 Location "Bastryk Vallis" "Sol/Venus"
 {
-	LongLat	[ -347.5 7.5 0 ]
+	LongLat	[ 12.5 7.5 0 ]
 	Size	190
 	Type	"VA"
 }
@@ -1425,7 +1425,7 @@ Location "Bast Tholus" "Sol/Venus"
 
 Location "Bathkol Tessera" "Sol/Venus"
 {
-	LongLat	[ -200 -61 0 ]
+	LongLat	[ 160 -61 0 ]
 	Size	1485
 	Type	"TE"
 }
@@ -1439,21 +1439,21 @@ Location "Bathsheba" "Sol/Venus"
 
 Location "Batten" "Sol/Venus"
 {
-	LongLat	[ -217.4 -15.2 0 ]
+	LongLat	[ 142.6 -15.2 0 ]
 	Size	65
 	Type	"AA"
 }
 
 Location "Batya" "Sol/Venus"
 {
-	LongLat	[ -235.4 -72.7 0 ]
+	LongLat	[ 124.6 -72.7 0 ]
 	Size	9.3
 	Type	"AA"
 }
 
 Location "Bau Corona" "Sol/Venus"
 {
-	LongLat	[ -259.3 -52.8 0 ]
+	LongLat	[ 100.7 -52.8 0 ]
 	Size	355
 	Type	"CR"
 }
@@ -1474,7 +1474,7 @@ Location "Bécuma Mons" "Sol/Venus"
 
 Location "Beecher" "Sol/Venus"
 {
-	LongLat	[ -253.4 -13 0 ]
+	LongLat	[ 106.6 -13 0 ]
 	Size	40.4
 	Type	"AA"
 }
@@ -1488,7 +1488,7 @@ Location "Behn" "Sol/Venus"
 
 Location "Beiwe Corona" "Sol/Venus"
 {
-	LongLat	[ -306.5 -52.6 0 ]
+	LongLat	[ 53.5 -52.6 0 ]
 	Size	600
 	Type	"CR"
 }
@@ -1509,7 +1509,7 @@ Location "Belisama Vallis" "Sol/Venus"
 
 Location "Bellona Fossae" "Sol/Venus"
 {
-	LongLat	[ -222.1 -38 0 ]
+	LongLat	[ 137.9 -38 0 ]
 	Size	855
 	Type	"FO"
 }
@@ -1523,35 +1523,35 @@ Location "BELL REGIO" "Sol/Venus"
 
 Location "Bender" "Sol/Venus"
 {
-	LongLat	[ -327.4 13 0 ]
+	LongLat	[ 32.6 13 0 ]
 	Size	39.8
 	Type	"AA"
 }
 
 Location "Ben Dorsa" "Sol/Venus"
 {
-	LongLat	[ -284.1 -71.2 0 ]
+	LongLat	[ 75.9 -71.2 0 ]
 	Size	628
 	Type	"DO"
 }
 
 Location "Bennu Vallis" "Sol/Venus"
 {
-	LongLat	[ -341.2 -1.3 0 ]
+	LongLat	[ 18.8 -1.3 0 ]
 	Size	710
 	Type	"VA"
 }
 
 Location "Benten Corona" "Sol/Venus"
 {
-	LongLat	[ -340 -16 0 ]
+	LongLat	[ 20 -16 0 ]
 	Size	310
 	Type	"CR"
 }
 
 Location "Benzozia Corona" "Sol/Venus"
 {
-	LongLat	[ -204.5 -27.5 0 ]
+	LongLat	[ 155.5 -27.5 0 ]
 	Size	185
 	Type	"CR"
 }
@@ -1572,7 +1572,7 @@ Location "Berggolts" "Sol/Venus"
 
 Location "Bernadette" "Sol/Venus"
 {
-	LongLat	[ -285.6 46.6 0 ]
+	LongLat	[ 74.4 46.6 0 ]
 	Size	12.8
 	Type	"AA"
 }
@@ -1593,42 +1593,42 @@ Location "Bernice" "Sol/Venus"
 
 Location "Bers Patera" "Sol/Venus"
 {
-	LongLat	[ -183 66.7 0 ]
+	LongLat	[ 177 66.7 0 ]
 	Size	17
 	Type	"PE"
 }
 
 Location "Berta" "Sol/Venus"
 {
-	LongLat	[ -322 -62 0 ]
+	LongLat	[ 38 -62 0 ]
 	Size	20
 	Type	"AA"
 }
 
 Location "Beruth Corona" "Sol/Venus"
 {
-	LongLat	[ -233.5 19 0 ]
+	LongLat	[ 126.5 19 0 ]
 	Size	350
 	Type	"CR"
 }
 
 Location "BETA REGIO" "Sol/Venus"
 {
-	LongLat	[ -282.8 -25.3 0 ]
+	LongLat	[ 77.2 -25.3 0 ]
 	Size	2869
 	Type	"RE"
 }
 
 Location "Bethune Patera" "Sol/Venus"
 {
-	LongLat	[ -321.3 -46.5 0 ]
+	LongLat	[ 38.7 -46.5 0 ]
 	Size	94
 	Type	"PE"
 }
 
 Location "Bette" "Sol/Venus"
 {
-	LongLat	[ -347.9 24.6 0 ]
+	LongLat	[ 12.1 24.6 0 ]
 	Size	7.2
 	Type	"AA"
 }
@@ -1649,7 +1649,7 @@ Location "Bezlea Dorsa" "Sol/Venus"
 
 Location "Bhumidevi Corona" "Sol/Venus"
 {
-	LongLat	[ -343.6 17.2 0 ]
+	LongLat	[ 16.4 17.2 0 ]
 	Size	150
 	Type	"CR"
 }
@@ -1663,7 +1663,7 @@ Location "Bhumiya Corona" "Sol/Venus"
 
 Location "Bibi-Patma Corona" "Sol/Venus"
 {
-	LongLat	[ -302 47 0 ]
+	LongLat	[ 58 47 0 ]
 	Size	450
 	Type	"CR"
 }
@@ -1705,7 +1705,7 @@ Location "Birute" "Sol/Venus"
 
 Location "Blackburne" "Sol/Venus"
 {
-	LongLat	[ -183.9 -11 0 ]
+	LongLat	[ 176.1 -11 0 ]
 	Size	30.5
 	Type	"AA"
 }
@@ -1726,14 +1726,14 @@ Location "Blanche" "Sol/Venus"
 
 Location "Blathnat Corona" "Sol/Venus"
 {
-	LongLat	[ -293.8 -35 0 ]
+	LongLat	[ 66.2 -35 0 ]
 	Size	300
 	Type	"CR"
 }
 
 Location "Blid Corona" "Sol/Venus"
 {
-	LongLat	[ -231.3 0.5 0 ]
+	LongLat	[ 128.7 0.5 0 ]
 	Size	175
 	Type	"CR"
 }
@@ -1747,7 +1747,7 @@ Location "Blixen" "Sol/Venus"
 
 Location "Bly" "Sol/Venus"
 {
-	LongLat	[ -305.5 -37.7 0 ]
+	LongLat	[ 54.5 -37.7 0 ]
 	Size	18.7
 	Type	"AA"
 }
@@ -1761,7 +1761,7 @@ Location "Boadicea Paterae" "Sol/Venus"
 
 Location "Boala Corona" "Sol/Venus"
 {
-	LongLat	[ -359 70 0 ]
+	LongLat	[ 1 70 0 ]
 	Size	220
 	Type	"CR"
 }
@@ -1775,14 +1775,14 @@ Location "Boann Corona" "Sol/Venus"
 
 Location "Boivin" "Sol/Venus"
 {
-	LongLat	[ -299.5 -4.3 0 ]
+	LongLat	[ 60.5 -4.3 0 ]
 	Size	20.4
 	Type	"AA"
 }
 
 Location "Boleyn" "Sol/Venus"
 {
-	LongLat	[ -220.1 -24.4 0 ]
+	LongLat	[ 139.9 -24.4 0 ]
 	Size	70.4
 	Type	"AA"
 }
@@ -1838,14 +1838,14 @@ Location "Bourke-White" "Sol/Venus"
 
 Location "Boyd" "Sol/Venus"
 {
-	LongLat	[ -221.4 39.4 0 ]
+	LongLat	[ 138.6 39.4 0 ]
 	Size	22
 	Type	"AA"
 }
 
 Location "Boye" "Sol/Venus"
 {
-	LongLat	[ -292.3 9.6 0 ]
+	LongLat	[ 67.7 9.6 0 ]
 	Size	28
 	Type	"AA"
 }
@@ -1866,7 +1866,7 @@ Location "Branwen Corona" "Sol/Venus"
 
 Location "Breksta Linea" "Sol/Venus"
 {
-	LongLat	[ -304 -35.9 0 ]
+	LongLat	[ 56 -35.9 0 ]
 	Size	700
 	Type	"LI"
 }
@@ -1880,7 +1880,7 @@ Location "Bremer Patera" "Sol/Venus"
 
 Location "Bridgit" "Sol/Venus"
 {
-	LongLat	[ -348.9 45.3 0 ]
+	LongLat	[ 11.1 45.3 0 ]
 	Size	10
 	Type	"AA"
 }
@@ -1894,7 +1894,7 @@ Location "Britomartis Chasma" "Sol/Venus"
 
 Location "Brooke" "Sol/Venus"
 {
-	LongLat	[ -296.6 -48.4 0 ]
+	LongLat	[ 63.4 -48.4 0 ]
 	Size	22.9
 	Type	"AA"
 }
@@ -1908,7 +1908,7 @@ Location "Browning" "Sol/Venus"
 
 Location "Bryce" "Sol/Venus"
 {
-	LongLat	[ -197 62.5 0 ]
+	LongLat	[ 163 62.5 0 ]
 	Size	23.9
 	Type	"AA"
 }
@@ -1922,7 +1922,7 @@ Location "Brynhild Fossae" "Sol/Venus"
 
 Location "Buck" "Sol/Venus"
 {
-	LongLat	[ -349.6 5.7 0 ]
+	LongLat	[ 10.4 5.7 0 ]
 	Size	21.8
 	Type	"AA"
 }
@@ -1936,14 +1936,14 @@ Location "Budevska" "Sol/Venus"
 
 Location "Bugoslavskaya" "Sol/Venus"
 {
-	LongLat	[ -300.4 23 0 ]
+	LongLat	[ 59.6 23 0 ]
 	Size	29.9
 	Type	"AA"
 }
 
 Location "Bunzi Mons" "Sol/Venus"
 {
-	LongLat	[ -354.9 -45.8 0 ]
+	LongLat	[ 5.1 -45.8 0 ]
 	Size	36
 	Type	"MO"
 }
@@ -1971,7 +1971,7 @@ Location "Caitlin" "Sol/Venus"
 
 Location "Caiwenji" "Sol/Venus"
 {
-	LongLat	[ -287.6 12.4 0 ]
+	LongLat	[ 72.4 12.4 0 ]
 	Size	22.6
 	Type	"AA"
 }
@@ -2013,7 +2013,7 @@ Location "Carmenta Farra" "Sol/Venus"
 
 Location "Caroline" "Sol/Venus"
 {
-	LongLat	[ -306.3 -6.9 0 ]
+	LongLat	[ 53.7 -6.9 0 ]
 	Size	18
 	Type	"AA"
 }
@@ -2027,7 +2027,7 @@ Location "Carpo Corona" "Sol/Venus"
 
 Location "Carr" "Sol/Venus"
 {
-	LongLat	[ -295.7 24 0 ]
+	LongLat	[ 64.3 24 0 ]
 	Size	31.9
 	Type	"AA"
 }
@@ -2041,7 +2041,7 @@ Location "Carreno" "Sol/Venus"
 
 Location "Carson" "Sol/Venus"
 {
-	LongLat	[ -344.1 24.2 0 ]
+	LongLat	[ 15.9 24.2 0 ]
 	Size	38.8
 	Type	"AA"
 }
@@ -2055,14 +2055,14 @@ Location "Carter" "Sol/Venus"
 
 Location "Cassatt Corona" "Sol/Venus"
 {
-	LongLat	[ -207.6 -65.6 0 ]
+	LongLat	[ 152.4 -65.6 0 ]
 	Size	152
 	Type	"CR"
 }
 
 Location "Castro" "Sol/Venus"
 {
-	LongLat	[ -233.9 -3.4 0 ]
+	LongLat	[ 126.1 -3.4 0 ]
 	Size	22.9
 	Type	"AA"
 }
@@ -2090,14 +2090,14 @@ Location "Cavell Corona" "Sol/Venus"
 
 Location "Cavillaca Fluctus" "Sol/Venus"
 {
-	LongLat	[ -340 72 0 ]
+	LongLat	[ 20 72 0 ]
 	Size	800
 	Type	"FL"
 }
 
 Location "Centlivre" "Sol/Venus"
 {
-	LongLat	[ -290.4 -19.1 0 ]
+	LongLat	[ 69.6 -19.1 0 ]
 	Size	28.8
 	Type	"AA"
 }
@@ -2111,7 +2111,7 @@ Location "Ceres Corona" "Sol/Venus"
 
 Location "Cerridwen Corona" "Sol/Venus"
 {
-	LongLat	[ -201.8 -49.6 0 ]
+	LongLat	[ 158.2 -49.6 0 ]
 	Size	217
 	Type	"CR"
 }
@@ -2132,14 +2132,14 @@ Location "Chang Xi Chasmata" "Sol/Venus"
 
 Location "Chantico Corona" "Sol/Venus"
 {
-	LongLat	[ -215 1.7 0 ]
+	LongLat	[ 145 1.7 0 ]
 	Size	200
 	Type	"CR"
 }
 
 Location "Chanum Coronae" "Sol/Venus"
 {
-	LongLat	[ -245.5 29.2 0 ]
+	LongLat	[ 114.5 29.2 0 ]
 	Size	330
 	Type	"CR"
 }
@@ -2153,56 +2153,56 @@ Location "Chapelle" "Sol/Venus"
 
 Location "Charykh-Keyok Dorsa" "Sol/Venus"
 {
-	LongLat	[ -285 -54.5 0 ]
+	LongLat	[ 75 -54.5 0 ]
 	Size	550
 	Type	"DO"
 }
 
 Location "Chasca Vallis" "Sol/Venus"
 {
-	LongLat	[ -359 52.8 0 ]
+	LongLat	[ 1 52.8 0 ]
 	Size	400
 	Type	"VA"
 }
 
 Location "Chechek" "Sol/Venus"
 {
-	LongLat	[ -272.3 2.6 0 ]
+	LongLat	[ 87.7 2.6 0 ]
 	Size	7.2
 	Type	"AA"
 }
 
 Location "Chernava Colles" "Sol/Venus"
 {
-	LongLat	[ -335.5 10.5 0 ]
+	LongLat	[ 24.5 10.5 0 ]
 	Size	1000
 	Type	"CO"
 }
 
 Location "Cherskaya Patera" "Sol/Venus"
 {
-	LongLat	[ -232.5 5.2 0 ]
+	LongLat	[ 127.5 5.2 0 ]
 	Size	85
 	Type	"PE"
 }
 
 Location "Chih Nu Dorsum" "Sol/Venus"
 {
-	LongLat	[ -195 73 0 ]
+	LongLat	[ 165 73 0 ]
 	Size	625
 	Type	"DO"
 }
 
 Location "Chimon-mana Tessera" "Sol/Venus"
 {
-	LongLat	[ -270 3 0 ]
+	LongLat	[ 90 3 0 ]
 	Size	1500
 	Type	"TE"
 }
 
 Location "Chiun Corona" "Sol/Venus"
 {
-	LongLat	[ -340.5 -18.3 0 ]
+	LongLat	[ 19.5 -18.3 0 ]
 	Size	150
 	Type	"CR"
 }
@@ -2223,21 +2223,21 @@ Location "Chloe" "Sol/Venus"
 
 Location "Chloris Mons" "Sol/Venus"
 {
-	LongLat	[ -294.6 45.4 0 ]
+	LongLat	[ 65.4 45.4 0 ]
 	Size	180
 	Type	"MO"
 }
 
 Location "Cholpon" "Sol/Venus"
 {
-	LongLat	[ -290 -40 0 ]
+	LongLat	[ 70 -40 0 ]
 	Size	6.3
 	Type	"AA"
 }
 
 Location "Chondi Chasma" "Sol/Venus"
 {
-	LongLat	[ -230 18.5 0 ]
+	LongLat	[ 130 18.5 0 ]
 	Size	1000
 	Type	"CM"
 }
@@ -2258,28 +2258,28 @@ Location "Chubado" "Sol/Venus"
 
 Location "Chuginadak Mons" "Sol/Venus"
 {
-	LongLat	[ -246 38 0 ]
+	LongLat	[ 114 38 0 ]
 	Size	450
 	Type	"MO"
 }
 
 Location "Chuku Corona" "Sol/Venus"
 {
-	LongLat	[ -265.5 23.5 0 ]
+	LongLat	[ 94.5 23.5 0 ]
 	Size	380
 	Type	"CR"
 }
 
 Location "Cipactli Mons" "Sol/Venus"
 {
-	LongLat	[ -332.5 31.5 0 ]
+	LongLat	[ 27.5 31.5 0 ]
 	Size	200
 	Type	"MO"
 }
 
 Location "Citlalpul Vallis" "Sol/Venus"
 {
-	LongLat	[ -187 51.8 0 ]
+	LongLat	[ 173 51.8 0 ]
 	Size	3160
 	Type	"VA"
 }
@@ -2293,14 +2293,14 @@ Location "Ciuacoatl Mons" "Sol/Venus"
 
 Location "Clara" "Sol/Venus"
 {
-	LongLat	[ -235.3 37.5 0 ]
+	LongLat	[ 124.7 37.5 0 ]
 	Size	3.2
 	Type	"AA"
 }
 
 Location "Clementina" "Sol/Venus"
 {
-	LongLat	[ -208.6 -35.9 0 ]
+	LongLat	[ 151.4 -35.9 0 ]
 	Size	4
 	Type	"AA"
 }
@@ -2321,14 +2321,14 @@ Location "Clidna Tessera" "Sol/Venus"
 
 Location "Cline" "Sol/Venus"
 {
-	LongLat	[ -317.1 21.8 0 ]
+	LongLat	[ 42.9 21.8 0 ]
 	Size	38
 	Type	"AA"
 }
 
 Location "Clio" "Sol/Venus"
 {
-	LongLat	[ -333.5 -6.3 0 ]
+	LongLat	[ 26.5 -6.3 0 ]
 	Size	11.4
 	Type	"AA"
 }
@@ -2342,14 +2342,14 @@ Location "Clonia Corona" "Sol/Venus"
 
 Location "Clotho Tessera" "Sol/Venus"
 {
-	LongLat	[ -334.9 -56.4 0 ]
+	LongLat	[ 25.1 -56.4 0 ]
 	Size	289
 	Type	"TE"
 }
 
 Location "Coatlicue Corona" "Sol/Venus"
 {
-	LongLat	[ -273 -63.2 0 ]
+	LongLat	[ 87 -63.2 0 ]
 	Size	199
 	Type	"CR"
 }
@@ -2377,14 +2377,14 @@ Location "Codidon Corona" "Sol/Venus"
 
 Location "Cohn" "Sol/Venus"
 {
-	LongLat	[ -208.1 33.3 0 ]
+	LongLat	[ 151.9 33.3 0 ]
 	Size	18.3
 	Type	"AA"
 }
 
 Location "Colette Patera" "Sol/Venus"
 {
-	LongLat	[ -322.8 -66.3 0 ]
+	LongLat	[ 37.2 -66.3 0 ]
 	Size	149
 	Type	"PE"
 }
@@ -2405,7 +2405,7 @@ Location "Colleen" "Sol/Venus"
 
 Location "Comnena" "Sol/Venus"
 {
-	LongLat	[ -343.7 -1.2 0 ]
+	LongLat	[ 16.3 -1.2 0 ]
 	Size	19.5
 	Type	"AA"
 }
@@ -2419,7 +2419,7 @@ Location "Conway" "Sol/Venus"
 
 Location "Copacati Mons" "Sol/Venus"
 {
-	LongLat	[ -276.8 -34.8 0 ]
+	LongLat	[ 83.2 -34.8 0 ]
 	Size	80
 	Type	"MO"
 }
@@ -2454,28 +2454,28 @@ Location "Corpman" "Sol/Venus"
 
 Location "Cortese" "Sol/Venus"
 {
-	LongLat	[ -218.4 11.4 0 ]
+	LongLat	[ 141.6 11.4 0 ]
 	Size	27.7
 	Type	"AA"
 }
 
 Location "Cotis Tholus" "Sol/Venus"
 {
-	LongLat	[ -233 -44.3 0 ]
+	LongLat	[ 127 -44.3 0 ]
 	Size	62
 	Type	"TH"
 }
 
 Location "Cotton" "Sol/Venus"
 {
-	LongLat	[ -300.2 -70.8 0 ]
+	LongLat	[ 59.8 -70.8 0 ]
 	Size	48.1
 	Type	"AA"
 }
 
 Location "Cunitz" "Sol/Venus"
 {
-	LongLat	[ -350.9 -14.5 0 ]
+	LongLat	[ 9.1 -14.5 0 ]
 	Size	48.6
 	Type	"AA"
 }
@@ -2489,7 +2489,7 @@ Location "Cybele Corona" "Sol/Venus"
 
 Location "Cynthia" "Sol/Venus"
 {
-	LongLat	[ -347.5 16.7 0 ]
+	LongLat	[ 12.5 16.7 0 ]
 	Size	15.9
 	Type	"AA"
 }
@@ -2503,7 +2503,7 @@ Location "Dado" "Sol/Venus"
 
 Location "Dafina" "Sol/Venus"
 {
-	LongLat	[ -244.1 -28.6 0 ]
+	LongLat	[ 115.9 -28.6 0 ]
 	Size	5.5
 	Type	"AA"
 }
@@ -2524,14 +2524,14 @@ Location "Damona Corona" "Sol/Venus"
 
 Location "Danilova" "Sol/Venus"
 {
-	LongLat	[ -337.2 26.4 0 ]
+	LongLat	[ 22.8 26.4 0 ]
 	Size	48.8
 	Type	"AA"
 }
 
 Location "Danu Montes" "Sol/Venus"
 {
-	LongLat	[ -334 -58.5 0 ]
+	LongLat	[ 26 -58.5 0 ]
 	Size	808
 	Type	"MO"
 }
@@ -2545,35 +2545,35 @@ Location "Danute" "Sol/Venus"
 
 Location "Daphne" "Sol/Venus"
 {
-	LongLat	[ -280.4 -41.3 0 ]
+	LongLat	[ 79.6 -41.3 0 ]
 	Size	15.5
 	Type	"AA"
 }
 
 Location "Darago Fluctus" "Sol/Venus"
 {
-	LongLat	[ -313.5 11.5 0 ]
+	LongLat	[ 46.5 11.5 0 ]
 	Size	775
 	Type	"FL"
 }
 
 Location "Darclée Patera" "Sol/Venus"
 {
-	LongLat	[ -263.8 37.4 0 ]
+	LongLat	[ 96.2 37.4 0 ]
 	Size	15
 	Type	"PE"
 }
 
 Location "Darline" "Sol/Venus"
 {
-	LongLat	[ -232.6 19.3 0 ]
+	LongLat	[ 127.4 19.3 0 ]
 	Size	13
 	Type	"AA"
 }
 
 Location "Dashkova" "Sol/Venus"
 {
-	LongLat	[ -306.5 -78.2 0 ]
+	LongLat	[ 53.5 -78.2 0 ]
 	Size	45.1
 	Type	"AA"
 }
@@ -2594,7 +2594,7 @@ Location "Daura Chasma" "Sol/Venus"
 
 Location "Davies Patera" "Sol/Venus"
 {
-	LongLat	[ -269.3 -47.2 0 ]
+	LongLat	[ 90.7 -47.2 0 ]
 	Size	93
 	Type	"PE"
 }
@@ -2636,14 +2636,14 @@ Location "Defa" "Sol/Venus"
 
 Location "Degu" "Sol/Venus"
 {
-	LongLat	[ -289.9 -27.3 0 ]
+	LongLat	[ 70.1 -27.3 0 ]
 	Size	5.5
 	Type	"AA"
 }
 
 Location "Deken" "Sol/Venus"
 {
-	LongLat	[ -288.5 -47.1 0 ]
+	LongLat	[ 71.5 -47.1 0 ]
 	Size	48
 	Type	"AA"
 }
@@ -2657,7 +2657,7 @@ Location "Dekla Tessera" "Sol/Venus"
 
 Location "de Lalande" "Sol/Venus"
 {
-	LongLat	[ -355 -20.5 0 ]
+	LongLat	[ 5 -20.5 0 ]
 	Size	21.3
 	Type	"AA"
 }
@@ -2671,7 +2671,7 @@ Location "Deledda" "Sol/Venus"
 
 Location "Delilah" "Sol/Venus"
 {
-	LongLat	[ -250.2 57.9 0 ]
+	LongLat	[ 109.8 57.9 0 ]
 	Size	18.5
 	Type	"AA"
 }
@@ -2685,7 +2685,7 @@ Location "Deloria" "Sol/Venus"
 
 Location "Demeter Corona" "Sol/Venus"
 {
-	LongLat	[ -294.8 -53.9 0 ]
+	LongLat	[ 65.2 -53.9 0 ]
 	Size	560
 	Type	"CR"
 }
@@ -2699,7 +2699,7 @@ Location "Demvamvit Corona" "Sol/Venus"
 
 Location "Dena" "Sol/Venus"
 {
-	LongLat	[ -338.7 20.7 0 ]
+	LongLat	[ 21.3 20.7 0 ]
 	Size	2.4
 	Type	"AA"
 }
@@ -2713,7 +2713,7 @@ Location "Denise" "Sol/Venus"
 
 Location "Dennitsa Dorsa" "Sol/Venus"
 {
-	LongLat	[ -205.9 -85.6 0 ]
+	LongLat	[ 154.1 -85.6 0 ]
 	Size	872
 	Type	"DO"
 }
@@ -2734,35 +2734,35 @@ Location "Derceto Corona" "Sol/Venus"
 
 Location "de Staël" "Sol/Venus"
 {
-	LongLat	[ -324.3 -37.4 0 ]
+	LongLat	[ 35.7 -37.4 0 ]
 	Size	25
 	Type	"AA"
 }
 
 Location "d'Este" "Sol/Venus"
 {
-	LongLat	[ -238.9 34.3 0 ]
+	LongLat	[ 121.1 34.3 0 ]
 	Size	21.6
 	Type	"AA"
 }
 
 Location "Destinnová Patera" "Sol/Venus"
 {
-	LongLat	[ -250.2 31.5 0 ]
+	LongLat	[ 109.8 31.5 0 ]
 	Size	15
 	Type	"PE"
 }
 
 Location "Devana Chasma" "Sol/Venus"
 {
-	LongLat	[ -283.5 -22 0 ]
+	LongLat	[ 76.5 -22 0 ]
 	Size	2000
 	Type	"CM"
 }
 
 Location "Devorah" "Sol/Venus"
 {
-	LongLat	[ -343.4 22.5 0 ]
+	LongLat	[ 16.6 22.5 0 ]
 	Size	4.8
 	Type	"AA"
 }
@@ -2776,14 +2776,14 @@ Location "Devorguilla" "Sol/Venus"
 
 Location "Dewi Ratih Chasma" "Sol/Venus"
 {
-	LongLat	[ -359.7 6.5 0 ]
+	LongLat	[ 0.3 6.5 0 ]
 	Size	1000
 	Type	"CM"
 }
 
 Location "De Witt" "Sol/Venus"
 {
-	LongLat	[ -275.6 6.5 0 ]
+	LongLat	[ 84.4 6.5 0 ]
 	Size	20.7
 	Type	"AA"
 }
@@ -2804,7 +2804,7 @@ Location "Dhisana Corona" "Sol/Venus"
 
 Location "Dhorani Corona" "Sol/Venus"
 {
-	LongLat	[ -243 8 0 ]
+	LongLat	[ 117 8 0 ]
 	Size	200
 	Type	"CR"
 }
@@ -2832,21 +2832,21 @@ Location "Didilia Corona" "Sol/Venus"
 
 Location "Dietrich Patera" "Sol/Venus"
 {
-	LongLat	[ -235.3 5.3 0 ]
+	LongLat	[ 124.7 5.3 0 ]
 	Size	100
 	Type	"PE"
 }
 
 Location "Dilbat Vallis" "Sol/Venus"
 {
-	LongLat	[ -184 55 0 ]
+	LongLat	[ 176 55 0 ]
 	Size	420
 	Type	"VA"
 }
 
 Location "Dilga Corona" "Sol/Venus"
 {
-	LongLat	[ -250.4 18.7 0 ]
+	LongLat	[ 109.6 18.7 0 ]
 	Size	220
 	Type	"CR"
 }
@@ -2860,7 +2860,7 @@ Location "Dinah" "Sol/Venus"
 
 Location "DIONE REGIO" "Sol/Venus"
 {
-	LongLat	[ -328 31.5 0 ]
+	LongLat	[ 32 31.5 0 ]
 	Size	2300
 	Type	"RE"
 }
@@ -2874,56 +2874,56 @@ Location "Disani Corona" "Sol/Venus"
 
 Location "Discordia Linea" "Sol/Venus"
 {
-	LongLat	[ -246.5 58 0 ]
+	LongLat	[ 113.5 58 0 ]
 	Size	800
 	Type	"LI"
 }
 
 Location "Dix" "Sol/Venus"
 {
-	LongLat	[ -329 37 0 ]
+	LongLat	[ 31 37 0 ]
 	Size	63.3
 	Type	"AA"
 }
 
 Location "Djabran Fluctus" "Sol/Venus"
 {
-	LongLat	[ -183 43.5 0 ]
+	LongLat	[ 177 43.5 0 ]
 	Size	300
 	Type	"FL"
 }
 
 Location "Djata Fluctus" "Sol/Venus"
 {
-	LongLat	[ -307.5 -66.5 0 ]
+	LongLat	[ 52.5 -66.5 0 ]
 	Size	280
 	Type	"FL"
 }
 
 Location "Dodola Dorsa" "Sol/Venus"
 {
-	LongLat	[ -272.6 -46.8 0 ]
+	LongLat	[ 87.4 -46.8 0 ]
 	Size	607
 	Type	"DO"
 }
 
 Location "Dolores" "Sol/Venus"
 {
-	LongLat	[ -201.6 -51.4 0 ]
+	LongLat	[ 158.4 -51.4 0 ]
 	Size	12.6
 	Type	"AA"
 }
 
 Location "Dolya Tessera" "Sol/Venus"
 {
-	LongLat	[ -296 8 0 ]
+	LongLat	[ 64 8 0 ]
 	Size	1100
 	Type	"TE"
 }
 
 Location "Domnika" "Sol/Venus"
 {
-	LongLat	[ -294.3 -18.4 0 ]
+	LongLat	[ 65.7 -18.4 0 ]
 	Size	6.7
 	Type	"AA"
 }
@@ -2951,7 +2951,7 @@ Location "Dotetem Fluctus" "Sol/Venus"
 
 Location "Dou-Mu Tesserae" "Sol/Venus"
 {
-	LongLat	[ -244 60 0 ]
+	LongLat	[ 116 60 0 ]
 	Size	400
 	Type	"TE"
 }
@@ -2979,21 +2979,21 @@ Location "du Chatelet" "Sol/Venus"
 
 Location "Dudumitsa Dorsa" "Sol/Venus"
 {
-	LongLat	[ -358 13.5 0 ]
+	LongLat	[ 2 13.5 0 ]
 	Size	980
 	Type	"DO"
 }
 
 Location "Duncan" "Sol/Venus"
 {
-	LongLat	[ -291.7 -68.1 0 ]
+	LongLat	[ 68.3 -68.1 0 ]
 	Size	40.3
 	Type	"AA"
 }
 
 Location "Dunghe" "Sol/Venus"
 {
-	LongLat	[ -295.3 56.2 0 ]
+	LongLat	[ 64.7 56.2 0 ]
 	Size	5.5
 	Type	"AA"
 }
@@ -3007,28 +3007,28 @@ Location "Dunne-Musun Corona" "Sol/Venus"
 
 Location "Durant" "Sol/Venus"
 {
-	LongLat	[ -227.7 62.3 0 ]
+	LongLat	[ 132.3 62.3 0 ]
 	Size	21.1
 	Type	"AA"
 }
 
 Location "Durga Corona" "Sol/Venus"
 {
-	LongLat	[ -286.2 31.1 0 ]
+	LongLat	[ 73.8 31.1 0 ]
 	Size	227
 	Type	"CR"
 }
 
 Location "Duse" "Sol/Venus"
 {
-	LongLat	[ -358 82.5 0 ]
+	LongLat	[ 2 82.5 0 ]
 	Size	30.4
 	Type	"AA"
 }
 
 Location "Dutrieu Patera" "Sol/Venus"
 {
-	LongLat	[ -198.5 -33.8 0 ]
+	LongLat	[ 161.5 -33.8 0 ]
 	Size	80
 	Type	"PE"
 }
@@ -3049,7 +3049,7 @@ Location "Dyan-Mu Dorsa" "Sol/Venus"
 
 Location "Dyasya" "Sol/Venus"
 {
-	LongLat	[ -297.6 -5.1 0 ]
+	LongLat	[ 62.4 -5.1 0 ]
 	Size	7.8
 	Type	"AA"
 }
@@ -3070,14 +3070,14 @@ Location "Dzalarhons Mons" "Sol/Venus"
 
 Location "Dzerassa Planitia" "Sol/Venus"
 {
-	LongLat	[ -295 15 0 ]
+	LongLat	[ 65 15 0 ]
 	Size	2800
 	Type	"PL"
 }
 
 Location "Dziwica Chasma" "Sol/Venus"
 {
-	LongLat	[ -235 16.5 0 ]
+	LongLat	[ 125 16.5 0 ]
 	Size	1300
 	Type	"CM"
 }
@@ -3091,7 +3091,7 @@ Location "Dzuzdi Corona" "Sol/Venus"
 
 Location "Dzyzlan Vallis" "Sol/Venus"
 {
-	LongLat	[ -182 16 0 ]
+	LongLat	[ 178 16 0 ]
 	Size	250
 	Type	"VA"
 }
@@ -3119,14 +3119,14 @@ Location "Edgeworth" "Sol/Venus"
 
 Location "Edinger" "Sol/Venus"
 {
-	LongLat	[ -208.5 68.8 0 ]
+	LongLat	[ 151.5 68.8 0 ]
 	Size	33.3
 	Type	"AA"
 }
 
 Location "Efimova" "Sol/Venus"
 {
-	LongLat	[ -223 -81 0 ]
+	LongLat	[ 137 -81 0 ]
 	Size	26.5
 	Type	"AA"
 }
@@ -3161,14 +3161,14 @@ Location "Eila" "Sol/Venus"
 
 Location "Eileen" "Sol/Venus"
 {
-	LongLat	[ -232.7 22.8 0 ]
+	LongLat	[ 127.3 22.8 0 ]
 	Size	16.1
 	Type	"AA"
 }
 
 Location "Eingana Corona" "Sol/Venus"
 {
-	LongLat	[ -350 -5 0 ]
+	LongLat	[ 10 -5 0 ]
 	Size	375
 	Type	"CR"
 }
@@ -3182,7 +3182,7 @@ Location "Eini" "Sol/Venus"
 
 Location "Eirene Tholus" "Sol/Venus"
 {
-	LongLat	[ -230 -75.5 0 ]
+	LongLat	[ 130 -75.5 0 ]
 	Size	58
 	Type	"TH"
 }
@@ -3238,14 +3238,14 @@ Location "Eliot Patera" "Sol/Venus"
 
 Location "Elizabeth" "Sol/Venus"
 {
-	LongLat	[ -215.4 -59.1 0 ]
+	LongLat	[ 144.6 -59.1 0 ]
 	Size	10.5
 	Type	"AA"
 }
 
 Location "Ellen" "Sol/Venus"
 {
-	LongLat	[ -281.3 22.8 0 ]
+	LongLat	[ 78.7 22.8 0 ]
 	Size	14.6
 	Type	"AA"
 }
@@ -3259,28 +3259,28 @@ Location "Elma" "Sol/Venus"
 
 Location "Elza" "Sol/Venus"
 {
-	LongLat	[ -275.9 34.4 0 ]
+	LongLat	[ 84.1 34.4 0 ]
 	Size	18
 	Type	"AA"
 }
 
 Location "Embla Coronae" "Sol/Venus"
 {
-	LongLat	[ -205.4 -28.9 0 ]
+	LongLat	[ 154.6 -28.9 0 ]
 	Size	132
 	Type	"CR"
 }
 
 Location "Emegelji Coronae" "Sol/Venus"
 {
-	LongLat	[ -213.5 21.5 0 ]
+	LongLat	[ 146.5 21.5 0 ]
 	Size	225
 	Type	"CR"
 }
 
 Location "Emegen Corona" "Sol/Venus"
 {
-	LongLat	[ -290.5 -37.5 0 ]
+	LongLat	[ 69.5 -37.5 0 ]
 	Size	180
 	Type	"CR"
 }
@@ -3294,42 +3294,42 @@ Location "Emilia" "Sol/Venus"
 
 Location "Emma" "Sol/Venus"
 {
-	LongLat	[ -302.3 13.7 0 ]
+	LongLat	[ 57.7 13.7 0 ]
 	Size	11.8
 	Type	"AA"
 }
 
 Location "Enekeler Corona" "Sol/Venus"
 {
-	LongLat	[ -264 46 0 ]
+	LongLat	[ 96 46 0 ]
 	Size	350
 	Type	"CR"
 }
 
 Location "Enid" "Sol/Venus"
 {
-	LongLat	[ -352.1 -16.4 0 ]
+	LongLat	[ 7.9 -16.4 0 ]
 	Size	9.2
 	Type	"AA"
 }
 
 Location "Enyo Fossae" "Sol/Venus"
 {
-	LongLat	[ -351 62 0 ]
+	LongLat	[ 9 62 0 ]
 	Size	700
 	Type	"FO"
 }
 
 Location "Eostre Mons" "Sol/Venus"
 {
-	LongLat	[ -329.1 -45.1 0 ]
+	LongLat	[ 30.9 -45.1 0 ]
 	Size	26
 	Type	"MO"
 }
 
 Location "Epona Corona" "Sol/Venus"
 {
-	LongLat	[ -208.5 28 0 ]
+	LongLat	[ 151.5 28 0 ]
 	Size	225
 	Type	"CR"
 }
@@ -3343,7 +3343,7 @@ Location "Ereshkigal Corona" "Sol/Venus"
 
 Location "Erigone Corona" "Sol/Venus"
 {
-	LongLat	[ -284 34.5 0 ]
+	LongLat	[ 76 34.5 0 ]
 	Size	325
 	Type	"CR"
 }
@@ -3357,21 +3357,21 @@ Location "Erika" "Sol/Venus"
 
 Location "Erin" "Sol/Venus"
 {
-	LongLat	[ -184.8 47 0 ]
+	LongLat	[ 175.2 47 0 ]
 	Size	13.6
 	Type	"AA"
 }
 
 Location "Erinna" "Sol/Venus"
 {
-	LongLat	[ -309.1 78 0 ]
+	LongLat	[ 50.9 78 0 ]
 	Size	33.8
 	Type	"AA"
 }
 
 Location "Eriu Fluctus" "Sol/Venus"
 {
-	LongLat	[ -357 37 0 ]
+	LongLat	[ 3 37 0 ]
 	Size	600
 	Type	"FL"
 }
@@ -3385,7 +3385,7 @@ Location "Erkeley" "Sol/Venus"
 
 Location "Erkir Corona" "Sol/Venus"
 {
-	LongLat	[ -233.7 16.3 0 ]
+	LongLat	[ 126.3 16.3 0 ]
 	Size	275
 	Type	"CR"
 }
@@ -3448,14 +3448,14 @@ Location "Esther" "Sol/Venus"
 
 Location "Etain Dorsa" "Sol/Venus"
 {
-	LongLat	[ -199 45 0 ]
+	LongLat	[ 161 45 0 ]
 	Size	1400
 	Type	"DO"
 }
 
 Location "Eudocia" "Sol/Venus"
 {
-	LongLat	[ -202 59.1 0 ]
+	LongLat	[ 158 59.1 0 ]
 	Size	27.5
 	Type	"AA"
 }
@@ -3476,28 +3476,28 @@ Location "Eurynome Corona" "Sol/Venus"
 
 Location "Evaki Tholus" "Sol/Venus"
 {
-	LongLat	[ -342.2 -37.6 0 ]
+	LongLat	[ 17.8 -37.6 0 ]
 	Size	200
 	Type	"TH"
 }
 
 Location "Evangeline" "Sol/Venus"
 {
-	LongLat	[ -221.9 -69.6 0 ]
+	LongLat	[ 138.1 -69.6 0 ]
 	Size	16
 	Type	"AA"
 }
 
 Location "Eve Corona" "Sol/Venus"
 {
-	LongLat	[ -359.8 32 0 ]
+	LongLat	[ 0.2 32 0 ]
 	Size	330
 	Type	"CR"
 }
 
 Location "Evelyn" "Sol/Venus"
 {
-	LongLat	[ -212.3 61.2 0 ]
+	LongLat	[ 147.7 61.2 0 ]
 	Size	18
 	Type	"AA"
 }
@@ -3518,7 +3518,7 @@ Location "Ezili Tholus" "Sol/Venus"
 
 Location "Ezraela" "Sol/Venus"
 {
-	LongLat	[ -186.8 -57 0 ]
+	LongLat	[ 173.2 -57 0 ]
 	Size	7.8
 	Type	"AA"
 }
@@ -3553,14 +3553,14 @@ Location "Fand Mons" "Sol/Venus"
 
 Location "Fara Vallis" "Sol/Venus"
 {
-	LongLat	[ -345.5 1.2 0 ]
+	LongLat	[ 14.5 1.2 0 ]
 	Size	260
 	Type	"VA"
 }
 
 Location "Faravari Mons" "Sol/Venus"
 {
-	LongLat	[ -309 43.5 0 ]
+	LongLat	[ 51 43.5 0 ]
 	Size	500
 	Type	"MO"
 }
@@ -3609,14 +3609,14 @@ Location "Fazu" "Sol/Venus"
 
 Location "Fea Fossae" "Sol/Venus"
 {
-	LongLat	[ -224 -27.5 0 ]
+	LongLat	[ 136 -27.5 0 ]
 	Size	620
 	Type	"FO"
 }
 
 Location "Fedchenko Patera" "Sol/Venus"
 {
-	LongLat	[ -226.5 24 0 ]
+	LongLat	[ 133.5 24 0 ]
 	Size	75
 	Type	"PE"
 }
@@ -3637,7 +3637,7 @@ Location "Fedosova Patera" "Sol/Venus"
 
 Location "Fefafa Corona" "Sol/Venus"
 {
-	LongLat	[ -210.8 24.8 0 ]
+	LongLat	[ 149.2 24.8 0 ]
 	Size	100
 	Type	"CR"
 }
@@ -3651,7 +3651,7 @@ Location "Felesta Fossae" "Sol/Venus"
 
 Location "Felicia" "Sol/Venus"
 {
-	LongLat	[ -226.5 19.8 0 ]
+	LongLat	[ 133.5 19.8 0 ]
 	Size	11.5
 	Type	"AA"
 }
@@ -3672,7 +3672,7 @@ Location "Fernandez" "Sol/Venus"
 
 Location "Feronia Corona" "Sol/Venus"
 {
-	LongLat	[ -281.7 -68 0 ]
+	LongLat	[ 78.3 -68 0 ]
 	Size	360
 	Type	"CR"
 }
@@ -3700,7 +3700,7 @@ Location "Festa" "Sol/Venus"
 
 Location "Fetu-ao Vallis" "Sol/Venus"
 {
-	LongLat	[ -254.7 61 0 ]
+	LongLat	[ 105.3 61 0 ]
 	Size	400
 	Type	"VA"
 }
@@ -3742,7 +3742,7 @@ Location "Florence" "Sol/Venus"
 
 Location "Flosshilde Farra" "Sol/Venus"
 {
-	LongLat	[ -279.4 -10.5 0 ]
+	LongLat	[ 80.6 -10.5 0 ]
 	Size	75
 	Type	"FR"
 }
@@ -3763,7 +3763,7 @@ Location "Fonueha Planitia" "Sol/Venus"
 
 Location "Fornax Rupes" "Sol/Venus"
 {
-	LongLat	[ -201.1 -30.3 0 ]
+	LongLat	[ 158.9 -30.3 0 ]
 	Size	729
 	Type	"RU"
 }
@@ -3777,7 +3777,7 @@ Location "Fortuna Tessera" "Sol/Venus"
 
 Location "Fossey" "Sol/Venus"
 {
-	LongLat	[ -188.7 -2 0 ]
+	LongLat	[ 171.3 -2 0 ]
 	Size	30.4
 	Type	"AA"
 }
@@ -3791,7 +3791,7 @@ Location "Fotla Corona" "Sol/Venus"
 
 Location "Fouquet" "Sol/Venus"
 {
-	LongLat	[ -203.5 15.1 0 ]
+	LongLat	[ 156.5 15.1 0 ]
 	Size	47.8
 	Type	"AA"
 }
@@ -3819,7 +3819,7 @@ Location "Fredegonde" "Sol/Venus"
 
 Location "Freyja Montes" "Sol/Venus"
 {
-	LongLat	[ -333.8 -74.1 0 ]
+	LongLat	[ 26.2 -74.1 0 ]
 	Size	579
 	Type	"MO"
 }
@@ -3854,7 +3854,7 @@ Location "Frosya" "Sol/Venus"
 
 Location "Fufei Vallis" "Sol/Venus"
 {
-	LongLat	[ -341 -46 0 ]
+	LongLat	[ 19 -46 0 ]
 	Size	170
 	Type	"VA"
 }
@@ -3868,14 +3868,14 @@ Location "Fukiko" "Sol/Venus"
 
 Location "Fulgora Dorsa" "Sol/Venus"
 {
-	LongLat	[ -342 -78.5 0 ]
+	LongLat	[ 18 -78.5 0 ]
 	Size	463
 	Type	"DO"
 }
 
 Location "Furki Tholus" "Sol/Venus"
 {
-	LongLat	[ -236.4 -35.9 0 ]
+	LongLat	[ 123.6 -35.9 0 ]
 	Size	79
 	Type	"TH"
 }
@@ -3889,7 +3889,7 @@ Location "Gabie Rupes" "Sol/Venus"
 
 Location "Gabriela" "Sol/Venus"
 {
-	LongLat	[ -240.4 17.8 0 ]
+	LongLat	[ 119.6 17.8 0 ]
 	Size	17.5
 	Type	"AA"
 }
@@ -3917,14 +3917,14 @@ Location "Gail" "Sol/Venus"
 
 Location "Galina" "Sol/Venus"
 {
-	LongLat	[ -307.1 -47.6 0 ]
+	LongLat	[ 52.9 -47.6 0 ]
 	Size	16.8
 	Type	"AA"
 }
 
 Location "Galindo" "Sol/Venus"
 {
-	LongLat	[ -258.8 23.3 0 ]
+	LongLat	[ 101.2 23.3 0 ]
 	Size	23.8
 	Type	"AA"
 }
@@ -3945,35 +3945,35 @@ Location "Ganga Valles" "Sol/Venus"
 
 Location "Ganiki Planitia" "Sol/Venus"
 {
-	LongLat	[ -202 -40 0 ]
+	LongLat	[ 158 -40 0 ]
 	Size	5160
 	Type	"PL"
 }
 
 Location "Ganis Chasma" "Sol/Venus"
 {
-	LongLat	[ -189 -18 0 ]
+	LongLat	[ 171 -18 0 ]
 	Size	3700
 	Type	"CM"
 }
 
 Location "Garbo Patera" "Sol/Venus"
 {
-	LongLat	[ -258.2 -1.5 0 ]
+	LongLat	[ 101.8 -1.5 0 ]
 	Size	75
 	Type	"PE"
 }
 
 Location "Garland Patera" "Sol/Venus"
 {
-	LongLat	[ -206.8 -32.7 0 ]
+	LongLat	[ 153.2 -32.7 0 ]
 	Size	45
 	Type	"PE"
 }
 
 Location "Gashan-Ki Corona" "Sol/Venus"
 {
-	LongLat	[ -243.7 -11.7 0 ]
+	LongLat	[ 116.3 -11.7 0 ]
 	Size	225
 	Type	"CR"
 }
@@ -3994,7 +3994,7 @@ Location "Gautier" "Sol/Venus"
 
 Location "Gaze" "Sol/Venus"
 {
-	LongLat	[ -240.2 -17.9 0 ]
+	LongLat	[ 119.8 -17.9 0 ]
 	Size	33.3
 	Type	"AA"
 }
@@ -4022,14 +4022,14 @@ Location "Gegute Tessera" "Sol/Venus"
 
 Location "Gendenwitha Vallis" "Sol/Venus"
 {
-	LongLat	[ -259 63 0 ]
+	LongLat	[ 101 63 0 ]
 	Size	900
 	Type	"VA"
 }
 
 Location "Gentileschi" "Sol/Venus"
 {
-	LongLat	[ -260.6 -45.2 0 ]
+	LongLat	[ 99.4 -45.2 0 ]
 	Size	20.5
 	Type	"AA"
 }
@@ -4043,7 +4043,7 @@ Location "Georgina" "Sol/Venus"
 
 Location "Gerd Tholi" "Sol/Venus"
 {
-	LongLat	[ -291.5 54.5 0 ]
+	LongLat	[ 68.5 54.5 0 ]
 	Size	50
 	Type	"TH"
 }
@@ -4057,7 +4057,7 @@ Location "Germain" "Sol/Venus"
 
 Location "Gertjon Corona" "Sol/Venus"
 {
-	LongLat	[ -276 30 0 ]
+	LongLat	[ 84 30 0 ]
 	Size	250
 	Type	"CR"
 }
@@ -4092,7 +4092,7 @@ Location "Gilmore" "Sol/Venus"
 
 Location "Giltine Tesserae" "Sol/Venus"
 {
-	LongLat	[ -250 39 0 ]
+	LongLat	[ 110 39 0 ]
 	Size	300
 	Type	"TE"
 }
@@ -4106,14 +4106,14 @@ Location "Gina" "Sol/Venus"
 
 Location "Giselle" "Sol/Venus"
 {
-	LongLat	[ -298 11.8 0 ]
+	LongLat	[ 62 11.8 0 ]
 	Size	10.4
 	Type	"AA"
 }
 
 Location "Glaspell" "Sol/Venus"
 {
-	LongLat	[ -269.6 58.4 0 ]
+	LongLat	[ 90.4 58.4 0 ]
 	Size	26.3
 	Type	"AA"
 }
@@ -4127,7 +4127,7 @@ Location "Gloria" "Sol/Venus"
 
 Location "Godiva" "Sol/Venus"
 {
-	LongLat	[ -251.6 56.1 0 ]
+	LongLat	[ 108.4 56.1 0 ]
 	Size	30.7
 	Type	"AA"
 }
@@ -4141,7 +4141,7 @@ Location "Goeppert-Mayer" "Sol/Venus"
 
 Location "Golubkina" "Sol/Venus"
 {
-	LongLat	[ -286.5 -60.3 0 ]
+	LongLat	[ 73.5 -60.3 0 ]
 	Size	28.4
 	Type	"AA"
 }
@@ -4155,7 +4155,7 @@ Location "Goncharova" "Sol/Venus"
 
 Location "Grace" "Sol/Venus"
 {
-	LongLat	[ -268.9 13.8 0 ]
+	LongLat	[ 91.1 13.8 0 ]
 	Size	19
 	Type	"AA"
 }
@@ -4169,14 +4169,14 @@ Location "Graham Patera" "Sol/Venus"
 
 Location "Gražina" "Sol/Venus"
 {
-	LongLat	[ -337.5 -72.4 0 ]
+	LongLat	[ 22.5 -72.4 0 ]
 	Size	16.5
 	Type	"AA"
 }
 
 Location "Grechukha Tholi" "Sol/Venus"
 {
-	LongLat	[ -255.8 8.6 0 ]
+	LongLat	[ 104.2 8.6 0 ]
 	Size	200
 	Type	"TH"
 }
@@ -4197,42 +4197,42 @@ Location "Gregory" "Sol/Venus"
 
 Location "Gretchen" "Sol/Venus"
 {
-	LongLat	[ -212.3 59.7 0 ]
+	LongLat	[ 147.7 59.7 0 ]
 	Size	20.8
 	Type	"AA"
 }
 
 Location "Grey" "Sol/Venus"
 {
-	LongLat	[ -329.4 52.4 0 ]
+	LongLat	[ 30.6 52.4 0 ]
 	Size	50
 	Type	"AA"
 }
 
 Location "Grimke" "Sol/Venus"
 {
-	LongLat	[ -215.3 -17.2 0 ]
+	LongLat	[ 144.7 -17.2 0 ]
 	Size	34.8
 	Type	"AA"
 }
 
 Location "Grizodubova Patera" "Sol/Venus"
 {
-	LongLat	[ -299.6 -16.7 0 ]
+	LongLat	[ 60.4 -16.7 0 ]
 	Size	50
 	Type	"PE"
 }
 
 Location "Guan Daosheng" "Sol/Venus"
 {
-	LongLat	[ -181.8 61.1 0 ]
+	LongLat	[ 178.2 61.1 0 ]
 	Size	43.6
 	Type	"AA"
 }
 
 Location "Gudrun" "Sol/Venus"
 {
-	LongLat	[ -326.4 -10.6 0 ]
+	LongLat	[ 33.6 -10.6 0 ]
 	Size	13.3
 	Type	"AA"
 }
@@ -4246,35 +4246,35 @@ Location "Guilbert" "Sol/Venus"
 
 Location "Guinevere Planitia" "Sol/Venus"
 {
-	LongLat	[ -325 -21.9 0 ]
+	LongLat	[ 35 -21.9 0 ]
 	Size	7520
 	Type	"PL"
 }
 
 Location "Gui Ye Chasma" "Sol/Venus"
 {
-	LongLat	[ -337.1 9 0 ]
+	LongLat	[ 22.9 9 0 ]
 	Size	210
 	Type	"CM"
 }
 
 Location "Gulaim Fossae" "Sol/Venus"
 {
-	LongLat	[ -329 5 0 ]
+	LongLat	[ 31 5 0 ]
 	Size	800
 	Type	"FO"
 }
 
 Location "Gula Mons" "Sol/Venus"
 {
-	LongLat	[ -359.1 -21.9 0 ]
+	LongLat	[ 0.9 -21.9 0 ]
 	Size	276
 	Type	"MO"
 }
 
 Location "Gulchatay" "Sol/Venus"
 {
-	LongLat	[ -295.5 -20.5 0 ]
+	LongLat	[ 64.5 -20.5 0 ]
 	Size	9
 	Type	"AA"
 }
@@ -4288,14 +4288,14 @@ Location "Gulnara" "Sol/Venus"
 
 Location "Gunda Planitia" "Sol/Venus"
 {
-	LongLat	[ -267 16 0 ]
+	LongLat	[ 93 16 0 ]
 	Size	1200
 	Type	"PL"
 }
 
 Location "Guor Linea" "Sol/Venus"
 {
-	LongLat	[ -0 -20 0 ]
+	LongLat	[ 0 -20 0 ]
 	Size	1300
 	Type	"LI"
 }
@@ -4309,14 +4309,14 @@ Location "Gurshi Mons" "Sol/Venus"
 
 Location "Guzel" "Sol/Venus"
 {
-	LongLat	[ -298.7 57.6 0 ]
+	LongLat	[ 61.3 57.6 0 ]
 	Size	7.3
 	Type	"AA"
 }
 
 Location "Gwen Mons" "Sol/Venus"
 {
-	LongLat	[ -238.7 21.4 0 ]
+	LongLat	[ 121.3 21.4 0 ]
 	Size	200
 	Type	"MO"
 }
@@ -4365,7 +4365,7 @@ Location "Halle" "Sol/Venus"
 
 Location "Hallgerda Mons" "Sol/Venus"
 {
-	LongLat	[ -198.3 -53.1 0 ]
+	LongLat	[ 161.7 -53.1 0 ]
 	Size	57
 	Type	"MO"
 }
@@ -4407,21 +4407,21 @@ Location "Hannah" "Sol/Venus"
 
 Location "Hannahannas Corona" "Sol/Venus"
 {
-	LongLat	[ -170.5 -0 0 ]
+	LongLat	[ -170.5 0 0 ]
 	Size	200
 	Type	"CR"
 }
 
 Location "Hansberry" "Sol/Venus"
 {
-	LongLat	[ -324.1 22.7 0 ]
+	LongLat	[ 35.9 22.7 0 ]
 	Size	26.6
 	Type	"AA"
 }
 
 Location "Hanwi Chasma" "Sol/Venus"
 {
-	LongLat	[ -247 -10.5 0 ]
+	LongLat	[ 113 -10.5 0 ]
 	Size	1800
 	Type	"CM"
 }
@@ -4435,7 +4435,7 @@ Location "Hapei" "Sol/Venus"
 
 Location "Hathor Mons" "Sol/Venus"
 {
-	LongLat	[ -324.7 38.7 0 ]
+	LongLat	[ 35.3 38.7 0 ]
 	Size	333
 	Type	"MO"
 }
@@ -4456,35 +4456,35 @@ Location "Haumea Corona" "Sol/Venus"
 
 Location "Hayashi" "Sol/Venus"
 {
-	LongLat	[ -243.9 -53.8 0 ]
+	LongLat	[ 116.1 -53.8 0 ]
 	Size	43.1
 	Type	"AA"
 }
 
 Location "Heather" "Sol/Venus"
 {
-	LongLat	[ -334.1 6.8 0 ]
+	LongLat	[ 25.9 6.8 0 ]
 	Size	11.5
 	Type	"AA"
 }
 
 Location "Hecate Chasma" "Sol/Venus"
 {
-	LongLat	[ -254.3 -18.2 0 ]
+	LongLat	[ 105.7 -18.2 0 ]
 	Size	3145
 	Type	"CM"
 }
 
 Location "Heidi" "Sol/Venus"
 {
-	LongLat	[ -350.1 -23.6 0 ]
+	LongLat	[ 9.9 -23.6 0 ]
 	Size	15.2
 	Type	"AA"
 }
 
 Location "Helen Planitia" "Sol/Venus"
 {
-	LongLat	[ -263.9 51.7 0 ]
+	LongLat	[ 96.1 51.7 0 ]
 	Size	4360
 	Type	"PL"
 }
@@ -4498,7 +4498,7 @@ Location "Helga" "Sol/Venus"
 
 Location "Hellman" "Sol/Venus"
 {
-	LongLat	[ -356.3 -4.7 0 ]
+	LongLat	[ 3.7 -4.7 0 ]
 	Size	34.7
 	Type	"AA"
 }
@@ -4512,7 +4512,7 @@ Location "Helmud Vallis" "Sol/Venus"
 
 Location "Heloha Fluctus" "Sol/Venus"
 {
-	LongLat	[ -344 -77 0 ]
+	LongLat	[ 16 -77 0 ]
 	Size	375
 	Type	"FL"
 }
@@ -4533,21 +4533,21 @@ Location "Helvi" "Sol/Venus"
 
 Location "Hemera Dorsa" "Sol/Venus"
 {
-	LongLat	[ -243.4 -51 0 ]
+	LongLat	[ 116.6 -51 0 ]
 	Size	587
 	Type	"DO"
 }
 
 Location "Heng-o Chasma" "Sol/Venus"
 {
-	LongLat	[ -355.5 -6.6 0 ]
+	LongLat	[ 4.5 -6.6 0 ]
 	Size	734
 	Type	"CM"
 }
 
 Location "Heng-o Corona" "Sol/Venus"
 {
-	LongLat	[ -355 -2 0 ]
+	LongLat	[ 5 -2 0 ]
 	Size	1060
 	Type	"CR"
 }
@@ -4596,7 +4596,7 @@ Location "Hera Dorsa" "Sol/Venus"
 
 Location "Hervor Corona" "Sol/Venus"
 {
-	LongLat	[ -269 25.5 0 ]
+	LongLat	[ 91 25.5 0 ]
 	Size	250
 	Type	"CR"
 }
@@ -4617,14 +4617,14 @@ Location "Hiei Chu Patera" "Sol/Venus"
 
 Location "Higgins" "Sol/Venus"
 {
-	LongLat	[ -241.3 -8.1 0 ]
+	LongLat	[ 118.7 -8.1 0 ]
 	Size	40
 	Type	"AA"
 }
 
 Location "Hikuleo Fluctus" "Sol/Venus"
 {
-	LongLat	[ -208 -52.5 0 ]
+	LongLat	[ 152 -52.5 0 ]
 	Size	600
 	Type	"FL"
 }
@@ -4652,14 +4652,14 @@ Location "Hina Chasma" "Sol/Venus"
 
 Location "Hinemoa Planitia" "Sol/Venus"
 {
-	LongLat	[ -265 -5 0 ]
+	LongLat	[ 95 -5 0 ]
 	Size	3700
 	Type	"PL"
 }
 
 Location "Hippolyta Linea" "Sol/Venus"
 {
-	LongLat	[ -345 42 0 ]
+	LongLat	[ 15 42 0 ]
 	Size	1300
 	Type	"LI"
 }
@@ -4673,14 +4673,14 @@ Location "Hiriata" "Sol/Venus"
 
 Location "Hiromi" "Sol/Venus"
 {
-	LongLat	[ -287.3 -35.2 0 ]
+	LongLat	[ 72.7 -35.2 0 ]
 	Size	6
 	Type	"AA"
 }
 
 Location "Hlineu Corona" "Sol/Venus"
 {
-	LongLat	[ -241 38.7 0 ]
+	LongLat	[ 119 38.7 0 ]
 	Size	150
 	Type	"CR"
 }
@@ -4708,7 +4708,7 @@ Location "Holiday" "Sol/Venus"
 
 Location "Holla Corona" "Sol/Venus"
 {
-	LongLat	[ -237.7 13 0 ]
+	LongLat	[ 122.3 13 0 ]
 	Size	180
 	Type	"CR"
 }
@@ -4743,7 +4743,7 @@ Location "Hsueh T'ao" "Sol/Venus"
 
 Location "Hua Mulan" "Sol/Venus"
 {
-	LongLat	[ -337.7 -86.8 0 ]
+	LongLat	[ 22.3 -86.8 0 ]
 	Size	24
 	Type	"AA"
 }
@@ -4764,21 +4764,21 @@ Location "Huarei" "Sol/Venus"
 
 Location "Hulda Corona" "Sol/Venus"
 {
-	LongLat	[ -308.3 -12 0 ]
+	LongLat	[ 51.7 -12 0 ]
 	Size	230
 	Type	"CR"
 }
 
 Location "Hull" "Sol/Venus"
 {
-	LongLat	[ -263.6 -59.4 0 ]
+	LongLat	[ 96.4 -59.4 0 ]
 	Size	47.3
 	Type	"AA"
 }
 
 Location "Humai Tessera" "Sol/Venus"
 {
-	LongLat	[ -250 53 0 ]
+	LongLat	[ 110 53 0 ]
 	Size	350
 	Type	"TE"
 }
@@ -4806,7 +4806,7 @@ Location "Husbishag Tesserae" "Sol/Venus"
 
 Location "Hutash Corona" "Sol/Venus"
 {
-	LongLat	[ -275.7 34.3 0 ]
+	LongLat	[ 84.3 34.3 0 ]
 	Size	91
 	Type	"CR"
 }
@@ -4820,7 +4820,7 @@ Location "Hwangcini" "Sol/Venus"
 
 Location "HYNDLA REGIO" "Sol/Venus"
 {
-	LongLat	[ -294.5 -22.5 0 ]
+	LongLat	[ 65.5 -22.5 0 ]
 	Size	2300
 	Type	"RE"
 }
@@ -4834,7 +4834,7 @@ Location "Iang-Mdiye Corona" "Sol/Venus"
 
 Location "Iaso Tholus" "Sol/Venus"
 {
-	LongLat	[ -255.3 -5.2 0 ]
+	LongLat	[ 104.7 -5.2 0 ]
 	Size	30
 	Type	"TH"
 }
@@ -4855,21 +4855,21 @@ Location "Ichikawa" "Sol/Venus"
 
 Location "Idem-Kuva Corona" "Sol/Venus"
 {
-	LongLat	[ -358 -25 0 ]
+	LongLat	[ 2 -25 0 ]
 	Size	230
 	Type	"CR"
 }
 
 Location "Idunn Mons" "Sol/Venus"
 {
-	LongLat	[ -214.5 46.5 0 ]
+	LongLat	[ 145.5 46.5 0 ]
 	Size	250
 	Type	"MO"
 }
 
 Location "Ikas Coronae" "Sol/Venus"
 {
-	LongLat	[ -288.6 40.7 0 ]
+	LongLat	[ 71.4 40.7 0 ]
 	Size	225
 	Type	"CR"
 }
@@ -4890,21 +4890,21 @@ Location "Ilaheva Fluctus" "Sol/Venus"
 
 Location "Ilbis Fossae" "Sol/Venus"
 {
-	LongLat	[ -254.6 -71.9 0 ]
+	LongLat	[ 105.4 -71.9 0 ]
 	Size	512
 	Type	"FO"
 }
 
 Location "Ilga" "Sol/Venus"
 {
-	LongLat	[ -307.3 12.4 0 ]
+	LongLat	[ 52.7 12.4 0 ]
 	Size	10.8
 	Type	"AA"
 }
 
 Location "Ilithyia Mons" "Sol/Venus"
 {
-	LongLat	[ -315.5 13.5 0 ]
+	LongLat	[ 44.5 13.5 0 ]
 	Size	90
 	Type	"MO"
 }
@@ -4939,14 +4939,14 @@ Location "Imapinua Planitia" "Sol/Venus"
 
 Location "IMDR REGIO" "Sol/Venus"
 {
-	LongLat	[ -212 43 0 ]
+	LongLat	[ 148 43 0 ]
 	Size	1611
 	Type	"RE"
 }
 
 Location "Inacho Corona" "Sol/Venus"
 {
-	LongLat	[ -212.2 20.5 0 ]
+	LongLat	[ 147.8 20.5 0 ]
 	Size	125
 	Type	"CR"
 }
@@ -4967,7 +4967,7 @@ Location "Inari Corona" "Sol/Venus"
 
 Location "Indira" "Sol/Venus"
 {
-	LongLat	[ -289.8 -64.1 0 ]
+	LongLat	[ 70.2 -64.1 0 ]
 	Size	16.6
 	Type	"AA"
 }
@@ -4981,49 +4981,49 @@ Location "Indrani Corona" "Sol/Venus"
 
 Location "Ines" "Sol/Venus"
 {
-	LongLat	[ -241.9 67.1 0 ]
+	LongLat	[ 118.1 67.1 0 ]
 	Size	11.2
 	Type	"AA"
 }
 
 Location "Inga" "Sol/Venus"
 {
-	LongLat	[ -226.6 -38.1 0 ]
+	LongLat	[ 133.4 -38.1 0 ]
 	Size	10
 	Type	"AA"
 }
 
 Location "Ingrid" "Sol/Venus"
 {
-	LongLat	[ -308.9 12.4 0 ]
+	LongLat	[ 51.1 12.4 0 ]
 	Size	11.5
 	Type	"AA"
 }
 
 Location "Inira" "Sol/Venus"
 {
-	LongLat	[ -239.4 43.1 0 ]
+	LongLat	[ 120.6 43.1 0 ]
 	Size	16.5
 	Type	"AA"
 }
 
 Location "Inkeri" "Sol/Venus"
 {
-	LongLat	[ -223.9 28.3 0 ]
+	LongLat	[ 136.1 28.3 0 ]
 	Size	10.1
 	Type	"AA"
 }
 
 Location "Innini Mons" "Sol/Venus"
 {
-	LongLat	[ -328.5 34.6 0 ]
+	LongLat	[ 31.5 34.6 0 ]
 	Size	339
 	Type	"MO"
 }
 
 Location "Iondra" "Sol/Venus"
 {
-	LongLat	[ -286.5 -10.5 0 ]
+	LongLat	[ 73.5 -10.5 0 ]
 	Size	7.9
 	Type	"AA"
 }
@@ -5058,7 +5058,7 @@ Location "Irinuca" "Sol/Venus"
 
 Location "Iris Dorsa" "Sol/Venus"
 {
-	LongLat	[ -221.3 -52.7 0 ]
+	LongLat	[ 138.7 -52.7 0 ]
 	Size	2050
 	Type	"DO"
 }
@@ -5079,14 +5079,14 @@ Location "Irnini Mons" "Sol/Venus"
 
 Location "Isabella" "Sol/Venus"
 {
-	LongLat	[ -204.2 29.8 0 ]
+	LongLat	[ 155.8 29.8 0 ]
 	Size	175
 	Type	"AA"
 }
 
 Location "Isako" "Sol/Venus"
 {
-	LongLat	[ -278 9 0 ]
+	LongLat	[ 82 9 0 ]
 	Size	13.5
 	Type	"AA"
 }
@@ -5100,7 +5100,7 @@ Location "Iseghey Mons" "Sol/Venus"
 
 Location "ISHKUS REGIO" "Sol/Venus"
 {
-	LongLat	[ -245 61 0 ]
+	LongLat	[ 115 61 0 ]
 	Size	1000
 	Type	"RE"
 }
@@ -5114,7 +5114,7 @@ Location "ISHTAR TERRA" "Sol/Venus"
 
 Location "Isolde" "Sol/Venus"
 {
-	LongLat	[ -211.9 74.5 0 ]
+	LongLat	[ 148.1 74.5 0 ]
 	Size	11.9
 	Type	"AA"
 }
@@ -5142,7 +5142,7 @@ Location "Istustaya Tesserae" "Sol/Venus"
 
 Location "Itoki Fluctus" "Sol/Venus"
 {
-	LongLat	[ -229 6 0 ]
+	LongLat	[ 131 6 0 ]
 	Size	900
 	Type	"FL"
 }
@@ -5156,14 +5156,14 @@ Location "Ituana Corona" "Sol/Venus"
 
 Location "Itzpapalotl Tessera" "Sol/Venus"
 {
-	LongLat	[ -317.6 -75.7 0 ]
+	LongLat	[ 42.4 -75.7 0 ]
 	Size	380
 	Type	"TE"
 }
 
 Location "Ivka" "Sol/Venus"
 {
-	LongLat	[ -303.8 -68.2 0 ]
+	LongLat	[ 56.2 -68.2 0 ]
 	Size	14.9
 	Type	"AA"
 }
@@ -5177,7 +5177,7 @@ Location "Ivne" "Sol/Venus"
 
 Location "Iweridd Corona" "Sol/Venus"
 {
-	LongLat	[ -310 21 0 ]
+	LongLat	[ 50 21 0 ]
 	Size	500
 	Type	"CR"
 }
@@ -5191,35 +5191,35 @@ Location "Ix Chel Chasma" "Sol/Venus"
 
 Location "Ixcuina Corona" "Sol/Venus"
 {
-	LongLat	[ -207.5 47.5 0 ]
+	LongLat	[ 152.5 47.5 0 ]
 	Size	150
 	Type	"CR"
 }
 
 Location "Ixtab Mons" "Sol/Venus"
 {
-	LongLat	[ -242.2 -15.7 0 ]
+	LongLat	[ 117.8 -15.7 0 ]
 	Size	80
 	Type	"MO"
 }
 
 Location "Iyatik Corona" "Sol/Venus"
 {
-	LongLat	[ -347.5 16.5 0 ]
+	LongLat	[ 12.5 16.5 0 ]
 	Size	200
 	Type	"CR"
 }
 
 Location "Iyele Dorsa" "Sol/Venus"
 {
-	LongLat	[ -278.7 -50 0 ]
+	LongLat	[ 81.3 -50 0 ]
 	Size	595
 	Type	"DO"
 }
 
 Location "Izakay" "Sol/Venus"
 {
-	LongLat	[ -210.8 12.3 0 ]
+	LongLat	[ 149.2 12.3 0 ]
 	Size	10.2
 	Type	"AA"
 }
@@ -5233,7 +5233,7 @@ Location "Izudyr" "Sol/Venus"
 
 Location "Izumi Patera" "Sol/Venus"
 {
-	LongLat	[ -193.6 -50 0 ]
+	LongLat	[ 166.4 -50 0 ]
 	Size	74
 	Type	"PE"
 }
@@ -5289,14 +5289,14 @@ Location "Jana Chasma" "Sol/Venus"
 
 Location "Jane" "Sol/Venus"
 {
-	LongLat	[ -304.8 60.5 0 ]
+	LongLat	[ 55.2 60.5 0 ]
 	Size	10.2
 	Type	"AA"
 }
 
 Location "Janice" "Sol/Venus"
 {
-	LongLat	[ -261.9 -87.3 0 ]
+	LongLat	[ 98.1 -87.3 0 ]
 	Size	10
 	Type	"AA"
 }
@@ -5331,21 +5331,21 @@ Location "Jasmin" "Sol/Venus"
 
 Location "Jaszai Patera" "Sol/Venus"
 {
-	LongLat	[ -305 -32 0 ]
+	LongLat	[ 55 -32 0 ]
 	Size	70
 	Type	"PE"
 }
 
 Location "Javine Corona" "Sol/Venus"
 {
-	LongLat	[ -251.2 5.5 0 ]
+	LongLat	[ 108.8 5.5 0 ]
 	Size	450
 	Type	"CR"
 }
 
 Location "Jeanne" "Sol/Venus"
 {
-	LongLat	[ -331.5 -40.1 0 ]
+	LongLat	[ 28.5 -40.1 0 ]
 	Size	19.4
 	Type	"AA"
 }
@@ -5359,7 +5359,7 @@ Location "Jennifer" "Sol/Venus"
 
 Location "Jerusha" "Sol/Venus"
 {
-	LongLat	[ -342.7 22 0 ]
+	LongLat	[ 17.3 22 0 ]
 	Size	17.2
 	Type	"AA"
 }
@@ -5387,7 +5387,7 @@ Location "Jitka" "Sol/Venus"
 
 Location "Jocelyn" "Sol/Venus"
 {
-	LongLat	[ -276.4 33.2 0 ]
+	LongLat	[ 83.6 33.2 0 ]
 	Size	14
 	Type	"AA"
 }
@@ -5401,21 +5401,21 @@ Location "Jodi" "Sol/Venus"
 
 Location "Johanna" "Sol/Venus"
 {
-	LongLat	[ -247.3 -19.5 0 ]
+	LongLat	[ 112.7 -19.5 0 ]
 	Size	15.1
 	Type	"AA"
 }
 
 Location "Johnson" "Sol/Venus"
 {
-	LongLat	[ -254.6 -51.8 0 ]
+	LongLat	[ 105.4 -51.8 0 ]
 	Size	24.5
 	Type	"AA"
 }
 
 Location "Jokwa Linea" "Sol/Venus"
 {
-	LongLat	[ -210 17 0 ]
+	LongLat	[ 150 17 0 ]
 	Size	2200
 	Type	"LI"
 }
@@ -5429,21 +5429,21 @@ Location "Joliot-Curie" "Sol/Venus"
 
 Location "Jord Corona" "Sol/Venus"
 {
-	LongLat	[ -349.5 58.5 0 ]
+	LongLat	[ 10.5 58.5 0 ]
 	Size	130
 	Type	"CR"
 }
 
 Location "Joshee" "Sol/Venus"
 {
-	LongLat	[ -288.7 -5.5 0 ]
+	LongLat	[ 71.3 -5.5 0 ]
 	Size	37
 	Type	"AA"
 }
 
 Location "Jotuni Patera" "Sol/Venus"
 {
-	LongLat	[ -214 6.5 0 ]
+	LongLat	[ 146 6.5 0 ]
 	Size	100
 	Type	"PE"
 }
@@ -5471,7 +5471,7 @@ Location "Juksakka Corona" "Sol/Venus"
 
 Location "Julie" "Sol/Venus"
 {
-	LongLat	[ -242.6 -51 0 ]
+	LongLat	[ 117.4 -51 0 ]
 	Size	13.5
 	Type	"AA"
 }
@@ -5485,7 +5485,7 @@ Location "Jumaisat" "Sol/Venus"
 
 Location "Junkgowa Corona" "Sol/Venus"
 {
-	LongLat	[ -257 -37 0 ]
+	LongLat	[ 103 -37 0 ]
 	Size	280
 	Type	"CR"
 }
@@ -5506,7 +5506,7 @@ Location "Jurate Colles" "Sol/Venus"
 
 Location "Justitia Tholus" "Sol/Venus"
 {
-	LongLat	[ -296.5 28.7 0 ]
+	LongLat	[ 63.5 28.7 0 ]
 	Size	60
 	Type	"TH"
 }
@@ -5520,35 +5520,35 @@ Location "Jutrzenka Vallis" "Sol/Venus"
 
 Location "Jutta" "Sol/Venus"
 {
-	LongLat	[ -142.6 -0 0 ]
+	LongLat	[ -142.6 0 0 ]
 	Size	7
 	Type	"AA"
 }
 
 Location "Juturna Fluctus" "Sol/Venus"
 {
-	LongLat	[ -350 76 0 ]
+	LongLat	[ 10 76 0 ]
 	Size	900
 	Type	"FL"
 }
 
 Location "Jyestha Tesserae" "Sol/Venus"
 {
-	LongLat	[ -343.41 -65.05 0 ]
+	LongLat	[ 16.59 -65.05 0 ]
 	Size	1252
 	Type	"TE"
 }
 
 Location "Kaapaau Fluctus" "Sol/Venus"
 {
-	LongLat	[ -181 66.5 0 ]
+	LongLat	[ 179 66.5 0 ]
 	Size	350
 	Type	"FL"
 }
 
 Location "Kadlu Dorsa" "Sol/Venus"
 {
-	LongLat	[ -188 69.5 0 ]
+	LongLat	[ 172 69.5 0 ]
 	Size	500
 	Type	"DO"
 }
@@ -5576,28 +5576,28 @@ Location "Kaikilani" "Sol/Venus"
 
 Location "Kaisa" "Sol/Venus"
 {
-	LongLat	[ -293.3 -13.5 0 ]
+	LongLat	[ 66.7 -13.5 0 ]
 	Size	12
 	Type	"AA"
 }
 
 Location "Kaiwan Fluctus" "Sol/Venus"
 {
-	LongLat	[ -358 45.5 0 ]
+	LongLat	[ 2 45.5 0 ]
 	Size	1200
 	Type	"FL"
 }
 
 Location "Kala" "Sol/Venus"
 {
-	LongLat	[ -314.4 -1.5 0 ]
+	LongLat	[ 45.6 -1.5 0 ]
 	Size	17.4
 	Type	"AA"
 }
 
 Location "Kalaipahoa Linea" "Sol/Venus"
 {
-	LongLat	[ -336.5 60.5 0 ]
+	LongLat	[ 23.5 60.5 0 ]
 	Size	2400
 	Type	"LI"
 }
@@ -5618,7 +5618,7 @@ Location "Kallistos Vallis" "Sol/Venus"
 
 Location "Kalm Dorsa" "Sol/Venus"
 {
-	LongLat	[ -309 -18 0 ]
+	LongLat	[ 51 -18 0 ]
 	Size	300
 	Type	"DO"
 }
@@ -5653,35 +5653,35 @@ Location "Kamari Dorsa" "Sol/Venus"
 
 Location "Kamui-Huci Corona" "Sol/Venus"
 {
-	LongLat	[ -322.5 63.5 0 ]
+	LongLat	[ 37.5 63.5 0 ]
 	Size	300
 	Type	"CR"
 }
 
 Location "Kanik" "Sol/Venus"
 {
-	LongLat	[ -249.9 32.5 0 ]
+	LongLat	[ 110.1 32.5 0 ]
 	Size	16.5
 	Type	"AA"
 }
 
 Location "Kanykey Planitia" "Sol/Venus"
 {
-	LongLat	[ -350 10 0 ]
+	LongLat	[ 10 10 0 ]
 	Size	2100
 	Type	"PL"
 }
 
 Location "Kapenopfu Corona" "Sol/Venus"
 {
-	LongLat	[ -271 21.7 0 ]
+	LongLat	[ 89 21.7 0 ]
 	Size	200
 	Type	"CR"
 }
 
 Location "Kara Linea" "Sol/Venus"
 {
-	LongLat	[ -306 44 0 ]
+	LongLat	[ 54 44 0 ]
 	Size	1300
 	Type	"LI"
 }
@@ -5702,28 +5702,28 @@ Location "Karo" "Sol/Venus"
 
 Location "Karra-māhte Fossae" "Sol/Venus"
 {
-	LongLat	[ -342 -28 0 ]
+	LongLat	[ 18 -28 0 ]
 	Size	1800
 	Type	"FO"
 }
 
 Location "Kartini" "Sol/Venus"
 {
-	LongLat	[ -333 -57.8 0 ]
+	LongLat	[ 27 -57.8 0 ]
 	Size	23.4
 	Type	"AA"
 }
 
 Location "Kasogonaga Fluctus" "Sol/Venus"
 {
-	LongLat	[ -268 18 0 ]
+	LongLat	[ 92 18 0 ]
 	Size	850
 	Type	"FL"
 }
 
 Location "Kastiatsi Dorsa" "Sol/Venus"
 {
-	LongLat	[ -245 53 0 ]
+	LongLat	[ 115 53 0 ]
 	Size	1200
 	Type	"DO"
 }
@@ -5737,7 +5737,7 @@ Location "Kastusha" "Sol/Venus"
 
 Location "Katieleo Corona" "Sol/Venus"
 {
-	LongLat	[ -327.5 12.5 0 ]
+	LongLat	[ 32.5 12.5 0 ]
 	Size	210
 	Type	"CR"
 }
@@ -5758,7 +5758,7 @@ Location "Katrya" "Sol/Venus"
 
 Location "Katya" "Sol/Venus"
 {
-	LongLat	[ -285.7 -57.8 0 ]
+	LongLat	[ 74.3 -57.8 0 ]
 	Size	10.5
 	Type	"AA"
 }
@@ -5779,7 +5779,7 @@ Location "Kavtora" "Sol/Venus"
 
 Location "Kawelu Planitia" "Sol/Venus"
 {
-	LongLat	[ -246.5 -32.8 0 ]
+	LongLat	[ 113.5 -32.8 0 ]
 	Size	3910
 	Type	"PL"
 }
@@ -5807,21 +5807,21 @@ Location "Kelea" "Sol/Venus"
 
 Location "Kelila" "Sol/Venus"
 {
-	LongLat	[ -191.8 -52.6 0 ]
+	LongLat	[ 168.2 -52.6 0 ]
 	Size	5
 	Type	"AA"
 }
 
 Location "Keller Patera" "Sol/Venus"
 {
-	LongLat	[ -274 -45 0 ]
+	LongLat	[ 86 -45 0 ]
 	Size	69
 	Type	"PE"
 }
 
 Location "Kelly" "Sol/Venus"
 {
-	LongLat	[ -359.2 4.8 0 ]
+	LongLat	[ 0.8 4.8 0 ]
 	Size	11.2
 	Type	"AA"
 }
@@ -5835,14 +5835,14 @@ Location "Kemble" "Sol/Venus"
 
 Location "Kenny" "Sol/Venus"
 {
-	LongLat	[ -271.1 44.4 0 ]
+	LongLat	[ 88.9 44.4 0 ]
 	Size	52.7
 	Type	"AA"
 }
 
 Location "Ketzia" "Sol/Venus"
 {
-	LongLat	[ -300.5 -3.9 0 ]
+	LongLat	[ 59.5 -3.9 0 ]
 	Size	14.6
 	Type	"AA"
 }
@@ -5863,14 +5863,14 @@ Location "Khadako" "Sol/Venus"
 
 Location "Khadne Dorsa" "Sol/Venus"
 {
-	LongLat	[ -334.5 14 0 ]
+	LongLat	[ 25.5 14 0 ]
 	Size	220
 	Type	"DO"
 }
 
 Location "Khafiza" "Sol/Venus"
 {
-	LongLat	[ -299.2 -6 0 ]
+	LongLat	[ 60.8 -6 0 ]
 	Size	7
 	Type	"AA"
 }
@@ -5898,7 +5898,7 @@ Location "Khelifa" "Sol/Venus"
 
 Location "Khosedem Fossae" "Sol/Venus"
 {
-	LongLat	[ -303 13 0 ]
+	LongLat	[ 57 13 0 ]
 	Size	1800
 	Type	"FO"
 }
@@ -5919,14 +5919,14 @@ Location "Khotun Corona" "Sol/Venus"
 
 Location "Kicheda Chasma" "Sol/Venus"
 {
-	LongLat	[ -213 2.5 0 ]
+	LongLat	[ 147 2.5 0 ]
 	Size	1500
 	Type	"CM"
 }
 
 Location "Ki Corona" "Sol/Venus"
 {
-	LongLat	[ -227.8 -43.2 0 ]
+	LongLat	[ 132.2 -43.2 0 ]
 	Size	300
 	Type	"CR"
 }
@@ -5947,7 +5947,7 @@ Location "Kimtinh Vallis" "Sol/Venus"
 
 Location "Kingsley" "Sol/Venus"
 {
-	LongLat	[ -306.4 22.6 0 ]
+	LongLat	[ 53.6 22.6 0 ]
 	Size	26.6
 	Type	"AA"
 }
@@ -5968,14 +5968,14 @@ Location "Kiris" "Sol/Venus"
 
 Location "Kitna" "Sol/Venus"
 {
-	LongLat	[ -277.3 28.9 0 ]
+	LongLat	[ 82.7 28.9 0 ]
 	Size	15.3
 	Type	"AA"
 }
 
 Location "Klafsky" "Sol/Venus"
 {
-	LongLat	[ -188.1 20.7 0 ]
+	LongLat	[ 171.9 20.7 0 ]
 	Size	25.5
 	Type	"AA"
 }
@@ -5989,7 +5989,7 @@ Location "Klenova" "Sol/Venus"
 
 Location "Kodu" "Sol/Venus"
 {
-	LongLat	[ -338.7 -0.9 0 ]
+	LongLat	[ 21.3 -0.9 0 ]
 	Size	10.5
 	Type	"AA"
 }
@@ -6010,28 +6010,28 @@ Location "Koidutäht Vallis" "Sol/Venus"
 
 Location "Koinyt" "Sol/Venus"
 {
-	LongLat	[ -293.2 30.9 0 ]
+	LongLat	[ 66.8 30.9 0 ]
 	Size	11.7
 	Type	"AA"
 }
 
 Location "Kokomikeis Chasma" "Sol/Venus"
 {
-	LongLat	[ -85 -0 0 ]
+	LongLat	[ -85 0 0 ]
 	Size	1000
 	Type	"CM"
 }
 
 Location "Kokyanwuti Mons" "Sol/Venus"
 {
-	LongLat	[ -212 -35.5 0 ]
+	LongLat	[ 148 -35.5 0 ]
 	Size	400
 	Type	"MO"
 }
 
 Location "Kolias Corona" "Sol/Venus"
 {
-	LongLat	[ -207.9 16.5 0 ]
+	LongLat	[ 152.1 16.5 0 ]
 	Size	200
 	Type	"CR"
 }
@@ -6052,7 +6052,7 @@ Location "Kollwitz" "Sol/Venus"
 
 Location "Kono Mons" "Sol/Venus"
 {
-	LongLat	[ -268 -19.5 0 ]
+	LongLat	[ 92 -19.5 0 ]
 	Size	350
 	Type	"MO"
 }
@@ -6080,14 +6080,14 @@ Location "Kostroma Coronae" "Sol/Venus"
 
 Location "Koti Fluctus" "Sol/Venus"
 {
-	LongLat	[ -318 -12.5 0 ]
+	LongLat	[ 42 -12.5 0 ]
 	Size	400
 	Type	"FL"
 }
 
 Location "Kotsmanyako Dorsa" "Sol/Venus"
 {
-	LongLat	[ -242 76 0 ]
+	LongLat	[ 118 76 0 ]
 	Size	1900
 	Type	"DO"
 }
@@ -6122,7 +6122,7 @@ Location "Kozhla-Ava Chasma" "Sol/Venus"
 
 Location "Kristina" "Sol/Venus"
 {
-	LongLat	[ -315.9 65.2 0 ]
+	LongLat	[ 44.1 65.2 0 ]
 	Size	9.7
 	Type	"AA"
 }
@@ -6136,7 +6136,7 @@ Location "Kruchina Tesserae" "Sol/Venus"
 
 Location "Krumine Corona" "Sol/Venus"
 {
-	LongLat	[ -261.5 5 0 ]
+	LongLat	[ 98.5 5 0 ]
 	Size	300
 	Type	"CR"
 }
@@ -6178,7 +6178,7 @@ Location "Kuldurok Dorsa" "Sol/Venus"
 
 Location "Kulimina Corona" "Sol/Venus"
 {
-	LongLat	[ -261.9 27.8 0 ]
+	LongLat	[ 98.1 27.8 0 ]
 	Size	170
 	Type	"CR"
 }
@@ -6192,14 +6192,14 @@ Location "Kumang Corona" "Sol/Venus"
 
 Location "Kumanyefie Vallis" "Sol/Venus"
 {
-	LongLat	[ -335 80.5 0 ]
+	LongLat	[ 25 80.5 0 ]
 	Size	600
 	Type	"VA"
 }
 
 Location "Kumba" "Sol/Venus"
 {
-	LongLat	[ -332.7 -26.3 0 ]
+	LongLat	[ 27.3 -26.3 0 ]
 	Size	11.4
 	Type	"AA"
 }
@@ -6234,14 +6234,14 @@ Location "Kunhild Corona" "Sol/Venus"
 
 Location "Kunkubey Fluctus" "Sol/Venus"
 {
-	LongLat	[ -207 50 0 ]
+	LongLat	[ 153 50 0 ]
 	Size	350
 	Type	"FL"
 }
 
 Location "Kupo Patera" "Sol/Venus"
 {
-	LongLat	[ -195.5 41.9 0 ]
+	LongLat	[ 164.5 41.9 0 ]
 	Size	100
 	Type	"PE"
 }
@@ -6276,7 +6276,7 @@ Location "Kvasha Patera" "Sol/Venus"
 
 Location "Kwannon Tholus" "Sol/Venus"
 {
-	LongLat	[ -296.8 26.3 0 ]
+	LongLat	[ 63.2 26.3 0 ]
 	Size	135
 	Type	"TH"
 }
@@ -6297,14 +6297,14 @@ Location "Kylli" "Sol/Venus"
 
 Location "Lachappelle" "Sol/Venus"
 {
-	LongLat	[ -336.7 -26.7 0 ]
+	LongLat	[ 23.3 -26.7 0 ]
 	Size	36.8
 	Type	"AA"
 }
 
 Location "Lachesis Tessera" "Sol/Venus"
 {
-	LongLat	[ -300.1 -44.4 0 ]
+	LongLat	[ 59.9 -44.4 0 ]
 	Size	664
 	Type	"TE"
 }
@@ -6325,7 +6325,7 @@ Location "La Fayette" "Sol/Venus"
 
 Location "Lagerlöf" "Sol/Venus"
 {
-	LongLat	[ -285.2 -81.2 0 ]
+	LongLat	[ 74.8 -81.2 0 ]
 	Size	56
 	Type	"AA"
 }
@@ -6339,7 +6339,7 @@ Location "Lahar Mons" "Sol/Venus"
 
 Location "Lahevhev Tesserae" "Sol/Venus"
 {
-	LongLat	[ -189 -29 0 ]
+	LongLat	[ 171 -29 0 ]
 	Size	1300
 	Type	"TE"
 }
@@ -6367,21 +6367,21 @@ Location "Laimdota Planitia" "Sol/Venus"
 
 Location "Laka Mons" "Sol/Venus"
 {
-	LongLat	[ -262 -79.9 0 ]
+	LongLat	[ 98 -79.9 0 ]
 	Size	220
 	Type	"MO"
 }
 
 Location "Lakshmi Planum" "Sol/Venus"
 {
-	LongLat	[ -339.3 -68.6 0 ]
+	LongLat	[ 20.7 -68.6 0 ]
 	Size	2345
 	Type	"PM"
 }
 
 Location "Lalohonua Corona" "Sol/Venus"
 {
-	LongLat	[ -250.5 24 0 ]
+	LongLat	[ 109.5 24 0 ]
 	Size	460
 	Type	"CR"
 }
@@ -6395,14 +6395,14 @@ Location "Lamashtu Mons" "Sol/Venus"
 
 Location "Lama Tholus" "Sol/Venus"
 {
-	LongLat	[ -266 -7.8 0 ]
+	LongLat	[ 94 -7.8 0 ]
 	Size	110
 	Type	"TH"
 }
 
 Location "Lampedo Linea" "Sol/Venus"
 {
-	LongLat	[ -293 -62.2 0 ]
+	LongLat	[ 67 -62.2 0 ]
 	Size	800
 	Type	"LI"
 }
@@ -6458,21 +6458,21 @@ Location "Latmikaik Corona" "Sol/Venus"
 
 Location "Latona Chasma" "Sol/Venus"
 {
-	LongLat	[ -267.5 -26 0 ]
+	LongLat	[ 92.5 -26 0 ]
 	Size	530
 	Type	"CM"
 }
 
 Location "Latta Corona" "Sol/Venus"
 {
-	LongLat	[ -287 38.6 0 ]
+	LongLat	[ 73 38.6 0 ]
 	Size	225
 	Type	"CR"
 }
 
 Location "LAUFEY REGIO" "Sol/Venus"
 {
-	LongLat	[ -315 -7 0 ]
+	LongLat	[ 45 -7 0 ]
 	Size	2100
 	Type	"RE"
 }
@@ -6486,7 +6486,7 @@ Location "Laulani" "Sol/Venus"
 
 Location "Laūma Dorsa" "Sol/Venus"
 {
-	LongLat	[ -190.4 -64.8 0 ]
+	LongLat	[ 169.6 -64.8 0 ]
 	Size	1517
 	Type	"DO"
 }
@@ -6514,7 +6514,7 @@ Location "Laverna Dorsa" "Sol/Venus"
 
 Location "Lavinia Planitia" "Sol/Venus"
 {
-	LongLat	[ -347.5 47.3 0 ]
+	LongLat	[ 12.5 47.3 0 ]
 	Size	2820
 	Type	"PL"
 }
@@ -6528,7 +6528,7 @@ Location "Lazarus" "Sol/Venus"
 
 Location "Leah" "Sol/Venus"
 {
-	LongLat	[ -187.8 34.2 0 ]
+	LongLat	[ 172.2 34.2 0 ]
 	Size	12
 	Type	"AA"
 }
@@ -6549,7 +6549,7 @@ Location "Leda Planitia" "Sol/Venus"
 
 Location "Ledoux Patera" "Sol/Venus"
 {
-	LongLat	[ -224.8 9.2 0 ]
+	LongLat	[ 135.2 9.2 0 ]
 	Size	75
 	Type	"PE"
 }
@@ -6563,7 +6563,7 @@ Location "Lehmann" "Sol/Venus"
 
 Location "Leida" "Sol/Venus"
 {
-	LongLat	[ -266.6 23.3 0 ]
+	LongLat	[ 93.4 23.3 0 ]
 	Size	18.8
 	Type	"AA"
 }
@@ -6591,14 +6591,14 @@ Location "Lena" "Sol/Venus"
 
 Location "Lengdin Corona" "Sol/Venus"
 {
-	LongLat	[ -223 -2.5 0 ]
+	LongLat	[ 137 -2.5 0 ]
 	Size	525
 	Type	"CR"
 }
 
 Location "Lenore" "Sol/Venus"
 {
-	LongLat	[ -292.2 -38.7 0 ]
+	LongLat	[ 67.8 -38.7 0 ]
 	Size	15.5
 	Type	"AA"
 }
@@ -6612,14 +6612,14 @@ Location "Leona" "Sol/Venus"
 
 Location "Leonard" "Sol/Venus"
 {
-	LongLat	[ -185.2 73.8 0 ]
+	LongLat	[ 174.8 73.8 0 ]
 	Size	31.7
 	Type	"AA"
 }
 
 Location "Lesavka Chasma" "Sol/Venus"
 {
-	LongLat	[ -215 0.8 0 ]
+	LongLat	[ 145 0.8 0 ]
 	Size	800
 	Type	"CM"
 }
@@ -6633,21 +6633,21 @@ Location "Leslie" "Sol/Venus"
 
 Location "Letitia" "Sol/Venus"
 {
-	LongLat	[ -288.7 -34.5 0 ]
+	LongLat	[ 71.3 -34.5 0 ]
 	Size	17.5
 	Type	"AA"
 }
 
 Location "Leyster" "Sol/Venus"
 {
-	LongLat	[ -260 -1 0 ]
+	LongLat	[ 100 -1 0 ]
 	Size	45.8
 	Type	"AA"
 }
 
 Location "Lhagva" "Sol/Venus"
 {
-	LongLat	[ -300.1 75.8 0 ]
+	LongLat	[ 59.9 75.8 0 ]
 	Size	7.9
 	Type	"AA"
 }
@@ -6661,14 +6661,14 @@ Location "Lhamo Tessera" "Sol/Venus"
 
 Location "Liban Farra" "Sol/Venus"
 {
-	LongLat	[ -353.5 23.9 0 ]
+	LongLat	[ 6.5 23.9 0 ]
 	Size	100
 	Type	"FR"
 }
 
 Location "Libby Patera" "Sol/Venus"
 {
-	LongLat	[ -199.5 34.5 0 ]
+	LongLat	[ 160.5 34.5 0 ]
 	Size	90
 	Type	"PE"
 }
@@ -6682,14 +6682,14 @@ Location "Libera Corona" "Sol/Venus"
 
 Location "Libuše Planitia" "Sol/Venus"
 {
-	LongLat	[ -290 -60 0 ]
+	LongLat	[ 70 -60 0 ]
 	Size	1200
 	Type	"PL"
 }
 
 Location "Lida" "Sol/Venus"
 {
-	LongLat	[ -273.9 -36.6 0 ]
+	LongLat	[ 86.1 -36.6 0 ]
 	Size	20.3
 	Type	"AA"
 }
@@ -6703,7 +6703,7 @@ Location "Likho Tesserae" "Sol/Venus"
 
 Location "Lilian" "Sol/Venus"
 {
-	LongLat	[ -336 -25.6 0 ]
+	LongLat	[ 24 -25.6 0 ]
 	Size	13.5
 	Type	"AA"
 }
@@ -6717,14 +6717,14 @@ Location "Liliya" "Sol/Venus"
 
 Location "Lilwani Corona" "Sol/Venus"
 {
-	LongLat	[ -271.5 29.5 0 ]
+	LongLat	[ 88.5 29.5 0 ]
 	Size	500
 	Type	"CR"
 }
 
 Location "Lind" "Sol/Venus"
 {
-	LongLat	[ -355 -50.2 0 ]
+	LongLat	[ 5 -50.2 0 ]
 	Size	25.8
 	Type	"AA"
 }
@@ -6738,14 +6738,14 @@ Location "Linda" "Sol/Venus"
 
 Location "Lindgren Patera" "Sol/Venus"
 {
-	LongLat	[ -241.4 -28.1 0 ]
+	LongLat	[ 118.6 -28.1 0 ]
 	Size	110
 	Type	"PE"
 }
 
 Location "Lineta" "Sol/Venus"
 {
-	LongLat	[ -354.1 5 0 ]
+	LongLat	[ 5.9 5 0 ]
 	Size	15.6
 	Type	"AA"
 }
@@ -6759,14 +6759,14 @@ Location "Li Qingzhao" "Sol/Venus"
 
 Location "Lisa" "Sol/Venus"
 {
-	LongLat	[ -182 -29 0 ]
+	LongLat	[ 178 -29 0 ]
 	Size	4.5
 	Type	"AA"
 }
 
 Location "Liv" "Sol/Venus"
 {
-	LongLat	[ -303.9 21.1 0 ]
+	LongLat	[ 56.1 21.1 0 ]
 	Size	11.2
 	Type	"AA"
 }
@@ -6794,14 +6794,14 @@ Location "Lockwood" "Sol/Venus"
 
 Location "Lois" "Sol/Venus"
 {
-	LongLat	[ -214.7 17.9 0 ]
+	LongLat	[ 145.3 17.9 0 ]
 	Size	13.5
 	Type	"AA"
 }
 
 Location "Lonsdale" "Sol/Venus"
 {
-	LongLat	[ -222.4 -55.6 0 ]
+	LongLat	[ 137.6 -55.6 0 ]
 	Size	43
 	Type	"AA"
 }
@@ -6815,7 +6815,7 @@ Location "Loo-Wit Mons" "Sol/Venus"
 
 Location "Loretta" "Sol/Venus"
 {
-	LongLat	[ -202.6 19.7 0 ]
+	LongLat	[ 157.4 19.7 0 ]
 	Size	13.5
 	Type	"AA"
 }
@@ -6829,7 +6829,7 @@ Location "Lo Shen Valles" "Sol/Venus"
 
 Location "Lotta" "Sol/Venus"
 {
-	LongLat	[ -335.9 -51.1 0 ]
+	LongLat	[ 24.1 -51.1 0 ]
 	Size	11.8
 	Type	"AA"
 }
@@ -6857,7 +6857,7 @@ Location "Lucia" "Sol/Venus"
 
 Location "Ludjatako Corona" "Sol/Venus"
 {
-	LongLat	[ -250.5 12.5 0 ]
+	LongLat	[ 109.5 12.5 0 ]
 	Size	300
 	Type	"CR"
 }
@@ -6878,7 +6878,7 @@ Location "Lullin" "Sol/Venus"
 
 Location "Lumimuut Corona" "Sol/Venus"
 {
-	LongLat	[ -234.5 11.5 0 ]
+	LongLat	[ 125.5 11.5 0 ]
 	Size	230
 	Type	"CR"
 }
@@ -6892,7 +6892,7 @@ Location "Lumo Dorsa" "Sol/Venus"
 
 Location "Lunang Vallis" "Sol/Venus"
 {
-	LongLat	[ -310 -68.2 0 ]
+	LongLat	[ 50 -68.2 0 ]
 	Size	250
 	Type	"VA"
 }
@@ -6906,35 +6906,35 @@ Location "Lusaber Vallis" "Sol/Venus"
 
 Location "Lu Zhi" "Sol/Venus"
 {
-	LongLat	[ -303.4 42.6 0 ]
+	LongLat	[ 56.6 42.6 0 ]
 	Size	8.3
 	Type	"AA"
 }
 
 Location "Lydia" "Sol/Venus"
 {
-	LongLat	[ -340.7 -10.7 0 ]
+	LongLat	[ 19.3 -10.7 0 ]
 	Size	15.2
 	Type	"AA"
 }
 
 Location "Lyon" "Sol/Venus"
 {
-	LongLat	[ -270.6 66.5 0 ]
+	LongLat	[ 89.4 66.5 0 ]
 	Size	12.4
 	Type	"AA"
 }
 
 Location "Lyuba" "Sol/Venus"
 {
-	LongLat	[ -283.9 -1.6 0 ]
+	LongLat	[ 76.1 -1.6 0 ]
 	Size	12.4
 	Type	"AA"
 }
 
 Location "Lyudmila" "Sol/Venus"
 {
-	LongLat	[ -329.7 -62.1 0 ]
+	LongLat	[ 30.3 -62.1 0 ]
 	Size	14.1
 	Type	"AA"
 }
@@ -6948,14 +6948,14 @@ Location "Maa-Ema Corona" "Sol/Venus"
 
 Location "Maa-Ling" "Sol/Venus"
 {
-	LongLat	[ -359.5 14.7 0 ]
+	LongLat	[ 0.5 14.7 0 ]
 	Size	6
 	Type	"AA"
 }
 
 Location "Maat Mons" "Sol/Venus"
 {
-	LongLat	[ -194.6 -0.5 0 ]
+	LongLat	[ 165.4 -0.5 0 ]
 	Size	395
 	Type	"MO"
 }
@@ -6976,21 +6976,21 @@ Location "Ma Corona" "Sol/Venus"
 
 Location "Madalait Corona" "Sol/Venus"
 {
-	LongLat	[ -206.4 -37.6 0 ]
+	LongLat	[ 153.6 -37.6 0 ]
 	Size	150
 	Type	"CR"
 }
 
 Location "Madderakka Corona" "Sol/Venus"
 {
-	LongLat	[ -315.5 -9 0 ]
+	LongLat	[ 44.5 -9 0 ]
 	Size	220
 	Type	"CR"
 }
 
 Location "Madeleine" "Sol/Venus"
 {
-	LongLat	[ -293.2 4.7 0 ]
+	LongLat	[ 66.8 4.7 0 ]
 	Size	16
 	Type	"AA"
 }
@@ -7004,7 +7004,7 @@ Location "Madina" "Sol/Venus"
 
 Location "Mae" "Sol/Venus"
 {
-	LongLat	[ -345.2 40.5 0 ]
+	LongLat	[ 14.8 40.5 0 ]
 	Size	7.5
 	Type	"AA"
 }
@@ -7018,7 +7018,7 @@ Location "Mafdet Tessera" "Sol/Venus"
 
 Location "Magda" "Sol/Venus"
 {
-	LongLat	[ -329.7 -67 0 ]
+	LongLat	[ 30.3 -67 0 ]
 	Size	10.1
 	Type	"AA"
 }
@@ -7032,7 +7032,7 @@ Location "Magdalena" "Sol/Venus"
 
 Location "Magnani" "Sol/Venus"
 {
-	LongLat	[ -337.2 -58.6 0 ]
+	LongLat	[ 22.8 -58.6 0 ]
 	Size	26.4
 	Type	"AA"
 }
@@ -7046,21 +7046,21 @@ Location "Mago-Halmi Tesserae" "Sol/Venus"
 
 Location "Magura Fossae" "Sol/Venus"
 {
-	LongLat	[ -332.5 12 0 ]
+	LongLat	[ 27.5 12 0 ]
 	Size	600
 	Type	"FO"
 }
 
 Location "Magu Tessera" "Sol/Venus"
 {
-	LongLat	[ -305 52 0 ]
+	LongLat	[ 55 52 0 ]
 	Size	300
 	Type	"TE"
 }
 
 Location "Mahina" "Sol/Venus"
 {
-	LongLat	[ -182.2 2 0 ]
+	LongLat	[ 177.8 2 0 ]
 	Size	15.4
 	Type	"AA"
 }
@@ -7088,7 +7088,7 @@ Location "Makola" "Sol/Venus"
 
 Location "Malibran Patera" "Sol/Venus"
 {
-	LongLat	[ -224.6 18.4 0 ]
+	LongLat	[ 135.4 18.4 0 ]
 	Size	60
 	Type	"PE"
 }
@@ -7116,14 +7116,14 @@ Location "Mama-Allpa Corona" "Sol/Venus"
 
 Location "Mamajan" "Sol/Venus"
 {
-	LongLat	[ -257.3 65.1 0 ]
+	LongLat	[ 102.7 65.1 0 ]
 	Size	2
 	Type	"AA"
 }
 
 Location "Mamapacha Fluctus" "Sol/Venus"
 {
-	LongLat	[ -185 -60 0 ]
+	LongLat	[ 175 -60 0 ]
 	Size	900
 	Type	"FL"
 }
@@ -7151,7 +7151,7 @@ Location "Mansa" "Sol/Venus"
 
 Location "Mansfield Patera" "Sol/Venus"
 {
-	LongLat	[ -227.5 -29.5 0 ]
+	LongLat	[ 132.5 -29.5 0 ]
 	Size	80
 	Type	"PE"
 }
@@ -7172,7 +7172,7 @@ Location "Manton" "Sol/Venus"
 
 Location "Manzan-Gurme Tesserae" "Sol/Venus"
 {
-	LongLat	[ -359.5 -39 0 ]
+	LongLat	[ 0.5 -39 0 ]
 	Size	1354
 	Type	"TE"
 }
@@ -7186,14 +7186,14 @@ Location "Manzolini" "Sol/Venus"
 
 Location "Marake Colles" "Sol/Venus"
 {
-	LongLat	[ -217.8 -55.7 0 ]
+	LongLat	[ 142.2 -55.7 0 ]
 	Size	150
 	Type	"CO"
 }
 
 Location "Maram Corona" "Sol/Venus"
 {
-	LongLat	[ -221.5 7.5 0 ]
+	LongLat	[ 138.5 7.5 0 ]
 	Size	600
 	Type	"CR"
 }
@@ -7221,7 +7221,7 @@ Location "Marere" "Sol/Venus"
 
 Location "Maret" "Sol/Venus"
 {
-	LongLat	[ -280.2 33.3 0 ]
+	LongLat	[ 79.8 33.3 0 ]
 	Size	11.7
 	Type	"AA"
 }
@@ -7235,7 +7235,7 @@ Location "Margarita" "Sol/Venus"
 
 Location "Margit" "Sol/Venus"
 {
-	LongLat	[ -273.1 -60.1 0 ]
+	LongLat	[ 86.9 -60.1 0 ]
 	Size	14
 	Type	"AA"
 }
@@ -7249,7 +7249,7 @@ Location "Maria Celeste" "Sol/Venus"
 
 Location "Marianne" "Sol/Venus"
 {
-	LongLat	[ -358 -9.3 0 ]
+	LongLat	[ 2 -9.3 0 ]
 	Size	9
 	Type	"AA"
 }
@@ -7263,7 +7263,7 @@ Location "Mari Corona" "Sol/Venus"
 
 Location "Marie" "Sol/Venus"
 {
-	LongLat	[ -232.4 21.7 0 ]
+	LongLat	[ 127.6 21.7 0 ]
 	Size	14.2
 	Type	"AA"
 }
@@ -7312,7 +7312,7 @@ Location "Marysya" "Sol/Venus"
 
 Location "Marzhan" "Sol/Venus"
 {
-	LongLat	[ -248.3 58.9 0 ]
+	LongLat	[ 111.7 58.9 0 ]
 	Size	13.8
 	Type	"AA"
 }
@@ -7333,7 +7333,7 @@ Location "Masako" "Sol/Venus"
 
 Location "Masateotl Corona" "Sol/Venus"
 {
-	LongLat	[ -244 53 0 ]
+	LongLat	[ 116 53 0 ]
 	Size	180
 	Type	"CR"
 }
@@ -7354,7 +7354,7 @@ Location "Ma Shouzhen" "Sol/Venus"
 
 Location "Maslenitsa Corona" "Sol/Venus"
 {
-	LongLat	[ -202.5 -77 0 ]
+	LongLat	[ 157.5 -77 0 ]
 	Size	350
 	Type	"CR"
 }
@@ -7382,7 +7382,7 @@ Location "Maurea" "Sol/Venus"
 
 Location "Mawu Corona" "Sol/Venus"
 {
-	LongLat	[ -241.3 -31.7 0 ]
+	LongLat	[ 118.7 -31.7 0 ]
 	Size	295
 	Type	"CR"
 }
@@ -7417,7 +7417,7 @@ Location "May-Enensi Corona" "Sol/Venus"
 
 Location "Mbokomu Mons" "Sol/Venus"
 {
-	LongLat	[ -215.2 15.1 0 ]
+	LongLat	[ 144.8 15.1 0 ]
 	Size	460
 	Type	"MO"
 }
@@ -7466,21 +7466,21 @@ Location "Megan" "Sol/Venus"
 
 Location "Mehseti Patera" "Sol/Venus"
 {
-	LongLat	[ -311 -16 0 ]
+	LongLat	[ 49 -16 0 ]
 	Size	60
 	Type	"PE"
 }
 
 Location "Meiboia Tholus" "Sol/Venus"
 {
-	LongLat	[ -281.3 44.7 0 ]
+	LongLat	[ 78.7 44.7 0 ]
 	Size	85
 	Type	"TH"
 }
 
 Location "Meitner" "Sol/Venus"
 {
-	LongLat	[ -321.6 55.6 0 ]
+	LongLat	[ 38.4 55.6 0 ]
 	Size	149
 	Type	"AA"
 }
@@ -7501,7 +7501,7 @@ Location "Melanka" "Sol/Venus"
 
 Location "Melba" "Sol/Venus"
 {
-	LongLat	[ -193.5 -4.7 0 ]
+	LongLat	[ 166.5 -4.7 0 ]
 	Size	21.8
 	Type	"AA"
 }
@@ -7515,14 +7515,14 @@ Location "Melia Mons" "Sol/Venus"
 
 Location "Melina" "Sol/Venus"
 {
-	LongLat	[ -319.5 69.9 0 ]
+	LongLat	[ 40.5 69.9 0 ]
 	Size	12.7
 	Type	"AA"
 }
 
 Location "Mem Loimis Mons" "Sol/Venus"
 {
-	LongLat	[ -209 -9.5 0 ]
+	LongLat	[ 151 -9.5 0 ]
 	Size	300
 	Type	"MO"
 }
@@ -7536,7 +7536,7 @@ Location "Mena Colles" "Sol/Venus"
 
 Location "Menat Undae" "Sol/Venus"
 {
-	LongLat	[ -339.4 24.8 0 ]
+	LongLat	[ 20.6 24.8 0 ]
 	Size	100
 	Type	"UN"
 }
@@ -7550,14 +7550,14 @@ Location "Meni Tessera" "Sol/Venus"
 
 Location "Menkerot Dorsa" "Sol/Venus"
 {
-	LongLat	[ -351.5 20 0 ]
+	LongLat	[ 8.5 20 0 ]
 	Size	770
 	Type	"DO"
 }
 
 Location "Mentha Tholus" "Sol/Venus"
 {
-	LongLat	[ -237.3 -43 0 ]
+	LongLat	[ 122.7 -43 0 ]
 	Size	79
 	Type	"TH"
 }
@@ -7571,7 +7571,7 @@ Location "Merak Vallis" "Sol/Venus"
 
 Location "Meredith" "Sol/Venus"
 {
-	LongLat	[ -278.9 14.5 0 ]
+	LongLat	[ 81.1 14.5 0 ]
 	Size	11.4
 	Type	"AA"
 }
@@ -7599,21 +7599,21 @@ Location "Merit Ptah" "Sol/Venus"
 
 Location "Mert Fluctus" "Sol/Venus"
 {
-	LongLat	[ -230.5 50.5 0 ]
+	LongLat	[ 129.5 50.5 0 ]
 	Size	250
 	Type	"FL"
 }
 
 Location "Mertseger Mons" "Sol/Venus"
 {
-	LongLat	[ -270.3 38.1 0 ]
+	LongLat	[ 89.7 38.1 0 ]
 	Size	450
 	Type	"MO"
 }
 
 Location "Mesca Corona" "Sol/Venus"
 {
-	LongLat	[ -342.6 -27 0 ]
+	LongLat	[ 17.4 -27 0 ]
 	Size	190
 	Type	"CR"
 }
@@ -7634,7 +7634,7 @@ Location "Metelitsa Dorsa" "Sol/Venus"
 
 Location "Metis Mons" "Sol/Venus"
 {
-	LongLat	[ -253 -71 0 ]
+	LongLat	[ 107 -71 0 ]
 	Size	920
 	Type	"MO"
 }
@@ -7669,21 +7669,21 @@ Location "Michelle" "Sol/Venus"
 
 Location "Mielikki Mons" "Sol/Venus"
 {
-	LongLat	[ -280.5 27.8 0 ]
+	LongLat	[ 79.5 27.8 0 ]
 	Size	450
 	Type	"MO"
 }
 
 Location "Migazesh Colles" "Sol/Venus"
 {
-	LongLat	[ -198 49 0 ]
+	LongLat	[ 162 49 0 ]
 	Size	230
 	Type	"CO"
 }
 
 Location "Mikhaylova Patera" "Sol/Venus"
 {
-	LongLat	[ -348.2 26.8 0 ]
+	LongLat	[ 11.8 26.8 0 ]
 	Size	70
 	Type	"PE"
 }
@@ -7697,7 +7697,7 @@ Location "Milda Mons" "Sol/Venus"
 
 Location "Mildred" "Sol/Venus"
 {
-	LongLat	[ -348.3 51.7 0 ]
+	LongLat	[ 11.7 51.7 0 ]
 	Size	12
 	Type	"AA"
 }
@@ -7711,14 +7711,14 @@ Location "Millay" "Sol/Venus"
 
 Location "Minerva Fossae" "Sol/Venus"
 {
-	LongLat	[ -252.5 -64.5 0 ]
+	LongLat	[ 107.5 -64.5 0 ]
 	Size	750
 	Type	"FO"
 }
 
 Location "Minona Corona" "Sol/Venus"
 {
-	LongLat	[ -218.5 -23.5 0 ]
+	LongLat	[ 141.5 -23.5 0 ]
 	Size	130
 	Type	"CR"
 }
@@ -7739,7 +7739,7 @@ Location "Miovasu" "Sol/Venus"
 
 Location "Mirabeau" "Sol/Venus"
 {
-	LongLat	[ -284.3 -1.1 0 ]
+	LongLat	[ 75.7 -1.1 0 ]
 	Size	23.8
 	Type	"AA"
 }
@@ -7760,28 +7760,28 @@ Location "Miriam" "Sol/Venus"
 
 Location "Mirizir Corona" "Sol/Venus"
 {
-	LongLat	[ -185 66.4 0 ]
+	LongLat	[ 175 66.4 0 ]
 	Size	70
 	Type	"CR"
 }
 
 Location "Misne Chasma" "Sol/Venus"
 {
-	LongLat	[ -316.5 -78.3 0 ]
+	LongLat	[ 43.5 -78.3 0 ]
 	Size	610
 	Type	"CM"
 }
 
 Location "Mist Chasma" "Sol/Venus"
 {
-	LongLat	[ -247.3 -39.5 0 ]
+	LongLat	[ 112.7 -39.5 0 ]
 	Size	244
 	Type	"CM"
 }
 
 Location "Miti Corona" "Sol/Venus"
 {
-	LongLat	[ -259.8 3.5 0 ]
+	LongLat	[ 100.2 3.5 0 ]
 	Size	180
 	Type	"CR"
 }
@@ -7795,35 +7795,35 @@ Location "Modron Corona" "Sol/Venus"
 
 Location "Moira Tessera" "Sol/Venus"
 {
-	LongLat	[ -310.5 -58.7 0 ]
+	LongLat	[ 49.5 -58.7 0 ]
 	Size	361
 	Type	"TE"
 }
 
 Location "Mokosha Mons" "Sol/Venus"
 {
-	LongLat	[ -255 -57.7 0 ]
+	LongLat	[ 105 -57.7 0 ]
 	Size	270
 	Type	"MO"
 }
 
 Location "Molpadia Linea" "Sol/Venus"
 {
-	LongLat	[ -355 48 0 ]
+	LongLat	[ 5 48 0 ]
 	Size	1300
 	Type	"LI"
 }
 
 Location "Molpe Colles" "Sol/Venus"
 {
-	LongLat	[ -192 -76 0 ]
+	LongLat	[ 168 -76 0 ]
 	Size	548
 	Type	"CO"
 }
 
 Location "Momu Coronae" "Sol/Venus"
 {
-	LongLat	[ -220.3 21 0 ]
+	LongLat	[ 139.7 21 0 ]
 	Size	260
 	Type	"CR"
 }
@@ -7844,35 +7844,35 @@ Location "Monika" "Sol/Venus"
 
 Location "Monoshi Tholus" "Sol/Venus"
 {
-	LongLat	[ -252 37.7 0 ]
+	LongLat	[ 108 37.7 0 ]
 	Size	15
 	Type	"TH"
 }
 
 Location "Montessori" "Sol/Venus"
 {
-	LongLat	[ -280 -59.4 0 ]
+	LongLat	[ 80 -59.4 0 ]
 	Size	42.1
 	Type	"AA"
 }
 
 Location "Montez" "Sol/Venus"
 {
-	LongLat	[ -266.5 -17.9 0 ]
+	LongLat	[ 93.5 -17.9 0 ]
 	Size	21.1
 	Type	"AA"
 }
 
 Location "Moombi Corona" "Sol/Venus"
 {
-	LongLat	[ -235.5 64.5 0 ]
+	LongLat	[ 124.5 64.5 0 ]
 	Size	100
 	Type	"CR"
 }
 
 Location "Moore" "Sol/Venus"
 {
-	LongLat	[ -248.4 30.4 0 ]
+	LongLat	[ 111.6 30.4 0 ]
 	Size	21.1
 	Type	"AA"
 }
@@ -7886,7 +7886,7 @@ Location "Morana Chasma" "Sol/Venus"
 
 Location "Morisot" "Sol/Venus"
 {
-	LongLat	[ -211.3 61.2 0 ]
+	LongLat	[ 148.7 61.2 0 ]
 	Size	48
 	Type	"AA"
 }
@@ -7900,14 +7900,14 @@ Location "Morongo Valles" "Sol/Venus"
 
 Location "Morrigan Linea" "Sol/Venus"
 {
-	LongLat	[ -311 54.5 0 ]
+	LongLat	[ 49 54.5 0 ]
 	Size	3200
 	Type	"LI"
 }
 
 Location "Mortim-Ekva Fluctus" "Sol/Venus"
 {
-	LongLat	[ -334 -1 0 ]
+	LongLat	[ 26 -1 0 ]
 	Size	1250
 	Type	"FL"
 }
@@ -7942,7 +7942,7 @@ Location "Mou-nyamy Corona" "Sol/Venus"
 
 Location "Mowatt" "Sol/Venus"
 {
-	LongLat	[ -292.3 14.6 0 ]
+	LongLat	[ 67.7 14.6 0 ]
 	Size	38.4
 	Type	"AA"
 }
@@ -7984,7 +7984,7 @@ Location "Mukylchin Corona" "Sol/Venus"
 
 Location "Mumtaz-Mahal" "Sol/Venus"
 {
-	LongLat	[ -228.4 -30.3 0 ]
+	LongLat	[ 131.6 -30.3 0 ]
 	Size	38.2
 	Type	"AA"
 }
@@ -8005,21 +8005,21 @@ Location "Muriel" "Sol/Venus"
 
 Location "Muru Tholus" "Sol/Venus"
 {
-	LongLat	[ -305.5 9 0 ]
+	LongLat	[ 54.5 9 0 ]
 	Size	40
 	Type	"TH"
 }
 
 Location "Muta Mons" "Sol/Venus"
 {
-	LongLat	[ -358.3 -55.5 0 ]
+	LongLat	[ 1.7 -55.5 0 ]
 	Size	54
 	Type	"MO"
 }
 
 Location "Muzamuza Corona" "Sol/Venus"
 {
-	LongLat	[ -205.4 -65.6 0 ]
+	LongLat	[ 154.6 -65.6 0 ]
 	Size	163
 	Type	"CR"
 }
@@ -8033,14 +8033,14 @@ Location "Mykh-Imi Corona" "Sol/Venus"
 
 Location "Mylitta Fluctus" "Sol/Venus"
 {
-	LongLat	[ -355.5 54 0 ]
+	LongLat	[ 4.5 54 0 ]
 	Size	1250
 	Type	"FL"
 }
 
 Location "Naatse-elit Dorsa" "Sol/Venus"
 {
-	LongLat	[ -249 66 0 ]
+	LongLat	[ 111 66 0 ]
 	Size	950
 	Type	"DO"
 }
@@ -8054,7 +8054,7 @@ Location "Nabuzana Corona" "Sol/Venus"
 
 Location "Nadeyka" "Sol/Venus"
 {
-	LongLat	[ -305.3 54.8 0 ]
+	LongLat	[ 54.7 54.8 0 ]
 	Size	9.3
 	Type	"AA"
 }
@@ -8068,21 +8068,21 @@ Location "Nadia" "Sol/Venus"
 
 Location "Nadine" "Sol/Venus"
 {
-	LongLat	[ -359.1 -7.8 0 ]
+	LongLat	[ 0.9 -7.8 0 ]
 	Size	18.6
 	Type	"AA"
 }
 
 Location "Nadira" "Sol/Venus"
 {
-	LongLat	[ -201.5 -44.1 0 ]
+	LongLat	[ 158.5 -44.1 0 ]
 	Size	31.4
 	Type	"AA"
 }
 
 Location "Nagavonyi Corona" "Sol/Venus"
 {
-	LongLat	[ -259 18.5 0 ]
+	LongLat	[ 101 18.5 0 ]
 	Size	190
 	Type	"CR"
 }
@@ -8096,14 +8096,14 @@ Location "Naguchitsa Fossae" "Sol/Venus"
 
 Location "Nahas-tsan Mons" "Sol/Venus"
 {
-	LongLat	[ -205 -14 0 ]
+	LongLat	[ 155 -14 0 ]
 	Size	500
 	Type	"MO"
 }
 
 Location "Nahete Colles" "Sol/Venus"
 {
-	LongLat	[ -241 -38 0 ]
+	LongLat	[ 119 -38 0 ]
 	Size	400
 	Type	"CO"
 }
@@ -8117,42 +8117,42 @@ Location "Nahid Valles" "Sol/Venus"
 
 Location "Naijok Fossae" "Sol/Venus"
 {
-	LongLat	[ -337 70.2 0 ]
+	LongLat	[ 23 70.2 0 ]
 	Size	450
 	Type	"FO"
 }
 
 Location "Nakai" "Sol/Venus"
 {
-	LongLat	[ -286.2 61 0 ]
+	LongLat	[ 73.8 61 0 ]
 	Size	4.5
 	Type	"AA"
 }
 
 Location "Nalkowska" "Sol/Venus"
 {
-	LongLat	[ -290 -28.1 0 ]
+	LongLat	[ 70 -28.1 0 ]
 	Size	22.2
 	Type	"AA"
 }
 
 Location "Nalkuta" "Sol/Venus"
 {
-	LongLat	[ -307.8 -30.1 0 ]
+	LongLat	[ 52.2 -30.1 0 ]
 	Size	6.5
 	Type	"AA"
 }
 
 Location "Nalwanga Corona" "Sol/Venus"
 {
-	LongLat	[ -247 -48.7 0 ]
+	LongLat	[ 113 -48.7 0 ]
 	Size	380
 	Type	"CR"
 }
 
 Location "Nambi Dorsum" "Sol/Venus"
 {
-	LongLat	[ -213 72.5 0 ]
+	LongLat	[ 147 72.5 0 ]
 	Size	1125
 	Type	"DO"
 }
@@ -8201,42 +8201,42 @@ Location "Nana-Buluku Coronae" "Sol/Venus"
 
 Location "Nancy" "Sol/Venus"
 {
-	LongLat	[ -272.2 -6.4 0 ]
+	LongLat	[ 87.8 -6.4 0 ]
 	Size	4.4
 	Type	"AA"
 }
 
 Location "Nanen Corona" "Sol/Venus"
 {
-	LongLat	[ -198.5 -69.9 0 ]
+	LongLat	[ 161.5 -69.9 0 ]
 	Size	50
 	Type	"CR"
 }
 
 Location "Nang-byon Chasma" "Sol/Venus"
 {
-	LongLat	[ -316.5 -4 0 ]
+	LongLat	[ 43.5 -4 0 ]
 	Size	450
 	Type	"CM"
 }
 
 Location "Nang Pao Corona" "Sol/Venus"
 {
-	LongLat	[ -204.5 47 0 ]
+	LongLat	[ 155.5 47 0 ]
 	Size	160
 	Type	"CR"
 }
 
 Location "Nanichi" "Sol/Venus"
 {
-	LongLat	[ -337.8 44.8 0 ]
+	LongLat	[ 22.2 44.8 0 ]
 	Size	19
 	Type	"AA"
 }
 
 Location "Nantosuelta Vallis" "Sol/Venus"
 {
-	LongLat	[ -193 61.9 0 ]
+	LongLat	[ 167 61.9 0 ]
 	Size	320
 	Type	"VA"
 }
@@ -8250,14 +8250,14 @@ Location "Naomi" "Sol/Venus"
 
 Location "Naotsete Corona" "Sol/Venus"
 {
-	LongLat	[ -249.5 58.3 0 ]
+	LongLat	[ 110.5 58.3 0 ]
 	Size	200
 	Type	"CR"
 }
 
 Location "Naran Dorsa" "Sol/Venus"
 {
-	LongLat	[ -238 54 0 ]
+	LongLat	[ 122 54 0 ]
 	Size	600
 	Type	"DO"
 }
@@ -8271,28 +8271,28 @@ Location "Narina Tholi" "Sol/Venus"
 
 Location "Narundi Fossae" "Sol/Venus"
 {
-	LongLat	[ -329 66.5 0 ]
+	LongLat	[ 31 66.5 0 ]
 	Size	700
 	Type	"FO"
 }
 
 Location "Nastya" "Sol/Venus"
 {
-	LongLat	[ -275.8 49 0 ]
+	LongLat	[ 84.2 49 0 ]
 	Size	12.5
 	Type	"AA"
 }
 
 Location "Natalia" "Sol/Venus"
 {
-	LongLat	[ -272.9 -67.1 0 ]
+	LongLat	[ 87.1 -67.1 0 ]
 	Size	10.8
 	Type	"AA"
 }
 
 Location "Natami Dorsa" "Sol/Venus"
 {
-	LongLat	[ -258 71.5 0 ]
+	LongLat	[ 102 71.5 0 ]
 	Size	800
 	Type	"DO"
 }
@@ -8306,14 +8306,14 @@ Location "Naunet Fluctus" "Sol/Venus"
 
 Location "Navka Planitia" "Sol/Venus"
 {
-	LongLat	[ -317.6 8.1 0 ]
+	LongLat	[ 42.4 8.1 0 ]
 	Size	2100
 	Type	"PL"
 }
 
 Location "Navolga Corona" "Sol/Venus"
 {
-	LongLat	[ -296.5 48.6 0 ]
+	LongLat	[ 63.5 48.6 0 ]
 	Size	170
 	Type	"CR"
 }
@@ -8327,7 +8327,7 @@ Location "Nayunuwi Montes" "Sol/Venus"
 
 Location "Nazit Mons" "Sol/Venus"
 {
-	LongLat	[ -240 -22.5 0 ]
+	LongLat	[ 120 -22.5 0 ]
 	Size	350
 	Type	"MO"
 }
@@ -8348,42 +8348,42 @@ Location "Ndella" "Sol/Venus"
 
 Location "Ndoi Corona" "Sol/Venus"
 {
-	LongLat	[ -230.3 20.3 0 ]
+	LongLat	[ 129.7 20.3 0 ]
 	Size	225
 	Type	"CR"
 }
 
 Location "Neago Fluctūs" "Sol/Venus"
 {
-	LongLat	[ -351 -49.3 0 ]
+	LongLat	[ 9 -49.3 0 ]
 	Size	650
 	Type	"FL"
 }
 
 Location "Neda" "Sol/Venus"
 {
-	LongLat	[ -313.5 -16.7 0 ]
+	LongLat	[ 46.5 -16.7 0 ]
 	Size	7.7
 	Type	"AA"
 }
 
 Location "Nedko" "Sol/Venus"
 {
-	LongLat	[ -317.6 8.8 0 ]
+	LongLat	[ 42.4 8.8 0 ]
 	Size	8.5
 	Type	"AA"
 }
 
 Location "Nedolya Tesserae" "Sol/Venus"
 {
-	LongLat	[ -294 -5 0 ]
+	LongLat	[ 66 -5 0 ]
 	Size	1200
 	Type	"TE"
 }
 
 Location "Neegyauks Tholus" "Sol/Venus"
 {
-	LongLat	[ -200 68.6 0 ]
+	LongLat	[ 160 68.6 0 ]
 	Size	30
 	Type	"TH"
 }
@@ -8411,21 +8411,21 @@ Location "Nehalennia Corona" "Sol/Venus"
 
 Location "Nei-Teukez Corona" "Sol/Venus"
 {
-	LongLat	[ -258.8 -14.2 0 ]
+	LongLat	[ 101.2 -14.2 0 ]
 	Size	90
 	Type	"CR"
 }
 
 Location "Nekhebet Fluctus" "Sol/Venus"
 {
-	LongLat	[ -35 -0 0 ]
+	LongLat	[ -35 0 0 ]
 	Size	400
 	Type	"FL"
 }
 
 Location "Nelike" "Sol/Venus"
 {
-	LongLat	[ -329.2 26.8 0 ]
+	LongLat	[ 30.8 26.8 0 ]
 	Size	6.3
 	Type	"AA"
 }
@@ -8439,14 +8439,14 @@ Location "Němcová" "Sol/Venus"
 
 Location "Nemesis Tesserae" "Sol/Venus"
 {
-	LongLat	[ -181 -40 0 ]
+	LongLat	[ 179 -40 0 ]
 	Size	355
 	Type	"TE"
 }
 
 Location "Ne Ngam Mons" "Sol/Venus"
 {
-	LongLat	[ -257.5 43 0 ]
+	LongLat	[ 102.5 43 0 ]
 	Size	200
 	Type	"MO"
 }
@@ -8474,28 +8474,28 @@ Location "Nepret Corona" "Sol/Venus"
 
 Location "Nepthys Mons" "Sol/Venus"
 {
-	LongLat	[ -317.5 33 0 ]
+	LongLat	[ 42.5 33 0 ]
 	Size	350
 	Type	"MO"
 }
 
 Location "NERINGA REGIO" "Sol/Venus"
 {
-	LongLat	[ -288 65 0 ]
+	LongLat	[ 72 65 0 ]
 	Size	1100
 	Type	"RE"
 }
 
 Location "Nertus Tholus" "Sol/Venus"
 {
-	LongLat	[ -247.9 -61.2 0 ]
+	LongLat	[ 112.1 -61.2 0 ]
 	Size	66
 	Type	"TH"
 }
 
 Location "Nevelson" "Sol/Venus"
 {
-	LongLat	[ -307.8 35.3 0 ]
+	LongLat	[ 52.2 35.3 0 ]
 	Size	69.8
 	Type	"AA"
 }
@@ -8509,7 +8509,7 @@ Location "Ney-Anki Fluctus" "Sol/Venus"
 
 Location "Neyterkob Corona" "Sol/Venus"
 {
-	LongLat	[ -204.7 -49.7 0 ]
+	LongLat	[ 155.3 -49.7 0 ]
 	Size	211
 	Type	"CR"
 }
@@ -8523,7 +8523,7 @@ Location "Ngaio" "Sol/Venus"
 
 Location "Ngone" "Sol/Venus"
 {
-	LongLat	[ -331.9 -6 0 ]
+	LongLat	[ 28.1 -6 0 ]
 	Size	12.2
 	Type	"AA"
 }
@@ -8537,14 +8537,14 @@ Location "Ngyandu Vallis" "Sol/Venus"
 
 Location "Nichka Dorsa" "Sol/Venus"
 {
-	LongLat	[ -354 10 0 ]
+	LongLat	[ 6 10 0 ]
 	Size	550
 	Type	"DO"
 }
 
 Location "Nicole" "Sol/Venus"
 {
-	LongLat	[ -259.3 -48.4 0 ]
+	LongLat	[ 100.7 -48.4 0 ]
 	Size	6.4
 	Type	"AA"
 }
@@ -8565,56 +8565,56 @@ Location "Nijinskaya" "Sol/Venus"
 
 Location "Nijole Mons" "Sol/Venus"
 {
-	LongLat	[ -185 -45 0 ]
+	LongLat	[ 175 -45 0 ]
 	Size	150
 	Type	"MO"
 }
 
 Location "Nike Fossae" "Sol/Venus"
 {
-	LongLat	[ -340 59.5 0 ]
+	LongLat	[ 20 59.5 0 ]
 	Size	800
 	Type	"FO"
 }
 
 Location "Nikolaeva Patera" "Sol/Venus"
 {
-	LongLat	[ -267.5 -33.9 0 ]
+	LongLat	[ 92.5 -33.9 0 ]
 	Size	100
 	Type	"PE"
 }
 
 Location "Nilanti" "Sol/Venus"
 {
-	LongLat	[ -331.4 38.2 0 ]
+	LongLat	[ 28.6 38.2 0 ]
 	Size	9.2
 	Type	"AA"
 }
 
 Location "Nilsson" "Sol/Venus"
 {
-	LongLat	[ -277.6 75.9 0 ]
+	LongLat	[ 82.4 75.9 0 ]
 	Size	27.3
 	Type	"AA"
 }
 
 Location "Nimba Corona" "Sol/Venus"
 {
-	LongLat	[ -204.5 -32.8 0 ]
+	LongLat	[ 155.5 -32.8 0 ]
 	Size	88
 	Type	"CR"
 }
 
 Location "Nin" "Sol/Venus"
 {
-	LongLat	[ -266.4 3.9 0 ]
+	LongLat	[ 93.6 3.9 0 ]
 	Size	27.1
 	Type	"AA"
 }
 
 Location "Nina" "Sol/Venus"
 {
-	LongLat	[ -238.7 55.5 0 ]
+	LongLat	[ 121.3 55.5 0 ]
 	Size	24.6
 	Type	"AA"
 }
@@ -8628,7 +8628,7 @@ Location "Ningal Lineae" "Sol/Venus"
 
 Location "Ningyo Fluctus" "Sol/Venus"
 {
-	LongLat	[ -206 5.5 0 ]
+	LongLat	[ 154 5.5 0 ]
 	Size	970
 	Type	"FL"
 }
@@ -8642,14 +8642,14 @@ Location "Ninhursag Corona" "Sol/Venus"
 
 Location "Ninisinna Mons" "Sol/Venus"
 {
-	LongLat	[ -197.5 -25.7 0 ]
+	LongLat	[ 162.5 -25.7 0 ]
 	Size	110
 	Type	"MO"
 }
 
 Location "Ninkarraka Corona" "Sol/Venus"
 {
-	LongLat	[ -221 -65.3 0 ]
+	LongLat	[ 139 -65.3 0 ]
 	Size	150
 	Type	"CR"
 }
@@ -8670,7 +8670,7 @@ Location "Nintu Corona" "Sol/Venus"
 
 Location "Ninzi" "Sol/Venus"
 {
-	LongLat	[ -331.7 -15.9 0 ]
+	LongLat	[ 28.3 -15.9 0 ]
 	Size	7.1
 	Type	"AA"
 }
@@ -8684,7 +8684,7 @@ Location "Niobe Planitia" "Sol/Venus"
 
 Location "Nipa Tholus" "Sol/Venus"
 {
-	LongLat	[ -255.7 -8.4 0 ]
+	LongLat	[ 104.3 -8.4 0 ]
 	Size	140
 	Type	"TH"
 }
@@ -8705,21 +8705,21 @@ Location "Nishtigri Corona" "Sol/Venus"
 
 Location "Nissaba Corona" "Sol/Venus"
 {
-	LongLat	[ -355.5 -25.5 0 ]
+	LongLat	[ 4.5 -25.5 0 ]
 	Size	300
 	Type	"CR"
 }
 
 Location "Nofret" "Sol/Venus"
 {
-	LongLat	[ -252.2 58.8 0 ]
+	LongLat	[ 107.8 58.8 0 ]
 	Size	22.5
 	Type	"AA"
 }
 
 Location "Nokomis Montes" "Sol/Venus"
 {
-	LongLat	[ -189 -20 0 ]
+	LongLat	[ 171 -20 0 ]
 	Size	486
 	Type	"MO"
 }
@@ -8740,7 +8740,7 @@ Location "Nommo Valles" "Sol/Venus"
 
 Location "Nordenflycht Patera" "Sol/Venus"
 {
-	LongLat	[ -266 35 0 ]
+	LongLat	[ 94 35 0 ]
 	Size	140
 	Type	"PE"
 }
@@ -8754,21 +8754,21 @@ Location "Noreen" "Sol/Venus"
 
 Location "Noriko" "Sol/Venus"
 {
-	LongLat	[ -358.3 5.3 0 ]
+	LongLat	[ 1.7 5.3 0 ]
 	Size	7.5
 	Type	"AA"
 }
 
 Location "Norna Tesserae" "Sol/Venus"
 {
-	LongLat	[ -263 50 0 ]
+	LongLat	[ 97 50 0 ]
 	Size	700
 	Type	"TE"
 }
 
 Location "Norterma Tholus" "Sol/Venus"
 {
-	LongLat	[ -188 77 0 ]
+	LongLat	[ 172 77 0 ]
 	Size	15
 	Type	"TH"
 }
@@ -8789,7 +8789,7 @@ Location "Norwan Dorsa" "Sol/Venus"
 
 Location "Nott Corona" "Sol/Venus"
 {
-	LongLat	[ -202 32.3 0 ]
+	LongLat	[ 158 32.3 0 ]
 	Size	150
 	Type	"CR"
 }
@@ -8803,7 +8803,7 @@ Location "Nsele" "Sol/Venus"
 
 Location "Nsomeka Planitia" "Sol/Venus"
 {
-	LongLat	[ -195 53 0 ]
+	LongLat	[ 165 53 0 ]
 	Size	2100
 	Type	"PL"
 }
@@ -8817,56 +8817,56 @@ Location "Nuahine Tessera" "Sol/Venus"
 
 Location "Nuliayoq Colles" "Sol/Venus"
 {
-	LongLat	[ -224 -48 0 ]
+	LongLat	[ 136 -48 0 ]
 	Size	350
 	Type	"CO"
 }
 
 Location "Nungui Corona" "Sol/Venus"
 {
-	LongLat	[ -245.2 42.5 0 ]
+	LongLat	[ 114.8 42.5 0 ]
 	Size	150
 	Type	"CR"
 }
 
 Location "Nuon" "Sol/Venus"
 {
-	LongLat	[ -336.6 -78.6 0 ]
+	LongLat	[ 23.4 -78.6 0 ]
 	Size	6.5
 	Type	"AA"
 }
 
 Location "Nuptadi Planitia" "Sol/Venus"
 {
-	LongLat	[ -250 73 0 ]
+	LongLat	[ 110 73 0 ]
 	Size	1200
 	Type	"PL"
 }
 
 Location "Nuriet" "Sol/Venus"
 {
-	LongLat	[ -245.6 -20.6 0 ]
+	LongLat	[ 114.4 -20.6 0 ]
 	Size	17.9
 	Type	"AA"
 }
 
 Location "Nutsa" "Sol/Venus"
 {
-	LongLat	[ -341.2 -27.5 0 ]
+	LongLat	[ 18.8 -27.5 0 ]
 	Size	8
 	Type	"AA"
 }
 
 Location "Nuvakchin Dorsa" "Sol/Venus"
 {
-	LongLat	[ -212 53 0 ]
+	LongLat	[ 148 53 0 ]
 	Size	2200
 	Type	"DO"
 }
 
 Location "Nyakaio Vallis" "Sol/Venus"
 {
-	LongLat	[ -339 -47.5 0 ]
+	LongLat	[ 21 -47.5 0 ]
 	Size	150
 	Type	"VA"
 }
@@ -8880,14 +8880,14 @@ Location "Nyal'ga" "Sol/Venus"
 
 Location "Nyele" "Sol/Venus"
 {
-	LongLat	[ -318.4 22.7 0 ]
+	LongLat	[ 41.6 22.7 0 ]
 	Size	11.9
 	Type	"AA"
 }
 
 Location "Nyogari" "Sol/Venus"
 {
-	LongLat	[ -306.4 46.4 0 ]
+	LongLat	[ 53.6 46.4 0 ]
 	Size	13
 	Type	"AA"
 }
@@ -8901,42 +8901,42 @@ Location "Nyx Mons" "Sol/Venus"
 
 Location "Nzambi Corona" "Sol/Venus"
 {
-	LongLat	[ -287.5 45 0 ]
+	LongLat	[ 72.5 45 0 ]
 	Size	225
 	Type	"CR"
 }
 
 Location "Nzingha Corona" "Sol/Venus"
 {
-	LongLat	[ -205.7 -68.7 0 ]
+	LongLat	[ 154.3 -68.7 0 ]
 	Size	140
 	Type	"CR"
 }
 
 Location "Oakley" "Sol/Venus"
 {
-	LongLat	[ -310.5 29.3 0 ]
+	LongLat	[ 49.5 29.3 0 ]
 	Size	18.4
 	Type	"AA"
 }
 
 Location "Oanuava Coronae" "Sol/Venus"
 {
-	LongLat	[ -255.5 32.5 0 ]
+	LongLat	[ 104.5 32.5 0 ]
 	Size	375
 	Type	"CR"
 }
 
 Location "Obasi-Nsi Corona" "Sol/Venus"
 {
-	LongLat	[ -291 53.5 0 ]
+	LongLat	[ 69 53.5 0 ]
 	Size	230
 	Type	"CR"
 }
 
 Location "Obiemi Corona" "Sol/Venus"
 {
-	LongLat	[ -276.6 31.9 0 ]
+	LongLat	[ 83.4 31.9 0 ]
 	Size	300
 	Type	"CR"
 }
@@ -8950,7 +8950,7 @@ Location "Obilukha Corona" "Sol/Venus"
 
 Location "Obukhova" "Sol/Venus"
 {
-	LongLat	[ -289.7 -70.7 0 ]
+	LongLat	[ 70.3 -70.7 0 ]
 	Size	46
 	Type	"AA"
 }
@@ -8978,21 +8978,21 @@ Location "Oddibjord Tessera" "Sol/Venus"
 
 Location "Odikha" "Sol/Venus"
 {
-	LongLat	[ -238.1 41.6 0 ]
+	LongLat	[ 121.9 41.6 0 ]
 	Size	10.6
 	Type	"AA"
 }
 
 Location "Odilia" "Sol/Venus"
 {
-	LongLat	[ -200.2 -81.2 0 ]
+	LongLat	[ 159.8 -81.2 0 ]
 	Size	20.8
 	Type	"AA"
 }
 
 Location "Oduduwa Corona" "Sol/Venus"
 {
-	LongLat	[ -211.5 11 0 ]
+	LongLat	[ 148.5 11 0 ]
 	Size	150
 	Type	"CR"
 }
@@ -9027,7 +9027,7 @@ Location "Oilule Fluctus" "Sol/Venus"
 
 Location "Oivit" "Sol/Venus"
 {
-	LongLat	[ -195.5 73.9 0 ]
+	LongLat	[ 164.5 73.9 0 ]
 	Size	4.8
 	Type	"AA"
 }
@@ -9041,7 +9041,7 @@ Location "Ojuz Dorsa" "Sol/Venus"
 
 Location "O'Keeffe" "Sol/Venus"
 {
-	LongLat	[ -228.8 -24.5 0 ]
+	LongLat	[ 131.2 -24.5 0 ]
 	Size	76.9
 	Type	"AA"
 }
@@ -9055,28 +9055,28 @@ Location "Okhin-Tengri Corona" "Sol/Venus"
 
 Location "Okipeta Dorsa" "Sol/Venus"
 {
-	LongLat	[ -240 -67.5 0 ]
+	LongLat	[ 120 -67.5 0 ]
 	Size	1200
 	Type	"DO"
 }
 
 Location "Oksana" "Sol/Venus"
 {
-	LongLat	[ -352 -11.9 0 ]
+	LongLat	[ 8 -11.9 0 ]
 	Size	7.7
 	Type	"AA"
 }
 
 Location "Oku" "Sol/Venus"
 {
-	LongLat	[ -232.2 64.2 0 ]
+	LongLat	[ 127.8 64.2 0 ]
 	Size	13.3
 	Type	"AA"
 }
 
 Location "Olapa Chasma" "Sol/Venus"
 {
-	LongLat	[ -208.5 42 0 ]
+	LongLat	[ 151.5 42 0 ]
 	Size	650
 	Type	"CM"
 }
@@ -9090,42 +9090,42 @@ Location "Olena" "Sol/Venus"
 
 Location "Olesnicka" "Sol/Venus"
 {
-	LongLat	[ -210.9 -18.3 0 ]
+	LongLat	[ 149.1 -18.3 0 ]
 	Size	33
 	Type	"AA"
 }
 
 Location "Olesya" "Sol/Venus"
 {
-	LongLat	[ -273.3 -5.6 0 ]
+	LongLat	[ 86.7 -5.6 0 ]
 	Size	12
 	Type	"AA"
 }
 
 Location "Olga" "Sol/Venus"
 {
-	LongLat	[ -283.8 -26.1 0 ]
+	LongLat	[ 76.2 -26.1 0 ]
 	Size	15.5
 	Type	"AA"
 }
 
 Location "Olivia" "Sol/Venus"
 {
-	LongLat	[ -207.9 -37.2 0 ]
+	LongLat	[ 152.1 -37.2 0 ]
 	Size	10.2
 	Type	"AA"
 }
 
 Location "Olokun Vallis" "Sol/Venus"
 {
-	LongLat	[ -269 -81.5 0 ]
+	LongLat	[ 91 -81.5 0 ]
 	Size	150
 	Type	"VA"
 }
 
 Location "Olosa Colles" "Sol/Venus"
 {
-	LongLat	[ -353.3 -18 0 ]
+	LongLat	[ 6.7 -18 0 ]
 	Size	200
 	Type	"CO"
 }
@@ -9139,14 +9139,14 @@ Location "Olwen Corona" "Sol/Venus"
 
 Location "Olya" "Sol/Venus"
 {
-	LongLat	[ -291.8 -51.4 0 ]
+	LongLat	[ 68.2 -51.4 0 ]
 	Size	13.4
 	Type	"AA"
 }
 
 Location "Oma" "Sol/Venus"
 {
-	LongLat	[ -329.1 42.7 0 ]
+	LongLat	[ 30.9 42.7 0 ]
 	Size	7.6
 	Type	"AA"
 }
@@ -9160,14 +9160,14 @@ Location "Omeciuatl Corona" "Sol/Venus"
 
 Location "Omosi-Mama Corona" "Sol/Venus"
 {
-	LongLat	[ -306 -64.5 0 ]
+	LongLat	[ 54 -64.5 0 ]
 	Size	480
 	Type	"CR"
 }
 
 Location "Omutnitsa Vallis" "Sol/Venus"
 {
-	LongLat	[ -292 -33 0 ]
+	LongLat	[ 68 -33 0 ]
 	Size	150
 	Type	"VA"
 }
@@ -9181,14 +9181,14 @@ Location "Onatah Corona" "Sol/Venus"
 
 Location "Onenhste Corona" "Sol/Venus"
 {
-	LongLat	[ -221.5 19 0 ]
+	LongLat	[ 138.5 19 0 ]
 	Size	230
 	Type	"CR"
 }
 
 Location "Ongwuti Mons" "Sol/Venus"
 {
-	LongLat	[ -194.5 2 0 ]
+	LongLat	[ 165.5 2 0 ]
 	Size	500
 	Type	"MO"
 }
@@ -9216,7 +9216,7 @@ Location "Ops Corona" "Sol/Venus"
 
 Location "Orbona Corona" "Sol/Venus"
 {
-	LongLat	[ -293.2 47.8 0 ]
+	LongLat	[ 66.8 47.8 0 ]
 	Size	150
 	Type	"CR"
 }
@@ -9230,21 +9230,21 @@ Location "Orczy" "Sol/Venus"
 
 Location "Orguk" "Sol/Venus"
 {
-	LongLat	[ -198.2 23.5 0 ]
+	LongLat	[ 161.8 23.5 0 ]
 	Size	11.7
 	Type	"AA"
 }
 
 Location "Orlette" "Sol/Venus"
 {
-	LongLat	[ -193.3 68.1 0 ]
+	LongLat	[ 166.7 68.1 0 ]
 	Size	12.5
 	Type	"AA"
 }
 
 Location "Orlova" "Sol/Venus"
 {
-	LongLat	[ -235 -56.5 0 ]
+	LongLat	[ 125 -56.5 0 ]
 	Size	19.6
 	Type	"AA"
 }
@@ -9279,7 +9279,7 @@ Location "Oshun Farra" "Sol/Venus"
 
 Location "Osipenko" "Sol/Venus"
 {
-	LongLat	[ -321 -71.2 0 ]
+	LongLat	[ 39 -71.2 0 ]
 	Size	30
 	Type	"AA"
 }
@@ -9293,21 +9293,21 @@ Location "Otafuku Tholi" "Sol/Venus"
 
 Location "Otau Corona" "Sol/Venus"
 {
-	LongLat	[ -298.7 -67.8 0 ]
+	LongLat	[ 61.3 -67.8 0 ]
 	Size	172
 	Type	"CR"
 }
 
 Location "Otohime Tholus" "Sol/Venus"
 {
-	LongLat	[ -268.2 32 0 ]
+	LongLat	[ 91.8 32 0 ]
 	Size	20
 	Type	"TH"
 }
 
 Location "Ottavia" "Sol/Venus"
 {
-	LongLat	[ -187.1 47.5 0 ]
+	LongLat	[ 172.9 47.5 0 ]
 	Size	12.9
 	Type	"AA"
 }
@@ -9321,7 +9321,7 @@ Location "Otygen Corona" "Sol/Venus"
 
 Location "Outi" "Sol/Venus"
 {
-	LongLat	[ -267.7 -61.6 0 ]
+	LongLat	[ 92.3 -61.6 0 ]
 	Size	10.5
 	Type	"AA"
 }
@@ -9349,7 +9349,7 @@ Location "Oya Dorsa" "Sol/Venus"
 
 Location "Ozza Mons" "Sol/Venus"
 {
-	LongLat	[ -201 -4.5 0 ]
+	LongLat	[ 159 -4.5 0 ]
 	Size	507
 	Type	"MO"
 }
@@ -9384,7 +9384,7 @@ Location "Paige" "Sol/Venus"
 
 Location "Pajan Yan Tholus" "Sol/Venus"
 {
-	LongLat	[ -252.2 -8.3 0 ]
+	LongLat	[ 107.8 -8.3 0 ]
 	Size	80
 	Type	"TH"
 }
@@ -9398,42 +9398,42 @@ Location "Pakoti Corona" "Sol/Venus"
 
 Location "Pamela" "Sol/Venus"
 {
-	LongLat	[ -238.5 -11 0 ]
+	LongLat	[ 121.5 -11 0 ]
 	Size	14.2
 	Type	"AA"
 }
 
 Location "Pandrosos Dorsa" "Sol/Venus"
 {
-	LongLat	[ -207.7 -58.2 0 ]
+	LongLat	[ 152.3 -58.2 0 ]
 	Size	1254
 	Type	"DO"
 }
 
 Location "Pani Corona" "Sol/Venus"
 {
-	LongLat	[ -231.5 -19.9 0 ]
+	LongLat	[ 128.5 -19.9 0 ]
 	Size	320
 	Type	"CR"
 }
 
 Location "Panina Patera" "Sol/Venus"
 {
-	LongLat	[ -309.8 13 0 ]
+	LongLat	[ 50.2 13 0 ]
 	Size	50
 	Type	"PE"
 }
 
 Location "Paoro Tholi" "Sol/Venus"
 {
-	LongLat	[ -268 -10.5 0 ]
+	LongLat	[ 92 -10.5 0 ]
 	Size	225
 	Type	"TH"
 }
 
 Location "Parga Chasmata" "Sol/Venus"
 {
-	LongLat	[ -255 20 0 ]
+	LongLat	[ 105 20 0 ]
 	Size	11000
 	Type	"CM"
 }
@@ -9461,14 +9461,14 @@ Location "Parra" "Sol/Venus"
 
 Location "Partula Corona" "Sol/Venus"
 {
-	LongLat	[ -289.2 49.7 0 ]
+	LongLat	[ 70.8 49.7 0 ]
 	Size	145
 	Type	"CR"
 }
 
 Location "Parvati Corona" "Sol/Venus"
 {
-	LongLat	[ -276.7 36 0 ]
+	LongLat	[ 83.3 36 0 ]
 	Size	173
 	Type	"CR"
 }
@@ -9496,14 +9496,14 @@ Location "Pasom-mana Tesserae" "Sol/Venus"
 
 Location "Pasu-Ava Corona" "Sol/Venus"
 {
-	LongLat	[ -319 -29 0 ]
+	LongLat	[ 41 -29 0 ]
 	Size	250
 	Type	"CR"
 }
 
 Location "Pat" "Sol/Venus"
 {
-	LongLat	[ -262.6 -2.9 0 ]
+	LongLat	[ 97.4 -2.9 0 ]
 	Size	10.1
 	Type	"AA"
 }
@@ -9517,7 +9517,7 @@ Location "Patimat" "Sol/Venus"
 
 Location "Patti" "Sol/Venus"
 {
-	LongLat	[ -301.6 -35 0 ]
+	LongLat	[ 58.4 -35 0 ]
 	Size	47
 	Type	"AA"
 }
@@ -9538,91 +9538,91 @@ Location "Pavlova Corona" "Sol/Venus"
 
 Location "Payne-Gaposchkin Patera" "Sol/Venus"
 {
-	LongLat	[ -196 25.5 0 ]
+	LongLat	[ 164 25.5 0 ]
 	Size	100
 	Type	"PE"
 }
 
 Location "Pazar-ana Corona" "Sol/Venus"
 {
-	LongLat	[ -214.8 3.2 0 ]
+	LongLat	[ 145.2 3.2 0 ]
 	Size	300
 	Type	"CR"
 }
 
 Location "Pchilka Patera" "Sol/Venus"
 {
-	LongLat	[ -234 -26.5 0 ]
+	LongLat	[ 126 -26.5 0 ]
 	Size	100
 	Type	"PE"
 }
 
 Location "Peck" "Sol/Venus"
 {
-	LongLat	[ -294.3 28.9 0 ]
+	LongLat	[ 65.7 28.9 0 ]
 	Size	30.4
 	Type	"AA"
 }
 
 Location "Peggy" "Sol/Venus"
 {
-	LongLat	[ -357.2 20.4 0 ]
+	LongLat	[ 2.8 20.4 0 ]
 	Size	11.9
 	Type	"AA"
 }
 
 Location "Peña" "Sol/Venus"
 {
-	LongLat	[ -190.6 23.6 0 ]
+	LongLat	[ 169.4 23.6 0 ]
 	Size	29.6
 	Type	"AA"
 }
 
 Location "Penardun Linea" "Sol/Venus"
 {
-	LongLat	[ -344 54 0 ]
+	LongLat	[ 16 54 0 ]
 	Size	975
 	Type	"LI"
 }
 
 Location "Penthesilea Fossa" "Sol/Venus"
 {
-	LongLat	[ -214 12 0 ]
+	LongLat	[ 146 12 0 ]
 	Size	1700
 	Type	"FO"
 }
 
 Location "Perchta Corona" "Sol/Venus"
 {
-	LongLat	[ -234.5 -17 0 ]
+	LongLat	[ 125.5 -17 0 ]
 	Size	500
 	Type	"CR"
 }
 
 Location "Persephone Corona" "Sol/Venus"
 {
-	LongLat	[ -304.6 36 0 ]
+	LongLat	[ 55.4 36 0 ]
 	Size	120
 	Type	"CR"
 }
 
 Location "Perunitsa Fossae" "Sol/Venus"
 {
-	LongLat	[ -307 10 0 ]
+	LongLat	[ 53 10 0 ]
 	Size	1300
 	Type	"FO"
 }
 
 Location "Perynya Tholus" "Sol/Venus"
 {
-	LongLat	[ -353.2 0.7 0 ]
+	LongLat	[ 6.8 0.7 0 ]
 	Size	110
 	Type	"TH"
 }
 
 Location "Phaedra" "Sol/Venus"
 {
-	LongLat	[ -252.7 -35.9 0 ]
+	LongLat	[ 107.3 -35.9 0 ]
 	Size	15.7
 	Type	"AA"
 }
@@ -9636,21 +9636,21 @@ Location "Philomena" "Sol/Venus"
 
 Location "PHOEBE REGIO" "Sol/Venus"
 {
-	LongLat	[ -282.8 6 0 ]
+	LongLat	[ 77.2 6 0 ]
 	Size	2852
 	Type	"RE"
 }
 
 Location "Phra Naret Corona" "Sol/Venus"
 {
-	LongLat	[ -209.6 66.6 0 ]
+	LongLat	[ 150.4 66.6 0 ]
 	Size	150
 	Type	"CR"
 }
 
 Location "Phryne" "Sol/Venus"
 {
-	LongLat	[ -314.7 46.2 0 ]
+	LongLat	[ 45.3 46.2 0 ]
 	Size	39.4
 	Type	"AA"
 }
@@ -9671,7 +9671,7 @@ Location "Piaf" "Sol/Venus"
 
 Location "Pinga Chasma" "Sol/Venus"
 {
-	LongLat	[ -287 20 0 ]
+	LongLat	[ 73 20 0 ]
 	Size	500
 	Type	"CM"
 }
@@ -9685,14 +9685,14 @@ Location "Piret" "Sol/Venus"
 
 Location "Pirkko" "Sol/Venus"
 {
-	LongLat	[ -254.6 -44.8 0 ]
+	LongLat	[ 105.4 -44.8 0 ]
 	Size	12.3
 	Type	"AA"
 }
 
 Location "Piscopia" "Sol/Venus"
 {
-	LongLat	[ -190.9 -1.5 0 ]
+	LongLat	[ 169.1 -1.5 0 ]
 	Size	26.2
 	Type	"AA"
 }
@@ -9713,14 +9713,14 @@ Location "Podaga Tholus" "Sol/Venus"
 
 Location "Polenova" "Sol/Venus"
 {
-	LongLat	[ -335.5 45.5 0 ]
+	LongLat	[ 24.5 45.5 0 ]
 	Size	41
 	Type	"AA"
 }
 
 Location "Polik-mana Mons" "Sol/Venus"
 {
-	LongLat	[ -264 -24.5 0 ]
+	LongLat	[ 96 -24.5 0 ]
 	Size	600
 	Type	"MO"
 }
@@ -9734,7 +9734,7 @@ Location "Polina" "Sol/Venus"
 
 Location "Pölöznitsa Corona" "Sol/Venus"
 {
-	LongLat	[ -302 -0.5 0 ]
+	LongLat	[ 58 -0.5 0 ]
 	Size	675
 	Type	"CR"
 }
@@ -9748,7 +9748,7 @@ Location "Poludnitsa Dorsa" "Sol/Venus"
 
 Location "Pomona Corona" "Sol/Venus"
 {
-	LongLat	[ -299.4 -79.3 0 ]
+	LongLat	[ 60.6 -79.3 0 ]
 	Size	315
 	Type	"CR"
 }
@@ -9762,7 +9762,7 @@ Location "Ponmakya Corona" "Sol/Venus"
 
 Location "Ponselle" "Sol/Venus"
 {
-	LongLat	[ -289.1 63 0 ]
+	LongLat	[ 70.9 63 0 ]
 	Size	57.7
 	Type	"AA"
 }
@@ -9783,7 +9783,7 @@ Location "Potanina" "Sol/Venus"
 
 Location "Potter" "Sol/Venus"
 {
-	LongLat	[ -309.1 -7.2 0 ]
+	LongLat	[ 50.9 -7.2 0 ]
 	Size	46.9
 	Type	"AA"
 }
@@ -9804,7 +9804,7 @@ Location "Prichard" "Sol/Venus"
 
 Location "Prthivi Corona" "Sol/Venus"
 {
-	LongLat	[ -248.5 -10.8 0 ]
+	LongLat	[ 111.5 -10.8 0 ]
 	Size	375
 	Type	"CR"
 }
@@ -9818,7 +9818,7 @@ Location "Ptesanwi Mons" "Sol/Venus"
 
 Location "Pugos Corona" "Sol/Venus"
 {
-	LongLat	[ -335 19 0 ]
+	LongLat	[ 25 19 0 ]
 	Size	180
 	Type	"CR"
 }
@@ -9832,14 +9832,14 @@ Location "Puhioia" "Sol/Venus"
 
 Location "Pulugu Dorsa" "Sol/Venus"
 {
-	LongLat	[ -225 65 0 ]
+	LongLat	[ 135 65 0 ]
 	Size	650
 	Type	"DO"
 }
 
 Location "Purandhi Corona" "Sol/Venus"
 {
-	LongLat	[ -343.5 -26.1 0 ]
+	LongLat	[ 16.5 -26.1 0 ]
 	Size	170
 	Type	"CR"
 }
@@ -9860,7 +9860,7 @@ Location "Pychik" "Sol/Venus"
 
 Location "Qakma Corona" "Sol/Venus"
 {
-	LongLat	[ -207.1 -35.5 0 ]
+	LongLat	[ 152.9 -35.5 0 ]
 	Size	130
 	Type	"CR"
 }
@@ -9874,14 +9874,14 @@ Location "Qarlygha" "Sol/Venus"
 
 Location "Qetesh Corona" "Sol/Venus"
 {
-	LongLat	[ -343.5 20.5 0 ]
+	LongLat	[ 16.5 20.5 0 ]
 	Size	80
 	Type	"CR"
 }
 
 Location "Quetzalpetlatl Corona" "Sol/Venus"
 {
-	LongLat	[ -357 68 0 ]
+	LongLat	[ 3 68 0 ]
 	Size	780
 	Type	"CR"
 }
@@ -9916,7 +9916,7 @@ Location "Quslu" "Sol/Venus"
 
 Location "Rabie Chasma" "Sol/Venus"
 {
-	LongLat	[ -267 10.5 0 ]
+	LongLat	[ 93 10.5 0 ]
 	Size	950
 	Type	"CM"
 }
@@ -9958,7 +9958,7 @@ Location "Radmila" "Sol/Venus"
 
 Location "Radunitsa Labyrinthus" "Sol/Venus"
 {
-	LongLat	[ -351.3 8.9 0 ]
+	LongLat	[ 8.7 8.9 0 ]
 	Size	100
 	Type	"LB"
 }
@@ -9986,21 +9986,21 @@ Location "Rafiga" "Sol/Venus"
 
 Location "Ragana Dorsa" "Sol/Venus"
 {
-	LongLat	[ -246 69 0 ]
+	LongLat	[ 114 69 0 ]
 	Size	950
 	Type	"DO"
 }
 
 Location "Raisa" "Sol/Venus"
 {
-	LongLat	[ -280.3 -27.5 0 ]
+	LongLat	[ 79.7 -27.5 0 ]
 	Size	13.5
 	Type	"AA"
 }
 
 Location "Rakapila Mons" "Sol/Venus"
 {
-	LongLat	[ -321.5 43.7 0 ]
+	LongLat	[ 38.5 43.7 0 ]
 	Size	130
 	Type	"MO"
 }
@@ -10028,7 +10028,7 @@ Location "Rampyari" "Sol/Venus"
 
 Location "Rananeida Corona" "Sol/Venus"
 {
-	LongLat	[ -263.5 -62.6 0 ]
+	LongLat	[ 96.5 -62.6 0 ]
 	Size	448
 	Type	"CR"
 }
@@ -10049,7 +10049,7 @@ Location "Rand" "Sol/Venus"
 
 Location "Rangrid Fossae" "Sol/Venus"
 {
-	LongLat	[ -356.4 -62.7 0 ]
+	LongLat	[ 3.6 -62.7 0 ]
 	Size	243
 	Type	"FO"
 }
@@ -10063,28 +10063,28 @@ Location "Rani" "Sol/Venus"
 
 Location "Raskova Paterae" "Sol/Venus"
 {
-	LongLat	[ -222.8 51 0 ]
+	LongLat	[ 137.2 51 0 ]
 	Size	80
 	Type	"PE"
 }
 
 Location "Rauni Corona" "Sol/Venus"
 {
-	LongLat	[ -271.9 -40.8 0 ]
+	LongLat	[ 88.1 -40.8 0 ]
 	Size	271
 	Type	"CR"
 }
 
 Location "Raymonde" "Sol/Venus"
 {
-	LongLat	[ -191.5 -48.4 0 ]
+	LongLat	[ 168.5 -48.4 0 ]
 	Size	5.3
 	Type	"AA"
 }
 
 Location "Razia Patera" "Sol/Venus"
 {
-	LongLat	[ -197.8 -46.2 0 ]
+	LongLat	[ 162.2 -46.2 0 ]
 	Size	157
 	Type	"PE"
 }
@@ -10112,7 +10112,7 @@ Location "Regina" "Sol/Venus"
 
 Location "Reiko" "Sol/Venus"
 {
-	LongLat	[ -192.1 -22.6 0 ]
+	LongLat	[ 167.9 -22.6 0 ]
 	Size	9.7
 	Type	"AA"
 }
@@ -10126,70 +10126,70 @@ Location "Reitia Chasma" "Sol/Venus"
 
 Location "Renenti Corona" "Sol/Venus"
 {
-	LongLat	[ -326.2 -32.7 0 ]
+	LongLat	[ 33.8 -32.7 0 ]
 	Size	200
 	Type	"CR"
 }
 
 Location "Renpet Mons" "Sol/Venus"
 {
-	LongLat	[ -236.2 -76 0 ]
+	LongLat	[ 123.8 -76 0 ]
 	Size	138
 	Type	"MO"
 }
 
 Location "Repa Corona" "Sol/Venus"
 {
-	LongLat	[ -218.8 13 0 ]
+	LongLat	[ 141.2 13 0 ]
 	Size	240
 	Type	"CR"
 }
 
 Location "Retno" "Sol/Venus"
 {
-	LongLat	[ -192.3 52.9 0 ]
+	LongLat	[ 167.7 52.9 0 ]
 	Size	7.2
 	Type	"AA"
 }
 
 Location "Rhea Mons" "Sol/Venus"
 {
-	LongLat	[ -282.2 -32.4 0 ]
+	LongLat	[ 77.8 -32.4 0 ]
 	Size	217
 	Type	"MO"
 }
 
 Location "Rhoda" "Sol/Venus"
 {
-	LongLat	[ -347.7 -11.4 0 ]
+	LongLat	[ 12.3 -11.4 0 ]
 	Size	12.2
 	Type	"AA"
 }
 
 Location "Rhpisunt Mons" "Sol/Venus"
 {
-	LongLat	[ -301.5 -2.5 0 ]
+	LongLat	[ 58.5 -2.5 0 ]
 	Size	250
 	Type	"MO"
 }
 
 Location "Rhys" "Sol/Venus"
 {
-	LongLat	[ -298.8 -8.6 0 ]
+	LongLat	[ 61.2 -8.6 0 ]
 	Size	44
 	Type	"AA"
 }
 
 Location "Richards" "Sol/Venus"
 {
-	LongLat	[ -196.1 -2.5 0 ]
+	LongLat	[ 163.9 -2.5 0 ]
 	Size	25
 	Type	"AA"
 }
 
 Location "Rigatona Corona" "Sol/Venus"
 {
-	LongLat	[ -278.5 33.5 0 ]
+	LongLat	[ 81.5 33.5 0 ]
 	Size	300
 	Type	"CR"
 }
@@ -10203,35 +10203,35 @@ Location "Riley" "Sol/Venus"
 
 Location "Rind Corona" "Sol/Venus"
 {
-	LongLat	[ -247.5 -8.2 0 ]
+	LongLat	[ 112.5 -8.2 0 ]
 	Size	140
 	Type	"CR"
 }
 
 Location "Rita" "Sol/Venus"
 {
-	LongLat	[ -334.8 -71 0 ]
+	LongLat	[ 25.2 -71 0 ]
 	Size	8.3
 	Type	"AA"
 }
 
 Location "Rogneda Patera" "Sol/Venus"
 {
-	LongLat	[ -220.5 2.8 0 ]
+	LongLat	[ 139.5 2.8 0 ]
 	Size	120
 	Type	"PE"
 }
 
 Location "Rohina Tholus" "Sol/Venus"
 {
-	LongLat	[ -295.4 40.6 0 ]
+	LongLat	[ 64.6 40.6 0 ]
 	Size	30
 	Type	"TH"
 }
 
 Location "Rokapi Dorsa" "Sol/Venus"
 {
-	LongLat	[ -222 55 0 ]
+	LongLat	[ 138 55 0 ]
 	Size	2200
 	Type	"DO"
 }
@@ -10259,7 +10259,7 @@ Location "Romola" "Sol/Venus"
 
 Location "Rona Chasma" "Sol/Venus"
 {
-	LongLat	[ -288 -2.5 0 ]
+	LongLat	[ 72 -2.5 0 ]
 	Size	1520
 	Type	"CM"
 }
@@ -10273,21 +10273,21 @@ Location "Roptyna" "Sol/Venus"
 
 Location "Rosa Bonheur" "Sol/Venus"
 {
-	LongLat	[ -288.8 -9.7 0 ]
+	LongLat	[ 71.2 -9.7 0 ]
 	Size	104
 	Type	"AA"
 }
 
 Location "Rose" "Sol/Venus"
 {
-	LongLat	[ -248.2 35.2 0 ]
+	LongLat	[ 111.8 35.2 0 ]
 	Size	15.5
 	Type	"AA"
 }
 
 Location "Rosmerta Corona" "Sol/Venus"
 {
-	LongLat	[ -124.5 -0 0 ]
+	LongLat	[ -124.5 0 0 ]
 	Size	300
 	Type	"CR"
 }
@@ -10315,14 +10315,14 @@ Location "Rowena" "Sol/Venus"
 
 Location "Roxanna" "Sol/Venus"
 {
-	LongLat	[ -334.6 -26.5 0 ]
+	LongLat	[ 25.4 -26.5 0 ]
 	Size	9.5
 	Type	"AA"
 }
 
 Location "Royle" "Sol/Venus"
 {
-	LongLat	[ -193.7 32.7 0 ]
+	LongLat	[ 166.3 32.7 0 ]
 	Size	6.1
 	Type	"AA"
 }
@@ -10343,7 +10343,7 @@ Location "Rudneva" "Sol/Venus"
 
 Location "Rufina" "Sol/Venus"
 {
-	LongLat	[ -195.1 74.6 0 ]
+	LongLat	[ 164.9 74.6 0 ]
 	Size	5
 	Type	"AA"
 }
@@ -10357,7 +10357,7 @@ Location "Ruit" "Sol/Venus"
 
 Location "Runak" "Sol/Venus"
 {
-	LongLat	[ -196.3 58.5 0 ]
+	LongLat	[ 163.7 58.5 0 ]
 	Size	7.6
 	Type	"AA"
 }
@@ -10385,35 +10385,35 @@ Location "Ruth" "Sol/Venus"
 
 Location "Rzhanitsa Corona" "Sol/Venus"
 {
-	LongLat	[ -214.6 17.6 0 ]
+	LongLat	[ 145.4 17.6 0 ]
 	Size	450
 	Type	"CR"
 }
 
 Location "Sabin" "Sol/Venus"
 {
-	LongLat	[ -274.7 38.5 0 ]
+	LongLat	[ 85.3 38.5 0 ]
 	Size	33.1
 	Type	"AA"
 }
 
 Location "Sabira" "Sol/Venus"
 {
-	LongLat	[ -239.9 5.8 0 ]
+	LongLat	[ 120.1 5.8 0 ]
 	Size	15.7
 	Type	"AA"
 }
 
 Location "Sacajawea Patera" "Sol/Venus"
 {
-	LongLat	[ -335.4 -64.3 0 ]
+	LongLat	[ 24.6 -64.3 0 ]
 	Size	233
 	Type	"PE"
 }
 
 Location "Sachs Patera" "Sol/Venus"
 {
-	LongLat	[ -334.2 -49.1 0 ]
+	LongLat	[ 25.8 -49.1 0 ]
 	Size	65
 	Type	"PE"
 }
@@ -10427,21 +10427,21 @@ Location "Safarmo" "Sol/Venus"
 
 Location "Saga Vallis" "Sol/Venus"
 {
-	LongLat	[ -340.6 -76.1 0 ]
+	LongLat	[ 19.4 -76.1 0 ]
 	Size	450
 	Type	"VA"
 }
 
 Location "Saida" "Sol/Venus"
 {
-	LongLat	[ -302 -28.2 0 ]
+	LongLat	[ 58 -28.2 0 ]
 	Size	9.5
 	Type	"AA"
 }
 
 Location "Sakwap-mana Mons" "Sol/Venus"
 {
-	LongLat	[ -219.5 -35 0 ]
+	LongLat	[ 140.5 -35 0 ]
 	Size	500
 	Type	"MO"
 }
@@ -10476,14 +10476,14 @@ Location "Salus Tessera" "Sol/Venus"
 
 Location "Samantha" "Sol/Venus"
 {
-	LongLat	[ -281.7 -45.6 0 ]
+	LongLat	[ 78.3 -45.6 0 ]
 	Size	16.9
 	Type	"AA"
 }
 
 Location "Samdzimari Corona" "Sol/Venus"
 {
-	LongLat	[ -339.5 11 0 ]
+	LongLat	[ 20.5 11 0 ]
 	Size	260
 	Type	"CR"
 }
@@ -10497,21 +10497,21 @@ Location "Samintang" "Sol/Venus"
 
 Location "Samodiva Mons" "Sol/Venus"
 {
-	LongLat	[ -291 -13.6 0 ]
+	LongLat	[ 69 -13.6 0 ]
 	Size	200
 	Type	"MO"
 }
 
 Location "Samsing Corona" "Sol/Venus"
 {
-	LongLat	[ -229.5 23.8 0 ]
+	LongLat	[ 130.5 23.8 0 ]
 	Size	165
 	Type	"CR"
 }
 
 Location "Samundra Vallis" "Sol/Venus"
 {
-	LongLat	[ -347.1 24.1 0 ]
+	LongLat	[ 12.9 24.1 0 ]
 	Size	110
 	Type	"VA"
 }
@@ -10525,14 +10525,14 @@ Location "Sand Corona" "Sol/Venus"
 
 Location "Sandel" "Sol/Venus"
 {
-	LongLat	[ -211.7 45.7 0 ]
+	LongLat	[ 148.3 45.7 0 ]
 	Size	17.9
 	Type	"AA"
 }
 
 Location "Sandi" "Sol/Venus"
 {
-	LongLat	[ -315.1 68.1 0 ]
+	LongLat	[ 44.9 68.1 0 ]
 	Size	12.6
 	Type	"AA"
 }
@@ -10546,35 +10546,35 @@ Location "Sandugach" "Sol/Venus"
 
 Location "Sanger" "Sol/Venus"
 {
-	LongLat	[ -288.6 -33.8 0 ]
+	LongLat	[ 71.4 -33.8 0 ]
 	Size	83.6
 	Type	"AA"
 }
 
 Location "Sanija" "Sol/Venus"
 {
-	LongLat	[ -251 -33.1 0 ]
+	LongLat	[ 109 -33.1 0 ]
 	Size	18
 	Type	"AA"
 }
 
 Location "Santa Corona" "Sol/Venus"
 {
-	LongLat	[ -288 34.5 0 ]
+	LongLat	[ 72 34.5 0 ]
 	Size	200
 	Type	"CR"
 }
 
 Location "Saodat" "Sol/Venus"
 {
-	LongLat	[ -344.6 2.9 0 ]
+	LongLat	[ 15.4 2.9 0 ]
 	Size	3.7
 	Type	"AA"
 }
 
 Location "Sapas Mons" "Sol/Venus"
 {
-	LongLat	[ -188.3 -8.5 0 ]
+	LongLat	[ 171.7 -8.5 0 ]
 	Size	217
 	Type	"MO"
 }
@@ -10595,7 +10595,7 @@ Location "Sarah" "Sol/Venus"
 
 Location "Sarasvati Mons" "Sol/Venus"
 {
-	LongLat	[ -354.5 -75.7 0 ]
+	LongLat	[ 5.5 -75.7 0 ]
 	Size	200
 	Type	"MO"
 }
@@ -10616,35 +10616,35 @@ Location "Sartika" "Sol/Venus"
 
 Location "Sarykyz Linea" "Sol/Venus"
 {
-	LongLat	[ -200 77.3 0 ]
+	LongLat	[ 160 77.3 0 ]
 	Size	370
 	Type	"LI"
 }
 
 Location "Sasha" "Sol/Venus"
 {
-	LongLat	[ -277.3 -38.3 0 ]
+	LongLat	[ 82.7 -38.3 0 ]
 	Size	4.6
 	Type	"AA"
 }
 
 Location "Saskia" "Sol/Venus"
 {
-	LongLat	[ -337.1 28.6 0 ]
+	LongLat	[ 22.9 28.6 0 ]
 	Size	37.1
 	Type	"AA"
 }
 
 Location "Sati Vallis" "Sol/Venus"
 {
-	LongLat	[ -334.4 -3.2 0 ]
+	LongLat	[ 25.6 -3.2 0 ]
 	Size	225
 	Type	"VA"
 }
 
 Location "Saule Dorsa" "Sol/Venus"
 {
-	LongLat	[ -206 58 0 ]
+	LongLat	[ 154 58 0 ]
 	Size	1375
 	Type	"DO"
 }
@@ -10658,7 +10658,7 @@ Location "Saunau Corona" "Sol/Venus"
 
 Location "Sayers" "Sol/Venus"
 {
-	LongLat	[ -229.8 67.5 0 ]
+	LongLat	[ 130.2 67.5 0 ]
 	Size	98
 	Type	"AA"
 }
@@ -10686,14 +10686,14 @@ Location "Scarpellini" "Sol/Venus"
 
 Location "Schumann-Heink Corona" "Sol/Venus"
 {
-	LongLat	[ -214.5 -74.3 0 ]
+	LongLat	[ 145.5 -74.3 0 ]
 	Size	122
 	Type	"CR"
 }
 
 Location "Sedna Planitia" "Sol/Venus"
 {
-	LongLat	[ -340.7 -42.7 0 ]
+	LongLat	[ 19.3 -42.7 0 ]
 	Size	3570
 	Type	"PL"
 }
@@ -10707,21 +10707,21 @@ Location "Seia Corona" "Sol/Venus"
 
 Location "Seiko" "Sol/Venus"
 {
-	LongLat	[ -216.6 21 0 ]
+	LongLat	[ 143.4 21 0 ]
 	Size	3.4
 	Type	"AA"
 }
 
 Location "Seiusi Corona" "Sol/Venus"
 {
-	LongLat	[ -241 62 0 ]
+	LongLat	[ 119 62 0 ]
 	Size	150
 	Type	"CR"
 }
 
 Location "Sekmet Mons" "Sol/Venus"
 {
-	LongLat	[ -240.5 -44.5 0 ]
+	LongLat	[ 119.5 -44.5 0 ]
 	Size	285
 	Type	"MO"
 }
@@ -10742,14 +10742,14 @@ Location "Selu Corona" "Sol/Venus"
 
 Location "Semele Tholi" "Sol/Venus"
 {
-	LongLat	[ -202.9 -64.3 0 ]
+	LongLat	[ 157.1 -64.3 0 ]
 	Size	194
 	Type	"TH"
 }
 
 Location "Semiramus Corona" "Sol/Venus"
 {
-	LongLat	[ -293 37 0 ]
+	LongLat	[ 67 37 0 ]
 	Size	375
 	Type	"CR"
 }
@@ -10763,7 +10763,7 @@ Location "Semuni Dorsa" "Sol/Venus"
 
 Location "Senectus Tesserae" "Sol/Venus"
 {
-	LongLat	[ -292 -50 0 ]
+	LongLat	[ 68 -50 0 ]
 	Size	1400
 	Type	"TE"
 }
@@ -10791,28 +10791,28 @@ Location "Sephira Mons" "Sol/Venus"
 
 Location "Serova Patera" "Sol/Venus"
 {
-	LongLat	[ -247 -20 0 ]
+	LongLat	[ 113 -20 0 ]
 	Size	60
 	Type	"PE"
 }
 
 Location "Seseg" "Sol/Venus"
 {
-	LongLat	[ -312.6 36.3 0 ]
+	LongLat	[ 47.4 36.3 0 ]
 	Size	9.8
 	Type	"AA"
 }
 
 Location "Sévigné" "Sol/Venus"
 {
-	LongLat	[ -326.5 -52.6 0 ]
+	LongLat	[ 33.5 -52.6 0 ]
 	Size	29.6
 	Type	"AA"
 }
 
 Location "Seymour" "Sol/Venus"
 {
-	LongLat	[ -326.5 -18.2 0 ]
+	LongLat	[ 33.5 -18.2 0 ]
 	Size	63
 	Type	"AA"
 }
@@ -10833,28 +10833,28 @@ Location "Shait Tessera" "Sol/Venus"
 
 Location "Shakira" "Sol/Venus"
 {
-	LongLat	[ -213.6 -3 0 ]
+	LongLat	[ 146.4 -3 0 ]
 	Size	17.6
 	Type	"AA"
 }
 
 Location "Shala Mons" "Sol/Venus"
 {
-	LongLat	[ -208 -39.4 0 ]
+	LongLat	[ 152 -39.4 0 ]
 	Size	90
 	Type	"MO"
 }
 
 Location "Shamiram Tholus" "Sol/Venus"
 {
-	LongLat	[ -335.2 6.9 0 ]
+	LongLat	[ 24.8 6.9 0 ]
 	Size	10
 	Type	"TH"
 }
 
 Location "Shasenem" "Sol/Venus"
 {
-	LongLat	[ -258.9 44 0 ]
+	LongLat	[ 101.1 44 0 ]
 	Size	9
 	Type	"AA"
 }
@@ -10875,7 +10875,7 @@ Location "Shelikhova Patera" "Sol/Venus"
 
 Location "Shih Mai-Yu" "Sol/Venus"
 {
-	LongLat	[ -318.9 -18.4 0 ]
+	LongLat	[ 41.1 -18.4 0 ]
 	Size	22.3
 	Type	"AA"
 }
@@ -10896,14 +10896,14 @@ Location "Shirley" "Sol/Venus"
 
 Location "Shishimora Dorsa" "Sol/Venus"
 {
-	LongLat	[ -297 -37 0 ]
+	LongLat	[ 63 -37 0 ]
 	Size	800
 	Type	"DO"
 }
 
 Location "Shiwanokia Corona" "Sol/Venus"
 {
-	LongLat	[ -279.8 42 0 ]
+	LongLat	[ 80.2 42 0 ]
 	Size	500
 	Type	"CR"
 }
@@ -10917,14 +10917,14 @@ Location "Sholpan Vallis" "Sol/Venus"
 
 Location "Shulamite Corona" "Sol/Venus"
 {
-	LongLat	[ -284.3 38.8 0 ]
+	LongLat	[ 75.7 38.8 0 ]
 	Size	275
 	Type	"CR"
 }
 
 Location "Shulzhenko Patera" "Sol/Venus"
 {
-	LongLat	[ -264.5 -6.5 0 ]
+	LongLat	[ 95.5 -6.5 0 ]
 	Size	60
 	Type	"PE"
 }
@@ -10945,35 +10945,35 @@ Location "Shyv-Amashe Corona" "Sol/Venus"
 
 Location "Sicasica Fluctus" "Sol/Venus"
 {
-	LongLat	[ -180.4 52 0 ]
+	LongLat	[ 179.6 52 0 ]
 	Size	175
 	Type	"FL"
 }
 
 Location "Siddons Patera" "Sol/Venus"
 {
-	LongLat	[ -340.6 -61.6 0 ]
+	LongLat	[ 19.4 -61.6 0 ]
 	Size	47
 	Type	"PE"
 }
 
 Location "Sidney" "Sol/Venus"
 {
-	LongLat	[ -199.6 -13.4 0 ]
+	LongLat	[ 160.4 -13.4 0 ]
 	Size	20.2
 	Type	"AA"
 }
 
 Location "Siduri Mons" "Sol/Venus"
 {
-	LongLat	[ -297.3 42.3 0 ]
+	LongLat	[ 62.7 42.3 0 ]
 	Size	105
 	Type	"MO"
 }
 
 Location "Sif Mons" "Sol/Venus"
 {
-	LongLat	[ -352.4 -22 0 ]
+	LongLat	[ 7.6 -22 0 ]
 	Size	200
 	Type	"MO"
 }
@@ -10987,7 +10987,7 @@ Location "Sige Dorsa" "Sol/Venus"
 
 Location "Sigrid" "Sol/Venus"
 {
-	LongLat	[ -314.4 -63.6 0 ]
+	LongLat	[ 45.6 -63.6 0 ]
 	Size	16.2
 	Type	"AA"
 }
@@ -11001,14 +11001,14 @@ Location "Sigrun Fossae" "Sol/Venus"
 
 Location "Siksaup Dorsa" "Sol/Venus"
 {
-	LongLat	[ -228 73 0 ]
+	LongLat	[ 132 73 0 ]
 	Size	650
 	Type	"DO"
 }
 
 Location "Silvia Corona" "Sol/Venus"
 {
-	LongLat	[ -355.7 -12.6 0 ]
+	LongLat	[ 4.3 -12.6 0 ]
 	Size	270
 	Type	"CR"
 }
@@ -11043,35 +11043,35 @@ Location "Sinanevt Dorsa" "Sol/Venus"
 
 Location "Sinann Vallis" "Sol/Venus"
 {
-	LongLat	[ -270 49 0 ]
+	LongLat	[ 90 49 0 ]
 	Size	425
 	Type	"VA"
 }
 
 Location "Sinlaku Corona" "Sol/Venus"
 {
-	LongLat	[ -260.3 -17.3 0 ]
+	LongLat	[ 99.7 -17.3 0 ]
 	Size	300
 	Type	"CR"
 }
 
 Location "Sirani" "Sol/Venus"
 {
-	LongLat	[ -230.4 31.5 0 ]
+	LongLat	[ 129.6 31.5 0 ]
 	Size	28.3
 	Type	"AA"
 }
 
 Location "Sirona Dorsa" "Sol/Venus"
 {
-	LongLat	[ -193.5 43.5 0 ]
+	LongLat	[ 166.5 43.5 0 ]
 	Size	700
 	Type	"DO"
 }
 
 Location "Sitapi Coronae" "Sol/Venus"
 {
-	LongLat	[ -246.8 36.5 0 ]
+	LongLat	[ 113.2 36.5 0 ]
 	Size	270
 	Type	"CR"
 }
@@ -11085,7 +11085,7 @@ Location "Sith Corona" "Sol/Venus"
 
 Location "Sitwell" "Sol/Venus"
 {
-	LongLat	[ -190.4 -16.6 0 ]
+	LongLat	[ 169.6 -16.6 0 ]
 	Size	32.8
 	Type	"AA"
 }
@@ -11099,7 +11099,7 @@ Location "Skadi Mons" "Sol/Venus"
 
 Location "Snegurochka Planitia" "Sol/Venus"
 {
-	LongLat	[ -328 -86.6 0 ]
+	LongLat	[ 32 -86.6 0 ]
 	Size	2775
 	Type	"PL"
 }
@@ -11113,14 +11113,14 @@ Location "Snotra Tesserae" "Sol/Venus"
 
 Location "Sobra Fluctus" "Sol/Venus"
 {
-	LongLat	[ -248 -6 0 ]
+	LongLat	[ 112 -6 0 ]
 	Size	700
 	Type	"FL"
 }
 
 Location "Sogbo Dorsa" "Sol/Venus"
 {
-	LongLat	[ -237 40 0 ]
+	LongLat	[ 123 40 0 ]
 	Size	900
 	Type	"DO"
 }
@@ -11134,14 +11134,14 @@ Location "Sogolon Planitia" "Sol/Venus"
 
 Location "Solace" "Sol/Venus"
 {
-	LongLat	[ -317.2 -35.9 0 ]
+	LongLat	[ 42.8 -35.9 0 ]
 	Size	5.3
 	Type	"AA"
 }
 
 Location "Somagalags Montes" "Sol/Venus"
 {
-	LongLat	[ -348.5 -9.3 0 ]
+	LongLat	[ 11.5 -9.3 0 ]
 	Size	105
 	Type	"MO"
 }
@@ -11155,7 +11155,7 @@ Location "Sonmunde Fluctus" "Sol/Venus"
 
 Location "Sopdet Tesserae" "Sol/Venus"
 {
-	LongLat	[ -243 45 0 ]
+	LongLat	[ 117 45 0 ]
 	Size	500
 	Type	"TE"
 }
@@ -11169,49 +11169,49 @@ Location "Sophia" "Sol/Venus"
 
 Location "Sovadi" "Sol/Venus"
 {
-	LongLat	[ -225.5 44.8 0 ]
+	LongLat	[ 134.5 44.8 0 ]
 	Size	12.4
 	Type	"AA"
 }
 
 Location "Spandarmat Mons" "Sol/Venus"
 {
-	LongLat	[ -255 16.5 0 ]
+	LongLat	[ 105 16.5 0 ]
 	Size	400
 	Type	"MO"
 }
 
 Location "Spidola Dorsa" "Sol/Venus"
 {
-	LongLat	[ -325 73.5 0 ]
+	LongLat	[ 35 73.5 0 ]
 	Size	950
 	Type	"DO"
 }
 
 Location "Stanton" "Sol/Venus"
 {
-	LongLat	[ -199.3 23.3 0 ]
+	LongLat	[ 160.7 23.3 0 ]
 	Size	107
 	Type	"AA"
 }
 
 Location "Stefania" "Sol/Venus"
 {
-	LongLat	[ -333.3 -51.3 0 ]
+	LongLat	[ 26.7 -51.3 0 ]
 	Size	11.7
 	Type	"AA"
 }
 
 Location "Stein" "Sol/Venus"
 {
-	LongLat	[ -345.5 30.1 0 ]
+	LongLat	[ 14.5 30.1 0 ]
 	Size	13.3
 	Type	"AA"
 }
 
 Location "Steinbach" "Sol/Venus"
 {
-	LongLat	[ -256.9 41.4 0 ]
+	LongLat	[ 103.1 41.4 0 ]
 	Size	20.3
 	Type	"AA"
 }
@@ -11232,21 +11232,21 @@ Location "Stopes Patera" "Sol/Venus"
 
 Location "Storni" "Sol/Venus"
 {
-	LongLat	[ -245.6 9.8 0 ]
+	LongLat	[ 114.4 9.8 0 ]
 	Size	21.7
 	Type	"AA"
 }
 
 Location "Stowe" "Sol/Venus"
 {
-	LongLat	[ -233.2 43.2 0 ]
+	LongLat	[ 126.8 43.2 0 ]
 	Size	80
 	Type	"AA"
 }
 
 Location "Strenia Fluctus" "Sol/Venus"
 {
-	LongLat	[ -250 -41 0 ]
+	LongLat	[ 110 -41 0 ]
 	Size	490
 	Type	"FL"
 }
@@ -11267,7 +11267,7 @@ Location "Su-Anasy Corona" "Sol/Venus"
 
 Location "Sudenitsa Tesserae" "Sol/Venus"
 {
-	LongLat	[ -270 -33 0 ]
+	LongLat	[ 90 -33 0 ]
 	Size	4200
 	Type	"TE"
 }
@@ -11281,14 +11281,14 @@ Location "Sudice Tessera" "Sol/Venus"
 
 Location "Sui-ur Linea" "Sol/Venus"
 {
-	LongLat	[ -260 61 0 ]
+	LongLat	[ 100 61 0 ]
 	Size	700
 	Type	"LI"
 }
 
 Location "Suliko" "Sol/Venus"
 {
-	LongLat	[ -214.6 -9.6 0 ]
+	LongLat	[ 145.4 -9.6 0 ]
 	Size	14.9
 	Type	"AA"
 }
@@ -11309,7 +11309,7 @@ Location "Sullivan" "Sol/Venus"
 
 Location "Sumerla Tholi" "Sol/Venus"
 {
-	LongLat	[ -252.2 13.8 0 ]
+	LongLat	[ 107.8 13.8 0 ]
 	Size	90
 	Type	"TH"
 }
@@ -11337,7 +11337,7 @@ Location "Surija" "Sol/Venus"
 
 Location "Surupa Dorsa" "Sol/Venus"
 {
-	LongLat	[ -209 -71.7 0 ]
+	LongLat	[ 151 -71.7 0 ]
 	Size	981
 	Type	"DO"
 }
@@ -11351,7 +11351,7 @@ Location "Susanna" "Sol/Venus"
 
 Location "Sus-Khotin Corona" "Sol/Venus"
 {
-	LongLat	[ -241 54 0 ]
+	LongLat	[ 119 54 0 ]
 	Size	110
 	Type	"CR"
 }
@@ -11365,7 +11365,7 @@ Location "Sutkatyn Chasmata" "Sol/Venus"
 
 Location "Sveta" "Sol/Venus"
 {
-	LongLat	[ -273.2 -82.5 0 ]
+	LongLat	[ 86.8 -82.5 0 ]
 	Size	21
 	Type	"AA"
 }
@@ -11386,14 +11386,14 @@ Location "Szél-anya Lineae" "Sol/Venus"
 
 Location "Tacoma Corona" "Sol/Venus"
 {
-	LongLat	[ -288 37 0 ]
+	LongLat	[ 72 37 0 ]
 	Size	500
 	Type	"CR"
 }
 
 Location "Tadaka Corona" "Sol/Venus"
 {
-	LongLat	[ -210.5 4 0 ]
+	LongLat	[ 149.5 4 0 ]
 	Size	260
 	Type	"CR"
 }
@@ -11428,7 +11428,7 @@ Location "Tai-pe Valles" "Sol/Venus"
 
 Location "Taira" "Sol/Venus"
 {
-	LongLat	[ -296.8 1.6 0 ]
+	LongLat	[ 63.2 1.6 0 ]
 	Size	19.6
 	Type	"AA"
 }
@@ -11442,21 +11442,21 @@ Location "Tai Shan Corona" "Sol/Venus"
 
 Location "Tako" "Sol/Venus"
 {
-	LongLat	[ -285.3 -25.1 0 ]
+	LongLat	[ 74.7 -25.1 0 ]
 	Size	10.7
 	Type	"AA"
 }
 
 Location "Takus Mana Corona" "Sol/Venus"
 {
-	LongLat	[ -345.3 19.6 0 ]
+	LongLat	[ 14.7 19.6 0 ]
 	Size	125
 	Type	"CR"
 }
 
 Location "Talakin Mons" "Sol/Venus"
 {
-	LongLat	[ -355.4 11 0 ]
+	LongLat	[ 4.6 11 0 ]
 	Size	175
 	Type	"MO"
 }
@@ -11470,7 +11470,7 @@ Location "Talvikki" "Sol/Venus"
 
 Location "Tamara" "Sol/Venus"
 {
-	LongLat	[ -317.2 -61.6 0 ]
+	LongLat	[ 42.8 -61.6 0 ]
 	Size	11
 	Type	"AA"
 }
@@ -11484,21 +11484,21 @@ Location "Tamfana Corona" "Sol/Venus"
 
 Location "Tamiyo Corona" "Sol/Venus"
 {
-	LongLat	[ -298.5 36 0 ]
+	LongLat	[ 61.5 36 0 ]
 	Size	400
 	Type	"CR"
 }
 
 Location "Tangba Corona" "Sol/Venus"
 {
-	LongLat	[ -258 47 0 ]
+	LongLat	[ 102 47 0 ]
 	Size	200
 	Type	"CR"
 }
 
 Location "Tanya" "Sol/Venus"
 {
-	LongLat	[ -282.7 19.3 0 ]
+	LongLat	[ 77.3 19.3 0 ]
 	Size	14
 	Type	"AA"
 }
@@ -11512,49 +11512,49 @@ Location "Tan-yondozo Vallis" "Sol/Venus"
 
 Location "Tapati Vallis" "Sol/Venus"
 {
-	LongLat	[ -304 -27 0 ]
+	LongLat	[ 56 -27 0 ]
 	Size	150
 	Type	"VA"
 }
 
 Location "Taranga Corona" "Sol/Venus"
 {
-	LongLat	[ -251.5 -16.5 0 ]
+	LongLat	[ 108.5 -16.5 0 ]
 	Size	525
 	Type	"CR"
 }
 
 Location "Tarbell Patera" "Sol/Venus"
 {
-	LongLat	[ -351.5 58.2 0 ]
+	LongLat	[ 8.5 58.2 0 ]
 	Size	80
 	Type	"PE"
 }
 
 Location "Tari Pennu Corona" "Sol/Venus"
 {
-	LongLat	[ -264.3 -0.3 0 ]
+	LongLat	[ 95.7 -0.3 0 ]
 	Size	180
 	Type	"CR"
 }
 
 Location "Tatyana" "Sol/Venus"
 {
-	LongLat	[ -212.4 -85.4 0 ]
+	LongLat	[ 147.6 -85.4 0 ]
 	Size	19
 	Type	"AA"
 }
 
 Location "Ta'urua Vallis" "Sol/Venus"
 {
-	LongLat	[ -247.5 80.2 0 ]
+	LongLat	[ 112.5 80.2 0 ]
 	Size	525
 	Type	"VA"
 }
 
 Location "Taussig" "Sol/Venus"
 {
-	LongLat	[ -229 9.2 0 ]
+	LongLat	[ 131 9.2 0 ]
 	Size	25.8
 	Type	"AA"
 }
@@ -11568,14 +11568,14 @@ Location "Tawera Vallis" "Sol/Venus"
 
 Location "Teasdale Patera" "Sol/Venus"
 {
-	LongLat	[ -189.1 67.6 0 ]
+	LongLat	[ 170.9 67.6 0 ]
 	Size	75
 	Type	"PE"
 }
 
 Location "Tefnut Mons" "Sol/Venus"
 {
-	LongLat	[ -304 38.6 0 ]
+	LongLat	[ 56 38.6 0 ]
 	Size	182
 	Type	"MO"
 }
@@ -11617,7 +11617,7 @@ Location "Temou" "Sol/Venus"
 
 Location "Tenisheva Patera" "Sol/Venus"
 {
-	LongLat	[ -254.8 1.4 0 ]
+	LongLat	[ 105.2 1.4 0 ]
 	Size	80
 	Type	"PE"
 }
@@ -11638,7 +11638,7 @@ Location "Teresa" "Sol/Venus"
 
 Location "Terhi" "Sol/Venus"
 {
-	LongLat	[ -253.1 -45.7 0 ]
+	LongLat	[ 106.9 -45.7 0 ]
 	Size	10.7
 	Type	"AA"
 }
@@ -11680,7 +11680,7 @@ Location "Teura" "Sol/Venus"
 
 Location "Tey Patera" "Sol/Venus"
 {
-	LongLat	[ -349.1 17.8 0 ]
+	LongLat	[ 10.9 17.8 0 ]
 	Size	20
 	Type	"PE"
 }
@@ -11694,28 +11694,28 @@ Location "Tezan Lineae" "Sol/Venus"
 
 Location "Thallo Mons" "Sol/Venus"
 {
-	LongLat	[ -231 -74.5 0 ]
+	LongLat	[ 129 -74.5 0 ]
 	Size	40
 	Type	"MO"
 }
 
 Location "Thaukhud Linea" "Sol/Venus"
 {
-	LongLat	[ -232 24 0 ]
+	LongLat	[ 128 24 0 ]
 	Size	900
 	Type	"LI"
 }
 
 Location "Theia Mons" "Sol/Venus"
 {
-	LongLat	[ -281 -22.7 0 ]
+	LongLat	[ 79 -22.7 0 ]
 	Size	226
 	Type	"MO"
 }
 
 Location "THEMIS REGIO" "Sol/Venus"
 {
-	LongLat	[ -284.2 37.4 0 ]
+	LongLat	[ 75.8 37.4 0 ]
 	Size	1811
 	Type	"RE"
 }
@@ -11736,7 +11736,7 @@ Location "THETIS REGIO" "Sol/Venus"
 
 Location "Thomas" "Sol/Venus"
 {
-	LongLat	[ -272.5 13 0 ]
+	LongLat	[ 87.5 13 0 ]
 	Size	25.2
 	Type	"AA"
 }
@@ -11771,7 +11771,7 @@ Location "Tiffany" "Sol/Venus"
 
 Location "Tikoiwuti Dorsa" "Sol/Venus"
 {
-	LongLat	[ -225 -56 0 ]
+	LongLat	[ 135 -56 0 ]
 	Size	1000
 	Type	"DO"
 }
@@ -11792,14 +11792,14 @@ Location "Tinatin Planitia" "Sol/Venus"
 
 Location "Tingoi Vallis" "Sol/Venus"
 {
-	LongLat	[ -318.6 -6 0 ]
+	LongLat	[ 41.4 -6 0 ]
 	Size	250
 	Type	"VA"
 }
 
 Location "Tinianavyt Dorsa" "Sol/Venus"
 {
-	LongLat	[ -239 51 0 ]
+	LongLat	[ 121 51 0 ]
 	Size	1500
 	Type	"DO"
 }
@@ -11820,42 +11820,42 @@ Location "Tipporah Patera" "Sol/Venus"
 
 Location "Tituba Corona" "Sol/Venus"
 {
-	LongLat	[ -214.7 -42.4 0 ]
+	LongLat	[ 145.3 -42.4 0 ]
 	Size	163
 	Type	"CR"
 }
 
 Location "Tkashi-mapa Chasma" "Sol/Venus"
 {
-	LongLat	[ -206 -13 0 ]
+	LongLat	[ 154 -13 0 ]
 	Size	1100
 	Type	"CM"
 }
 
 Location "Toci Tholus" "Sol/Venus"
 {
-	LongLat	[ -355.1 -29.5 0 ]
+	LongLat	[ 4.9 -29.5 0 ]
 	Size	300
 	Type	"TH"
 }
 
 Location "Toklas" "Sol/Venus"
 {
-	LongLat	[ -273.1 -0.7 0 ]
+	LongLat	[ 86.9 -0.7 0 ]
 	Size	17.5
 	Type	"AA"
 }
 
 Location "Tolgonay" "Sol/Venus"
 {
-	LongLat	[ -271.1 -68.8 0 ]
+	LongLat	[ 88.9 -68.8 0 ]
 	Size	4.6
 	Type	"AA"
 }
 
 Location "Toma Mons" "Sol/Venus"
 {
-	LongLat	[ -232 12.9 0 ]
+	LongLat	[ 128 12.9 0 ]
 	Size	80
 	Type	"MO"
 }
@@ -11890,7 +11890,7 @@ Location "Triglava Corona" "Sol/Venus"
 
 Location "Trollope" "Sol/Venus"
 {
-	LongLat	[ -246.4 54.8 0 ]
+	LongLat	[ 113.6 54.8 0 ]
 	Size	27.2
 	Type	"AA"
 }
@@ -11904,14 +11904,14 @@ Location "Trotula Corona" "Sol/Venus"
 
 Location "Truth" "Sol/Venus"
 {
-	LongLat	[ -287.8 -28.7 0 ]
+	LongLat	[ 72.2 -28.7 0 ]
 	Size	47.3
 	Type	"AA"
 }
 
 Location "Ts'an Nu Mons" "Sol/Venus"
 {
-	LongLat	[ -272.9 27.2 0 ]
+	LongLat	[ 87.1 27.2 0 ]
 	Size	310
 	Type	"MO"
 }
@@ -11932,7 +11932,7 @@ Location "Tseraskaya" "Sol/Venus"
 
 Location "Tsetsa" "Sol/Venus"
 {
-	LongLat	[ -317.7 -31.3 0 ]
+	LongLat	[ 42.3 -31.3 0 ]
 	Size	9.9
 	Type	"AA"
 }
@@ -11946,7 +11946,7 @@ Location "Tsiala" "Sol/Venus"
 
 Location "Tsovinar Dorsa" "Sol/Venus"
 {
-	LongLat	[ -254 46 0 ]
+	LongLat	[ 106 46 0 ]
 	Size	1100
 	Type	"DO"
 }
@@ -11967,14 +11967,14 @@ Location "Tsvetayeva" "Sol/Venus"
 
 Location "Tsyrma" "Sol/Venus"
 {
-	LongLat	[ -318.5 14.1 0 ]
+	LongLat	[ 41.5 14.1 0 ]
 	Size	7.8
 	Type	"AA"
 }
 
 Location "Tubman" "Sol/Venus"
 {
-	LongLat	[ -204.6 -23.6 0 ]
+	LongLat	[ 155.4 -23.6 0 ]
 	Size	42.9
 	Type	"AA"
 }
@@ -11988,28 +11988,28 @@ Location "Tukwunag Dorsa" "Sol/Venus"
 
 Location "Tuli Mons" "Sol/Venus"
 {
-	LongLat	[ -314.6 -13.3 0 ]
+	LongLat	[ 45.4 -13.3 0 ]
 	Size	750
 	Type	"MO"
 }
 
 Location "Tumas Corona" "Sol/Venus"
 {
-	LongLat	[ -351.2 16.3 0 ]
+	LongLat	[ 8.8 16.3 0 ]
 	Size	200
 	Type	"CR"
 }
 
 Location "Tünde" "Sol/Venus"
 {
-	LongLat	[ -193 -76.8 0 ]
+	LongLat	[ 167 -76.8 0 ]
 	Size	16.3
 	Type	"AA"
 }
 
 Location "Tunehakwe Corona" "Sol/Venus"
 {
-	LongLat	[ -303.6 33.4 0 ]
+	LongLat	[ 56.4 33.4 0 ]
 	Size	290
 	Type	"CR"
 }
@@ -12023,35 +12023,35 @@ Location "Turan Planum" "Sol/Venus"
 
 Location "Tureshmat Corona" "Sol/Venus"
 {
-	LongLat	[ -289.5 51.5 0 ]
+	LongLat	[ 70.5 51.5 0 ]
 	Size	150
 	Type	"CR"
 }
 
 Location "Turgmam Fluctus" "Sol/Venus"
 {
-	LongLat	[ -220 -56 0 ]
+	LongLat	[ 140 -56 0 ]
 	Size	500
 	Type	"FL"
 }
 
 Location "Turi Tholus" "Sol/Venus"
 {
-	LongLat	[ -222.3 66.9 0 ]
+	LongLat	[ 137.7 66.9 0 ]
 	Size	15
 	Type	"TH"
 }
 
 Location "Tursa Tholus" "Sol/Venus"
 {
-	LongLat	[ -205.2 35.4 0 ]
+	LongLat	[ 154.8 35.4 0 ]
 	Size	75
 	Type	"TH"
 }
 
 Location "Tursunoy" "Sol/Venus"
 {
-	LongLat	[ -229.3 -80.9 0 ]
+	LongLat	[ 130.7 -80.9 0 ]
 	Size	4.7
 	Type	"AA"
 }
@@ -12072,21 +12072,21 @@ Location "Tusholi Corona" "Sol/Venus"
 
 Location "Tussaud" "Sol/Venus"
 {
-	LongLat	[ -221 -21.7 0 ]
+	LongLat	[ 139 -21.7 0 ]
 	Size	16
 	Type	"AA"
 }
 
 Location "Tutelina Corona" "Sol/Venus"
 {
-	LongLat	[ -348 -29 0 ]
+	LongLat	[ 12 -29 0 ]
 	Size	180
 	Type	"CR"
 }
 
 Location "Tuulikki Mons" "Sol/Venus"
 {
-	LongLat	[ -274.7 -10.3 0 ]
+	LongLat	[ 85.3 -10.3 0 ]
 	Size	520
 	Type	"MO"
 }
@@ -12135,14 +12135,14 @@ Location "Ubastet Fluctus" "Sol/Venus"
 
 Location "Udagan" "Sol/Venus"
 {
-	LongLat	[ -206.9 -10.7 0 ]
+	LongLat	[ 153.1 -10.7 0 ]
 	Size	11.5
 	Type	"AA"
 }
 
 Location "Udaltsova" "Sol/Venus"
 {
-	LongLat	[ -275.3 20.3 0 ]
+	LongLat	[ 84.7 20.3 0 ]
 	Size	26.7
 	Type	"AA"
 }
@@ -12156,56 +12156,56 @@ Location "Udyaka" "Sol/Venus"
 
 Location "Ugatame Corona" "Sol/Venus"
 {
-	LongLat	[ -255 76.5 0 ]
+	LongLat	[ 105 76.5 0 ]
 	Size	370
 	Type	"CR"
 }
 
 Location "Ugne" "Sol/Venus"
 {
-	LongLat	[ -205.8 -34.9 0 ]
+	LongLat	[ 154.2 -34.9 0 ]
 	Size	10.3
 	Type	"AA"
 }
 
 Location "Uilata Fluctus" "Sol/Venus"
 {
-	LongLat	[ -314 -17 0 ]
+	LongLat	[ 46 -17 0 ]
 	Size	700
 	Type	"FL"
 }
 
 Location "Ukemochi Corona" "Sol/Venus"
 {
-	LongLat	[ -296.1 39 0 ]
+	LongLat	[ 63.9 39 0 ]
 	Size	300
 	Type	"CR"
 }
 
 Location "Uleken" "Sol/Venus"
 {
-	LongLat	[ -185.1 -33.7 0 ]
+	LongLat	[ 174.9 -33.7 0 ]
 	Size	10.9
 	Type	"AA"
 }
 
 Location "ULFRUN REGIO" "Sol/Venus"
 {
-	LongLat	[ -225 -27 0 ]
+	LongLat	[ 135 -27 0 ]
 	Size	3954
 	Type	"RE"
 }
 
 Location "Ulgen-ekhe Coronae" "Sol/Venus"
 {
-	LongLat	[ -224 14.2 0 ]
+	LongLat	[ 136 14.2 0 ]
 	Size	300
 	Type	"CR"
 }
 
 Location "Ulla" "Sol/Venus"
 {
-	LongLat	[ -184.5 51.5 0 ]
+	LongLat	[ 175.5 51.5 0 ]
 	Size	10.4
 	Type	"AA"
 }
@@ -12233,7 +12233,7 @@ Location "Uluk" "Sol/Venus"
 
 Location "Ul'yana" "Sol/Venus"
 {
-	LongLat	[ -253 -24.3 0 ]
+	LongLat	[ 107 -24.3 0 ]
 	Size	12.5
 	Type	"AA"
 }
@@ -12247,7 +12247,7 @@ Location "Umaga Valles" "Sol/Venus"
 
 Location "Umaima" "Sol/Venus"
 {
-	LongLat	[ -195.4 23.3 0 ]
+	LongLat	[ 164.6 23.3 0 ]
 	Size	6.9
 	Type	"AA"
 }
@@ -12261,7 +12261,7 @@ Location "Umay-ene Corona" "Sol/Venus"
 
 Location "Umkana" "Sol/Venus"
 {
-	LongLat	[ -198.6 53.3 0 ]
+	LongLat	[ 161.4 53.3 0 ]
 	Size	6.2
 	Type	"AA"
 }
@@ -12275,7 +12275,7 @@ Location "Unay" "Sol/Venus"
 
 Location "Undine Planitia" "Sol/Venus"
 {
-	LongLat	[ -303 -13 0 ]
+	LongLat	[ 57 -13 0 ]
 	Size	2800
 	Type	"PL"
 }
@@ -12303,49 +12303,49 @@ Location "Uni Dorsa" "Sol/Venus"
 
 Location "Unitkak" "Sol/Venus"
 {
-	LongLat	[ -199.5 -40.8 0 ]
+	LongLat	[ 160.5 -40.8 0 ]
 	Size	8
 	Type	"AA"
 }
 
 Location "Unuk Dorsa" "Sol/Venus"
 {
-	LongLat	[ -351.5 4.5 0 ]
+	LongLat	[ 8.5 4.5 0 ]
 	Size	400
 	Type	"DO"
 }
 
 Location "Uorsar Rupes" "Sol/Venus"
 {
-	LongLat	[ -341.2 -76.8 0 ]
+	LongLat	[ 18.8 -76.8 0 ]
 	Size	820
 	Type	"RU"
 }
 
 Location "Uottakh-sulus Valles" "Sol/Venus"
 {
-	LongLat	[ -239 -12.5 0 ]
+	LongLat	[ 121 -12.5 0 ]
 	Size	1100
 	Type	"VA"
 }
 
 Location "Upunusa Tholus" "Sol/Venus"
 {
-	LongLat	[ -252.4 -66.2 0 ]
+	LongLat	[ 107.6 -66.2 0 ]
 	Size	223
 	Type	"TH"
 }
 
 Location "Urash Corona" "Sol/Venus"
 {
-	LongLat	[ -282 -43.2 0 ]
+	LongLat	[ 78 -43.2 0 ]
 	Size	360
 	Type	"CR"
 }
 
 Location "Urazbike" "Sol/Venus"
 {
-	LongLat	[ -202.5 9 0 ]
+	LongLat	[ 157.5 9 0 ]
 	Size	7
 	Type	"AA"
 }
@@ -12359,14 +12359,14 @@ Location "Urd Tessera" "Sol/Venus"
 
 Location "Uretsete Mons" "Sol/Venus"
 {
-	LongLat	[ -261 12 0 ]
+	LongLat	[ 99 12 0 ]
 	Size	500
 	Type	"MO"
 }
 
 Location "Urkuk Dorsa" "Sol/Venus"
 {
-	LongLat	[ -320 12 0 ]
+	LongLat	[ 40 12 0 ]
 	Size	600
 	Type	"DO"
 }
@@ -12380,21 +12380,21 @@ Location "Urutonga Colles" "Sol/Venus"
 
 Location "Ushas Mons" "Sol/Venus"
 {
-	LongLat	[ -324.6 24.3 0 ]
+	LongLat	[ 35.4 24.3 0 ]
 	Size	413
 	Type	"MO"
 }
 
 Location "Ustinya" "Sol/Venus"
 {
-	LongLat	[ -251.6 41.2 0 ]
+	LongLat	[ 108.4 41.2 0 ]
 	Size	11.8
 	Type	"AA"
 }
 
 Location "Ustrecha Tesserae" "Sol/Venus"
 {
-	LongLat	[ -265 43 0 ]
+	LongLat	[ 95 43 0 ]
 	Size	450
 	Type	"TE"
 }
@@ -12408,14 +12408,14 @@ Location "Uti Hiata Mons" "Sol/Venus"
 
 Location "Utrenitsa Vallis" "Sol/Venus"
 {
-	LongLat	[ -280 -55 0 ]
+	LongLat	[ 80 -55 0 ]
 	Size	700
 	Type	"VA"
 }
 
 Location "Ut Rupes" "Sol/Venus"
 {
-	LongLat	[ -321.9 -55.3 0 ]
+	LongLat	[ 38.1 -55.3 0 ]
 	Size	676
 	Type	"RU"
 }
@@ -12429,28 +12429,28 @@ Location "Utset Corona" "Sol/Venus"
 
 Location "Uvaysi" "Sol/Venus"
 {
-	LongLat	[ -198.3 -2.3 0 ]
+	LongLat	[ 161.7 -2.3 0 ]
 	Size	38.9
 	Type	"AA"
 }
 
 Location "Uyengimi" "Sol/Venus"
 {
-	LongLat	[ -204.9 76.9 0 ]
+	LongLat	[ 155.1 76.9 0 ]
 	Size	8.9
 	Type	"AA"
 }
 
 Location "Uzume Fluctus" "Sol/Venus"
 {
-	LongLat	[ -220.3 -28.6 0 ]
+	LongLat	[ 139.7 -28.6 0 ]
 	Size	700
 	Type	"FL"
 }
 
 Location "Văcărescu" "Sol/Venus"
 {
-	LongLat	[ -199.8 63 0 ]
+	LongLat	[ 160.2 63 0 ]
 	Size	31.5
 	Type	"AA"
 }
@@ -12471,7 +12471,7 @@ Location "Vaidilute Rupes" "Sol/Venus"
 
 Location "Vaiva Dorsum" "Sol/Venus"
 {
-	LongLat	[ -204 53.2 0 ]
+	LongLat	[ 156 53.2 0 ]
 	Size	520
 	Type	"DO"
 }
@@ -12485,7 +12485,7 @@ Location "Vaka" "Sol/Venus"
 
 Location "Vakarine Vallis" "Sol/Venus"
 {
-	LongLat	[ -336.4 -5 0 ]
+	LongLat	[ 23.6 -5 0 ]
 	Size	625
 	Type	"VA"
 }
@@ -12506,7 +12506,7 @@ Location "Valadon" "Sol/Venus"
 
 Location "Valborg" "Sol/Venus"
 {
-	LongLat	[ -272.1 -75.5 0 ]
+	LongLat	[ 87.9 -75.5 0 ]
 	Size	20
 	Type	"AA"
 }
@@ -12548,28 +12548,28 @@ Location "Vanessa" "Sol/Venus"
 
 Location "Vard" "Sol/Venus"
 {
-	LongLat	[ -314.5 -17.5 0 ]
+	LongLat	[ 45.5 -17.5 0 ]
 	Size	6.1
 	Type	"AA"
 }
 
 Location "Varma-Ava Dorsa" "Sol/Venus"
 {
-	LongLat	[ -268.8 -62.3 0 ]
+	LongLat	[ 91.2 -62.3 0 ]
 	Size	767
 	Type	"DO"
 }
 
 Location "Var Mons" "Sol/Venus"
 {
-	LongLat	[ -316.2 -1.2 0 ]
+	LongLat	[ 43.8 -1.2 0 ]
 	Size	1000
 	Type	"MO"
 }
 
 Location "Varya" "Sol/Venus"
 {
-	LongLat	[ -211.8 -2.8 0 ]
+	LongLat	[ 148.2 -2.8 0 ]
 	Size	14.3
 	Type	"AA"
 }
@@ -12590,21 +12590,21 @@ Location "Vashti" "Sol/Venus"
 
 Location "VASILISA REGIO" "Sol/Venus"
 {
-	LongLat	[ -332 11 0 ]
+	LongLat	[ 28 11 0 ]
 	Size	1200
 	Type	"RE"
 }
 
 Location "Vasilutsa" "Sol/Venus"
 {
-	LongLat	[ -334.4 -16.5 0 ]
+	LongLat	[ 25.6 -16.5 0 ]
 	Size	5.7
 	Type	"AA"
 }
 
 Location "Vassi" "Sol/Venus"
 {
-	LongLat	[ -346.5 -34.4 0 ]
+	LongLat	[ 13.5 -34.4 0 ]
 	Size	8.5
 	Type	"AA"
 }
@@ -12639,14 +12639,14 @@ Location "Vedma Dorsa" "Sol/Venus"
 
 Location "Vejas-mate Dorsa" "Sol/Venus"
 {
-	LongLat	[ -245 70.5 0 ]
+	LongLat	[ 115 70.5 0 ]
 	Size	1600
 	Type	"DO"
 }
 
 Location "Veleda Linea" "Sol/Venus"
 {
-	LongLat	[ -213 10 0 ]
+	LongLat	[ 147 10 0 ]
 	Size	1350
 	Type	"LI"
 }
@@ -12660,7 +12660,7 @@ Location "Vellamo Planitia" "Sol/Venus"
 
 Location "Venilia Mons" "Sol/Venus"
 {
-	LongLat	[ -238.8 -32.7 0 ]
+	LongLat	[ 121.2 -32.7 0 ]
 	Size	320
 	Type	"MO"
 }
@@ -12674,7 +12674,7 @@ Location "Verdandi Corona" "Sol/Venus"
 
 Location "Veriko" "Sol/Venus"
 {
-	LongLat	[ -350.1 -20.4 0 ]
+	LongLat	[ 9.9 -20.4 0 ]
 	Size	5.2
 	Type	"AA"
 }
@@ -12695,7 +12695,7 @@ Location "Verpeja Tesserae" "Sol/Venus"
 
 Location "Vesna" "Sol/Venus"
 {
-	LongLat	[ -220.5 60.3 0 ]
+	LongLat	[ 139.5 60.3 0 ]
 	Size	14.9
 	Type	"AA"
 }
@@ -12709,21 +12709,21 @@ Location "Vesper Vallis" "Sol/Venus"
 
 Location "Vesta Rupes" "Sol/Venus"
 {
-	LongLat	[ -323.9 -58.3 0 ]
+	LongLat	[ 36.1 -58.3 0 ]
 	Size	788
 	Type	"RU"
 }
 
 Location "Vesuna Corona" "Sol/Venus"
 {
-	LongLat	[ -275 65.5 0 ]
+	LongLat	[ 85 65.5 0 ]
 	Size	200
 	Type	"CR"
 }
 
 Location "Veta" "Sol/Venus"
 {
-	LongLat	[ -349.5 -42.6 0 ]
+	LongLat	[ 10.5 -42.6 0 ]
 	Size	6.4
 	Type	"AA"
 }
@@ -12737,14 +12737,14 @@ Location "Vetsorgo Dorsum" "Sol/Venus"
 
 Location "Viardot Patera" "Sol/Venus"
 {
-	LongLat	[ -254.3 7 0 ]
+	LongLat	[ 105.7 7 0 ]
 	Size	55
 	Type	"PE"
 }
 
 Location "Vibert-Douglas Patera" "Sol/Venus"
 {
-	LongLat	[ -194.3 11.6 0 ]
+	LongLat	[ 165.7 11.6 0 ]
 	Size	45
 	Type	"PE"
 }
@@ -12765,21 +12765,21 @@ Location "Vilakh Tholus" "Sol/Venus"
 
 Location "Villepreux-Power Patera" "Sol/Venus"
 {
-	LongLat	[ -210 22 0 ]
+	LongLat	[ 150 22 0 ]
 	Size	100
 	Type	"PE"
 }
 
 Location "Vinmara Planitia" "Sol/Venus"
 {
-	LongLat	[ -207.6 -53.8 0 ]
+	LongLat	[ 152.4 -53.8 0 ]
 	Size	1635
 	Type	"PL"
 }
 
 Location "Viola" "Sol/Venus"
 {
-	LongLat	[ -240.5 36.1 0 ]
+	LongLat	[ 119.5 36.1 0 ]
 	Size	10
 	Type	"AA"
 }
@@ -12793,7 +12793,7 @@ Location "Vir-ava Chasma" "Sol/Venus"
 
 Location "Vires-Akka Chasma" "Sol/Venus"
 {
-	LongLat	[ -341.6 -75.6 0 ]
+	LongLat	[ 18.4 -75.6 0 ]
 	Size	742
 	Type	"CM"
 }
@@ -12807,14 +12807,14 @@ Location "Virga" "Sol/Venus"
 
 Location "Virginia" "Sol/Venus"
 {
-	LongLat	[ -185.9 52.9 0 ]
+	LongLat	[ 174.1 52.9 0 ]
 	Size	18.5
 	Type	"AA"
 }
 
 Location "Virilis Tesserae" "Sol/Venus"
 {
-	LongLat	[ -239.7 -56.1 0 ]
+	LongLat	[ 120.3 -56.1 0 ]
 	Size	782
 	Type	"TE"
 }
@@ -12835,7 +12835,7 @@ Location "Virtus Linea" "Sol/Venus"
 
 Location "Virve" "Sol/Venus"
 {
-	LongLat	[ -346.9 5.1 0 ]
+	LongLat	[ 13.1 5.1 0 ]
 	Size	18
 	Type	"AA"
 }
@@ -12849,35 +12849,35 @@ Location "Vishera Vallis" "Sol/Venus"
 
 Location "Vlasta" "Sol/Venus"
 {
-	LongLat	[ -250.1 -28.4 0 ]
+	LongLat	[ 109.9 -28.4 0 ]
 	Size	10.7
 	Type	"AA"
 }
 
 Location "Volkova" "Sol/Venus"
 {
-	LongLat	[ -242.2 -75.2 0 ]
+	LongLat	[ 117.8 -75.2 0 ]
 	Size	47.5
 	Type	"AA"
 }
 
 Location "Volyana" "Sol/Venus"
 {
-	LongLat	[ -359.9 -60.6 0 ]
+	LongLat	[ 0.1 -60.6 0 ]
 	Size	5.3
 	Type	"AA"
 }
 
 Location "von Paradis" "Sol/Venus"
 {
-	LongLat	[ -314.9 32.2 0 ]
+	LongLat	[ 45.1 32.2 0 ]
 	Size	37.5
 	Type	"AA"
 }
 
 Location "von Schuurman" "Sol/Venus"
 {
-	LongLat	[ -191 5 0 ]
+	LongLat	[ 169 5 0 ]
 	Size	29.1
 	Type	"AA"
 }
@@ -12891,21 +12891,21 @@ Location "Von Siebold" "Sol/Venus"
 
 Location "von Suttner" "Sol/Venus"
 {
-	LongLat	[ -234.9 10.6 0 ]
+	LongLat	[ 125.1 10.6 0 ]
 	Size	24
 	Type	"AA"
 }
 
 Location "Vostrukha Mons" "Sol/Venus"
 {
-	LongLat	[ -299.4 6.3 0 ]
+	LongLat	[ 60.6 6.3 0 ]
 	Size	180
 	Type	"MO"
 }
 
 Location "Vovchok Patera" "Sol/Venus"
 {
-	LongLat	[ -310 38 0 ]
+	LongLat	[ 50 38 0 ]
 	Size	80
 	Type	"PE"
 }
@@ -12919,7 +12919,7 @@ Location "Voynich" "Sol/Venus"
 
 Location "Vupar Tholus" "Sol/Venus"
 {
-	LongLat	[ -306 13.5 0 ]
+	LongLat	[ 54 13.5 0 ]
 	Size	100
 	Type	"TH"
 }
@@ -12933,7 +12933,7 @@ Location "Vut-Ami Fluctus" "Sol/Venus"
 
 Location "Waka Mons" "Sol/Venus"
 {
-	LongLat	[ -207.7 -26.3 0 ]
+	LongLat	[ 152.3 -26.3 0 ]
 	Size	60
 	Type	"MO"
 }
@@ -12947,14 +12947,14 @@ Location "Wala Dorsa" "Sol/Venus"
 
 Location "Wanda" "Sol/Venus"
 {
-	LongLat	[ -323.1 -71.3 0 ]
+	LongLat	[ 36.9 -71.3 0 ]
 	Size	21.7
 	Type	"AA"
 }
 
 Location "Wang Zhenyi" "Sol/Venus"
 {
-	LongLat	[ -217.8 -13.2 0 ]
+	LongLat	[ 142.2 -13.2 0 ]
 	Size	23.4
 	Type	"AA"
 }
@@ -12968,42 +12968,42 @@ Location "Warren" "Sol/Venus"
 
 Location "Wawalag Planitia" "Sol/Venus"
 {
-	LongLat	[ -217 30 0 ]
+	LongLat	[ 143 30 0 ]
 	Size	2600
 	Type	"PL"
 }
 
 Location "Wazata" "Sol/Venus"
 {
-	LongLat	[ -298.3 -33.6 0 ]
+	LongLat	[ 61.7 -33.6 0 ]
 	Size	13.9
 	Type	"AA"
 }
 
 Location "Weil" "Sol/Venus"
 {
-	LongLat	[ -283.1 -19.4 0 ]
+	LongLat	[ 76.9 -19.4 0 ]
 	Size	24.2
 	Type	"AA"
 }
 
 Location "Wendla" "Sol/Venus"
 {
-	LongLat	[ -207.6 -22.5 0 ]
+	LongLat	[ 152.4 -22.5 0 ]
 	Size	5.7
 	Type	"AA"
 }
 
 Location "Wen Shu" "Sol/Venus"
 {
-	LongLat	[ -303.7 5 0 ]
+	LongLat	[ 56.3 5 0 ]
 	Size	31.5
 	Type	"AA"
 }
 
 Location "West" "Sol/Venus"
 {
-	LongLat	[ -303 -26.1 0 ]
+	LongLat	[ 57 -26.1 0 ]
 	Size	28.8
 	Type	"AA"
 }
@@ -13024,7 +13024,7 @@ Location "Whatitiri Corona" "Sol/Venus"
 
 Location "Wheatley" "Sol/Venus"
 {
-	LongLat	[ -268 -16.6 0 ]
+	LongLat	[ 92 -16.6 0 ]
 	Size	74.8
 	Type	"AA"
 }
@@ -13045,14 +13045,14 @@ Location "Whitney" "Sol/Venus"
 
 Location "Wieck" "Sol/Venus"
 {
-	LongLat	[ -244.8 74.2 0 ]
+	LongLat	[ 115.2 74.2 0 ]
 	Size	20.2
 	Type	"AA"
 }
 
 Location "Wilde Patera" "Sol/Venus"
 {
-	LongLat	[ -266.3 21.3 0 ]
+	LongLat	[ 93.7 21.3 0 ]
 	Size	75
 	Type	"PE"
 }
@@ -13066,7 +13066,7 @@ Location "Wilder" "Sol/Venus"
 
 Location "Willard" "Sol/Venus"
 {
-	LongLat	[ -296.1 24.6 0 ]
+	LongLat	[ 63.9 24.6 0 ]
 	Size	48.4
 	Type	"AA"
 }
@@ -13094,28 +13094,28 @@ Location "Winnemucca" "Sol/Venus"
 
 Location "Witte Patera" "Sol/Venus"
 {
-	LongLat	[ -247.65 25.8 0 ]
+	LongLat	[ 112.35 25.8 0 ]
 	Size	35
 	Type	"PE"
 }
 
 Location "Wiwi-yokpa" "Sol/Venus"
 {
-	LongLat	[ -228.4 73.8 0 ]
+	LongLat	[ 131.6 73.8 0 ]
 	Size	4.5
 	Type	"AA"
 }
 
 Location "Wohpe Tholus" "Sol/Venus"
 {
-	LongLat	[ -288.1 -41.4 0 ]
+	LongLat	[ 71.9 -41.4 0 ]
 	Size	40
 	Type	"TH"
 }
 
 Location "Wollstonecraft" "Sol/Venus"
 {
-	LongLat	[ -260.8 39.1 0 ]
+	LongLat	[ 99.2 39.1 0 ]
 	Size	44.1
 	Type	"AA"
 }
@@ -13129,21 +13129,21 @@ Location "Woolf" "Sol/Venus"
 
 Location "Workman" "Sol/Venus"
 {
-	LongLat	[ -299.9 12.9 0 ]
+	LongLat	[ 60.1 12.9 0 ]
 	Size	17.4
 	Type	"AA"
 }
 
 Location "Wu Hou" "Sol/Venus"
 {
-	LongLat	[ -317.4 25.5 0 ]
+	LongLat	[ 42.6 25.5 0 ]
 	Size	27.5
 	Type	"AA"
 }
 
 Location "Wurunsemu Tholus" "Sol/Venus"
 {
-	LongLat	[ -209.9 -40.6 0 ]
+	LongLat	[ 150.1 -40.6 0 ]
 	Size	83
 	Type	"TH"
 }
@@ -13157,7 +13157,7 @@ Location "Wynne" "Sol/Venus"
 
 Location "Wyrd Mons" "Sol/Venus"
 {
-	LongLat	[ -247.2 -14 0 ]
+	LongLat	[ 112.8 -14 0 ]
 	Size	150
 	Type	"MO"
 }
@@ -13192,7 +13192,7 @@ Location "Xcanil Corona" "Sol/Venus"
 
 Location "Xenia" "Sol/Venus"
 {
-	LongLat	[ -249.4 30.3 0 ]
+	LongLat	[ 110.6 30.3 0 ]
 	Size	13.5
 	Type	"AA"
 }
@@ -13206,21 +13206,21 @@ Location "Xiao Hong" "Sol/Venus"
 
 Location "Xilonen Corona" "Sol/Venus"
 {
-	LongLat	[ -321 -51 0 ]
+	LongLat	[ 39 -51 0 ]
 	Size	300
 	Type	"CR"
 }
 
 Location "Ximena" "Sol/Venus"
 {
-	LongLat	[ -243.6 68.2 0 ]
+	LongLat	[ 116.4 68.2 0 ]
 	Size	12.8
 	Type	"AA"
 }
 
 Location "Xi Wang" "Sol/Venus"
 {
-	LongLat	[ -208 -14 0 ]
+	LongLat	[ 152 -14 0 ]
 	Size	7.7
 	Type	"AA"
 }
@@ -13234,14 +13234,14 @@ Location "Xi Wang-mu Tessera" "Sol/Venus"
 
 Location "Xmukane Corona" "Sol/Venus"
 {
-	LongLat	[ -269.5 28.2 0 ]
+	LongLat	[ 90.5 28.2 0 ]
 	Size	200
 	Type	"CR"
 }
 
 Location "Xochiquetzal Mons" "Sol/Venus"
 {
-	LongLat	[ -270 -3.5 0 ]
+	LongLat	[ 90 -3.5 0 ]
 	Size	80
 	Type	"MO"
 }
@@ -13255,21 +13255,21 @@ Location "Xquiq Corona" "Sol/Venus"
 
 Location "Xtoh Mons" "Sol/Venus"
 {
-	LongLat	[ -194.2 -39.7 0 ]
+	LongLat	[ 165.8 -39.7 0 ]
 	Size	110
 	Type	"MO"
 }
 
 Location "Xulab Vallis" "Sol/Venus"
 {
-	LongLat	[ -186 57.5 0 ]
+	LongLat	[ 174 57.5 0 ]
 	Size	820
 	Type	"VA"
 }
 
 Location "Yablochkina" "Sol/Venus"
 {
-	LongLat	[ -195.3 -48.3 0 ]
+	LongLat	[ 164.7 -48.3 0 ]
 	Size	64.3
 	Type	"AA"
 }
@@ -13290,7 +13290,7 @@ Location "Yakyt" "Sol/Venus"
 
 Location "Yale" "Sol/Venus"
 {
-	LongLat	[ -271.2 13.4 0 ]
+	LongLat	[ 88.8 13.4 0 ]
 	Size	18.5
 	Type	"AA"
 }
@@ -13304,21 +13304,21 @@ Location "Yalyane Dorsa" "Sol/Venus"
 
 Location "Yambika" "Sol/Venus"
 {
-	LongLat	[ -208.7 -32.6 0 ]
+	LongLat	[ 151.3 -32.6 0 ]
 	Size	6.5
 	Type	"AA"
 }
 
 Location "Yanbike Corona" "Sol/Venus"
 {
-	LongLat	[ -328.5 1.5 0 ]
+	LongLat	[ 31.5 1.5 0 ]
 	Size	200
 	Type	"CR"
 }
 
 Location "Yansa Tholus" "Sol/Venus"
 {
-	LongLat	[ -232.2 -76.1 0 ]
+	LongLat	[ 127.8 -76.1 0 ]
 	Size	20
 	Type	"TH"
 }
@@ -13339,7 +13339,7 @@ Location "Yasuko" "Sol/Venus"
 
 Location "Ya-Yerv Corona" "Sol/Venus"
 {
-	LongLat	[ -214 9 0 ]
+	LongLat	[ 146 9 0 ]
 	Size	275
 	Type	"CR"
 }
@@ -13353,14 +13353,14 @@ Location "Yazruk" "Sol/Venus"
 
 Location "Yelya" "Sol/Venus"
 {
-	LongLat	[ -211.7 47.5 0 ]
+	LongLat	[ 148.3 47.5 0 ]
 	Size	8.6
 	Type	"AA"
 }
 
 Location "Yemysh" "Sol/Venus"
 {
-	LongLat	[ -214.7 -11.9 0 ]
+	LongLat	[ 145.3 -11.9 0 ]
 	Size	6
 	Type	"AA"
 }
@@ -13374,35 +13374,35 @@ Location "Yenkhoboy Fossae" "Sol/Venus"
 
 Location "Yenlik" "Sol/Venus"
 {
-	LongLat	[ -225.4 16 0 ]
+	LongLat	[ 134.6 16 0 ]
 	Size	8.6
 	Type	"AA"
 }
 
 Location "Yerguk" "Sol/Venus"
 {
-	LongLat	[ -226.8 -42.7 0 ]
+	LongLat	[ 133.2 -42.7 0 ]
 	Size	6.3
 	Type	"AA"
 }
 
 Location "Yeska" "Sol/Venus"
 {
-	LongLat	[ -230.1 -27.4 0 ]
+	LongLat	[ 129.9 -27.4 0 ]
 	Size	9.1
 	Type	"AA"
 }
 
 Location "Yetta" "Sol/Venus"
 {
-	LongLat	[ -185.4 -58.6 0 ]
+	LongLat	[ 174.6 -58.6 0 ]
 	Size	9
 	Type	"AA"
 }
 
 Location "Ymoja Vallis" "Sol/Venus"
 {
-	LongLat	[ -204.8 71.6 0 ]
+	LongLat	[ 155.2 71.6 0 ]
 	Size	390
 	Type	"VA"
 }
@@ -13416,7 +13416,7 @@ Location "Yokhtik" "Sol/Venus"
 
 Location "Yoko" "Sol/Venus"
 {
-	LongLat	[ -232 5.7 0 ]
+	LongLat	[ 128 5.7 0 ]
 	Size	5
 	Type	"AA"
 }
@@ -13430,7 +13430,7 @@ Location "Yolanda" "Sol/Venus"
 
 Location "Yolkai-Estsan Mons" "Sol/Venus"
 {
-	LongLat	[ -194 -17 0 ]
+	LongLat	[ 166 -17 0 ]
 	Size	600
 	Type	"MO"
 }
@@ -13451,14 +13451,14 @@ Location "Yonge" "Sol/Venus"
 
 Location "Yonok" "Sol/Venus"
 {
-	LongLat	[ -234.1 65.1 0 ]
+	LongLat	[ 125.9 65.1 0 ]
 	Size	9.5
 	Type	"AA"
 }
 
 Location "Yonsuk" "Sol/Venus"
 {
-	LongLat	[ -234.8 34 0 ]
+	LongLat	[ 125.2 34 0 ]
 	Size	8.5
 	Type	"AA"
 }
@@ -13479,7 +13479,7 @@ Location "Ytunde" "Sol/Venus"
 
 Location "Yuki-Onne Tessera" "Sol/Venus"
 {
-	LongLat	[ -261 -39 0 ]
+	LongLat	[ 99 -39 0 ]
 	Size	1200
 	Type	"TE"
 }
@@ -13493,49 +13493,49 @@ Location "Yumyn-Udyr Dorsa" "Sol/Venus"
 
 Location "Yunya-mana Mons" "Sol/Venus"
 {
-	LongLat	[ -285 18 0 ]
+	LongLat	[ 75 18 0 ]
 	Size	500
 	Type	"MO"
 }
 
 Location "Yurt-Ava Tholus" "Sol/Venus"
 {
-	LongLat	[ -341.5 13.8 0 ]
+	LongLat	[ 18.5 13.8 0 ]
 	Size	15
 	Type	"TH"
 }
 
 Location "Yuvkha Valles" "Sol/Venus"
 {
-	LongLat	[ -239.5 -10.5 0 ]
+	LongLat	[ 120.5 -10.5 0 ]
 	Size	200
 	Type	"VA"
 }
 
 Location "Yuzut-Arkh Fossae" "Sol/Venus"
 {
-	LongLat	[ -224 -48 0 ]
+	LongLat	[ 136 -48 0 ]
 	Size	550
 	Type	"FO"
 }
 
 Location "Yvette" "Sol/Venus"
 {
-	LongLat	[ -249.6 -7.5 0 ]
+	LongLat	[ 110.4 -7.5 0 ]
 	Size	10.6
 	Type	"AA"
 }
 
 Location "Yvonne" "Sol/Venus"
 {
-	LongLat	[ -298.4 56 0 ]
+	LongLat	[ 61.6 56 0 ]
 	Size	14.5
 	Type	"AA"
 }
 
 Location "Zakiya" "Sol/Venus"
 {
-	LongLat	[ -234.1 66.5 0 ]
+	LongLat	[ 125.9 66.5 0 ]
 	Size	7.5
 	Type	"AA"
 }
@@ -13549,42 +13549,42 @@ Location "Zaltu Mons" "Sol/Venus"
 
 Location "Zamin Corona" "Sol/Venus"
 {
-	LongLat	[ -258.3 -31.5 0 ]
+	LongLat	[ 101.7 -31.5 0 ]
 	Size	315
 	Type	"CR"
 }
 
 Location "Zamudio" "Sol/Venus"
 {
-	LongLat	[ -189.3 -9.6 0 ]
+	LongLat	[ 170.7 -9.6 0 ]
 	Size	19
 	Type	"AA"
 }
 
 Location "Zaramama Corona" "Sol/Venus"
 {
-	LongLat	[ -240.5 22 0 ]
+	LongLat	[ 119.5 22 0 ]
 	Size	240
 	Type	"CR"
 }
 
 Location "Zarema" "Sol/Venus"
 {
-	LongLat	[ -235.2 -16.8 0 ]
+	LongLat	[ 124.8 -16.8 0 ]
 	Size	5
 	Type	"AA"
 }
 
 Location "Zaryanitsa Dorsa" "Sol/Venus"
 {
-	LongLat	[ -170 -0 0 ]
+	LongLat	[ -170 0 0 ]
 	Size	1100
 	Type	"DO"
 }
 
 Location "Zdravka" "Sol/Venus"
 {
-	LongLat	[ -299 -65.1 0 ]
+	LongLat	[ 61 -65.1 0 ]
 	Size	12.5
 	Type	"AA"
 }
@@ -13598,7 +13598,7 @@ Location "Zeinab" "Sol/Venus"
 
 Location "Žemaite Patera" "Sol/Venus"
 {
-	LongLat	[ -263 35 0 ]
+	LongLat	[ 97 35 0 ]
 	Size	60
 	Type	"PE"
 }
@@ -13612,14 +13612,14 @@ Location "Zemfira" "Sol/Venus"
 
 Location "Žemina Corona" "Sol/Venus"
 {
-	LongLat	[ -186 11.7 0 ]
+	LongLat	[ 174 11.7 0 ]
 	Size	530
 	Type	"CR"
 }
 
 Location "Zemire Corona" "Sol/Venus"
 {
-	LongLat	[ -312.5 -31.5 0 ]
+	LongLat	[ 47.5 -31.5 0 ]
 	Size	200
 	Type	"CR"
 }
@@ -13640,21 +13640,21 @@ Location "Zenobia" "Sol/Venus"
 
 Location "Zerine" "Sol/Venus"
 {
-	LongLat	[ -258.6 29.6 0 ]
+	LongLat	[ 101.4 29.6 0 ]
 	Size	6.5
 	Type	"AA"
 }
 
 Location "Zewana Chasma" "Sol/Venus"
 {
-	LongLat	[ -212 -9 0 ]
+	LongLat	[ 148 -9 0 ]
 	Size	900
 	Type	"CM"
 }
 
 Location "Zheztyrnak Fossae" "Sol/Venus"
 {
-	LongLat	[ -182 67.5 0 ]
+	LongLat	[ 178 67.5 0 ]
 	Size	180
 	Type	"FO"
 }
@@ -13675,21 +13675,21 @@ Location "Zhilova" "Sol/Venus"
 
 Location "Zhivana Corona" "Sol/Venus"
 {
-	LongLat	[ -287.5 -13 0 ]
+	LongLat	[ 72.5 -13 0 ]
 	Size	180
 	Type	"CR"
 }
 
 Location "Zhu Shuzhen" "Sol/Venus"
 {
-	LongLat	[ -356.5 26.5 0 ]
+	LongLat	[ 3.5 26.5 0 ]
 	Size	29.4
 	Type	"AA"
 }
 
 Location "Zija" "Sol/Venus"
 {
-	LongLat	[ -265 3.5 0 ]
+	LongLat	[ 95 3.5 0 ]
 	Size	16.8
 	Type	"AA"
 }
@@ -13703,28 +13703,28 @@ Location "Zimcerla Dorsa" "Sol/Venus"
 
 Location "Zina" "Sol/Venus"
 {
-	LongLat	[ -320.1 -41.9 0 ]
+	LongLat	[ 39.9 -41.9 0 ]
 	Size	9
 	Type	"AA"
 }
 
 Location "Zipaltonal Fluctus" "Sol/Venus"
 {
-	LongLat	[ -251.3 -37.7 0 ]
+	LongLat	[ 108.7 -37.7 0 ]
 	Size	290
 	Type	"FL"
 }
 
 Location "Zirka Tessera" "Sol/Venus"
 {
-	LongLat	[ -300 -33 0 ]
+	LongLat	[ 60 -33 0 ]
 	Size	450
 	Type	"TE"
 }
 
 Location "Zisa Corona" "Sol/Venus"
 {
-	LongLat	[ -221 -12 0 ]
+	LongLat	[ 139 -12 0 ]
 	Size	850
 	Type	"CR"
 }
@@ -13738,21 +13738,21 @@ Location "Živile" "Sol/Venus"
 
 Location "Zlata" "Sol/Venus"
 {
-	LongLat	[ -333.9 -64.6 0 ]
+	LongLat	[ 26.1 -64.6 0 ]
 	Size	7
 	Type	"AA"
 }
 
 Location "Zorile Dorsa" "Sol/Venus"
 {
-	LongLat	[ -338.4 -39.9 0 ]
+	LongLat	[ 21.6 -39.9 0 ]
 	Size	1041
 	Type	"DO"
 }
 
 Location "Zorya Tholus" "Sol/Venus"
 {
-	LongLat	[ -335.3 9.4 0 ]
+	LongLat	[ 24.7 9.4 0 ]
 	Size	22
 	Type	"TH"
 }
@@ -13766,21 +13766,21 @@ Location "Zosia" "Sol/Venus"
 
 Location "Zoya" "Sol/Venus"
 {
-	LongLat	[ -236.2 -69.1 0 ]
+	LongLat	[ 123.8 -69.1 0 ]
 	Size	20
 	Type	"AA"
 }
 
 Location "Zuhrah" "Sol/Venus"
 {
-	LongLat	[ -357 -34.7 0 ]
+	LongLat	[ 3 -34.7 0 ]
 	Size	5.8
 	Type	"AA"
 }
 
 Location "Zula" "Sol/Venus"
 {
-	LongLat	[ -282 -7.3 0 ]
+	LongLat	[ 78 -7.3 0 ]
 	Size	5
 	Type	"AA"
 }
@@ -13808,28 +13808,28 @@ Location "Zumrad" "Sol/Venus"
 
 Location "Zurka" "Sol/Venus"
 {
-	LongLat	[ -275.2 12.8 0 ]
+	LongLat	[ 84.8 12.8 0 ]
 	Size	5.5
 	Type	"AA"
 }
 
 Location "Zvereva" "Sol/Venus"
 {
-	LongLat	[ -283.1 -45.4 0 ]
+	LongLat	[ 76.9 -45.4 0 ]
 	Size	22.9
 	Type	"AA"
 }
 
 Location "Žverine Chasma" "Sol/Venus"
 {
-	LongLat	[ -271 -18.5 0 ]
+	LongLat	[ 89 -18.5 0 ]
 	Size	1300
 	Type	"CM"
 }
 
 Location "Zywie Corona" "Sol/Venus"
 {
-	LongLat	[ -291.2 38.6 0 ]
+	LongLat	[ 68.8 38.6 0 ]
 	Size	200
 	Type	"CR"
 }

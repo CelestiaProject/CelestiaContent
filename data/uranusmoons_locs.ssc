@@ -1,4 +1,4 @@
-# 88 locations on the moons of Uranus.
+# 88 locations on Puck, Miranda, Ariel, Umbriel, Titania and Oberon.
 # SSC-file author: CLM tool by Askaniy (https://github.com/Askaniy/CelestiaLocationsMaker)
 
 
@@ -6,21 +6,21 @@
 
 Location "Bogle" "Sol/Uranus/Puck"
 {
-	LongLat	[ 0 0 0 ]
+	LongLat	[ 115 12 0 ]
 	Size	45
 	Type	"AA"
 }
 
 Location "Butz" "Sol/Uranus/Puck"
 {
-	LongLat	[ 0 0 0 ]
+	LongLat	[ 25 41 0 ]
 	Size	20
 	Type	"AA"
 }
 
 Location "Lob" "Sol/Uranus/Puck"
 {
-	LongLat	[ 0 0 0 ]
+	LongLat	[ 63 29 0 ]
 	Size	20
 	Type	"AA"
 }
@@ -30,7 +30,7 @@ Location "Lob" "Sol/Uranus/Puck"
 
 Location "Alonso" "Sol/Uranus/Miranda"
 {
-	LongLat	[ -352.6 44 0 ]
+	LongLat	[ 7.4 44 0 ]
 	Size	25
 	Type	"AA"
 }
@@ -44,7 +44,7 @@ Location "Arden Corona" "Sol/Uranus/Miranda"
 
 Location "Argier Rupes" "Sol/Uranus/Miranda"
 {
-	LongLat	[ -322.8 43.2 0 ]
+	LongLat	[ 37.2 43.2 0 ]
 	Size	141
 	Type	"RU"
 }
@@ -58,28 +58,28 @@ Location "DUNSINANE REGIO" "Sol/Uranus/Miranda"
 
 Location "Elsinore Corona" "Sol/Uranus/Miranda"
 {
-	LongLat	[ -257.1 24.8 0 ]
+	LongLat	[ 102.9 24.8 0 ]
 	Size	323
 	Type	"CR"
 }
 
 Location "EPHESUS REGIO" "Sol/Uranus/Miranda"
 {
-	LongLat	[ -250 15 0 ]
+	LongLat	[ 110 15 0 ]
 	Size	225
 	Type	"RE"
 }
 
 Location "Ferdinand" "Sol/Uranus/Miranda"
 {
-	LongLat	[ -202.1 34.8 0 ]
+	LongLat	[ 157.9 34.8 0 ]
 	Size	17
 	Type	"AA"
 }
 
 Location "Francisco" "Sol/Uranus/Miranda"
 {
-	LongLat	[ -236 73.2 0 ]
+	LongLat	[ 124 73.2 0 ]
 	Size	14
 	Type	"AA"
 }
@@ -93,49 +93,49 @@ Location "Gonzalo" "Sol/Uranus/Miranda"
 
 Location "Inverness Corona" "Sol/Uranus/Miranda"
 {
-	LongLat	[ -325.7 66.9 0 ]
+	LongLat	[ 34.3 66.9 0 ]
 	Size	234
 	Type	"CR"
 }
 
 Location "MANTUA REGIO" "Sol/Uranus/Miranda"
 {
-	LongLat	[ -180.2 39.6 0 ]
+	LongLat	[ 179.8 39.6 0 ]
 	Size	399
 	Type	"RE"
 }
 
 Location "Naples Sulcus" "Sol/Uranus/Miranda"
 {
-	LongLat	[ -260 32 0 ]
+	LongLat	[ 100 32 0 ]
 	Size	260
 	Type	"SU"
 }
 
 Location "Prospero" "Sol/Uranus/Miranda"
 {
-	LongLat	[ -329.9 32.9 0 ]
+	LongLat	[ 30.1 32.9 0 ]
 	Size	21
 	Type	"AA"
 }
 
 Location "SICILIA REGIO" "Sol/Uranus/Miranda"
 {
-	LongLat	[ -317.2 30 0 ]
+	LongLat	[ 42.8 30 0 ]
 	Size	174
 	Type	"RE"
 }
 
 Location "Stephano" "Sol/Uranus/Miranda"
 {
-	LongLat	[ -234.1 41.1 0 ]
+	LongLat	[ 125.9 41.1 0 ]
 	Size	16
 	Type	"AA"
 }
 
 Location "Syracusa Sulcus" "Sol/Uranus/Miranda"
 {
-	LongLat	[ -293 15 0 ]
+	LongLat	[ 67 15 0 ]
 	Size	40
 	Type	"SU"
 }
@@ -149,7 +149,7 @@ Location "Trinculo" "Sol/Uranus/Miranda"
 
 Location "Verona Rupes" "Sol/Uranus/Miranda"
 {
-	LongLat	[ -347.8 18.3 0 ]
+	LongLat	[ 12.2 18.3 0 ]
 	Size	116
 	Type	"RU"
 }
@@ -159,21 +159,21 @@ Location "Verona Rupes" "Sol/Uranus/Miranda"
 
 Location "Abans" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -251.3 15.5 0 ]
+	LongLat	[ 108.7 15.5 0 ]
 	Size	20
 	Type	"AA"
 }
 
 Location "Agape" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -336.5 46.9 0 ]
+	LongLat	[ 23.5 46.9 0 ]
 	Size	34
 	Type	"AA"
 }
 
 Location "Ataksak" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -224.3 53.1 0 ]
+	LongLat	[ 135.7 53.1 0 ]
 	Size	22
 	Type	"AA"
 }
@@ -187,14 +187,14 @@ Location "Befana" "Sol/Uranus/Ariel"
 
 Location "Berylune" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -327.9 22.5 0 ]
+	LongLat	[ 32.1 22.5 0 ]
 	Size	29
 	Type	"AA"
 }
 
 Location "Brownie Chasma" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -337.6 16 0 ]
+	LongLat	[ 22.4 16 0 ]
 	Size	343
 	Type	"CM"
 }
@@ -208,14 +208,14 @@ Location "Deive" "Sol/Uranus/Ariel"
 
 Location "Djadek" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -251.1 12 0 ]
+	LongLat	[ 108.9 12 0 ]
 	Size	22
 	Type	"AA"
 }
 
 Location "Domovoy" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -339.7 71.5 0 ]
+	LongLat	[ 20.3 71.5 0 ]
 	Size	71
 	Type	"AA"
 }
@@ -243,28 +243,28 @@ Location "Huon" "Sol/Uranus/Ariel"
 
 Location "Kachina Chasmata" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -246 33.7 0 ]
+	LongLat	[ 114 33.7 0 ]
 	Size	622
 	Type	"CM"
 }
 
 Location "Kewpie Chasma" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -326.9 28.3 0 ]
+	LongLat	[ 33.1 28.3 0 ]
 	Size	467
 	Type	"CM"
 }
 
 Location "Korrigan Chasma" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -347.5 27.6 0 ]
+	LongLat	[ 12.5 27.6 0 ]
 	Size	365
 	Type	"CM"
 }
 
 Location "Kra Chasma" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -354.2 32.1 0 ]
+	LongLat	[ 5.8 32.1 0 ]
 	Size	142
 	Type	"CM"
 }
@@ -285,7 +285,7 @@ Location "Leprechaun Vallis" "Sol/Uranus/Ariel"
 
 Location "Mab" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -352.2 38.8 0 ]
+	LongLat	[ 7.8 38.8 0 ]
 	Size	34
 	Type	"AA"
 }
@@ -299,7 +299,7 @@ Location "Melusine" "Sol/Uranus/Ariel"
 
 Location "Oonagh" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -244.4 21.9 0 ]
+	LongLat	[ 115.6 21.9 0 ]
 	Size	39
 	Type	"AA"
 }
@@ -313,28 +313,28 @@ Location "Pixie Chasma" "Sol/Uranus/Ariel"
 
 Location "Rima" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -260.8 18.3 0 ]
+	LongLat	[ 99.2 18.3 0 ]
 	Size	41
 	Type	"AA"
 }
 
 Location "Sprite Vallis" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -340 14.9 0 ]
+	LongLat	[ 20 14.9 0 ]
 	Size	305
 	Type	"VA"
 }
 
 Location "Sylph Chasma" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -353 48.6 0 ]
+	LongLat	[ 7 48.6 0 ]
 	Size	349
 	Type	"CM"
 }
 
 Location "Yangoor" "Sol/Uranus/Ariel"
 {
-	LongLat	[ -279.7 68.7 0 ]
+	LongLat	[ 80.3 68.7 0 ]
 	Size	78
 	Type	"AA"
 }
@@ -365,7 +365,7 @@ Location "Gob" "Sol/Uranus/Umbriel"
 
 Location "Kanaloa" "Sol/Uranus/Umbriel"
 {
-	LongLat	[ -345.7 10.8 0 ]
+	LongLat	[ 14.3 10.8 0 ]
 	Size	86
 	Type	"AA"
 }
@@ -393,21 +393,21 @@ Location "Peri" "Sol/Uranus/Umbriel"
 
 Location "Setibos" "Sol/Uranus/Umbriel"
 {
-	LongLat	[ -346.3 30.8 0 ]
+	LongLat	[ 13.7 30.8 0 ]
 	Size	50
 	Type	"AA"
 }
 
 Location "Skynd" "Sol/Uranus/Umbriel"
 {
-	LongLat	[ -331.7 1.8 0 ]
+	LongLat	[ 28.3 1.8 0 ]
 	Size	72
 	Type	"AA"
 }
 
 Location "Vuver" "Sol/Uranus/Umbriel"
 {
-	LongLat	[ -311.6 4.7 0 ]
+	LongLat	[ 48.4 4.7 0 ]
 	Size	98
 	Type	"AA"
 }
@@ -421,14 +421,14 @@ Location "Wokolo" "Sol/Uranus/Umbriel"
 
 Location "Wunda" "Sol/Uranus/Umbriel"
 {
-	LongLat	[ -273.6 7.9 0 ]
+	LongLat	[ 86.4 7.9 0 ]
 	Size	131
 	Type	"AA"
 }
 
 Location "Zlyden" "Sol/Uranus/Umbriel"
 {
-	LongLat	[ -326.2 23.3 0 ]
+	LongLat	[ 33.8 23.3 0 ]
 	Size	44
 	Type	"AA"
 }
@@ -452,91 +452,91 @@ Location "Belmont Chasma" "Sol/Uranus/Titania"
 
 Location "Bona" "Sol/Uranus/Titania"
 {
-	LongLat	[ -351.2 55.8 0 ]
+	LongLat	[ 8.8 55.8 0 ]
 	Size	51
 	Type	"AA"
 }
 
 Location "Calphurnia" "Sol/Uranus/Titania"
 {
-	LongLat	[ -291.4 42.4 0 ]
+	LongLat	[ 68.6 42.4 0 ]
 	Size	100
 	Type	"AA"
 }
 
 Location "Elinor" "Sol/Uranus/Titania"
 {
-	LongLat	[ -333.6 44.8 0 ]
+	LongLat	[ 26.4 44.8 0 ]
 	Size	74
 	Type	"AA"
 }
 
 Location "Gertrude" "Sol/Uranus/Titania"
 {
-	LongLat	[ -287.1 15.8 0 ]
+	LongLat	[ 72.9 15.8 0 ]
 	Size	326
 	Type	"AA"
 }
 
 Location "Imogen" "Sol/Uranus/Titania"
 {
-	LongLat	[ -321.2 23.8 0 ]
+	LongLat	[ 38.8 23.8 0 ]
 	Size	28
 	Type	"AA"
 }
 
 Location "Iras" "Sol/Uranus/Titania"
 {
-	LongLat	[ -338.8 19.2 0 ]
+	LongLat	[ 21.2 19.2 0 ]
 	Size	33
 	Type	"AA"
 }
 
 Location "Jessica" "Sol/Uranus/Titania"
 {
-	LongLat	[ -285.9 55.3 0 ]
+	LongLat	[ 74.1 55.3 0 ]
 	Size	64
 	Type	"AA"
 }
 
 Location "Katherine" "Sol/Uranus/Titania"
 {
-	LongLat	[ -331.9 51.2 0 ]
+	LongLat	[ 28.1 51.2 0 ]
 	Size	75
 	Type	"AA"
 }
 
 Location "Lucetta" "Sol/Uranus/Titania"
 {
-	LongLat	[ -277.1 14.7 0 ]
+	LongLat	[ 82.9 14.7 0 ]
 	Size	58
 	Type	"AA"
 }
 
 Location "Marina" "Sol/Uranus/Titania"
 {
-	LongLat	[ -316 15.5 0 ]
+	LongLat	[ 44 15.5 0 ]
 	Size	40
 	Type	"AA"
 }
 
 Location "Messina Chasmata" "Sol/Uranus/Titania"
 {
-	LongLat	[ -335 33.3 0 ]
+	LongLat	[ 25 33.3 0 ]
 	Size	1492
 	Type	"CM"
 }
 
 Location "Mopsa" "Sol/Uranus/Titania"
 {
-	LongLat	[ -302.2 11.9 0 ]
+	LongLat	[ 57.8 11.9 0 ]
 	Size	101
 	Type	"AA"
 }
 
 Location "Phrynia" "Sol/Uranus/Titania"
 {
-	LongLat	[ -309.2 24.3 0 ]
+	LongLat	[ 50.8 24.3 0 ]
 	Size	35
 	Type	"AA"
 }
@@ -581,7 +581,7 @@ Location "Caesar" "Sol/Uranus/Oberon"
 
 Location "Coriolanus" "Sol/Uranus/Oberon"
 {
-	LongLat	[ -345.2 11.4 0 ]
+	LongLat	[ 14.8 11.4 0 ]
 	Size	120
 	Type	"AA"
 }
@@ -616,7 +616,7 @@ Location "Macbeth" "Sol/Uranus/Oberon"
 
 Location "Mommur Chasma" "Sol/Uranus/Oberon"
 {
-	LongLat	[ -323.5 16.3 0 ]
+	LongLat	[ 36.5 16.3 0 ]
 	Size	537
 	Type	"CM"
 }

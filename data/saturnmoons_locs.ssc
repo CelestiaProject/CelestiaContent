@@ -1,4 +1,4 @@
-# 806 locations on the moons of Saturn.
+# 817 locations on Epimetheus, Janus, Mimas, Enceladus, Tethys, Dione, Rhea, Titan, Hyperion, Iapetus and Phoebe.
 # SSC-file author: CLM tool by Askaniy (https://github.com/Askaniy/CelestiaLocationsMaker)
 
 
@@ -68,42 +68,42 @@ Location "Arthur" "Sol/Saturn/Mimas"
 
 Location "Avalon Chasma" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 213 35 0 ]
+	LongLat	[ -147 35 0 ]
 	Size	120
 	Type	"CM"
 }
 
 Location "Balin" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 277.49 14.71 0 ]
+	LongLat	[ -82.51 14.71 0 ]
 	Size	35
 	Type	"AA"
 }
 
 Location "Ban" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 199.25 43.93 0 ]
+	LongLat	[ -160.75 43.93 0 ]
 	Size	37
 	Type	"AA"
 }
 
 Location "Bedivere" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 210.58 9.57 0 ]
+	LongLat	[ -149.42 9.57 0 ]
 	Size	25
 	Type	"AA"
 }
 
 Location "Bors" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 187.7 41.82 0 ]
+	LongLat	[ -172.3 41.82 0 ]
 	Size	34
 	Type	"AA"
 }
 
 Location "Camelot Chasma" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 336.6 -43 0 ]
+	LongLat	[ -23.4 -43 0 ]
 	Size	150
 	Type	"CM"
 }
@@ -117,14 +117,14 @@ Location "Dagonet" "Sol/Saturn/Mimas"
 
 Location "Dynas" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 279.29 2.35 0 ]
+	LongLat	[ -80.71 2.35 0 ]
 	Size	35
 	Type	"AA"
 }
 
 Location "Elaine" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 253 46.33 0 ]
+	LongLat	[ -107 46.33 0 ]
 	Size	21
 	Type	"AA"
 }
@@ -138,7 +138,7 @@ Location "Gaheris" "Sol/Saturn/Mimas"
 
 Location "Galahad" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 214.69 -45.32 0 ]
+	LongLat	[ -145.31 -45.32 0 ]
 	Size	34
 	Type	"AA"
 }
@@ -166,7 +166,7 @@ Location "Gwynevere" "Sol/Saturn/Mimas"
 
 Location "Herschel" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 248.24 -1.38 0 ]
+	LongLat	[ -111.76 -1.38 0 ]
 	Size	139
 	Type	"AA"
 }
@@ -180,14 +180,14 @@ Location "Igraine" "Sol/Saturn/Mimas"
 
 Location "Iseult" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 326.22 -47.24 0 ]
+	LongLat	[ -33.78 -47.24 0 ]
 	Size	21
 	Type	"AA"
 }
 
 Location "Kay" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 239.46 44.61 0 ]
+	LongLat	[ -120.54 44.61 0 ]
 	Size	24
 	Type	"AA"
 }
@@ -222,7 +222,7 @@ Location "Lucas" "Sol/Saturn/Mimas"
 
 Location "Marhaus" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 359.94 -8.96 0 ]
+	LongLat	[ -0.06 -8.96 0 ]
 	Size	34
 	Type	"AA"
 }
@@ -236,7 +236,7 @@ Location "Mark" "Sol/Saturn/Mimas"
 
 Location "Melyodas" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 282.81 -74.93 0 ]
+	LongLat	[ -77.19 -74.93 0 ]
 	Size	40
 	Type	"AA"
 }
@@ -271,7 +271,7 @@ Location "Nero" "Sol/Saturn/Mimas"
 
 Location "Oeta Chasma" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 237.3 19 0 ]
+	LongLat	[ -122.7 19 0 ]
 	Size	110
 	Type	"CM"
 }
@@ -285,7 +285,7 @@ Location "Ossa Chasma" "Sol/Saturn/Mimas"
 
 Location "Palomides" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 198 3.39 0 ]
+	LongLat	[ -162 3.39 0 ]
 	Size	10
 	Type	"AA"
 }
@@ -306,14 +306,14 @@ Location "Pelion Chasma" "Sol/Saturn/Mimas"
 
 Location "Pellinore" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 224.55 29.76 0 ]
+	LongLat	[ -135.45 29.76 0 ]
 	Size	36
 	Type	"AA"
 }
 
 Location "Percivale" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 181.14 -3.01 0 ]
+	LongLat	[ -178.86 -3.01 0 ]
 	Size	20
 	Type	"AA"
 }
@@ -334,7 +334,7 @@ Location "Tintagil Catena" "Sol/Saturn/Mimas"
 
 Location "Tristram" "Sol/Saturn/Mimas"
 {
-	LongLat	[ 334 -52.32 0 ]
+	LongLat	[ -26 -52.32 0 ]
 	Size	20
 	Type	"AA"
 }
@@ -365,7 +365,7 @@ Location "Ajib" "Sol/Saturn/Enceladus"
 
 Location "Aladdin" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 337.86 62.69 0 ]
+	LongLat	[ -22.14 62.69 0 ]
 	Size	30.53
 	Type	"AA"
 }
@@ -379,7 +379,7 @@ Location "Al-Bakbuk" "Sol/Saturn/Enceladus"
 
 Location "Alexandria Sulcus" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 222.44 -75.63 0 ]
+	LongLat	[ -137.56 -75.63 0 ]
 	Size	111
 	Type	"SU"
 }
@@ -400,14 +400,14 @@ Location "Al-Haddar" "Sol/Saturn/Enceladus"
 
 Location "Ali Baba" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 342.49 56.84 0 ]
+	LongLat	[ -17.51 56.84 0 ]
 	Size	34.09
 	Type	"AA"
 }
 
 Location "Al-Kuz" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 181.34 -18.88 0 ]
+	LongLat	[ -178.66 -18.88 0 ]
 	Size	10.15
 	Type	"AA"
 }
@@ -442,7 +442,7 @@ Location "Anbar Fossae" "Sol/Saturn/Enceladus"
 
 Location "Andalús Sulci" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 280.9 29.1 0 ]
+	LongLat	[ -79.1 29.1 0 ]
 	Size	162
 	Type	"SU"
 }
@@ -470,14 +470,14 @@ Location "Baghdad Sulcus" "Sol/Saturn/Enceladus"
 
 Location "Bahman" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 298.63 14.7 0 ]
+	LongLat	[ -61.37 14.7 0 ]
 	Size	10.56
 	Type	"AA"
 }
 
 Location "Bassorah Fossa" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 340.1 39.8 0 ]
+	LongLat	[ -19.9 39.8 0 ]
 	Size	75
 	Type	"FO"
 }
@@ -498,21 +498,21 @@ Location "Bishangarh Fossae" "Sol/Saturn/Enceladus"
 
 Location "Bulak Sulcus" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 250.68 16.67 0 ]
+	LongLat	[ -109.32 16.67 0 ]
 	Size	49.42
 	Type	"SU"
 }
 
 Location "Cairo Sulcus" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 205.52 -81.62 0 ]
+	LongLat	[ -154.48 -81.62 0 ]
 	Size	165
 	Type	"SU"
 }
 
 Location "Camphor Sulcus" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 210.6 -70.78 0 ]
+	LongLat	[ -149.4 -70.78 0 ]
 	Size	77
 	Type	"SU"
 }
@@ -547,7 +547,7 @@ Location "Damascus Sulcus" "Sol/Saturn/Enceladus"
 
 Location "Daryabar Fossa" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 354.58 9.65 0 ]
+	LongLat	[ -5.42 9.65 0 ]
 	Size	200
 	Type	"FO"
 }
@@ -569,7 +569,7 @@ Location "Duban" "Sol/Saturn/Enceladus"
 Location "Dunyazad" "Sol/Saturn/Enceladus"
 {
 	LongLat	[ 157.96 41.51 0 ]
-	Size	30.81
+	Size	30.8
 	Type	"AA"
 }
 
@@ -659,7 +659,7 @@ Location "Ja’afar" "Sol/Saturn/Enceladus"
 
 Location "Jansha" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 202.6 -30.65 0 ]
+	LongLat	[ -157.4 -30.65 0 ]
 	Size	10.8
 	Type	"AA"
 }
@@ -673,14 +673,14 @@ Location "Julnar" "Sol/Saturn/Enceladus"
 
 Location "Kamar" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 327.75 -40.62 0 ]
+	LongLat	[ -32.25 -40.62 0 ]
 	Size	19.55
 	Type	"AA"
 }
 
 Location "Kasim" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 186.95 42.35 0 ]
+	LongLat	[ -173.05 42.35 0 ]
 	Size	10.53
 	Type	"AA"
 }
@@ -729,7 +729,7 @@ Location "Ma’aruf" "Sol/Saturn/Enceladus"
 
 Location "Makran Sulci" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 224.2 -54.4 0 ]
+	LongLat	[ -135.8 -54.4 0 ]
 	Size	170.5
 	Type	"SU"
 }
@@ -771,7 +771,7 @@ Location "Mosul Sulci" "Sol/Saturn/Enceladus"
 
 Location "Musa" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 348.41 73.85 0 ]
+	LongLat	[ -11.59 73.85 0 ]
 	Size	21.81
 	Type	"AA"
 }
@@ -792,14 +792,14 @@ Location "Omar" "Sol/Saturn/Enceladus"
 
 Location "Otbah" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 200.2 -40.03 0 ]
+	LongLat	[ -159.8 -40.03 0 ]
 	Size	10.02
 	Type	"AA"
 }
 
 Location "Parwez" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 334.44 22.95 0 ]
+	LongLat	[ -25.56 22.95 0 ]
 	Size	13.49
 	Type	"AA"
 }
@@ -813,14 +813,14 @@ Location "Peri-Banu" "Sol/Saturn/Enceladus"
 
 Location "Perizadah" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 204.89 -21.12 0 ]
+	LongLat	[ -155.11 -21.12 0 ]
 	Size	10.43
 	Type	"AA"
 }
 
 Location "Rayya" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 181.12 -32.41 0 ]
+	LongLat	[ -178.88 -32.41 0 ]
 	Size	9.54
 	Type	"AA"
 }
@@ -834,14 +834,14 @@ Location "Sabur" "Sol/Saturn/Enceladus"
 
 Location "Salih" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 355.6 -5.99 0 ]
+	LongLat	[ -4.4 -5.99 0 ]
 	Size	4.41
 	Type	"AA"
 }
 
 Location "Samad" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 358.77 61.69 0 ]
+	LongLat	[ -1.23 61.69 0 ]
 	Size	14.98
 	Type	"AA"
 }
@@ -897,14 +897,14 @@ Location "Sharrkan" "Sol/Saturn/Enceladus"
 
 Location "Shiraz Sulcus" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 320.6 -57.2 0 ]
+	LongLat	[ -39.4 -57.2 0 ]
 	Size	80
 	Type	"SU"
 }
 
 Location "Shirin" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 187.18 -2.27 0 ]
+	LongLat	[ -172.82 -2.27 0 ]
 	Size	8.84
 	Type	"AA"
 }
@@ -912,13 +912,13 @@ Location "Shirin" "Sol/Saturn/Enceladus"
 Location "Sindbad" "Sol/Saturn/Enceladus"
 {
 	LongLat	[ 148.39 66.97 0 ]
-	Size	29.44
+	Size	29.45
 	Type	"AA"
 }
 
 Location "Sind Sulci" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 252.7 -16.4 0 ]
+	LongLat	[ -107.3 -16.4 0 ]
 	Size	116
 	Type	"SU"
 }
@@ -932,7 +932,7 @@ Location "Yunan" "Sol/Saturn/Enceladus"
 
 Location "Zaynab" "Sol/Saturn/Enceladus"
 {
-	LongLat	[ 333.03 69.52 0 ]
+	LongLat	[ -26.97 69.52 0 ]
 	Size	23.8
 	Type	"AA"
 }
@@ -956,7 +956,7 @@ Location "Achilles" "Sol/Saturn/Tethys"
 
 Location "Aietes" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 353.77 -41.44 0 ]
+	LongLat	[ -6.23 -41.44 0 ]
 	Size	91
 	Type	"AA"
 }
@@ -977,14 +977,14 @@ Location "Alcinous" "Sol/Saturn/Tethys"
 
 Location "Amphinomus" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 231.3 -14.87 0 ]
+	LongLat	[ -128.7 -14.87 0 ]
 	Size	13.6
 	Type	"AA"
 }
 
 Location "Anticleia" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 327.63 51.31 0 ]
+	LongLat	[ -32.37 51.31 0 ]
 	Size	100.7
 	Type	"AA"
 }
@@ -1005,14 +1005,14 @@ Location "Arete" "Sol/Saturn/Tethys"
 
 Location "Circe" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 305.34 -12.6 0 ]
+	LongLat	[ -54.66 -12.6 0 ]
 	Size	79
 	Type	"AA"
 }
 
 Location "Demodocus" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 341.79 -59.37 0 ]
+	LongLat	[ -18.21 -59.37 0 ]
 	Size	125
 	Type	"AA"
 }
@@ -1047,14 +1047,14 @@ Location "Euanthes" "Sol/Saturn/Tethys"
 
 Location "Eumaeus" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 308.88 23.1 0 ]
+	LongLat	[ -51.12 23.1 0 ]
 	Size	30
 	Type	"AA"
 }
 
 Location "Eupithes" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 188.79 18.71 0 ]
+	LongLat	[ -171.21 18.71 0 ]
 	Size	22.3
 	Type	"AA"
 }
@@ -1068,28 +1068,28 @@ Location "Eurycleia" "Sol/Saturn/Tethys"
 
 Location "Eurylochus" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 332.32 -5.07 0 ]
+	LongLat	[ -27.68 -5.07 0 ]
 	Size	44.8
 	Type	"AA"
 }
 
 Location "Eurymachus" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 295 -35.65 0 ]
+	LongLat	[ -65 -35.65 0 ]
 	Size	38.4
 	Type	"AA"
 }
 
 Location "Halius" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 355.04 44.4 0 ]
+	LongLat	[ -4.96 44.4 0 ]
 	Size	29.5
 	Type	"AA"
 }
 
 Location "Hermione" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 211.31 -38.4 0 ]
+	LongLat	[ -148.69 -38.4 0 ]
 	Size	68.2
 	Type	"AA"
 }
@@ -1110,42 +1110,42 @@ Location "Irus" "Sol/Saturn/Tethys"
 
 Location "Ithaca Chasma" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 353.9 -14 0 ]
+	LongLat	[ -6.1 -14 0 ]
 	Size	1219
 	Type	"CM"
 }
 
 Location "Laertes" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 292.54 -46.36 0 ]
+	LongLat	[ -67.46 -46.36 0 ]
 	Size	51.13
 	Type	"AA"
 }
 
 Location "Leocritus" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 241.34 21.53 0 ]
+	LongLat	[ -118.66 21.53 0 ]
 	Size	12.5
 	Type	"AA"
 }
 
 Location "Leucothea" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 236.16 -4.26 0 ]
+	LongLat	[ -123.84 -4.26 0 ]
 	Size	13.8
 	Type	"AA"
 }
 
 Location "Maron" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 240.67 2.52 0 ]
+	LongLat	[ -119.33 2.52 0 ]
 	Size	11.8
 	Type	"AA"
 }
 
 Location "Medon" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 216.69 25.5 0 ]
+	LongLat	[ -143.31 25.5 0 ]
 	Size	18.7
 	Type	"AA"
 }
@@ -1159,7 +1159,7 @@ Location "Melanthius" "Sol/Saturn/Tethys"
 
 Location "Mentor" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 315.84 0.25 0 ]
+	LongLat	[ -44.16 0.25 0 ]
 	Size	62
 	Type	"AA"
 }
@@ -1173,49 +1173,49 @@ Location "Naubolos" "Sol/Saturn/Tethys"
 
 Location "Nausicaa" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 355 84.4 0 ]
+	LongLat	[ -5 84.4 0 ]
 	Size	69
 	Type	"AA"
 }
 
 Location "Neleus" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 334.28 -19.38 0 ]
+	LongLat	[ -25.72 -19.38 0 ]
 	Size	37.6
 	Type	"AA"
 }
 
 Location "Nestor" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 295.19 -54 0 ]
+	LongLat	[ -64.81 -54 0 ]
 	Size	38.2
 	Type	"AA"
 }
 
 Location "Odysseus" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 231.11 32.82 0 ]
+	LongLat	[ -128.89 32.82 0 ]
 	Size	445
 	Type	"AA"
 }
 
 Location "Oenops" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 266.56 28.13 0 ]
+	LongLat	[ -93.44 28.13 0 ]
 	Size	25.7
 	Type	"AA"
 }
 
 Location "Ogygia Chasma" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 264.8 56 0 ]
+	LongLat	[ -95.2 56 0 ]
 	Size	120
 	Type	"CM"
 }
 
 Location "Ormenus" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 316.15 -20.39 0 ]
+	LongLat	[ -43.85 -20.39 0 ]
 	Size	39.8
 	Type	"AA"
 }
@@ -1229,7 +1229,7 @@ Location "Penelope" "Sol/Saturn/Tethys"
 
 Location "Periboea" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 325.14 8 0 ]
+	LongLat	[ -34.86 8 0 ]
 	Size	51
 	Type	"AA"
 }
@@ -1250,7 +1250,7 @@ Location "Philoetius" "Sol/Saturn/Tethys"
 
 Location "Polycaste" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 273.59 1.38 0 ]
+	LongLat	[ -86.41 1.38 0 ]
 	Size	23
 	Type	"AA"
 }
@@ -1264,14 +1264,14 @@ Location "Polyphemus" "Sol/Saturn/Tethys"
 
 Location "Poseidon" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 258.7 -55.71 0 ]
+	LongLat	[ -101.3 -55.71 0 ]
 	Size	63
 	Type	"AA"
 }
 
 Location "Rhexenor" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 294.78 -75.63 0 ]
+	LongLat	[ -65.22 -75.63 0 ]
 	Size	38
 	Type	"AA"
 }
@@ -1285,14 +1285,14 @@ Location "Salmoneus" "Sol/Saturn/Tethys"
 
 Location "Scheria Montes" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 229 30 0 ]
+	LongLat	[ -131 30 0 ]
 	Size	185
 	Type	"MO"
 }
 
 Location "Teiresias" "Sol/Saturn/Tethys"
 {
-	LongLat	[ 359.17 60.39 0 ]
+	LongLat	[ -0.83 60.39 0 ]
 	Size	14.5
 	Type	"AA"
 }
@@ -1330,14 +1330,14 @@ Location "Acestes" "Sol/Saturn/Dione"
 
 Location "Adrastus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 313.43 -61.66 0 ]
+	LongLat	[ -46.57 -61.66 0 ]
 	Size	38.5
 	Type	"AA"
 }
 
 Location "Aeneas" "Sol/Saturn/Dione"
 {
-	LongLat	[ 313.73 25.89 0 ]
+	LongLat	[ -46.27 25.89 0 ]
 	Size	161
 	Type	"AA"
 }
@@ -1372,42 +1372,42 @@ Location "Amata" "Sol/Saturn/Dione"
 
 Location "Amycus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 271.38 -37.52 0 ]
+	LongLat	[ -88.62 -37.52 0 ]
 	Size	27.3
 	Type	"AA"
 }
 
 Location "Anchises" "Sol/Saturn/Dione"
 {
-	LongLat	[ 295 -34 0 ]
+	LongLat	[ -65 -34 0 ]
 	Size	47
 	Type	"AA"
 }
 
 Location "Anna" "Sol/Saturn/Dione"
 {
-	LongLat	[ 270.04 -63.38 0 ]
+	LongLat	[ -89.96 -63.38 0 ]
 	Size	14.2
 	Type	"AA"
 }
 
 Location "Antenor" "Sol/Saturn/Dione"
 {
-	LongLat	[ 348.46 -7 0 ]
+	LongLat	[ -11.54 -7 0 ]
 	Size	81
 	Type	"AA"
 }
 
 Location "Argiletum Fossae" "Sol/Saturn/Dione"
 {
-	LongLat	[ 327.9 65.18 0 ]
+	LongLat	[ -32.1 65.18 0 ]
 	Size	224
 	Type	"FO"
 }
 
 Location "Arpi Fossae" "Sol/Saturn/Dione"
 {
-	LongLat	[ 229.2 47.47 0 ]
+	LongLat	[ -130.8 47.47 0 ]
 	Size	330
 	Type	"FO"
 }
@@ -1421,7 +1421,7 @@ Location "Ascanius" "Sol/Saturn/Dione"
 
 Location "Assaracus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 351.21 32.65 0 ]
+	LongLat	[ -8.79 32.65 0 ]
 	Size	60
 	Type	"AA"
 }
@@ -1435,7 +1435,7 @@ Location "Aufidus Catena" "Sol/Saturn/Dione"
 
 Location "Aulestes" "Sol/Saturn/Dione"
 {
-	LongLat	[ 212.27 9.9 0 ]
+	LongLat	[ -147.73 9.9 0 ]
 	Size	50
 	Type	"AA"
 }
@@ -1449,21 +1449,21 @@ Location "Aurunca Chasmata" "Sol/Saturn/Dione"
 
 Location "Butes" "Sol/Saturn/Dione"
 {
-	LongLat	[ 313.6 65.72 0 ]
+	LongLat	[ -46.4 65.72 0 ]
 	Size	35
 	Type	"AA"
 }
 
 Location "Caieta" "Sol/Saturn/Dione"
 {
-	LongLat	[ 280.37 -24.71 0 ]
+	LongLat	[ -79.63 -24.71 0 ]
 	Size	50
 	Type	"AA"
 }
 
 Location "Camilla" "Sol/Saturn/Dione"
 {
-	LongLat	[ 299.39 -4.36 0 ]
+	LongLat	[ -60.61 -4.36 0 ]
 	Size	31.9
 	Type	"AA"
 }
@@ -1505,14 +1505,14 @@ Location "Coras" "Sol/Saturn/Dione"
 
 Location "Cretheus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 271.47 -43.35 0 ]
+	LongLat	[ -88.53 -43.35 0 ]
 	Size	29
 	Type	"AA"
 }
 
 Location "Creusa" "Sol/Saturn/Dione"
 {
-	LongLat	[ 283.68 49.19 0 ]
+	LongLat	[ -76.32 49.19 0 ]
 	Size	36.2
 	Type	"AA"
 }
@@ -1533,7 +1533,7 @@ Location "Dercennus" "Sol/Saturn/Dione"
 
 Location "Dido" "Sol/Saturn/Dione"
 {
-	LongLat	[ 341.18 -23.97 0 ]
+	LongLat	[ -18.82 -23.97 0 ]
 	Size	122
 	Type	"AA"
 }
@@ -1554,35 +1554,35 @@ Location "Entellus" "Sol/Saturn/Dione"
 
 Location "Erulus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 255.24 -35 0 ]
+	LongLat	[ -104.76 -35 0 ]
 	Size	120
 	Type	"AA"
 }
 
 Location "Eumelus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 294.04 -0.1 0 ]
+	LongLat	[ -65.96 -0.1 0 ]
 	Size	35.1
 	Type	"AA"
 }
 
 Location "Eurotas Chasmata" "Sol/Saturn/Dione"
 {
-	LongLat	[ 58.65 4.94 0 ]
-	Size	1000
+	LongLat	[ 90 18 0 ]
+	Size	1200
 	Type	"CM"
 }
 
 Location "Euryalus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 360 -74.36 0 ]
+	LongLat	[ 0 -74.36 0 ]
 	Size	35
 	Type	"AA"
 }
 
 Location "Evander" "Sol/Saturn/Dione"
 {
-	LongLat	[ 215 -57 0 ]
+	LongLat	[ -145 -57 0 ]
 	Size	350
 	Type	"AA"
 }
@@ -1596,7 +1596,7 @@ Location "Fadus" "Sol/Saturn/Dione"
 
 Location "Fidena Fossae" "Sol/Saturn/Dione"
 {
-	LongLat	[ 264 0.66 0 ]
+	LongLat	[ -96 0.66 0 ]
 	Size	550
 	Type	"FO"
 }
@@ -1617,21 +1617,21 @@ Location "Haemon" "Sol/Saturn/Dione"
 
 Location "Halys" "Sol/Saturn/Dione"
 {
-	LongLat	[ 306.28 -59.17 0 ]
+	LongLat	[ -53.72 -59.17 0 ]
 	Size	35.2
 	Type	"AA"
 }
 
 Location "Helorus Fossa" "Sol/Saturn/Dione"
 {
-	LongLat	[ 283.52 -31.84 0 ]
+	LongLat	[ -76.48 -31.84 0 ]
 	Size	105
 	Type	"FO"
 }
 
 Location "Herbesus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 203.89 34.68 0 ]
+	LongLat	[ -156.11 34.68 0 ]
 	Size	58.4
 	Type	"AA"
 }
@@ -1659,21 +1659,21 @@ Location "Ilia" "Sol/Saturn/Dione"
 
 Location "Italus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 283.59 -18.47 0 ]
+	LongLat	[ -76.41 -18.47 0 ]
 	Size	35.7
 	Type	"AA"
 }
 
 Location "Janiculum Dorsa" "Sol/Saturn/Dione"
 {
-	LongLat	[ 215.9 24.6 0 ]
+	LongLat	[ -144.1 24.6 0 ]
 	Size	900
 	Type	"DO"
 }
 
 Location "Lagus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 257.05 -13.56 0 ]
+	LongLat	[ -102.95 -13.56 0 ]
 	Size	77
 	Type	"AA"
 }
@@ -1694,14 +1694,14 @@ Location "Larides" "Sol/Saturn/Dione"
 
 Location "Larissa Chasma" "Sol/Saturn/Dione"
 {
-	LongLat	[ 290.5 28.98 0 ]
+	LongLat	[ -69.5 28.98 0 ]
 	Size	150
 	Type	"CM"
 }
 
 Location "Latagus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 333.54 14.65 0 ]
+	LongLat	[ -26.46 14.65 0 ]
 	Size	41
 	Type	"AA"
 }
@@ -1715,49 +1715,49 @@ Location "Latinus" "Sol/Saturn/Dione"
 
 Location "Latium Chasma" "Sol/Saturn/Dione"
 {
-	LongLat	[ 296.07 20 0 ]
+	LongLat	[ -63.93 20 0 ]
 	Size	360
 	Type	"CM"
 }
 
 Location "Lausus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 337.24 34.81 0 ]
+	LongLat	[ -22.76 34.81 0 ]
 	Size	23.5
 	Type	"AA"
 }
 
 Location "Liger" "Sol/Saturn/Dione"
 {
-	LongLat	[ 233.37 24 0 ]
+	LongLat	[ -126.63 24 0 ]
 	Size	53
 	Type	"AA"
 }
 
 Location "Lucagus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 228.75 22.15 0 ]
+	LongLat	[ -131.25 22.15 0 ]
 	Size	45.7
 	Type	"AA"
 }
 
 Location "Magus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 335.65 18.44 0 ]
+	LongLat	[ -24.35 18.44 0 ]
 	Size	45.8
 	Type	"AA"
 }
 
 Location "Massicus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 304.61 -35 0 ]
+	LongLat	[ -55.39 -35 0 ]
 	Size	39
 	Type	"AA"
 }
 
 Location "Metiscus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 266.71 6 0 ]
+	LongLat	[ -93.29 6 0 ]
 	Size	43.8
 	Type	"AA"
 }
@@ -1771,7 +1771,7 @@ Location "Mezentius" "Sol/Saturn/Dione"
 
 Location "Murranus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 269.27 12.82 0 ]
+	LongLat	[ -90.73 12.82 0 ]
 	Size	56.8
 	Type	"AA"
 }
@@ -1820,35 +1820,35 @@ Location "Palatine Chasmata" "Sol/Saturn/Dione"
 
 Location "Palinurus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 297 -3.3 0 ]
+	LongLat	[ -63 -3.3 0 ]
 	Size	11.9
 	Type	"AA"
 }
 
 Location "Pantagias Catenae" "Sol/Saturn/Dione"
 {
-	LongLat	[ 218.3 -15.3 0 ]
+	LongLat	[ -141.7 -15.3 0 ]
 	Size	200
 	Type	"CA"
 }
 
 Location "Petelia Fossae" "Sol/Saturn/Dione"
 {
-	LongLat	[ 277.57 -8.16 0 ]
+	LongLat	[ -82.43 -8.16 0 ]
 	Size	225
 	Type	"FO"
 }
 
 Location "Phaleris" "Sol/Saturn/Dione"
 {
-	LongLat	[ 193.42 -77.4 0 ]
+	LongLat	[ -166.58 -77.4 0 ]
 	Size	44
 	Type	"AA"
 }
 
 Location "Phorbas" "Sol/Saturn/Dione"
 {
-	LongLat	[ 228.71 81.2 0 ]
+	LongLat	[ -131.29 81.2 0 ]
 	Size	69.3
 	Type	"AA"
 }
@@ -1862,21 +1862,21 @@ Location "Prytanis" "Sol/Saturn/Dione"
 
 Location "Remus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 328.1 -13.58 0 ]
+	LongLat	[ -31.9 -13.58 0 ]
 	Size	62
 	Type	"AA"
 }
 
 Location "Ripheus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 323.2 -56.47 0 ]
+	LongLat	[ -36.8 -56.47 0 ]
 	Size	34
 	Type	"AA"
 }
 
 Location "Romulus" "Sol/Saturn/Dione"
 {
-	LongLat	[ 333.15 -8.15 0 ]
+	LongLat	[ -26.85 -8.15 0 ]
 	Size	90.7
 	Type	"AA"
 }
@@ -1890,7 +1890,7 @@ Location "Sabinus" "Sol/Saturn/Dione"
 
 Location "Sagaris" "Sol/Saturn/Dione"
 {
-	LongLat	[ 255.8 4.93 0 ]
+	LongLat	[ -104.2 4.93 0 ]
 	Size	53
 	Type	"AA"
 }
@@ -1918,7 +1918,7 @@ Location "Sulmo" "Sol/Saturn/Dione"
 
 Location "Telon" "Sol/Saturn/Dione"
 {
-	LongLat	[ 262.8 -16.2 0 ]
+	LongLat	[ -97.2 -16.2 0 ]
 	Size	39.7
 	Type	"AA"
 }
@@ -1939,7 +1939,7 @@ Location "Thymber" "Sol/Saturn/Dione"
 
 Location "Tibur Chasmata" "Sol/Saturn/Dione"
 {
-	LongLat	[ 290.7 60 0 ]
+	LongLat	[ -69.3 60 0 ]
 	Size	156
 	Type	"CM"
 }
@@ -1984,21 +1984,21 @@ Location "Aananin" "Sol/Saturn/Rhea"
 
 Location "Abassi" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 213.5 -21.3 0 ]
+	LongLat	[ -146.5 -21.3 0 ]
 	Size	87.2
 	Type	"AA"
 }
 
 Location "Adjua" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 241.1 40.2 0 ]
+	LongLat	[ -118.9 40.2 0 ]
 	Size	50
 	Type	"AA"
 }
 
 Location "Agunua" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 293.8 63.3 0 ]
+	LongLat	[ -66.2 63.3 0 ]
 	Size	50
 	Type	"AA"
 }
@@ -2012,7 +2012,7 @@ Location "Ambat" "Sol/Saturn/Rhea"
 
 Location "Ameta" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 338.1 53.3 0 ]
+	LongLat	[ -21.9 53.3 0 ]
 	Size	50
 	Type	"AA"
 }
@@ -2047,7 +2047,7 @@ Location "Anguta" "Sol/Saturn/Rhea"
 
 Location "Arunaka" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 337.9 -15.3 0 ]
+	LongLat	[ -22.1 -15.3 0 ]
 	Size	50
 	Type	"AA"
 }
@@ -2061,7 +2061,7 @@ Location "Atabei" "Sol/Saturn/Rhea"
 
 Location "Atum" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 358.9 -47.1 0 ]
+	LongLat	[ -1.1 -47.1 0 ]
 	Size	100
 	Type	"AA"
 }
@@ -2075,21 +2075,21 @@ Location "Avaiki Chasmata" "Sol/Saturn/Rhea"
 
 Location "Awonawilona" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 209.7 -37.3 0 ]
+	LongLat	[ -150.3 -37.3 0 ]
 	Size	49.8
 	Type	"AA"
 }
 
 Location "Bulagat" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 344.8 -38.2 0 ]
+	LongLat	[ -15.2 -38.2 0 ]
 	Size	100
 	Type	"AA"
 }
 
 Location "Bumba" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 309.6 63.1 0 ]
+	LongLat	[ -50.4 63.1 0 ]
 	Size	150
 	Type	"AA"
 }
@@ -2103,14 +2103,14 @@ Location "Burkhan" "Sol/Saturn/Rhea"
 
 Location "Chingaso" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 254 -17.1 0 ]
+	LongLat	[ -106 -17.1 0 ]
 	Size	47.8
 	Type	"AA"
 }
 
 Location "Con" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 347.3 -25.8 0 ]
+	LongLat	[ -12.7 -25.8 0 ]
 	Size	100
 	Type	"AA"
 }
@@ -2124,14 +2124,14 @@ Location "Dangun" "Sol/Saturn/Rhea"
 
 Location "Djuli" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 313.3 -31.2 0 ]
+	LongLat	[ -46.7 -31.2 0 ]
 	Size	150
 	Type	"AA"
 }
 
 Location "Dohitt" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 285.9 -18 0 ]
+	LongLat	[ -74.1 -18 0 ]
 	Size	93.4
 	Type	"AA"
 }
@@ -2145,14 +2145,14 @@ Location "Dotet" "Sol/Saturn/Rhea"
 
 Location "Ehecatl" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 184.4 -54.7 0 ]
+	LongLat	[ -175.6 -54.7 0 ]
 	Size	93.6
 	Type	"AA"
 }
 
 Location "Ellyay" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 268.2 71.4 0 ]
+	LongLat	[ -91.8 71.4 0 ]
 	Size	150
 	Type	"AA"
 }
@@ -2166,21 +2166,21 @@ Location "Enkai" "Sol/Saturn/Rhea"
 
 Location "Faro" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 246 45.3 0 ]
+	LongLat	[ -114 45.3 0 ]
 	Size	150
 	Type	"AA"
 }
 
 Location "Fatu" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 183.9 7.7 0 ]
+	LongLat	[ -176.1 7.7 0 ]
 	Size	88
 	Type	"AA"
 }
 
 Location "Fuxi" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 235.8 -5.5 0 ]
+	LongLat	[ -124.2 -5.5 0 ]
 	Size	47.2
 	Type	"AA"
 }
@@ -2194,14 +2194,14 @@ Location "Galunlati Chasmata" "Sol/Saturn/Rhea"
 
 Location "Gborogboro" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 197.8 -12.7 0 ]
+	LongLat	[ -162.2 -12.7 0 ]
 	Size	62.5
 	Type	"AA"
 }
 
 Location "Glooskap" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 302.8 -35 0 ]
+	LongLat	[ -57.2 -35 0 ]
 	Size	63.2
 	Type	"AA"
 }
@@ -2215,28 +2215,28 @@ Location "Gmerti" "Sol/Saturn/Rhea"
 
 Location "Gucumatz" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 184.2 37 0 ]
+	LongLat	[ -175.8 37 0 ]
 	Size	68.6
 	Type	"AA"
 }
 
 Location "Haik" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 330.7 -36.6 0 ]
+	LongLat	[ -29.3 -36.6 0 ]
 	Size	100
 	Type	"AA"
 }
 
 Location "Haoso" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 347.5 8.3 0 ]
+	LongLat	[ -12.5 8.3 0 ]
 	Size	100
 	Type	"AA"
 }
 
 Location "Harahvaiti Fossa" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 189 -36 0 ]
+	LongLat	[ -171 -36 0 ]
 	Size	190
 	Type	"FO"
 }
@@ -2264,14 +2264,14 @@ Location "Imberombera" "Sol/Saturn/Rhea"
 
 Location "Imra" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 225.8 19 0 ]
+	LongLat	[ -134.2 19 0 ]
 	Size	28
 	Type	"AA"
 }
 
 Location "Inktomi" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 247.9 -14.1 0 ]
+	LongLat	[ -112.1 -14.1 0 ]
 	Size	47.2
 	Type	"AA"
 }
@@ -2285,7 +2285,7 @@ Location "Inmar" "Sol/Saturn/Rhea"
 
 Location "Iraca" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 247.9 39.4 0 ]
+	LongLat	[ -112.1 39.4 0 ]
 	Size	100
 	Type	"AA"
 }
@@ -2313,28 +2313,28 @@ Location "Izanami" "Sol/Saturn/Rhea"
 
 Location "Jumo" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 293.5 52.8 0 ]
+	LongLat	[ -66.5 52.8 0 ]
 	Size	30
 	Type	"AA"
 }
 
 Location "Juok" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 205 37.6 0 ]
+	LongLat	[ -155 37.6 0 ]
 	Size	73.8
 	Type	"AA"
 }
 
 Location "Kanobo" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 322.6 -63.8 0 ]
+	LongLat	[ -37.4 -63.8 0 ]
 	Size	75.8
 	Type	"AA"
 }
 
 Location "Karora" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 339.9 5.9 0 ]
+	LongLat	[ -20.1 5.9 0 ]
 	Size	50
 	Type	"AA"
 }
@@ -2369,7 +2369,7 @@ Location "Kiho" "Sol/Saturn/Rhea"
 
 Location "Kirinyaga Linea" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 231.2 -1.8 0 ]
+	LongLat	[ -128.8 -1.8 0 ]
 	Size	400
 	Type	"LI"
 }
@@ -2411,7 +2411,7 @@ Location "Kunlun Linea" "Sol/Saturn/Rhea"
 
 Location "Kurkyl" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 246.3 -39.9 0 ]
+	LongLat	[ -113.7 -39.9 0 ]
 	Size	57.1
 	Type	"AA"
 }
@@ -2425,14 +2425,14 @@ Location "Leza" "Sol/Saturn/Rhea"
 
 Location "Ligoupup" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 313.8 -14.5 0 ]
+	LongLat	[ -46.2 -14.5 0 ]
 	Size	78.8
 	Type	"AA"
 }
 
 Location "Lowa" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 343.4 40.9 0 ]
+	LongLat	[ -16.6 40.9 0 ]
 	Size	30
 	Type	"AA"
 }
@@ -2453,14 +2453,14 @@ Location "Luli" "Sol/Saturn/Rhea"
 
 Location "Lumawig" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 223.5 58 0 ]
+	LongLat	[ -136.5 58 0 ]
 	Size	49.8
 	Type	"AA"
 }
 
 Location "Madumda" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 295.2 -36.9 0 ]
+	LongLat	[ -64.8 -36.9 0 ]
 	Size	82.6
 	Type	"AA"
 }
@@ -2474,7 +2474,7 @@ Location "Maheo" "Sol/Saturn/Rhea"
 
 Location "Malunga" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 303.8 65.1 0 ]
+	LongLat	[ -56.2 65.1 0 ]
 	Size	30
 	Type	"AA"
 }
@@ -2488,7 +2488,7 @@ Location "Mamaldi" "Sol/Saturn/Rhea"
 
 Location "Manoid" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 351.5 29.5 0 ]
+	LongLat	[ -8.5 29.5 0 ]
 	Size	30
 	Type	"AA"
 }
@@ -2502,7 +2502,7 @@ Location "Mbir" "Sol/Saturn/Rhea"
 
 Location "Melo" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 352.9 -53.2 0 ]
+	LongLat	[ -7.1 -53.2 0 ]
 	Size	100
 	Type	"AA"
 }
@@ -2516,14 +2516,14 @@ Location "Mouru Catena" "Sol/Saturn/Rhea"
 
 Location "Mubai" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 339.8 55.8 0 ]
+	LongLat	[ -20.2 55.8 0 ]
 	Size	30
 	Type	"AA"
 }
 
 Location "Mumbi" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 228.8 -1.9 0 ]
+	LongLat	[ -131.2 -1.9 0 ]
 	Size	67.2
 	Type	"AA"
 }
@@ -2537,7 +2537,7 @@ Location "Nainema" "Sol/Saturn/Rhea"
 
 Location "Napi" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 185.2 26.9 0 ]
+	LongLat	[ -174.8 26.9 0 ]
 	Size	55.8
 	Type	"AA"
 }
@@ -2558,28 +2558,28 @@ Location "Ndu" "Sol/Saturn/Rhea"
 
 Location "Nishanu" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 231 -9 0 ]
+	LongLat	[ -129 -9 0 ]
 	Size	103.4
 	Type	"AA"
 }
 
 Location "Nishke" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 311 3.8 0 ]
+	LongLat	[ -49 3.8 0 ]
 	Size	74.2
 	Type	"AA"
 }
 
 Location "Num" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 267.3 24 0 ]
+	LongLat	[ -92.7 24 0 ]
 	Size	50
 	Type	"AA"
 }
 
 Location "Nzame" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 335.1 9 0 ]
+	LongLat	[ -24.9 9 0 ]
 	Size	119.4
 	Type	"AA"
 }
@@ -2593,7 +2593,7 @@ Location "Obatala" "Sol/Saturn/Rhea"
 
 Location "Olorun" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 204.6 24.7 0 ]
+	LongLat	[ -155.4 24.7 0 ]
 	Size	58.4
 	Type	"AA"
 }
@@ -2607,28 +2607,28 @@ Location "Onokoro Catenae" "Sol/Saturn/Rhea"
 
 Location "Ormazd" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 301.5 52.5 0 ]
+	LongLat	[ -58.5 52.5 0 ]
 	Size	200
 	Type	"AA"
 }
 
 Location "Pachacamac" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 276.3 -23.4 0 ]
+	LongLat	[ -83.7 -23.4 0 ]
 	Size	46.8
 	Type	"AA"
 }
 
 Location "Pan Ku" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 252.3 65.7 0 ]
+	LongLat	[ -107.7 65.7 0 ]
 	Size	50
 	Type	"AA"
 }
 
 Location "Parun Fossa" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 208 -46.5 0 ]
+	LongLat	[ -152 -46.5 0 ]
 	Size	120
 	Type	"FO"
 }
@@ -2663,7 +2663,7 @@ Location "Powehiwehi" "Sol/Saturn/Rhea"
 
 Location "Puchou Catenae" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 273 32 0 ]
+	LongLat	[ -87 32 0 ]
 	Size	620
 	Type	"CA"
 }
@@ -2684,7 +2684,7 @@ Location "Puntan" "Sol/Saturn/Rhea"
 
 Location "Purusa" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 192.2 -21.2 0 ]
+	LongLat	[ -167.8 -21.2 0 ]
 	Size	96.7
 	Type	"AA"
 }
@@ -2698,21 +2698,21 @@ Location "Qat" "Sol/Saturn/Rhea"
 
 Location "Quwai" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 294 19.6 0 ]
+	LongLat	[ -66 19.6 0 ]
 	Size	38.8
 	Type	"AA"
 }
 
 Location "Samni" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 269.3 -47.7 0 ]
+	LongLat	[ -90.7 -47.7 0 ]
 	Size	101.4
 	Type	"AA"
 }
 
 Location "Seveki" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 195.3 12.9 0 ]
+	LongLat	[ -164.7 12.9 0 ]
 	Size	89.1
 	Type	"AA"
 }
@@ -2733,21 +2733,21 @@ Location "Sholmo" "Sol/Saturn/Rhea"
 
 Location "Shuzanghu" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 349.7 -74.9 0 ]
+	LongLat	[ -10.3 -74.9 0 ]
 	Size	47.8
 	Type	"AA"
 }
 
 Location "Singbonga" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 213.1 -54.8 0 ]
+	LongLat	[ -146.9 -54.8 0 ]
 	Size	60.8
 	Type	"AA"
 }
 
 Location "Taaroa" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 264.5 16.5 0 ]
+	LongLat	[ -95.5 16.5 0 ]
 	Size	50
 	Type	"AA"
 }
@@ -2761,49 +2761,49 @@ Location "Talapas" "Sol/Saturn/Rhea"
 
 Location "Tane" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 302.6 -12.5 0 ]
+	LongLat	[ -57.4 -12.5 0 ]
 	Size	82.6
 	Type	"AA"
 }
 
 Location "Tasheting" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 304.5 -59 0 ]
+	LongLat	[ -55.5 -59 0 ]
 	Size	60.8
 	Type	"AA"
 }
 
 Location "Tawa" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 184.8 17.9 0 ]
+	LongLat	[ -175.2 17.9 0 ]
 	Size	62.2
 	Type	"AA"
 }
 
 Location "Thebeksan Catena" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 186 -39.5 0 ]
+	LongLat	[ -174 -39.5 0 ]
 	Size	220
 	Type	"CA"
 }
 
 Location "Thunupa" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 338.7 45.6 0 ]
+	LongLat	[ -21.3 45.6 0 ]
 	Size	50
 	Type	"AA"
 }
 
 Location "Tika" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 275.9 25.1 0 ]
+	LongLat	[ -84.1 25.1 0 ]
 	Size	50
 	Type	"AA"
 }
 
 Location "Tirawa" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 208.3 34.2 0 ]
+	LongLat	[ -151.7 34.2 0 ]
 	Size	300
 	Type	"AA"
 }
@@ -2824,14 +2824,14 @@ Location "Torom" "Sol/Saturn/Rhea"
 
 Location "Tsuki-Yomi" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 316.2 35 0 ]
+	LongLat	[ -43.8 35 0 ]
 	Size	35
 	Type	"AA"
 }
 
 Location "Tulpar" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 201.4 56.1 0 ]
+	LongLat	[ -158.6 56.1 0 ]
 	Size	70.4
 	Type	"AA"
 }
@@ -2845,7 +2845,7 @@ Location "Tuwale" "Sol/Saturn/Rhea"
 
 Location "Uku" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 264.5 78.7 0 ]
+	LongLat	[ -95.5 78.7 0 ]
 	Size	50
 	Type	"AA"
 }
@@ -2859,7 +2859,7 @@ Location "Utleygon" "Sol/Saturn/Rhea"
 
 Location "Vatea" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 209.6 16 0 ]
+	LongLat	[ -150.4 16 0 ]
 	Size	96.6
 	Type	"AA"
 }
@@ -2894,7 +2894,7 @@ Location "Wende" "Sol/Saturn/Rhea"
 
 Location "Whanin" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 245 66.9 0 ]
+	LongLat	[ -115 66.9 0 ]
 	Size	100
 	Type	"AA"
 }
@@ -2908,21 +2908,21 @@ Location "Woyengi" "Sol/Saturn/Rhea"
 
 Location "Wulbari" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 271.1 67 0 ]
+	LongLat	[ -88.9 67 0 ]
 	Size	33
 	Type	"AA"
 }
 
 Location "Wungaran Catenae" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 281 22.5 0 ]
+	LongLat	[ -79 22.5 0 ]
 	Size	350
 	Type	"CA"
 }
 
 Location "Wuraka" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 356 25.1 0 ]
+	LongLat	[ -4 25.1 0 ]
 	Size	30
 	Type	"AA"
 }
@@ -2936,14 +2936,14 @@ Location "Xamba" "Sol/Saturn/Rhea"
 
 Location "Xowalaci" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 303.7 2.4 0 ]
+	LongLat	[ -56.3 2.4 0 ]
 	Size	60
 	Type	"AA"
 }
 
 Location "Xu" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 288.1 55 0 ]
+	LongLat	[ -71.9 55 0 ]
 	Size	50
 	Type	"AA"
 }
@@ -2964,20 +2964,20 @@ Location "Yehl" "Sol/Saturn/Rhea"
 
 Location "Yu-Ti" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 278.5 50.1 0 ]
+	LongLat	[ -81.5 50.1 0 ]
 	Size	100
 	Type	"AA"
 }
 
 Location "Zicum" "Sol/Saturn/Rhea"
 {
-	LongLat	[ 248.8 -50.9 0 ]
+	LongLat	[ -111.2 -50.9 0 ]
 	Size	76.8
 	Type	"AA"
 }
 
 
-# 284 locations on Titan.
+# 295 locations on Titan.
 
 Location "AARU" "Sol/Saturn/Titan"
 {
@@ -2988,7 +2988,7 @@ Location "AARU" "Sol/Saturn/Titan"
 
 Location "Abaya Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 314.45 73.17 0 ]
+	LongLat	[ -45.55 73.17 0 ]
 	Size	65
 	Type	"LC"
 }
@@ -3009,7 +3009,7 @@ Location "Afekan" "Sol/Saturn/Titan"
 
 Location "Akmena Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 304.4 85.1 0 ]
+	LongLat	[ -55.6 85.1 0 ]
 	Size	35.6
 	Type	"LC"
 }
@@ -3037,7 +3037,7 @@ Location "Angmar Montes" "Sol/Saturn/Titan"
 
 Location "Annecy Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 231.1 76.8 0 ]
+	LongLat	[ -128.9 76.8 0 ]
 	Size	20
 	Type	"LC"
 }
@@ -3058,14 +3058,14 @@ Location "Apanohuaya Flumen" "Sol/Saturn/Titan"
 
 Location "Ara Fluctus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 241.6 39.8 0 ]
+	LongLat	[ -118.4 39.8 0 ]
 	Size	70
 	Type	"FL"
 }
 
 Location "Arala Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 235.1 78.1 0 ]
+	LongLat	[ -124.9 78.1 0 ]
 	Size	12.3
 	Type	"LC"
 }
@@ -3079,7 +3079,7 @@ Location "Arnar Sinus" "Sol/Saturn/Titan"
 
 Location "Arrakis Planitia" "Sol/Saturn/Titan"
 {
-	LongLat	[ 243 -78.4 0 ]
+	LongLat	[ -117 -78.4 0 ]
 	Size	337.4
 	Type	"PL"
 }
@@ -3121,14 +3121,14 @@ Location "Avacha Sinus" "Sol/Saturn/Titan"
 
 Location "AZTLAN" "Sol/Saturn/Titan"
 {
-	LongLat	[ 340 -10 0 ]
+	LongLat	[ -20 -10 0 ]
 	Importance	20
 	Type	"AL"
 }
 
 Location "Bacab Virgae" "Sol/Saturn/Titan"
 {
-	LongLat	[ 209 -19 0 ]
+	LongLat	[ -151 -19 0 ]
 	Size	485
 	Type	"VI"
 }
@@ -3142,7 +3142,7 @@ Location "Baffin Sinus" "Sol/Saturn/Titan"
 
 Location "Balaton Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 272.5 82.9 0 ]
+	LongLat	[ -87.5 82.9 0 ]
 	Size	35.6
 	Type	"LC"
 }
@@ -3156,14 +3156,14 @@ Location "Bayta Fretum" "Sol/Saturn/Titan"
 
 Location "Bazaruto Facula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 343.9 11.6 0 ]
+	LongLat	[ -16.1 11.6 0 ]
 	Size	215
 	Type	"FA"
 }
 
 Location "Beag" "Sol/Saturn/Titan"
 {
-	LongLat	[ 190.45 -34.74 0 ]
+	LongLat	[ -169.55 -34.74 0 ]
 	Size	27
 	Type	"AA"
 }
@@ -3184,7 +3184,7 @@ Location "Bermoothes Insula" "Sol/Saturn/Titan"
 
 Location "Bilbo Colles" "Sol/Saturn/Titan"
 {
-	LongLat	[ 321.44 -4.23 0 ]
+	LongLat	[ -38.56 -4.23 0 ]
 	Size	164
 	Type	"CO"
 }
@@ -3198,7 +3198,7 @@ Location "Bimini Insula" "Sol/Saturn/Titan"
 
 Location "Bolsena Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 349.72 75.75 0 ]
+	LongLat	[ -10.28 75.75 0 ]
 	Size	101
 	Type	"LC"
 }
@@ -3226,14 +3226,14 @@ Location "Bralgu Insulae" "Sol/Saturn/Titan"
 
 Location "Brienz Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 316.2 85.3 0 ]
+	LongLat	[ -43.8 85.3 0 ]
 	Size	50.6
 	Type	"LC"
 }
 
 Location "Buada Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 230.4 76.4 0 ]
+	LongLat	[ -129.6 76.4 0 ]
 	Size	10.3
 	Type	"LC"
 }
@@ -3275,14 +3275,21 @@ Location "Cayuga Lacus" "Sol/Saturn/Titan"
 
 Location "Celadon Flumina" "Sol/Saturn/Titan"
 {
-	LongLat	[ 331.2 -73.7 0 ]
+	LongLat	[ -28.8 -73.7 0 ]
 	Size	160
 	Type	"FM"
 }
 
+Location "Cerknica Lacuna" "Sol/Saturn/Titan"
+{
+	LongLat	[ -175.56 71.12 0 ]
+	Size	96
+	Type	"LU"
+}
+
 Location "Chilwa Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 228.7 75 0 ]
+	LongLat	[ -131.3 75 0 ]
 	Size	19.8
 	Type	"LC"
 }
@@ -3296,14 +3303,14 @@ Location "CHING-TU" "Sol/Saturn/Titan"
 
 Location "Chusuk Planitia" "Sol/Saturn/Titan"
 {
-	LongLat	[ 336.5 -5 0 ]
+	LongLat	[ -23.5 -5 0 ]
 	Size	125
 	Type	"PL"
 }
 
 Location "Coats Facula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 330.8 -11.1 0 ]
+	LongLat	[ -29.2 -11.1 0 ]
 	Size	80
 	Type	"FA"
 }
@@ -3317,14 +3324,14 @@ Location "CONCORDIA REGIO" "Sol/Saturn/Titan"
 
 Location "Corrin Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 329 -66 0 ]
+	LongLat	[ -31 -66 0 ]
 	Size	280
 	Type	"LB"
 }
 
 Location "Crete Facula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 209.9 9.4 0 ]
+	LongLat	[ -150.1 9.4 0 ]
 	Size	680
 	Type	"FA"
 }
@@ -3338,14 +3345,14 @@ Location "Crveno Lacus" "Sol/Saturn/Titan"
 
 Location "DILMUN" "Sol/Saturn/Titan"
 {
-	LongLat	[ 185 15 0 ]
+	LongLat	[ -175 15 0 ]
 	Importance	20
 	Type	"AL"
 }
 
 Location "Dilolo Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 235 76.2 0 ]
+	LongLat	[ -125 76.2 0 ]
 	Size	18.3
 	Type	"LC"
 }
@@ -3366,21 +3373,21 @@ Location "Dolmed Montes" "Sol/Saturn/Titan"
 
 Location "Doom Mons" "Sol/Saturn/Titan"
 {
-	LongLat	[ 319.58 -14.65 0 ]
+	LongLat	[ -40.42 -14.65 0 ]
 	Size	63
 	Type	"MO"
 }
 
 Location "Dridzis Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 228.7 78.9 0 ]
+	LongLat	[ -131.3 78.9 0 ]
 	Size	50
 	Type	"LC"
 }
 
 Location "Ecaz Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 323.3 -83 0 ]
+	LongLat	[ -36.7 -83 0 ]
 	Size	360
 	Type	"LB"
 }
@@ -3394,35 +3401,42 @@ Location "Echoriath Montes" "Sol/Saturn/Titan"
 
 Location "Eir Macula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 245.3 -24 0 ]
+	LongLat	[ -114.7 -24 0 ]
 	Size	145
 	Type	"MA"
 }
 
 Location "Elba Facula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 358.8 -10.8 0 ]
+	LongLat	[ -1.2 -10.8 0 ]
 	Size	250
 	Type	"FA"
 }
 
 Location "Elivagar Flumina" "Sol/Saturn/Titan"
 {
-	LongLat	[ 281.5 19.3 0 ]
+	LongLat	[ -78.5 19.3 0 ]
 	Size	260
 	Type	"FM"
 }
 
 Location "Elpis Macula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 333 31.2 0 ]
+	LongLat	[ -27 31.2 0 ]
 	Size	500
 	Type	"MA"
 }
 
+Location "Enriquillo Lacus" "Sol/Saturn/Titan"
+{
+	LongLat	[ 122.41 71.4 0 ]
+	Size	47
+	Type	"LC"
+}
+
 Location "Erebor Mons" "Sol/Saturn/Titan"
 {
-	LongLat	[ 323.77 -4.97 0 ]
+	LongLat	[ -36.23 -4.97 0 ]
 	Size	50
 	Type	"MO"
 }
@@ -3450,21 +3464,21 @@ Location "Fagaloa Sinus" "Sol/Saturn/Titan"
 
 Location "Faramir Colles" "Sol/Saturn/Titan"
 {
-	LongLat	[ 206.2 4 0 ]
+	LongLat	[ -153.8 4 0 ]
 	Size	82
 	Type	"CO"
 }
 
 Location "Feia Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 295.59 73.7 0 ]
+	LongLat	[ -64.41 73.7 0 ]
 	Size	47
 	Type	"LC"
 }
 
 Location "FENSAL" "Sol/Saturn/Titan"
 {
-	LongLat	[ 330 5 0 ]
+	LongLat	[ -30 5 0 ]
 	Importance	20
 	Type	"AL"
 }
@@ -3478,14 +3492,14 @@ Location "Flensborg Sinus" "Sol/Saturn/Titan"
 
 Location "Fogo Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 262 81.9 0 ]
+	LongLat	[ -98 81.9 0 ]
 	Size	32.3
 	Type	"LC"
 }
 
 Location "Forseti" "Sol/Saturn/Titan"
 {
-	LongLat	[ 349.6 25.53 0 ]
+	LongLat	[ -10.4 25.53 0 ]
 	Size	145
 	Type	"AA"
 }
@@ -3520,7 +3534,7 @@ Location "Gammu Labyrinthus" "Sol/Saturn/Titan"
 
 Location "Gamont Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 285 56.8 0 ]
+	LongLat	[ -75 56.8 0 ]
 	Size	130
 	Type	"LB"
 }
@@ -3534,7 +3548,7 @@ Location "Gandalf Colles" "Sol/Saturn/Titan"
 
 Location "Ganesa Macula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 272.7 50 0 ]
+	LongLat	[ -87.3 50 0 ]
 	Size	160
 	Type	"MA"
 }
@@ -3551,6 +3565,13 @@ Location "GAROTMAN TERRA" "Sol/Saturn/Titan"
 	LongLat	[ 12 -13.5 0 ]
 	Size	970
 	Type	"TA"
+}
+
+Location "Gatun Lacus" "Sol/Saturn/Titan"
+{
+	LongLat	[ -178.04 72.79 0 ]
+	Size	67
+	Type	"LC"
 }
 
 Location "Genetaska Macula" "Sol/Saturn/Titan"
@@ -3570,7 +3591,7 @@ Location "Genova Sinus" "Sol/Saturn/Titan"
 Location "Giedi Planitia" "Sol/Saturn/Titan"
 {
 	LongLat	[ 2.98 5.22 0 ]
-	Size	303.26
+	Size	303.25
 	Type	"PL"
 }
 
@@ -3597,21 +3618,21 @@ Location "Gram Montes" "Sol/Saturn/Titan"
 
 Location "Grasmere Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 256.9 72.3 0 ]
+	LongLat	[ -103.1 72.3 0 ]
 	Size	33.3
 	Type	"LC"
 }
 
 Location "Grumman Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 253.2 -35.3 0 ]
+	LongLat	[ -106.8 -35.3 0 ]
 	Size	540
 	Type	"LB"
 }
 
 Location "Guabonito" "Sol/Saturn/Titan"
 {
-	LongLat	[ 209.2 -10.9 0 ]
+	LongLat	[ -150.8 -10.9 0 ]
 	Size	55
 	Type	"LG"
 }
@@ -3653,7 +3674,7 @@ Location "Hardin Fretum" "Sol/Saturn/Titan"
 
 Location "Harmonthep Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 258.6 -72.3 0 ]
+	LongLat	[ -101.4 -72.3 0 ]
 	Size	363
 	Type	"LB"
 }
@@ -3674,28 +3695,28 @@ Location "HETPET REGIO" "Sol/Saturn/Titan"
 
 Location "Hlawga Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 256.4 76.6 0 ]
+	LongLat	[ -103.6 76.6 0 ]
 	Size	40.3
 	Type	"LC"
 }
 
 Location "Hobal Virga" "Sol/Saturn/Titan"
 {
-	LongLat	[ 194 -35 0 ]
+	LongLat	[ -166 -35 0 ]
 	Size	1075
 	Type	"VI"
 }
 
 Location "Hotei Arcus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 281 -28 0 ]
+	LongLat	[ -79 -28 0 ]
 	Size	600
 	Type	"AR"
 }
 
 Location "HOTEI REGIO" "Sol/Saturn/Titan"
 {
-	LongLat	[ 282 -26 0 ]
+	LongLat	[ -78 -26 0 ]
 	Size	500
 	Type	"RE"
 }
@@ -3716,14 +3737,14 @@ Location "Hufaidh Insulae" "Sol/Saturn/Titan"
 
 Location "Ihotry Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 222.8 76.1 0 ]
+	LongLat	[ -137.2 76.1 0 ]
 	Size	37.5
 	Type	"LC"
 }
 
 Location "Imogene Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 248.2 71.1 0 ]
+	LongLat	[ -111.8 71.1 0 ]
 	Size	38
 	Type	"LC"
 }
@@ -3779,14 +3800,14 @@ Location "Kaitain Labyrinthus" "Sol/Saturn/Titan"
 
 Location "Kalseru Virga" "Sol/Saturn/Titan"
 {
-	LongLat	[ 223 -36 0 ]
+	LongLat	[ -137 -36 0 ]
 	Size	630
 	Type	"VI"
 }
 
 Location "Karakul Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 303.4 86.3 0 ]
+	LongLat	[ -56.6 86.3 0 ]
 	Size	18.4
 	Type	"LC"
 }
@@ -3807,21 +3828,21 @@ Location "Kayangan Lacus" "Sol/Saturn/Titan"
 
 Location "Kerguelen Facula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 209 -5.4 0 ]
+	LongLat	[ -151 -5.4 0 ]
 	Size	135
 	Type	"FA"
 }
 
 Location "Kivu Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 239 87 0 ]
+	LongLat	[ -121 87 0 ]
 	Size	77.5
 	Type	"LC"
 }
 
 Location "Koitere Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 323.86 79.4 0 ]
+	LongLat	[ -36.14 79.4 0 ]
 	Size	68
 	Type	"LC"
 }
@@ -3849,14 +3870,14 @@ Location "Krocylea Insulae" "Sol/Saturn/Titan"
 
 Location "Kronin Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 263.73 -35.7 0 ]
+	LongLat	[ -96.27 -35.7 0 ]
 	Size	270
 	Type	"LB"
 }
 
 Location "Ksa" "Sol/Saturn/Titan"
 {
-	LongLat	[ 294.6 14 0 ]
+	LongLat	[ -65.4 14 0 ]
 	Size	29
 	Type	"AA"
 }
@@ -3877,21 +3898,21 @@ Location "Kutch Lacuna" "Sol/Saturn/Titan"
 
 Location "Ladoga Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 333.9 74.8 0 ]
+	LongLat	[ -26.1 74.8 0 ]
 	Size	110
 	Type	"LC"
 }
 
 Location "Lagdo Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 234.3 75.5 0 ]
+	LongLat	[ -125.7 75.5 0 ]
 	Size	37.8
 	Type	"LC"
 }
 
 Location "Lampadas Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 236 -81.8 0 ]
+	LongLat	[ -124 -81.8 0 ]
 	Size	445
 	Type	"LB"
 }
@@ -3905,28 +3926,28 @@ Location "Lanao Lacus" "Sol/Saturn/Titan"
 
 Location "Lankiveil Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 210.5 -48.2 0 ]
+	LongLat	[ -149.5 -48.2 0 ]
 	Size	450
 	Type	"LB"
 }
 
 Location "Leilah Fluctus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 282.2 50.5 0 ]
+	LongLat	[ -77.8 50.5 0 ]
 	Size	190
 	Type	"FL"
 }
 
 Location "Lernaeus Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 222 -83.4 0 ]
+	LongLat	[ -138 -83.4 0 ]
 	Size	167
 	Type	"LB"
 }
 
 Location "Letas Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 271.8 81.3 0 ]
+	LongLat	[ -88.2 81.3 0 ]
 	Size	23.7
 	Type	"LC"
 }
@@ -3940,7 +3961,7 @@ Location "LIGEIA MARE" "Sol/Saturn/Titan"
 
 Location "Lithui Montes" "Sol/Saturn/Titan"
 {
-	LongLat	[ 247.44 84.68 0 ]
+	LongLat	[ -112.56 84.68 0 ]
 	Size	200
 	Type	"MO"
 }
@@ -3952,6 +3973,13 @@ Location "Logtak Lacus" "Sol/Saturn/Titan"
 	Type	"LC"
 }
 
+Location "Luin Montes" "Sol/Saturn/Titan"
+{
+	LongLat	[ -36.26 81.98 0 ]
+	Size	156
+	Type	"MO"
+}
+
 Location "Lulworth Sinus" "Sol/Saturn/Titan"
 {
 	LongLat	[ 43.12 67.19 0 ]
@@ -3961,7 +3989,7 @@ Location "Lulworth Sinus" "Sol/Saturn/Titan"
 
 Location "Mackay Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 262.47 78.32 0 ]
+	LongLat	[ -97.53 78.32 0 ]
 	Size	180
 	Type	"LC"
 }
@@ -3982,7 +4010,7 @@ Location "Manza Sinus" "Sol/Saturn/Titan"
 
 Location "Maracaibo Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 232.3 75.3 0 ]
+	LongLat	[ -127.7 75.3 0 ]
 	Size	20.4
 	Type	"LC"
 }
@@ -4003,7 +4031,7 @@ Location "Melrhir Lacuna" "Sol/Saturn/Titan"
 
 Location "Menrva" "Sol/Saturn/Titan"
 {
-	LongLat	[ 272.8 20.1 0 ]
+	LongLat	[ -87.2 20.1 0 ]
 	Size	392
 	Type	"AA"
 }
@@ -4024,14 +4052,14 @@ Location "Meropis Insula" "Sol/Saturn/Titan"
 
 Location "MEZZORAMIA" "Sol/Saturn/Titan"
 {
-	LongLat	[ 360 -70 0 ]
+	LongLat	[ 0 -70 0 ]
 	Importance	20
 	Type	"AL"
 }
 
 Location "Mindanao Facula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 185.8 -6.6 0 ]
+	LongLat	[ -174.2 -6.6 0 ]
 	Size	210
 	Type	"FA"
 }
@@ -4045,30 +4073,37 @@ Location "Mindolluin Montes" "Sol/Saturn/Titan"
 
 Location "Misty Montes" "Sol/Saturn/Titan"
 {
-	LongLat	[ 297.56 56.8 0 ]
+	LongLat	[ -62.44 56.8 0 ]
 	Size	73
 	Type	"MO"
 }
 
 Location "Mithrim Montes" "Sol/Saturn/Titan"
 {
-	LongLat	[ 232.58 -2.16 0 ]
+	LongLat	[ -127.42 -2.16 0 ]
 	Size	147
 	Type	"MO"
 }
 
 Location "Mohini Fluctus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 321.47 -11.78 0 ]
+	LongLat	[ -38.53 -11.78 0 ]
 	Size	347
 	Type	"FL"
 }
 
 Location "Momoy" "Sol/Saturn/Titan"
 {
-	LongLat	[ 315.4 11.6 0 ]
+	LongLat	[ -44.6 11.6 0 ]
 	Size	40
 	Type	"AA"
+}
+
+Location "Montego Sinus" "Sol/Saturn/Titan"
+{
+	LongLat	[ -130.92 80.76 0 ]
+	Size	83
+	Type	"SI"
 }
 
 Location "Moray Sinus" "Sol/Saturn/Titan"
@@ -4101,14 +4136,14 @@ Location "Muritan Labyrinthus" "Sol/Saturn/Titan"
 
 Location "Muzhwi Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 233.7 74.8 0 ]
+	LongLat	[ -126.3 74.8 0 ]
 	Size	36
 	Type	"LC"
 }
 
 Location "Mweru Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 228.2 71.9 0 ]
+	LongLat	[ -131.8 71.9 0 ]
 	Size	20.6
 	Type	"LC"
 }
@@ -4122,42 +4157,42 @@ Location "Mystis" "Sol/Saturn/Titan"
 
 Location "Mývatn Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 224.72 78.19 0 ]
+	LongLat	[ -135.28 78.19 0 ]
 	Size	55
 	Type	"LC"
 }
 
 Location "Nakuru Lacuna" "Sol/Saturn/Titan"
 {
-	LongLat	[ 266 65.81 0 ]
+	LongLat	[ -94 65.81 0 ]
 	Size	188
 	Type	"LU"
 }
 
 Location "Naraj Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 324.2 -74.2 0 ]
+	LongLat	[ -35.8 -74.2 0 ]
 	Size	115
 	Type	"LB"
 }
 
 Location "Nath" "Sol/Saturn/Titan"
 {
-	LongLat	[ 352.3 -30.5 0 ]
+	LongLat	[ -7.7 -30.5 0 ]
 	Size	95
 	Type	"LG"
 }
 
 Location "Neagh Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 327.84 81.11 0 ]
+	LongLat	[ -32.16 81.11 0 ]
 	Size	98
 	Type	"LC"
 }
 
 Location "Negra Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 231.1 75.5 0 ]
+	LongLat	[ -128.9 75.5 0 ]
 	Size	15.3
 	Type	"LC"
 }
@@ -4171,7 +4206,7 @@ Location "Ngami Lacuna" "Sol/Saturn/Titan"
 
 Location "Nicobar Faculae" "Sol/Saturn/Titan"
 {
-	LongLat	[ 201 2 0 ]
+	LongLat	[ -159 2 0 ]
 	Size	575
 	Type	"FA"
 }
@@ -4185,14 +4220,14 @@ Location "Nicoya Sinus" "Sol/Saturn/Titan"
 
 Location "Nimloth Colles" "Sol/Saturn/Titan"
 {
-	LongLat	[ 208.7 11.86 0 ]
+	LongLat	[ -151.3 11.86 0 ]
 	Size	90
 	Type	"CO"
 }
 
 Location "Niushe Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 271.9 75.1 0 ]
+	LongLat	[ -88.1 75.1 0 ]
 	Size	222
 	Type	"LB"
 }
@@ -4206,7 +4241,7 @@ Location "Notus Undae" "Sol/Saturn/Titan"
 
 Location "Oahu Facula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 193.3 5 0 ]
+	LongLat	[ -166.7 5 0 ]
 	Size	465
 	Type	"FA"
 }
@@ -4234,21 +4269,21 @@ Location "Okahu Sinus" "Sol/Saturn/Titan"
 
 Location "Olomega Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 237.8 78.7 0 ]
+	LongLat	[ -122.2 78.7 0 ]
 	Size	15.7
 	Type	"LC"
 }
 
 Location "Omacatl Macula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 322.8 17.6 0 ]
+	LongLat	[ -37.2 17.6 0 ]
 	Size	225
 	Type	"MA"
 }
 
 Location "Oneida Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 228.17 76.14 0 ]
+	LongLat	[ -131.83 76.14 0 ]
 	Size	51
 	Type	"LC"
 }
@@ -4267,9 +4302,16 @@ Location "Ontario Lacus" "Sol/Saturn/Titan"
 	Type	"LC"
 }
 
+Location "Orog Lacuna" "Sol/Saturn/Titan"
+{
+	LongLat	[ -172.06 70.85 0 ]
+	Size	42
+	Type	"LU"
+}
+
 Location "Palma Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 329 -72.4 0 ]
+	LongLat	[ -31 -72.4 0 ]
 	Size	69
 	Type	"LB"
 }
@@ -4297,15 +4339,22 @@ Location "Penglai Insula" "Sol/Saturn/Titan"
 
 Location "Perkunas Virgae" "Sol/Saturn/Titan"
 {
-	LongLat	[ 198 -27 0 ]
+	LongLat	[ -162 -27 0 ]
 	Size	980
 	Type	"VI"
 }
 
 Location "Phewa Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 236 72.2 0 ]
+	LongLat	[ -124 72.2 0 ]
 	Size	12
+	Type	"LC"
+}
+
+Location "Pielinen Lacus" "Sol/Saturn/Titan"
+{
+	LongLat	[ -179.66 71.34 0 ]
+	Size	88
 	Type	"LC"
 }
 
@@ -4325,21 +4374,21 @@ Location "Polaznik Macula" "Sol/Saturn/Titan"
 
 Location "Polelya Macula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 304 50 0 ]
+	LongLat	[ -56 50 0 ]
 	Size	175
 	Type	"MA"
 }
 
 Location "Poritrin Planitia" "Sol/Saturn/Titan"
 {
-	LongLat	[ 336 48 0 ]
+	LongLat	[ -24 48 0 ]
 	Size	1900
 	Type	"PL"
 }
 
 Location "Prespa Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 224.3 73.1 0 ]
+	LongLat	[ -135.7 73.1 0 ]
 	Size	43.7
 	Type	"LC"
 }
@@ -4360,21 +4409,21 @@ Location "PUNGA MARE" "Sol/Saturn/Titan"
 
 Location "Qinghai Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 308.5 83.4 0 ]
+	LongLat	[ -51.5 83.4 0 ]
 	Size	44.3
 	Type	"LC"
 }
 
 Location "Quilotoa Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 239.9 80.3 0 ]
+	LongLat	[ -120.1 80.3 0 ]
 	Size	11.8
 	Type	"LC"
 }
 
 Location "QUIVIRA" "Sol/Saturn/Titan"
 {
-	LongLat	[ 345 0 0 ]
+	LongLat	[ -15 0 0 ]
 	Importance	20
 	Type	"AL"
 }
@@ -4388,7 +4437,7 @@ Location "Racetrack Lacuna" "Sol/Saturn/Titan"
 
 Location "Rannoch Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 230.7 74.2 0 ]
+	LongLat	[ -129.3 74.2 0 ]
 	Size	63.5
 	Type	"LC"
 }
@@ -4409,14 +4458,14 @@ Location "Richese Labyrinthus" "Sol/Saturn/Titan"
 
 Location "Roca Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 236.5 79.8 0 ]
+	LongLat	[ -123.5 79.8 0 ]
 	Size	46
 	Type	"LC"
 }
 
 Location "Rohe Fluctus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 322.25 47.3 0 ]
+	LongLat	[ -37.75 47.3 0 ]
 	Size	103
 	Type	"FL"
 }
@@ -4451,14 +4500,14 @@ Location "Royllo Insula" "Sol/Saturn/Titan"
 
 Location "Rukwa Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 225.2 74.8 0 ]
+	LongLat	[ -134.8 74.8 0 ]
 	Size	36
 	Type	"LC"
 }
 
 Location "Rwegura Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 254.8 71.5 0 ]
+	LongLat	[ -105.2 71.5 0 ]
 	Size	21.7
 	Type	"LC"
 }
@@ -4479,14 +4528,14 @@ Location "Salusa Labyrinthus" "Sol/Saturn/Titan"
 
 Location "Sambation Flumina" "Sol/Saturn/Titan"
 {
-	LongLat	[ 269.88 87.33 0 ]
+	LongLat	[ -90.12 87.33 0 ]
 	Size	210
 	Type	"FM"
 }
 
 Location "Santorini Facula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 214.4 2.4 0 ]
+	LongLat	[ -145.6 2.4 0 ]
 	Size	140
 	Type	"FA"
 }
@@ -4496,6 +4545,13 @@ Location "Saraswati Flumen" "Sol/Saturn/Titan"
 	LongLat	[ 166.49 -74.55 0 ]
 	Size	2.9
 	Type	"FM"
+}
+
+Location "Sarygamysh Lacus" "Sol/Saturn/Titan"
+{
+	LongLat	[ -103.92 84.64 0 ]
+	Size	19
+	Type	"LC"
 }
 
 Location "Seldon Fretum" "Sol/Saturn/Titan"
@@ -4528,42 +4584,42 @@ Location "Sevan Lacus" "Sol/Saturn/Titan"
 
 Location "SHANGRI-LA" "Sol/Saturn/Titan"
 {
-	LongLat	[ 195 -10 0 ]
+	LongLat	[ -165 -10 0 ]
 	Importance	20
 	Type	"AL"
 }
 
 Location "Shikoku Facula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 195.9 -10.4 0 ]
+	LongLat	[ -164.1 -10.4 0 ]
 	Size	285
 	Type	"FA"
 }
 
 Location "Shiwanni Virgae" "Sol/Saturn/Titan"
 {
-	LongLat	[ 328 -25 0 ]
+	LongLat	[ -32 -25 0 ]
 	Size	1400
 	Type	"VI"
 }
 
 Location "Shoji Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 193.63 -79.74 0 ]
+	LongLat	[ -166.37 -79.74 0 ]
 	Size	5.8
 	Type	"LC"
 }
 
 Location "Sikun Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 331.1 -77.9 0 ]
+	LongLat	[ -28.9 -77.9 0 ]
 	Size	175
 	Type	"LB"
 }
 
 Location "Sinlap" "Sol/Saturn/Titan"
 {
-	LongLat	[ 344 11.3 0 ]
+	LongLat	[ -16 11.3 0 ]
 	Size	80
 	Type	"AA"
 }
@@ -4584,42 +4640,42 @@ Location "Skelton Sinus" "Sol/Saturn/Titan"
 
 Location "Soi" "Sol/Saturn/Titan"
 {
-	LongLat	[ 219.1 24.3 0 ]
+	LongLat	[ -140.9 24.3 0 ]
 	Size	75
 	Type	"AA"
 }
 
 Location "Sotonera Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 342.51 76.75 0 ]
+	LongLat	[ -17.49 76.75 0 ]
 	Size	63
 	Type	"LC"
 }
 
 Location "Sotra Patera" "Sol/Saturn/Titan"
 {
-	LongLat	[ 320 -14.54 0 ]
+	LongLat	[ -40 -14.54 0 ]
 	Size	40
 	Type	"PE"
 }
 
 Location "Sparrow Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 295.3 84.3 0 ]
+	LongLat	[ -64.7 84.3 0 ]
 	Size	81.4
 	Type	"LC"
 }
 
 Location "Suwa Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 224.8 74.1 0 ]
+	LongLat	[ -135.2 74.1 0 ]
 	Size	12
 	Type	"LC"
 }
 
 Location "Synevyr Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 306.4 81 0 ]
+	LongLat	[ -53.6 81 0 ]
 	Size	36
 	Type	"LC"
 }
@@ -4631,16 +4687,23 @@ Location "Taniquetil Montes" "Sol/Saturn/Titan"
 	Type	"MO"
 }
 
+Location "Tasmania Facula" "Sol/Saturn/Titan"
+{
+	LongLat	[ -167.37 10.41 0 ]
+	Size	26
+	Type	"FA"
+}
+
 Location "Taupo Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 227.4 72.7 0 ]
+	LongLat	[ -132.6 72.7 0 ]
 	Size	27
 	Type	"LC"
 }
 
 Location "Tengiz Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 254.4 73.2 0 ]
+	LongLat	[ -105.6 73.2 0 ]
 	Size	70
 	Type	"LC"
 }
@@ -4654,7 +4717,7 @@ Location "Texel Facula" "Sol/Saturn/Titan"
 
 Location "Tishtrya Virgae" "Sol/Saturn/Titan"
 {
-	LongLat	[ 180.25 23.84 0 ]
+	LongLat	[ -179.75 23.84 0 ]
 	Size	276
 	Type	"VI"
 }
@@ -4668,14 +4731,14 @@ Location "Tlaloc Virgae" "Sol/Saturn/Titan"
 
 Location "Tleilax Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 344 -48 0 ]
+	LongLat	[ -16 -48 0 ]
 	Size	207
 	Type	"LB"
 }
 
 Location "Toba Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 251.9 70.9 0 ]
+	LongLat	[ -108.1 70.9 0 ]
 	Size	23.6
 	Type	"LC"
 }
@@ -4689,9 +4752,16 @@ Location "TOLLAN TERRA" "Sol/Saturn/Titan"
 
 Location "Tortola Facula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 216.9 8.8 0 ]
+	LongLat	[ -143.1 8.8 0 ]
 	Size	65
 	Type	"FA"
+}
+
+Location "Totak Lacus" "Sol/Saturn/Titan"
+{
+	LongLat	[ 134.01 74.03 0 ]
+	Size	20
+	Type	"LC"
 }
 
 Location "Towada Lacus" "Sol/Saturn/Titan"
@@ -4710,7 +4780,7 @@ Location "Trevize Fretum" "Sol/Saturn/Titan"
 
 Location "Trichonida Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 294.7 81.3 0 ]
+	LongLat	[ -65.3 81.3 0 ]
 	Size	31.5
 	Type	"LC"
 }
@@ -4724,7 +4794,7 @@ Location "Trold Sinus" "Sol/Saturn/Titan"
 
 Location "TSEGIHI" "Sol/Saturn/Titan"
 {
-	LongLat	[ 350 -40 0 ]
+	LongLat	[ -10 -40 0 ]
 	Importance	20
 	Type	"AL"
 }
@@ -4738,14 +4808,14 @@ Location "TSIIPIYA TERRA" "Sol/Saturn/Titan"
 
 Location "Tsomgo Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 197.59 -86.37 0 ]
+	LongLat	[ -162.41 -86.37 0 ]
 	Size	59
 	Type	"LC"
 }
 
 Location "TUI REGIO" "Sol/Saturn/Titan"
 {
-	LongLat	[ 235.1 -24.5 0 ]
+	LongLat	[ -124.9 -24.5 0 ]
 	Size	1200
 	Type	"RE"
 }
@@ -4766,7 +4836,7 @@ Location "Tunu Sinus" "Sol/Saturn/Titan"
 
 Location "Tupile Labyrinthus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 327.8 -80.5 0 ]
+	LongLat	[ -32.2 -80.5 0 ]
 	Size	84
 	Type	"LB"
 }
@@ -4808,21 +4878,21 @@ Location "Vänern Lacus" "Sol/Saturn/Titan"
 
 Location "Van Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 222.7 74.2 0 ]
+	LongLat	[ -137.3 74.2 0 ]
 	Size	32.7
 	Type	"LC"
 }
 
 Location "Veles" "Sol/Saturn/Titan"
 {
-	LongLat	[ 222.7 2 0 ]
+	LongLat	[ -137.3 2 0 ]
 	Size	45
 	Type	"LG"
 }
 
 Location "Veliko Lacuna" "Sol/Saturn/Titan"
 {
-	LongLat	[ 326.9 -76.8 0 ]
+	LongLat	[ -33.1 -76.8 0 ]
 	Size	90
 	Type	"LU"
 }
@@ -4836,21 +4906,21 @@ Location "Vid Flumina" "Sol/Saturn/Titan"
 
 Location "Viedma Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 234.3 72 0 ]
+	LongLat	[ -125.7 72 0 ]
 	Size	42
 	Type	"LC"
 }
 
 Location "Vis Facula" "Sol/Saturn/Titan"
 {
-	LongLat	[ 221.6 7 0 ]
+	LongLat	[ -138.4 7 0 ]
 	Size	215
 	Type	"FA"
 }
 
 Location "Waikare Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 234 81.6 0 ]
+	LongLat	[ -126 81.6 0 ]
 	Size	52.5
 	Type	"LC"
 }
@@ -4878,28 +4948,28 @@ Location "Weija Lacus" "Sol/Saturn/Titan"
 
 Location "Winia Fluctus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 314 49 0 ]
+	LongLat	[ -46 49 0 ]
 	Size	300
 	Type	"FL"
 }
 
 Location "Winnipeg Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 206.69 78.05 0 ]
+	LongLat	[ -153.31 78.05 0 ]
 	Size	60
 	Type	"LC"
 }
 
 Location "Woytchugga Lacuna" "Sol/Saturn/Titan"
 {
-	LongLat	[ 251 68.88 0 ]
+	LongLat	[ -109 68.88 0 ]
 	Size	449
 	Type	"LU"
 }
 
 Location "XANADU" "Sol/Saturn/Titan"
 {
-	LongLat	[ 260 -15 0 ]
+	LongLat	[ -100 -15 0 ]
 	Size	3400
 	Type	"AL"
 }
@@ -4913,9 +4983,16 @@ Location "Xanthus Flumen" "Sol/Saturn/Titan"
 
 Location "Xolotlán Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 287.1 82.3 0 ]
+	LongLat	[ -72.9 82.3 0 ]
 	Size	57.4
 	Type	"LC"
+}
+
+Location "Xuttah Planitia" "Sol/Saturn/Titan"
+{
+	LongLat	[ -167.69 10.6 0 ]
+	Size	18
+	Type	"PL"
 }
 
 Location "YALAING TERRA" "Sol/Saturn/Titan"
@@ -4927,28 +5004,28 @@ Location "YALAING TERRA" "Sol/Saturn/Titan"
 
 Location "Yessey Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 249.2 73 0 ]
+	LongLat	[ -110.8 73 0 ]
 	Size	24.5
 	Type	"LC"
 }
 
 Location "Yojoa Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 305.9 78.1 0 ]
+	LongLat	[ -54.1 78.1 0 ]
 	Size	58.3
 	Type	"LC"
 }
 
 Location "Ypoa Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 227.8 73.4 0 ]
+	LongLat	[ -132.2 73.4 0 ]
 	Size	39.2
 	Type	"LC"
 }
 
 Location "Zaza Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 253.1 72.4 0 ]
+	LongLat	[ -106.9 72.4 0 ]
 	Size	29
 	Type	"LC"
 }
@@ -4962,7 +5039,7 @@ Location "Zephyrus Undae" "Sol/Saturn/Titan"
 
 Location "Zub Lacus" "Sol/Saturn/Titan"
 {
-	LongLat	[ 257.4 71.7 0 ]
+	LongLat	[ -102.6 71.7 0 ]
 	Size	19.5
 	Type	"LC"
 }
@@ -4979,14 +5056,14 @@ Location "Bahloo" "Sol/Saturn/Hyperion"
 
 Location "Bond-Lassell Dorsum" "Sol/Saturn/Hyperion"
 {
-	LongLat	[ 216.5 48 0 ]
+	LongLat	[ -143.5 48 0 ]
 	Size	250
 	Type	"DO"
 }
 
 Location "Helios" "Sol/Saturn/Hyperion"
 {
-	LongLat	[ 228 71 0 ]
+	LongLat	[ -132 71 0 ]
 	Size	60
 	Type	"AA"
 }
@@ -5000,7 +5077,7 @@ Location "Jarilo" "Sol/Saturn/Hyperion"
 
 Location "Meri" "Sol/Saturn/Hyperion"
 {
-	LongLat	[ 189 3 0 ]
+	LongLat	[ -171 3 0 ]
 	Size	30
 	Type	"AA"
 }
@@ -5010,14 +5087,14 @@ Location "Meri" "Sol/Saturn/Hyperion"
 
 Location "Abisme" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 267.08 37.53 0 ]
+	LongLat	[ -92.92 37.53 0 ]
 	Size	767.74
 	Type	"AA"
 }
 
 Location "Acelin" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 205.1 42.7 0 ]
+	LongLat	[ -154.9 42.7 0 ]
 	Size	38
 	Type	"AA"
 }
@@ -5066,7 +5143,7 @@ Location "Basan" "Sol/Saturn/Iapetus"
 
 Location "Basbrun" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 248.2 -52 0 ]
+	LongLat	[ -111.8 -52 0 ]
 	Size	80
 	Type	"AA"
 }
@@ -5094,14 +5171,14 @@ Location "Besgun" "Sol/Saturn/Iapetus"
 
 Location "Bevon" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 267 70.7 0 ]
+	LongLat	[ -93 70.7 0 ]
 	Size	48
 	Type	"AA"
 }
 
 Location "Bramimond" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 182 38 0 ]
+	LongLat	[ -178 38 0 ]
 	Size	200
 	Type	"AA"
 }
@@ -5115,7 +5192,7 @@ Location "Carcassone Montes" "Sol/Saturn/Iapetus"
 
 Location "CASSINI REGIO" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 267.4 -28.1 0 ]
+	LongLat	[ -92.6 -28.1 0 ]
 	Size	1000
 	Type	"RE"
 }
@@ -5129,14 +5206,14 @@ Location "Charlemagne" "Sol/Saturn/Iapetus"
 
 Location "Clarin" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 288.4 18.3 0 ]
+	LongLat	[ -71.6 18.3 0 ]
 	Size	84
 	Type	"AA"
 }
 
 Location "Climborin" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 243.1 30.4 0 ]
+	LongLat	[ -116.9 30.4 0 ]
 	Size	49
 	Type	"AA"
 }
@@ -5150,14 +5227,14 @@ Location "Cordova Mons" "Sol/Saturn/Iapetus"
 
 Location "Corsablis" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 245.8 0.9 0 ]
+	LongLat	[ -114.2 0.9 0 ]
 	Size	73
 	Type	"AA"
 }
 
 Location "Dapamort" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 275.1 36.6 0 ]
+	LongLat	[ -84.9 36.6 0 ]
 	Size	49
 	Type	"AA"
 }
@@ -5171,7 +5248,7 @@ Location "Engelier" "Sol/Saturn/Iapetus"
 
 Location "Escremiz" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 186.5 1.6 0 ]
+	LongLat	[ -173.5 1.6 0 ]
 	Size	0.06
 	Type	"AA"
 }
@@ -5185,14 +5262,14 @@ Location "Eudropin" "Sol/Saturn/Iapetus"
 
 Location "Falsaron" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 277.4 33.8 0 ]
+	LongLat	[ -82.6 33.8 0 ]
 	Size	424
 	Type	"AA"
 }
 
 Location "Ganelon" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 340.2 -44.3 0 ]
+	LongLat	[ -19.8 -44.3 0 ]
 	Size	230
 	Type	"AA"
 }
@@ -5206,14 +5283,14 @@ Location "Garlon" "Sol/Saturn/Iapetus"
 
 Location "Gayne Mons" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 184 0 0 ]
+	LongLat	[ -176 0 0 ]
 	Size	65
 	Type	"MO"
 }
 
 Location "Geboin" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 186.6 58.6 0 ]
+	LongLat	[ -173.4 58.6 0 ]
 	Size	81
 	Type	"AA"
 }
@@ -5262,49 +5339,49 @@ Location "Ivon" "Sol/Saturn/Iapetus"
 
 Location "Johun" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 276.6 12.4 0 ]
+	LongLat	[ -83.4 12.4 0 ]
 	Size	64
 	Type	"AA"
 }
 
 Location "Jurfaleu" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 357.5 13 0 ]
+	LongLat	[ -2.5 13 0 ]
 	Size	107
 	Type	"AA"
 }
 
 Location "Lorant" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 200.2 65.2 0 ]
+	LongLat	[ -159.8 65.2 0 ]
 	Size	44
 	Type	"AA"
 }
 
 Location "Malprimis" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 241.8 -15.2 0 ]
+	LongLat	[ -118.2 -15.2 0 ]
 	Size	377
 	Type	"AA"
 }
 
 Location "Malun" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 318.7 5.9 0 ]
+	LongLat	[ -41.3 5.9 0 ]
 	Size	121
 	Type	"AA"
 }
 
 Location "Margaris" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 224.2 27.7 0 ]
+	LongLat	[ -135.8 27.7 0 ]
 	Size	75
 	Type	"AA"
 }
 
 Location "Marsilion" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 183.9 39.2 0 ]
+	LongLat	[ -176.1 39.2 0 ]
 	Size	136
 	Type	"AA"
 }
@@ -5360,7 +5437,7 @@ Location "Othon" "Sol/Saturn/Iapetus"
 
 Location "Pinabel" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 327 -39 0 ]
+	LongLat	[ -33 -39 0 ]
 	Size	83
 	Type	"AA"
 }
@@ -5374,14 +5451,14 @@ Location "Priamon" "Sol/Saturn/Iapetus"
 
 Location "Rabel" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 193.8 -64.4 0 ]
+	LongLat	[ -166.2 -64.4 0 ]
 	Size	91
 	Type	"AA"
 }
 
 Location "Roland" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 334.8 73.3 0 ]
+	LongLat	[ -25.2 73.3 0 ]
 	Size	144
 	Type	"AA"
 }
@@ -5395,7 +5472,7 @@ Location "RONCEVAUX TERRA" "Sol/Saturn/Iapetus"
 
 Location "Rugis" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 261 -0.1 0 ]
+	LongLat	[ -99 -0.1 0 ]
 	Size	19
 	Type	"AA"
 }
@@ -5409,7 +5486,7 @@ Location "Samson" "Sol/Saturn/Iapetus"
 
 Location "SARAGOSSA TERRA" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 180 -45 0 ]
+	LongLat	[ -180 -45 0 ]
 	Size	2300
 	Type	"TA"
 }
@@ -5430,7 +5507,7 @@ Location "Sorence  Mons" "Sol/Saturn/Iapetus"
 
 Location "Thierry" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 352 -55 0 ]
+	LongLat	[ -8 -55 0 ]
 	Size	110
 	Type	"AA"
 }
@@ -5451,7 +5528,7 @@ Location "Timozel" "Sol/Saturn/Iapetus"
 
 Location "Toledo Montes" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 224 0 0 ]
+	LongLat	[ -136 0 0 ]
 	Size	1100
 	Type	"MO"
 }
@@ -5465,35 +5542,35 @@ Location "Torleu" "Sol/Saturn/Iapetus"
 
 Location "Tortelosa Montes" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 295.3 0 0 ]
+	LongLat	[ -64.7 0 0 ]
 	Size	294
 	Type	"MO"
 }
 
 Location "Turgis" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 331.6 16.9 0 ]
+	LongLat	[ -28.4 16.9 0 ]
 	Size	580
 	Type	"AA"
 }
 
 Location "Turpin" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 358.6 47.7 0 ]
+	LongLat	[ -1.4 47.7 0 ]
 	Size	87
 	Type	"AA"
 }
 
 Location "Valdebron" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 255.6 29.6 0 ]
+	LongLat	[ -104.4 29.6 0 ]
 	Size	49
 	Type	"AA"
 }
 
 Location "Valterne Mons" "Sol/Saturn/Iapetus"
 {
-	LongLat	[ 189.4 0 0 ]
+	LongLat	[ -170.6 0 0 ]
 	Size	50
 	Type	"MO"
 }
@@ -5503,21 +5580,21 @@ Location "Valterne Mons" "Sol/Saturn/Iapetus"
 
 Location "Acastus" "Sol/Saturn/Phoebe"
 {
-	LongLat	[ 211.5 9.6 0 ]
+	LongLat	[ -148.5 9.6 0 ]
 	Size	34
 	Type	"AA"
 }
 
 Location "Admetus" "Sol/Saturn/Phoebe"
 {
-	LongLat	[ 320.9 11.4 0 ]
+	LongLat	[ -39.1 11.4 0 ]
 	Size	58
 	Type	"AA"
 }
 
 Location "Amphion" "Sol/Saturn/Phoebe"
 {
-	LongLat	[ 358.2 -27 0 ]
+	LongLat	[ -1.8 -27 0 ]
 	Size	18
 	Type	"AA"
 }
@@ -5573,14 +5650,14 @@ Location "Eurydamas" "Sol/Saturn/Phoebe"
 
 Location "Eurytion" "Sol/Saturn/Phoebe"
 {
-	LongLat	[ 352 -30.4 0 ]
+	LongLat	[ -8 -30.4 0 ]
 	Size	14
 	Type	"AA"
 }
 
 Location "Eurytus" "Sol/Saturn/Phoebe"
 {
-	LongLat	[ 182.8 -39.7 0 ]
+	LongLat	[ -177.2 -39.7 0 ]
 	Size	89
 	Type	"AA"
 }
@@ -5615,14 +5692,14 @@ Location "Jason" "Sol/Saturn/Phoebe"
 
 Location "LETO REGIO" "Sol/Saturn/Phoebe"
 {
-	LongLat	[ 340 60 0 ]
+	LongLat	[ -20 60 0 ]
 	Size	95
 	Type	"RE"
 }
 
 Location "Mopsus" "Sol/Saturn/Phoebe"
 {
-	LongLat	[ 250.9 6.6 0 ]
+	LongLat	[ -109.1 6.6 0 ]
 	Size	37
 	Type	"AA"
 }
@@ -5636,7 +5713,7 @@ Location "Nauplius" "Sol/Saturn/Phoebe"
 
 Location "Oileus" "Sol/Saturn/Phoebe"
 {
-	LongLat	[ 263.1 -77.1 0 ]
+	LongLat	[ -96.9 -77.1 0 ]
 	Size	56
 	Type	"AA"
 }
@@ -5664,7 +5741,7 @@ Location "Talaus" "Sol/Saturn/Phoebe"
 
 Location "Telamon" "Sol/Saturn/Phoebe"
 {
-	LongLat	[ 267.4 -48.1 0 ]
+	LongLat	[ -92.6 -48.1 0 ]
 	Size	28
 	Type	"AA"
 }
