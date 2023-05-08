@@ -339,6 +339,15 @@ Barycenter "Gliese 65:Luyten 726-8"
 	Distance 10.5016 # 310.5773 +/- 0.1355 mas
 	SpectralType "K2V"
 	AppMag 3.73
+	Temperature 5076 # 5076 +/- 30 K (Heiter et al. 2015)
+	Radius 511000 # 0.735 +/- 0.005 Sol (di Folco et al. 2007)
+
+	UniformRotation
+	{
+	    Period         274 # 11.4 +/- 0.2 days (Roettenbacher et al. 2022)
+	    Inclination      12 # inclination = 70 degrees
+	    AscendingNode   88 # position angle of rotation axis = 335 degrees
+	}
 }
 
 114046 # Lacaille 9352
@@ -700,6 +709,12 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B:GJ 13185"
 	Distance 11.9118 # 273.8097 +/- 0.1701 mas
 	SpectralType "G8V"
 	AppMag 3.50
+	Radius 552000 # 0.793 +/- 0.004 Sol
+
+	UniformRotation
+	{
+	    Period         816 # 34 days (Baliunas et al. 1996)
+	}
 }
 
 "GJ 1061:Luyten 372-58"
