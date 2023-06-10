@@ -141,8 +141,8 @@ Barycenter "ALF Cen:Gliese 559"
 # https://iopscience.iop.org/article/10.3847/1538-4357/abcb97
 Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 {
-	RA 162.30328243
-	Dec -53.31757381
+	RA 162.31073787
+	Dec -53.318058293
 	Distance 6.5029 # 501.557 +/- 0.082 mas
 }
 
@@ -157,10 +157,10 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 		Period           27.54
 		SemiMajorAxis    1.636 # mass ratio 33.51J:28.55J
 		Eccentricity     0.343
-		Inclination     135.69
-		AscendingNode   118.66
+		Inclination     135.68
+		AscendingNode   118.64
 		ArgOfPericenter 136.22
-		MeanAnomaly     127.58
+		MeanAnomaly     271.63
 	}
 
 	RotationPeriod 6.94
@@ -177,10 +177,10 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 		Period           27.54
 		SemiMajorAxis    1.921 # mass ratio 33.51J:28.55J
 		Eccentricity     0.343
-		Inclination     135.69
-		AscendingNode   118.66
+		Inclination     135.68
+		AscendingNode   118.64
 		ArgOfPericenter 316.22
-		MeanAnomaly     127.58
+		MeanAnomaly     271.63
 	}
 
 	RotationPeriod 5.28
@@ -237,9 +237,9 @@ Barycenter 32349 "Sirius:Alhabor:ALF CMa:9 CMa:Gliese 244:ADS 5423"
 		Period         50.1284
 		SemiMajorAxis     6.53 # mass ratio 2.063:1.018
 		Eccentricity   0.59142
-		Inclination      97.01
-		AscendingNode   161.67
-		ArgOfPericenter   5.90
+		Inclination     143.15
+		AscendingNode   256.59
+		ArgOfPericenter  67.30
 		MeanAnomaly      38.99
 	}
 }
@@ -255,9 +255,9 @@ Barycenter 32349 "Sirius:Alhabor:ALF CMa:9 CMa:Gliese 244:ADS 5423"
 		Period         50.1284
 		SemiMajorAxis    13.25 # mass ratio 2.063:1.018
 		Eccentricity   0.59142
-		Inclination      97.01
-		AscendingNode   161.67
-		ArgOfPericenter 185.90
+		Inclination     143.15
+		AscendingNode   256.59
+		ArgOfPericenter 247.30
 		MeanAnomaly      38.99
 	}
 }
@@ -709,7 +709,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B:GJ 13185"
 	Distance 11.9118 # 273.8097 +/- 0.1701 mas
 	SpectralType "G8V"
 	AppMag 3.50
-	Radius 552000 # 0.793 +/- 0.004 Sol
+	Radius 552000 # 0.793 +/- 0.004 Sol (Teixeira et al. 2009)
 
 	UniformRotation
 	{
@@ -892,10 +892,10 @@ Barycenter 30920 "Gliese 234:Ross 614"
 	EllipticalOrbit {              # fully specified orientation
 		Period           16.63
 		SemiMajorAxis     1.49 # mass ratio 0.223:0.109
-		Eccentricity      0.38
-		Inclination      93.87
-		AscendingNode   322.71
-		ArgOfPericenter 167.29
+		Eccentricity      0.382
+		Inclination      53.59
+		AscendingNode    70.27
+		ArgOfPericenter 122.95
 		MeanAnomaly      15.85
 	}
 }
@@ -909,10 +909,10 @@ Barycenter 30920 "Gliese 234:Ross 614"
 	EllipticalOrbit {              # fully specified orientation
 		Period           16.63
 		SemiMajorAxis     3.05 # mass ratio 0.223:0.109
-		Eccentricity      0.38
-		Inclination      93.87
-		AscendingNode   322.71
-		ArgOfPericenter 347.29
+		Eccentricity      0.382
+		Inclination      53.59
+		AscendingNode    70.27
+		ArgOfPericenter 302.95
 		MeanAnomaly      15.85
 	}
 }
@@ -1664,9 +1664,9 @@ Barycenter 29295 "Gliese 229:Luyten 668-21:LPM 230"
 		Period          237.9
 		SemiMajorAxis     3.5 # mass ratio 0.579:71.4J
 		Eccentricity    0.851
-		Inclination      41.2
-		AscendingNode   353.4
-		ArgOfPericenter 237.9
+		Inclination      49.0
+		AscendingNode    12.3
+		ArgOfPericenter 224.5
 		MeanAnomaly       296
 	}
 }
@@ -1681,9 +1681,9 @@ Barycenter 29295 "Gliese 229:Luyten 668-21:LPM 230"
 		Period          237.9
 		SemiMajorAxis    29.8 # mass ratio 0.579:71.4J
 		Eccentricity    0.851
-		Inclination      41.2
-		AscendingNode   353.4
-		ArgOfPericenter  57.9
+		Inclination      49.0
+		AscendingNode    12.3
+		ArgOfPericenter  44.5
 		MeanAnomaly       296
 	}
 }
