@@ -10,7 +10,7 @@ $(pot_file)-update: data.cpp
 	xgettext --keyword=_ --keyword=i18n \
 	         --sort-by-file --qt --add-comments \
 	         --default-domain=$(domain) --package-name=celestia --package-version=1.7.0 \
-	         --msgid-bugs-address=team@celestia.space \
+	         --msgid-bugs-address=team@celestiaproject.space \
 	         --copyright-holder="Celestia Development Team" \
 	         --output=$(pot_file) \
 	         --from-code=utf-8 \
