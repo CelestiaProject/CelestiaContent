@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: team@celestiaproject.space\n"
-"POT-Creation-Date: 2021-12-01 23:23+0200\n"
+"POT-Creation-Date: 2023-07-27 10:41+0300\n"
 "PO-Revision-Date: 2008-02-06 13:37+0200\n"
 "Last-Translator: Serhij Dubyk <dubyk@library.lviv.ua>\n"
 "Language-Team: Ukrainian <translation@linux.org.ua>\n"
@@ -1053,9 +1053,8 @@ msgid "Suttungr"
 msgstr ""
 
 #: data.cpp:252
-#, fuzzy
-msgid "Saturn LIV"
-msgstr "Сатурн"
+msgid "Gridr"
+msgstr ""
 
 #: data.cpp:253
 msgid "Narvi"
@@ -1074,9 +1073,8 @@ msgid "Bergelmir"
 msgstr ""
 
 #: data.cpp:257
-#, fuzzy
-msgid "Saturn LIX"
-msgstr "Сатурн"
+msgid "Eggther"
+msgstr ""
 
 #: data.cpp:258
 msgid "S 2004 S 17"
@@ -1099,28 +1097,24 @@ msgid "S 2004 S 7"
 msgstr ""
 
 #: data.cpp:263
-#, fuzzy
-msgid "Saturn LXI"
-msgstr "Сатурн"
+msgid "Beli"
+msgstr ""
 
 #: data.cpp:264
 msgid "Bestla"
 msgstr ""
 
 #: data.cpp:265
-#, fuzzy
-msgid "Saturn LVII"
-msgstr "Сатурн"
+msgid "Gerd"
+msgstr ""
 
 #: data.cpp:266
-#, fuzzy
-msgid "Saturn LV"
-msgstr "Сатурн"
+msgid "Angrboda"
+msgstr ""
 
 #: data.cpp:267
-#, fuzzy
-msgid "Saturn LXII"
-msgstr "Сатурн"
+msgid "Gunnlod"
+msgstr ""
 
 #: data.cpp:268
 msgid "Aegir"
@@ -1131,18 +1125,16 @@ msgid "S 2006 S 3"
 msgstr ""
 
 #: data.cpp:270
-#, fuzzy
-msgid "Saturn LXV"
-msgstr "Сатурн"
+msgid "Alvaldi"
+msgstr ""
 
 #: data.cpp:271
 msgid "Kari"
 msgstr ""
 
 #: data.cpp:272
-#, fuzzy
-msgid "Saturn LVI"
-msgstr "Сатурн"
+msgid "Skrymir"
+msgstr ""
 
 #: data.cpp:273
 msgid "S 2004 S 28"
@@ -1161,9 +1153,8 @@ msgid "S 2004 S 21"
 msgstr ""
 
 #: data.cpp:277
-#, fuzzy
-msgid "Saturn LXVI"
-msgstr "Сатурн"
+msgid "Geirrod"
+msgstr ""
 
 #: data.cpp:278
 msgid "S 2004 S 24"
@@ -1191,9 +1182,8 @@ msgid "Saturn LXIV"
 msgstr "Сатурн"
 
 #: data.cpp:284
-#, fuzzy
-msgid "Saturn LXIII"
-msgstr "Сатурн"
+msgid "Thiazzi"
+msgstr ""
 
 #: data.cpp:285
 #, fuzzy
@@ -1451,532 +1441,532 @@ msgid "Asmara"
 msgstr "Асмера"
 
 #: data.cpp:347
+msgid "Astana"
+msgstr "Астана"
+
+#: data.cpp:348
 msgid "Asuncion"
 msgstr "Асунсьйон"
 
-#: data.cpp:348
+#: data.cpp:349
 msgid "Athens"
 msgstr "Афіни"
 
-#: data.cpp:349
+#: data.cpp:350
 msgid "Avarua"
 msgstr "Аваруа"
 
-#: data.cpp:350
+#: data.cpp:351
 msgid "Baghdad"
 msgstr "Багдад"
 
-#: data.cpp:351
+#: data.cpp:352
 msgid "Baku"
 msgstr "Баку"
 
-#: data.cpp:352
+#: data.cpp:353
 msgid "Bamako"
 msgstr "Бамако"
 
-#: data.cpp:353
+#: data.cpp:354
 msgid "Bandar Seri Begawan"
 msgstr "Бандар-Сері-Бегаван"
 
-#: data.cpp:354
+#: data.cpp:355
 msgid "Bangkok"
 msgstr "Бангкок"
 
-#: data.cpp:355
+#: data.cpp:356
 msgid "Bangui"
 msgstr "Бангі"
 
-#: data.cpp:356
+#: data.cpp:357
 msgid "Banjul"
 msgstr "Банджул"
 
-#: data.cpp:357
+#: data.cpp:358
 msgid "Basse-Terre"
 msgstr "Бас-Тер"
 
-#: data.cpp:358
+#: data.cpp:359
 msgid "Basseterre"
 msgstr "Бастер"
 
-#: data.cpp:359
+#: data.cpp:360
 msgid "Beijing"
 msgstr "Пекін"
 
-#: data.cpp:360
+#: data.cpp:361
 msgid "Beirut"
 msgstr "Бейрут"
 
-#: data.cpp:361
+#: data.cpp:362
 msgid "Belgrade"
 msgstr "Белград"
 
-#: data.cpp:362
+#: data.cpp:363
 msgid "Belmopan"
 msgstr "Бельмопан"
 
-#: data.cpp:363
+#: data.cpp:364
 msgid "Berlin"
 msgstr "Берлін"
 
-#: data.cpp:364
+#: data.cpp:365
 msgid "Bern"
 msgstr "Берн"
 
-#: data.cpp:365
+#: data.cpp:366
 msgid "Bishkek"
 msgstr "Бішкек"
 
-#: data.cpp:366
+#: data.cpp:367
 msgid "Bissau"
 msgstr "Бісау"
 
-#: data.cpp:367
+#: data.cpp:368
 msgid "Bloemfontein"
 msgstr "Блумфонтейн"
 
-#: data.cpp:368
+#: data.cpp:369
 msgid "Bogota"
 msgstr "Богота"
 
-#: data.cpp:369
+#: data.cpp:370
 msgid "Brasilia"
 msgstr "Бразиліа"
 
-#: data.cpp:370
+#: data.cpp:371
 msgid "Bratislava"
 msgstr "Братислава"
 
-#: data.cpp:371
+#: data.cpp:372
 msgid "Brazzaville"
 msgstr "Браззавіль"
 
-#: data.cpp:372
+#: data.cpp:373
 msgid "Bridgetown"
 msgstr "Бриджтаун"
 
-#: data.cpp:373
+#: data.cpp:374
 msgid "Brussels"
 msgstr "Брюссель"
 
-#: data.cpp:374
+#: data.cpp:375
 msgid "Bucharest"
 msgstr "Бухарест"
 
-#: data.cpp:375
+#: data.cpp:376
 msgid "Budapest"
 msgstr "Будапешт"
 
-#: data.cpp:376
+#: data.cpp:377
 msgid "Buenos Aires"
 msgstr "Буенос-Айрес"
 
-#: data.cpp:377
+#: data.cpp:378
 msgid "Bujumbura"
 msgstr "Бужумбура"
 
-#: data.cpp:378
+#: data.cpp:379
 msgid "Cairo"
 msgstr "Каїр"
 
-#: data.cpp:379
+#: data.cpp:380
 msgid "Canberra"
 msgstr "Канберра"
 
-#: data.cpp:380
+#: data.cpp:381
 msgid "Cape Town"
 msgstr "Кейптаун"
 
-#: data.cpp:381
+#: data.cpp:382
 msgid "Caracas"
 msgstr "Каракас"
 
-#: data.cpp:382
+#: data.cpp:383
 msgid "Castries"
 msgstr "Кастрі"
 
-#: data.cpp:383
+#: data.cpp:384
 msgid "Cayenne"
 msgstr "Каєнна"
 
-#: data.cpp:384
+#: data.cpp:385
 msgid "Charlotte Amalie"
 msgstr "Шарлотта-Амалія"
 
-#: data.cpp:385
+#: data.cpp:386
 msgid "Chisinau"
 msgstr "Кишинів"
 
-#: data.cpp:386
+#: data.cpp:387
 msgid "Colombo"
 msgstr "Коломбо"
 
-#: data.cpp:387
+#: data.cpp:388
 msgid "Conakry"
 msgstr "Конакрі"
 
-#: data.cpp:388
+#: data.cpp:389
 msgid "Copenhagen"
 msgstr "Копенгаген"
 
-#: data.cpp:389
+#: data.cpp:390
 msgid "Cotonou"
 msgstr "Котону"
 
-#: data.cpp:390
+#: data.cpp:391
 msgid "Dakar"
 msgstr "Дакар"
 
-#: data.cpp:391
+#: data.cpp:392
 msgid "Damascus"
 msgstr "Дамаск"
 
-#: data.cpp:392
+#: data.cpp:393
 msgid "Dar es Salaam"
 msgstr "Дар-ес-Салам"
 
-#: data.cpp:393
+#: data.cpp:394
 msgid "Dhaka"
 msgstr "Дакка"
 
-#: data.cpp:394
+#: data.cpp:395
 msgid "Dili"
 msgstr "Ділі"
 
-#: data.cpp:395
+#: data.cpp:396
 msgid "Djibouti"
 msgstr "Джибуті"
 
-#: data.cpp:396
+#: data.cpp:397
 msgid "Doha"
 msgstr "Доха"
 
-#: data.cpp:397
+#: data.cpp:398
 msgid "Douglas"
 msgstr "Дуглас"
 
-#: data.cpp:398
+#: data.cpp:399
 msgid "Dublin"
 msgstr "Дублін"
 
-#: data.cpp:399
+#: data.cpp:400
 msgid "Dushanbe"
 msgstr "Душанбе"
 
-#: data.cpp:400
+#: data.cpp:401
 msgid "Fongafale"
 msgstr "Фонгафале"
 
-#: data.cpp:401
+#: data.cpp:402
 msgid "Fort-de-France"
 msgstr "Фор-де-Франс"
 
-#: data.cpp:402
+#: data.cpp:403
 msgid "Freetown"
 msgstr "Фрітаун"
 
-#: data.cpp:403
+#: data.cpp:404
 msgid "Gaborone"
 msgstr "Габороне"
 
-#: data.cpp:404
+#: data.cpp:405
 msgid "George Town"
 msgstr "Джорджтаун"
 
-#: data.cpp:405
+#: data.cpp:406
 msgid "Georgetown"
 msgstr "Джорджтаун"
 
-#: data.cpp:406
+#: data.cpp:407
 msgid "Gibraltar"
 msgstr "Гібралтар"
 
-#: data.cpp:407
+#: data.cpp:408
 msgid "Grand Turk"
 msgstr "Гранд-Терк"
 
-#: data.cpp:408
+#: data.cpp:409
 msgid "Guatemala"
 msgstr "Гватемала"
 
-#: data.cpp:409
+#: data.cpp:410
 msgid "Hagatna"
 msgstr "Аґанья"
 
-#: data.cpp:410
+#: data.cpp:411
 msgid "The Hague"
 msgstr "Гаага"
 
-#: data.cpp:411
+#: data.cpp:412
 msgid "Hamilton"
 msgstr "Гамільтон"
 
-#: data.cpp:412
+#: data.cpp:413
 msgid "Hanoi"
 msgstr "Ханой"
 
-#: data.cpp:413
+#: data.cpp:414
 msgid "Harare"
 msgstr "Хараре"
 
-#: data.cpp:414
+#: data.cpp:415
 msgid "Havana"
 msgstr "Гавана"
 
-#: data.cpp:415
+#: data.cpp:416
 msgid "Helsinki"
 msgstr "Гельсінкі"
 
-#: data.cpp:416
+#: data.cpp:417
 msgid "Hong Kong"
 msgstr ""
 
-#: data.cpp:417
+#: data.cpp:418
 msgid "Honiara"
 msgstr "Хоніара"
 
-#: data.cpp:418
+#: data.cpp:419
 msgid "Islamabad"
 msgstr "Ісламабад"
 
-#: data.cpp:419
+#: data.cpp:420
 msgid "Jakarta"
 msgstr "Джакарта"
 
-#: data.cpp:420
+#: data.cpp:421
 msgid "Jamestown"
 msgstr "Джеймстаун"
 
-#: data.cpp:421
+#: data.cpp:422
 msgid "Jerusalem"
 msgstr "Єрусалим"
 
-#: data.cpp:422
+#: data.cpp:423
 msgid "Kabul"
 msgstr "Кабул"
 
-#: data.cpp:423
+#: data.cpp:424
 msgid "Kampala"
 msgstr "Кампала"
 
-#: data.cpp:424
+#: data.cpp:425
 msgid "Kathmandu"
 msgstr "Катманду"
 
-#: data.cpp:425
+#: data.cpp:426
 msgid "Khartoum"
 msgstr "Хартум"
 
-#: data.cpp:426
+#: data.cpp:427
 msgid "Kiev"
 msgstr "Київ"
 
-#: data.cpp:427
+#: data.cpp:428
 msgid "Kigali"
 msgstr "Кігалі"
 
-#: data.cpp:428 data.cpp:429
+#: data.cpp:429 data.cpp:430
 msgid "Kingston"
 msgstr "Кінгстон"
 
-#: data.cpp:430
+#: data.cpp:431
 msgid "Kingstown"
 msgstr "Кінгстаун"
 
-#: data.cpp:431
+#: data.cpp:432
 msgid "Kinshasa"
 msgstr "Кіншаса"
 
-#: data.cpp:432
+#: data.cpp:433
 msgid "Koror"
 msgstr "Корор"
 
-#: data.cpp:433
+#: data.cpp:434
 msgid "Kuala Lumpur"
 msgstr "Куала-Лумпур"
 
-#: data.cpp:434
+#: data.cpp:435
 msgid "Kuwait"
 msgstr "Кувейт"
 
-#: data.cpp:435
+#: data.cpp:436
 msgid "La'youn"
 msgstr "Ель-Аюн"
 
-#: data.cpp:436
+#: data.cpp:437
 msgid "La Paz"
 msgstr "Ла-Пас"
 
-#: data.cpp:437
+#: data.cpp:438
 msgid "Libreville"
 msgstr "Лібревіль"
 
-#: data.cpp:438
+#: data.cpp:439
 msgid "Lilongwe"
 msgstr "Лілонгве"
 
-#: data.cpp:439
+#: data.cpp:440
 msgid "Lima"
 msgstr "Ліма"
 
-#: data.cpp:440
+#: data.cpp:441
 msgid "Lisbon"
 msgstr "Лісабон"
 
-#: data.cpp:441
+#: data.cpp:442
 msgid "Ljubljana"
 msgstr "Любляна"
 
-#: data.cpp:442
+#: data.cpp:443
 msgid "Lobamba"
 msgstr "Лобамба"
 
-#: data.cpp:443
+#: data.cpp:444
 msgid "Lome"
 msgstr "Ломе"
 
-#: data.cpp:444
+#: data.cpp:445
 msgid "London"
 msgstr "Лондон"
 
-#: data.cpp:445
+#: data.cpp:446
 msgid "Longyearbyen"
 msgstr "Лонг'єрб'єн"
 
-#: data.cpp:446
+#: data.cpp:447
 msgid "Luanda"
 msgstr "Луанда"
 
-#: data.cpp:447
+#: data.cpp:448
 msgid "Lusaka"
 msgstr "Лусака"
 
-#: data.cpp:448
+#: data.cpp:449
 msgid "Luxembourg"
 msgstr "Люксембург"
 
-#: data.cpp:449
+#: data.cpp:450
 msgid "Madrid"
 msgstr "Мадрид"
 
-#: data.cpp:450
+#: data.cpp:451
 msgid "Majuro"
 msgstr "Маджуро"
 
-#: data.cpp:451
+#: data.cpp:452
 msgid "Malabo"
 msgstr "Малабо"
 
-#: data.cpp:452
+#: data.cpp:453
 msgid "Male"
 msgstr "Мале"
 
-#: data.cpp:453
+#: data.cpp:454
 msgid "Mamoutzou"
 msgstr "Мамудзу"
 
-#: data.cpp:454
+#: data.cpp:455
 msgid "Managua"
 msgstr "Манагуа"
 
-#: data.cpp:455
+#: data.cpp:456
 msgid "Manama"
 msgstr "Манама"
 
-#: data.cpp:456
+#: data.cpp:457
 msgid "Manila"
 msgstr "Маніла"
 
-#: data.cpp:457
+#: data.cpp:458
 msgid "Maputo"
 msgstr "Мапуто"
 
-#: data.cpp:458
+#: data.cpp:459
 msgid "Maseru"
 msgstr "Масеру"
 
-#: data.cpp:459
+#: data.cpp:460
 msgid "Mata-Utu"
 msgstr "Мата-Уту"
 
-#: data.cpp:460
+#: data.cpp:461
 msgid "Mbabane"
 msgstr "Мбабане"
 
-#: data.cpp:461
+#: data.cpp:462
 msgid "Mexico City"
 msgstr "Мехіко"
 
-#: data.cpp:462
+#: data.cpp:463
 msgid "Minsk"
 msgstr "Мінськ"
 
-#: data.cpp:463
+#: data.cpp:464
 msgid "Mogadishu"
 msgstr "Могадішо"
 
-#: data.cpp:464
+#: data.cpp:465
 msgid "Monaco"
 msgstr "Монако"
 
-#: data.cpp:465
+#: data.cpp:466
 msgid "Monrovia"
 msgstr "Монровія"
 
-#: data.cpp:466
+#: data.cpp:467
 msgid "Montevideo"
 msgstr "Монтевідео"
 
-#: data.cpp:467
+#: data.cpp:468
 msgid "Moroni"
 msgstr "Мороні"
 
-#: data.cpp:468
+#: data.cpp:469
 msgid "Moscow"
 msgstr "Москва"
 
-#: data.cpp:469
+#: data.cpp:470
 msgid "Muscat"
 msgstr "Маскат"
 
-#: data.cpp:470
+#: data.cpp:471
 msgid "Nairobi"
 msgstr "Найробі"
 
-#: data.cpp:471
+#: data.cpp:472
 msgid "Nassau"
 msgstr "Нассау"
 
-#: data.cpp:472
+#: data.cpp:473
 msgid "N'Djamena"
 msgstr "Нджамена"
 
-#: data.cpp:473
+#: data.cpp:474
 msgid "New Delhi"
 msgstr "Нью-Делі"
 
-#: data.cpp:474
+#: data.cpp:475
 msgid "Niamey"
 msgstr "Ніамей"
 
-#: data.cpp:475
+#: data.cpp:476
 msgid "Nicosia"
 msgstr "Нікосія"
 
-#: data.cpp:476
+#: data.cpp:477
 msgid "Nouakchott"
 msgstr "Нуакшот"
 
-#: data.cpp:477
+#: data.cpp:478
 msgid "Noumea"
 msgstr "Нумеа"
 
-#: data.cpp:478
+#: data.cpp:479
 msgid "Nuku'alofa"
 msgstr "Нукуалофа"
-
-#: data.cpp:479
-msgid "Nur-Sultan"
-msgstr ""
 
 #: data.cpp:480
 msgid "Nuuk"
@@ -4502,3 +4492,43 @@ msgstr "47 Тукана"
 #: data.cpp:1101
 msgid "Tonantzintla 2"
 msgstr "Тонанцинтла 2"
+
+#, fuzzy
+#~ msgid "Saturn LIV"
+#~ msgstr "Сатурн"
+
+#, fuzzy
+#~ msgid "Saturn LIX"
+#~ msgstr "Сатурн"
+
+#, fuzzy
+#~ msgid "Saturn LXI"
+#~ msgstr "Сатурн"
+
+#, fuzzy
+#~ msgid "Saturn LVII"
+#~ msgstr "Сатурн"
+
+#, fuzzy
+#~ msgid "Saturn LV"
+#~ msgstr "Сатурн"
+
+#, fuzzy
+#~ msgid "Saturn LXII"
+#~ msgstr "Сатурн"
+
+#, fuzzy
+#~ msgid "Saturn LXV"
+#~ msgstr "Сатурн"
+
+#, fuzzy
+#~ msgid "Saturn LVI"
+#~ msgstr "Сатурн"
+
+#, fuzzy
+#~ msgid "Saturn LXVI"
+#~ msgstr "Сатурн"
+
+#, fuzzy
+#~ msgid "Saturn LXIII"
+#~ msgstr "Сатурн"
