@@ -128,6 +128,14 @@ Type "City"
 }
 
 
+Location "Astana" "Sol/Earth"
+{
+LongLat [ 71.5 51.1666 0 ]
+Importance 132.33
+Type "City"
+}
+
+
 Location "Asuncion" "Sol/Earth"
 {
 LongLat [ -57.6666 -25.2666 0 ]
@@ -1180,14 +1188,6 @@ Location "Nuku'alofa" "Sol/Earth"
 {
 LongLat [ -175.2 -21.1333 0 ]
 Importance  46.10
-Type "City"
-}
-
-
-Location "Nur-Sultan" "Sol/Earth"
-{
-LongLat [ 71.5 51.1666 0 ]
-Importance 132.33
 Type "City"
 }
 
