@@ -1,10 +1,14 @@
 Debug/
 Release/
-.vs/
+/.vs
+/.vscode
 *~
 po*/*.gmo
 po*/POTFILES
 po*/stamp-po
-build
+/build
+/install
+/out
+/CelestiaContent-*.exe
 *.cpp
 .DS_Store
