@@ -1,6 +1,6 @@
 file(GLOB TEXTURES_SOURCES "*.jpg" "*.png")
 
-install(FILES ${TEXTURES_SOURCES} DESTINATION "${DATADIR}/textures")
+install(FILES ${TEXTURES_SOURCES} DESTINATION "${DATADIR}/textures" COMPONENT core)
 
 add_subdirectory(hires)
 add_subdirectory(medres)

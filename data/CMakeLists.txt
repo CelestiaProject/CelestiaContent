@@ -43,4 +43,4 @@ set(DATA_SOURCES
   world-capitals.ssc
 )
 
-install(FILES ${DATA_SOURCES} DESTINATION "${DATADIR}/data")
+install(FILES ${DATA_SOURCES} DESTINATION "${DATADIR}/data" COMPONENT core)
