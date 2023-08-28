@@ -2,4 +2,4 @@ set(WARP_SOURCES
   warp.map
 )
 
-install(FILES ${WARP_SOURCES} DESTINATION "${DATADIR}/warp")
+install(FILES ${WARP_SOURCES} DESTINATION "${DATADIR}/warp" COMPONENT core)

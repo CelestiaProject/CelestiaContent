@@ -10,6 +10,6 @@ macro(install_to_extras_subdir)
 
   foreach(file ${__sources})
     get_filename_component(dir ${file} DIRECTORY)
-    install(FILES ${file} DESTINATION "${__datadir}/extras-standard/${__subsubdir}/${dir}" )
+    install(FILES ${file} DESTINATION "${__datadir}/extras-standard/${__subsubdir}/${dir}" COMPONENT extras)
   endforeach()
 endmacro()

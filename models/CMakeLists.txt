@@ -1,3 +1,79 @@
-file(GLOB MODELS_SOURCES "*.3ds" "*.cmod" "*.cms" "*.png")
+set(MODELS_SOURCES
+  amalthea.cmod
+  arrokoth.cmod
+  asteroid.cms
+  atlas.cmod
+  bacchus.cmod
+  borrelly.cms
+  calypso.cmod
+  castalia.cmod
+  CMakeLists.txt
+  daphnis.cmod
+  deimos.cmod
+  E0.png
+  epimetheus.cmod
+  eros.cmod
+  gaspra.cmod
+  geographos.cmod
+  golevka.cmod
+  halley.cmod
+  helene.cmod
+  hydra.cmod
+  hyperion.cmod
+  ida.cmod
+  itokawa.cmod
+  janus.cmod
+  kleopatra.cmod
+  ky26.cmod
+  larissa.cmod
+  MilkyWay.png
+  mimas.cmod
+  pan.cmod
+  pandora.cmod
+  phobos.cmod
+  phoebe.cmod
+  prometheus.cmod
+  proteus.cmod
+  puck.cmod
+  roughsphere.cms
+  S0.png
+  Sa.png
+  Sb.png
+  SBa.png
+  SBb.png
+  SBc.png
+  Sc.png
+  telesto.cmod
+  thebe.cmod
+  toutatis.cmod
+  vesta.cmod
+)
 
-install(FILES ${MODELS_SOURCES} DESTINATION "${DATADIR}/models")
+set(MODELS_EXTRA_SOURCES
+  amalthea.3ds
+  bacchus.3ds
+  castalia.3ds
+  deimos.3ds
+  epimetheus.3ds
+  eros.3ds
+  gaspra.3ds
+  geographos.3ds
+  golevka.3ds
+  halley.3ds
+  hyperion.3ds
+  ida.3ds
+  janus.3ds
+  kleopatra.3ds
+  ky26.3ds
+  larissa.3ds
+  pandora.3ds
+  phobos.3ds
+  phoebe.3ds
+  prometheus.3ds
+  proteus.3ds
+  toutatis.3ds
+  vesta.3ds
+)
+
+install(FILES ${MODELS_SOURCES} DESTINATION "${DATADIR}/models" COMPONENT core)
+install(FILES ${MODELS_EXTRA_SOURCES} DESTINATION "${DATADIR}/models" COMPONENT models-extras EXCLUDE_FROM_ALL)

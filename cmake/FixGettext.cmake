@@ -27,7 +27,7 @@ macro(GETTEXT_CREATE_TRANSLATIONS2 _potFile _firstPoFileArg)
          DEPENDS ${_absPotFile} ${_absFile}
       )
 
-      install(FILES ${_gmoFile} DESTINATION ${CMAKE_INSTALL_LOCALEDIR}/${_lang}/LC_MESSAGES RENAME ${_potBasename}.mo)
+      install(FILES ${_gmoFile} DESTINATION ${CMAKE_INSTALL_LOCALEDIR}/${_lang}/LC_MESSAGES RENAME ${_potBasename}.mo COMPONENT core)
       set(_gmoFiles ${_gmoFiles} ${_gmoFile})
 
    endforeach ()
