@@ -7,7 +7,6 @@ set(MODELS_SOURCES
   borrelly.cms
   calypso.cmod
   castalia.cmod
-  CMakeLists.txt
   daphnis.cmod
   deimos.cmod
   E0.png
