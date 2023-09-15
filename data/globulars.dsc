@@ -2142,7 +2142,7 @@ Globular "NGC 6760:GCl 109:C 1908+009"
 	InfoURL "http://simbad.u-strasbg.fr/sim-id.pl?Ident=NGC 6760"
 }
 
-Globular "M 56:NGC 6779:GCl 110:C 1914+300"1
+Globular "M 56:NGC 6779:GCl 110:C 1914+300"
 {
 	RA 19.276546
 	Dec 30.18347
@@ -2250,7 +2250,7 @@ Globular "M 71:NGC 6838:GCl 115:C 1951+186"
 	InfoURL "http://simbad.u-strasbg.fr/sim-id.pl?Ident=M 71"
 }
 
-Globular "M 75:NGC 6864:GCl 116:C 2003-220"7.
+Globular "M 75:NGC 6864:GCl 116:C 2003-220"
 {
 	RA 20.101319
 	Dec -21.92116
@@ -2262,7 +2262,7 @@ Globular "M 75:NGC 6864:GCl 116:C 2003-220"7.
 	InfoURL "http://simbad.u-strasbg.fr/sim-id.pl?Ident=M 75"
 }
 
-Globular "NGC 6934:GCl 117:C 2031+072"3
+Globular "NGC 6934:GCl 117:C 2031+072"
 {
 	RA 20.569826
 	Dec 7.40447
