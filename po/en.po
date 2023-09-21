@@ -79,7 +79,7 @@ msgstr "The Lesser Dog"
 
 #: data.cpp:16
 msgid "Capricornus"
-msgstr "The Goat-Fish"
+msgstr "The Sea Goat"
 
 #: data.cpp:17
 msgid "Carina"
@@ -450,33 +450,28 @@ msgid "Titan"
 msgstr ""
 
 #: data.cpp:109
-#, fuzzy
 msgid "Hyperion"
-msgstr "The Hunter"
+msgstr ""
 
 #: data.cpp:110
-#, fuzzy
 msgid "Iapetus"
-msgstr "The Whale"
+msgstr ""
 
 #: data.cpp:111
-#, fuzzy
 msgid "Phoebe"
-msgstr "The Phoenix"
+msgstr ""
 
 #: data.cpp:112
-#, fuzzy
 msgid "Uranus"
-msgstr "The River"
+msgstr ""
 
 #: data.cpp:113
 msgid "Miranda"
 msgstr ""
 
 #: data.cpp:114
-#, fuzzy
 msgid "Ariel"
-msgstr "The Ram"
+msgstr ""
 
 #: data.cpp:115
 msgid "Umbriel"
@@ -815,9 +810,8 @@ msgid "Autonoe"
 msgstr ""
 
 #: data.cpp:200
-#, fuzzy
 msgid "Herse"
-msgstr "Perseus"
+msgstr ""
 
 #: data.cpp:201
 msgid "Pasiphae"
@@ -896,9 +890,8 @@ msgid "Epimetheus"
 msgstr ""
 
 #: data.cpp:220
-#, fuzzy
 msgid "Janus"
-msgstr "The River"
+msgstr ""
 
 #: data.cpp:221
 msgid "Aegaeon"
@@ -917,9 +910,8 @@ msgid "Pallene"
 msgstr ""
 
 #: data.cpp:225
-#, fuzzy
 msgid "Telesto"
-msgstr "The Telescope"
+msgstr ""
 
 #: data.cpp:226
 msgid "Calypso"
@@ -1158,9 +1150,8 @@ msgid "Thiazzi"
 msgstr ""
 
 #: data.cpp:285
-#, fuzzy
 msgid "Fornjot"
-msgstr "The Furnace"
+msgstr ""
 
 #: data.cpp:286
 msgid "Saturn LVIII"
@@ -1551,9 +1542,8 @@ msgid "Caracas"
 msgstr ""
 
 #: data.cpp:383
-#, fuzzy
 msgid "Castries"
-msgstr "The Ram"
+msgstr ""
 
 #: data.cpp:384
 msgid "Cayenne"
@@ -1896,9 +1886,8 @@ msgid "Moscow"
 msgstr ""
 
 #: data.cpp:470
-#, fuzzy
 msgid "Muscat"
-msgstr "The Fly"
+msgstr ""
 
 #: data.cpp:471
 msgid "Nairobi"
@@ -2245,9 +2234,8 @@ msgid "Vatican City"
 msgstr ""
 
 #: data.cpp:557
-#, fuzzy
 msgid "Victoria"
-msgstr "The Painter's Easel"
+msgstr ""
 
 #: data.cpp:558
 msgid "Vienna"
@@ -2454,9 +2442,8 @@ msgid "Mothallah"
 msgstr ""
 
 #: data.cpp:609
-#, fuzzy
 msgid "Caput Trianguli"
-msgstr "The Triangle"
+msgstr ""
 
 #: data.cpp:610
 msgid "Mesarthim"
@@ -2679,9 +2666,8 @@ msgid "Hoggar"
 msgstr ""
 
 #: data.cpp:665
-#, fuzzy
 msgid "Theemin"
-msgstr "The Twins"
+msgstr ""
 
 #: data.cpp:666
 msgid "Aldebaran"
@@ -2792,9 +2778,8 @@ msgid "Bubup"
 msgstr ""
 
 #: data.cpp:693
-#, fuzzy
 msgid "Tianguan"
-msgstr "The Triangle"
+msgstr ""
 
 #: data.cpp:694
 msgid "Phact"
@@ -2897,9 +2882,8 @@ msgid "Mebsuta"
 msgstr ""
 
 #: data.cpp:719
-#, fuzzy
 msgid "Sirius"
-msgstr "The Archer"
+msgstr ""
 
 #: data.cpp:720
 msgid "Alzirr"
@@ -3034,9 +3018,8 @@ msgid "Alsciaukat"
 msgstr ""
 
 #: data.cpp:753
-#, fuzzy
 msgid "Muscida"
-msgstr "The Fly"
+msgstr ""
 
 #: data.cpp:754
 msgid "Minchir"
@@ -3055,9 +3038,8 @@ msgid "Asellus Borealis"
 msgstr ""
 
 #: data.cpp:758
-#, fuzzy
 msgid "Asellus Australis"
-msgstr "Southern Crown"
+msgstr ""
 
 #: data.cpp:759
 msgid "Alsephina"
@@ -3084,18 +3066,16 @@ msgid "Talitha"
 msgstr ""
 
 #: data.cpp:765
-#, fuzzy
 msgid "Dnoces"
-msgstr "The Unicorn"
+msgstr ""
 
 #: data.cpp:766
 msgid "Alkaphrah"
 msgstr ""
 
 #: data.cpp:767
-#, fuzzy
 msgid "Talitha Australis"
-msgstr "Southern Crown"
+msgstr ""
 
 #: data.cpp:768
 msgid "Suhail"
@@ -3122,9 +3102,8 @@ msgid "Alphard"
 msgstr ""
 
 #: data.cpp:774
-#, fuzzy
 msgid "Cor Hydrae"
-msgstr "The Water Serpent"
+msgstr ""
 
 #: data.cpp:775
 msgid "Intercrus"
@@ -3151,9 +3130,8 @@ msgid "Subra"
 msgstr ""
 
 #: data.cpp:781
-#, fuzzy
 msgid "Ras Elased Australis"
-msgstr "Southern Crown"
+msgstr ""
 
 #: data.cpp:782
 msgid "Natasha"
@@ -3200,18 +3178,16 @@ msgid "Aldhafera"
 msgstr ""
 
 #: data.cpp:793
-#, fuzzy
 msgid "Tania Borealis"
-msgstr "Northern Crown"
+msgstr ""
 
 #: data.cpp:794
 msgid "Algieba"
 msgstr ""
 
 #: data.cpp:795
-#, fuzzy
 msgid "Tania Australis"
-msgstr "Southern Crown"
+msgstr ""
 
 #: data.cpp:796
 msgid "Macondo"
@@ -3278,14 +3254,12 @@ msgid "Hunahpú"
 msgstr ""
 
 #: data.cpp:812
-#, fuzzy
 msgid "Alula Australis"
-msgstr "Southern Crown"
+msgstr ""
 
 #: data.cpp:813
-#, fuzzy
 msgid "Alula Borealis"
-msgstr "Northern Crown"
+msgstr ""
 
 #: data.cpp:814
 msgid "Tsze Tseang"
@@ -3540,23 +3514,20 @@ msgid "Proxima"
 msgstr ""
 
 #: data.cpp:877
-#, fuzzy
 msgid "Seginus"
-msgstr "The Dolphin"
+msgstr ""
 
 #: data.cpp:878
-#, fuzzy
 msgid "Ceginus"
-msgstr "The Drafting Compass"
+msgstr ""
 
 #: data.cpp:879
 msgid "Toliman"
 msgstr ""
 
 #: data.cpp:880
-#, fuzzy
 msgid "Rigil Kentaurus"
-msgstr "The Centaur"
+msgstr ""
 
 #: data.cpp:881
 msgid "Izar"
@@ -3615,9 +3586,8 @@ msgid "Zubeneschamali"
 msgstr ""
 
 #: data.cpp:895
-#, fuzzy
 msgid "Pherkad Minor"
-msgstr "The Lesser Bear"
+msgstr ""
 
 #: data.cpp:896
 msgid "Nikawiy"
@@ -3812,18 +3782,16 @@ msgid "Ras Algethi"
 msgstr ""
 
 #: data.cpp:944
-#, fuzzy
 msgid "Sarin"
-msgstr "The Keel"
+msgstr ""
 
 #: data.cpp:945
 msgid "Guniibuu"
 msgstr ""
 
 #: data.cpp:946
-#, fuzzy
 msgid "Inquill"
-msgstr "The Eagle"
+msgstr ""
 
 #: data.cpp:947
 msgid "Rastaban"
@@ -3926,9 +3894,8 @@ msgid "Alasia"
 msgstr ""
 
 #: data.cpp:972
-#, fuzzy
 msgid "Kaus Australis"
-msgstr "Southern Crown"
+msgstr ""
 
 #: data.cpp:973
 msgid "Al Athfar"
@@ -3939,9 +3906,8 @@ msgid "Fafnir"
 msgstr ""
 
 #: data.cpp:975
-#, fuzzy
 msgid "Kaus Borealis"
-msgstr "Northern Crown"
+msgstr ""
 
 #: data.cpp:976
 msgid "Vega"
@@ -4084,9 +4050,8 @@ msgid "Atair"
 msgstr ""
 
 #: data.cpp:1011
-#, fuzzy
 msgid "Libertas"
-msgstr "The Lizard"
+msgstr ""
 
 #: data.cpp:1012
 msgid "Alshain"
@@ -4097,9 +4062,8 @@ msgid "Terebellum"
 msgstr ""
 
 #: data.cpp:1014
-#, fuzzy
 msgid "Phoenicia"
-msgstr "The Phoenix"
+msgstr ""
 
 #: data.cpp:1015
 msgid "Chechia"
@@ -4154,9 +4118,8 @@ msgid "Musica"
 msgstr ""
 
 #: data.cpp:1028
-#, fuzzy
 msgid "Polaris Australis"
-msgstr "Southern Crown"
+msgstr ""
 
 #: data.cpp:1029
 msgid "Solaris"
@@ -4403,28 +4366,24 @@ msgid "Leo A"
 msgstr ""
 
 #: data.cpp:1090
-#, fuzzy
 msgid "Sextans B"
-msgstr "The Sextant"
+msgstr ""
 
 #: data.cpp:1091
 msgid "Leo I"
 msgstr ""
 
 #: data.cpp:1092
-#, fuzzy
 msgid "Sextans A"
-msgstr "The Sextant"
+msgstr ""
 
 #: data.cpp:1094
-#, fuzzy
 msgid "Andromeda Galaxy"
-msgstr "Andromeda"
+msgstr ""
 
 #: data.cpp:1095
-#, fuzzy
 msgid "Triangulum Galaxy"
-msgstr "The Triangle"
+msgstr ""
 
 #: data.cpp:1096
 msgid "Holmberg VI"
