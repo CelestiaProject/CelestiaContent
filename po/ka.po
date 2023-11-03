@@ -1,0 +1,4442 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Celestia Development Team
+# This file is distributed under the same license as the celestia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: celestia 1.7.0\n"
+"Report-Msgid-Bugs-To: team@celestiaproject.space\n"
+"POT-Creation-Date: 2023-07-27 10:41+0300\n"
+"PO-Revision-Date: 2023-11-03 13:47+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023\n"
+"Language-Team: Georgian (https://app.transifex.com/celestia/teams/93131/"
+"ka/)\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: data.cpp:1
+msgid "Andromeda"
+msgstr "ანდრომედა"
+
+#: data.cpp:2
+msgid "Antlia"
+msgstr "ტუმბო"
+
+#: data.cpp:3
+msgid "Apus"
+msgstr "სამოთხის ჩიტი"
+
+#: data.cpp:4
+msgid "Aquarius"
+msgstr "მერწყული"
+
+#: data.cpp:5
+msgid "Aquila"
+msgstr "არწივი"
+
+#: data.cpp:6
+msgid "Ara"
+msgstr "არრაჰი"
+
+#: data.cpp:7
+msgid "Aries"
+msgstr "ვერძი"
+
+#: data.cpp:8
+msgid "Auriga"
+msgstr "მეეტლე"
+
+#: data.cpp:9
+msgid "Boötes"
+msgstr "მენახირე"
+
+#: data.cpp:10
+msgid "Caelum"
+msgstr "საჭრისი"
+
+#: data.cpp:11
+msgid "Camelopardalis"
+msgstr "ჟირაფი"
+
+#: data.cpp:12
+msgid "Cancer"
+msgstr "კიბო"
+
+#: data.cpp:13
+msgid "Canes Venatici"
+msgstr "მეძებარი ძაღლები"
+
+#: data.cpp:14
+msgid "Canis Major"
+msgstr "დიდი ქოფაკი"
+
+#: data.cpp:15
+msgid "Canis Minor"
+msgstr "პატარა ქოფაკი"
+
+#: data.cpp:16
+msgid "Capricornus"
+msgstr "თხის რქა"
+
+#: data.cpp:17
+msgid "Carina"
+msgstr "გემის ხერხემალი"
+
+#: data.cpp:18
+msgid "Cassiopeia"
+msgstr "კასიოპეა"
+
+#: data.cpp:19
+msgid "Centaurus"
+msgstr "კენტავრი"
+
+#: data.cpp:20
+msgid "Cepheus"
+msgstr "ცეფევსი"
+
+#: data.cpp:21
+msgid "Cetus"
+msgstr "ვეშაპი"
+
+#: data.cpp:22
+msgid "Chamaeleon"
+msgstr "ქამელეონი"
+
+#: data.cpp:23 data.cpp:1093
+msgid "Circinus"
+msgstr "ფარგალი"
+
+#: data.cpp:24
+msgid "Columba"
+msgstr "მტრედის"
+
+#: data.cpp:25
+msgid "Coma Berenices"
+msgstr "ბერენიკეს თმები"
+
+#: data.cpp:26
+msgid "Corona Australis"
+msgstr "სამხრეთის გვირგვინი"
+
+#: data.cpp:27
+msgid "Corona Borealis"
+msgstr "ჩრდილოეთის გვირგვინი"
+
+#: data.cpp:28
+msgid "Corvus"
+msgstr "ყორნის"
+
+#: data.cpp:29
+msgid "Crater"
+msgstr "ფიალის"
+
+#: data.cpp:30
+msgid "Crux"
+msgstr "ჯვრის"
+
+#: data.cpp:31
+msgid "Cygnus"
+msgstr "გედი"
+
+#: data.cpp:32
+msgid "Delphinus"
+msgstr "დელფინი"
+
+#: data.cpp:33
+msgid "Dorado"
+msgstr "დორადო"
+
+#: data.cpp:34
+msgid "Draco"
+msgstr "გველეშაპი"
+
+#: data.cpp:35
+msgid "Equuleus"
+msgstr "კვიცი"
+
+#: data.cpp:36 data.cpp:1099
+msgid "Eridanus"
+msgstr "ერიდანუსი"
+
+#: data.cpp:37
+msgid "Fornax"
+msgstr "ღუმელის"
+
+#: data.cpp:38
+msgid "Gemini"
+msgstr "მარჩბივი"
+
+#: data.cpp:39
+msgid "Grus"
+msgstr "წერო"
+
+#: data.cpp:40
+msgid "Hercules"
+msgstr "ჰერკულესი"
+
+#: data.cpp:41
+msgid "Horologium"
+msgstr "საათი"
+
+#: data.cpp:42 data.cpp:128
+msgid "Hydra"
+msgstr "ჰიდრა"
+
+#: data.cpp:43
+msgid "Hydrus"
+msgstr "სამხრეთი ჰიდრა"
+
+#: data.cpp:44
+msgid "Indus"
+msgstr "ინდი"
+
+#: data.cpp:45
+msgid "Lacerta"
+msgstr "ხვლიკი"
+
+#: data.cpp:46
+msgid "Leo"
+msgstr "ლომი"
+
+#: data.cpp:47
+msgid "Leo Minor"
+msgstr "პატარა ლომი"
+
+#: data.cpp:48
+msgid "Lepus"
+msgstr "კურდღელი"
+
+#: data.cpp:49
+msgid "Libra"
+msgstr "სასწორი"
+
+#: data.cpp:50
+msgid "Lupus"
+msgstr "მგელი"
+
+#: data.cpp:51
+msgid "Lynx"
+msgstr "ფოცხვერი"
+
+#: data.cpp:52
+msgid "Lyra"
+msgstr "ქნარი"
+
+#: data.cpp:53
+msgid "Mensa"
+msgstr "მაგიდა მთა"
+
+#: data.cpp:54
+msgid "Microscopium"
+msgstr "მიკროსკოპი"
+
+#: data.cpp:55
+msgid "Monoceros"
+msgstr "მარტორქა"
+
+#: data.cpp:56
+msgid "Musca"
+msgstr "ბუზი"
+
+#: data.cpp:57
+msgid "Norma"
+msgstr "გონიო"
+
+#: data.cpp:58
+msgid "Octans"
+msgstr "ოქტანტი"
+
+#: data.cpp:59
+msgid "Ophiuchus"
+msgstr "გველისმჭერი"
+
+#: data.cpp:60
+msgid "Orion"
+msgstr "ორიონი"
+
+#: data.cpp:61
+msgid "Pavo"
+msgstr "ფარშევანგი"
+
+#: data.cpp:62
+msgid "Pegasus"
+msgstr "პეგასი"
+
+#: data.cpp:63
+msgid "Perseus"
+msgstr "პერსევსი"
+
+#: data.cpp:64
+msgid "Phoenix"
+msgstr "ფენიქსი"
+
+#: data.cpp:65
+msgid "Pictor"
+msgstr "მხატვარი"
+
+#: data.cpp:66
+msgid "Pisces"
+msgstr "თევზები"
+
+#: data.cpp:67
+msgid "Piscis Austrinus"
+msgstr "სამხრეთი თევზი"
+
+#: data.cpp:68
+msgid "Puppis"
+msgstr "კიჩო"
+
+#: data.cpp:69 data.cpp:1100
+msgid "Pyxis"
+msgstr "კომპასი"
+
+#: data.cpp:70
+msgid "Reticulum"
+msgstr "ბადურა"
+
+#: data.cpp:71
+msgid "Sagitta"
+msgstr "ისარი"
+
+#: data.cpp:72
+msgid "Sagittarius"
+msgstr "მშვილდოსანი"
+
+#: data.cpp:73
+msgid "Scorpius"
+msgstr "ღრიანკალი"
+
+#: data.cpp:74
+msgid "Sculptor"
+msgstr "მოქანდაკე"
+
+#: data.cpp:75
+msgid "Scutum"
+msgstr "ფარი"
+
+#: data.cpp:76
+msgid "Serpens Caput"
+msgstr "გველი"
+
+#: data.cpp:77
+msgid "Serpens Cauda"
+msgstr "გველი"
+
+#: data.cpp:78
+msgid "Sextans"
+msgstr "სექსტანტი"
+
+#: data.cpp:79
+msgid "Taurus"
+msgstr "კურო"
+
+#: data.cpp:80
+msgid "Telescopium"
+msgstr "ტელესკოპი"
+
+#: data.cpp:81
+msgid "Triangulum"
+msgstr "სამკუთხედი"
+
+#: data.cpp:82
+msgid "Triangulum Australe"
+msgstr "სამხრეთი სამკუთხედი"
+
+#: data.cpp:83
+msgid "Tucana"
+msgstr "ტუკანა"
+
+#: data.cpp:84
+msgid "Ursa Major"
+msgstr "დიდი დათვი"
+
+#: data.cpp:85
+msgid "Ursa Minor"
+msgstr "პატარა დათვი"
+
+#: data.cpp:86
+msgid "Vela"
+msgstr "იალქანი"
+
+#: data.cpp:87
+msgid "Virgo"
+msgstr "ქალწული"
+
+#: data.cpp:88
+msgid "Volans"
+msgstr "მფრინავი თევზი"
+
+#: data.cpp:89
+msgid "Vulpecula"
+msgstr "მელია"
+
+#: data.cpp:90
+msgid "Mercury"
+msgstr "მერკური"
+
+#: data.cpp:91
+msgid "Venus"
+msgstr "ვენერა"
+
+#: data.cpp:92
+msgid "Earth"
+msgstr "დედამიწა"
+
+#: data.cpp:93
+msgid "Moon"
+msgstr "მთვარის"
+
+#: data.cpp:94
+msgid "Mars"
+msgstr "მარსი"
+
+#: data.cpp:95
+msgid "Phobos"
+msgstr "ფობოსი"
+
+#: data.cpp:96
+msgid "Deimos"
+msgstr "დეიმოსი"
+
+#: data.cpp:97
+msgid "Jupiter"
+msgstr "იუპიტერი"
+
+#: data.cpp:98
+msgid "Io"
+msgstr "იო"
+
+#: data.cpp:99
+msgid "Europa"
+msgstr "ევროპა"
+
+#: data.cpp:100
+msgid "Ganymede"
+msgstr "განიმედი"
+
+#: data.cpp:101
+msgid "Callisto"
+msgstr "კალისტო"
+
+#: data.cpp:102
+msgid "Saturn"
+msgstr "სატურნი"
+
+#: data.cpp:103
+msgid "Mimas"
+msgstr "მიმასი"
+
+#: data.cpp:104
+msgid "Enceladus"
+msgstr "ენცელადი"
+
+#: data.cpp:105
+msgid "Tethys"
+msgstr "ტეტისი"
+
+#: data.cpp:106
+msgid "Dione"
+msgstr "დიონი"
+
+#: data.cpp:107
+msgid "Rhea"
+msgstr "რეა"
+
+#: data.cpp:108
+msgid "Titan"
+msgstr "ტიტანი"
+
+#: data.cpp:109
+msgid "Hyperion"
+msgstr "ჰიპერიონი"
+
+#: data.cpp:110
+msgid "Iapetus"
+msgstr "იაპეტუსი"
+
+#: data.cpp:111
+msgid "Phoebe"
+msgstr "ფებე"
+
+#: data.cpp:112
+msgid "Uranus"
+msgstr "ურანი"
+
+#: data.cpp:113
+msgid "Miranda"
+msgstr "მირანდა"
+
+#: data.cpp:114
+msgid "Ariel"
+msgstr "არიელი"
+
+#: data.cpp:115
+msgid "Umbriel"
+msgstr "უმბრიელი"
+
+#: data.cpp:116
+msgid "Titania"
+msgstr "ტიტანია"
+
+#: data.cpp:117
+msgid "Oberon"
+msgstr "ობერონი"
+
+#: data.cpp:118
+msgid "Neptune"
+msgstr "ნეპტუნი"
+
+#: data.cpp:119
+msgid "Proteus"
+msgstr "პროთეუსი"
+
+#: data.cpp:120
+msgid "Triton"
+msgstr "ტრიტონი"
+
+#: data.cpp:121
+msgid "Nereid"
+msgstr "ნერეიდა"
+
+#: data.cpp:122
+msgid "Pluto-Charon"
+msgstr "პლუტონი-ქარონი"
+
+#: data.cpp:123
+msgid "Pluto"
+msgstr "პლუტონი"
+
+#: data.cpp:124
+msgid "Charon"
+msgstr "ქარონი"
+
+#: data.cpp:125
+msgid "Styx"
+msgstr "სტიქსი"
+
+#: data.cpp:126
+msgid "Nix"
+msgstr "ქალთევზა"
+
+#: data.cpp:127
+msgid "Kerberos"
+msgstr "Kerberos"
+
+#: data.cpp:129
+msgid "Ceres"
+msgstr "ცერერა"
+
+#: data.cpp:130
+msgid "Haumea"
+msgstr "Haumea"
+
+#: data.cpp:131
+msgid "Namaka"
+msgstr "ნამაკა"
+
+#: data.cpp:132
+msgid "Hi'iaka"
+msgstr "ჰიიაკა"
+
+#: data.cpp:133
+msgid "Makemake"
+msgstr "მაკემაკე"
+
+#: data.cpp:134
+msgid "S 2015 (136472) 1"
+msgstr "S 2015 (136472) 1"
+
+#: data.cpp:135
+msgid "Eris"
+msgstr "ერისი"
+
+#: data.cpp:136
+msgid "Dysnomia"
+msgstr "დისნომია"
+
+#: data.cpp:137
+msgid "Metis"
+msgstr "მეტისი"
+
+#: data.cpp:138
+msgid "Adrastea"
+msgstr "ადრასთეა"
+
+#: data.cpp:139
+msgid "Amalthea"
+msgstr "ამალთეა"
+
+#: data.cpp:140
+msgid "Thebe"
+msgstr "თებე"
+
+#: data.cpp:141
+msgid "Themisto"
+msgstr "თემისტო"
+
+#: data.cpp:142
+msgid "Leda"
+msgstr "ლედა"
+
+#: data.cpp:143
+msgid "Ersa"
+msgstr "ერსა"
+
+#: data.cpp:144
+msgid "Pandia"
+msgstr "პანდია"
+
+#: data.cpp:145
+msgid "Himalia"
+msgstr "ჰიმალია"
+
+#: data.cpp:146
+msgid "Lysithea"
+msgstr "ლისითეა"
+
+#: data.cpp:147
+msgid "Elara"
+msgstr "ელარა"
+
+#: data.cpp:148
+msgid "Dia"
+msgstr "დია"
+
+#: data.cpp:149
+msgid "Carpo"
+msgstr "ქარპო"
+
+#: data.cpp:150
+msgid "Valetudo"
+msgstr "ვალეტუდო"
+
+#: data.cpp:151
+msgid "Euporie"
+msgstr "ევპორიე"
+
+#: data.cpp:152
+msgid "Jupiter LV"
+msgstr "იუპიტერი LV"
+
+#: data.cpp:153
+msgid "Eupheme"
+msgstr "ეუფემე"
+
+#: data.cpp:154
+msgid "S 2003 J 16"
+msgstr "S 2003 J 16"
+
+#: data.cpp:155
+msgid "Jupiter LXVIII"
+msgstr "იუპიტერი LXVIII"
+
+#: data.cpp:156
+msgid "Ananke"
+msgstr "ანანკე"
+
+#: data.cpp:157
+msgid "Harpalyke"
+msgstr "ჰარპალიკე"
+
+#: data.cpp:158
+msgid "S 2003 J 12"
+msgstr "S 2003 J 12"
+
+#: data.cpp:159
+msgid "Jupiter LII"
+msgstr "იუპიტერი LII"
+
+#: data.cpp:160
+msgid "Praxidike"
+msgstr "პრაქსიდიკე"
+
+#: data.cpp:161
+msgid "S 2003 J 2"
+msgstr "S 2003 J 2"
+
+#: data.cpp:162
+msgid "Euanthe"
+msgstr "ეუანთე"
+
+#: data.cpp:163
+msgid "Orthosie"
+msgstr "ორთოსიე"
+
+#: data.cpp:164
+msgid "Jupiter LXIV"
+msgstr "იუპიტერი LXIV"
+
+#: data.cpp:165
+msgid "Iocaste"
+msgstr "ლოკასტე"
+
+#: data.cpp:166
+msgid "Mneme"
+msgstr "მნემე"
+
+#: data.cpp:167
+msgid "Thyone"
+msgstr "თიონე"
+
+#: data.cpp:168
+msgid "Jupiter LIV"
+msgstr "იუპიტერი LIV"
+
+#: data.cpp:169
+msgid "Thelxinoe"
+msgstr "თელქსინოე"
+
+#: data.cpp:170
+msgid "Helike"
+msgstr "ჰელიკე"
+
+#: data.cpp:171
+msgid "Hermippe"
+msgstr "ჰერმიპე"
+
+#: data.cpp:172
+msgid "Philophrosyne"
+msgstr "ფილოფროსინე"
+
+#: data.cpp:173
+msgid "Jupiter LVI"
+msgstr "იუპიტერი LVI"
+
+#: data.cpp:174
+msgid "Kallichore"
+msgstr "კალიხორე"
+
+#: data.cpp:175
+msgid "Chaldene"
+msgstr "ჩალდენე"
+
+#: data.cpp:176
+msgid "Arche"
+msgstr "არჩე"
+
+#: data.cpp:177
+msgid "Jupiter LXIX"
+msgstr "იუპიტერი LXIX"
+
+#: data.cpp:178
+msgid "Kale"
+msgstr "ხუჭუჭა კომბოსტო"
+
+#: data.cpp:179
+msgid "Jupiter LXXII"
+msgstr "იუპიტერი LXII"
+
+#: data.cpp:180
+msgid "Jupiter LXI"
+msgstr "იუპიტერი LXI"
+
+#: data.cpp:181
+msgid "Cyllene"
+msgstr "ქილენე"
+
+#: data.cpp:182
+msgid "Taygete"
+msgstr "ტაიგეტე"
+
+#: data.cpp:183
+msgid "Jupiter LXX"
+msgstr "იუპიტერი LXX"
+
+#: data.cpp:184
+msgid "Eurydome"
+msgstr "ეურიდომე"
+
+#: data.cpp:185
+msgid "Jupiter LI"
+msgstr "იუპიტერი LI"
+
+#: data.cpp:186
+msgid "S 2003 J 9"
+msgstr "S 2003 J 9"
+
+#: data.cpp:187
+msgid "Jupiter LXVII"
+msgstr "იუპიტერი LXVII"
+
+#: data.cpp:188
+msgid "Aitne"
+msgstr "აიტნე"
+
+#: data.cpp:189
+msgid "Carme"
+msgstr "ქარმე"
+
+#: data.cpp:190
+msgid "Callirrhoe"
+msgstr "კალიროე"
+
+#: data.cpp:191
+msgid "Erinome"
+msgstr "ერინომე"
+
+#: data.cpp:192
+msgid "Pasithee"
+msgstr "პასითეე"
+
+#: data.cpp:193
+msgid "Eirene"
+msgstr "ეირენე"
+
+#: data.cpp:194
+msgid "S 2003 J 24"
+msgstr "S 2003 J 24"
+
+#: data.cpp:195
+msgid "Sinope"
+msgstr "სინოპე"
+
+#: data.cpp:196
+msgid "Eukelade"
+msgstr "ეუკელადე"
+
+#: data.cpp:197
+msgid "Isonoe"
+msgstr "ისონოე"
+
+#: data.cpp:198
+msgid "S 2003 J 4"
+msgstr "S 2003 J 4"
+
+#: data.cpp:199
+msgid "Autonoe"
+msgstr "აუტონოე"
+
+#: data.cpp:200
+msgid "Herse"
+msgstr "ჰერსე"
+
+#: data.cpp:201
+msgid "Pasiphae"
+msgstr "პესიფაე"
+
+#: data.cpp:202
+msgid "S 2003 J 10"
+msgstr "S 2003 J 10"
+
+#: data.cpp:203
+msgid "Kore"
+msgstr "კორე"
+
+#: data.cpp:204
+msgid "Jupiter LXIII"
+msgstr "იუპიტერი LXIII"
+
+#: data.cpp:205
+msgid "Hegemone"
+msgstr "ჰეგემონე"
+
+#: data.cpp:206
+msgid "Sponde"
+msgstr "სპონდე"
+
+#: data.cpp:207
+msgid "Kalyke"
+msgstr "კალიკე"
+
+#: data.cpp:208
+msgid "Aoede"
+msgstr "აოედე"
+
+#: data.cpp:209
+msgid "Megaclite"
+msgstr "მეგაქლიტე"
+
+#: data.cpp:210
+msgid "S 2003 J 23"
+msgstr "S 2003 J 23"
+
+#: data.cpp:211
+msgid "Jupiter LXVI"
+msgstr "იუპიტერი LXVI"
+
+#: data.cpp:212
+msgid "Jupiter LIX"
+msgstr "იუპიტერი LIX"
+
+#: data.cpp:213
+msgid "S 2009 S 1"
+msgstr "S 2009 S 1"
+
+#: data.cpp:214
+msgid "Pan"
+msgstr "Pan"
+
+#: data.cpp:215
+msgid "Daphnis"
+msgstr "დაფნისი"
+
+#: data.cpp:216
+msgid "Atlas"
+msgstr "ატლასი"
+
+#: data.cpp:217
+msgid "Prometheus"
+msgstr "Prometheus"
+
+#: data.cpp:218
+msgid "Pandora"
+msgstr "პანდორა"
+
+#: data.cpp:219
+msgid "Epimetheus"
+msgstr "ეპიმეთეუსი"
+
+#: data.cpp:220
+msgid "Janus"
+msgstr "იანუსი"
+
+#: data.cpp:221
+msgid "Aegaeon"
+msgstr "ეგეონი"
+
+#: data.cpp:222
+msgid "Methone"
+msgstr "მეთონი"
+
+#: data.cpp:223
+msgid "Anthe"
+msgstr "ანთე"
+
+#: data.cpp:224
+msgid "Pallene"
+msgstr "პალენი"
+
+#: data.cpp:225
+msgid "Telesto"
+msgstr "ტელესტო"
+
+#: data.cpp:226
+msgid "Calypso"
+msgstr "კალიფსო"
+
+#: data.cpp:227
+msgid "Polydeuces"
+msgstr "სატურნი XXXIV"
+
+#: data.cpp:228
+msgid "Helene"
+msgstr "ჰელენე"
+
+#: data.cpp:229
+msgid "S 2019 S 1"
+msgstr "S 2019 S 1"
+
+#: data.cpp:230
+msgid "Kiviuq"
+msgstr "კივიუქი"
+
+#: data.cpp:231
+msgid "Ijiraq"
+msgstr "იჯირაქი"
+
+#: data.cpp:232
+msgid "Paaliaq"
+msgstr "პაალიაქი"
+
+#: data.cpp:233
+msgid "Skathi"
+msgstr "სკათი"
+
+#: data.cpp:234
+msgid "S 2004 S 37"
+msgstr "S 2004 S 37"
+
+#: data.cpp:235
+msgid "S 2007 S 2"
+msgstr "S 2007 S 2"
+
+#: data.cpp:236
+msgid "Albiorix"
+msgstr "ალბიორიქსი"
+
+#: data.cpp:237
+msgid "Bebhionn"
+msgstr "ბებჰიონი"
+
+#: data.cpp:238
+msgid "S 2004 S 31"
+msgstr "S 2004 S 31"
+
+#: data.cpp:239
+msgid "Saturn LX"
+msgstr "სატურნი LX"
+
+#: data.cpp:240
+msgid "Skoll"
+msgstr "სკოლი"
+
+#: data.cpp:241
+msgid "Tarqeq"
+msgstr "ტარქექი"
+
+#: data.cpp:242
+msgid "Tarvos"
+msgstr "ტარვოსი"
+
+#: data.cpp:243
+msgid "Erriapus"
+msgstr "ერიაპუსი"
+
+#: data.cpp:244
+msgid "Siarnaq"
+msgstr "სიარნაქი"
+
+#: data.cpp:245
+msgid "Greip"
+msgstr "გრეიპი"
+
+#: data.cpp:246
+msgid "Hyrrokkin"
+msgstr "ჰიროკინი"
+
+#: data.cpp:247
+msgid "Mundilfari"
+msgstr "მუნდილფარი"
+
+#: data.cpp:248
+msgid "S 2006 S 1"
+msgstr "S 2006 S 1"
+
+#: data.cpp:249
+msgid "S 2004 S 13"
+msgstr "S 2004 S 13"
+
+#: data.cpp:250
+msgid "S 2007 S 3"
+msgstr "S 2007 S 3"
+
+#: data.cpp:251
+msgid "Suttungr"
+msgstr "სუტუნგრი"
+
+#: data.cpp:252
+msgid "Gridr"
+msgstr ""
+
+#: data.cpp:253
+msgid "Narvi"
+msgstr "ნარვი"
+
+#: data.cpp:254
+msgid "Jarnsaxa"
+msgstr "იარნსაქსა"
+
+#: data.cpp:255
+msgid "S 2004 S 12"
+msgstr "S 2004 S 12"
+
+#: data.cpp:256
+msgid "Bergelmir"
+msgstr "ბერგელმირი"
+
+#: data.cpp:257
+msgid "Eggther"
+msgstr ""
+
+#: data.cpp:258
+msgid "S 2004 S 17"
+msgstr "S 2004 S 17"
+
+#: data.cpp:259
+msgid "Hati"
+msgstr "ჰატი"
+
+#: data.cpp:260
+msgid "Farbauti"
+msgstr "ფარბაუტი"
+
+#: data.cpp:261
+msgid "Thrymr"
+msgstr "თრიმრი"
+
+#: data.cpp:262
+msgid "S 2004 S 7"
+msgstr "S 2004 S 7"
+
+#: data.cpp:263
+#, fuzzy
+#| msgid "Belinda"
+msgid "Beli"
+msgstr "ბელინდა"
+
+#: data.cpp:264
+msgid "Bestla"
+msgstr "ბესტლა"
+
+#: data.cpp:265
+msgid "Gerd"
+msgstr ""
+
+#: data.cpp:266
+msgid "Angrboda"
+msgstr ""
+
+#: data.cpp:267
+msgid "Gunnlod"
+msgstr ""
+
+#: data.cpp:268
+msgid "Aegir"
+msgstr "აეგირი"
+
+#: data.cpp:269
+msgid "S 2006 S 3"
+msgstr "S 2006 S 3"
+
+#: data.cpp:270
+msgid "Alvaldi"
+msgstr ""
+
+#: data.cpp:271
+msgid "Kari"
+msgstr "კარი"
+
+#: data.cpp:272
+msgid "Skrymir"
+msgstr ""
+
+#: data.cpp:273
+msgid "S 2004 S 28"
+msgstr "S 2004 S 28"
+
+#: data.cpp:274
+msgid "Fenrir"
+msgstr "ფერნირი"
+
+#: data.cpp:275
+msgid "Loge"
+msgstr "ლოგე"
+
+#: data.cpp:276
+msgid "S 2004 S 21"
+msgstr "S 2004 S 21"
+
+#: data.cpp:277
+msgid "Geirrod"
+msgstr ""
+
+#: data.cpp:278
+msgid "S 2004 S 24"
+msgstr "S 2004 S 24"
+
+#: data.cpp:279
+msgid "S 2004 S 36"
+msgstr "S 2004 S 36"
+
+#: data.cpp:280
+msgid "Ymir"
+msgstr "იმირი"
+
+#: data.cpp:281
+msgid "Surtur"
+msgstr "სურტური"
+
+#: data.cpp:282
+msgid "S 2004 S 39"
+msgstr "S 2004 S 39"
+
+#: data.cpp:283
+msgid "Saturn LXIV"
+msgstr "სატურნი LXIV"
+
+#: data.cpp:284
+msgid "Thiazzi"
+msgstr ""
+
+#: data.cpp:285
+msgid "Fornjot"
+msgstr "ფორნიოტი"
+
+#: data.cpp:286
+msgid "Saturn LVIII"
+msgstr "სატურნი LVIII"
+
+#: data.cpp:287
+msgid "Cordelia"
+msgstr "ქორდელია"
+
+#: data.cpp:288
+msgid "Ophelia"
+msgstr "ოფელია"
+
+#: data.cpp:289
+msgid "Bianca"
+msgstr "ბიანკა"
+
+#: data.cpp:290
+msgid "Cressida"
+msgstr "კრესიდა"
+
+#: data.cpp:291
+msgid "Desdemona"
+msgstr "დეზდემონა"
+
+#: data.cpp:292
+msgid "Juliet"
+msgstr "ჯულიეტა"
+
+#: data.cpp:293
+msgid "Portia"
+msgstr "პორტია"
+
+#: data.cpp:294
+msgid "Rosalind"
+msgstr "როსალინდი"
+
+#: data.cpp:295
+msgid "Cupid"
+msgstr "კუპიდი"
+
+#: data.cpp:296
+msgid "Belinda"
+msgstr "ბელინდა"
+
+#: data.cpp:297
+msgid "Perdita"
+msgstr "პერდიტა"
+
+#: data.cpp:298
+msgid "Puck"
+msgstr "პაქი"
+
+#: data.cpp:299
+msgid "Mab"
+msgstr "მაბი"
+
+#: data.cpp:300
+msgid "Francisco"
+msgstr "ფრანცისკო"
+
+#: data.cpp:301
+msgid "Caliban"
+msgstr "ქალიფანი"
+
+#: data.cpp:302
+msgid "Stephano"
+msgstr "სტეფანო"
+
+#: data.cpp:303
+msgid "Trinculo"
+msgstr "ტრინკულო"
+
+#: data.cpp:304
+msgid "Sycorax"
+msgstr "სიკორაქსი"
+
+#: data.cpp:305
+msgid "Margaret"
+msgstr "მარგარეტი"
+
+#: data.cpp:306
+msgid "Prospero"
+msgstr "პროსპერო"
+
+#: data.cpp:307
+msgid "Setebos"
+msgstr "სეტებოსი"
+
+#: data.cpp:308
+msgid "Ferdinand"
+msgstr "ფერდნანდი"
+
+#: data.cpp:309
+msgid "Naiad"
+msgstr "ნაიადი"
+
+#: data.cpp:310
+msgid "Thalassa"
+msgstr "თალასა"
+
+#: data.cpp:311
+msgid "Despina"
+msgstr "დესპინა"
+
+#: data.cpp:312
+msgid "Galatea"
+msgstr "გალათეა"
+
+#: data.cpp:313
+msgid "Larissa"
+msgstr "ლარისა"
+
+#: data.cpp:314
+msgid "Hippocamp"
+msgstr "ჰიპოკამპუსი"
+
+#: data.cpp:315
+msgid "Halimede"
+msgstr "ჰალიმედე"
+
+#: data.cpp:316
+msgid "Sao"
+msgstr "საო"
+
+#: data.cpp:317
+msgid "Laomedeia"
+msgstr "ლაომედეა"
+
+#: data.cpp:318
+msgid "Psamathe"
+msgstr "ფსამათე"
+
+#: data.cpp:319
+msgid "Neso"
+msgstr "ნესო"
+
+#: data.cpp:320
+msgid "NORTH AMERICA"
+msgstr "ჩრდილოეთ ამერიკა"
+
+#: data.cpp:321
+msgid "SOUTH AMERICA"
+msgstr "სამხრეთ ამერიკა"
+
+#: data.cpp:322
+msgid "EURASIA"
+msgstr "ევრაზია"
+
+#: data.cpp:323
+msgid "AFRICA"
+msgstr "აფრიკა"
+
+#: data.cpp:324
+msgid "AUSTRALIA"
+msgstr "ავსტრალია"
+
+#: data.cpp:325
+msgid "ANTARCTICA"
+msgstr "ანტარქტიკა"
+
+#: data.cpp:326
+msgid "NORTH ATLANTIC OCEAN"
+msgstr "ჩრდილო-ატლანტიკის ოკეანე"
+
+#: data.cpp:327
+msgid "SOUTH ATLANTIC OCEAN"
+msgstr "სამხრეთ-ატლანტიკის ოკეანე"
+
+#: data.cpp:328
+msgid "NORTH PACIFIC OCEAN"
+msgstr "ჩრდილო-წყნარი ოკეანე"
+
+#: data.cpp:329
+msgid "SOUTH PACIFIC OCEAN"
+msgstr "სამხრეთ-წყნარი ოკეანე"
+
+#: data.cpp:330
+msgid "INDIAN OCEAN"
+msgstr "ინდოეთის ოკეანე"
+
+#: data.cpp:331
+msgid "ARCTIC OCEAN"
+msgstr "არქტიკული ოკეანე"
+
+#: data.cpp:332
+msgid "Abu Dhabi"
+msgstr "აბუ დაბი"
+
+#: data.cpp:333
+msgid "Abuja"
+msgstr "აბუჯა"
+
+#: data.cpp:334
+msgid "Accra"
+msgstr "აკრა"
+
+#: data.cpp:335
+msgid "Adamstown"
+msgstr "ადამსტაუნი"
+
+#: data.cpp:336
+msgid "Addis Ababa"
+msgstr "ადის აბება"
+
+#: data.cpp:337
+msgid "Algiers"
+msgstr "ალჟირი"
+
+#: data.cpp:338
+msgid "Alofi"
+msgstr "ალოფი"
+
+#: data.cpp:339
+msgid "Amman"
+msgstr "ამანი"
+
+#: data.cpp:340
+msgid "Amsterdam"
+msgstr "ამსტერდამი"
+
+#: data.cpp:341
+msgid "Andorra la Vella"
+msgstr "ანდორა ლა ველა"
+
+#: data.cpp:342
+msgid "Ankara"
+msgstr "ანკარა"
+
+#: data.cpp:343
+msgid "Antananarivo"
+msgstr "ანტანანარივო"
+
+#: data.cpp:344
+msgid "Apia"
+msgstr "აპია"
+
+#: data.cpp:345
+msgid "Ashgabat"
+msgstr "აშხაბადი"
+
+#: data.cpp:346
+msgid "Asmara"
+msgstr "ასმარა"
+
+#: data.cpp:347
+msgid "Astana"
+msgstr ""
+
+#: data.cpp:348
+msgid "Asuncion"
+msgstr "ასუნსიონი"
+
+#: data.cpp:349
+msgid "Athens"
+msgstr "ათენი"
+
+#: data.cpp:350
+msgid "Avarua"
+msgstr "ავარუა"
+
+#: data.cpp:351
+msgid "Baghdad"
+msgstr "ბაღდადი"
+
+#: data.cpp:352
+msgid "Baku"
+msgstr "ბაქო"
+
+#: data.cpp:353
+msgid "Bamako"
+msgstr "ბამაკო"
+
+#: data.cpp:354
+msgid "Bandar Seri Begawan"
+msgstr "ბანდარ სერი ბეგავანი"
+
+#: data.cpp:355
+msgid "Bangkok"
+msgstr "ბანკოკი"
+
+#: data.cpp:356
+msgid "Bangui"
+msgstr "ბანგუი"
+
+#: data.cpp:357
+msgid "Banjul"
+msgstr "ბანჯული"
+
+#: data.cpp:358
+msgid "Basse-Terre"
+msgstr "ბას-ტერი"
+
+#: data.cpp:359
+msgid "Basseterre"
+msgstr "ბასტერი"
+
+#: data.cpp:360
+msgid "Beijing"
+msgstr "პეკინი"
+
+#: data.cpp:361
+msgid "Beirut"
+msgstr "ბეირუტი"
+
+#: data.cpp:362
+msgid "Belgrade"
+msgstr "ბელგრადი"
+
+#: data.cpp:363
+msgid "Belmopan"
+msgstr "ბელმოპანი"
+
+#: data.cpp:364
+msgid "Berlin"
+msgstr "ბერლინი"
+
+#: data.cpp:365
+msgid "Bern"
+msgstr "ბერნი"
+
+#: data.cpp:366
+msgid "Bishkek"
+msgstr "ბიშკეკი"
+
+#: data.cpp:367
+msgid "Bissau"
+msgstr "ბისაუ"
+
+#: data.cpp:368
+msgid "Bloemfontein"
+msgstr "ბლუმფონტეინი"
+
+#: data.cpp:369
+msgid "Bogota"
+msgstr "ბოგოტა"
+
+#: data.cpp:370
+msgid "Brasilia"
+msgstr "ბრაზილია"
+
+#: data.cpp:371
+msgid "Bratislava"
+msgstr "ბრატისლავა"
+
+#: data.cpp:372
+msgid "Brazzaville"
+msgstr "ბრაზავილი"
+
+#: data.cpp:373
+msgid "Bridgetown"
+msgstr "ბრიჯთაუნი"
+
+#: data.cpp:374
+msgid "Brussels"
+msgstr "ბრუსელი"
+
+#: data.cpp:375
+msgid "Bucharest"
+msgstr "ბუქარესტი"
+
+#: data.cpp:376
+msgid "Budapest"
+msgstr "ბუდაპეშტი"
+
+#: data.cpp:377
+msgid "Buenos Aires"
+msgstr "ბუენოს აირესი"
+
+#: data.cpp:378
+msgid "Bujumbura"
+msgstr "ბუჟუმბურა"
+
+#: data.cpp:379
+msgid "Cairo"
+msgstr "ქაირო"
+
+#: data.cpp:380
+msgid "Canberra"
+msgstr "კანბერა"
+
+#: data.cpp:381
+msgid "Cape Town"
+msgstr "კეიპტაუნი"
+
+#: data.cpp:382
+msgid "Caracas"
+msgstr "კარაკასი"
+
+#: data.cpp:383
+msgid "Castries"
+msgstr "კასტრი"
+
+#: data.cpp:384
+msgid "Cayenne"
+msgstr "კაიენი"
+
+#: data.cpp:385
+msgid "Charlotte Amalie"
+msgstr "შარლოტ-ამალია"
+
+#: data.cpp:386
+msgid "Chisinau"
+msgstr "კიშინიოვი"
+
+#: data.cpp:387
+msgid "Colombo"
+msgstr "კოლომბო"
+
+#: data.cpp:388
+msgid "Conakry"
+msgstr "კონაკრი"
+
+#: data.cpp:389
+msgid "Copenhagen"
+msgstr "კოპენჰაგენი"
+
+#: data.cpp:390
+msgid "Cotonou"
+msgstr "კოტონუ"
+
+#: data.cpp:391
+msgid "Dakar"
+msgstr "დაკარი"
+
+#: data.cpp:392
+msgid "Damascus"
+msgstr "დამასკო"
+
+#: data.cpp:393
+msgid "Dar es Salaam"
+msgstr "დარ ეს სალაამი"
+
+#: data.cpp:394
+msgid "Dhaka"
+msgstr "დაკა"
+
+#: data.cpp:395
+msgid "Dili"
+msgstr "დილი"
+
+#: data.cpp:396
+msgid "Djibouti"
+msgstr "ჯიბუტი"
+
+#: data.cpp:397
+msgid "Doha"
+msgstr "დოჰა"
+
+#: data.cpp:398
+msgid "Douglas"
+msgstr "დუგლასი"
+
+#: data.cpp:399
+msgid "Dublin"
+msgstr "დუბლინი"
+
+#: data.cpp:400
+msgid "Dushanbe"
+msgstr "დუშანბე"
+
+#: data.cpp:401
+msgid "Fongafale"
+msgstr "ფონგაფალე"
+
+#: data.cpp:402
+msgid "Fort-de-France"
+msgstr "ფორტ-დე-ფრანსი"
+
+#: data.cpp:403
+msgid "Freetown"
+msgstr "ფრითაუნი"
+
+#: data.cpp:404
+msgid "Gaborone"
+msgstr "გაბონი"
+
+#: data.cpp:405
+msgid "George Town"
+msgstr "ჯორჯთაუნი"
+
+#: data.cpp:406
+msgid "Georgetown"
+msgstr "ჯორჯთაუნი"
+
+#: data.cpp:407
+msgid "Gibraltar"
+msgstr "გიბრალტარი"
+
+#: data.cpp:408
+msgid "Grand Turk"
+msgstr "გრანდ ტურკი"
+
+#: data.cpp:409
+msgid "Guatemala"
+msgstr "გვატემალა"
+
+#: data.cpp:410
+msgid "Hagatna"
+msgstr "ჰაგატნა"
+
+#: data.cpp:411
+msgid "The Hague"
+msgstr "ჰააგა"
+
+#: data.cpp:412
+msgid "Hamilton"
+msgstr "ჰამილტონი"
+
+#: data.cpp:413
+msgid "Hanoi"
+msgstr "ჰანოი"
+
+#: data.cpp:414
+msgid "Harare"
+msgstr "ჰარარე"
+
+#: data.cpp:415
+msgid "Havana"
+msgstr "ჰავანა"
+
+#: data.cpp:416
+msgid "Helsinki"
+msgstr "ჰელსინკი"
+
+#: data.cpp:417
+msgid "Hong Kong"
+msgstr "ჰონგკონგი"
+
+#: data.cpp:418
+msgid "Honiara"
+msgstr "ჰონიარა"
+
+#: data.cpp:419
+msgid "Islamabad"
+msgstr "ისლამაბადი"
+
+#: data.cpp:420
+msgid "Jakarta"
+msgstr "ჯაკარტა"
+
+#: data.cpp:421
+msgid "Jamestown"
+msgstr "ჯეიმსტაუნი"
+
+#: data.cpp:422
+msgid "Jerusalem"
+msgstr "იერუსალიმი"
+
+#: data.cpp:423
+msgid "Kabul"
+msgstr "ქაბული"
+
+#: data.cpp:424
+msgid "Kampala"
+msgstr "კამპალა"
+
+#: data.cpp:425
+msgid "Kathmandu"
+msgstr "კატმანდუ"
+
+#: data.cpp:426
+msgid "Khartoum"
+msgstr "ხართუმი"
+
+#: data.cpp:427
+msgid "Kiev"
+msgstr "კიევი"
+
+#: data.cpp:428
+msgid "Kigali"
+msgstr "კიგალი"
+
+#: data.cpp:429 data.cpp:430
+msgid "Kingston"
+msgstr "კინგსტონი"
+
+#: data.cpp:431
+msgid "Kingstown"
+msgstr "კინგსტაუნი"
+
+#: data.cpp:432
+msgid "Kinshasa"
+msgstr "კინშასა"
+
+#: data.cpp:433
+msgid "Koror"
+msgstr "კორორი"
+
+#: data.cpp:434
+msgid "Kuala Lumpur"
+msgstr "კუალა ლუმპური"
+
+#: data.cpp:435
+msgid "Kuwait"
+msgstr "ქუვეიტი"
+
+#: data.cpp:436
+msgid "La'youn"
+msgstr "ლაიოუნი"
+
+#: data.cpp:437
+msgid "La Paz"
+msgstr "ლა პასი"
+
+#: data.cpp:438
+msgid "Libreville"
+msgstr "ლიბერვილი"
+
+#: data.cpp:439
+msgid "Lilongwe"
+msgstr "ლილონგვე"
+
+#: data.cpp:440
+msgid "Lima"
+msgstr "ლიმა"
+
+#: data.cpp:441
+msgid "Lisbon"
+msgstr "ლისაბონი"
+
+#: data.cpp:442
+msgid "Ljubljana"
+msgstr "ლუბლანა"
+
+#: data.cpp:443
+msgid "Lobamba"
+msgstr "ლობამბა"
+
+#: data.cpp:444
+msgid "Lome"
+msgstr "ლომი"
+
+#: data.cpp:445
+msgid "London"
+msgstr "ლონდონი"
+
+#: data.cpp:446
+msgid "Longyearbyen"
+msgstr "ლონგირი"
+
+#: data.cpp:447
+msgid "Luanda"
+msgstr "ლუანდა"
+
+#: data.cpp:448
+msgid "Lusaka"
+msgstr "ლუსაკა"
+
+#: data.cpp:449
+msgid "Luxembourg"
+msgstr "ლუქსემბურგი"
+
+#: data.cpp:450
+msgid "Madrid"
+msgstr "მადრიდი"
+
+#: data.cpp:451
+msgid "Majuro"
+msgstr "მაჯურო"
+
+#: data.cpp:452
+msgid "Malabo"
+msgstr "მალაბო"
+
+#: data.cpp:453
+msgid "Male"
+msgstr "მამრობითი"
+
+#: data.cpp:454
+msgid "Mamoutzou"
+msgstr "მამუცუ"
+
+#: data.cpp:455
+msgid "Managua"
+msgstr "მანაგუა"
+
+#: data.cpp:456
+msgid "Manama"
+msgstr "მანამა"
+
+#: data.cpp:457
+msgid "Manila"
+msgstr "მანილა"
+
+#: data.cpp:458
+msgid "Maputo"
+msgstr "მაპუტუ"
+
+#: data.cpp:459
+msgid "Maseru"
+msgstr "მასერუ"
+
+#: data.cpp:460
+msgid "Mata-Utu"
+msgstr "მატა-უტუ"
+
+#: data.cpp:461
+msgid "Mbabane"
+msgstr "მბაბანე"
+
+#: data.cpp:462
+msgid "Mexico City"
+msgstr "მეხიკო სითი"
+
+#: data.cpp:463
+msgid "Minsk"
+msgstr "მინსკი"
+
+#: data.cpp:464
+msgid "Mogadishu"
+msgstr "მოგადიშუ"
+
+#: data.cpp:465
+msgid "Monaco"
+msgstr "მონაკო"
+
+#: data.cpp:466
+msgid "Monrovia"
+msgstr "მონროვია"
+
+#: data.cpp:467
+msgid "Montevideo"
+msgstr "მონტევიდეო"
+
+#: data.cpp:468
+msgid "Moroni"
+msgstr "მორონი"
+
+#: data.cpp:469
+msgid "Moscow"
+msgstr "მოსკოვი"
+
+#: data.cpp:470
+msgid "Muscat"
+msgstr "მუსკატი"
+
+#: data.cpp:471
+msgid "Nairobi"
+msgstr "ნაირობი"
+
+#: data.cpp:472
+msgid "Nassau"
+msgstr "ნასაუ"
+
+#: data.cpp:473
+msgid "N'Djamena"
+msgstr "ნჯამენა"
+
+#: data.cpp:474
+msgid "New Delhi"
+msgstr "ახალი დელი"
+
+#: data.cpp:475
+msgid "Niamey"
+msgstr "ნიამეი"
+
+#: data.cpp:476
+msgid "Nicosia"
+msgstr "ნიკოსია"
+
+#: data.cpp:477
+msgid "Nouakchott"
+msgstr "ნოიაკჩოტი"
+
+#: data.cpp:478
+msgid "Noumea"
+msgstr "ნუმეა"
+
+#: data.cpp:479
+msgid "Nuku'alofa"
+msgstr "ნუკუალოფა"
+
+#: data.cpp:480
+msgid "Nuuk"
+msgstr "ნუუკი"
+
+#: data.cpp:481
+msgid "Oranjestad"
+msgstr "ორანესტადი"
+
+#: data.cpp:482
+msgid "Oslo"
+msgstr "ოსლო"
+
+#: data.cpp:483
+msgid "Ottawa"
+msgstr "ოტავა"
+
+#: data.cpp:484
+msgid "Ouagadougou"
+msgstr "უაგადუგუ"
+
+#: data.cpp:485
+msgid "Pago Pago"
+msgstr "პაგო პაგო"
+
+#: data.cpp:486
+msgid "Palikir"
+msgstr "პალიკირი"
+
+#: data.cpp:487
+msgid "Panama"
+msgstr "პანამა"
+
+#: data.cpp:488
+msgid "Papeete"
+msgstr "პაპეეტე"
+
+#: data.cpp:489
+msgid "Paramaribo"
+msgstr "პარამარიბო"
+
+#: data.cpp:490
+msgid "Paris"
+msgstr "პარიზი"
+
+#: data.cpp:491
+msgid "Phnom Penh"
+msgstr "ფნომ ფენჰი"
+
+#: data.cpp:492
+msgid "Plymouth"
+msgstr "პლიმუთი"
+
+#: data.cpp:493
+msgid "Port Louis"
+msgstr "პორტ ლუისი"
+
+#: data.cpp:494
+msgid "Port Moresby"
+msgstr "პორტ მორესბი"
+
+#: data.cpp:495
+msgid "Port-au-Prince"
+msgstr "პორტ-აუ-პრინსი"
+
+#: data.cpp:496
+msgid "Port-of-Spain"
+msgstr "პორტ-ოვ-სპეინი"
+
+#: data.cpp:497
+msgid "Porto-Novo"
+msgstr "პორტო-ნოვო"
+
+#: data.cpp:498
+msgid "Port-Vila"
+msgstr "პორტ ვილა"
+
+#: data.cpp:499
+msgid "Prague"
+msgstr "პრაღა"
+
+#: data.cpp:500
+msgid "Praia"
+msgstr "პრაია"
+
+#: data.cpp:501
+msgid "Pretoria"
+msgstr "პრეტორია"
+
+#: data.cpp:502
+msgid "P'yongyang"
+msgstr "ფხენიანი"
+
+#: data.cpp:503
+msgid "Quito"
+msgstr "კიტო"
+
+#: data.cpp:504
+msgid "Rabat"
+msgstr "რაბატი"
+
+#: data.cpp:505
+msgid "Rangoon"
+msgstr "რენგუნი"
+
+#: data.cpp:506
+msgid "Reykjavik"
+msgstr "რეიკიავიკი"
+
+#: data.cpp:507
+msgid "Riga"
+msgstr "რიგა"
+
+#: data.cpp:508
+msgid "Riyadh"
+msgstr "რიადი"
+
+#: data.cpp:509
+msgid "Road Town"
+msgstr "როუდთაუნი"
+
+#: data.cpp:510
+msgid "Rome"
+msgstr "რომი"
+
+#: data.cpp:511
+msgid "Roseau"
+msgstr "როსო"
+
+#: data.cpp:512
+msgid "Saint George's"
+msgstr "სენტ ჯორჯისი"
+
+#: data.cpp:513
+msgid "Saint Helier"
+msgstr "სენტ-ჰელიერი"
+
+#: data.cpp:514
+msgid "Saint John's"
+msgstr "სტ. ჯონის"
+
+#: data.cpp:515
+msgid "Saint Peter Port"
+msgstr "სენტ-პიტერ-პორტი"
+
+#: data.cpp:516
+msgid "Saint-Denis"
+msgstr "სენტ-დენსი"
+
+#: data.cpp:517
+msgid "Saint-Pierre"
+msgstr "სენ პიერი"
+
+#: data.cpp:518
+msgid "Saipan"
+msgstr "სეიპანი"
+
+#: data.cpp:519
+msgid "San Jose"
+msgstr "სან ხოსე"
+
+#: data.cpp:520
+msgid "San Juan"
+msgstr "სან ხუანი"
+
+#: data.cpp:521
+msgid "San Marino"
+msgstr "სან მარინო"
+
+#: data.cpp:522
+msgid "San Salvador"
+msgstr "სან სალვადორი"
+
+#: data.cpp:523
+msgid "Sanaa"
+msgstr "სანა"
+
+#: data.cpp:524
+msgid "Santiago"
+msgstr "სანტიაგო"
+
+#: data.cpp:525
+msgid "Santo Domingo"
+msgstr "სანტო დომინიგო"
+
+#: data.cpp:526
+msgid "Sao Tome"
+msgstr "საო ტომე"
+
+#: data.cpp:527
+msgid "Sarajevo"
+msgstr "სარაევო"
+
+#: data.cpp:528
+msgid "Seoul"
+msgstr "სეული"
+
+#: data.cpp:529
+msgid "The Settlement"
+msgstr "დასახლება"
+
+#: data.cpp:530
+msgid "Singapore"
+msgstr "სინგაპური"
+
+#: data.cpp:531
+msgid "Skopje"
+msgstr "სკოპიე"
+
+#: data.cpp:532
+msgid "Sofia"
+msgstr "სოფია"
+
+#: data.cpp:533
+msgid "Sri Jayewardenepura Kotte"
+msgstr "შრი-ჯაიავარდენეპურა-კოტე"
+
+#: data.cpp:534
+msgid "Stanley"
+msgstr "სტენლი"
+
+#: data.cpp:535
+msgid "Stockholm"
+msgstr "სტოქჰოლმი"
+
+#: data.cpp:536
+msgid "Sucre"
+msgstr "სუკრე"
+
+#: data.cpp:537
+msgid "Suva"
+msgstr "სუვა"
+
+#: data.cpp:538
+msgid "Taipei"
+msgstr "ტაიპეი"
+
+#: data.cpp:539
+msgid "Tallinn"
+msgstr "ტალინი"
+
+#: data.cpp:540
+msgid "Tarawa"
+msgstr "ტარავა"
+
+#: data.cpp:541
+msgid "Tashkent"
+msgstr "ტაშკენტი"
+
+#: data.cpp:542
+msgid "T'bilisi"
+msgstr "თბილისი"
+
+#: data.cpp:543
+msgid "Tegucigalpa"
+msgstr "ტეგუსიგალპა"
+
+#: data.cpp:544
+msgid "Tehran"
+msgstr "თეირანი"
+
+#: data.cpp:545
+msgid "Tel Aviv"
+msgstr "თელ ავივი"
+
+#: data.cpp:546
+msgid "Thimphu"
+msgstr "თხიმფხუ"
+
+#: data.cpp:547
+msgid "Tirana"
+msgstr "ტირანა"
+
+#: data.cpp:548
+msgid "Tokyo"
+msgstr "ტოკიო"
+
+#: data.cpp:549
+msgid "Torshavn"
+msgstr "ტორსჰავნი"
+
+#: data.cpp:550
+msgid "Tripoli"
+msgstr "ტრიპოლი"
+
+#: data.cpp:551
+msgid "Tunis"
+msgstr "ტუნისი"
+
+#: data.cpp:552
+msgid "Ulaanbaatar"
+msgstr "ულაანბატორი"
+
+#: data.cpp:553
+msgid "Vaduz"
+msgstr "ვადუზი"
+
+#: data.cpp:554
+msgid "Valletta"
+msgstr "ვალეტა"
+
+#: data.cpp:555
+msgid "The Valley"
+msgstr "ვალი"
+
+#: data.cpp:556
+msgid "Vatican City"
+msgstr "ვატიკანი"
+
+#: data.cpp:557
+msgid "Victoria"
+msgstr "ვიქტორია"
+
+#: data.cpp:558
+msgid "Vienna"
+msgstr "ვენა"
+
+#: data.cpp:559
+msgid "Vientiane"
+msgstr "ვიენტიანი"
+
+#: data.cpp:560
+msgid "Vilnius"
+msgstr "ვილნუსი"
+
+#: data.cpp:561
+msgid "Warsaw"
+msgstr "ვარშავა"
+
+#: data.cpp:562
+msgid "Washington D.C."
+msgstr "ვაშინგტონი დი.სი."
+
+#: data.cpp:563
+msgid "Wellington"
+msgstr "უელინგტონი"
+
+#: data.cpp:564
+msgid "West Island"
+msgstr "უესტ აილენდი"
+
+#: data.cpp:565
+msgid "Willemstad"
+msgstr "ვილემსტადი"
+
+#: data.cpp:566
+msgid "Windhoek"
+msgstr "ვინდჰოეკი"
+
+#: data.cpp:567
+msgid "Yamoussoukro"
+msgstr "იამუსუკრო"
+
+#: data.cpp:568
+msgid "Yaounde"
+msgstr "იაუნდე"
+
+#: data.cpp:569
+msgid "Yaren District"
+msgstr "იარენის ოლქი"
+
+#: data.cpp:570
+msgid "Yerevan"
+msgstr "ერევანი"
+
+#: data.cpp:571
+msgid "Zagreb"
+msgstr "ზაგრები"
+
+#: data.cpp:572
+msgid "Sol"
+msgstr "პერუული ახალი სოლი"
+
+#: data.cpp:573
+msgid "Solar System Barycenter"
+msgstr "ბარიცენტრი"
+
+#: data.cpp:574
+msgid "Sun"
+msgstr "მზე"
+
+#: data.cpp:575
+msgid "Alpheratz"
+msgstr "ალფა ანდრომედასი"
+
+#: data.cpp:576
+msgid "Sirrah"
+msgstr "სირა"
+
+#: data.cpp:577
+msgid "Caph"
+msgstr "ბეტა კასიოპეა"
+
+#: data.cpp:578
+msgid "Algenib"
+msgstr "ალგენიბი"
+
+#: data.cpp:579
+msgid "Citadelle"
+msgstr "ციტადელი"
+
+#: data.cpp:580
+msgid "Schemali"
+msgstr "შემალი"
+
+#: data.cpp:581
+msgid "Ankaa"
+msgstr "ალფა ფენიქსი"
+
+#: data.cpp:582
+msgid "Felixvarela"
+msgstr "ფელიქსვარელა"
+
+#: data.cpp:583
+msgid "Fulu"
+msgstr "ფულუ"
+
+#: data.cpp:584
+msgid "Schedar"
+msgstr "ალფა კასიოპეასი"
+
+#: data.cpp:585
+msgid "Shedir"
+msgstr "შედირი"
+
+#: data.cpp:586
+msgid "Diphda"
+msgstr "ბეტა ვეშაპისა"
+
+#: data.cpp:587
+msgid "Deneb Kaitos"
+msgstr "დენებ კაიტოსი"
+
+#: data.cpp:588
+msgid "Cocibolca"
+msgstr "HD 4208"
+
+#: data.cpp:589
+msgid "Achird"
+msgstr "აჩერდი"
+
+#: data.cpp:590
+msgid "Van Maanen 2"
+msgstr "ვან მაანენი 2"
+
+#: data.cpp:591
+msgid "Castula"
+msgstr "ქასტულა"
+
+#: data.cpp:592
+msgid "Navi"
+msgstr "გამა კასიოპეასი"
+
+#: data.cpp:593
+msgid "Nenque"
+msgstr "ნენქვი"
+
+#: data.cpp:594
+msgid "Wurren"
+msgstr "ფენიქსის ძეტა"
+
+#: data.cpp:595
+msgid "Mirach"
+msgstr "ბეტა ანდრომედასი"
+
+#: data.cpp:596
+msgid "Emiw"
+msgstr "HD 7199"
+
+#: data.cpp:597
+msgid "Revati"
+msgstr "რევატი"
+
+#: data.cpp:598
+msgid "Adhil"
+msgstr "ადჰლი"
+
+#: data.cpp:599
+msgid "Bélénos"
+msgstr "ბელენოსი"
+
+#: data.cpp:600
+msgid "Ruchbah"
+msgstr "რუკბახი"
+
+#: data.cpp:601
+msgid "Alpherg"
+msgstr "ალფერგი"
+
+#: data.cpp:602
+msgid "Titawin"
+msgstr "ტიტავინი"
+
+#: data.cpp:603
+msgid "Achernar"
+msgstr "ახერნარი"
+
+#: data.cpp:604
+msgid "Nembus"
+msgstr "ნემბუსი"
+
+#: data.cpp:605
+msgid "Torcular"
+msgstr "ტორქულარი"
+
+#: data.cpp:606
+msgid "Torcularis Septentrionalis"
+msgstr "ომიკრონი თევზებისა"
+
+#: data.cpp:607
+msgid "Baten Kaitos"
+msgstr "ბატენ კაიტოსი"
+
+#: data.cpp:608
+msgid "Mothallah"
+msgstr "მოთალა"
+
+#: data.cpp:609
+msgid "Caput Trianguli"
+msgstr "კაპუტ ტრიანგული"
+
+#: data.cpp:610
+msgid "Mesarthim"
+msgstr "მესართიმი"
+
+#: data.cpp:611
+msgid "Segin"
+msgstr "გამა მენახირე"
+
+#: data.cpp:612
+msgid "Sheratan"
+msgstr "ბეტა ვერძი"
+
+#: data.cpp:613
+msgid "Alrescha"
+msgstr "ალრიშა"
+
+#: data.cpp:614
+msgid "Al Rescha"
+msgstr "ალ რიშა"
+
+#: data.cpp:615
+msgid "Almach"
+msgstr "გამა ანდრომედასი"
+
+#: data.cpp:616
+msgid "Almaak"
+msgstr "ალმააკი"
+
+#: data.cpp:617
+msgid "Alamak"
+msgstr "ალამაკი"
+
+#: data.cpp:618
+msgid "Hamal"
+msgstr "ჰამალი"
+
+#: data.cpp:619
+msgid "Mira"
+msgstr "მირა"
+
+#: data.cpp:620
+msgid "Polaris"
+msgstr "პოლარისი"
+
+#: data.cpp:621
+msgid "Buna"
+msgstr "ბუნა"
+
+#: data.cpp:622
+msgid "Kaffaljidhma"
+msgstr "კაფალიჯიდმა"
+
+#: data.cpp:623
+msgid "Koeia"
+msgstr "კოეია"
+
+#: data.cpp:624
+msgid "Lilii Borea"
+msgstr "ლილი ბორეა"
+
+#: data.cpp:625
+msgid "Nushagak"
+msgstr "ნუშაგაკი"
+
+#: data.cpp:626
+msgid "Bharani"
+msgstr "ბარანი"
+
+#: data.cpp:627
+msgid "Miram"
+msgstr "მირამი"
+
+#: data.cpp:628
+msgid "Angetenar"
+msgstr "ანგეტენარი"
+
+#: data.cpp:629
+msgid "Azha"
+msgstr "აჟა"
+
+#: data.cpp:630
+msgid "Acamar"
+msgstr "აკამარი"
+
+#: data.cpp:631
+msgid "Ayeyarwady"
+msgstr "აიეიარვადი"
+
+#: data.cpp:632
+msgid "Menkar"
+msgstr "მენკარი"
+
+#: data.cpp:633
+msgid "Menkab"
+msgstr "მენკაბი"
+
+#: data.cpp:634
+msgid "Algol"
+msgstr "ბეტა პერსევსისა"
+
+#: data.cpp:635
+msgid "Misam"
+msgstr "მისამი"
+
+#: data.cpp:636
+msgid "Botein"
+msgstr "ბოტეინი"
+
+#: data.cpp:637
+msgid "Dalim"
+msgstr "დალიმი"
+
+#: data.cpp:638
+msgid "Zibal"
+msgstr "ზიბალი"
+
+#: data.cpp:639
+msgid "Intan"
+msgstr "ინტანი"
+
+#: data.cpp:640
+msgid "Mirfak"
+msgstr "მირფაკი"
+
+#: data.cpp:641
+msgid "Mirphak"
+msgstr "მირფაკი"
+
+#: data.cpp:642
+msgid "Marfak"
+msgstr "მარფაკი"
+
+#: data.cpp:643
+msgid "Ran"
+msgstr "რანი"
+
+#: data.cpp:644
+msgid "Tupi"
+msgstr "ტუპი"
+
+#: data.cpp:645
+msgid "Rana"
+msgstr "რანა"
+
+#: data.cpp:646
+msgid "Atik"
+msgstr "ომიკრონი პერსევსისა"
+
+#: data.cpp:647
+msgid "Celaeno"
+msgstr "ცელენო"
+
+#: data.cpp:648
+msgid "Electra"
+msgstr "ელექტრა"
+
+#: data.cpp:649
+msgid "Taygeta"
+msgstr "ტეიგეტა"
+
+#: data.cpp:650
+msgid "Maia"
+msgstr "მაია"
+
+#: data.cpp:651
+msgid "Asterope"
+msgstr "ასტეროპი"
+
+#: data.cpp:652
+msgid "Merope"
+msgstr "მეროპე"
+
+#: data.cpp:653
+msgid "Alcyone"
+msgstr "ალციონი"
+
+#: data.cpp:654
+msgid "Pleione"
+msgstr "პლეიონე"
+
+#: data.cpp:655
+msgid "Zaurak"
+msgstr "ზაურაკი"
+
+#: data.cpp:656
+msgid "Menkib"
+msgstr "მენკიბი"
+
+#: data.cpp:657
+msgid "Beid"
+msgstr "ბეიდი"
+
+#: data.cpp:658
+msgid "Keid"
+msgstr "კეიდი"
+
+#: data.cpp:659
+msgid "Prima Hyadum"
+msgstr "პრიმა ჰიადუმი"
+
+#: data.cpp:660
+msgid "Secunda Hyadum"
+msgstr "სეკუნდა ჰიადუმი"
+
+#: data.cpp:661
+msgid "Beemim"
+msgstr "ბეემიმი"
+
+#: data.cpp:662
+msgid "Ain"
+msgstr "ენი"
+
+#: data.cpp:663
+msgid "Chamukuy"
+msgstr "ჩამუკუი"
+
+#: data.cpp:664
+msgid "Hoggar"
+msgstr "ჰოგარი"
+
+#: data.cpp:665
+msgid "Theemin"
+msgstr "თიიმინი"
+
+#: data.cpp:666
+msgid "Aldebaran"
+msgstr "ალდებარანი"
+
+#: data.cpp:667
+msgid "Sceptrum"
+msgstr "სკეპტრუმი"
+
+#: data.cpp:668
+msgid "Tabit"
+msgstr "ტაბიტი"
+
+#: data.cpp:669
+msgid "Mouhoun"
+msgstr "მუჰუნი"
+
+#: data.cpp:670
+msgid "Hassaleh"
+msgstr "ჰასალე"
+
+#: data.cpp:671
+msgid "Hind's Crimson Star"
+msgstr "ჰინდის მეწამული ვარსკვლავი"
+
+#: data.cpp:672
+msgid "Almaaz"
+msgstr "ალმაზი"
+
+#: data.cpp:673
+msgid "Saclateni"
+msgstr "საკლეტენი"
+
+#: data.cpp:674
+msgid "Sadatoni"
+msgstr "სადატონი"
+
+#: data.cpp:675
+msgid "Haedus"
+msgstr "ჰაედუსი"
+
+#: data.cpp:676
+msgid "Cursa"
+msgstr "ბეტა ერიდანუსი"
+
+#: data.cpp:677
+msgid "Mago"
+msgstr "მაგო"
+
+#: data.cpp:678
+msgid "Kapteyn's Star"
+msgstr "კაპტეინის ვარსკვლავი"
+
+#: data.cpp:679
+msgid "Rigel"
+msgstr "რიგელი"
+
+#: data.cpp:680
+msgid "Capella"
+msgstr "კაპელა"
+
+#: data.cpp:681
+msgid "Bellatrix"
+msgstr "ბელატრიქსი"
+
+#: data.cpp:682
+msgid "Elnath"
+msgstr "ელნათი"
+
+#: data.cpp:683
+msgid "Alnath"
+msgstr "ბეტა-კუროსი"
+
+#: data.cpp:684
+msgid "Nihal"
+msgstr "ნიჰალი"
+
+#: data.cpp:685
+msgid "Thabit"
+msgstr "თაბიტი"
+
+#: data.cpp:686
+msgid "Mintaka"
+msgstr "დელტა ორიონი"
+
+#: data.cpp:687
+msgid "Arneb"
+msgstr "არნები"
+
+#: data.cpp:688
+msgid "Meissa"
+msgstr "მეისა"
+
+#: data.cpp:689
+msgid "Heka"
+msgstr "ჰეკა"
+
+#: data.cpp:690
+msgid "Hatysa"
+msgstr "ჰატისა"
+
+#: data.cpp:691
+msgid "Alnilam"
+msgstr "ალნილამი"
+
+#: data.cpp:692
+msgid "Bubup"
+msgstr "ბუბუპი"
+
+#: data.cpp:693
+msgid "Tianguan"
+msgstr "ტიანგუანი"
+
+#: data.cpp:694
+msgid "Phact"
+msgstr "ფაქტი"
+
+#: data.cpp:695
+msgid "Alnitak"
+msgstr "ალნიტაკი"
+
+#: data.cpp:696
+msgid "Saiph"
+msgstr "საკაპა ორიონი"
+
+#: data.cpp:697
+msgid "Wazn"
+msgstr "ვეზნი"
+
+#: data.cpp:698
+msgid "Betelgeuse"
+msgstr "ბეთელგეიზე"
+
+#: data.cpp:699
+msgid "Prijipati"
+msgstr "პრიჯიპატი"
+
+#: data.cpp:700
+msgid "Menkalinan"
+msgstr "ბეტა მეეტლესი"
+
+#: data.cpp:701
+msgid "Mahasim"
+msgstr "მაჰასიმი"
+
+#: data.cpp:702
+msgid "Elkurud"
+msgstr "ელკურუდი"
+
+#: data.cpp:703
+msgid "Amadioha"
+msgstr "ამადიოჰა"
+
+#: data.cpp:704
+msgid "Propus"
+msgstr "პროპუსი"
+
+#: data.cpp:705
+msgid "Red Rectangle"
+msgstr "წითელი მართკუთხედი"
+
+#: data.cpp:706
+msgid "Furud"
+msgstr "ფურუდი"
+
+#: data.cpp:707
+msgid "Mirzam"
+msgstr "მირცამი"
+
+#: data.cpp:708
+msgid "Murzim"
+msgstr "მურზიმი"
+
+#: data.cpp:709
+msgid "Tejat"
+msgstr "ტეიატი"
+
+#: data.cpp:710
+msgid "Canopus"
+msgstr "კანოპუსი"
+
+#: data.cpp:711
+msgid "Suhel"
+msgstr "სუჰელი"
+
+#: data.cpp:712
+msgid "Lucilinburhuc"
+msgstr "ლუცილინბურჰუცი"
+
+#: data.cpp:713
+msgid "Lusitânia"
+msgstr "ლუსიტანია"
+
+#: data.cpp:714
+msgid "Plaskett's Star"
+msgstr "პლასკეტის ვარსკვლავი"
+
+#: data.cpp:715
+msgid "Alhena"
+msgstr "გამა მარჩვიბისა"
+
+#: data.cpp:716
+msgid "Almeisan"
+msgstr "ალმეისანი"
+
+#: data.cpp:717
+msgid "Nosaxa"
+msgstr "ნოსაქსა"
+
+#: data.cpp:718
+msgid "Mebsuta"
+msgstr "მებსუტა"
+
+#: data.cpp:719
+msgid "Sirius"
+msgstr "სირიუსი"
+
+#: data.cpp:720
+msgid "Alzirr"
+msgstr "ალზირი"
+
+#: data.cpp:721
+msgid "Nervia"
+msgstr "ნერვია"
+
+#: data.cpp:722
+msgid "Adhara"
+msgstr "ადარა"
+
+#: data.cpp:723
+msgid "Adara"
+msgstr "ადარა"
+
+#: data.cpp:724
+msgid "Citalá"
+msgstr "ჩიტალა"
+
+#: data.cpp:725
+msgid "Unurgunite"
+msgstr "ურუნგუნიტე"
+
+#: data.cpp:726
+msgid "Muliphein"
+msgstr "მულიფეინი"
+
+#: data.cpp:727
+msgid "Mekbuda"
+msgstr "მეკბუდა"
+
+#: data.cpp:728
+msgid "Wezen"
+msgstr "ვეზენი"
+
+#: data.cpp:729
+msgid "Bernes 135"
+msgstr "ბერნეს 135"
+
+#: data.cpp:730
+msgid "Wasat"
+msgstr "ვასატი"
+
+#: data.cpp:731
+msgid "Aludra"
+msgstr "ეტა დიდი ქოფაკისა"
+
+#: data.cpp:732
+msgid "Gomeisa"
+msgstr "გომეისა"
+
+#: data.cpp:733
+msgid "Luyten's Star"
+msgstr "ლუიტენის ვარსკვლავი"
+
+#: data.cpp:734
+msgid "Castor"
+msgstr "კასტორი"
+
+#: data.cpp:735
+msgid "Jishui"
+msgstr "ჯიშუი"
+
+#: data.cpp:736
+msgid "Procyon"
+msgstr "პროციონი"
+
+#: data.cpp:737
+msgid "Elgomaisa"
+msgstr "ელგომაისა"
+
+#: data.cpp:738
+msgid "Ceibo"
+msgstr "ცეიბო"
+
+#: data.cpp:739
+msgid "Pollux"
+msgstr "პოლუქსი"
+
+#: data.cpp:740
+msgid "Tapecue"
+msgstr "ტაპექუე"
+
+#: data.cpp:741
+msgid "Azmidi"
+msgstr "აზმიდი"
+
+#: data.cpp:742
+msgid "Asmidiske"
+msgstr "ქსი კიჩოსი"
+
+#: data.cpp:743
+msgid "Naos"
+msgstr "ზეტა კიჩო"
+
+#: data.cpp:744
+msgid "Tureis"
+msgstr "ტურეისი"
+
+#: data.cpp:745
+msgid "Regor"
+msgstr "გამა აფრის"
+
+#: data.cpp:746
+msgid "Tegmine"
+msgstr "ტეგმინე"
+
+#: data.cpp:747
+msgid "Tarf"
+msgstr "ტარფი"
+
+#: data.cpp:748
+msgid "Al Tarf"
+msgstr "ალ ტარფი"
+
+#: data.cpp:749
+msgid "Násti"
+msgstr "ნასტი"
+
+#: data.cpp:750
+msgid "Piautos"
+msgstr "პიაუტოსი"
+
+#: data.cpp:751
+msgid "Avior"
+msgstr "ავიორი"
+
+#: data.cpp:752
+msgid "Alsciaukat"
+msgstr "ალსკიაუკატი"
+
+#: data.cpp:753
+msgid "Muscida"
+msgstr "მუსციდა"
+
+#: data.cpp:754
+msgid "Minchir"
+msgstr "მინჩირი"
+
+#: data.cpp:755
+msgid "Gakyid"
+msgstr "გაკიიდი"
+
+#: data.cpp:756
+msgid "Meleph"
+msgstr "მელეფი"
+
+#: data.cpp:757
+msgid "Asellus Borealis"
+msgstr "ალესუს ბორეალისი"
+
+#: data.cpp:758
+msgid "Asellus Australis"
+msgstr "ასელუს ოსტრალისი"
+
+#: data.cpp:759
+msgid "Alsephina"
+msgstr "ასლეფინა"
+
+#: data.cpp:760
+msgid "Ashlesha"
+msgstr "აშლეშა"
+
+#: data.cpp:761
+msgid "Copernicus"
+msgstr "კოპერნიკი"
+
+#: data.cpp:762
+msgid "Stribor"
+msgstr "სტრიბორი"
+
+#: data.cpp:763
+msgid "Acubens"
+msgstr "აკუბენსი"
+
+#: data.cpp:764
+msgid "Talitha"
+msgstr "ტალითა"
+
+#: data.cpp:765
+msgid "Dnoces"
+msgstr "დნოცესი"
+
+#: data.cpp:766
+msgid "Alkaphrah"
+msgstr "ალკაფრა"
+
+#: data.cpp:767
+msgid "Talitha Australis"
+msgstr "ტალიტა სამხრეთის"
+
+#: data.cpp:768
+msgid "Suhail"
+msgstr "ლამბდა იალქნისა"
+
+#: data.cpp:769
+msgid "Nahn"
+msgstr "ნანი"
+
+#: data.cpp:770
+msgid "Miaplacidus"
+msgstr "ბეტა გემის ხერხემლისა"
+
+#: data.cpp:771
+msgid "Aspidiske"
+msgstr "იოტა გემის ხერხემალისა"
+
+#: data.cpp:772
+msgid "Markeb"
+msgstr "მარკები"
+
+#: data.cpp:773
+msgid "Alphard"
+msgstr "ალფარდი"
+
+#: data.cpp:774
+msgid "Cor Hydrae"
+msgstr "კორ-ჰიდრა"
+
+#: data.cpp:775
+msgid "Intercrus"
+msgstr "ინტერკრუსი"
+
+#: data.cpp:776
+msgid "Alterf"
+msgstr "ალტერფი"
+
+#: data.cpp:777
+msgid "Illyrian"
+msgstr "ილირიანი"
+
+#: data.cpp:778
+msgid "Kalausi"
+msgstr "ლაკაუსი"
+
+#: data.cpp:779
+msgid "Ukdah"
+msgstr "უკდა"
+
+#: data.cpp:780
+msgid "Subra"
+msgstr "სუბრა"
+
+#: data.cpp:781
+msgid "Ras Elased Australis"
+msgstr "რას ელასედ ავსტრალისი"
+
+#: data.cpp:782
+msgid "Natasha"
+msgstr "ნატაშა"
+
+#: data.cpp:783
+msgid "Zhang"
+msgstr "ჟანგი"
+
+#: data.cpp:784
+msgid "Rasalas"
+msgstr "რასალასი"
+
+#: data.cpp:785
+msgid "Ras Elased Borealis"
+msgstr "რას ელასედ ბორეალისი"
+
+#: data.cpp:786
+msgid "Felis"
+msgstr "ფელისი"
+
+#: data.cpp:787
+msgid "Bibhā"
+msgstr "ბიბა"
+
+#: data.cpp:788
+msgid "Regulus"
+msgstr "რეგული"
+
+#: data.cpp:789
+msgid "Kabeleced"
+msgstr "კაბელეცედი"
+
+#: data.cpp:790
+msgid "Cor Leonis"
+msgstr "კორ-ლეონისი"
+
+#: data.cpp:791
+msgid "Adhafera"
+msgstr "ადჰაფერა"
+
+#: data.cpp:792
+msgid "Aldhafera"
+msgstr "ალდაფერა"
+
+#: data.cpp:793
+msgid "Tania Borealis"
+msgstr "ტეინია ბორეალისი"
+
+#: data.cpp:794
+msgid "Algieba"
+msgstr "ალგიება"
+
+#: data.cpp:795
+msgid "Tania Australis"
+msgstr "ტანიინა სამხრეთის"
+
+#: data.cpp:796
+msgid "Macondo"
+msgstr "მაკონდო"
+
+#: data.cpp:797
+msgid "Praecipua"
+msgstr "პრაეციპუა"
+
+#: data.cpp:798
+msgid "Chalawan"
+msgstr "ჩალავან"
+
+#: data.cpp:799
+msgid "Alkes"
+msgstr "ალკესი"
+
+#: data.cpp:800
+msgid "Merak"
+msgstr "ბეტა დიდი დათვი"
+
+#: data.cpp:801
+msgid "Lalande 21185"
+msgstr "ლალანდე 21185"
+
+#: data.cpp:802
+msgid "Dubhe"
+msgstr "დუბჰე"
+
+#: data.cpp:803
+msgid "Dubb"
+msgstr "დუბი"
+
+#: data.cpp:804
+msgid "Dingolay"
+msgstr "დინგოლაი"
+
+#: data.cpp:805
+msgid "Zosma"
+msgstr "ზოსმა"
+
+#: data.cpp:806
+msgid "Duhr"
+msgstr "დური"
+
+#: data.cpp:807
+msgid "Chertan"
+msgstr "თეტა ლომისსა"
+
+#: data.cpp:808
+msgid "Coxa"
+msgstr "კოქსა"
+
+#: data.cpp:809
+msgid "Chort"
+msgstr "ჩორტი"
+
+#: data.cpp:810
+msgid "Innes' Star"
+msgstr "ინესის ვარსკვლავი"
+
+#: data.cpp:811
+msgid "Hunahpú"
+msgstr "ჰუნაჰპუ"
+
+#: data.cpp:812
+msgid "Alula Australis"
+msgstr "ალულა ავსტრალისი"
+
+#: data.cpp:813
+msgid "Alula Borealis"
+msgstr "ალულა ბორეალისი"
+
+#: data.cpp:814
+msgid "Tsze Tseang"
+msgstr "ცზე ცენგი"
+
+#: data.cpp:815
+msgid "Shama"
+msgstr "შამა"
+
+#: data.cpp:816
+msgid "Giausar"
+msgstr "გიაუსარი"
+
+#: data.cpp:817
+msgid "Formosa"
+msgstr "ფორმოსი"
+
+#: data.cpp:818
+msgid "Sagarmatha"
+msgstr "საგარმატჰა"
+
+#: data.cpp:819
+msgid "Przybylski's Star"
+msgstr "პრჟიბილსკის ვარსკვლავი"
+
+#: data.cpp:820
+msgid "Uklun"
+msgstr "უკლუნი"
+
+#: data.cpp:821
+msgid "Flegetonte"
+msgstr "ფლეფოტონტე"
+
+#: data.cpp:822
+msgid "Taiyangshou"
+msgstr "ტაიანგშოუ"
+
+#: data.cpp:823
+msgid "Denebola"
+msgstr "ბეტა ლომისა"
+
+#: data.cpp:824
+msgid "Zavijava"
+msgstr "ზავიჯავა"
+
+#: data.cpp:825
+msgid "Alaraph"
+msgstr "ალარაფი"
+
+#: data.cpp:826
+msgid "Aniara"
+msgstr "ანიარა"
+
+#: data.cpp:827
+msgid "Groombridge 1830"
+msgstr "გრუმბრიჯი 1830"
+
+#: data.cpp:828
+msgid "Phecda"
+msgstr "გამა დიდი დათვი"
+
+#: data.cpp:829
+msgid "Phad"
+msgstr "ფადი"
+
+#: data.cpp:830
+msgid "Tonatiuh"
+msgstr "ტონატიუ"
+
+#: data.cpp:831
+msgid "Alchiba"
+msgstr "ალჩიბა"
+
+#: data.cpp:832
+msgid "Imai"
+msgstr "ლმაი"
+
+#: data.cpp:833
+msgid "Megrez"
+msgstr "მეგრეცი"
+
+#: data.cpp:834
+msgid "Gienah"
+msgstr "გიენა"
+
+#: data.cpp:835
+msgid "Zaniah"
+msgstr "ზანია"
+
+#: data.cpp:836
+msgid "Ginan"
+msgstr "გინანი"
+
+#: data.cpp:837
+msgid "Tupã"
+msgstr "ტუპა"
+
+#: data.cpp:838
+msgid "Acrux"
+msgstr "აკრუქსი"
+
+#: data.cpp:839
+msgid "Algorab"
+msgstr "ალგორაბი"
+
+#: data.cpp:840
+msgid "Gacrux"
+msgstr "გაკრუქსი"
+
+#: data.cpp:841
+msgid "Funi"
+msgstr "ფუნი"
+
+#: data.cpp:842
+msgid "Chara"
+msgstr "კარა"
+
+#: data.cpp:843
+msgid "Kraz"
+msgstr "კრაზი"
+
+#: data.cpp:844
+msgid "Muhlifain"
+msgstr "მუჰლიფაინი"
+
+#: data.cpp:845
+msgid "Porrima"
+msgstr "პორიმა"
+
+#: data.cpp:846
+msgid "La Superba"
+msgstr "ლა სუპერბა"
+
+#: data.cpp:847
+msgid "Tianyi"
+msgstr "ტიანიი"
+
+#: data.cpp:848
+msgid "Mimosa"
+msgstr "მიმოზა"
+
+#: data.cpp:849
+msgid "Alioth"
+msgstr "ალიოტი"
+
+#: data.cpp:850
+msgid "Taiyi"
+msgstr "ტაიი"
+
+#: data.cpp:851
+msgid "Minelauva"
+msgstr "მინელაუვა"
+
+#: data.cpp:852
+msgid "Auva"
+msgstr "მინელაუვა"
+
+#: data.cpp:853
+msgid "Cor Caroli"
+msgstr "კორ კეროლაი"
+
+#: data.cpp:854
+msgid "Vindemiatrix"
+msgstr "ვინდემიატრიქსი"
+
+#: data.cpp:855
+msgid "Almuredin"
+msgstr "ალმურედინი"
+
+#: data.cpp:856
+msgid "Diadem"
+msgstr "დიადემა"
+
+#: data.cpp:857
+msgid "Mizar"
+msgstr "მიცარი"
+
+#: data.cpp:858
+msgid "Spica"
+msgstr "სპიკა"
+
+#: data.cpp:859
+msgid "Azimech"
+msgstr "აზიმერჩი"
+
+#: data.cpp:860
+msgid "Alcor"
+msgstr "ალკორი"
+
+#: data.cpp:861
+msgid "Dofida"
+msgstr "დოფიდა"
+
+#: data.cpp:862
+msgid "Liesma"
+msgstr "ლიესმა"
+
+#: data.cpp:863
+msgid "Heze"
+msgstr "ჰიზი"
+
+#: data.cpp:864
+msgid "Alkaid"
+msgstr "ბენეტნაში"
+
+#: data.cpp:865
+msgid "Benetnasch"
+msgstr "ბენეტნაში"
+
+#: data.cpp:866
+msgid "Muphrid"
+msgstr "ეტა მერწყულისა"
+
+#: data.cpp:867
+msgid "Hadar"
+msgstr "ჰადარი"
+
+#: data.cpp:868
+msgid "Agena"
+msgstr "აგენა"
+
+#: data.cpp:869
+msgid "Thuban"
+msgstr "თუბანი"
+
+#: data.cpp:870
+msgid "Menkent"
+msgstr "თეტა ცენტავრისა"
+
+#: data.cpp:871
+msgid "Kang"
+msgstr "კანგი"
+
+#: data.cpp:872
+msgid "Arcturus"
+msgstr "არქტურუსი"
+
+#: data.cpp:873
+msgid "Syrma"
+msgstr "სირმა"
+
+#: data.cpp:874
+msgid "Xuange"
+msgstr "ქსუანგე"
+
+#: data.cpp:875
+msgid "Elgafar"
+msgstr "ელგაფარი"
+
+#: data.cpp:876
+msgid "Proxima"
+msgstr "პროქსიმა"
+
+#: data.cpp:877
+msgid "Seginus"
+msgstr "გამა მენახირე"
+
+#: data.cpp:878
+msgid "Ceginus"
+msgstr "ცეგინუსი"
+
+#: data.cpp:879
+msgid "Toliman"
+msgstr "ტოლიმანი"
+
+#: data.cpp:880
+msgid "Rigil Kentaurus"
+msgstr "ალფა კენტავრისა"
+
+#: data.cpp:881
+msgid "Izar"
+msgstr "იზარი"
+
+#: data.cpp:882
+msgid "Mirak"
+msgstr "მირაკი"
+
+#: data.cpp:883
+msgid "Pulcherrima"
+msgstr "ეფსილონი მენახირესი"
+
+#: data.cpp:884
+msgid "Mönch"
+msgstr "მონჩი"
+
+#: data.cpp:885
+msgid "Merga"
+msgstr "მერგა"
+
+#: data.cpp:886
+msgid "Kochab"
+msgstr "კოჩაბი"
+
+#: data.cpp:887
+msgid "Kocab"
+msgstr "ბეტა პატარა დათვისა"
+
+#: data.cpp:888
+msgid "Zubenelgenubi"
+msgstr "ზუბენელგენუბი"
+
+#: data.cpp:889
+msgid "Arcalís"
+msgstr "არქალისი"
+
+#: data.cpp:890
+msgid "Baekdu"
+msgstr "ბაეკდუ"
+
+#: data.cpp:891
+msgid "Zuben Elakribi"
+msgstr "ზუბენ ელაკრიბი"
+
+#: data.cpp:892
+msgid "Nekkar"
+msgstr "ნეკარი"
+
+#: data.cpp:893
+msgid "Brachium"
+msgstr "ბრაჩიუმი"
+
+#: data.cpp:894
+msgid "Zubeneschamali"
+msgstr "ზუბენესჩამალი"
+
+#: data.cpp:895
+msgid "Pherkad Minor"
+msgstr "ფერკად მინორი"
+
+#: data.cpp:896
+msgid "Nikawiy"
+msgstr "ნიკავიი"
+
+#: data.cpp:897
+msgid "Pherkad"
+msgstr "ფერკადი"
+
+#: data.cpp:898
+msgid "Alkalurops"
+msgstr "ალკალუროპსი"
+
+#: data.cpp:899
+msgid "Edasich"
+msgstr "იოტა დრაკონისა"
+
+#: data.cpp:900
+msgid "Nusakan"
+msgstr "ნუსაკანი"
+
+#: data.cpp:901
+msgid "Alphecca"
+msgstr "ალფა ჩრდილოეთი გვირგვინისა"
+
+#: data.cpp:902
+msgid "Gemma"
+msgstr "გემა"
+
+#: data.cpp:903
+msgid "Zubenelhakrabi"
+msgstr "ზუბენელჰაკრაბი"
+
+#: data.cpp:904
+msgid "Zuben Elakrab"
+msgstr "ბუბენ ელაკრაბი"
+
+#: data.cpp:905
+msgid "Karaka"
+msgstr "კარაკა"
+
+#: data.cpp:906
+msgid "Unukalhai"
+msgstr "ალფა გველი"
+
+#: data.cpp:907
+msgid "Chow"
+msgstr "ჩოუ"
+
+#: data.cpp:908
+msgid "Gudja"
+msgstr "გუდჯა"
+
+#: data.cpp:909
+msgid "Iklil"
+msgstr "იკლილი"
+
+#: data.cpp:910
+msgid "Fang"
+msgstr "ფანგი"
+
+#: data.cpp:911
+msgid "Dschubba"
+msgstr "დელტა ღრიანკალი"
+
+#: data.cpp:912
+msgid "Acrab"
+msgstr "აქრაბი"
+
+#: data.cpp:913
+msgid "Graffias"
+msgstr "ქსი სკორპიონისა"
+
+#: data.cpp:914
+msgid "Akrab"
+msgstr "აკრაბ"
+
+#: data.cpp:915
+msgid "Marsic"
+msgstr "მარსიკი"
+
+#: data.cpp:916
+msgid "Jabbah"
+msgstr "ჯაბა"
+
+#: data.cpp:917
+msgid "Sharjah"
+msgstr "შარჯა"
+
+#: data.cpp:918
+msgid "Yed Prior"
+msgstr "დელტა გველისმჭერი"
+
+#: data.cpp:919
+msgid "Yed Posterior"
+msgstr "ეფსილონ გველისმჭერისა"
+
+#: data.cpp:920
+msgid "Hunor"
+msgstr "ჰუნორი"
+
+#: data.cpp:921
+msgid "Alniyat"
+msgstr "ალნიიატი"
+
+#: data.cpp:922
+msgid "Al Niyat"
+msgstr "ელნაიეტი"
+
+#: data.cpp:923
+msgid "Athebyne"
+msgstr "ათებინე"
+
+#: data.cpp:924
+msgid "Cujam"
+msgstr "ქაჯემი"
+
+#: data.cpp:925
+msgid "Timir"
+msgstr "ტიმირი"
+
+#: data.cpp:926
+msgid "Antares"
+msgstr "ანტარესი"
+
+#: data.cpp:927
+msgid "Kornephoros"
+msgstr "ბეტა ჰერკულესი"
+
+#: data.cpp:928
+msgid "Ogma"
+msgstr "ოგმა"
+
+#: data.cpp:929
+msgid "Marfik"
+msgstr "მარფიკი"
+
+#: data.cpp:930
+msgid "Rosalíadecastro"
+msgstr "როსალიადეკასტრო"
+
+#: data.cpp:931
+msgid "Paikauhale"
+msgstr "პაიკაუჰალე"
+
+#: data.cpp:932
+msgid "Atria"
+msgstr "ატრია"
+
+#: data.cpp:933
+msgid "Larawag"
+msgstr "ლარავაგი"
+
+#: data.cpp:934
+msgid "Xamidimura"
+msgstr "ქსამიდიმურა"
+
+#: data.cpp:935
+msgid "Pipirima"
+msgstr "პიპირიმა"
+
+#: data.cpp:936
+msgid "Mahsati"
+msgstr "მაჰსატი"
+
+#: data.cpp:937
+msgid "Rapeto"
+msgstr "რაპეტო"
+
+#: data.cpp:938
+msgid "Alrakis"
+msgstr "ალრაკისი"
+
+#: data.cpp:939
+msgid "Arrakis"
+msgstr "არაკისი"
+
+#: data.cpp:940
+msgid "Aldhibah"
+msgstr "ალდიბა"
+
+#: data.cpp:941
+msgid "Sabik"
+msgstr "საბიკი"
+
+#: data.cpp:942
+msgid "Rasalgethi"
+msgstr "რასალგეთი"
+
+#: data.cpp:943
+msgid "Ras Algethi"
+msgstr "ალფა ჰერკულესი"
+
+#: data.cpp:944
+msgid "Sarin"
+msgstr "სარინი"
+
+#: data.cpp:945
+msgid "Guniibuu"
+msgstr "გუნიიბუუ"
+
+#: data.cpp:946
+msgid "Inquill"
+msgstr "ინქვილი"
+
+#: data.cpp:947
+msgid "Rastaban"
+msgstr "ბეტა დრაკონი"
+
+#: data.cpp:948
+msgid "Maasym"
+msgstr "მაასიმი"
+
+#: data.cpp:949
+msgid "Lesath"
+msgstr "ლისა"
+
+#: data.cpp:950
+msgid "Lesuth"
+msgstr "ლესუთი"
+
+#: data.cpp:951
+msgid "Kuma"
+msgstr "კუმა"
+
+#: data.cpp:952
+msgid "Yildun"
+msgstr "იილდუნი"
+
+#: data.cpp:953
+msgid "Shaula"
+msgstr "შაულა"
+
+#: data.cpp:954
+msgid "Rasalhague"
+msgstr "ალფა გველისმჭერისა"
+
+#: data.cpp:955
+msgid "Ras Alhague"
+msgstr "ალფა ჰერკულესი"
+
+#: data.cpp:956
+msgid "Sargas"
+msgstr "სარგასი"
+
+#: data.cpp:957
+msgid "Dziban"
+msgstr "ძიბანი"
+
+#: data.cpp:958
+msgid "Girtab"
+msgstr "გირტაბი"
+
+#: data.cpp:959
+msgid "Cebalrai"
+msgstr "ქებალრაი"
+
+#: data.cpp:960
+msgid "Alruba"
+msgstr "ალრუბა"
+
+#: data.cpp:961
+msgid "Cervantes"
+msgstr "სერვანტესი"
+
+#: data.cpp:962
+msgid "Fuyue"
+msgstr "ფუიუე"
+
+#: data.cpp:963
+msgid "Grumium"
+msgstr "გრუმიუმი"
+
+#: data.cpp:964
+msgid "Eltanin"
+msgstr "გამა გველეშაპისა"
+
+#: data.cpp:965
+msgid "Etamin"
+msgstr "ეტამინი"
+
+#: data.cpp:966
+msgid "Barnard's Star"
+msgstr "ბერნარდის ვარსკვლავი"
+
+#: data.cpp:967
+msgid "Pincoya"
+msgstr "პინკოია"
+
+#: data.cpp:968
+msgid "Alnasl"
+msgstr "ალნასლი"
+
+#: data.cpp:969
+msgid "Polis"
+msgstr "პოლისი"
+
+#: data.cpp:970
+msgid "Kaus Media"
+msgstr "კაუს მედია"
+
+#: data.cpp:971
+msgid "Alasia"
+msgstr "ალასია"
+
+#: data.cpp:972
+msgid "Kaus Australis"
+msgstr "კაუს აუსტრალისი"
+
+#: data.cpp:973
+msgid "Al Athfar"
+msgstr "ალ ათფარი"
+
+#: data.cpp:974
+msgid "Fafnir"
+msgstr "ფაფნირი"
+
+#: data.cpp:975
+msgid "Kaus Borealis"
+msgstr "ლამბდა მშვილდოსნისა"
+
+#: data.cpp:976
+msgid "Vega"
+msgstr "ვეგა"
+
+#: data.cpp:977
+msgid "Xihe"
+msgstr "ქსიე"
+
+#: data.cpp:978
+msgid "Sheliak"
+msgstr "შელიაკი"
+
+#: data.cpp:979
+msgid "Ainalrami"
+msgstr "აინალრამი"
+
+#: data.cpp:980
+msgid "Nunki"
+msgstr "სიგმა მშვილდოსნისა"
+
+#: data.cpp:981
+msgid "Kaveh"
+msgstr "კავე"
+
+#: data.cpp:982
+msgid "Alya"
+msgstr "ალია"
+
+#: data.cpp:983
+msgid "Sulafat"
+msgstr "სულუფატი"
+
+#: data.cpp:984
+msgid "Ascella"
+msgstr "ასქელა"
+
+#: data.cpp:985
+msgid "Okab"
+msgstr "ოკაბი"
+
+#: data.cpp:986
+msgid "Deneb el Okab"
+msgstr "ეფსილონი არწივისა"
+
+#: data.cpp:987
+msgid "Meridiana"
+msgstr "მერიდიანა"
+
+#: data.cpp:988
+msgid "Albaldah"
+msgstr "ალბალდა"
+
+#: data.cpp:989
+msgid "Altais"
+msgstr "ალტაისი"
+
+#: data.cpp:990
+msgid "Al Tais"
+msgstr "ალ ტაისი"
+
+#: data.cpp:991
+msgid "Nodus Secundus"
+msgstr "ნოდუს სეკუნდუსი"
+
+#: data.cpp:992
+msgid "Aladfar"
+msgstr "ალადფარი"
+
+#: data.cpp:993
+msgid "Gumala"
+msgstr "გუმალა"
+
+#: data.cpp:994
+msgid "Belel"
+msgstr "ბელელი"
+
+#: data.cpp:995
+msgid "Arkab Prior"
+msgstr "არკაბ პრიორი"
+
+#: data.cpp:996
+msgid "Arkab"
+msgstr "არკაბი"
+
+#: data.cpp:997
+msgid "Sika"
+msgstr "სიკა"
+
+#: data.cpp:998
+msgid "Arkab Posterior"
+msgstr "ბეტა მშვილდოსნისა"
+
+#: data.cpp:999
+msgid "Rukbat"
+msgstr "რუკბატი"
+
+#: data.cpp:1000
+msgid "Anser"
+msgstr "ანსერი"
+
+#: data.cpp:1001
+msgid "Albireo"
+msgstr "ალბირეო"
+
+#: data.cpp:1002
+msgid "Uruk"
+msgstr "ურუკი"
+
+#: data.cpp:1003
+msgid "Alsafi"
+msgstr "ალსაფი"
+
+#: data.cpp:1004
+msgid "Campbell's Star"
+msgstr "კემპბელის ვარსკვლავი"
+
+#: data.cpp:1005
+msgid "Sham"
+msgstr "შამი"
+
+#: data.cpp:1006
+msgid "Fawaris"
+msgstr "ფავარისი"
+
+#: data.cpp:1007
+msgid "Tarazed"
+msgstr "ტარაზედი"
+
+#: data.cpp:1008
+msgid "Tyl"
+msgstr "ტილი"
+
+#: data.cpp:1009
+msgid "Altair"
+msgstr "ალტაირი"
+
+#: data.cpp:1010
+msgid "Atair"
+msgstr "ატაირი"
+
+#: data.cpp:1011
+msgid "Libertas"
+msgstr "ლიბერტასი"
+
+#: data.cpp:1012
+msgid "Alshain"
+msgstr "ალშეინი"
+
+#: data.cpp:1013
+msgid "Terebellum"
+msgstr "ტერებელუმი"
+
+#: data.cpp:1014
+msgid "Phoenicia"
+msgstr "ფოენიცია"
+
+#: data.cpp:1015
+msgid "Chechia"
+msgstr "ჩეჩია"
+
+#: data.cpp:1016
+msgid "Algedi"
+msgstr "ალგედი"
+
+#: data.cpp:1017
+msgid "Alshat"
+msgstr "ალშატი"
+
+#: data.cpp:1018
+msgid "Dabih"
+msgstr "ბეტა თხის რქა"
+
+#: data.cpp:1019
+msgid "Sadr"
+msgstr "გამა გედისა"
+
+#: data.cpp:1020
+msgid "Peacock"
+msgstr "ალფა ფარშევანგისა"
+
+#: data.cpp:1021
+msgid "Aldulfin"
+msgstr "ალდულფინი"
+
+#: data.cpp:1022
+msgid "Rotanev"
+msgstr "როტანევი"
+
+#: data.cpp:1023
+msgid "Sualocin"
+msgstr "სუალოქინი"
+
+#: data.cpp:1024
+msgid "Deneb"
+msgstr "დენები"
+
+#: data.cpp:1025
+msgid "Aljanah"
+msgstr "ალჯანა"
+
+#: data.cpp:1026
+msgid "Albali"
+msgstr "ალბალი"
+
+#: data.cpp:1027
+msgid "Musica"
+msgstr "მუსიკა"
+
+#: data.cpp:1028
+msgid "Polaris Australis"
+msgstr "პოლარის ავსტრალისი"
+
+#: data.cpp:1029
+msgid "Solaris"
+msgstr "Solaris"
+
+#: data.cpp:1030
+msgid "Kitalpha"
+msgstr "კიტალფა"
+
+#: data.cpp:1031
+msgid "Lacaille 8760"
+msgstr "ლაკაილი 8760"
+
+#: data.cpp:1032
+msgid "Alderamin"
+msgstr "ალდერამინი"
+
+#: data.cpp:1033
+msgid "Alfirk"
+msgstr "ალფირკი"
+
+#: data.cpp:1034
+msgid "Sadalsuud"
+msgstr "სადალკსუუდი"
+
+#: data.cpp:1035
+msgid "Bunda"
+msgstr "ბუნდა"
+
+#: data.cpp:1036
+msgid "Sāmaya"
+msgstr "სამაია"
+
+#: data.cpp:1037
+msgid "Nashira"
+msgstr "ნაშირა"
+
+#: data.cpp:1038
+msgid "Azelfafage"
+msgstr "აზელფაფაგე"
+
+#: data.cpp:1039
+msgid "Bosona"
+msgstr "ბოსონა"
+
+#: data.cpp:1040
+msgid "Herschel's Garnet Star"
+msgstr "ჰერშელ გარნეტის ვარსკვლავი"
+
+#: data.cpp:1041
+msgid "Erakis"
+msgstr "ერაკისი"
+
+#: data.cpp:1042
+msgid "Enif"
+msgstr "ეფსილონი პეგასისა"
+
+#: data.cpp:1043
+msgid "Deneb Algedi"
+msgstr "დენებ ალგედი"
+
+#: data.cpp:1044
+msgid "Aldhanab"
+msgstr "ალდანაბი"
+
+#: data.cpp:1045
+msgid "Al Dhanab"
+msgstr "ალ დანაბი"
+
+#: data.cpp:1046
+msgid "Itonda"
+msgstr "იტონდა"
+
+#: data.cpp:1047
+msgid "Kurhah"
+msgstr "კურჰა"
+
+#: data.cpp:1048
+msgid "Sadalmelik"
+msgstr "სადალმელიკი"
+
+#: data.cpp:1049
+msgid "Alnair"
+msgstr "ალნაირი"
+
+#: data.cpp:1050
+msgid "Al Nair"
+msgstr "ალნაირი"
+
+#: data.cpp:1051
+msgid "Biham"
+msgstr "ბიჰამი"
+
+#: data.cpp:1052
+msgid "Ancha"
+msgstr "ანკა"
+
+#: data.cpp:1053
+msgid "Sadachbia"
+msgstr "გამა მერწყულისა"
+
+#: data.cpp:1054
+msgid "Seat"
+msgstr "სავარძელი"
+
+#: data.cpp:1055
+msgid "Lionrock"
+msgstr "HD 212771"
+
+#: data.cpp:1056
+msgid "Kruger 60"
+msgstr "კრუგერი 60"
+
+#: data.cpp:1057
+msgid "Situla"
+msgstr "სიტულა"
+
+#: data.cpp:1058
+msgid "Homam"
+msgstr "ჰომამი"
+
+#: data.cpp:1059
+msgid "Tiaki"
+msgstr "ტიაკი"
+
+#: data.cpp:1060
+msgid "Matar"
+msgstr "მეიტარი"
+
+#: data.cpp:1061
+msgid "Babcock's Star"
+msgstr "ბაბკოკის ვარსკვლავი"
+
+#: data.cpp:1062
+msgid "Sadalbari"
+msgstr "სედალბარი"
+
+#: data.cpp:1063
+msgid "Hydor"
+msgstr "ჰიდორი"
+
+#: data.cpp:1064
+msgid "Skat"
+msgstr "სკატი"
+
+#: data.cpp:1065
+msgid "Helvetios"
+msgstr "ჰელვეტიოსი"
+
+#: data.cpp:1066
+msgid "Fomalhaut"
+msgstr "ფომალჰაუტი"
+
+#: data.cpp:1067
+msgid "Scheat"
+msgstr "ბეტა პეგასი"
+
+#: data.cpp:1068
+msgid "Fumalsamakah"
+msgstr "ფუმალსამაკა"
+
+#: data.cpp:1069
+msgid "Fum al Samakah"
+msgstr "ფუმ ალ სამაკა"
+
+#: data.cpp:1070
+msgid "Markab"
+msgstr "მარკაბი"
+
+#: data.cpp:1071
+msgid "Marchab"
+msgstr "მარჩაბი"
+
+#: data.cpp:1072
+msgid "Ebla"
+msgstr "ებლა"
+
+#: data.cpp:1073
+msgid "Bradley 3077"
+msgstr "ბრედლი 3077"
+
+#: data.cpp:1074
+msgid "Salm"
+msgstr "სალმი"
+
+#: data.cpp:1075
+msgid "Alkarab"
+msgstr "ალკარაბი"
+
+#: data.cpp:1076
+msgid "Veritate"
+msgstr "ვერიტატე"
+
+#: data.cpp:1077
+msgid "Poerava"
+msgstr "პოერავა"
+
+#: data.cpp:1078
+msgid "Errai"
+msgstr "ერაი"
+
+#: data.cpp:1079
+msgid "Axólotl"
+msgstr "აქსოლოტლი"
+
+#: data.cpp:1080
+msgid "Milky Way"
+msgstr "ირმის ნახტომი"
+
+#: data.cpp:1081
+msgid "LMC"
+msgstr "LMC"
+
+#: data.cpp:1082
+msgid "SMC"
+msgstr "SMC"
+
+#: data.cpp:1083
+msgid "Pleiades"
+msgstr "პლეიადები"
+
+#: data.cpp:1084
+msgid "Hyades"
+msgstr "ჰიადები"
+
+#: data.cpp:1085
+msgid "Praesepe"
+msgstr "სკის კლასტერი"
+
+#: data.cpp:1086
+msgid "Beehive Cluster"
+msgstr "NGC 2632"
+
+#: data.cpp:1087
+msgid "Maffei 1"
+msgstr "მაფეი 1"
+
+#: data.cpp:1088
+msgid "Maffei 2"
+msgstr "მაფეი 1"
+
+#: data.cpp:1089
+msgid "Leo A"
+msgstr "ლომი A"
+
+#: data.cpp:1090
+msgid "Sextans B"
+msgstr "სექსტანტი B"
+
+#: data.cpp:1091
+msgid "Leo I"
+msgstr "ლომი I"
+
+#: data.cpp:1092
+msgid "Sextans A"
+msgstr "სექსტანტი A"
+
+#: data.cpp:1094
+msgid "Andromeda Galaxy"
+msgstr "ანდრომედას გალაქტიკა"
+
+#: data.cpp:1095
+msgid "Triangulum Galaxy"
+msgstr "სამკუთხედი გალაქტიკა"
+
+#: data.cpp:1096
+msgid "Holmberg VI"
+msgstr "ჰოლმბერგი VI"
+
+#: data.cpp:1097
+msgid "Fath 703"
+msgstr "NGC5892"
+
+#: data.cpp:1098
+msgid "47 Tuc"
+msgstr "47 Tuc"
+
+#: data.cpp:1101
+msgid "Tonantzintla 2"
+msgstr "ტონანცინტლა 2"
+
+#~ msgid "Saturn LIV"
+#~ msgstr "სატურნი LIV"
+
+#~ msgid "Saturn LIX"
+#~ msgstr "სატურნი LIX"
+
+#~ msgid "Saturn LXI"
+#~ msgstr "სატურნი LXI"
+
+#~ msgid "Saturn LVII"
+#~ msgstr "სატურნი LVII"
+
+#~ msgid "Saturn LV"
+#~ msgstr "სატურნი LV"
+
+#~ msgid "Saturn LXII"
+#~ msgstr "სატურნი LXII"
+
+#~ msgid "Saturn LXV"
+#~ msgstr "სატურნი LXV"
+
+#~ msgid "Saturn LVI"
+#~ msgstr "სატურნი LVI"
+
+#~ msgid "Saturn LXVI"
+#~ msgstr "სატურნი LXVI"
+
+#~ msgid "Saturn LXIII"
+#~ msgstr "სატურნი LXII"
+
+#~ msgid "Nur-Sultan"
+#~ msgstr "ნურ-სულთანი"
