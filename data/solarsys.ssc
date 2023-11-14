@@ -64,6 +64,12 @@
 # Geometric albedo and colors of planets was calculated from the spectra
 # from this paper:
 # https://arxiv.org/abs/1609.05048
+#
+#
+# === Masses ===
+# Masses for the planets and the Moon are taken from the NASA planetary
+# factsheets at https://nssdc.gsfc.nasa.gov/planetary/factsheet/
+
 
 "Mercury" "Sol"
 {
@@ -72,6 +78,7 @@
 	NormalMap	"mercury-normal.*"
 	Color	[ 1.0 0.95415 0.86031 ]
 	Radius	2439.7
+	Mass	0.0553
 	CustomOrbit	"vsop87-mercury"
 
 	# Overridden by CustomOrbit
@@ -112,6 +119,7 @@
 	NormalMap	"venus-normal.*"
 	Color	[ 0.98965 1.0 0.98452 ]
 	Radius	6051.8
+	Mass	0.815
 	Atmosphere
 	{
 		Height	200
@@ -169,6 +177,7 @@
 	SpecularPower	120
 	Radius	6378.140
 	Oblateness	0.0033528
+	Mass	1
 	Atmosphere
 	{
 		Height	100
@@ -227,6 +236,7 @@
 	Color	[ 1.0 0.94582 0.865 ]
 	Radius	1738.14
 	Oblateness	0.00125
+	Mass	0.0123
 	CustomOrbit	"moon"
 
 	# Overridden by CustomOrbit
@@ -275,6 +285,7 @@
 	Color	[ 1.0 0.79855 0.56429 ]
 	Radius	3396.2
 	Oblateness	0.00589
+	Mass	0.107
 	Atmosphere
 	{
 		Height	80
@@ -405,6 +416,7 @@
 	Color	[ 1.0 0.98663 0.91433 ]
 	Radius	71492
 	Oblateness	0.06487
+	Mass 317.83
 	Atmosphere
 	{
 		Height	1000
@@ -664,6 +676,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 1.0 0.9476 0.81514 ]
 	Radius	60268
 	Oblateness	0.09796
+	Mass	95.16
 	Atmosphere
 	{
 		Height	1000
@@ -1116,6 +1129,7 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	Color	[ 0.86828 0.97 1.0 ]
 	Radius	25559
 	Oblateness	0.0229
+	Mass	14.54
 	Atmosphere
 	{
 		Height	500
@@ -1415,6 +1429,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	Color	[ 0.78302 0.91535 1.0 ]
 	Radius	24764
 	Oblateness	0.0171
+	Mass 17.15
 	Atmosphere
 	{
 		Height	500
