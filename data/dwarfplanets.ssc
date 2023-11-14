@@ -1,6 +1,9 @@
 # Five official dwarf planets of the Solar System along with all known
 # satellites. Each object has all alternative designations.
 # Pluto is defined first, so that it will be selected by the "9" key.
+#
+# Pluto's mass is taken from the Pluto fact sheet:
+# https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html
 
 ReferencePoint "Pluto-Charon" "Sol"
 {
@@ -28,6 +31,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	NormalMap	"pluto-normal.*"
 	Color	[ 1.0 0.95948 0.86047 ]
 	Radius	1188.3
+	Mass	0.0022
 	Atmosphere
 	{
 		Height	130
