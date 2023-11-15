@@ -416,7 +416,7 @@
 	Color	[ 1.0 0.98663 0.91433 ]
 	Radius	71492
 	Oblateness	0.06487
-	Mass 317.83
+	Mass	317.83
 	Atmosphere
 	{
 		Height	1000
@@ -472,6 +472,7 @@ AltSurface "2018 (Hubble)" "Sol/Jupiter"
 	Texture	"io.*"
 	Color	[ 1.0 0.94191 0.70074 ]
 	SemiAxes	[ 1829.4 1819.4 1815.7 ]
+	Mass	0.01495311
 	Atmosphere
 	{
 		Height	500
@@ -528,6 +529,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Io"
 	Texture	"europa.*"
 	Color	[ 1.0 0.95939 0.85366 ]
 	SemiAxes	[ 1562.6 1560.3 1559.5 ]
+	Mass	0.008037508
 	CustomOrbit	"europa"
 
 	# Overridden by CustomOrbit
@@ -577,6 +579,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Europa"
 	Texture	"ganymede.*"
 	Color	[ 1.0 0.96761 0.89281 ]
 	SemiAxes	[ 2634.5 2633 2631.5 ]
+	Mass	0.024815807
 	CustomOrbit	"ganymede"
 
 	# Overridden by CustomOrbit
@@ -626,6 +629,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Ganymede"
 	Texture	"callisto.*"
 	Color	[ 1.0 0.9573 0.86499 ]
 	SemiAxes	[ 2409.5 2409.5 2409 ]
+	Mass	0.018017415
 	CustomOrbit	"callisto"
 
 	# Overridden by CustomOrbit
@@ -727,6 +731,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Texture	"mimas.*"
 	Color	[ 0.983 1.0 0.983 ]
 	Radius	207.8
+	Mass	0.000006346283
 	CustomOrbit	"mimas"
 
 	# Overridden by CustomOrbit
@@ -771,6 +776,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 0.984 1.0 0.984 ]
 	Radius	252.1
 	SemiAxes	[ 1.018 0.9972 0.9849 ]
+	Mass	0.00001808439
 	CustomOrbit	"enceladus"
 
 	# Overridden by CustomOrbit
@@ -815,6 +821,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	NormalMap	"tethys-normal.*"
 	Color	[ 0.980 1.0 0.966 ]
 	SemiAxes	[ 538.4 528.7 526.3 ]
+	Mass	0.0001034829
 	CustomOrbit	"tethys"
 
 	# Overridden by CustomOrbit
@@ -858,6 +865,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	NormalMap	"dione-normal.*"
 	Color	[ 0.990 1.0 0.989 ]
 	SemiAxes	[ 564.4 561.3 559.6 ]
+	Mass	0.0001841929
 	CustomOrbit	"dione"
 
 	# Overridden by CustomOrbit
@@ -901,6 +909,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	# NormalMap	"rhea-normal.*"
 	Color	[ 1.0 0.98264 0.94056 ]
 	SemiAxes	[ 766.2 762.8 762.2 ]
+	Mass	0.0003868051
 	CustomOrbit	"rhea"
 
 	# Overridden by CustomOrbit
@@ -945,6 +954,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	SpecularColor	[ 0.50 0.44 0.40 ]
 	SpecularPower	1000
 	SemiAxes	[ 2575.15 2574.78 2574.47 ]
+	Mass	0.0225301407
 	Atmosphere
 	{
 		Height	950
@@ -999,6 +1009,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Texture	"hyperion.*"
 	Color	[ 1.0 0.968 0.902 ]
 	Radius	180.1
+	Mass	0.000000937709
 	CustomOrbit	"hyperion"
 
 	# Overridden by CustomOrbit
@@ -1046,6 +1057,7 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	# NormalMap	"iapetus-normal.*"
 	Color	[ 0.993 1.0 0.976 ]
 	SemiAxes	[ 746 746 712 ]
+	Mass	0.0003030810
 	CustomOrbit	"iapetus"
 
 	# Overridden by CustomOrbit
@@ -1088,6 +1100,7 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	Mesh	"phoebe.cmod"
 	Texture	"phoebe.*"
 	Radius	109.4
+	Mass	0.00000138982
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Saturn" }
@@ -1180,6 +1193,7 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	# NormalMap	"miranda-normal.*"
 	Color	[ 0.98357 0.98913 1.0 ]
 	SemiAxes	[ 240 234.2 232.9 ]
+	Mass	0.0000110516
 	CustomOrbit	"miranda"
 
 	# Overridden by CustomOrbit
@@ -1229,6 +1243,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Miranda"
 	# NormalMap	"ariel-normal.*"
 	Color	[ 1.0 1.0 0.999 ]
 	SemiAxes	[ 581.1 577.9 577.7 ]
+	Mass	0.0002160080
 	CustomOrbit	"ariel"
 
 	# Overridden by CustomOrbit
@@ -1279,6 +1294,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Ariel"
 	# NormalMap	"umbriel-normal.*"
 	Color	[ 1.0 0.99769 0.99749 ]
 	Radius	584.7
+	Mass	0.0002042867
 	CustomOrbit	"umbriel"
 
 	# Overridden by CustomOrbit
@@ -1329,6 +1345,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Umbriel"
 	# NormalMap	"titania-normal.*"
 	Color	[ 1.0 0.98945 0.97393 ]
 	Radius	788.4
+	Mass	0.0005726725
 	CustomOrbit	"titania"
 
 	# Overridden by CustomOrbit
@@ -1379,6 +1396,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Titania"
 	# NormalMap	"oberon-normal.*"
 	Color	[ 1.0 0.98881 0.97178 ]
 	Radius	761.4
+	Mass	0.0004822505
 	CustomOrbit	"oberon"
 
 	# Overridden by CustomOrbit
@@ -1429,7 +1447,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	Color	[ 0.78302 0.91535 1.0 ]
 	Radius	24764
 	Oblateness	0.0171
-	Mass 17.15
+	Mass	17.15
 	Atmosphere
 	{
 		Height	500
@@ -1480,6 +1498,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	Mesh	"proteus.cmod"
 	Texture	"proteus.*"
 	Radius	212
+	Mass	0.0000083724
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Neptune" }
@@ -1514,6 +1533,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	Texture	"triton.*"
 	Color	[ 1.0 0.99024 0.96338 ]
 	SemiAxes	[ 1354.6 1352.8 1352.4 ]
+	Mass	0.003583389
 	Atmosphere
 	{
 		Height	32
@@ -1563,6 +1583,7 @@ AltSurface "Limit of knowledge" "Sol/Neptune/Triton"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	SemiAxes	[ 199 168 153 ]
+	Mass	0.0000050234
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Neptune" }

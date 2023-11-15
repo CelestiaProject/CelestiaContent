@@ -31,7 +31,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	NormalMap	"pluto-normal.*"
 	Color	[ 1.0 0.95948 0.86047 ]
 	Radius	1188.3
-	Mass	0.0022
+	Mass	0.0021816949
 	Atmosphere
 	{
 		Height	130
@@ -79,6 +79,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	NormalMap	"charon-normal.*"
 	Color	[ 0.994 1.0 0.972 ]
 	Radius	606
+	Mass	0.000265636904
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
@@ -153,6 +154,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Mesh	"roughsphere.cms"
 	Texture	"icymoon.*"
 	SemiAxes	[ 24.9 16.6 15.55 ]
+	Mass	0.00000000752655
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
@@ -189,6 +191,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Mesh	"roughsphere.cms"
 	Texture	"icymoon.*"
 	SemiAxes	[ 9.5 5 4.5 ]
+	Mass	0.00000000275973
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
@@ -226,6 +229,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Orientation	[ 90 1 0 0 ]
 	Texture	"icymoon.*"
 	Radius	25.45
+	Mass	0.00000000802832
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
@@ -263,6 +267,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	NormalMap	"ceres-normal.*"
 	Color	[ 1.0 0.993 0.962 ]
 	SemiAxes	[ 482.2 482.1 445.9 ]
+	Mass	0.0001571319491
 	EllipticalOrbit
 	{
 		Epoch	2458423.5  # 2018 Nov 01
@@ -300,6 +305,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Color	[ 0.99147 1.0 0.99127 ]
 	BlendTexture	true
 	SemiAxes	[ 1050 840 537 ]
+	Mass	0.00067079705
 	EllipticalOrbit
 	{
 		Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -334,6 +340,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Mesh	"roughsphere.cms"
 	Texture	"icymoon.*"
 	Radius	80
+	Mass	0.0000002997321
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Haumea" }
@@ -364,6 +371,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Mesh	"roughsphere.cms"
 	Texture	"icymoon.*"
 	Radius	160
+	Mass	0.000002997321
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Haumea" }
@@ -396,6 +404,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	BlendTexture	true
 	Radius	717
 	Oblateness	0.0098
+	Mass	0.000519089
 	EllipticalOrbit
 	{
 		Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -443,6 +452,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Color	[ 1.0 0.99267 0.97075 ]
 	BlendTexture	true
 	Radius	1163
+	Mass	0.0027434829
 	EllipticalOrbit
 	{
 		Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -472,6 +482,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Color	[ 0.5 0.5 0.5 ]  # adjust texture brightness for albedo
 	BlendTexture	true
 	Radius	350
+	Mass	0.000013717
 	OrbitFrame	{ EquatorJ2000 {} }
 	EllipticalOrbit
 	{
