@@ -19,8 +19,9 @@
 # "The Size, Shape, Albedo, Density, and Atmospheric Limit of Transneptunian Object
 # (50000) Quaoar from Multi-chord Stellar Occultations"
 # https://iopscience.iop.org/article/10.1088/0004-637X/773/1/26
-# Rotation period from Morgado et al. (2023), Nature 614, 239–243
+# Mass and rotation period from Morgado et al. (2023), Nature 614, 239–243
 # "A dense ring of the trans-Neptunian object Quaoar outside its Roche limit"
+# https://ui.adsabs.harvard.edu/abs/2023Natur.614..239M/abstract
 "50000 Quaoar:Quaoar:2002 LM60" "Sol"
 {
 	Class	"asteroid"
@@ -118,6 +119,9 @@
 # Secondary size from Sickafoose et al. (2019), Icarus 319, 657
 # "A stellar occultation by Vanth, a satellite of (90482) Orcus"
 # https://arxiv.org/abs/1810.08977
+# Masses from Brown and Butler (2023), Planet. Sci. J. 4, 193
+# "Masses and Densities of Dwarf Planet Satellites Measured with ALMA"
+# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..193B/abstract
 ReferencePoint "Orcus-Vanth" "Sol"
 {
 	EllipticalOrbit
@@ -241,7 +245,6 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
 	Radius	50  # dynamical upper limit
-	Mass	
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Gonggong" }

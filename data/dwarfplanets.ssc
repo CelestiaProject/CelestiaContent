@@ -1,10 +1,11 @@
 # Five official dwarf planets of the Solar System along with all known
 # satellites. Each object has all alternative designations.
 # Pluto is defined first, so that it will be selected by the "9" key.
-#
-# Pluto's mass is taken from the Pluto fact sheet:
-# https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html
 
+
+# Masses from Brozović et al. (2015), Icarus 246, 317-329
+# "The orbits and masses of satellites of Pluto"
+# https://ui.adsabs.harvard.edu/abs/2015Icar..246..317B/abstract?bbbRedirect=1
 ReferencePoint "Pluto-Charon" "Sol"
 {
 	# CustomOrbit "pluto"
@@ -260,6 +261,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Hydra_(moon)"
 }
 
+# Mass from Park et al. (2019), Icarus 319, 812-827
+# "High-resolution shape model of Ceres from stereophotoclinometry using Dawn Imaging Data"
+# https://ui.adsabs.harvard.edu/abs/2019Icar..319..812P
 "Ceres:1 Ceres:1943 XB:A899 OF" "Sol"
 {
 	Class	"dwarfplanet"
@@ -298,6 +302,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)"
 }
 
+# Masses from Ragozzine and Brown (2009), AJ 137, 4766
+# "Orbits and Masses of the Satellites of the Dwarf Planet Haumea (2003 EL61)"
+# https://ui.adsabs.harvard.edu/abs/2009AJ....137.4766R/abstract?bbbRedirect=1
 "Haumea:136108 Haumea:2003 EL61" "Sol"
 {
 	Class	"dwarfplanet"
@@ -396,6 +403,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Hi'iaka_(moon)"
 }
 
+# Mass for Makemake from Parker et al. (2018)
+# "The Mass, Density, and Figure of the Kuiper Belt Dwarf Planet Makemake"
+# https://ui.adsabs.harvard.edu/abs/2018DPS....5050902P/abstract
 "Makemake:136472 Makemake:2005 FY9" "Sol"
 {
 	Class	"dwarfplanet"
@@ -445,6 +455,13 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/S/2015_(136472)_1"
 }
 
+# System mass from Holler et al. (2021), Icarus 355, 114-130
+# "The Eris/Dysnomia system I: The orbit of Dysnomia"
+# https://ui.adsabs.harvard.edu/abs/2021Icar..35514130H/abstract
+# Mass ratio from Brown and Butler (2023), Planet. Sci. J. 4, 193
+# "Masses and Densities of Dwarf Planet Satellites Measured with ALMA"
+# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..193B/abstract
+# Assuming that the barycentric motion is detected.
 "Eris:136199 Eris:2003 UB313" "Sol"
 {
 	Class	"dwarfplanet"

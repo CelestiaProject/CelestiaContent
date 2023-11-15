@@ -67,8 +67,8 @@
 #
 #
 # === Masses ===
-# Masses for the planets and the Moon are taken from the NASA planetary
-# factsheets at https://nssdc.gsfc.nasa.gov/planetary/factsheet/
+# Masses for objects in this file are taken from the NASA planetary
+# factsheets at https://nssdc.gsfc.nasa.gov/planetary/planetfact.html
 
 
 "Mercury" "Sol"
@@ -339,6 +339,7 @@
 	Texture	"phobos.*"
 	Color	[ 1.0 0.98516 0.94386 ]
 	Radius	13.1
+	Mass	0.000000001774950
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Mars" }
@@ -378,6 +379,7 @@
 	Texture	"deimos.*"
 	Color	[ 1.0 0.97168 0.93149 ]
 	Radius	7.8
+	Mass	0.000000000401875
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Mars" }
