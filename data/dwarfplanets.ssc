@@ -461,7 +461,11 @@ ReferencePoint "Pluto-Charon" "Sol"
 # Mass ratio from Brown and Butler (2023), Planet. Sci. J. 4, 193
 # "Masses and Densities of Dwarf Planet Satellites Measured with ALMA"
 # https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..193B/abstract
-# Assuming that the barycentric motion is detected.
+# (Assumes barycentric motion is detected.)
+# Eris' rotation from Bernstein et al. (2023), Planet. Sci. J. 4, 115
+# "Synchronous Rotation in the (136199) Eris-Dysnomia System"
+# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..115B/abstract
+# (Orientation assumes tidal locking with Dysnomia.)
 "Eris:136199 Eris:2003 UB313" "Sol"
 {
 	Class	"dwarfplanet"
@@ -483,9 +487,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 	}
 	UniformRotation
 	{
-		Period	25.92
-		Inclination	44.01
-		AscendingNode	395.95
+		Period	378.504
+		Inclination	61.58851152
+		AscendingNode	139.1166176
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.96
