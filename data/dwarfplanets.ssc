@@ -3,9 +3,13 @@
 # Pluto is defined first, so that it will be selected by the "9" key.
 
 
-# Masses from Brozović et al. (2015), Icarus 246, 317-329
+# Masses of Pluto and Charon from Brozović et al. (2015), Icarus 246, 317-329
 # "The orbits and masses of satellites of Pluto"
-# https://ui.adsabs.harvard.edu/abs/2015Icar..246..317B/abstract?bbbRedirect=1
+# https://ui.adsabs.harvard.edu/abs/2015Icar..246..317B/abstract
+# (Mass of Kerberos is available in this paper, but is conflicted by Porter+2023)
+# Masses of Nix and Hydra from Porter and Canup (2023), Planet. Sci. J. 4, 120
+# "Orbits and Masses of the Small Satellites of Pluto"
+# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..120P/abstract
 ReferencePoint "Pluto-Charon" "Sol"
 {
 	# CustomOrbit "pluto"
@@ -155,7 +159,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Mesh	"roughsphere.cms"
 	Texture	"icymoon.*"
 	SemiAxes	[ 24.9 16.6 15.55 ]
-	Mass	0.00000000752655
+	Mass	0.00000000452110
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
@@ -192,7 +196,6 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Mesh	"roughsphere.cms"
 	Texture	"icymoon.*"
 	SemiAxes	[ 9.5 5 4.5 ]
-	Mass	0.00000000275973
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
@@ -230,7 +233,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Orientation	[ 90 1 0 0 ]
 	Texture	"icymoon.*"
 	Radius	25.45
-	Mass	0.00000000802832
+	Mass	0.00000000502344
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
@@ -261,7 +264,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Hydra_(moon)"
 }
 
-# Mass from Park et al. (2019), Icarus 319, 812-827
+# Mass and density from Park et al. (2019), Icarus 319, 812-827
 # "High-resolution shape model of Ceres from stereophotoclinometry using Dawn Imaging Data"
 # https://ui.adsabs.harvard.edu/abs/2019Icar..319..812P
 "Ceres:1 Ceres:1943 XB:A899 OF" "Sol"
@@ -272,6 +275,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Color	[ 1.0 0.993 0.962 ]
 	SemiAxes	[ 482.2 482.1 445.9 ]
 	Mass	0.0001571319491
+	Density	2161.6
 	EllipticalOrbit
 	{
 		Epoch	2458423.5  # 2018 Nov 01
@@ -455,7 +459,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/S/2015_(136472)_1"
 }
 
-# System mass from Holler et al. (2021), Icarus 355, 114-130
+# System mass from Holler et al. (2021), Icarus 355, 114130
 # "The Eris/Dysnomia system I: The orbit of Dysnomia"
 # https://ui.adsabs.harvard.edu/abs/2021Icar..35514130H/abstract
 # Mass ratio from Brown and Butler (2023), Planet. Sci. J. 4, 193
