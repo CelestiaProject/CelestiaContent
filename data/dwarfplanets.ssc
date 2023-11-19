@@ -1,10 +1,15 @@
 # Five official dwarf planets of the Solar System along with all known
 # satellites. Each object has all alternative designations.
 # Pluto is defined first, so that it will be selected by the "9" key.
-#
-# Pluto's mass is taken from the Pluto fact sheet:
-# https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html
 
+
+# Masses of Pluto and Charon from Brozović et al. (2015), Icarus 246, 317-329
+# "The orbits and masses of satellites of Pluto"
+# https://ui.adsabs.harvard.edu/abs/2015Icar..246..317B/abstract
+# (Mass of Kerberos is available in this paper, but is conflicted by Porter+2023)
+# Masses of Nix and Hydra from Porter and Canup (2023), Planet. Sci. J. 4, 120
+# "Orbits and Masses of the Small Satellites of Pluto"
+# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..120P/abstract
 ReferencePoint "Pluto-Charon" "Sol"
 {
 	# CustomOrbit "pluto"
@@ -31,7 +36,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	NormalMap	"pluto-normal.*"
 	Color	[ 1.0 0.95948 0.86047 ]
 	Radius	1188.3
-	Mass	0.0022
+	Mass	0.0021816949
 	Atmosphere
 	{
 		Height	130
@@ -79,6 +84,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	NormalMap	"charon-normal.*"
 	Color	[ 0.994 1.0 0.972 ]
 	Radius	606
+	Mass	0.000265636904
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
@@ -153,6 +159,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Mesh	"roughsphere.cms"
 	Texture	"icymoon.*"
 	SemiAxes	[ 24.9 16.6 15.55 ]
+	Mass	0.00000000452110
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
@@ -226,6 +233,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Orientation	[ 90 1 0 0 ]
 	Texture	"icymoon.*"
 	Radius	25.45
+	Mass	0.00000000502344
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
@@ -256,6 +264,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Hydra_(moon)"
 }
 
+# Mass and density from Park et al. (2019), Icarus 319, 812-827
+# "High-resolution shape model of Ceres from stereophotoclinometry using Dawn Imaging Data"
+# https://ui.adsabs.harvard.edu/abs/2019Icar..319..812P
 "Ceres:1 Ceres:1943 XB:A899 OF" "Sol"
 {
 	Class	"dwarfplanet"
@@ -263,6 +274,8 @@ ReferencePoint "Pluto-Charon" "Sol"
 	NormalMap	"ceres-normal.*"
 	Color	[ 1.0 0.993 0.962 ]
 	SemiAxes	[ 482.2 482.1 445.9 ]
+	Mass	0.0001571319491
+	Density	2161.6
 	EllipticalOrbit
 	{
 		Epoch	2458423.5  # 2018 Nov 01
@@ -293,6 +306,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)"
 }
 
+# Masses from Ragozzine and Brown (2009), AJ 137, 4766
+# "Orbits and Masses of the Satellites of the Dwarf Planet Haumea (2003 EL61)"
+# https://ui.adsabs.harvard.edu/abs/2009AJ....137.4766R/abstract?bbbRedirect=1
 "Haumea:136108 Haumea:2003 EL61" "Sol"
 {
 	Class	"dwarfplanet"
@@ -300,6 +316,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Color	[ 0.99147 1.0 0.99127 ]
 	BlendTexture	true
 	SemiAxes	[ 1050 840 537 ]
+	Mass	0.00067079705
 	EllipticalOrbit
 	{
 		Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -334,6 +351,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Mesh	"roughsphere.cms"
 	Texture	"icymoon.*"
 	Radius	80
+	Mass	0.0000002997321
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Haumea" }
@@ -364,6 +382,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Mesh	"roughsphere.cms"
 	Texture	"icymoon.*"
 	Radius	160
+	Mass	0.000002997321
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Haumea" }
@@ -388,6 +407,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Hi'iaka_(moon)"
 }
 
+# Mass for Makemake from Parker et al. (2018)
+# "The Mass, Density, and Figure of the Kuiper Belt Dwarf Planet Makemake"
+# https://ui.adsabs.harvard.edu/abs/2018DPS....5050902P/abstract
 "Makemake:136472 Makemake:2005 FY9" "Sol"
 {
 	Class	"dwarfplanet"
@@ -396,6 +418,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	BlendTexture	true
 	Radius	717
 	Oblateness	0.0098
+	Mass	0.000519089
 	EllipticalOrbit
 	{
 		Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -436,6 +459,17 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/S/2015_(136472)_1"
 }
 
+# System mass from Holler et al. (2021), Icarus 355, 114130
+# "The Eris/Dysnomia system I: The orbit of Dysnomia"
+# https://ui.adsabs.harvard.edu/abs/2021Icar..35514130H/abstract
+# Mass ratio from Brown and Butler (2023), Planet. Sci. J. 4, 193
+# "Masses and Densities of Dwarf Planet Satellites Measured with ALMA"
+# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..193B/abstract
+# (Assumes barycentric motion is detected.)
+# Eris' rotation from Bernstein et al. (2023), Planet. Sci. J. 4, 115
+# "Synchronous Rotation in the (136199) Eris-Dysnomia System"
+# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..115B/abstract
+# (Orientation assumes tidal locking with Dysnomia.)
 "Eris:136199 Eris:2003 UB313" "Sol"
 {
 	Class	"dwarfplanet"
@@ -443,6 +477,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Color	[ 1.0 0.99267 0.97075 ]
 	BlendTexture	true
 	Radius	1163
+	Mass	0.0027434829
 	EllipticalOrbit
 	{
 		Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -456,9 +491,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 	}
 	UniformRotation
 	{
-		Period	25.92
-		Inclination	44.01
-		AscendingNode	395.95
+		Period	378.504
+		Inclination	61.58851152
+		AscendingNode	139.1166176
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.96
@@ -472,6 +507,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Color	[ 0.5 0.5 0.5 ]  # adjust texture brightness for albedo
 	BlendTexture	true
 	Radius	350
+	Mass	0.000013717
 	OrbitFrame	{ EquatorJ2000 {} }
 	EllipticalOrbit
 	{

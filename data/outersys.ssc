@@ -19,6 +19,9 @@
 # "The Size, Shape, Albedo, Density, and Atmospheric Limit of Transneptunian Object
 # (50000) Quaoar from Multi-chord Stellar Occultations"
 # https://iopscience.iop.org/article/10.1088/0004-637X/773/1/26
+# Mass and rotation period from Morgado et al. (2023), Nature 614, 239–243
+# "A dense ring of the trans-Neptunian object Quaoar outside its Roche limit"
+# https://ui.adsabs.harvard.edu/abs/2023Natur.614..239M/abstract
 "50000 Quaoar:Quaoar:2002 LM60" "Sol"
 {
 	Class	"asteroid"
@@ -28,6 +31,7 @@
 	BlendTexture	true
 	Radius	569  # equatorial
 	Oblateness	0.0897
+	Mass	0.0002009377
 	EllipticalOrbit
 	{
 		Epoch	2458600.5  # 2019 Apr 27
@@ -41,7 +45,7 @@
 	}
 	UniformRotation
 	{
-		Period	8.8394
+		Period	17.6788
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.109
@@ -115,6 +119,9 @@
 # Secondary size from Sickafoose et al. (2019), Icarus 319, 657
 # "A stellar occultation by Vanth, a satellite of (90482) Orcus"
 # https://arxiv.org/abs/1810.08977
+# Masses from Brown and Butler (2023), Planet. Sci. J. 4, 193
+# "Masses and Densities of Dwarf Planet Satellites Measured with ALMA"
+# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..193B/abstract
 ReferencePoint "Orcus-Vanth" "Sol"
 {
 	EllipticalOrbit
@@ -141,6 +148,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 0.998 1.000 0.995 ]
 	BlendTexture	true
 	Radius	455
+	Mass	0.00009125921
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
@@ -173,6 +181,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 0.69 0.60 0.51 ]  # reddish; adjusted for albedo
 	BlendTexture	true
 	Radius	221.25
+	Mass	0.0000145680
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
@@ -207,6 +216,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	BlendTexture	true
 	Radius	615
 	Oblateness	0.03
+	Mass	0.0002930342
 	EllipticalOrbit
 	{
 		Epoch	2459000.5  # 2020 May 31

@@ -67,8 +67,9 @@
 #
 #
 # === Masses ===
-# Masses for the planets and the Moon are taken from the NASA planetary
-# factsheets at https://nssdc.gsfc.nasa.gov/planetary/factsheet/
+# Masses for objects in this file are taken from the NASA planetary
+# factsheets at https://nssdc.gsfc.nasa.gov/planetary/planetfact.html
+# unless specified.
 
 
 "Mercury" "Sol"
@@ -331,6 +332,12 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Mars"
 }
 
+# Densities and Deimos' mass from Ernst et al. (2023), Earth Planets Space 75, 103
+# "High-resolution shape models of Phobos and Deimos from stereophotoclinometry"
+# https://ui.adsabs.harvard.edu/abs/2023EP%26S...75..103E/abstract
+# Phobos' mass from Pätzold et al. (2014), Icarus 229, 92-98
+# "Phobos mass determination from the very close flyby of Mars Express in 2010"
+# https://ui.adsabs.harvard.edu/abs/2014Icar..229...92P/abstract
 "Phobos:Mars I" "Sol/Mars"
 {
 	Class	"minormoon"
@@ -339,6 +346,8 @@
 	Texture	"phobos.*"
 	Color	[ 1.0 0.98516 0.94386 ]
 	Radius	13.1
+	Mass	0.0000000017742578
+	Density	1861
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Mars" }
@@ -378,6 +387,8 @@
 	Texture	"deimos.*"
 	Color	[ 1.0 0.97168 0.93149 ]
 	Radius	7.8
+	Mass	0.0000000002533937
+	Density	1465
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Mars" }
@@ -416,7 +427,7 @@
 	Color	[ 1.0 0.98663 0.91433 ]
 	Radius	71492
 	Oblateness	0.06487
-	Mass 317.83
+	Mass	317.83
 	Atmosphere
 	{
 		Height	1000
@@ -472,6 +483,7 @@ AltSurface "2018 (Hubble)" "Sol/Jupiter"
 	Texture	"io.*"
 	Color	[ 1.0 0.94191 0.70074 ]
 	SemiAxes	[ 1829.4 1819.4 1815.7 ]
+	Mass	0.01495311
 	Atmosphere
 	{
 		Height	500
@@ -528,6 +540,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Io"
 	Texture	"europa.*"
 	Color	[ 1.0 0.95939 0.85366 ]
 	SemiAxes	[ 1562.6 1560.3 1559.5 ]
+	Mass	0.008037508
 	CustomOrbit	"europa"
 
 	# Overridden by CustomOrbit
@@ -577,6 +590,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Europa"
 	Texture	"ganymede.*"
 	Color	[ 1.0 0.96761 0.89281 ]
 	SemiAxes	[ 2634.5 2633 2631.5 ]
+	Mass	0.024815807
 	CustomOrbit	"ganymede"
 
 	# Overridden by CustomOrbit
@@ -626,6 +640,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Ganymede"
 	Texture	"callisto.*"
 	Color	[ 1.0 0.9573 0.86499 ]
 	SemiAxes	[ 2409.5 2409.5 2409 ]
+	Mass	0.018017415
 	CustomOrbit	"callisto"
 
 	# Overridden by CustomOrbit
@@ -720,6 +735,10 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	InfoURL	"https://en.wikipedia.org/wiki/Saturn"
 }
 
+# Masses and densities of major moons from Jacobson (2022), AJ 164, 199
+# "The Orbits of the Main Saturnian Satellites,
+# the Saturnian System Gravity Field, and the Orientation of Saturn's Pole"
+# https://ui.adsabs.harvard.edu/abs/2022AJ....164..199J/abstract
 "Mimas:Saturn I" "Sol/Saturn"
 {
 	Class	"moon"
@@ -727,6 +746,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Texture	"mimas.*"
 	Color	[ 0.983 1.0 0.983 ]
 	Radius	207.8
+	Mass	0.00000628087743
+	Density	1150.1
 	CustomOrbit	"mimas"
 
 	# Overridden by CustomOrbit
@@ -771,6 +792,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 0.984 1.0 0.984 ]
 	Radius	252.1
 	SemiAxes	[ 1.018 0.9972 0.9849 ]
+	Mass	0.0000180897187
+	Density	1609.7
 	CustomOrbit	"enceladus"
 
 	# Overridden by CustomOrbit
@@ -815,6 +838,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	NormalMap	"tethys-normal.*"
 	Color	[ 0.980 1.0 0.966 ]
 	SemiAxes	[ 538.4 528.7 526.3 ]
+	Mass	0.000103398510
+	Density	984.0
 	CustomOrbit	"tethys"
 
 	# Overridden by CustomOrbit
@@ -858,6 +883,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	NormalMap	"dione-normal.*"
 	Color	[ 0.990 1.0 0.989 ]
 	SemiAxes	[ 564.4 561.3 559.6 ]
+	Mass	0.000183437173
+	Density	1478.1
 	CustomOrbit	"dione"
 
 	# Overridden by CustomOrbit
@@ -901,6 +928,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	# NormalMap	"rhea-normal.*"
 	Color	[ 1.0 0.98264 0.94056 ]
 	SemiAxes	[ 766.2 762.8 762.2 ]
+	Mass	0.000386216577
+	Density	1237.2
 	CustomOrbit	"rhea"
 
 	# Overridden by CustomOrbit
@@ -945,6 +974,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	SpecularColor	[ 0.50 0.44 0.40 ]
 	SpecularPower	1000
 	SemiAxes	[ 2575.15 2574.78 2574.47 ]
+	Mass	0.0225247882
+	Density	1881.4
 	Atmosphere
 	{
 		Height	950
@@ -999,6 +1030,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Texture	"hyperion.*"
 	Color	[ 1.0 0.968 0.902 ]
 	Radius	180.1
+	Mass	0.000000929504354
+	Density	538.6
 	CustomOrbit	"hyperion"
 
 	# Overridden by CustomOrbit
@@ -1046,6 +1079,8 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	# NormalMap	"iapetus-normal.*"
 	Color	[ 0.993 1.0 0.976 ]
 	SemiAxes	[ 746 746 712 ]
+	Mass	0.000302354169
+	Density	1088.7
 	CustomOrbit	"iapetus"
 
 	# Overridden by CustomOrbit
@@ -1088,6 +1123,8 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	Mesh	"phoebe.cmod"
 	Texture	"phoebe.*"
 	Radius	109.4
+	Mass	0.00000139187877
+	Density	1642.8
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Saturn" }
@@ -1173,6 +1210,10 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	InfoURL	"https://en.wikipedia.org/wiki/Uranus"
 }
 
+# Masses of major moons from Jacobson (2014), AJ 148, 76
+# "The Orbits of the Uranian Satellites and Rings, the Gravity Field
+# of the Uranian System, and the Orientation of the Pole of Uranus"
+# https://ui.adsabs.harvard.edu/abs/2014AJ....148...76J/abstract
 "Miranda:Uranus V" "Sol/Uranus"
 {
 	Class	"moon"
@@ -1180,6 +1221,7 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	# NormalMap	"miranda-normal.*"
 	Color	[ 0.98357 0.98913 1.0 ]
 	SemiAxes	[ 240 234.2 232.9 ]
+	Mass	0.0000107880
 	CustomOrbit	"miranda"
 
 	# Overridden by CustomOrbit
@@ -1229,6 +1271,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Miranda"
 	# NormalMap	"ariel-normal.*"
 	Color	[ 1.0 1.0 0.999 ]
 	SemiAxes	[ 581.1 577.9 577.7 ]
+	Mass	0.0002094889
 	CustomOrbit	"ariel"
 
 	# Overridden by CustomOrbit
@@ -1279,6 +1322,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Ariel"
 	# NormalMap	"umbriel-normal.*"
 	Color	[ 1.0 0.99769 0.99749 ]
 	Radius	584.7
+	Mass	0.0002135030
 	CustomOrbit	"umbriel"
 
 	# Overridden by CustomOrbit
@@ -1329,6 +1373,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Umbriel"
 	# NormalMap	"titania-normal.*"
 	Color	[ 1.0 0.98945 0.97393 ]
 	Radius	788.4
+	Mass	0.00056925778
 	CustomOrbit	"titania"
 
 	# Overridden by CustomOrbit
@@ -1379,6 +1424,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Titania"
 	# NormalMap	"oberon-normal.*"
 	Color	[ 1.0 0.98881 0.97178 ]
 	Radius	761.4
+	Mass	0.00051506665
 	CustomOrbit	"oberon"
 
 	# Overridden by CustomOrbit
@@ -1429,7 +1475,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	Color	[ 0.78302 0.91535 1.0 ]
 	Radius	24764
 	Oblateness	0.0171
-	Mass 17.15
+	Mass	17.15
 	Atmosphere
 	{
 		Height	500
@@ -1480,6 +1526,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	Mesh	"proteus.cmod"
 	Texture	"proteus.*"
 	Radius	212
+	Mass	0.0000083724
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Neptune" }
@@ -1508,12 +1555,16 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	InfoURL	"https://en.wikipedia.org/wiki/Proteus_(moon)"
 }
 
+# Mass from Brozović and Jacobson (2022), AJ 163, 241
+# "Orbits of the Irregular Satellites of Uranus and Neptune"
+# https://ui.adsabs.harvard.edu/abs/2022AJ....163..241B/abstract
 "Triton:Neptune I" "Sol/Neptune"
 {
 	Class	"moon"
 	Texture	"triton.*"
 	Color	[ 1.0 0.99024 0.96338 ]
 	SemiAxes	[ 1354.6 1352.8 1352.4 ]
+	Mass	0.00358389042
 	Atmosphere
 	{
 		Height	32
@@ -1563,6 +1614,7 @@ AltSurface "Limit of knowledge" "Sol/Neptune/Triton"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	SemiAxes	[ 199 168 153 ]
+	Mass	0.0000050234
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Neptune" }
