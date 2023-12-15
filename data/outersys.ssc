@@ -25,6 +25,9 @@
 # Ring rotation axis from Pereira et al. (2023), A&A 673, 14
 # "The two rings of (50000) Quaoar"
 # https://ui.adsabs.harvard.edu/abs/2023A%26A...673L...4P/abstract
+# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
+# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "50000 Quaoar:Quaoar:2002 LM60" "Sol"
 {
 	Class	"asteroid"
@@ -61,6 +64,7 @@
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.109
+	BondAlbedo	0.057
 	InfoURL	"https://en.wikipedia.org/wiki/50000_Quaoar"
 }
 
@@ -450,6 +454,9 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/20000_Varuna"
 }
 
+# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
+# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "28978 Ixion:Ixion:2001 KX76" "Sol"
 {
 	Class	"asteroid"
@@ -474,6 +481,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.141
+	BondAlbedo	0.037
 	InfoURL	"https://en.wikipedia.org/wiki/28978_Ixion"
 }
 

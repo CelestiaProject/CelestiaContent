@@ -192,7 +192,7 @@
 		Rayleigh	[ 0.0054 0.0081 0.0167 ]
 		Absorption	[ 0.0027 0.0017 0.0002 ]
 		CloudHeight	7
-		# CloudSpeed	65
+		CloudSpeed	65
 		CloudMap	"earth-clouds.*"
 		CloudShadowDepth	1.0
 	}
@@ -302,7 +302,7 @@
 		Rayleigh	[ 0.00022 0.00034 0.00070 ]
 		Absorption	[ 0.0020 0.0020 0.0030 ]
 		CloudHeight	30
-		# CloudSpeed	32
+		CloudSpeed	32
 		CloudMap	"mars-clouds.*"
 	}
 	CustomOrbit	"vsop87-mars"
