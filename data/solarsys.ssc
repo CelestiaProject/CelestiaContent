@@ -72,6 +72,10 @@
 # unless specified.
 
 
+# Mass from Mazarico et al. (2014), JGR 119 12, 2417-2436
+# "The gravity field, orientation, and ephemeris of Mercury
+# from MESSENGER observations after three years in orbit"
+# https://ui.adsabs.harvard.edu/abs/2014JGRE..119.2417M/abstract
 "Mercury" "Sol"
 {
 	Class	"planet"
@@ -79,7 +83,7 @@
 	NormalMap	"mercury-normal.*"
 	Color	[ 1.0 0.95415 0.86031 ]
 	Radius	2439.7
-	Mass	0.0553
+	Mass	0.05527463117
 	CustomOrbit	"vsop87-mercury"
 
 	# Overridden by CustomOrbit
@@ -278,6 +282,9 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Moon"
 }
 
+# Mass from Klokočník et al. (2023), Icarus 406, 115729
+# "Gravity aspects for Mars"
+# https://ui.adsabs.harvard.edu/abs/2023Icar..40615729K/abstract
 "Mars" "Sol"
 {
 	Class	"planet"
@@ -286,7 +293,7 @@
 	Color	[ 1.0 0.79855 0.56429 ]
 	Radius	3396.2
 	Oblateness	0.00589
-	Mass	0.107
+	Mass	0.1074498999
 	Atmosphere
 	{
 		Height	80
@@ -746,7 +753,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Texture	"mimas.*"
 	Color	[ 0.983 1.0 0.983 ]
 	Radius	207.8
-	Mass	0.00000628087743
+	Mass	0.000006280877428
 	Density	1150.1
 	CustomOrbit	"mimas"
 
@@ -792,7 +799,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 0.984 1.0 0.984 ]
 	Radius	252.1
 	SemiAxes	[ 1.018 0.9972 0.9849 ]
-	Mass	0.0000180897187
+	Mass	0.00001808971869
 	Density	1609.7
 	CustomOrbit	"enceladus"
 
@@ -838,7 +845,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	NormalMap	"tethys-normal.*"
 	Color	[ 0.980 1.0 0.966 ]
 	SemiAxes	[ 538.4 528.7 526.3 ]
-	Mass	0.000103398510
+	Mass	0.0001033985097
 	Density	984.0
 	CustomOrbit	"tethys"
 
@@ -883,7 +890,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	NormalMap	"dione-normal.*"
 	Color	[ 0.990 1.0 0.989 ]
 	SemiAxes	[ 564.4 561.3 559.6 ]
-	Mass	0.000183437173
+	Mass	0.0001834371735
 	Density	1478.1
 	CustomOrbit	"dione"
 
@@ -928,7 +935,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	# NormalMap	"rhea-normal.*"
 	Color	[ 1.0 0.98264 0.94056 ]
 	SemiAxes	[ 766.2 762.8 762.2 ]
-	Mass	0.000386216577
+	Mass	0.0003862165774
 	Density	1237.2
 	CustomOrbit	"rhea"
 
@@ -974,7 +981,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	SpecularColor	[ 0.50 0.44 0.40 ]
 	SpecularPower	1000
 	SemiAxes	[ 2575.15 2574.78 2574.47 ]
-	Mass	0.0225247882
+	Mass	0.02252478825
 	Density	1881.4
 	Atmosphere
 	{
@@ -1079,7 +1086,7 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	# NormalMap	"iapetus-normal.*"
 	Color	[ 0.993 1.0 0.976 ]
 	SemiAxes	[ 746 746 712 ]
-	Mass	0.000302354169
+	Mass	0.0003023541695
 	Density	1088.7
 	CustomOrbit	"iapetus"
 

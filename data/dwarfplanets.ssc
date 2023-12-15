@@ -10,6 +10,9 @@
 # Masses of Nix and Hydra from Porter and Canup (2023), Planet. Sci. J. 4, 120
 # "Orbits and Masses of the Small Satellites of Pluto"
 # https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..120P/abstract
+# Bond albedos from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
+# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 ReferencePoint "Pluto-Charon" "Sol"
 {
 	# CustomOrbit "pluto"
@@ -73,7 +76,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.575
-	BondAlbedo	0.72
+	BondAlbedo	0.41
 	InfoURL	"https://en.wikipedia.org/wiki/Pluto"
 }
 
@@ -308,7 +311,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 
 # Masses from Ragozzine and Brown (2009), AJ 137, 4766
 # "Orbits and Masses of the Satellites of the Dwarf Planet Haumea (2003 EL61)"
-# https://ui.adsabs.harvard.edu/abs/2009AJ....137.4766R/abstract?bbbRedirect=1
+# https://ui.adsabs.harvard.edu/abs/2009AJ....137.4766R/abstract
 "Haumea:136108 Haumea:2003 EL61" "Sol"
 {
 	Class	"dwarfplanet"
@@ -410,6 +413,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 # Mass for Makemake from Parker et al. (2018)
 # "The Mass, Density, and Figure of the Kuiper Belt Dwarf Planet Makemake"
 # https://ui.adsabs.harvard.edu/abs/2018DPS....5050902P/abstract
+# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
+# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "Makemake:136472 Makemake:2005 FY9" "Sol"
 {
 	Class	"dwarfplanet"
@@ -436,6 +442,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.81
+	BondAlbedo	0.74
 	InfoURL	"https://en.wikipedia.org/wiki/Makemake"
 }
 
@@ -470,6 +477,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 # "Synchronous Rotation in the (136199) Eris-Dysnomia System"
 # https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..115B/abstract
 # (Orientation assumes tidal locking with Dysnomia.)
+# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
+# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "Eris:136199 Eris:2003 UB313" "Sol"
 {
 	Class	"dwarfplanet"
@@ -492,11 +502,12 @@ ReferencePoint "Pluto-Charon" "Sol"
 	UniformRotation
 	{
 		Period	378.504
-		Inclination	61.58851152
-		AscendingNode	139.1166176
+		Inclination	61.59
+		AscendingNode	139.12
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.96
+	BondAlbedo	0.99
 	InfoURL	"https://en.wikipedia.org/wiki/Eris_(dwarf_planet)"
 }
 
@@ -524,8 +535,8 @@ ReferencePoint "Pluto-Charon" "Sol"
 	UniformRotation
 	{
 		Period	378.861576
-		Inclination	61.58851152
-		AscendingNode	139.1166176
+		Inclination	61.59
+		AscendingNode	139.12
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.04

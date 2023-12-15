@@ -19,9 +19,15 @@
 # "The Size, Shape, Albedo, Density, and Atmospheric Limit of Transneptunian Object
 # (50000) Quaoar from Multi-chord Stellar Occultations"
 # https://iopscience.iop.org/article/10.1088/0004-637X/773/1/26
-# Mass and rotation period from Morgado et al. (2023), Nature 614, 239–243
+# Mass, radii, and rotation period from Morgado et al. (2023), Nature 614, 239–243
 # "A dense ring of the trans-Neptunian object Quaoar outside its Roche limit"
 # https://ui.adsabs.harvard.edu/abs/2023Natur.614..239M/abstract
+# Ring rotation axis from Pereira et al. (2023), A&A 673, 14
+# "The two rings of (50000) Quaoar"
+# https://ui.adsabs.harvard.edu/abs/2023A%26A...673L...4P/abstract
+# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
+# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "50000 Quaoar:Quaoar:2002 LM60" "Sol"
 {
 	Class	"asteroid"
@@ -29,8 +35,8 @@
 	Texture	"asteroid.*"
 	Color	[ 1.000 0.893 0.787 ]
 	BlendTexture	true
-	Radius	569  # equatorial
-	Oblateness	0.0897
+	Radius	579.5  # equatorial
+	Oblateness	0.12	# projected
 	Mass	0.0002009377
 	EllipticalOrbit
 	{
@@ -43,12 +49,22 @@
 		ArgOfPericenter	146.461981388786
 		MeanAnomaly	300.65535440942
 	}
-	UniformRotation
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation	# assume alignment of ring and equator
 	{
 		Period	17.6788
+		Inclination	36.55
+		AscendingNode	349.82
+	}
+	Rings
+	{
+		Inner	2515
+		Outer	4087
+		Texture	"quaoar-rings.*"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.109
+	BondAlbedo	0.057
 	InfoURL	"https://en.wikipedia.org/wiki/50000_Quaoar"
 }
 
@@ -438,6 +454,9 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/20000_Varuna"
 }
 
+# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
+# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "28978 Ixion:Ixion:2001 KX76" "Sol"
 {
 	Class	"asteroid"
@@ -462,6 +481,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.141
+	BondAlbedo	0.037
 	InfoURL	"https://en.wikipedia.org/wiki/28978_Ixion"
 }
 
