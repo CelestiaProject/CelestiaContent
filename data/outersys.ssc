@@ -946,8 +946,8 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	UniformRotation
 	{
 		Period	14.251
-		Inclination	31.6 # assume no inclination on 2023-08-08
-		AscendingNode	292.2
+		Inclination	120.8  # assume no inclination on 2023-08-08
+		AscendingNode	105.6
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.1
