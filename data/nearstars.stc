@@ -54,6 +54,7 @@ Barycenter "Solar System Barycenter:SSB"
 	AbsMag 4.83
 	Temperature 5772
 	BoloCorrection -0.08
+	InfoURL "https://en.wikipedia.org/wiki/Sun"
 
 	UniformRotation
 	{
@@ -71,6 +72,7 @@ Barycenter "Solar System Barycenter:SSB"
 	Distance 4.2465 # 768.0665 +/- 0.0499 mas
 	SpectralType "M5.5Ve"
 	AppMag 11.09
+	InfoURL "https://en.wikipedia.org/wiki/Proxima_Centauri"
 }
 
 # Akeson et al. (2021), AJ 162 (1), 14
@@ -89,6 +91,7 @@ Barycenter "ALF Cen:Gliese 559"
 	SpectralType "G2V"
 	AppMag 0.01
 	Radius 847000
+	InfoURL "https://en.wikipedia.org/wiki/Alpha_Centauri"
  
 	EllipticalOrbit {              # fully specified orientation
 		Period          79.762
@@ -107,6 +110,7 @@ Barycenter "ALF Cen:Gliese 559"
 	SpectralType "K1V"
 	AppMag 1.33
 	Radius 597700
+	InfoURL "https://en.wikipedia.org/wiki/Alpha_Centauri"
 
 	EllipticalOrbit {              # fully specified orientation
 		Period          79.762
@@ -126,6 +130,7 @@ Barycenter "ALF Cen:Gliese 559"
 	Distance 5.9629 # 546.9759 +/- 0.0401 mas
 	SpectralType "M4V"
 	AppMag 9.511
+	InfoURL "https://en.wikipedia.org/wiki/Barnard%27s_Star"
 }
 
 # Lazorenko & Sahlmann (2018), A&A 618, A111
@@ -195,6 +200,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 	SpectralType "Y4"
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/WISE_0855%E2%88%920714"
 }
 
 "CN Leo:Gliese 406:Wolf 359"
@@ -204,6 +210,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 	Distance 7.8558 # 415.1794 +/- 0.0684 mas
 	SpectralType "M6V"
 	AppMag 13.507
+	InfoURL "https://en.wikipedia.org/wiki/Wolf_359"
 }
 
 54035 # Lalande 21185
@@ -213,6 +220,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 	Distance 8.3044 # 392.7529 +/- 0.0321 mas
 	SpectralType "M2V"
 	AppMag 7.520
+	InfoURL "https://en.wikipedia.org/wiki/Lalande_21185"
 }
 
 # Parameters from Bond et al. (2017), ApJ 840 (2), 70
@@ -232,6 +240,7 @@ Barycenter 32349 "Sirius:Alhabor:ALF CMa:9 CMa:Gliese 244:ADS 5423"
 	SpectralType "A1V"
 	AppMag -1.46
 	Radius 1192700
+	InfoURL "https://en.wikipedia.org/wiki/Sirius#Sirius_A"
 
 	EllipticalOrbit {              # fully specified orientation
 		Period         50.1284
@@ -250,6 +259,7 @@ Barycenter 32349 "Sirius:Alhabor:ALF CMa:9 CMa:Gliese 244:ADS 5423"
 	SpectralType "DA2"
 	AppMag 8.44
 	Radius 5634
+	InfoURL "https://en.wikipedia.org/wiki/Sirius#Sirius_B"
 
 	EllipticalOrbit {              # fully specified orientation
 		Period         50.1284
@@ -280,6 +290,7 @@ Barycenter "Gliese 65:Luyten 726-8"
 	SpectralType "M5.5V"
 	AppMag 12.7
 	Radius 114790
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_65"
 
 	EllipticalOrbit {              # fully specified orbit
 		Period          26.284
@@ -300,6 +311,7 @@ Barycenter "Gliese 65:Luyten 726-8"
 	SpectralType "M6V"
 	AppMag 13.2
 	Radius 110600
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_65"
 
 	EllipticalOrbit {              # fully specified orbit
 		Period          26.284
@@ -321,6 +333,7 @@ Barycenter "Gliese 65:Luyten 726-8"
 	Distance 9.7063 # 336.0266 +/- 0.0317 mas
 	SpectralType "M3.5Ve"
 	AppMag 10.495
+	InfoURL "https://en.wikipedia.org/wiki/Ross_154"
 }
 
 "HH And:Gliese 905:Ross 248"
@@ -330,6 +343,7 @@ Barycenter "Gliese 65:Luyten 726-8"
 	Distance 10.3057 # 316.4812 +/- 0.0444 mas
 	SpectralType "M5.0V"
 	AppMag 12.28
+	InfoURL "https://en.wikipedia.org/wiki/Ross_248"
 }
 
 16537 # Eps Eri
@@ -357,6 +371,7 @@ Barycenter "Gliese 65:Luyten 726-8"
 	Distance 10.7241 # 304.1354 +/- 0.0200 mas
 	SpectralType "M2V"
 	AppMag 7.34
+	InfoURL "https://en.wikipedia.org/wiki/Lacaille_9352"
 }
 
 57548 # Ross 128
@@ -366,6 +381,7 @@ Barycenter "Gliese 65:Luyten 726-8"
 	Distance 11.0074 # 296.3053 +/- 0.0302 mas
 	SpectralType "M4V"
 	AppMag 11.153
+	InfoURL "https://en.wikipedia.org/wiki/Ross_128"
 }
 
 # Segransan et al. (2000), A&A 364, 665
@@ -398,6 +414,7 @@ Barycenter "Gliese 866 A:Luyten 789-6 A"
 	OrbitBarycenter "Gliese 866 A"
 	SpectralType "M5V"
 	AppMag 13.03
+	InfoURL "https://en.wikipedia.org/wiki/EZ_Aquarii"
 
 	EllipticalOrbit {
 		Period          0.01037 # 3.786516 d
@@ -505,6 +522,7 @@ Barycenter 37279 "Procyon:Elgomaisa:ALF CMi:10 CMi:Gliese 280:ADS 6251"
 	OrbitBarycenter "Procyon"
 	SpectralType "F5IV"
 	AppMag 0.37
+	InfoURL "https://en.wikipedia.org/wiki/Procyon"
 
 	EllipticalOrbit {             # fully specified orientation
 		Period         40.844
@@ -524,6 +542,7 @@ Barycenter 37279 "Procyon:Elgomaisa:ALF CMi:10 CMi:Gliese 280:ADS 6251"
 	Temperature 7740
 	Radius 8571
 	AppMag 10.82
+	InfoURL "https://en.wikipedia.org/wiki/Procyon#Procyon_B"
 
 	EllipticalOrbit {              # fully specified orientation
 		Period          40.844
@@ -552,6 +571,7 @@ Barycenter "Gliese 725:Struve 2398:ADS 11632"
 	OrbitBarycenter "ADS 11632"
 	SpectralType "M3V"
 	AppMag 8.91
+	InfoURL "https://en.wikipedia.org/wiki/Struve_2398"
 
 	EllipticalOrbit {
 		Period            408
@@ -569,6 +589,7 @@ Barycenter "Gliese 725:Struve 2398:ADS 11632"
 	OrbitBarycenter "ADS 11632"
 	SpectralType "M3.5V"
 	AppMag 9.69
+	InfoURL "https://en.wikipedia.org/wiki/Struve_2398"
 
 	EllipticalOrbit {
 		Period           408
@@ -598,6 +619,7 @@ Barycenter 1475 "Gliese 15:Groombridge 34:ADS 246"
 	SpectralType "M2V"
 	AppMag 8.13
 	Radius 264400
+	InfoURL "https://en.wikipedia.org/wiki/Groombridge_34"
 
 	EllipticalOrbit {
 		Period         1230
@@ -635,6 +657,7 @@ Barycenter 1475 "Gliese 15:Groombridge 34:ADS 246"
 	Distance 11.6797 # 279.2496 +/- 0.0637 mas
 	SpectralType "M6.5V"
 	AppMag 14.81
+	InfoURL "https://en.wikipedia.org/wiki/DX_Cancri"
 }
 
 Barycenter "EPS Ind:Gliese 845" # orbit of A & B components unknown
@@ -710,6 +733,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B:GJ 13185"
 	SpectralType "G8V"
 	AppMag 3.50
 	Radius 552000 # 0.793 +/- 0.004 Sol (Teixeira et al. 2009)
+	InfoURL "https://en.wikipedia.org/wiki/Tau_Ceti"
 
 	UniformRotation
 	{
@@ -724,6 +748,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B:GJ 13185"
 	Distance 11.9839 # 272.1615 +/- 0.0316 mas
 	SpectralType "M5.5V"
 	AppMag 13.03
+	InfoURL "https://en.wikipedia.org/wiki/GJ_1061"
 }
 
 5643 # YZ Cet
@@ -733,6 +758,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B:GJ 13185"
 	Distance 12.1222 # 269.0573 +/- 0.0337 mas
 	SpectralType "M4.0Ve"
 	AppMag 12.074
+	InfoURL "https://en.wikipedia.org/wiki/YZ_Ceti"
 }
 
 36208 # Luyten's Star
@@ -742,6 +768,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B:GJ 13185"
 	Distance 12.3485 # 264.1269 +/- 0.0413 mas
 	SpectralType "M3.5V"
 	AppMag 9.872
+	InfoURL "https://en.wikipedia.org/wiki/Luyten%27s_Star"
 }
 
 "Teegarden's Star:SO0253+1652:SO025300.5+165258:GJ 10393"
@@ -751,6 +778,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B:GJ 13185"
 	Distance 12.4970 # 260.9884 +/- 0.0934 mas
 	SpectralType "M7.0V"
 	AppMag 15.40
+	InfoURL "https://en.wikipedia.org/wiki/Teegarden%27s_Star"
 }
 
 24186 # Kapteyn's Star
@@ -760,6 +788,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B:GJ 13185"
 	Distance 12.8308 # 254.1986 +/- 0.0168 mas
 	SpectralType "M1VI"
 	AppMag 8.853
+	InfoURL "https://en.wikipedia.org/wiki/Kapteyn%27s_Star"
 }
 
 105090 # Lacaille 8760
@@ -769,6 +798,7 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B:GJ 13185"
 	Distance 12.9472 # 251.9124 +/- 0.0352 mas
 	SpectralType "M1V"
 	AppMag 6.68
+	InfoURL "https://en.wikipedia.org/wiki/Lacaille_8760"
 }
 
 # Used Gaia EDR3 parallax for A
@@ -787,6 +817,7 @@ Barycenter "SCR 1845-6357:GJ 12724"
 	OrbitBarycenter "SCR 1845-6357"
 	SpectralType "M8.5V"
 	AppMag 17.40
+	InfoURL "https://en.wikipedia.org/wiki/SCR_1845%E2%88%926357"
 
 	EllipticalOrbit {
 		Period 		24  # estimate
@@ -800,6 +831,7 @@ Barycenter "SCR 1845-6357:GJ 12724"
 	OrbitBarycenter "SCR 1845-6357"
 	SpectralType "T6V"
 	AbsMag 33.5 # for approximate radius in Celestia
+	InfoURL "https://en.wikipedia.org/wiki/SCR_1845%E2%88%926357"
 
 	EllipticalOrbit {
 		Period 		24  # estimate
@@ -819,6 +851,7 @@ Barycenter 110893 "Gliese 860:Kruger 60:ADS 15972"
 	OrbitBarycenter "Kruger 60"
 	SpectralType "M3V"
 	AppMag 9.93
+	InfoURL "https://en.wikipedia.org/wiki/Kruger_60"
 
 	EllipticalOrbit {
 		Period          44.581
@@ -836,6 +869,7 @@ Barycenter 110893 "Gliese 860:Kruger 60:ADS 15972"
 	OrbitBarycenter "Kruger 60"
 	SpectralType "M4V"
 	AppMag 11.41
+	InfoURL "https://en.wikipedia.org/wiki/Kruger_60"
 
 	EllipticalOrbit {
 		Period          44.67
@@ -855,6 +889,7 @@ Barycenter 110893 "Gliese 860:Kruger 60:ADS 15972"
 	Distance 13.1932 # 247.2156 +/- 0.0512 mas
 	SpectralType "M9V"
 	AppMag 17.532
+	InfoURL "https://en.wikipedia.org/wiki/DENIS_J1048%E2%88%923956"
 }
 
 # parallax from Leggett et al. (2012), ApJ 748 (2), 74
@@ -870,6 +905,7 @@ Barycenter 110893 "Gliese 860:Kruger 60:ADS 15972"
 	Temperature 505
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/UGPS_J072227.51%E2%88%92054031.2"
 }
 
 # masses and parallaxes from Benedict et al. (2016), AJ 152 (5), 141
@@ -888,6 +924,7 @@ Barycenter 30920 "Gliese 234:Ross 614"
 	OrbitBarycenter "Ross 614"
 	SpectralType "M4.5V"
 	AppMag 11.15
+	InfoURL "https://en.wikipedia.org/wiki/Ross_614"
 
 	EllipticalOrbit {              # fully specified orientation
 		Period           16.63
@@ -933,6 +970,7 @@ Barycenter "Gliese 473:Wolf 424"
 	OrbitBarycenter "Wolf 424"
 	SpectralType "M5.5V"
 	AppMag 13.18
+	InfoURL "https://en.wikipedia.org/wiki/Wolf_424"
 
 	EllipticalOrbit {
 		Period          15.81
@@ -950,6 +988,7 @@ Barycenter "Gliese 473:Wolf 424"
 	OrbitBarycenter "Wolf 424"
 	SpectralType "M5.5V"
 	AppMag 13.17
+	InfoURL "https://en.wikipedia.org/wiki/Wolf_424"
 
 	EllipticalOrbit {
 		Period           15.81
@@ -969,6 +1008,7 @@ Barycenter "Gliese 473:Wolf 424"
 	Distance 14.0500 # 232.1390 +/- 0.0268 mas
 	SpectralType "M3V"
 	AppMag 10.072
+	InfoURL "https://en.wikipedia.org/wiki/Wolf_1061"
 }
 
 3829 # van Maanen's Star
@@ -978,6 +1018,7 @@ Barycenter "Gliese 473:Wolf 424"
 	Distance 14.0718 # 231.7800 +/- 0.0183 mas
 	SpectralType "DZ7.5"
 	AppMag 12.374
+	InfoURL "https://en.wikipedia.org/wiki/Van_Maanen_2"
 }
 
 439 # Gliese 1
@@ -987,6 +1028,7 @@ Barycenter "Gliese 473:Wolf 424"
 	Distance 14.1747 # 230.0970 +/- 0.0362 mas
 	SpectralType "M2V"
 	AppMag 8.562
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_1"
 }
 
 "TZ Ari:Gliese 83.1:GJ 9066:Luyten 1159-16"
@@ -996,6 +1038,7 @@ Barycenter "Gliese 473:Wolf 424"
 	Distance 14.5780 # 223.7321 +/- 0.0699 mas
 	SpectralType "M4.5V"
 	AppMag 12.298
+	InfoURL "https://en.wikipedia.org/wiki/TZ_Arietis"
 }
 
 86162 # Gliese 687
@@ -1005,6 +1048,7 @@ Barycenter "Gliese 473:Wolf 424"
 	Distance 14.8395 # 219.7898 +/- 0.0210 mas
 	SpectralType "M3.0V"
 	AppMag 9.15
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_687"
 }
 
 85523 # Gliese 674
@@ -1014,6 +1058,7 @@ Barycenter "Gliese 473:Wolf 424"
 	Distance 14.8492 # 219.6463 +/- 0.0262 mas
 	SpectralType "M3V"
 	AppMag 9.407
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_674"
 }
 
 # parameters from Kirkpatrick et al. (2021)
@@ -1026,6 +1071,7 @@ Barycenter "Gliese 473:Wolf 424"
 	Temperature 412
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/WISE_1639%E2%88%926847"
 }
 
 "GJ 3622:LP 731-58"
@@ -1035,6 +1081,7 @@ Barycenter "Gliese 473:Wolf 424"
 	Distance 14.8706 # 219.3302 +/- 0.0602 mas
 	SpectralType "M6.5V"
 	AppMag 15.784
+	InfoURL "https://en.wikipedia.org/wiki/LHS_292"
 }
 
 57367 # Luyten 145-141
@@ -1126,6 +1173,7 @@ Barycenter "GJ 1245 A"
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
 	RotationPeriod 2
+	InfoURL "https://en.wikipedia.org/wiki/WISEPA_J174124.26%2B255319.5"
 }
 
 113020 # Gliese 876
@@ -1135,6 +1183,7 @@ Barycenter "GJ 1245 A"
 	Distance 15.2382 # 214.0380 +/- 0.0356 mas
 	SpectralType "M3.5V"
 	AppMag 10.192
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_876"
 }
 
 "GJ 3618:Luyten 143-23"
@@ -1144,6 +1193,7 @@ Barycenter "GJ 1245 A"
 	Distance 15.7586 # 206.9698 +/- 0.0448 mas 
 	SpectralType "M5.0V"
 	AppMag 13.920
+	InfoURL "https://en.wikipedia.org/wiki/LHS_288"
 }
 
 "GJ 1002"
@@ -1154,6 +1204,7 @@ Barycenter "GJ 1245 A"
 	SpectralType "M5.5V"
 	Radius 122000 # approx. for class
 	AppMag 13.837
+	InfoURL "https://en.wikipedia.org/wiki/GJ_1002"
 }
 
 "DENIS 0255-4700:DENIS-P J025503.5-470050:2MASS 0255-4700:2MASS J02550357-4700509:GJ 10402"
@@ -1173,6 +1224,7 @@ Barycenter "GJ 1245 A"
 	Distance 15.8857 # 205.3148 +/- 0.0224 mas
 	SpectralType "K6Ve"
 	AppMag 6.61
+	InfoURL "https://en.wikipedia.org/wiki/Groombridge_1618"
 }
 
 # masses from Mann et al. (2015), ApJ 804 (1), 64
@@ -1212,6 +1264,7 @@ Barycenter 54211 "Gliese 412:Lalande 21258" # orbits of A & B unknown
 	SpectralType "M4Vae"
 	Radius 180000 # approx. for class
 	AppMag 9.52
+	InfoURL "https://en.wikipedia.org/wiki/AD_Leonis"
 }
 
 106440 # Gliese 832
@@ -1222,6 +1275,7 @@ Barycenter 54211 "Gliese 412:Lalande 21258" # orbits of A & B unknown
 	SpectralType "M2V"
 	Radius 306000 # approx. for class
 	AppMag 8.672
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_832"
 }
 
 86214 # Gliese 682
@@ -1232,6 +1286,7 @@ Barycenter 54211 "Gliese 412:Lalande 21258" # orbits of A & B unknown
 	SpectralType "M3.5V"
 	Radius 180000 # approx. for class
 	AppMag 10.946
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_682"
 }
 
 # mass of component A from Ma et al. (2018), MNRAS 480 (2), 2411
@@ -1252,6 +1307,7 @@ Barycenter 19849 "Keid:OMI2 Eri:40 Eri:Gliese 166:ADS 3093" # Orbits of A & (BC)
 	Distance 16.3398 # 199.6080 +/- 0.1208 mas
 	SpectralType "K0V"
 	AppMag 4.43
+	InfoURL "https://en.wikipedia.org/wiki/40_Eridani"
 }
 
 Barycenter "Keid BC:OMI2 Eri BC:40 Eri BC:Gliese 166 BC"
@@ -1271,6 +1327,7 @@ Barycenter "Keid BC:OMI2 Eri BC:40 Eri BC:Gliese 166 BC"
 	SpectralType "DA3"
 	Radius 9100
 	AppMag 9.53
+	InfoURL "https://en.wikipedia.org/wiki/40_Eridani"
 
 	EllipticalOrbit {	
 		Period         222.74
@@ -1289,6 +1346,7 @@ Barycenter "Keid BC:OMI2 Eri BC:40 Eri BC:Gliese 166 BC"
 	SpectralType "M4.5V"
 	Radius 180000 # approx. for class
 	AppMag 11.17
+	InfoURL "https://en.wikipedia.org/wiki/40_Eridani"
 
 	EllipticalOrbit {
 		Period          222.74
@@ -1309,6 +1367,7 @@ Barycenter "Keid BC:OMI2 Eri BC:40 Eri BC:Gliese 166 BC"
 	SpectralType "M4.0V"
 	Radius 225000 # approx. for class
 	AppMag 10.26
+	InfoURL "https://en.wikipedia.org/wiki/EV_Lacertae"
 }
 
 # Eggenberger et al. (2008), A&A 482 (2), 631
@@ -1368,6 +1427,7 @@ Barycenter 88601 "70 Oph:Gliese 702:Struve 2272:ADS 11046"
 	Radius 1396700 # equatorial radius
 
 	SemiAxes [ 1 0.779 1 ] # equatorial radius 28.3% greater than polar
+	InfoURL "https://en.wikipedia.org/wiki/Altair"
 
 	UniformRotation
 	{
@@ -1392,6 +1452,7 @@ Barycenter "GJ 1116"
 	OrbitBarycenter "GJ 1116"
 	SpectralType "M8Ve"
 	AppMag 13.93
+	InfoURL "https://en.wikipedia.org/wiki/G_9-38"
 
 	EllipticalOrbit {
 		Period          134.4
@@ -1435,6 +1496,7 @@ Barycenter "GJ 1116"
 	Radius 60000 # approx.
 	RotationPeriod 1.74
 	Temperature 1000
+	InfoURL "https://en.wikipedia.org/wiki/WISE_1506%2B7027"
 }
 
 1006050134 "GJ 3379:Giclas 99-49"
@@ -1445,6 +1507,7 @@ Barycenter "GJ 1116"
 	SpectralType "M3.5Ve"
 	Radius 225000 # approx. for class
 	AppMag 11.31
+	InfoURL "https://en.wikipedia.org/wiki/GJ_3379"
 }
 
 "WISE 0817-6155:WISEP J081729.74-615504.1:GJ 11204"
@@ -1464,6 +1527,7 @@ Barycenter "GJ 1116"
 	SpectralType "M4.0Ve"
 	Radius 181000 # approx. for class
 	AppMag 10.84
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_445"
 }
 
 # magnitude from Perez Garrido et al. (2014), A&A 567, A6
@@ -1514,6 +1578,7 @@ Barycenter "GJ 1116"
 	SpectralType "M4.0Ve"
 	Radius 180000 # approx. for class
 	AppMag 12.196
+	InfoURL "https://en.wikipedia.org/wiki/GJ_3323"
 }
 
 67155 # Lalande 25372
@@ -1524,6 +1589,7 @@ Barycenter "GJ 1116"
 	SpectralType "M2V"
 	Radius 306000 # approx. for class
 	AppMag 8.50
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_526"
 }
 
 # parameters from Sahu et al. (2017), Science 356 (6342), 1046
@@ -1546,6 +1612,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	SpectralType "M4V"
 	Radius 180000 # approx. for class
 	AppMag 10.977
+	InfoURL "https://en.wikipedia.org/wiki/Stein_2051"
 }
 
 1020623744 "Gliese 169.1 B:Stein 2051 B"
@@ -1557,6 +1624,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	Temperature 7122
 	Radius 7900
 	AppMag 11.19
+	InfoURL "https://en.wikipedia.org/wiki/Stein_2051"
 }
 
 # coordinates, parallax from Dupuy & Liu (2012), ApJS 201 (2), 19
@@ -1575,6 +1643,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	Temperature 680
 	Radius 64000
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/2MASS_J11145133%E2%88%922618235"
 }
 
 33226 # Wolf 294
@@ -1585,6 +1654,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	SpectralType "M3V"
 	Radius 270000 # approx. for class
 	AppMag 10.11
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_251"
 }
 
 103039 # LP 816-60
@@ -1595,6 +1665,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	SpectralType "M4V"
 	Radius 181000 # approx. for class
 	AppMag 11.458
+	InfoURL "https://en.wikipedia.org/wiki/LP_816-60"
 }
 
 # parameters from Kirkpatrick et al. (2021)
@@ -1607,6 +1678,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	Temperature 388
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/WISE_0350%E2%88%925658"
 }
 
 "2MASS 1835+3259:2MASS J18353790+3259545:GJ 12692"
@@ -1617,6 +1689,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	SpectralType "M8.5V"
 	Radius 66000 # approx. for class
 	AppMag 18.27
+	InfoURL "https://en.wikipedia.org/wiki/LSR_J1835%2B3259"
 }
 
 25878 # Wolf 1453
@@ -1627,6 +1700,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	SpectralType "M1.5Ve"
 	Radius 324000 # approx. for class
 	AppMag 7.968
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_205"
 }
 
 # coordinates, parallax from Dupuy & Liu (2012), ApJS 201 (2), 19
@@ -1641,6 +1715,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	Temperature 750
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/2MASS_J04151954%E2%88%920935066"
 }
 
 # Brandt et al. (2021), AJ 162 (6), 301
@@ -1659,6 +1734,7 @@ Barycenter 29295 "Gliese 229:Luyten 668-21:LPM 230"
 	SpectralType "M1V"
 	AppMag 8.125
 	Radius 341000 # approx. for class
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_229"
 
 	EllipticalOrbit {             # fully specified orbit
 		Period          237.9
@@ -1676,6 +1752,7 @@ Barycenter 29295 "Gliese 229:Luyten 668-21:LPM 230"
 	OrbitBarycenter "Gliese 229"
 	SpectralType "T6.5V"
 	AbsMag 33.5 # for approximate radius in Celestia
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_229#Brown_dwarf"
 
 	EllipticalOrbit {             # fully specified orbit
 		Period          237.9
@@ -1705,6 +1782,7 @@ Barycenter 29295 "Gliese 229:Luyten 668-21:LPM 230"
 	SpectralType "M4V"
 	Radius 180000 # approx. for class
 	AppMag 11.509
+	InfoURL "https://en.wikipedia.org/wiki/Ross_47"
 }
 
 # Used Gaia EDR3 parallax for A
@@ -1725,6 +1803,7 @@ Barycenter "Gliese 570:ADS 9446"
 	SpectralType "K4V"
 	AppMag 5.64
 	Radius 514100
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_570"
 
 	EllipticalOrbit {             # fully specified orientation
 		Period           2130
@@ -1801,6 +1880,7 @@ Barycenter 73182 "Gliese 570 BC"
 	Temperature 786
 	Radius 64000
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_570"
 }
 
 86990 # Luyten 205-128
@@ -1821,6 +1901,7 @@ Barycenter 73182 "Gliese 570 BC"
 	SpectralType "M4.5V"
 	Radius 180000 # approx. for class
 	AppMag 12.23
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_754"
 }
 
 117473 # Gliese 908
@@ -1831,6 +1912,7 @@ Barycenter 73182 "Gliese 570 BC"
 	SpectralType "M1V"
 	Radius 341000 # approx. for class
 	AppMag 8.993
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_908"
 }
 
 # Parameters of A from Karminski et al. (2018), A&A 618, A115
@@ -1857,6 +1939,7 @@ Barycenter 94761 "Gliese 752:Ross 652:Wolf 1055" # orbit of A & B unknown
 	Radius 315000
 	AppMag 9.115
 	RotationPeriod 1105
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_752"
 }
 
 "Van Biesbroeck's Star:V1298 Aql:Gliese 752 B:Ross 652 B:Wolf 1055 B:VB 10:HD 180617 B"
@@ -1867,6 +1950,7 @@ Barycenter 94761 "Gliese 752:Ross 652:Wolf 1055" # orbit of A & B unknown
 	SpectralType "M8.0V"
 	Radius 86000
 	AppMag 17.30
+	InfoURL "https://en.wikipedia.org/wiki/VB_10"
 }
 
 76074 # Gliese 588
@@ -1877,6 +1961,7 @@ Barycenter 94761 "Gliese 752:Ross 652:Wolf 1055" # orbit of A & B unknown
 	SpectralType "M2.5V"
 	Radius 290000 # approx. for class
 	AppMag 9.311
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_588"
 }
 
 Barycenter 3821 "Achird:ETA Cas:24 Cas:Gliese 34:ADS 671"
@@ -1979,6 +2064,7 @@ Barycenter 84405 "Guniibuu AB:36 Oph AB:Gliese 663 AB"
 	Distance 19.4185 # 167.9617 +/- 0.0311 mas
 	SpectralType "K5V"
 	AppMag 6.34
+	InfoURL "https://en.wikipedia.org/wiki/36_Ophiuchi"
 }
 
 37766 # Ross 882
@@ -2004,6 +2090,7 @@ Barycenter 84405 "Guniibuu AB:36 Oph AB:Gliese 663 AB"
 	Temperature 350
 	Radius 69900
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/WISE_1541%E2%88%922250"
 }
 
 # masses and parallaxes from Benedict et al. (2016), AJ 152 (5), 141
@@ -2084,6 +2171,7 @@ Barycenter 99461 "Gliese 783:CD-36 13940:J Herschel 5173:HJ 5173" # orbit of A &
 	Distance 19.7045 # 165.5242 +/- 0.0784 mas
 	SpectralType "G6V"
 	AppMag 4.27
+	InfoURL "https://en.wikipedia.org/wiki/82_G._Eridani"
 }
 
 # Barry et al. (2012), ApJ 760 (1), 55
@@ -2101,6 +2189,7 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	OrbitBarycenter "Gliese 268"
 	SpectralType "M4.5V"
 	AppMag 12.05
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_268"
 
 	EllipticalOrbit {              # fully specified orbit
 		Period        0.028547
@@ -2146,6 +2235,7 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	Distance 19.9548 # 163.4478 +/- 0.4629 mas
 	SpectralType "T2.5V"
 	AbsMag 27.5 # for approximate radius in Celestia
+	InfoURL "https://en.wikipedia.org/wiki/SIMP_J013656.5%2B093347"
 }
 
 # coordinates, parallax from Schilbach, Röser & Scholz (2009), A&A 493 (2), L27-L30
@@ -2158,6 +2248,7 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	Distance 19.961 # 163.39 +/- 1.76 mas
 	SpectralType "T6.0V"
 	AbsMag 33.5 # for approximate radius in Celestia
+	InfoURL "https://en.wikipedia.org/wiki/2MASS_J09373487%2B2931409"
 }
 
 99701 # Gliese 784
@@ -2168,6 +2259,7 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	SpectralType "M0V"
 	Radius 432000 # approx. for class
 	AppMag 7.966
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_784"
 }
 
 # parameters from Kirkpatrick et al. (2021)
@@ -2183,6 +2275,7 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	Temperature 350
 	Radius 69900
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/WISE_J2209%2B2711"
 }
 
 "GJ 1221:LP 44-113"
@@ -2192,6 +2285,7 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	Distance 20.2588 # 160.9952 +/- 0.0119 mas
 	SpectralType "DQ9P"
 	AppMag 14.15
+	InfoURL "https://en.wikipedia.org/wiki/G_240-72"
 }
 
 71253 # Gliese 555
@@ -2202,6 +2296,7 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	SpectralType "M3.5V"
 	Radius 225000 # approx. for class
 	AppMag 11.317
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_555"
 }
 
 # "3D orbital architecture of a dwarf binary system and its planetary companion"
@@ -2257,6 +2352,7 @@ Barycenter 116132 "EQ Peg:Gliese 896:BD+19 5116"
 	SpectralType "M3V"
 	Radius 270000 # approx. for class
 	AppMag 10.560
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_581"
 }
 
 # parameters from Kirkpatrick et al. (2021)
@@ -2269,6 +2365,7 @@ Barycenter 116132 "EQ Peg:Gliese 896:BD+19 5116"
 	Temperature 411
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/WISE_1405%2B5534"
 }
 
 # Parameters from Gonzalez-Alvarez et al. (2020), A&A 637, A93
@@ -2330,6 +2427,7 @@ Barycenter "Gliese 338:Struve 1321:ADS 7251"
 	SpectralType "M6.5V"
 	Radius 105000 # approx. for class
 	AppMag 16.100
+	InfoURL "https://en.wikipedia.org/wiki/LHS_2090"
 }
 
 # Orbit from Agati et al. (2015), A&A 574 (A6), 32
@@ -2390,6 +2488,7 @@ Barycenter 84140 "Gliese 661:BD+45 2505"
 	Distance 20.9375 # 155.7758 +/- 0.7557 mas
 	SpectralType "T5.5V"
 	AbsMag 32 # for approximate radius in Celestia
+	InfoURL "https://en.wikipedia.org/wiki/2MASS_J15031961%2B2525196"
 }
 
 "LP 944-20:GJ 10513"
@@ -2400,6 +2499,7 @@ Barycenter 84140 "Gliese 661:BD+45 2505"
 	SpectralType "M9.5Ve"
 	Radius 56000 # approx. for class
 	AppMag 18.69
+	InfoURL "https://en.wikipedia.org/wiki/LP_944-20"
 }
 
 "Gliese 223.2:GJ 9193:LP 658-2:HL 4"
@@ -2409,6 +2509,7 @@ Barycenter 84140 "Gliese 661:BD+45 2505"
 	Distance 21.0102 # 155.2373 +/- 0.0175 mas
 	SpectralType "DZ9" # DZ11
 	AppMag 14.45
+	InfoURL "https://en.wikipedia.org/wiki/LP_658-2"
 }
 
 "GL Vir:GJ 1156:Luyten 1190-34"
@@ -2419,6 +2520,7 @@ Barycenter 84140 "Gliese 661:BD+45 2505"
 	SpectralType "M4.5V"
 	Radius 160000 # approx. for class
 	AppMag 13.898
+	InfoURL "https://en.wikipedia.org/wiki/GL_Virginis"
 }
 
 80459 # Gliese 625
@@ -2429,6 +2531,7 @@ Barycenter 84140 "Gliese 661:BD+45 2505"
 	SpectralType "M1.5V"
 	Radius 324000 # approx. for class
 	AppMag 10.17
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_625"
 }
 
 # Used Gaia EDR3 parallax for C
@@ -2454,6 +2557,7 @@ Barycenter 82817 "Gliese 644 AB:Wolf 630 AB"
 	OrbitBarycenter "Gliese 644 AB"
 	SpectralType "M2.5V"
 	AppMag 9.73
+	InfoURL "https://en.wikipedia.org/wiki/V1054_Ophiuchi"
 
 	EllipticalOrbit {              # fully specified orientation
 		Period            1.718
@@ -2527,6 +2631,7 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 	SpectralType "M7V"
 	AppMag 16.916
 	Radius 78680
+	InfoURL "https://en.wikipedia.org/wiki/V1054_Ophiuchi#V1054_Ophiuchi_C_(vB_8)"
 }
 
 82809 "Gliese 643:Wolf 629"
@@ -2537,6 +2642,7 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 	SpectralType "M3.5V"
 	Radius 225000 # approx. for class
 	AppMag 11.759
+	InfoURL "https://en.wikipedia.org/wiki/V1054_Ophiuchi#Gliese_643"
 }
 
 "GJ 1128:LHS 271:Luyten 100-115"
@@ -2547,6 +2653,7 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 	SpectralType "M4.0V"
 	Radius 180000 # approx. for class
 	AppMag 12.78
+	InfoURL "https://en.wikipedia.org/wiki/GJ_1128"
 }
 
 114622 # Gliese 892
@@ -2556,6 +2663,7 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 	Distance 21.3364 # 152.8640 +/- 0.0494 mas
 	SpectralType "K3V"
 	AppMag 5.570
+	InfoURL "https://en.wikipedia.org/wiki/HD_219134"
 }
 
 # parameters from Kirkpatrick et al. (2021)
@@ -2580,6 +2688,7 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 	Temperature 451
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/WISEPA_J041022.71%2B150248.5"
 }
 
 # parameters from Kirkpatrick et al. (2021)
@@ -2592,6 +2701,7 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 	Temperature 727
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/WISE_J0521%2B1025"
 }
 
 "LHS 337:Luyten 471-42:GJ 3737"
@@ -2602,6 +2712,7 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 	SpectralType "M4.0V"
 	Radius 180000 # approx. for class
 	AppMag 12.74
+	InfoURL "https://en.wikipedia.org/wiki/GJ_3737"
 }
 
 53767 # Ross 104
@@ -2612,6 +2723,7 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 	SpectralType "M4V"
 	Radius 180000 # approx. for class
 	AppMag 10.020
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_408"
 }
 
 # Söderhjelm, S. (1999), A&A 341, 121
@@ -2666,6 +2778,7 @@ Barycenter 72659 "XI Boo:37 Boo:Gliese 566:ADS 9413"
 	SpectralType "M4.5V"
 	Radius 160000 # approx. for class
 	AppMag 12.834
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_299"
 }
 
 # Tokovinin et al. (2015), AJ 150 (2), 50
@@ -2863,6 +2976,7 @@ Barycenter "Scholz's Star:WISE 0720-0846:WISE J072003.20-084651.2:GJ 11068"
 	Temperature 656
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/WISE_J0254%2B0223"
 }
 
 # Used parallax of component A, from Gaia EDR3
@@ -2887,6 +3001,7 @@ Barycenter 14101 "LTT 1445:GJ 3193"
 	AppMag 11.22
 	SpectralType "M3V"
 	Radius 186400
+	InfoURL "https://en.wikipedia.org/wiki/LTT_1445#Stellar_system"
 }
 
 # CNS5 does not list the GJ 3192 designation
@@ -2966,6 +3081,7 @@ Barycenter "LTT 1445 BC:GJ 3193 BC:GJ 3192:LP 771-95"
 	SpectralType "M4V"
 	Radius 180000 # approx. for class
 	AppMag 11.675
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_402"
 }
 
 Modify 51317 # Gliese 393
@@ -2996,6 +3112,7 @@ Modify 103096 # Gliese 809
 	SpectralType "M7.0V"
 	Radius 84000 # approx. for class
 	AppMag 17.141
+	InfoURL "https://en.wikipedia.org/wiki/LHS_3003"
 }
 
 # parameters from Kirkpatrick et al. (2021)
@@ -3011,6 +3128,7 @@ Modify 103096 # Gliese 809
 	Temperature 407
 	Radius 65000
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/WISEPC_J205628.90%2B145953.3"
 }
 
 "GJ 1068:Luyten 230-188"
@@ -3033,6 +3151,7 @@ Modify 103096 # Gliese 809
 	Temperature 640
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/WISE_J004945.61%2B215120.0"
 }
 
 "GJ 1286"
@@ -3185,6 +3304,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	SpectralType "M1.5V"
 	Radius 324000 # approx. for class
 	AppMag 10.22
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_667#Gliese_667_C"
 }
 
 "WISE 0607+2429:WISEP J060738.65+242953.4:GJ 10869"
@@ -3194,6 +3314,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	Distance 23.6240 # 138.0616 +/- 0.5185 mas
 	SpectralType "L9V"
 	AbsMag 23 # approx. for radius in Celestia
+	InfoURL "https://en.wikipedia.org/wiki/WISE_0607%2B2429"
 }
 
 # parameters from Kirkpatrick et al. (2021)
@@ -3209,6 +3330,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	Temperature 651
 	Radius 61500
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/WISEPA_J031325.96%2B780744.2"
 }
 
 "2MASS 1507-1627:2MASS J15074769-1627386:GJ 12172"
@@ -3219,6 +3341,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	SpectralType "L5V"
 	Radius 60000 # approx.
 	AppMag 22.136
+	InfoURL "https://en.wikipedia.org/wiki/2MASS_1507%E2%88%921627"
 }
 
 3765 # HD 4628
@@ -3228,6 +3351,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	Distance 24.2505 # 134.4948 +/- 0.0578 mas
 	SpectralType "K2.5V"
 	AppMag 5.74
+	InfoURL "https://en.wikipedia.org/wiki/HD_4628"
 }
 
 # Used Hipparcos parallax instead
@@ -3238,6 +3362,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	Distance 24.327 # 134.07 +/- 0.11 mas
 	SpectralType "G0V"
 	AppMag 2.79
+	InfoURL "https://en.wikipedia.org/wiki/Beta_Hydri"
 }
 
 # parameters from Kirkpatrick et al. (2021)
@@ -3250,6 +3375,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	Temperature 765
 	Radius 60000 # approx.
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/WISE_J2000%2B3629"
 }
 
 # Parameters from Bond et al. (2020), ApJ 904 (2), 112
@@ -3356,6 +3482,7 @@ Barycenter 83945 "GJ 3991:Giclas 203-47"
 	Distance 24.8046 # 131.4903 +/- 0.1515 mas
 	SpectralType "K1V"
 	AppMag 5.24
+	InfoURL "https://en.wikipedia.org/wiki/107_Piscium"
 }
 
 "Giclas 141-36:GJ 12735"
@@ -3386,6 +3513,7 @@ Modify 65859 # Ross 490
 	Temperature 409
 	Radius 64300
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/WISEPA_J173835.53%2B273258.9"
 }
 
 "GJ 4053:LP 71-165"
@@ -3432,6 +3560,7 @@ Modify 65859 # Ross 490
 	SpectralType "M4.0Ve"
 	Radius 160000 # approx. for class
 	AppMag 12.624
+	InfoURL "https://en.wikipedia.org/wiki/Fomalhaut_C"
 }
 
 # rotational parameters from Monnier et al. (2012), ApJL 761 (1), L3
@@ -3608,4 +3737,5 @@ Barycenter 2026342520 "Alula Australis B:XI UMa B:53 UMa B:Gliese 423 B:ADS 8119
 	Temperature 584
 	Radius 63000
 	AbsMag 40 # extremely low
+	InfoURL "https://en.wikipedia.org/wiki/Xi_Ursae_Majoris#WISE_J111838.70+312537.9"
 }
