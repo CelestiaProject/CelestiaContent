@@ -914,6 +914,47 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/229762_G%C7%83k%C3%BAn%C7%81%CA%BCh%C3%B2md%C3%ADm%C3%A0#Satellite"
 }
 
+# Rommel et al. (2023), A&A 678, A167
+# "A large topographic feature on the surface of the trans-Neptunian object
+# (307261) 2002 MS4 measured from stellar occultations"
+# https://ui.adsabs.harvard.edu/abs/2023A%26A...678A.167R/abstract
+# Rotation period from Peng (2023)
+# "Phase Dependent Variation in the Reflectivity of Kuiper Belt Object 2002 MS4"
+# https://dspace.library.uvic.ca/handle/1828/15363
+# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
+# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
+"(307261) 2002 MS4:2002 MS4" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 0.993 1.000 0.999 ]
+	BlendTexture	true
+	SemiAxes	[ 412 412 385 ] # projected
+	EllipticalOrbit
+	{
+		Epoch	2460200.5  # 2023-Sep-13.0
+		Period	270.0222533729419
+		SemiMajorAxis	41.77606882335311
+		Eccentricity	0.1467734977684897
+		Inclination	17.71228981040321
+		AscendingNode	216.2744923352801
+		ArgOfPericenter	213.3545769171915
+		MeanAnomaly	228.9927153126468
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period	14.251
+		Inclination	31.6 # assume no inclination on 2023-08-08
+		AscendingNode	292.2
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.1
+	BondAlbedo	0.039
+	InfoURL	"https://en.wikipedia.org/wiki/(307261)_2002_MS4"
+}
+
 "471143 Dziewanna:Dziewanna:2010 EK139" "Sol"
 {
 	Class	"asteroid"
