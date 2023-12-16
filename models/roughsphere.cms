@@ -1,6 +1,7 @@
 # roughsphere.cms
-# Approximately spherical chunk of rock used to represent various small
-# moons and asteroids throughout the solar system.
+
+# Approximately spherical chunk of rock 
+# suitable for representation of irregular objects modeled as triaxial ellipsoids as well as objects between 200 and 600 km in size
 
 SphereDisplacementMesh
 {
@@ -8,4 +9,6 @@ SphereDisplacementMesh
 	NoiseOffset [ 17 42 45 ]
 	FeatureHeight  0.2
 	Octaves 2
+	Slices		100
+	Rings		50
 }
