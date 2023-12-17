@@ -1,108 +1,678 @@
-# All asteroid colors (except for Dactyl) are derived from SMASS spectra
-# and converted to RGB values using Matt Wronkiewicz's spectrum2rgb utility
-# that is distributed with the Celestia source package.
+# Physical parameters of large asteroids are mainly taken from
+# Vernazza et al. (2021), A&A 654, A56, "VLT/SPHERE imaging survey of the largest
+# main-belt asteroids: Final results and synthesis"
+# https://www.aanda.org/articles/aa/full_html/2021/10/aa41781-21/aa41781-21.html
 
-# A few main belt asteroids . . 
+# In some cases, rotation parameters have been obtained from the IAUspin files
+# available at DAMIT: https://astro.troja.mff.cuni.cz/projects/damit/
 
-"2 Pallas:Pallas" "Sol" 
-# Pole and shape from Schmidt et al
-# "Hubble takes a look at Pallas: Shape, Size and Surface"
-# (2008) http://www.lpi.usra.edu/meetings/lpsc2008/pdf/2502.pdf
-{ 
-	Class "asteroid" 
-	Texture "asteroid.jpg" 
-	Color [ 1.000 0.952 0.903 ]
-	BlendTexture true
-	SemiAxes [ 291 278 250 ] 
+# All asteroid colors are derived from SMASS spectra and converted to RGB values
+# using Matt Wronkiewicz's spectrum2rgb utility that is distributed with the
+# Celestia source package, as well as Askaniy's TrueColorTools utility:
+# https://github.com/Askaniy/TrueColorTools. Satellites are assumed to have the
+# same color and albedo as their primaries.
 
-	EllipticalOrbit 
-	{ 
-	Epoch       2452600.5     # 2002 Nov 22 00:00UT 
-	Period            4.61868 
-	SemiMajorAxis     2.7733 
-	Eccentricity      0.2300 
-	Inclination      34.846 
-	AscendingNode   173.166 
-	ArgOfPericenter 310.423 
-	MeanAnomaly     218.057 
-	} 
+# Notable main-belt asteroids
 
-	UniformRotation
+"2 Pallas:Pallas" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"pallas.cmod"
+	MeshCenter	[ 4.014 -10.89 1.574 ]
+	Texture	"asteroid.*"
+	Color	[ 0.586 0.585 0.576 ]
+	BlendTexture	true
+	Radius	284  # maximum semi-axis
+	Mass	3.41929e-5
+	Density	2920
+	EllipticalOrbit
 	{
-	Period		7.81323264 
-	Inclination	113 
-	AscendingNode	118 
-	MeridianAngle	339 
+		Epoch	2460200.5  # 2023 Sept 13
+		Period	4.610604140279951
+		SemiMajorAxis	2.770127481405055
+		Eccentricity	0.2302291418027128
+		Inclination	34.92583508111117
+		AscendingNode	172.9188058415808
+		ArgOfPericenter	310.8728944588669
+		MeanAnomaly	40.59806832021348
 	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation  # from DAMIT model 4395
+	{
+		Period	7.81322
+		Inclination	89
+		AscendingNode	134
+		MeridianAngle	41.7
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.155
+	InfoURL	"https://en.wikipedia.org/wiki/2_Pallas"
+}
 
-	Albedo 0.159 
-} 
-
+# Mass and density from Li et al. (2023), AJ 166, 93
+# "Dynamical Masses of 20 Asteroids Determined with Gaia DR3 Asteroid Observations"
+# https://iopscience.iop.org/article/10.3847/1538-3881/ace52b
 "3 Juno:Juno" "Sol"
-{ 
-	Class "asteroid" 
-	Texture "asteroid.jpg" 
-        Color [ 1.000 0.912 0.833 ]
-	BlendTexture true
-	SemiAxes [ 145 120 95 ] 
-
-	EllipticalOrbit 
-	{ 
-	Epoch       2452600.5     # 2002 Nov 22 00:00UT 
-	Period            4.35540 
-	SemiMajorAxis     2.6669 
-	Eccentricity      0.2589 
-	Inclination      12.972 
-	AscendingNode   170.133 
-	ArgOfPericenter 247.948 
-	MeanAnomaly     119.146 
-	} 
-
+{
+	Class	"asteroid"
+	Mesh	"juno.cmod"
+	MeshCenter	[ 1.518 -3.186 -0.7858 ]
+	Texture	"asteroid.*"
+	Color	[ 0.677 0.658 0.626 ]
+	BlendTexture	true
+	Radius	144  # maximum semi-axis
+	Mass	4.604823e-6
+	Density	3200
+	EllipticalOrbit
+	{
+		Epoch	2460200.5  # 2023 Sept 13
+		Period	4.361092302470355
+		SemiMajorAxis	2.669263108802283
+		Eccentricity	0.2562134612917888
+		Inclination	12.9905522351009
+		AscendingNode	169.8391668701912
+		ArgOfPericenter	247.7379377753803
+		MeanAnomaly	37.02310816908956
+	}
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-	Period         7.811 
-	Inclination             56 
-	AscendingNode 196 
+		Period	7.209531
+		Inclination	50
+		AscendingNode	199
+		MeridianAngle	290.3  # from DAMIT model 786
 	}
+	LunarLambert	0.5
+	GeomAlbedo	0.202
+	InfoURL	"https://en.wikipedia.org/wiki/3_Juno"
+}
 
-	Albedo 0.238 
-} 
-
-"4 Vesta:Vesta" "Sol" 
-{ 
-	Class "asteroid" 
-	Mesh   "vesta.cmod" 
-	Texture "asteroid.jpg" 
-        Color [ 1.000 0.923 0.851 ]
-	BlendTexture true
-	Radius    279 # maximum semi-axis
-	MeshCenter [ 0.77 3.424 -0.554 ]
-
-	InfoURL "http://www.solarviews.com/eng/vesta.htm"
-
-	EllipticalOrbit 
-	{ 
-	Epoch       2452000.5       # 2001 Apr 1 00:00UT 
-	Period            3.62729 
-	SemiMajorAxis     2.3670775 
-	Eccentricity      0.089753 
-	Inclination       7.1346 
-	AscendingNode   103.9510 
-	ArgOfPericenter 149.4585 
-	MeanAnomaly     104.980 
-	} 
-
+# Mass and density from Konopliv et al. (2014), Icarus 240, 103-117
+# "The Vesta gravity field, spin pole and rotation period, landmark positions, and ephemeris from
+# the Dawn tracking and optical data"
+# Albedos from Li et al. (2013), Icarus 226, 1252-1274
+# "Global photometric properties of Asteroid (4) Vesta observed with Dawn Framing Camera"
+# https://arxiv.org/abs/1310.4165
+"4 Vesta:Vesta" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"vesta.cmod"  # rotated to the Dawn-Claudia coordinate system
+	MeshCenter	[ 2.094 0.0485 5.415 ]
+	Texture	"vesta.*"
+	Color	[ 1.0 0.983 0.944 ]
+	Radius	286.3  # maximum semi-axis
+	Mass	4.337359e-5
+	Density	3459
+	EllipticalOrbit
+	{
+		Epoch	2455927.5  # 2012 Jan 01 (after Dawn arrival)
+		Period	3.629134651190404
+		SemiMajorAxis	2.361546962535303
+		Eccentricity	0.08826710959760306
+		Inclination	7.134368704375506
+		AscendingNode	103.901148962586
+		ArgOfPericenter	149.9849473092513
+		MeanAnomaly	90.80600868660373
+	}
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-	Period         5.342 
-	Epoch    2450124.90833 # 1996 May 11 09:48UT 
-	Inclination             40 
-	AscendingNode  91 
-	MeridianAngle       325.77 
+		# Dawn-Claudia coordinate system from Li and Mafi (2013)
+		# "Body-Fixed Coordinate Systems for Asteroid (4) Vesta"
+		# https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVSPG_2/DOCUMENT/VESTA_COORDINATES/VESTA_COORDINATES_131018.HTM
+		Period	5.3421282479
+		Inclination	47.765
+		AscendingNode	39.031
+		MeridianAngle	75.39
 	}
+	LunarLambert	0.5
+	GeomAlbedo	0.38
+	BondAlbedo	0.18
+	InfoURL	"https://en.wikipedia.org/wiki/4_Vesta"
+}
 
-	Albedo 0.423 
-} 
+"7 Iris:Iris" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"iris.cmod"
+	MeshCenter	[ -5.488 -2.657 2.734 ]
+	Texture	"asteroid.*"
+	Color	[ 0.791 0.763 0.714 ]
+	BlendTexture	true
+	Radius	130  # maximum semi-axis
+	Mass	2.260549e-6
+	Density	3260
+	EllipticalOrbit
+	{
+		Epoch	2460200.5  # 2023 Sept 13
+		Period	3.687351731720197
+		SemiMajorAxis	2.386735224876513
+		Eccentricity	0.2297678850612325
+		Inclination	5.518704224953987
+		AscendingNode	259.4983776174604
+		ArgOfPericenter	145.4437082806831
+		MeanAnomaly	207.8984567898204
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period	7.138843
+		Inclination	61
+		AscendingNode	99
+		MeridianAngle	217.5  # from DAMIT model 1854
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.279
+	InfoURL	"https://en.wikipedia.org/wiki/7_Iris"
+}
+
+"10 Hygiea:Hygiea:A900 GA" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"hygiea.cmod"
+	MeshCenter	[ 2.715 -6.39 1.142 ]
+	Texture	"asteroid.*"
+	Color	[ 0.38 0.378 0.373 ]
+	BlendTexture	true
+	Radius	225  # maximum semi-axis
+	Mass	1.463496e-5
+	Density	2060
+	EllipticalOrbit
+	{
+		Epoch	2460200.5  # 2023 Sept 13
+		Period	5.564048142612810
+		SemiMajorAxis	3.139943146104073
+		Eccentricity	0.1110224699444766
+		Inclination	3.831824852338094
+		AscendingNode	283.1735822202232
+		ArgOfPericenter	312.4833682032628
+		MeanAnomaly	75.17820822199755
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation  # from DAMIT model 4392
+	{
+		Period	13.82559
+		Inclination	136
+		AscendingNode	49
+		MeridianAngle	116.5
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.063
+	InfoURL	"https://en.wikipedia.org/wiki/10_Hygiea"
+}
+
+# Shepard et al. (2021), Planet. Sci. J. 2, 125
+# "Asteroid 16 Psyche: Shape, Features, and Global Map"
+# https://iopscience.iop.org/article/10.3847/PSJ/abfdba
+"16 Psyche:Psyche" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"psyche.cmod"
+	MeshCenter	[ -1.19 -0.7639 -4.925 ]
+	Texture	"asteroid.*"
+	Color	[ 0.606 0.591 0.565 ]
+	BlendTexture	true
+	Radius	139  # maximum semi-axis
+	Mass	3.829538e-6
+	Density	4000
+	EllipticalOrbit
+	{
+		Epoch	2460200.5  # 2023 Sept 13
+		Period	4.999182317265353
+		SemiMajorAxis	2.923662128456563
+		Eccentricity	0.1341931447944021
+		Inclination	3.096815244138823
+		AscendingNode	150.02696940
+		ArgOfPericenter	229.4104409693524
+		MeanAnomaly	243.1552879097505
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period	4.195948
+		Inclination	83.9
+		AscendingNode	126.3
+		MeridianAngle	270.4
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.16
+	InfoURL	"https://en.wikipedia.org/wiki/16_Psyche"
+}
+
+# Mass, pole orientation and moon orbits from Beauvalet and Marchis (2014), Icarus 241, 13-25
+# "Multiple asteroid systems (45) Eugenia and (87) Sylvia: Sensitivity to external and internal
+# perturbations"
+"45 Eugenia:Eugenia:1941 BN" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"eugenia.cmod"
+	MeshCenter	[ 0.1592 2.377 -0.3412 ]
+	Texture	"asteroid.*"
+	Color	[ 0.386 0.384 0.377 ]
+	BlendTexture	true
+	Radius	126  # maximum semi-axis
+	Mass	9.430844e-7
+	Density	1660
+	EllipticalOrbit
+	{
+		Epoch	2460200.5  # 2023 Sept 13
+		Period	4.486962887167529
+		SemiMajorAxis	2.72037964582147
+		Eccentricity	0.08319376065918045
+		Inclination	6.605134973013918
+		AscendingNode	147.5872525087751
+		ArgOfPericenter	87.48925400055647
+		MeanAnomaly	30.53633191069684
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period	5.699151
+		Inclination	110.90
+		AscendingNode	211.11
+		MeridianAngle	7.2  # from DAMIT model 1812
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.065
+	InfoURL	"https://en.wikipedia.org/wiki/45_Eugenia"
+}
+
+"S 2004 (45) 1:Princesse" "Sol/Eugenia"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.386 0.384 0.377 ]
+	BlendTexture	true
+	Radius	3
+	OrbitFrame	{ EquatorJ2000 { } }
+	EllipticalOrbit
+	{
+		Epoch	2452980.0  # 2003 Dec 06 12:00
+		Period	1.78960  # from SMA and mass
+		SemiMajorAxis	610.59
+		Eccentricity	0.11
+		Inclination	129.63
+		AscendingNode	206.67
+		ArgOfPericenter	95
+		MeanAnomaly	-187
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.065
+	InfoURL	"https://en.wikipedia.org/wiki/45_Eugenia#S/2004_(45)_1"
+}
+
+"Petit-Prince:45 Eugenia I:Eugenia I:S 1998 (45) 1" "Sol/Eugenia"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.386 0.384 0.377 ]
+	BlendTexture	true
+	Radius	3.5
+	OrbitFrame	{ EquatorJ2000 { } }
+	EllipticalOrbit
+	{
+		Epoch	2452980.0  # 2003 Dec 06 12:00
+		Period	4.71295  # from SMA and mass
+		SemiMajorAxis	1164.42
+		Eccentricity	0.002
+		Inclination	106.71
+		AscendingNode	201.93
+		ArgOfPericenter	138
+		MeanAnomaly	5
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.065
+	InfoURL	"https://en.wikipedia.org/wiki/45_Eugenia#Petit-Prince"
+}
+
+# Carry et al. (2021), A&A 650, A129
+# "Evidence for differentiation of the most primitive small bodies"
+# https://www.aanda.org/articles/aa/full_html/2021/06/aa40342-21/aa40342-21.html
+"87 Sylvia:Sylvia:A909 GA" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"sylvia.cmod"
+	MeshCenter	[ -0.1710 -2.655 -0.1451 ]
+	Texture	"asteroid.*"
+	Color	[ 0.303 0.300 0.292 ]
+	BlendTexture	true
+	Radius	181.5  # maximum semi-axis; MPCD model
+	Mass	2.411253e-6
+	Density	1378
+	EllipticalOrbit
+	{
+		Epoch	2460200.5  # 2023 Sept 13
+		Period	6.483690492144261
+		SemiMajorAxis	3.477037558039971
+		Eccentricity	0.09389234196453734
+		Inclination	10.88029344765754
+		AscendingNode	73.01217364218917
+		ArgOfPericenter	264.4030328527093
+		MeanAnomaly	334.8192615156582
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period	5.183641
+		Inclination	6.5
+		AscendingNode	104.3
+		MeridianAngle	169.7  # from DAMIT model 719
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04  # Vernazza et al. (2021)
+	InfoURL	"https://en.wikipedia.org/wiki/87_Sylvia"
+}
+
+"Remus:87 Sylvia II:Sylvia II:S 2004 (87) 1" "Sol/Sylvia"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.303 0.300 0.292 ]
+	BlendTexture	true
+	Radius	5.15
+	Mass	1.306095e-10
+	# Density	1480
+	OrbitFrame	{ EquatorJ2000 { } }
+	EllipticalOrbit
+	{
+		Epoch	2455594.89253  # 2011 Feb 02 09:25:15
+		Period	1.35699
+		SemiMajorAxis	694.2
+		Eccentricity	0.005
+		Inclination	8.7
+		AscendingNode	100.8
+		ArgOfPericenter	262.2
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Remus_(moon)"
+}
+
+# Size and shape from Berthier et al. (2014), Icarus 239, 118-130
+# "Physical and dynamical properties of the main belt triple Asteroid (87) Sylvia"
+# https://arxiv.org/abs/1407.1292
+"Romulus:87 Sylvia I:Sylvia I:S 2001 (87) 1" "Sol/Sylvia"
+{
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.303 0.300 0.292 ]
+	BlendTexture	true
+	# Radius	7.55
+	SemiAxes	[ 19 7 7 ]
+	Mass	2.344273e-10
+	# Density	790
+	OrbitFrame	{ EquatorJ2000 { } }
+	EllipticalOrbit
+	{
+		Epoch	2455597.08689  # 2011 Feb 04 14:05:07
+		Period	3.64126
+		SemiMajorAxis	1340.6
+		Eccentricity	0.000
+		Inclination	7.4
+		AscendingNode	97.1
+		ArgOfPericenter	171.0
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation  # to match orbit
+	{
+		Inclination	7.4
+		AscendingNode	97.1
+		MeridianAngle	53.8
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Romulus_(moon)"
+}
+
+# Fuksa et al. (2023), A&A 677, A189
+# "An advanced multipole model of the (130) Elektra quadruple system"
+# https://www.aanda.org/articles/aa/full_html/2023/09/aa46386-23/aa46386-23.html
+"130 Elektra:Elektra" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"elektra.cmod"
+	MeshCenter	[ -0.1315 -0.0109 2.624 ]
+	Texture	"asteroid.*"
+	Color	[ 0.394 0.390 0.373 ]
+	BlendTexture	true
+	Radius	135  # maximum semi-axis; mean of two models
+	Mass	1.106162e-6
+	Density	1536
+	EllipticalOrbit
+	{
+		Epoch	2460200.5  # 2023 Sept 13
+		Period	5.527107049307030
+		SemiMajorAxis	3.126029815266054
+		Eccentricity	0.209667410193861
+		Inclination	22.77754756941516
+		AscendingNode	144.9889230573203
+		ArgOfPericenter	237.7477091724604
+		MeanAnomaly	230.8768973136703
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation  # pole orientation from orbital model
+	{
+		Period	5.224663
+		Inclination	156.8
+		AscendingNode	184.5
+		MeridianAngle	177.2  # from DAMIT model 1856
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.067  # Vernazza et al. (2021)
+	InfoURL	"https://en.wikipedia.org/wiki/130_Elektra"
+}
+
+"S 2014 (130) 1" "Sol/Elektra"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.394 0.390 0.373 ]
+	BlendTexture	true
+	Radius	1.0
+	Mass	1.138647e-12
+	OrbitFrame	{ EclipticJ2000 { } }
+	EllipticalOrbit
+	{
+		Epoch	2457021.567880  # 2014 Dec 30 01:37:45
+		Period	1.2127
+		SemiMajorAxis	496.8
+		Eccentricity	0.028
+		Inclination	179.7
+		AscendingNode	185.3
+		LongOfPericenter	54.3
+		MeanLongitude	74.1
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.067
+	InfoURL	"https://en.wikipedia.org/wiki/130_Elektra#S/2014_(130)_1"
+}
+
+"S 2014 (130) 2" "Sol/Elektra"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.394 0.390 0.373 ]
+	BlendTexture	true
+	Radius	0.8
+	Mass	5.693235e-13
+	OrbitFrame	{ EclipticJ2000 { } }
+	EllipticalOrbit
+	{
+		Epoch	2457021.567880  # 2014 Dec 30 01:37:45
+		Period	1.6421
+		SemiMajorAxis	608
+		Eccentricity	0.064
+		Inclination	183.7
+		AscendingNode	107.1
+		LongOfPericenter	197.9
+		MeanLongitude	345.4
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.067
+	InfoURL	"https://en.wikipedia.org/wiki/130_Elektra#Third_satellite"
+}
+
+"S 2003 (130) 1" "Sol/Elektra"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.394 0.390 0.373 ]
+	BlendTexture	true
+	Radius	3.0
+	Mass	3.014066e-11
+	OrbitFrame	{ EclipticJ2000 { } }
+	EllipticalOrbit
+	{
+		Epoch	2457021.567880  # 2014 Dec 30 01:37:45
+		Period	5.30032
+		SemiMajorAxis	1328
+		Eccentricity	0.123
+		Inclination	175.3
+		AscendingNode	43.5
+		LongOfPericenter	86.8
+		MeanLongitude	33.8
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.067
+	InfoURL	"https://en.wikipedia.org/wiki/130_Elektra#S/2003_(130)_1"
+}
+
+# Marchis et al. (2021), A&A 653, A57
+# "(216) Kleopatra, a low density critically rotating M-type asteroid"
+# https://www.aanda.org/articles/aa/full_html/2021/09/aa40874-21/aa40874-21.html
+# Moon parameters from Brož et al. (2021), A&A 653, A56
+# "An advanced multipole model for (216) Kleopatra triple system"
+# https://www.aanda.org/articles/aa/full_html/2021/09/aa40901-21/aa40901-21.html
+"216 Kleopatra:Kleopatra:A905 OA:A910 RA" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"kleopatra.cmod"
+	MeshCenter	[ 7.24 0.4550 -1.669 ]
+	Texture	"asteroid.*"
+	Color	[ 0.587 0.578 0.570 ]
+	BlendTexture	true
+	Radius	133.5  # maximum semi-axis; MPCD model
+	Mass	4.973208e-7
+	Density	3380
+	EllipticalOrbit
+	{
+		Epoch	2460200.5  # 2023 Sept 13
+		Period	4.668221155087945
+		SemiMajorAxis	2.793157852317082
+		Eccentricity	0.2509986364100729
+		Inclination	13.12108303620164
+		AscendingNode	215.3137706682851
+		ArgOfPericenter	179.6897916073022
+		MeanAnomaly	48.92084097660603
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation  # MPCD model
+	{
+		Period	5.385282
+		Inclination	46.1
+		AscendingNode	159.3
+		MeridianAngle	42.2  # from DAMIT model 1826
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.152  # Vernazza et al. (2021)
+	InfoURL	"https://en.wikipedia.org/wiki/216_Kleopatra"
+}
+
+"Cleoselene:216 Kleopatra II:Kleopatra II:S 2008 (216) 2" "Sol/Kleopatra"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.587 0.578 0.570 ]
+	BlendTexture	true
+	Radius	3.45
+	Mass	6.697924e-11
+	# Density	2300
+	OrbitFrame	{ EclipticJ2000 { } }
+	EllipticalOrbit
+	{
+		Epoch	2454728.761806  # 2008 Sept 19 06:17
+		Period	1.822359
+		SemiMajorAxis	499
+		Eccentricity	0.000102
+		Inclination	70.104
+		AscendingNode	162.920
+		LongOfPericenter	90.089
+		MeanLongitude	149.665
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.152
+	InfoURL	"https://en.wikipedia.org/wiki/216_Kleopatra#Moons"
+}
+
+"Alexhelios:216 Kleopatra I:Kleopatra I:S 2008 (216) 1" "Sol/Kleopatra"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.587 0.578 0.570 ]
+	BlendTexture	true
+	Radius	4.45
+	Mass	1.004689e-10
+	# Density	1600
+	OrbitFrame	{ EclipticJ2000 { } }
+	EllipticalOrbit
+	{
+		Epoch	2454728.761806  # 2008 Sept 19 06:17
+		Period	2.745820
+		SemiMajorAxis	655
+		Eccentricity	0.0001
+		Inclination	70.347
+		AscendingNode	162.954
+		LongOfPericenter	91.601
+		MeanLongitude	198.357
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.152
+	InfoURL	"https://en.wikipedia.org/wiki/216_Kleopatra#Moons"
+}
+
+"704 Interamnia:Interamnia:1910 KU:1952 MW" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"interamnia.cmod"
+	MeshCenter	[ -2.784 -2.225 -6.122 ]
+	Texture	"asteroid.*"
+	Color	[ 0.388 0.391 0.395 ]
+	BlendTexture	true
+	Radius	177  # maximum semi-axis
+	Mass	5.894173e-6
+	Density	1840
+	EllipticalOrbit
+	{
+		Epoch	2460200.5  # 2023 Sept 13
+		Period	5.348580216638409
+		SemiMajorAxis	3.058347812128694
+		Eccentricity	0.1559418886160162
+		Inclination	17.30804365401011
+		AscendingNode	280.1747411007504
+		ArgOfPericenter	94.41013154878203
+		MeanAnomaly	36.27237669780099
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation  # from DAMIT model 4393
+	{
+		Period	8.712337
+		Inclination	4
+		AscendingNode	163
+		MeridianAngle	36.4
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.067
+	InfoURL	"https://en.wikipedia.org/wiki/704_Interamnia"
+}
 
 
 
@@ -357,42 +927,6 @@
 	}
 
 	Albedo 0.326 
-}
-
-"216 Kleopatra:Kleopatra:A905 OA" "Sol"
-{
-	Class "asteroid"
-	Mesh   "kleopatra.cmod"
-	Texture "asteroid.jpg"
-        Color [ 1.000 0.932 0.888 ]
-	BlendTexture true
-	Radius  110 # maximum semi-axis
-	MeshCenter [ -3.049 2.379 1.429 ]
-
-	InfoURL "http://echo.jpl.nasa.gov/~ostro/kle/index.html" 
-
-	EllipticalOrbit
-	{
-	Epoch       2450800.5    # 1997 Dec 12 00:00UT
-	Period            4.67
-	SemiMajorAxis     2.791
-	Eccentricity      0.2531
-	Inclination      13.138
-	AscendingNode   215.699
-	ArgOfPericenter 179.350
-        MeanAnomaly     225.804
-	}
-
-	UniformRotation
-	{
-	Period         5.385
-	Inclination             63 
-	AscendingNode 162    
-	}
-
-	Albedo 0.16
-	# Class M
-
 }
 
 "1998 KY26" "Sol"
