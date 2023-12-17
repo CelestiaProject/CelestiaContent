@@ -1,4 +1,749 @@
-# 118 locations on Eros, Gaspra, Ida and Itokawa.
+# 224 locations on Vesta, Eros, Gaspra, Ida and Itokawa.
+
+
+# 106 locations on Vesta.
+
+Location "Aconia" "Sol/Vesta"
+{
+	LongLat	[ 1.37 7.54 0 ]
+	Size	19
+	Type	"AA"
+}
+
+Location "Aelia" "Sol/Vesta"
+{
+	LongLat	[ 140.8 -14.26 0 ]
+	Size	4.34
+	Type	"AA"
+}
+
+Location "Africana" "Sol/Vesta"
+{
+	LongLat	[ -164.13 68.99 0 ]
+	Size	25.43
+	Type	"AA"
+}
+
+Location "Agonium Rupes" "Sol/Vesta"
+{
+	LongLat	[ 166.08 -53.47 0 ]
+	Size	111.28
+	Type	"RU"
+}
+
+Location "Albalonga Catena" "Sol/Vesta"
+{
+	LongLat	[ -77.39 -7.17 0 ]
+	Size	161.74
+	Type	"CA"
+}
+
+Location "Albana" "Sol/Vesta"
+{
+	LongLat	[ 50.69 76.61 0 ]
+	Size	90.86
+	Type	"AA"
+}
+
+Location "Albia" "Sol/Vesta"
+{
+	LongLat	[ -71.15 -27.85 0 ]
+	Size	5.79
+	Type	"AA"
+}
+
+Location "Alypia" "Sol/Vesta"
+{
+	LongLat	[ -10.78 -70.22 0 ]
+	Size	15.17
+	Type	"AA"
+}
+
+Location "Angioletta" "Sol/Vesta"
+{
+	LongLat	[ 29.25 -40.16 0 ]
+	Size	18.42
+	Type	"AA"
+}
+
+Location "Antonia" "Sol/Vesta"
+{
+	LongLat	[ -159.22 -58.7 0 ]
+	Size	16.75
+	Type	"AA"
+}
+
+Location "Aquilia" "Sol/Vesta"
+{
+	LongLat	[ 40.88 -49.41 0 ]
+	Size	36.82
+	Type	"AA"
+}
+
+Location "Aricia Tholus" "Sol/Vesta"
+{
+	LongLat	[ 161.55 13.38 0 ]
+	Size	39.02
+	Type	"TH"
+}
+
+Location "Arruntia" "Sol/Vesta"
+{
+	LongLat	[ 71.59 39.44 0 ]
+	Size	10.49
+	Type	"AA"
+}
+
+Location "Bellicia" "Sol/Vesta"
+{
+	LongLat	[ 47.76 37.73 0 ]
+	Size	41.68
+	Type	"AA"
+}
+
+Location "Brumalia Tholus" "Sol/Vesta"
+{
+	LongLat	[ -85.01 -6.31 0 ]
+	Size	48.21
+	Type	"TH"
+}
+
+Location "Bruttia" "Sol/Vesta"
+{
+	LongLat	[ 87.09 63.81 0 ]
+	Size	20.68
+	Type	"AA"
+}
+
+Location "Caesonia" "Sol/Vesta"
+{
+	LongLat	[ 99.93 31.2 0 ]
+	Size	104.23
+	Type	"AA"
+}
+
+Location "Calpurnia" "Sol/Vesta"
+{
+	LongLat	[ -160.9 16.72 0 ]
+	Size	50.19
+	Type	"AA"
+}
+
+Location "Cannutia" "Sol/Vesta"
+{
+	LongLat	[ 64.73 -58.93 0 ]
+	Size	17.96
+	Type	"AA"
+}
+
+Location "Canuleia" "Sol/Vesta"
+{
+	LongLat	[ -65.48 -33.62 0 ]
+	Size	11.32
+	Type	"AA"
+}
+
+Location "Caparronia" "Sol/Vesta"
+{
+	LongLat	[ 167.03 35.71 0 ]
+	Size	53.2
+	Type	"AA"
+}
+
+Location "Charito" "Sol/Vesta"
+{
+	LongLat	[ -59.29 -44.8 0 ]
+	Size	6.55
+	Type	"AA"
+}
+
+Location "Claudia" "Sol/Vesta"
+{
+	LongLat	[ -4 -1.65 0 ]
+	Size	0.57
+	Type	"AA"
+}
+
+Location "Coelia" "Sol/Vesta"
+{
+	LongLat	[ 89.82 -1.14 0 ]
+	Size	14.06
+	Type	"AA"
+}
+
+Location "Cornelia" "Sol/Vesta"
+{
+	LongLat	[ -134.43 -9.37 0 ]
+	Size	14.9
+	Type	"AA"
+}
+
+Location "Cossinia" "Sol/Vesta"
+{
+	LongLat	[ 28.96 0.63 0 ]
+	Size	15.72
+	Type	"AA"
+}
+
+Location "Divalia Fossae" "Sol/Vesta"
+{
+	LongLat	[ 46.23 -9.05 0 ]
+	Size	549.37
+	Type	"FO"
+}
+
+Location "Domitia" "Sol/Vesta"
+{
+	LongLat	[ -172.04 37.62 0 ]
+	Size	32.99
+	Type	"AA"
+}
+
+Location "Domna" "Sol/Vesta"
+{
+	LongLat	[ 75.93 -11.11 0 ]
+	Size	13.53
+	Type	"AA"
+}
+
+Location "Drusilla" "Sol/Vesta"
+{
+	LongLat	[ -98.78 -15.05 0 ]
+	Size	20.34
+	Type	"AA"
+}
+
+Location "Eumachia" "Sol/Vesta"
+{
+	LongLat	[ 167.06 0.14 0 ]
+	Size	25.78
+	Type	"AA"
+}
+
+Location "Eusebia" "Sol/Vesta"
+{
+	LongLat	[ -155.69 -42.04 0 ]
+	Size	23.44
+	Type	"AA"
+}
+
+Location "Eutropia" "Sol/Vesta"
+{
+	LongLat	[ 105.01 22.4 0 ]
+	Size	21.09
+	Type	"AA"
+}
+
+Location "Fabia" "Sol/Vesta"
+{
+	LongLat	[ -94.24 15.53 0 ]
+	Size	11.62
+	Type	"AA"
+}
+
+Location "Fausta" "Sol/Vesta"
+{
+	LongLat	[ -50.24 -25.44 0 ]
+	Size	3.14
+	Type	"AA"
+}
+
+Location "Feralia Planitia" "Sol/Vesta"
+{
+	LongLat	[ -48.29 3.03 0 ]
+	Size	270.27
+	Type	"PL"
+}
+
+Location "Flavola" "Sol/Vesta"
+{
+	LongLat	[ 179.56 -9.16 0 ]
+	Size	2.87
+	Type	"AA"
+}
+
+Location "Floronia" "Sol/Vesta"
+{
+	LongLat	[ -55.94 36.23 0 ]
+	Size	18.54
+	Type	"AA"
+}
+
+Location "Fonteia" "Sol/Vesta"
+{
+	LongLat	[ 141.41 -53.25 0 ]
+	Size	20.61
+	Type	"AA"
+}
+
+Location "Fulvia" "Sol/Vesta"
+{
+	LongLat	[ 142.65 -26.13 0 ]
+	Size	16.73
+	Type	"AA"
+}
+
+Location "Fundania" "Sol/Vesta"
+{
+	LongLat	[ 135.02 57.62 0 ]
+	Size	29.23
+	Type	"AA"
+}
+
+Location "Galeria" "Sol/Vesta"
+{
+	LongLat	[ -131.62 -29.82 0 ]
+	Size	21.77
+	Type	"AA"
+}
+
+Location "Gegania" "Sol/Vesta"
+{
+	LongLat	[ 60.77 4.05 0 ]
+	Size	22.34
+	Type	"AA"
+}
+
+Location "Graecina" "Sol/Vesta"
+{
+	LongLat	[ 87.01 -37.45 0 ]
+	Size	11.93
+	Type	"AA"
+}
+
+Location "Helena" "Sol/Vesta"
+{
+	LongLat	[ 122.55 -41.51 0 ]
+	Size	22.06
+	Type	"AA"
+}
+
+Location "Herennia" "Sol/Vesta"
+{
+	LongLat	[ -139.67 -72.42 0 ]
+	Size	22.34
+	Type	"AA"
+}
+
+Location "Hortensia" "Sol/Vesta"
+{
+	LongLat	[ 15.38 -46.85 0 ]
+	Size	29.45
+	Type	"AA"
+}
+
+Location "Iuinia" "Sol/Vesta"
+{
+	LongLat	[ 88.22 -35.58 0 ]
+	Size	3.03
+	Type	"AA"
+}
+
+Location "Justina" "Sol/Vesta"
+{
+	LongLat	[ -42.12 -34.41 0 ]
+	Size	7.62
+	Type	"AA"
+}
+
+Location "Laelia" "Sol/Vesta"
+{
+	LongLat	[ 140.45 -46.82 0 ]
+	Size	8.89
+	Type	"AA"
+}
+
+Location "Laeta" "Sol/Vesta"
+{
+	LongLat	[ 179.9 14.9 0 ]
+	Size	1.36
+	Type	"AA"
+}
+
+Location "Laurentia" "Sol/Vesta"
+{
+	LongLat	[ -57.2 -28.15 0 ]
+	Size	11.48
+	Type	"AA"
+}
+
+Location "Lavinium Dorsum" "Sol/Vesta"
+{
+	LongLat	[ -40.85 27.15 0 ]
+	Size	96.35
+	Type	"DO"
+}
+
+Location "Lepida" "Sol/Vesta"
+{
+	LongLat	[ -53.24 16.74 0 ]
+	Size	42.9
+	Type	"AA"
+}
+
+Location "Licinia" "Sol/Vesta"
+{
+	LongLat	[ 17.35 23.34 0 ]
+	Size	24.05
+	Type	"AA"
+}
+
+Location "Lollia" "Sol/Vesta"
+{
+	LongLat	[ 92.33 -37.36 0 ]
+	Size	4.9
+	Type	"AA"
+}
+
+Location "Longina" "Sol/Vesta"
+{
+	LongLat	[ -129.35 36.96 0 ]
+	Size	17.65
+	Type	"AA"
+}
+
+Location "Lucaria Tholus" "Sol/Vesta"
+{
+	LongLat	[ 103.65 -12.9 0 ]
+	Size	24.75
+	Type	"TH"
+}
+
+Location "Lucilla" "Sol/Vesta"
+{
+	LongLat	[ 149.12 -75.96 0 ]
+	Size	19.3
+	Type	"AA"
+}
+
+Location "Lupercalia Fossa" "Sol/Vesta"
+{
+	LongLat	[ 92.6 10.33 0 ]
+	Size	82.28
+	Type	"FO"
+}
+
+Location "Mamilia" "Sol/Vesta"
+{
+	LongLat	[ -67.91 48.39 0 ]
+	Size	35.67
+	Type	"AA"
+}
+
+Location "Marcia" "Sol/Vesta"
+{
+	LongLat	[ -170.45 8.98 0 ]
+	Size	67.6
+	Type	"AA"
+}
+
+Location "Mariamne" "Sol/Vesta"
+{
+	LongLat	[ -159.27 -68.44 0 ]
+	Size	30.33
+	Type	"AA"
+}
+
+Location "Matronalia Rupes" "Sol/Vesta"
+{
+	LongLat	[ 82.76 -49.42 0 ]
+	Size	209.5
+	Type	"RU"
+}
+
+Location "Metrodora" "Sol/Vesta"
+{
+	LongLat	[ -49.46 -59.43 0 ]
+	Size	23.99
+	Type	"AA"
+}
+
+Location "Minervina" "Sol/Vesta"
+{
+	LongLat	[ 49.29 16.85 0 ]
+	Size	18.34
+	Type	"AA"
+}
+
+Location "Minucia" "Sol/Vesta"
+{
+	LongLat	[ -152.8 20.2 0 ]
+	Size	23.15
+	Type	"AA"
+}
+
+Location "Myia" "Sol/Vesta"
+{
+	LongLat	[ 106.34 -50.53 0 ]
+	Size	2.58
+	Type	"AA"
+}
+
+Location "Neptunalia Dorsa" "Sol/Vesta"
+{
+	LongLat	[ -69.25 -45.14 0 ]
+	Size	83.13
+	Type	"DO"
+}
+
+Location "Numisia" "Sol/Vesta"
+{
+	LongLat	[ -112.75 -7.48 0 ]
+	Size	29.94
+	Type	"AA"
+}
+
+Location "Occia" "Sol/Vesta"
+{
+	LongLat	[ 18.48 -15.47 0 ]
+	Size	7.34
+	Type	"AA"
+}
+
+Location "Octavia" "Sol/Vesta"
+{
+	LongLat	[ 147.21 -3.3 0 ]
+	Size	30.62
+	Type	"AA"
+}
+
+Location "Oppia" "Sol/Vesta"
+{
+	LongLat	[ -50.92 -7.89 0 ]
+	Size	36.67
+	Type	"AA"
+}
+
+Location "Paculla" "Sol/Vesta"
+{
+	LongLat	[ 1.15 -64.22 0 ]
+	Size	22.34
+	Type	"AA"
+}
+
+Location "Parentatio Rupes" "Sol/Vesta"
+{
+	LongLat	[ -42.41 -73.75 0 ]
+	Size	99.34
+	Type	"RU"
+}
+
+Location "Parilia Dorsa" "Sol/Vesta"
+{
+	LongLat	[ -26.16 -56.71 0 ]
+	Size	79.65
+	Type	"DO"
+}
+
+Location "Paulina" "Sol/Vesta"
+{
+	LongLat	[ -16.89 10.92 0 ]
+	Size	18.13
+	Type	"AA"
+}
+
+Location "Perpennia" "Sol/Vesta"
+{
+	LongLat	[ 108.75 -23.03 0 ]
+	Size	21.36
+	Type	"AA"
+}
+
+Location "Pinaria" "Sol/Vesta"
+{
+	LongLat	[ 31.63 -29.54 0 ]
+	Size	41.76
+	Type	"AA"
+}
+
+Location "Placidia" "Sol/Vesta"
+{
+	LongLat	[ 131.38 19.24 0 ]
+	Size	14.75
+	Type	"AA"
+}
+
+Location "Plancia" "Sol/Vesta"
+{
+	LongLat	[ -166.09 61.56 0 ]
+	Size	18.48
+	Type	"AA"
+}
+
+Location "Pomponia" "Sol/Vesta"
+{
+	LongLat	[ 112.58 70.2 0 ]
+	Size	59.07
+	Type	"AA"
+}
+
+Location "Portia" "Sol/Vesta"
+{
+	LongLat	[ 41.17 0.91 0 ]
+	Size	11.44
+	Type	"AA"
+}
+
+Location "Postumia" "Sol/Vesta"
+{
+	LongLat	[ -116.23 33.84 0 ]
+	Size	195.89
+	Type	"AA"
+}
+
+Location "Publicia" "Sol/Vesta"
+{
+	LongLat	[ 84.36 14.53 0 ]
+	Size	15.79
+	Type	"AA"
+}
+
+Location "Rheasilvia" "Sol/Vesta"
+{
+	LongLat	[ -63.7 -71.95 0 ]
+	Size	450
+	Type	"AA"
+}
+
+Location "Robigalia Catena" "Sol/Vesta"
+{
+	LongLat	[ -130.22 -14.04 0 ]
+	Size	79.21
+	Type	"CA"
+}
+
+Location "Rubria" "Sol/Vesta"
+{
+	LongLat	[ 18.34 -7.32 0 ]
+	Size	10.27
+	Type	"AA"
+}
+
+Location "Rufillia" "Sol/Vesta"
+{
+	LongLat	[ 138.71 -12.92 0 ]
+	Size	15.79
+	Type	"AA"
+}
+
+Location "Saturnalia Fossae" "Sol/Vesta"
+{
+	LongLat	[ -112.95 28.05 0 ]
+	Size	344.94
+	Type	"FO"
+}
+
+Location "Scantia" "Sol/Vesta"
+{
+	LongLat	[ -85.35 29.63 0 ]
+	Size	18.61
+	Type	"AA"
+}
+
+Location "Sentia" "Sol/Vesta"
+{
+	LongLat	[ 20.75 -38.39 0 ]
+	Size	16.54
+	Type	"AA"
+}
+
+Location "Serena" "Sol/Vesta"
+{
+	LongLat	[ 120.71 -20.43 0 ]
+	Size	18.47
+	Type	"AA"
+}
+
+Location "Severina" "Sol/Vesta"
+{
+	LongLat	[ 121.55 -75.41 0 ]
+	Size	34.74
+	Type	"AA"
+}
+
+Location "Sextilia" "Sol/Vesta"
+{
+	LongLat	[ 145.93 -39 0 ]
+	Size	19.48
+	Type	"AA"
+}
+
+Location "Sossia" "Sol/Vesta"
+{
+	LongLat	[ -74.24 -36.78 0 ]
+	Size	8.11
+	Type	"AA"
+}
+
+Location "Tarpeia" "Sol/Vesta"
+{
+	LongLat	[ 29.3 -69.47 0 ]
+	Size	40.29
+	Type	"AA"
+}
+
+Location "Teia" "Sol/Vesta"
+{
+	LongLat	[ -88.94 -3.44 0 ]
+	Size	6.69
+	Type	"AA"
+}
+
+Location "Torquata" "Sol/Vesta"
+{
+	LongLat	[ -6.22 46.45 0 ]
+	Size	34.73
+	Type	"AA"
+}
+
+Location "Tuccia" "Sol/Vesta"
+{
+	LongLat	[ -163.19 -39.86 0 ]
+	Size	11.64
+	Type	"AA"
+}
+
+Location "Urbinia" "Sol/Vesta"
+{
+	LongLat	[ -83.74 -29.88 0 ]
+	Size	24.25
+	Type	"AA"
+}
+
+Location "Varronilla" "Sol/Vesta"
+{
+	LongLat	[ 29.58 29.62 0 ]
+	Size	158.45
+	Type	"AA"
+}
+
+Location "Veneneia" "Sol/Vesta"
+{
+	LongLat	[ 155.68 -47.93 0 ]
+	Size	400
+	Type	"AA"
+}
+
+Location "VESTALIA TERRA" "Sol/Vesta"
+{
+	LongLat	[ -116.53 -3.73 0 ]
+	Size	335.56
+	Type	"TA"
+}
+
+Location "Vettenia" "Sol/Vesta"
+{
+	LongLat	[ 79.31 4.8 0 ]
+	Size	18.89
+	Type	"AA"
+}
+
+Location "Vibidia" "Sol/Vesta"
+{
+	LongLat	[ -139.7 -26.96 0 ]
+	Size	7.1
+	Type	"AA"
+}
 
 
 # 42 locations on Eros.
