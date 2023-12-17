@@ -118,6 +118,11 @@ Texture maps
 
    Pluto and Charon normal maps derived from the USGS DEMs.
 
+   Vesta:
+   Texture is a composite of individual color filter maps, gaps filled with a shaded texture improved by a normal map
+   made from topography data by USGS.
+      https://sbn.psi.edu/pds/
+
 # The Europa texture is by John van Vliet.
 
    Other textures derived from work by JVV are listed above.
@@ -282,6 +287,9 @@ covered.
   Telesto, Calypso, Helene, and Hyperion are from:
     https://sbn.psi.edu/pds/resource/saturnsatshapes.html
 
+# The Vesta model is from:
+    https://sbn.psi.edu/pds/resource/dawn/dwnvfcshape.html
+
 # The 3D model of Eros was prepared from the NEAR laser rangefinder shape model.
 
 # The Puck model is by Askaniy.
@@ -290,3 +298,11 @@ covered.
 
 # The Arrokoth model is derived from the Spencer et al. 2020 model:
     https://doi.org/10.6084/m9.figshare.11485443
+
+# The Psyche model is from Shepard et al. 2021: https://doi.org/10.3847/PSJ/abfdba
+
+# Models of asteroids Pallas, Juno, Iris, Hygiea, Eugenia, Sylvia, Elektra,
+  Kleopatra, and Interamnia are based on VLT/SPHERE imaging:
+    https://doi.org/10.1051/0004-6361/202141781
+  The original models are available here:
+    https://observations.lam.fr/astero/
