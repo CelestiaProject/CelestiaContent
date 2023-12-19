@@ -134,7 +134,7 @@
 		Rayleigh	[ 0.0031 0.0058 0.0120 ]
 		#Absorption	[ 0.0044 0.0040 0.0004 ]
 		CloudHeight	48.5
-		CloudSpeed	90
+		CloudSpeed	90  # 90 degrees/day motion = 4 days super-rotation
 		CloudMap	"venus-clouds.*"
 	}
 	CustomOrbit	"vsop87-venus"
@@ -192,7 +192,6 @@
 		Rayleigh	[ 0.0054 0.0081 0.0167 ]
 		Absorption	[ 0.0027 0.0017 0.0002 ]
 		CloudHeight	7
-		CloudSpeed	65
 		CloudMap	"earth-clouds.*"
 		CloudShadowDepth	1.0
 	}
@@ -302,7 +301,6 @@
 		Rayleigh	[ 0.00022 0.00034 0.00070 ]
 		Absorption	[ 0.0020 0.0020 0.0030 ]
 		CloudHeight	30
-		CloudSpeed	32
 		CloudMap	"mars-clouds.*"
 	}
 	CustomOrbit	"vsop87-mars"
@@ -973,6 +971,9 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	InfoURL	"https://en.wikipedia.org/wiki/Rhea_(moon)"
 }
 
+# CloudSpeed derived from Read and Lebonnois (2018), AREPS 46, 175
+# "Superrotation on Venus, on Titan, and Elsewhere"
+# https://ui.adsabs.harvard.edu/abs/2018AREPS..46..175R/abstract
 "Titan:Saturn VI" "Sol/Saturn"
 {
 	Class	"moon"
@@ -990,7 +991,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		MieScaleHeight	130
 		Absorption	[ 0.0001 0.0005 0.001 ]
 		CloudHeight	200
-		CloudSpeed	65
+		CloudSpeed	180  # degrees/day, 100 m/s wind speed
 		CloudMap	"titan-clouds.*"
 	}
 	CustomOrbit	"titan"
