@@ -64,7 +64,7 @@
 		Texture	"quaoar-rings.*"
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.109
+	GeomAlbedo	0.124
 	BondAlbedo	0.057
 	InfoURL	"https://en.wikipedia.org/wiki/50000_Quaoar"
 }
@@ -185,7 +185,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		AscendingNode	83.3
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.23
+	GeomAlbedo	0.231
 	InfoURL	"https://en.wikipedia.org/wiki/90482_Orcus"
 }
 
@@ -316,14 +316,14 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		Inclination	66
 		AscendingNode	234
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.076  # main body
 	Rings  # derived from ring radius, component widths and average gap size
 	{
 		Inner	313
 		Outer	335
 		Texture	"chariklo-rings.*"
 	}
+	LunarLambert	0.5
+	GeomAlbedo	0.076  # main body
 	InfoURL	"https://en.wikipedia.org/wiki/2060_Chiron"
 }
 
@@ -357,14 +357,14 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		Inclination	48.52
 		AscendingNode	241.3
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.038  # main body
 	Rings  # derived from ring radii and average widths by Braga-Ribas et al. (2014)
 	{
 		Inner	387.3
 		Outer	406.5
 		Texture	"chariklo-rings.*"
 	}
+	LunarLambert	0.5
+	GeomAlbedo	0.038  # main body
 	InfoURL	"https://en.wikipedia.org/wiki/10199_Chariklo"
 }
 
@@ -484,7 +484,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		Period	12.4
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.141
+	GeomAlbedo	0.108
 	BondAlbedo	0.037
 	InfoURL	"https://en.wikipedia.org/wiki/28978_Ixion"
 }
@@ -532,7 +532,7 @@ ReferencePoint "Huya System" "Sol"
 		Period	5.28
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.083
+	GeomAlbedo	0.079
 	InfoURL	"https://en.wikipedia.org/wiki/38628_Huya"
 }
 
@@ -554,7 +554,7 @@ ReferencePoint "Huya System" "Sol"
 		SemiMajorAxis	1520
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.083
+	GeomAlbedo	0.079	# assume same albedo as primary
 	InfoURL	"https://en.wikipedia.org/wiki/38628_Huya#Satellite"
 }
 
@@ -614,7 +614,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		AscendingNode	330.0
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.079
+	GeomAlbedo	0.079	# assume equal albedo
 	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo"
 }
 
@@ -652,7 +652,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		AscendingNode	330.0
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.079
+	GeomAlbedo	0.079	# assume equal albedo
 	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo#Hiisi"
 }
 
@@ -689,7 +689,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		AscendingNode	325.2
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.079
+	GeomAlbedo	0.079	# assume equal albedo
 	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo#Paha"
 }
 
@@ -754,7 +754,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		AscendingNode	110.4
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.044
+	GeomAlbedo	0.042
 	InfoURL	"https://en.wikipedia.org/wiki/120347_Salacia"
 }
 
@@ -782,7 +782,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		MeanAnomaly	214.5
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.044
+	GeomAlbedo	0.042	// assume same albedo as primary
 	InfoURL	"https://en.wikipedia.org/wiki/Actaea_(moon)"
 }
 
@@ -840,7 +840,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 		AscendingNode	5.1
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.097
+	GeomAlbedo	0.099
 	InfoURL	"https://en.wikipedia.org/wiki/174567_Varda"
 }
 
@@ -933,7 +933,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 		AscendingNode	128.5
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.142
+	GeomAlbedo	0.142	// assume equal albedo as primary
 	InfoURL	"https://en.wikipedia.org/wiki/229762_G%C7%83k%C3%BAn%C7%81%CA%BCh%C3%B2md%C3%ADm%C3%A0#Satellite"
 }
 
