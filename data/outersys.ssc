@@ -7,6 +7,8 @@
 # Centaur colors are derived from SMASS spectra and converted
 # to RGB values using Matt Wronkiewicz's spectrum2rgb utility
 # that is distributed with the Celestia source package.
+# These are then scaled for albedo = 0.5 textures by dividing 0.735357 with them.
+# https://docs.google.com/spreadsheets/d/1POAssGnBsFBGyoevCkom8sHODIgdsn_s/edit
 
 # Orbits for satellites have been taken from Emelyanov & Drozdov (2020), MNRAS 494 (2), 2410
 # "Determination of the orbits of 62 moons of asteroids based on astrometric observations."
