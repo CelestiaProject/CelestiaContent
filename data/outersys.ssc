@@ -39,7 +39,7 @@
 	Color	[ 0.557 0.519 0.469 ]
 	BlendTexture	true
 	Radius	579.5  # equatorial
-	Oblateness	0.12	# projected
+	Oblateness	0.12  # projected
 	Mass	0.0002009377
 	EllipticalOrbit
 	{
@@ -71,14 +71,17 @@
 	InfoURL	"https://en.wikipedia.org/wiki/50000_Quaoar"
 }
 
+# Radius and geometric albedo from Fernandez-Valenzuela et al., 55th Annual DPS Meeting Joint with EPSC
+# "Weywot: the darkest known satellite in the trans-Neptunian region"
+# https://submissions.mirasmart.com/DPS55/Itinerary/PresentationDetail.aspx?evdid=75
 "Weywot:50000 Quaoar I:Quaoar I:S 2006 (50000) 1" "Sol/Quaoar"
 {
 	Class	"minormoon"
-	Mesh	"asteroid.cms"
+	Mesh	"asteroid.cms"  # almost 200 km effective diameter
 	Texture	"asteroid.*"
-	Color	[ 0.5 0.5 0.5 ]  # adjust texture brightness for albedo
+	Color	[ 0.319 0.296 0.265 ]  # assume same photometric color as primary
 	BlendTexture	true
-	Radius	85  # JOA 10 (1), 24
+	Radius	100
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Quaoar" }
@@ -100,7 +103,7 @@
 		AscendingNode	352.3
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.03  # recalculated for size
+	GeomAlbedo	0.04
 	InfoURL	"https://en.wikipedia.org/wiki/Weywot_(moon)"
 }
 
@@ -560,7 +563,7 @@ ReferencePoint "Huya System" "Sol"
 		SemiMajorAxis	1520
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.079	# assume same albedo as primary
+	GeomAlbedo	0.079  # assume same albedo as primary
 	InfoURL	"https://en.wikipedia.org/wiki/38628_Huya#Satellite"
 }
 
@@ -591,7 +594,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.454 0.416 0.365 ]	# assume equal albedo
+	Color	[ 0.454 0.416 0.365 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	136
 	OrbitFrame
@@ -620,7 +623,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		AscendingNode	330.0
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.079	# assume equal albedo
+	GeomAlbedo	0.079  # assume equal albedo
 	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo"
 }
 
@@ -629,7 +632,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.454 0.416 0.365 ]	# assume equal albedo
+	Color	[ 0.454 0.416 0.365 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	125.5
 	OrbitFrame
@@ -658,7 +661,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		AscendingNode	330.0
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.079	# assume equal albedo
+	GeomAlbedo	0.079  # assume equal albedo
 	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo#Hiisi"
 }
 
@@ -667,7 +670,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.454 0.416 0.365 ]	# assume equal albedo
+	Color	[ 0.454 0.416 0.365 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	66
 	OrbitFrame
@@ -695,7 +698,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		AscendingNode	325.2
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.079	# assume equal albedo
+	GeomAlbedo	0.079  # assume equal albedo
 	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo#Paha"
 }
 
@@ -788,7 +791,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		MeanAnomaly	214.5
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.042	# assume same albedo as primary
+	GeomAlbedo	0.042  # assume same albedo as primary
 	InfoURL	"https://en.wikipedia.org/wiki/Actaea_(moon)"
 }
 
@@ -939,7 +942,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 		AscendingNode	128.5
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.142	# assume equal albedo as primary
+	GeomAlbedo	0.142  # assume equal albedo as primary
 	InfoURL	"https://en.wikipedia.org/wiki/229762_G%C7%83k%C3%BAn%C7%81%CA%BCh%C3%B2md%C3%ADm%C3%A0#Satellite"
 }
 
@@ -959,7 +962,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	Texture	"asteroid.*"
 	Color	[ 0.472 0.475 0.475 ]
 	BlendTexture	true
-	SemiAxes	[ 412 412 385 ] # projected
+	SemiAxes	[ 412 412 385 ]  # projected
 	EllipticalOrbit
 	{
 		Epoch	2460200.5  # 2023-Sep-13.0
@@ -1044,9 +1047,9 @@ ReferencePoint "Varda-Ilmare" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 1.0 0.988 0.956 ]	# self-calculated albedo
+	Color	[ 1.0 0.988 0.956 ]
 	BlendTexture	true
-	Radius	280	# minimum radius
+	Radius	280	 # minimum radius
 	EllipticalOrbit
 	{
 		Epoch	2457000.5  # 2014 Dec 09
@@ -1063,6 +1066,6 @@ ReferencePoint "Varda-Ilmare" "Sol"
 		Period	6  # guess
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.099	# assume minimum radius
+	GeomAlbedo	0.099  # assume minimum radius
 	InfoURL	"https://en.wikipedia.org/wiki/(612911)_2004_XR190"
 }
