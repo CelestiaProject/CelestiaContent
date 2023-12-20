@@ -255,14 +255,18 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/225088_Gonggong"
 }
 
+# Radius from Arakawa et al. (2021), AJ 162, no. 6, 226
+# "Tidal Evolution of the Eccentric Moon around Dwarf Planet (225088) Gonggong"
+# https://ui.adsabs.harvard.edu/abs/2021AJ....162..226A/abstract
+# Geometric albedo is calculated using this radius.
 "Xiangliu:225088 Gonggong I:Gonggong I:S 2010 (225088) 1" "Sol/Gonggong"
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.0 0.946 0.873 ]
+	Color	[ 0.448 0.421 0.385 ]
 	BlendTexture	true
-	Radius	50  # dynamical upper limit
+	Radius	100
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Gonggong" }
@@ -279,7 +283,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		MeanAnomaly	96.52
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.2
+	GeomAlbedo	0.08
 	InfoURL	"https://en.wikipedia.org/wiki/Xiangliu_(moon)"
 }
 
@@ -1035,13 +1039,14 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/486958_Arrokoth"
 }
 
+# Minimum radius from http://www.euraster.net/results/2021/index.html#0122--
 "(612911) 2004 XR190:2004 XR190" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.971 0.919 ]
+	Color	[ 1.0 0.988 0.956 ]	# self-calculated albedo
 	BlendTexture	true
-	Radius	290
+	Radius	280	# minimum radius
 	EllipticalOrbit
 	{
 		Epoch	2457000.5  # 2014 Dec 09
@@ -1058,6 +1063,6 @@ ReferencePoint "Varda-Ilmare" "Sol"
 		Period	6  # guess
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.09  # assumed
+	GeomAlbedo	0.099	# assume minimum radius
 	InfoURL	"https://en.wikipedia.org/wiki/(612911)_2004_XR190"
 }
