@@ -1049,7 +1049,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	Texture	"asteroid.*"
 	Color	[ 1.0 0.988 0.956 ]
 	BlendTexture	true
-	Radius	280	 # minimum radius
+	Radius	280  # minimum radius
 	EllipticalOrbit
 	{
 		Epoch	2457000.5  # 2014 Dec 09
