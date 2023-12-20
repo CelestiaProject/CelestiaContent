@@ -458,7 +458,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/20000_Varuna"
 }
 
-# Bond and geom albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# Bond and geometric albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
 # "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
 # https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "28978 Ixion:Ixion:2001 KX76" "Sol"
@@ -782,7 +782,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		MeanAnomaly	214.5
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.042	// assume same albedo as primary
+	GeomAlbedo	0.042	# assume same albedo as primary
 	InfoURL	"https://en.wikipedia.org/wiki/Actaea_(moon)"
 }
 
@@ -933,7 +933,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 		AscendingNode	128.5
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.142	// assume equal albedo as primary
+	GeomAlbedo	0.142	# assume equal albedo as primary
 	InfoURL	"https://en.wikipedia.org/wiki/229762_G%C7%83k%C3%BAn%C7%81%CA%BCh%C3%B2md%C3%ADm%C3%A0#Satellite"
 }
 
