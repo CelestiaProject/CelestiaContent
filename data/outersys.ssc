@@ -987,10 +987,14 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/(307261)_2002_MS4"
 }
 
+# Color derived from observations made by La Silla and PAN-STARRS 1 on 2010-04-06
+# https://www.minorplanetcenter.net/db_search/show_object?object_id=471143
 "471143 Dziewanna:Dziewanna:2010 EK139" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
+	Color	[ 1.0 0.92 0.818 ]
+	BlendTexture	true
 	Radius	235
 	EllipticalOrbit
 	{
