@@ -1,12 +1,11 @@
 # Colors are mainly derived from B-V and V-R indices, most of which
 # come from the MBOSS compilation: http://www.eso.org/~ohainaut/MBOSS/
-# and converted using Askaniy's TrueColorTools:
+# Centaur colors are derived from SMASS spectra: http://smass.mit.edu/smass.html
+# They are converted to RGB values using Askaniy's TrueColorTools:
 # https://github.com/Askaniy/TrueColorTools
 # or FarGetaNik's color calculator:
-# https://docs.google.com/spreadsheets/d/1_mMXYzeYE4JcXJFrn4j5XWJvf2ik13r8v1BZ7G9I4EY/
-# Centaur colors are derived from SMASS spectra and converted
-# to RGB values using Matt Wronkiewicz's spectrum2rgb utility
-# that is distributed with the Celestia source package.
+# https://docs.google.com/spreadsheets/d/1NvPGGiql5EdOUVTynE8CyoB9P4rSjblmzppyNGjR6bI/edit
+# or Matt Wronkiewicz's spectrum2rgb utility that is distributed with the Celestia source package.
 # These are then scaled for albedo = 0.5 textures by dividing 0.735357 with them.
 # https://docs.google.com/spreadsheets/d/1POAssGnBsFBGyoevCkom8sHODIgdsn_s/edit
 
