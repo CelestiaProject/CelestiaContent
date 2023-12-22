@@ -198,7 +198,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 
 "Vanth:90482 Orcus I:Orcus I:S 2005 (90482) 1" "Sol/Orcus"
 {
-	Class	"asteroid"
+	Class	"moon"
 	Texture	"asteroid.*"
 	Color	[ 0.438 0.423 0.404 ]
 	BlendTexture	true

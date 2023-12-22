@@ -82,7 +82,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 
 "Charon:134340 Pluto I:Pluto I:S 1978 P 1:S 1978 (134340) 1" "Sol/Pluto"
 {
-	Class	"dwarfplanet"
+	Class	"moon"
 	Texture	"charon.*"
 	NormalMap	"charon-normal.*"
 	Color	[ 0.994 1.0 0.972 ]
