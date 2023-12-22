@@ -1,5 +1,5 @@
-# Five official dwarf planets of the Solar System along with all known
-# satellites. Each object has all alternative designations.
+# Dwarf planets of the Solar System along with all known satellites.
+# Each object has all alternative designations.
 # Pluto is defined first, so that it will be selected by the "9" key.
 
 
@@ -542,8 +542,6 @@ ReferencePoint "Pluto-Charon" "Sol"
 	GeomAlbedo	0.04
 	InfoURL	"https://en.wikipedia.org/wiki/Dysnomia_(moon)"
 }
-
-# Consensus dwarf planets of the Solar System with all known satellites.
 
 # Braga-Ribas et al. (2013), ApJ 773 (1), 26
 # "The Size, Shape, Albedo, Density, and Atmospheric Limit of Transneptunian Object
