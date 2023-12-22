@@ -17,7 +17,7 @@
 # the component sizes, under the assumption of equal densities for both of them.
 
 # Satellites smaller than 200 km are classified as 'minormoon', otherwise they are moon.
-# Satellites with mass ratio of over 1:25 relative to their parent are given their physical class instead.
+# Small satellites with mass ratio of over 1:25 relative to their parent are given their physical class instead.
 
 # Likely dwarf planets
 
