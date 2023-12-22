@@ -381,7 +381,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 
 "Hi'iaka:136108 Haumea I:Haumea I:S 2005 (2003 EL61) 1" "Sol/Haumea"
 {
-	Class	"moon"
+	Class	"minormoon"
 	Mesh	"roughsphere.cms"
 	Texture	"icymoon.*"
 	Radius	160
