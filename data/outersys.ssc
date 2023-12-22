@@ -1,10 +1,13 @@
 # Colors are mainly derived from B-V and V-R indices, most of which
 # come from the MBOSS compilation: http://www.eso.org/~ohainaut/MBOSS/
-# and converted using FarGetaNik's color calculator:
-# https://docs.google.com/spreadsheets/d/1_mMXYzeYE4JcXJFrn4j5XWJvf2ik13r8v1BZ7G9I4EY/
-# Centaur colors are derived from SMASS spectra and converted
-# to RGB values using Matt Wronkiewicz's spectrum2rgb utility
-# that is distributed with the Celestia source package.
+# Centaur colors are derived from SMASS spectra: http://smass.mit.edu/smass.html
+# They are converted to RGB values using Askaniy's TrueColorTools:
+# https://github.com/Askaniy/TrueColorTools
+# or FarGetaNik's color calculator:
+# https://docs.google.com/spreadsheets/d/1NvPGGiql5EdOUVTynE8CyoB9P4rSjblmzppyNGjR6bI/edit
+# or Matt Wronkiewicz's spectrum2rgb utility that is distributed with the Celestia source package.
+# These are then scaled for albedo = 0.5 textures by dividing 0.735357 with them.
+# https://docs.google.com/spreadsheets/d/1POAssGnBsFBGyoevCkom8sHODIgdsn_s/edit
 
 # Orbits for satellites have been taken from Emelyanov & Drozdov (2020), MNRAS 494 (2), 2410
 # "Determination of the orbits of 62 moons of asteroids based on astrometric observations."
@@ -22,7 +25,7 @@
 # Mass, radii, and rotation period from Morgado et al. (2023), Nature 614, 239–243
 # "A dense ring of the trans-Neptunian object Quaoar outside its Roche limit"
 # https://ui.adsabs.harvard.edu/abs/2023Natur.614..239M/abstract
-# Ring rotation axis from Pereira et al. (2023), A&A 673, 14
+# Ring rotation axis and geometric albedo from Pereira et al. (2023), A&A 673, 14
 # "The two rings of (50000) Quaoar"
 # https://ui.adsabs.harvard.edu/abs/2023A%26A...673L...4P/abstract
 # Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
@@ -30,13 +33,12 @@
 # https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "50000 Quaoar:Quaoar:2002 LM60" "Sol"
 {
-	Class	"asteroid"
-	# Class	"dwarfplanet"
+	Class	"dwarfplanet"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.893 0.787 ]
+	Color	[ 0.557 0.519 0.469 ]
 	BlendTexture	true
 	Radius	579.5  # equatorial
-	Oblateness	0.12	# projected
+	Oblateness	0.12  # projected
 	Mass	0.0002009377
 	EllipticalOrbit
 	{
@@ -63,19 +65,22 @@
 		Texture	"quaoar-rings.*"
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.109
+	GeomAlbedo	0.124
 	BondAlbedo	0.057
 	InfoURL	"https://en.wikipedia.org/wiki/50000_Quaoar"
 }
 
+# Radius and geometric albedo from Fernandez-Valenzuela et al., 55th Annual DPS Meeting Joint with EPSC
+# "Weywot: the darkest known satellite in the trans-Neptunian region"
+# https://submissions.mirasmart.com/DPS55/Itinerary/PresentationDetail.aspx?evdid=75
 "Weywot:50000 Quaoar I:Quaoar I:S 2006 (50000) 1" "Sol/Quaoar"
 {
 	Class	"minormoon"
-	Mesh	"asteroid.cms"
+	Mesh	"asteroid.cms"  # almost 200 km effective diameter
 	Texture	"asteroid.*"
-	Color	[ 0.5 0.5 0.5 ]  # adjust texture brightness for albedo
+	Color	[ 0.319 0.296 0.265 ]  # assume same photometric color as primary
 	BlendTexture	true
-	Radius	85  # JOA 10 (1), 24
+	Radius	100
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Quaoar" }
@@ -97,16 +102,15 @@
 		AscendingNode	352.3
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.03  # recalculated for size
+	GeomAlbedo	0.04
 	InfoURL	"https://en.wikipedia.org/wiki/Weywot_(moon)"
 }
 
 "90377 Sedna:Sedna:2003 VB12" "Sol"
 {
-	Class	"asteroid"
-	# Class	"dwarfplanet"
+	Class	"dwarfplanet"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.860 0.692 ]
+	Color	[ 0.978 0.886 0.746 ]
 	BlendTexture	true
 	Radius	497.5
 	EllipticalOrbit
@@ -158,10 +162,9 @@ ReferencePoint "Orcus-Vanth" "Sol"
 
 "90482 Orcus:Orcus:2004 DW" "Sol"
 {
-	Class	"asteroid"
-	# Class	"dwarfplanet"
+	Class	"dwarfplanet"
 	Texture	"asteroid.*"
-	Color	[ 0.998 1.000 0.995 ]
+	Color	[ 0.698 0.706 0.709 ]
 	BlendTexture	true
 	Radius	455
 	Mass	0.00009125921
@@ -186,7 +189,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		AscendingNode	83.3
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.23
+	GeomAlbedo	0.231
 	InfoURL	"https://en.wikipedia.org/wiki/90482_Orcus"
 }
 
@@ -194,7 +197,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 {
 	Class	"moon"
 	Texture	"asteroid.*"
-	Color	[ 0.69 0.60 0.51 ]  # reddish; adjusted for albedo
+	Color	[ 0.438 0.423 0.404 ]
 	BlendTexture	true
 	Radius	221.25
 	Mass	0.0000145680
@@ -225,10 +228,9 @@ ReferencePoint "Orcus-Vanth" "Sol"
 # "Photometry of Transneptunian Objects for the Herschel Key Program 'TNOs are Cool'"
 "225088 Gonggong:Gonggong:2007 OR10" "Sol"
 {
-	Class	"asteroid"
-	# Class	"dwarfplanet"
+	Class	"dwarfplanet"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.818 0.604 ]
+	Color	[ 0.622 0.542 0.42 ]
 	BlendTexture	true
 	Radius	615
 	Oblateness	0.03
@@ -255,12 +257,18 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/225088_Gonggong"
 }
 
+# Radius from Arakawa et al. (2021), AJ 162, no. 6, 226
+# "Tidal Evolution of the Eccentric Moon around Dwarf Planet (225088) Gonggong"
+# https://ui.adsabs.harvard.edu/abs/2021AJ....162..226A/abstract
+# Geometric albedo is calculated using this radius.
 "Xiangliu:225088 Gonggong I:Gonggong I:S 2010 (225088) 1" "Sol/Gonggong"
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Radius	50  # dynamical upper limit
+	Color	[ 0.448 0.421 0.385 ]
+	BlendTexture	true
+	Radius	100
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Gonggong" }
@@ -277,7 +285,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		MeanAnomaly	96.52
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.2
+	GeomAlbedo	0.08
 	InfoURL	"https://en.wikipedia.org/wiki/Xiangliu_(moon)"
 }
 
@@ -286,13 +294,17 @@ ReferencePoint "Orcus-Vanth" "Sol"
 # Ortiz et al. (2015), A&A 576, A18
 # "Possible ring material around centaur (2060) Chiron"
 # https://www.aanda.org/articles/aa/abs/2015/04/aa24461-14/aa24461-14.html
+# Geometric albedo from Braga-Ribas et al. (2023), A&A 676, A72
+# "Constraints on (2060) Chiron's size, shape, and surrounding material from
+# the November 2018 and September 2019 stellar occultations"
+# https://ui.adsabs.harvard.edu/abs/2023A%26A...676A..72B/abstract
 "2060 Chiron:Chiron:1977 UB:95P Chiron" "Sol"
 {
 	Class	"asteroid"
 	# Class	"comet"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.960 0.919 ]
+	Color	[ 0.416 0.415 0.415 ]
 	BlendTexture	true
 	SemiAxes	[ 100 84 70 ]
 	EllipticalOrbit
@@ -312,14 +324,14 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		Inclination	66
 		AscendingNode	234
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.08  # main body
 	Rings  # derived from ring radius, component widths and average gap size
 	{
 		Inner	313
 		Outer	335
 		Texture	"chariklo-rings.*"
 	}
+	LunarLambert	0.5
+	GeomAlbedo	0.076  # main body
 	InfoURL	"https://en.wikipedia.org/wiki/2060_Chiron"
 }
 
@@ -331,7 +343,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.903 0.786 ]
+	Color	[ 0.298 0.286 0.26 ]
 	BlendTexture	true
 	Radius	143  # equatorial
 	Oblateness	0.329
@@ -353,14 +365,14 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		Inclination	48.52
 		AscendingNode	241.3
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.038  # main body
 	Rings  # derived from ring radii and average widths by Braga-Ribas et al. (2014)
 	{
 		Inner	387.3
 		Outer	406.5
 		Texture	"chariklo-rings.*"
 	}
+	LunarLambert	0.5
+	GeomAlbedo	0.038  # main body
 	InfoURL	"https://en.wikipedia.org/wiki/10199_Chariklo"
 }
 
@@ -371,7 +383,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Class	"asteroid"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.872 0.798 ]
+	Color	[ 1.0 0.932 0.872 ]
 	BlendTexture	true
 	Radius	54
 	EllipticalOrbit
@@ -398,7 +410,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.909 0.810 ]
+	Color	[ 1.0 0.947 0.87 ]
 	BlendTexture	true
 	Radius	300
 	EllipticalOrbit
@@ -428,7 +440,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.902 0.813 ]
+	Color	[ 0.644 0.607 0.56 ]
 	BlendTexture	true
 	Radius	502  # long-axis from occultation
 	SemiAxes	[ 1 0.6 0.432 ]  # hydrostatic equilibrium assumed
@@ -454,14 +466,14 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/20000_Varuna"
 }
 
-# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# Bond and geometric albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
 # "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
 # https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "28978 Ixion:Ixion:2001 KX76" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.910 0.782 ]
+	Color	[ 0.519 0.486 0.431 ]
 	BlendTexture	true
 	Radius	308.5
 	EllipticalOrbit
@@ -480,7 +492,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		Period	12.4
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.141
+	GeomAlbedo	0.108
 	BondAlbedo	0.037
 	InfoURL	"https://en.wikipedia.org/wiki/28978_Ixion"
 }
@@ -503,11 +515,14 @@ ReferencePoint "Huya System" "Sol"
 	Clickable true
 }
 
+# Geometric albedo from Santos-Sanz et al. (2022), A&A 664, A130
+# "Physical properties of the trans-Neptunian object (38628) Huya from a multi-chord stellar occultation"
+# https://ui.adsabs.harvard.edu/abs/2022A%26A...664A.130S/abstract
 "38628 Huya:Huya:2000 EB173" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.909 0.799 ]
+	Color	[ 0.445 0.418 0.377 ]
 	BlendTexture	true
 	Radius	203
 	OrbitFrame
@@ -525,7 +540,7 @@ ReferencePoint "Huya System" "Sol"
 		Period	5.28
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.083
+	GeomAlbedo	0.079
 	InfoURL	"https://en.wikipedia.org/wiki/38628_Huya"
 }
 
@@ -534,7 +549,7 @@ ReferencePoint "Huya System" "Sol"
 	Class	"moon"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.909 0.799 ]  # assume same color as primary
+	Color	[ 0.445 0.418 0.377 ]  # assume same color as primary
 	BlendTexture	true
 	Radius	106.5
 	OrbitFrame
@@ -547,10 +562,14 @@ ReferencePoint "Huya System" "Sol"
 		SemiMajorAxis	1520
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.083
+	GeomAlbedo	0.079  # assume same albedo as primary
 	InfoURL	"https://en.wikipedia.org/wiki/38628_Huya#Satellite"
 }
 
+# System geometric albedo from Mommert et al. (2012), A&A 541, A93
+# "TNOs are cool: A survey of the trans-Neptunian region. V.
+# Physical characterization of 18 Plutinos using Herschel-PACS observations"
+# https://ui.adsabs.harvard.edu/abs/2012A%26A...541A..93M/abstract
 ReferencePoint "Lempo-Hiisi" "Sol"
 {
 	EllipticalOrbit
@@ -574,7 +593,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.0 0.82 0.64 ]
+	Color	[ 0.454 0.416 0.365 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	136
 	OrbitFrame
@@ -603,7 +622,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		AscendingNode	330.0
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.079
+	GeomAlbedo	0.079  # assume equal albedo
 	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo"
 }
 
@@ -612,7 +631,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.0 0.82 0.64 ]
+	Color	[ 0.454 0.416 0.365 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	125.5
 	OrbitFrame
@@ -641,7 +660,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		AscendingNode	330.0
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.079
+	GeomAlbedo	0.079  # assume equal albedo
 	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo#Hiisi"
 }
 
@@ -650,7 +669,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.0 0.82 0.64 ]
+	Color	[ 0.454 0.416 0.365 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	66
 	OrbitFrame
@@ -678,15 +697,19 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		AscendingNode	325.2
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.079
+	GeomAlbedo	0.079  # assume equal albedo
 	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo#Paha"
 }
 
+# Geometric albedo from Vilenius et al. (2014), A&A 564, A35
+# ""TNOs are Cool": A survey of the trans-Neptunian region. X.
+# Analysis of classical Kuiper belt objects from Herschel and Spitzer observations"
+# https://ui.adsabs.harvard.edu/abs/2014A%26A...564A..35V/abstract
 "(55565) 2002 AW197:2002 AW197" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.916 0.822 ]
+	Color	[ 0.523 0.496 0.456 ]
 	BlendTexture	true
 	Radius	384
 	EllipticalOrbit
@@ -711,11 +734,14 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 
 # Sizes from Grundy et al. (2019), Icarus 334, 62
 # "Mutual orbit orientations of transneptunian binaries"
+# Geometric albedo from Brown and Butler (2017), AJ 154, no. 1, 19
+# "The Density of Mid-sized Kuiper Belt Objects from ALMA Thermal Observations"
+# https://ui.adsabs.harvard.edu/abs/2017AJ....154...19B/abstract
 "120347 Salacia:Salacia:2004 SB60" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.990 0.988 ]
+	Color	[ 0.306 0.309 0.311 ]
 	BlendTexture	true
 	Radius	423
 	EllipticalOrbit
@@ -736,7 +762,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		AscendingNode	110.4
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.044
+	GeomAlbedo	0.042
 	InfoURL	"https://en.wikipedia.org/wiki/120347_Salacia"
 }
 
@@ -745,7 +771,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Class	"moon"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.990 0.988 ]  # assume same color as primary
+	Color	[ 0.306 0.309 0.311 ]  # assume same color as primary
 	BlendTexture	true
 	Radius	142
 	OrbitFrame
@@ -764,13 +790,16 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		MeanAnomaly	214.5
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.044
+	GeomAlbedo	0.042  # assume same albedo as primary
 	InfoURL	"https://en.wikipedia.org/wiki/Actaea_(moon)"
 }
 
-# Souami et al. (2020), eprint arXiv:2008.04818
+# Souami et al. (2020), A&A 643, A125
 # "A multi-chord stellar occultation by the large trans-Neptunian object (174567) Varda"
-# https://arxiv.org/abs/2008.04818
+# https://ui.adsabs.harvard.edu/abs/2020A%26A...643A.125S/abstract
+# Colors from Grundy et al. (2015), Icarus 257, p. 130-138
+# "The mutual orbit, mass, and density of the large transneptunian binary system Varda and Ilmarë"
+# https://ui.adsabs.harvard.edu/abs/2015Icar..257..130G/abstract
 ReferencePoint "Varda-Ilmare" "Sol"
 {
 	EllipticalOrbit
@@ -793,7 +822,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.929 0.842 ]
+	Color	[ 0.498 0.467 0.432 ]
 	BlendTexture	true
 	Radius	381  # equatorial
 	Oblateness	0.043
@@ -819,7 +848,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 		AscendingNode	5.1
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.097
+	GeomAlbedo	0.099
 	InfoURL	"https://en.wikipedia.org/wiki/174567_Varda"
 }
 
@@ -828,7 +857,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	Class	"moon"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.941 0.875 0.793 ]  # assume same color as primary; adjusted for albedo
+	Color	[ 0.468 0.433 0.404 ]
 	BlendTexture	true
 	Radius	178
 	OrbitFrame
@@ -860,6 +889,8 @@ ReferencePoint "Varda-Ilmare" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
+	Color	[ 0.583 0.556 0.521 ]
+	BlendTexture	true
 	SemiAxes	[ 339 339 305.7 ]
 	EllipticalOrbit
 	{
@@ -886,7 +917,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.00 0.88 0.75 ]  # reddish
+	Color	[ 1.0 0.857 0.644 ]  # reddish
 	BlendTexture	true
 	Radius	72
 	OrbitFrame
@@ -910,7 +941,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 		AscendingNode	128.5
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.142
+	GeomAlbedo	0.142  # assume equal albedo as primary
 	InfoURL	"https://en.wikipedia.org/wiki/229762_G%C7%83k%C3%BAn%C7%81%CA%BCh%C3%B2md%C3%ADm%C3%A0#Satellite"
 }
 
@@ -928,9 +959,9 @@ ReferencePoint "Varda-Ilmare" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.993 1.000 0.999 ]
+	Color	[ 0.472 0.475 0.475 ]
 	BlendTexture	true
-	SemiAxes	[ 412 412 385 ] # projected
+	SemiAxes	[ 412 412 385 ]  # projected
 	EllipticalOrbit
 	{
 		Epoch	2460200.5  # 2023-Sep-13.0
@@ -955,10 +986,14 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/(307261)_2002_MS4"
 }
 
+# Color derived from observations made by La Silla and PAN-STARRS 1 on 2010-04-06
+# https://www.minorplanetcenter.net/db_search/show_object?object_id=471143
 "471143 Dziewanna:Dziewanna:2010 EK139" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
+	Color	[ 1.0 0.92 0.818 ]
+	BlendTexture	true
 	Radius	235
 	EllipticalOrbit
 	{
@@ -1010,13 +1045,14 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/486958_Arrokoth"
 }
 
+# Minimum radius from http://www.euraster.net/results/2021/index.html#0122--
 "(612911) 2004 XR190:2004 XR190" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 1.000 0.971 0.919 ]
+	Color	[ 1.0 0.988 0.956 ]
 	BlendTexture	true
-	Radius	290
+	Radius	280  # minimum radius
 	EllipticalOrbit
 	{
 		Epoch	2457000.5  # 2014 Dec 09
@@ -1033,6 +1069,6 @@ ReferencePoint "Varda-Ilmare" "Sol"
 		Period	6  # guess
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.09  # assumed
+	GeomAlbedo	0.099  # assume minimum radius
 	InfoURL	"https://en.wikipedia.org/wiki/(612911)_2004_XR190"
 }
