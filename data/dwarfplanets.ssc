@@ -80,7 +80,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Pluto"
 }
 
-"Charon:134340 Pluto I:Pluto I:S 1978 P 1:S 1978 (134340) 1" "Sol/Pluto"
+"Charon:Pluto I:134340 Pluto I:S 1978 P 1:S 1978 (134340) 1" "Sol/Pluto"
 {
 	Class	"moon"
 	Texture	"charon.*"
@@ -120,7 +120,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Charon_(moon)"
 }
 
-"Styx:134340 Pluto V:Pluto V:S 2012 P 1:S 2012 (134340) 1:P5" "Sol/Pluto"
+"Styx:Pluto V:134340 Pluto V:S 2012 P 1:S 2012 (134340) 1:P5" "Sol/Pluto"
 {
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
@@ -156,7 +156,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Styx_(moon)"
 }
 
-"Nix:134340 Pluto II:Pluto II:S 2005 P 2:S 2005 (134340) 2" "Sol/Pluto"
+"Nix:Pluto II:134340 Pluto II:S 2005 P 2:S 2005 (134340) 2" "Sol/Pluto"
 {
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
@@ -193,7 +193,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Nix_(moon)"
 }
 
-"Kerberos:134340 Pluto IV:Pluto IV:S 2011 P 1:S 2011 (134340) 1:P4" "Sol/Pluto"
+"Kerberos:Pluto IV:134340 Pluto IV:S 2011 P 1:S 2011 (134340) 1:P4" "Sol/Pluto"
 {
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
@@ -229,7 +229,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Kerberos_(moon)"
 }
 
-"Hydra:134340 Pluto III:Pluto III:S 2005 P 1:S 2005 (134340) 1" "Sol/Pluto"
+"Hydra:Pluto III:134340 Pluto III:S 2005 P 1:S 2005 (134340) 1" "Sol/Pluto"
 {
 	Class	"minormoon"
 	Mesh	"hydra.cmod"
@@ -348,7 +348,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Haumea"
 }
 
-"Namaka:136108 Haumea II:Haumea II:S 2005 (2003 EL61) 2" "Sol/Haumea"
+"Namaka:Haumea II:136108 Haumea II:S 2005 (2003 EL61) 2" "Sol/Haumea"
 {
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
@@ -379,7 +379,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Namaka_(moon)"
 }
 
-"Hi'iaka:136108 Haumea I:Haumea I:S 2005 (2003 EL61) 1" "Sol/Haumea"
+"Hi'iaka:Haumea I:136108 Haumea I:S 2005 (2003 EL61) 1" "Sol/Haumea"
 {
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
@@ -511,7 +511,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Eris_(dwarf_planet)"
 }
 
-"Dysnomia:136199 Eris I:Eris I:S 2005 (2003 UB313) 1" "Sol/Eris"
+"Dysnomia:Eris I:136199 Eris I:S 2005 (2003 UB313) 1" "Sol/Eris"
 {
 	Class	"moon"
 	Texture	"asteroid.*"
@@ -543,8 +543,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Dysnomia_(moon)"
 }
 
-# Consensus dwarf planets of the Solar System
-# These objects are generally regarded to be dwarf planets, even if they are not officially considered as such.
+# Consensus dwarf planets of the Solar System with all known satellites.
 
 # Braga-Ribas et al. (2013), ApJ 773 (1), 26
 # "The Size, Shape, Albedo, Density, and Atmospheric Limit of Transneptunian Object
