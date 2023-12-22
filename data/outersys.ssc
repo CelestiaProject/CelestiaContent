@@ -16,6 +16,9 @@
 # mass ratios (and thus relative semi-major axes) have been computed from the cube of
 # the component sizes, under the assumption of equal densities for both of them.
 
+# Satellites smaller than 200 km are classified as 'minormoon', otherwise they are moon.
+# Satellites with mass ratio of over 1:25 relative to their parent are given their physical class instead.
+
 # Likely dwarf planets
 
 # Braga-Ribas et al. (2013), ApJ 773 (1), 26
@@ -195,7 +198,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 
 "Vanth:90482 Orcus I:Orcus I:S 2005 (90482) 1" "Sol/Orcus"
 {
-	Class	"moon"
+	Class	"asteroid"
 	Texture	"asteroid.*"
 	Color	[ 0.438 0.423 0.404 ]
 	BlendTexture	true
@@ -546,7 +549,7 @@ ReferencePoint "Huya System" "Sol"
 
 "S 2012 (38628) 1" "Sol/Huya"
 {
-	Class	"moon"
+	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.445 0.418 0.377 ]  # assume same color as primary
@@ -666,7 +669,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 
 "Paha:47171 Lempo I:Lempo I:S 2001 (47171) 1:1999 TC36 B" "Sol/Lempo"
 {
-	Class	"minormoon"
+	Class	"asteroid"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.454 0.416 0.365 ]  # assume equal albedo
@@ -854,7 +857,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 
 "Ilmare:174567 Varda I:Varda I:S 2009 (174567) 1" "Sol/Varda"
 {
-	Class	"moon"
+	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.468 0.433 0.404 ]

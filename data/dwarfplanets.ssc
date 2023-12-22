@@ -82,7 +82,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 
 "Charon:134340 Pluto I:Pluto I:S 1978 P 1:S 1978 (134340) 1" "Sol/Pluto"
 {
-	Class	"moon"
+	Class	"dwarfplanet"
 	Texture	"charon.*"
 	NormalMap	"charon-normal.*"
 	Color	[ 0.994 1.0 0.972 ]
@@ -381,7 +381,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 
 "Hi'iaka:136108 Haumea I:Haumea I:S 2005 (2003 EL61) 1" "Sol/Haumea"
 {
-	Class	"moon"
+	Class	"minormoon"
 	Mesh	"roughsphere.cms"
 	Texture	"icymoon.*"
 	Radius	160
