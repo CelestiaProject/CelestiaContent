@@ -502,9 +502,12 @@ ReferencePoint "Pluto-Charon" "Sol"
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		Period	378.504
+		Epoch	2453979.0  # 2006 Aug 31 12:00
+		# Period	378.504
+		Period	378.861576
 		Inclination	45.49
 		AscendingNode	126.17
+		MeridianAngle	359.61
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.96
@@ -535,9 +538,10 @@ ReferencePoint "Pluto-Charon" "Sol"
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		Period	378.861576
+		Epoch	2453979.0  # 2006 Aug 31 12:00
 		Inclination	45.49
 		AscendingNode	126.17
+		MeridianAngle	179.61
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.05
