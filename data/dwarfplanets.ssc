@@ -503,7 +503,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	UniformRotation
 	{
 		Epoch	2453979.0  # 2006 Aug 31 12:00
-		# Period	378.504
+		# Period	378.504  # measured
 		Period	378.861576
 		Inclination	45.49
 		AscendingNode	126.17
