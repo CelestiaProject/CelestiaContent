@@ -1,0 +1,30 @@
+name: Licenses
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+concurrency:
+  group: "${{ github.workflow }}-${{ github.ref }}"
+  cancel-in-progress: true
+
+jobs:
+  reuse:
+    strategy:
+      fail-fast: true
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install reuse
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y reuse
+
+    - name: Checkout source code
+      uses: actions/checkout@v4
+
+    - name: Validate licenses
+      working-directory: ${{github.workspace}}
+      run: |
+        reuse lint
