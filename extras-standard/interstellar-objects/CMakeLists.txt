@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Celestia Development Team
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 set(INTERSTELLAR_SOURCES
   data/borisov.xyzv
   data/oumuamua.xyzv

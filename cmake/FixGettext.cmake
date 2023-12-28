@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Celestia Development Team
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 macro(GETTEXT_CREATE_TRANSLATIONS2 _potFile _firstPoFileArg)
    # make it a real variable, so we can modify it here
    set(_firstPoFile "${_firstPoFileArg}")

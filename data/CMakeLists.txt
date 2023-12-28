@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Celestia Development Team
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 if(ENABLE_HIPPARCOS)
   add_custom_command(OUTPUT stars.dat COMMAND buildstardb -q DEPENDS buildstardb)
   add_custom_target(hipparcos_data ALL DEPENDS stars.dat)

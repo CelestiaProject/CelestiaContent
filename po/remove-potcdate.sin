@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Celestia Development Team
+# SPDX-License-Identifier: GPL-2.0-or-later
+#
 # Sed script that remove the POT-Creation-Date line in the header entry
 # from a POT file.
 #
