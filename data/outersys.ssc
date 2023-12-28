@@ -318,6 +318,9 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Clickable true
 }
 
+# Orbits of companions from Benecchi et al. (2010), Icarus 207 (2), p. 978-991
+# "(47171) 1999 TC 36, A transneptunian triple"
+# https://ui.adsabs.harvard.edu/abs/2010Icar..207..978B/abstract
 "47171 Lempo:Lempo:1999 TC36:1999 TC36 A1" "Sol"
 {
 	Class	"asteroid"
@@ -462,8 +465,12 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/(55565)_2002_AW197"
 }
 
-# Sizes from Grundy et al. (2019), Icarus 334, 62
+# Sizes and Actaea's orbit from Grundy et al. (2019), Icarus 334, 62-78
 # "Mutual orbit orientations of transneptunian binaries"
+# https://ui.adsabs.harvard.edu/abs/2019Icar..334...62G/abstract
+# Rotation period from Thirouin et al. (2014), A&A 569, A3
+# "Rotational properties of the binary and non-binary populations in the trans-Neptunian belt"
+# https://ui.adsabs.harvard.edu/abs/2014A%26A...569A...3T/abstract
 # Geometric albedo from Brown and Butler (2017), AJ 154, no. 1, 19
 # "The Density of Mid-sized Kuiper Belt Objects from ALMA Thermal Observations"
 # https://ui.adsabs.harvard.edu/abs/2017AJ....154...19B/abstract
@@ -485,11 +492,12 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 		ArgOfPericenter	310.976065097087
 		MeanAnomaly	122.990298098042
 	}
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation  # assume coplanarity with satellite orbit
 	{
 		Period	6.5
-		Inclination	18.0
-		AscendingNode	110.4
+		Inclination	23.59
+		AscendingNode	45.2
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.042
@@ -510,14 +518,22 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	}
 	EllipticalOrbit
 	{
-		Epoch	2454300.0  # 2007 Jul 18 12:00
-		Period	5.4938
-		SemiMajorAxis	5709
-		Eccentricity	0.005
-		Inclination	23.7
-		AscendingNode	46.1
-		ArgOfPericenter	43.2
-		MeanAnomaly	214.5
+		Epoch	2454300  # 2007 Jul 18 12:00 UT
+		Period	5.493882
+		SemiMajorAxis	5724
+		Eccentricity	0.0098
+		Inclination	23.59
+		MeanLongitude	303.76
+		AscendingNode	45.2
+		LongOfPericenter	134
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation  # to match mutual orbit
+	{
+		Epoch	2454300  # 2007 Jul 18 12:00 UT
+		Inclination	23.59
+		AscendingNode	45.2
+		MeridianAngle	78.56
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.042  # assume same albedo as primary
@@ -530,7 +546,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 # Colors from Grundy et al. (2015), Icarus 257, p. 130-138
 # "The mutual orbit, mass, and density of the large transneptunian binary system Varda and Ilmarë"
 # https://ui.adsabs.harvard.edu/abs/2015Icar..257..130G/abstract
-ReferencePoint "Varda-Ilmare" "Sol"
+ReferencePoint "Varda-Ilmar\u00EB" "Sol"
 {
 	EllipticalOrbit
 	{
@@ -558,7 +574,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	Oblateness	0.043
 	OrbitFrame
 	{
-		EquatorJ2000	{ Center "Sol/Varda-Ilmare" }
+		EquatorJ2000	{ Center "Sol/Varda-Ilmar\u00EB" }
 	}
 	EllipticalOrbit
 	{
@@ -582,7 +598,7 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/174567_Varda"
 }
 
-"Ilmare:174567 Varda I:Varda I:S 2009 (174567) 1" "Sol/Varda"
+"Ilmar\u00EB:174567 Varda I:Varda I:S 2009 (174567) 1" "Sol/Varda"
 {
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
@@ -614,7 +630,9 @@ ReferencePoint "Varda-Ilmare" "Sol"
 # "Stellar Occultations by Transneptunian objects: from Predictions to Observations
 # and Prospects for the Future"
 # https://arxiv.org/abs/1905.04335
-# Secondary size calculated from radius ratio in Grundy et al. (2019), Icarus 334, 30
+# Orientation from Benedetti-Rossi et al. (2016), AJ 152 (6), 156
+# "Results from the 2014 November 15th Multi-chord Stellar Occultation by the TNO (229762) 2007 UK126"
+# https://ui.adsabs.harvard.edu/abs/2016AJ....152..156B/abstract
 "229762 G!kun||'homdima:G!kun||'homdima:2007 UK126" "Sol"
 {
 	Class	"asteroid"
@@ -633,15 +651,21 @@ ReferencePoint "Varda-Ilmare" "Sol"
 		ArgOfPericenter	346.87585252865
 		MeanAnomaly	344.208559857227
 	}
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
 		Period	11.05
+		Inclination	133.9981188
+		AscendingNode	247.8337901
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.142
 	InfoURL	"https://en.wikipedia.org/wiki/229762_G%C7%83k%C3%BAn%C7%81%CA%BCh%C3%B2md%C3%ADm%C3%A0"
 }
 
+# Orbit and radius ratio from Grundy et al. (2019), Icarus 334, p. 30-38
+# "The mutual orbit, mass, and density of transneptunian binary Gǃkúnǁ'hòmdímà (229762 2007 UK126)"
+# https://ui.adsabs.harvard.edu/abs/2019Icar..334...30G/abstract
 "G!o'e !Hu:229762 G!kun||'homdima I:G!kun||'homdima I:S 2008 (229762) 1" "Sol/G!kun||'homdima"
 {
 	Class	"minormoon"
@@ -656,19 +680,22 @@ ReferencePoint "Varda-Ilmare" "Sol"
 	}
 	EllipticalOrbit
 	{
-		Epoch	2457000.0  # 2014 Dec 08 12:00
-		Period	11.3147
-		SemiMajorAxis	6012
-		Eccentricity	0.025
-		Inclination	43.7
-		AscendingNode	110.9
-		ArgOfPericenter	340.4
-		MeanAnomaly	252.9
+		Epoch	2457000  # 2014 Dec 8 12:00 UT
+		Period	11.31473
+		SemiMajorAxis	6035
+		Eccentricity	0.0236
+		Inclination	43.75
+		MeanLongitude	344.0
+		AscendingNode	110.6
+		LongOfPericenter	91
 	}
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation  # to match orbit plane
 	{
-		Inclination	55.6
-		AscendingNode	128.5
+		Epoch	2457000  # 2014 Dec 8 12:00 UT
+		Inclination	43.75
+		AscendingNode	110.6
+		MeridianAngle	53.4
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.142  # assume equal albedo as primary
