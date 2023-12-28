@@ -466,7 +466,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/S/2015_(136472)_1"
 }
 
-# System mass from Holler et al. (2021), Icarus 355, 114130
+# System mass and orbit from Holler et al. (2021), Icarus 355, 114130
 # "The Eris/Dysnomia system I: The orbit of Dysnomia"
 # https://ui.adsabs.harvard.edu/abs/2021Icar..35514130H/abstract
 # Mass ratio from Brown and Butler (2023), Planet. Sci. J. 4, 193
@@ -531,9 +531,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 		SemiMajorAxis	37273
 		Eccentricity	0.0062
 		Inclination	45.49
+		MeanLongitude	125.78
 		AscendingNode	126.17
-		ArgOfPericenter	180.83
-		MeanAnomaly	178.78
+		LongOfPericenter	307
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
@@ -704,25 +704,34 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	}
 	EllipticalOrbit
 	{
-		Epoch	2454000.0  # 2006 Sept 21 12:00
-		Period	9.3072
-		SemiMajorAxis	940
-		Eccentricity	0.021
-		Inclination	100.2
-		AscendingNode	87.2
-		ArgOfPericenter	305.6
-		MeanAnomaly	321.4
+		Epoch	2454000  # 2006 Sept 21 12:00
+		Period	9.539154
+		SemiMajorAxis	1241.4  # semi-major axis: 8999.8 km, mass ratio: 0.16 +/- 0.02
+		Eccentricity	0.00091
+		Inclination	105.03
+		MeanLongitude	8.52
+		AscendingNode	53.49
+		LongOfPericenter	148
+	}
+	BodyFrame
+	{
+		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
 	}
 	UniformRotation  # to match mutual orbit
 	{
-		Inclination	98.2
-		AscendingNode	83.3
+		Epoch	2454000  # 2006 Sept 21 12:00
+		Inclination	105.03
+		AscendingNode	53.49
+		MeridianAngle	135.03
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.231
 	InfoURL	"https://en.wikipedia.org/wiki/90482_Orcus"
 }
 
+# Orbit from Grundy et al. (2019), Icarus 334, 62-78
+# "Mutual orbit orientations of transneptunian binaries"
+# https://ui.adsabs.harvard.edu/abs/2019Icar..334...62G/abstract
 "Vanth:Orcus I:90482 Orcus I:S 2005 (90482) 1" "Sol/Orcus"
 {
 	Class	"moon"
@@ -737,14 +746,25 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	}
 	EllipticalOrbit
 	{
-		Epoch	2454000.0  # 2006 Sept 21 12:00
-		Period	9.3072
-		SemiMajorAxis	8175
-		Eccentricity	0.021
-		Inclination	100.2
-		AscendingNode	87.2
-		ArgOfPericenter	125.6
-		MeanAnomaly	321.4
+		Epoch	2454000  # 2006 Sept 21 12:00
+		Period	9.539154
+		SemiMajorAxis	7758.4  # semi-major axis: 8999.8 km, mass ratio: 0.16 +/- 0.02
+		Eccentricity	0.00091
+		Inclination	105.03
+		MeanLongitude	188.52
+		AscendingNode	53.49
+		LongOfPericenter	328
+	}
+	BodyFrame
+	{
+		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
+	}
+	UniformRotation  # to match mutual orbit
+	{
+		Epoch	2454000  # 2006 Sept 21 12:00
+		Inclination	105.03
+		AscendingNode	53.49
+		MeridianAngle	315.03
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.08
