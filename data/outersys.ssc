@@ -300,7 +300,7 @@ ReferencePoint "Huya System" "Sol"
 # "TNOs are cool: A survey of the trans-Neptunian region. V.
 # Physical characterization of 18 Plutinos using Herschel-PACS observations"
 # https://ui.adsabs.harvard.edu/abs/2012A%26A...541A..93M/abstract
-ReferencePoint "Lempo-Hiisi" "Sol"
+ReferencePoint "Lempo System" "Sol"
 {
 	EllipticalOrbit
 	{
@@ -318,9 +318,34 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Clickable true
 }
 
+ReferencePoint "Lempo-Hiisi" "Sol"
+{
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/Lempo System" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2453880  # 2006 May 24 12:00 UT
+		Period	50.302
+		SemiMajorAxis	445.8
+		Eccentricity	0.2949
+		Inclination	79.3
+		MeanLongitude	101.1
+		AscendingNode	325.2
+		LongOfPericenter	112.1
+	}
+	# Make the orbit and label visible
+	Visible true
+	Clickable true
+}
+
 # Orbits of companions from Benecchi et al. (2010), Icarus 207 (2), p. 978-991
 # "(47171) 1999 TC 36, A transneptunian triple"
 # https://ui.adsabs.harvard.edu/abs/2010Icar..207..978B/abstract
+# Masses and radii from Correia (2018), Icarus 305, p. 250-261
+# "Chaotic dynamics in the (47171) Lempo triple system"
+# https://ui.adsabs.harvard.edu/abs/2018Icar..305..250C/abstract
 "47171 Lempo:Lempo:1999 TC36:1999 TC36 A1" "Sol"
 {
 	Class	"asteroid"
@@ -328,21 +353,22 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Texture	"asteroid.*"
 	Color	[ 0.454 0.416 0.365 ]  # assume equal albedo
 	BlendTexture	true
-	Radius	136
+	Radius	136.0
+	Mass	0.0000011235767
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Lempo-Hiisi" }
 	}
 	EllipticalOrbit
 	{
-		Epoch	2453880.0  # 2006 May 24 12:00
+		Epoch	2453880  # 2006 May 24 12:00 UT
 		Period	1.9068
-		SemiMajorAxis	382
+		SemiMajorAxis	381.5
 		Eccentricity	0.101
 		Inclination	88.9
+		MeanLongitude	4.4
 		AscendingNode	330.0
-		ArgOfPericenter	257.7
-		MeanAnomaly	136.7
+		LongOfPericenter	227.7
 	}
 	BodyFrame
 	{
@@ -350,9 +376,10 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	}
 	UniformRotation
 	{
-		Period	45.7632
+		Epoch	2453880  # 2006 May 24 12:00 UT
 		Inclination	88.9
 		AscendingNode	330.0
+		MeridianAngle	214.4
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.079  # assume equal albedo
@@ -367,20 +394,21 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Color	[ 0.454 0.416 0.365 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	125.5
+	Mass	0.00000088295378
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Lempo-Hiisi" }
 	}
 	EllipticalOrbit
 	{
-		Epoch	2453880.0  # 2006 May 24 12:00
+		Epoch	2453880  # 2006 May 24 12:00 UT
 		Period	1.9068
-		SemiMajorAxis	485
+		SemiMajorAxis	485.5
 		Eccentricity	0.101
 		Inclination	88.9
+		MeanLongitude	184.4
 		AscendingNode	330.0
-		ArgOfPericenter	77.7
-		MeanAnomaly	136.7
+		LongOfPericenter	47.7
 	}
 	BodyFrame
 	{
@@ -388,9 +416,10 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	}
 	UniformRotation
 	{
-		Period	45.7632
+		Epoch	2453880  # 2006 May 24 12:00 UT
 		Inclination	88.9
 		AscendingNode	330.0
+		MeridianAngle	34.4
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.079  # assume equal albedo
@@ -404,30 +433,33 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Texture	"asteroid.*"
 	Color	[ 0.454 0.416 0.365 ]  # assume equal albedo
 	BlendTexture	true
-	Radius	66
+	Radius	66.0
+	Mass	0.0000001284327
 	OrbitFrame
 	{
-		EquatorJ2000	{ Center "Sol/Lempo-Hiisi" }
+		EquatorJ2000	{ Center "Sol/Lempo System" }
 	}
 	EllipticalOrbit
 	{
-		Epoch	2453880.0  # 2006 May 24 12:00
+		Epoch	2453880  # 2006 May 24 12:00 UT
 		Period	50.302
-		SemiMajorAxis	7411
+		SemiMajorAxis	6965.2
 		Eccentricity	0.2949
 		Inclination	79.3
+		MeanLongitude	281.1
 		AscendingNode	325.2
-		ArgOfPericenter	326.9
-		MeanAnomaly	349.0
+		LongOfPericenter	292.1
 	}
 	BodyFrame
 	{
-		EquatorJ2000	{ Center "Sol/Lempo-Hiisi" }
+		EquatorJ2000	{ Center "Sol/Lempo System" }
 	}
 	UniformRotation
 	{
+		Epoch	2453880  # 2006 May 24 12:00 UT
 		Inclination	79.3
 		AscendingNode	325.2
+		MeridianAngle	135.9
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.079  # assume equal albedo
@@ -467,7 +499,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 
 # Sizes and Actaea's orbit from Grundy et al. (2019), Icarus 334, 62-78
 # "Mutual orbit orientations of transneptunian binaries"
-# https://ui.adsabs.harvard.edu/abs/2019Icar..334...62G/abstract
+# http://www2.lowell.edu/users/grundy/abstracts/2019.TNB_orbits.html
 # Rotation period from Thirouin et al. (2014), A&A 569, A3
 # "Rotational properties of the binary and non-binary populations in the trans-Neptunian belt"
 # https://ui.adsabs.harvard.edu/abs/2014A%26A...569A...3T/abstract
@@ -655,8 +687,8 @@ ReferencePoint "Varda-Ilmar\u00EB" "Sol"
 	UniformRotation
 	{
 		Period	11.05
-		Inclination	133.9981188
-		AscendingNode	247.8337901
+		Inclination	134
+		AscendingNode	248
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.142

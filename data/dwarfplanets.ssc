@@ -731,7 +731,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 
 # Orbit from Grundy et al. (2019), Icarus 334, 62-78
 # "Mutual orbit orientations of transneptunian binaries"
-# https://ui.adsabs.harvard.edu/abs/2019Icar..334...62G/abstract
+# http://www2.lowell.edu/users/grundy/abstracts/2019.TNB_orbits.html
 "Vanth:Orcus I:90482 Orcus I:S 2005 (90482) 1" "Sol/Orcus"
 {
 	Class	"moon"
