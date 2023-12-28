@@ -499,11 +499,15 @@ ReferencePoint "Pluto-Charon" "Sol"
 		ArgOfPericenter	150.8438151283544
 		MeanAnomaly	194.2922017610525
 	}
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		Period	378.504
-		Inclination	61.59
-		AscendingNode	139.12
+		Epoch	2453979.0  # 2006 Aug 31 12:00
+		# Period	378.504  # measured
+		Period	378.861576
+		Inclination	45.49
+		AscendingNode	126.17
+		MeridianAngle	359.61
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.96
@@ -515,9 +519,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 {
 	Class	"moon"
 	Texture	"asteroid.*"
-	Color	[ 0.5 0.5 0.5 ]  # adjust texture brightness for albedo
+	Color	[ 0.337 0.337 0.337 ]
 	BlendTexture	true
-	Radius	350
+	Radius	307.5
 	Mass	0.000013717
 	OrbitFrame	{ EquatorJ2000 {} }
 	EllipticalOrbit
@@ -531,15 +535,16 @@ ReferencePoint "Pluto-Charon" "Sol"
 		ArgOfPericenter	180.83
 		MeanAnomaly	178.78
 	}
-	BodyFrame	{ EclipticJ2000 {} }
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		Period	378.861576
-		Inclination	61.59
-		AscendingNode	139.12
+		Epoch	2453979.0  # 2006 Aug 31 12:00
+		Inclination	45.49
+		AscendingNode	126.17
+		MeridianAngle	179.61
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.04
+	GeomAlbedo	0.05
 	InfoURL	"https://en.wikipedia.org/wiki/Dysnomia_(moon)"
 }
 
