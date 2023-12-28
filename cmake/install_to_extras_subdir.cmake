@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Celestia Development Team
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 macro(install_to_extras_subdir)
   if(${ARGC} LESS 3)
     message(FATAL_ERROR "install_to_extras_subdir requires at least 3 arguments")

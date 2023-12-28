@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Celestia Development Team
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 set(GALILEO_SOURCES
   galileo.ssc
   data/galileo-cruise.xyzv

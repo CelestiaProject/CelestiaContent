@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Celestia Development Team
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 set(CASSINI_SOURCES
   data/cassini-cruise.xyzv
   data/cassini-saturn_01y.xyzv

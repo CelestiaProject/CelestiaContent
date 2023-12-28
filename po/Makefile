@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Celestia Development Team
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 po_files := $(wildcard *.po)
 domain   := celestia-data
 pot_file := $(domain).pot
