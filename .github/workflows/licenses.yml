@@ -16,15 +16,10 @@ jobs:
       fail-fast: true
     runs-on: ubuntu-latest
     steps:
-    - name: Install reuse
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y reuse
-
     - name: Checkout source code
       uses: actions/checkout@v4
 
     - name: Validate licenses
       working-directory: ${{github.workspace}}
       run: |
-        reuse lint
+        python3 -m pipx run reuse lint
