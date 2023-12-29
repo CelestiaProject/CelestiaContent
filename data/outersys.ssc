@@ -354,7 +354,6 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Color	[ 0.454 0.416 0.365 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	136.0
-	Mass	0.0000011235767
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Lempo-Hiisi" }
@@ -394,7 +393,6 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Color	[ 0.454 0.416 0.365 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	125.5
-	Mass	0.00000088295378
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Lempo-Hiisi" }
@@ -434,7 +432,6 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Color	[ 0.454 0.416 0.365 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	66.0
-	Mass	0.0000001284327
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Lempo System" }
@@ -578,7 +575,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 # Colors from Grundy et al. (2015), Icarus 257, p. 130-138
 # "The mutual orbit, mass, and density of the large transneptunian binary system Varda and Ilmarë"
 # https://ui.adsabs.harvard.edu/abs/2015Icar..257..130G/abstract
-ReferencePoint "Varda-Ilmar\u00EB" "Sol"
+ReferencePoint "Varda-Ilmarë" "Sol"
 {
 	EllipticalOrbit
 	{
@@ -606,7 +603,7 @@ ReferencePoint "Varda-Ilmar\u00EB" "Sol"
 	Oblateness	0.043
 	OrbitFrame
 	{
-		EquatorJ2000	{ Center "Sol/Varda-Ilmar\u00EB" }
+		EquatorJ2000	{ Center "Sol/Varda-Ilmarë" }
 	}
 	EllipticalOrbit
 	{
@@ -630,7 +627,7 @@ ReferencePoint "Varda-Ilmar\u00EB" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/174567_Varda"
 }
 
-"Ilmar\u00EB:174567 Varda I:Varda I:S 2009 (174567) 1" "Sol/Varda"
+"Ilmarë:174567 Varda I:Varda I:S 2009 (174567) 1" "Sol/Varda"
 {
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
@@ -684,11 +681,11 @@ ReferencePoint "Varda-Ilmar\u00EB" "Sol"
 		MeanAnomaly	344.208559857227
 	}
 	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation
+	UniformRotation  # approximately coplanar with satellite
 	{
 		Period	11.05
-		Inclination	134
-		AscendingNode	248
+		Inclination	54
+		AscendingNode	109
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.142
