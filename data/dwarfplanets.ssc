@@ -773,7 +773,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 
 # Kiss et al. (2019), Icarus 334, 3
 # "The mass and density of the dwarf planet (225088) 2007 OR10"
-# https://arxiv.org/abs/1903.05439
+# https://ui.adsabs.harvard.edu/abs/2019Icar..334....3K/abstract
 # Color indices from Boehnhardt et al. (2014), EMP 114 (1-2), 35
 # "Photometry of Transneptunian Objects for the Herschel Key Program 'TNOs are Cool'"
 "Gonggong:225088 Gonggong:2007 OR10" "Sol"
@@ -830,9 +830,9 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		SemiMajorAxis	24021
 		Eccentricity	0.2908
 		Inclination	83.08
+		MeanLongitude	205.57
 		AscendingNode	31.99
-		ArgOfPericenter	77.06
-		MeanAnomaly	96.52
+		LongOfPericenter	109.05
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.08
