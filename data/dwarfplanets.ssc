@@ -312,6 +312,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 # Masses from Ragozzine and Brown (2009), AJ 137, 4766
 # "Orbits and Masses of the Satellites of the Dwarf Planet Haumea (2003 EL61)"
 # https://ui.adsabs.harvard.edu/abs/2009AJ....137.4766R/abstract
+# Secondaries' orbits from Gourgeot et al. (2016), A&A 593, A19
+# "Near-infrared spatially resolved spectroscopy of (136108) Haumea's multiple system"
+# https://ui.adsabs.harvard.edu/abs/2016A%26A...593A..19G
 "Haumea:136108 Haumea:2003 EL61" "Sol"
 {
 	Class	"dwarfplanet"
@@ -357,56 +360,67 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Mass	0.0000002997321
 	OrbitFrame
 	{
-		EclipticJ2000	{ Center "Sol/Haumea" }
+		EquatorJ2000	{ Center "Sol/Haumea" }
 	}
 	EllipticalOrbit
 	{
-		Epoch	2454615.0  # 2008 May 28 12:00
-		Period	18.2783
-		SemiMajorAxis	25657
-		Eccentricity	0.249
-		Inclination	113.013
-		AscendingNode	205.016
-		ArgOfPericenter	178.9
-		MeanAnomaly	178.5
+		Epoch	2452167.5299  # Tperi = 2001 Sep 15 00:43:03
+		Period	18.323535
+		SemiMajorAxis	25147.829
+		Eccentricity	0.15543
+		Inclination	88.83
+		AscendingNode	206.73
+		ArgOfPericenter	143.44
+		MeanAnomaly	0
 	}
-	UniformRotation
+	UniformRotation	# assumed to match orbit plane
 	{
-		Period	10
+		Period	10	# unknown, very likely asynchronous
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.8
 	InfoURL	"https://en.wikipedia.org/wiki/Namaka_(moon)"
 }
 
+# Size from Fernández-Valenzuela et al. (2021), EPSC2021-609
+# "The stellar occultations by the largest satellite of the dwarf planet Haumea, Hi'iaka"
+# https://ui.adsabs.harvard.edu/abs/2021EPSC...15..609F
+# Shape and rotation from Hastings et al. (2016), AJ 152 (6), 195
+# "The Short Rotation Period of Hi’iaka, Haumea’s Largest Satellite"
+# https://ui.adsabs.harvard.edu/abs/2016AJ....152..195H
+# Obliquity from Fernández-Valenzuela et al. (2022), EPSC2022-406
+# "Hi'iaka's physical and dynamical properties using long-term photometric data"
+# https://ui.adsabs.harvard.edu/abs/2022EPSC...16..406F
 "Hi'iaka:Haumea I:136108 Haumea I:S 2005 (2003 EL61) 1" "Sol/Haumea"
 {
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
 	Texture	"icymoon.*"
-	Radius	160
+	Radius	175	 # "...a larger effective diameter than what has been published so far."
+	SemiAxes	[ 1 0.81 0.81 ]	# Amag=0.23, b/a=0.81 if edge-on
 	Mass	0.000002997321
 	OrbitFrame
 	{
-		EclipticJ2000	{ Center "Sol/Haumea" }
+		EquatorJ2000	{ Center "Sol/Haumea" }
 	}
 	EllipticalOrbit
 	{
-		Epoch	2454615.0  # 2008 May 28 12:00
-		Period	49.462
-		SemiMajorAxis	49880
-		Eccentricity	0.0513
-		Inclination	126.356
-		AscendingNode	206.766
-		ArgOfPericenter	154.1
-		MeanAnomaly	152.8
+		Epoch	2452190.3944	# Tperi = 2001 Oct 07 21:27:56
+		Period	49.031527
+		SemiMajorAxis	49502.940
+		Eccentricity	0.05260
+		Inclination	79.48
+		AscendingNode	192.99
+		ArgOfPericenter	276.14
+		MeanAnomaly	0
 	}
 	UniformRotation
 	{
-		Period	9.8
+		Period	9.79736
+		Inclination	90	# relative to orbit plane
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.8
+	GeomAlbedo	0.66
 	InfoURL	"https://en.wikipedia.org/wiki/Hi'iaka_(moon)"
 }
 
