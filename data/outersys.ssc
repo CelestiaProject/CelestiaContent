@@ -572,9 +572,10 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 # Varda's shape from Souami et al. (2020), A&A 643, A125
 # "A multi-chord stellar occultation by the large trans-Neptunian object (174567) Varda"
 # https://ui.adsabs.harvard.edu/abs/2020A%26A...643A.125S/abstract
-# Orbits and colors from Grundy et al. (2015), Icarus 257, p. 130-138
+# Colors from Grundy et al. (2015), Icarus 257, p. 130-138
 # "The mutual orbit, mass, and density of the large transneptunian binary system Varda and Ilmarë"
 # https://ui.adsabs.harvard.edu/abs/2015Icar..257..130G/abstract
+# Orbital solution from http://www2.lowell.edu/users/grundy/tnbs/orbits.html
 ReferencePoint "Varda-Ilmarë" "Sol"
 {
 	EllipticalOrbit
@@ -599,8 +600,8 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Texture	"asteroid.*"
 	Color	[ 0.498 0.467 0.432 ]
 	BlendTexture	true
-	Radius	381  # equatorial
-	Oblateness	0.043
+	Radius	383  # equatorial
+	Oblateness	0.066  # projected
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Varda-Ilmarë" }
@@ -608,19 +609,23 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	EllipticalOrbit
 	{
 		Epoch	2455300.0  # 2010 Apr 13 12:00
-		Period	5.7503
-		SemiMajorAxis	474
-		Eccentricity	0.021
-		Inclination	103.8
-		AscendingNode	5.2
-		ArgOfPericenter	106.1
-		MeanAnomaly	167.3
+		Period	5.75080
+		SemiMajorAxis	400  # separation = 4800 km, assumed mass ratio = 1:10.98
+		Eccentricity	0.019
+		Inclination	100
+		MeanLongitude	276
+		AscendingNode	3
+		LongOfPericenter	140
 	}
-	UniformRotation  # to match mutual orbit
+	BodyFrame
+	{
+		EquatorJ2000	{ Center "Sol/Varda-Ilmarë" }
+	}
+	UniformRotation
 	{
 		Period	5.91
-		Inclination	80.5
-		AscendingNode	5.1
+		Inclination	89
+		AscendingNode	358
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.099
@@ -637,18 +642,29 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Radius	178
 	OrbitFrame
 	{
-		EquatorJ2000	{ Center "Sol/Varda-Ilmare" }
+		EquatorJ2000	{ Center "Sol/Varda-Ilmarë" }
 	}
 	EllipticalOrbit
 	{
 		Epoch	2455300.0  # 2010 Apr 13 12:00
-		Period	5.7503
-		SemiMajorAxis	4363
-		Eccentricity	0.021
-		Inclination	103.8
-		AscendingNode	5.2
-		ArgOfPericenter	286.1
-		MeanAnomaly	167.3
+		Period	5.75080
+		SemiMajorAxis	4400  # separation = 4800 km, assumed mass ratio = 1:10.98
+		Eccentricity	0.019
+		Inclination	100
+		MeanLongitude	96
+		AscendingNode	3
+		LongOfPericenter	320
+	}
+	BodyFrame
+	{
+		EquatorJ2000	{ Center "Sol/Varda-Ilmarë" }
+	}
+	UniformRotation  # to match mutual orbit
+	{
+		Epoch	2455300.0  # 2010 Apr 13 12:00
+		Inclination	100
+		AscendingNode	3
+		MeridianAngle	273
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.085
