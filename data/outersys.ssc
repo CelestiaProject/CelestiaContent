@@ -569,10 +569,10 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Actaea_(moon)"
 }
 
-# Souami et al. (2020), A&A 643, A125
+# Varda's shape from Souami et al. (2020), A&A 643, A125
 # "A multi-chord stellar occultation by the large trans-Neptunian object (174567) Varda"
 # https://ui.adsabs.harvard.edu/abs/2020A%26A...643A.125S/abstract
-# Colors from Grundy et al. (2015), Icarus 257, p. 130-138
+# Orbits and colors from Grundy et al. (2015), Icarus 257, p. 130-138
 # "The mutual orbit, mass, and density of the large transneptunian binary system Varda and Ilmarë"
 # https://ui.adsabs.harvard.edu/abs/2015Icar..257..130G/abstract
 ReferencePoint "Varda-Ilmarë" "Sol"
