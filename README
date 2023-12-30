@@ -57,11 +57,14 @@ Texture maps
    Stars:
    O, B, A star textures derived from SDO images of a Sun without spots
    F, G, K star textures derived from SDO images featuring spots
+   L star texture derived from IR images of the Sun by SDO
+   White dwarf texture is a grayscale version of the A star texture
+
+   Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams.
+
    M star texture based on images from the Swedish Solar Telescope:
       https://www.isf.astro.su.se/
-   L star texture derived from IR images of the Sun by SDO
    T star texture derived from a fictional texture by John Van Vliet
-   White dwarf texture is a grayscale version of the A star texture
 
    Mercury:
    Normal map derived from USGS DEM, details improved with a texture reposted by Kexitt.
