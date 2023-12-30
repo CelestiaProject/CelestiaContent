@@ -1,6 +1,4 @@
 set(INTERSTELLAR_SOURCES
-  data/borisov.xyzv
-  data/oumuamua.xyzv
   interstellar-objects.ssc
 )
 
