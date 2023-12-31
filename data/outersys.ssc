@@ -494,9 +494,11 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/(55565)_2002_AW197"
 }
 
-# Sizes and Actaea's orbit from Grundy et al. (2019), Icarus 334, 62-78
+# Sizes from Grundy et al. (2019), Icarus 334, 62-78
 # "Mutual orbit orientations of transneptunian binaries"
 # http://www2.lowell.edu/users/grundy/abstracts/2019.TNB_orbits.html
+# Actaea's orbit from http://www2.lowell.edu/users/grundy/tnbs/orbits.html
+# Retrieved on 2023-12-31.
 # Rotation period from Thirouin et al. (2014), A&A 569, A3
 # "Rotational properties of the binary and non-binary populations in the trans-Neptunian belt"
 # https://ui.adsabs.harvard.edu/abs/2014A%26A...569A...3T/abstract
@@ -548,13 +550,13 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	EllipticalOrbit
 	{
 		Epoch	2454300  # 2007 Jul 18 12:00 UT
-		Period	5.493882
-		SemiMajorAxis	5724
-		Eccentricity	0.0098
-		Inclination	23.59
-		MeanLongitude	303.76
-		AscendingNode	45.2
-		LongOfPericenter	134
+		Period	5.49389
+		SemiMajorAxis	5730
+		Eccentricity	0.009
+		Inclination	23.5
+		MeanLongitude	303.8
+		AscendingNode	45
+		LongOfPericenter	130
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation  # to match mutual orbit
@@ -576,6 +578,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 # "The mutual orbit, mass, and density of the large transneptunian binary system Varda and Ilmarë"
 # https://ui.adsabs.harvard.edu/abs/2015Icar..257..130G/abstract
 # Orbital solution from http://www2.lowell.edu/users/grundy/tnbs/orbits.html
+# Retrieved on 2023-12-29.
 ReferencePoint "Varda-Ilmarë" "Sol"
 {
 	EllipticalOrbit
