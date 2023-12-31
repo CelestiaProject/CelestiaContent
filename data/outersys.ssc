@@ -19,6 +19,13 @@
 # Satellites smaller than 200 km are classified as 'minormoon', otherwise they are moon.
 # Small satellites with mass ratio of over 1:25 relative to their parent are given their physical class instead.
 
+# If no actual measurements are available, rotation periods are based on
+# Thirouin et al. (2014), A&A 569, A3
+# "Rotational properties of the binary and non-binary populations in the trans-Neptunian belt"
+# https://ui.adsabs.harvard.edu/abs/2014A%26A...569A...3T/abstract
+# TNOs: 9 hr for non-binary objects, 10 hr for binary objects.
+
+
 # Notable centaurs
 
 # Ortiz et al. (2015), A&A 576, A18
@@ -129,7 +136,7 @@
 	}
 	UniformRotation
 	{
-		Period	6  # guess
+		Period	9  # no measurement
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.2  # assumed
@@ -674,6 +681,51 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Ilmar%C3%AB_(moon)"
 }
 
+# Dimensions, orientation, albedo from Dias-Oliveira et al. (2017), AJ 154 (1), 22
+# "Study of the Plutino Object (208996) 2003 AZ84 from Stellar
+# Occultations: Size, Shape, and Topographic Features"
+# https://ui.adsabs.harvard.edu/abs/2017AJ....154...22D/abstract
+# Rotation period from Santos-Sanz et al. (2017), A&A 604, A95
+# ""TNOs are Cool": A survey of the trans-Neptunian region. XII.
+# Thermal light curves of Haumea, 2003 VS2 and 2003 AZ84 with Herschel/PACS"
+# https://ui.adsabs.harvard.edu/abs/2017A&A...604A..95S
+"(208996) 2003 AZ84:2003 AZ84" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 0.469 0.467 0.459 ]
+	BlendTexture	true
+	SemiAxes	[ 470 383 245 ]  # hydrostatic equilibrium assumed
+	Density	870 # 0.87 +/- 0.01 g cm-3
+	OrbitFrame
+	{
+		EclipticJ2000    { Center "SSB" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2460000  # 2023 Feb 24, 12:00:00 UT
+		Period	247.80530154
+		SemiMajorAxis	39.46956879045560
+		Eccentricity	0.1790397194042973
+		Inclination	13.56476295599303
+		AscendingNode	252.0296749702167
+		ArgOfPericenter	15.11759034164246
+		MeanAnomaly	238.1852609517349
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Epoch	2456977.24874  # 2014-11-15, 17:58:11 UT
+		Period	6.7874
+		Inclination	91
+		AscendingNode	350
+		MeridianAngle	10
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.097
+	InfoURL	"https://en.wikipedia.org/wiki/(208996)_2003_AZ84"
+}
+
 # Size from Ortiz et al. (2019), eprint arXiv:1905.04335
 # "Stellar Occultations by Transneptunian objects: from Predictions to Observations
 # and Prospects for the Future"
@@ -850,6 +902,41 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/486958_Arrokoth"
 }
 
+# Sheppard et al. (2018), AJ 156 (6), 270
+# "The Albedos, Sizes, Colors, and Satellites of Dwarf Planets
+# Compared with Newly Measured Dwarf Planet 2013 FY27"
+# https://ui.adsabs.harvard.edu/abs/2018AJ....156..270S/abstract
+"(532037) 2013 FY27:2013 FY27" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 0.63 0.607 0.576 ]
+	BlendTexture	true
+	Radius	371  # thermal measurement
+	OrbitFrame
+	{
+		EclipticJ2000    { Center "SSB" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2460000  # 2023 Feb 24, 12:00:00 UT
+		Period	450.43004380
+		SemiMajorAxis	58.78595163437048
+		Eccentricity	0.3949023125379210
+		Inclination	33.12079722855020
+		AscendingNode	187.0529766576329
+		ArgOfPericenter	139.2055903333146
+		MeanAnomaly	216.5632292220261
+	}
+	UniformRotation
+	{
+		Period	9  # no measurement
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.17
+	InfoURL	"https://en.wikipedia.org/wiki/(208996)_2003_AZ84"
+}
+
 # Minimum radius from http://www.euraster.net/results/2021/index.html#0122--
 "(612911) 2004 XR190:2004 XR190" "Sol"
 {
@@ -871,7 +958,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	}
 	UniformRotation
 	{
-		Period	6  # guess
+		Period	9  # no measurement
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.099  # assume minimum radius
