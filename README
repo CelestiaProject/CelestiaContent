@@ -57,8 +57,13 @@ Texture maps
    Stars:
    O, B, A star textures derived from SDO images of a Sun without spots
    F, G, K star textures derived from SDO images featuring spots
-   M star texture based on images from the Swedish Solar Telescope:
-      https://www.isf.astro.su.se/
+   M star texture based on images from the Swedish 1-m Solar Telescope (SST),
+   operated by the Institute for Solar Physics:
+      https://ttt.astro.su.se/isf/gallery/
+
+   The observers for the individual images used are Oddbjorn Engvold, Jun Elin Wiik,
+   Luc Rouppe van der Voort (Oslo); Dan Kiselman, Mats Löfdahl, Göran Scharmer, Kai Langhans, Mats Löfdahl (ISP)
+
    L star texture derived from IR images of the Sun by SDO
    T star texture derived from a fictional texture by John Van Vliet
    White dwarf texture is a grayscale version of the A star texture
