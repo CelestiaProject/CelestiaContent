@@ -293,10 +293,10 @@ ReferencePoint "Huya System" "Sol"
 	{
 		EclipticJ2000	{ Center "Sol/Huya System" }
 	}
-	EllipticalOrbit
+	EllipticalOrbit  # estimated
 	{
 		Period	3.2
-		SemiMajorAxis	1520
+		SemiMajorAxis	1520  # minimum separation
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.079  # assume same albedo as primary
@@ -935,6 +935,24 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	LunarLambert	0.5
 	GeomAlbedo	0.17
 	InfoURL	"https://en.wikipedia.org/wiki/(208996)_2003_AZ84"
+}
+
+"S 2018 (532037) 1" "Sol/2013 FY27"
+{
+	Class	"asteroid"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.63 0.607 0.576 ]  # assume same color as primary
+	BlendTexture	true
+	Radius	93  # assume same albedo as primary
+	EllipticalOrbit  # estimated
+	{
+		Period	19
+		SemiMajorAxis	9800  # estimated minimum separation
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.17  # assume same albedo as primary
+	InfoURL	"https://en.wikipedia.org/wiki/(532037)_2013_FY27#Satellite"
 }
 
 # Minimum radius from http://www.euraster.net/results/2021/index.html#0122--
