@@ -696,7 +696,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Color	[ 0.469 0.467 0.459 ]
 	BlendTexture	true
 	SemiAxes	[ 470 383 245 ]  # hydrostatic equilibrium assumed
-	Density	870 # 0.87 +/- 0.01 g cm-3
+	Density	870  # 0.87 +/- 0.01 g cm-3
 	OrbitFrame
 	{
 		EclipticJ2000    { Center "SSB" }
@@ -704,7 +704,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	EllipticalOrbit
 	{
 		Epoch	2460000  # 2023 Feb 24, 12:00:00 UT
-		Period	247.80530154
+		Period	247.805301535983
 		SemiMajorAxis	39.46956879045560
 		Eccentricity	0.1790397194042973
 		Inclination	13.56476295599303
@@ -920,7 +920,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	EllipticalOrbit
 	{
 		Epoch	2460000  # 2023 Feb 24, 12:00:00 UT
-		Period	450.43004380
+		Period	450.430043803305
 		SemiMajorAxis	58.78595163437048
 		Eccentricity	0.3949023125379210
 		Inclination	33.12079722855020
