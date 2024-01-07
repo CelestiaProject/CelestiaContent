@@ -1,4 +1,4 @@
-name: Licenses
+name: Checks
 
 on:
   push:
@@ -11,7 +11,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  reuse:
+  licenses:
+    name: "Licenses"
     strategy:
       fail-fast: true
     runs-on: ubuntu-latest
@@ -23,3 +24,17 @@ jobs:
       working-directory: ${{github.workspace}}
       run: |
         python3 -m pipx run reuse lint
+
+  unicode:
+    name: "Unicode"
+    strategy:
+      fail-fast: true
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout source code
+      uses: actions/checkout@v4
+
+    - name: Validate Unicode
+      working-directory: ${{github.workspace}}
+      run: |
+        python3 checks/checkunicode.py

@@ -57,6 +57,7 @@ Texture maps
    Stars:
    O, B, A star textures derived from SDO images of a Sun without spots
    F, G, K star textures derived from SDO images featuring spots
+
    M star texture based on images from the Swedish 1-m Solar Telescope (SST),
    operated by the Institute for Solar Physics:
       https://ttt.astro.su.se/isf/gallery/
@@ -65,8 +66,14 @@ Texture maps
    Luc Rouppe van der Voort (Oslo); Dan Kiselman, Mats Löfdahl, Göran Scharmer, Kai Langhans, Mats Löfdahl (ISP)
 
    L star texture derived from IR images of the Sun by SDO
-   T star texture derived from a fictional texture by John Van Vliet
    White dwarf texture is a grayscale version of the A star texture
+
+   Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams.
+
+   M star texture based on images from the Swedish Solar Telescope:
+      https://www.isf.astro.su.se/
+
+   T star texture derived from a fictional texture by John Van Vliet
 
    Mercury:
    Normal map derived from USGS DEM, details improved with a texture reposted by Kexitt.
@@ -301,7 +308,7 @@ covered.
 
 # The Hydra model is by LukeCEL.
 
-# The Arrokoth model is derived from the Spencer et al. 2020 model:
+# The Arrokoth model was converted to cmod from the Spencer et al. 2020 model:
     https://doi.org/10.6084/m9.figshare.11485443
 
 # The Psyche model is from Shepard et al. 2021: https://doi.org/10.3847/PSJ/abfdba
