@@ -4617,6 +4617,10 @@
 
 
 # Minor moons of Uranus
+# Masses of Cordelia, Ophelia, Cressida from French et al. (2024), arXiv:2401.04634
+# "The Uranus System from Occultation Observations (1977-2006): Rings,
+# Pole Direction, Gravity Field, and Masses of Cressida, Cordelia, and Ophelia"
+# https://arxiv.org/abs/2401.04634
 
 "Cordelia:Uranus VI:S 1986 U 7" "Sol/Uranus"
 {
@@ -4624,6 +4628,8 @@
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	SemiAxes	[ 25 18 18 ]
+	Mass	0.00000001018084
+	Density	1790
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Uranus" }
@@ -4654,6 +4660,8 @@
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	SemiAxes	[ 27 19 19 ]
+	Mass	0.000000005977897
+	Density	870
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Uranus" }
@@ -4714,6 +4722,8 @@
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	SemiAxes	[ 46 37 37 ]
+	Mass	0.000000030793704
+	Density	700
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Uranus" }
@@ -4940,6 +4950,11 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Perdita_(moon)"
 }
 
+# Mass from Jacobson (2023)
+# "Update of the Orbits of the Regular Uranian Satellites and the Gravitational Field of the Uranian System"
+# https://ui.adsabs.harvard.edu/abs/2023DPS....5522102J/abstract
+# via French et al. (2024), arXiv:2401.04634
+# https://arxiv.org/abs/2401.04634
 "Puck:Uranus XV:S 1985 U 1" "Sol/Uranus"
 {
 	Class	"minormoon"
@@ -4947,6 +4962,7 @@
 	Orientation	[ -90 0 1 0 ]
 	Texture	"puck.*"
 	Radius	83.5
+	Mass	0.0000003198259
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Uranus" }
