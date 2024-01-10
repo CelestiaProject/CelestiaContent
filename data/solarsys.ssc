@@ -275,7 +275,7 @@
 	#	MeridianAngle	38.3213
 	# }
 
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.136
 	BondAlbedo	0.11
 	InfoURL	"https://en.wikipedia.org/wiki/Moon"
@@ -1167,6 +1167,11 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	InfoURL	"https://en.wikipedia.org/wiki/Phoebe_(moon)"
 }
 
+# Masses from Jacobson (2023)
+# "Update of the Orbits of the Regular Uranian Satellites and the Gravitational Field of the Uranian System"
+# https://ui.adsabs.harvard.edu/abs/2023DPS....5522102J/abstract
+# via French et al. (2024), arXiv:2401.04634
+# https://arxiv.org/abs/2401.04634
 "Uranus" "Sol"
 {
 	Class	"planet"
@@ -1174,7 +1179,7 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	Color	[ 0.86828 0.97 1.0 ]
 	Radius	25559
 	Oblateness	0.0229
-	Mass	14.54
+	Mass	14.53614488
 	Atmosphere
 	{
 		Height	500
@@ -1229,7 +1234,7 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	# NormalMap	"miranda-normal.*"
 	Color	[ 0.98357 0.98913 1.0 ]
 	SemiAxes	[ 240 234.2 232.9 ]
-	Mass	0.0000107880
+	Mass	0.000010537508
 	CustomOrbit	"miranda"
 
 	# Overridden by CustomOrbit
@@ -1279,7 +1284,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Miranda"
 	# NormalMap	"ariel-normal.*"
 	Color	[ 1.0 1.0 0.999 ]
 	SemiAxes	[ 581.1 577.9 577.7 ]
-	Mass	0.0002094889
+	Mass	0.000206480241
 	CustomOrbit	"ariel"
 
 	# Overridden by CustomOrbit
@@ -1330,7 +1335,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Ariel"
 	# NormalMap	"umbriel-normal.*"
 	Color	[ 1.0 0.99769 0.99749 ]
 	Radius	584.7
-	Mass	0.0002135030
+	Mass	0.000215756865
 	CustomOrbit	"umbriel"
 
 	# Overridden by CustomOrbit
@@ -1381,7 +1386,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Umbriel"
 	# NormalMap	"titania-normal.*"
 	Color	[ 1.0 0.98945 0.97393 ]
 	Radius	788.4
-	Mass	0.00056925778
+	Mass	0.000578533155
 	CustomOrbit	"titania"
 
 	# Overridden by CustomOrbit
@@ -1432,7 +1437,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Titania"
 	# NormalMap	"oberon-normal.*"
 	Color	[ 1.0 0.98881 0.97178 ]
 	Radius	761.4
-	Mass	0.00051506665
+	Mass	0.000520830543
 	CustomOrbit	"oberon"
 
 	# Overridden by CustomOrbit
