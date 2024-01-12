@@ -3,6 +3,10 @@ Upstream-Name: Celestia Content
 Upstream-Contact: Celestia Development Team
 Source: https://github.com/CelestiaProject/CelestiaContent
 
+Files: README
+Copyright: Celestia Development Team
+License: GPL-2.0-or-later
+
 Files: .github/*
 Copyright: Celestia Development Team
 License: GPL-2.0-or-later
