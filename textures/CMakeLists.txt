@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: Celestia Development Team
 # SPDX-License-Identifier: GPL-2.0-or-later
 
-file(GLOB TEXTURES_SOURCES "*.jpg" "*.png")
+file(GLOB TEXTURES_SOURCES "*.jpg" "*.png" "*.license")
 
 install(FILES ${TEXTURES_SOURCES} DESTINATION "${DATADIR}/textures" COMPONENT core)
 

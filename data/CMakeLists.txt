@@ -13,6 +13,7 @@ set(DATA_SOURCES
   saoxindex.dat
   starnames.dat
   stars.dat
+  stars.dat.license
   extrasolar.ssc
   solarsys.ssc
   charm2.stc
