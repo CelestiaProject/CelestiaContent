@@ -315,6 +315,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 # Secondaries' orbits from Gourgeot et al. (2016), A&A 593, A19
 # "Near-infrared spatially resolved spectroscopy of (136108) Haumea's multiple system"
 # https://ui.adsabs.harvard.edu/abs/2016A%26A...593A..19G
+# Rings from Ortiz et al. (2017), Nature 550 (7675), pp. 219-223
+# "The size, shape, density and ring of the dwarf planet Haumea from a stellar occultation"
+# https://ui.adsabs.harvard.edu/abs/2017Natur.550..219O/abstract
 "Haumea:136108 Haumea:2003 EL61" "Sol"
 {
 	Class	"dwarfplanet"
@@ -344,8 +347,8 @@ ReferencePoint "Pluto-Charon" "Sol"
 	GeomAlbedo	0.66
 	Rings
 	{
-		Inner	2250
-		Outer	2325
+		Inner	2252
+		Outer	2322
 		Texture	"haumea-rings.*"
 	}
 	InfoURL	"https://en.wikipedia.org/wiki/Haumea"
@@ -605,7 +608,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Rings
 	{
 		Inner	2515
-		Outer	4087
+		Outer	4102
 		Texture	"quaoar-rings.*"
 	}
 	LunarLambert	0.5
@@ -708,7 +711,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 {
 	Class	"dwarfplanet"
 	Texture	"asteroid.*"
-	Color	[ 0.698 0.706 0.709 ]
+	Color	[ 0.696 0.704 0.708 ]
 	BlendTexture	true
 	Radius	455
 	Mass	0.00009125921
@@ -752,7 +755,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Texture	"asteroid.*"
 	Color	[ 0.438 0.423 0.404 ]
 	BlendTexture	true
-	Radius	221.25
+	Radius	221.5
 	Mass	0.0000145680
 	OrbitFrame
 	{

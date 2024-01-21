@@ -35,6 +35,9 @@
 # "Constraints on (2060) Chiron's size, shape, and surrounding material from
 # the November 2018 and September 2019 stellar occultations"
 # https://ui.adsabs.harvard.edu/abs/2023A%26A...676A..72B/abstract
+# Rings and orientation from Ortiz et al. (2023), A&A 676, L12
+# "Changing material around (2060) Chiron revealed by an occultation on December 15, 2022"
+# https://ui.adsabs.harvard.edu/abs/2023A%26A...676L..12O/abstract
 "2060 Chiron:Chiron:1977 UB:95P Chiron" "Sol"
 {
 	Class	"asteroid"
@@ -55,24 +58,28 @@
 		ArgOfPericenter	339.3496505871891
 		MeanAnomaly	134.5261255874151
 	}
-	UniformRotation
+	UniformRotation  # aligned with rings, ecliptic coordinates
 	{
 		Period	5.917813
-		Inclination	66
-		AscendingNode	234
+		Inclination	72
+		AscendingNode	241
 	}
-	Rings  # derived from ring radius, component widths and average gap size
-	{
-		Inner	313
-		Outer	335
-		Texture	"chariklo-rings.*"
-	}
+#	Rings  # commented out due to no valid texture
+#	{
+#		Inner	325
+#		Outer	580
+#		Texture	"chiron-rings.*"
+#	}
 	LunarLambert	0.5
 	GeomAlbedo	0.076  # main body
 	InfoURL	"https://en.wikipedia.org/wiki/2060_Chiron"
 }
 
-# Leiva et al. (2017), AJ 154 (4), 159
+# Morgado et al. (2021), A&A 652, A141
+# "Refined physical parameters for Chariklo's body and rings
+# from stellar occultations observed between 2013 and 2020"
+# https://ui.adsabs.harvard.edu/abs/2021A%26A...652A.141M/abstract
+# Pole position from Leiva et al. (2017), AJ 154 (4), 159
 # "Size and Shape of Chariklo from Multi-epoch Stellar Occultations"
 # https://iopscience.iop.org/article/10.3847/1538-3881/aa8956
 "10199 Chariklo:Chariklo:1997 CU26" "Sol"
@@ -82,8 +89,7 @@
 	Texture	"asteroid.*"
 	Color	[ 0.298 0.286 0.26 ]
 	BlendTexture	true
-	Radius	143  # equatorial
-	Oblateness	0.329
+	SemiAxes	[ 143.8 135.2 99.1 ]
 	EllipticalOrbit
 	{
 		Epoch	2458000.5  # 2017 Sept 04
@@ -102,10 +108,10 @@
 		Inclination	48.52
 		AscendingNode	241.3
 	}
-	Rings  # derived from ring radii and average widths by Braga-Ribas et al. (2014)
+	Rings  # derived from ring radii and average widths by Morgado et al. (2021)
 	{
-		Inner	387.3
-		Outer	406.5
+		Inner	382.5
+		Outer	399.9
 		Texture	"chariklo-rings.*"
 	}
 	LunarLambert	0.5
