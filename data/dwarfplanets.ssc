@@ -755,7 +755,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Texture	"asteroid.*"
 	Color	[ 0.438 0.423 0.404 ]
 	BlendTexture	true
-	Radius	221.5
+	Radius	221.25
 	Mass	0.0000145680
 	OrbitFrame
 	{
