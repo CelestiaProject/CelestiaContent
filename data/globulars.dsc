@@ -1854,7 +1854,8 @@ Globular "NGC 6553:GCl 88:C 1806-259"
 	InfoURL "http://simbad.u-strasbg.fr/sim-id.pl?Ident=NGC 6553"
 }
 
-Globular "2MASS-GC02:Hurt 2: [HJK2000] GC02"
+Globular "2MASS-GC02:Hurt 2:[HJK2000] GC02"
+
 {
 	RA 18.16014
 	Dec -20.77889
