@@ -948,7 +948,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 
 "S 2018 (532037) 1" "Sol/2013 FY27"
 {
-	Class	"asteroid"
+	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.63 0.607 0.576 ]  # assume same color as primary
