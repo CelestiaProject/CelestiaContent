@@ -263,12 +263,16 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Pandia_(moon)"
 }
 
+# Mass from Emelyanov (2005), A&A 438 (3), pp.L33-L36
+# "The mass of Himalia from the perturbations on other satellites"
+# https://ui.adsabs.harvard.edu/abs/2005A%26A...438L..33E/abstract
 "Himalia:Jupiter VI" "Sol/Jupiter"
 {
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	SemiAxes	[ 102.8 102.8 70.7 ]
+	Mass	0.000000703282
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Jupiter" }
