@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Perren et al. (2023), https://doi.org/10.1093/mnras/stad2826
+# SPDX-License-Identifier: CC-BY-4.0
+
 # Open clusters
 # Extracted by Elvis O. Mendes from "The Unified Cluster Catalogue:
 # towards a comprehensive and homogeneous database of stellar clusters"
