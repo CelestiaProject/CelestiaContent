@@ -1826,7 +1826,7 @@ Globular "2MASS-GC01:[HJK2000] GC01"
 	Radius 99.282
 	CoreRadius 0.184
 	KingConcentration 2.228
-	AbsMag 15.102
+	AbsMag -6.398 # extinction of 21.5±1.0 magnitudes
 	InfoURL "http://simbad.u-strasbg.fr/sim-id.pl?Ident=2MASS-GC01"
 }
 
@@ -1862,7 +1862,7 @@ Globular "2MASS-GC02:[HJK2000] GC02"
 	Radius 51.207
 	CoreRadius 0.388
 	KingConcentration 1.404
-	AbsMag 10.898
+	AbsMag -7.102 # extinction of 18.0±1.0 magnitudes
 	InfoURL "http://simbad.u-strasbg.fr/sim-id.pl?Ident=2MASS-GC02"
 }
 
