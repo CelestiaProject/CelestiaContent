@@ -64,12 +64,12 @@
 		Inclination	72
 		AscendingNode	241
 	}
-#	Rings  # commented out due to no valid texture
-#	{
-#		Inner	325
-#		Outer	580
-#		Texture	"chiron-rings.*"
-#	}
+	Rings
+	{
+		Inner	341.66
+		Outer	353.77
+		Texture	"chiron-rings.*"
+	}
 	LunarLambert	0.5
 	GeomAlbedo	0.076  # main body
 	InfoURL	"https://en.wikipedia.org/wiki/2060_Chiron"
