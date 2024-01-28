@@ -1075,13 +1075,13 @@
 	EllipticalOrbit
 	{
 		Epoch	2460200.5  # 2023 Sept 13
-		Period	4.4252044481
-		SemiMajorAxis	2.6953598737
-		Eccentricity	0.2063036018
-		Inclination	33.82979409
-		AscendingNode	140.88974895
-		ArgOfPericenter	63.54846435
-		MeanAnomaly	133.6317661
+		Period	4.425204448094248
+		SemiMajorAxis	2.695359873717218
+		Eccentricity	0.2063036018297214
+		Inclination	33.82979408884524
+		AscendingNode	140.8897489493486
+		ArgOfPericenter	63.54846434912628
+		MeanAnomaly	133.6317661275864
 	}
 	UniformRotation
 	{
