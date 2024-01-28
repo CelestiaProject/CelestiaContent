@@ -1060,3 +1060,34 @@
 
 	Albedo 0.15 
 }
+
+
+
+# Other asteroids
+"1252 Celestia:Celestia:1933 DG:1934 PA1" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.511 0.486 0.445 ]
+	BlendTexture	true
+	Radius	9.519  # Masiero et al. (2014), 2014ApJ...791..121M
+	EllipticalOrbit
+	{
+		Epoch	2460200.5  # 2023 Sept 13
+		Period	4.425204448094248
+		SemiMajorAxis	2.695359873717218
+		Eccentricity	0.2063036018297214
+		Inclination	33.82979408884524
+		AscendingNode	140.8897489493486
+		ArgOfPericenter	63.54846434912628
+		MeanAnomaly	133.6317661275864
+	}
+	UniformRotation
+	{
+		Period	10.636  # Worman (1995), 1995MPBu...22...39W
+	}
+	LunarLambert	1
+	GeomAlbedo	0.215  # Mainzer et al. (2016), 2016PDSS..247.....M
+	InfoURL	"https://en.wikipedia.org/wiki/1252_Celestia"
+}
