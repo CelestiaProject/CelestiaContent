@@ -1818,7 +1818,7 @@ Globular "NGC 6541:GCl 86:C 1804-437"
 	InfoURL "http://simbad.u-strasbg.fr/sim-id.pl?Ident=NGC 6541"
 }
 
-Globular "2MASS-GC01:[HJK2000] GC01"
+Globular "2MASS-GC01:Hurt 1:[HJK2000] GC01"
 {
 	RA 18.13939
 	Dec -19.82972
@@ -1826,7 +1826,7 @@ Globular "2MASS-GC01:[HJK2000] GC01"
 	Radius 99.282
 	CoreRadius 0.184
 	KingConcentration 2.228
-	AbsMag 15.102
+	AbsMag -6.11 # From http://spider.seds.org/spider/MWGC/2mass-gc01.html
 	InfoURL "http://simbad.u-strasbg.fr/sim-id.pl?Ident=2MASS-GC01"
 }
 
@@ -1854,7 +1854,8 @@ Globular "NGC 6553:GCl 88:C 1806-259"
 	InfoURL "http://simbad.u-strasbg.fr/sim-id.pl?Ident=NGC 6553"
 }
 
-Globular "2MASS-GC02:[HJK2000] GC02"
+Globular "2MASS-GC02:Hurt 2:[HJK2000] GC02"
+
 {
 	RA 18.16014
 	Dec -20.77889
@@ -1862,7 +1863,7 @@ Globular "2MASS-GC02:[HJK2000] GC02"
 	Radius 51.207
 	CoreRadius 0.388
 	KingConcentration 1.404
-	AbsMag 10.898
+	AbsMag -4.86 # From http://spider.seds.org/spider/MWGC/2mass-gc02.html
 	InfoURL "http://simbad.u-strasbg.fr/sim-id.pl?Ident=2MASS-GC02"
 }
 
