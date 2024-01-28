@@ -357,7 +357,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 "Namaka:Haumea II:136108 Haumea II:S 2005 (2003 EL61) 2" "Sol/Haumea"
 {
 	Class	"minormoon"
-	Mesh	"roughsphere.cms"
+	Mesh	"asteroid.cms"
 	Texture	"icymoon.*"
 	Radius	80
 	Mass	0.0000002997321
@@ -466,7 +466,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 "S 2015 (136472) 1:MK 2" "Sol/Makemake"
 {
 	Class	"minormoon"
-	Mesh	"roughsphere.cms"
+	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
 	Radius	87.5
 	EllipticalOrbit
@@ -752,6 +752,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 "Vanth:Orcus I:90482 Orcus I:S 2005 (90482) 1" "Sol/Orcus"
 {
 	Class	"moon"
+	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.438 0.423 0.404 ]
 	BlendTexture	true
