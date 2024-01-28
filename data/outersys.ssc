@@ -219,7 +219,7 @@
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.519 0.486 0.431 ]
+	Color	[ 0.305 0.284 0.249 ]
 	BlendTexture	true
 	Radius	308.5
 	EllipticalOrbit
@@ -825,7 +825,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.472 0.475 0.475 ]
+	Color	[ 0.294 0.297 0.296 ]
 	BlendTexture	true
 	SemiAxes	[ 412 412 385 ]  # projected
 	EllipticalOrbit
