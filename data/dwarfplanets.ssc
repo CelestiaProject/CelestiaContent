@@ -322,7 +322,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 {
 	Class	"dwarfplanet"
 	Texture	"asteroid.*"
-	Color	[ 0.99147 1.0 0.99127 ]
+	Color	[ 0.816 0.832 0.847 ]
 	BlendTexture	true
 	SemiAxes	[ 1050 840 537 ]
 	Mass	0.00067079705
@@ -582,7 +582,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 {
 	Class	"dwarfplanet"
 	Texture	"asteroid.*"
-	Color	[ 0.557 0.519 0.469 ]
+	Color	[ 0.382 0.355 0.319 ]
 	BlendTexture	true
 	Radius	579.5  # equatorial
 	Oblateness	0.12  # projected
