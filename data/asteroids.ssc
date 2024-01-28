@@ -674,6 +674,34 @@
 	InfoURL	"https://en.wikipedia.org/wiki/704_Interamnia"
 }
 
+"1252 Celestia:Celestia:1933 DG:1934 PA1" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.71 0.676 0.622 ]
+	BlendTexture	true
+	Radius	21.542  # Mainzer et al. (2011), 2011ApJ...741...90M
+	EllipticalOrbit
+	{
+		Epoch	2460200.5  # 2023 Sept 13
+		Period	4.4252044481
+		SemiMajorAxis	2.6953598737
+		Eccentricity	0.2063036018
+		Inclination	33.82979409
+		AscendingNode	140.88974895
+		ArgOfPericenter	63.54846435
+		MeanAnomaly	133.6317661
+	}
+	UniformRotation
+	{
+		Period	10.636  # Worman (1995), 1995MPBu...22...39W
+	}
+	LunarLambert	1
+	GeomAlbedo	0.215  # Mainzer et al. (2016), 2016PDSS..247.....M
+	InfoURL	"https://en.wikipedia.org/wiki/1252_Celestia"
+}
+
 
 
 # Some of the asteroids visited by spacecraft
