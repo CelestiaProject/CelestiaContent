@@ -267,6 +267,7 @@ ReferencePoint "Huya System" "Sol"
 "38628 Huya:Huya:2000 EB173" "Sol"
 {
 	Class	"asteroid"
+	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.445 0.418 0.377 ]
 	BlendTexture	true
@@ -857,6 +858,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 "471143 Dziewanna:Dziewanna:2010 EK139" "Sol"
 {
 	Class	"asteroid"
+	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 1.0 0.92 0.818 ]
 	BlendTexture	true
@@ -968,6 +970,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 "(612911) 2004 XR190:2004 XR190" "Sol"
 {
 	Class	"asteroid"
+	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 1.0 0.988 0.956 ]
 	BlendTexture	true
