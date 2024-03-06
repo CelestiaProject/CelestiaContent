@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2002 Shrox
+# SPDX-License-Identifier: CC-BY-4.0
+
 # 2001 Mars Odyssey
 
 "Mars Odyssey:2001-013A" "Sol/Mars"
@@ -9,7 +12,7 @@
 	#Ending	"2025 12 31 12:00:00"	# Estimated end-of-life
 	EllipticalOrbit
 	{
-		Epoch    2452623.5	#  2002-Dec-15 00:00:00  
+		Epoch    2452623.5	#  2002-Dec-15 00:00:00
 		Period        0.08232123167015755
 		SemiMajorAxis 3800.228229494881
 		Eccentricity  0.007407825218454815
