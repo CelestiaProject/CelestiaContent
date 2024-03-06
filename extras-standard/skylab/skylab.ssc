@@ -1,7 +1,10 @@
+# SPDX-FileCopyrightText: 2002 Shrox
+# SPDX-License-Identifier: CC-BY-4.0
+
 # Skylab model created by Shrox -- http://www.shrox.com/
 
 "Skylab" "Sol/Earth" {
-	
+
 	Class "spacecraft"
 	Mesh "skylab.3ds"
 	Radius 0.015
@@ -20,8 +23,8 @@
 		ArgOfPericenter	 321.3613
 		MeanAnomaly	  38.6556
 	}
-	
-	Orientation		[ 90 0 0 1 ]		
+
+	Orientation		[ 90 0 0 1 ]
 	Albedo 	      0.10
 
 	FixedRotation {}
