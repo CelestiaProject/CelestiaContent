@@ -110,9 +110,9 @@ Texture maps
 
    Saturn's ring texture is a composite of data found on Björn Jónsson's site.
 
-   Mimas, Enceladus, Tethys, Dione, Rhea, Iapetus textures are derived from enhanced color maps by Paul Schenk, found on
+   Mimas, Enceladus, Dione, Rhea, Iapetus textures are derived from enhanced color maps by Paul Schenk, found on
    the NASA photojounal. Rhea texture is based on an Albedo map by Björn Jónsson, details added from the JPL map.
-   Tethys and Dione normal maps are derived from models by Rob Gaskell.
+   Dione normal maps are derived from models by Rob Gaskell.
 
    Hyperion & Phoebe:
    Textures derieved from a texture by JVV
@@ -175,6 +175,10 @@ Texture maps
   texture were created by cubicApocalypse, licensed under CC-BY 4.0.
 
 # The icymoon.jpg texture was created by trappistplanets based on an image of Methone.
+
+# Reference of JPL images used:
+
+  Tethys: PIA14931 (June 2012)
 
 Note on content from JPL
 ------------------------
