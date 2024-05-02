@@ -3,7 +3,7 @@
 
 # Skylab model created by Shrox -- http://www.shrox.com/
 
-"Skylab" "Sol/Earth" {
+"Skylab:1973-027A" "Sol/Earth" {
 
 	Class "spacecraft"
 	Mesh "skylab.3ds"
