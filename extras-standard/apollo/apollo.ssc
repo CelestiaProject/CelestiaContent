@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2002 Shrox
 # SPDX-License-Identifier: CC-BY-4.0
 
-"Apollo 10" "Sol/Earth/Moon"
+"Apollo 10:1969-043A" "Sol/Earth/Moon"
 {
 	Class "spacecraft"
 	Mesh "apollo.3ds"
@@ -26,7 +26,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Apollo_10"
 }
 
-"Apollo 11" "Sol/Earth/Moon"
+"Apollo 11:1969-059A" "Sol/Earth/Moon"
 {
 	Class "spacecraft"
 	Mesh "apollo.3ds"
@@ -51,7 +51,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Apollo_11"
 }
 
-"Apollo 12" "Sol/Earth/Moon"
+"Apollo 12:1969-099A" "Sol/Earth/Moon"
 {
 	Class "spacecraft"
 	Mesh "apollo.3ds"
@@ -76,7 +76,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Apollo_12"
 }
 
-"Apollo 14" "Sol/Earth/Moon"
+"Apollo 14:1971-008A" "Sol/Earth/Moon"
 {
 	Class "spacecraft"
 	Mesh "apollo.3ds"
@@ -101,7 +101,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Apollo_14"
 }
 
-"Apollo 15" "Sol/Earth/Moon"
+"Apollo 15:1971-063A" "Sol/Earth/Moon"
 {
 	Class "spacecraft"
 	Mesh "apollo.3ds"
@@ -126,7 +126,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Apollo_15"
 }
 
-"Apollo 16" "Sol/Earth/Moon"
+"Apollo 16:1972-031A" "Sol/Earth/Moon"
 {
 	Class "spacecraft"
 	Mesh "apollo.3ds"
@@ -151,7 +151,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Apollo_16"
 }
 
-"Apollo 17" "Sol/Earth/Moon"
+"Apollo 17:1972-096A" "Sol/Earth/Moon"
 {
 	Class "spacecraft"
 	Mesh "apollo.3ds"
