@@ -3,7 +3,7 @@
 
 # Gemini and Mercury models created by Shrox -- http://www.shrox.com/
 
-"Friendship 7:Mercury-Atlas 6:MA-6" "Sol/Earth"
+"Friendship 7:Mercury-Atlas 6:MA-6:1962-003A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "mercury7.3ds"
@@ -28,7 +28,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Mercury-Atlas_6"
 }
 
-"Aurora 7:Mercury-Atlas 7:MA-7" "Sol/Earth"
+"Aurora 7:Mercury-Atlas 7:MA-7:1962-019A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "mercury7.3ds"
@@ -53,7 +53,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Mercury-Atlas_7"
 }
 
-"Sigma 7:Mercury-Atlas 8:MA-8" "Sol/Earth"
+"Sigma 7:Mercury-Atlas 8:MA-8:1962-052A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "mercury7.3ds"
@@ -78,7 +78,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Mercury-Atlas_8"
 }
 
-"Faith 7:Mercury-Atlas 9:MA-9" "Sol/Earth"
+"Faith 7:Mercury-Atlas 9:MA-9:1963-015A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "mercury7.3ds"
@@ -103,7 +103,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Mercury-Atlas_9"
 }
 
-"Gemini 1" "Sol/Earth"
+"Gemini 1:1964-018A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "gemini.3ds"
@@ -128,7 +128,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Gemini_1"
 }
 
-"Gemini 3:Molly Brown" "Sol/Earth"
+"Gemini 3:Molly Brown:1965-024A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "gemini.3ds"
@@ -153,7 +153,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Gemini_3"
 }
 
-"Gemini 4" "Sol/Earth"
+"Gemini 4:1965-043A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "gemini.3ds"
@@ -178,7 +178,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Gemini_4"
 }
 
-"Gemini 5" "Sol/Earth"
+"Gemini 5:1965-068A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "gemini.3ds"
@@ -203,7 +203,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Gemini_5"
 }
 
-"Gemini 7" "Sol/Earth"
+"Gemini 7:1965-100A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "gemini.3ds"
@@ -228,7 +228,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Gemini_7"
 }
 
-"Gemini 6A" "Sol/Earth"
+"Gemini 6A:1965-104A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "gemini.3ds"
@@ -254,7 +254,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Gemini_6A"
 }
 
-"Gemini 8" "Sol/Earth"
+"Gemini 8:1966-020A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "gemini.3ds"
@@ -279,7 +279,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Gemini_8"
 }
 
-"Gemini 9A" "Sol/Earth"
+"Gemini 9A:1966-047A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "gemini.3ds"
@@ -304,7 +304,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Gemini_9A"
 }
 
-"Gemini 10" "Sol/Earth"
+"Gemini 10:1966-066A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "gemini.3ds"
@@ -329,7 +329,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Gemini_10"
 }
 
-"Gemini 11" "Sol/Earth"
+"Gemini 11:1966-081A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "gemini.3ds"
@@ -354,7 +354,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Gemini_11"
 }
 
-"Gemini 12" "Sol/Earth"
+"Gemini 12:1966-104A" "Sol/Earth"
 {
 	Class "spacecraft"
 	Mesh "gemini.3ds"
