@@ -1,10 +1,10 @@
-"Mir:1986-017A" "Sol/Earth"
+"Mir:DOS-7:1986-017A" "Sol/Earth"
 {
 	Class	"spacecraft"
 	Mesh	"mir.3ds"
 	Radius	0.0165
-	Beginning	"1986 02 20"
-	Ending	"2001 03 23 05:52"
+	Beginning	"1986 02 19 21:29:18.184"
+	Ending	"2001 03 23 06:00:28.184"
 	EllipticalOrbit
 	{
 		Period	0.06415338
@@ -32,7 +32,7 @@
 			}
 			Secondary
 			{
-				Axis	"-y"
+				Axis	"-x"
 				RelativeVelocity
 				{
 					Observer	"Sol/Earth/Mir"
