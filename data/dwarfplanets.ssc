@@ -309,6 +309,115 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)"
 }
 
+# Brown & Butler (2018), AJ 156 (4), 164
+# "Medium-sized Satellites of Large Kuiper Belt Objects"
+# https://iopscience.iop.org/article/10.3847/1538-3881/aad9f2
+# Secondary size from Sickafoose et al. (2019), Icarus 319, 657
+# "A stellar occultation by Vanth, a satellite of (90482) Orcus"
+# https://arxiv.org/abs/1810.08977
+# Masses from Brown and Butler (2023), Planet. Sci. J. 4, 193
+# "Masses and Densities of Dwarf Planet Satellites Measured with ALMA"
+# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..193B/abstract
+ReferencePoint "Orcus-Vanth" "Sol"
+{
+	EllipticalOrbit
+	{
+		Epoch	2458600.5  # 2019 Apr 27
+		Period	246.057751828792
+		SemiMajorAxis	39.266232423648
+		Eccentricity	0.224154696
+		Inclination	20.593075065434
+		AscendingNode	268.806388631985
+		ArgOfPericenter	72.159737740794
+		MeanAnomaly	180.346243925382
+	}
+	# Make the orbit and label visible
+	Visible true
+	Clickable true
+}
+
+"Orcus:90482 Orcus:2004 DW" "Sol"
+{
+	Class	"dwarfplanet"
+	Texture	"asteroid.*"
+	Color	[ 0.696 0.704 0.708 ]
+	BlendTexture	true
+	Radius	455
+	Mass	0.00009125921
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2454000  # 2006 Sept 21 12:00
+		Period	9.539154
+		SemiMajorAxis	1241.4  # semi-major axis: 8999.8 km, mass ratio: 0.16 +/- 0.02
+		Eccentricity	0.00091
+		Inclination	105.03
+		MeanLongitude	8.52
+		AscendingNode	53.49
+		LongOfPericenter	148
+	}
+	BodyFrame
+	{
+		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
+	}
+	UniformRotation  # to match mutual orbit
+	{
+		Epoch	2454000  # 2006 Sept 21 12:00
+		Inclination	105.03
+		AscendingNode	53.49
+		MeridianAngle	135.03
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.231
+	InfoURL	"https://en.wikipedia.org/wiki/90482_Orcus"
+}
+
+# Orbit from Grundy et al. (2019), Icarus 334, 62-78
+# "Mutual orbit orientations of transneptunian binaries"
+# http://www2.lowell.edu/users/grundy/abstracts/2019.TNB_orbits.html
+"Vanth:Orcus I:90482 Orcus I:S 2005 (90482) 1" "Sol/Orcus"
+{
+	Class	"moon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.438 0.423 0.404 ]
+	BlendTexture	true
+	Radius	221.25
+	Mass	0.0000145680
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2454000  # 2006 Sept 21 12:00
+		Period	9.539154
+		SemiMajorAxis	7758.4  # semi-major axis: 8999.8 km, mass ratio: 0.16 +/- 0.02
+		Eccentricity	0.00091
+		Inclination	105.03
+		MeanLongitude	188.52
+		AscendingNode	53.49
+		LongOfPericenter	328
+	}
+	BodyFrame
+	{
+		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
+	}
+	UniformRotation  # to match mutual orbit
+	{
+		Epoch	2454000  # 2006 Sept 21 12:00
+		Inclination	105.03
+		AscendingNode	53.49
+		MeridianAngle	315.03
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.08
+	InfoURL	"https://en.wikipedia.org/wiki/Vanth_(moon)"
+}
+
 # Masses from Ragozzine and Brown (2009), AJ 137, 4766
 # "Orbits and Masses of the Satellites of the Dwarf Planet Haumea (2003 EL61)"
 # https://ui.adsabs.harvard.edu/abs/2009AJ....137.4766R/abstract
@@ -427,144 +536,6 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Hi'iaka_(moon)"
 }
 
-# Mass for Makemake from Parker et al. (2018)
-# "The Mass, Density, and Figure of the Kuiper Belt Dwarf Planet Makemake"
-# https://ui.adsabs.harvard.edu/abs/2018DPS....5050902P/abstract
-# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
-# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
-# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
-"Makemake:136472 Makemake:2005 FY9" "Sol"
-{
-	Class	"dwarfplanet"
-	Texture	"asteroid.*"
-	Color	[ 1.0 0.97796 0.92983 ]
-	BlendTexture	true
-	Radius	717
-	Oblateness	0.0098
-	Mass	0.000519089
-	EllipticalOrbit
-	{
-		Epoch	2451545.0  # 2000 Jan 01 12:00
-		Period	305.618241910877
-		SemiMajorAxis	45.3712468060245
-		Eccentricity	0.1645340773347865
-		Inclination	29.00016830342264
-		AscendingNode	79.27517546848136
-		ArgOfPericenter	296.2776194996502
-		MeanAnomaly	139.7234923399146
-	}
-	UniformRotation
-	{
-		Period	22.82657
-	}
-	LunarLambert	0.5
-	GeomAlbedo	0.81
-	BondAlbedo	0.74
-	InfoURL	"https://en.wikipedia.org/wiki/Makemake"
-}
-
-"S 2015 (136472) 1:MK 2" "Sol/Makemake"
-{
-	Class	"minormoon"
-	Mesh	"asteroid.cms"
-	Texture	"asteroid.*"
-	Radius	87.5
-	EllipticalOrbit
-	{
-		Period	12.4
-		SemiMajorAxis	21100
-	}
-	UniformRotation
-	{
-		Period	10
-	}
-	LunarLambert	0.5
-	GeomAlbedo	0.07
-	InfoURL	"https://en.wikipedia.org/wiki/S/2015_(136472)_1"
-}
-
-# System mass and orbit from Holler et al. (2021), Icarus 355, 114130
-# "The Eris/Dysnomia system I: The orbit of Dysnomia"
-# https://ui.adsabs.harvard.edu/abs/2021Icar..35514130H/abstract
-# Mass ratio from Brown and Butler (2023), Planet. Sci. J. 4, 193
-# "Masses and Densities of Dwarf Planet Satellites Measured with ALMA"
-# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..193B/abstract
-# (Assumes barycentric motion is detected.)
-# Eris' rotation from Bernstein et al. (2023), Planet. Sci. J. 4, 115
-# "Synchronous Rotation in the (136199) Eris-Dysnomia System"
-# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..115B/abstract
-# (Orientation assumes tidal locking with Dysnomia.)
-# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
-# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
-# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
-"Eris:136199 Eris:2003 UB313" "Sol"
-{
-	Class	"dwarfplanet"
-	Texture	"asteroid.*"
-	Color	[ 1.0 0.99267 0.97075 ]
-	BlendTexture	true
-	Radius	1163
-	Mass	0.0027434829
-	EllipticalOrbit
-	{
-		Epoch	2451545.0  # 2000 Jan 01 12:00
-		Period	562.497729921706
-		SemiMajorAxis	68.14098093308586
-		Eccentricity	0.4324925102272213
-		Inclination	43.74046387971601
-		AscendingNode	36.12853207819096
-		ArgOfPericenter	150.8438151283544
-		MeanAnomaly	194.2922017610525
-	}
-	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation
-	{
-		Epoch	2453979.0  # 2006 Aug 31 12:00
-		# Period	378.504  # measured
-		Period	378.861576
-		Inclination	45.49
-		AscendingNode	126.17
-		MeridianAngle	359.61
-	}
-	LunarLambert	0.5
-	GeomAlbedo	0.96
-	BondAlbedo	0.99
-	InfoURL	"https://en.wikipedia.org/wiki/Eris_(dwarf_planet)"
-}
-
-"Dysnomia:Eris I:136199 Eris I:S 2005 (2003 UB313) 1" "Sol/Eris"
-{
-	Class	"moon"
-	Texture	"asteroid.*"
-	Color	[ 0.337 0.337 0.337 ]
-	BlendTexture	true
-	Radius	307.5
-	Mass	0.000013717
-	OrbitFrame	{ EquatorJ2000 {} }
-	EllipticalOrbit
-	{
-		Epoch	2453979.0  # 2006 Aug 31 12:00
-		Period	15.785899
-		SemiMajorAxis	37273
-		Eccentricity	0.0062
-		Inclination	45.49
-		MeanLongitude	125.78
-		AscendingNode	126.17
-		LongOfPericenter	307
-	}
-	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation
-	{
-		Epoch	2453979.0  # 2006 Aug 31 12:00
-		Inclination	45.49
-		AscendingNode	126.17
-		MeridianAngle	179.61
-	}
-	LunarLambert	0.5
-	GeomAlbedo	0.05
-	InfoURL	"https://en.wikipedia.org/wiki/Dysnomia_(moon)"
-}
-
 # Braga-Ribas et al. (2013), ApJ 773 (1), 26
 # "The Size, Shape, Albedo, Density, and Atmospheric Limit of Transneptunian Object
 # (50000) Quaoar from Multi-chord Stellar Occultations"
@@ -657,140 +628,60 @@ ReferencePoint "Pluto-Charon" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Weywot_(moon)"
 }
 
-"Sedna:90377 Sedna:2003 VB12" "Sol"
+# Mass for Makemake from Parker et al. (2018)
+# "The Mass, Density, and Figure of the Kuiper Belt Dwarf Planet Makemake"
+# https://ui.adsabs.harvard.edu/abs/2018DPS....5050902P/abstract
+# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
+# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
+"Makemake:136472 Makemake:2005 FY9" "Sol"
 {
 	Class	"dwarfplanet"
 	Texture	"asteroid.*"
-	Color	[ 0.978 0.886 0.746 ]
+	Color	[ 1.0 0.97796 0.92983 ]
 	BlendTexture	true
-	Radius	497.5
+	Radius	717
+	Oblateness	0.0098
+	Mass	0.000519089
 	EllipticalOrbit
 	{
-		Epoch	2459000.5  # 2020 May 31
-		Period	10662.6713802939
-		SemiMajorAxis	484.438385675118
-		Eccentricity	0.842587388666
-		Inclination	11.930691895012
-		AscendingNode	144.247866905974
-		ArgOfPericenter	311.352204298832
-		MeanAnomaly	358.116930442029
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	305.618241910877
+		SemiMajorAxis	45.3712468060245
+		Eccentricity	0.1645340773347865
+		Inclination	29.00016830342264
+		AscendingNode	79.27517546848136
+		ArgOfPericenter	296.2776194996502
+		MeanAnomaly	139.7234923399146
 	}
 	UniformRotation
 	{
-		Period	10.273
+		Period	22.82657
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.32
-	InfoURL	"https://en.wikipedia.org/wiki/90377_Sedna"
+	GeomAlbedo	0.81
+	BondAlbedo	0.74
+	InfoURL	"https://en.wikipedia.org/wiki/Makemake"
 }
 
-# Brown & Butler (2018), AJ 156 (4), 164
-# "Medium-sized Satellites of Large Kuiper Belt Objects"
-# https://iopscience.iop.org/article/10.3847/1538-3881/aad9f2
-# Secondary size from Sickafoose et al. (2019), Icarus 319, 657
-# "A stellar occultation by Vanth, a satellite of (90482) Orcus"
-# https://arxiv.org/abs/1810.08977
-# Masses from Brown and Butler (2023), Planet. Sci. J. 4, 193
-# "Masses and Densities of Dwarf Planet Satellites Measured with ALMA"
-# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..193B/abstract
-ReferencePoint "Orcus-Vanth" "Sol"
+"S 2015 (136472) 1:MK 2" "Sol/Makemake"
 {
-	EllipticalOrbit
-	{
-		Epoch	2458600.5  # 2019 Apr 27
-		Period	246.057751828792
-		SemiMajorAxis	39.266232423648
-		Eccentricity	0.224154696
-		Inclination	20.593075065434
-		AscendingNode	268.806388631985
-		ArgOfPericenter	72.159737740794
-		MeanAnomaly	180.346243925382
-	}
-	# Make the orbit and label visible
-	Visible true
-	Clickable true
-}
-
-"Orcus:90482 Orcus:2004 DW" "Sol"
-{
-	Class	"dwarfplanet"
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.696 0.704 0.708 ]
-	BlendTexture	true
-	Radius	455
-	Mass	0.00009125921
-	OrbitFrame
-	{
-		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
-	}
+	Radius	87.5
 	EllipticalOrbit
 	{
-		Epoch	2454000  # 2006 Sept 21 12:00
-		Period	9.539154
-		SemiMajorAxis	1241.4  # semi-major axis: 8999.8 km, mass ratio: 0.16 +/- 0.02
-		Eccentricity	0.00091
-		Inclination	105.03
-		MeanLongitude	8.52
-		AscendingNode	53.49
-		LongOfPericenter	148
+		Period	12.4
+		SemiMajorAxis	21100
 	}
-	BodyFrame
+	UniformRotation
 	{
-		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
-	}
-	UniformRotation  # to match mutual orbit
-	{
-		Epoch	2454000  # 2006 Sept 21 12:00
-		Inclination	105.03
-		AscendingNode	53.49
-		MeridianAngle	135.03
+		Period	10
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.231
-	InfoURL	"https://en.wikipedia.org/wiki/90482_Orcus"
-}
-
-# Orbit from Grundy et al. (2019), Icarus 334, 62-78
-# "Mutual orbit orientations of transneptunian binaries"
-# http://www2.lowell.edu/users/grundy/abstracts/2019.TNB_orbits.html
-"Vanth:Orcus I:90482 Orcus I:S 2005 (90482) 1" "Sol/Orcus"
-{
-	Class	"moon"
-	Mesh	"roughsphere.cms"
-	Texture	"asteroid.*"
-	Color	[ 0.438 0.423 0.404 ]
-	BlendTexture	true
-	Radius	221.25
-	Mass	0.0000145680
-	OrbitFrame
-	{
-		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
-	}
-	EllipticalOrbit
-	{
-		Epoch	2454000  # 2006 Sept 21 12:00
-		Period	9.539154
-		SemiMajorAxis	7758.4  # semi-major axis: 8999.8 km, mass ratio: 0.16 +/- 0.02
-		Eccentricity	0.00091
-		Inclination	105.03
-		MeanLongitude	188.52
-		AscendingNode	53.49
-		LongOfPericenter	328
-	}
-	BodyFrame
-	{
-		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
-	}
-	UniformRotation  # to match mutual orbit
-	{
-		Epoch	2454000  # 2006 Sept 21 12:00
-		Inclination	105.03
-		AscendingNode	53.49
-		MeridianAngle	315.03
-	}
-	LunarLambert	0.5
-	GeomAlbedo	0.08
-	InfoURL	"https://en.wikipedia.org/wiki/Vanth_(moon)"
+	GeomAlbedo	0.07
+	InfoURL	"https://en.wikipedia.org/wiki/S/2015_(136472)_1"
 }
 
 # Kiss et al. (2019), Icarus 334, 3
@@ -859,4 +750,113 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	LunarLambert	0.5
 	GeomAlbedo	0.08
 	InfoURL	"https://en.wikipedia.org/wiki/Xiangliu_(moon)"
+}
+
+# System mass and orbit from Holler et al. (2021), Icarus 355, 114130
+# "The Eris/Dysnomia system I: The orbit of Dysnomia"
+# https://ui.adsabs.harvard.edu/abs/2021Icar..35514130H/abstract
+# Mass ratio from Brown and Butler (2023), Planet. Sci. J. 4, 193
+# "Masses and Densities of Dwarf Planet Satellites Measured with ALMA"
+# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..193B/abstract
+# (Assumes barycentric motion is detected.)
+# Eris' rotation from Bernstein et al. (2023), Planet. Sci. J. 4, 115
+# "Synchronous Rotation in the (136199) Eris-Dysnomia System"
+# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..115B/abstract
+# (Orientation assumes tidal locking with Dysnomia.)
+# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
+# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
+"Eris:136199 Eris:2003 UB313" "Sol"
+{
+	Class	"dwarfplanet"
+	Texture	"asteroid.*"
+	Color	[ 1.0 0.99267 0.97075 ]
+	BlendTexture	true
+	Radius	1163
+	Mass	0.0027434829
+	EllipticalOrbit
+	{
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	562.497729921706
+		SemiMajorAxis	68.14098093308586
+		Eccentricity	0.4324925102272213
+		Inclination	43.74046387971601
+		AscendingNode	36.12853207819096
+		ArgOfPericenter	150.8438151283544
+		MeanAnomaly	194.2922017610525
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Epoch	2453979.0  # 2006 Aug 31 12:00
+		# Period	378.504  # measured
+		Period	378.861576
+		Inclination	45.49
+		AscendingNode	126.17
+		MeridianAngle	359.61
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.96
+	BondAlbedo	0.99
+	InfoURL	"https://en.wikipedia.org/wiki/Eris_(dwarf_planet)"
+}
+
+"Dysnomia:Eris I:136199 Eris I:S 2005 (2003 UB313) 1" "Sol/Eris"
+{
+	Class	"moon"
+	Texture	"asteroid.*"
+	Color	[ 0.337 0.337 0.337 ]
+	BlendTexture	true
+	Radius	307.5
+	Mass	0.000013717
+	OrbitFrame	{ EquatorJ2000 {} }
+	EllipticalOrbit
+	{
+		Epoch	2453979.0  # 2006 Aug 31 12:00
+		Period	15.785899
+		SemiMajorAxis	37273
+		Eccentricity	0.0062
+		Inclination	45.49
+		MeanLongitude	125.78
+		AscendingNode	126.17
+		LongOfPericenter	307
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Epoch	2453979.0  # 2006 Aug 31 12:00
+		Inclination	45.49
+		AscendingNode	126.17
+		MeridianAngle	179.61
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.05
+	InfoURL	"https://en.wikipedia.org/wiki/Dysnomia_(moon)"
+}
+
+"Sedna:90377 Sedna:2003 VB12" "Sol"
+{
+	Class	"dwarfplanet"
+	Texture	"asteroid.*"
+	Color	[ 0.978 0.886 0.746 ]
+	BlendTexture	true
+	Radius	497.5
+	EllipticalOrbit
+	{
+		Epoch	2459000.5  # 2020 May 31
+		Period	10662.6713802939
+		SemiMajorAxis	484.438385675118
+		Eccentricity	0.842587388666
+		Inclination	11.930691895012
+		AscendingNode	144.247866905974
+		ArgOfPericenter	311.352204298832
+		MeanAnomaly	358.116930442029
+	}
+	UniformRotation
+	{
+		Period	10.273
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.32
+	InfoURL	"https://en.wikipedia.org/wiki/90377_Sedna"
 }
