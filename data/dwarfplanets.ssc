@@ -569,12 +569,16 @@ ReferencePoint "Pluto-Charon" "Sol"
 # "The Size, Shape, Albedo, Density, and Atmospheric Limit of Transneptunian Object
 # (50000) Quaoar from Multi-chord Stellar Occultations"
 # https://iopscience.iop.org/article/10.1088/0004-637X/773/1/26
-# Mass, radii, and rotation period from Morgado et al. (2023), Nature 614, 239–243
+# Mass and rotation period from Morgado et al. (2023), Nature 614, 239–243
 # "A dense ring of the trans-Neptunian object Quaoar outside its Roche limit"
 # https://ui.adsabs.harvard.edu/abs/2023Natur.614..239M/abstract
+# Radius and shape from Kiss et al. (2024), A&A 684, A50
+# "The visible and thermal light curve of the large Kuiper belt object (50000) Quaoar"
+# https://ui.adsabs.harvard.edu/abs/2024A%26A...684A..50K/abstract
 # Ring rotation axis and geometric albedo from Pereira et al. (2023), A&A 673, 14
 # "The two rings of (50000) Quaoar"
 # https://ui.adsabs.harvard.edu/abs/2023A%26A...673L...4P/abstract
+# https://ui.adsabs.harvard.edu/abs/2024A%26A...683C...4P/abstract
 # Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
 # "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
 # https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
@@ -584,8 +588,8 @@ ReferencePoint "Pluto-Charon" "Sol"
 	Texture	"asteroid.*"
 	Color	[ 0.382 0.355 0.319 ]
 	BlendTexture	true
-	Radius	579.5  # equatorial
-	Oblateness	0.12  # projected
+	Radius	545  # equatorial
+	SemiAxes	[ 1.18 0.992 0.855 ]	# a/b = 1.19, b/c = 1.16
 	Mass	0.0002009377
 	EllipticalOrbit
 	{
