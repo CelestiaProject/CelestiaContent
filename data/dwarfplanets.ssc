@@ -3,10 +3,9 @@
 # Pluto is defined first, so that it will be selected by the "9" key.
 
 
-# Masses of Pluto and Charon from Brozović et al. (2015), Icarus 246, 317-329
-# "The orbits and masses of satellites of Pluto"
-# https://ui.adsabs.harvard.edu/abs/2015Icar..246..317B/abstract
-# (Mass of Kerberos is available in this paper, but is conflicted by Porter+2023)
+# Masses of Pluto and Charon from Brozović and Jacobson (2024), AJ 167 (6), id.256
+# "Post-new-horizons Orbits and Masses for the Satellites of Pluto"
+# https://ui.adsabs.harvard.edu/abs/2024AJ....167..256B/abstract
 # Masses of Nix and Hydra from Porter and Canup (2023), Planet. Sci. J. 4, 120
 # "Orbits and Masses of the Small Satellites of Pluto"
 # https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..120P/abstract
@@ -39,7 +38,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	NormalMap	"pluto-normal.*"
 	Color	[ 1.0 0.95948 0.86047 ]
 	Radius	1188.3
-	Mass	0.0021816949
+	Mass	0.0021809422
 	Atmosphere
 	{
 		Height	130
@@ -87,7 +86,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	NormalMap	"charon-normal.*"
 	Color	[ 0.994 1.0 0.972 ]
 	Radius	606
-	Mass	0.000265636904
+	Mass	0.00026618885
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
