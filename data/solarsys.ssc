@@ -345,7 +345,7 @@
 # https://ui.adsabs.harvard.edu/abs/2014Icar..229...92P/abstract
 "Phobos:Mars I" "Sol/Mars"
 {
-	Class	"minormoon"
+	Class	"moon"
 	Mesh	"phobos.cmod"
 	MeshCenter	[ -0.233 -0.156 -0.168 ]
 	Texture	"phobos.*"
@@ -387,7 +387,7 @@
 
 "Deimos:Mars II" "Sol/Mars"
 {
-	Class	"minormoon"
+	Class	"moon"
 	Mesh	"deimos.cmod"
 	Texture	"deimos.*"
 	Color	[ 1.0 0.97168 0.93149 ]

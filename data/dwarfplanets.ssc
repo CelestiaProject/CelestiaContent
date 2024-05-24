@@ -464,7 +464,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 
 "Namaka:Haumea II:136108 Haumea II:S 2005 (2003 EL61) 2" "Sol/Haumea"
 {
-	Class	"minormoon"
+	Class	"moon"
 	Mesh	"asteroid.cms"
 	Texture	"icymoon.*"
 	Radius	80
@@ -504,7 +504,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 # https://ui.adsabs.harvard.edu/abs/2022EPSC...16..406F
 "Hi'iaka:Haumea I:136108 Haumea I:S 2005 (2003 EL61) 1" "Sol/Haumea"
 {
-	Class	"minormoon"
+	Class	"moon"
 	Mesh	"roughsphere.cms"
 	Texture	"icymoon.*"
 	Radius	175	 # "...a larger effective diameter than what has been published so far."
@@ -596,7 +596,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 # https://submissions.mirasmart.com/DPS55/Itinerary/PresentationDetail.aspx?evdid=75
 "Weywot:Quaoar I:50000 Quaoar I:S 2006 (50000) 1" "Sol/Quaoar"
 {
-	Class	"minormoon"
+	Class	"moon"
 	Mesh	"asteroid.cms"  # almost 200 km effective diameter
 	Texture	"asteroid.*"
 	Color	[ 0.319 0.296 0.265 ]  # assume same photometric color as primary
@@ -665,7 +665,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 
 "S 2015 (136472) 1:MK 2" "Sol/Makemake"
 {
-	Class	"minormoon"
+	Class	"moon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
 	Radius	87.5
@@ -725,7 +725,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 # Geometric albedo is calculated using this radius.
 "Xiangliu:Gonggong I:225088 Gonggong I:S 2010 (225088) 1" "Sol/Gonggong"
 {
-	Class	"minormoon"
+	Class	"moon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.448 0.421 0.385 ]
