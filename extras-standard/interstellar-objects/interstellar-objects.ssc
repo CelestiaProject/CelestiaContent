@@ -1,3 +1,6 @@
+# ʻOumuamua - orbital elements from JPL Small-Body Database
+# https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=1I
+
 "1I 'Oumuamua:'Oumuamua:A 2017 U1:2017 U1:P10Ee5V" "Sol"
 {
 	Class	"asteroid"
@@ -6,13 +9,16 @@
 	Color	[ 1.0 0.922 0.918 ]
 	BlendTexture	true
 	SemiAxes	[ 0.13 0.058 0.0145 ]
-	Beginning	"1600 09 09"
-	Ending	"2500 09 09"
-	SampledTrajectory
+	EllipticalOrbit
 	{
-		Source	"oumuamua.xyzv"
-		DoublePrecision	true
-		Interpolation	"cubic"
+		Epoch	2458080.5
+		Period<d>	524.21	# 2π / mean motion
+		SemiMajorAxis	-1.2723
+		Eccentricity	1.20113
+		Inclination	122.7417
+		AscendingNode	24.5969
+		ArgOfPericenter	241.811
+		MeanAnomaly	51.158
 	}
 	PrecessingRotation
 	{
@@ -24,6 +30,9 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Oumuamua"
 }
 
+# Borisov - orbital elements from JPL Small-Body Database
+# https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=2I
+
 "2I Borisov:Borisov:C 2019 Q4 Borisov:2019 Q4:gb00234" "Sol"
 {
 	Class	"comet"
@@ -32,13 +41,16 @@
 	Color	[ 1.0 0.97765 0.92202 ]
 	BlendTexture	true
 	Radius	0.25
-	Beginning	"1600 12 08"
-	Ending	"2500 12 08"
-	SampledTrajectory
+	EllipticalOrbit
 	{
-		Source	"borisov.xyzv"
-		DoublePrecision	true
-		Interpolation	"cubic"
+		Epoch	2459062.5
+		Period<d>	287.05	# 2π / mean motion
+		SemiMajorAxis	-0.851612
+		Eccentricity	3.35622
+		Inclination	44.052571
+		AscendingNode	308.14873
+		ArgOfPericenter	209.1237
+		MeanAnomaly	296.544
 	}
 	UniformRotation
 	{
