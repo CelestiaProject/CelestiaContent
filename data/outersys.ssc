@@ -212,14 +212,17 @@
 	InfoURL	"https://en.wikipedia.org/wiki/20000_Varuna"
 }
 
-# Bond and geometric albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# Photometric color calculated with spectral data from Marchi et al. (2003), A&A 408, L17-L19
+# "Visible spectroscopy of the two largest known trans-Neptunian objects: Ixion and Quaoar"
+# https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..17M/abstract
+# Geometric albedo and phase integral for color from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
 # "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
 # https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "28978 Ixion:Ixion:2001 KX76" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.305 0.284 0.249 ]
+	Color	[ 0.309 0.285 0.25 ]
 	BlendTexture	true
 	Radius	308.5
 	EllipticalOrbit
@@ -239,7 +242,6 @@
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.108
-	BondAlbedo	0.037
 	InfoURL	"https://en.wikipedia.org/wiki/28978_Ixion"
 }
 
@@ -819,7 +821,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 # Rotation period from Peng (2023)
 # "Phase Dependent Variation in the Reflectivity of Kuiper Belt Object 2002 MS4"
 # https://dspace.library.uvic.ca/handle/1828/15363
-# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# Color calculated with phase integral from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
 # "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
 # https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "(307261) 2002 MS4:2002 MS4" "Sol"
@@ -849,7 +851,6 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.1
-	BondAlbedo	0.039
 	InfoURL	"https://en.wikipedia.org/wiki/(307261)_2002_MS4"
 }
 
