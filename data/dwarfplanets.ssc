@@ -640,7 +640,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 {
 	Class	"dwarfplanet"
 	Texture	"asteroid.*"
-	Color	[ 0.942 0.918 0.860 ]
+	Color	[ 1.0 0.975 0.914 ]
 	BlendTexture	true
 	Radius	717
 	Oblateness	0.0098
