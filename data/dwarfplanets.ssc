@@ -9,7 +9,7 @@
 # Masses of Nix and Hydra from Porter and Canup (2023), Planet. Sci. J. 4, 120
 # "Orbits and Masses of the Small Satellites of Pluto"
 # https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..120P/abstract
-# Bond albedos from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# Color calculated with phase integral from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
 # "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
 # https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 ReferencePoint "Pluto-Charon" "Sol"
@@ -75,7 +75,6 @@ ReferencePoint "Pluto-Charon" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.575
-	BondAlbedo	0.41
 	InfoURL	"https://en.wikipedia.org/wiki/Pluto"
 }
 
@@ -115,7 +114,6 @@ ReferencePoint "Pluto-Charon" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.34
-	BondAlbedo	0.25
 	InfoURL	"https://en.wikipedia.org/wiki/Charon_(moon)"
 }
 
@@ -549,14 +547,17 @@ ReferencePoint "Orcus-Vanth" "Sol"
 # "The two rings of (50000) Quaoar"
 # https://ui.adsabs.harvard.edu/abs/2023A%26A...673L...4P/abstract
 # https://ui.adsabs.harvard.edu/abs/2024A%26A...683C...4P/abstract
-# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# Photometric color calculated with spectral data from Marchi et al. (2003), A&A 408, L17-L19
+# "Visible spectroscopy of the two largest known trans-Neptunian objects: Ixion and Quaoar"
+# https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..17M/abstract
+# Color calculated with phase integral from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
 # "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
 # https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "Quaoar:50000 Quaoar:2002 LM60" "Sol"
 {
 	Class	"dwarfplanet"
 	Texture	"asteroid.*"
-	Color	[ 0.382 0.355 0.319 ]
+	Color	[ 0.413 0.379 0.328 ]
 	BlendTexture	true
 	Radius	545  # equatorial
 	SemiAxes	[ 1.18 0.992 0.855 ]	# a/b = 1.19, b/c = 1.16
@@ -587,8 +588,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.124
-	BondAlbedo	0.057
-	InfoURL	"https://en.wikipedia.org/wiki/50000_Quaoar"
+	InfoURL	"https://en.wikipedia.org/wiki/Quaoar"
 }
 
 # Radius and geometric albedo from Fernandez-Valenzuela et al., 55th Annual DPS Meeting Joint with EPSC
@@ -599,7 +599,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Class	"moon"
 	Mesh	"asteroid.cms"  # almost 200 km effective diameter
 	Texture	"asteroid.*"
-	Color	[ 0.319 0.296 0.265 ]  # assume same photometric color as primary
+	Color	[ 0.325 0.297 0.255 ]  # assume same photometric color as primary
 	BlendTexture	true
 	Radius	100
 	OrbitFrame
@@ -630,14 +630,17 @@ ReferencePoint "Orcus-Vanth" "Sol"
 # Mass for Makemake from Parker et al. (2018)
 # "The Mass, Density, and Figure of the Kuiper Belt Dwarf Planet Makemake"
 # https://ui.adsabs.harvard.edu/abs/2018DPS....5050902P/abstract
-# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# Photometric color calculated with spectral data from Alvarez-Candal et al. (2020), MNRAS 497 (4), 5473-5479
+# "The dwarf planet Makemake as seen by X-Shooter"
+# https://ui.adsabs.harvard.edu/abs/2020MNRAS.497.5473A/abstract
+# Color calculated with phase integral from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
 # "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
 # https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "Makemake:136472 Makemake:2005 FY9" "Sol"
 {
 	Class	"dwarfplanet"
 	Texture	"asteroid.*"
-	Color	[ 1.0 0.97796 0.92983 ]
+	Color	[ 0.942 0.918 0.860 ]
 	BlendTexture	true
 	Radius	717
 	Oblateness	0.0098
@@ -659,7 +662,6 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.81
-	BondAlbedo	0.74
 	InfoURL	"https://en.wikipedia.org/wiki/Makemake"
 }
 
@@ -688,6 +690,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 # https://ui.adsabs.harvard.edu/abs/2019Icar..334....3K/abstract
 # Color indices from Boehnhardt et al. (2014), EMP 114 (1-2), 35
 # "Photometry of Transneptunian Objects for the Herschel Key Program 'TNOs are Cool'"
+# https://ui.adsabs.harvard.edu/abs/2014EM%26P..114...35B/abstract
 "Gonggong:225088 Gonggong:2007 OR10" "Sol"
 {
 	Class	"dwarfplanet"
@@ -695,7 +698,6 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 0.622 0.542 0.42 ]
 	BlendTexture	true
 	Radius	615
-	Oblateness	0.03
 	Mass	0.0002930342
 	EllipticalOrbit
 	{
@@ -716,13 +718,16 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.14
-	InfoURL	"https://en.wikipedia.org/wiki/225088_Gonggong"
+	InfoURL	"https://en.wikipedia.org/wiki/Gonggong_(dwarf_planet)"
 }
 
 # Radius from Arakawa et al. (2021), AJ 162, no. 6, 226
 # "Tidal Evolution of the Eccentric Moon around Dwarf Planet (225088) Gonggong"
 # https://ui.adsabs.harvard.edu/abs/2021AJ....162..226A/abstract
 # Geometric albedo is calculated using this radius.
+# Color indices from Kiss et al. (2019), Icarus 334, 3
+# "The mass and density of the dwarf planet (225088) 2007 OR10"
+# https://ui.adsabs.harvard.edu/abs/2019Icar..334....3K/abstract
 "Xiangliu:Gonggong I:225088 Gonggong I:S 2010 (225088) 1" "Sol/Gonggong"
 {
 	Class	"moon"
@@ -762,7 +767,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 # "Synchronous Rotation in the (136199) Eris-Dysnomia System"
 # https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..115B/abstract
 # (Orientation assumes tidal locking with Dysnomia.)
-# Bond albedo from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# Color calculated with phase integral from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
 # "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
 # https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "Eris:136199 Eris:2003 UB313" "Sol"
@@ -796,7 +801,6 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.96
-	BondAlbedo	0.99
 	InfoURL	"https://en.wikipedia.org/wiki/Eris_(dwarf_planet)"
 }
 
@@ -857,5 +861,5 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.32
-	InfoURL	"https://en.wikipedia.org/wiki/90377_Sedna"
+	InfoURL	"https://en.wikipedia.org/wiki/Sedna_(dwarf_planet)"
 }
