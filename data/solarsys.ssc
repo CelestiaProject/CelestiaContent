@@ -1626,6 +1626,7 @@ AltSurface "Limit of knowledge" "Sol/Neptune/Triton"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.592 0.57 0.551 ]
+	BlendTexture	true
 	SemiAxes	[ 199 168 153 ]
 	Mass	0.0000050234
 	OrbitFrame

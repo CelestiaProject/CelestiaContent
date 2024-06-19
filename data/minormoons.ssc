@@ -179,6 +179,7 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.305 0.305 0.309 ]
+	BlendTexture	true
 	Radius	9
 	OrbitFrame
 	{
@@ -273,6 +274,7 @@
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.393 0.399 0.409 ]
+	BlendTexture	true
 	SemiAxes	[ 102.8 102.8 70.7 ]
 	Mass	0.000000703282
 	OrbitFrame
@@ -305,6 +307,7 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.314 0.314 0.311 ]
+	BlendTexture	true
 	Radius	19
 	OrbitFrame
 	{
@@ -336,6 +339,7 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.351 0.358 0.363 ]
+	BlendTexture	true
 	Radius	39
 	OrbitFrame
 	{
@@ -729,6 +733,7 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.274 0.281 0.28 ]
+	BlendTexture	true
 	Radius	3.5
 	OrbitFrame
 	{
@@ -2000,6 +2005,7 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.347 0.349 0.344 ]
+	BlendTexture	true
 	Radius	29
 	OrbitFrame
 	{
