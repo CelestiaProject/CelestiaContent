@@ -50,7 +50,7 @@ Texture maps
 
    Haumea's (fictional) ring texture is by Askaniy.
 
-   The Deimos and Callisto textures were made by Askaniy from JVV's textures.
+   The Callisto texture were made by Askaniy from JVV's texture.
 
 # FarGetaNik (https://www.deviantart.com/fargetanik)
 
@@ -148,6 +148,10 @@ Texture maps
    Janus, Prometheus and Epimetheus maps are from Phil Stooke.
 
    The Ida and Gaspra photomosaic maps are by Phil Stooke.
+
+   The Deimos map is from:
+      Stooke. P., Stooke Small Bodies Maps V3.0. MULTI-SA-MULTI-6-STOOKEMAPS-V3.0. NASA Planetary Data System, 2015.
+      https://sbnarchive.psi.edu/pds3/multi_mission/MULTI_SA_MULTI_6_STOOKEMAPS_V3_0/document/00_map_guide.html
 
 # Venus's clouds are from Björn Jónsson, recolored by FarGetaNik.
 
@@ -280,12 +284,13 @@ covered.
   On August 20, 2020, Scott Hudson waived the commercial use restrictions on
   these models, permitting unrestricted use of them.
 
-# The Phobos, Mimas, and Phoebe models are by Rob Gaskell:
-    https://sbn.psi.edu/pds/resource/phobosshape.html
+# Models of Phobos and Deimos are from Ernst et al. 2023:
+    https://doi.org/10.1186/s40623-023-01814-7
+  (available at https://sbmt.jhuapl.edu/shared-files/)
+
+# The Mimas and Phoebe models are by Rob Gaskell:
     https://sbn.psi.edu/pds/resource/mimasshape.html
     https://sbn.psi.edu/pds/resource/phoebeshape.html
-
-# The Deimos model is by John van Vliet.
 
 # 3D models of Amalthea, Thebe, Larissa, Proteus, Vesta, Ida, Gaspra and Halley
   are derived from Phil Stooke's Cartography of Non-Spherical Worlds.
