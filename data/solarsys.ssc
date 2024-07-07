@@ -337,33 +337,36 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Mars"
 }
 
-# Masses and densities of Phobos and Deimos from Ernst et al. (2023), Earth Planets Space 75, 103
+# Densities and Deimos' mass from Ernst et al. (2023), Earth Planets Space 75, 103
 # "High-resolution shape models of Phobos and Deimos from stereophotoclinometry"
 # https://ui.adsabs.harvard.edu/abs/2023EP%26S...75..103E/abstract
-# Albedos of Phobos from Fornasier et al. (2024), A&A 686, A203
-# "Phobos photometric properties from Mars Express HRSC observations"
-# https://ui.adsabs.harvard.edu/abs/2024A%26A...686A.203F/abstract
+# Phobos' mass from Pätzold et al. (2014), Icarus 229, 92-98
+# "Phobos mass determination from the very close flyby of Mars Express in 2010"
+# https://ui.adsabs.harvard.edu/abs/2014Icar..229...92P/abstract
 "Phobos:Mars I" "Sol/Mars"
 {
 	Class	"moon"
 	Mesh	"phobos.cmod"
-	MeshCenter	[ -0.3790 -0.2983 0.2450 ]
+	MeshCenter	[ -0.233 -0.156 -0.168 ]
 	Texture	"phobos.*"
-	Color	[ 1.0 0.987 0.942 ]
-	BlendTexture	true
-	Radius	13.048  # maximum semi-axis; from model extent
-	Mass	1.7743e-9
+	Color	[ 1.0 0.98516 0.94386 ]
+	Radius	13.1
+	Mass	0.0000000017742578
 	Density	1861
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Mars" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2460000  # 2023 Feb 24 12:00
-		Period	0.31891023  # mean
-		SemiMajorAxis	9378.938
-		Eccentricity	0.01468
-		Inclination	2.097806
-		AscendingNode	38.701507
-		ArgOfPericenter	66.811489
-		MeanAnomaly	173.124729
+		Epoch	2456655.5  # 2013 Dec 29
+		Period	0.31891023
+		SemiMajorAxis	9376
+		Eccentricity	0.0151
+		Inclination	27.235297
+		AscendingNode	84.938846
+		ArgOfPericenter	48.660664
+		MeanAnomaly	85.232720
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	CustomRotation	"iau-phobos"
@@ -376,36 +379,35 @@
 	#	MeridianAngle	35.06
 	# }
 
-	LunarLambert	1  # Lommel-Seeliger
-	# GeomAlbedo	0.0683  # disk-resolved, green filter (538 nm)
-	Reflectivity	0.0157  # green-filter Bond albedo
+	LunarLambert	0.5
+	GeomAlbedo	0.071
+	BondAlbedo	0.027
 	InfoURL	"https://en.wikipedia.org/wiki/Phobos_(moon)"
 }
 
-# Albedos from Thomas et al. (1996), Icarus 123, p. 536-556
-# "The Surface of Deimos: Contribution of Materials and Processes to Its Unique Appearance"
-# https://ui.adsabs.harvard.edu/abs/1996Icar..123..536T/abstract
 "Deimos:Mars II" "Sol/Mars"
 {
 	Class	"moon"
 	Mesh	"deimos.cmod"
-	MeshCenter	[ -0.7078 -0.2013 0.9583 ]
 	Texture	"deimos.*"
-	Color	[ 1.0 0.975 0.932 ]
-	BlendTexture	true
-	Radius	7.9851  # maximum semi-axis; from model extent
-	Mass	2.5339e-10
+	Color	[ 1.0 0.97168 0.93149 ]
+	Radius	7.8
+	Mass	0.0000000002533937
 	Density	1465
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Mars" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2460000  # 2023 Feb 24 12:00
-		Period	1.2624407  # mean
-		SemiMajorAxis	23459.739
-		Eccentricity	0.000283
-		Inclination	2.217941
-		AscendingNode	286.210554
-		ArgOfPericenter	125.429446
-		MeanAnomaly	331.164065
+		Epoch	2443431.5  # 1977 Oct 15
+		Period	1.2624407
+		SemiMajorAxis	23463.2
+		Eccentricity	0.00033
+		Inclination	24.167070
+		AscendingNode	84.377158
+		ArgOfPericenter	61.616854
+		MeanAnomaly	213.688382
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	CustomRotation	"iau-deimos"
@@ -418,9 +420,8 @@
 	#	MeridianAngle	79.41
 	# }
 
-	LunarLambert	1  # Lommel-Seeliger
-	# GeomAlbedo	0.068
-	Reflectivity	0.027  # from geometric albedo and phase integral
+	LunarLambert	0.5
+	GeomAlbedo	0.068
 	InfoURL	"https://en.wikipedia.org/wiki/Deimos_(moon)"
 }
 
