@@ -6,9 +6,12 @@
 # Masses of Pluto and Charon from Brozović and Jacobson (2024), AJ 167 (6), id.256
 # "Post-new-horizons Orbits and Masses for the Satellites of Pluto"
 # https://ui.adsabs.harvard.edu/abs/2024AJ....167..256B/abstract
+# Sizes and rotational parameters of Nix and Hydra from
+# https://naif.jpl.nasa.gov/pub/naif/pds/data/nh-j_p_ss-spice-6-v1.0/nhsp_1000/data/pck/nh_pcnh_010.tpc
 # Masses of Nix and Hydra from Porter and Canup (2023), Planet. Sci. J. 4, 120
 # "Orbits and Masses of the Small Satellites of Pluto"
 # https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..120P/abstract
+# Albedos of Nix and Hydra from Porter et al. (2021), "The Pluto System After New Horizons", p. 426
 # Color calculated with phase integral from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
 # "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
 # https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
@@ -156,9 +159,10 @@ ReferencePoint "Pluto-Charon" "Sol"
 "Nix:Pluto II:134340 Pluto II:S 2005 P 2:S 2005 (134340) 2" "Sol/Pluto"
 {
 	Class	"minormoon"
-	Mesh	"roughsphere.cms"
-	Texture	"icymoon.*"
-	SemiAxes	[ 24.9 16.6 15.55 ]
+	Mesh	"nix.cmod"
+	MeshCenter	[ -2.401 -2.074 3.591 ]
+	Texture	"nix.*"
+	Radius	24.2  # maximum-semi-axis
 	Mass	0.00000000452110
 	OrbitFrame
 	{
@@ -175,18 +179,17 @@ ReferencePoint "Pluto-Charon" "Sol"
 		ArgOfPericenter	170.713572
 		MeanAnomaly	19.747982
 	}
-	BodyFrame
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
 	{
-		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
-	}
-	PrecessingRotation
-	{
-		Period	43.896
-		Inclination	132
-		PrecessionPeriod	0.0175
+		Period	43.854353
+		Inclination	127.7
+		AscendingNode	79.1
+		MeridianAngle	243.5722888
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.56
+	# GeomAlbedo	0.56
+	Reflectivity	0.24  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Nix_(moon)"
 }
 
@@ -230,9 +233,9 @@ ReferencePoint "Pluto-Charon" "Sol"
 {
 	Class	"minormoon"
 	Mesh	"hydra.cmod"
-	Orientation	[ 90 1 0 0 ]
-	Texture	"icymoon.*"
-	Radius	25.45
+	MeshCenter	[ -2.132 -1.112 -0.1515 ]
+	Texture	"hydra.*"
+	Radius	26.0  # maximum-semi-axis
 	Mass	0.00000000502344
 	OrbitFrame
 	{
@@ -249,18 +252,17 @@ ReferencePoint "Pluto-Charon" "Sol"
 		ArgOfPericenter	16.240228
 		MeanAnomaly	49.034160
 	}
-	BodyFrame
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
 	{
-		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
-	}
-	PrecessingRotation
-	{
-		Period	10.308
-		Inclination	110
-		PrecessionPeriod	0.0175
+		Period	10.313208
+		Inclination	85.3
+		AscendingNode	158.9
+		MeridianAngle	57.0724592
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.83
+	# GeomAlbedo	0.83
+	Reflectivity	0.32  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Hydra_(moon)"
 }
 
