@@ -133,9 +133,9 @@ Barycenter "ALF Cen:Gliese 559"
 	InfoURL "https://en.wikipedia.org/wiki/Barnard%27s_Star"
 }
 
-# Bedin et al. (2024), AN 345 (1), e20230158
-# "HST astrometry of the closest brown dwarfs-II. Improved parameters and constraints on a third body"
-# https://ui.adsabs.harvard.edu/abs/2024AN....34530158B/abstract
+# Lazorenko & Sahlmann (2018), A&A 618, A111
+# "Updated astrometry and masses of the LUH 16 brown dwarf binary"
+# https://arxiv.org/abs/1808.07835
 # Magnitudes from Boffin et al. (2014), A&A 561, L4
 # "Possible astrometric discovery of a substellar companion to the closest
 # binary brown dwarf system WISE J104915.57-531906.1"
@@ -146,9 +146,9 @@ Barycenter "ALF Cen:Gliese 559"
 # https://iopscience.iop.org/article/10.3847/1538-4357/abcb97
 Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 {
-	RA 162.32821578
-	Dec -53.31941054
-	Distance 6.51019 # 500.993 +/- 0.050 mas
+	RA 162.31073787
+	Dec -53.318058293
+	Distance 6.5029 # 501.557 +/- 0.082 mas
 }
 
 "Luhman 16 A:WISE 1049-5319 A:WISE J104915.57-531906.1 A:GJ 11551 A"
@@ -159,13 +159,13 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 	Radius 70000 # approx.
 
 	EllipticalOrbit {              # fully specified orientation
-		Period           26.55
-		SemiMajorAxis    1.597 # mass ratio 35.4J:29.4J
-		Eccentricity     0.344
-		Inclination      43.81
-		AscendingNode   285.0
-		ArgOfPericenter 316.68
-		MeanAnomaly     115.12
+		Period           27.54
+		SemiMajorAxis    1.636 # mass ratio 33.51J:28.55J
+		Eccentricity     0.343
+		Inclination     135.68
+		AscendingNode   118.64
+		ArgOfPericenter 316.22
+		MeanAnomaly     127.58
 	}
 
 	RotationPeriod 6.94
@@ -179,13 +179,13 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 	Radius 63000 # approx.
 
 	EllipticalOrbit {              # fully specified orientation
-		Period           26.55
-		SemiMajorAxis    1.923 # mass ratio 35.4J:29.4J
-		Eccentricity     0.344
-		Inclination      43.81
-		AscendingNode   285.0
-		ArgOfPericenter 136.68
-		MeanAnomaly     115.12
+		Period           27.54
+		SemiMajorAxis    1.921 # mass ratio 33.51J:28.55J
+		Eccentricity     0.343
+		Inclination     135.68
+		AscendingNode   118.64
+		ArgOfPericenter 136.22
+		MeanAnomaly     127.58
 	}
 
 	RotationPeriod 5.28
@@ -2299,9 +2299,8 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	InfoURL "https://en.wikipedia.org/wiki/Gliese_555"
 }
 
-# Curiel et al. (2022), AJ 164 (3), 93
 # "3D orbital architecture of a dwarf binary system and its planetary companion"
-# https://ui.adsabs.harvard.edu/abs/2022AJ....164...93C/abstract
+# https://arxiv.org/abs/2208.14553
 Barycenter 116132 "EQ Peg:Gliese 896:BD+19 5116"
 {
 	RA 352.97054871 # mass ratio 0.43814:0.16527
