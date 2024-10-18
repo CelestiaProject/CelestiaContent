@@ -3,34 +3,48 @@
 # Pluto is defined first, so that it will be selected by the "9" key.
 
 
-# Masses of Pluto and Charon from Brozović and Jacobson (2024), AJ 167 (6), id.256
+# Stern et al. (2018), Annu. Rev. Astro. Astrophys. 56, p. 357-392
+# "The Pluto System After New Horizons"
+# https://ui.adsabs.harvard.edu/abs/2018ARA%26A..56..357S/abstract
+# Masses of Pluto and Charon and mean orbital elements from
+# Brozović and Jacobson (2024), AJ 167, 256
 # "Post-new-horizons Orbits and Masses for the Satellites of Pluto"
 # https://ui.adsabs.harvard.edu/abs/2024AJ....167..256B/abstract
-# Masses of Nix and Hydra from Porter and Canup (2023), Planet. Sci. J. 4, 120
+# Sizes and rotational parameters of Nix and Hydra from
+# https://naif.jpl.nasa.gov/pub/naif/pds/data/nh-j_p_ss-spice-6-v1.0/nhsp_1000/data/pck/nh_pcnh_010.tpc
+# Masses and densities of Nix and Hydra from Porter and Canup (2023), Planet. Sci. J. 4, 120
 # "Orbits and Masses of the Small Satellites of Pluto"
 # https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..120P/abstract
+# Albedos of Nix and Hydra from Porter et al. (2021), "The Pluto System After New Horizons", p. 426
 # Color calculated with phase integral from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
 # "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
 # https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 ReferencePoint "Pluto-Charon" "Sol"
 {
 	# CustomOrbit "pluto"
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2457217.5  # 2015 Jul 14
-		Period	248.054184846803
-		SemiMajorAxis	39.4783420066459
-		Eccentricity	0.2501732811304472
-		Inclination	17.16201351793483
-		AscendingNode	110.2878066070713
-		ArgOfPericenter	113.3688155797719
-		MeanAnomaly	37.59714922781219
+		Epoch	2457218.0  # 2015 Jul 14 12:00
+		Period	247.9893906254801
+		SemiMajorAxis	39.48911346221926
+		Eccentricity	0.2490238925240831
+		Inclination	17.14068740796551
+		AscendingNode	110.3010397608273
+		ArgOfPericenter	113.7736490834563
+		MeanAnomaly	37.39645738706366
 	}
 	# Make the orbit and label visible
 	Visible true
 	Clickable true
 }
 
+# Albedos from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
+# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
+# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
 "Pluto:134340 Pluto" "Sol"
 {
 	Class	"dwarfplanet"
@@ -38,7 +52,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	NormalMap	"pluto-normal.*"
 	Color	[ 1.0 0.95948 0.86047 ]
 	Radius	1188.3
-	Mass	0.0021809422
+	Mass<kg>	1.3025e22
 	Atmosphere
 	{
 		Height	130
@@ -53,71 +67,70 @@ ReferencePoint "Pluto-Charon" "Sol"
 	}
 	EllipticalOrbit
 	{
-		Epoch	2457217.5  # 2015 Jul 14
-		Period	6.3872304
-		SemiMajorAxis	2035
-		Eccentricity	0.0022
-		Inclination	112.896311
-		AscendingNode	227.401773
-		ArgOfPericenter	357.891718
-		MeanAnomaly	179.806932
+		Epoch	2457218.0  # 2015 Jul 14 12:00
+		Period	6.387221  # mean
+		SemiMajorAxis	2130.734  # separation = 19595.764 km, mass ratio = 0.1220
+		Eccentricity	0.000161  # mean
+		Inclination	112.888628
+		AscendingNode	227.392167
+		ArgOfPericenter	352.410172
+		MeanAnomaly	213.475686
 	}
-	BodyFrame
+	BodyFrame	{ EclipticJ2000 {} }
+	UniformRotation  # to match orbit
 	{
-		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
+		Epoch	2457218.0  # 2015 Jul 14 12:00
+		Inclination	112.888628
+		AscendingNode	227.392167
+		MeridianAngle	25.885858
 	}
-	UniformRotation
-	{
-		Period	153.2935296
-		Inclination	115.60
-		AscendingNode	228.34
-		MeridianAngle	320.75
-	}
-	LunarLambert	0.5
-	GeomAlbedo	0.575
+	LunarLambert	0.7  # Buratti et al. (2017), 2017Icar..287..207B
+	# GeomAlbedo	0.51
+	Reflectivity	0.41  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Pluto"
 }
 
-"Charon:Pluto I:134340 Pluto I:S 1978 P 1:S 1978 (134340) 1" "Sol/Pluto"
+# Photometric parameters from Buratti et al. (2019), ApJL 874, L3
+# "New Horizons Photometry of Pluto's Moon Charon"
+# https://ui.adsabs.harvard.edu/abs/2019ApJ...874L...3B/abstract
+"Charon:Pluto I:134340 Pluto I:S 1978 P 1" "Sol/Pluto"
 {
 	Class	"moon"
 	Texture	"charon.*"
 	NormalMap	"charon-normal.*"
 	Color	[ 0.994 1.0 0.972 ]
-	Radius	606
-	Mass	0.00026618885
+	Radius	606.0
+	Mass<kg>	1.5897e21
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
 	}
 	EllipticalOrbit
 	{
-		Epoch	2457217.5  # 2015 Jul 14
-		Period	6.3872304
-		SemiMajorAxis	17536
-		Eccentricity	0.0022
-		Inclination	112.896304
-		AscendingNode	227.401751
-		ArgOfPericenter	178.227869
-		MeanAnomaly	179.475209
+		Epoch	2457218.0  # 2015 Jul 14 12:00
+		Period	6.387221  # mean
+		SemiMajorAxis	17465.030  # separation = 19595.764 km, mass ratio = 0.1220
+		Eccentricity	0.000161  # mean
+		Inclination	112.888628
+		AscendingNode	227.392167
+		ArgOfPericenter	172.410172
+		MeanAnomaly	213.475686
 	}
-	BodyFrame
+	BodyFrame	{ EclipticJ2000 {} }
+	UniformRotation  # to match orbit
 	{
-		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
+		Epoch	2457218.0  # 2015 Jul 14 12:00
+		Inclination	112.888628
+		AscendingNode	227.392167
+		MeridianAngle	205.885858
 	}
-	UniformRotation
-	{
-		Period	153.2935296
-		Inclination	115.9
-		AscendingNode	227.3
-		MeridianAngle	140.4
-	}
-	LunarLambert	0.5
-	GeomAlbedo	0.34
+	LunarLambert	0.9
+	# GeomAlbedo	0.41
+	Reflectivity	0.29  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Charon_(moon)"
 }
 
-"Styx:Pluto V:134340 Pluto V:S 2012 P 1:S 2012 (134340) 1:P5" "Sol/Pluto"
+"Styx:Pluto V:134340 Pluto V:S 2012 (134340) 1:P5" "Sol/Pluto"
 {
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
@@ -129,68 +142,66 @@ ReferencePoint "Pluto-Charon" "Sol"
 	}
 	EllipticalOrbit
 	{
-		Epoch	2457217.5  # 2015 Jul 14
-		Period	20.16155
-		SemiMajorAxis	42656
-		Eccentricity	0.005787
-		Inclination	112.851617
-		AscendingNode	227.409675
-		ArgOfPericenter	66.378091
-		MeanAnomaly	268.585219
+		Epoch	2457218.0  # 2015 Jul 14 12:00
+		Period	20.89  # mean
+		SemiMajorAxis	43163  # mean
+		Eccentricity	0.025  # mean
+		Inclination	112.885556
+		AscendingNode	227.339963
+		ArgOfPericenter	32.651282
+		MeanAnomaly	311.500838
 	}
-	BodyFrame
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
 	{
-		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
-	}
-	PrecessingRotation
-	{
-		Period	77.736
-		Inclination	82
-		PrecessionPeriod	0.0175
+		Period	77.76
+		Inclination	29
+		AscendingNode	286
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.65
 	InfoURL	"https://en.wikipedia.org/wiki/Styx_(moon)"
 }
 
-"Nix:Pluto II:134340 Pluto II:S 2005 P 2:S 2005 (134340) 2" "Sol/Pluto"
+"Nix:Pluto II:134340 Pluto II:S 2005 P 2:P2" "Sol/Pluto"
 {
 	Class	"minormoon"
-	Mesh	"roughsphere.cms"
-	Texture	"icymoon.*"
-	SemiAxes	[ 24.9 16.6 15.55 ]
-	Mass	0.00000000452110
+	Mesh	"nix.cmod"
+	MeshCenter	[ -2.401 -2.074 3.591 ]
+	Texture	"nix.*"
+	Radius	24.2  # maximum-semi-axis
+	Mass<kg>	2.7e16
+	Density	1030
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
 	}
 	EllipticalOrbit
 	{
-		Epoch	2457217.5  # 2015 Jul 14
-		Period	24.85463
-		SemiMajorAxis	48694
-		Eccentricity	0.002036
-		Inclination	112.907056
-		AscendingNode	227.405982
-		ArgOfPericenter	170.713572
-		MeanAnomaly	19.747982
+		Epoch	2457218.0  # 2015 Jul 14 12:00
+		Period	25.51  # mean
+		SemiMajorAxis	49340  # mean
+		Eccentricity	0.015  # mean
+		Inclination	112.909674
+		AscendingNode	227.385476
+		ArgOfPericenter	197.568847
+		MeanAnomaly	0.483986
 	}
-	BodyFrame
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
 	{
-		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
-	}
-	PrecessingRotation
-	{
-		Period	43.896
-		Inclination	132
-		PrecessionPeriod	0.0175
+		Period	43.854353
+		Inclination	127.7
+		AscendingNode	79.1
+		MeridianAngle	243.5722888
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.56
+	# GeomAlbedo	0.56
+	Reflectivity	0.24  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Nix_(moon)"
 }
 
-"Kerberos:Pluto IV:134340 Pluto IV:S 2011 P 1:S 2011 (134340) 1:P4" "Sol/Pluto"
+"Kerberos:Pluto IV:134340 Pluto IV:S 2011 (134340) 1:P4" "Sol/Pluto"
 {
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
@@ -202,65 +213,62 @@ ReferencePoint "Pluto-Charon" "Sol"
 	}
 	EllipticalOrbit
 	{
-		Epoch	2457217.5  # 2015 Jul 14
-		Period	32.16756
-		SemiMajorAxis	57783
-		Eccentricity	0.00328
-		Inclination	113.005511
-		AscendingNode	227.846526
-		ArgOfPericenter	13.004359
-		MeanAnomaly	34.026213
+		Epoch	2457218.0  # 2015 Jul 14 12:00
+		Period	32.75  # mean
+		SemiMajorAxis	58272  # mean
+		Eccentricity	0.010  # mean
+		Inclination	113.007202
+		AscendingNode	227.835605
+		ArgOfPericenter	8.718216
+		MeanAnomaly	43.929906
 	}
-	BodyFrame
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
 	{
-		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
-	}
-	PrecessingRotation
-	{
-		Period	127.92
-		Inclination	96
-		PrecessionPeriod	0.0175
+		Period	127.44
+		Inclination	18
+		AscendingNode	312
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.56
 	InfoURL	"https://en.wikipedia.org/wiki/Kerberos_(moon)"
 }
 
-"Hydra:Pluto III:134340 Pluto III:S 2005 P 1:S 2005 (134340) 1" "Sol/Pluto"
+"Hydra:Pluto III:134340 Pluto III:S 2005 P 1:P3" "Sol/Pluto"
 {
 	Class	"minormoon"
 	Mesh	"hydra.cmod"
-	Orientation	[ 90 1 0 0 ]
-	Texture	"icymoon.*"
-	Radius	25.45
-	Mass	0.00000000502344
+	MeshCenter	[ -2.132 -1.112 -0.1515 ]
+	Texture	"hydra.*"
+	Radius	26.0  # maximum-semi-axis
+	Mass<kg>	3.0e16
+	Density	1220
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
 	}
 	EllipticalOrbit
 	{
-		Epoch	2457217.5  # 2015 Jul 14
-		Period	38.20177
-		SemiMajorAxis	64738
-		Eccentricity	0.005862
-		Inclination	112.873048
-		AscendingNode	227.710864
-		ArgOfPericenter	16.240228
-		MeanAnomaly	49.034160
+		Epoch	2457218.0  # 2015 Jul 14 12:00
+		Period	38.74  # mean
+		SemiMajorAxis	65175  # mean
+		Eccentricity	0.009  # mean
+		Inclination	112.882038
+		AscendingNode	227.697392
+		ArgOfPericenter	11.296494
+		MeanAnomaly	58.567710
 	}
-	BodyFrame
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
 	{
-		EclipticJ2000	{ Center "Sol/Pluto-Charon" }
-	}
-	PrecessingRotation
-	{
-		Period	10.308
-		Inclination	110
-		PrecessionPeriod	0.0175
+		Period	10.313208
+		Inclination	85.3
+		AscendingNode	158.9
+		MeridianAngle	57.0724592
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.83
+	# GeomAlbedo	0.83
+	Reflectivity	0.32  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Hydra_(moon)"
 }
 
@@ -274,7 +282,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	NormalMap	"ceres-normal.*"
 	Color	[ 1.0 0.993 0.962 ]
 	SemiAxes	[ 482.2 482.1 445.9 ]
-	Mass	0.0001571319491
+	Mass<kg>	9.38392e20
 	Density	2161.6
 	EllipticalOrbit
 	{
@@ -340,7 +348,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 0.575 0.57 0.563 ]
 	BlendTexture	true
 	Radius	455
-	Mass	0.00009125921
+	Mass<kg>	5.45e20
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
@@ -383,7 +391,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 0.485 0.469 0.446 ]
 	BlendTexture	true
 	Radius	221.25
-	Mass	0.0000145680
+	Mass<kg>	8.7e19
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
@@ -431,7 +439,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 0.662 0.674 0.69 ]
 	BlendTexture	true
 	SemiAxes	[ 1050 840 537 ]
-	Mass	0.00067079705
+	Mass<kg>	4.006e21
 	EllipticalOrbit
 	{
 		Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -466,7 +474,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Mesh	"asteroid.cms"
 	Texture	"icymoon.*"
 	Radius	80
-	Mass	0.0000002997321
+	Mass<kg>	1.79e18
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Haumea" }
@@ -507,7 +515,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Texture	"icymoon.*"
 	Radius	175	 # "...a larger effective diameter than what has been published so far."
 	SemiAxes	[ 1 0.81 0.81 ]	# Amag=0.23, b/a=0.81 if edge-on
-	Mass	0.000002997321
+	Mass<kg>	1.79e19
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Haumea" }
@@ -561,7 +569,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	BlendTexture	true
 	Radius	545  # equatorial
 	SemiAxes	[ 1.18 0.992 0.855 ]	# a/b = 1.19, b/c = 1.16
-	Mass	0.0002009377
+	Mass<kg>	1.2e21
 	EllipticalOrbit
 	{
 		Epoch	2458600.5  # 2019 Apr 27
@@ -644,7 +652,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	BlendTexture	true
 	Radius	717
 	Oblateness	0.0098
-	Mass	0.000519089
+	Mass<kg>	3.1e21
 	EllipticalOrbit
 	{
 		Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -698,7 +706,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 0.504 0.444 0.341 ]
 	BlendTexture	true
 	Radius	615
-	Mass	0.0002930342
+	Mass<kg>	1.75e21
 	EllipticalOrbit
 	{
 		Epoch	2459000.5  # 2020 May 31
@@ -777,7 +785,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 1.0 0.994 0.968 ]
 	BlendTexture	true
 	Radius	1163
-	Mass	0.0027434829
+	Mass<kg>	1.638e22
 	EllipticalOrbit
 	{
 		Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -811,7 +819,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 0.373 0.373 0.373 ]
 	BlendTexture	true
 	Radius	307.5
-	Mass	0.000013717
+	Mass<kg>	8e19
 	OrbitFrame	{ EquatorJ2000 {} }
 	EllipticalOrbit
 	{
