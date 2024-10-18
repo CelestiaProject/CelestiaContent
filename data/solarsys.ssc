@@ -83,7 +83,7 @@
 	NormalMap	"mercury-normal.*"
 	Color	[ 1.0 0.95415 0.86031 ]
 	Radius	2439.7
-	Mass	0.05527463117
+	Mass<kg>	3.3010009737e23
 	CustomOrbit	"vsop87-mercury"
 
 	# Overridden by CustomOrbit
@@ -117,6 +117,9 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Mercury_(planet)"
 }
 
+# Mass from Konopliv et al. (1999), Icarus 139 (1), 3-18
+# "Venus Gravity: 180th Degree and Order Model"
+# https://ui.adsabs.harvard.edu/abs/1999Icar..139....3K/abstract
 "Venus" "Sol"
 {
 	Class	"planet"
@@ -124,7 +127,7 @@
 	NormalMap	"venus-normal.*"
 	Color	[ 0.98965 1.0 0.98452 ]
 	Radius	6051.8
-	Mass	0.815
+	Mass<kg>	4.86730581e24
 	Atmosphere
 	{
 		Height	200
@@ -232,6 +235,9 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Earth"
 }
 
+# Mass from Park et al. (2021), AJ 161 (3), id.105
+# "The JPL Planetary and Lunar Ephemerides DE440 and DE441"
+# https://ui.adsabs.harvard.edu/abs/2021AJ....161..105P/abstract
 "Moon:Earth I" "Sol/Earth"
 {
 	Class	"moon"
@@ -240,7 +246,7 @@
 	Color	[ 1.0 0.94582 0.865 ]
 	Radius	1738.14
 	Oblateness	0.00125
-	Mass	0.0123
+	Mass<kg>	7.345789248e22
 	CustomOrbit	"moon"
 
 	# Overridden by CustomOrbit
@@ -292,7 +298,7 @@
 	Color	[ 1.0 0.79855 0.56429 ]
 	Radius	3396.2
 	Oblateness	0.00589
-	Mass	0.1074499019
+	Mass<kg>	6.416908e23
 	Atmosphere
 	{
 		Height	80
@@ -352,7 +358,7 @@
 	Color	[ 1.0 0.987 0.942 ]
 	BlendTexture	true
 	Radius	13.048  # maximum semi-axis; from model extent
-	Mass	1.7743e-9
+	Mass<kg>	1.060e16
 	Density	1861
 	EllipticalOrbit
 	{
@@ -394,7 +400,7 @@
 	Color	[ 1.0 0.975 0.932 ]
 	BlendTexture	true
 	Radius	7.9851  # maximum semi-axis; from model extent
-	Mass	2.5339e-10
+	Mass<kg>	1.51e15
 	Density	1465
 	EllipticalOrbit
 	{
@@ -424,6 +430,9 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Deimos_(moon)"
 }
 
+# Masses of Jupiter and major moons from Jacobson (2021) (personal comm.)
+# Jupiter's standard gravitational parameter available at https://ssd.jpl.nasa.gov/tools/gravity.html#/outerplanets
+# Moons' standard gravitational parameters available at https://ssd.jpl.nasa.gov/sats/phys_par/
 "Jupiter" "Sol"
 {
 	Class	"planet"
@@ -431,7 +440,7 @@
 	Color	[ 1.0 0.98663 0.91433 ]
 	Radius	71492
 	Oblateness	0.06487
-	Mass	317.83
+	Mass<kg>	1.898124626e27
 	Atmosphere
 	{
 		Height	1000
@@ -487,7 +496,7 @@ AltSurface "2018 (Hubble)" "Sol/Jupiter"
 	Texture	"io.*"
 	Color	[ 1.0 0.94191 0.70074 ]
 	SemiAxes	[ 1829.4 1819.4 1815.7 ]
-	Mass	0.01495311
+	Mass<kg>	8.92964876e22
 	Atmosphere
 	{
 		Height	500
@@ -544,7 +553,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Io"
 	Texture	"europa.*"
 	Color	[ 1.0 0.95939 0.85366 ]
 	SemiAxes	[ 1562.6 1560.3 1559.5 ]
-	Mass	0.008037508
+	Mass<kg>	4.79857378e22
 	CustomOrbit	"europa"
 
 	# Overridden by CustomOrbit
@@ -594,7 +603,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Europa"
 	Texture	"ganymede.*"
 	Color	[ 1.0 0.96761 0.89281 ]
 	SemiAxes	[ 2634.5 2633 2631.5 ]
-	Mass	0.024815807
+	Mass<kg>	1.48147862e23
 	CustomOrbit	"ganymede"
 
 	# Overridden by CustomOrbit
@@ -644,7 +653,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Ganymede"
 	Texture	"callisto.*"
 	Color	[ 1.0 0.9573 0.86499 ]
 	SemiAxes	[ 2409.5 2409.5 2409 ]
-	Mass	0.018017415
+	Mass<kg>	1.07566088e23
 	CustomOrbit	"callisto"
 
 	# Overridden by CustomOrbit
@@ -692,6 +701,9 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 # "The Orbits of the Main Saturnian Satellites,
 # the Saturnian System Gravity Field, and the Orientation of Saturn's Pole"
 # https://ui.adsabs.harvard.edu/abs/2022AJ....164..199J/abstract
+# Bond albedo from Wang et al. (2024), NatCo 15 (1), id.5045
+# "Cassini spacecraft reveals global energy imbalance of Saturn"
+# https://ui.adsabs.harvard.edu/abs/2024NatCo..15.5045W/abstract
 "Saturn" "Sol"
 {
 	Class	"planet"
@@ -699,7 +711,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 1.0 0.9476 0.81514 ]
 	Radius	60268
 	Oblateness	0.09796
-	Mass	95.16365876
+	Mass<kg>	5.683173701e26
 	Atmosphere
 	{
 		Height	1000
@@ -732,7 +744,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		MeridianAngle	358.922
 	}
 	GeomAlbedo	0.499740
-	BondAlbedo	0.342
+	BondAlbedo	0.41
 	TempDiscrepancy	52.5  # for 1 bar level
 	Rings
 	{
@@ -750,7 +762,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Texture	"mimas.*"
 	Color	[ 0.983 1.0 0.983 ]
 	Radius	207.8
-	Mass	0.000006280877428
+	Mass<kg>	3.75094e19
 	Density	1150.1
 	CustomOrbit	"mimas"
 
@@ -796,7 +808,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 0.984 1.0 0.984 ]
 	Radius	252.1
 	SemiAxes	[ 1.018 0.9972 0.9849 ]
-	Mass	0.00001808971869
+	Mass<kg>	1.080318e20
 	Density	1609.7
 	CustomOrbit	"enceladus"
 
@@ -842,7 +854,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	NormalMap	"tethys-normal.*"
 	Color	[ 0.980 1.0 0.966 ]
 	SemiAxes	[ 538.4 528.7 526.3 ]
-	Mass	0.0001033985097
+	Mass<kg>	6.174959e20
 	Density	984.0
 	CustomOrbit	"tethys"
 
@@ -887,7 +899,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	NormalMap	"dione-normal.*"
 	Color	[ 0.990 1.0 0.989 ]
 	SemiAxes	[ 564.4 561.3 559.6 ]
-	Mass	0.0001834371735
+	Mass<kg>	1.0954868e21
 	Density	1478.1
 	CustomOrbit	"dione"
 
@@ -932,7 +944,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	# NormalMap	"rhea-normal.*"
 	Color	[ 1.0 0.98264 0.94056 ]
 	SemiAxes	[ 766.2 762.8 762.2 ]
-	Mass	0.0003862165774
+	Mass<kg>	2.3064854e21
 	Density	1237.2
 	CustomOrbit	"rhea"
 
@@ -981,7 +993,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	SpecularColor	[ 0.50 0.44 0.40 ]
 	SpecularPower	1000
 	SemiAxes	[ 2575.15 2574.78 2574.47 ]
-	Mass	0.02252478825
+	Mass<kg>	1.345180354e23
 	Density	1881.4
 	Atmosphere
 	{
@@ -1037,7 +1049,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Texture	"hyperion.*"
 	Color	[ 1.0 0.968 0.902 ]
 	Radius	180.1
-	Mass	0.000000929504354
+	Mass<kg>	5.5510e18
 	Density	538.6
 	CustomOrbit	"hyperion"
 
@@ -1086,7 +1098,7 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	# NormalMap	"iapetus-normal.*"
 	Color	[ 0.993 1.0 0.976 ]
 	SemiAxes	[ 746 746 712 ]
-	Mass	0.0003023541695
+	Mass<kg>	1.8056591e21
 	Density	1088.7
 	CustomOrbit	"iapetus"
 
@@ -1130,7 +1142,7 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	Mesh	"phoebe.cmod"
 	Texture	"phoebe.*"
 	Radius	109.4
-	Mass	0.00000139187877
+	Mass<kg>	8.3123e18
 	Density	1642.8
 	OrbitFrame
 	{
@@ -1178,7 +1190,7 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	Color	[ 0.86828 0.97 1.0 ]
 	Radius	25559
 	Oblateness	0.0229
-	Mass	14.53614488
+	Mass<kg>	8.680985721e25
 	Atmosphere
 	{
 		Height	500
@@ -1233,7 +1245,7 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	# NormalMap	"miranda-normal.*"
 	Color	[ 0.98357 0.98913 1.0 ]
 	SemiAxes	[ 240 234.2 232.9 ]
-	Mass	0.000010537508
+	Mass<kg>	6.293e19
 	CustomOrbit	"miranda"
 
 	# Overridden by CustomOrbit
@@ -1283,7 +1295,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Miranda"
 	# NormalMap	"ariel-normal.*"
 	Color	[ 1.0 1.0 0.999 ]
 	SemiAxes	[ 581.1 577.9 577.7 ]
-	Mass	0.000206480241
+	Mass<kg>	1.2331e21
 	CustomOrbit	"ariel"
 
 	# Overridden by CustomOrbit
@@ -1334,7 +1346,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Ariel"
 	# NormalMap	"umbriel-normal.*"
 	Color	[ 1.0 0.99769 0.99749 ]
 	Radius	584.7
-	Mass	0.000215756865
+	Mass<kg>	1.2885e21
 	CustomOrbit	"umbriel"
 
 	# Overridden by CustomOrbit
@@ -1385,7 +1397,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Umbriel"
 	# NormalMap	"titania-normal.*"
 	Color	[ 1.0 0.98945 0.97393 ]
 	Radius	788.4
-	Mass	0.000578533155
+	Mass<kg>	3.4550e21
 	CustomOrbit	"titania"
 
 	# Overridden by CustomOrbit
@@ -1436,7 +1448,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Titania"
 	# NormalMap	"oberon-normal.*"
 	Color	[ 1.0 0.98881 0.97178 ]
 	Radius	761.4
-	Mass	0.000520830543
+	Mass<kg>	3.1104e21
 	CustomOrbit	"oberon"
 
 	# Overridden by CustomOrbit
@@ -1490,7 +1502,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	Color	[ 0.78302 0.91535 1.0 ]
 	Radius	24764
 	Oblateness	0.0171
-	Mass	17.14823976
+	Mass<kg>	1.024092879e26
 	Atmosphere
 	{
 		Height	500
@@ -1541,7 +1553,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	Mesh	"proteus.cmod"
 	Texture	"proteus.*"
 	Radius	212
-	Mass	0.0000083724
+	Mass<kg>	5e19
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Neptune" }
@@ -1576,7 +1588,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	Texture	"triton.*"
 	Color	[ 1.0 0.99024 0.96338 ]
 	SemiAxes	[ 1354.6 1352.8 1352.4 ]
-	Mass	0.00358389042
+	Mass<kg>	2.1403e22
 	Atmosphere
 	{
 		Height	32
@@ -1628,7 +1640,7 @@ AltSurface "Limit of knowledge" "Sol/Neptune/Triton"
 	Color	[ 0.592 0.57 0.551 ]
 	BlendTexture	true
 	SemiAxes	[ 199 168 153 ]
-	Mass	0.0000050234
+	Mass<kg>	3e19
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Neptune" }
