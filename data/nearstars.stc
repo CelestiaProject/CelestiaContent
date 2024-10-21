@@ -162,9 +162,9 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 		Period           26.55
 		SemiMajorAxis    1.597 # mass ratio 35.4J:29.4J
 		Eccentricity     0.344
-		Inclination      43.81
-		AscendingNode   285.0
-		ArgOfPericenter 316.68
+		Inclination     136.19
+		AscendingNode   105.00
+		ArgOfPericenter 316.66
 		MeanAnomaly     115.12
 	}
 
@@ -180,11 +180,11 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 
 	EllipticalOrbit {              # fully specified orientation
 		Period           26.55
-		SemiMajorAxis    1.923 # mass ratio 35.4J:29.4J
+		SemiMajorAxis    1.924 # mass ratio 35.4J:29.4J
 		Eccentricity     0.344
-		Inclination      43.81
-		AscendingNode   285.0
-		ArgOfPericenter 136.68
+		Inclination     136.19
+		AscendingNode   105.00
+		ArgOfPericenter 136.66
 		MeanAnomaly     115.12
 	}
 
