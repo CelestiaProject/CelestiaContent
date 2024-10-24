@@ -1728,40 +1728,100 @@ Barycenter 29295 "Gliese 229:Luyten 668-21:LPM 230"
 	Distance 18.7906 # 173.574 +/- 0.013 mas
 }
 
+# Radius and rotational parameters from Bowler et al. (2023), AJ 165 (4), 164
+# "Rotation Periods, Inclinations, and Obliquities of Cool Stars Hosting
+# Directly Imaged Substellar Companions: Spin–Orbit Misalignments Are Common"
+# https://iopscience.iop.org/article/10.3847/1538-3881/acbd34
 "Gliese 229 A:Luyten 668-21 A:LPM 230 A"
 {
 	OrbitBarycenter "Gliese 229"
 	SpectralType "M1V"
 	AppMag 8.125
-	Radius 341000 # approx. for class
+	Radius 380000
 	InfoURL "https://en.wikipedia.org/wiki/Gliese_229"
 
-	EllipticalOrbit {             # fully specified orbit
+	EllipticalOrbit {             # fully specified orientation
+		Epoch         2466912
 		Period          237.9
-		SemiMajorAxis     3.5 # mass ratio 0.579:71.4J
+		SemiMajorAxis     3.6 # mass ratio 0.579:(38.1J:34.4J)
 		Eccentricity    0.851
 		Inclination      49.0
 		AscendingNode    12.3
 		ArgOfPericenter 224.5
-		MeanAnomaly       296
+	}
+
+	UniformRotation
+	{
+		Period       655.2 # Suárez Mascareño et al. (2016)
+		Inclination  102.7 # inclination (i) = 79.4 deg
+		AscendingNode 63.8 # to match A-B orbit
 	}
 }
 
-"Gliese 229 B:Luyten 668-21 B:LPM 230 B"
+# Xuan et al. (2024), Nature, "The cool brown dwarf Gliese 229 B is a close binary"
+# https://arxiv.org/abs/2410.11953
+Barycenter "Gliese 229 B:Luyten 668-21 B:LPM 230 B"
 {
 	OrbitBarycenter "Gliese 229"
-	SpectralType "T6.5V"
-	AbsMag 33.5 # for approximate radius in Celestia
-	InfoURL "https://en.wikipedia.org/wiki/Gliese_229#Brown_dwarf"
 
-	EllipticalOrbit {             # fully specified orbit
+	EllipticalOrbit {             # fully specified orientation
+		Epoch         2466912
 		Period          237.9
-		SemiMajorAxis    29.8 # mass ratio 0.579:71.4J
+		SemiMajorAxis    29.7 # mass ratio 0.579:(38.1J:34.4J)
 		Eccentricity    0.851
 		Inclination      49.0
 		AscendingNode    12.3
 		ArgOfPericenter  44.5
-		MeanAnomaly       296
+	}
+}
+
+"Gliese 229 Ba:Luyten 668-21 Ba:LPM 230 Ba"
+{
+	OrbitBarycenter "Gliese 229 B"
+	SpectralType "T7"
+	Temperature 860
+	Radius 61800 # from luminosity and temperature
+	AbsMag 28.65 # approx. for class
+
+	EllipticalOrbit {             # fully specified orientation
+		Epoch      2460378.38
+		Period       0.033221 # 12.134 d
+		SemiMajorAxis  0.0201 # mass ratio 38.1J:34.4J
+		Eccentricity    0.234
+		Inclination      37.1
+		AscendingNode    51.0
+		ArgOfPericenter  85.3
+	}
+
+	UniformRotation { # assume synchronous rotation
+		Period        291.216
+		Inclination      37.1
+		AscendingNode    51.0
+	}
+}
+
+"Gliese 229 Bb:Luyten 668-21 Bb:LPM 230 Bb"
+{
+	OrbitBarycenter "Gliese 229 B"
+	SpectralType "T8"
+	Temperature 770
+	Radius 63400 # from luminosity and temperature
+	AbsMag 29.23 # approx. for class
+
+	EllipticalOrbit {             # fully specified orientation
+		Epoch      2460378.38
+		Period       0.033221 # 12.134 d
+		SemiMajorAxis  0.0223 # mass ratio 38.1J:34.4J
+		Eccentricity    0.234
+		Inclination      37.1
+		AscendingNode    51.0
+		ArgOfPericenter 265.3
+	}
+
+	UniformRotation { # assume synchronous rotation
+		Period        291.216
+		Inclination      37.1
+		AscendingNode    51.0
 	}
 }
 
