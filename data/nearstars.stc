@@ -1792,13 +1792,19 @@ Barycenter "Gliese 229 B:Luyten 668-21 B:LPM 230 B"
 		AscendingNode    51.0
 		ArgOfPericenter  85.3
 	}
+
+	UniformRotation { # assume synchronous rotation
+		Period        291.216
+		Inclination      37.1
+		AscendingNode    51.0
+	}
 }
 
 "Gliese 229 Bb:Luyten 668-21 Bb:LPM 230 Bb"
 {
 	OrbitBarycenter "Gliese 229 B"
 	SpectralType "T8"
-	Temperature	770
+	Temperature 770
 	Radius 63400 # from luminosity and temperature
 	AbsMag 29.23 # approx. for class
 
@@ -1810,6 +1816,12 @@ Barycenter "Gliese 229 B:Luyten 668-21 B:LPM 230 B"
 		Inclination      37.1
 		AscendingNode    51.0
 		ArgOfPericenter 265.3
+	}
+
+	UniformRotation { # assume synchronous rotation
+		Period        291.216
+		Inclination      37.1
+		AscendingNode    51.0
 	}
 }
 
