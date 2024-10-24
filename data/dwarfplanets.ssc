@@ -282,7 +282,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	NormalMap	"ceres-normal.*"
 	Color	[ 1.0 0.993 0.962 ]
 	SemiAxes	[ 482.2 482.1 445.9 ]
-	Mass	0.0001571319491
+	Mass<kg>	9.38392e20
 	Density	2161.6
 	EllipticalOrbit
 	{
@@ -348,7 +348,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 0.575 0.57 0.563 ]
 	BlendTexture	true
 	Radius	455
-	Mass	0.00009125921
+	Mass<kg>	5.45e20
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
@@ -391,7 +391,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 0.485 0.469 0.446 ]
 	BlendTexture	true
 	Radius	221.25
-	Mass	0.0000145680
+	Mass<kg>	8.7e19
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Orcus-Vanth" }
@@ -439,7 +439,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 0.662 0.674 0.69 ]
 	BlendTexture	true
 	SemiAxes	[ 1050 840 537 ]
-	Mass	0.00067079705
+	Mass<kg>	4.006e21
 	EllipticalOrbit
 	{
 		Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -474,7 +474,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Mesh	"asteroid.cms"
 	Texture	"icymoon.*"
 	Radius	80
-	Mass	0.0000002997321
+	Mass<kg>	1.79e18
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Haumea" }
@@ -515,7 +515,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Texture	"icymoon.*"
 	Radius	175	 # "...a larger effective diameter than what has been published so far."
 	SemiAxes	[ 1 0.81 0.81 ]	# Amag=0.23, b/a=0.81 if edge-on
-	Mass	0.000002997321
+	Mass<kg>	1.79e19
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Haumea" }
@@ -569,7 +569,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	BlendTexture	true
 	Radius	545  # equatorial
 	SemiAxes	[ 1.18 0.992 0.855 ]	# a/b = 1.19, b/c = 1.16
-	Mass	0.0002009377
+	Mass<kg>	1.2e21
 	EllipticalOrbit
 	{
 		Epoch	2458600.5  # 2019 Apr 27
@@ -652,7 +652,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	BlendTexture	true
 	Radius	717
 	Oblateness	0.0098
-	Mass	0.000519089
+	Mass<kg>	3.1e21
 	EllipticalOrbit
 	{
 		Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -706,7 +706,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 0.504 0.444 0.341 ]
 	BlendTexture	true
 	Radius	615
-	Mass	0.0002930342
+	Mass<kg>	1.75e21
 	EllipticalOrbit
 	{
 		Epoch	2459000.5  # 2020 May 31
@@ -785,7 +785,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 1.0 0.994 0.968 ]
 	BlendTexture	true
 	Radius	1163
-	Mass	0.0027434829
+	Mass<kg>	1.638e22
 	EllipticalOrbit
 	{
 		Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -819,7 +819,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Color	[ 0.373 0.373 0.373 ]
 	BlendTexture	true
 	Radius	307.5
-	Mass	0.000013717
+	Mass<kg>	8e19
 	OrbitFrame	{ EquatorJ2000 {} }
 	EllipticalOrbit
 	{
