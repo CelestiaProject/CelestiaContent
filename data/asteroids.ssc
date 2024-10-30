@@ -858,6 +858,54 @@
     Albedo 0.53
 }
 
+# Watanabe et al. (2019), Science 364 (6437), p. 268-272
+# "Hayabusa2 arrives at the carbonaceous asteroid 162173 Ryugu—A spinning top–shaped rubble pile"
+# https://ui.adsabs.harvard.edu/abs/2019Sci...364..268W/abstract
+# Color from spectrum of Yokota et al. (2021), Planet. Sci. J. 2, 177
+# "Opposition Observations of 162173 Ryugu: Normal Albedo Map Highlights
+# Variations in Regolith Characteristics"
+# https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..177Y/abstract
+# Albedos from Tatsumi et al. (2020), A&A 639, A83
+# "Global photometric properties of (162173) Ryugu"
+# https://ui.adsabs.harvard.edu/abs/2020A%26A...639A..83T/abstract
+"162173 Ryugu:Ryugu:1999 JU3" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"ryugu.cmod"
+	MeshCenter	[ 0.0034 -0.0065 0.0037 ]
+	Texture	"ryugu.*"
+	Color	[ 0.987 0.986 1.0 ]
+	Radius	0.502  # equatorial
+	Mass<kg>	4.50e11
+	Density	1190
+	EllipticalOrbit
+	{
+		Epoch	2458296.5  # 2018 Jun 27 (Hayabusa2 arrival)
+		Period	1.297450864089996
+		SemiMajorAxis	1.189565823285059
+		Eccentricity	0.1902806796171645
+		Inclination	5.884020404884225
+		AscendingNode	251.5891716646982
+		ArgOfPericenter	211.4360584980608
+		MeanAnomaly	18.89661040321024
+	}
+
+	# N. Hirata (17 Nov 2020), "Ryugu Coordinate System Description"
+	# https://sbnarchive.psi.edu/pds4/hayabusa2/hyb2/document/Ryugu_Coordinate_System_Description.pdf
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation  # PCK ryugu_v10.tpc
+	{
+		Period	7.63262478738
+		Inclination	156.38741
+		AscendingNode	186.43112
+		MeridianAngle	274.16225
+	}
+	LunarLambert	1  # Lommel-Seeliger
+	# GeomAlbedo	0.040  # v-band
+	Reflectivity	0.014  # v-band (Bond albedo)
+	InfoURL	"https://en.wikipedia.org/wiki/162173_Ryugu"
+}
+
 # Color from spectrum of Le Corre et al. (2019), 50th LPSC, 2794
 # "Investigating Surface Color Variegation on Near-Earth Asteroid Bennu Using
 # OSIRIS-REx Mapcam Data"
