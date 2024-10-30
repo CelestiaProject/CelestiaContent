@@ -858,7 +858,59 @@
     Albedo 0.53
 }
 
+# Color from spectrum of Le Corre et al. (2019), 50th LPSC, 2794
+# "Investigating Surface Color Variegation on Near-Earth Asteroid Bennu Using
+# OSIRIS-REx Mapcam Data"
+# https://ui.adsabs.harvard.edu/abs/2019LPI....50.2794L/abstract
+# Mass and density from Goossens et al. (2021), Planet. Sci. J. 2, 219
+# "Mass and Shape Determination of (101955) Bennu Using Differenced Data from
+# Multiple OSIRIS-REx Mission Phases"
+# https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..219G/abstract
+# Albedos from Li et al. (2021), Planet. Sci. J. 2, 117
+# "Spectrophotometric Modeling and Mapping of (101955) Bennu"
+# https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..117L/abstract
+"101955 Bennu:Bennu:1999 RQ36" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"bennu.cmod"
+	MeshCenter	[ 0.0024 -0.0045 -0.0080 ]
+	Texture	"bennu.*"
+	Color	[ 0.996 0.996 1.0 ]
+	BlendTexture	true
+	Radius	0.282365  # maximum semi-axis (2019Natur.568...55L)
+	Mass<kg>	7.3304e10
+	Density	1191.57
+	EllipticalOrbit
+	{
+		Epoch	2458455.5  # 2018 Dec 03 (OSIRIS-REx arrival)
+		Period	1.194708319285171
+		SemiMajorAxis	1.12590683885532
+		Eccentricity	0.2037294643265029
+		Inclination	6.034298802514162
+		AscendingNode	2.018428729432062
+		ArgOfPericenter	66.30469211029241
+		MeanAnomaly	328.0138356636153
+	}
 
+	# O. Barnouin, M. Nolan (19 Aug 2021), "Bennu Coordinate System Description"
+	# https://sbnarchive.psi.edu/pds4/orex/orex.mission/document/Bennu_Coordinate_System_Description.pdf
+	# Since Bennu's rotation rate is accelerating due to the YORP effect, we
+	# model its rotation state as it was at epoch J2019, during OSIRIS-REx's stay
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Epoch	2458485  # 2019 Jan 01 12:00
+		Period	4.296005  # at epoch
+		Inclination	150.365
+		AscendingNode	175.459
+		MeridianAngle	19.64457  # at epoch
+	}
+	LunarLambert	1  # well-fit by Lommel-Seeliger function (2021PSJ.....2..124G)
+	# GeomAlbedo	0.046
+	BondAlbedo	0.025  # Zou et al. (2021), 2021Icar..35814183Z
+	Reflectivity	0.020  # Bond albedo at 0.55 µm
+	InfoURL	"https://en.wikipedia.org/wiki/101955_Bennu"
+}
 
 # Radar-imaged asteroids
 "4179 Toutatis:Toutatis:1989 AC" "Sol"
