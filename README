@@ -47,11 +47,11 @@ Texture maps
 # Askaniy (https://www.deviantart.com/askaniy)
 
    Textures of Phobos, Jupiter, Ganymede, Saturn, Uranus, Puck, Neptune,
-   Triton, Pluto, Charon, Nix, Hydra, and Arrokoth.
+   Triton, Pluto, Charon, Nix, Hydra, Ryugu, Bennu, and Arrokoth.
 
    Haumea's (fictional) ring texture is by Askaniy.
 
-   The Callisto texture were made by Askaniy from JVV's texture.
+   The Callisto texture was made by Askaniy from JVV's texture.
 
 # FarGetaNik (https://www.deviantart.com/fargetanik)
 
@@ -312,8 +312,17 @@ covered.
     https://figshare.com/articles/online_resource/Shape_Model_of_Nix/12779948
     https://figshare.com/articles/online_resource/Shape_Model_of_Hydra/12779975
 
+# The Ryugu model is from:
+    https://www.darts.isas.jaxa.jp/pub/hayabusa2/paper/Watanabe_2019/README.html
+
+# Bennu's model is a simplified version of the OLA v20 PTM shape model from NASA's
+# Scientific Visualization Studio: https://svs.gsfc.nasa.gov/5069
+
 # The Arrokoth model was converted to cmod from the Spencer et al. 2020 model:
     https://doi.org/10.6084/m9.figshare.11485443
+
+# Models of Didymos and Dimorphos come from the DART Shapemodel Archive Bundle at PDS:
+    https://pdssbn.astro.umd.edu/holdings/pds4-dart_shapemodel-v1.0/SUPPORT/dataset.shtml
 
 # The Psyche model is from Shepard et al. 2021: https://doi.org/10.3847/PSJ/abfdba
 
