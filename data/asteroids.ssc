@@ -960,6 +960,116 @@
 	InfoURL	"https://en.wikipedia.org/wiki/101955_Bennu"
 }
 
+# Mass, density and Dimorphos orbit from Naidu et al. (2024), Planet. Sci. J. 5, 74
+# "Orbital and Physical Characterization of Asteroid Dimorphos Following the DART Impact"
+# https://ui.adsabs.harvard.edu/abs/2024PSJ.....5...74N/abstract
+# Rotational parameters of Didymos and Dimorphos from Horizons system
+# Albedos from Rozitis et al. (2024), Planet. Sci. J. 5, 66
+# "Pre-impact Thermophysical Properties and the Yarkovsky Effect of NASA DART
+# Target (65803) Didymos"
+# https://ui.adsabs.harvard.edu/abs/2024PSJ.....5...66R/abstract
+"65803 Didymos:Didymos:1996 GT" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"didymos.cmod"
+	MeshCenter	[ 0.0058 0.0017 0.0027 ]  # zero COM-COF offset
+	Color	[ 1.0 0.983 0.929 ]  # au1996GT.7.txt
+	Radius	0.40912  # maximum semi-axis; from model extent
+	Mass<kg>	5.3e11
+	Density	2790
+	EllipticalOrbit
+	{
+		Epoch	2459849.469136173  # 2022 Sept 26 23:15:33.3653 TDB (DART impact)
+		Period	2.108600332759259
+		SemiMajorAxis	1.6443365575274
+		Eccentricity	0.383974100569891
+		Inclination	3.408697906621437
+		AscendingNode	73.11072642655509
+		ArgOfPericenter	319.4199521648271
+		MeanAnomaly	348.4035957798232
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period	2.2600
+		Inclination	162.72455
+		AscendingNode	159.32686
+		MeridianAngle	0.0
+	}
+	LunarLambert	0.95  # assumed same as Dimorphos
+	# GeomAlbedo	0.17
+	Reflectivity	0.07  # Bond albedo
+	InfoURL	"https://en.wikipedia.org/wiki/65803_Didymos"
+}
+
+"Dimorphos:65803 Didymos I:Didymos I:Didymoon" "Sol/Didymos"
+{
+	Class	"minormoon"
+	Mesh	"dimorphos.cmod"  # v004 shape model
+	Color	[ 1.0 0.983 0.929 ]
+	Radius	0.088835  # maximum semi-axis; from model extent
+	Timeline
+	[
+		{
+			Ending	2459849.469136173  # 2022 Sept 26 23:15:33.3653 TDB
+			OrbitFrame
+			{
+				EclipticJ2000	{ Center "Sol/Didymos" }
+			}
+			EllipticalOrbit
+			{
+				Epoch	2459849.469136173  # 2022 Sept 26 23:15:33.3653 TDB
+				Period<h>	11.921493
+				SemiMajorAxis	1.189
+				Inclination	170.7
+				AscendingNode	40
+				MeanAnomaly	174
+			}
+			BodyFrame	{ EquatorJ2000 {} }
+			UniformRotation
+			{
+				Epoch	2459849.469136173  # 2022 Sept 26 23:15:33.3653 TDB
+				Inclination	162.72455
+				AscendingNode	159.32686
+				MeridianAngle	115.21857195
+			}
+		}
+		{
+			OrbitFrame
+			{
+				EclipticJ2000	{ Center "Sol/Didymos" }
+			}
+			EllipticalOrbit
+			{
+				Epoch	2459849.469136173  # 2022 Sept 26 23:15:33.3653 TDB
+				Period<h>	11.3674
+				SemiMajorAxis	1.15729  # calculated so that apocenter matches pre-impact SMA
+				Eccentricity	0.0274
+				Inclination	170.7
+				AscendingNode	40
+				ArgOfPericenter	354  # align apocenter with pre-impact position
+				MeanAnomaly	180  # place Dimorphos at apocenter
+			}
+			BodyFrame	{ EquatorJ2000 {} }
+
+			# After impact, Dimorphos is in an excited rotation state, but the
+			# mean period is roughly synchronous with its orbit
+			# (Pravec et al. 2024, 2024Icar..41816138P)
+			UniformRotation
+			{
+				Epoch	2459849.469136173  # 2022 Sept 26 23:15:33.3653 TDB
+				Inclination	162.72455
+				AscendingNode	159.32686
+				MeridianAngle	115.21857195
+			}
+		}
+	]
+	LunarLambert	0.95  # Buratti et al. (2024), 2024PSJ.....5...83B
+	# GeomAlbedo	0.19  # ~10% brighter than Didymos (2023LPICo2806.1659S)
+	Reflectivity	0.08
+	InfoURL	"https://en.wikipedia.org/wiki/Dimorphos"
+}
+
 # Radar-imaged asteroids
 "4179 Toutatis:Toutatis:1989 AC" "Sol"
 {
