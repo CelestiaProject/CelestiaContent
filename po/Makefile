@@ -11,6 +11,7 @@ $(pot_file): $(pot_file)-update
 
 $(pot_file)-update: data.cpp
 	xgettext --keyword=_ --keyword=i18n \
+	         --keyword=C_:1c,2 --keyword=i18nc:1c,2 \
 	         --sort-by-file --qt --add-comments \
 	         --default-domain=$(domain) --package-name=celestia --package-version=1.7.0 \
 	         --msgid-bugs-address=team@celestiaproject.space \
@@ -20,7 +21,7 @@ $(pot_file)-update: data.cpp
 	         data.cpp
 
 data.cpp: ../data/asterisms.dat ../data/solarsys.ssc ../data/earth_locs.ssc ../data/world-capitals.ssc ../data/dwarfplanets.ssc ../data/minormoons.ssc ../data/well-known-starnames.txt ../data/well-known-dsonames.txt
-	egrep '^\"' ../data/asterisms.dat | awk -F'\"' '{ print "_(\"" $$2 "\");" }' > data.cpp
+	egrep '^\"' ../data/asterisms.dat | awk -F'\"' '{ print "C_(\"asterism\", \"" $$2 "\");" }' > data.cpp
 	egrep '^(\"|ReferencePoint)' ../data/solarsys.ssc | awk -F'\"|:' '{ print "_(\"" $$2 "\");" }' >> data.cpp
 	egrep '^(\"|ReferencePoint)' ../data/dwarfplanets.ssc | awk -F'\"|:' '{ print "_(\"" $$2 "\");" }' >> data.cpp
 	egrep '^(\"|ReferencePoint)' ../data/minormoons.ssc | awk -F'\"|:' '{ print "_(\"" $$2 "\");" }' >> data.cpp
