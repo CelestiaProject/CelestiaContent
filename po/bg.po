@@ -1,29 +1,27 @@
 # SPDX-FileCopyrightText: Celestia Development Team, Translators
 # SPDX-License-Identifier: GPL-2.0-or-later
-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Celestia Development Team
 # This file is distributed under the same license as the celestia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 # Translators:
 # Hleb Valoshka <375gnu@gmail.com>, 2023
-# Georgi Georgiev (Жоро) <g.georgiev.shumen@gmail.com>, 2024
-#
+# Georgi Georgiev (RacerBG) <g.georgiev.shumen@gmail.com>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: celestia 1.7.0\n"
 "Report-Msgid-Bugs-To: team@celestiaproject.space\n"
-"POT-Creation-Date: 2024-11-10 13:10+0100\n"
+"POT-Creation-Date: 2024-11-10 13:12+0100\n"
 "PO-Revision-Date: 2023-11-03 11:00+0000\n"
-"Last-Translator: Georgi Georgiev (Жоро) <g.georgiev.shumen@gmail.com>, 2024\n"
-"Language-Team: Bulgarian (https://app.transifex.com/celestia/teams/93131/"
-"bg/)\n"
-"Language: bg\n"
+"Last-Translator: Georgi Georgiev (RacerBG) <g.georgiev.shumen@gmail.com>, 2024\n"
+"Language-Team: Bulgarian (https://app.transifex.com/celestia/teams/93131/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: data.cpp:1
@@ -624,7 +622,6 @@ msgid "Kerberos"
 msgstr "Цербер"
 
 #: data.cpp:128
-#, fuzzy
 msgid "Hydra"
 msgstr "Хидра"
 
@@ -634,16 +631,15 @@ msgstr "Церера"
 
 #: data.cpp:130
 msgid "Orcus-Vanth"
-msgstr ""
+msgstr "Оркус-Вант"
 
 #: data.cpp:131
 msgid "Orcus"
-msgstr ""
+msgstr "Оркус"
 
 #: data.cpp:132
-#, fuzzy
 msgid "Vanth"
-msgstr "Еванта"
+msgstr "Вант"
 
 #: data.cpp:133
 msgid "Haumea"
@@ -659,11 +655,11 @@ msgstr "Хияка"
 
 #: data.cpp:136
 msgid "Quaoar"
-msgstr ""
+msgstr "Кваоар"
 
 #: data.cpp:137
 msgid "Weywot"
-msgstr ""
+msgstr "Вейвот"
 
 #: data.cpp:138
 msgid "Makemake"
@@ -675,12 +671,11 @@ msgstr "S 2015 (136472) 1"
 
 #: data.cpp:140
 msgid "Gonggong"
-msgstr ""
+msgstr "Гонгон"
 
 #: data.cpp:141
-#, fuzzy
 msgid "Xiangliu"
-msgstr "Триъгълник"
+msgstr "Сянлиу"
 
 #: data.cpp:142
 msgid "Eris"
@@ -692,7 +687,7 @@ msgstr "Дисномия"
 
 #: data.cpp:144
 msgid "Sedna"
-msgstr ""
+msgstr "Седна"
 
 #: data.cpp:145
 msgid "Metis"
@@ -4515,7 +4510,6 @@ msgid "Sextans A"
 msgstr "Секстант А"
 
 #: data.cpp:1101
-#, fuzzy
 msgid "Circinus"
 msgstr "Пергел"
 
@@ -4540,12 +4534,10 @@ msgid "47 Tuc"
 msgstr "47 от Тукан"
 
 #: data.cpp:1107
-#, fuzzy
 msgid "Eridanus"
 msgstr "Еридан"
 
 #: data.cpp:1108
-#, fuzzy
 msgid "Pyxis"
 msgstr "Компас"
 
