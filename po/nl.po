@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Celestia-1.4.1\n"
 "Report-Msgid-Bugs-To: team@celestiaproject.space\n"
-"POT-Creation-Date: 2023-07-27 10:41+0300\n"
+"POT-Creation-Date: 2024-11-10 13:12+0100\n"
 "PO-Revision-Date: 2006-08-02 19:02+0100\n"
 "Last-Translator: Myckel Habets <myckel@sdf.lonestar.org>\n"
 "Language-Team: Dutch <LL@li.org>\n"
@@ -20,358 +20,447 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data.cpp:1
+msgctxt "asterism"
 msgid "Andromeda"
 msgstr "Andromeda"
 
 #: data.cpp:2
+msgctxt "asterism"
 msgid "Antlia"
 msgstr "Luchtpomp"
 
 #: data.cpp:3
+msgctxt "asterism"
 msgid "Apus"
 msgstr "Paradijsvogel"
 
 #: data.cpp:4
+msgctxt "asterism"
 msgid "Aquarius"
 msgstr "Waterman"
 
 #: data.cpp:5
+msgctxt "asterism"
 msgid "Aquila"
 msgstr "Arend"
 
 #: data.cpp:6
+msgctxt "asterism"
 msgid "Ara"
 msgstr "Altaar"
 
 #: data.cpp:7
+msgctxt "asterism"
 msgid "Aries"
 msgstr "Ram"
 
 #: data.cpp:8
+msgctxt "asterism"
 msgid "Auriga"
 msgstr "Voerman"
 
 #: data.cpp:9
+msgctxt "asterism"
 msgid "Boötes"
 msgstr "Ossenhoeder"
 
 #: data.cpp:10
+msgctxt "asterism"
 msgid "Caelum"
 msgstr "Graveerstift"
 
 #: data.cpp:11
+msgctxt "asterism"
 msgid "Camelopardalis"
 msgstr "Giraffe"
 
 #: data.cpp:12
+msgctxt "asterism"
 msgid "Cancer"
 msgstr "Kreeft"
 
 #: data.cpp:13
+msgctxt "asterism"
 msgid "Canes Venatici"
 msgstr "Jachthonden"
 
 #: data.cpp:14
+msgctxt "asterism"
 msgid "Canis Major"
 msgstr "Grote Hond"
 
 #: data.cpp:15
+msgctxt "asterism"
 msgid "Canis Minor"
 msgstr "Kleine Hond"
 
 #: data.cpp:16
+msgctxt "asterism"
 msgid "Capricornus"
 msgstr "Steenbok"
 
 #: data.cpp:17
+msgctxt "asterism"
 msgid "Carina"
 msgstr "Kiel"
 
 #: data.cpp:18
+msgctxt "asterism"
 msgid "Cassiopeia"
 msgstr "Cassiopeia"
 
 #: data.cpp:19
+msgctxt "asterism"
 msgid "Centaurus"
 msgstr "Centaur"
 
 #: data.cpp:20
+msgctxt "asterism"
 msgid "Cepheus"
 msgstr "Cepheus"
 
 #: data.cpp:21
+msgctxt "asterism"
 msgid "Cetus"
 msgstr "Walvis"
 
 #: data.cpp:22
+msgctxt "asterism"
 msgid "Chamaeleon"
 msgstr "Kameleon"
 
-#: data.cpp:23 data.cpp:1093
+#: data.cpp:23
+msgctxt "asterism"
 msgid "Circinus"
 msgstr "Passer"
 
 #: data.cpp:24
+msgctxt "asterism"
 msgid "Columba"
 msgstr "Duif"
 
 #: data.cpp:25
+msgctxt "asterism"
 msgid "Coma Berenices"
 msgstr "Hoofdhaar"
 
 #: data.cpp:26
+msgctxt "asterism"
 msgid "Corona Australis"
 msgstr "Zuiderkroon"
 
 #: data.cpp:27
+msgctxt "asterism"
 msgid "Corona Borealis"
 msgstr "Noorderkroon"
 
 #: data.cpp:28
+msgctxt "asterism"
 msgid "Corvus"
 msgstr "Raaf"
 
 #: data.cpp:29
+msgctxt "asterism"
 msgid "Crater"
 msgstr "Beker"
 
 #: data.cpp:30
+msgctxt "asterism"
 msgid "Crux"
 msgstr "Zuiderkruis"
 
 #: data.cpp:31
+msgctxt "asterism"
 msgid "Cygnus"
 msgstr "Zwaan"
 
 #: data.cpp:32
+msgctxt "asterism"
 msgid "Delphinus"
 msgstr "Dolfijn"
 
 #: data.cpp:33
+msgctxt "asterism"
 msgid "Dorado"
 msgstr "Goudvis"
 
 #: data.cpp:34
+msgctxt "asterism"
 msgid "Draco"
 msgstr "Draak"
 
 #: data.cpp:35
+msgctxt "asterism"
 msgid "Equuleus"
 msgstr "Veulen"
 
-#: data.cpp:36 data.cpp:1099
+#: data.cpp:36
+msgctxt "asterism"
 msgid "Eridanus"
 msgstr "Eridanus"
 
 #: data.cpp:37
+msgctxt "asterism"
 msgid "Fornax"
 msgstr "Oven"
 
 #: data.cpp:38
+msgctxt "asterism"
 msgid "Gemini"
 msgstr "Tweelingen"
 
 #: data.cpp:39
+msgctxt "asterism"
 msgid "Grus"
 msgstr "Kraanvogel"
 
 #: data.cpp:40
+msgctxt "asterism"
 msgid "Hercules"
 msgstr "Hercules"
 
 #: data.cpp:41
+msgctxt "asterism"
 msgid "Horologium"
 msgstr "Slingeruurwerk"
 
-#: data.cpp:42 data.cpp:128
+#: data.cpp:42
+msgctxt "asterism"
 msgid "Hydra"
 msgstr "Waterslang"
 
 #: data.cpp:43
+msgctxt "asterism"
 msgid "Hydrus"
 msgstr "Kleine Waterslang"
 
 #: data.cpp:44
+msgctxt "asterism"
 msgid "Indus"
 msgstr "Indiaan"
 
 #: data.cpp:45
+msgctxt "asterism"
 msgid "Lacerta"
 msgstr "Hagedis"
 
 #: data.cpp:46
+msgctxt "asterism"
 msgid "Leo"
 msgstr "Leeuw"
 
 #: data.cpp:47
+msgctxt "asterism"
 msgid "Leo Minor"
 msgstr "Kleine Leeuw"
 
 #: data.cpp:48
+msgctxt "asterism"
 msgid "Lepus"
 msgstr "Haas"
 
 #: data.cpp:49
+msgctxt "asterism"
 msgid "Libra"
 msgstr "Weegschaal"
 
 #: data.cpp:50
+msgctxt "asterism"
 msgid "Lupus"
 msgstr "Wolf"
 
 #: data.cpp:51
+msgctxt "asterism"
 msgid "Lynx"
 msgstr "Lynx"
 
 #: data.cpp:52
+msgctxt "asterism"
 msgid "Lyra"
 msgstr "Lier"
 
 #: data.cpp:53
+msgctxt "asterism"
 msgid "Mensa"
 msgstr "Tafelberg"
 
 #: data.cpp:54
+msgctxt "asterism"
 msgid "Microscopium"
 msgstr "Microscoop"
 
 #: data.cpp:55
+msgctxt "asterism"
 msgid "Monoceros"
 msgstr "Eenhoorn"
 
 #: data.cpp:56
+msgctxt "asterism"
 msgid "Musca"
 msgstr "Vlieg"
 
 #: data.cpp:57
+msgctxt "asterism"
 msgid "Norma"
 msgstr "Winkelhaak"
 
 #: data.cpp:58
+msgctxt "asterism"
 msgid "Octans"
 msgstr "Octant"
 
 #: data.cpp:59
+msgctxt "asterism"
 msgid "Ophiuchus"
 msgstr "Slangendrager"
 
 #: data.cpp:60
+msgctxt "asterism"
 msgid "Orion"
 msgstr "Orion"
 
 #: data.cpp:61
+msgctxt "asterism"
 msgid "Pavo"
 msgstr "Pauw"
 
 #: data.cpp:62
+msgctxt "asterism"
 msgid "Pegasus"
 msgstr "Pegasus"
 
 #: data.cpp:63
+msgctxt "asterism"
 msgid "Perseus"
 msgstr "Perseus"
 
 #: data.cpp:64
+msgctxt "asterism"
 msgid "Phoenix"
 msgstr "Phoenix"
 
 #: data.cpp:65
+msgctxt "asterism"
 msgid "Pictor"
 msgstr "Schilder"
 
 #: data.cpp:66
+msgctxt "asterism"
 msgid "Pisces"
 msgstr "Vissen"
 
 #: data.cpp:67
+msgctxt "asterism"
 msgid "Piscis Austrinus"
 msgstr "Zuidervis"
 
 #: data.cpp:68
+msgctxt "asterism"
 msgid "Puppis"
 msgstr "Achtersteven"
 
-#: data.cpp:69 data.cpp:1100
+#: data.cpp:69
+msgctxt "asterism"
 msgid "Pyxis"
 msgstr "Kompas"
 
 #: data.cpp:70
+msgctxt "asterism"
 msgid "Reticulum"
 msgstr "Net"
 
 #: data.cpp:71
+msgctxt "asterism"
 msgid "Sagitta"
 msgstr "Pijl"
 
 #: data.cpp:72
+msgctxt "asterism"
 msgid "Sagittarius"
 msgstr "Boogschutter"
 
 #: data.cpp:73
+msgctxt "asterism"
 msgid "Scorpius"
 msgstr "Schorpioen"
 
 #: data.cpp:74
+msgctxt "asterism"
 msgid "Sculptor"
 msgstr "Beeldhouwer"
 
 #: data.cpp:75
+msgctxt "asterism"
 msgid "Scutum"
 msgstr "Schild"
 
 #: data.cpp:76
+msgctxt "asterism"
 msgid "Serpens Caput"
 msgstr "hoofd van de slang"
 
 #: data.cpp:77
+msgctxt "asterism"
 msgid "Serpens Cauda"
 msgstr "staart van de slang"
 
 #: data.cpp:78
+msgctxt "asterism"
 msgid "Sextans"
 msgstr "Sextant"
 
 #: data.cpp:79
+msgctxt "asterism"
 msgid "Taurus"
 msgstr "Stier"
 
 #: data.cpp:80
+msgctxt "asterism"
 msgid "Telescopium"
 msgstr "Telescoop"
 
 #: data.cpp:81
+msgctxt "asterism"
 msgid "Triangulum"
 msgstr "Driehoek"
 
 #: data.cpp:82
+msgctxt "asterism"
 msgid "Triangulum Australe"
 msgstr "Zuiderdriehoek"
 
 #: data.cpp:83
+msgctxt "asterism"
 msgid "Tucana"
 msgstr "Toekan"
 
 #: data.cpp:84
+msgctxt "asterism"
 msgid "Ursa Major"
 msgstr "Grote Beer"
 
 #: data.cpp:85
+msgctxt "asterism"
 msgid "Ursa Minor"
 msgstr "Kleine Beer"
 
 #: data.cpp:86
+msgctxt "asterism"
 msgid "Vela"
 msgstr "Zeilen"
 
 #: data.cpp:87
+msgctxt "asterism"
 msgid "Virgo"
 msgstr "Maagd"
 
 #: data.cpp:88
+msgctxt "asterism"
 msgid "Volans"
 msgstr "Vliegende Vis"
 
 #: data.cpp:89
+msgctxt "asterism"
 msgid "Vulpecula"
 msgstr "Vosje"
 
@@ -527,3964 +616,4017 @@ msgstr ""
 msgid "Kerberos"
 msgstr ""
 
+#: data.cpp:128
+#, fuzzy
+msgid "Hydra"
+msgstr "Waterslang"
+
 #: data.cpp:129
 msgid "Ceres"
 msgstr ""
 
 #: data.cpp:130
+msgid "Orcus-Vanth"
+msgstr ""
+
+#: data.cpp:131
+msgid "Orcus"
+msgstr ""
+
+#: data.cpp:132
+msgid "Vanth"
+msgstr ""
+
+#: data.cpp:133
 #, fuzzy
 msgid "Haumea"
 msgstr "Nouméa"
 
-#: data.cpp:131
+#: data.cpp:134
 #, fuzzy
 msgid "Namaka"
 msgstr "Bamako"
 
-#: data.cpp:132
+#: data.cpp:135
 msgid "Hi'iaka"
 msgstr ""
 
-#: data.cpp:133
-msgid "Makemake"
-msgstr ""
-
-#: data.cpp:134
-msgid "S 2015 (136472) 1"
-msgstr ""
-
-#: data.cpp:135
-msgid "Eris"
-msgstr ""
-
 #: data.cpp:136
-msgid "Dysnomia"
+msgid "Quaoar"
 msgstr ""
 
 #: data.cpp:137
-msgid "Metis"
+msgid "Weywot"
 msgstr ""
 
 #: data.cpp:138
-msgid "Adrastea"
+msgid "Makemake"
 msgstr ""
 
 #: data.cpp:139
-msgid "Amalthea"
-msgstr "Amalthea"
+msgid "S 2015 (136472) 1"
+msgstr ""
 
 #: data.cpp:140
-msgid "Thebe"
+msgid "Gonggong"
 msgstr ""
 
 #: data.cpp:141
-msgid "Themisto"
-msgstr ""
+#, fuzzy
+msgid "Xiangliu"
+msgstr "Driehoek"
 
 #: data.cpp:142
-msgid "Leda"
+msgid "Eris"
 msgstr ""
 
 #: data.cpp:143
-msgid "Ersa"
+msgid "Dysnomia"
 msgstr ""
 
 #: data.cpp:144
-#, fuzzy
-msgid "Pandia"
-msgstr "Pandora"
+msgid "Sedna"
+msgstr ""
 
 #: data.cpp:145
-msgid "Himalia"
+msgid "Metis"
 msgstr ""
 
 #: data.cpp:146
-msgid "Lysithea"
+msgid "Adrastea"
 msgstr ""
 
 #: data.cpp:147
-msgid "Elara"
-msgstr ""
+msgid "Amalthea"
+msgstr "Amalthea"
 
 #: data.cpp:148
-#, fuzzy
-msgid "Dia"
-msgstr "Diphda"
+msgid "Thebe"
+msgstr ""
 
 #: data.cpp:149
-msgid "Carpo"
+msgid "Themisto"
 msgstr ""
 
 #: data.cpp:150
-msgid "Valetudo"
+msgid "Leda"
 msgstr ""
 
 #: data.cpp:151
-msgid "Euporie"
+msgid "Ersa"
 msgstr ""
 
 #: data.cpp:152
 #, fuzzy
-msgid "Jupiter LV"
-msgstr "Jupiter"
+msgid "Pandia"
+msgstr "Pandora"
 
 #: data.cpp:153
-msgid "Eupheme"
+msgid "Himalia"
 msgstr ""
 
 #: data.cpp:154
-msgid "S 2003 J 16"
+msgid "Lysithea"
 msgstr ""
 
 #: data.cpp:155
+msgid "Elara"
+msgstr ""
+
+#: data.cpp:156
+#, fuzzy
+msgid "Dia"
+msgstr "Diphda"
+
+#: data.cpp:157
+msgid "Carpo"
+msgstr ""
+
+#: data.cpp:158
+msgid "Valetudo"
+msgstr ""
+
+#: data.cpp:159
+msgid "Euporie"
+msgstr ""
+
+#: data.cpp:160
+#, fuzzy
+msgid "Jupiter LV"
+msgstr "Jupiter"
+
+#: data.cpp:161
+msgid "Eupheme"
+msgstr ""
+
+#: data.cpp:162
+msgid "S 2003 J 16"
+msgstr ""
+
+#: data.cpp:163
 #, fuzzy
 msgid "Jupiter LXVIII"
 msgstr "Jupiter"
 
-#: data.cpp:156
+#: data.cpp:164
 msgid "Ananke"
 msgstr ""
 
-#: data.cpp:157
+#: data.cpp:165
 msgid "Harpalyke"
 msgstr ""
 
-#: data.cpp:158
-msgid "S 2003 J 12"
-msgstr ""
-
-#: data.cpp:159
-#, fuzzy
-msgid "Jupiter LII"
-msgstr "Jupiter"
-
-#: data.cpp:160
-msgid "Praxidike"
-msgstr ""
-
-#: data.cpp:161
-msgid "S 2003 J 2"
-msgstr ""
-
-#: data.cpp:162
-msgid "Euanthe"
-msgstr ""
-
-#: data.cpp:163
-msgid "Orthosie"
-msgstr ""
-
-#: data.cpp:164
-#, fuzzy
-msgid "Jupiter LXIV"
-msgstr "Jupiter"
-
-#: data.cpp:165
-msgid "Iocaste"
-msgstr ""
-
 #: data.cpp:166
-msgid "Mneme"
+msgid "S 2003 J 12"
 msgstr ""
 
 #: data.cpp:167
 #, fuzzy
+msgid "Jupiter LII"
+msgstr "Jupiter"
+
+#: data.cpp:168
+msgid "Praxidike"
+msgstr ""
+
+#: data.cpp:169
+msgid "S 2003 J 2"
+msgstr ""
+
+#: data.cpp:170
+msgid "Euanthe"
+msgstr ""
+
+#: data.cpp:171
+msgid "Orthosie"
+msgstr ""
+
+#: data.cpp:172
+#, fuzzy
+msgid "Jupiter LXIV"
+msgstr "Jupiter"
+
+#: data.cpp:173
+msgid "Iocaste"
+msgstr ""
+
+#: data.cpp:174
+msgid "Mneme"
+msgstr ""
+
+#: data.cpp:175
+#, fuzzy
 msgid "Thyone"
 msgstr "Alcyone"
 
-#: data.cpp:168
+#: data.cpp:176
 #, fuzzy
 msgid "Jupiter LIV"
 msgstr "Jupiter"
 
-#: data.cpp:169
+#: data.cpp:177
 msgid "Thelxinoe"
 msgstr ""
 
-#: data.cpp:170
+#: data.cpp:178
 msgid "Helike"
 msgstr ""
 
-#: data.cpp:171
+#: data.cpp:179
 msgid "Hermippe"
 msgstr ""
 
-#: data.cpp:172
+#: data.cpp:180
 msgid "Philophrosyne"
 msgstr ""
 
-#: data.cpp:173
+#: data.cpp:181
 #, fuzzy
 msgid "Jupiter LVI"
 msgstr "Jupiter"
 
-#: data.cpp:174
+#: data.cpp:182
 #, fuzzy
 msgid "Kallichore"
 msgstr "Callisto"
 
-#: data.cpp:175
+#: data.cpp:183
 msgid "Chaldene"
 msgstr ""
 
-#: data.cpp:176
-msgid "Arche"
-msgstr ""
-
-#: data.cpp:177
-#, fuzzy
-msgid "Jupiter LXIX"
-msgstr "Jupiter"
-
-#: data.cpp:178
-msgid "Kale"
-msgstr ""
-
-#: data.cpp:179
-#, fuzzy
-msgid "Jupiter LXXII"
-msgstr "Jupiter"
-
-#: data.cpp:180
-#, fuzzy
-msgid "Jupiter LXI"
-msgstr "Jupiter"
-
-#: data.cpp:181
-msgid "Cyllene"
-msgstr ""
-
-#: data.cpp:182
-msgid "Taygete"
-msgstr ""
-
-#: data.cpp:183
-#, fuzzy
-msgid "Jupiter LXX"
-msgstr "Jupiter"
-
 #: data.cpp:184
-msgid "Eurydome"
+msgid "Arche"
 msgstr ""
 
 #: data.cpp:185
 #, fuzzy
-msgid "Jupiter LI"
+msgid "Jupiter LXIX"
 msgstr "Jupiter"
 
 #: data.cpp:186
-msgid "S 2003 J 9"
+msgid "Kale"
 msgstr ""
 
 #: data.cpp:187
 #, fuzzy
-msgid "Jupiter LXVII"
+msgid "Jupiter LXXII"
 msgstr "Jupiter"
 
 #: data.cpp:188
-msgid "Aitne"
-msgstr ""
+#, fuzzy
+msgid "Jupiter LXI"
+msgstr "Jupiter"
 
 #: data.cpp:189
-msgid "Carme"
+msgid "Cyllene"
 msgstr ""
 
 #: data.cpp:190
+msgid "Taygete"
+msgstr ""
+
+#: data.cpp:191
+#, fuzzy
+msgid "Jupiter LXX"
+msgstr "Jupiter"
+
+#: data.cpp:192
+msgid "Eurydome"
+msgstr ""
+
+#: data.cpp:193
+#, fuzzy
+msgid "Jupiter LI"
+msgstr "Jupiter"
+
+#: data.cpp:194
+msgid "S 2003 J 9"
+msgstr ""
+
+#: data.cpp:195
+#, fuzzy
+msgid "Jupiter LXVII"
+msgstr "Jupiter"
+
+#: data.cpp:196
+msgid "Aitne"
+msgstr ""
+
+#: data.cpp:197
+msgid "Carme"
+msgstr ""
+
+#: data.cpp:198
 #, fuzzy
 msgid "Callirrhoe"
 msgstr "Callisto"
 
-#: data.cpp:191
+#: data.cpp:199
 msgid "Erinome"
 msgstr ""
 
-#: data.cpp:192
+#: data.cpp:200
 msgid "Pasithee"
 msgstr ""
 
-#: data.cpp:193
+#: data.cpp:201
 msgid "Eirene"
 msgstr ""
 
-#: data.cpp:194
+#: data.cpp:202
 msgid "S 2003 J 24"
 msgstr ""
 
-#: data.cpp:195
+#: data.cpp:203
 msgid "Sinope"
 msgstr ""
 
-#: data.cpp:196
+#: data.cpp:204
 msgid "Eukelade"
 msgstr ""
 
-#: data.cpp:197
+#: data.cpp:205
 msgid "Isonoe"
 msgstr ""
 
-#: data.cpp:198
+#: data.cpp:206
 msgid "S 2003 J 4"
 msgstr ""
 
-#: data.cpp:199
+#: data.cpp:207
 msgid "Autonoe"
 msgstr ""
 
-#: data.cpp:200
+#: data.cpp:208
 #, fuzzy
 msgid "Herse"
 msgstr "Beknopt"
 
-#: data.cpp:201
+#: data.cpp:209
 msgid "Pasiphae"
 msgstr ""
 
-#: data.cpp:202
+#: data.cpp:210
 msgid "S 2003 J 10"
 msgstr ""
 
-#: data.cpp:203
+#: data.cpp:211
 msgid "Kore"
 msgstr ""
 
-#: data.cpp:204
+#: data.cpp:212
 #, fuzzy
 msgid "Jupiter LXIII"
 msgstr "Jupiter"
 
-#: data.cpp:205
+#: data.cpp:213
 msgid "Hegemone"
 msgstr ""
 
-#: data.cpp:206
+#: data.cpp:214
 msgid "Sponde"
 msgstr ""
 
-#: data.cpp:207
+#: data.cpp:215
 msgid "Kalyke"
 msgstr ""
 
-#: data.cpp:208
+#: data.cpp:216
 msgid "Aoede"
 msgstr ""
 
-#: data.cpp:209
+#: data.cpp:217
 msgid "Megaclite"
 msgstr ""
 
-#: data.cpp:210
+#: data.cpp:218
 msgid "S 2003 J 23"
 msgstr ""
 
-#: data.cpp:211
+#: data.cpp:219
 #, fuzzy
 msgid "Jupiter LXVI"
 msgstr "Jupiter"
 
-#: data.cpp:212
+#: data.cpp:220
 #, fuzzy
 msgid "Jupiter LIX"
 msgstr "Jupiter"
 
-#: data.cpp:213
+#: data.cpp:221
 msgid "S 2009 S 1"
 msgstr ""
 
-#: data.cpp:214
+#: data.cpp:222
 #, fuzzy
 msgid "Pan"
 msgstr "Jan"
 
-#: data.cpp:215
+#: data.cpp:223
 msgid "Daphnis"
 msgstr ""
 
-#: data.cpp:216
+#: data.cpp:224
 msgid "Atlas"
 msgstr ""
 
-#: data.cpp:217
+#: data.cpp:225
 msgid "Prometheus"
 msgstr "Prometheus"
 
-#: data.cpp:218
+#: data.cpp:226
 msgid "Pandora"
 msgstr "Pandora"
 
-#: data.cpp:219
+#: data.cpp:227
 msgid "Epimetheus"
 msgstr "Epimetheus"
 
-#: data.cpp:220
+#: data.cpp:228
 msgid "Janus"
 msgstr "Janus"
 
-#: data.cpp:221
+#: data.cpp:229
 msgid "Aegaeon"
 msgstr ""
 
-#: data.cpp:222
+#: data.cpp:230
 msgid "Methone"
 msgstr ""
 
-#: data.cpp:223
+#: data.cpp:231
 msgid "Anthe"
 msgstr ""
 
-#: data.cpp:224
-msgid "Pallene"
-msgstr ""
-
-#: data.cpp:225
-#, fuzzy
-msgid "Telesto"
-msgstr "Celestia"
-
-#: data.cpp:226
-msgid "Calypso"
-msgstr ""
-
-#: data.cpp:227
-msgid "Polydeuces"
-msgstr ""
-
-#: data.cpp:228
-msgid "Helene"
-msgstr ""
-
-#: data.cpp:229
-msgid "S 2019 S 1"
-msgstr ""
-
-#: data.cpp:230
-msgid "Kiviuq"
-msgstr ""
-
-#: data.cpp:231
-msgid "Ijiraq"
-msgstr ""
-
 #: data.cpp:232
-msgid "Paaliaq"
+msgid "Pallene"
 msgstr ""
 
 #: data.cpp:233
 #, fuzzy
-msgid "Skathi"
-msgstr "Skat"
+msgid "Telesto"
+msgstr "Celestia"
 
 #: data.cpp:234
-msgid "S 2004 S 37"
+msgid "Calypso"
 msgstr ""
 
 #: data.cpp:235
-msgid "S 2007 S 2"
+msgid "Polydeuces"
 msgstr ""
 
 #: data.cpp:236
+msgid "Helene"
+msgstr ""
+
+#: data.cpp:237
+msgid "S 2019 S 1"
+msgstr ""
+
+#: data.cpp:238
+msgid "Kiviuq"
+msgstr ""
+
+#: data.cpp:239
+msgid "Ijiraq"
+msgstr ""
+
+#: data.cpp:240
+msgid "Paaliaq"
+msgstr ""
+
+#: data.cpp:241
+#, fuzzy
+msgid "Skathi"
+msgstr "Skat"
+
+#: data.cpp:242
+msgid "S 2004 S 37"
+msgstr ""
+
+#: data.cpp:243
+msgid "S 2007 S 2"
+msgstr ""
+
+#: data.cpp:244
 #, fuzzy
 msgid "Albiorix"
 msgstr "Albireo"
 
-#: data.cpp:237
+#: data.cpp:245
 msgid "Bebhionn"
 msgstr ""
 
-#: data.cpp:238
+#: data.cpp:246
 msgid "S 2004 S 31"
 msgstr ""
 
-#: data.cpp:239
+#: data.cpp:247
 #, fuzzy
 msgid "Saturn LX"
 msgstr "Saturnus"
 
-#: data.cpp:240
+#: data.cpp:248
 msgid "Skoll"
 msgstr ""
 
-#: data.cpp:241
+#: data.cpp:249
 msgid "Tarqeq"
 msgstr ""
 
-#: data.cpp:242
+#: data.cpp:250
 msgid "Tarvos"
 msgstr ""
 
-#: data.cpp:243
+#: data.cpp:251
 msgid "Erriapus"
 msgstr ""
 
-#: data.cpp:244
+#: data.cpp:252
 msgid "Siarnaq"
 msgstr ""
 
-#: data.cpp:245
+#: data.cpp:253
 msgid "Greip"
 msgstr ""
 
-#: data.cpp:246
+#: data.cpp:254
 msgid "Hyrrokkin"
 msgstr ""
 
-#: data.cpp:247
+#: data.cpp:255
 msgid "Mundilfari"
 msgstr ""
 
-#: data.cpp:248
+#: data.cpp:256
 msgid "S 2006 S 1"
 msgstr ""
 
-#: data.cpp:249
+#: data.cpp:257
 msgid "S 2004 S 13"
 msgstr ""
 
-#: data.cpp:250
+#: data.cpp:258
 msgid "S 2007 S 3"
 msgstr ""
 
-#: data.cpp:251
+#: data.cpp:259
 msgid "Suttungr"
 msgstr ""
 
-#: data.cpp:252
+#: data.cpp:260
 msgid "Gridr"
 msgstr ""
 
-#: data.cpp:253
+#: data.cpp:261
 msgid "Narvi"
 msgstr ""
 
-#: data.cpp:254
+#: data.cpp:262
 msgid "Jarnsaxa"
 msgstr ""
 
-#: data.cpp:255
+#: data.cpp:263
 msgid "S 2004 S 12"
 msgstr ""
 
-#: data.cpp:256
+#: data.cpp:264
 msgid "Bergelmir"
 msgstr ""
 
-#: data.cpp:257
+#: data.cpp:265
 msgid "Eggther"
 msgstr ""
 
-#: data.cpp:258
+#: data.cpp:266
 msgid "S 2004 S 17"
 msgstr ""
 
-#: data.cpp:259
+#: data.cpp:267
 msgid "Hati"
 msgstr ""
 
-#: data.cpp:260
+#: data.cpp:268
 msgid "Farbauti"
 msgstr ""
 
-#: data.cpp:261
+#: data.cpp:269
 msgid "Thrymr"
 msgstr ""
 
-#: data.cpp:262
+#: data.cpp:270
 msgid "S 2004 S 7"
 msgstr ""
 
-#: data.cpp:263
+#: data.cpp:271
 msgid "Beli"
 msgstr ""
 
-#: data.cpp:264
+#: data.cpp:272
 msgid "Bestla"
 msgstr ""
 
-#: data.cpp:265
+#: data.cpp:273
 msgid "Gerd"
 msgstr ""
 
-#: data.cpp:266
+#: data.cpp:274
 msgid "Angrboda"
 msgstr ""
 
-#: data.cpp:267
+#: data.cpp:275
 msgid "Gunnlod"
 msgstr ""
 
-#: data.cpp:268
+#: data.cpp:276
 msgid "Aegir"
 msgstr ""
 
-#: data.cpp:269
+#: data.cpp:277
 msgid "S 2006 S 3"
 msgstr ""
 
-#: data.cpp:270
+#: data.cpp:278
 msgid "Alvaldi"
 msgstr ""
 
-#: data.cpp:271
+#: data.cpp:279
 msgid "Kari"
 msgstr ""
 
-#: data.cpp:272
+#: data.cpp:280
 msgid "Skrymir"
 msgstr ""
 
-#: data.cpp:273
+#: data.cpp:281
 msgid "S 2004 S 28"
 msgstr ""
 
-#: data.cpp:274
+#: data.cpp:282
 msgid "Fenrir"
 msgstr ""
 
-#: data.cpp:275
+#: data.cpp:283
 msgid "Loge"
 msgstr ""
 
-#: data.cpp:276
+#: data.cpp:284
 msgid "S 2004 S 21"
 msgstr ""
 
-#: data.cpp:277
+#: data.cpp:285
 msgid "Geirrod"
 msgstr ""
 
-#: data.cpp:278
+#: data.cpp:286
 msgid "S 2004 S 24"
 msgstr ""
 
-#: data.cpp:279
+#: data.cpp:287
 msgid "S 2004 S 36"
 msgstr ""
 
-#: data.cpp:280
+#: data.cpp:288
 msgid "Ymir"
 msgstr ""
 
-#: data.cpp:281
+#: data.cpp:289
 msgid "Surtur"
 msgstr ""
 
-#: data.cpp:282
+#: data.cpp:290
 msgid "S 2004 S 39"
 msgstr ""
 
-#: data.cpp:283
+#: data.cpp:291
 #, fuzzy
 msgid "Saturn LXIV"
 msgstr "Saturnus"
 
-#: data.cpp:284
-msgid "Thiazzi"
-msgstr ""
-
-#: data.cpp:285
-#, fuzzy
-msgid "Fornjot"
-msgstr "Oven"
-
-#: data.cpp:286
-#, fuzzy
-msgid "Saturn LVIII"
-msgstr "Saturnus"
-
-#: data.cpp:287
-msgid "Cordelia"
-msgstr ""
-
-#: data.cpp:288
-msgid "Ophelia"
-msgstr ""
-
-#: data.cpp:289
-msgid "Bianca"
-msgstr ""
-
-#: data.cpp:290
-msgid "Cressida"
-msgstr ""
-
-#: data.cpp:291
-msgid "Desdemona"
-msgstr ""
-
 #: data.cpp:292
-msgid "Juliet"
+msgid "Thiazzi"
 msgstr ""
 
 #: data.cpp:293
 #, fuzzy
-msgid "Portia"
-msgstr "Port Vila"
+msgid "Fornjot"
+msgstr "Oven"
 
 #: data.cpp:294
-msgid "Rosalind"
-msgstr ""
+#, fuzzy
+msgid "Saturn LVIII"
+msgstr "Saturnus"
 
 #: data.cpp:295
-msgid "Cupid"
+msgid "Cordelia"
 msgstr ""
 
 #: data.cpp:296
-msgid "Belinda"
+msgid "Ophelia"
 msgstr ""
 
 #: data.cpp:297
-msgid "Perdita"
+msgid "Bianca"
 msgstr ""
 
 #: data.cpp:298
-msgid "Puck"
+msgid "Cressida"
 msgstr ""
 
 #: data.cpp:299
+msgid "Desdemona"
+msgstr ""
+
+#: data.cpp:300
+msgid "Juliet"
+msgstr ""
+
+#: data.cpp:301
+#, fuzzy
+msgid "Portia"
+msgstr "Port Vila"
+
+#: data.cpp:302
+msgid "Rosalind"
+msgstr ""
+
+#: data.cpp:303
+msgid "Cupid"
+msgstr ""
+
+#: data.cpp:304
+msgid "Belinda"
+msgstr ""
+
+#: data.cpp:305
+msgid "Perdita"
+msgstr ""
+
+#: data.cpp:306
+msgid "Puck"
+msgstr ""
+
+#: data.cpp:307
 #, fuzzy
 msgid "Mab"
 msgstr "Mrt"
 
-#: data.cpp:300
+#: data.cpp:308
 msgid "Francisco"
 msgstr ""
 
-#: data.cpp:301
+#: data.cpp:309
 msgid "Caliban"
 msgstr ""
 
-#: data.cpp:302
+#: data.cpp:310
 msgid "Stephano"
 msgstr ""
 
-#: data.cpp:303
+#: data.cpp:311
 msgid "Trinculo"
 msgstr ""
 
-#: data.cpp:304
+#: data.cpp:312
 msgid "Sycorax"
 msgstr ""
 
-#: data.cpp:305
+#: data.cpp:313
 msgid "Margaret"
 msgstr ""
 
-#: data.cpp:306
+#: data.cpp:314
 msgid "Prospero"
 msgstr ""
 
-#: data.cpp:307
+#: data.cpp:315
 msgid "Setebos"
 msgstr ""
 
-#: data.cpp:308
+#: data.cpp:316
 msgid "Ferdinand"
 msgstr ""
 
-#: data.cpp:309
+#: data.cpp:317
 msgid "Naiad"
 msgstr ""
 
-#: data.cpp:310
+#: data.cpp:318
 msgid "Thalassa"
 msgstr ""
 
-#: data.cpp:311
+#: data.cpp:319
 msgid "Despina"
 msgstr ""
 
-#: data.cpp:312
+#: data.cpp:320
 #, fuzzy
 msgid "Galatea"
 msgstr "Sterrenstelsels"
 
-#: data.cpp:313
+#: data.cpp:321
 msgid "Larissa"
 msgstr "Larissa"
 
-#: data.cpp:314
+#: data.cpp:322
 msgid "Hippocamp"
 msgstr ""
 
-#: data.cpp:315
+#: data.cpp:323
 #, fuzzy
 msgid "Halimede"
 msgstr "Ganymedes"
 
-#: data.cpp:316
+#: data.cpp:324
 #, fuzzy
 msgid "Sao"
 msgstr "Zon"
 
-#: data.cpp:317
+#: data.cpp:325
 msgid "Laomedeia"
 msgstr ""
 
-#: data.cpp:318
+#: data.cpp:326
 msgid "Psamathe"
 msgstr ""
 
-#: data.cpp:319
+#: data.cpp:327
 msgid "Neso"
 msgstr ""
 
-#: data.cpp:320
+#: data.cpp:328
 msgid "NORTH AMERICA"
 msgstr "NOORD-AMERIKA"
 
-#: data.cpp:321
+#: data.cpp:329
 msgid "SOUTH AMERICA"
 msgstr "ZUID-AMERIKA"
 
-#: data.cpp:322
+#: data.cpp:330
 msgid "EURASIA"
 msgstr "EURASIË"
 
-#: data.cpp:323
+#: data.cpp:331
 msgid "AFRICA"
 msgstr "AFRIKA"
 
-#: data.cpp:324
+#: data.cpp:332
 msgid "AUSTRALIA"
 msgstr "AUSTRALIË"
 
-#: data.cpp:325
+#: data.cpp:333
 msgid "ANTARCTICA"
 msgstr "ANTARTICA"
 
-#: data.cpp:326
+#: data.cpp:334
 msgid "NORTH ATLANTIC OCEAN"
 msgstr "NOORD-ATLANTISCHE OCEAAN"
 
-#: data.cpp:327
+#: data.cpp:335
 msgid "SOUTH ATLANTIC OCEAN"
 msgstr "ZUID-ATLANTISCHE OCEAAN"
 
-#: data.cpp:328
+#: data.cpp:336
 msgid "NORTH PACIFIC OCEAN"
 msgstr "NOORD-STILLE OCEAAN"
 
-#: data.cpp:329
+#: data.cpp:337
 msgid "SOUTH PACIFIC OCEAN"
 msgstr "ZUID-STILLE OCEAAN"
 
-#: data.cpp:330
+#: data.cpp:338
 msgid "INDIAN OCEAN"
 msgstr "INDISCHE OCEAAN"
 
-#: data.cpp:331
+#: data.cpp:339
 msgid "ARCTIC OCEAN"
 msgstr "ARCTISCHE OCEAAN"
 
-#: data.cpp:332
+#: data.cpp:340
 msgid "Abu Dhabi"
 msgstr "Abu Dhabi"
 
-#: data.cpp:333
+#: data.cpp:341
 msgid "Abuja"
 msgstr "Abuja"
 
-#: data.cpp:334
+#: data.cpp:342
 msgid "Accra"
 msgstr "Accra"
 
-#: data.cpp:335
+#: data.cpp:343
 msgid "Adamstown"
 msgstr "Adamstown"
 
-#: data.cpp:336
+#: data.cpp:344
 msgid "Addis Ababa"
 msgstr "Addis Abeba"
 
-#: data.cpp:337
+#: data.cpp:345
 msgid "Algiers"
 msgstr "Algiers"
 
-#: data.cpp:338
+#: data.cpp:346
 msgid "Alofi"
 msgstr "Alofi"
 
-#: data.cpp:339
+#: data.cpp:347
 msgid "Amman"
 msgstr "Amman"
 
-#: data.cpp:340
+#: data.cpp:348
 msgid "Amsterdam"
 msgstr "Amsterdam"
 
-#: data.cpp:341
+#: data.cpp:349
 msgid "Andorra la Vella"
 msgstr "Andorra la Vella"
 
-#: data.cpp:342
+#: data.cpp:350
 msgid "Ankara"
 msgstr "Ankara"
 
-#: data.cpp:343
+#: data.cpp:351
 msgid "Antananarivo"
 msgstr "Antananarivo"
 
-#: data.cpp:344
+#: data.cpp:352
 msgid "Apia"
 msgstr "Apia"
 
-#: data.cpp:345
+#: data.cpp:353
 msgid "Ashgabat"
 msgstr "Asjchabad"
 
-#: data.cpp:346
+#: data.cpp:354
 msgid "Asmara"
 msgstr "Asmara"
 
-#: data.cpp:347
+#: data.cpp:355
 msgid "Astana"
 msgstr ""
 
-#: data.cpp:348
+#: data.cpp:356
 msgid "Asuncion"
 msgstr "Asunción"
 
-#: data.cpp:349
+#: data.cpp:357
 msgid "Athens"
 msgstr "Athene"
 
-#: data.cpp:350
+#: data.cpp:358
 msgid "Avarua"
 msgstr "Avarua"
 
-#: data.cpp:351
+#: data.cpp:359
 msgid "Baghdad"
 msgstr "Bagdad"
 
-#: data.cpp:352
+#: data.cpp:360
 msgid "Baku"
 msgstr "Bakoe"
 
-#: data.cpp:353
+#: data.cpp:361
 msgid "Bamako"
 msgstr "Bamako"
 
-#: data.cpp:354
+#: data.cpp:362
 msgid "Bandar Seri Begawan"
 msgstr "Bandar Seri Begawan"
 
-#: data.cpp:355
+#: data.cpp:363
 msgid "Bangkok"
 msgstr "Bangkok"
 
-#: data.cpp:356
+#: data.cpp:364
 msgid "Bangui"
 msgstr "Bangui"
 
-#: data.cpp:357
+#: data.cpp:365
 msgid "Banjul"
 msgstr "Banjul"
 
-#: data.cpp:358
+#: data.cpp:366
 msgid "Basse-Terre"
 msgstr "Basse-Terre"
 
-#: data.cpp:359
+#: data.cpp:367
 msgid "Basseterre"
 msgstr "Basseterre"
 
-#: data.cpp:360
+#: data.cpp:368
 msgid "Beijing"
 msgstr "Peking"
 
-#: data.cpp:361
+#: data.cpp:369
 msgid "Beirut"
 msgstr "Beiroet"
 
-#: data.cpp:362
+#: data.cpp:370
 msgid "Belgrade"
 msgstr "Belgrado"
 
-#: data.cpp:363
+#: data.cpp:371
 msgid "Belmopan"
 msgstr "Belmopan"
 
-#: data.cpp:364
+#: data.cpp:372
 msgid "Berlin"
 msgstr "Berlijn"
 
-#: data.cpp:365
+#: data.cpp:373
 msgid "Bern"
 msgstr "Bern"
 
-#: data.cpp:366
+#: data.cpp:374
 msgid "Bishkek"
 msgstr "Bisjkek"
 
-#: data.cpp:367
+#: data.cpp:375
 msgid "Bissau"
 msgstr "Bissau"
 
-#: data.cpp:368
+#: data.cpp:376
 msgid "Bloemfontein"
 msgstr "Bloemfontein"
 
-#: data.cpp:369
+#: data.cpp:377
 msgid "Bogota"
 msgstr "Bogota"
 
-#: data.cpp:370
+#: data.cpp:378
 msgid "Brasilia"
 msgstr "Brasilia"
 
-#: data.cpp:371
+#: data.cpp:379
 msgid "Bratislava"
 msgstr "Bratislava"
 
-#: data.cpp:372
+#: data.cpp:380
 msgid "Brazzaville"
 msgstr "Brazzaville"
 
-#: data.cpp:373
+#: data.cpp:381
 msgid "Bridgetown"
 msgstr "Bridgetown"
 
-#: data.cpp:374
+#: data.cpp:382
 msgid "Brussels"
 msgstr "Brussel"
 
-#: data.cpp:375
+#: data.cpp:383
 msgid "Bucharest"
 msgstr "Boekarest"
 
-#: data.cpp:376
+#: data.cpp:384
 msgid "Budapest"
 msgstr "Boedapest"
 
-#: data.cpp:377
+#: data.cpp:385
 msgid "Buenos Aires"
 msgstr "Buenos Aires"
 
-#: data.cpp:378
+#: data.cpp:386
 msgid "Bujumbura"
 msgstr "Bujumbura"
 
-#: data.cpp:379
+#: data.cpp:387
 msgid "Cairo"
 msgstr "Caïro"
 
-#: data.cpp:380
+#: data.cpp:388
 msgid "Canberra"
 msgstr "Canberra"
 
-#: data.cpp:381
+#: data.cpp:389
 msgid "Cape Town"
 msgstr "Kaapstad"
 
-#: data.cpp:382
+#: data.cpp:390
 msgid "Caracas"
 msgstr "Caracas"
 
-#: data.cpp:383
+#: data.cpp:391
 msgid "Castries"
 msgstr "Castries"
 
-#: data.cpp:384
+#: data.cpp:392
 msgid "Cayenne"
 msgstr "Cayenne"
 
-#: data.cpp:385
+#: data.cpp:393
 msgid "Charlotte Amalie"
 msgstr "Charlotte Amalie"
 
-#: data.cpp:386
+#: data.cpp:394
 msgid "Chisinau"
 msgstr "Chisinau"
 
-#: data.cpp:387
+#: data.cpp:395
 msgid "Colombo"
 msgstr "Colombo"
 
-#: data.cpp:388
+#: data.cpp:396
 msgid "Conakry"
 msgstr "Conakry"
 
-#: data.cpp:389
+#: data.cpp:397
 msgid "Copenhagen"
 msgstr "Kopenhagen"
 
-#: data.cpp:390
+#: data.cpp:398
 msgid "Cotonou"
 msgstr "Cotonou"
 
-#: data.cpp:391
+#: data.cpp:399
 msgid "Dakar"
 msgstr "Dakar"
 
-#: data.cpp:392
+#: data.cpp:400
 msgid "Damascus"
 msgstr "Damascus"
 
-#: data.cpp:393
+#: data.cpp:401
 msgid "Dar es Salaam"
 msgstr "Dar es Salaam"
 
-#: data.cpp:394
+#: data.cpp:402
 msgid "Dhaka"
 msgstr "Dhaka"
 
-#: data.cpp:395
+#: data.cpp:403
 msgid "Dili"
 msgstr "Dili"
 
-#: data.cpp:396
+#: data.cpp:404
 msgid "Djibouti"
 msgstr "Djibouti"
 
-#: data.cpp:397
+#: data.cpp:405
 msgid "Doha"
 msgstr "Doha"
 
-#: data.cpp:398
+#: data.cpp:406
 msgid "Douglas"
 msgstr "Douglas"
 
-#: data.cpp:399
+#: data.cpp:407
 msgid "Dublin"
 msgstr "Dublin"
 
-#: data.cpp:400
+#: data.cpp:408
 msgid "Dushanbe"
 msgstr "Doesjanbe"
 
-#: data.cpp:401
+#: data.cpp:409
 msgid "Fongafale"
 msgstr "Fongafale"
 
-#: data.cpp:402
+#: data.cpp:410
 msgid "Fort-de-France"
 msgstr "Fort-de-France"
 
-#: data.cpp:403
+#: data.cpp:411
 msgid "Freetown"
 msgstr "Freetown"
 
-#: data.cpp:404
+#: data.cpp:412
 msgid "Gaborone"
 msgstr "Gaborone"
 
-#: data.cpp:405
+#: data.cpp:413
 msgid "George Town"
 msgstr "George Town"
 
-#: data.cpp:406
+#: data.cpp:414
 msgid "Georgetown"
 msgstr "Georgetown"
 
-#: data.cpp:407
+#: data.cpp:415
 msgid "Gibraltar"
 msgstr "Gibraltar"
 
-#: data.cpp:408
+#: data.cpp:416
 msgid "Grand Turk"
 msgstr "Grand Turk"
 
-#: data.cpp:409
+#: data.cpp:417
 msgid "Guatemala"
 msgstr "Guatemala"
 
-#: data.cpp:410
+#: data.cpp:418
 msgid "Hagatna"
 msgstr "Hagåtña"
 
-#: data.cpp:411
+#: data.cpp:419
 msgid "The Hague"
 msgstr "Den Haag"
 
-#: data.cpp:412
+#: data.cpp:420
 msgid "Hamilton"
 msgstr "Hamilton"
 
-#: data.cpp:413
+#: data.cpp:421
 msgid "Hanoi"
 msgstr "Hanoi"
 
-#: data.cpp:414
+#: data.cpp:422
 msgid "Harare"
 msgstr "Harare"
 
-#: data.cpp:415
+#: data.cpp:423
 msgid "Havana"
 msgstr "Havana"
 
-#: data.cpp:416
+#: data.cpp:424
 msgid "Helsinki"
 msgstr "Helsinki"
 
-#: data.cpp:417
+#: data.cpp:425
 msgid "Hong Kong"
 msgstr ""
 
-#: data.cpp:418
+#: data.cpp:426
 msgid "Honiara"
 msgstr "Honiara"
 
-#: data.cpp:419
+#: data.cpp:427
 msgid "Islamabad"
 msgstr "Islamabad"
 
-#: data.cpp:420
+#: data.cpp:428
 msgid "Jakarta"
 msgstr "Jakarta"
 
-#: data.cpp:421
+#: data.cpp:429
 msgid "Jamestown"
 msgstr "Jamestown"
 
-#: data.cpp:422
+#: data.cpp:430
 msgid "Jerusalem"
 msgstr "Jeruzalem"
 
-#: data.cpp:423
+#: data.cpp:431
 msgid "Kabul"
 msgstr "Kabul"
 
-#: data.cpp:424
+#: data.cpp:432
 msgid "Kampala"
 msgstr "Kampala"
 
-#: data.cpp:425
+#: data.cpp:433
 msgid "Kathmandu"
 msgstr "Kathmandu"
 
-#: data.cpp:426
+#: data.cpp:434
 msgid "Khartoum"
 msgstr "Khartoem"
 
-#: data.cpp:427
+#: data.cpp:435
 msgid "Kiev"
 msgstr "Kiev"
 
-#: data.cpp:428
+#: data.cpp:436
 msgid "Kigali"
 msgstr "Kigali"
 
-#: data.cpp:429 data.cpp:430
+#: data.cpp:437 data.cpp:438
 msgid "Kingston"
 msgstr "Kingston"
 
-#: data.cpp:431
+#: data.cpp:439
 msgid "Kingstown"
 msgstr "Kingstown"
 
-#: data.cpp:432
+#: data.cpp:440
 msgid "Kinshasa"
 msgstr "Kinshasa"
 
-#: data.cpp:433
+#: data.cpp:441
 msgid "Koror"
 msgstr "Koror"
 
-#: data.cpp:434
+#: data.cpp:442
 msgid "Kuala Lumpur"
 msgstr "Kuala Lumpur"
 
-#: data.cpp:435
+#: data.cpp:443
 msgid "Kuwait"
 msgstr "Koeweit"
 
-#: data.cpp:436
+#: data.cpp:444
 msgid "La'youn"
 msgstr "El Aaiún"
 
-#: data.cpp:437
+#: data.cpp:445
 msgid "La Paz"
 msgstr "La Paz"
 
-#: data.cpp:438
+#: data.cpp:446
 msgid "Libreville"
 msgstr "Libreville"
 
-#: data.cpp:439
+#: data.cpp:447
 msgid "Lilongwe"
 msgstr "Lilongwe"
 
-#: data.cpp:440
+#: data.cpp:448
 msgid "Lima"
 msgstr "Lima"
 
-#: data.cpp:441
+#: data.cpp:449
 msgid "Lisbon"
 msgstr "Lissabon"
 
-#: data.cpp:442
+#: data.cpp:450
 msgid "Ljubljana"
 msgstr "Ljubljana"
 
-#: data.cpp:443
+#: data.cpp:451
 msgid "Lobamba"
 msgstr "Lobamba"
 
-#: data.cpp:444
+#: data.cpp:452
 msgid "Lome"
 msgstr "Lomé"
 
-#: data.cpp:445
+#: data.cpp:453
 msgid "London"
 msgstr "Londen"
 
-#: data.cpp:446
+#: data.cpp:454
 msgid "Longyearbyen"
 msgstr "Longyearbyen"
 
-#: data.cpp:447
+#: data.cpp:455
 msgid "Luanda"
 msgstr "Luanda"
 
-#: data.cpp:448
+#: data.cpp:456
 msgid "Lusaka"
 msgstr "Lusaka"
 
-#: data.cpp:449
+#: data.cpp:457
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
-#: data.cpp:450
+#: data.cpp:458
 msgid "Madrid"
 msgstr "Madrid"
 
-#: data.cpp:451
+#: data.cpp:459
 msgid "Majuro"
 msgstr "Majuro"
 
-#: data.cpp:452
+#: data.cpp:460
 msgid "Malabo"
 msgstr "Malabo"
 
-#: data.cpp:453
+#: data.cpp:461
 msgid "Male"
 msgstr "Malé"
 
-#: data.cpp:454
+#: data.cpp:462
 msgid "Mamoutzou"
 msgstr "Mamoudzou"
 
-#: data.cpp:455
+#: data.cpp:463
 msgid "Managua"
 msgstr "Managua"
 
-#: data.cpp:456
+#: data.cpp:464
 msgid "Manama"
 msgstr "Manamah"
 
-#: data.cpp:457
+#: data.cpp:465
 msgid "Manila"
 msgstr "Manilla"
 
-#: data.cpp:458
+#: data.cpp:466
 msgid "Maputo"
 msgstr "Maputo"
 
-#: data.cpp:459
+#: data.cpp:467
 msgid "Maseru"
 msgstr "Maseru"
 
-#: data.cpp:460
+#: data.cpp:468
 msgid "Mata-Utu"
 msgstr "Matâ'utu"
 
-#: data.cpp:461
+#: data.cpp:469
 msgid "Mbabane"
 msgstr "Mbabane"
 
-#: data.cpp:462
+#: data.cpp:470
 msgid "Mexico City"
 msgstr "Mexico-stad"
 
-#: data.cpp:463
+#: data.cpp:471
 msgid "Minsk"
 msgstr "Minsk"
 
-#: data.cpp:464
+#: data.cpp:472
 msgid "Mogadishu"
 msgstr "Mogadishu"
 
-#: data.cpp:465
+#: data.cpp:473
 msgid "Monaco"
 msgstr "Monaco"
 
-#: data.cpp:466
+#: data.cpp:474
 msgid "Monrovia"
 msgstr "Monrovia"
 
-#: data.cpp:467
+#: data.cpp:475
 msgid "Montevideo"
 msgstr "Montevideo"
 
-#: data.cpp:468
+#: data.cpp:476
 msgid "Moroni"
 msgstr "Moroni"
 
-#: data.cpp:469
+#: data.cpp:477
 msgid "Moscow"
 msgstr "Moskou"
 
-#: data.cpp:470
+#: data.cpp:478
 msgid "Muscat"
 msgstr "Masqat"
 
-#: data.cpp:471
+#: data.cpp:479
 msgid "Nairobi"
 msgstr "Nairobi"
 
-#: data.cpp:472
+#: data.cpp:480
 msgid "Nassau"
 msgstr "Nassau"
 
-#: data.cpp:473
+#: data.cpp:481
 msgid "N'Djamena"
 msgstr "Ndjamena"
 
-#: data.cpp:474
+#: data.cpp:482
 msgid "New Delhi"
 msgstr "New Delhi"
 
-#: data.cpp:475
+#: data.cpp:483
 msgid "Niamey"
 msgstr "Niamey"
 
-#: data.cpp:476
+#: data.cpp:484
 msgid "Nicosia"
 msgstr "Nicosia"
 
-#: data.cpp:477
+#: data.cpp:485
 msgid "Nouakchott"
 msgstr "Nouakchott"
 
-#: data.cpp:478
+#: data.cpp:486
 msgid "Noumea"
 msgstr "Nouméa"
 
-#: data.cpp:479
+#: data.cpp:487
 msgid "Nuku'alofa"
 msgstr "Nuku'alofa"
 
-#: data.cpp:480
+#: data.cpp:488
 msgid "Nuuk"
 msgstr "Nuuk"
 
-#: data.cpp:481
+#: data.cpp:489
 msgid "Oranjestad"
 msgstr "Oranjestad"
 
-#: data.cpp:482
+#: data.cpp:490
 msgid "Oslo"
 msgstr "Oslo"
 
-#: data.cpp:483
+#: data.cpp:491
 msgid "Ottawa"
 msgstr "Ottawa"
 
-#: data.cpp:484
+#: data.cpp:492
 msgid "Ouagadougou"
 msgstr "Ouagadougou"
 
-#: data.cpp:485
+#: data.cpp:493
 msgid "Pago Pago"
 msgstr "Pago Pago"
 
-#: data.cpp:486
+#: data.cpp:494
 msgid "Palikir"
 msgstr "Palikir"
 
-#: data.cpp:487
+#: data.cpp:495
 msgid "Panama"
 msgstr "Panama"
 
-#: data.cpp:488
+#: data.cpp:496
 msgid "Papeete"
 msgstr "Papeete"
 
-#: data.cpp:489
+#: data.cpp:497
 msgid "Paramaribo"
 msgstr "Paramaribo"
 
-#: data.cpp:490
+#: data.cpp:498
 msgid "Paris"
 msgstr "Parijs"
 
-#: data.cpp:491
+#: data.cpp:499
 msgid "Phnom Penh"
 msgstr "Phnom-Penh"
 
-#: data.cpp:492
+#: data.cpp:500
 msgid "Plymouth"
 msgstr "Plymouth"
 
-#: data.cpp:493
+#: data.cpp:501
 msgid "Port Louis"
 msgstr "Port Louis"
 
-#: data.cpp:494
+#: data.cpp:502
 msgid "Port Moresby"
 msgstr "Port Moresby"
 
-#: data.cpp:495
+#: data.cpp:503
 msgid "Port-au-Prince"
 msgstr "Port-au-Prince"
 
-#: data.cpp:496
+#: data.cpp:504
 msgid "Port-of-Spain"
 msgstr "Port of Spain"
 
-#: data.cpp:497
+#: data.cpp:505
 msgid "Porto-Novo"
 msgstr "Porto-Novo"
 
-#: data.cpp:498
+#: data.cpp:506
 msgid "Port-Vila"
 msgstr "Port Vila"
 
-#: data.cpp:499
+#: data.cpp:507
 msgid "Prague"
 msgstr "Praag"
 
-#: data.cpp:500
+#: data.cpp:508
 msgid "Praia"
 msgstr "Praia"
 
-#: data.cpp:501
+#: data.cpp:509
 msgid "Pretoria"
 msgstr "Pretoria"
 
-#: data.cpp:502
+#: data.cpp:510
 msgid "P'yongyang"
 msgstr "Pyongyang"
 
-#: data.cpp:503
+#: data.cpp:511
 msgid "Quito"
 msgstr "Quito"
 
-#: data.cpp:504
+#: data.cpp:512
 msgid "Rabat"
 msgstr "Rabat"
 
-#: data.cpp:505
+#: data.cpp:513
 msgid "Rangoon"
 msgstr "Rangoon"
 
-#: data.cpp:506
+#: data.cpp:514
 msgid "Reykjavik"
 msgstr "Reykjavik"
 
-#: data.cpp:507
+#: data.cpp:515
 msgid "Riga"
 msgstr "Riga"
 
-#: data.cpp:508
+#: data.cpp:516
 msgid "Riyadh"
 msgstr "Riyad"
 
-#: data.cpp:509
+#: data.cpp:517
 msgid "Road Town"
 msgstr "Road Town"
 
-#: data.cpp:510
+#: data.cpp:518
 msgid "Rome"
 msgstr "Rome"
 
-#: data.cpp:511
+#: data.cpp:519
 msgid "Roseau"
 msgstr "Roseau"
 
-#: data.cpp:512
+#: data.cpp:520
 msgid "Saint George's"
 msgstr "Saint George's"
 
-#: data.cpp:513
+#: data.cpp:521
 msgid "Saint Helier"
 msgstr "Saint Helier"
 
-#: data.cpp:514
+#: data.cpp:522
 msgid "Saint John's"
 msgstr "Saint John's"
 
-#: data.cpp:515
+#: data.cpp:523
 msgid "Saint Peter Port"
 msgstr "Saint Peter Port"
 
-#: data.cpp:516
+#: data.cpp:524
 msgid "Saint-Denis"
 msgstr "Saint-Denis"
 
-#: data.cpp:517
+#: data.cpp:525
 msgid "Saint-Pierre"
 msgstr "Saint-Pierre"
 
-#: data.cpp:518
+#: data.cpp:526
 msgid "Saipan"
 msgstr "Saipan"
 
-#: data.cpp:519
+#: data.cpp:527
 msgid "San Jose"
 msgstr "San José"
 
-#: data.cpp:520
+#: data.cpp:528
 msgid "San Juan"
 msgstr "San Juan"
 
-#: data.cpp:521
+#: data.cpp:529
 msgid "San Marino"
 msgstr "San Marino"
 
-#: data.cpp:522
+#: data.cpp:530
 msgid "San Salvador"
 msgstr "San Salvador"
 
-#: data.cpp:523
+#: data.cpp:531
 msgid "Sanaa"
 msgstr "Sanaa"
 
-#: data.cpp:524
+#: data.cpp:532
 msgid "Santiago"
 msgstr "Santiago"
 
-#: data.cpp:525
+#: data.cpp:533
 msgid "Santo Domingo"
 msgstr "Santo Domingo"
 
-#: data.cpp:526
+#: data.cpp:534
 msgid "Sao Tome"
 msgstr "Sao Tomé"
 
-#: data.cpp:527
+#: data.cpp:535
 msgid "Sarajevo"
 msgstr "Sarajevo"
 
-#: data.cpp:528
+#: data.cpp:536
 msgid "Seoul"
 msgstr "Seoul"
 
-#: data.cpp:529
+#: data.cpp:537
 msgid "The Settlement"
 msgstr "The Settlement"
 
-#: data.cpp:530
+#: data.cpp:538
 msgid "Singapore"
 msgstr "Singapore"
 
-#: data.cpp:531
+#: data.cpp:539
 msgid "Skopje"
 msgstr "Skopje"
 
-#: data.cpp:532
+#: data.cpp:540
 msgid "Sofia"
 msgstr "Sofia"
 
-#: data.cpp:533
+#: data.cpp:541
 msgid "Sri Jayewardenepura Kotte"
 msgstr "Sri Jayewardenapura Kotte"
 
-#: data.cpp:534
+#: data.cpp:542
 msgid "Stanley"
 msgstr "Stanley"
 
-#: data.cpp:535
+#: data.cpp:543
 msgid "Stockholm"
 msgstr "Stockholm"
 
-#: data.cpp:536
+#: data.cpp:544
 msgid "Sucre"
 msgstr "Sucre"
 
-#: data.cpp:537
+#: data.cpp:545
 msgid "Suva"
 msgstr "Suva"
 
-#: data.cpp:538
+#: data.cpp:546
 msgid "Taipei"
 msgstr "Taipei"
 
-#: data.cpp:539
+#: data.cpp:547
 msgid "Tallinn"
 msgstr "Tallinn"
 
-#: data.cpp:540
+#: data.cpp:548
 msgid "Tarawa"
 msgstr "Tarawa"
 
-#: data.cpp:541
+#: data.cpp:549
 msgid "Tashkent"
 msgstr "Tasjkent"
 
-#: data.cpp:542
+#: data.cpp:550
 msgid "T'bilisi"
 msgstr "Tbilisi"
 
-#: data.cpp:543
+#: data.cpp:551
 msgid "Tegucigalpa"
 msgstr "Tegucigalpa"
 
-#: data.cpp:544
+#: data.cpp:552
 msgid "Tehran"
 msgstr "Teheran"
 
-#: data.cpp:545
+#: data.cpp:553
 msgid "Tel Aviv"
 msgstr "Tel Aviv"
 
-#: data.cpp:546
+#: data.cpp:554
 msgid "Thimphu"
 msgstr "Thimphu"
 
-#: data.cpp:547
+#: data.cpp:555
 msgid "Tirana"
 msgstr "Tirana"
 
-#: data.cpp:548
+#: data.cpp:556
 msgid "Tokyo"
 msgstr "Tokio"
 
-#: data.cpp:549
+#: data.cpp:557
 msgid "Torshavn"
 msgstr "Tórshavn"
 
-#: data.cpp:550
+#: data.cpp:558
 msgid "Tripoli"
 msgstr "Tripoli"
 
-#: data.cpp:551
+#: data.cpp:559
 msgid "Tunis"
 msgstr "Tunis"
 
-#: data.cpp:552
+#: data.cpp:560
 msgid "Ulaanbaatar"
 msgstr "Ulaanbaatar"
 
-#: data.cpp:553
+#: data.cpp:561
 msgid "Vaduz"
 msgstr "Vaduz"
 
-#: data.cpp:554
+#: data.cpp:562
 msgid "Valletta"
 msgstr "Valletta"
 
-#: data.cpp:555
+#: data.cpp:563
 msgid "The Valley"
 msgstr "The Valley"
 
-#: data.cpp:556
+#: data.cpp:564
 msgid "Vatican City"
 msgstr "Vaticaanstad"
 
-#: data.cpp:557
+#: data.cpp:565
 msgid "Victoria"
 msgstr "Victoria"
 
-#: data.cpp:558
+#: data.cpp:566
 msgid "Vienna"
 msgstr "Wenen"
 
-#: data.cpp:559
+#: data.cpp:567
 msgid "Vientiane"
 msgstr "Vientiane"
 
-#: data.cpp:560
+#: data.cpp:568
 msgid "Vilnius"
 msgstr "Vilnius"
 
-#: data.cpp:561
+#: data.cpp:569
 msgid "Warsaw"
 msgstr "Warschau"
 
-#: data.cpp:562
+#: data.cpp:570
 msgid "Washington D.C."
 msgstr "Washington D.C."
 
-#: data.cpp:563
+#: data.cpp:571
 msgid "Wellington"
 msgstr "Wellington"
 
-#: data.cpp:564
+#: data.cpp:572
 msgid "West Island"
 msgstr "West Island"
 
-#: data.cpp:565
+#: data.cpp:573
 msgid "Willemstad"
 msgstr "Willemstad"
 
-#: data.cpp:566
+#: data.cpp:574
 msgid "Windhoek"
 msgstr "Windhoek"
 
-#: data.cpp:567
+#: data.cpp:575
 msgid "Yamoussoukro"
 msgstr "Yamoussoukro"
 
-#: data.cpp:568
+#: data.cpp:576
 msgid "Yaounde"
 msgstr "Yaoundé"
 
-#: data.cpp:569
+#: data.cpp:577
 msgid "Yaren District"
 msgstr "Yaren"
 
-#: data.cpp:570
+#: data.cpp:578
 msgid "Yerevan"
 msgstr "Jerevan"
 
-#: data.cpp:571
+#: data.cpp:579
 msgid "Zagreb"
 msgstr "Zagreb"
 
-#: data.cpp:572
+#: data.cpp:580
 msgid "Sol"
 msgstr "Zon"
 
-#: data.cpp:573
+#: data.cpp:581
 msgid "Solar System Barycenter"
 msgstr "Massamiddelpunt van zonnestelsel"
 
-#: data.cpp:574
+#: data.cpp:582
 msgid "Sun"
 msgstr "Zon"
 
-#: data.cpp:575
+#: data.cpp:583
 msgid "Alpheratz"
 msgstr "Alpheratz"
 
-#: data.cpp:576
+#: data.cpp:584
 msgid "Sirrah"
 msgstr "Sirrah"
 
-#: data.cpp:577
+#: data.cpp:585
 msgid "Caph"
 msgstr "Caph"
 
-#: data.cpp:578
+#: data.cpp:586
 msgid "Algenib"
 msgstr "Algenib"
 
-#: data.cpp:579
+#: data.cpp:587
 msgid "Citadelle"
 msgstr ""
 
-#: data.cpp:580
+#: data.cpp:588
 msgid "Schemali"
 msgstr "Schemali"
 
-#: data.cpp:581
+#: data.cpp:589
 msgid "Ankaa"
 msgstr "Ankaa"
 
-#: data.cpp:582
+#: data.cpp:590
 msgid "Felixvarela"
 msgstr ""
 
-#: data.cpp:583
+#: data.cpp:591
 msgid "Fulu"
 msgstr ""
 
-#: data.cpp:584
+#: data.cpp:592
 msgid "Schedar"
 msgstr "Schedar"
 
-#: data.cpp:585
+#: data.cpp:593
 msgid "Shedir"
 msgstr "Shedir"
 
-#: data.cpp:586
+#: data.cpp:594
 msgid "Diphda"
 msgstr "Diphda"
 
-#: data.cpp:587
+#: data.cpp:595
 msgid "Deneb Kaitos"
 msgstr "Deneb Kaitos"
 
-#: data.cpp:588
+#: data.cpp:596
 msgid "Cocibolca"
 msgstr ""
 
-#: data.cpp:589
+#: data.cpp:597
 msgid "Achird"
 msgstr "Achird"
 
-#: data.cpp:590
+#: data.cpp:598
 msgid "Van Maanen 2"
 msgstr "Van Maanen 2"
 
-#: data.cpp:591
+#: data.cpp:599
 #, fuzzy
 msgid "Castula"
 msgstr "Castor"
 
-#: data.cpp:592
+#: data.cpp:600
 msgid "Navi"
 msgstr "Navi"
 
-#: data.cpp:593
+#: data.cpp:601
 msgid "Nenque"
 msgstr ""
 
-#: data.cpp:594
+#: data.cpp:602
 #, fuzzy
 msgid "Wurren"
 msgstr "Huidige"
 
-#: data.cpp:595
+#: data.cpp:603
 msgid "Mirach"
 msgstr "Mirach"
 
-#: data.cpp:596
+#: data.cpp:604
 msgid "Emiw"
 msgstr ""
 
-#: data.cpp:597
+#: data.cpp:605
 msgid "Revati"
 msgstr ""
 
-#: data.cpp:598
+#: data.cpp:606
 msgid "Adhil"
 msgstr "Adhil"
 
-#: data.cpp:599
+#: data.cpp:607
 msgid "Bélénos"
 msgstr ""
 
-#: data.cpp:600
+#: data.cpp:608
 msgid "Ruchbah"
 msgstr "Ruchbah"
 
-#: data.cpp:601
+#: data.cpp:609
 #, fuzzy
 msgid "Alpherg"
 msgstr "Alpheratz"
 
-#: data.cpp:602
+#: data.cpp:610
 #, fuzzy
 msgid "Titawin"
 msgstr "Titan"
 
-#: data.cpp:603
+#: data.cpp:611
 msgid "Achernar"
 msgstr "Achernar"
 
-#: data.cpp:604
+#: data.cpp:612
 msgid "Nembus"
 msgstr ""
 
-#: data.cpp:605
+#: data.cpp:613
 msgid "Torcular"
 msgstr ""
 
-#: data.cpp:606
+#: data.cpp:614
 msgid "Torcularis Septentrionalis"
 msgstr ""
 
-#: data.cpp:607
+#: data.cpp:615
 msgid "Baten Kaitos"
 msgstr "Baten Kaitos"
 
-#: data.cpp:608
+#: data.cpp:616
 msgid "Mothallah"
 msgstr ""
 
-#: data.cpp:609
+#: data.cpp:617
 msgid "Caput Trianguli"
 msgstr "Caput Trianguli"
 
-#: data.cpp:610
+#: data.cpp:618
 msgid "Mesarthim"
 msgstr "Mesarthim"
 
-#: data.cpp:611
+#: data.cpp:619
 msgid "Segin"
 msgstr "Segin"
 
-#: data.cpp:612
+#: data.cpp:620
 msgid "Sheratan"
 msgstr "Sheratan"
 
-#: data.cpp:613
+#: data.cpp:621
 #, fuzzy
 msgid "Alrescha"
 msgstr "Al Rescha"
 
-#: data.cpp:614
+#: data.cpp:622
 msgid "Al Rescha"
 msgstr "Al Rescha"
 
-#: data.cpp:615
+#: data.cpp:623
 msgid "Almach"
 msgstr "Almach"
 
-#: data.cpp:616
+#: data.cpp:624
 msgid "Almaak"
 msgstr "Almaak"
 
-#: data.cpp:617
+#: data.cpp:625
 msgid "Alamak"
 msgstr "Alamak"
 
-#: data.cpp:618
+#: data.cpp:626
 msgid "Hamal"
 msgstr "Hamal"
 
-#: data.cpp:619
+#: data.cpp:627
 msgid "Mira"
 msgstr "Mira"
 
-#: data.cpp:620
+#: data.cpp:628
 msgid "Polaris"
 msgstr "Poolster"
 
-#: data.cpp:621
+#: data.cpp:629
 msgid "Buna"
 msgstr ""
 
-#: data.cpp:622
+#: data.cpp:630
 msgid "Kaffaljidhma"
 msgstr ""
 
-#: data.cpp:623
+#: data.cpp:631
 msgid "Koeia"
 msgstr ""
 
-#: data.cpp:624
+#: data.cpp:632
 msgid "Lilii Borea"
 msgstr ""
 
-#: data.cpp:625
+#: data.cpp:633
 msgid "Nushagak"
 msgstr ""
 
-#: data.cpp:626
+#: data.cpp:634
 #, fuzzy
 msgid "Bharani"
 msgstr "Chara"
 
-#: data.cpp:627
+#: data.cpp:635
 #, fuzzy
 msgid "Miram"
 msgstr "Mira"
 
-#: data.cpp:628
+#: data.cpp:636
 msgid "Angetenar"
 msgstr "Angetenar"
 
-#: data.cpp:629
+#: data.cpp:637
 msgid "Azha"
 msgstr "Azha"
 
-#: data.cpp:630
+#: data.cpp:638
 msgid "Acamar"
 msgstr "Acamar"
 
-#: data.cpp:631
+#: data.cpp:639
 msgid "Ayeyarwady"
 msgstr ""
 
-#: data.cpp:632
+#: data.cpp:640
 msgid "Menkar"
 msgstr "Menkar"
 
-#: data.cpp:633
+#: data.cpp:641
 msgid "Menkab"
 msgstr "Menkab"
 
-#: data.cpp:634
+#: data.cpp:642
 msgid "Algol"
 msgstr "Algol"
 
-#: data.cpp:635
+#: data.cpp:643
 msgid "Misam"
 msgstr ""
 
-#: data.cpp:636
+#: data.cpp:644
 msgid "Botein"
 msgstr "Botein"
 
-#: data.cpp:637
+#: data.cpp:645
 msgid "Dalim"
 msgstr ""
 
-#: data.cpp:638
+#: data.cpp:646
 msgid "Zibal"
 msgstr ""
 
-#: data.cpp:639
+#: data.cpp:647
 msgid "Intan"
 msgstr ""
 
-#: data.cpp:640
+#: data.cpp:648
 msgid "Mirfak"
 msgstr "Mirfak"
 
-#: data.cpp:641
+#: data.cpp:649
 msgid "Mirphak"
 msgstr "Mirphak"
 
-#: data.cpp:642
+#: data.cpp:650
 msgid "Marfak"
 msgstr "Marfak"
 
-#: data.cpp:643
+#: data.cpp:651
 #, fuzzy
 msgid "Ran"
 msgstr "Rana"
 
-#: data.cpp:644
+#: data.cpp:652
 msgid "Tupi"
 msgstr ""
 
-#: data.cpp:645
+#: data.cpp:653
 msgid "Rana"
 msgstr "Rana"
 
-#: data.cpp:646
+#: data.cpp:654
 msgid "Atik"
 msgstr "Atik"
 
-#: data.cpp:647
+#: data.cpp:655
 msgid "Celaeno"
 msgstr "Celaeno"
 
-#: data.cpp:648
+#: data.cpp:656
 msgid "Electra"
 msgstr "Electra"
 
-#: data.cpp:649
+#: data.cpp:657
 msgid "Taygeta"
 msgstr "Taygeta"
 
-#: data.cpp:650
+#: data.cpp:658
 msgid "Maia"
 msgstr "Maia"
 
-#: data.cpp:651
+#: data.cpp:659
 msgid "Asterope"
 msgstr "Asterope"
 
-#: data.cpp:652
+#: data.cpp:660
 msgid "Merope"
 msgstr "Merope"
 
-#: data.cpp:653
+#: data.cpp:661
 msgid "Alcyone"
 msgstr "Alcyone"
 
-#: data.cpp:654
+#: data.cpp:662
 msgid "Pleione"
 msgstr "Pleione"
 
-#: data.cpp:655
+#: data.cpp:663
 msgid "Zaurak"
 msgstr "Zaurak"
 
-#: data.cpp:656
+#: data.cpp:664
 msgid "Menkib"
 msgstr "Menkib"
 
-#: data.cpp:657
+#: data.cpp:665
 msgid "Beid"
 msgstr "Beid"
 
-#: data.cpp:658
+#: data.cpp:666
 msgid "Keid"
 msgstr "Keid"
 
-#: data.cpp:659
+#: data.cpp:667
 msgid "Prima Hyadum"
 msgstr ""
 
-#: data.cpp:660
+#: data.cpp:668
 msgid "Secunda Hyadum"
 msgstr ""
 
-#: data.cpp:661
+#: data.cpp:669
 msgid "Beemim"
 msgstr ""
 
-#: data.cpp:662
+#: data.cpp:670
 msgid "Ain"
 msgstr "Ain"
 
-#: data.cpp:663
+#: data.cpp:671
 msgid "Chamukuy"
 msgstr ""
 
-#: data.cpp:664
+#: data.cpp:672
 msgid "Hoggar"
 msgstr ""
 
-#: data.cpp:665
+#: data.cpp:673
 msgid "Theemin"
 msgstr ""
 
-#: data.cpp:666
+#: data.cpp:674
 msgid "Aldebaran"
 msgstr "Aldebaran"
 
-#: data.cpp:667
+#: data.cpp:675
 msgid "Sceptrum"
 msgstr ""
 
-#: data.cpp:668
+#: data.cpp:676
 #, fuzzy
 msgid "Tabit"
 msgstr "Thabit"
 
-#: data.cpp:669
+#: data.cpp:677
 msgid "Mouhoun"
 msgstr ""
 
-#: data.cpp:670
+#: data.cpp:678
 msgid "Hassaleh"
 msgstr ""
 
-#: data.cpp:671
+#: data.cpp:679
 msgid "Hind's Crimson Star"
 msgstr "Hinds karmozijnrode ster"
 
-#: data.cpp:672
+#: data.cpp:680
 #, fuzzy
 msgid "Almaaz"
 msgstr "Almaak"
 
-#: data.cpp:673
+#: data.cpp:681
 #, fuzzy
 msgid "Saclateni"
 msgstr "Sterrenstelsels"
 
-#: data.cpp:674
+#: data.cpp:682
 msgid "Sadatoni"
 msgstr "Sadatoni"
 
-#: data.cpp:675
+#: data.cpp:683
 msgid "Haedus"
 msgstr ""
 
-#: data.cpp:676
+#: data.cpp:684
 msgid "Cursa"
 msgstr "Cursa"
 
-#: data.cpp:677
+#: data.cpp:685
 msgid "Mago"
 msgstr ""
 
-#: data.cpp:678
+#: data.cpp:686
 msgid "Kapteyn's Star"
 msgstr "Kapteyns ster"
 
-#: data.cpp:679
+#: data.cpp:687
 msgid "Rigel"
 msgstr "Rigel"
 
-#: data.cpp:680
+#: data.cpp:688
 msgid "Capella"
 msgstr "Capella"
 
-#: data.cpp:681
+#: data.cpp:689
 msgid "Bellatrix"
 msgstr "Bellatrix"
 
-#: data.cpp:682
+#: data.cpp:690
 msgid "Elnath"
 msgstr "Elnath"
 
-#: data.cpp:683
+#: data.cpp:691
 msgid "Alnath"
 msgstr "Alnath"
 
-#: data.cpp:684
+#: data.cpp:692
 msgid "Nihal"
 msgstr "Nihal"
 
-#: data.cpp:685
+#: data.cpp:693
 msgid "Thabit"
 msgstr "Thabit"
 
-#: data.cpp:686
+#: data.cpp:694
 msgid "Mintaka"
 msgstr "Mintaka"
 
-#: data.cpp:687
+#: data.cpp:695
 msgid "Arneb"
 msgstr "Arneb"
 
-#: data.cpp:688
+#: data.cpp:696
 msgid "Meissa"
 msgstr "Meissa"
 
-#: data.cpp:689
+#: data.cpp:697
 msgid "Heka"
 msgstr "Heka"
 
-#: data.cpp:690
+#: data.cpp:698
 msgid "Hatysa"
 msgstr ""
 
-#: data.cpp:691
+#: data.cpp:699
 msgid "Alnilam"
 msgstr "Alnilam"
 
-#: data.cpp:692
+#: data.cpp:700
 msgid "Bubup"
 msgstr ""
 
-#: data.cpp:693
+#: data.cpp:701
 #, fuzzy
 msgid "Tianguan"
 msgstr "Driehoek"
 
-#: data.cpp:694
+#: data.cpp:702
 msgid "Phact"
 msgstr "Phact"
 
-#: data.cpp:695
+#: data.cpp:703
 msgid "Alnitak"
 msgstr "Alnitak"
 
-#: data.cpp:696
+#: data.cpp:704
 msgid "Saiph"
 msgstr "Saiph"
 
-#: data.cpp:697
+#: data.cpp:705
 msgid "Wazn"
 msgstr "Wazn"
 
-#: data.cpp:698
+#: data.cpp:706
 msgid "Betelgeuse"
 msgstr "Betelgeuze"
 
-#: data.cpp:699
+#: data.cpp:707
 msgid "Prijipati"
 msgstr "Prijipati"
 
-#: data.cpp:700
+#: data.cpp:708
 msgid "Menkalinan"
 msgstr "Menkalinan"
 
-#: data.cpp:701
+#: data.cpp:709
 msgid "Mahasim"
 msgstr ""
 
-#: data.cpp:702
+#: data.cpp:710
 #, fuzzy
 msgid "Elkurud"
 msgstr "Furud"
 
-#: data.cpp:703
+#: data.cpp:711
 msgid "Amadioha"
 msgstr ""
 
-#: data.cpp:704
+#: data.cpp:712
 #, fuzzy
 msgid "Propus"
 msgstr "Canopus"
 
-#: data.cpp:705
+#: data.cpp:713
 msgid "Red Rectangle"
 msgstr "Rode rechthoek"
 
-#: data.cpp:706
+#: data.cpp:714
 msgid "Furud"
 msgstr "Furud"
 
-#: data.cpp:707
+#: data.cpp:715
 msgid "Mirzam"
 msgstr "Mirzam"
 
-#: data.cpp:708
+#: data.cpp:716
 msgid "Murzim"
 msgstr "Murzim"
 
-#: data.cpp:709
+#: data.cpp:717
 msgid "Tejat"
 msgstr "Tejat"
 
-#: data.cpp:710
+#: data.cpp:718
 msgid "Canopus"
 msgstr "Canopus"
 
-#: data.cpp:711
+#: data.cpp:719
 msgid "Suhel"
 msgstr "Suhel"
 
-#: data.cpp:712
+#: data.cpp:720
 msgid "Lucilinburhuc"
 msgstr ""
 
-#: data.cpp:713
+#: data.cpp:721
 msgid "Lusitânia"
 msgstr ""
 
-#: data.cpp:714
+#: data.cpp:722
 #, fuzzy
 msgid "Plaskett's Star"
 msgstr "Sterren weergeven"
 
-#: data.cpp:715
+#: data.cpp:723
 msgid "Alhena"
 msgstr "Alhena"
 
-#: data.cpp:716
+#: data.cpp:724
 msgid "Almeisan"
 msgstr "Almeisan"
 
-#: data.cpp:717
+#: data.cpp:725
 msgid "Nosaxa"
 msgstr ""
 
-#: data.cpp:718
+#: data.cpp:726
 msgid "Mebsuta"
 msgstr "Mebsuta"
 
-#: data.cpp:719
+#: data.cpp:727
 msgid "Sirius"
 msgstr "Sirius"
 
-#: data.cpp:720
+#: data.cpp:728
 msgid "Alzirr"
 msgstr ""
 
-#: data.cpp:721
+#: data.cpp:729
 msgid "Nervia"
 msgstr ""
 
-#: data.cpp:722
+#: data.cpp:730
 msgid "Adhara"
 msgstr "Adhara"
 
-#: data.cpp:723
+#: data.cpp:731
 msgid "Adara"
 msgstr "Adara"
 
-#: data.cpp:724
+#: data.cpp:732
 msgid "Citalá"
 msgstr ""
 
-#: data.cpp:725
+#: data.cpp:733
 msgid "Unurgunite"
 msgstr ""
 
-#: data.cpp:726
+#: data.cpp:734
 msgid "Muliphein"
 msgstr "Muliphein"
 
-#: data.cpp:727
+#: data.cpp:735
 msgid "Mekbuda"
 msgstr "Mekbuda"
 
-#: data.cpp:728
+#: data.cpp:736
 msgid "Wezen"
 msgstr "Wezen"
 
-#: data.cpp:729
+#: data.cpp:737
 msgid "Bernes 135"
 msgstr "Bernes 135"
 
-#: data.cpp:730
+#: data.cpp:738
 msgid "Wasat"
 msgstr "Wasat"
 
-#: data.cpp:731
+#: data.cpp:739
 msgid "Aludra"
 msgstr "Aludra"
 
-#: data.cpp:732
+#: data.cpp:740
 msgid "Gomeisa"
 msgstr "Gomeisa"
 
-#: data.cpp:733
+#: data.cpp:741
 msgid "Luyten's Star"
 msgstr "Luytens ster"
 
-#: data.cpp:734
+#: data.cpp:742
 msgid "Castor"
 msgstr "Castor"
 
-#: data.cpp:735
+#: data.cpp:743
 msgid "Jishui"
 msgstr ""
 
-#: data.cpp:736
+#: data.cpp:744
 msgid "Procyon"
 msgstr "Procyon"
 
-#: data.cpp:737
+#: data.cpp:745
 msgid "Elgomaisa"
 msgstr "Elgomaisa"
 
-#: data.cpp:738
+#: data.cpp:746
 msgid "Ceibo"
 msgstr ""
 
-#: data.cpp:739
+#: data.cpp:747
 msgid "Pollux"
 msgstr "Pollux"
 
-#: data.cpp:740
+#: data.cpp:748
 msgid "Tapecue"
 msgstr ""
 
-#: data.cpp:741
+#: data.cpp:749
 #, fuzzy
 msgid "Azmidi"
 msgstr "Asmidiske"
 
-#: data.cpp:742
+#: data.cpp:750
 msgid "Asmidiske"
 msgstr "Asmidiske"
 
-#: data.cpp:743
+#: data.cpp:751
 msgid "Naos"
 msgstr "Naos"
 
-#: data.cpp:744
+#: data.cpp:752
 msgid "Tureis"
 msgstr ""
 
-#: data.cpp:745
+#: data.cpp:753
 msgid "Regor"
 msgstr "Regor"
 
-#: data.cpp:746
+#: data.cpp:754
 msgid "Tegmine"
 msgstr "Tegmine"
 
-#: data.cpp:747
+#: data.cpp:755
 #, fuzzy
 msgid "Tarf"
 msgstr "Al Tarf"
 
-#: data.cpp:748
+#: data.cpp:756
 msgid "Al Tarf"
 msgstr "Al Tarf"
 
-#: data.cpp:749
+#: data.cpp:757
 msgid "Násti"
 msgstr ""
 
-#: data.cpp:750
+#: data.cpp:758
 msgid "Piautos"
 msgstr ""
 
-#: data.cpp:751
+#: data.cpp:759
 msgid "Avior"
 msgstr "Avior"
 
-#: data.cpp:752
+#: data.cpp:760
 msgid "Alsciaukat"
 msgstr ""
 
-#: data.cpp:753
+#: data.cpp:761
 msgid "Muscida"
 msgstr "Muscida"
 
-#: data.cpp:754
+#: data.cpp:762
 #, fuzzy
 msgid "Minchir"
 msgstr "Achird"
 
-#: data.cpp:755
+#: data.cpp:763
 msgid "Gakyid"
 msgstr ""
 
-#: data.cpp:756
+#: data.cpp:764
 msgid "Meleph"
 msgstr ""
 
-#: data.cpp:757
+#: data.cpp:765
 msgid "Asellus Borealis"
 msgstr "Asellus Borealis"
 
-#: data.cpp:758
+#: data.cpp:766
 msgid "Asellus Australis"
 msgstr "Asellus Australis"
 
-#: data.cpp:759
+#: data.cpp:767
 msgid "Alsephina"
 msgstr ""
 
-#: data.cpp:760
+#: data.cpp:768
 msgid "Ashlesha"
 msgstr ""
 
-#: data.cpp:761
+#: data.cpp:769
 msgid "Copernicus"
 msgstr ""
 
-#: data.cpp:762
+#: data.cpp:770
 msgid "Stribor"
 msgstr ""
 
-#: data.cpp:763
+#: data.cpp:771
 msgid "Acubens"
 msgstr "Acubens"
 
-#: data.cpp:764
+#: data.cpp:772
 msgid "Talitha"
 msgstr ""
 
-#: data.cpp:765
+#: data.cpp:773
 msgid "Dnoces"
 msgstr "Dnoces"
 
-#: data.cpp:766
+#: data.cpp:774
 msgid "Alkaphrah"
 msgstr ""
 
-#: data.cpp:767
+#: data.cpp:775
 msgid "Talitha Australis"
 msgstr "Talitha Australis"
 
-#: data.cpp:768
+#: data.cpp:776
 msgid "Suhail"
 msgstr "Suhail"
 
-#: data.cpp:769
+#: data.cpp:777
 msgid "Nahn"
 msgstr ""
 
-#: data.cpp:770
+#: data.cpp:778
 msgid "Miaplacidus"
 msgstr "Miaplacidus"
 
-#: data.cpp:771
+#: data.cpp:779
 msgid "Aspidiske"
 msgstr "Aspidiske"
 
-#: data.cpp:772
+#: data.cpp:780
 #, fuzzy
 msgid "Markeb"
 msgstr "Markab"
 
-#: data.cpp:773
+#: data.cpp:781
 msgid "Alphard"
 msgstr "Alphard"
 
-#: data.cpp:774
+#: data.cpp:782
 msgid "Cor Hydrae"
 msgstr "Cor Hydrae"
 
-#: data.cpp:775
+#: data.cpp:783
 msgid "Intercrus"
 msgstr ""
 
-#: data.cpp:776
+#: data.cpp:784
 msgid "Alterf"
 msgstr "Alterf"
 
-#: data.cpp:777
+#: data.cpp:785
 msgid "Illyrian"
 msgstr ""
 
-#: data.cpp:778
+#: data.cpp:786
 msgid "Kalausi"
 msgstr ""
 
-#: data.cpp:779
+#: data.cpp:787
 msgid "Ukdah"
 msgstr "Ukdah"
 
-#: data.cpp:780
+#: data.cpp:788
 msgid "Subra"
 msgstr "Subra"
 
-#: data.cpp:781
+#: data.cpp:789
 msgid "Ras Elased Australis"
 msgstr "Ras Elased Australis"
 
-#: data.cpp:782
+#: data.cpp:790
 msgid "Natasha"
 msgstr ""
 
-#: data.cpp:783
+#: data.cpp:791
 msgid "Zhang"
 msgstr ""
 
-#: data.cpp:784
+#: data.cpp:792
 msgid "Rasalas"
 msgstr "Rasalas"
 
-#: data.cpp:785
+#: data.cpp:793
 msgid "Ras Elased Borealis"
 msgstr "Ras Elased Borealis"
 
-#: data.cpp:786
+#: data.cpp:794
 msgid "Felis"
 msgstr ""
 
-#: data.cpp:787
+#: data.cpp:795
 msgid "Bibhā"
 msgstr ""
 
-#: data.cpp:788
+#: data.cpp:796
 msgid "Regulus"
 msgstr "Regulus"
 
-#: data.cpp:789
+#: data.cpp:797
 msgid "Kabeleced"
 msgstr "Kabeleced"
 
-#: data.cpp:790
+#: data.cpp:798
 msgid "Cor Leonis"
 msgstr "Cor Leonis"
 
-#: data.cpp:791
+#: data.cpp:799
 msgid "Adhafera"
 msgstr "Adhafera"
 
-#: data.cpp:792
+#: data.cpp:800
 msgid "Aldhafera"
 msgstr "Aldhafera"
 
-#: data.cpp:793
+#: data.cpp:801
 msgid "Tania Borealis"
 msgstr "Tania Borealis"
 
-#: data.cpp:794
+#: data.cpp:802
 msgid "Algieba"
 msgstr "Algieba"
 
-#: data.cpp:795
+#: data.cpp:803
 msgid "Tania Australis"
 msgstr "Tania Australis"
 
-#: data.cpp:796
+#: data.cpp:804
 #, fuzzy
 msgid "Macondo"
 msgstr "Londen"
 
-#: data.cpp:797
+#: data.cpp:805
 msgid "Praecipua"
 msgstr ""
 
-#: data.cpp:798
+#: data.cpp:806
 msgid "Chalawan"
 msgstr ""
 
-#: data.cpp:799
+#: data.cpp:807
 msgid "Alkes"
 msgstr "Alkes"
 
-#: data.cpp:800
+#: data.cpp:808
 msgid "Merak"
 msgstr "Merak"
 
-#: data.cpp:801
+#: data.cpp:809
 msgid "Lalande 21185"
 msgstr "Lalande 21185"
 
-#: data.cpp:802
+#: data.cpp:810
 msgid "Dubhe"
 msgstr "Dubhe"
 
-#: data.cpp:803
+#: data.cpp:811
 msgid "Dubb"
 msgstr "Dubb"
 
-#: data.cpp:804
+#: data.cpp:812
 msgid "Dingolay"
 msgstr ""
 
-#: data.cpp:805
+#: data.cpp:813
 msgid "Zosma"
 msgstr "Zosma"
 
-#: data.cpp:806
+#: data.cpp:814
 msgid "Duhr"
 msgstr "Duhr"
 
-#: data.cpp:807
+#: data.cpp:815
 msgid "Chertan"
 msgstr "Chertan"
 
-#: data.cpp:808
+#: data.cpp:816
 msgid "Coxa"
 msgstr "Coxa"
 
-#: data.cpp:809
+#: data.cpp:817
 msgid "Chort"
 msgstr "Chort"
 
-#: data.cpp:810
+#: data.cpp:818
 msgid "Innes' Star"
 msgstr ""
 
-#: data.cpp:811
+#: data.cpp:819
 msgid "Hunahpú"
 msgstr ""
 
-#: data.cpp:812
+#: data.cpp:820
 msgid "Alula Australis"
 msgstr "Alula Australis"
 
-#: data.cpp:813
+#: data.cpp:821
 msgid "Alula Borealis"
 msgstr "Alula Borealis"
 
-#: data.cpp:814
+#: data.cpp:822
 msgid "Tsze Tseang"
 msgstr "Tsze Tseang"
 
-#: data.cpp:815
+#: data.cpp:823
 #, fuzzy
 msgid "Shama"
 msgstr "Sham"
 
-#: data.cpp:816
+#: data.cpp:824
 msgid "Giausar"
 msgstr "Giausar"
 
-#: data.cpp:817
+#: data.cpp:825
 #, fuzzy
 msgid "Formosa"
 msgstr "Formaat:"
 
-#: data.cpp:818
+#: data.cpp:826
 msgid "Sagarmatha"
 msgstr ""
 
-#: data.cpp:819
+#: data.cpp:827
 msgid "Przybylski's Star"
 msgstr ""
 
-#: data.cpp:820
+#: data.cpp:828
 msgid "Uklun"
 msgstr ""
 
-#: data.cpp:821
+#: data.cpp:829
 #, fuzzy
 msgid "Flegetonte"
 msgstr "Georgetown"
 
-#: data.cpp:822
+#: data.cpp:830
 msgid "Taiyangshou"
 msgstr ""
 
-#: data.cpp:823
+#: data.cpp:831
 msgid "Denebola"
 msgstr "Denebola"
 
-#: data.cpp:824
+#: data.cpp:832
 msgid "Zavijava"
 msgstr "Zavijava"
 
-#: data.cpp:825
+#: data.cpp:833
 msgid "Alaraph"
 msgstr "Alaraph"
 
-#: data.cpp:826
+#: data.cpp:834
 #, fuzzy
 msgid "Aniara"
 msgstr "Honiara"
 
-#: data.cpp:827
+#: data.cpp:835
 msgid "Groombridge 1830"
 msgstr "Groombridge 1830"
 
-#: data.cpp:828
+#: data.cpp:836
 msgid "Phecda"
 msgstr "Phecda"
 
-#: data.cpp:829
+#: data.cpp:837
 msgid "Phad"
 msgstr "Phad"
 
-#: data.cpp:830
+#: data.cpp:838
 msgid "Tonatiuh"
 msgstr ""
 
-#: data.cpp:831
+#: data.cpp:839
 msgid "Alchiba"
 msgstr "Alchiba"
 
-#: data.cpp:832
+#: data.cpp:840
 msgid "Imai"
 msgstr ""
 
-#: data.cpp:833
+#: data.cpp:841
 msgid "Megrez"
 msgstr "Megrez"
 
-#: data.cpp:834
+#: data.cpp:842
 msgid "Gienah"
 msgstr "Gienah"
 
-#: data.cpp:835
+#: data.cpp:843
 msgid "Zaniah"
 msgstr "Zaniah"
 
-#: data.cpp:836
+#: data.cpp:844
 msgid "Ginan"
 msgstr ""
 
-#: data.cpp:837
+#: data.cpp:845
 msgid "Tupã"
 msgstr ""
 
-#: data.cpp:838
+#: data.cpp:846
 msgid "Acrux"
 msgstr "Acrux"
 
-#: data.cpp:839
+#: data.cpp:847
 msgid "Algorab"
 msgstr "Algorab"
 
-#: data.cpp:840
+#: data.cpp:848
 msgid "Gacrux"
 msgstr "Gacrux"
 
-#: data.cpp:841
+#: data.cpp:849
 msgid "Funi"
 msgstr ""
 
-#: data.cpp:842
+#: data.cpp:850
 msgid "Chara"
 msgstr "Chara"
 
-#: data.cpp:843
+#: data.cpp:851
 msgid "Kraz"
 msgstr "Kraz"
 
-#: data.cpp:844
+#: data.cpp:852
 msgid "Muhlifain"
 msgstr "Muhlifain"
 
-#: data.cpp:845
+#: data.cpp:853
 msgid "Porrima"
 msgstr "Porrima"
 
-#: data.cpp:846
+#: data.cpp:854
 msgid "La Superba"
 msgstr ""
 
-#: data.cpp:847
+#: data.cpp:855
 msgid "Tianyi"
 msgstr ""
 
-#: data.cpp:848
+#: data.cpp:856
 msgid "Mimosa"
 msgstr "Mimosa"
 
-#: data.cpp:849
+#: data.cpp:857
 msgid "Alioth"
 msgstr "Alioth"
 
-#: data.cpp:850
+#: data.cpp:858
 msgid "Taiyi"
 msgstr ""
 
-#: data.cpp:851
+#: data.cpp:859
 msgid "Minelauva"
 msgstr "Minelauva"
 
-#: data.cpp:852
+#: data.cpp:860
 msgid "Auva"
 msgstr "Auva"
 
-#: data.cpp:853
+#: data.cpp:861
 msgid "Cor Caroli"
 msgstr "Cor Caroli"
 
-#: data.cpp:854
+#: data.cpp:862
 msgid "Vindemiatrix"
 msgstr "Vindemiatrix"
 
-#: data.cpp:855
+#: data.cpp:863
 msgid "Almuredin"
 msgstr "Almuredin"
 
-#: data.cpp:856
+#: data.cpp:864
 msgid "Diadem"
 msgstr ""
 
-#: data.cpp:857
+#: data.cpp:865
 msgid "Mizar"
 msgstr "Mizar"
 
-#: data.cpp:858
+#: data.cpp:866
 msgid "Spica"
 msgstr "Spica"
 
-#: data.cpp:859
+#: data.cpp:867
 msgid "Azimech"
 msgstr "Azimech"
 
-#: data.cpp:860
+#: data.cpp:868
 msgid "Alcor"
 msgstr "Alcor"
 
-#: data.cpp:861
+#: data.cpp:869
 msgid "Dofida"
 msgstr ""
 
-#: data.cpp:862
+#: data.cpp:870
 msgid "Liesma"
 msgstr ""
 
-#: data.cpp:863
+#: data.cpp:871
 msgid "Heze"
 msgstr "Heze"
 
-#: data.cpp:864
+#: data.cpp:872
 msgid "Alkaid"
 msgstr "Alkaid"
 
-#: data.cpp:865
+#: data.cpp:873
 msgid "Benetnasch"
 msgstr "Benetnasch"
 
-#: data.cpp:866
+#: data.cpp:874
 msgid "Muphrid"
 msgstr "Muphrid"
 
-#: data.cpp:867
+#: data.cpp:875
 msgid "Hadar"
 msgstr "Hadar"
 
-#: data.cpp:868
+#: data.cpp:876
 msgid "Agena"
 msgstr "Agena"
 
-#: data.cpp:869
+#: data.cpp:877
 msgid "Thuban"
 msgstr "Thuban"
 
-#: data.cpp:870
+#: data.cpp:878
 msgid "Menkent"
 msgstr "Menkent"
 
-#: data.cpp:871
+#: data.cpp:879
 msgid "Kang"
 msgstr ""
 
-#: data.cpp:872
+#: data.cpp:880
 msgid "Arcturus"
 msgstr "Arcturus"
 
-#: data.cpp:873
+#: data.cpp:881
 msgid "Syrma"
 msgstr "Syrma"
 
-#: data.cpp:874
+#: data.cpp:882
 msgid "Xuange"
 msgstr ""
 
-#: data.cpp:875
+#: data.cpp:883
 msgid "Elgafar"
 msgstr ""
 
-#: data.cpp:876
+#: data.cpp:884
 msgid "Proxima"
 msgstr "Proxima"
 
-#: data.cpp:877
+#: data.cpp:885
 msgid "Seginus"
 msgstr "Seginus"
 
-#: data.cpp:878
+#: data.cpp:886
 msgid "Ceginus"
 msgstr "Ceginus"
 
-#: data.cpp:879
+#: data.cpp:887
 msgid "Toliman"
 msgstr ""
 
-#: data.cpp:880
+#: data.cpp:888
 msgid "Rigil Kentaurus"
 msgstr ""
 
-#: data.cpp:881
+#: data.cpp:889
 msgid "Izar"
 msgstr "Izar"
 
-#: data.cpp:882
+#: data.cpp:890
 msgid "Mirak"
 msgstr "Mirak"
 
-#: data.cpp:883
+#: data.cpp:891
 msgid "Pulcherrima"
 msgstr "Pulcherrima"
 
-#: data.cpp:884
+#: data.cpp:892
 msgid "Mönch"
 msgstr ""
 
-#: data.cpp:885
+#: data.cpp:893
 msgid "Merga"
 msgstr ""
 
-#: data.cpp:886
+#: data.cpp:894
 msgid "Kochab"
 msgstr "Kochab"
 
-#: data.cpp:887
+#: data.cpp:895
 msgid "Kocab"
 msgstr "Kocab"
 
-#: data.cpp:888
+#: data.cpp:896
 msgid "Zubenelgenubi"
 msgstr "Zubenelgenubi"
 
-#: data.cpp:889
+#: data.cpp:897
 msgid "Arcalís"
 msgstr ""
 
-#: data.cpp:890
+#: data.cpp:898
 msgid "Baekdu"
 msgstr ""
 
-#: data.cpp:891
+#: data.cpp:899
 msgid "Zuben Elakribi"
 msgstr "Zuben Elakribi"
 
-#: data.cpp:892
+#: data.cpp:900
 msgid "Nekkar"
 msgstr "Nekkar"
 
-#: data.cpp:893
+#: data.cpp:901
 msgid "Brachium"
 msgstr ""
 
-#: data.cpp:894
+#: data.cpp:902
 msgid "Zubeneschamali"
 msgstr "Zubeneschamali"
 
-#: data.cpp:895
+#: data.cpp:903
 #, fuzzy
 msgid "Pherkad Minor"
 msgstr "Pherkad"
 
-#: data.cpp:896
+#: data.cpp:904
 msgid "Nikawiy"
 msgstr ""
 
-#: data.cpp:897
+#: data.cpp:905
 msgid "Pherkad"
 msgstr "Pherkad"
 
-#: data.cpp:898
+#: data.cpp:906
 msgid "Alkalurops"
 msgstr "Alkalurops"
 
-#: data.cpp:899
+#: data.cpp:907
 msgid "Edasich"
 msgstr "Edasich"
 
-#: data.cpp:900
+#: data.cpp:908
 msgid "Nusakan"
 msgstr "Nusakan"
 
-#: data.cpp:901
+#: data.cpp:909
 msgid "Alphecca"
 msgstr "Alphecca"
 
-#: data.cpp:902
+#: data.cpp:910
 msgid "Gemma"
 msgstr "Gemma"
 
-#: data.cpp:903
+#: data.cpp:911
 #, fuzzy
 msgid "Zubenelhakrabi"
 msgstr "Zuben Elakrab"
 
-#: data.cpp:904
+#: data.cpp:912
 msgid "Zuben Elakrab"
 msgstr "Zuben Elakrab"
 
-#: data.cpp:905
+#: data.cpp:913
 msgid "Karaka"
 msgstr ""
 
-#: data.cpp:906
+#: data.cpp:914
 msgid "Unukalhai"
 msgstr "Unukalhai"
 
-#: data.cpp:907
+#: data.cpp:915
 msgid "Chow"
 msgstr "Chow"
 
-#: data.cpp:908
+#: data.cpp:916
 msgid "Gudja"
 msgstr ""
 
-#: data.cpp:909
+#: data.cpp:917
 msgid "Iklil"
 msgstr ""
 
-#: data.cpp:910
+#: data.cpp:918
 msgid "Fang"
 msgstr ""
 
-#: data.cpp:911
+#: data.cpp:919
 msgid "Dschubba"
 msgstr "Dschubba"
 
-#: data.cpp:912
+#: data.cpp:920
 msgid "Acrab"
 msgstr ""
 
-#: data.cpp:913
+#: data.cpp:921
 msgid "Graffias"
 msgstr "Graffias"
 
-#: data.cpp:914
+#: data.cpp:922
 msgid "Akrab"
 msgstr "Akrab"
 
-#: data.cpp:915
+#: data.cpp:923
 #, fuzzy
 msgid "Marsic"
 msgstr "Mars"
 
-#: data.cpp:916
+#: data.cpp:924
 msgid "Jabbah"
 msgstr "Jabbah"
 
-#: data.cpp:917
+#: data.cpp:925
 msgid "Sharjah"
 msgstr ""
 
-#: data.cpp:918
+#: data.cpp:926
 msgid "Yed Prior"
 msgstr ""
 
-#: data.cpp:919
+#: data.cpp:927
 msgid "Yed Posterior"
 msgstr ""
 
-#: data.cpp:920
+#: data.cpp:928
 msgid "Hunor"
 msgstr ""
 
-#: data.cpp:921
+#: data.cpp:929
 #, fuzzy
 msgid "Alniyat"
 msgstr "Al Niyat"
 
-#: data.cpp:922
+#: data.cpp:930
 msgid "Al Niyat"
 msgstr "Al Niyat"
 
-#: data.cpp:923
+#: data.cpp:931
 #, fuzzy
 msgid "Athebyne"
 msgstr "Athene"
 
-#: data.cpp:924
+#: data.cpp:932
 msgid "Cujam"
 msgstr "Cujam"
 
-#: data.cpp:925
+#: data.cpp:933
 msgid "Timir"
 msgstr ""
 
-#: data.cpp:926
+#: data.cpp:934
 msgid "Antares"
 msgstr "Antares"
 
-#: data.cpp:927
+#: data.cpp:935
 msgid "Kornephoros"
 msgstr "Kornephoros"
 
-#: data.cpp:928
+#: data.cpp:936
 msgid "Ogma"
 msgstr ""
 
-#: data.cpp:929
+#: data.cpp:937
 msgid "Marfik"
 msgstr "Marfik"
 
-#: data.cpp:930
+#: data.cpp:938
 msgid "Rosalíadecastro"
 msgstr ""
 
-#: data.cpp:931
+#: data.cpp:939
 msgid "Paikauhale"
 msgstr ""
 
-#: data.cpp:932
+#: data.cpp:940
 msgid "Atria"
 msgstr "Atria"
 
-#: data.cpp:933
+#: data.cpp:941
 #, fuzzy
 msgid "Larawag"
 msgstr "Tarawa"
 
-#: data.cpp:934
+#: data.cpp:942
 msgid "Xamidimura"
 msgstr ""
 
-#: data.cpp:935
+#: data.cpp:943
 #, fuzzy
 msgid "Pipirima"
 msgstr "Porrima"
 
-#: data.cpp:936
+#: data.cpp:944
 msgid "Mahsati"
 msgstr ""
 
-#: data.cpp:937
+#: data.cpp:945
 #, fuzzy
 msgid "Rapeto"
 msgstr "Lapetus"
 
-#: data.cpp:938
+#: data.cpp:946
 #, fuzzy
 msgid "Alrakis"
 msgstr "Arrakis"
 
-#: data.cpp:939
+#: data.cpp:947
 msgid "Arrakis"
 msgstr "Arrakis"
 
-#: data.cpp:940
+#: data.cpp:948
 #, fuzzy
 msgid "Aldhibah"
 msgstr "Alchiba"
 
-#: data.cpp:941
+#: data.cpp:949
 msgid "Sabik"
 msgstr "Sabik"
 
-#: data.cpp:942
+#: data.cpp:950
 msgid "Rasalgethi"
 msgstr "Rasalgethi"
 
-#: data.cpp:943
+#: data.cpp:951
 msgid "Ras Algethi"
 msgstr "Ras Algethi"
 
-#: data.cpp:944
+#: data.cpp:952
 msgid "Sarin"
 msgstr "Sarin"
 
-#: data.cpp:945
+#: data.cpp:953
 msgid "Guniibuu"
 msgstr ""
 
-#: data.cpp:946
+#: data.cpp:954
 msgid "Inquill"
 msgstr ""
 
-#: data.cpp:947
+#: data.cpp:955
 msgid "Rastaban"
 msgstr "Rastaban"
 
-#: data.cpp:948
+#: data.cpp:956
 msgid "Maasym"
 msgstr "Maasym"
 
-#: data.cpp:949
+#: data.cpp:957
 msgid "Lesath"
 msgstr "Lesath"
 
-#: data.cpp:950
+#: data.cpp:958
 msgid "Lesuth"
 msgstr "Lesuth"
 
-#: data.cpp:951
+#: data.cpp:959
 msgid "Kuma"
 msgstr "Kuma"
 
-#: data.cpp:952
+#: data.cpp:960
 msgid "Yildun"
 msgstr "Yildun"
 
-#: data.cpp:953
+#: data.cpp:961
 msgid "Shaula"
 msgstr "Shaula"
 
-#: data.cpp:954
+#: data.cpp:962
 msgid "Rasalhague"
 msgstr "Rasalhague"
 
-#: data.cpp:955
+#: data.cpp:963
 msgid "Ras Alhague"
 msgstr "Ras Alhague"
 
-#: data.cpp:956
+#: data.cpp:964
 msgid "Sargas"
 msgstr "Sargas"
 
-#: data.cpp:957
+#: data.cpp:965
 msgid "Dziban"
 msgstr "Dziban"
 
-#: data.cpp:958
+#: data.cpp:966
 msgid "Girtab"
 msgstr ""
 
-#: data.cpp:959
+#: data.cpp:967
 msgid "Cebalrai"
 msgstr "Cebalrai"
 
-#: data.cpp:960
+#: data.cpp:968
 msgid "Alruba"
 msgstr ""
 
-#: data.cpp:961
+#: data.cpp:969
 #, fuzzy
 msgid "Cervantes"
 msgstr "Sterrewachten"
 
-#: data.cpp:962
+#: data.cpp:970
 msgid "Fuyue"
 msgstr ""
 
-#: data.cpp:963
+#: data.cpp:971
 msgid "Grumium"
 msgstr "Grumium"
 
-#: data.cpp:964
+#: data.cpp:972
 msgid "Eltanin"
 msgstr "Eltanin"
 
-#: data.cpp:965
+#: data.cpp:973
 msgid "Etamin"
 msgstr "Etamin"
 
-#: data.cpp:966
+#: data.cpp:974
 msgid "Barnard's Star"
 msgstr "Barnards ster"
 
-#: data.cpp:967
+#: data.cpp:975
 msgid "Pincoya"
 msgstr ""
 
-#: data.cpp:968
+#: data.cpp:976
 msgid "Alnasl"
 msgstr "Alnasl"
 
-#: data.cpp:969
+#: data.cpp:977
 msgid "Polis"
 msgstr ""
 
-#: data.cpp:970
+#: data.cpp:978
 msgid "Kaus Media"
 msgstr "Kaus Media"
 
-#: data.cpp:971
+#: data.cpp:979
 msgid "Alasia"
 msgstr ""
 
-#: data.cpp:972
+#: data.cpp:980
 msgid "Kaus Australis"
 msgstr "Kaus Australis"
 
-#: data.cpp:973
+#: data.cpp:981
 msgid "Al Athfar"
 msgstr "Al Athfar"
 
-#: data.cpp:974
+#: data.cpp:982
 msgid "Fafnir"
 msgstr ""
 
-#: data.cpp:975
+#: data.cpp:983
 msgid "Kaus Borealis"
 msgstr "Kaus Borealis"
 
-#: data.cpp:976
+#: data.cpp:984
 msgid "Vega"
 msgstr "Vega"
 
-#: data.cpp:977
+#: data.cpp:985
 msgid "Xihe"
 msgstr ""
 
-#: data.cpp:978
+#: data.cpp:986
 msgid "Sheliak"
 msgstr "Sheliak"
 
-#: data.cpp:979
+#: data.cpp:987
 #, fuzzy
 msgid "Ainalrami"
 msgstr "Alderamin"
 
-#: data.cpp:980
+#: data.cpp:988
 msgid "Nunki"
 msgstr "Nunki"
 
-#: data.cpp:981
+#: data.cpp:989
 msgid "Kaveh"
 msgstr ""
 
-#: data.cpp:982
+#: data.cpp:990
 msgid "Alya"
 msgstr "Alya"
 
-#: data.cpp:983
+#: data.cpp:991
 msgid "Sulafat"
 msgstr "Sulafat"
 
-#: data.cpp:984
+#: data.cpp:992
 msgid "Ascella"
 msgstr "Ascella"
 
-#: data.cpp:985
+#: data.cpp:993
 msgid "Okab"
 msgstr ""
 
-#: data.cpp:986
+#: data.cpp:994
 msgid "Deneb el Okab"
 msgstr "Deneb el Okab"
 
-#: data.cpp:987
+#: data.cpp:995
 msgid "Meridiana"
 msgstr ""
 
-#: data.cpp:988
+#: data.cpp:996
 #, fuzzy
 msgid "Albaldah"
 msgstr "Albali"
 
-#: data.cpp:989
+#: data.cpp:997
 msgid "Altais"
 msgstr "Altais"
 
-#: data.cpp:990
+#: data.cpp:998
 msgid "Al Tais"
 msgstr "Al Tais"
 
-#: data.cpp:991
+#: data.cpp:999
 msgid "Nodus Secundus"
 msgstr "Nodus Secundus"
 
-#: data.cpp:992
+#: data.cpp:1000
 msgid "Aladfar"
 msgstr "Aladfar"
 
-#: data.cpp:993
+#: data.cpp:1001
 #, fuzzy
 msgid "Gumala"
 msgstr "Guatemala"
 
-#: data.cpp:994
+#: data.cpp:1002
 msgid "Belel"
 msgstr ""
 
-#: data.cpp:995
+#: data.cpp:1003
 #, fuzzy
 msgid "Arkab Prior"
 msgstr "Arkab"
 
-#: data.cpp:996
+#: data.cpp:1004
 msgid "Arkab"
 msgstr "Arkab"
 
-#: data.cpp:997
+#: data.cpp:1005
 msgid "Sika"
 msgstr ""
 
-#: data.cpp:998
+#: data.cpp:1006
 msgid "Arkab Posterior"
 msgstr ""
 
-#: data.cpp:999
+#: data.cpp:1007
 msgid "Rukbat"
 msgstr "Rukbat"
 
-#: data.cpp:1000
+#: data.cpp:1008
 msgid "Anser"
 msgstr ""
 
-#: data.cpp:1001
+#: data.cpp:1009
 msgid "Albireo"
 msgstr "Albireo"
 
-#: data.cpp:1002
+#: data.cpp:1010
 msgid "Uruk"
 msgstr ""
 
-#: data.cpp:1003
+#: data.cpp:1011
 msgid "Alsafi"
 msgstr "Alsafi"
 
-#: data.cpp:1004
+#: data.cpp:1012
 msgid "Campbell's Star"
 msgstr "Campbells ster"
 
-#: data.cpp:1005
+#: data.cpp:1013
 msgid "Sham"
 msgstr "Sham"
 
-#: data.cpp:1006
+#: data.cpp:1014
 #, fuzzy
 msgid "Fawaris"
 msgstr "Parijs"
 
-#: data.cpp:1007
+#: data.cpp:1015
 msgid "Tarazed"
 msgstr "Tarazed"
 
-#: data.cpp:1008
+#: data.cpp:1016
 msgid "Tyl"
 msgstr "Tyl"
 
-#: data.cpp:1009
+#: data.cpp:1017
 msgid "Altair"
 msgstr "Altair"
 
-#: data.cpp:1010
+#: data.cpp:1018
 msgid "Atair"
 msgstr "Atair"
 
-#: data.cpp:1011
+#: data.cpp:1019
 msgid "Libertas"
 msgstr ""
 
-#: data.cpp:1012
+#: data.cpp:1020
 msgid "Alshain"
 msgstr "Alshain"
 
-#: data.cpp:1013
+#: data.cpp:1021
 msgid "Terebellum"
 msgstr ""
 
-#: data.cpp:1014
+#: data.cpp:1022
 msgid "Phoenicia"
 msgstr ""
 
-#: data.cpp:1015
+#: data.cpp:1023
 msgid "Chechia"
 msgstr ""
 
-#: data.cpp:1016
+#: data.cpp:1024
 msgid "Algedi"
 msgstr "Algedi"
 
-#: data.cpp:1017
+#: data.cpp:1025
 #, fuzzy
 msgid "Alshat"
 msgstr "Alshain"
 
-#: data.cpp:1018
+#: data.cpp:1026
 msgid "Dabih"
 msgstr "Dabih"
 
-#: data.cpp:1019
+#: data.cpp:1027
 msgid "Sadr"
 msgstr "Sadr"
 
-#: data.cpp:1020
+#: data.cpp:1028
 msgid "Peacock"
 msgstr "Peacock"
 
-#: data.cpp:1021
+#: data.cpp:1029
 msgid "Aldulfin"
 msgstr ""
 
-#: data.cpp:1022
+#: data.cpp:1030
 msgid "Rotanev"
 msgstr "Rotanev"
 
-#: data.cpp:1023
+#: data.cpp:1031
 msgid "Sualocin"
 msgstr "Sualocin"
 
-#: data.cpp:1024
+#: data.cpp:1032
 msgid "Deneb"
 msgstr "Deneb"
 
-#: data.cpp:1025
+#: data.cpp:1033
 #, fuzzy
 msgid "Aljanah"
 msgstr "Ljubljana"
 
-#: data.cpp:1026
+#: data.cpp:1034
 msgid "Albali"
 msgstr "Albali"
 
-#: data.cpp:1027
+#: data.cpp:1035
 msgid "Musica"
 msgstr ""
 
-#: data.cpp:1028
+#: data.cpp:1036
 #, fuzzy
 msgid "Polaris Australis"
 msgstr "Kaus Australis"
 
-#: data.cpp:1029
+#: data.cpp:1037
 #, fuzzy
 msgid "Solaris"
 msgstr "Poolster"
 
-#: data.cpp:1030
+#: data.cpp:1038
 msgid "Kitalpha"
 msgstr "Kitalpha"
 
-#: data.cpp:1031
+#: data.cpp:1039
 msgid "Lacaille 8760"
 msgstr "Lacaille 8760"
 
-#: data.cpp:1032
+#: data.cpp:1040
 msgid "Alderamin"
 msgstr "Alderamin"
 
-#: data.cpp:1033
+#: data.cpp:1041
 msgid "Alfirk"
 msgstr "Alfirk"
 
-#: data.cpp:1034
+#: data.cpp:1042
 msgid "Sadalsuud"
 msgstr "Sadalsuud"
 
-#: data.cpp:1035
+#: data.cpp:1043
 #, fuzzy
 msgid "Bunda"
 msgstr "Grenzen"
 
-#: data.cpp:1036
+#: data.cpp:1044
 msgid "Sāmaya"
 msgstr ""
 
-#: data.cpp:1037
+#: data.cpp:1045
 msgid "Nashira"
 msgstr "Nashira"
 
-#: data.cpp:1038
+#: data.cpp:1046
 msgid "Azelfafage"
 msgstr "Azelfafage"
 
-#: data.cpp:1039
+#: data.cpp:1047
 msgid "Bosona"
 msgstr ""
 
-#: data.cpp:1040
+#: data.cpp:1048
 msgid "Herschel's Garnet Star"
 msgstr "Granaatster"
 
-#: data.cpp:1041
+#: data.cpp:1049
 #, fuzzy
 msgid "Erakis"
 msgstr "Arrakis"
 
-#: data.cpp:1042
+#: data.cpp:1050
 msgid "Enif"
 msgstr "Enif"
 
-#: data.cpp:1043
+#: data.cpp:1051
 msgid "Deneb Algedi"
 msgstr "Deneb Algedi"
 
-#: data.cpp:1044
+#: data.cpp:1052
 #, fuzzy
 msgid "Aldhanab"
 msgstr "Al Dhanab"
 
-#: data.cpp:1045
+#: data.cpp:1053
 msgid "Al Dhanab"
 msgstr "Al Dhanab"
 
-#: data.cpp:1046
+#: data.cpp:1054
 msgid "Itonda"
 msgstr ""
 
-#: data.cpp:1047
+#: data.cpp:1055
 msgid "Kurhah"
 msgstr "Kurhah"
 
-#: data.cpp:1048
+#: data.cpp:1056
 msgid "Sadalmelik"
 msgstr "Sadalmelik"
 
-#: data.cpp:1049
+#: data.cpp:1057
 msgid "Alnair"
 msgstr "Alnair"
 
-#: data.cpp:1050
+#: data.cpp:1058
 msgid "Al Nair"
 msgstr "Al Nair"
 
-#: data.cpp:1051
+#: data.cpp:1059
 msgid "Biham"
 msgstr "Biham"
 
-#: data.cpp:1052
+#: data.cpp:1060
 msgid "Ancha"
 msgstr "Ancha"
 
-#: data.cpp:1053
+#: data.cpp:1061
 msgid "Sadachbia"
 msgstr "Sadachbia"
 
-#: data.cpp:1054
+#: data.cpp:1062
 msgid "Seat"
 msgstr "Zetel"
 
-#: data.cpp:1055
+#: data.cpp:1063
 msgid "Lionrock"
 msgstr ""
 
-#: data.cpp:1056
+#: data.cpp:1064
 msgid "Kruger 60"
 msgstr "Kruger 60"
 
-#: data.cpp:1057
+#: data.cpp:1065
 msgid "Situla"
 msgstr "Situla"
 
-#: data.cpp:1058
+#: data.cpp:1066
 msgid "Homam"
 msgstr "Homam"
 
-#: data.cpp:1059
+#: data.cpp:1067
 msgid "Tiaki"
 msgstr ""
 
-#: data.cpp:1060
+#: data.cpp:1068
 msgid "Matar"
 msgstr "Matar"
 
-#: data.cpp:1061
+#: data.cpp:1069
 msgid "Babcock's Star"
 msgstr "Babcocks ster"
 
-#: data.cpp:1062
+#: data.cpp:1070
 msgid "Sadalbari"
 msgstr "Sadalbari"
 
-#: data.cpp:1063
+#: data.cpp:1071
 msgid "Hydor"
 msgstr ""
 
-#: data.cpp:1064
+#: data.cpp:1072
 msgid "Skat"
 msgstr "Skat"
 
-#: data.cpp:1065
+#: data.cpp:1073
 msgid "Helvetios"
 msgstr ""
 
-#: data.cpp:1066
+#: data.cpp:1074
 msgid "Fomalhaut"
 msgstr "Fomalhaut"
 
-#: data.cpp:1067
+#: data.cpp:1075
 msgid "Scheat"
 msgstr "Schede"
 
-#: data.cpp:1068
+#: data.cpp:1076
 #, fuzzy
 msgid "Fumalsamakah"
 msgstr "Fum al Samakah"
 
-#: data.cpp:1069
+#: data.cpp:1077
 msgid "Fum al Samakah"
 msgstr "Fum al Samakah"
 
-#: data.cpp:1070
+#: data.cpp:1078
 msgid "Markab"
 msgstr "Markab"
 
-#: data.cpp:1071
+#: data.cpp:1079
 msgid "Marchab"
 msgstr "Marchab"
 
-#: data.cpp:1072
+#: data.cpp:1080
 msgid "Ebla"
 msgstr ""
 
-#: data.cpp:1073
+#: data.cpp:1081
 msgid "Bradley 3077"
 msgstr "Bradley 3077"
 
-#: data.cpp:1074
+#: data.cpp:1082
 msgid "Salm"
 msgstr ""
 
-#: data.cpp:1075
+#: data.cpp:1083
 #, fuzzy
 msgid "Alkarab"
 msgstr "Ankara"
 
-#: data.cpp:1076
+#: data.cpp:1084
 msgid "Veritate"
 msgstr ""
 
-#: data.cpp:1077
+#: data.cpp:1085
 msgid "Poerava"
 msgstr ""
 
-#: data.cpp:1078
+#: data.cpp:1086
 msgid "Errai"
 msgstr "Errai"
 
-#: data.cpp:1079
+#: data.cpp:1087
 msgid "Axólotl"
 msgstr ""
 
-#: data.cpp:1080
+#: data.cpp:1088
 msgid "Milky Way"
 msgstr "Melkweg"
 
-#: data.cpp:1081
+#: data.cpp:1089
 msgid "LMC"
 msgstr "Grote Magellaanse Wolken"
 
-#: data.cpp:1082
+#: data.cpp:1090
 msgid "SMC"
 msgstr "Kleine Magellaanse Wolken"
 
-#: data.cpp:1083
+#: data.cpp:1091
 msgid "Pleiades"
 msgstr "Plejaden"
 
-#: data.cpp:1084
+#: data.cpp:1092
 msgid "Hyades"
 msgstr "Hyaden"
 
-#: data.cpp:1085
+#: data.cpp:1093
 msgid "Praesepe"
 msgstr "Praesepe"
 
-#: data.cpp:1086
+#: data.cpp:1094
 msgid "Beehive Cluster"
 msgstr "Bijenkorfcluster"
 
-#: data.cpp:1087
+#: data.cpp:1095
 msgid "Maffei 1"
 msgstr "Maffei 1"
 
-#: data.cpp:1088
+#: data.cpp:1096
 msgid "Maffei 2"
 msgstr "Maffei 2"
 
-#: data.cpp:1089
+#: data.cpp:1097
 msgid "Leo A"
 msgstr "Leeuw A"
 
-#: data.cpp:1090
+#: data.cpp:1098
 msgid "Sextans B"
 msgstr "Sextant B"
 
-#: data.cpp:1091
+#: data.cpp:1099
 msgid "Leo I"
 msgstr "Leeuw I"
 
-#: data.cpp:1092
+#: data.cpp:1100
 msgid "Sextans A"
 msgstr "Sextant A"
 
-#: data.cpp:1094
+#: data.cpp:1101
+#, fuzzy
+msgid "Circinus"
+msgstr "Passer"
+
+#: data.cpp:1102
 msgid "Andromeda Galaxy"
 msgstr ""
 
-#: data.cpp:1095
+#: data.cpp:1103
 msgid "Triangulum Galaxy"
 msgstr ""
 
-#: data.cpp:1096
+#: data.cpp:1104
 msgid "Holmberg VI"
 msgstr "Holmberg VI"
 
-#: data.cpp:1097
+#: data.cpp:1105
 msgid "Fath 703"
 msgstr "Fath 703"
 
-#: data.cpp:1098
+#: data.cpp:1106
 msgid "47 Tuc"
 msgstr "47 Tuc"
 
-#: data.cpp:1101
+#: data.cpp:1107
+#, fuzzy
+msgid "Eridanus"
+msgstr "Eridanus"
+
+#: data.cpp:1108
+#, fuzzy
+msgid "Pyxis"
+msgstr "Kompas"
+
+#: data.cpp:1109
 msgid "Tonantzintla 2"
 msgstr "Tonantzintla 2"
 
