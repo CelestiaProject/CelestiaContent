@@ -1,27 +1,28 @@
 # SPDX-FileCopyrightText: Celestia Development Team, Translators
 # SPDX-License-Identifier: GPL-2.0-or-later
-#
-# Simplied Chinese translations for CELESTIA package.
-# Copyright (C) 2006 Chris Laurel
-# This file is distributed under the same license as the CELESTIA package.
-# Joe ZhaoZhengxu <zhaozhengxu@yahoo.com>, 2006.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Celestia Development Team
+# This file is distributed under the same license as the celestia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Hleb Valoshka <375gnu@gmail.com>, 2023
+# Levin Li <lilinfeng.app@outlook.com>, 2024
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: CELESTIA-Chinese\n"
+"Project-Id-Version: celestia 1.7.0\n"
 "Report-Msgid-Bugs-To: team@celestiaproject.space\n"
 "POT-Creation-Date: 2024-11-10 13:12+0100\n"
-"PO-Revision-Date: 2006-08-09 12:18+0900\n"
-"Last-Translator: Joe ZhaoZhengxu <zhaozhengxu@yahoo.com>\n"
-"Language-Team: Chinese <zhaozhengxu@yahoo.com>\n"
-"Language: zh\n"
+"PO-Revision-Date: 2023-11-03 11:00+0000\n"
+"Last-Translator: Levin Li <lilinfeng.app@outlook.com>, 2024\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/celestia/teams/93131/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Language: Chinese\n"
-"X-Poedit-Country: P R CHINA\n"
-"X-Poedit-SourceCharset: utf-8\n"
 
 #: data.cpp:1
 msgctxt "asterism"
@@ -401,12 +402,12 @@ msgstr "盾牌座"
 #: data.cpp:76
 msgctxt "asterism"
 msgid "Serpens Caput"
-msgstr "巨蛇座 头"
+msgstr "巨蛇座（头）"
 
 #: data.cpp:77
 msgctxt "asterism"
 msgid "Serpens Cauda"
-msgstr "巨蛇座 尾"
+msgstr "巨蛇座（尾）"
 
 #: data.cpp:78
 msgctxt "asterism"
@@ -621,9 +622,8 @@ msgid "Kerberos"
 msgstr "冥卫四"
 
 #: data.cpp:128
-#, fuzzy
 msgid "Hydra"
-msgstr "长蛇座"
+msgstr "冥卫三"
 
 #: data.cpp:129
 msgid "Ceres"
@@ -631,15 +631,15 @@ msgstr "谷神星"
 
 #: data.cpp:130
 msgid "Orcus-Vanth"
-msgstr ""
+msgstr "亡神星-亡卫一"
 
 #: data.cpp:131
 msgid "Orcus"
-msgstr ""
+msgstr "亡神星"
 
 #: data.cpp:132
 msgid "Vanth"
-msgstr ""
+msgstr "亡卫一"
 
 #: data.cpp:133
 msgid "Haumea"
@@ -655,29 +655,27 @@ msgstr "妊卫一"
 
 #: data.cpp:136
 msgid "Quaoar"
-msgstr ""
+msgstr "创神星"
 
 #: data.cpp:137
 msgid "Weywot"
-msgstr ""
+msgstr "创卫一"
 
 #: data.cpp:138
 msgid "Makemake"
 msgstr "鸟神星"
 
 #: data.cpp:139
-#, fuzzy
 msgid "S 2015 (136472) 1"
-msgstr "S-2015 136472 I"
+msgstr "S 2015 (136472) 1"
 
 #: data.cpp:140
 msgid "Gonggong"
-msgstr ""
+msgstr "共工"
 
 #: data.cpp:141
-#, fuzzy
 msgid "Xiangliu"
-msgstr "三角座"
+msgstr "共卫一"
 
 #: data.cpp:142
 msgid "Eris"
@@ -689,7 +687,7 @@ msgstr "阋卫一"
 
 #: data.cpp:144
 msgid "Sedna"
-msgstr ""
+msgstr "赛德娜"
 
 #: data.cpp:145
 msgid "Metis"
@@ -717,12 +715,11 @@ msgstr "木卫十八"
 
 #: data.cpp:151
 msgid "Ersa"
-msgstr ""
+msgstr "木卫七十一"
 
 #: data.cpp:152
-#, fuzzy
 msgid "Pandia"
-msgstr "土卫十七"
+msgstr "木卫六十五"
 
 #: data.cpp:153
 msgid "Himalia"
@@ -737,39 +734,36 @@ msgid "Elara"
 msgstr "木卫七"
 
 #: data.cpp:156
-#, fuzzy
 msgid "Dia"
-msgstr "土司空 Diphda"
+msgstr "木卫五十三"
 
 #: data.cpp:157
 msgid "Carpo"
-msgstr ""
+msgstr "木卫四十六"
 
 #: data.cpp:158
 msgid "Valetudo"
-msgstr ""
+msgstr "木卫六十二"
 
 #: data.cpp:159
 msgid "Euporie"
-msgstr ""
+msgstr "木卫三十四"
 
 #: data.cpp:160
-#, fuzzy
 msgid "Jupiter LV"
-msgstr "木星"
+msgstr "木卫五十五"
 
 #: data.cpp:161
 msgid "Eupheme"
-msgstr ""
+msgstr "木卫六十"
 
 #: data.cpp:162
 msgid "S 2003 J 16"
-msgstr ""
+msgstr "S 2003 J 16"
 
 #: data.cpp:163
-#, fuzzy
 msgid "Jupiter LXVIII"
-msgstr "木星"
+msgstr "木卫六十八"
 
 #: data.cpp:164
 msgid "Ananke"
@@ -781,12 +775,11 @@ msgstr "木卫二十二"
 
 #: data.cpp:166
 msgid "S 2003 J 12"
-msgstr ""
+msgstr "S 2003 J 12"
 
 #: data.cpp:167
-#, fuzzy
 msgid "Jupiter LII"
-msgstr "木星"
+msgstr "木卫五十二"
 
 #: data.cpp:168
 msgid "Praxidike"
@@ -794,20 +787,19 @@ msgstr "木卫二十七"
 
 #: data.cpp:169
 msgid "S 2003 J 2"
-msgstr ""
+msgstr "S 2003 J 2"
 
 #: data.cpp:170
 msgid "Euanthe"
-msgstr ""
+msgstr "木卫三十三"
 
 #: data.cpp:171
 msgid "Orthosie"
-msgstr ""
+msgstr "木卫三十五"
 
 #: data.cpp:172
-#, fuzzy
 msgid "Jupiter LXIV"
-msgstr "木星"
+msgstr "木卫六十四"
 
 #: data.cpp:173
 msgid "Iocaste"
@@ -815,43 +807,39 @@ msgstr "木卫二十四"
 
 #: data.cpp:174
 msgid "Mneme"
-msgstr ""
+msgstr "木卫四十"
 
 #: data.cpp:175
-#, fuzzy
 msgid "Thyone"
-msgstr "昴宿六 Alcyone"
+msgstr "木卫二十九"
 
 #: data.cpp:176
-#, fuzzy
 msgid "Jupiter LIV"
-msgstr "木星"
+msgstr "木卫五十四"
 
 #: data.cpp:177
 msgid "Thelxinoe"
-msgstr ""
+msgstr "木卫四十二"
 
 #: data.cpp:178
 msgid "Helike"
-msgstr ""
+msgstr "木卫四十五"
 
 #: data.cpp:179
 msgid "Hermippe"
-msgstr ""
+msgstr "木卫三十"
 
 #: data.cpp:180
 msgid "Philophrosyne"
-msgstr ""
+msgstr "木卫五十八"
 
 #: data.cpp:181
-#, fuzzy
 msgid "Jupiter LVI"
-msgstr "木星"
+msgstr "木卫五十六"
 
 #: data.cpp:182
-#, fuzzy
 msgid "Kallichore"
-msgstr "木卫十七"
+msgstr "木卫四十四"
 
 #: data.cpp:183
 msgid "Chaldene"
@@ -859,62 +847,55 @@ msgstr "木卫二十一"
 
 #: data.cpp:184
 msgid "Arche"
-msgstr ""
+msgstr "木卫四十三"
 
 #: data.cpp:185
-#, fuzzy
 msgid "Jupiter LXIX"
-msgstr "木星"
+msgstr "木卫六十九"
 
 #: data.cpp:186
 msgid "Kale"
-msgstr ""
+msgstr "木卫三十七"
 
 #: data.cpp:187
-#, fuzzy
 msgid "Jupiter LXXII"
-msgstr "木星"
+msgstr "木卫七十二"
 
 #: data.cpp:188
-#, fuzzy
 msgid "Jupiter LXI"
-msgstr "木星"
+msgstr "木卫六十一"
 
 #: data.cpp:189
-#, fuzzy
 msgid "Cyllene"
-msgstr "土卫十二"
+msgstr "木卫四十八"
 
 #: data.cpp:190
 msgid "Taygete"
 msgstr "木卫二十"
 
 #: data.cpp:191
-#, fuzzy
 msgid "Jupiter LXX"
-msgstr "木星"
+msgstr "木卫七十"
 
 #: data.cpp:192
 msgid "Eurydome"
-msgstr ""
+msgstr "木卫三十二"
 
 #: data.cpp:193
-#, fuzzy
 msgid "Jupiter LI"
-msgstr "木星"
+msgstr "木卫五十一"
 
 #: data.cpp:194
 msgid "S 2003 J 9"
-msgstr ""
+msgstr "S 2003 J 9"
 
 #: data.cpp:195
-#, fuzzy
 msgid "Jupiter LXVII"
-msgstr "木星"
+msgstr "木卫六十七"
 
 #: data.cpp:196
 msgid "Aitne"
-msgstr ""
+msgstr "木卫三十一"
 
 #: data.cpp:197
 msgid "Carme"
@@ -929,17 +910,16 @@ msgid "Erinome"
 msgstr "木卫二十五"
 
 #: data.cpp:200
-#, fuzzy
 msgid "Pasithee"
-msgstr "木卫八"
+msgstr "木卫三十八"
 
 #: data.cpp:201
 msgid "Eirene"
-msgstr ""
+msgstr "木卫五十七"
 
 #: data.cpp:202
 msgid "S 2003 J 24"
-msgstr ""
+msgstr "S 2003 J 24"
 
 #: data.cpp:203
 msgid "Sinope"
@@ -947,7 +927,7 @@ msgstr "木卫九"
 
 #: data.cpp:204
 msgid "Eukelade"
-msgstr ""
+msgstr "木卫四十七"
 
 #: data.cpp:205
 msgid "Isonoe"
@@ -955,17 +935,15 @@ msgstr "木卫二十六"
 
 #: data.cpp:206
 msgid "S 2003 J 4"
-msgstr ""
+msgstr "S 2003 J 4"
 
 #: data.cpp:207
-#, fuzzy
 msgid "Autonoe"
-msgstr "自动"
+msgstr "木卫二十八"
 
 #: data.cpp:208
-#, fuzzy
 msgid "Herse"
-msgstr "简单"
+msgstr "木卫五十"
 
 #: data.cpp:209
 msgid "Pasiphae"
@@ -973,24 +951,23 @@ msgstr "木卫八"
 
 #: data.cpp:210
 msgid "S 2003 J 10"
-msgstr ""
+msgstr "S 2003 J 10"
 
 #: data.cpp:211
 msgid "Kore"
-msgstr ""
+msgstr "木卫四十九"
 
 #: data.cpp:212
-#, fuzzy
 msgid "Jupiter LXIII"
-msgstr "木星"
+msgstr "木卫六十三"
 
 #: data.cpp:213
 msgid "Hegemone"
-msgstr ""
+msgstr "木卫三十九"
 
 #: data.cpp:214
 msgid "Sponde"
-msgstr ""
+msgstr "木卫三十六"
 
 #: data.cpp:215
 msgid "Kalyke"
@@ -998,7 +975,7 @@ msgstr "木卫二十三"
 
 #: data.cpp:216
 msgid "Aoede"
-msgstr ""
+msgstr "木卫四十一"
 
 #: data.cpp:217
 msgid "Megaclite"
@@ -1006,21 +983,19 @@ msgstr "木卫十九"
 
 #: data.cpp:218
 msgid "S 2003 J 23"
-msgstr ""
+msgstr "S 2003 J 23"
 
 #: data.cpp:219
-#, fuzzy
 msgid "Jupiter LXVI"
-msgstr "木星"
+msgstr "木卫六十六"
 
 #: data.cpp:220
-#, fuzzy
 msgid "Jupiter LIX"
-msgstr "木星"
+msgstr "木卫五十九"
 
 #: data.cpp:221
 msgid "S 2009 S 1"
-msgstr ""
+msgstr "S 2009 S 1"
 
 #: data.cpp:222
 msgid "Pan"
@@ -1028,7 +1003,7 @@ msgstr "土卫十八"
 
 #: data.cpp:223
 msgid "Daphnis"
-msgstr ""
+msgstr "土卫三十五"
 
 #: data.cpp:224
 msgid "Atlas"
@@ -1052,20 +1027,19 @@ msgstr "土卫十"
 
 #: data.cpp:229
 msgid "Aegaeon"
-msgstr ""
+msgstr "土卫五十三"
 
 #: data.cpp:230
 msgid "Methone"
-msgstr ""
+msgstr "土卫三十二"
 
 #: data.cpp:231
 msgid "Anthe"
-msgstr ""
+msgstr "土卫四十九"
 
 #: data.cpp:232
-#, fuzzy
 msgid "Pallene"
-msgstr "土卫十二"
+msgstr "土卫三十三"
 
 #: data.cpp:233
 msgid "Telesto"
@@ -1077,7 +1051,7 @@ msgstr "土卫十四"
 
 #: data.cpp:235
 msgid "Polydeuces"
-msgstr ""
+msgstr "土卫三十四"
 
 #: data.cpp:236
 msgid "Helene"
@@ -1085,242 +1059,235 @@ msgstr "土卫十二"
 
 #: data.cpp:237
 msgid "S 2019 S 1"
-msgstr ""
+msgstr "S 2019 S 1"
 
 #: data.cpp:238
 msgid "Kiviuq"
-msgstr ""
+msgstr "土卫二十四"
 
 #: data.cpp:239
 msgid "Ijiraq"
-msgstr ""
+msgstr "土卫二十二"
 
 #: data.cpp:240
 msgid "Paaliaq"
-msgstr ""
+msgstr "土卫二十"
 
 #: data.cpp:241
-#, fuzzy
 msgid "Skathi"
-msgstr "羽林军二十六 Skat"
+msgstr "土卫二十七"
 
 #: data.cpp:242
 msgid "S 2004 S 37"
-msgstr ""
+msgstr "S 2004 S 37"
 
 #: data.cpp:243
 msgid "S 2007 S 2"
-msgstr ""
+msgstr "S 2007 S 2"
 
 #: data.cpp:244
-#, fuzzy
 msgid "Albiorix"
-msgstr "辇道增七"
+msgstr "土卫二十六"
 
 #: data.cpp:245
 msgid "Bebhionn"
-msgstr ""
+msgstr "土卫三十七"
 
 #: data.cpp:246
 msgid "S 2004 S 31"
-msgstr ""
+msgstr "S 2004 S 31"
 
 #: data.cpp:247
-#, fuzzy
 msgid "Saturn LX"
-msgstr "土星"
+msgstr "土卫六十"
 
 #: data.cpp:248
 msgid "Skoll"
-msgstr ""
+msgstr "土卫四十七"
 
 #: data.cpp:249
 msgid "Tarqeq"
-msgstr ""
+msgstr "土卫五十二"
 
 #: data.cpp:250
 msgid "Tarvos"
-msgstr ""
+msgstr "土卫二十一"
 
 #: data.cpp:251
 msgid "Erriapus"
-msgstr ""
+msgstr "土卫二十八"
 
 #: data.cpp:252
 msgid "Siarnaq"
-msgstr ""
+msgstr "土卫二十九"
 
 #: data.cpp:253
 msgid "Greip"
-msgstr ""
+msgstr "土卫五十一"
 
 #: data.cpp:254
 msgid "Hyrrokkin"
-msgstr ""
+msgstr "土卫四十四"
 
 #: data.cpp:255
 msgid "Mundilfari"
-msgstr ""
+msgstr "土卫二十五"
 
 #: data.cpp:256
 msgid "S 2006 S 1"
-msgstr ""
+msgstr "S 2006 S 1"
 
 #: data.cpp:257
 msgid "S 2004 S 13"
-msgstr ""
+msgstr "S 2004 S 13"
 
 #: data.cpp:258
 msgid "S 2007 S 3"
-msgstr ""
+msgstr "S 2007 S 3"
 
 #: data.cpp:259
 msgid "Suttungr"
-msgstr ""
+msgstr "土卫二十三"
 
 #: data.cpp:260
 msgid "Gridr"
-msgstr ""
+msgstr "土卫五十四"
 
 #: data.cpp:261
 msgid "Narvi"
-msgstr ""
+msgstr "土卫三十一"
 
 #: data.cpp:262
 msgid "Jarnsaxa"
-msgstr ""
+msgstr "土卫五十"
 
 #: data.cpp:263
 msgid "S 2004 S 12"
-msgstr ""
+msgstr "S 2004 S 12"
 
 #: data.cpp:264
 msgid "Bergelmir"
-msgstr ""
+msgstr "土卫三十八"
 
 #: data.cpp:265
 msgid "Eggther"
-msgstr ""
+msgstr "土卫五十九"
 
 #: data.cpp:266
 msgid "S 2004 S 17"
-msgstr ""
+msgstr "S 2004 S 17"
 
 #: data.cpp:267
 msgid "Hati"
-msgstr ""
+msgstr "土卫四十三"
 
 #: data.cpp:268
 msgid "Farbauti"
-msgstr ""
+msgstr "土卫四十"
 
 #: data.cpp:269
 msgid "Thrymr"
-msgstr ""
+msgstr "土卫三十"
 
 #: data.cpp:270
 msgid "S 2004 S 7"
-msgstr ""
+msgstr "S 2004 S 7"
 
 #: data.cpp:271
-#, fuzzy
 msgid "Beli"
-msgstr "天卫十四"
+msgstr "土卫六十一"
 
 #: data.cpp:272
 msgid "Bestla"
-msgstr ""
+msgstr "土卫三十九"
 
 #: data.cpp:273
 msgid "Gerd"
-msgstr ""
+msgstr "土卫五十七"
 
 #: data.cpp:274
 msgid "Angrboda"
-msgstr ""
+msgstr "土卫五十五"
 
 #: data.cpp:275
 msgid "Gunnlod"
-msgstr ""
+msgstr "土卫六十二"
 
 #: data.cpp:276
 msgid "Aegir"
-msgstr ""
+msgstr "土卫三十六"
 
 #: data.cpp:277
 msgid "S 2006 S 3"
-msgstr ""
+msgstr "S 2006 S 3"
 
 #: data.cpp:278
 msgid "Alvaldi"
-msgstr ""
+msgstr "土卫六十五"
 
 #: data.cpp:279
 msgid "Kari"
-msgstr ""
+msgstr "土卫四十五"
 
 #: data.cpp:280
 msgid "Skrymir"
-msgstr ""
+msgstr "土卫五十六"
 
 #: data.cpp:281
 msgid "S 2004 S 28"
-msgstr ""
+msgstr "S 2004 S 28"
 
 #: data.cpp:282
 msgid "Fenrir"
-msgstr ""
+msgstr "土卫四十一"
 
 #: data.cpp:283
 msgid "Loge"
-msgstr ""
+msgstr "土卫四十六"
 
 #: data.cpp:284
 msgid "S 2004 S 21"
-msgstr ""
+msgstr "S 2004 S 21"
 
 #: data.cpp:285
 msgid "Geirrod"
-msgstr ""
+msgstr "土卫六十六"
 
 #: data.cpp:286
 msgid "S 2004 S 24"
-msgstr ""
+msgstr "S 2004 S 24"
 
 #: data.cpp:287
 msgid "S 2004 S 36"
-msgstr ""
+msgstr "S 2004 S 36"
 
 #: data.cpp:288
 msgid "Ymir"
-msgstr ""
+msgstr "土卫十九"
 
 #: data.cpp:289
 msgid "Surtur"
-msgstr ""
+msgstr "土卫四十八"
 
 #: data.cpp:290
 msgid "S 2004 S 39"
-msgstr ""
+msgstr "S 2004 S 39"
 
 #: data.cpp:291
-#, fuzzy
 msgid "Saturn LXIV"
-msgstr "土星"
+msgstr "土卫六十四"
 
 #: data.cpp:292
 msgid "Thiazzi"
-msgstr ""
+msgstr "土卫六十三"
 
 #: data.cpp:293
-#, fuzzy
 msgid "Fornjot"
-msgstr "天炉座"
+msgstr "土卫四十二"
 
 #: data.cpp:294
-#, fuzzy
 msgid "Saturn LVIII"
-msgstr "土星"
+msgstr "土卫五十八"
 
 #: data.cpp:295
 msgid "Cordelia"
@@ -1356,7 +1323,7 @@ msgstr "天卫十三"
 
 #: data.cpp:303
 msgid "Cupid"
-msgstr ""
+msgstr "天卫二十七"
 
 #: data.cpp:304
 msgid "Belinda"
@@ -1364,20 +1331,19 @@ msgstr "天卫十四"
 
 #: data.cpp:305
 msgid "Perdita"
-msgstr ""
+msgstr "天卫二十五"
 
 #: data.cpp:306
 msgid "Puck"
 msgstr "天卫十五"
 
 #: data.cpp:307
-#, fuzzy
 msgid "Mab"
-msgstr "Tab"
+msgstr "天卫二十六"
 
 #: data.cpp:308
 msgid "Francisco"
-msgstr ""
+msgstr "天卫二十二"
 
 #: data.cpp:309
 msgid "Caliban"
@@ -1389,7 +1355,7 @@ msgstr "天卫二十"
 
 #: data.cpp:311
 msgid "Trinculo"
-msgstr ""
+msgstr "天卫二十一"
 
 #: data.cpp:312
 msgid "Sycorax"
@@ -1397,7 +1363,7 @@ msgstr "天卫十七"
 
 #: data.cpp:313
 msgid "Margaret"
-msgstr ""
+msgstr "天卫二十三"
 
 #: data.cpp:314
 msgid "Prospero"
@@ -1409,7 +1375,7 @@ msgstr "天卫十九"
 
 #: data.cpp:316
 msgid "Ferdinand"
-msgstr ""
+msgstr "天卫二十四"
 
 #: data.cpp:317
 msgid "Naiad"
@@ -1433,29 +1399,27 @@ msgstr "海卫七"
 
 #: data.cpp:322
 msgid "Hippocamp"
-msgstr ""
+msgstr "海卫十四"
 
 #: data.cpp:323
-#, fuzzy
 msgid "Halimede"
-msgstr "木卫三"
+msgstr "海卫九"
 
 #: data.cpp:324
-#, fuzzy
 msgid "Sao"
-msgstr "太阳"
+msgstr "海卫十一"
 
 #: data.cpp:325
 msgid "Laomedeia"
-msgstr ""
+msgstr "海卫十二"
 
 #: data.cpp:326
 msgid "Psamathe"
-msgstr ""
+msgstr "海卫十"
 
 #: data.cpp:327
 msgid "Neso"
-msgstr ""
+msgstr "海卫十三"
 
 #: data.cpp:328
 msgid "NORTH AMERICA"
@@ -1567,7 +1531,7 @@ msgstr "阿斯马拉"
 
 #: data.cpp:355
 msgid "Astana"
-msgstr ""
+msgstr "阿斯塔纳"
 
 #: data.cpp:356
 msgid "Asuncion"
@@ -1847,7 +1811,7 @@ msgstr "赫尔辛基"
 
 #: data.cpp:425
 msgid "Hong Kong"
-msgstr ""
+msgstr "香港"
 
 #: data.cpp:426
 msgid "Honiara"
@@ -2491,7 +2455,7 @@ msgstr "壁宿一 Algenib"
 
 #: data.cpp:587
 msgid "Citadelle"
-msgstr ""
+msgstr "Citadelle"
 
 #: data.cpp:588
 msgid "Schemali"
@@ -2503,11 +2467,11 @@ msgstr "火鸟六 Ankaa"
 
 #: data.cpp:590
 msgid "Felixvarela"
-msgstr ""
+msgstr "Felixvarela"
 
 #: data.cpp:591
 msgid "Fulu"
-msgstr ""
+msgstr "附路 Fulu"
 
 #: data.cpp:592
 msgid "Schedar"
@@ -2527,7 +2491,7 @@ msgstr "Deneb Kaitos"
 
 #: data.cpp:596
 msgid "Cocibolca"
-msgstr ""
+msgstr "Cocibolca"
 
 #: data.cpp:597
 msgid "Achird"
@@ -2538,9 +2502,8 @@ msgid "Van Maanen 2"
 msgstr "范马南2"
 
 #: data.cpp:599
-#, fuzzy
 msgid "Castula"
-msgstr "北河二 Castor"
+msgstr "Castula"
 
 #: data.cpp:600
 msgid "Navi"
@@ -2548,11 +2511,11 @@ msgstr "策 Navi"
 
 #: data.cpp:601
 msgid "Nenque"
-msgstr ""
+msgstr "Nenque"
 
 #: data.cpp:602
 msgid "Wurren"
-msgstr ""
+msgstr "水委二 Wurren"
 
 #: data.cpp:603
 msgid "Mirach"
@@ -2560,11 +2523,11 @@ msgstr "奎宿九 Mirach"
 
 #: data.cpp:604
 msgid "Emiw"
-msgstr ""
+msgstr "Emiw"
 
 #: data.cpp:605
 msgid "Revati"
-msgstr ""
+msgstr "外屏三 Revati"
 
 #: data.cpp:606
 msgid "Adhil"
@@ -2572,21 +2535,19 @@ msgstr "奎宿七 Adhil"
 
 #: data.cpp:607
 msgid "Bélénos"
-msgstr ""
+msgstr " Bélénos"
 
 #: data.cpp:608
 msgid "Ruchbah"
 msgstr "阁道三 Ruchbah"
 
 #: data.cpp:609
-#, fuzzy
 msgid "Alpherg"
-msgstr "壁宿二 Alpheratz"
+msgstr "右更二 Alpherg"
 
 #: data.cpp:610
-#, fuzzy
 msgid "Titawin"
-msgstr "土卫六"
+msgstr "天大将军六 Titawin"
 
 #: data.cpp:611
 msgid "Achernar"
@@ -2594,15 +2555,15 @@ msgstr "水委一 Achernar"
 
 #: data.cpp:612
 msgid "Nembus"
-msgstr ""
+msgstr "天大将军三 Nembus"
 
 #: data.cpp:613
 msgid "Torcular"
-msgstr ""
+msgstr "右更四 Torcular"
 
 #: data.cpp:614
 msgid "Torcularis Septentrionalis"
-msgstr ""
+msgstr "右更四 Torcularis Septentrionalis"
 
 #: data.cpp:615
 msgid "Baten Kaitos"
@@ -2610,7 +2571,7 @@ msgstr "天仓四 Baten Kaitos"
 
 #: data.cpp:616
 msgid "Mothallah"
-msgstr ""
+msgstr "娄宿增六 Mothallah"
 
 #: data.cpp:617
 msgid "Caput Trianguli"
@@ -2629,9 +2590,8 @@ msgid "Sheratan"
 msgstr "娄宿一 Sheratan"
 
 #: data.cpp:621
-#, fuzzy
 msgid "Alrescha"
-msgstr "Al Rescha"
+msgstr "外屏七 Alrescha"
 
 #: data.cpp:622
 msgid "Al Rescha"
@@ -2663,33 +2623,31 @@ msgstr "勾陈一  Polaris"
 
 #: data.cpp:629
 msgid "Buna"
-msgstr ""
+msgstr "Buna"
 
 #: data.cpp:630
 msgid "Kaffaljidhma"
-msgstr ""
+msgstr "天囷八 Kaffaljidhma"
 
 #: data.cpp:631
 msgid "Koeia"
-msgstr ""
+msgstr "Koeia"
 
 #: data.cpp:632
 msgid "Lilii Borea"
-msgstr ""
+msgstr "胃宿二 Lilii Borea"
 
 #: data.cpp:633
 msgid "Nushagak"
-msgstr ""
+msgstr "Nushagak"
 
 #: data.cpp:634
-#, fuzzy
 msgid "Bharani"
-msgstr "常陈四 Chara"
+msgstr "胃宿三 Bharani"
 
 #: data.cpp:635
-#, fuzzy
 msgid "Miram"
-msgstr "刍藁增二 Mira"
+msgstr "天船一 Miram"
 
 #: data.cpp:636
 msgid "Angetenar"
@@ -2705,7 +2663,7 @@ msgstr "天园六 Acamar"
 
 #: data.cpp:639
 msgid "Ayeyarwady"
-msgstr ""
+msgstr "Ayeyarwady"
 
 #: data.cpp:640
 msgid "Menkar"
@@ -2721,7 +2679,7 @@ msgstr "大陵五 Algol"
 
 #: data.cpp:643
 msgid "Misam"
-msgstr ""
+msgstr "大陵四 Misam"
 
 #: data.cpp:644
 msgid "Botein"
@@ -2729,15 +2687,15 @@ msgstr "天阴四 Botein"
 
 #: data.cpp:645
 msgid "Dalim"
-msgstr ""
+msgstr "天苑增三 Dalim"
 
 #: data.cpp:646
 msgid "Zibal"
-msgstr ""
+msgstr "天苑五 Zibal"
 
 #: data.cpp:647
 msgid "Intan"
-msgstr ""
+msgstr "Intan"
 
 #: data.cpp:648
 msgid "Mirfak"
@@ -2752,13 +2710,12 @@ msgid "Marfak"
 msgstr "Marfak"
 
 #: data.cpp:651
-#, fuzzy
 msgid "Ran"
-msgstr "天苑三 Rana"
+msgstr "天苑四 Ran"
 
 #: data.cpp:652
 msgid "Tupi"
-msgstr ""
+msgstr "Tupi"
 
 #: data.cpp:653
 msgid "Rana"
@@ -2818,15 +2775,15 @@ msgstr "九洲殊口增七 Keid"
 
 #: data.cpp:667
 msgid "Prima Hyadum"
-msgstr ""
+msgstr "毕宿四 Prima Hyadum"
 
 #: data.cpp:668
 msgid "Secunda Hyadum"
-msgstr ""
+msgstr "毕宿三 Secunda Hyadum"
 
 #: data.cpp:669
 msgid "Beemim"
-msgstr ""
+msgstr "天园十一 Beemim"
 
 #: data.cpp:670
 msgid "Ain"
@@ -2834,15 +2791,15 @@ msgstr "毕宿一 Ain"
 
 #: data.cpp:671
 msgid "Chamukuy"
-msgstr ""
+msgstr "毕宿六 Chamukuy"
 
 #: data.cpp:672
 msgid "Hoggar"
-msgstr ""
+msgstr "Hoggar"
 
 #: data.cpp:673
 msgid "Theemin"
-msgstr ""
+msgstr "天园十二 Theemin"
 
 #: data.cpp:674
 msgid "Aldebaran"
@@ -2850,34 +2807,31 @@ msgstr "毕宿五 Aldebaran"
 
 #: data.cpp:675
 msgid "Sceptrum"
-msgstr ""
+msgstr "九斿增四 Sceptrum"
 
 #: data.cpp:676
-#, fuzzy
 msgid "Tabit"
-msgstr "参宿增卅六 Thabit"
+msgstr "参旗六 Tabit"
 
 #: data.cpp:677
 msgid "Mouhoun"
-msgstr ""
+msgstr "Mouhoun"
 
 #: data.cpp:678
 msgid "Hassaleh"
-msgstr ""
+msgstr "五车一 Hassaleh"
 
 #: data.cpp:679
 msgid "Hind's Crimson Star"
 msgstr "欣德深红星 Hind's Crimson Star"
 
 #: data.cpp:680
-#, fuzzy
 msgid "Almaaz"
-msgstr "Almaak"
+msgstr "柱一 Almaaz"
 
 #: data.cpp:681
-#, fuzzy
 msgid "Saclateni"
-msgstr "海卫六"
+msgstr "柱二 Saclateni"
 
 #: data.cpp:682
 msgid "Sadatoni"
@@ -2885,7 +2839,7 @@ msgstr "Sadatoni"
 
 #: data.cpp:683
 msgid "Haedus"
-msgstr ""
+msgstr "柱三 Haedus"
 
 #: data.cpp:684
 msgid "Cursa"
@@ -2893,7 +2847,7 @@ msgstr "玉井三 Cursa"
 
 #: data.cpp:685
 msgid "Mago"
-msgstr ""
+msgstr "Mago"
 
 #: data.cpp:686
 msgid "Kapteyn's Star"
@@ -2945,7 +2899,7 @@ msgstr "Heka"
 
 #: data.cpp:698
 msgid "Hatysa"
-msgstr ""
+msgstr "伐三 Hatysa"
 
 #: data.cpp:699
 msgid "Alnilam"
@@ -2953,12 +2907,11 @@ msgstr "参宿二 Alnilam"
 
 #: data.cpp:700
 msgid "Bubup"
-msgstr ""
+msgstr "Bubup"
 
 #: data.cpp:701
-#, fuzzy
 msgid "Tianguan"
-msgstr "三角形"
+msgstr "天关 Tianguan"
 
 #: data.cpp:702
 msgid "Phact"
@@ -2990,21 +2943,19 @@ msgstr "五车三 Menkalinan"
 
 #: data.cpp:709
 msgid "Mahasim"
-msgstr ""
+msgstr "五车四 Mahasim"
 
 #: data.cpp:710
-#, fuzzy
 msgid "Elkurud"
-msgstr "孙增一 Furud"
+msgstr "孙二 Elkurud"
 
 #: data.cpp:711
 msgid "Amadioha"
-msgstr ""
+msgstr "Amadioha"
 
 #: data.cpp:712
-#, fuzzy
 msgid "Propus"
-msgstr "老人 Canopus"
+msgstr "钺 Propus"
 
 #: data.cpp:713
 msgid "Red Rectangle"
@@ -3036,16 +2987,15 @@ msgstr "Suhel"
 
 #: data.cpp:720
 msgid "Lucilinburhuc"
-msgstr ""
+msgstr "Lucilinburhuc"
 
 #: data.cpp:721
 msgid "Lusitânia"
-msgstr ""
+msgstr " Lusitânia"
 
 #: data.cpp:722
-#, fuzzy
 msgid "Plaskett's Star"
-msgstr "最近的恒星"
+msgstr "普拉斯基特星"
 
 #: data.cpp:723
 msgid "Alhena"
@@ -3057,7 +3007,7 @@ msgstr "Almeisan"
 
 #: data.cpp:725
 msgid "Nosaxa"
-msgstr ""
+msgstr "Nosaxa"
 
 #: data.cpp:726
 msgid "Mebsuta"
@@ -3069,11 +3019,11 @@ msgstr "天狼 Sirius"
 
 #: data.cpp:728
 msgid "Alzirr"
-msgstr ""
+msgstr "井宿四 Alzirr"
 
 #: data.cpp:729
 msgid "Nervia"
-msgstr ""
+msgstr "Nervia"
 
 #: data.cpp:730
 msgid "Adhara"
@@ -3085,11 +3035,11 @@ msgstr "Adara"
 
 #: data.cpp:732
 msgid "Citalá"
-msgstr ""
+msgstr " Citalá"
 
 #: data.cpp:733
 msgid "Unurgunite"
-msgstr ""
+msgstr "弧矢增二 Unurgunite"
 
 #: data.cpp:734
 msgid "Muliphein"
@@ -3129,7 +3079,7 @@ msgstr "北河二 Castor"
 
 #: data.cpp:743
 msgid "Jishui"
-msgstr ""
+msgstr "北河增二 Jishui"
 
 #: data.cpp:744
 msgid "Procyon"
@@ -3141,7 +3091,7 @@ msgstr "Elgomaisa"
 
 #: data.cpp:746
 msgid "Ceibo"
-msgstr ""
+msgstr "Ceibo"
 
 #: data.cpp:747
 msgid "Pollux"
@@ -3149,12 +3099,11 @@ msgstr "北河三 Pollux"
 
 #: data.cpp:748
 msgid "Tapecue"
-msgstr ""
+msgstr "Tapecue"
 
 #: data.cpp:749
-#, fuzzy
 msgid "Azmidi"
-msgstr "Asmidiske"
+msgstr " 弧矢增十七 Azmidi"
 
 #: data.cpp:750
 msgid "Asmidiske"
@@ -3166,7 +3115,7 @@ msgstr "弧矢增廿二 Naos"
 
 #: data.cpp:752
 msgid "Tureis"
-msgstr ""
+msgstr " 弧矢增三十二 Tureis"
 
 #: data.cpp:753
 msgid "Regor"
@@ -3177,9 +3126,8 @@ msgid "Tegmine"
 msgstr "水位四 Tegmine"
 
 #: data.cpp:755
-#, fuzzy
 msgid "Tarf"
-msgstr "Al Tarf"
+msgstr "柳宿增十 Tarf"
 
 #: data.cpp:756
 msgid "Al Tarf"
@@ -3187,11 +3135,11 @@ msgstr "Al Tarf"
 
 #: data.cpp:757
 msgid "Násti"
-msgstr ""
+msgstr " Násti"
 
 #: data.cpp:758
 msgid "Piautos"
-msgstr ""
+msgstr " 爟二 Piautos"
 
 #: data.cpp:759
 msgid "Avior"
@@ -3199,24 +3147,23 @@ msgstr "海石一 Avior"
 
 #: data.cpp:760
 msgid "Alsciaukat"
-msgstr ""
+msgstr "上台增四 Alsciaukat"
 
 #: data.cpp:761
 msgid "Muscida"
 msgstr "内阶一 Muscida"
 
 #: data.cpp:762
-#, fuzzy
 msgid "Minchir"
-msgstr "王良三 Ksora"
+msgstr "柳宿二 Minchir"
 
 #: data.cpp:763
 msgid "Gakyid"
-msgstr ""
+msgstr "Gakyid"
 
 #: data.cpp:764
 msgid "Meleph"
-msgstr ""
+msgstr "积尸增三 Meleph"
 
 #: data.cpp:765
 msgid "Asellus Borealis"
@@ -3228,19 +3175,19 @@ msgstr "鬼宿四 Asellus Australis"
 
 #: data.cpp:767
 msgid "Alsephina"
-msgstr ""
+msgstr "天社三 Alsephina"
 
 #: data.cpp:768
 msgid "Ashlesha"
-msgstr ""
+msgstr "柳宿五 Ashlesha"
 
 #: data.cpp:769
 msgid "Copernicus"
-msgstr ""
+msgstr "轩辕增十九 Copernicus"
 
 #: data.cpp:770
 msgid "Stribor"
-msgstr ""
+msgstr "Stribor"
 
 #: data.cpp:771
 msgid "Acubens"
@@ -3248,7 +3195,7 @@ msgstr "柳宿增三 Acubens"
 
 #: data.cpp:772
 msgid "Talitha"
-msgstr ""
+msgstr "Talitha"
 
 #: data.cpp:773
 msgid "Dnoces"
@@ -3256,7 +3203,7 @@ msgstr "Dnoces"
 
 #: data.cpp:774
 msgid "Alkaphrah"
-msgstr ""
+msgstr "Alkaphrah"
 
 #: data.cpp:775
 msgid "Talitha Australis"
@@ -3268,7 +3215,7 @@ msgstr "天纪 Suhail"
 
 #: data.cpp:777
 msgid "Nahn"
-msgstr ""
+msgstr "轩辕增廿四 Nahn"
 
 #: data.cpp:778
 msgid "Miaplacidus"
@@ -3279,9 +3226,8 @@ msgid "Aspidiske"
 msgstr "海石二 Aspidiske"
 
 #: data.cpp:780
-#, fuzzy
 msgid "Markeb"
-msgstr "室宿一 Markab"
+msgstr "天社五 Markeb"
 
 #: data.cpp:781
 msgid "Alphard"
@@ -3293,7 +3239,7 @@ msgstr "Cor Hydrae"
 
 #: data.cpp:783
 msgid "Intercrus"
-msgstr ""
+msgstr "上台增七 Intercrus"
 
 #: data.cpp:784
 msgid "Alterf"
@@ -3301,11 +3247,11 @@ msgstr "轩辕八 Alterf"
 
 #: data.cpp:785
 msgid "Illyrian"
-msgstr ""
+msgstr "Illyrian"
 
 #: data.cpp:786
 msgid "Kalausi"
-msgstr ""
+msgstr "Kalausi"
 
 #: data.cpp:787
 msgid "Ukdah"
@@ -3321,11 +3267,11 @@ msgstr "Ras Elased Australis"
 
 #: data.cpp:790
 msgid "Natasha"
-msgstr ""
+msgstr "Natasha"
 
 #: data.cpp:791
 msgid "Zhang"
-msgstr ""
+msgstr "张宿一 Zhang"
 
 #: data.cpp:792
 msgid "Rasalas"
@@ -3337,11 +3283,11 @@ msgstr "Ras Elased Borealis"
 
 #: data.cpp:794
 msgid "Felis"
-msgstr ""
+msgstr "Felis"
 
 #: data.cpp:795
 msgid "Bibhā"
-msgstr ""
+msgstr " Bibhā"
 
 #: data.cpp:796
 msgid "Regulus"
@@ -3376,18 +3322,16 @@ msgid "Tania Australis"
 msgstr "中台二 Tania Australis"
 
 #: data.cpp:804
-#, fuzzy
 msgid "Macondo"
-msgstr "伦敦"
+msgstr "Macondo"
 
 #: data.cpp:805
 msgid "Praecipua"
-msgstr ""
+msgstr "势四 Praecipua"
 
 #: data.cpp:806
-#, fuzzy
 msgid "Chalawan"
-msgstr "木卫二十一"
+msgstr "天牢三 Chalawan"
 
 #: data.cpp:807
 msgid "Alkes"
@@ -3411,7 +3355,7 @@ msgstr "Dubb"
 
 #: data.cpp:812
 msgid "Dingolay"
-msgstr ""
+msgstr "Dingolay"
 
 #: data.cpp:813
 msgid "Zosma"
@@ -3435,11 +3379,11 @@ msgstr "Chort"
 
 #: data.cpp:818
 msgid "Innes' Star"
-msgstr ""
+msgstr "Innes' Star"
 
 #: data.cpp:819
 msgid "Hunahpú"
-msgstr ""
+msgstr " Hunahpú"
 
 #: data.cpp:820
 msgid "Alula Australis"
@@ -3454,39 +3398,36 @@ msgid "Tsze Tseang"
 msgstr "Tsze Tseang"
 
 #: data.cpp:823
-#, fuzzy
 msgid "Shama"
-msgstr "左旗一 Sham"
+msgstr "Shama"
 
 #: data.cpp:824
 msgid "Giausar"
 msgstr "上辅 Giausar"
 
 #: data.cpp:825
-#, fuzzy
 msgid "Formosa"
-msgstr "格式："
+msgstr "Formosa"
 
 #: data.cpp:826
 msgid "Sagarmatha"
-msgstr ""
+msgstr "Sagarmatha"
 
 #: data.cpp:827
 msgid "Przybylski's Star"
-msgstr ""
+msgstr "普瑞兹毕尔斯基星"
 
 #: data.cpp:828
 msgid "Uklun"
-msgstr ""
+msgstr "Uklun"
 
 #: data.cpp:829
-#, fuzzy
 msgid "Flegetonte"
-msgstr "乔治敦"
+msgstr "Flegetonte"
 
 #: data.cpp:830
 msgid "Taiyangshou"
-msgstr ""
+msgstr " 太阳守 Taiyangshou"
 
 #: data.cpp:831
 msgid "Denebola"
@@ -3501,9 +3442,8 @@ msgid "Alaraph"
 msgstr "Alaraph"
 
 #: data.cpp:834
-#, fuzzy
 msgid "Aniara"
-msgstr "霍尼亚拉"
+msgstr "Aniara"
 
 #: data.cpp:835
 msgid "Groombridge 1830"
@@ -3519,7 +3459,7 @@ msgstr "Phad"
 
 #: data.cpp:838
 msgid "Tonatiuh"
-msgstr ""
+msgstr "大理增二 Tonatiuh"
 
 #: data.cpp:839
 msgid "Alchiba"
@@ -3527,7 +3467,7 @@ msgstr "右辖 Alchiba"
 
 #: data.cpp:840
 msgid "Imai"
-msgstr ""
+msgstr "十字架四 Imai"
 
 #: data.cpp:841
 msgid "Megrez"
@@ -3543,11 +3483,11 @@ msgstr "左执法 Zaniah"
 
 #: data.cpp:844
 msgid "Ginan"
-msgstr ""
+msgstr " 十字架增一 Ginan"
 
 #: data.cpp:845
 msgid "Tupã"
-msgstr ""
+msgstr " Tupã"
 
 #: data.cpp:846
 msgid "Acrux"
@@ -3563,7 +3503,7 @@ msgstr "十字架一 Gacrux"
 
 #: data.cpp:849
 msgid "Funi"
-msgstr ""
+msgstr "Funi"
 
 #: data.cpp:850
 msgid "Chara"
@@ -3583,11 +3523,11 @@ msgstr "太微左垣二 东上相 Porrima"
 
 #: data.cpp:854
 msgid "La Superba"
-msgstr ""
+msgstr "La Superba"
 
 #: data.cpp:855
 msgid "Tianyi"
-msgstr ""
+msgstr "内厨一 Tianyi"
 
 #: data.cpp:856
 msgid "Mimosa"
@@ -3599,7 +3539,7 @@ msgstr "玉衡 Alioth"
 
 #: data.cpp:858
 msgid "Taiyi"
-msgstr ""
+msgstr "内厨二 Taiyi"
 
 #: data.cpp:859
 msgid "Minelauva"
@@ -3623,7 +3563,7 @@ msgstr "Almuredin"
 
 #: data.cpp:864
 msgid "Diadem"
-msgstr ""
+msgstr "东上将 Diadem"
 
 #: data.cpp:865
 msgid "Mizar"
@@ -3643,11 +3583,11 @@ msgstr "辅 Alcor"
 
 #: data.cpp:869
 msgid "Dofida"
-msgstr ""
+msgstr "Dofida"
 
 #: data.cpp:870
 msgid "Liesma"
-msgstr ""
+msgstr "Liesma"
 
 #: data.cpp:871
 msgid "Heze"
@@ -3683,7 +3623,7 @@ msgstr "库楼三 Menkent"
 
 #: data.cpp:879
 msgid "Kang"
-msgstr ""
+msgstr "亢宿一 Kang"
 
 #: data.cpp:880
 msgid "Arcturus"
@@ -3695,11 +3635,11 @@ msgstr "亢宿二 Syrma"
 
 #: data.cpp:882
 msgid "Xuange"
-msgstr ""
+msgstr "玄戈 Xuange"
 
 #: data.cpp:883
 msgid "Elgafar"
-msgstr ""
+msgstr "亢宿三 Elgafar"
 
 #: data.cpp:884
 msgid "Proxima"
@@ -3715,11 +3655,11 @@ msgstr "Ceginus"
 
 #: data.cpp:887
 msgid "Toliman"
-msgstr ""
+msgstr "南门二 Toliman"
 
 #: data.cpp:888
 msgid "Rigil Kentaurus"
-msgstr ""
+msgstr "南门二 Rigil Kentaurus"
 
 #: data.cpp:889
 msgid "Izar"
@@ -3735,11 +3675,11 @@ msgstr "Pulcherrima"
 
 #: data.cpp:892
 msgid "Mönch"
-msgstr ""
+msgstr " Mönch"
 
 #: data.cpp:893
 msgid "Merga"
-msgstr ""
+msgstr "玄戈增二 Merga"
 
 #: data.cpp:894
 msgid "Kochab"
@@ -3755,11 +3695,11 @@ msgstr "Zubenelgenubi"
 
 #: data.cpp:897
 msgid "Arcalís"
-msgstr ""
+msgstr " Arcalís"
 
 #: data.cpp:898
 msgid "Baekdu"
-msgstr ""
+msgstr "Baekdu"
 
 #: data.cpp:899
 msgid "Zuben Elakribi"
@@ -3771,20 +3711,19 @@ msgstr "七公增五 Nekkar"
 
 #: data.cpp:901
 msgid "Brachium"
-msgstr ""
+msgstr "折威七 Brachium"
 
 #: data.cpp:902
 msgid "Zubeneschamali"
 msgstr "氐宿四 Zubeneschamali"
 
 #: data.cpp:903
-#, fuzzy
 msgid "Pherkad Minor"
-msgstr "太子Pherkad"
+msgstr "天床增二 Pherkad Minor"
 
 #: data.cpp:904
 msgid "Nikawiy"
-msgstr ""
+msgstr "Nikawiy"
 
 #: data.cpp:905
 msgid "Pherkad"
@@ -3811,9 +3750,8 @@ msgid "Gemma"
 msgstr "Gemma"
 
 #: data.cpp:911
-#, fuzzy
 msgid "Zubenelhakrabi"
-msgstr "Zuben Elakrab"
+msgstr "氐宿三 Zubenelhakrabi"
 
 #: data.cpp:912
 msgid "Zuben Elakrab"
@@ -3821,7 +3759,7 @@ msgstr "Zuben Elakrab"
 
 #: data.cpp:913
 msgid "Karaka"
-msgstr ""
+msgstr "Karaka"
 
 #: data.cpp:914
 msgid "Unukalhai"
@@ -3833,15 +3771,15 @@ msgstr "Chow"
 
 #: data.cpp:916
 msgid "Gudja"
-msgstr ""
+msgstr "Gudja"
 
 #: data.cpp:917
 msgid "Iklil"
-msgstr ""
+msgstr "房宿二 Iklil"
 
 #: data.cpp:918
 msgid "Fang"
-msgstr ""
+msgstr "房宿一 Fang"
 
 #: data.cpp:919
 msgid "Dschubba"
@@ -3849,7 +3787,7 @@ msgstr "房宿三 Dschubba"
 
 #: data.cpp:920
 msgid "Acrab"
-msgstr ""
+msgstr "房宿四 Acrab"
 
 #: data.cpp:921
 msgid "Graffias"
@@ -3860,9 +3798,8 @@ msgid "Akrab"
 msgstr "Akrab"
 
 #: data.cpp:923
-#, fuzzy
 msgid "Marsic"
-msgstr "火星"
+msgstr "天市右垣三 Marsic"
 
 #: data.cpp:924
 msgid "Jabbah"
@@ -3870,33 +3807,31 @@ msgstr "建闭 Jabbah"
 
 #: data.cpp:925
 msgid "Sharjah"
-msgstr ""
+msgstr "Sharjah"
 
 #: data.cpp:926
 msgid "Yed Prior"
-msgstr ""
+msgstr "天市右垣九 Yed Prior"
 
 #: data.cpp:927
 msgid "Yed Posterior"
-msgstr ""
+msgstr "天市右垣十 Yed Posterior"
 
 #: data.cpp:928
 msgid "Hunor"
-msgstr ""
+msgstr "Hunor"
 
 #: data.cpp:929
-#, fuzzy
 msgid "Alniyat"
-msgstr "Al Niyat"
+msgstr "心宿一 Alniyat"
 
 #: data.cpp:930
 msgid "Al Niyat"
 msgstr "Al Niyat"
 
 #: data.cpp:931
-#, fuzzy
 msgid "Athebyne"
-msgstr "雅典"
+msgstr "少宰 Athebyne"
 
 #: data.cpp:932
 msgid "Cujam"
@@ -3904,7 +3839,7 @@ msgstr "斗一 Cujam"
 
 #: data.cpp:933
 msgid "Timir"
-msgstr ""
+msgstr "Timir"
 
 #: data.cpp:934
 msgid "Antares"
@@ -3916,7 +3851,7 @@ msgstr "天市右垣一 河中 Kornephoros"
 
 #: data.cpp:936
 msgid "Ogma"
-msgstr ""
+msgstr "Ogma"
 
 #: data.cpp:937
 msgid "Marfik"
@@ -3924,52 +3859,47 @@ msgstr "列肆二 Marfik"
 
 #: data.cpp:938
 msgid "Rosalíadecastro"
-msgstr ""
+msgstr " Rosalíadecastro"
 
 #: data.cpp:939
 msgid "Paikauhale"
-msgstr ""
+msgstr "心宿三 Paikauhale"
 
 #: data.cpp:940
 msgid "Atria"
 msgstr "三角形三 Atria"
 
 #: data.cpp:941
-#, fuzzy
 msgid "Larawag"
-msgstr "塔拉瓦"
+msgstr "尾宿二 Larawag"
 
 #: data.cpp:942
 msgid "Xamidimura"
-msgstr ""
+msgstr "尾宿一 Xamidimura"
 
 #: data.cpp:943
-#, fuzzy
 msgid "Pipirima"
-msgstr "太微左垣二 东上相 Porrima"
+msgstr "尾宿增二 Pipirima"
 
 #: data.cpp:944
 msgid "Mahsati"
-msgstr ""
+msgstr "Mahsati"
 
 #: data.cpp:945
-#, fuzzy
 msgid "Rapeto"
-msgstr "土卫八"
+msgstr "Rapeto"
 
 #: data.cpp:946
-#, fuzzy
 msgid "Alrakis"
-msgstr "Arrakis"
+msgstr "天棓增九 Alrakis"
 
 #: data.cpp:947
 msgid "Arrakis"
 msgstr "Arrakis"
 
 #: data.cpp:948
-#, fuzzy
 msgid "Aldhibah"
-msgstr "右辖 Alchiba"
+msgstr "上弼 Aldhibah"
 
 #: data.cpp:949
 msgid "Sabik"
@@ -3989,11 +3919,11 @@ msgstr "天市左垣一 魏 Sarin"
 
 #: data.cpp:953
 msgid "Guniibuu"
-msgstr ""
+msgstr "天江二 Guniibuu"
 
 #: data.cpp:954
 msgid "Inquill"
-msgstr ""
+msgstr "Inquill"
 
 #: data.cpp:955
 msgid "Rastaban"
@@ -4041,7 +3971,7 @@ msgstr "Dziban"
 
 #: data.cpp:966
 msgid "Girtab"
-msgstr ""
+msgstr "尾宿七 Girtab"
 
 #: data.cpp:967
 msgid "Cebalrai"
@@ -4049,16 +3979,15 @@ msgstr "宗正一 Cebalrai"
 
 #: data.cpp:968
 msgid "Alruba"
-msgstr ""
+msgstr "Alruba"
 
 #: data.cpp:969
-#, fuzzy
 msgid "Cervantes"
-msgstr "观测站"
+msgstr "Cervantes"
 
 #: data.cpp:970
 msgid "Fuyue"
-msgstr ""
+msgstr "傅说 Fuyue"
 
 #: data.cpp:971
 msgid "Grumium"
@@ -4078,7 +4007,7 @@ msgstr "巴纳德星 Barnard's Star"
 
 #: data.cpp:975
 msgid "Pincoya"
-msgstr ""
+msgstr "Pincoya"
 
 #: data.cpp:976
 msgid "Alnasl"
@@ -4086,7 +4015,7 @@ msgstr "箕宿一 Alnasl"
 
 #: data.cpp:977
 msgid "Polis"
-msgstr ""
+msgstr "斗宿三 Polis"
 
 #: data.cpp:978
 msgid "Kaus Media"
@@ -4094,7 +4023,7 @@ msgstr "箕宿二 Kaus Media"
 
 #: data.cpp:979
 msgid "Alasia"
-msgstr ""
+msgstr "Alasia"
 
 #: data.cpp:980
 msgid "Kaus Australis"
@@ -4106,7 +4035,7 @@ msgstr "织女增三 Al Athfar"
 
 #: data.cpp:982
 msgid "Fafnir"
-msgstr ""
+msgstr "扶筐增二 Fafnir"
 
 #: data.cpp:983
 msgid "Kaus Borealis"
@@ -4118,16 +4047,15 @@ msgstr "织女一 Vega"
 
 #: data.cpp:985
 msgid "Xihe"
-msgstr ""
+msgstr "Xihe"
 
 #: data.cpp:986
 msgid "Sheliak"
 msgstr "渐台二(Sheliak)"
 
 #: data.cpp:987
-#, fuzzy
 msgid "Ainalrami"
-msgstr "天钩五 Alderamin"
+msgstr "Ainalrami"
 
 #: data.cpp:988
 msgid "Nunki"
@@ -4135,7 +4063,7 @@ msgstr "斗宿四(Nunki)"
 
 #: data.cpp:989
 msgid "Kaveh"
-msgstr ""
+msgstr "Kaveh"
 
 #: data.cpp:990
 msgid "Alya"
@@ -4151,7 +4079,7 @@ msgstr "斗宿六 Ascella"
 
 #: data.cpp:993
 msgid "Okab"
-msgstr ""
+msgstr "天市左垣六 Okab"
 
 #: data.cpp:994
 msgid "Deneb el Okab"
@@ -4159,12 +4087,11 @@ msgstr "Deneb el Okab"
 
 #: data.cpp:995
 msgid "Meridiana"
-msgstr ""
+msgstr "鳖六 Meridiana"
 
 #: data.cpp:996
-#, fuzzy
 msgid "Albaldah"
-msgstr "女宿一 Albali"
+msgstr "建三 Albaldah"
 
 #: data.cpp:997
 msgid "Altais"
@@ -4183,18 +4110,16 @@ msgid "Aladfar"
 msgstr "辇道二"
 
 #: data.cpp:1001
-#, fuzzy
 msgid "Gumala"
-msgstr "危地马拉城"
+msgstr "Gumala"
 
 #: data.cpp:1002
 msgid "Belel"
-msgstr ""
+msgstr "Belel"
 
 #: data.cpp:1003
-#, fuzzy
 msgid "Arkab Prior"
-msgstr "Arkab"
+msgstr "天渊二 Arkab Prior"
 
 #: data.cpp:1004
 msgid "Arkab"
@@ -4202,11 +4127,11 @@ msgstr "Arkab"
 
 #: data.cpp:1005
 msgid "Sika"
-msgstr ""
+msgstr "Sika"
 
 #: data.cpp:1006
 msgid "Arkab Posterior"
-msgstr ""
+msgstr "天渊一 Arkab Posterior"
 
 #: data.cpp:1007
 msgid "Rukbat"
@@ -4214,7 +4139,7 @@ msgstr "天渊三 Rukbat"
 
 #: data.cpp:1008
 msgid "Anser"
-msgstr ""
+msgstr "齐增五 Anser"
 
 #: data.cpp:1009
 msgid "Albireo"
@@ -4222,7 +4147,7 @@ msgstr "辇道增七"
 
 #: data.cpp:1010
 msgid "Uruk"
-msgstr ""
+msgstr "Uruk"
 
 #: data.cpp:1011
 msgid "Alsafi"
@@ -4237,9 +4162,8 @@ msgid "Sham"
 msgstr "左旗一 Sham"
 
 #: data.cpp:1014
-#, fuzzy
 msgid "Fawaris"
-msgstr "巴黎"
+msgstr "天津二 Fawaris"
 
 #: data.cpp:1015
 msgid "Tarazed"
@@ -4259,7 +4183,7 @@ msgstr "Atair"
 
 #: data.cpp:1019
 msgid "Libertas"
-msgstr ""
+msgstr "河鼓增八 Libertas"
 
 #: data.cpp:1020
 msgid "Alshain"
@@ -4267,24 +4191,23 @@ msgstr "河鼓一 Alshain"
 
 #: data.cpp:1021
 msgid "Terebellum"
-msgstr ""
+msgstr "狗国一 Terebellum"
 
 #: data.cpp:1022
 msgid "Phoenicia"
-msgstr ""
+msgstr "Phoenicia"
 
 #: data.cpp:1023
 msgid "Chechia"
-msgstr ""
+msgstr "Chechia"
 
 #: data.cpp:1024
 msgid "Algedi"
 msgstr "牛宿二 Algedi"
 
 #: data.cpp:1025
-#, fuzzy
 msgid "Alshat"
-msgstr "河鼓一 Alshain"
+msgstr "牛宿增七 Alshat"
 
 #: data.cpp:1026
 msgid "Dabih"
@@ -4300,7 +4223,7 @@ msgstr "孔雀十一"
 
 #: data.cpp:1029
 msgid "Aldulfin"
-msgstr ""
+msgstr "败瓜一 Aldulfin"
 
 #: data.cpp:1030
 msgid "Rotanev"
@@ -4315,9 +4238,8 @@ msgid "Deneb"
 msgstr "天津四 Deneb"
 
 #: data.cpp:1033
-#, fuzzy
 msgid "Aljanah"
-msgstr "卢布尔雅那"
+msgstr "天津九 Aljanah"
 
 #: data.cpp:1034
 msgid "Albali"
@@ -4325,17 +4247,15 @@ msgstr "女宿一 Albali"
 
 #: data.cpp:1035
 msgid "Musica"
-msgstr ""
+msgstr "司非增二 Musica"
 
 #: data.cpp:1036
-#, fuzzy
 msgid "Polaris Australis"
-msgstr "箕宿三 Kaus Australis"
+msgstr "Polaris Australis"
 
 #: data.cpp:1037
-#, fuzzy
 msgid "Solaris"
-msgstr "勾陈一  Polaris"
+msgstr "Solaris"
 
 #: data.cpp:1038
 msgid "Kitalpha"
@@ -4358,13 +4278,12 @@ msgid "Sadalsuud"
 msgstr "虚宿一 Sadalsuud"
 
 #: data.cpp:1043
-#, fuzzy
 msgid "Bunda"
-msgstr "星座边界"
+msgstr "天垒城一 Bunda"
 
 #: data.cpp:1044
 msgid "Sāmaya"
-msgstr ""
+msgstr " Sāmaya"
 
 #: data.cpp:1045
 msgid "Nashira"
@@ -4376,16 +4295,15 @@ msgstr "螣蛇四 Azelfafage"
 
 #: data.cpp:1047
 msgid "Bosona"
-msgstr ""
+msgstr "Bosona"
 
 #: data.cpp:1048
 msgid "Herschel's Garnet Star"
 msgstr "赫歇尔的石榴石星 Herschel's Garnet Star"
 
 #: data.cpp:1049
-#, fuzzy
 msgid "Erakis"
-msgstr "Arrakis"
+msgstr "造父四 Erakis"
 
 #: data.cpp:1050
 msgid "Enif"
@@ -4396,9 +4314,8 @@ msgid "Deneb Algedi"
 msgstr "垒壁阵四 Deneb Algedi"
 
 #: data.cpp:1052
-#, fuzzy
 msgid "Aldhanab"
-msgstr "Al Dhanab"
+msgstr "败臼一 Aldhanab"
 
 #: data.cpp:1053
 msgid "Al Dhanab"
@@ -4406,7 +4323,7 @@ msgstr "Al Dhanab"
 
 #: data.cpp:1054
 msgid "Itonda"
-msgstr ""
+msgstr "Itonda"
 
 #: data.cpp:1055
 msgid "Kurhah"
@@ -4442,7 +4359,7 @@ msgstr "坟墓四 Seat"
 
 #: data.cpp:1063
 msgid "Lionrock"
-msgstr ""
+msgstr "狮子山 Lionrock"
 
 #: data.cpp:1064
 msgid "Kruger 60"
@@ -4458,7 +4375,7 @@ msgstr "雷电一 Homam"
 
 #: data.cpp:1067
 msgid "Tiaki"
-msgstr ""
+msgstr "鹤二 Tiaki"
 
 #: data.cpp:1068
 msgid "Matar"
@@ -4474,7 +4391,7 @@ msgstr "离宫二 Sadalbari"
 
 #: data.cpp:1071
 msgid "Hydor"
-msgstr ""
+msgstr "垒壁阵七 Hydor"
 
 #: data.cpp:1072
 msgid "Skat"
@@ -4482,7 +4399,7 @@ msgstr "羽林军二十六 Skat"
 
 #: data.cpp:1073
 msgid "Helvetios"
-msgstr ""
+msgstr "室宿增一 Helvetios"
 
 #: data.cpp:1074
 msgid "Fomalhaut"
@@ -4493,9 +4410,8 @@ msgid "Scheat"
 msgstr "室宿二 Scheat"
 
 #: data.cpp:1076
-#, fuzzy
 msgid "Fumalsamakah"
-msgstr "Fum al Samakah"
+msgstr "霹雳一 Fumalsamakah"
 
 #: data.cpp:1077
 msgid "Fum al Samakah"
@@ -4511,7 +4427,7 @@ msgstr "Marchab"
 
 #: data.cpp:1080
 msgid "Ebla"
-msgstr ""
+msgstr "Ebla"
 
 #: data.cpp:1081
 msgid "Bradley 3077"
@@ -4519,20 +4435,19 @@ msgstr "布拉德利3077 Bradley 3077"
 
 #: data.cpp:1082
 msgid "Salm"
-msgstr ""
+msgstr "离宫五 Salm"
 
 #: data.cpp:1083
-#, fuzzy
 msgid "Alkarab"
-msgstr "安卡拉"
+msgstr "Alkarab"
 
 #: data.cpp:1084
 msgid "Veritate"
-msgstr ""
+msgstr "螣蛇增九 Veritate"
 
 #: data.cpp:1085
 msgid "Poerava"
-msgstr ""
+msgstr "Poerava"
 
 #: data.cpp:1086
 msgid "Errai"
@@ -4540,7 +4455,7 @@ msgstr "少卫增八 Errai"
 
 #: data.cpp:1087
 msgid "Axólotl"
-msgstr ""
+msgstr " Axólotl"
 
 #: data.cpp:1088
 msgid "Milky Way"
@@ -4595,17 +4510,16 @@ msgid "Sextans A"
 msgstr "六分仪座A"
 
 #: data.cpp:1101
-#, fuzzy
 msgid "Circinus"
 msgstr "圆规座"
 
 #: data.cpp:1102
 msgid "Andromeda Galaxy"
-msgstr ""
+msgstr "仙女座星系"
 
 #: data.cpp:1103
 msgid "Triangulum Galaxy"
-msgstr ""
+msgstr "三角座星系"
 
 #: data.cpp:1104
 msgid "Holmberg VI"
@@ -4620,55 +4534,13 @@ msgid "47 Tuc"
 msgstr "杜鹃座47球状星团"
 
 #: data.cpp:1107
-#, fuzzy
 msgid "Eridanus"
 msgstr "波江座"
 
 #: data.cpp:1108
-#, fuzzy
 msgid "Pyxis"
 msgstr "罗盘座"
 
 #: data.cpp:1109
 msgid "Tonantzintla 2"
 msgstr "托南钦特拉2球状星团"
-
-#, fuzzy
-#~ msgid "Saturn LIV"
-#~ msgstr "土星"
-
-#, fuzzy
-#~ msgid "Saturn LIX"
-#~ msgstr "土星"
-
-#, fuzzy
-#~ msgid "Saturn LXI"
-#~ msgstr "土星"
-
-#, fuzzy
-#~ msgid "Saturn LVII"
-#~ msgstr "土星"
-
-#, fuzzy
-#~ msgid "Saturn LV"
-#~ msgstr "土星"
-
-#, fuzzy
-#~ msgid "Saturn LXII"
-#~ msgstr "土星"
-
-#, fuzzy
-#~ msgid "Saturn LXV"
-#~ msgstr "土星"
-
-#, fuzzy
-#~ msgid "Saturn LVI"
-#~ msgstr "土星"
-
-#, fuzzy
-#~ msgid "Saturn LXVI"
-#~ msgstr "土星"
-
-#, fuzzy
-#~ msgid "Saturn LXIII"
-#~ msgstr "土星"
