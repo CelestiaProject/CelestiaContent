@@ -714,10 +714,16 @@ Globular "NGC 5053:GCl 23:C 1313+179"
 	InfoURL "http://simbad.u-strasbg.fr/sim-id.pl?Ident=NGC 5053"
 }
 
+# Coordinates using the center from the below citation:
+# "New Limits on an Intermediate-Mass Black Hole in Omega
+# Centauri. I. Hubble Space Telescope Photometry and Proper
+# Motions" - Table 7
+# Jay Anderson and Roeland P. van der Marel 2010 ApJ 710 1032
+# DOI 10.1088/0004-637X/710/2/1032
 Globular "OME Cen:NGC 5139:HD 116790:GCl 24:C 1323-472"
 {
-	RA 13.446466
-	Dec -47.47947
+	RA 13.446456
+	Dec -47.4795694
 	Distance 17710.291
 	Radius 680.362
 	CoreRadius 2.722
