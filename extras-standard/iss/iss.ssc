@@ -1,0 +1,70 @@
+# International Space Station
+#
+# This is a 3D representation of the ISS created by NASA-VTAD
+# on April 22, 2019
+#
+# ORIGINAL LINK:
+# https://science.nasa.gov/resource/international-space-station-3d-model/
+#
+# The configuration shown is what the ISS looked like from May
+# 2011 until February 2015, shortly after STS-134 (Endeavour)
+# delivered the AMS and ELC-3 pallets to the station.
+#
+# Model and textures were converted for use in Celestia by 
+# DaveBowman2001
+#
+# Orbital elements used were retrieved from JPL HORIZONS using
+# Epoch 2024-Nov-20 (JD 2460634.5), i.e. the station's 26th
+# anniversary since launch
+# https://ssd.jpl.nasa.gov/horizons/app.html#/
+
+"ISS:International Space Station" "Sol/Earth"
+{
+	Class		 	"spacecraft"
+	Mesh			"iss.cmod"
+	MeshCenter		[ 0 6.25 -4.3 ]
+	Radius	 	 0.053
+	Orientation	[ 270 0 0 1 ]
+
+	Beginning "1998 11 20 06:40:00"
+	Ending    "2031 01 31 12:00:00"
+
+	EllipticalOrbit
+	{
+		Epoch            2460634.500000000
+		Period                 0.06448691329767722
+		SemiMajorAxis       6792.846110994838
+		Eccentricity           0.0000594628200184901
+		Inclination           51.49514061792917
+		AscendingNode        263.0862676506796
+		ArgOfPericenter       57.316336546355515
+		MeanAnomaly           65.13883776717572
+	}
+	FixedRotation	{ }
+	BodyFrame
+	{
+		TwoVector
+		{
+			Center	"Sol/Earth/ISS"
+			Primary
+			{
+				Axis	"-y"
+				RelativePosition
+				{
+					Observer	"Sol/Earth/ISS"
+					Target	"Sol/Earth"
+				}
+			}
+			Secondary
+			{
+				Axis	"x"
+				RelativeVelocity
+				{
+					Observer	"Sol/Earth/ISS"
+					Target	"Sol/Earth"
+				}
+			}
+		}
+	}
+	InfoURL	"https://en.wikipedia.org/wiki/International_Space_Station"
+}
