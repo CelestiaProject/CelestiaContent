@@ -20,7 +20,41 @@ jobs:
     - name: Checkout source code
       uses: actions/checkout@v4
 
-    - name: Validate licenses
+    - name: Validate licenses (pull request)
+      if: github.event_name == 'pull_request'
+      working-directory: ${{github.workspace}}
+      run: |
+        baseSha='${{ github.event.pull_request.base.sha }}'
+        git fetch origin --depth=1 $baseSha
+
+        quick_check=0
+        # check if there are no changes to REUSE.toml
+        if git diff --exit-code -s $baseSha HEAD -- REUSE.toml ; then
+          # check if there are no deletions from LICENSES
+          if git diff --exit-code -s --diff-filter=D $baseSha HEAD -- LICENSES ; then
+            echo "Performing quick check"
+            quick_check=1
+          else
+            echo "Found deleted license - performing full check"
+          fi
+        else
+          echo "REUSE.toml changed - performing full check"
+        fi
+
+        if [ "$quick_check" -eq 1 ] ; then
+          # normal PR - check modified files only
+          git diff --name-only $baseSha HEAD \
+            | sed -E 's/\.license$//' \
+            | sort -u \
+            | xargs -d '\n' ls -1d 2>/dev/null \
+            | xargs -d '\n' python3 -m pipx run reuse lint-file --
+        else
+          # we changed REUSE.toml or deleted a license - check everything
+          python3 -m pipx run reuse lint
+        fi
+
+    - name: Validate licenses (push)
+      if: github.event_name == 'push'
       working-directory: ${{github.workspace}}
       run: |
         python3 -m pipx run reuse lint

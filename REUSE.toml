@@ -1,0 +1,22 @@
+version = 1
+SPDX-PackageName = "Celestia Content"
+SPDX-PackageSupplier = "Celestia Development Team"
+SPDX-PackageDownloadLocation = "https://github.com/CelestiaProject/CelestiaContent"
+
+[[annotations]]
+path = "README"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Celestia Development Team"
+SPDX-License-Identifier = "GPL-2.0-or-later"
+
+[[annotations]]
+path = ".github/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Celestia Development Team"
+SPDX-License-Identifier = "GPL-2.0-or-later"
+
+[[annotations]]
+path = "debian/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2001-2002 Marcelo E. Magallon <mmagallo@debian.org>", "2003 Mika Fischer <mf@debian.org>", "2005 Mathias Weyland <mathias@weyland.ch>", "2007-2013 Guus Sliepen <guus@debian.org>", "2019 Celestia Development Team"]
+SPDX-License-Identifier = "GPL-2.0-or-later"
