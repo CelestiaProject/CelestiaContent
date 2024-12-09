@@ -3,6 +3,11 @@
 
 cmake_minimum_required(VERSION 3.8)
 
+# Normalize install(DESTINATION) paths
+if(POLICY CMP0177)
+  cmake_policy(SET CMP0177 NEW)
+endif()
+
 # set languages to C to stop GNUInstallDirs from complaining
 project(celestia VERSION "1.7.0" LANGUAGES C)
 
