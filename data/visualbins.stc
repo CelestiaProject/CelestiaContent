@@ -15,7 +15,7 @@
 # 'The Washington Visual Double Star Catalog (WDS) (Mason+ 2001-2009)',
 # http://cdsarc.u-strasbg.fr/viz-bin/Cat?B/wds,
 # and from redoubled entries in Celestia's 'spectbins.stc'
-# 
+#
 # Coordinates and distances for barycenters and numerous spectral types are from
 # Celestia's stars, ('stars.txt' merged with 'revised.stc'), based on
 # Floor van Leeuwen, 2007 'Hipparcos, the New Reduction of the Raw Data',
@@ -24,7 +24,10 @@
 #
 # Processed 2009-4-2 13:38:6 UTC
 # by Dr. Fridger Schrempp, fridger.schrempp@desy.de
-# ------------------------------------------------------ 
+# ------------------------------------------------------
+#
+# TDSC IDs sourced from https://cdsarc.cds.unistra.fr/viz-bin/cat/I/276 added
+# by Andrew Tribick, 2025-01-03
 
  Barycenter 2237 "CCDM J00284-2020AB"
  {
@@ -32,13 +35,13 @@
      Dec      -20.334777
      Distance 105.011912
  }
- 
+
  "CCDM J00284-2020A"
  {
      OrbitBarycenter "CCDM J00284-2020AB"
-     SpectralType    "G0V"                                            
-     AppMag          7.27 
- 
+     SpectralType    "G0V"
+     AppMag          7.27
+
      EllipticalOrbit {
          Period               5.650
          SemiMajorAxis        2.205 # mass ratio 1.29 : 1.32
@@ -54,8 +57,8 @@
  {
      OrbitBarycenter "CCDM J00284-2020AB"
      SpectralType    "G3V"    # lacking, used HIP data of the entire system!
-     AppMag          7.35 
- 
+     AppMag          7.35
+
      EllipticalOrbit {
          Period               5.650
          SemiMajorAxis        2.162 # mass ratio 1.29 : 1.32
@@ -73,13 +76,13 @@
      Dec       -3.592758
      Distance  69.323486
  }
- 
+
  "13 Cet A:BU Cet A:Gliese 23 A:ADS 490 A:CCDM J00352-0336A"
  {
      OrbitBarycenter "BU Cet"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
-     AppMag          5.61 
- 
+     AppMag          5.61
+
      EllipticalOrbit {
          Period               6.890
          SemiMajorAxis        1.933 # mass ratio 1.49 : 0.99
@@ -95,8 +98,8 @@
  {
      OrbitBarycenter "BU Cet"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
-     AppMag          6.88 
- 
+     AppMag          6.88
+
      EllipticalOrbit {
          Period               6.890
          SemiMajorAxis        2.885 # mass ratio 1.49 : 0.99
@@ -114,13 +117,13 @@
      Dec      -29.910563
      Distance  70.537846
  }
- 
+
  "BB Scl A:Gliese 60 A:CCDM J01350-2954A"
  {
      OrbitBarycenter "BB Scl"
      SpectralType    "K3V"    # lacking, used HIP data of the entire system!
-     AppMag          7.94 
- 
+     AppMag          7.94
+
      EllipticalOrbit {
          Period               4.561
          SemiMajorAxis        2.582 # mass ratio 0.74 : 1.71
@@ -136,8 +139,8 @@
  {
      OrbitBarycenter "BB Scl"
      SpectralType    "K3V"    # lacking, used HIP data of the entire system!
-     AppMag          8.12 
- 
+     AppMag          8.12
+
      EllipticalOrbit {
          Period               4.561
          SemiMajorAxis        1.123 # mass ratio 0.74 : 1.71
@@ -155,13 +158,13 @@
      Dec       -9.404052
      Distance 131.731422
  }
- 
+
  "CCDM J01376-0924A"
  {
      OrbitBarycenter "CCDM J01376-0924AB"
-     SpectralType    "F7V"                                            
-     AppMag          6.71 
- 
+     SpectralType    "F7V"
+     AppMag          6.71
+
      EllipticalOrbit {
          Period              29.000
          SemiMajorAxis        5.843 # mass ratio 1.13 : 1.05
@@ -177,8 +180,8 @@
  {
      OrbitBarycenter "CCDM J01376-0924AB"
      SpectralType    "F7V"    # lacking, used HIP data of the entire system!
-     AppMag          7.74 
- 
+     AppMag          7.74
+
      EllipticalOrbit {
          Period              29.000
          SemiMajorAxis        6.283 # mass ratio 1.13 : 1.05
@@ -196,13 +199,13 @@
      Dec      -11.871582
      Distance  70.068099
  }
- 
+
  "EPS Cet A:83 Cet A:CCDM J02396-1152A"
  {
      OrbitBarycenter "EPS Cet"
-     SpectralType    "F5V"                                            
-     AppMag          5.36 
- 
+     SpectralType    "F5V"
+     AppMag          5.36
+
      EllipticalOrbit {
          Period               2.654
          SemiMajorAxis        1.211 # mass ratio 1.41 : 1.19
@@ -217,9 +220,9 @@
  "EPS Cet B:83 Cet B:CCDM J02396-1152B"
  {
      OrbitBarycenter "EPS Cet"
-     SpectralType    "F6V"                                            
-     AppMag          6.12 
- 
+     SpectralType    "F6V"
+     AppMag          6.12
+
      EllipticalOrbit {
          Period               2.654
          SemiMajorAxis        1.425 # mass ratio 1.41 : 1.19
@@ -237,13 +240,13 @@
      Dec        7.716034
      Distance 118.519985
  }
- 
+
  "46 Tau A:ADS 3064 A:CCDM J04136+0743A"
  {
      OrbitBarycenter "46 Tau"
-     SpectralType    "F2V"                                            
-     AppMag          5.76 
- 
+     SpectralType    "F2V"
+     AppMag          5.76
+
      EllipticalOrbit {
          Period               7.200
          SemiMajorAxis        2.382 # mass ratio 1.15 : 1.10
@@ -258,9 +261,9 @@
  "46 Tau B:ADS 3064 B:CCDM J04136+0743B"
  {
      OrbitBarycenter "46 Tau"
-     SpectralType    "F5V"                                            
-     AppMag          6.67 
- 
+     SpectralType    "F5V"
+     AppMag          6.67
+
      EllipticalOrbit {
          Period               7.200
          SemiMajorAxis        2.507 # mass ratio 1.15 : 1.10
@@ -278,13 +281,13 @@
      Dec       21.579379
      Distance 176.306486
  }
- 
+
  "51 Tau A:CCDM J04184+2135A"
  {
      OrbitBarycenter "51 Tau"
-     SpectralType    "F0V"                                            
-     AppMag          5.87 
- 
+     SpectralType    "F0V"
+     AppMag          5.87
+
      EllipticalOrbit {
          Period              11.320
          SemiMajorAxis        3.150 # mass ratio 1.72 : 1.31
@@ -299,9 +302,9 @@
  "51 Tau B:CCDM J04184+2135P"
  {
      OrbitBarycenter "51 Tau"
-     SpectralType    "G0V"                                            
-     AppMag          7.90 
- 
+     SpectralType    "G0V"
+     AppMag          7.90
+
      EllipticalOrbit {
          Period              11.320
          SemiMajorAxis        4.145 # mass ratio 1.72 : 1.31
@@ -319,13 +322,13 @@
      Dec       11.068047
      Distance 152.914674
  }
- 
+
  "ADS 3475 A:CCDM J04512+1104A"
  {
      OrbitBarycenter "ADS 3475 AB"
-     SpectralType    "F7V"                                            
-     AppMag          7.50 
- 
+     SpectralType    "F7V"
+     AppMag          7.50
+
      EllipticalOrbit {
          Period              16.280
          SemiMajorAxis        4.976 # mass ratio 1.41 : 1.63
@@ -341,8 +344,8 @@
  {
      OrbitBarycenter "ADS 3475 AB"
      SpectralType    "F6V"    # lacking, used HIP data of the entire system!
-     AppMag          7.74 
- 
+     AppMag          7.74
+
      EllipticalOrbit {
          Period              16.280
          SemiMajorAxis        4.327 # mass ratio 1.41 : 1.63
@@ -360,13 +363,13 @@
      Dec      -35.507201
      Distance 140.589224
  }
- 
+
  "Gliese 255 A:CCDM J06573-3530A"
  {
      OrbitBarycenter "CCDM J06573-3530AB"
-     SpectralType    "F8IV"                                           
-     AppMag          6.89 
- 
+     SpectralType    "F8IV"
+     AppMag          6.89
+
      EllipticalOrbit {
          Period              16.800
          SemiMajorAxis        3.927 # mass ratio 1.16 : 0.98
@@ -382,8 +385,8 @@
  {
      OrbitBarycenter "CCDM J06573-3530AB"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          7.31 
- 
+     AppMag          7.31
+
      EllipticalOrbit {
          Period              16.800
          SemiMajorAxis        4.676 # mass ratio 1.16 : 0.98
@@ -401,13 +404,13 @@
      Dec       21.445549
      Distance 104.440282
  }
- 
+
  "63 Gem A:ADS 6089 Aa:CCDM J07277+2127Aa"
  {
      OrbitBarycenter "63 Gem"
-     SpectralType    "F5IV"                                           
-     AppMag          5.51 
- 
+     SpectralType    "F5IV"
+     AppMag          5.51
+
      EllipticalOrbit {
          Period               2.038
          SemiMajorAxis        0.968 # mass ratio 5.03 : 2.27
@@ -423,8 +426,8 @@
  {
      OrbitBarycenter "63 Gem"
      SpectralType    "F5IV"   # lacking, used HIP data of the entire system!
-     AppMag          7.38 
- 
+     AppMag          7.38
+
      EllipticalOrbit {
          Period               2.038
          SemiMajorAxis        2.151 # mass ratio 5.03 : 2.27
@@ -442,13 +445,13 @@
      Dec       60.296238
      Distance 127.061550
  }
- 
+
  "ADS 6354 A:CCDM J07480+6018A"
  {
      OrbitBarycenter "ADS 6354 AB"
      SpectralType    "F5"     # lacking, used HIP data of the entire system!
-     AppMag          7.72 
- 
+     AppMag          7.72
+
      EllipticalOrbit {
          Period              18.700
          SemiMajorAxis        3.856 # mass ratio 1.15 : 0.88
@@ -464,8 +467,8 @@
  {
      OrbitBarycenter "ADS 6354 AB"
      SpectralType    "F5"     # lacking, used HIP data of the entire system!
-     AppMag          8.10 
- 
+     AppMag          8.10
+
      EllipticalOrbit {
          Period              18.700
          SemiMajorAxis        5.074 # mass ratio 1.15 : 0.88
@@ -483,13 +486,13 @@
      Dec       41.783442
      Distance  52.413145
  }
- 
+
  "10 UMa A:Gliese 332 A:CCDM J09007+4147A"
  {
      OrbitBarycenter "10 UMa"
-     SpectralType    "F3V"                                            
-     AppMag          4.18 
- 
+     SpectralType    "F3V"
+     AppMag          4.18
+
      EllipticalOrbit {
          Period              21.800
          SemiMajorAxis        4.522 # mass ratio 1.38 : 1.04
@@ -505,8 +508,8 @@
  {
      OrbitBarycenter "10 UMa"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          6.52 
- 
+     AppMag          6.52
+
      EllipticalOrbit {
          Period              21.800
          SemiMajorAxis        5.950 # mass ratio 1.38 : 1.04
@@ -524,13 +527,13 @@
      Dec       14.995441
      Distance  66.415598
  }
- 
+
  "PI1 Cnc A:81 Cnc A:Gliese 337 Aa:CCDM J09123+1459A"
  {
      OrbitBarycenter "PI1 Cnc"
-     SpectralType    "G8V"                                            
-     AppMag          7.28 
- 
+     SpectralType    "G8V"
+     AppMag          7.28
+
      EllipticalOrbit {
          Period               2.705
          SemiMajorAxis        1.132 # mass ratio 0.90 : 0.84
@@ -545,9 +548,9 @@
  "PI1 Cnc B:81 Cnc B:Gliese 337 Ab:CCDM J09123+1459P"
  {
      OrbitBarycenter "PI1 Cnc"
-     SpectralType    "G8V"                                            
-     AppMag          7.47 
- 
+     SpectralType    "G8V"
+     AppMag          7.47
+
      EllipticalOrbit {
          Period               2.705
          SemiMajorAxis        1.204 # mass ratio 0.90 : 0.84
@@ -565,13 +568,13 @@
      Dec      -57.983571
      Distance 236.695936
  }
- 
+
  "GJ 9305 Aa:CCDM J09407-5759A"
  {
      OrbitBarycenter "GJ 9305 A"
-     SpectralType    "A3IV"                                           
-     AppMag          5.95 
- 
+     SpectralType    "A3IV"
+     AppMag          5.95
+
      EllipticalOrbit {
          Period              10.600
          SemiMajorAxis        4.808 # mass ratio 2.13 : 2.75
@@ -587,8 +590,8 @@
  {
      OrbitBarycenter "GJ 9305 A"
      SpectralType    "A3IV"   # lacking, used HIP data of the entire system!
-     AppMag          6.32 
- 
+     AppMag          6.32
+
      EllipticalOrbit {
          Period              10.600
          SemiMajorAxis        3.727 # mass ratio 2.13 : 2.75
@@ -606,13 +609,13 @@
      Dec       -0.666747
      Distance 265.392189
  }
- 
+
  "Zaniah A:ETA Vir A:15 Vir A:CCDM J12199-0040A"
  {
      OrbitBarycenter "Zaniah"
-     SpectralType    "A2IV"                                           
-     AppMag          4.03 
- 
+     SpectralType    "A2IV"
+     AppMag          4.03
+
      EllipticalOrbit {
          Period              13.100
          SemiMajorAxis        3.435 # mass ratio 3.53 : 1.91
@@ -628,8 +631,8 @@
  {
      OrbitBarycenter "Zaniah"
      SpectralType    "A2IV"   # lacking, used HIP data of the entire system!
-     AppMag          6.21 
- 
+     AppMag          6.21
+
      EllipticalOrbit {
          Period              13.100
          SemiMajorAxis        6.362 # mass ratio 3.53 : 1.91
@@ -647,13 +650,13 @@
      Dec       29.105492
      Distance 111.815907
  }
- 
+
  "Nusakan A:BET CrB A:3 CrB A:CCDM J15278+2906A"
  {
      OrbitBarycenter "Nusakan"
-     SpectralType    "F0"                                             
-     AppMag          3.89 
- 
+     SpectralType    "F0"
+     AppMag          3.89
+
      EllipticalOrbit {
          Period              10.551
          SemiMajorAxis        2.803 # mass ratio 1.77 : 1.21
@@ -669,8 +672,8 @@
  {
      OrbitBarycenter "Nusakan"
      SpectralType    "F0"     # lacking, used HIP data of the entire system!
-     AppMag          5.90 
- 
+     AppMag          5.90
+
      EllipticalOrbit {
          Period              10.551
          SemiMajorAxis        4.123 # mass ratio 1.77 : 1.21
@@ -688,13 +691,13 @@
 #      Dec       -8.334207
 #      Distance  20.207360
 #  }
-#  
+#
 #  "V1054 Oph A:Gliese 644 A:CCDM J16555-0820A"
 #  {
 #      OrbitBarycenter "V1054 Oph"
 #      SpectralType    "M3V"    # lacking, used HIP data of the entire system!
-#      AppMag          9.71 
-#  
+#      AppMag          9.71
+#
 #      EllipticalOrbit {
 #          Period               1.717
 #          SemiMajorAxis        0.909 # mass ratio 0.41 : 0.66
@@ -710,8 +713,8 @@
 #  {
 #      OrbitBarycenter "V1054 Oph"
 #      SpectralType    "M3V"    # lacking, used HIP data of the entire system!
-#      AppMag          9.82 
-#  
+#      AppMag          9.82
+#
 #      EllipticalOrbit {
 #          Period               1.717
 #          SemiMajorAxis        0.568 # mass ratio 0.41 : 0.66
@@ -729,13 +732,13 @@
 #      Dec       45.669843
 #      Distance  19.497101
 #  }
-#  
+#
 #  "Gliese 661 A:CCDM J17121+4540A"
 #  {
 #      OrbitBarycenter "Gliese 661"
 #      SpectralType    "M3V"    # lacking, used HIP data of the entire system!
-#      AppMag          9.93 
-#  
+#      AppMag          9.93
+#
 #      EllipticalOrbit {
 #          Period              12.960
 #          SemiMajorAxis        2.420 # mass ratio 0.36 : 0.35
@@ -752,7 +755,7 @@
 #      OrbitBarycenter "Gliese 661"
 #      SpectralType    "M3V"    # lacking, used HIP data of the entire system!
 #      AppMag          10.35
-#  
+#
 #      EllipticalOrbit {
 #          Period              12.960
 #          SemiMajorAxis        2.495 # mass ratio 0.36 : 0.35
@@ -770,13 +773,13 @@
      Dec       11.130954
      Distance 271.805833
  }
- 
+
  "V2388 Oph A:CCDM J17542+1108A"
  {
      OrbitBarycenter "V2388 Oph"
-     SpectralType    "F5V"                                            
-     AppMag          6.45 
- 
+     SpectralType    "F5V"
+     AppMag          6.45
+
      EllipticalOrbit {
          Period               8.900
          SemiMajorAxis        1.811 # mass ratio 2.16 : 0.88
@@ -792,8 +795,8 @@
  {
      OrbitBarycenter "V2388 Oph"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          8.25 
- 
+     AppMag          8.25
+
      EllipticalOrbit {
          Period               8.900
          SemiMajorAxis        4.417 # mass ratio 2.16 : 0.88
@@ -811,13 +814,13 @@
      Dec       23.995710
      Distance  92.137571
  }
- 
+
  "GJ 4039 A:CCDM J17572+2400Aa"
  {
      OrbitBarycenter "GJ 4039"
-     SpectralType    "G2V"                                            
-     AppMag          6.57 
- 
+     SpectralType    "G2V"
+     AppMag          6.57
+
      EllipticalOrbit {
          Period               2.410
          SemiMajorAxis        1.026 # mass ratio 1.27 : 0.98
@@ -832,9 +835,9 @@
  "GJ 4039 B:CCDM J17572+2400Ab"
  {
      OrbitBarycenter "GJ 4039"
-     SpectralType    "K2V"                                            
-     AppMag          8.91 
- 
+     SpectralType    "K2V"
+     AppMag          8.91
+
      EllipticalOrbit {
          Period               2.410
          SemiMajorAxis        1.332 # mass ratio 1.27 : 0.98
@@ -852,13 +855,13 @@
      Dec       72.733698
      Distance  26.280477
  }
- 
+
  "CHI Dra Aa:44 Dra A:Gliese 713 A:CCDM J18211+7245Aa"
  {
      OrbitBarycenter "CHI Dra A"
-     SpectralType    "F7V"                                            
-     AppMag          3.78 
- 
+     SpectralType    "F7V"
+     AppMag          3.78
+
      EllipticalOrbit {
          Period               0.768
          SemiMajorAxis        0.417 # mass ratio 0.99 : 0.71
@@ -874,8 +877,8 @@
  {
      OrbitBarycenter "CHI Dra A"
      SpectralType    "F7V"    # lacking, used HIP data of the entire system!
-     AppMag          6.18 
- 
+     AppMag          6.18
+
      EllipticalOrbit {
          Period               0.768
          SemiMajorAxis        0.580 # mass ratio 0.99 : 0.71
@@ -893,13 +896,13 @@
      Dec       -9.957286
      Distance  72.417185
  }
- 
+
  "GJ 9678 A:CCDM J19598-0957A"
  {
      OrbitBarycenter "GJ 9678"
-     SpectralType    "F8V"                                            
-     AppMag          6.23 
- 
+     SpectralType    "F8V"
+     AppMag          6.23
+
      EllipticalOrbit {
          Period               9.700
          SemiMajorAxis        2.637 # mass ratio 1.12 : 0.94
@@ -915,8 +918,8 @@
  {
      OrbitBarycenter "GJ 9678"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
-     AppMag          7.73 
- 
+     AppMag          7.73
+
      EllipticalOrbit {
          Period               9.700
          SemiMajorAxis        3.139 # mass ratio 1.12 : 0.94
@@ -934,13 +937,13 @@
      Dec       10.007719
      Distance  60.300795
  }
- 
+
  "DEL Equ A:7 Equ A:Gliese 822 A:ADS 14773 A:CCDM J21145+1001A"
  {
      OrbitBarycenter "Gliese 822"
-     SpectralType    "F8V"                                            
-     AppMag          5.31 
- 
+     SpectralType    "F8V"
+     AppMag          5.31
+
      EllipticalOrbit {
          Period               5.713
          SemiMajorAxis        2.061 # mass ratio 1.21 : 1.14
@@ -956,8 +959,8 @@
  {
      OrbitBarycenter "Gliese 822"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          5.39 
- 
+     AppMag          5.39
+
      EllipticalOrbit {
          Period               5.713
          SemiMajorAxis        2.192 # mass ratio 1.21 : 1.14
@@ -975,13 +978,13 @@
      Dec       25.645003
      Distance 111.624572
  }
- 
+
  "KAP Peg A:10 Peg A:ADS 15281 A:CCDM J21446+2539A"
  {
      OrbitBarycenter "KAP Peg"
-     SpectralType    "F5IV"                                           
-     AppMag          4.97 
- 
+     SpectralType    "F5IV"
+     AppMag          4.97
+
      EllipticalOrbit {
          Period              11.590
          SemiMajorAxis        5.548 # mass ratio 1.78 : 3.12
@@ -997,8 +1000,8 @@
  {
      OrbitBarycenter "KAP Peg"
      SpectralType    "F5IV"   # lacking, used HIP data of the entire system!
-     AppMag          5.01 
- 
+     AppMag          5.01
+
      EllipticalOrbit {
          Period              11.590
          SemiMajorAxis        3.152 # mass ratio 1.78 : 3.12
@@ -1016,13 +1019,13 @@
      Dec      -57.701182
      Distance  60.761364
  }
- 
+
  "GJ 9753 A:CCDM J21466-5742A"
  {
      OrbitBarycenter "GJ 9753"
      SpectralType    "K7V"    # lacking, used HIP data of the entire system!
-     AppMag          9.56 
- 
+     AppMag          9.56
+
      EllipticalOrbit {
          Period               6.210
          SemiMajorAxis        2.369 # mass ratio 0.56 : 0.91
@@ -1038,8 +1041,8 @@
  {
      OrbitBarycenter "GJ 9753"
      SpectralType    "K7V"    # lacking, used HIP data of the entire system!
-     AppMag          9.69 
- 
+     AppMag          9.69
+
      EllipticalOrbit {
          Period               6.210
          SemiMajorAxis        1.471 # mass ratio 0.56 : 0.91
@@ -1057,13 +1060,13 @@
      Dec      -54.992567
      Distance 188.100923
  }
- 
+
  "DEL Ind A:CCDM J21579-5500A"
  {
      OrbitBarycenter "DEL Ind"
      SpectralType    "F0IV"   # lacking, used HIP data of the entire system!
-     AppMag          5.00 
- 
+     AppMag          5.00
+
      EllipticalOrbit {
          Period               6.110
          SemiMajorAxis        2.364 # mass ratio 2.51 : 1.99
@@ -1079,8 +1082,8 @@
  {
      OrbitBarycenter "DEL Ind"
      SpectralType    "F0IV"   # lacking, used HIP data of the entire system!
-     AppMag          5.51 
- 
+     AppMag          5.51
+
      EllipticalOrbit {
          Period               6.110
          SemiMajorAxis        2.992 # mass ratio 2.51 : 1.99
@@ -1098,13 +1101,13 @@
      Dec      -13.458444
      Distance  68.884266
  }
- 
+
  "94 Aqr Aa:ADS 16672 Aa:CCDM J23191-1328Aa"
  {
      OrbitBarycenter "94 Aqr A"
      SpectralType    "G6"     # lacking, used HIP data of the entire system!
-     AppMag          5.41 
- 
+     AppMag          5.41
+
      EllipticalOrbit {
          Period               6.300
          SemiMajorAxis        1.665 # mass ratio 1.68 : 0.92
@@ -1120,8 +1123,8 @@
  {
      OrbitBarycenter "94 Aqr A"
      SpectralType    "G8IV"   # lacking, used HIP data of the entire system!
-     AppMag          8.68 
- 
+     AppMag          8.68
+
      EllipticalOrbit {
          Period               6.300
          SemiMajorAxis        3.027 # mass ratio 1.68 : 0.92
@@ -1139,13 +1142,13 @@
      Dec       27.084489
      Distance  39.694171
  }
- 
+
  "85 Peg Aa:Gliese 914 Aa:ADS 17175 Aa:CCDM J00021+2706Aa"
  {
      OrbitBarycenter "85 Peg A"
      SpectralType    "G3V"    # lacking, used HIP data of the entire system!
-     AppMag          5.93 
- 
+     AppMag          5.93
+
      EllipticalOrbit {
          Period              26.280
          SemiMajorAxis        3.926 # mass ratio 0.91 : 0.58
@@ -1161,8 +1164,8 @@
  {
      OrbitBarycenter "85 Peg A"
      SpectralType    "G3V"    # lacking, used HIP data of the entire system!
-     AppMag          9.05 
- 
+     AppMag          9.05
+
      EllipticalOrbit {
          Period              26.280
          SemiMajorAxis        6.135 # mass ratio 0.91 : 0.58
@@ -1180,13 +1183,13 @@
      Dec       58.436690
      Distance  70.053050
  }
- 
- "V640 Cas A:GJ 9001 A:ADS 61 A:CCDM J00063+5826 A"
+
+ 1019863664 "V640 Cas A:GJ 9001 A:ADS 61 A:CCDM J00063+5826 A"
  {
      OrbitBarycenter "V640 Cas"
-     SpectralType    "G3V"                                            
-     AppMag          6.49 
- 
+     SpectralType    "G3V"
+     AppMag          6.49
+
      EllipticalOrbit {
          Period             106.700
          SemiMajorAxis       13.841 # mass ratio 1.25 : 1.06
@@ -1198,12 +1201,12 @@
      }
  }
 
- "V640 Cas B:GJ 9001 B:ADS 61 B:CCDM J00063+5826 B"
+ 2019863664 "V640 Cas B:GJ 9001 B:ADS 61 B:CCDM J00063+5826 B"
  {
      OrbitBarycenter "V640 Cas"
      SpectralType    "G5V"    # lacking, used HIP data of the entire system!
-     AppMag          7.43 
- 
+     AppMag          7.43
+
      EllipticalOrbit {
          Period             106.700
          SemiMajorAxis       16.284 # mass ratio 1.25 : 1.06
@@ -1221,13 +1224,13 @@
      Dec      -24.767226
      Distance  50.233636
  }
- 
- "Gliese 25 A:ADS 520 A:CCDM J00373-2446A"
+
+ 1019246421 "Gliese 25 A:ADS 520 A:CCDM J00373-2446A"
  {
      OrbitBarycenter "Gliese 25"
-     SpectralType    "G8V"                                            
-     AppMag          6.32 
- 
+     SpectralType    "G8V"
+     AppMag          6.32
+
      EllipticalOrbit {
          Period              25.040
          SemiMajorAxis        5.014 # mass ratio 0.90 : 0.86
@@ -1239,12 +1242,12 @@
      }
  }
 
- "Gliese 25 B:ADS 520 B:CCDM J00373-2446B"
+ 2019246421 "Gliese 25 B:ADS 520 B:CCDM J00373-2446B"
  {
      OrbitBarycenter "Gliese 25"
-     SpectralType    "G8V"                                            
-     AppMag          6.64 
- 
+     SpectralType    "G8V"
+     AppMag          6.64
+
      EllipticalOrbit {
          Period              25.040
          SemiMajorAxis        5.278 # mass ratio 0.90 : 0.86
@@ -1262,13 +1265,13 @@
      Dec      -68.819095
      Distance  70.598918
  }
- 
- "CCDM J01157-6852 C"
+
+ 1017589136 "CCDM J01157-6852 C"
  {
      OrbitBarycenter "CCDM J01157-6852CD"
      SpectralType    "K2V"    # lacking, used HIP data of the entire system!
-     AppMag          7.90 
- 
+     AppMag          7.90
+
      EllipticalOrbit {
          Period              85.200
          SemiMajorAxis       11.120 # mass ratio 0.92 : 0.86
@@ -1280,12 +1283,12 @@
      }
  }
 
- "CCDM J01157-6852 D"
+ 2017589136 "CCDM J01157-6852 D"
  {
      OrbitBarycenter "CCDM J01157-6852CD"
      SpectralType    "K2V"    # lacking, used HIP data of the entire system!
-     AppMag          8.45 
- 
+     AppMag          8.45
+
      EllipticalOrbit {
          Period              85.200
          SemiMajorAxis       11.957 # mass ratio 0.92 : 0.86
@@ -1303,13 +1306,13 @@
      Dec       70.907046
      Distance 115.009520
  }
- 
- "48 Cas A:ADS 1598 A:CCDM J02020+7054A"
+
+ 1021264315 "48 Cas A:ADS 1598 A:CCDM J02020+7054A"
  {
      OrbitBarycenter "48 Cas"
      SpectralType    "A3IV"   # lacking, used HIP data of the entire system!
-     AppMag          4.69 
- 
+     AppMag          4.69
+
      EllipticalOrbit {
          Period              60.500
          SemiMajorAxis        9.145 # mass ratio 1.87 : 1.25
@@ -1321,12 +1324,12 @@
      }
  }
 
- "48 Cas B:ADS 1598 B:CCDM J02020+7054B"
+ 2021264315 "48 Cas B:ADS 1598 B:CCDM J02020+7054B"
  {
      OrbitBarycenter "48 Cas"
      SpectralType    "A3IV"   # lacking, used HIP data of the entire system!
-     AppMag          6.83 
- 
+     AppMag          6.83
+
      EllipticalOrbit {
          Period              60.500
          SemiMajorAxis       13.649 # mass ratio 1.87 : 1.25
@@ -1344,13 +1347,13 @@
      Dec        4.431569
      Distance  55.917538
  }
- 
+
  "Gliese 98 A:ADS 1865 A:CCDM J02278+0426A"
  {
      OrbitBarycenter "Gliese 98"
      SpectralType    "K7V"    # lacking, used HIP data of the entire system!
-     AppMag          9.45 
- 
+     AppMag          9.45
+
      EllipticalOrbit {
          Period              25.300
          SemiMajorAxis        4.809 # mass ratio 0.71 : 0.70
@@ -1366,8 +1369,8 @@
  {
      OrbitBarycenter "Gliese 98"
      SpectralType    "K7V"    # lacking, used HIP data of the entire system!
-     AppMag          9.61 
- 
+     AppMag          9.61
+
      EllipticalOrbit {
          Period              25.300
          SemiMajorAxis        4.907 # mass ratio 0.71 : 0.70
@@ -1379,19 +1382,19 @@
      }
  }
 
- Barycenter 40167 "Tegmine:ZET Cnc:16 Cnc:ADS 6650 ABC:CCDM J08123+1738ABC"
+ Barycenter 40167 "Tegmine:ZET1 Cnc:16 Cnc:ADS 6650 ABC:CCDM J08123+1738ABC"
  {
      RA       123.052956
      Dec       17.648136
      Distance  81.807625
  }
- 
- "Tegmine A:ZET1 Cnc:16 Cnc A:ADS 6650 A:CCDM J08123+1738A"
+
+ "Tegmine A:ZET1 Cnc A:16 Cnc A:ADS 6650 A:CCDM J08123+1738A"
  {
      OrbitBarycenter "Tegmine"
      SpectralType    "G0V"    # lacking, used HIP data of the entire system!
-     AppMag          5.72 
- 
+     AppMag          5.72
+
      EllipticalOrbit {
          Period              59.560
          SemiMajorAxis       10.218 # mass ratio 1.44 : 1.36
@@ -1403,12 +1406,12 @@
      }
  }
 
- "Tegmine B:ZET2 Cnc:16 Cnc B:ADS 6650 B:CCDM J08123+1738B"
+ "Tegmine B:ZET1 Cnc B:16 Cnc B:ADS 6650 B:CCDM J08123+1738B"
  {
      OrbitBarycenter "Tegmine"
      SpectralType    "G0V"    # lacking, used HIP data of the entire system!
-     AppMag          6.07 
- 
+     AppMag          6.07
+
      EllipticalOrbit {
          Period              59.560
          SemiMajorAxis       10.756 # mass ratio 1.44 : 1.36
@@ -1426,13 +1429,13 @@
      Dec      -22.662907
      Distance  63.271969
  }
- 
- "Gliese 314 A:ADS 6914 A:CCDM J08391-2240A"
+
+ 1032986571 "Gliese 314 A:ADS 6914 A:CCDM J08391-2240A"
  {
      OrbitBarycenter "ADS 6914 AB"
      SpectralType    "G3"     # lacking, used HIP data of the entire system!
-     AppMag          5.44 
- 
+     AppMag          5.44
+
      EllipticalOrbit {
          Period             127.000
          SemiMajorAxis       15.382 # mass ratio 1.25 : 1.07
@@ -1444,12 +1447,12 @@
      }
  }
 
- "Gliese 314 B:ADS 6914 B:CCDM J08391-2240B"
+ 2032986571 "Gliese 314 B:ADS 6914 B:CCDM J08391-2240B"
  {
      OrbitBarycenter "ADS 6914 AB"
      SpectralType    "G5V"    # lacking, used HIP data of the entire system!
-     AppMag          6.90 
- 
+     AppMag          6.90
+
      EllipticalOrbit {
          Period             127.000
          SemiMajorAxis       17.886 # mass ratio 1.25 : 1.07
@@ -1467,13 +1470,13 @@
      Dec       28.561751
      Distance  56.313363
  }
- 
+
  "IP Cnc A:Gliese 340 A:ADS 7284 A:CCDM J09179+2834A"
  {
      OrbitBarycenter "IP Cnc"
      SpectralType    "K3V"    # lacking, used HIP data of the entire system!
-     AppMag          8.09 
- 
+     AppMag          8.09
+
      EllipticalOrbit {
          Period              34.170
          SemiMajorAxis        6.018 # mass ratio 0.74 : 0.74
@@ -1489,8 +1492,8 @@
  {
      OrbitBarycenter "IP Cnc"
      SpectralType    "K3V"    # lacking, used HIP data of the entire system!
-     AppMag          8.10 
- 
+     AppMag          8.10
+
      EllipticalOrbit {
          Period              34.170
          SemiMajorAxis        6.018 # mass ratio 0.74 : 0.74
@@ -1508,13 +1511,13 @@
      Dec      -40.466888
      Distance  61.367262
  }
- 
- "PSI Vel A:Gliese 351 A:CCDM J09307-4028A"
+
+ 1026207696 "PSI Vel A:Gliese 351 A:CCDM J09307-4028A"
  {
      OrbitBarycenter "PSI Vel"
-     SpectralType    "F0IV"                                           
-     AppMag          3.97 
- 
+     SpectralType    "F0IV"
+     AppMag          3.97
+
      EllipticalOrbit {
          Period              34.200
          SemiMajorAxis        6.557 # mass ratio 1.49 : 1.21
@@ -1526,12 +1529,12 @@
      }
  }
 
- "PSI Vel B:Gliese 351 B:CCDM J09307-4028B"
+ 2026207696 "PSI Vel B:Gliese 351 B:CCDM J09307-4028B"
  {
      OrbitBarycenter "PSI Vel"
-     SpectralType    "F3IV"                                           
-     AppMag          5.18 
- 
+     SpectralType    "F3IV"
+     AppMag          5.18
+
      EllipticalOrbit {
          Period              34.200
          SemiMajorAxis        8.095 # mass ratio 1.49 : 1.21
@@ -1549,13 +1552,13 @@
      Dec       61.082752
      Distance  91.286594
  }
- 
- "ADS 8197 A:CCDM J11323+6105A"
+
+ 1000484153 "ADS 8197 A:CCDM J11323+6105A"
  {
      OrbitBarycenter "ADS 8197 AB"
      SpectralType    "F6V"    # lacking, used HIP data of the entire system!
-     AppMag          5.80 
- 
+     AppMag          5.80
+
      EllipticalOrbit {
          Period              72.700
          SemiMajorAxis        9.605 # mass ratio 1.09 : 0.86
@@ -1567,12 +1570,12 @@
      }
  }
 
- "ADS 8197 B:CCDM J11323+6105B"
+ 2000484153 "ADS 8197 B:CCDM J11323+6105B"
  {
      OrbitBarycenter "ADS 8197 AB"
      SpectralType    "F6V"    # lacking, used HIP data of the entire system!
-     AppMag          7.36 
- 
+     AppMag          7.36
+
      EllipticalOrbit {
          Period              72.700
          SemiMajorAxis       12.158 # mass ratio 1.09 : 0.86
@@ -1584,19 +1587,19 @@
      }
  }
 
- Barycenter 61941 "Porrima:GAM Vir B:29 Vir B:Gliese 482 B:ADS 8630 B:CCDM J12417-0127B"
+ Barycenter 61941 "Porrima:GAM Vir:29 Vir:Gliese 482:ADS 8630:CCDM J12417-0127AB"
  {
      RA       190.416676
      Dec       -1.449522
      Distance  38.112526
  }
- 
- "Porrima A:GAM Vir Ba:29 Vir Ba:Gliese 482 Ba:ADS 8630 Ba:CCDM J12417-0127Ba"
+
+ 1011204949 "Porrima A:GAM Vir A:29 Vir A:Gliese 482 A:ADS 8630 A:CCDM J12417-0127A"
  {
      OrbitBarycenter "Porrima"
      SpectralType    "F0V"    # lacking, used HIP data of the entire system!
-     AppMag          3.55 
- 
+     AppMag          3.55
+
      EllipticalOrbit {
          Period             168.900
          SemiMajorAxis       21.743 # mass ratio 1.46 : 1.44
@@ -1608,12 +1611,12 @@
      }
  }
 
- "Porrima B:GAM Vir Bb:29 Vir Bb:Gliese 482 Bb:ADS 8630 Bb:CCDM J12417-0127Bb"
+ 2011204949 "Porrima B:GAM Vir B:29 Vir B:Gliese 482 B:ADS 8630 B:CCDM J12417-0127B"
  {
      OrbitBarycenter "Porrima"
      SpectralType    "F0V"    # lacking, used HIP data of the entire system!
-     AppMag          3.60 
- 
+     AppMag          3.60
+
      EllipticalOrbit {
          Period             168.900
          SemiMajorAxis       21.963 # mass ratio 1.46 : 1.44
@@ -1631,13 +1634,13 @@
      Dec       56.366331
      Distance  82.994148
  }
- 
- "78 UMa A:ADS 8739 A:CCDM J13007+5622A"
+
+ 1011893845 "78 UMa A:ADS 8739 A:CCDM J13007+5622A"
  {
      OrbitBarycenter "78 UMa"
      SpectralType    "F2V"    # lacking, used HIP data of the entire system!
-     AppMag          5.07 
- 
+     AppMag          5.07
+
      EllipticalOrbit {
          Period             105.000
          SemiMajorAxis       11.807 # mass ratio 1.80 : 1.06
@@ -1649,12 +1652,12 @@
      }
  }
 
- "78 UMa B:ADS 8739 B:CCDM J13007+5622B"
+ 2011893845 "78 UMa B:ADS 8739 B:CCDM J13007+5622B"
  {
      OrbitBarycenter "78 UMa"
      SpectralType    "F2V"    # lacking, used HIP data of the entire system!
-     AppMag          8.28 
- 
+     AppMag          8.28
+
      EllipticalOrbit {
          Period             105.000
          SemiMajorAxis       20.011 # mass ratio 1.80 : 1.06
@@ -1672,13 +1675,13 @@
      Dec       17.529112
      Distance  58.140285
  }
- 
- "Diadem A:ALF Com A:42 Com A:Gliese 501 A:ADS 8804 A:CCDM J13100+1732A"
+
+ 1011341454 "Diadem A:ALF Com A:42 Com A:Gliese 501 A:ADS 8804 A:CCDM J13100+1732A"
  {
      OrbitBarycenter "ALF Com"
-     SpectralType    "F5V"                                            
-     AppMag          5.17 
- 
+     SpectralType    "F5V"
+     AppMag          5.17
+
      EllipticalOrbit {
          Period              26.500
          SemiMajorAxis        6.064 # mass ratio 1.27 : 1.27
@@ -1690,12 +1693,12 @@
      }
  }
 
- "Diadem B:ALF Com B:42 Com B:Gliese 501 B:ADS 8804 B:CCDM J13100+1732B"
+ 2011341454 "Diadem B:ALF Com B:42 Com B:Gliese 501 B:ADS 8804 B:CCDM J13100+1732B"
  {
      OrbitBarycenter "ALF Com"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          5.19 
- 
+     AppMag          5.19
+
      EllipticalOrbit {
          Period              26.500
          SemiMajorAxis        6.064 # mass ratio 1.27 : 1.27
@@ -1713,13 +1716,13 @@
      Dec       47.778072
      Distance  34.921520
  }
- 
- "Gliese 508 A:ADS 8862 A:CCDM J13198+4747A"
+
+ 1021623460 "Gliese 508 A:ADS 8862 A:CCDM J13198+4747A"
  {
      OrbitBarycenter "Gliese 508"
      SpectralType    "K0"     # lacking, used HIP data of the entire system!
-     AppMag          8.89 
- 
+     AppMag          8.89
+
      EllipticalOrbit {
          Period              48.700
          SemiMajorAxis        6.517 # mass ratio 0.97 : 0.68
@@ -1731,12 +1734,12 @@
      }
  }
 
- "Gliese 508 B:ADS 8862 B:CCDM J13198+4747B"
+ 2021623460 "Gliese 508 B:ADS 8862 B:CCDM J13198+4747B"
  {
      OrbitBarycenter "Gliese 508"
      SpectralType    "K0"     # lacking, used HIP data of the entire system!
-     AppMag          9.97 
- 
+     AppMag          9.97
+
      EllipticalOrbit {
          Period              48.700
          SemiMajorAxis        9.311 # mass ratio 0.97 : 0.68
@@ -1754,13 +1757,13 @@
      Dec       26.980129
      Distance  43.733843
  }
- 
- "Gliese 528 A:ADS 9031 A:CCDM J13491+2659A"
+
+ 1004922002 "Gliese 528 A:ADS 9031 A:CCDM J13491+2659A"
  {
      OrbitBarycenter "Gliese 528"
      SpectralType    "K2"     # lacking, used HIP data of the entire system!
-     AppMag          7.69 
- 
+     AppMag          7.69
+
      EllipticalOrbit {
          Period             157.000
          SemiMajorAxis       16.195 # mass ratio 0.77 : 0.73
@@ -1772,12 +1775,12 @@
      }
  }
 
- "Gliese 528 B:ADS 9031 B:CCDM J13491+2659B"
+ 2004922002 "Gliese 528 B:ADS 9031 B:CCDM J13491+2659B"
  {
      OrbitBarycenter "Gliese 528"
      SpectralType    "K2"     # lacking, used HIP data of the entire system!
-     AppMag          8.13 
- 
+     AppMag          8.13
+
      EllipticalOrbit {
          Period             157.000
          SemiMajorAxis       17.047 # mass ratio 0.77 : 0.73
@@ -1795,13 +1798,13 @@
 #      Dec      -60.835145
 #      Distance   4.321180
 #  }
-#  
+#
 #  "ALF Cen Aa:Gliese 559 Aa:CCDM J14396-6050Aa"
 #  {
 #      OrbitBarycenter "ALF Cen A"
-#      SpectralType    "M5V"                                            
-#      AppMag          0.24 
-#  
+#      SpectralType    "M5V"
+#      AppMag          0.24
+#
 #      EllipticalOrbit {
 #          Period              79.850
 #          SemiMajorAxis       10.685 # mass ratio 1.12 : 0.93
@@ -1816,9 +1819,9 @@
 #  "ALF Cen Ab:Gliese 559 Ab:CCDM J14396-6050Ab"
 #  {
 #      OrbitBarycenter "ALF Cen A"
-#      SpectralType    "K1V"                                            
-#      AppMag          1.49 
-#  
+#      SpectralType    "K1V"
+#      AppMag          1.49
+#
 #      EllipticalOrbit {
 #          Period              79.850
 #          SemiMajorAxis       12.873 # mass ratio 1.12 : 0.93
@@ -1836,13 +1839,13 @@
 #      Dec       19.100634
 #      Distance  21.893341
 #  }
-#  
+#
 #  "XI Boo A:37 Boo A:Gliese 566 A:ADS 9413 A:CCDM J14513+1906A"
 #  {
 #      OrbitBarycenter "XI Boo"
-#      SpectralType    "K5V"                                            
-#      AppMag          4.80 
-#  
+#      SpectralType    "K5V"
+#      AppMag          4.80
+#
 #      EllipticalOrbit {
 #          Period             151.600
 #          SemiMajorAxis       14.058 # mass ratio 0.94 : 0.67
@@ -1858,8 +1861,8 @@
 #  {
 #      OrbitBarycenter "XI Boo"
 #      SpectralType    "G8V"    # lacking, used HIP data of the entire system!
-#      AppMag          7.07 
-#  
+#      AppMag          7.07
+#
 #      EllipticalOrbit {
 #          Period             151.600
 #          SemiMajorAxis       19.525 # mass ratio 0.94 : 0.67
@@ -1877,13 +1880,13 @@
      Dec       30.288242
      Distance  58.264916
  }
- 
- "ETA CrB A:2 CrB A:Gliese 584 A:ADS 9617 A:CCDM J15233+3018A"
+
+ 1013662563 "ETA CrB A:2 CrB A:Gliese 584 A:ADS 9617 A:CCDM J15233+3018A"
  {
      OrbitBarycenter "ETA CrB"
-     SpectralType    "G2V"                                            
-     AppMag          5.73 
- 
+     SpectralType    "G2V"
+     AppMag          5.73
+
      EllipticalOrbit {
          Period              41.610
          SemiMajorAxis        7.901 # mass ratio 1.23 : 1.18
@@ -1895,12 +1898,12 @@
      }
  }
 
- "ETA CrB B:2 CrB B:Gliese 584 B:ADS 9617 B:CCDM J15233+3018B"
+ 2013662563 "ETA CrB B:2 CrB B:Gliese 584 B:ADS 9617 B:CCDM J15233+3018B"
  {
      OrbitBarycenter "ETA CrB"
-     SpectralType    "G2V"                                            
-     AppMag          6.02 
- 
+     SpectralType    "G2V"
+     AppMag          6.02
+
      EllipticalOrbit {
          Period              41.610
          SemiMajorAxis        8.230 # mass ratio 1.23 : 1.18
@@ -1918,13 +1921,13 @@
      Dec       37.376961
      Distance 113.134582
  }
- 
+
  "Alkalurops A:MU1 Boo A:51 Boo Aa:GJ 3903 Aa:ADS 9626 Aa:CCDM J15245+3722Aa"
  {
      OrbitBarycenter "Alkalurops"
-     SpectralType    "G0V"                                            
-     AppMag          4.96 
- 
+     SpectralType    "G0V"
+     AppMag          4.96
+
      EllipticalOrbit {
          Period               3.750
          SemiMajorAxis        1.784 # mass ratio 1.91 : 1.79
@@ -1940,8 +1943,8 @@
  {
      OrbitBarycenter "Alkalurops"
      SpectralType    "F0V"    # lacking, used HIP data of the entire system!
-     AppMag          5.33 
- 
+     AppMag          5.33
+
      EllipticalOrbit {
          Period               3.750
          SemiMajorAxis        1.898 # mass ratio 1.91 : 1.79
@@ -1959,13 +1962,13 @@
      Dec       37.347093
      Distance 117.622431
  }
- 
- "MU2 Boo A:51 Boo Ba:GJ 3904 Ba:ADS 9626 B:CCDM J15245+3722B"
+
+ 1015182570 "MU2 Boo A:51 Boo Ba:GJ 3904 Ba:ADS 9626 B:CCDM J15245+3722B"
  {
      OrbitBarycenter "MU2 Boo"
      SpectralType    "G1V"    # lacking, used HIP data of the entire system!
-     AppMag          7.13 
- 
+     AppMag          7.13
+
      EllipticalOrbit {
          Period             257.000
          SemiMajorAxis       25.614 # mass ratio 1.26 : 1.16
@@ -1977,12 +1980,12 @@
      }
  }
 
- "MU2 Boo B:51 Boo Bb:GJ 3904 Bb:ADS 9626 C:CCDM J15245+3722C"
+ 2015182570 "MU2 Boo B:51 Boo Bb:GJ 3904 Bb:ADS 9626 C:CCDM J15245+3722C"
  {
      OrbitBarycenter "MU2 Boo"
      SpectralType    "G1V"    # lacking, used HIP data of the entire system!
-     AppMag          7.73 
- 
+     AppMag          7.73
+
      EllipticalOrbit {
          Period             257.000
          SemiMajorAxis       27.841 # mass ratio 1.26 : 1.16
@@ -2000,13 +2003,13 @@
      Dec       39.802406
      Distance  72.756413
  }
- 
- "Gliese 593 A:ADS 9716 A:CCDM J15360+3949A"
+
+ 1007983053 "Gliese 593 A:ADS 9716 A:CCDM J15360+3949A"
  {
      OrbitBarycenter "Gliese 593"
      SpectralType    "K2V"    # lacking, used HIP data of the entire system!
-     AppMag          7.59 
- 
+     AppMag          7.59
+
      EllipticalOrbit {
          Period              55.600
          SemiMajorAxis        8.581 # mass ratio 0.85 : 0.83
@@ -2018,12 +2021,12 @@
      }
  }
 
- "Gliese 593 B:ADS 9716 B:CCDM J15360+3949B"
+ 2007983053 "Gliese 593 B:ADS 9716 B:CCDM J15360+3949B"
  {
      OrbitBarycenter "Gliese 593"
      SpectralType    "K2V"    # lacking, used HIP data of the entire system!
-     AppMag          7.78 
- 
+     AppMag          7.78
+
      EllipticalOrbit {
          Period              55.600
          SemiMajorAxis        8.756 # mass ratio 0.85 : 0.83
@@ -2041,13 +2044,13 @@
      Dec       18.413117
      Distance  64.117751
  }
- 
- "Gliese 627 A:ADS 10075 A:CCDM J16289+1825A"
+
+ 1000511510 "Gliese 627 A:ADS 10075 A:CCDM J16289+1825A"
  {
      OrbitBarycenter "ADS 10075 AB"
-     SpectralType    "K1V"                                            
-     AppMag          7.79 
- 
+     SpectralType    "K1V"
+     AppMag          7.79
+
      EllipticalOrbit {
          Period             224.000
          SemiMajorAxis       20.995 # mass ratio 0.79 : 0.77
@@ -2059,12 +2062,12 @@
      }
  }
 
- "Gliese 627 B:ADS 10075 B:CCDM J16289+1825B"
+ 2000511510 "Gliese 627 B:ADS 10075 B:CCDM J16289+1825B"
  {
      OrbitBarycenter "ADS 10075 AB"
      SpectralType    "K2V"    # lacking, used HIP data of the entire system!
-     AppMag          7.97 
- 
+     AppMag          7.97
+
      EllipticalOrbit {
          Period             224.000
          SemiMajorAxis       21.423 # mass ratio 0.79 : 0.77
@@ -2082,13 +2085,13 @@
 #      Dec      -34.989574
 #      Distance  22.295919
 #  }
-#  
+#
 #  "Gliese 667 A:CCDM J17190-3459A"
 #  {
 #      OrbitBarycenter "Gliese 667"
 #      SpectralType    "K4V"    # lacking, used HIP data of the entire system!
-#      AppMag          6.37 
-#  
+#      AppMag          6.37
+#
 #      EllipticalOrbit {
 #          Period              42.150
 #          SemiMajorAxis        6.130 # mass ratio 0.68 : 0.59
@@ -2104,8 +2107,8 @@
 #  {
 #      OrbitBarycenter "Gliese 667"
 #      SpectralType    "K4V"    # lacking, used HIP data of the entire system!
-#      AppMag          7.37 
-#  
+#      AppMag          7.37
+#
 #      EllipticalOrbit {
 #          Period              42.150
 #          SemiMajorAxis        6.966 # mass ratio 0.68 : 0.59
@@ -2123,13 +2126,13 @@
      Dec       -1.062504
      Distance  53.303971
  }
- 
- "Gliese 678 A:ADS 10598 A:CCDM J17304-0104A"
+
+ 1021885080 "Gliese 678 A:ADS 10598 A:CCDM J17304-0104A"
  {
      OrbitBarycenter "Gliese 678"
-     SpectralType    "G5V"                                            
-     AppMag          6.16 
- 
+     SpectralType    "G5V"
+     AppMag          6.16
+
      EllipticalOrbit {
          Period              46.300
          SemiMajorAxis        8.179 # mass ratio 1.02 : 1.01
@@ -2141,12 +2144,12 @@
      }
  }
 
- "Gliese 678 B:ADS 10598 B:CCDM J17304-0104B"
+ 2021885080 "Gliese 678 B:ADS 10598 B:CCDM J17304-0104B"
  {
      OrbitBarycenter "Gliese 678"
-     SpectralType    "G9IV"                                           
-     AppMag          6.23 
- 
+     SpectralType    "G9IV"
+     AppMag          6.23
+
      EllipticalOrbit {
          Period              46.300
          SemiMajorAxis        8.262 # mass ratio 1.02 : 1.01
@@ -2164,13 +2167,13 @@
      Dec       61.875831
      Distance  46.284518
  }
- 
- "26 Dra A:Gliese 684 A:ADS 10660 A:CCDM J17351+6152A"
+
+ 1015134199 "26 Dra A:Gliese 684 A:ADS 10660 A:CCDM J17351+6152A"
  {
      OrbitBarycenter "26 Dra"
      SpectralType    "G0V"    # lacking, used HIP data of the entire system!
-     AppMag          5.40 
- 
+     AppMag          5.40
+
      EllipticalOrbit {
          Period              76.100
          SemiMajorAxis        8.081 # mass ratio 1.07 : 0.64
@@ -2182,12 +2185,12 @@
      }
  }
 
- "26 Dra B:Gliese 684 B:ADS 10660 B:CCDM J17351+6152B"
+ 2015134199 "26 Dra B:Gliese 684 B:ADS 10660 B:CCDM J17351+6152B"
  {
      OrbitBarycenter "26 Dra"
      SpectralType    "G0V"    # lacking, used HIP data of the entire system!
-     AppMag          8.76 
- 
+     AppMag          8.76
+
      EllipticalOrbit {
          Period              76.100
          SemiMajorAxis       13.468 # mass ratio 1.07 : 0.64
@@ -2205,13 +2208,13 @@
 #      Dec        2.502439
 #      Distance  16.580266
 #  }
-#  
+#
 #  "V2391 Oph A:70 Oph A:Gliese 702 A:ADS 11046 A:CCDM J18055+0230A"
 #  {
 #      OrbitBarycenter "V2391 Oph"
-#      SpectralType    "K0V"                                            
-#      AppMag          4.33 
-#  
+#      SpectralType    "K0V"
+#      AppMag          4.33
+#
 #      EllipticalOrbit {
 #          Period              88.340
 #          SemiMajorAxis       10.637 # mass ratio 0.88 : 0.74
@@ -2226,9 +2229,9 @@
 #  "V2391 Oph B:70 Oph B:Gliese 702 B:ADS 11046 B:CCDM J18055+0230B"
 #  {
 #      OrbitBarycenter "V2391 Oph"
-#      SpectralType    "K5V"                                            
-#      AppMag          6.18 
-#  
+#      SpectralType    "K5V"
+#      AppMag          6.18
+#
 #      EllipticalOrbit {
 #          Period              88.340
 #          SemiMajorAxis       12.664 # mass ratio 0.88 : 0.74
@@ -2248,13 +2251,13 @@
 #     Dec       32.901624
 #     Distance  48.507882
 # }
-# 
+#
 # "Gliese 738 A:ADS 11871 A:CCDM J18570+3254A"
 # {
 #     OrbitBarycenter "ADS 11871 AB"
 #     SpectralType    "G0V"    # lacking, used HIP data of the entire system!
-#     AppMag          5.42 
-# 
+#     AppMag          5.42
+#
 #     EllipticalOrbit {
 #         Period              61.000
 #         SemiMajorAxis        7.519 # mass ratio 1.07 : 0.71
@@ -2270,8 +2273,8 @@
 # {
 #     OrbitBarycenter "ADS 11871 AB"
 #     SpectralType    "G0V"    # lacking, used HIP data of the entire system!
-#     AppMag          8.03 
-# 
+#     AppMag          8.03
+#
 #     EllipticalOrbit {
 #         Period              61.000
 #         SemiMajorAxis       11.222 # mass ratio 1.07 : 0.71
@@ -2289,13 +2292,13 @@
      Dec      -29.880115
      Distance  88.200919
  }
- 
+
  "Ascella A:ZET Sgr A:38 Sgr A:ADS 11950 A:CCDM J19026-2953A"
  {
      OrbitBarycenter "Ascella"
      SpectralType    "A3IV"   # lacking, used HIP data of the entire system!
-     AppMag          3.27 
- 
+     AppMag          3.27
+
      EllipticalOrbit {
          Period              21.020
          SemiMajorAxis        6.702 # mass ratio 2.87 : 2.76
@@ -2311,8 +2314,8 @@
  {
      OrbitBarycenter "Ascella"
      SpectralType    "A3IV"   # lacking, used HIP data of the entire system!
-     AppMag          3.47 
- 
+     AppMag          3.47
+
      EllipticalOrbit {
          Period              21.020
          SemiMajorAxis        6.981 # mass ratio 2.87 : 2.76
@@ -2330,13 +2333,13 @@
      Dec       58.586977
      Distance  55.320047
  }
- 
+
  "CCDM J19311+5835Aa"
  {
      OrbitBarycenter "CCDM J19311+5835A"
-     SpectralType    "K1V"                                            
-     AppMag          7.37 
- 
+     SpectralType    "K1V"
+     AppMag          7.37
+
      EllipticalOrbit {
          Period               1.351
          SemiMajorAxis        0.706 # mass ratio 0.84 : 0.80
@@ -2352,8 +2355,8 @@
  {
      OrbitBarycenter "CCDM J19311+5835A"
      SpectralType    "K1V"    # lacking, used HIP data of the entire system!
-     AppMag          7.68 
- 
+     AppMag          7.68
+
      EllipticalOrbit {
          Period               1.351
          SemiMajorAxis        0.735 # mass ratio 0.84 : 0.80
@@ -2371,13 +2374,13 @@
      Dec       33.603056
      Distance  68.898817
  }
- 
- "ADS 12889 A:CCDM J19456+3336A"
+
+ 1000312660 "ADS 12889 A:CCDM J19456+3336A"
  {
      OrbitBarycenter "ADS 12889 AB"
      SpectralType    "K3V"    # lacking, used HIP data of the entire system!
-     AppMag          8.47 
- 
+     AppMag          8.47
+
      EllipticalOrbit {
          Period             232.000
          SemiMajorAxis       20.698 # mass ratio 0.69 : 0.68
@@ -2389,12 +2392,12 @@
      }
  }
 
- "ADS 12889 B:CCDM J19456+3336B"
+ 2000312660 "ADS 12889 B:CCDM J19456+3336B"
  {
      OrbitBarycenter "ADS 12889 AB"
      SpectralType    "K3V"    # lacking, used HIP data of the entire system!
-     AppMag          8.63 
- 
+     AppMag          8.63
+
      EllipticalOrbit {
          Period             232.000
          SemiMajorAxis       21.120 # mass ratio 0.69 : 0.68
@@ -2412,13 +2415,13 @@
      Dec       38.044321
      Distance  66.348047
  }
- 
- "TAU Cyg A:65 Cyg A:ADS 14787 A:CCDM J21148+3803A"
+
+ 1038763169 "TAU Cyg A:65 Cyg A:ADS 14787 A:CCDM J21148+3803A"
  {
      OrbitBarycenter "TAU Cyg"
      SpectralType    "F1IV"   # lacking, used HIP data of the entire system!
-     AppMag          3.89 
- 
+     AppMag          3.89
+
      EllipticalOrbit {
          Period              49.600
          SemiMajorAxis        7.093 # mass ratio 1.67 : 1.04
@@ -2430,12 +2433,12 @@
      }
  }
 
- "TAU Cyg B:65 Cyg B:ADS 14787 B:CCDM J21148+3803B"
+ 2038763169 "TAU Cyg B:65 Cyg B:ADS 14787 B:CCDM J21148+3803B"
  {
      OrbitBarycenter "TAU Cyg"
      SpectralType    "F1IV"   # lacking, used HIP data of the entire system!
-     AppMag          6.79 
- 
+     AppMag          6.79
+
      EllipticalOrbit {
          Period              49.600
          SemiMajorAxis       11.440 # mass ratio 1.67 : 1.04
@@ -2453,13 +2456,13 @@
      Dec       17.285957
      Distance 109.013035
  }
- 
+
  "13 Peg A:V373 Peg A:CCDM J21501+1717A"
  {
      OrbitBarycenter "V373 Peg"
      SpectralType    "F2III"  # lacking, used HIP data of the entire system!
-     AppMag          5.74 
- 
+     AppMag          5.74
+
      EllipticalOrbit {
          Period              26.600
          SemiMajorAxis        5.526 # mass ratio 1.48 : 1.19
@@ -2475,8 +2478,8 @@
  {
      OrbitBarycenter "V373 Peg"
      SpectralType    "F2III"  # lacking, used HIP data of the entire system!
-     AppMag          6.91 
- 
+     AppMag          6.91
+
      EllipticalOrbit {
          Period              26.600
          SemiMajorAxis        6.907 # mass ratio 1.48 : 1.19
@@ -2494,13 +2497,13 @@
 #      Dec       57.697020
 #      Distance  13.049812
 #  }
-#  
+#
 #  "Gliese 860 Aa:ADS 15972 Aa:CCDM J22281+5741Aa"
 #  {
 #      OrbitBarycenter "Gliese 860 A"
 #      SpectralType    "M2V"    # lacking, used HIP data of the entire system!
-#      AppMag          9.78 
-#  
+#      AppMag          9.78
+#
 #      EllipticalOrbit {
 #          Period              44.640
 #          SemiMajorAxis        3.628 # mass ratio 0.30 : 0.17
@@ -2517,7 +2520,7 @@
 #      OrbitBarycenter "Gliese 860 A"
 #      SpectralType    "M2V"    # lacking, used HIP data of the entire system!
 #      AppMag          11.40
-#  
+#
 #      EllipticalOrbit {
 #          Period              44.640
 #          SemiMajorAxis        6.150 # mass ratio 0.30 : 0.17
@@ -2535,13 +2538,13 @@
      Dec        9.357218
      Distance 106.208727
  }
- 
+
  "ADS 16417 A:CCDM J22586+0921A"
  {
      OrbitBarycenter "ADS 16417 AB"
      SpectralType    "G2V"    # lacking, used HIP data of the entire system!
-     AppMag          7.07 
- 
+     AppMag          7.07
+
      EllipticalOrbit {
          Period              26.000
          SemiMajorAxis        5.144 # mass ratio 1.01 : 0.92
@@ -2557,8 +2560,8 @@
  {
      OrbitBarycenter "ADS 16417 AB"
      SpectralType    "G2V"    # lacking, used HIP data of the entire system!
-     AppMag          7.65 
- 
+     AppMag          7.65
+
      EllipticalOrbit {
          Period              26.000
          SemiMajorAxis        5.592 # mass ratio 1.01 : 0.92
@@ -2576,13 +2579,13 @@
      Dec       67.667292
      Distance 103.512218
  }
- 
- "ADS 283 A:CCDM J00210+6740A"
+
+ 1004064294 "ADS 283 A:CCDM J00210+6740A"
  {
      OrbitBarycenter "ADS 283 AB"
-     SpectralType    "G5"                                             
-     AppMag          8.62 
- 
+     SpectralType    "G5"
+     AppMag          8.62
+
      EllipticalOrbit {
          Period             161.000
          SemiMajorAxis       15.515 # mass ratio 0.61 : 0.58
@@ -2594,12 +2597,12 @@
      }
  }
 
- "ADS 283 B:CCDM J00210+6740B"
+ 2004064294 "ADS 283 B:CCDM J00210+6740B"
  {
      OrbitBarycenter "ADS 283 AB"
      SpectralType    "G5"     # lacking, used HIP data of the entire system!
-     AppMag          8.99 
- 
+     AppMag          8.99
+
      EllipticalOrbit {
          Period             161.000
          SemiMajorAxis       16.332 # mass ratio 0.61 : 0.58
@@ -2617,13 +2620,13 @@
      Dec       67.236216
      Distance  32.830096
  }
- 
+
  "V547 Cas A:Gliese 22 Aa:ADS 433 Aa:CCDM J00325+6714Aa"
  {
      OrbitBarycenter "V547 Cas"
-     SpectralType    "M2.5"                                           
+     SpectralType    "M2.5"
      AppMag          10.57
- 
+
      EllipticalOrbit {
          Period              15.400
          SemiMajorAxis        1.177 # mass ratio 0.31 : 0.10
@@ -2640,7 +2643,7 @@
      OrbitBarycenter "V547 Cas"
      SpectralType    "M2.5V"  # lacking, used HIP data of the entire system!
      AppMag          13.82
- 
+
      EllipticalOrbit {
          Period              15.400
          SemiMajorAxis        3.462 # mass ratio 0.31 : 0.10
@@ -2658,13 +2661,13 @@
      Dec      -41.486937
      Distance 185.744305
  }
- 
+
  "UPS Phe A:CCDM J01078-4129A"
  {
      OrbitBarycenter "UPS Phe"
      SpectralType    "A3V"    # lacking, used HIP data of the entire system!
-     AppMag          5.54 
- 
+     AppMag          5.54
+
      EllipticalOrbit {
          Period              29.000
          SemiMajorAxis        6.721 # mass ratio 2.37 : 1.85
@@ -2680,8 +2683,8 @@
  {
      OrbitBarycenter "UPS Phe"
      SpectralType    "A3V"    # lacking, used HIP data of the entire system!
-     AppMag          6.89 
- 
+     AppMag          6.89
+
      EllipticalOrbit {
          Period              29.000
          SemiMajorAxis        8.617 # mass ratio 2.37 : 1.85
@@ -2699,13 +2702,13 @@
      Dec       58.143214
      Distance 191.862941
  }
- 
+
  "ADS 1105 A:CCDM J01233+5808A"
  {
      OrbitBarycenter "ADS 1105 AB"
      SpectralType    "F4V"    # lacking, used HIP data of the entire system!
-     AppMag          7.11 
- 
+     AppMag          7.11
+
      EllipticalOrbit {
          Period             222.000
          SemiMajorAxis       23.636 # mass ratio 1.14 : 1.10
@@ -2721,8 +2724,8 @@
  {
      OrbitBarycenter "ADS 1105 AB"
      SpectralType    "F4V"    # lacking, used HIP data of the entire system!
-     AppMag          7.32 
- 
+     AppMag          7.32
+
      EllipticalOrbit {
          Period             222.000
          SemiMajorAxis       24.620 # mass ratio 1.14 : 1.10
@@ -2740,13 +2743,13 @@
      Dec       -6.914669
      Distance 152.130131
  }
- 
+
  "ADS 1123 A:CCDM J01243-0655A"
  {
      OrbitBarycenter "ADS 1123 AB"
-     SpectralType    "F3V"                                            
-     AppMag          6.55 
- 
+     SpectralType    "F3V"
+     AppMag          6.55
+
      EllipticalOrbit {
          Period              16.110
          SemiMajorAxis        4.140 # mass ratio 1.37 : 1.25
@@ -2762,8 +2765,8 @@
  {
      OrbitBarycenter "ADS 1123 AB"
      SpectralType    "F4V"    # lacking, used HIP data of the entire system!
-     AppMag          7.01 
- 
+     AppMag          7.01
+
      EllipticalOrbit {
          Period              16.110
          SemiMajorAxis        4.550 # mass ratio 1.37 : 1.25
@@ -2781,13 +2784,13 @@
      Dec       42.613807
      Distance  41.549936
  }
- 
+
  "Gliese 67 A"
  {
      OrbitBarycenter "Gliese 67"
-     SpectralType    "G1.5V"                                          
-     AppMag          5.09 
- 
+     SpectralType    "G1.5V"
+     AppMag          5.09
+
      EllipticalOrbit {
          Period              19.500
          SemiMajorAxis        1.653 # mass ratio 0.82 : 0.24
@@ -2804,7 +2807,7 @@
      OrbitBarycenter "Gliese 67"
      SpectralType    "G2V"    # lacking, used HIP data of the entire system!
      AppMag          11.09
- 
+
      EllipticalOrbit {
          Period              19.500
          SemiMajorAxis        5.699 # mass ratio 0.82 : 0.24
@@ -2822,13 +2825,13 @@
      Dec       47.484388
      Distance 129.123911
  }
- 
- "ADS 1709 A:CCDM J02140+4729A"
+
+ 1016243285 "ADS 1709 A:CCDM J02140+4729A"
  {
      OrbitBarycenter "ADS 1709 AB"
-     SpectralType    "F2V"                                            
-     AppMag          6.61 
- 
+     SpectralType    "F2V"
+     AppMag          6.61
+
      EllipticalOrbit {
          Period             144.000
          SemiMajorAxis       17.013 # mass ratio 1.26 : 1.13
@@ -2840,12 +2843,12 @@
      }
  }
 
- "ADS 1709 B:CCDM J02140+4729B"
+ 2016243285 "ADS 1709 B:CCDM J02140+4729B"
  {
      OrbitBarycenter "ADS 1709 AB"
-     SpectralType    "F7V"                                            
-     AppMag          7.26 
- 
+     SpectralType    "F7V"
+     AppMag          7.26
+
      EllipticalOrbit {
          Period             144.000
          SemiMajorAxis       19.116 # mass ratio 1.26 : 1.13
@@ -2863,13 +2866,13 @@
      Dec       25.043255
      Distance 166.581716
  }
- 
+
  "21 Ari A:CCDM J02157+2503A"
  {
      OrbitBarycenter "21 Ari"
-     SpectralType    "F6V"                                            
-     AppMag          6.41 
- 
+     SpectralType    "F6V"
+     AppMag          6.41
+
      EllipticalOrbit {
          Period              23.700
          SemiMajorAxis        5.850 # mass ratio 1.35 : 1.35
@@ -2885,8 +2888,8 @@
  {
      OrbitBarycenter "21 Ari"
      SpectralType    "F6V"    # lacking, used HIP data of the entire system!
-     AppMag          6.49 
- 
+     AppMag          6.49
+
      EllipticalOrbit {
          Period              23.700
          SemiMajorAxis        5.850 # mass ratio 1.35 : 1.35
@@ -2904,13 +2907,13 @@
      Dec      -18.237874
      Distance  75.501620
  }
- 
- "ADS 1733 A:CCDM J02158-1814A"
+
+ 1011445859 "ADS 1733 A:CCDM J02158-1814A"
  {
      OrbitBarycenter "ADS 1733 AB"
      SpectralType    "K3V"    # lacking, used HIP data of the entire system!
-     AppMag          8.52 
- 
+     AppMag          8.52
+
      EllipticalOrbit {
          Period             225.000
          SemiMajorAxis       20.896 # mass ratio 0.83 : 0.76
@@ -2922,12 +2925,12 @@
      }
  }
 
- "ADS 1733 B:CCDM J02158-1814B"
+ 2011445859 "ADS 1733 B:CCDM J02158-1814B"
  {
      OrbitBarycenter "ADS 1733 AB"
      SpectralType    "K3V"    # lacking, used HIP data of the entire system!
-     AppMag          9.27 
- 
+     AppMag          9.27
+
      EllipticalOrbit {
          Period             225.000
          SemiMajorAxis       22.963 # mass ratio 0.83 : 0.76
@@ -2945,13 +2948,13 @@
      Dec      -66.714056
      Distance 177.264674
  }
- 
- "Gliese 110 A:CCDM J02434-6643A"
+
+ 1014848865 "Gliese 110 A:CCDM J02434-6643A"
  {
      OrbitBarycenter "Gliese 110"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          6.93 
- 
+     AppMag          6.93
+
      EllipticalOrbit {
          Period              36.000
          SemiMajorAxis        8.060 # mass ratio 1.58 : 1.56
@@ -2963,12 +2966,12 @@
      }
  }
 
- "Gliese 110 B:CCDM J02434-6643B"
+ 2014848865 "Gliese 110 B:CCDM J02434-6643B"
  {
      OrbitBarycenter "Gliese 110"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          7.30 
- 
+     AppMag          7.30
+
      EllipticalOrbit {
          Period              36.000
          SemiMajorAxis        8.141 # mass ratio 1.58 : 1.56
@@ -2986,13 +2989,13 @@
      Dec      -28.989106
      Distance  46.436076
  }
- 
- "Dalim A:ALF For A:12 Eri A:Gliese 127 Aa:ADS 2402 Aa:CCDM J03121-2859Aa"
+
+ 1009906445 "Dalim A:ALF For A:12 Eri A:Gliese 127 Aa:ADS 2402 Aa:CCDM J03121-2859Aa"
  {
      OrbitBarycenter "ALF For"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
-     AppMag          4.05 
- 
+     AppMag          4.05
+
      EllipticalOrbit {
          Period             269.000
          SemiMajorAxis       21.960 # mass ratio 1.52 : 0.95
@@ -3004,12 +3007,12 @@
      }
  }
 
- "Dalim B:ALF For B:12 Eri B:Gliese 127 Ab:ADS 2402 Ab:CCDM J03121-2859Ab"
+ 2009906445 "Dalim B:ALF For B:12 Eri B:Gliese 127 Ab:ADS 2402 Ab:CCDM J03121-2859Ab"
  {
      OrbitBarycenter "ALF For"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
-     AppMag          7.09 
- 
+     AppMag          7.09
+
      EllipticalOrbit {
          Period             269.000
          SemiMajorAxis       34.858 # mass ratio 1.52 : 0.95
@@ -3027,13 +3030,13 @@
      Dec      -44.419654
      Distance 138.617510
  }
- 
- "CCDM J03124-4425A"
+
+ 1011777567 "CCDM J03124-4425A"
  {
      OrbitBarycenter "CCDM J03124-4425AB"
-     SpectralType    "F5V"                                            
-     AppMag          6.55 
- 
+     SpectralType    "F5V"
+     AppMag          6.55
+
      EllipticalOrbit {
          Period              45.200
          SemiMajorAxis        8.293 # mass ratio 1.54 : 1.34
@@ -3045,12 +3048,12 @@
      }
  }
 
- "CCDM J03124-4425B"
+ 2011777567 "CCDM J03124-4425B"
  {
      OrbitBarycenter "CCDM J03124-4425AB"
      SpectralType    "F3V"    # lacking, used HIP data of the entire system!
-     AppMag          7.26 
- 
+     AppMag          7.26
+
      EllipticalOrbit {
          Period              45.200
          SemiMajorAxis        9.533 # mass ratio 1.54 : 1.34
@@ -3068,13 +3071,13 @@
      Dec      -40.076492
      Distance  56.823519
  }
- 
+
  "GJ 3222 A:CCDM J03236-4005A"
  {
      OrbitBarycenter "GJ 3222"
      SpectralType    "K0V"    # lacking, used HIP data of the entire system!
-     AppMag          7.07 
- 
+     AppMag          7.07
+
      EllipticalOrbit {
          Period             111.000
          SemiMajorAxis       12.930 # mass ratio 1.32 : 0.93
@@ -3091,7 +3094,7 @@
      OrbitBarycenter "GJ 3222"
      SpectralType    "K0V"    # lacking, used HIP data of the entire system!
      AppMag          11.21
- 
+
      EllipticalOrbit {
          Period             111.000
          SemiMajorAxis       18.212 # mass ratio 1.32 : 0.93
@@ -3109,13 +3112,13 @@
      Dec       57.868636
      Distance 218.317938
  }
- 
+
  "HIP 16602 A"
  {
      OrbitBarycenter "HIP 16602"
-     SpectralType    "F7V"                                            
-     AppMag          7.12 
- 
+     SpectralType    "F7V"
+     AppMag          7.12
+
      EllipticalOrbit {
          Period              14.000
          SemiMajorAxis        4.082 # mass ratio 1.41 : 1.41
@@ -3131,8 +3134,8 @@
  {
      OrbitBarycenter "HIP 16602"
      SpectralType    "F7V"    # lacking, used HIP data of the entire system!
-     AppMag          7.36 
- 
+     AppMag          7.36
+
      EllipticalOrbit {
          Period              14.000
          SemiMajorAxis        4.082 # mass ratio 1.41 : 1.41
@@ -3150,13 +3153,13 @@
      Dec      -31.080300
      Distance 136.243525
  }
- 
+
  "CCDM J03339-3105A"
  {
      OrbitBarycenter "CCDM J03339-3105AB"
-     SpectralType    "F5V"                                            
-     AppMag          6.69 
- 
+     SpectralType    "F5V"
+     AppMag          6.69
+
      EllipticalOrbit {
          Period              19.200
          SemiMajorAxis        4.440 # mass ratio 1.32 : 1.13
@@ -3172,8 +3175,8 @@
  {
      OrbitBarycenter "CCDM J03339-3105AB"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          7.64 
- 
+     AppMag          7.64
+
      EllipticalOrbit {
          Period              19.200
          SemiMajorAxis        5.224 # mass ratio 1.32 : 1.13
@@ -3191,13 +3194,13 @@
      Dec       25.579648
      Distance 184.171090
  }
- 
+
  "ADS 2799 A:CCDM J03503+2535A"
  {
      OrbitBarycenter "ADS 2799"
      SpectralType    "A2V"    # lacking, used HIP data of the entire system!
-     AppMag          5.73 
- 
+     AppMag          5.73
+
      EllipticalOrbit {
          Period              62.000
          SemiMajorAxis       11.290 # mass ratio 2.08 : 1.79
@@ -3213,8 +3216,8 @@
  {
      OrbitBarycenter "ADS 2799"
      SpectralType    "A2V"    # lacking, used HIP data of the entire system!
-     AppMag          6.53 
- 
+     AppMag          6.53
+
      EllipticalOrbit {
          Period              62.000
          SemiMajorAxis       13.128 # mass ratio 2.08 : 1.79
@@ -3232,13 +3235,13 @@
      Dec      -46.132213
      Distance 147.187274
  }
- 
+
  "CCDM J04142-4608A"
  {
      OrbitBarycenter "CCDM J04142-4608AB"
      SpectralType    "F8"     # lacking, used HIP data of the entire system!
-     AppMag          7.18 
- 
+     AppMag          7.18
+
      EllipticalOrbit {
          Period              18.200
          SemiMajorAxis        5.108 # mass ratio 2.44 : 2.02
@@ -3254,8 +3257,8 @@
  {
      OrbitBarycenter "CCDM J04142-4608AB"
      SpectralType    "G0V"    # lacking, used HIP data of the entire system!
-     AppMag          8.46 
- 
+     AppMag          8.46
+
      EllipticalOrbit {
          Period              18.200
          SemiMajorAxis        6.154 # mass ratio 2.44 : 2.02
@@ -3273,13 +3276,13 @@
      Dec       16.522677
      Distance 151.776175
  }
- 
+
  "55 Tau A:ADS 3135 A:CCDM J04199+1631A"
  {
      OrbitBarycenter "55 Tau"
-     SpectralType    "F9V"                                            
-     AppMag          7.27 
- 
+     SpectralType    "F9V"
+     AppMag          7.27
+
      EllipticalOrbit {
          Period              89.700
          SemiMajorAxis       11.409 # mass ratio 1.10 : 0.91
@@ -3295,8 +3298,8 @@
  {
      OrbitBarycenter "55 Tau"
      SpectralType    "F7V"    # lacking, used HIP data of the entire system!
-     AppMag          8.58 
- 
+     AppMag          8.58
+
      EllipticalOrbit {
          Period              89.700
          SemiMajorAxis       13.913 # mass ratio 1.10 : 0.91
@@ -3314,13 +3317,13 @@
      Dec      -25.728458
      Distance 191.637485
  }
- 
- "ADS 3159 A:CCDM J04215-2544Aa"
+
+ 1031296460 "ADS 3159 A:CCDM J04215-2544Aa"
  {
      OrbitBarycenter "ADS 3159"
-     SpectralType    "F2V"                                            
-     AppMag          6.80 
- 
+     SpectralType    "F2V"
+     AppMag          6.80
+
      EllipticalOrbit {
          Period              80.000
          SemiMajorAxis       12.698 # mass ratio 1.45 : 1.38
@@ -3332,12 +3335,12 @@
      }
  }
 
- "ADS 3159 B:CCDM J04215-2544Ab"
+ 2031296460 "ADS 3159 B:CCDM J04215-2544Ab"
  {
      OrbitBarycenter "ADS 3159"
      SpectralType    "F2V"    # lacking, used HIP data of the entire system!
-     AppMag          7.05 
- 
+     AppMag          7.05
+
      EllipticalOrbit {
          Period              80.000
          SemiMajorAxis       13.366 # mass ratio 1.45 : 1.38
@@ -3355,13 +3358,13 @@
      Dec       15.941080
      Distance 153.852358
  }
- 
+
  "70 Tau A:CCDM J04256+1557A"
  {
      OrbitBarycenter "70 Tau"
-     SpectralType    "F7V"                                            
-     AppMag          7.23 
- 
+     SpectralType    "F7V"
+     AppMag          7.23
+
      EllipticalOrbit {
          Period               6.280
          SemiMajorAxis        2.339 # mass ratio 1.44 : 1.40
@@ -3377,8 +3380,8 @@
  {
      OrbitBarycenter "70 Tau"
      SpectralType    "F7V"    # lacking, used HIP data of the entire system!
-     AppMag          7.38 
- 
+     AppMag          7.38
+
      EllipticalOrbit {
          Period               6.280
          SemiMajorAxis        2.412 # mass ratio 1.44 : 1.40
@@ -3396,13 +3399,13 @@
      Dec       18.864147
      Distance 144.449513
  }
- 
+
  "V1233 Tau A:ADS 3210 A:CCDM J04259+1852A"
  {
      OrbitBarycenter "V1233 Tau"
      SpectralType    "G5V"    # lacking, used HIP data of the entire system!
-     AppMag          8.06 
- 
+     AppMag          8.06
+
      EllipticalOrbit {
          Period              27.400
          SemiMajorAxis        4.969 # mass ratio 0.95 : 0.82
@@ -3418,8 +3421,8 @@
  {
      OrbitBarycenter "V1233 Tau"
      SpectralType    "G5V"    # lacking, used HIP data of the entire system!
-     AppMag          8.91 
- 
+     AppMag          8.91
+
      EllipticalOrbit {
          Period              27.400
          SemiMajorAxis        5.778 # mass ratio 0.95 : 0.82
@@ -3437,13 +3440,13 @@
      Dec       16.159154
      Distance 157.950121
  }
- 
- "ADS 3248 A:CCDM J04290+1610A"
+
+ 1007911265 "ADS 3248 A:CCDM J04290+1610A"
  {
      OrbitBarycenter "ADS 3248 AB"
-     SpectralType    "F7V"                                            
-     AppMag          7.15 
- 
+     SpectralType    "F7V"
+     AppMag          7.15
+
      EllipticalOrbit {
          Period              40.700
          SemiMajorAxis        7.540 # mass ratio 1.63 : 1.46
@@ -3455,12 +3458,12 @@
      }
  }
 
- "ADS 3248 B:CCDM J04290+1610B"
+ 2007911265 "ADS 3248 B:CCDM J04290+1610B"
  {
      OrbitBarycenter "ADS 3248 AB"
      SpectralType    "F7V"    # lacking, used HIP data of the entire system!
-     AppMag          7.85 
- 
+     AppMag          7.85
+
      EllipticalOrbit {
          Period              40.700
          SemiMajorAxis        8.378 # mass ratio 1.63 : 1.46
@@ -3478,13 +3481,13 @@
      Dec      -55.045006
      Distance 168.648914
  }
- 
+
  "ALF Dor A:CCDM J04340-5503A"
  {
      OrbitBarycenter "ALF Dor"
      SpectralType    "A0V"    # lacking, used HIP data of the entire system!
-     AppMag          3.61 
- 
+     AppMag          3.61
+
      EllipticalOrbit {
          Period              12.100
          SemiMajorAxis        4.334 # mass ratio 3.39 : 2.64
@@ -3500,8 +3503,8 @@
  {
      OrbitBarycenter "ALF Dor"
      SpectralType    "A0V"    # lacking, used HIP data of the entire system!
-     AppMag          4.55 
- 
+     AppMag          4.55
+
      EllipticalOrbit {
          Period              12.100
          SemiMajorAxis        5.556 # mass ratio 3.39 : 2.64
@@ -3519,13 +3522,13 @@
      Dec      -45.123443
      Distance 141.320191
  }
- 
+
  "CCDM J04395-4507A"
  {
      OrbitBarycenter "CCDM J04395-4507AB"
      SpectralType    "K1V"    # lacking, used HIP data of the entire system!
-     AppMag          9.38 
- 
+     AppMag          9.38
+
      EllipticalOrbit {
          Period              32.000
          SemiMajorAxis        5.980 # mass ratio 1.04 : 0.92
@@ -3542,7 +3545,7 @@
      OrbitBarycenter "CCDM J04395-4507AB"
      SpectralType    "K1V"    # lacking, used HIP data of the entire system!
      AppMag          10.35
- 
+
      EllipticalOrbit {
          Period              32.000
          SemiMajorAxis        6.795 # mass ratio 1.04 : 0.92
@@ -3560,13 +3563,13 @@
      Dec       15.083504
      Distance 137.681300
  }
- 
+
  "HIP 22505 A"
  {
      OrbitBarycenter "HIP 22505"
-     SpectralType    "G5"                                             
-     AppMag          8.24 
- 
+     SpectralType    "G5"
+     AppMag          8.24
+
      EllipticalOrbit {
          Period               7.500
          SemiMajorAxis        2.274 # mass ratio 1.04 : 0.93
@@ -3582,8 +3585,8 @@
  {
      OrbitBarycenter "HIP 22505"
      SpectralType    "G5"     # lacking, used HIP data of the entire system!
-     AppMag          9.19 
- 
+     AppMag          9.19
+
      EllipticalOrbit {
          Period               7.500
          SemiMajorAxis        2.526 # mass ratio 1.04 : 0.93
@@ -3601,13 +3604,13 @@
      Dec      -16.376337
      Distance 131.997977
  }
- 
- "ADS 3588 A:CCDM J04590-1622A"
+
+ 1011765900 "ADS 3588 A:CCDM J04590-1622A"
  {
      OrbitBarycenter "ADS 3588 AB"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          6.00 
- 
+     AppMag          6.00
+
      EllipticalOrbit {
          Period              55.000
          SemiMajorAxis        8.531 # mass ratio 1.31 : 1.02
@@ -3619,12 +3622,12 @@
      }
  }
 
- "ADS 3588 B:CCDM J04590-1622B"
+ 2011765900 "ADS 3588 B:CCDM J04590-1622B"
  {
      OrbitBarycenter "ADS 3588 AB"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          7.52 
- 
+     AppMag          7.52
+
      EllipticalOrbit {
          Period              55.000
          SemiMajorAxis       10.938 # mass ratio 1.31 : 1.02
@@ -3642,13 +3645,13 @@
      Dec       26.671062
      Distance 132.426715
  }
- 
+
  "ADS 3608 A:CCDM J05017+2640A"
  {
      OrbitBarycenter "ADS 3608 AB"
      SpectralType    "G2V"    # lacking, used HIP data of the entire system!
-     AppMag          7.06 
- 
+     AppMag          7.06
+
      EllipticalOrbit {
          Period              25.100
          SemiMajorAxis        4.371 # mass ratio 1.07 : 0.78
@@ -3664,8 +3667,8 @@
  {
      OrbitBarycenter "ADS 3608 AB"
      SpectralType    "G2V"    # lacking, used HIP data of the entire system!
-     AppMag          9.03 
- 
+     AppMag          9.03
+
      EllipticalOrbit {
          Period              25.100
          SemiMajorAxis        5.988 # mass ratio 1.07 : 0.78
@@ -3683,13 +3686,13 @@
      Dec      -21.256105
      Distance  27.975555
  }
- 
- "Gliese 185 A:CCDM J05025-2115A"
+
+ 1004815912 "Gliese 185 A:CCDM J05025-2115A"
  {
      OrbitBarycenter "Gliese 185"
      SpectralType    "M0V"    # lacking, used HIP data of the entire system!
-     AppMag          8.53 
- 
+     AppMag          8.53
+
      EllipticalOrbit {
          Period              44.000
          SemiMajorAxis        5.511 # mass ratio 1.16 : 0.68
@@ -3701,12 +3704,12 @@
      }
  }
 
- "Gliese 185 B:CCDM J05025-2115B"
+ 2004815912 "Gliese 185 B:CCDM J05025-2115B"
  {
      OrbitBarycenter "Gliese 185"
      SpectralType    "M0V"    # lacking, used HIP data of the entire system!
      AppMag          10.67
- 
+
      EllipticalOrbit {
          Period              44.000
          SemiMajorAxis        9.502 # mass ratio 1.16 : 0.68
@@ -3724,13 +3727,13 @@
      Dec        2.603529
      Distance  65.972290
  }
- 
- "ADS 3959 A:CCDM J05226+0236A"
+
+ 1012120105 "ADS 3959 A:CCDM J05226+0236A"
  {
      OrbitBarycenter "ADS 3959 AB"
-     SpectralType    "G5"                                             
-     AppMag          7.98 
- 
+     SpectralType    "G5"
+     AppMag          7.98
+
      EllipticalOrbit {
          Period              93.000
          SemiMajorAxis        8.852 # mass ratio 0.74 : 0.50
@@ -3742,12 +3745,12 @@
      }
  }
 
- "ADS 3959 B:CCDM J05226+0236B"
+ 2012120105 "ADS 3959 B:CCDM J05226+0236B"
  {
      OrbitBarycenter "ADS 3959 AB"
      SpectralType    "K3V"    # lacking, used HIP data of the entire system!
      AppMag          10.77
- 
+
      EllipticalOrbit {
          Period              93.000
          SemiMajorAxis       13.017 # mass ratio 0.74 : 0.50
@@ -3765,13 +3768,13 @@
      Dec       -6.796315
      Distance 162.920579
  }
- 
+
  "ADS 4299 A:CCDM J05429-0648A"
  {
      OrbitBarycenter "ADS 4299 AB"
      SpectralType    "F3V"    # lacking, used HIP data of the entire system!
-     AppMag          6.56 
- 
+     AppMag          6.56
+
      EllipticalOrbit {
          Period              20.300
          SemiMajorAxis        4.670 # mass ratio 1.28 : 1.15
@@ -3787,8 +3790,8 @@
  {
      OrbitBarycenter "ADS 4299 AB"
      SpectralType    "F3V"    # lacking, used HIP data of the entire system!
-     AppMag          7.16 
- 
+     AppMag          7.16
+
      EllipticalOrbit {
          Period              20.300
          SemiMajorAxis        5.189 # mass ratio 1.28 : 1.15
@@ -3806,13 +3809,13 @@
 #      Dec       -2.812477
 #      Distance  13.460177
 #  }
-#  
+#
 #  "V577 Mon A:Gliese 234 Aa:CCDM J06294-0249Aa"
 #  {
 #      OrbitBarycenter "V577 Mon"
 #      SpectralType    "M4.5V"  # lacking, used HIP data of the entire system!
 #      AppMag          11.00
-#  
+#
 #      EllipticalOrbit {
 #          Period              16.500
 #          SemiMajorAxis        1.331 # mass ratio 0.22 : 0.09
@@ -3829,7 +3832,7 @@
 #      OrbitBarycenter "V577 Mon"
 #      SpectralType    "M4.5V"  # lacking, used HIP data of the entire system!
 #      AppMag          13.68
-#  
+#
 #      EllipticalOrbit {
 #          Period              16.500
 #          SemiMajorAxis        3.170 # mass ratio 0.22 : 0.09
@@ -3847,13 +3850,13 @@
      Dec      -50.238960
      Distance 167.781379
  }
- 
- "CCDM J06298-5014A"
+
+ 1020078111 "CCDM J06298-5014A"
  {
      OrbitBarycenter "CCDM J06298-5014AB"
      SpectralType    "F2V"    # lacking, used HIP data of the entire system!
-     AppMag          9.17 
- 
+     AppMag          9.17
+
      EllipticalOrbit {
          Period             101.000
          SemiMajorAxis       13.146 # mass ratio 0.93 : 0.93
@@ -3865,12 +3868,12 @@
      }
  }
 
- "CCDM J06298-5014B"
+ 2020078111 "CCDM J06298-5014B"
  {
      OrbitBarycenter "CCDM J06298-5014AB"
      SpectralType    "F2V"    # lacking, used HIP data of the entire system!
-     AppMag          9.22 
- 
+     AppMag          9.22
+
      EllipticalOrbit {
          Period             101.000
          SemiMajorAxis       13.279 # mass ratio 0.93 : 0.93
@@ -3888,13 +3891,13 @@
      Dec      -36.088454
      Distance 129.175050
  }
- 
+
  "CCDM J06359-3605A"
  {
      OrbitBarycenter "CCDM J06359-3605AB"
      SpectralType    "F6V"    # lacking, used HIP data of the entire system!
-     AppMag          6.76 
- 
+     AppMag          6.76
+
      EllipticalOrbit {
          Period              28.900
          SemiMajorAxis        5.259 # mass ratio 1.12 : 0.91
@@ -3910,8 +3913,8 @@
  {
      OrbitBarycenter "CCDM J06359-3605AB"
      SpectralType    "F6V"    # lacking, used HIP data of the entire system!
-     AppMag          8.03 
- 
+     AppMag          8.03
+
      EllipticalOrbit {
          Period              28.900
          SemiMajorAxis        6.414 # mass ratio 1.12 : 0.91
@@ -3929,13 +3932,13 @@
      Dec       60.874174
      Distance  34.178665
  }
- 
+
  "GJ 3412 A"
  {
      OrbitBarycenter "GJ 3412"
      SpectralType    "M"      # lacking, used HIP data of the entire system!
      AppMag          11.21
- 
+
      EllipticalOrbit {
          Period              12.000
          SemiMajorAxis        1.618 # mass ratio 0.28 : 0.18
@@ -3952,7 +3955,7 @@
      OrbitBarycenter "GJ 3412"
      SpectralType    "M"      # lacking, used HIP data of the entire system!
      AppMag          12.65
- 
+
      EllipticalOrbit {
          Period              12.000
          SemiMajorAxis        2.489 # mass ratio 0.28 : 0.18
@@ -3970,13 +3973,13 @@
      Dec       27.225061
      Distance 138.558624
  }
- 
- "ADS 5871 A:CCDM J07128+2713A"
+
+ 1014181904 "ADS 5871 A:CCDM J07128+2713A"
  {
      OrbitBarycenter "ADS 5871 AB"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
-     AppMag          7.28 
- 
+     AppMag          7.28
+
      EllipticalOrbit {
          Period             119.000
          SemiMajorAxis       17.304 # mass ratio 1.47 : 1.46
@@ -3988,12 +3991,12 @@
      }
  }
 
- "ADS 5871 B:CCDM J07128+2713B"
+ 2014181904 "ADS 5871 B:CCDM J07128+2713B"
  {
      OrbitBarycenter "ADS 5871 AB"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
-     AppMag          7.36 
- 
+     AppMag          7.36
+
      EllipticalOrbit {
          Period             119.000
          SemiMajorAxis       17.479 # mass ratio 1.47 : 1.46
@@ -4011,13 +4014,13 @@
      Dec      -13.897190
      Distance  53.831820
  }
- 
- "9 Pup A:Gliese 291 A:ADS 6420 A:CCDM J07518-1354A"
+
+ 1032275423 "9 Pup A:Gliese 291 A:ADS 6420 A:CCDM J07518-1354A"
  {
      OrbitBarycenter "9 Pup"
-     SpectralType    "G2V"                                            
-     AppMag          5.68 
- 
+     SpectralType    "G2V"
+     AppMag          5.68
+
      EllipticalOrbit {
          Period              23.300
          SemiMajorAxis        4.569 # mass ratio 0.97 : 0.85
@@ -4029,12 +4032,12 @@
      }
  }
 
- "9 Pup B:Gliese 291 B:ADS 6420 B:CCDM J07518-1354B"
+ 2032275423 "9 Pup B:Gliese 291 B:ADS 6420 B:CCDM J07518-1354B"
  {
      OrbitBarycenter "9 Pup"
      SpectralType    "G2V"    # lacking, used HIP data of the entire system!
-     AppMag          6.56 
- 
+     AppMag          6.56
+
      EllipticalOrbit {
          Period              23.300
          SemiMajorAxis        5.251 # mass ratio 0.97 : 0.85
@@ -4052,13 +4055,13 @@
      Dec       -5.428187
      Distance 129.534154
  }
- 
+
  "CCDM J07528-0526A"
  {
      OrbitBarycenter "CCDM J07528-0526AB"
-     SpectralType    "F5IV"                                           
-     AppMag          6.21 
- 
+     SpectralType    "F5IV"
+     AppMag          6.21
+
      EllipticalOrbit {
          Period              32.000
          SemiMajorAxis        6.119 # mass ratio 1.33 : 1.09
@@ -4074,8 +4077,8 @@
  {
      OrbitBarycenter "CCDM J07528-0526AB"
      SpectralType    "F5IV"   # lacking, used HIP data of the entire system!
-     AppMag          7.25 
- 
+     AppMag          7.25
+
      EllipticalOrbit {
          Period              32.000
          SemiMajorAxis        7.462 # mass ratio 1.33 : 1.09
@@ -4093,13 +4096,13 @@
      Dec      -13.915796
      Distance  67.320330
  }
- 
- "Gliese 301 A:ADS 6664 A:CCDM J08131-1355A"
+
+ 1007455438 "Gliese 301 A:ADS 6664 A:CCDM J08131-1355A"
  {
      OrbitBarycenter "ADS 6664 AB"
      SpectralType    "M0V"    # lacking, used HIP data of the entire system!
-     AppMag          9.95 
- 
+     AppMag          9.95
+
      EllipticalOrbit {
          Period              62.900
          SemiMajorAxis        7.776 # mass ratio 0.60 : 0.54
@@ -4111,12 +4114,12 @@
      }
  }
 
- "Gliese 301 B:ADS 6664 B:CCDM J08131-1355B"
+ 2007455438 "Gliese 301 B:ADS 6664 B:CCDM J08131-1355B"
  {
      OrbitBarycenter "ADS 6664 AB"
      SpectralType    "M0V"    # lacking, used HIP data of the entire system!
      AppMag          10.53
- 
+
      EllipticalOrbit {
          Period              62.900
          SemiMajorAxis        8.640 # mass ratio 0.60 : 0.54
@@ -4134,13 +4137,13 @@
      Dec      -49.159735
      Distance 108.867490
  }
- 
+
  "CCDM J08251-4910A"
  {
      OrbitBarycenter "CCDM J08251-4910AB"
      SpectralType    "K0"     # lacking, used HIP data of the entire system!
-     AppMag          8.28 
- 
+     AppMag          8.28
+
      EllipticalOrbit {
          Period              25.800
          SemiMajorAxis        4.489 # mass ratio 0.67 : 0.60
@@ -4156,8 +4159,8 @@
  {
      OrbitBarycenter "CCDM J08251-4910AB"
      SpectralType    "K0"     # lacking, used HIP data of the entire system!
-     AppMag          8.92 
- 
+     AppMag          8.92
+
      EllipticalOrbit {
          Period              25.800
          SemiMajorAxis        4.988 # mass ratio 0.67 : 0.60
@@ -4175,13 +4178,13 @@
      Dec      -52.704840
      Distance 176.306486
  }
- 
+
  "CCDM J08270-5242A"
  {
      OrbitBarycenter "CCDM J08270-5242AB"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          6.97 
- 
+     AppMag          6.97
+
      EllipticalOrbit {
          Period              14.600
          SemiMajorAxis        3.974 # mass ratio 1.58 : 1.34
@@ -4197,8 +4200,8 @@
  {
      OrbitBarycenter "CCDM J08270-5242AB"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          7.86 
- 
+     AppMag          7.86
+
      EllipticalOrbit {
          Period              14.600
          SemiMajorAxis        4.675 # mass ratio 1.58 : 1.34
@@ -4216,13 +4219,13 @@
      Dec       34.966200
      Distance  92.059554
  }
- 
- "ADS 6851 A:CCDM J08316+3458A"
+
+ 1003032486 "ADS 6851 A:CCDM J08316+3458A"
  {
      OrbitBarycenter "ADS 6851 AB"
      SpectralType    "G5"     # lacking, used HIP data of the entire system!
-     AppMag          7.62 
- 
+     AppMag          7.62
+
      EllipticalOrbit {
          Period              31.300
          SemiMajorAxis        5.178 # mass ratio 0.97 : 0.75
@@ -4234,12 +4237,12 @@
      }
  }
 
- "ADS 6851 B:CCDM J08316+3458B"
+ 2003032486 "ADS 6851 B:CCDM J08316+3458B"
  {
      OrbitBarycenter "ADS 6851 AB"
      SpectralType    "G5"     # lacking, used HIP data of the entire system!
-     AppMag          9.24 
- 
+     AppMag          9.24
+
      EllipticalOrbit {
          Period              31.300
          SemiMajorAxis        6.638 # mass ratio 0.97 : 0.75
@@ -4257,13 +4260,13 @@
      Dec      -36.606819
      Distance 123.454580
  }
- 
+
  "CCDM J08394-3636A"
  {
      OrbitBarycenter "CCDM J08394-3636AB"
      SpectralType    "F3"     # lacking, used HIP data of the entire system!
-     AppMag          6.52 
- 
+     AppMag          6.52
+
      EllipticalOrbit {
          Period              67.000
          SemiMajorAxis        9.120 # mass ratio 0.98 : 0.80
@@ -4279,8 +4282,8 @@
  {
      OrbitBarycenter "CCDM J08394-3636AB"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          7.74 
- 
+     AppMag          7.74
+
      EllipticalOrbit {
          Period              67.000
          SemiMajorAxis       11.122 # mass ratio 0.98 : 0.80
@@ -4298,13 +4301,13 @@
      Dec      -47.520720
      Distance 252.061051
  }
- 
+
  "CCDM J08538-4731A"
  {
      OrbitBarycenter "CCDM J08538-4731AB"
-     SpectralType    "A9IV"                                           
-     AppMag          5.73 
- 
+     SpectralType    "A9IV"
+     AppMag          5.73
+
      EllipticalOrbit {
          Period               7.250
          SemiMajorAxis        4.091 # mass ratio 2.44 : 3.65
@@ -4320,8 +4323,8 @@
  {
      OrbitBarycenter "CCDM J08538-4731AB"
      SpectralType    "A"      # lacking, used HIP data of the entire system!
-     AppMag          6.78 
- 
+     AppMag          6.78
+
      EllipticalOrbit {
          Period               7.250
          SemiMajorAxis        2.727 # mass ratio 2.44 : 3.65
@@ -4339,13 +4342,13 @@
      Dec      -68.689573
      Distance 106.451371
  }
- 
+
  "128 Car A:CCDM J09173-6841A"
  {
      OrbitBarycenter "128 Car"
-     SpectralType    "F4V"                                            
-     AppMag          6.06 
- 
+     SpectralType    "F4V"
+     AppMag          6.06
+
      EllipticalOrbit {
          Period               3.070
          SemiMajorAxis        1.506 # mass ratio 1.81 : 1.68
@@ -4361,8 +4364,8 @@
  {
      OrbitBarycenter "128 Car"
      SpectralType    "F4V"    # lacking, used HIP data of the entire system!
-     AppMag          6.45 
- 
+     AppMag          6.45
+
      EllipticalOrbit {
          Period               3.070
          SemiMajorAxis        1.619 # mass ratio 1.81 : 1.68
@@ -4380,13 +4383,13 @@
      Dec      -13.488848
      Distance  32.655887
  }
- 
+
  "Gliese 352 A:CCDM J09313-1329A"
  {
      OrbitBarycenter "Gliese 352"
-     SpectralType    "M4"                                             
+     SpectralType    "M4"
      AppMag          10.73
- 
+
      EllipticalOrbit {
          Period              18.400
          SemiMajorAxis        3.150 # mass ratio 0.44 : 0.41
@@ -4403,7 +4406,7 @@
      OrbitBarycenter "Gliese 352"
      SpectralType    "M2"     # lacking, used HIP data of the entire system!
      AppMag          10.92
- 
+
      EllipticalOrbit {
          Period              18.400
          SemiMajorAxis        3.351 # mass ratio 0.44 : 0.41
@@ -4421,13 +4424,13 @@
      Dec      -26.675285
      Distance 134.557343
  }
- 
- "ADS 7846 A:CCDM J10361-2641A"
+
+ 1016126628 "ADS 7846 A:CCDM J10361-2641A"
  {
      OrbitBarycenter "ADS 7846 AB"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          6.73 
- 
+     AppMag          6.73
+
      EllipticalOrbit {
          Period             159.000
          SemiMajorAxis       17.616 # mass ratio 1.23 : 1.02
@@ -4439,12 +4442,12 @@
      }
  }
 
- "ADS 7846 B:CCDM J10361-2641B"
+ 2016126628 "ADS 7846 B:CCDM J10361-2641B"
  {
      OrbitBarycenter "ADS 7846 AB"
      SpectralType    "F5V"    # lacking, used HIP data of the entire system!
-     AppMag          7.83 
- 
+     AppMag          7.83
+
      EllipticalOrbit {
          Period             159.000
          SemiMajorAxis       21.224 # mass ratio 1.23 : 1.02
@@ -4462,13 +4465,13 @@
      Dec        0.736930
      Distance 146.328847
  }
- 
- "55 Leo A:ADS 7982 A:CCDM J10557+0044A"
+
+ 1011970255 "55 Leo A:ADS 7982 A:CCDM J10557+0044A"
  {
      OrbitBarycenter "55 Leo"
-     SpectralType    "F4V"                                            
-     AppMag          6.07 
- 
+     SpectralType    "F4V"
+     AppMag          6.07
+
      EllipticalOrbit {
          Period             134.000
          SemiMajorAxis       12.898 # mass ratio 1.22 : 0.74
@@ -4480,12 +4483,12 @@
      }
  }
 
- "55 Leo B:ADS 7982 B:CCDM J10557+0044B"
+ 2011970255 "55 Leo B:ADS 7982 B:CCDM J10557+0044B"
  {
      OrbitBarycenter "55 Leo"
      SpectralType    "F2III"  # lacking, used HIP data of the entire system!
-     AppMag          9.12 
- 
+     AppMag          9.12
+
      EllipticalOrbit {
          Period             134.000
          SemiMajorAxis       21.144 # mass ratio 1.22 : 0.74
@@ -4497,46 +4500,48 @@
      }
  }
 
- Barycenter 54155 "HH Leo:ADS 8048 A:CCDM J11047-0413A"
- {
-     RA       166.173240
-     Dec       -4.220837
-     Distance  85.698108
- }
- 
- "HH Leo A:ADS 8048 Aa:CCDM J11047-0413Aa"
- {
-     OrbitBarycenter "HH Leo"
-     SpectralType    "G5"     # lacking, used HIP data of the entire system!
-     AppMag          10.99
- 
-     EllipticalOrbit {
-         Period              23.300
-         SemiMajorAxis        4.279 # mass ratio 0.60 : 0.60
-         Eccentricity         0.080
-         Inclination         43.766
-         AscendingNode      142.355
-         ArgOfPericenter     28.173
-         MeanAnomaly         77.253
-     }
- }
-
- "HH Leo B:ADS 8048 Ab:CCDM J11047-0413Ab"
- {
-     OrbitBarycenter "HH Leo"
-     SpectralType    "G5"     # lacking, used HIP data of the entire system!
-     AppMag          10.99
- 
-     EllipticalOrbit {
-         Period              23.300
-         SemiMajorAxis        4.279 # mass ratio 0.60 : 0.60
-         Eccentricity         0.080
-         Inclination         43.766
-         AscendingNode      142.355
-         ArgOfPericenter    208.173
-         MeanAnomaly         77.253
-     }
- }
+ #  Orbit is for secondary binary to HIP primary
+ #
+ #  Barycenter 54155 "HH Leo:ADS 8048 A:CCDM J11047-0413A"
+ #  {
+ #      RA       166.173240
+ #      Dec       -4.220837
+ #      Distance  85.698108
+ #  }
+ #
+ #  "HH Leo A:ADS 8048 Aa:CCDM J11047-0413Aa"
+ #  {
+ #      OrbitBarycenter "HH Leo"
+ #      SpectralType    "G5"     # lacking, used HIP data of the entire system!
+ #      AppMag          10.99
+ #
+ #      EllipticalOrbit {
+ #          Period              23.300
+ #          SemiMajorAxis        4.279 # mass ratio 0.60 : 0.60
+ #          Eccentricity         0.080
+ #          Inclination         43.766
+ #          AscendingNode      142.355
+ #          ArgOfPericenter     28.173
+ #          MeanAnomaly         77.253
+ #      }
+ #  }
+ #
+ #  "HH Leo B:ADS 8048 Ab:CCDM J11047-0413Ab"
+ #  {
+ #      OrbitBarycenter "HH Leo"
+ #      SpectralType    "G5"     # lacking, used HIP data of the entire system!
+ #      AppMag          10.99
+ #
+ #      EllipticalOrbit {
+ #          Period              23.300
+ #          SemiMajorAxis        4.279 # mass ratio 0.60 : 0.60
+ #          Eccentricity         0.080
+ #          Inclination         43.766
+ #          AscendingNode      142.355
+ #          ArgOfPericenter    208.173
+ #          MeanAnomaly         77.253
+ #      }
+ #  }
 
  Barycenter 54204 "CHI1 Hya:GJ 3642:CCDM J11053-2718AB"
  {
@@ -4544,13 +4549,13 @@
      Dec      -27.293595
      Distance 141.014700
  }
- 
+
  "CHI1 Hya A:GJ 3642 A:CCDM J11053-2718A"
  {
      OrbitBarycenter "GJ 3642"
-     SpectralType    "F3IV"                                           
-     AppMag          5.73 
- 
+     SpectralType    "F3IV"
+     AppMag          5.73
+
      EllipticalOrbit {
          Period               7.600
          SemiMajorAxis        3.101 # mass ratio 2.01 : 1.99
@@ -4566,8 +4571,8 @@
  {
      OrbitBarycenter "GJ 3642"
      SpectralType    "V"      # lacking, used HIP data of the entire system!
-     AppMag          5.79 
- 
+     AppMag          5.79
+
      EllipticalOrbit {
          Period               7.600
          SemiMajorAxis        3.132 # mass ratio 2.01 : 1.99
@@ -4585,13 +4590,13 @@
      Dec      -54.491014
      Distance 357.639254
  }
- 
- "PI Cen A:CCDM J11210-5429A"
+
+ 1020028621 "PI Cen A:CCDM J11210-5429A"
  {
      OrbitBarycenter "CCDM J11210-5429AB"
-     SpectralType    "B5V"                                            
-     AppMag          4.08 
- 
+     SpectralType    "B5V"
+     AppMag          4.08
+
      EllipticalOrbit {
          Period              39.000
          SemiMajorAxis        8.863 # mass ratio 6.01 : 3.24
@@ -4603,12 +4608,12 @@
      }
  }
 
- "PI Cen B:CCDM J11210-5429B"
+ 2020028621 "PI Cen B:CCDM J11210-5429B"
  {
      OrbitBarycenter "CCDM J11210-5429AB"
      SpectralType    "B5V"    # lacking, used HIP data of the entire system!
-     AppMag          5.57 
- 
+     AppMag          5.57
+
      EllipticalOrbit {
          Period              39.000
          SemiMajorAxis       16.412 # mass ratio 6.01 : 3.24
@@ -4626,13 +4631,13 @@
      Dec       10.529698
      Distance  77.217566
  }
- 
- "Tsze Tseang A:IOT Leo A:78 Leo A:ADS 8148 A:CCDM J11239+1032A"
+
+ 1012210858 "Tsze Tseang A:IOT Leo A:78 Leo A:ADS 8148 A:CCDM J11239+1032A"
  {
      OrbitBarycenter "Tsze Tseang"
      SpectralType    "F2IV"   # lacking, used HIP data of the entire system!
-     AppMag          4.11 
- 
+     AppMag          4.11
+
      EllipticalOrbit {
          Period             186.000
          SemiMajorAxis       17.329 # mass ratio 1.67 : 1.06
@@ -4644,12 +4649,12 @@
      }
  }
 
- "Tsze Tseang B:IOT Leo B:78 Leo B:ADS 8148 B:CCDM J11239+1032B"
+ 2012210858 "Tsze Tseang B:IOT Leo B:78 Leo B:ADS 8148 B:CCDM J11239+1032B"
  {
      OrbitBarycenter "Tsze Tseang"
      SpectralType    "F2IV"   # lacking, used HIP data of the entire system!
-     AppMag          6.86 
- 
+     AppMag          6.86
+
      EllipticalOrbit {
          Period             186.000
          SemiMajorAxis       27.507 # mass ratio 1.67 : 1.06
@@ -4667,13 +4672,13 @@
      Dec       73.756351
      Distance 189.742292
  }
- 
+
  "ADS 8337 A:CCDM J11537+7345A"
  {
      OrbitBarycenter "ADS 8337 AB"
      SpectralType    "F8"     # lacking, used HIP data of the entire system!
-     AppMag          7.24 
- 
+     AppMag          7.24
+
      EllipticalOrbit {
          Period              76.700
          SemiMajorAxis       10.757 # mass ratio 1.23 : 1.04
@@ -4689,8 +4694,8 @@
  {
      OrbitBarycenter "ADS 8337 AB"
      SpectralType    "F8"     # lacking, used HIP data of the entire system!
-     AppMag          8.29 
- 
+     AppMag          8.29
+
      EllipticalOrbit {
          Period              76.700
          SemiMajorAxis       12.806 # mass ratio 1.23 : 1.04
@@ -4708,13 +4713,13 @@
      Dec      -39.008965
      Distance 149.961839
  }
- 
- "CCDM J12036-3901A"
+
+ 1001167755 "CCDM J12036-3901A"
  {
      OrbitBarycenter "CCDM J12036-3901AB"
      SpectralType    "F7V"    # lacking, used HIP data of the entire system!
-     AppMag          7.13 
- 
+     AppMag          7.13
+
      EllipticalOrbit {
          Period             110.000
          SemiMajorAxis       14.229 # mass ratio 1.24 : 1.13
@@ -4726,12 +4731,12 @@
      }
  }
 
- "CCDM J12036-3901B"
+ 2001167755 "CCDM J12036-3901B"
  {
      OrbitBarycenter "CCDM J12036-3901AB"
      SpectralType    "F7V"    # lacking, used HIP data of the entire system!
-     AppMag          7.67 
- 
+     AppMag          7.67
+
      EllipticalOrbit {
          Period             110.000
          SemiMajorAxis       15.636 # mass ratio 1.24 : 1.13
@@ -4749,13 +4754,13 @@
      Dec      -31.093949
      Distance  69.813142
  }
- 
+
  "CCDM J12155-3106A"
  {
      OrbitBarycenter "CCDM J12155-3106AB"
      SpectralType    "K5V"    # lacking, used HIP data of the entire system!
      AppMag          10.17
- 
+
      EllipticalOrbit {
          Period              63.000
          SemiMajorAxis        7.565 # mass ratio 0.58 : 0.46
@@ -4772,7 +4777,7 @@
      OrbitBarycenter "CCDM J12155-3106AB"
      SpectralType    "K5V"    # lacking, used HIP data of the entire system!
      AppMag          11.28
- 
+
      EllipticalOrbit {
          Period              63.000
          SemiMajorAxis        9.456 # mass ratio 0.58 : 0.46
@@ -4790,13 +4795,13 @@
      Dec        5.640324
      Distance  94.541159
  }
- 
- "ADS 8486 A:CCDM J12160+0538A"
+
+ 1003370287 "ADS 8486 A:CCDM J12160+0538A"
  {
      OrbitBarycenter "ADS 8486 AB"
-     SpectralType    "K8"                                             
+     SpectralType    "K8"
      AppMag          10.11
- 
+
      EllipticalOrbit {
          Period            1100.000
          SemiMajorAxis       55.970 # mass ratio 0.64 : 0.61
@@ -4808,12 +4813,12 @@
      }
  }
 
- "ADS 8486 B:CCDM J12160+0538B"
+ 2003370287 "ADS 8486 B:CCDM J12160+0538B"
  {
      OrbitBarycenter "ADS 8486 AB"
      SpectralType    "K8"     # lacking, used HIP data of the entire system!
      AppMag          10.59
- 
+
      EllipticalOrbit {
          Period            1100.000
          SemiMajorAxis       59.542 # mass ratio 0.64 : 0.61
@@ -4825,19 +4830,19 @@
      }
  }
 
- Barycenter 60994 "GJ 9409 A:ADS 8573 A:CCDM J12301-1324A"
+ Barycenter 60994 "GJ 9409:ADS 8573:CCDM J12301-1324AB"
  {
      RA       187.520549
      Dec      -13.393053
      Distance  80.396105
  }
- 
- "GJ 9409 Aa:ADS 8573 Aa:CCDM J12301-1324Aa"
+
+ 1017915533 "GJ 9409 A:ADS 8573 A:CCDM J12301-1324A"
  {
-     OrbitBarycenter "GJ 9409 A"
-     SpectralType    "F9V"                                            
-     AppMag          6.54 
- 
+     OrbitBarycenter "GJ 9409"
+     SpectralType    "F9V"
+     AppMag          6.54
+
      EllipticalOrbit {
          Period             151.000
          SemiMajorAxis       13.664 # mass ratio 1.07 : 0.68
@@ -4849,12 +4854,12 @@
      }
  }
 
- "GJ 9409 Ab:ADS 8573 Ab:CCDM J12301-1324Ab"
+ 2017915533 "GJ 9409 B:ADS 8573 B:CCDM J12301-1324B"
  {
-     OrbitBarycenter "GJ 9409 A"
+     OrbitBarycenter "GJ 9409"
      SpectralType    "G2V"    # lacking, used HIP data of the entire system!
-     AppMag          9.58 
- 
+     AppMag          9.58
+
      EllipticalOrbit {
          Period             151.000
          SemiMajorAxis       21.689 # mass ratio 1.07 : 0.68
@@ -4872,13 +4877,13 @@
      Dec      -48.959886
      Distance 130.154429
  }
- 
- "Muhlifain A:GAM Cen A:CCDM J12415-4858A"
+
+ 1027248240 "Muhlifain A:GAM Cen A:CCDM J12415-4858A"
  {
      OrbitBarycenter "Muhlifain"
-     SpectralType    "A1IV"                                           
-     AppMag          2.84 
- 
+     SpectralType    "A1IV"
+     AppMag          2.84
+
      EllipticalOrbit {
          Period              83.000
          SemiMajorAxis       17.114 # mass ratio 2.92 : 2.90
@@ -4890,12 +4895,12 @@
      }
  }
 
- "Muhlifain B:GAM Cen B:CCDM J12415-4858B"
+ 2027248240 "Muhlifain B:GAM Cen B:CCDM J12415-4858B"
  {
      OrbitBarycenter "Muhlifain"
      SpectralType    "A1IV"   # lacking, used HIP data of the entire system!
-     AppMag          2.94 
- 
+     AppMag          2.94
+
      EllipticalOrbit {
          Period              83.000
          SemiMajorAxis       17.286 # mass ratio 2.92 : 2.90
@@ -4913,13 +4918,13 @@
      Dec      -61.691572
      Distance 116.529832
  }
- 
- "CCDM J13372-6142A"
+
+ 1048478991 "CCDM J13372-6142A"
  {
      OrbitBarycenter "CCDM J13372-6142AB"
      SpectralType    "F6V"    # lacking, used HIP data of the entire system!
-     AppMag          6.30 
- 
+     AppMag          6.30
+
      EllipticalOrbit {
          Period              35.000
          SemiMajorAxis        7.555 # mass ratio 1.60 : 1.49
@@ -4931,12 +4936,12 @@
      }
  }
 
- "CCDM J13372-6142B"
+ 2048478991 "CCDM J13372-6142B"
  {
      OrbitBarycenter "CCDM J13372-6142AB"
      SpectralType    "F6V"    # lacking, used HIP data of the entire system!
-     AppMag          6.70 
- 
+     AppMag          6.70
+
      EllipticalOrbit {
          Period              35.000
          SemiMajorAxis        8.124 # mass ratio 1.60 : 1.49
@@ -4954,13 +4959,13 @@
      Dec       10.746302
      Distance 195.661068
  }
- 
+
  "ADS 8987 A:CCDM J13395+1045A"
  {
      OrbitBarycenter "ADS 8987 AB"
      SpectralType    "F0V"    # lacking, used HIP data of the entire system!
-     AppMag          6.35 
- 
+     AppMag          6.35
+
      EllipticalOrbit {
          Period              22.300
          SemiMajorAxis        5.444 # mass ratio 1.27 : 1.24
@@ -4976,8 +4981,8 @@
  {
      OrbitBarycenter "ADS 8987 AB"
      SpectralType    "F0V"    # lacking, used HIP data of the entire system!
-     AppMag          6.47 
- 
+     AppMag          6.47
+
      EllipticalOrbit {
          Period              22.300
          SemiMajorAxis        5.556 # mass ratio 1.27 : 1.24
@@ -4989,46 +4994,48 @@
      }
  }
 
- Barycenter 70327 "ADS 9247 A:CCDM J14234+0827A"
- {
-     RA       215.844750
-     Dec        8.446641
-     Distance 215.007910
- }
- 
- "ADS 9247 Aa:CCDM J14234+0827Aa"
- {
-     OrbitBarycenter "ADS 9247 A"
-     SpectralType    "A0V"    # lacking, used HIP data of the entire system!
-     AppMag          7.43 
- 
-     EllipticalOrbit {
-         Period              40.000
-         SemiMajorAxis        7.295 # mass ratio 1.30 : 1.15
-         Eccentricity         0.250
-         Inclination         90.052
-         AscendingNode      157.605
-         ArgOfPericenter     84.007
-         MeanAnomaly         18.000
-     }
- }
-
- "ADS 9247 Ab:CCDM J14234+0827Ab"
- {
-     OrbitBarycenter "ADS 9247 A"
-     SpectralType    "A0V"    # lacking, used HIP data of the entire system!
-     AppMag          8.09 
- 
-     EllipticalOrbit {
-         Period              40.000
-         SemiMajorAxis        8.290 # mass ratio 1.30 : 1.15
-         Eccentricity         0.250
-         Inclination         90.052
-         AscendingNode      157.605
-         ArgOfPericenter    264.007
-         MeanAnomaly         18.000
-     }
- }
+ #  Orbit is for secondary binary to HIP primary
+ #
+ #  Barycenter 70327 "ADS 9247 A:CCDM J14234+0827A"
+ #  {
+ #      RA       215.844750
+ #      Dec        8.446641
+ #      Distance 215.007910
+ #  }
+ #
+ #  "ADS 9247 Aa:CCDM J14234+0827Aa"
+ #  {
+ #      OrbitBarycenter "ADS 9247 A"
+ #      SpectralType    "A0V"    # lacking, used HIP data of the entire system!
+ #      AppMag          7.43
+ #
+ #      EllipticalOrbit {
+ #          Period              40.000
+ #          SemiMajorAxis        7.295 # mass ratio 1.30 : 1.15
+ #          Eccentricity         0.250
+ #          Inclination         90.052
+ #          AscendingNode      157.605
+ #          ArgOfPericenter     84.007
+ #          MeanAnomaly         18.000
+ #      }
+ #  }
+ #
+ #  "ADS 9247 Ab:CCDM J14234+0827Ab"
+ #  {
+ #      OrbitBarycenter "ADS 9247 A"
+ #      SpectralType    "A0V"    # lacking, used HIP data of the entire system!
+ #      AppMag          8.09
+ #
+ #      EllipticalOrbit {
+ #          Period              40.000
+ #          SemiMajorAxis        8.290 # mass ratio 1.30 : 1.15
+ #          Eccentricity         0.250
+ #          Inclination         90.052
+ #          AscendingNode      157.605
+ #          ArgOfPericenter    264.007
+ #          MeanAnomaly         18.000
+ #      }
+ #  }
 
  Barycenter 70973 "CCDM J14310-0548AB"
  {
@@ -5036,13 +5043,13 @@
      Dec       -5.802300
      Distance 134.169889
  }
- 
+
  "CCDM J14310-0548A"
  {
      OrbitBarycenter "CCDM J14310-0548AB"
-     SpectralType    "G5"                                             
-     AppMag          8.43 
- 
+     SpectralType    "G5"
+     AppMag          8.43
+
      EllipticalOrbit {
          Period              20.600
          SemiMajorAxis        4.326 # mass ratio 0.83 : 0.78
@@ -5058,8 +5065,8 @@
  {
      OrbitBarycenter "CCDM J14310-0548AB"
      SpectralType    "G5"     # lacking, used HIP data of the entire system!
-     AppMag          8.75 
- 
+     AppMag          8.75
+
      EllipticalOrbit {
          Period              20.600
          SemiMajorAxis        4.554 # mass ratio 0.83 : 0.78
@@ -5071,19 +5078,19 @@
      }
  }
 
- Barycenter 71914 "GJ 9490 A:ADS 9352 A:CCDM J14425+1929A"
+ Barycenter 71914 "GJ 9490:ADS 9352:CCDM J14425+1929AB"
  {
      RA       220.640857
      Dec       19.480156
      Distance  70.385628
  }
- 
- "GJ 9490 Aa:ADS 9352 Aa:CCDM J14425+1929Aa"
+
+ "GJ 9490 A:ADS 9352 A:CCDM J14425+1929A"
  {
-     OrbitBarycenter "GJ 9490 A"
+     OrbitBarycenter "GJ 9490"
      SpectralType    "M0"     # lacking, used HIP data of the entire system!
-     AppMag          9.78 
- 
+     AppMag          9.78
+
      EllipticalOrbit {
          Period              51.700
          SemiMajorAxis        6.691 # mass ratio 0.52 : 0.51
@@ -5095,12 +5102,12 @@
      }
  }
 
- "GJ 9490 Ab:ADS 9352 Ab:CCDM J14425+1929Ab"
+ "GJ 9490 B:ADS 9352 B:CCDM J14425+1929B"
  {
-     OrbitBarycenter "GJ 9490 A"
+     OrbitBarycenter "GJ 9490"
      SpectralType    "M0"     # lacking, used HIP data of the entire system!
      AppMag          10.01
- 
+
      EllipticalOrbit {
          Period              51.700
          SemiMajorAxis        6.898 # mass ratio 0.52 : 0.51
@@ -5118,13 +5125,13 @@
      Dec      -21.175715
      Distance 134.557343
  }
- 
+
  "CCDM J14462-2111A"
  {
      OrbitBarycenter "CCDM J14462-2111AB"
-     SpectralType    "G1V"                                            
-     AppMag          7.30 
- 
+     SpectralType    "G1V"
+     AppMag          7.30
+
      EllipticalOrbit {
          Period              25.800
          SemiMajorAxis        6.160 # mass ratio 1.41 : 1.41
@@ -5140,8 +5147,8 @@
  {
      OrbitBarycenter "CCDM J14462-2111AB"
      SpectralType    "G2V"    # lacking, used HIP data of the entire system!
-     AppMag          7.30 
- 
+     AppMag          7.30
+
      EllipticalOrbit {
          Period              25.800
          SemiMajorAxis        6.160 # mass ratio 1.41 : 1.41
@@ -5159,13 +5166,13 @@
      Dec       10.214912
      Distance 144.385569
  }
- 
+
  "ADS 9397 A:CCDM J14492+1013A"
  {
      OrbitBarycenter "ADS 9397 AB"
      SpectralType    "K2V"    # lacking, used HIP data of the entire system!
-     AppMag          9.30 
- 
+     AppMag          9.30
+
      EllipticalOrbit {
          Period               9.970
          SemiMajorAxis        2.723 # mass ratio 0.72 : 0.72
@@ -5181,8 +5188,8 @@
  {
      OrbitBarycenter "ADS 9397 AB"
      SpectralType    "K2V"    # lacking, used HIP data of the entire system!
-     AppMag          9.32 
- 
+     AppMag          9.32
+
      EllipticalOrbit {
          Period               9.970
          SemiMajorAxis        2.723 # mass ratio 0.72 : 0.72
@@ -5200,13 +5207,13 @@
 #      Dec      -21.407472
 #      Distance  19.326124
 #  }
-#  
+#
 #  "Gliese 570 Ba:ADS 9446 Ba:CCDM J14574-2124Ba"
 #  {
 #      OrbitBarycenter "Gliese 570 B"
-#      SpectralType    "M1.5V"                                          
-#      AppMag          8.38 
-#  
+#      SpectralType    "M1.5V"
+#      AppMag          8.38
+#
 #      EllipticalOrbit {
 #          Period               0.847
 #          SemiMajorAxis        0.343 # mass ratio 0.49 : 0.34
@@ -5221,9 +5228,9 @@
 #  "Gliese 570 Bb:ADS 9446 Bb:CCDM J14574-2124Bb"
 #  {
 #      OrbitBarycenter "Gliese 570 B"
-#      SpectralType    "M3V"                                            
+#      SpectralType    "M3V"
 #      AppMag          10.15
-#  
+#
 #      EllipticalOrbit {
 #          Period               0.847
 #          SemiMajorAxis        0.482 # mass ratio 0.49 : 0.34
@@ -5241,13 +5248,13 @@
      Dec       26.840196
      Distance 117.368478
  }
- 
- "ADS 9578 A:CCDM J15183+2650A"
+
+ 1009782028 "ADS 9578 A:CCDM J15183+2650A"
  {
      OrbitBarycenter "ADS 9578 AB"
-     SpectralType    "F6V"                                            
-     AppMag          7.42 
- 
+     SpectralType    "F6V"
+     AppMag          7.42
+
      EllipticalOrbit {
          Period             200.000
          SemiMajorAxis       23.254 # mass ratio 1.27 : 1.26
@@ -5259,12 +5266,12 @@
      }
  }
 
- "ADS 9578 B:CCDM J15183+2650B"
+ 2009782028 "ADS 9578 B:CCDM J15183+2650B"
  {
      OrbitBarycenter "ADS 9578 AB"
-     SpectralType    "F6V"                                            
-     AppMag          7.47 
- 
+     SpectralType    "F6V"
+     AppMag          7.47
+
      EllipticalOrbit {
          Period             200.000
          SemiMajorAxis       23.489 # mass ratio 1.27 : 1.26
@@ -5282,13 +5289,13 @@
      Dec       64.439811
      Distance 181.708635
  }
- 
+
  "ADS 9730 A:CCDM J15370+6426A"
  {
      OrbitBarycenter "ADS 9730 AB"
-     SpectralType    "G5"                                             
-     AppMag          9.49 
- 
+     SpectralType    "G5"
+     AppMag          9.49
+
      EllipticalOrbit {
          Period              88.000
          SemiMajorAxis       10.797 # mass ratio 0.68 : 0.66
@@ -5304,8 +5311,8 @@
  {
      OrbitBarycenter "ADS 9730 AB"
      SpectralType    "G5"     # lacking, used HIP data of the entire system!
-     AppMag          9.72 
- 
+     AppMag          9.72
+
      EllipticalOrbit {
          Period              88.000
          SemiMajorAxis       11.246 # mass ratio 0.68 : 0.66
@@ -5323,13 +5330,13 @@
      Dec       19.670506
      Distance 190.074009
  }
- 
+
  "IOT Ser A:21 Ser A:ADS 9744 A:CCDM J15416+1940Aa"
  {
      OrbitBarycenter "IOT Ser"
-     SpectralType    "B9V"                                            
-     AppMag          5.21 
- 
+     SpectralType    "B9V"
+     AppMag          5.21
+
      EllipticalOrbit {
          Period              21.900
          SemiMajorAxis        5.948 # mass ratio 1.92 : 1.87
@@ -5344,9 +5351,9 @@
  "IOT Ser B:21 Ser B:ADS 9744 B:CCDM J15416+1940Ab"
  {
      OrbitBarycenter "IOT Ser"
-     SpectralType    "A1V"                                            
-     AppMag          5.35 
- 
+     SpectralType    "A1V"
+     AppMag          5.35
+
      EllipticalOrbit {
          Period              21.900
          SemiMajorAxis        6.132 # mass ratio 1.92 : 1.87
@@ -5364,13 +5371,13 @@
      Dec       26.295514
      Distance 146.066726
  }
- 
- "GAM CrB A:8 CrB A:ADS 9757 A:CCDM J15427+2618Aa"
+
+ 1016742036 "GAM CrB A:8 CrB A:ADS 9757 A:CCDM J15427+2618Aa"
  {
      OrbitBarycenter "GAM CrB"
-     SpectralType    "B9V"                                            
-     AppMag          4.05 
- 
+     SpectralType    "B9V"
+     AppMag          4.05
+
      EllipticalOrbit {
          Period              92.700
          SemiMajorAxis       13.369 # mass ratio 2.49 : 1.74
@@ -5382,12 +5389,12 @@
      }
  }
 
- "GAM CrB B:8 CrB B:ADS 9757 B:CCDM J15427+2618Ab"
+ 2016742036 "GAM CrB B:8 CrB B:ADS 9757 B:CCDM J15427+2618Ab"
  {
      OrbitBarycenter "GAM CrB"
-     SpectralType    "A3V"                                            
-     AppMag          5.61 
- 
+     SpectralType    "A3V"
+     AppMag          5.61
+
      EllipticalOrbit {
          Period              92.700
          SemiMajorAxis       19.099 # mass ratio 2.49 : 1.74
@@ -5405,13 +5412,13 @@
      Dec      -57.774874
      Distance 128.462781
  }
- 
+
  "IOT1 Nor A:CCDM J16035-5747Aa"
  {
      OrbitBarycenter "CCDM J16035-5747A"
-     SpectralType    "A7IV"                                           
-     AppMag          5.36 
- 
+     SpectralType    "A7IV"
+     AppMag          5.36
+
      EllipticalOrbit {
          Period              26.900
          SemiMajorAxis        6.838 # mass ratio 1.98 : 1.89
@@ -5427,8 +5434,8 @@
  {
      OrbitBarycenter "CCDM J16035-5747A"
      SpectralType    "A7IV"   # lacking, used HIP data of the entire system!
-     AppMag          5.62 
- 
+     AppMag          5.62
+
      EllipticalOrbit {
          Period              26.900
          SemiMajorAxis        7.197 # mass ratio 1.98 : 1.89
@@ -5446,13 +5453,13 @@
      Dec      -11.372945
      Distance  58.547300
  }
- 
- "XI Sco A:ADS 9909 A:CCDM J16044-1123A"
+
+ 1012575619 "XI Sco A:ADS 9909 A:CCDM J16044-1123A"
  {
      OrbitBarycenter "XI Sco"
      SpectralType    "F6IV"   # lacking, used HIP data of the entire system!
-     AppMag          5.05 
- 
+     AppMag          5.05
+
      EllipticalOrbit {
          Period              45.680
          SemiMajorAxis        8.959 # mass ratio 1.38 : 1.38
@@ -5464,12 +5471,12 @@
      }
  }
 
- "XI Sco B:ADS 9909 C:CCDM J16044-1123B"
+ 2012575619 "XI Sco B:ADS 9909 C:CCDM J16044-1123B"
  {
      OrbitBarycenter "XI Sco"
      SpectralType    "F6IV"   # lacking, used HIP data of the entire system!
-     AppMag          5.07 
- 
+     AppMag          5.07
+
      EllipticalOrbit {
          Period              45.680
          SemiMajorAxis        8.959 # mass ratio 1.38 : 1.38
@@ -5487,13 +5494,13 @@
      Dec       35.935215
      Distance 176.976126
  }
- 
+
  "c Her A:ADS 10360 A:CCDM J17080+3556A"
  {
      OrbitBarycenter "c Her"
      SpectralType    "A5"     # lacking, used HIP data of the entire system!
-     AppMag          6.15 
- 
+     AppMag          6.15
+
      EllipticalOrbit {
          Period               8.110
          SemiMajorAxis        3.009 # mass ratio 1.69 : 1.63
@@ -5509,8 +5516,8 @@
  {
      OrbitBarycenter "c Her"
      SpectralType    "A5"     # lacking, used HIP data of the entire system!
-     AppMag          6.33 
- 
+     AppMag          6.33
+
      EllipticalOrbit {
          Period               8.110
          SemiMajorAxis        3.102 # mass ratio 1.69 : 1.63
@@ -5528,13 +5535,13 @@
      Dec      -15.725148
      Distance  88.368193
  }
- 
- "Sabik A:ETA Oph A:35 Oph A:ADS 10374 A:CCDM J17104-1544Aa"
+
+ 1013336232 "Sabik A:ETA Oph A:35 Oph A:ADS 10374 A:CCDM J17104-1544Aa"
  {
      OrbitBarycenter "Sabik"
-     SpectralType    "A1IV"                                           
-     AppMag          2.97 
- 
+     SpectralType    "A1IV"
+     AppMag          2.97
+
      EllipticalOrbit {
          Period              88.000
          SemiMajorAxis       15.280 # mass ratio 2.53 : 2.28
@@ -5546,12 +5553,12 @@
      }
  }
 
- "Sabik B:ETA Oph B:35 Oph B:ADS 10374 B:CCDM J17104-1544Ab"
+ 2013336232 "Sabik B:ETA Oph B:35 Oph B:ADS 10374 B:CCDM J17104-1544Ab"
  {
      OrbitBarycenter "Sabik"
      SpectralType    "A2.5V"  # lacking, used HIP data of the entire system!
-     AppMag          3.47 
- 
+     AppMag          3.47
+
      EllipticalOrbit {
          Period              88.000
          SemiMajorAxis       16.978 # mass ratio 2.53 : 2.28
@@ -5563,19 +5570,19 @@
      }
  }
 
- Barycenter 84123 "Gliese 660 A:CCDM J17119-0151A"
+ Barycenter 84123 "Gliese 660:CCDM J17119-0151AB"
  {
      RA       257.969065
      Dec       -1.850968
      Distance  33.217945
  }
- 
- "Gliese 660 Aa:CCDM J17119-0151Aa"
+
+ "Gliese 660 A:CCDM J17119-0151A"
  {
-     OrbitBarycenter "Gliese 660 A"
+     OrbitBarycenter "Gliese 660"
      SpectralType    "M3V"    # lacking, used HIP data of the entire system!
      AppMag          12.13
- 
+
      EllipticalOrbit {
          Period              34.000
          SemiMajorAxis        4.440 # mass ratio 0.29 : 0.28
@@ -5587,12 +5594,12 @@
      }
  }
 
- "Gliese 660 Ab:CCDM J17119-0151Ab"
+ "Gliese 660 B:CCDM J17119-0151B"
  {
-     OrbitBarycenter "Gliese 660 A"
+     OrbitBarycenter "Gliese 660"
      SpectralType    "M3V"    # lacking, used HIP data of the entire system!
      AppMag          12.15
- 
+
      EllipticalOrbit {
          Period              34.000
          SemiMajorAxis        4.485 # mass ratio 0.29 : 0.28
@@ -5610,13 +5617,13 @@
      Dec       29.392615
      Distance  77.492754
  }
- 
- "Gliese 677 A:ADS 10585 A:CCDM J17293+2924A"
+
+ 1004512087 "Gliese 677 A:ADS 10585 A:CCDM J17293+2924A"
  {
      OrbitBarycenter "Gliese 677"
-     SpectralType    "K2"                                             
-     AppMag          9.66 
- 
+     SpectralType    "K2"
+     AppMag          9.66
+
      EllipticalOrbit {
          Period              59.000
          SemiMajorAxis        7.705 # mass ratio 0.55 : 0.53
@@ -5628,12 +5635,12 @@
      }
  }
 
- "Gliese 677 B:ADS 10585 B:CCDM J17293+2924B"
+ 2004512087 "Gliese 677 B:ADS 10585 B:CCDM J17293+2924B"
  {
      OrbitBarycenter "Gliese 677"
      SpectralType    "K2"     # lacking, used HIP data of the entire system!
      AppMag          10.06
- 
+
      EllipticalOrbit {
          Period              59.000
          SemiMajorAxis        8.110 # mass ratio 0.55 : 0.53
@@ -5651,13 +5658,13 @@
      Dec       34.746544
      Distance 202.086121
  }
- 
+
  "ADS 10624 A:CCDM J17326+3445A"
  {
      OrbitBarycenter "ADS 10624 AB"
      SpectralType    "G0"     # lacking, used HIP data of the entire system!
-     AppMag          8.70 
- 
+     AppMag          8.70
+
      EllipticalOrbit {
          Period              23.300
          SemiMajorAxis        4.837 # mass ratio 0.87 : 0.84
@@ -5673,8 +5680,8 @@
  {
      OrbitBarycenter "ADS 10624 AB"
      SpectralType    "G0"     # lacking, used HIP data of the entire system!
-     AppMag          8.99 
- 
+     AppMag          8.99
+
      EllipticalOrbit {
          Period              23.300
          SemiMajorAxis        5.039 # mass ratio 0.87 : 0.84
@@ -5694,13 +5701,13 @@
 #     Dec       27.895848
 #     Distance  96.186081
 # }
-# 
+#
 # "GJ 9595 A:CCDM J17372+2754A"
 # {
 #     OrbitBarycenter "GJ 9595"
 #     SpectralType    "M0"     # lacking, used HIP data of the entire system!
-#     AppMag          9.80 
-# 
+#     AppMag          9.80
+#
 #     EllipticalOrbit {
 #         Period              24.000
 #         SemiMajorAxis        4.422 # mass ratio 0.67 : 0.63
@@ -5717,7 +5724,7 @@
 #     OrbitBarycenter "GJ 9595"
 #     SpectralType    "M0"     # lacking, used HIP data of the entire system!
 #     AppMag          10.41
-# 
+#
 #     EllipticalOrbit {
 #         Period              24.000
 #         SemiMajorAxis        4.755 # mass ratio 0.67 : 0.63
@@ -5735,13 +5742,13 @@
      Dec       37.061934
      Distance 168.387713
  }
- 
+
  "CCDM J17490+3704A"
  {
      OrbitBarycenter "CCDM J17490+3704AB"
-     SpectralType    "G0"                                             
-     AppMag          8.01 
- 
+     SpectralType    "G0"
+     AppMag          8.01
+
      EllipticalOrbit {
          Period              20.800
          SemiMajorAxis        5.089 # mass ratio 1.12 : 1.10
@@ -5757,8 +5764,8 @@
  {
      OrbitBarycenter "CCDM J17490+3704AB"
      SpectralType    "G0"     # lacking, used HIP data of the entire system!
-     AppMag          8.06 
- 
+     AppMag          8.06
+
      EllipticalOrbit {
          Period              20.800
          SemiMajorAxis        5.140 # mass ratio 1.12 : 1.10
@@ -5776,13 +5783,13 @@
      Dec       30.561868
      Distance  51.019396
  }
- 
- "b Her A:99 Her A:Gliese 704 A:ADS 11077 A:CCDM J18071+3034A"
+
+ 1026832621 "b Her A:99 Her A:Gliese 704 A:ADS 11077 A:CCDM J18071+3034A"
  {
      OrbitBarycenter "b Her"
      SpectralType    "F7V"    # lacking, used HIP data of the entire system!
-     AppMag          5.19 
- 
+     AppMag          5.19
+
      EllipticalOrbit {
          Period              56.400
          SemiMajorAxis        5.682 # mass ratio 0.79 : 0.46
@@ -5794,12 +5801,12 @@
      }
  }
 
- "b Her B:99 Her B:Gliese 704 B:ADS 11077 B:CCDM J18071+3034B"
+ 2026832621 "b Her B:99 Her B:Gliese 704 B:ADS 11077 B:CCDM J18071+3034B"
  {
      OrbitBarycenter "b Her"
      SpectralType    "F7V"    # lacking, used HIP data of the entire system!
-     AppMag          8.90 
- 
+     AppMag          8.90
+
      EllipticalOrbit {
          Period              56.400
          SemiMajorAxis        9.797 # mass ratio 0.79 : 0.46
@@ -5817,13 +5824,13 @@
      Dec      -22.183513
      Distance 106.975074
  }
- 
+
  "CCDM J18092-2211A"
  {
      OrbitBarycenter "CCDM J18092-2211AB"
      SpectralType    "K3"     # lacking, used HIP data of the entire system!
-     AppMag          9.57 
- 
+     AppMag          9.57
+
      EllipticalOrbit {
          Period               9.400
          SemiMajorAxis        2.457 # mass ratio 0.77 : 0.73
@@ -5839,8 +5846,8 @@
  {
      OrbitBarycenter "CCDM J18092-2211AB"
      SpectralType    "K4V"    # lacking, used HIP data of the entire system!
-     AppMag          9.89 
- 
+     AppMag          9.89
+
      EllipticalOrbit {
          Period               9.400
          SemiMajorAxis        2.559 # mass ratio 0.77 : 0.73
@@ -5858,13 +5865,13 @@
      Dec        3.993287
      Distance 178.721644
  }
- 
- "73 Oph A:V2666 Oph A:ADS 11111 A:CCDM J18096+0359A"
+
+ 1014450439 "73 Oph A:V2666 Oph A:ADS 11111 A:CCDM J18096+0359A"
  {
      OrbitBarycenter "73 Oph"
-     SpectralType    "F2V"                                            
-     AppMag          6.07 
- 
+     SpectralType    "F2V"
+     AppMag          6.07
+
      EllipticalOrbit {
          Period             294.000
          SemiMajorAxis       27.642 # mass ratio 1.51 : 1.19
@@ -5876,12 +5883,12 @@
      }
  }
 
- "73 Oph B:V2666 Oph B:ADS 11111 B:CCDM J18096+0359B"
+ 2014450439 "73 Oph B:V2666 Oph B:ADS 11111 B:CCDM J18096+0359B"
  {
      OrbitBarycenter "73 Oph"
      SpectralType    "F2V"    # lacking, used HIP data of the entire system!
-     AppMag          7.40 
- 
+     AppMag          7.40
+
      EllipticalOrbit {
          Period             294.000
          SemiMajorAxis       34.990 # mass ratio 1.51 : 1.19
@@ -5899,13 +5906,13 @@
      Dec       -3.193721
      Distance 156.435012
  }
- 
+
  "ADS 11520 A:CCDM J18384-0312A"
  {
      OrbitBarycenter "ADS 11520 AB"
-     SpectralType    "F9V"                                            
-     AppMag          7.14 
- 
+     SpectralType    "F9V"
+     AppMag          7.14
+
      EllipticalOrbit {
          Period              12.130
          SemiMajorAxis        3.670 # mass ratio 1.48 : 1.37
@@ -5921,8 +5928,8 @@
  {
      OrbitBarycenter "ADS 11520 AB"
      SpectralType    "F9IV"   # lacking, used HIP data of the entire system!
-     AppMag          7.62 
- 
+     AppMag          7.62
+
      EllipticalOrbit {
          Period              12.130
          SemiMajorAxis        3.946 # mass ratio 1.48 : 1.37
@@ -5940,13 +5947,13 @@
      Dec       67.126097
      Distance 175.547363
  }
- 
+
  "ADS 11568 A:CCDM J18384+6707A"
  {
      OrbitBarycenter "ADS 11568 AB"
      SpectralType    "G5"     # lacking, used HIP data of the entire system!
-     AppMag          8.29 
- 
+     AppMag          8.29
+
      EllipticalOrbit {
          Period             135.000
          SemiMajorAxis       16.377 # mass ratio 1.15 : 1.04
@@ -5962,8 +5969,8 @@
  {
      OrbitBarycenter "ADS 11568 AB"
      SpectralType    "G5"     # lacking, used HIP data of the entire system!
-     AppMag          8.98 
- 
+     AppMag          8.98
+
      EllipticalOrbit {
          Period             135.000
          SemiMajorAxis       18.197 # mass ratio 1.15 : 1.04
@@ -5981,13 +5988,13 @@
      Dec       38.351119
      Distance 116.156339
  }
- 
+
  "V595 Lyr A:ADS 11680 A:CCDM J18466+3821A"
  {
      OrbitBarycenter "V595 Lyr"
-     SpectralType    "G9V"                                            
-     AppMag          8.67 
- 
+     SpectralType    "G9V"
+     AppMag          8.67
+
      EllipticalOrbit {
          Period              14.500
          SemiMajorAxis        3.888 # mass ratio 1.42 : 1.27
@@ -6003,8 +6010,8 @@
  {
      OrbitBarycenter "V595 Lyr"
      SpectralType    "G5"     # lacking, used HIP data of the entire system!
-     AppMag          9.39 
- 
+     AppMag          9.39
+
      EllipticalOrbit {
          Period              14.500
          SemiMajorAxis        4.321 # mass ratio 1.42 : 1.27
@@ -6022,13 +6029,13 @@
      Dec      -68.755533
      Distance 183.652590
  }
- 
+
  "CCDM J19035-6845A"
  {
      OrbitBarycenter "CCDM J19035-6845AB"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
-     AppMag          6.56 
- 
+     AppMag          6.56
+
      EllipticalOrbit {
          Period              14.100
          SemiMajorAxis        4.234 # mass ratio 1.62 : 1.61
@@ -6044,8 +6051,8 @@
  {
      OrbitBarycenter "CCDM J19035-6845AB"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
-     AppMag          6.96 
- 
+     AppMag          6.96
+
      EllipticalOrbit {
          Period              14.100
          SemiMajorAxis        4.277 # mass ratio 1.62 : 1.61
@@ -6057,46 +6064,48 @@
      }
  }
 
- Barycenter 94252 "ADS 12145 A:CCDM J19111+3847A"
- {
-     RA       287.783616
-     Dec       38.780357
-     Distance 172.392706
- }
- 
- "ADS 12145 Aa:CCDM J19111+3847Aa"
- {
-     OrbitBarycenter "ADS 12145 A"
-     SpectralType    "G7V"    # lacking, used HIP data of the entire system!
-     AppMag          8.98 
- 
-     EllipticalOrbit {
-         Period              63.000
-         SemiMajorAxis       10.490 # mass ratio 1.18 : 1.10
-         Eccentricity         0.460
-         Inclination         42.260
-         AscendingNode      184.371
-         ArgOfPericenter    202.569
-         MeanAnomaly        245.714
-     }
- }
-
- "ADS 12145 Ab:CCDM J19111+3847Ab"
- {
-     OrbitBarycenter "ADS 12145 A"
-     SpectralType    "G7V"    # lacking, used HIP data of the entire system!
-     AppMag          9.36 
- 
-     EllipticalOrbit {
-         Period              63.000
-         SemiMajorAxis       11.160 # mass ratio 1.18 : 1.10
-         Eccentricity         0.460
-         Inclination         42.260
-         AscendingNode      184.371
-         ArgOfPericenter     22.569
-         MeanAnomaly        245.714
-     }
- }
+ #  Orbit is for secondary binary to HIP primary
+ #
+ #  Barycenter 94252 "ADS 12145 A:CCDM J19111+3847A"
+ #  {
+ #      RA       287.783616
+ #      Dec       38.780357
+ #      Distance 172.392706
+ #  }
+ #
+ #  "ADS 12145 Aa:CCDM J19111+3847Aa"
+ #  {
+ #      OrbitBarycenter "ADS 12145 A"
+ #      SpectralType    "G7V"    # lacking, used HIP data of the entire system!
+ #      AppMag          8.98
+ #
+ #      EllipticalOrbit {
+ #          Period              63.000
+ #          SemiMajorAxis       10.490 # mass ratio 1.18 : 1.10
+ #          Eccentricity         0.460
+ #          Inclination         42.260
+ #          AscendingNode      184.371
+ #          ArgOfPericenter    202.569
+ #          MeanAnomaly        245.714
+ #      }
+ #  }
+ #
+ #  "ADS 12145 Ab:CCDM J19111+3847Ab"
+ #  {
+ #      OrbitBarycenter "ADS 12145 A"
+ #      SpectralType    "G7V"    # lacking, used HIP data of the entire system!
+ #      AppMag          9.36
+ #
+ #      EllipticalOrbit {
+ #          Period              63.000
+ #          SemiMajorAxis       11.160 # mass ratio 1.18 : 1.10
+ #          Eccentricity         0.460
+ #          Inclination         42.260
+ #          AscendingNode      184.371
+ #          ArgOfPericenter     22.569
+ #          MeanAnomaly        245.714
+ #      }
+ #  }
 
  Barycenter 94739 "Gliese 750:CCDM J19167-4553AB"
  {
@@ -6104,13 +6113,13 @@
      Dec      -45.888342
      Distance  52.505956
  }
- 
+
  "Gliese 750 A:CCDM J19167-4553A"
  {
      OrbitBarycenter "Gliese 750"
      SpectralType    "K9V"    # lacking, used HIP data of the entire system!
      AppMag          10.16
- 
+
      EllipticalOrbit {
          Period               7.700
          SemiMajorAxis        2.012 # mass ratio 0.59 : 0.59
@@ -6127,7 +6136,7 @@
      OrbitBarycenter "Gliese 750"
      SpectralType    "K9V"    # lacking, used HIP data of the entire system!
      AppMag          10.23
- 
+
      EllipticalOrbit {
          Period               7.700
          SemiMajorAxis        2.032 # mass ratio 0.59 : 0.59
@@ -6145,13 +6154,13 @@
      Dec       40.254053
      Distance 266.041599
  }
- 
+
  "CCDM J19420+4015A"
  {
      OrbitBarycenter "CCDM J19420+4015AB"
-     SpectralType    "A6V"                                            
-     AppMag          6.49 
- 
+     SpectralType    "A6V"
+     AppMag          6.49
+
      EllipticalOrbit {
          Period              79.000
          SemiMajorAxis       12.056 # mass ratio 2.12 : 1.54
@@ -6167,8 +6176,8 @@
  {
      OrbitBarycenter "CCDM J19420+4015AB"
      SpectralType    "A6V"    # lacking, used HIP data of the entire system!
-     AppMag          8.15 
- 
+     AppMag          8.15
+
      EllipticalOrbit {
          Period              79.000
          SemiMajorAxis       16.515 # mass ratio 2.12 : 1.54
@@ -6186,13 +6195,13 @@
      Dec       43.945381
      Distance 167.436858
  }
- 
- "ADS 13461 A:CCDM J20102+4357A"
+
+ 1014593163 "ADS 13461 A:CCDM J20102+4357A"
  {
      OrbitBarycenter "ADS 13461 AB"
-     SpectralType    "G4V"                                            
-     AppMag          8.05 
- 
+     SpectralType    "G4V"
+     AppMag          8.05
+
      EllipticalOrbit {
          Period              85.300
          SemiMajorAxis       10.973 # mass ratio 0.89 : 0.82
@@ -6204,12 +6213,12 @@
      }
  }
 
- "ADS 13461 B:CCDM J20102+4357B"
+ 2014593163 "ADS 13461 B:CCDM J20102+4357B"
  {
      OrbitBarycenter "ADS 13461 AB"
-     SpectralType    "G8V"                                            
-     AppMag          8.59 
- 
+     SpectralType    "G8V"
+     AppMag          8.59
+
      EllipticalOrbit {
          Period              85.300
          SemiMajorAxis       11.799 # mass ratio 0.89 : 0.82
@@ -6227,13 +6236,13 @@
      Dec       15.912053
      Distance 253.826459
  }
- 
+
  "Sualocin A:ALF Del A:9 Del A:ADS 14121 Aa:CCDM J20396+1555Aa"
  {
      OrbitBarycenter "Sualocin"
-     SpectralType    "B9IV"                                           
-     AppMag          3.86 
- 
+     SpectralType    "B9IV"
+     AppMag          3.86
+
      EllipticalOrbit {
          Period              17.000
          SemiMajorAxis        4.558 # mass ratio 3.63 : 2.18
@@ -6249,8 +6258,8 @@
  {
      OrbitBarycenter "Sualocin"
      SpectralType    "B9V"    # lacking, used HIP data of the entire system!
-     AppMag          6.41 
- 
+     AppMag          6.41
+
      EllipticalOrbit {
          Period              17.000
          SemiMajorAxis        7.596 # mass ratio 3.63 : 2.18
@@ -6268,13 +6277,13 @@
      Dec       11.402658
      Distance 112.007898
  }
- 
- "ADS 14333 A:CCDM J20494+1124A"
+
+ 1017721098 "ADS 14333 A:CCDM J20494+1124A"
  {
      OrbitBarycenter "ADS 14333 AB"
      SpectralType    "K5"     # lacking, used HIP data of the entire system!
      AppMag          10.07
- 
+
      EllipticalOrbit {
          Period             159.000
          SemiMajorAxis       18.855 # mass ratio 0.77 : 0.76
@@ -6286,12 +6295,12 @@
      }
  }
 
- "ADS 14333 B:CCDM J20494+1124B"
+ 2017721098 "ADS 14333 B:CCDM J20494+1124B"
  {
      OrbitBarycenter "ADS 14333 AB"
      SpectralType    "K5"     # lacking, used HIP data of the entire system!
      AppMag          10.27
- 
+
      EllipticalOrbit {
          Period             159.000
          SemiMajorAxis       19.240 # mass ratio 0.77 : 0.76
@@ -6309,13 +6318,13 @@
      Dec      -19.854931
      Distance 161.468812
  }
- 
+
  "ETA Cap A:22 Cap A:CCDM J21044-1951Aa"
  {
      OrbitBarycenter "ETA Cap"
-     SpectralType    "A4V"                                            
-     AppMag          5.02 
- 
+     SpectralType    "A4V"
+     AppMag          5.02
+
      EllipticalOrbit {
          Period              28.000
          SemiMajorAxis        5.266 # mass ratio 1.74 : 1.13
@@ -6330,9 +6339,9 @@
  "ETA Cap B:22 Cap B:CCDM J21044-1951Ab"
  {
      OrbitBarycenter "ETA Cap"
-     SpectralType    "F2V"                                            
-     AppMag          7.32 
- 
+     SpectralType    "F2V"
+     AppMag          7.32
+
      EllipticalOrbit {
          Period              28.000
          SemiMajorAxis        8.101 # mass ratio 1.74 : 1.13
@@ -6350,13 +6359,13 @@
      Dec       64.404208
      Distance 139.447200
  }
- 
+
  "ADS 14783 A:CCDM J21137+6424A"
  {
      OrbitBarycenter "ADS 14783 AB"
-     SpectralType    "G2IV"                                           
-     AppMag          7.15 
- 
+     SpectralType    "G2IV"
+     AppMag          7.15
+
      EllipticalOrbit {
          Period              79.000
          SemiMajorAxis       12.583 # mass ratio 1.30 : 1.28
@@ -6371,9 +6380,9 @@
  "ADS 14783 B:CCDM J21137+6424B"
  {
      OrbitBarycenter "ADS 14783 AB"
-     SpectralType    "G2IV"                                           
-     AppMag          7.39 
- 
+     SpectralType    "G2IV"
+     AppMag          7.39
+
      EllipticalOrbit {
          Period              79.000
          SemiMajorAxis       12.840 # mass ratio 1.30 : 1.28
@@ -6391,13 +6400,13 @@
      Dec        4.432057
      Distance 169.173755
  }
- 
- "37 Peg A:ADS 15988 A:CCDM J22300+0426A"
+
+ 1007820563 "37 Peg A:ADS 15988 A:CCDM J22300+0426A"
  {
      OrbitBarycenter "37 Peg"
-     SpectralType    "F2V"                                            
-     AppMag          5.82 
- 
+     SpectralType    "F2V"
+     AppMag          5.82
+
      EllipticalOrbit {
          Period             125.000
          SemiMajorAxis       16.278 # mass ratio 1.97 : 1.49
@@ -6409,12 +6418,12 @@
      }
  }
 
- "37 Peg B:ADS 15988 B:CCDM J22300+0426B"
+ 2007820563 "37 Peg B:ADS 15988 B:CCDM J22300+0426B"
  {
      OrbitBarycenter "37 Peg"
      SpectralType    "F5IV"   # lacking, used HIP data of the entire system!
-     AppMag          7.37 
- 
+     AppMag          7.37
+
      EllipticalOrbit {
          Period             125.000
          SemiMajorAxis       21.418 # mass ratio 1.97 : 1.49
@@ -6432,13 +6441,13 @@
      Dec       69.913372
      Distance 253.432012
  }
- 
- "ADS 16057 A:CCDM J22330+6954A"
+
+ 1015454480 "ADS 16057 A:CCDM J22330+6954A"
  {
      OrbitBarycenter "ADS 16057 AB"
-     SpectralType    "A9III"                                          
-     AppMag          6.68 
- 
+     SpectralType    "A9III"
+     AppMag          6.68
+
      EllipticalOrbit {
          Period             224.000
          SemiMajorAxis       27.371 # mass ratio 1.89 : 1.77
@@ -6450,12 +6459,12 @@
      }
  }
 
- "ADS 16057 B:CCDM J22330+6954B"
+ 2015454480 "ADS 16057 B:CCDM J22330+6954B"
  {
      OrbitBarycenter "ADS 16057 AB"
      SpectralType    "A9III"  # lacking, used HIP data of the entire system!
-     AppMag          7.04 
- 
+     AppMag          7.04
+
      EllipticalOrbit {
          Period             224.000
          SemiMajorAxis       29.118 # mass ratio 1.89 : 1.77
@@ -6473,13 +6482,13 @@
      Dec       53.203895
      Distance 230.506714
  }
- 
+
  "ADS 16098 A:CCDM J22357+5312A"
  {
      OrbitBarycenter "ADS 16098 AB"
-     SpectralType    "G0IV"                                           
-     AppMag          8.78 
- 
+     SpectralType    "G0IV"
+     AppMag          8.78
+
      EllipticalOrbit {
          Period              22.300
          SemiMajorAxis        4.511 # mass ratio 1.05 : 0.95
@@ -6495,8 +6504,8 @@
  {
      OrbitBarycenter "ADS 16098 AB"
      SpectralType    "G0IV"   # lacking, used HIP data of the entire system!
-     AppMag          9.48 
- 
+     AppMag          9.48
+
      EllipticalOrbit {
          Period              22.300
          SemiMajorAxis        5.013 # mass ratio 1.05 : 0.95
@@ -6514,13 +6523,13 @@
      Dec       57.717444
      Distance  77.881328
  }
- 
- "ADS 16326 A:CCDM J22520+5743A"
+
+ 1008423992 "ADS 16326 A:CCDM J22520+5743A"
  {
      OrbitBarycenter "ADS 16326 ABP"
-     SpectralType    "K5III"                                          
-     AppMag          8.59 
- 
+     SpectralType    "K5III"
+     AppMag          8.59
+
      EllipticalOrbit {
          Period             107.000
          SemiMajorAxis       13.092 # mass ratio 0.98 : 0.88
@@ -6532,12 +6541,12 @@
      }
  }
 
- "ADS 16326 B:CCDM J22520+5743B"
+ 2008423992 "ADS 16326 B:CCDM J22520+5743B"
  {
      OrbitBarycenter "ADS 16326 ABP"
      SpectralType    "K5III"  # lacking, used HIP data of the entire system!
-     AppMag          9.44 
- 
+     AppMag          9.44
+
      EllipticalOrbit {
          Period             107.000
          SemiMajorAxis       14.546 # mass ratio 0.98 : 0.88
@@ -6555,13 +6564,13 @@
      Dec       -7.693819
      Distance 209.484265
  }
- 
+
  "h Aqr A:83 Aqr A:ADS 16497 A:CCDM J23052-0743A"
  {
      OrbitBarycenter "h Aqr"
-     SpectralType    "A9III"                                          
-     AppMag          6.12 
- 
+     SpectralType    "A9III"
+     AppMag          6.12
+
      EllipticalOrbit {
          Period              21.840
          SemiMajorAxis        5.750 # mass ratio 1.75 : 1.66
@@ -6577,8 +6586,8 @@
  {
      OrbitBarycenter "h Aqr"
      SpectralType    "F2V"    # lacking, used HIP data of the entire system!
-     AppMag          6.42 
- 
+     AppMag          6.42
+
      EllipticalOrbit {
          Period              21.840
          SemiMajorAxis        6.052 # mass ratio 1.75 : 1.66
@@ -6596,13 +6605,13 @@
      Dec      -27.490098
      Distance 125.593762
  }
- 
- "ADS 16850 A:CCDM J23357-2729A"
+
+ 1012986983 "ADS 16850 A:CCDM J23357-2729A"
  {
      OrbitBarycenter "ADS 16850 AB"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
-     AppMag          6.97 
- 
+     AppMag          6.97
+
      EllipticalOrbit {
          Period              78.000
          SemiMajorAxis        9.890 # mass ratio 1.19 : 0.89
@@ -6614,12 +6623,12 @@
      }
  }
 
- "ADS 16850 B:CCDM J23357-2729B"
+ 2012986983 "ADS 16850 B:CCDM J23357-2729B"
  {
      OrbitBarycenter "ADS 16850 AB"
      SpectralType    "F8V"    # lacking, used HIP data of the entire system!
-     AppMag          8.81 
- 
+     AppMag          8.81
+
      EllipticalOrbit {
          Period              78.000
          SemiMajorAxis       13.187 # mass ratio 1.19 : 0.89
@@ -6637,13 +6646,13 @@
      Dec       46.218345
      Distance 216.291114
  }
- 
+
  "CCDM J23411+4613A"
  {
      OrbitBarycenter "CCDM J23411+4613AB"
-     SpectralType    "F7V"                                            
-     AppMag          7.81 
- 
+     SpectralType    "F7V"
+     AppMag          7.81
+
      EllipticalOrbit {
          Period              20.700
          SemiMajorAxis        4.781 # mass ratio 1.15 : 1.13
@@ -6659,8 +6668,8 @@
  {
      OrbitBarycenter "CCDM J23411+4613AB"
      SpectralType    "F5"     # lacking, used HIP data of the entire system!
-     AppMag          7.85 
- 
+     AppMag          7.85
+
      EllipticalOrbit {
          Period              20.700
          SemiMajorAxis        4.829 # mass ratio 1.15 : 1.13
@@ -6678,13 +6687,13 @@
      Dec      -51.705148
      Distance 127.608372
  }
- 
- "CCDM J23506-5142A"
+
+ 1011728463 "CCDM J23506-5142A"
  {
      OrbitBarycenter "CCDM J23506-5142AB"
      SpectralType    "G8"     # lacking, used HIP data of the entire system!
-     AppMag          8.38 
- 
+     AppMag          8.38
+
      EllipticalOrbit {
          Period             120.000
          SemiMajorAxis       17.465 # mass ratio 1.53 : 1.48
@@ -6696,12 +6705,12 @@
      }
  }
 
- "CCDM J23506-5142B"
+ 2011728463 "CCDM J23506-5142B"
  {
      OrbitBarycenter "CCDM J23506-5142AB"
      SpectralType    "K0V"    # lacking, used HIP data of the entire system!
-     AppMag          8.65 
- 
+     AppMag          8.65
+
      EllipticalOrbit {
          Period             120.000
          SemiMajorAxis       18.005 # mass ratio 1.53 : 1.48
@@ -6712,4 +6721,3 @@
          MeanAnomaly         66.000
      }
  }
-
