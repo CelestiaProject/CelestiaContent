@@ -23,7 +23,7 @@
 #
 # Augmented by distances from
 # The SBF Survey of Galaxy Distances. IV.
-# SBF Magnitudes, Colors, and Distances, 
+# SBF Magnitudes, Colors, and Distances,
 # J.L. Tonry et al., Astrophys J 546, 681 (2001)
 #
 # Augmented by distances from
@@ -34,19 +34,22 @@
 # VII/193 The CfA Redshift Catalogue, Version June 1995  (Huchra+ 1995)
 # http://cdsweb.u-strasbg.fr/viz-bin/Cat?VII/193
 #
+# ESO 294-10 morphological type from Karachentsev et al. (2018)
+# https://cdsarc.cds.unistra.fr/viz-bin/cat/J/MNRAS/479/4136
+#
 # Using today's Hubble constant = 73.2 [km/sec/Mpc]
 # (WMAP 2007, 3 years running, legacy archive)
 #
 # Abreviations for various distance methods used:
 # SBF= SBF (Surface Brightness Fluctuations), T-F= Tully-Fischer
-# V_cmb = rad. velocity in CMB frame & Hubble law 
+# V_cmb = rad. velocity in CMB frame & Hubble law
 # cep=Cepheids, P=photometric, N(G)=planetary nebula (globular cluster) luminosity function
 #
-# Adapted for Celestia with Perl script: deepsky.pl Revision: 1.50 
+# Adapted for Celestia with Perl script: deepsky.pl Revision: 1.50
 # Processed 2007-5-18 5 137 0 18:10:24 UTC
 #
 # by Dr. Fridger Schrempp, fridger.schrempp@desy.de
-# ------------------------------------------------------ 
+# ------------------------------------------------------
 
 
 # Local Group volume (< (10 Mpc)^3):
@@ -138,7 +141,7 @@ Galaxy "Cetus Dwarf:KKSG 1"
 # Local Group volume (< (10 Mpc)^3):
 Galaxy "ESO 294-10"
 {
-        Type  ""
+        Type  "Irr"
         RA            0.4425
         Dec         -41.8556
         Distance   6.262e+06 # method: rgb
