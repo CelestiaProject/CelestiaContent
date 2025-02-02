@@ -4558,7 +4558,7 @@
  "CHI1 Hya A:GJ 3642 A:CCDM J11053-2718A"
  {
      OrbitBarycenter "GJ 3642"
-     SpectralType    "F3IV"
+     SpectralType    "F4V"  # From Eggleton et al. (2008)
      AppMag          5.73
 
      EllipticalOrbit {
@@ -4575,7 +4575,7 @@
  "CHI1 Hya B:GJ 3642 B:CCDM J11053-2718B"
  {
      OrbitBarycenter "GJ 3642"
-     SpectralType    "V"      # lacking, used HIP data of the entire system!
+     SpectralType    "F7V"  # From Eggleton et al. (2008)
      AppMag          5.79
 
      EllipticalOrbit {
