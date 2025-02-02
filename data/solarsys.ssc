@@ -1335,7 +1335,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Miranda"
 AltSurface "Limit of knowledge" "Sol/Uranus/Ariel"
 {
 	Texture	"ariel.*"
-	OverlayTexure	"ariel-lok-mask.*"
+	OverlayTexture	"ariel-lok-mask.*"
 	LunarLambert	0.5
 }
 
@@ -1386,7 +1386,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Ariel"
 AltSurface "Limit of knowledge" "Sol/Uranus/Umbriel"
 {
 	Texture	"umbriel.*"
-	OverlayTexure	"umbriel-lok-mask.*"
+	OverlayTexture	"umbriel-lok-mask.*"
 	LunarLambert	0.5
 }
 
@@ -1437,7 +1437,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Umbriel"
 AltSurface "Limit of knowledge" "Sol/Uranus/Titania"
 {
 	Texture	"titania.*"
-	OverlayTexure	"titania-lok-mask.*"
+	OverlayTexture	"titania-lok-mask.*"
 	LunarLambert	0.5
 }
 
@@ -1488,7 +1488,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Titania"
 AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 {
 	Texture	"oberon.*"
-	OverlayTexure	"oberon-lok-mask.*"
+	OverlayTexture	"oberon-lok-mask.*"
 	LunarLambert	0.5
 }
 
