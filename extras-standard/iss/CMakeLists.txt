@@ -1,5 +1,5 @@
-# SPDX-FileCopyrightText: Celestia Development Team
-# SPDX-License-Identifier: GPL-2.0-or-later
+# SPDX-FileCopyrightText: 2019 NASA Visualization Technology Applications and Development (VTAD)
+# SPDX-License-Identifier: CC0-1.0
 
 set(ISS_SOURCES
   iss.ssc
