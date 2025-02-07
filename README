@@ -269,14 +269,13 @@ covered.
 # The Cassini and Huygens models are by Jack Higgins:
     http://homepage.eircom.net/~jackcelestia/
 
-# The 3D model of ISS is a deconstruction of Andrew Farnaby's
-  complete ISS model with textures by Bob Hundley. The model
-  represents the ISS as of June 2008 and is a modification of
-  the model that can be found here:
-    http://www.celestiamotherlode.net/catalog/show_addon_details.php?addon_id=1199
-   ISS model of June 2008 (with Kibo) by krisci3 (modified and
-   converted in order to work with JPG by Ulrich Dickmann, a.k.a.
-   Adirondack)
+# The 3D model of ISS is a representation of the station created by NASA-VTAD
+  on April 22, 2019:
+    https://science.nasa.gov/resource/international-space-station-3d-model/
+  The configuration shown is what the ISS looked like from May
+  2011 until February 2015, shortly after STS-134 (Endeavour)
+  delivered the AMS and ELC-3 pallets to the station. Model and textures were
+  converted for use in Celestia by DaveBowman2001
 
 # 3D asteroid models of Toutatis, Kleopatra, Geographos, 1998 KY26, Bacchus,
   Castalia and Golevka are courtesy of Scott Hudson, Washington State
