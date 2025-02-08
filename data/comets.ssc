@@ -21,7 +21,7 @@
 
 
 # Periodic Comets
-"1P (Halley):Halley:P 1682 Q1:P 1758 Y1:P 1835 P1:P 1909 R1:P 1982 U1" "Sol" 
+"1P-Halley:Halley:P 1682 Q1:P 1758 Y1:P 1835 P1:P 1909 R1:P 1982 U1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"halley.cmod"
@@ -59,7 +59,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Halley's_Comet"
 } 
 
-"2P (Encke):Encke:P 1786 B1:P 1795 V1:P 1805 U1:P 1818 W1:P 1822 L1" "Sol" 
+"2P-Encke:Encke:P 1786 B1:P 1795 V1:P 1805 U1:P 1818 W1:P 1822 L1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -86,7 +86,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Encke"
 } 
 
-"17P (Holmes):Holmes:P 1892 V1:P 1899 L1:P 1964 O1" "Sol" 
+"17P-Holmes:Holmes:P 1892 V1:P 1899 L1:P 1964 O1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -113,7 +113,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Holmes"
 } 
 
-"19P (Borrelly):Borrelly:P 1904 Y2:P 1911 S1" "Sol" 
+"19P-Borrelly:Borrelly:P 1904 Y2:P 1911 S1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"borrelly.cms" 
@@ -142,7 +142,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/19P/Borrelly"
 } 
 
-"21P (Giacobini-Zinner):Giacobini-Zinner:P 1900 Y1:P 1913 U1" "Sol" 
+"21P-Giacobini-Zinner:Giacobini-Zinner:P 1900 Y1:P 1913 U1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -169,7 +169,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/21P/Giacobini-Zinner"
 } 
 
-"26P (Grigg-Skjellerup):Grigg-Skjellerup:P 1808 C1:P 1902 O1:P 1922 K1:P 1927 F1" "Sol" 
+"26P-Grigg-Skjellerup:Grigg-Skjellerup:P 1808 C1:P 1902 O1:P 1922 K1:P 1927 F1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -196,7 +196,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/26P/Grigg-Skjellerup"
 } 
 
-"29P (Schwassmann-Wachmann):Schwassmann-Wachmann 1:P 1902 E1:P 1927 V1" "Sol" 
+"29P-Schwassmann-Wachmann:Schwassmann-Wachmann 1:P 1902 E1:P 1927 V1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -223,7 +223,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/29P/Schwassmann-Wachmann"
 } 
 
-"46P (Wirtanen):Wirtanen:P 1948 A1:P 1954 R2" "Sol" 
+"46P-Wirtanen:Wirtanen:P 1948 A1:P 1954 R2" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -250,7 +250,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/46P/Wirtanen"
 } 
 
-"109P (Swift-Tuttle):Swift-Tuttle:P 1737 N1:P 1862 O1:P 1992 S2" "Sol" 
+"109P-Swift-Tuttle:Swift-Tuttle:P 1737 N1:P 1862 O1:P 1992 S2" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -280,7 +280,7 @@
 
 
 # Long-Period Comets
-"153P (Ikeya-Zhang):Ikeya-Zhang:C 2002 C1:C 1661 C1" "Sol" 
+"153P-Ikeya-Zhang:Ikeya-Zhang:C 2002 C1:C 1661 C1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
