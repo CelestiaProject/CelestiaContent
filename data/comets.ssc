@@ -162,7 +162,7 @@
 	} 
 
 	# Actual rotation period is currently unknown
-	# (As of February 2025)
+	# February 2025
 
 	RotationPeriod	 6.00
 	GeomAlbedo		 0.04
@@ -189,7 +189,7 @@
 	} 
 
 	# Actual rotation period is currently unknown
-	# (As of February 2025)
+	# February 2025
 
 	RotationPeriod	 6.00
 	GeomAlbedo		 0.04
@@ -447,7 +447,9 @@
 		MeanAnomaly	      3.878386339423241
 	}
 
-	# Estimate of rotation period from here: http://www.usafa.af.mil/dfp/research/astro/papers/icqpaper.htm
+	# Rotation period from Burns (1998)
+	# https://web.archive.org/web/20000117122610/http://www.usafa.af.mil/dfp/research/astro/papers/icqpaper.htm
+
 	RotationPeriod	11.47
 	GeomAlbedo		 0.07
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Hale-Bopp"
@@ -544,6 +546,8 @@
 	# Inbound elliptical barycentric orbit is used (2022)
 	# https://ssd.jpl.nasa.gov/horizons/app.html#/
 
+	OrbitFrame
+	{	EclipticJ2000	{ Center "SSB" }	}
 	EllipticalOrbit
 	{
 		Epoch			2459873.500000	# 2022-Oct-21, 00:00
