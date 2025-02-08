@@ -17,11 +17,11 @@
 # this SSC file, we only select the most significant comets that
 # share the same formal name.
 #
-# Last update: 8 February 2025
+# Last update: 9 February 2025
 
 
 # Periodic Comets
-"Halley:1P Halley:P 1682 Q1:P 1758 Y1:P 1835 P1:P 1909 R1:P 1982 U1" "Sol" 
+"1P (Halley):Halley:P 1682 Q1:P 1758 Y1:P 1835 P1:P 1909 R1:P 1982 U1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"halley.cmod"
@@ -59,7 +59,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Halley's_Comet"
 } 
 
-"Encke:2P Encke:P 1786 B1:P 1795 V1:P 1805 U1:P 1818 W1:P 1822 L1" "Sol" 
+"2P (Encke):Encke:P 1786 B1:P 1795 V1:P 1805 U1:P 1818 W1:P 1822 L1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -86,7 +86,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Encke"
 } 
 
-"Holmes:17P Holmes:P 1892 V1:P 1899 L1:P 1964 O1" "Sol" 
+"17P (Holmes):Holmes:P 1892 V1:P 1899 L1:P 1964 O1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -113,7 +113,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Holmes"
 } 
 
-"Borrelly:19P Borrelly:P 1904 Y2:P 1911 S1" "Sol" 
+"19P (Borrelly):Borrelly:P 1904 Y2:P 1911 S1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"borrelly.cms" 
@@ -142,7 +142,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/19P/Borrelly"
 } 
 
-"Giacobini-Zinner:21P Giacobini-Zinner:P 1900 Y1:P 1913 U1" "Sol" 
+"21P (Giacobini-Zinner):Giacobini-Zinner:P 1900 Y1:P 1913 U1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -169,7 +169,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/21P/Giacobini-Zinner"
 } 
 
-"Grigg-Skjellerup:26P Grigg-Skjellerup:P 1808 C1:P 1902 O1:P 1922 K1:P 1927 F1" "Sol" 
+"26P (Grigg-Skjellerup):Grigg-Skjellerup:P 1808 C1:P 1902 O1:P 1922 K1:P 1927 F1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -196,7 +196,61 @@
 	InfoURL	"https://en.wikipedia.org/wiki/26P/Grigg-Skjellerup"
 } 
 
-"Swift-Tuttle:109P Swift-Tuttle:P 1737 N1:P 1862 O1:P 1992 S2" "Sol" 
+"29P (Schwassmann-Wachmann):Schwassmann-Wachmann 1:P 1902 E1:P 1927 V1" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg" 
+	Radius	 30.2					# D = 60.40 km
+
+	EllipticalOrbit 
+	{ 
+		Epoch        	2457631.500000	# 2016-Aug-31, 00:00
+		Period               14.75425242735976
+		SemiMajorAxis	      6.015513024557499
+		Eccentricity	      0.04166604640078779 
+		Inclination	      9.37634487689952
+		AscendingNode	    312.4090392955372
+		ArgOfPericenter	     48.90792343360503
+		MeanAnomaly	    297.5561060173936
+	} 
+
+	# Rotation period from Ivanova (2012)
+	# https://arxiv.org/abs/2012.09007
+
+	RotationPeriod	290.400			# P = 12.1 days
+	GeomAlbedo		  0.033
+	InfoURL	"https://en.wikipedia.org/wiki/29P/Schwassmann-Wachmann"
+} 
+
+"46P (Wirtanen):Wirtanen:P 1948 A1:P 1954 R2" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg" 
+	Radius	 0.60					# D = 1.2 km
+
+	EllipticalOrbit 
+	{ 
+		Epoch        	2458465.500000	# 2018-Dec-13, 00:00
+		Period                5.438847265757708
+		SemiMajorAxis	      3.092661874753647
+		Eccentricity	      0.6587550054889648 
+		Inclination	     11.7475487582537
+		AscendingNode	     82.15763392494087
+		ArgOfPericenter	    356.341071857073
+		MeanAnomaly	      0.01247351001231614
+	} 
+
+	# Rotation period from Meech (1997)
+	# https://ui.adsabs.harvard.edu/abs/1997A&A...326.1268M
+
+	RotationPeriod	 7.60
+	GeomAlbedo		 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/46P/Wirtanen"
+} 
+
+"109P (Swift-Tuttle):Swift-Tuttle:P 1737 N1:P 1862 O1:P 1992 S2" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -226,7 +280,7 @@
 
 
 # Long-Period Comets
-"Ikeya-Zhang:153P Ikeya-Zhang:C 2002 C1:C 1661 C1" "Sol" 
+"153P (Ikeya-Zhang):Ikeya-Zhang:C 2002 C1:C 1661 C1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -253,7 +307,34 @@
 	InfoURL	"https://en.wikipedia.org/wiki/153P/Ikeya-Zhang"
 } 
 
-"Nishimura:C 2023 P1 (Nishimura)" "Sol" 
+"C 1983 H1 (IRAS-Araki-Alcock):IRAS-Araki-Alcock" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg"
+	Radius	 4.20					# D = 9.2 km
+
+	EllipticalOrbit 
+	{ 
+		Epoch			2445467.500000	# 1983-May-13, 00:00
+		Period		    970.6790526888775
+		SemiMajorAxis	     98.03435675076732
+		Eccentricity	      0.9898878208777039 
+		Inclination	     73.25137867780242
+		AscendingNode	     49.10245750540501
+		ArgOfPericenter	    192.8506889407098
+		MeanAnomaly	    359.9916183638424
+	}
+
+	# Rotation period from Goldstein (1984)
+	# https://doi.org/10.1086/113683
+	
+	RotationPeriod	 48.00
+	GeomAlbedo		  0.02
+	InfoURL	"https://en.wikipedia.org/wiki/C/1983_H1_(IRAS-Araki-Alcock)"
+} 
+
+"C 2023 P1 (Nishimura):Nishimura" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -283,7 +364,7 @@
 
 
 # Non-Periodic Comets
-"Arend-Roland:C 1956 R1 (Arend-Roland):Great Comet of 1957" "Sol" 
+"C 1956 R1 (Arend-Roland):Arend-Roland:1956 III:1957h:Great Comet of 1957" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -315,7 +396,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Donati"
 } 
 
-"Kohoutek:C 1973 E1 (Kohoutek)" "Sol" 
+"C 1973 E1 (Kohoutek):Kohoutek:1973 XII:1973f" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -347,7 +428,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Kohoutek"
 } 
 
-"Hale-Bopp:C 1995 O1 (Hale-Bopp):Great Comet of 1997" "Sol"
+"C 1995 O1 (Hale-Bopp):Hale-Bopp:Great Comet of 1997" "Sol"
 {
 	Class		"comet"
 	Mesh		"asteroid.cms"
@@ -372,7 +453,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Hale-Bopp"
 }
 
-"Hyakutake:C 1996 B2 (Hyakutake):Great Comet of 1996" "Sol"
+"C 1996 B2 (Hyakutake):Hyakutake:Great Comet of 1996" "Sol"
 {
 	Class		"comet"
 	Mesh		"asteroid.cms"
@@ -396,10 +477,37 @@
 
 	RotationPeriod	 6.23
 	GeomAlbedo		 0.04
-	InfoURL	"https://en.wikipedia.org/wiki/Comet_Hale-Bopp"
+	InfoURL	"https://en.wikipedia.org/wiki/Comet_Hyakutake"
 }
 
-"NEOWISE:C 2020 F3 (NEOWISE):Great Comet of 2020" "Sol"
+"C 2014 UN271 (Bernardinelli-Bernstein):Bernardinelli-Bernstein" "Sol"
+{
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture	"asteroid.jpg"
+	Radius	 68.50				# D = 137 km
+
+	EllipticalOrbit
+	{
+		Epoch			2458750.500000	# 2019-Sept-24, 00:00
+		Period		 300803.0639949109
+		SemiMajorAxis	   4489.342112465647
+		Eccentricity	      0.9975649080914114 
+		Inclination	     95.50034193311355
+		AscendingNode	    190.0157567404514
+		ArgOfPericenter	    326.4246675873162
+		MeanAnomaly	    359.9864173004243
+	}
+
+	# Rotation period from Ferrin (2022)
+	# http://astronomerstelegram.org/?read=15356
+
+	RotationPeriod	 494.400			# P = 20.6 days
+	GeomAlbedo		   0.033
+	InfoURL	"https://en.wikipedia.org/wiki/C/2014_UN271_(Bernardinelli-Bernstein)"
+}
+
+"C 2020 F3 (NEOWISE):NEOWISE:Great Comet of 2020" "Sol"
 {
 	Class		"comet"
 	Mesh		"asteroid.cms"
@@ -426,7 +534,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_NEOWISE"
 }
  
-"ZTF:C 2022 E3 (ZTF)" "Sol"
+"C 2022 E3 (ZTF):ZTF" "Sol"
 {
 	Class		"comet"
 	Mesh		"asteroid.cms"
@@ -456,7 +564,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/C/2022_E3_(ZTF)"
 }
 
-"Tsuchinshan-ATLAS:C 2023 A3 (Tsuchinshan-ATLAS):Great Comet of 2024" "Sol"
+"C 2023 A3 (Tsuchinshan-ATLAS):Tsuchinshan-ATLAS:Great Comet of 2024" "Sol"
 {
 	Class		"comet"
 	Mesh		"asteroid.cms"
