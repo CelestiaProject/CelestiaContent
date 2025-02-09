@@ -9,7 +9,8 @@
 #
 # The lists were divided into three groups, the Periodic Comets
 # (<200 years), Long-Period Comets (200-1000 years) and
-# Non-Periodic Comets (>1,000 years).
+# Non-Periodic Comets (>1,000 years). Their geometric albedos
+# were assumed to be 0.04 unless noted otherwise
 #
 # Due to the established system of naming comets after their
 # discoverers, a large number of these objects are namesakes of
@@ -162,7 +163,7 @@
 	} 
 
 	# Actual rotation period is currently unknown
-	# February 2025
+	# (As of February 2025)
 
 	RotationPeriod	 6.00
 	GeomAlbedo		 0.04
@@ -189,7 +190,7 @@
 	} 
 
 	# Actual rotation period is currently unknown
-	# February 2025
+	# (As of February 2025)
 
 	RotationPeriod	 6.00
 	GeomAlbedo		 0.04
@@ -272,7 +273,7 @@
 	# Rotation period from McDavid (1995)
 	# https://ui.adsabs.harvard.edu/abs/1995AAS...187.4209M
 
-	RotationPeriod	67.30
+	RotationPeriod	67.30				# P = 2.8 days
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Swift-Tuttle"
 } 
@@ -329,13 +330,13 @@
 	# Rotation period from Manzini (2007)
 	# https://doi.org/10.1007/s11038-005-9062-6
 	
-	RotationPeriod	35.52		# P = 1.48 days
+	RotationPeriod	35.52				# P = 1.48 days
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/153P/Ikeya-Zhang"
 } 
 
-"C 1983 H1 (IRAS-Araki-Alcock):IRAS-Araki-Alcock" "Sol" 
-{ 
+"C 1983 H1 (IRAS-Araki-Alcock):IRAS-Araki-Alcock:1983 VII:1983d" "Sol"
+{
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
 	Texture	"asteroid.jpg"
@@ -356,7 +357,7 @@
 	# Rotation period from Goldstein (1984)
 	# https://doi.org/10.1086/113683
 	
-	RotationPeriod	 48.00
+	RotationPeriod	 48.00			# P = 2.0 days
 	GeomAlbedo		  0.02
 	InfoURL	"https://en.wikipedia.org/wiki/C/1983_H1_(IRAS-Araki-Alcock)"
 } 
@@ -474,9 +475,7 @@
 		MeanAnomaly	      3.878386339423241
 	}
 
-	# Rotation period from Burns (1998)
-	# https://web.archive.org/web/20000117122610/http://www.usafa.af.mil/dfp/research/astro/papers/icqpaper.htm
-
+	# Estimate of rotation period from here: http://www.usafa.af.mil/dfp/research/astro/papers/icqpaper.htm
 	RotationPeriod	11.47
 	GeomAlbedo		 0.07
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Hale-Bopp"
@@ -514,7 +513,7 @@
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
 	Texture	"asteroid.jpg"
-	Radius	 12.50				# D = 25 km
+	Radius	 12.50				# D = 25 km, dubious
 
 	# Inbound elliptical barycentric orbit is used (2007)
 	# https://ssd.jpl.nasa.gov/horizons/app.html#/
@@ -637,8 +636,6 @@
 	# Inbound elliptical barycentric orbit is used (2022)
 	# https://ssd.jpl.nasa.gov/horizons/app.html#/
 
-	OrbitFrame
-	{	EclipticJ2000	{ Center "SSB" }	}
 	EllipticalOrbit
 	{
 		Epoch			2459873.500000	# 2022-Oct-21, 00:00
