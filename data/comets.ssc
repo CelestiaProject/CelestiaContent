@@ -277,6 +277,33 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Swift-Tuttle"
 } 
 
+"167P-CINEOS:CINEOS:P 2004 PY42" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg" 
+	Radius	 33.085				# D = 66.17 km
+
+	EllipticalOrbit 
+	{ 
+		Epoch        	2453096.500000	# 2004-Apr-01, 00:00
+		Period               64.85546743889809
+		SemiMajorAxis	     16.14205890169403
+		Eccentricity	      0.2700193033402064 
+		Inclination	     19.12660376408597
+		AscendingNode	    295.837027398652
+		ArgOfPericenter	    343.6457775778229
+		MeanAnomaly	     16.52184361854798
+	} 
+
+	# Rotation period is currently unknown
+	# February 2025
+
+	RotationPeriod	 6.000
+	GeomAlbedo		 0.053
+	InfoURL	"https://en.wikipedia.org/wiki/167P/CINEOS"
+} 
+
 
 
 # Long-Period Comets
@@ -481,6 +508,70 @@
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Hyakutake"
 }
+
+"C 2006 P1 (McNaught):McNaught:Great Comet of 2007" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg"
+	Radius	 12.50				# D = 25 km
+
+	# Inbound elliptical barycentric orbit is used (2007)
+	# https://ssd.jpl.nasa.gov/horizons/app.html#/
+
+	OrbitFrame
+	{	EclipticJ2000	{ Center "SSB" }	}
+	EllipticalOrbit 
+	{ 
+		Epoch			2454108.833333333 # 2007-Jan-8, 08:00
+		Period		  52697.478956626247964
+		SemiMajorAxis	   1405.562964747302
+		Eccentricity	      0.9998756212011907 
+		Inclination	     77.34750819822122
+		AscendingNode	    267.1068712282699
+		ArgOfPericenter	    155.0607305317392
+		MeanAnomaly	    359.9999174144606
+	}
+
+	# Actual rotation period is unknown
+	# February 2025
+	
+	RotationPeriod	 6.00
+	GeomAlbedo		 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Comet_McNaught"
+} 
+
+"C 2013 A1 (Siding Spring):Siding Spring" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg"
+	Radius	 0.275				# D = 0.55 km
+
+	# Outbound elliptical barycentric orbit is used (2016)
+	# https://ssd.jpl.nasa.gov/horizons/app.html#/
+
+	OrbitFrame
+	{	EclipticJ2000	{ Center "SSB" }	}
+	EllipticalOrbit 
+	{ 
+		Epoch			2457480.500000	# 2016-Apr-2, 00:00
+		Period		 313645.24322106631007
+		SemiMajorAxis	   4616.181571612909
+		Eccentricity	      0.9996968331654886 
+		Inclination	    128.9948715864994
+		AscendingNode	    301.0009245462045
+		ArgOfPericenter	      2.449604421603379
+		MeanAnomaly	      0.001648915313056205
+	}
+
+	# Rotation period is from Jet Propulsion Laboratory (2014)
+	# https://www.jpl.nasa.gov/news/news.php?feature=4366
+	
+	RotationPeriod	 8.00
+	GeomAlbedo		 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/C/2013_A1_(Siding_Spring)"
+} 
 
 "C 2014 UN271 (Bernardinelli-Bernstein):Bernardinelli-Bernstein" "Sol"
 {
