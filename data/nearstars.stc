@@ -1,4 +1,4 @@
-# Nearby stars and star orbits out to 25 light years, supplementary
+# Nearby stars and star orbits out to 10 parsecs, supplementary
 # to Celestia's stars.dat.
 
 # Because the RECONS survey tabulation has not been updated since 2010,
@@ -38,6 +38,26 @@
 # Barycenter positions are based on mass estimates from the papers themselves. The 
 # values used are listed below.
 
+# Common papers:
+
+# Díez Alonso et al. (2019), A&A 621, id.A126
+# "CARMENES input catalogue of M dwarfs. IV. New rotation periods from photometric time series"
+# https://ui.adsabs.harvard.edu/abs/2019A%26A...621A.126D/abstract
+
+# Mann et al. (2013), AJ 779 (2), id. 188
+# "Spectro-thermometry of M Dwarfs and Their Candidate Planets: Too Hot, Too Cool, or Just Right?"
+# https://ui.adsabs.harvard.edu/abs/2013ApJ...779..188M/abstract
+
+# Rabus et al. (2019), MNRAS 484 (2), 2674-2683
+# "A discontinuity in the Teff-radius relation of M-dwarfs"
+# https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.2674R/abstract
+
+# Rains et al. (2020), MNRAS 493 (2), p.2377-2394
+# "Precision angular diameters for 16 southern stars with VLTI/PIONIER"
+# https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.2377R/abstract
+
+
+
 Barycenter "Solar System Barycenter:SSB"
 {
 	RA 0
@@ -72,8 +92,9 @@ Barycenter "Solar System Barycenter:SSB"
 }
 
 # Radius and temperature from Rabus et al. (2019), MNRAS 484 (2), 2674-2683
-# "A discontinuity in the Teff-radius relation of M-dwarfs"
-# https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.2674R/abstract
+# V-mag from Ribas et al. (2017), A&A 603, id.A58
+# "The full spectral radiative properties of Proxima Centauri"
+# https://ui.adsabs.harvard.edu/abs/2017A%26A...603A..58R/abstract
 # Rotation period from Collins et al. (2017), A&A 602, id.A48
 # "Calculations of periodicity from Hα profiles of Proxima Centauri"
 # https://ui.adsabs.harvard.edu/abs/2017A%26A...602A..48C/abstract
@@ -85,7 +106,7 @@ Barycenter "Solar System Barycenter:SSB"
 
 	Radius<rS>	0.154
 	SpectralType	"M5.5Ve"
-	AppMag	11.09
+	AppMag	11.083
 	Temperature	2901
 
 	UniformRotation
@@ -159,11 +180,7 @@ Barycenter "ALF Cen:Gliese 559"
 }
 
 # Radius from Rabus et al. (2019), MNRAS 484 (2), 2674-2683
-# "A discontinuity in the Teff-radius relation of M-dwarfs"
-# https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.2674R/abstract
 # Temperature from Mann et al. (2013), AJ 779 (2), id. 188
-# "Spectro-thermometry of M Dwarfs and Their Candidate Planets: Too Hot, Too Cool, or Just Right?"
-# https://ui.adsabs.harvard.edu/abs/2013ApJ...779..188M/abstract
 # Rotation period from Toledo-Padrón et al. (2019), MNRAS 488 (4), p.5145-5161
 # "Stellar activity analysis of Barnard's Star: very slow rotation and evidence for long-term activity cycle"
 # https://ui.adsabs.harvard.edu/abs/2019MNRAS.488.5145T/abstract
@@ -267,11 +284,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 }
 
 # Radius and temperature from Rabus et al. (2019), MNRAS 484 (2), 2674-2683
-# "A discontinuity in the Teff-radius relation of M-dwarfs"
-# https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.2674R/abstract
 # Rotation period from Díez Alonso et al. (2019), A&A 621, id.A126
-# "CARMENES input catalogue of M dwarfs. IV. New rotation periods from photometric time series"
-# https://ui.adsabs.harvard.edu/abs/2019A%26A...621A.126D/abstract
 "CN Leo:Gliese 406:Wolf 359"
 {
 	RA 164.10319031
@@ -291,11 +304,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 }
 
 # Radius from Rabus et al. (2019), MNRAS 484 (2), 2674-2683
-# "A discontinuity in the Teff-radius relation of M-dwarfs"
-# https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.2674R/abstract
 # Temperature from Mann et al. (2013), AJ 779 (2), id. 188
-# "Spectro-thermometry of M Dwarfs and Their Candidate Planets: Too Hot, Too Cool, or Just Right?"
-# https://ui.adsabs.harvard.edu/abs/2013ApJ...779..188M/abstract
 # Rotation period from Díaz et al. (2019), A&A 625, id.A17
 # "The SOPHIE search for northern extrasolar planets. XIV.
 #  A temperate (Teq 300 K) super-earth around the nearby star Gliese 411"
@@ -369,6 +378,7 @@ Barycenter 32349 "Sirius:Dog Star:ALF CMa:9 CMa:Gliese 244:ADS 5423"
 	InfoURL "https://en.wikipedia.org/wiki/Sirius#Sirius_B"
 }
 
+# TODO: Update orbit reference to https://ui.adsabs.harvard.edu/abs/2024A%26A...685L...9G/abstract
 # Distance, radii, and orbit from Kervella et al. (2016), A&A 593, id.A127
 # "The red dwarf pair GJ65 AB: inflated, spinning twins of Proxima.
 #  Fundamental parameters from PIONIER, NACO, and UVES observations"
@@ -440,8 +450,6 @@ Barycenter "Gliese 65:Luyten 726-8"
 }
 
 # Radius and temperature from Rabus et al. (2019), MNRAS 484 (2), 2674-2683
-# "A discontinuity in the Teff-radius relation of M-dwarfs"
-# https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.2674R/abstract
 # Rotation period and inclination from Ibañez Bustos et al. (2020), A&A 644, id.A2
 # "Activity-rotation in the dM4 star Gl 729. A possible chromospheric cycle"
 # https://ui.adsabs.harvard.edu/abs/2020A%26A...644A...2I/abstract
@@ -479,8 +487,6 @@ Barycenter "Gliese 65:Luyten 726-8"
 # "Revisiting HST/FGS Astrometry of ϵ Eridani
 # https://ui.adsabs.harvard.edu/abs/2022RNAAS...6...45B/abstract
 # Radius and temperature from Rains et al. (2020), MNRAS 493 (2), p.2377-2394
-# "Precision angular diameters for 16 southern stars with VLTI/PIONIER"
-# https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.2377R/abstract
 # Rotational elements from Roettenbacher et al. (2022), AJ 163 (1), id.19
 # "EXPRES. III. Revealing the Stellar Activity Radial Velocity Signature of
 #  ϵ Eridani with Photometry and Interferometry"
