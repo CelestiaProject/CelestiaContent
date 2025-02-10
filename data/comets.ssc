@@ -18,11 +18,11 @@
 # this SSC file, we only select the most significant comets that
 # share the same formal name.
 #
-# Last update: 9 February 2025
+# Last update: 10 February 2025
 
 
 # Periodic Comets
-"1P-Halley:Halley:P 1682 Q1:P 1758 Y1:P 1835 P1:P 1909 R1:P 1982 U1" "Sol" 
+"1P Halley:Halley:P 1682 Q1:P 1758 Y1:P 1835 P1:P 1909 R1:P 1982 U1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"halley.cmod"
@@ -60,7 +60,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Halley's_Comet"
 } 
 
-"2P-Encke:Encke:P 1786 B1:P 1795 V1:P 1805 U1:P 1818 W1:P 1822 L1" "Sol" 
+"2P Encke:Encke:P 1786 B1:P 1795 V1:P 1805 U1:P 1818 W1:P 1822 L1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -87,7 +87,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Encke"
 } 
 
-"17P-Holmes:Holmes:P 1892 V1:P 1899 L1:P 1964 O1" "Sol" 
+"17P Holmes:Holmes:P 1892 V1:P 1899 L1:P 1964 O1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -114,7 +114,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Holmes"
 } 
 
-"19P-Borrelly:Borrelly:P 1904 Y2:P 1911 S1" "Sol" 
+"19P Borrelly:Borrelly:P 1904 Y2:P 1911 S1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"borrelly.cms" 
@@ -143,7 +143,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/19P/Borrelly"
 } 
 
-"21P-Giacobini-Zinner:Giacobini-Zinner:P 1900 Y1:P 1913 U1" "Sol" 
+"21P Giacobini-Zinner:Giacobini-Zinner:P 1900 Y1:P 1913 U1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -170,7 +170,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/21P/Giacobini-Zinner"
 } 
 
-"26P-Grigg-Skjellerup:Grigg-Skjellerup:P 1808 C1:P 1902 O1:P 1922 K1:P 1927 F1" "Sol" 
+"26P Grigg-Skjellerup:Grigg-Skjellerup:P 1808 C1:P 1902 O1:P 1922 K1:P 1927 F1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -197,7 +197,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/26P/Grigg-Skjellerup"
 } 
 
-"29P-Schwassmann-Wachmann:Schwassmann-Wachmann 1:P 1902 E1:P 1927 V1" "Sol" 
+"29P Schwassmann-Wachmann:Schwassmann-Wachmann 1:P 1902 E1:P 1927 V1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -224,7 +224,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/29P/Schwassmann-Wachmann"
 } 
 
-"46P-Wirtanen:Wirtanen:P 1948 A1:P 1954 R2" "Sol" 
+"46P Wirtanen:Wirtanen:P 1948 A1:P 1954 R2" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -251,7 +251,61 @@
 	InfoURL	"https://en.wikipedia.org/wiki/46P/Wirtanen"
 } 
 
-"109P-Swift-Tuttle:Swift-Tuttle:P 1737 N1:P 1862 O1:P 1992 S2" "Sol" 
+"55P Tempel-Tuttle:Tempel-Tuttle:P 1366 E1:P 1699 U1:P 1865 Y1:P 1965 M2:P 1997 E1" "Sol"
+{
+	Class		"comet"
+	Mesh		"asteroid.cms"
+	Texture	"asteroid.jpg"
+	Radius	 1.80					# D = 3.6 km
+
+	EllipticalOrbit
+	{
+		Epoch			2451040.500000	# 1998-Aug-15, 00:00
+		Period		     33.24178275837982
+		SemiMajorAxis	     10.3383382297577
+		Eccentricity	      0.905552720972412 
+		Inclination	    162.486575379434
+		AscendingNode	    235.270989149082
+		ArgOfPericenter	    172.5002736828059
+		MeanAnomaly	      4.97833968468816
+	}
+
+	# Rotation period from IAU Circular No. 6816 (1998)
+	# http://www.cbat.eps.harvard.edu/iauc/06800/06816.html
+
+	RotationPeriod	 15.31
+	GeomAlbedo		  0.06
+	InfoURL	"https://en.wikipedia.org/wiki/55P/Tempel-Tuttle"
+}
+
+"96P Machholz:Machholz 1:P 1986 J2" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg"
+	Radius	 3.20					# D = 6.4 km
+
+	EllipticalOrbit 
+	{ 
+		Epoch			2457952.500000	# 2017-Jul-18, 00:00
+		Period		      5.287538902681542
+		SemiMajorAxis	      3.03503415132119
+		Eccentricity	      0.9591604569014903 
+		Inclination	     58.1379341982923
+		AscendingNode	     94.25475500848404
+		ArgOfPericenter	     14.79291874358058
+		MeanAnomaly	    340.9939227088265
+	}
+
+	# Rotation period from IAU Circular No. 6816 (1998)
+	# https://arxiv.org/abs/1903.10500
+	
+	RotationPeriod	 4.096
+	GeomAlbedo		 0.040
+	InfoURL	"https://en.wikipedia.org/wiki/96P/Machholz"
+} 
+
+"109P Swift-Tuttle:Swift-Tuttle:P 1737 N1:P 1862 O1:P 1992 S2" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -278,7 +332,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Swift-Tuttle"
 } 
 
-"167P-CINEOS:CINEOS:P 2004 PY42" "Sol" 
+"167P CINEOS:CINEOS:P 2004 PY42" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -308,7 +362,7 @@
 
 
 # Long-Period Comets
-"153P-Ikeya-Zhang:Ikeya-Zhang:C 2002 C1:C 1661 C1" "Sol" 
+"153P Ikeya-Zhang:Ikeya-Zhang:C 2002 C1:C 1661 C1" "Sol" 
 { 
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
@@ -360,33 +414,6 @@
 	RotationPeriod	 48.00			# P = 2.0 days
 	GeomAlbedo		  0.02
 	InfoURL	"https://en.wikipedia.org/wiki/C/1983_H1_(IRAS-Araki-Alcock)"
-} 
-
-"C 2023 P1 (Nishimura):Nishimura" "Sol" 
-{ 
-	Class		"comet" 
-	Mesh		"asteroid.cms" 
-	Texture	"asteroid.jpg"
-	Radius	 0.80					# D = 1.6 km
-
-	EllipticalOrbit 
-	{ 
-		Epoch			2460195.500000	# 2023-Sept-08, 00:00
-		Period		    439.1185441982894
-		SemiMajorAxis	     57.77177579480033
-		Eccentricity	      0.9961027387711853 
-		Inclination	    132.4764184218047
-		AscendingNode	     66.83455164961916
-		ArgOfPericenter	    116.2979941884782
-		MeanAnomaly	    359.9783592964844
-	}
-
-	# Actual rotation period is unknown
-	# February 2025
-	
-	RotationPeriod	 6.00
-	GeomAlbedo		 0.04
-	InfoURL	"https://en.wikipedia.org/wiki/C/2023_P1_(Nishimura)"
 } 
 
 
@@ -626,36 +653,6 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_NEOWISE"
 }
  
-"C 2022 E3 (ZTF):ZTF" "Sol"
-{
-	Class		"comet"
-	Mesh		"asteroid.cms"
-	Texture	"asteroid.jpg"
-	Radius	 0.50					# D = 1.0 km
-
-	# Inbound elliptical barycentric orbit is used (2022)
-	# https://ssd.jpl.nasa.gov/horizons/app.html#/
-
-	EllipticalOrbit
-	{
-		Epoch			2459873.500000	# 2022-Oct-21, 00:00
-		Period		  14733.141618661529719
-		SemiMajorAxis	    600.9716541841663
-		Eccentricity	      0.9981399312831263 
-		Inclination	    109.4392225804860
-		AscendingNode	    302.6719351300542
-		ArgOfPericenter	    145.7486599455753
-		MeanAnomaly	    359.9943929771707
-	}
-
-	# Rotation period from Manzini (2023)
-	# http://astronomerstelegram.org/?read=15909
-
-	RotationPeriod	 8.50
-	GeomAlbedo		 0.04
-	InfoURL	"https://en.wikipedia.org/wiki/C/2022_E3_(ZTF)"
-}
-
 "C 2023 A3 (Tsuchinshan-ATLAS):Tsuchinshan-ATLAS:Great Comet of 2024" "Sol"
 {
 	Class		"comet"
