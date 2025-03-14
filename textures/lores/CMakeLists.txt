@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: Celestia Development Team
 # SPDX-License-Identifier: GPL-2.0-or-later
 
-file(GLOB LORES_IMAGES "*.jpg" "*.png" "*.dds" "*.license")
+file(GLOB LORES_IMAGES "*.jpg" "*.png" "*.dds")
 file(GLOB LORES_LICENSES "*.license")
 
 install(FILES ${LORES_IMAGES} DESTINATION "${DATADIR}/textures/lores" COMPONENT core)

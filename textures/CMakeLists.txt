@@ -20,7 +20,7 @@ function(CreateResizedTexture target imgfile sizedir maxdim)
 
   add_custom_command(
     OUTPUT "${OUTPUT_PATH}"
-    COMMAND "${MAGICK_CMD}" "${imgfile}" -resize "${maxdim}x${maxdim}" "${OUTPUT_PATH}"
+    COMMAND "${MAGICK_CMD}" "${imgfile}" -resize "${maxdim}x${maxdim}" -define png:exclude-chunks=date,time "${OUTPUT_PATH}"
     DEPENDS "${imgfile}"
     VERBATIM
   )
