@@ -27,6 +27,11 @@ if(ENABLE_NLS)
   include(FixGettext)
 endif()
 
+find_package(ImageMagick COMPONENTS magick)
+if(NOT ImageMagick_magick_FOUND)
+  find_package(ImageMagick COMPONENTS convert REQUIRED)
+endif()
+
 if(WIN32)
   set(CMAKE_INSTALL_BINDIR ".")
   set(CMAKE_INSTALL_DATAROOTDIR ".")

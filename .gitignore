@@ -4,10 +4,12 @@
 Debug/
 Release/
 .vs/
+.vscode/
 *~
 po*/*.gmo
 po*/POTFILES
 po*/stamp-po
 build
+out
 *.cpp
 .DS_Store
