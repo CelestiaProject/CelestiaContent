@@ -1,4 +1,4 @@
-# Nearby stars and star orbits out to 25 light years, supplementary
+# Nearby stars and star orbits out to 10 parsecs, supplementary
 # to Celestia's stars.dat.
 
 # Because the RECONS survey tabulation has not been updated since 2010,
@@ -38,6 +38,121 @@
 # Barycenter positions are based on mass estimates from the papers themselves. The 
 # values used are listed below.
 
+
+
+# Common papers:
+#   The names of these papers are not folded in order to make searching for them easier.
+
+# Baliunas et al. (1983), AJ 275, p. 752-772
+#   "Stellar rotation in lower main-sequence stars measured from time variations in H and K emission-line fluxes. II. Detailed analysis of the 1980 observing season data."
+#   https://ui.adsabs.harvard.edu/abs/1983ApJ...275..752B/abstract
+
+# Baliunas et al. (1996), AJ Letters 457, p.L99
+#   "Magnetic Field and Rotation in Lower Main-Sequence Stars: an Empirical Time-dependent Magnetic Bode's Relation?"
+#   https://ui.adsabs.harvard.edu/abs/1996ApJ...457L..99B/abstract
+
+# Boyajian et al. (2012), AJ 746 (1), id. 101
+#   "Stellar Diameters and Temperatures. I. Main-sequence A, F, and G Stars"
+#   https://ui.adsabs.harvard.edu/abs/2012ApJ...746..101B/abstract
+
+# Boyajian et al. (2012), AJ 757 (2), id. 112
+#   "Stellar Diameters and Temperatures. II. Main-sequence K- and M-stars"
+#   https://ui.adsabs.harvard.edu/abs/2012ApJ...757..112B/abstract
+
+# Boyajian et al. (2013), AJ 771 (1), id. 40
+#   "Stellar Diameters and Temperatures. III. Main-sequence A, F, G, and K Stars: Additional High-precision Measurements and Empirical Relations"
+#   https://ui.adsabs.harvard.edu/abs/2013ApJ...771...40B/abstract
+
+# Brandenburg et al. (2017), AJ 845 (1), id. 79
+#   "Evolution of Co-existing Long and Short Period Stellar Activity Cycles"
+#   https://ui.adsabs.harvard.edu/abs/2017ApJ...845...79B/abstract
+
+# Chevalier et al. (2023), A&A 678, id.A19
+#   "Binary masses and luminosities with Gaia DR3"
+#   https://ui.adsabs.harvard.edu/abs/2023A%26A...678A..19C/abstract
+
+# Cincunegui et al. (2007), A&A 469 (1), pp.309-317
+#   "Hα and the Ca II H and K lines as activity proxies for late-type stars"
+#   https://ui.adsabs.harvard.edu/abs/2007A%26A...469..309C/abstract
+
+# Demory et al. (2009), A&A 505 (1), 205
+#   "Mass-radius relation of low and very low-mass stars revisited with the VLTI"
+#   https://www.aanda.org/articles/aa/full_html/2009/37/aa11976-09/aa11976-09.html
+
+# Díez Alonso et al. (2019), A&A 621, id.A126
+#   "CARMENES input catalogue of M dwarfs. IV. New rotation periods from photometric time series"
+#   https://ui.adsabs.harvard.edu/abs/2019A%26A...621A.126D/abstract
+
+# Donahue et al. (1996), AJ 466, p.384
+#   "A Relationship between Mean Rotation Period in Lower Main-Sequence Stars and Its Observed Range"
+#   https://ui.adsabs.harvard.edu/abs/1996ApJ...466..384D/abstract
+
+# Engle et al. (2023), AJ Letters 954 (2), id.L50
+#   "Living with a Red Dwarf: The Rotation-Age Relationships of M Dwarfs"
+#   https://ui.adsabs.harvard.edu/abs/2023ApJ...954L..50E/abstract
+
+# Hojjatpanah et al. (2020), A&A 639, id.A35
+#   "The correlation between photometric variability and radial velocity jitter. Based on TESS and HARPS observations"
+#   https://ui.adsabs.harvard.edu/abs/2020A%26A...639A..35H/abstract
+
+# Houdebine et al. (2019), AJ 158 (2), id. 56
+#   "The Mass-Activity Relationships in M and K Dwarfs. I. Stellar Parameters of Our Sample of M and K Dwarfs"
+#   https://ui.adsabs.harvard.edu/abs/2019AJ....158...56H/abstract
+
+# Laliotis et al. (2023), AJ 165 (4), id.176
+#   "Doppler Constraints on Planetary Companions to Nearby Sun-like Stars: An Archival Radial Velocity Survey of Southern Targets for Proposed NASA Direct Imaging Missions"
+# https://ui.adsabs.harvard.edu/abs/2023AJ....165..176L/abstract
+
+# Mann et al. (2013), AJ 779 (2), id. 188
+#   "Spectro-thermometry of M Dwarfs and Their Candidate Planets: Too Hot, Too Cool, or Just Right?"
+#   https://ui.adsabs.harvard.edu/abs/2013ApJ...779..188M/abstract
+
+# Mann et al. (2015), ApJ 804 (1), 64
+#   "How to Constrain Your M Dwarf: Measuring Effective Temperature, Bolometric Luminosity, Mass, and Radius"
+#   http://iopscience.iop.org/article/10.1088/0004-637X/804/1/64/meta
+
+# Olspert et al. (2018), A&A 619, id.A6
+#   "Estimating activity cycles with probabilistic methods. II. The Mount Wilson Ca H&K data"
+#   https://ui.adsabs.harvard.edu/abs/2018A%26A...619A...6O/abstract
+
+# Pass et al. (2023), AJ 166 (1), id.16
+#   "Active Stars in the Spectroscopic Survey of Mid-to-late M Dwarfs within 15 pc"
+#   https://ui.adsabs.harvard.edu/abs/2023AJ....166...16P/abstract
+
+# Pizzolato et al. (2003), A&A 397, p.147-157
+#   "The stellar activity-rotation relationship revisited: Dependence of saturated and non-saturated X-ray emission regimes on stellar mass for late-type dwarfs"
+# https://ui.adsabs.harvard.edu/abs/2003A%26A...397..147P/abstract
+
+# Rabus et al. (2019), MNRAS 484 (2), 2674-2683
+#   "A discontinuity in the Teff-radius relation of M-dwarfs"
+#   https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.2674R/abstract
+
+# Rains et al. (2020), MNRAS 493 (2), p.2377-2394
+#   "Precision angular diameters for 16 southern stars with VLTI/PIONIER"
+#   https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.2377R/abstract
+
+# Reinhold et al. (2019), A&A 621, id.A21
+#   "Transition from spot to faculae domination. An alternate explanation for the dearth of intermediate Kepler rotation periods"
+#   https://ui.adsabs.harvard.edu/abs/2019A%26A...621A..21R/abstract
+
+# Segransan et al. (2000), A&A 364, 665
+#   "Accurate masses of very low mass stars. III. 16 new or improved masses"
+#   http://adsabs.harvard.edu/abs/2000A%26A...364..665S
+
+# Suárez Mascareño et al. (2015), MNRAS 452 (3), p.2745-2756
+#   "Rotation periods of late-type dwarf stars from time series high-resolution spectroscopy of chromospheric indicators"
+#   https://ui.adsabs.harvard.edu/abs/2015MNRAS.452.2745S/abstract
+
+# Wright et al. (2011), AJ 743 (1), id. 48
+#   "The Stellar-activity-Rotation Relationship and the Evolution of Stellar Dynamos"
+#   https://ui.adsabs.harvard.edu/abs/2011ApJ...743...48W/abstract
+
+# Zhang et al. (2020), AJ 891 (2), id.171
+#   "COol Companions ON Ultrawide orbiTS (COCONUTS). I. A High-gravity T4 Benchmark around an Old White Dwarf and a Re-examination of the Surface-gravity Dependence of the L/T Transition"
+#   https://ui.adsabs.harvard.edu/abs/2020ApJ...891..171Z/abstract
+
+
+
 Barycenter "Solar System Barycenter:SSB"
 {
 	RA 0
@@ -45,39 +160,65 @@ Barycenter "Solar System Barycenter:SSB"
 	Distance 0
 }
 
+# Radius from Emilio et al. (2012), AJ 750 (2), id. 135
+#   "Measuring the Solar Radius from Space during the 2003 and 2006 Mercury Transits"
+#   https://ui.adsabs.harvard.edu/abs/2012ApJ...750..135E/abstract
+# AbsMag (V-band) from Willmer (2018), AJ 236 (2), id. 47
+#   "The Absolute Magnitude of the Sun in Several Filters"
+#   https://ui.adsabs.harvard.edu/abs/2018ApJS..236...47W/abstract
 0 "Sol:Sun"
 {
-	OrbitBarycenter "Solar System Barycenter"
-	CustomOrbit "vsop87-sun"
+	OrbitBarycenter	"Solar System Barycenter"
+	CustomOrbit	"vsop87-sun"
 
-	SpectralType "G2V"
-	AbsMag 4.83
-	Temperature 5772
-	BoloCorrection -0.08
-	InfoURL "https://en.wikipedia.org/wiki/Sun"
-
+	Radius	696342
+	SpectralType	"G2V"
+	AbsMag	4.81
+	Temperature	5772
+	BoloCorrection	-0.08
 	UniformRotation
 	{
-	    Period         609.12  # 25.38 days
-	    Inclination      7.25
-	    AscendingNode   75.77
-	    MeridianAngle   23.00  # standard meridian
+	    Period<d>	25.38
+	    Inclination	7.25
+	    AscendingNode	75.77
+	    MeridianAngle	23.00  # standard meridian
 	}
+	InfoURL "https://en.wikipedia.org/wiki/Sun"
 }
 
+# Radius and temperature from Rabus et al. (2019), MNRAS 484 (2), 2674-2683
+# V-magnitude from Ribas et al. (2017), A&A 603, id.A58
+#   "The full spectral radiative properties of Proxima Centauri"
+#   https://ui.adsabs.harvard.edu/abs/2017A%26A...603A..58R/abstract
+# Rotation period from Collins et al. (2017), A&A 602, id.A48
+#   "Calculations of periodicity from Hα profiles of Proxima Centauri"
+#   https://ui.adsabs.harvard.edu/abs/2017A%26A...602A..48C/abstract
 70890 # Proxima Cen
 {
 	RA  217.39232147
 	Dec -62.67607512
 	Distance 4.2465 # 768.0665 +/- 0.0499 mas
-	SpectralType "M5.5Ve"
-	AppMag 11.09
+
+	Radius<rS>	0.154
+	SpectralType	"M5.5Ve"
+	AppMag	11.083
+	Temperature	2901
+
+	UniformRotation
+	{
+	    Period<d>	82.6
+		Inclination	155.19863
+		AscendingNode	247.37042
+	}
 	InfoURL "https://en.wikipedia.org/wiki/Proxima_Centauri"
 }
 
 # Akeson et al. (2021), AJ 162 (1), 14
-# "Precision Millimeter Astrometry of the α Centauri AB System"
-# https://iopscience.iop.org/article/10.3847/1538-3881/abfaff
+#   "Precision Millimeter Astrometry of the α Centauri AB System"
+#   https://iopscience.iop.org/article/10.3847/1538-3881/abfaff
+# Temperatures of A and B from Kervella et al. (2017), A&A 597, id.A137
+#   "The radii and limb darkenings of α Centauri A and B . Interferometric measurements with VLTI/PIONIER"
+#   https://ui.adsabs.harvard.edu/abs/2017A%26A...597A.137K/abstract
 Barycenter "ALF Cen:Gliese 559"
 {
 	RA  219.85892215
@@ -87,12 +228,12 @@ Barycenter "ALF Cen:Gliese 559"
 
 71683 # ALF Cen A
 {
+	Radius<rS>	1.2175
+	SpectralType	"G2V"
+	AppMag	0.01
+	Temperature	5795
+
 	OrbitBarycenter "ALF Cen"
-	SpectralType "G2V"
-	AppMag 0.01
-	Radius 847000
-	InfoURL "https://en.wikipedia.org/wiki/Alpha_Centauri"
- 
 	EllipticalOrbit {              # fully specified orientation
 		Period          79.762
 		SemiMajorAxis    10.66 # mass ratio 1.0788:0.9092
@@ -102,16 +243,21 @@ Barycenter "ALF Cen:Gliese 559"
 		ArgOfPericenter 279.48
 		MeanAnomaly     200.56
 	}
+	UniformRotation
+	{
+	    Period<d>	28.3
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Alpha_Centauri"
 }
 
 71681 # ALF Cen B
 {
-	OrbitBarycenter "ALF Cen"
-	SpectralType "K1V"
-	AppMag 1.33
-	Radius 597700
-	InfoURL "https://en.wikipedia.org/wiki/Alpha_Centauri"
+	Radius<rS>	0.8591
+	SpectralType	"K1V"
+	AppMag	1.33
+	Temperature	5231
 
+	OrbitBarycenter "ALF Cen"
 	EllipticalOrbit {              # fully specified orientation
 		Period          79.762
 		SemiMajorAxis    12.64 # mass ratio 1.0788:0.9092
@@ -121,29 +267,50 @@ Barycenter "ALF Cen:Gliese 559"
 		ArgOfPericenter  99.48
 		MeanAnomaly     200.56
 	}
+	UniformRotation
+	{
+	    Period<d>	36.66
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Alpha_Centauri"
 }
 
+# Radius from Rabus et al. (2019), MNRAS 484 (2), 2674-2683
+# Temperature from Mann et al. (2013), AJ 779 (2), id. 188
+# Rotation period from Toledo-Padrón et al. (2019), MNRAS 488 (4), p.5145-5161
+#   "Stellar activity analysis of Barnard's Star: very slow rotation and evidence for long-term activity cycle"
+#   https://ui.adsabs.harvard.edu/abs/2019MNRAS.488.5145T/abstract
 87937 # Barnard's Star
 {
 	RA 269.44850253
 	Dec 4.73942005
 	Distance 5.9629 # 546.9759 +/- 0.0401 mas
-	SpectralType "M4V"
-	AppMag 9.511
+
+	Radius<rS>	0.185
+	SpectralType	"M4V"
+	AppMag	9.511
+	Temperature	3238
+
+	UniformRotation
+	{
+	    Period<d>	145
+	}
 	InfoURL "https://en.wikipedia.org/wiki/Barnard%27s_Star"
 }
 
 # Bedin et al. (2024), AN 345 (1), e20230158
-# "HST astrometry of the closest brown dwarfs-II. Improved parameters and constraints on a third body"
-# https://ui.adsabs.harvard.edu/abs/2024AN....34530158B/abstract
+#   "HST astrometry of the closest brown dwarfs-II. Improved parameters and constraints on a third body"
+#   https://ui.adsabs.harvard.edu/abs/2024AN....34530158B/abstract
 # Magnitudes from Boffin et al. (2014), A&A 561, L4
-# "Possible astrometric discovery of a substellar companion to the closest
-# binary brown dwarf system WISE J104915.57-531906.1"
-# https://www.aanda.org/articles/aa/full_html/2014/01/aa22975-13/aa22975-13.html
+#   "Possible astrometric discovery of a substellar companion to the closest
+#    binary brown dwarf system WISE J104915.57-531906.1"
+#   https://www.aanda.org/articles/aa/full_html/2014/01/aa22975-13/aa22975-13.html
+# Temperatures from Kniazev et al. (2013), AJ 770 (2), id. 124
+#   "Characterization of the nearby L/T Binary Brown Dwarf WISE J104915.57-531906.1 at 2 pc from the Sun"
+#   https://ui.adsabs.harvard.edu/abs/2013ApJ...770..124K/abstract
 # Rotation periods from Apai, Nardiello & Bedin (2021), ApJ 906 (1), 64
-# "TESS Observations of the Luhman 16 AB Brown Dwarf System: Rotational Periods,
-# Lightcurve Evolution, and Zonal Circulation"
-# https://iopscience.iop.org/article/10.3847/1538-4357/abcb97
+#   "TESS Observations of the Luhman 16 AB Brown Dwarf System: Rotational Periods,
+#    Lightcurve Evolution, and Zonal Circulation"
+#   https://iopscience.iop.org/article/10.3847/1538-4357/abcb97
 Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 {
 	RA 162.32821578
@@ -153,11 +320,12 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 
 "Luhman 16 A:WISE 1049-5319 A:WISE J104915.57-531906.1 A:GJ 11551 A"
 {
-	OrbitBarycenter "Luhman 16"
+	Radius 70000 # approx.
 	SpectralType "L7.5"
 	AppMag 23.25
-	Radius 70000 # approx.
+	Temperature	1350
 
+	OrbitBarycenter "Luhman 16"
 	EllipticalOrbit {              # fully specified orientation
 		Period           26.55
 		SemiMajorAxis    1.597 # mass ratio 35.4J:29.4J
@@ -167,17 +335,18 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 		ArgOfPericenter 316.66
 		MeanAnomaly     115.12
 	}
-
-	RotationPeriod 6.94
+	RotationPeriod	6.94
+	InfoURL "https://en.wikipedia.org/wiki/Luhman_16"
 }
 
 "Luhman 16 B:WISE 1049-5319 B:WISE J104915.57-531906.1 B:GJ 11551 B"
 {
-	OrbitBarycenter "Luhman 16"
+	Radius 63000 # approx.
 	SpectralType "T0.5"
 	AppMag 24.07
-	Radius 63000 # approx.
+	Temperature	1210
 
+	OrbitBarycenter "Luhman 16"
 	EllipticalOrbit {              # fully specified orientation
 		Period           26.55
 		SemiMajorAxis    1.924 # mass ratio 35.4J:29.4J
@@ -187,61 +356,91 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 		ArgOfPericenter 136.66
 		MeanAnomaly     115.12
 	}
-
-	RotationPeriod 5.28
+	RotationPeriod	5.28
+	InfoURL "https://en.wikipedia.org/wiki/Luhman_16"
 }
 
-# parameters from Kirkpatrick et al. (2021)
+# Parameters from Kirkpatrick et al. (2021)
+# Temperature from Luhman et al. (2024), AJ 167 (1), id.5
+#   "JWST/NIRSpec Observations of the Coldest Known Brown Dwarf"
+#   https://ui.adsabs.harvard.edu/abs/2024AJ....167....5L/abstract
 "WISE 0855-0714:WISE J085510.83-071442.5:GJ 11286"
 {
 	RA 133.780984
 	Dec -7.243932
 	Distance 7.430 # 439.0 +/- 2.4 mas
-	SpectralType "Y4"
+
 	Radius 60000 # approx.
+	SpectralType "Y4"
 	AbsMag 40 # extremely low
+	Temperature	285
+	
 	InfoURL "https://en.wikipedia.org/wiki/WISE_0855%E2%88%920714"
 }
 
+# Radius and temperature from Rabus et al. (2019), MNRAS 484 (2), 2674-2683
+# Rotation period from Díez Alonso et al. (2019), A&A 621, id.A126
 "CN Leo:Gliese 406:Wolf 359"
 {
 	RA 164.10319031
 	Dec 7.00272694
 	Distance 7.8558 # 415.1794 +/- 0.0684 mas
-	SpectralType "M6V"
-	AppMag 13.507
+
+	Radius<rS>	0.159
+	SpectralType	"M6V"
+	AppMag	13.507
+	Temperature	2657
+	
+	UniformRotation
+	{
+	    Period<d>	2.704
+	}
 	InfoURL "https://en.wikipedia.org/wiki/Wolf_359"
 }
 
-54035 # Lalande 21185
+# Radius from Rabus et al. (2019), MNRAS 484 (2), 2674-2683
+# Temperature from Mann et al. (2013), AJ 779 (2), id. 188
+# Rotation period from Díaz et al. (2019), A&A 625, id.A17
+#   "The SOPHIE search for northern extrasolar planets. XIV.
+#    A temperate (Teq 300 K) super-earth around the nearby star Gliese 411"
+#   https://ui.adsabs.harvard.edu/abs/2019A%26A...625A..17D/abstract
+54035 # Gliese 411 / Lalande 21185
 {
 	RA 165.83095968
 	Dec 35.94865303
 	Distance 8.3044 # 392.7529 +/- 0.0321 mas
-	SpectralType "M2V"
-	AppMag 7.520
+
+	Radius<rS>	0.387
+	SpectralType	"M2V"
+	AppMag	7.520
+	Temperature	3532
+	
+	UniformRotation
+	{
+	    Period<d>	56.15
+	}
 	InfoURL "https://en.wikipedia.org/wiki/Lalande_21185"
 }
 
 # Parameters from Bond et al. (2017), ApJ 840 (2), 70
-# "The Sirius System and Its Astrophysical Puzzles: Hubble Space Telescope and 
-# Ground-based Astrometry"
-# https://iopscience.iop.org/article/10.3847/1538-4357/aa6af8
-Barycenter 32349 "Sirius:Alhabor:ALF CMa:9 CMa:Gliese 244:ADS 5423"
+#   "The Sirius System and Its Astrophysical Puzzles: Hubble Space Telescope and 
+#    Ground-based Astrometry"
+#   https://iopscience.iop.org/article/10.3847/1538-4357/aa6af8
+Barycenter 32349 "Sirius:Dog Star:ALF CMa:9 CMa:Gliese 244:ADS 5423"
 {
 	RA 101.28715533
 	Dec -16.71611586
 	Distance 8.608 # 378.9 +/- 1.4 mas
 }
 
-"Sirius A:Alhabor A:ALF CMa A:9 CMa A:Gliese 244 A:ADS 5423 A"
+"Sirius A:Dog Star A:ALF CMa A:9 CMa A:Gliese 244 A:ADS 5423 A"
 {
-	OrbitBarycenter "Sirius"
-	SpectralType "A1V"
-	AppMag -1.46
-	Radius 1192700
-	InfoURL "https://en.wikipedia.org/wiki/Sirius#Sirius_A"
+	Radius<rS>	1.7144
+	SpectralType	"A1V"
+	AppMag	-1.46
+	Temperature	9845
 
+	OrbitBarycenter "Sirius"
 	EllipticalOrbit {              # fully specified orientation
 		Period         50.1284
 		SemiMajorAxis     6.53 # mass ratio 2.063:1.018
@@ -251,16 +450,17 @@ Barycenter 32349 "Sirius:Alhabor:ALF CMa:9 CMa:Gliese 244:ADS 5423"
 		ArgOfPericenter  67.30
 		MeanAnomaly      38.99
 	}
+	InfoURL "https://en.wikipedia.org/wiki/Sirius#Sirius_A"
 }
 
-"Sirius B:Alhabor B:ALF CMa B:9 CMa B:Gliese 244 B:ADS 5423 B"
+"Sirius B:Dog Star B:ALF CMa B:9 CMa B:Gliese 244 B:ADS 5423 B"
 {
-	OrbitBarycenter "Sirius"
-	SpectralType "DA2"
-	AppMag 8.44
-	Radius 5634
-	InfoURL "https://en.wikipedia.org/wiki/Sirius#Sirius_B"
+	Radius<rS>	0.008098
+	SpectralType	"DA2"
+	AppMag	8.44
+	Temperature	25369
 
+	OrbitBarycenter "Sirius"
 	EllipticalOrbit {              # fully specified orientation
 		Period         50.1284
 		SemiMajorAxis    13.25 # mass ratio 2.063:1.018
@@ -270,69 +470,107 @@ Barycenter 32349 "Sirius:Alhabor:ALF CMa:9 CMa:Gliese 244:ADS 5423"
 		ArgOfPericenter 247.30
 		MeanAnomaly      38.99
 	}
+	InfoURL "https://en.wikipedia.org/wiki/Sirius#Sirius_B"
 }
 
-# Distance and radii from same source as orbit
-# Rotation periods from Barnes et al. (2017), MNRAS 471 (1), 811
-# "Surprisingly different star-spot distributions on the near equal-mass 
-# equal-rotation-rate stars in the M dwarf binary GJ 65 AB"
-# https://arxiv.org/abs/1706.03979
+# Distance and sky position from Chevalier et al. (2023), A&A 678, id.A19
+# Orbit from Gravity Collaboration (2024), A&A 685, id.L9
+#   "Astrometric detection of a Neptune-mass candidate planet in
+#    the nearest M-dwarf binary system GJ65 with VLTI/GRAVITY"
+#   https://ui.adsabs.harvard.edu/abs/2024A%26A...685L...9G/abstract
+# Radii from Kervella et al. (2016), A&A 593, id.A127
+#   "The red dwarf pair GJ65 AB: inflated, spinning twins of Proxima.
+#    Fundamental parameters from PIONIER, NACO, and UVES observations"
+#   https://ui.adsabs.harvard.edu/abs/2016A%26A...593A.127K/abstract
+# Temperatures from MacDonald et al. (2018), AJ 860 (1), id. 15
+#   "The Magnetic Binary GJ 65: A Test of Magnetic Diffusivity Effects"
+#   https://ui.adsabs.harvard.edu/abs/2018ApJ...860...15M/abstract
+# Rotation periods and inclinations from Barnes et al. (2017), MNRAS 471 (1), 811
+#   "Surprisingly different star-spot distributions on the near equal-mass 
+#    equal-rotation-rate stars in the M dwarf binary GJ 65 AB"
+#   https://ui.adsabs.harvard.edu/abs/2017MNRAS.471..811B/abstract
 Barycenter "Gliese 65:Luyten 726-8"
 {
-	RA 24.77161351 # mass ratio 0.1225:0.1195
-	Dec -17.94799520
-	Distance 8.728 # 373.70 +/- 2.70 mas
+	RA 24.77161345
+	Dec -17.94799509
+	Distance 8.78190              # 371.396 ± 0.453 mas
 }
 
 "BL Cet:Gliese 65 A:Luyten 726-8 A"
 {
+	Radius<rS>	0.165
+	SpectralType	"M5.5V"
+	AppMag	12.7
+	Temperature	2784
+
  	OrbitBarycenter "Gliese 65"
-	SpectralType "M5.5V"
-	AppMag 12.7
-	Radius 114790
-	InfoURL "https://en.wikipedia.org/wiki/Gliese_65"
-
-	EllipticalOrbit {              # fully specified orbit
-		Period          26.284
-		SemiMajorAxis     2.72 # mass ratio 0.1225:0.1195
-		Eccentricity    0.6185
-		Inclination     113.55
-		AscendingNode    47.80
-		ArgOfPericenter 357.54
-		MeanAnomaly      21.93
+	EllipticalOrbit {             # fully specified orbit
+		Epoch        2441333.5
+		Period           26.38
+		SemiMajorAxis    2.661    # Mass ratio: (0.122 ± 0.002):(0.116 ± 0.002)
+		Eccentricity    0.6172
+		Inclination      113.5
+		AscendingNode     48.0
+		ArgOfPericenter  177.5
+		MeanAnomaly          0
 	}
-
-	RotationPeriod 5.832
+	UniformRotation               # Assume closest alignment with orbital plane
+	{
+	    Period<d>	0.2430
+		Inclination	111
+		AscendingNode	40
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_65"
 }
 
 "UV Cet:Gliese 65 B:Luyten 726-8 B"
 {
-	OrbitBarycenter "Gliese 65"
+	Radius<rS>	0.159
 	SpectralType "M6V"
 	AppMag 13.2
-	Radius 110600
-	InfoURL "https://en.wikipedia.org/wiki/Gliese_65"
+	Temperature	2728
 
-	EllipticalOrbit {              # fully specified orbit
-		Period          26.284
-		SemiMajorAxis     2.79 # mass ratio 0.1225:0.1195
-		Eccentricity    0.6185
-		Inclination     113.55
-		AscendingNode    47.80
-		ArgOfPericenter 177.54
-		MeanAnomaly      21.93
+	OrbitBarycenter "Gliese 65"
+	EllipticalOrbit {             # fully specified orbit
+		Epoch        2441333.5
+		Period           26.38
+		SemiMajorAxis    2.798    # Mass ratio: (0.122 ± 0.002):(0.116 ± 0.002)
+		Eccentricity    0.6172
+		Inclination      113.5
+		AscendingNode     48.0
+		ArgOfPericenter  357.5
+		MeanAnomaly          0
 	}
-
-	RotationPeriod 5.4432
+	UniformRotation               # Assume closest alignment with orbital plane
+	{
+	    Period<d>	0.2268
+		Inclination	110
+		AscendingNode	36
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_65"
 }
 
-92403 # Ross 154
+# Radius and temperature from Rabus et al. (2019), MNRAS 484 (2), 2674-2683
+# Rotation period and inclination from Ibañez Bustos et al. (2020), A&A 644, id.A2
+#   "Activity-rotation in the dM4 star Gl 729. A possible chromospheric cycle"
+#   https://ui.adsabs.harvard.edu/abs/2020A%26A...644A...2I/abstract
+92403 # Gliese 729 / Ross 154
 {
 	RA 282.45878902
 	Dec -23.83709745
 	Distance 9.7063 # 336.0266 +/- 0.0317 mas
+
+	Radius<rS>	0.205
 	SpectralType "M3.5Ve"
 	AppMag 10.495
+	Temperature	3162
+	
+	UniformRotation
+	{
+	    Period<d>	2.848
+		Inclination	0
+		AscendingNode	0
+	}
 	InfoURL "https://en.wikipedia.org/wiki/Ross_154"
 }
 
@@ -346,22 +584,32 @@ Barycenter "Gliese 65:Luyten 726-8"
 	InfoURL "https://en.wikipedia.org/wiki/Ross_248"
 }
 
-16537 # Eps Eri
+# Parallax from Benedict (2022), Research Notes of the AAS 6 (3), id.45
+#   "Revisiting HST/FGS Astrometry of ϵ Eridani
+#   https://ui.adsabs.harvard.edu/abs/2022RNAAS...6...45B/abstract
+# Radius and temperature from Rains et al. (2020), MNRAS 493 (2), p.2377-2394
+# Rotational elements from Roettenbacher et al. (2022), AJ 163 (1), id.19
+#   "EXPRES. III. Revealing the Stellar Activity Radial Velocity Signature of
+#    ϵ Eridani with Photometry and Interferometry"
+#   https://ui.adsabs.harvard.edu/abs/2022AJ....163...19R/abstract
+16537 # Ran / Eps Eri
 {
 	RA 53.22829342
 	Dec -9.45816822
-	Distance 10.5016 # 310.5773 +/- 0.1355 mas
-	SpectralType "K2V"
-	AppMag 3.73
-	Temperature 5076 # 5076 +/- 30 K (Heiter et al. 2015)
-	Radius 511000 # 0.735 +/- 0.005 Sol (di Folco et al. 2007)
+	Distance 10.501 # 310.60 +/- 0.04 mas
+
+	Radius<rS>	0.738
+	SpectralType	"K2V"
+	AppMag	3.73
+	Temperature	5052
 
 	UniformRotation
 	{
-	    Period         274 # 11.4 +/- 0.2 days (Roettenbacher et al. 2022)
-	    Inclination      12 # inclination = 70 degrees
-	    AscendingNode   88 # position angle of rotation axis = 335 degrees
+	    Period<d>	11.4
+	    Inclination	12            # inclination = 70 degrees
+	    AscendingNode	88        # position angle of rotation axis = 335 degrees
 	}
+	InfoURL "https://en.wikipedia.org/wiki/Epsilon_Eridani"
 }
 
 114046 # Lacaille 9352
@@ -385,8 +633,6 @@ Barycenter "Gliese 65:Luyten 726-8"
 }
 
 # Segransan et al. (2000), A&A 364, 665
-# "Accurate masses of very low mass stars. III. 16 new or improved masses"
-# http://adsabs.harvard.edu/abs/2000A%26A...364..665S
 Barycenter "Gliese 866:Luyten 789-6"
 {
 	RA 339.650693945
@@ -457,10 +703,9 @@ Barycenter "Gliese 866 A:Luyten 789-6 A"
 	}
 }
 
-# Physical parameters from Kervella et al. (2008), A&A 488 (2), 667
-# "The radii of the nearby K5V and K7V stars 61 Cygni A & B. CHARA/FLUOR 
-# interferometry and CESAM2k modeling"
-# https://arxiv.org/abs/0806.4049
+# Radii from Boyajian et al. (2012), AJ 757 (2), id. 112
+# Temperatures from Mann et al. (2013), AJ 779 (2), id. 188
+# Rotation periods from Olspert et al. (2018), A&A 619, id.A6
 Barycenter "61 Cyg:Gliese 820:ADS 14636"
 {
 	RA 316.75090091 # mass ratio 0.690:0.605
@@ -468,13 +713,17 @@ Barycenter "61 Cyg:Gliese 820:ADS 14636"
 	Distance 11.404 # B: 286.0054 +/- 0.0289 mas
 }
 
-104214 "61 Cyg A:V1803 Cyg:Gliese 820 A:ADS 14636 A"
+# Rotational inclination from Boro Saikia et al. (2016), A&A 594, id.A29
+#   "A solar-like magnetic cycle on the mature K-dwarf 61 Cygni A (HD 201091)"
+#   https://ui.adsabs.harvard.edu/abs/2016A%26A...594A..29B/abstract
+104214 "61 Cyg A:HD 201091:V1803 Cyg:Gliese 820 A:ADS 14636 A"
 {
-	OrbitBarycenter "61 Cyg"
-	SpectralType "K5V"
-	AppMag 5.21
-	Radius 462600
+	Radius<rS>	0.6611
+	SpectralType	"K5V"
+	AppMag	5.21
+	Temperature	4399
 
+	OrbitBarycenter "61 Cyg"
 	EllipticalOrbit {
 		Period          618.7
 		SemiMajorAxis   41.24 # mass ratio 0.69:0.605
@@ -484,15 +733,23 @@ Barycenter "61 Cyg:Gliese 820:ADS 14636"
 		ArgOfPericenter 281
 		MeanAnomaly     175
 	}
+	UniformRotation
+	{
+	    Period<d>	35.54
+		Inclination	0
+		AscendingNode	0
+	}
+	InfoURL "https://en.wikipedia.org/wiki/61_Cygni"
 }
 
-104217 "61 Cyg B:Gliese 820 B:ADS 14636 B"
+104217 "61 Cyg B:HD 201092:Gliese 820 B:ADS 14636 B"
 {
-	OrbitBarycenter "61 Cyg"
-	SpectralType "K7V"
-	AppMag 6.03
-	Radius 413900
+	Radius<rS>	0.6010
+	SpectralType	"K7V"
+	AppMag	6.03
+	Temperature	4025
 
+	OrbitBarycenter "61 Cyg"
 	EllipticalOrbit {
 		Period          618.7
 		SemiMajorAxis   47.03 # mass ratio 0.69:0.605
@@ -502,28 +759,38 @@ Barycenter "61 Cyg:Gliese 820:ADS 14636"
 		ArgOfPericenter 101
 		MeanAnomaly     175
 	}
+	UniformRotation
+	{
+	    Period<d>	34.55
+	}
+	InfoURL "https://en.wikipedia.org/wiki/61_Cygni"
 }
 
 # Orbit from Bond et al. (2018), Res. Notes AAS 2 (3), 147
-# "Final Hubble Space Telescope Astrometry of the Procyon Binary System"
-# https://iopscience.iop.org/article/10.3847/2515-5172/aad9a4
+#   "Final Hubble Space Telescope Astrometry of the Procyon Binary System"
+#   https://iopscience.iop.org/article/10.3847/2515-5172/aad9a4
 # Parameters from Bond et al. (2015), ApJ 813 (2), 106
-# "Hubble Space Telescope Astrometry of the Procyon System"
-# https://iopscience.iop.org/article/10.1088/0004-637X/813/2/106
-Barycenter 37279 "Procyon:Elgomaisa:ALF CMi:10 CMi:Gliese 280:ADS 6251"
+#   "Hubble Space Telescope Astrometry of the Procyon System"
+#   https://iopscience.iop.org/article/10.1088/0004-637X/813/2/106
+Barycenter 37279 "Procyon:ALF CMi:10 CMi:Gliese 280:ADS 6251"
 {
 	RA 114.82549791
 	Dec 5.22498756
 	Distance 11.444 # 285.0 +/- 0.7 mas
 }
 
-"Procyon A:Elgomaisa A:ALF CMi A:10 CMi A:Gliese 280 A:ADS 6251 A"
+# Radius (lit. weighted mean) and temperature (lit. weighted mean) from Boyajian et al. (2013), AJ 771 (1), id. 40
+# Rotation period from Koncewicz and Jordan (2007), MNRAS 374 (1), pp. 220-231
+#   "OI line emission in cool stars: calculations using partial redistribution"
+#   https://ui.adsabs.harvard.edu/abs/2007MNRAS.374..220K/abstract
+"Procyon A:ALF CMi A:10 CMi A:Gliese 280 A:ADS 6251 A"
 {
-	OrbitBarycenter "Procyon"
+	Radius<rS>	2.0468
 	SpectralType "F5IV"
 	AppMag 0.37
-	InfoURL "https://en.wikipedia.org/wiki/Procyon"
+	Temperature	6582
 
+	OrbitBarycenter "Procyon"
 	EllipticalOrbit {             # fully specified orientation
 		Period         40.844
 		SemiMajorAxis    4.32 # mass ratio 1.478:0.592
@@ -533,17 +800,24 @@ Barycenter 37279 "Procyon:Elgomaisa:ALF CMi:10 CMi:Gliese 280:ADS 6251"
 		ArgOfPericenter 90.25
 		MeanAnomaly    281.41
 	}
+	UniformRotation
+	{
+	    Period<d>	23
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Procyon"
 }
 
-"Procyon B:Elgomaisa B:ALF CMi B:10 CMi B:Gliese 280 B:ADS 6251 B"
+# Temperature from Provencal et al. (2002), AJ 568 (1), pp. 324-334
+#   "Procyon B: Outside the Iron Box"
+#   https://ui.adsabs.harvard.edu/abs/2002ApJ...568..324P/abstract
+"Procyon B:ALF CMi B:10 CMi B:Gliese 280 B:ADS 6251 B"
 {
-	OrbitBarycenter "Procyon"
+	Radius<rS>	0.01232
 	SpectralType "DQZ"
-	Temperature 7740
-	Radius 8571
 	AppMag 10.82
-	InfoURL "https://en.wikipedia.org/wiki/Procyon#Procyon_B"
+	Temperature 7740
 
+	OrbitBarycenter "Procyon"
 	EllipticalOrbit {              # fully specified orientation
 		Period          40.844
 		SemiMajorAxis    10.80 # mass ratio 1.478:0.592
@@ -553,12 +827,10 @@ Barycenter 37279 "Procyon:Elgomaisa:ALF CMi:10 CMi:Gliese 280:ADS 6251"
 		ArgOfPericenter 270.25
 		MeanAnomaly     281.41
 	}
+	InfoURL "https://en.wikipedia.org/wiki/Procyon#Procyon_B"
 }
 
-# masses from Mann et al. (2015), ApJ 804 (1), 64
-# "How to Constrain Your M Dwarf: Measuring Effective Temperature, 
-# Bolometric Luminosity, Mass, and Radius"
-# http://iopscience.iop.org/article/10.1088/0004-637X/804/1/64/meta
+# Masses from Mann et al. (2015), ApJ 804 (1), 64
 Barycenter "Gliese 725:Struve 2398:ADS 11632"
 {
 	RA 280.68307740 # mass ratio 0.334:0.248
@@ -603,9 +875,9 @@ Barycenter "Gliese 725:Struve 2398:ADS 11632"
 }
 
 # Pinamonti et al. (2018), A&A 617, A104
-# "The HADES RV Programme with HARPS-N at TNG. VIII. GJ15A: a multiple
-# wide planetary system sculpted by binary interaction"
-# https://arxiv.org/abs/1804.03476
+#   "The HADES RV Programme with HARPS-N at TNG. VIII. GJ15A: a multiple
+#    wide planetary system sculpted by binary interaction"
+#   https://arxiv.org/abs/1804.03476
 Barycenter 1475 "Gliese 15:Groombridge 34:ADS 246"
 {
 	RA 4.61664355 # mass ratio 0.38:0.15
@@ -667,19 +939,40 @@ Barycenter "EPS Ind:Gliese 845" # orbit of A & B components unknown
 	Distance 11.853
 }
 
+# Radius from Lundkvist et al. (2024), AJ 964 (2), id.110
+#   "Low-amplitude Solar-like Oscillations in the K5 V Star ϵ Indi A"
+#   https://ui.adsabs.harvard.edu/abs/2024ApJ...964..110L/abstract
+# Temperature from Rains et al. (2020), MNRAS 493 (2), p.2377-2394
+# Rotation period from Feng et al. (2019), MNRAS 490 (4), p.5002-5016
+#   "Detection of the nearest Jupiter analogue in radial velocity and astrometry data"
+#   https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.5002F/abstract
 108870 "EPS Ind A:Gliese 845 A"
 {
 	RA 330.87240788
 	Dec -56.79725466
 	Distance 11.8670 # 274.8431 +/- 0.0956 mas
-	SpectralType "K5V"
-	AppMag 4.69
+
+	Radius<rS>	0.713
+	SpectralType	"K5V"
+	AppMag	4.69
+	Temperature	4649
+	
+	UniformRotation
+	{
+	    Period<d>	35.732
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Epsilon_Indi"
 }
 
-# Dieterich et al. (2018) "Dynamical Masses of ε Indi B and C: Two Massive
-# Brown Dwarfs at the Edge of the Stellar–substellar Boundary"
-# https://arxiv.org/abs/1807.09880
 # Duplicated in CNS5: Gliese 845 B = GJ 13185
+# Dieterich et al. (2018)
+#   "Dynamical Masses of ε Indi B and C: Two Massive
+#    Brown Dwarfs at the Edge of the Stellar–substellar Boundary"
+#   https://arxiv.org/abs/1807.09880
+# V-magnitudes from King et al. (2010), A&A 510, id.A99
+#   "ɛ Indi Ba, Bb: a detailed study of the nearest known brown dwarfs
+#   https://ui.adsabs.harvard.edu/abs/2010A%26A...510A..99K/abstract
+# Temperatures and radii (calculated) from Zhang et al. (2020), AJ 891 (2), id.171
 Barycenter "EPS Ind B:CI Ind:Gliese 845 B:GJ 13185"
 {
 	RA 331.07645260
@@ -689,12 +982,12 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B:GJ 13185"
 
 "EPS Ind Ba:CI Ind A:Gliese 845 Ba:GJ 13185 A"
 {
-	OrbitBarycenter "EPS Ind B"
-	SpectralType "T1.5V"
-	Temperature 1320
-	Radius 59000
-	AppMag 24.12
+	Radius<rS>	0.08762
+	SpectralType	"T1.5V"
+	AppMag	24.12
+	Temperature	1304
 
+	OrbitBarycenter "EPS Ind B"
 	EllipticalOrbit {
 		Period          11.41
 		SemiMajorAxis    1.26 # mass ratio 75.0J:70.1J
@@ -704,16 +997,17 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B:GJ 13185"
 		ArgOfPericenter 87.11
 		MeanAnomaly     49.82
 	}
+	InfoURL "https://en.wikipedia.org/wiki/Epsilon_Indi#Brown_dwarfs"
 }
 
 "EPS Ind Bb:CI Ind B:Gliese 845 Bb:GJ 13185 B"
 {
-	OrbitBarycenter "EPS Ind B"
-	SpectralType "T6V"
-	Temperature 910
-	Radius 61000
-	AbsMag 40 # extremely low
+	Radius<rS>	0.08698
+	SpectralType	"T6V"
+	AbsMag	40 # extremely low
+	Temperature	963
 
+	OrbitBarycenter "EPS Ind B"
 	EllipticalOrbit {
 		Period           11.41
 		SemiMajorAxis     1.35 # mass ratio 75.0J:70.1J
@@ -723,22 +1017,28 @@ Barycenter "EPS Ind B:CI Ind:Gliese 845 B:GJ 13185"
 		ArgOfPericenter 267.11
 		MeanAnomaly      49.82
 	}
+	InfoURL "https://en.wikipedia.org/wiki/Epsilon_Indi#Brown_dwarfs"
 }
 
+# Physical parameters from Korolik et al. (2023), AJ 166 (3), id.123
+#   "Refining the Stellar Parameters of τ Ceti: a Pole-on Solar Analog"
+#   https://ui.adsabs.harvard.edu/abs/2023AJ....166..123K/abstract
 8102 # Tau Cet
 {
 	RA 26.00905506
 	Dec -15.93368020
 	Distance 11.9118 # 273.8097 +/- 0.1701 mas
+
+	Radius<rS>	0.793
 	SpectralType "G8V"
 	AppMag 3.50
-	Radius 552000 # 0.793 +/- 0.004 Sol (Teixeira et al. 2009)
-	InfoURL "https://en.wikipedia.org/wiki/Tau_Ceti"
+	Temperature	5320
 
 	UniformRotation
 	{
-	    Period         816 # 34 days (Baliunas et al. 1996)
+	    Period<d>	32
 	}
+	InfoURL "https://en.wikipedia.org/wiki/Tau_Ceti"
 }
 
 "GJ 1061:Luyten 372-58"
@@ -1217,20 +1517,28 @@ Barycenter "GJ 1245 A"
 	AppMag 22.921
 }
 
-49908 # Groombridge 1618
+# Radius from Boyajian et al. (2012), AJ 757 (2), id. 112
+# Temperature from Mann et al. (2013), AJ 779 (2), id. 188
+# Rotation period from Pizzolato et al. (2003), A&A 397, p.147-157
+49908 # Gliese 380 / Groombridge 1618 / HD 88230
 {
 	RA 152.83292896
 	Dec 49.45198890
 	Distance 15.8857 # 205.3148 +/- 0.0224 mas
-	SpectralType "K6Ve"
-	AppMag 6.61
+
+	Radius<rS>	0.6398
+	SpectralType	"K6Ve"
+	AppMag	6.61
+	Temperature	4176
+
+	UniformRotation
+	{
+	    Period<d>	11.67
+	}
 	InfoURL "https://en.wikipedia.org/wiki/Groombridge_1618"
 }
 
-# masses from Mann et al. (2015), ApJ 804 (1), 64
-# "How to Constrain Your M Dwarf: Measuring Effective Temperature, 
-# Bolometric Luminosity, Mass, and Radius"
-# http://iopscience.iop.org/article/10.1088/0004-637X/804/1/64/meta
+# Masses from Mann et al. (2015), ApJ 804 (1), 64
 Barycenter 54211 "Gliese 412:Lalande 21258" # orbits of A & B unknown
 {
 	RA 166.34402770 # mass ratio 0.39:0.0952
@@ -1289,10 +1597,10 @@ Barycenter 54211 "Gliese 412:Lalande 21258" # orbits of A & B unknown
 	InfoURL "https://en.wikipedia.org/wiki/Gliese_682"
 }
 
-# mass of component A from Ma et al. (2018), MNRAS 480 (2), 2411
-# "The first super-Earth detection from the high cadence and high radial velocity 
-# precision Dharma Planet Survey"
-# https://arxiv.org/abs/1807.07098
+# Mass of component A from Ma et al. (2018), MNRAS 480 (2), 2411
+#   "The first super-Earth detection from the high cadence and high radial velocity 
+#    precision Dharma Planet Survey"
+#   https://arxiv.org/abs/1807.07098
 Barycenter 19849 "Keid:OMI2 Eri:40 Eri:Gliese 166:ADS 3093" # Orbits of A & (BC) unknown
 {
 	RA 63.81919733 # mass ratio 0.78:(0.573:0.2036)
@@ -1300,13 +1608,22 @@ Barycenter 19849 "Keid:OMI2 Eri:40 Eri:Gliese 166:ADS 3093" # Orbits of A & (BC)
 	Distance 16.3399
 }
 
+# Radius and temperature from Boyajian et al. (2012), AJ 757 (2), id. 112
+# Rotation period from Laliotis et al. (2023), AJ 165 (4), id.176
 "Keid A:OMI2 Eri A:40 Eri A:Gliese 166 A:ADS 3093 A"
 {
 	RA 63.80795301
 	Dec -7.66807782
 	Distance 16.3398 # 199.6080 +/- 0.1208 mas
-	SpectralType "K0V"
-	AppMag 4.43
+
+	Radius<rS>	0.8051
+	SpectralType	"K0V"
+	AppMag	4.43
+	Temperature	5147
+	UniformRotation
+	{
+	    Period<d>	43.504
+	}
 	InfoURL "https://en.wikipedia.org/wiki/40_Eridani"
 }
 
@@ -1317,18 +1634,18 @@ Barycenter "Keid BC:OMI2 Eri BC:40 Eri BC:Gliese 166 BC"
 	Distance 16.340 # C: 199.4516 +/- 0.0692 mas
 }
 
-# radius from Bond et al. (2017), ApJ 848 (1), 16
+# Radius and temperature from Bond et al. (2017), ApJ 848 (1), 16
 # "Astrophysical Implications of a New Dynamical Mass for the 
-# Nearby White Dwarf 40 Eridani B"
+#  Nearby White Dwarf 40 Eridani B"
 # http://iopscience.iop.org/article/10.3847/1538-4357/aa8a63/meta
 "Keid B:OMI2 Eri B:40 Eri B:Gliese 166 B:ADS 3093 B"
 {
-	OrbitBarycenter "Keid BC"
-	SpectralType "DA3"
-	Radius 9100
-	AppMag 9.53
-	InfoURL "https://en.wikipedia.org/wiki/40_Eridani"
+	Radius<rS>	0.01308
+	SpectralType	"DA3"
+	AppMag	9.53
+	Temperature	17200
 
+	OrbitBarycenter "Keid BC"
 	EllipticalOrbit {	
 		Period         222.74
 		SemiMajorAxis    9.17 # mass ratio 0.573:0.2036
@@ -1338,25 +1655,33 @@ Barycenter "Keid BC:OMI2 Eri BC:40 Eri BC:Gliese 166 BC"
 		ArgOfPericenter 77.11
 		MeanAnomaly    245.29
 	}
+	InfoURL "https://en.wikipedia.org/wiki/40_Eridani"
 }
 
+# Temperature from Houdebine et al. (2019), AJ 158 (2), id. 56
+# Rotation period from Engle et al. (2023), AJ Letters 954 (2), id.L50
 "Keid C:OMI2 Eri C:40 Eri C:DY Eri:Gliese 166 C:ADS 3093 C"
 {
-	OrbitBarycenter "Keid BC"
-	SpectralType "M4.5V"
-	Radius 180000 # approx. for class
-	AppMag 11.17
-	InfoURL "https://en.wikipedia.org/wiki/40_Eridani"
+	Radius	180000                # approx. for class
+	SpectralType	"M4.5V"
+	AppMag	11.17
+	Temperature	3176
 
+	OrbitBarycenter "Keid BC"
 	EllipticalOrbit {
 		Period          222.74
-		SemiMajorAxis    25.82 # mass ratio 0.573:0.2036
+		SemiMajorAxis    25.82    # mass ratio 0.573:0.2036
 		Eccentricity     0.451
 		Inclination      83.57
 		AscendingNode   216.91
 		ArgOfPericenter 257.11
 		MeanAnomaly     245.29
 	}
+	UniformRotation
+	{
+	    Period<d>	81.0
+	}
+	InfoURL "https://en.wikipedia.org/wiki/40_Eridani"
 }
 
 112460 # EV Lac
@@ -1373,6 +1698,7 @@ Barycenter "Keid BC:OMI2 Eri BC:40 Eri BC:Gliese 166 BC"
 # Eggenberger et al. (2008), A&A 482 (2), 631
 # "Analysis of 70 Ophiuchi AB including seismic constraints"
 # https://www.aanda.org/articles/aa/abs/2008/17/aa8624-07/aa8624-07.html
+# Radii and temperatures from Boyajian et al. (2012), AJ 757 (2), id. 112
 Barycenter 88601 "70 Oph:Gliese 702:Struve 2272:ADS 11046"
 {
 	RA 271.36511072 # mass ratio 0.89:0.73
@@ -1382,10 +1708,12 @@ Barycenter 88601 "70 Oph:Gliese 702:Struve 2272:ADS 11046"
 
 1052130434 "70 Oph A:Gliese 702 A:Struve 2272 A:ADS 11046 A"
 {
-	OrbitBarycenter "70 Oph"
-	SpectralType "K0V"
-	AppMag 4.13
+	Radius<rS>	0.8310
+	SpectralType	"K0V"
+	AppMag	4.13
+	Temperature	5407
 
+	OrbitBarycenter "70 Oph"
 	EllipticalOrbit {              # fully specified orientation
 		Period           88.44
 		SemiMajorAxis    10.42 # mass ratio 0.89:0.73
@@ -1395,14 +1723,22 @@ Barycenter 88601 "70 Oph:Gliese 702:Struve 2272:ADS 11046"
 		ArgOfPericenter 285.57
 		MeanAnomaly      63.92
 	}
+	UniformRotation
+	{
+	    Period<d>	19.5
+	}
+	InfoURL "https://en.wikipedia.org/wiki/70_Ophiuchi"
 }
 
+# Temperature from Mann et al. (2013), AJ 779 (2), id. 188
 1052120434 "70 Oph B:V2391 Oph:Gliese 702 B:Struve 2272 B:ADS 11046 B"
 {
-	OrbitBarycenter "70 Oph"
-	SpectralType "K4V"
-	AppMag 6.07
+	Radius<rS>	0.6697
+	SpectralType	"K4V"
+	AppMag	6.07
+	Temperature	4475
 
+	OrbitBarycenter "70 Oph"
 	EllipticalOrbit {              # fully specified orientation
 		Period           88.44
 		SemiMajorAxis    12.71 # mass ratio 0.89:0.73
@@ -1412,29 +1748,31 @@ Barycenter 88601 "70 Oph:Gliese 702:Struve 2272:ADS 11046"
 		ArgOfPericenter 105.57
 		MeanAnomaly      63.92
 	}
+	InfoURL "https://en.wikipedia.org/wiki/70_Ophiuchi"
 }
 
-# rotational parameters from Bouchaud et al. (2020), A&A 633, A78
-# "A realistic two-dimensional model of Altair"
-# https://arxiv.org/abs/1912.03138
+# Physical parameters from Bouchaud et al. (2020), A&A 633, A78
+#   "A realistic two-dimensional model of Altair"
+#   https://arxiv.org/abs/1912.03138
 97649 # Altair
 {
 	RA 297.69582730
 	Dec 8.86832120
 	Distance 16.730 # 194.95 +/- 0.57 mas
-	SpectralType "A7IV"
-	AppMag 0.76
-	Radius 1396700 # equatorial radius
 
-	SemiAxes [ 1 0.779 1 ] # equatorial radius 28.3% greater than polar
-	InfoURL "https://en.wikipedia.org/wiki/Altair"
+	Radius<rS>	2.008           # Equatorial radius: 2.008 ± 0.006 / Polar radius: 1.565 ± 0.014
+	SemiAxes	[ 1 0.779 1 ]   # Flattening: 0.220 ± 0.003
+	SpectralType	"A7IV"
+	AppMag	0.76
+	Temperature	7594
 
 	UniformRotation
 	{
-		Period          7.79 # from equatorial rotational velocity
-		Inclination    81.21 # inclination (i) = 50.65 deg
-		AscendingNode 246.44 # orientation (alpha) = 301.13 deg
+		Period          7.77    # 7 hr 46 min, derived from equatorial rotational velocity
+		Inclination    81.21    # inclination (i) = 50.65 deg
+		AscendingNode 246.44    # orientation (alpha) = 301.13 deg
 	}
+	InfoURL "https://en.wikipedia.org/wiki/Altair"
 }
 
 # Orbit from Tokovinin et al. (2020), AJ 160 (1), 7
@@ -1482,10 +1820,10 @@ Barycenter "GJ 1116"
 	}
 }
 
-# rotation period from Burningham et al. (2016), MNRAS 463 (2), 2202
-# "A LOFAR mini-survey for low-frequency radio emission from the nearest brown
-# dwarfs"
-# https://academic.oup.com/mnras/article/463/2/2202/2892466
+# Rotation period from Burningham et al. (2016), MNRAS 463 (2), 2202
+#   "A LOFAR mini-survey for low-frequency radio emission from the nearest brown
+#    dwarfs"
+#   https://academic.oup.com/mnras/article/463/2/2202/2892466
 "WISE 1506+7027:WISE J150649.97+702736.1:GJ 12169"
 {
 	RA 226.70263615
@@ -1530,9 +1868,9 @@ Barycenter "GJ 1116"
 	InfoURL "https://en.wikipedia.org/wiki/Gliese_445"
 }
 
-# magnitude from Perez Garrido et al. (2014), A&A 567, A6
-# "2MASS J154043.42-510135.7: a new addition to the 5 pc population"
-# https://www.aanda.org/articles/aa/abs/2014/07/aa23615-14/aa23615-14.html
+# Magnitude from Perez Garrido et al. (2014), A&A 567, A6
+#   "2MASS J154043.42-510135.7: a new addition to the 5 pc population"
+#   https://www.aanda.org/articles/aa/abs/2014/07/aa23615-14/aa23615-14.html
 # Appears to be duplicated in CNS5 GJ 12258=GJ 12259
 "WISE 1540-5101:WISE J154045.65-510139.2:GJ 12258:GJ 12259"
 {
@@ -1545,9 +1883,9 @@ Barycenter "GJ 1116"
 }
 
 # Leggett et al. (2009), ApJ 695, 1517
-# "The phyical properties of four 600K T dwarfs."
-# http://iopscience.iop.org/article/10.1088/0004-637X/695/2/1517/meta
-# unresolved binary; separation and orbit unknown
+#   "The phyical properties of four 600K T dwarfs."
+#   http://iopscience.iop.org/article/10.1088/0004-637X/695/2/1517/meta
+# Unresolved binary; separation and orbit unknown
 "2MASS 0939-2448 A:2MASS J09393548-2448279 A:GJ 11394 A"
 {
 	RA 144.897865
@@ -1592,11 +1930,11 @@ Barycenter "GJ 1116"
 	InfoURL "https://en.wikipedia.org/wiki/Gliese_526"
 }
 
-# parameters from Sahu et al. (2017), Science 356 (6342), 1046
-# "Relativistic deflection of background starlight measures the mass of 
-# a nearby white dwarf star"
-# https://arxiv.org/abs/1706.02037
-# orbit listed in Sixth Orbit Catalogue is of poor quality, so unused
+# Parameters from Sahu et al. (2017), Science 356 (6342), 1046
+#   "Relativistic deflection of background starlight measures the mass of 
+#    a nearby white dwarf star"
+#   https://arxiv.org/abs/1706.02037
+# Orbit listed in Sixth Orbit Catalogue is of poor quality, so unused
 Barycenter 21088 "Gliese 169.1:Stein 2051"
 {
 	RA 67.81236059 # mass ratio MB/MA 2.07
@@ -1627,13 +1965,13 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	InfoURL "https://en.wikipedia.org/wiki/Stein_2051"
 }
 
-# coordinates, parallax from Dupuy & Liu (2012), ApJS 201 (2), 19
-# "The Hawaii Infrared Parallax Program. I. Ultracool Binaries and the L/T Transition"
-# http://iopscience.iop.org/article/10.1088/0067-0049/201/2/19/meta
-# radius and temperature from Line et al. (2017), ApJ 848 (2), 83
-# "Uniform Atmospheric Retrieval Analysis of Ultracool Dwarfs. II. Properties 
-# of 11 T dwarfs"
-# http://iopscience.iop.org/0004-637X/848/2/83/
+# Coordinates, parallax from Dupuy & Liu (2012), ApJS 201 (2), 19
+#   "The Hawaii Infrared Parallax Program. I. Ultracool Binaries and the L/T Transition"
+#   http://iopscience.iop.org/article/10.1088/0067-0049/201/2/19/meta
+# Radius and temperature from Line et al. (2017), ApJ 848 (2), 83
+#   "Uniform Atmospheric Retrieval Analysis of Ultracool Dwarfs. II. Properties 
+#    of 11 T dwarfs"
+#   http://iopscience.iop.org/0004-637X/848/2/83/
 "2MASS 1114-2618:2MASS J11145133-2618235:GJ 11600"
 {
 	RA 168.7032979
@@ -1668,7 +2006,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	InfoURL "https://en.wikipedia.org/wiki/LP_816-60"
 }
 
-# parameters from Kirkpatrick et al. (2021)
+# Parameters from Kirkpatrick et al. (2021)
 "WISE 0350-5658:WISE J035000.32-565830.2:GJ 10528"
 {
 	RA 57.500868
@@ -1703,9 +2041,9 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 	InfoURL "https://en.wikipedia.org/wiki/Gliese_205"
 }
 
-# coordinates, parallax from Dupuy & Liu (2012), ApJS 201 (2), 19
-# "The Hawaii Infrared Parallax Program. I. Ultracool Binaries and the L/T Transition"
-# http://iopscience.iop.org/article/10.1088/0067-0049/201/2/19/meta
+# Coordinates, parallax from Dupuy & Liu (2012), ApJS 201 (2), 19
+#   "The Hawaii Infrared Parallax Program. I. Ultracool Binaries and the L/T Transition"
+#   http://iopscience.iop.org/article/10.1088/0067-0049/201/2/19/meta
 "2MASS 0415-0935:2MASS J04151954-0935066:GJ 10582"
 {
 	RA 63.8381022
@@ -1719,8 +2057,8 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 }
 
 # Brandt et al. (2021), AJ 162 (6), 301
-# "Improved Dynamical Masses for Six Brown Dwarf Companions Using Hipparcos and Gaia EDR3"
-# https://iopscience.iop.org/article/10.3847/1538-3881/ac273e
+#   "Improved Dynamical Masses for Six Brown Dwarf Companions Using Hipparcos and Gaia EDR3"
+#   https://iopscience.iop.org/article/10.3847/1538-3881/ac273e
 Barycenter 29295 "Gliese 229:Luyten 668-21:LPM 230"
 {
 	RA 92.64357908
@@ -1729,9 +2067,9 @@ Barycenter 29295 "Gliese 229:Luyten 668-21:LPM 230"
 }
 
 # Radius and rotational parameters from Bowler et al. (2023), AJ 165 (4), 164
-# "Rotation Periods, Inclinations, and Obliquities of Cool Stars Hosting
-# Directly Imaged Substellar Companions: Spin–Orbit Misalignments Are Common"
-# https://iopscience.iop.org/article/10.3847/1538-3881/acbd34
+#   "Rotation Periods, Inclinations, and Obliquities of Cool Stars Hosting
+#    Directly Imaged Substellar Companions: Spin–Orbit Misalignments Are Common"
+#   https://iopscience.iop.org/article/10.3847/1538-3881/acbd34
 "Gliese 229 A:Luyten 668-21 A:LPM 230 A"
 {
 	OrbitBarycenter "Gliese 229"
@@ -1758,8 +2096,9 @@ Barycenter 29295 "Gliese 229:Luyten 668-21:LPM 230"
 	}
 }
 
-# Xuan et al. (2024), Nature, "The cool brown dwarf Gliese 229 B is a close binary"
-# https://arxiv.org/abs/2410.11953
+# Xuan et al. (2024), Nature
+#   "The cool brown dwarf Gliese 229 B is a close binary"
+#   https://arxiv.org/abs/2410.11953
 Barycenter "Gliese 229 B:Luyten 668-21 B:LPM 230 B"
 {
 	OrbitBarycenter "Gliese 229"
@@ -1825,13 +2164,27 @@ Barycenter "Gliese 229 B:Luyten 668-21 B:LPM 230 B"
 	}
 }
 
-96100 # Sig Dra
+# Radius from Hon et al. (2024), AJ 975 (1), id.147
+#   "Asteroseismology of the Nearby K Dwarf σ Draconis Using the Keck Planet Finder and TESS"
+#   https://ui.adsabs.harvard.edu/abs/2024ApJ...975..147H/abstract
+# Temperature from Boyajian et al. (2012), AJ 746 (1), id. 101
+# Rotation period from Reinhold et al. (2019), A&A 621, id.A21
+96100 # Alsafi / Sig Dra / HD 185144
 {
 	RA 293.09759805
 	Dec 69.65345106
 	Distance 18.7993 # 173.4939 +/- 0.0748 mas
-	SpectralType "K0V"
-	AppMag 4.680
+	
+	Radius<rS>	0.772
+	SpectralType	"K0V"
+	AppMag	4.680
+	Temperature	5255
+
+	UniformRotation
+	{
+	    Period<d>	27
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Sigma_Draconis"
 }
 
 26857 # Ross 47
@@ -1846,10 +2199,8 @@ Barycenter "Gliese 229 B:Luyten 668-21 B:LPM 230 B"
 }
 
 # Used Gaia EDR3 parallax for A
-# mass and radius of A from Demory et al. (2009), A&A 505 (1), 205
-# "Mass-radius relation of low and very low-mass stars revisited with the VLTI"
-# https://www.aanda.org/articles/aa/full_html/2009/37/aa11976-09/aa11976-09.html
-# masses of B, C from same sources as orbit
+# Mass and radius of A from Demory et al. (2009), A&A 505 (1), 205
+# Masses of B, C from same sources as orbit
 Barycenter "Gliese 570:ADS 9446"
 {
 	RA 224.36820687 # mass ratio 0.802:(0.586:0.390)
@@ -1857,14 +2208,16 @@ Barycenter "Gliese 570:ADS 9446"
 	Distance 19.1987 # 169.8843 +/- 0.0653 mas
 }
 
+# Radius and temperature from Rains et al. (2020), MNRAS 493 (2), p.2377-2394
+# Rotation period from Cincunegui et al. (2007), A&A 469 (1), pp.309-317
 73184 "KX Lib:Gliese 570 A:ADS 9446 A"
 {
-	OrbitBarycenter "Gliese 570"
-	SpectralType "K4V"
-	AppMag 5.64
-	Radius 514100
-	InfoURL "https://en.wikipedia.org/wiki/Gliese_570"
+	Radius<rS>	0.715
+	SpectralType	"K4V"
+	AppMag	5.64
+	Temperature	4505
 
+	OrbitBarycenter "Gliese 570"
 	EllipticalOrbit {             # fully specified orientation
 		Period           2130
 		SemiMajorAxis   104.5 # mass ratio 0.802:(0.586:0.390)
@@ -1874,12 +2227,19 @@ Barycenter "Gliese 570:ADS 9446"
 		ArgOfPericenter 129.2
 		MeanAnomaly      52.6
 	}
+	UniformRotation
+	{
+	    Period<d>	44.6
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_570"
 }
 
+# Temperatures and radii (non-empirical) from Torres et al. (2010), A&A Review 18 (1-2), pp. 67-126
+#   "Accurate masses and radii of normal stars: modern results and applications"
+#   https://ui.adsabs.harvard.edu/abs/2010A%26ARv..18...67T/abstract
 Barycenter 73182 "Gliese 570 BC"
 {
 	OrbitBarycenter "Gliese 570"
-
 	EllipticalOrbit {             # fully specified orientation
 		Period           2130
 		SemiMajorAxis    85.9 # mass ratio 0.802:(0.586:0.390)
@@ -1893,11 +2253,12 @@ Barycenter 73182 "Gliese 570 BC"
 
 "Gliese 570 B:ADS 9446 B"
 {
-	OrbitBarycenter "Gliese 570 BC"
-	SpectralType "M1.5V"
-	Radius 324000 # approx. for class
-	AppMag 8.33
+	Radius<rS>	0.67
+	SpectralType	"M1.5V"
+	AppMag	8.33
+	Temperature	3500
 
+	OrbitBarycenter "Gliese 570 BC"
 	EllipticalOrbit {              # fully specified orientation
 		Period            0.846
 		SemiMajorAxis     0.35 # mass ratio 0.586:0.390
@@ -1907,15 +2268,17 @@ Barycenter 73182 "Gliese 570 BC"
 		ArgOfPericenter 221.92
 		MeanAnomaly      45.19
 	}
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_570"
 }
 
 "Gliese 570 C:ADS 9446 C"
 {
-	OrbitBarycenter "Gliese 570 BC"
-	SpectralType "M3V"
-	Radius 270000 # approx. for class
-	AppMag 9.94
+	Radius<rS>	0.43
+	SpectralType	"M3V"
+	AppMag	9.94
+	Temperature	3270
 
+	OrbitBarycenter "Gliese 570 BC"
 	EllipticalOrbit {             # fully specified orientation
 		Period           0.846
 		SemiMajorAxis    0.53 # mass ratio 0.586:0.390
@@ -1925,21 +2288,24 @@ Barycenter 73182 "Gliese 570 BC"
 		ArgOfPericenter 41.92
 		MeanAnomaly     45.19
 	}
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_570"
 }
 
-# radius and temperature from Zhang et al. (2021), ApJ 911 (1), 7
-# "The Hawaii Infrared Parallax Program. V. New T-dwarf Members and Candidate
-# Members of Nearby Young Moving Groups"
-# https://iopscience.iop.org/article/10.3847/1538-4357/abe3fa
+# Radius and temperature from Zhang et al. (2021), ApJ 911 (1), 7
+#   "The Hawaii Infrared Parallax Program. V. New T-dwarf Members and Candidate
+#    Members of Nearby Young Moving Groups"
+#   https://iopscience.iop.org/article/10.3847/1538-4357/abe3fa
 "Gliese 570 D:ADS 9446 D"
 {
 	RA 224.31233
 	Dec -21.36328
 	Distance 19.1987
-	SpectralType "T7.5V"
-	Temperature 786
-	Radius 64000
-	AbsMag 40 # extremely low
+
+	Radius<rJ>	0.89
+	SpectralType	"T7.5V"
+	AbsMag	40 # extremely low
+	Temperature	786
+
 	InfoURL "https://en.wikipedia.org/wiki/Gliese_570"
 }
 
@@ -2032,12 +2398,15 @@ Barycenter 3821 "Achird:ETA Cas:24 Cas:Gliese 34:ADS 671"
 }
 
 # Mass ratio from theoretical values from same source as orbit
+# Radius and temperature from Boyajian et al. (2013), AJ 771 (1), id. 40
 "Achird A:ETA Cas A:24 Cas A:Gliese 34 A:ADS 671 A"
 {
-	OrbitBarycenter "ETA Cas"
-	SpectralType "G0V"
-	AppMag 3.44
+	Radius<rS>	1.0386
+	SpectralType	"G0V"
+	AppMag	3.44
+	Temperature	5973
 
+	OrbitBarycenter "ETA Cas"
 	EllipticalOrbit {
 		Period          479.27
 		SemiMajorAxis    24.23 # mass ratio 1.07:0.55
@@ -2047,14 +2416,15 @@ Barycenter 3821 "Achird:ETA Cas:24 Cas:Gliese 34:ADS 671"
 		ArgOfPericenter 182.11
 		MeanAnomaly      82.68
 	}
+	InfoURL "https://en.wikipedia.org/wiki/Eta_Cassiopeiae"
 }
 
 2026693663 "Achird B:ETA Cas B:24 Cas B:Gliese 34 B:ADS 671 B"
 {
-	OrbitBarycenter "ETA Cas"
 	SpectralType "K7V"
 	AppMag 7.51
 
+	OrbitBarycenter "ETA Cas"
 	EllipticalOrbit {
 		Period        479.27
 		SemiMajorAxis  47.13 # mass ratio 1.07:0.55
@@ -2064,6 +2434,7 @@ Barycenter 3821 "Achird:ETA Cas:24 Cas:Gliese 34:ADS 671"
 		ArgOfPericenter 2.11
 		MeanAnomaly    82.68
 	}
+	InfoURL "https://en.wikipedia.org/wiki/Eta_Cassiopeiae"
 }
 
 Barycenter "Guniibuu:36 Oph:Gliese 663:ADS 10417" # orbit of (AB) & C unknown
@@ -2073,6 +2444,7 @@ Barycenter "Guniibuu:36 Oph:Gliese 663:ADS 10417" # orbit of (AB) & C unknown
 	Distance 19.4092
 }
 
+# Rotation periods from Baliunas et al. (1983), AJ 275, p. 752-772
 Barycenter 84405 "Guniibuu AB:36 Oph AB:Gliese 663 AB"
 {
 	RA 258.83461527 # mass ratio 0.75:0.76
@@ -2081,14 +2453,17 @@ Barycenter 84405 "Guniibuu AB:36 Oph AB:Gliese 663 AB"
 }
 
 # Average masses from Luck, R. E. (2017), AJ 153 (1), 21
-# "Abundances in the Local Region II: F, G, and K Dwarfs and Subgiants"
-# http://iopscience.iop.org/article/10.3847/1538-3881/153/1/21/meta
+#   "Abundances in the Local Region II: F, G, and K Dwarfs and Subgiants"
+#   http://iopscience.iop.org/article/10.3847/1538-3881/153/1/21/meta
+# Radius and temperature from Demory et al. (2009), A&A 505 (1), 205
 1003266820 "Guniibuu A:36 Oph A:Gliese 663 A:ADS 10417 A"
 {
-	OrbitBarycenter "36 Oph AB"
-	SpectralType "K2V"
-	AppMag 5.08
+	Radius<rS>	0.817
+	SpectralType	"K2V"
+	AppMag	5.08
+	Temperature	4843
 
+	OrbitBarycenter "36 Oph AB"
 	EllipticalOrbit {
 		Period          470.9
 		SemiMajorAxis    38.93 # mass ratio 0.75:0.76
@@ -2098,14 +2473,19 @@ Barycenter 84405 "Guniibuu AB:36 Oph AB:Gliese 663 AB"
 		ArgOfPericenter 270.97
 		MeanAnomaly     246.27
 	}
+	UniformRotation
+	{
+	    Period<d>	20.3
+	}
+	InfoURL "https://en.wikipedia.org/wiki/36_Ophiuchi"
 }
 
 2003266820 "Guniibuu B:36 Oph B:Gliese 663 B:ADS 10417 B"
 {
-	OrbitBarycenter "36 Oph AB"
 	SpectralType "K1V"
 	AppMag 5.08
 
+	OrbitBarycenter "36 Oph AB"
 	EllipticalOrbit {
 		Period         470.9
 		SemiMajorAxis   38.42 # mass ratio 0.75:0.76
@@ -2115,15 +2495,27 @@ Barycenter 84405 "Guniibuu AB:36 Oph AB:Gliese 663 AB"
 		ArgOfPericenter 90.97
 		MeanAnomaly    246.27
 	}
+	UniformRotation
+	{
+	    Period<d>	22.9
+	}
+	InfoURL "https://en.wikipedia.org/wiki/36_Ophiuchi"
 }
 
+# Rotation period from Baliunas et al. (1996), AJ Letters 457, p.L99
 84478 "Guniibuu C:36 Oph C:V2215 Oph:Gliese 664:Gliese 663 C:ADS 10417 C"
 {
 	RA 259.05329410
 	Dec -26.55114609
 	Distance 19.4185 # 167.9617 +/- 0.0311 mas
+
 	SpectralType "K5V"
 	AppMag 6.34
+
+	UniformRotation
+	{
+	    Period<d>	21
+	}
 	InfoURL "https://en.wikipedia.org/wiki/36_Ophiuchi"
 }
 
@@ -2153,10 +2545,9 @@ Barycenter 84405 "Guniibuu AB:36 Oph AB:Gliese 663 AB"
 	InfoURL "https://en.wikipedia.org/wiki/WISE_1541%E2%88%922250"
 }
 
-# masses and parallaxes from Benedict et al. (2016), AJ 152 (5), 141
-# "The Solar Neighborhood. XXXVII: The Mass-Luminosity Relation for Main-sequence
-# M Dwarfs"
-# http://iopscience.iop.org/article/10.3847/0004-6256/152/5/141/meta
+# Masses and parallaxes from Benedict et al. (2016), AJ 152 (5), 141
+#   "The Solar Neighborhood. XXXVII: The Mass-Luminosity Relation for Main-sequence M Dwarfs"
+#   http://iopscience.iop.org/article/10.3847/0004-6256/152/5/141/meta
 Barycenter 1242 "GJ 1005:Luyten 722-22"
 {
 	RA 3.86988027
@@ -2224,13 +2615,25 @@ Barycenter 99461 "Gliese 783:CD-36 13940:J Herschel 5173:HJ 5173" # orbit of A &
 	AppMag 11.50
 }
 
-15510 # 82 Eri
+# Physical properties from Nari et al. (2025), A&A 693, id.A297
+#   "Revisiting the multi-planetary system of the nearby star HD 20794:
+#    Confirmation of a low-mass planet in the habitable zone of a nearby G-dwarf"
+#   https://ui.adsabs.harvard.edu/abs/2025A%26A...693A.297N/abstract
+15510 # e Eri / 82 G. Eri / HD 20794
 {
 	RA 50.00034362
 	Dec -43.06655253
 	Distance 19.7045 # 165.5242 +/- 0.0784 mas
-	SpectralType "G6V"
-	AppMag 4.27
+
+	Radius<rS>	0.93    # not directly measured
+	SpectralType	"G6V"
+	AppMag	4.27
+	Temperature	5368
+	
+	UniformRotation
+	{
+	    Period<d>	38.8
+	}
 	InfoURL "https://en.wikipedia.org/wiki/82_G._Eridani"
 }
 
@@ -2279,13 +2682,24 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	}
 }
 
+# Radius and temperature from Rains et al. (2020), MNRAS 493 (2), p.2377-2394
+# Rotation period from Hojjatpanah et al. (2020), A&A 639, id.A35
 99240 # Del Pav
 {
 	RA 302.19503989
 	Dec -66.18709128
 	Distance 19.8931 # 163.9544 +/- 0.1222 mas
+
+	Radius<rS>	1.197
 	SpectralType "G8IV"
 	AppMag 3.56
+	Temperature	5571
+
+	UniformRotation
+	{
+	    Period<d>	21.4
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Delta_Pavonis"
 }
 
 "2MASS 0136+0933:2MASS J01365662+0933473:SIMP J013656.5+093347:GJ 10218"
@@ -2298,9 +2712,9 @@ Barycenter 34603 "Gliese 268:Ross 986"
 	InfoURL "https://en.wikipedia.org/wiki/SIMP_J013656.5%2B093347"
 }
 
-# coordinates, parallax from Schilbach, Röser & Scholz (2009), A&A 493 (2), L27-L30
-# "Trigonometric parallaxes of ten ultracool subdwarfs"
-# https://www.aanda.org/articles/aa/abs/2009/02/aa11281-08/aa11281-08.html
+# Coordinates, parallax from Schilbach, Röser & Scholz (2009), A&A 493 (2), L27-L30
+#   "Trigonometric parallaxes of ten ultracool subdwarfs"
+#   https://www.aanda.org/articles/aa/abs/2009/02/aa11281-08/aa11281-08.html
 "2MASS 0937+2931:2MASS J09373487+2931409:GJ 11388"
 {
 	RA 144.395250
@@ -2416,7 +2830,7 @@ Barycenter 116132 "EQ Peg:Gliese 896:BD+19 5116"
 	InfoURL "https://en.wikipedia.org/wiki/Gliese_581"
 }
 
-# parameters from Kirkpatrick et al. (2021)
+# Parameters from Kirkpatrick et al. (2021)
 "WISE 1405+5534:WISE J140518.39+553421.3:GJ 12023"
 {
 	RA 211.320620
@@ -2430,9 +2844,9 @@ Barycenter 116132 "EQ Peg:Gliese 896:BD+19 5116"
 }
 
 # Parameters from Gonzalez-Alvarez et al. (2020), A&A 637, A93
-# "The CARMENES search for exoplanets around M dwarfs. A super-Earth planet orbiting 
-# HD 79211 (GJ 338 B)"
-# https://arxiv.org/abs/2003.13052
+#   "The CARMENES search for exoplanets around M dwarfs. A super-Earth planet orbiting 
+#    HD 79211 (GJ 338 B)"
+#   https://arxiv.org/abs/2003.13052
 Barycenter "Gliese 338:Struve 1321:ADS 7251"
 {
 	RA 138.58729103 # mass ratio 0.69:0.64
@@ -2603,9 +3017,7 @@ Barycenter "Gliese 644:Wolf 630" # orbit of (AB) & C unknown
 	Distance 21.1837 # 153.9659 +/- 0.0570 mas
 }
 
-# masses from Segransan et al. (2000), A&A 364, 665
-# "Accurate masses of very low mass stars. III. 16 new or improved masses"
-# http://adsabs.harvard.edu/abs/2000A%26A...364..665S
+# Masses from Segransan et al. (2000), A&A 364, 665
 Barycenter 82817 "Gliese 644 AB:Wolf 630 AB"
 {
 	RA 253.86621222
@@ -2681,9 +3093,6 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 }
 
 # Physical parameters from Mann et al. (2015), ApJ 804 (1), 64
-# "How to Constrain Your M Dwarf: Measuring Effective Temperature, 
-# Bolometric Luminosity, Mass, and Radius"
-# http://iopscience.iop.org/article/10.1088/0004-637X/804/1/64/meta
 "Gliese 644 C:Wolf 630 C:VB 8"
 {
 	RA 253.89324627
@@ -2717,17 +3126,33 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 	InfoURL "https://en.wikipedia.org/wiki/GJ_1128"
 }
 
-114622 # Gliese 892
+# Radius and temperature from Li et al. (2025), preprint
+#   "K-dwarf Radius Inflation and a 10-Gyr Spin-down Clock Unveiled through
+#    Asteroseismology of HD~219134 from the Keck Planet Finder"
+#   https://arxiv.org/abs/2502.00971
+# Rotation period from Motalebi et al. (2015), A&A 584, id.A72
+#   "The HARPS-N Rocky Planet Search. I. HD 219134 b:
+#    A transiting rocky planet in a multi-planet system at 6.5 pc from the Sun"
+#   https://ui.adsabs.harvard.edu/abs/2015A%26A...584A..72M/abstract
+114622 # Gliese 892 / HD 219134
 {
 	RA 348.33773395
 	Dec 57.16966644
 	Distance 21.3364 # 152.8640 +/- 0.0494 mas
-	SpectralType "K3V"
-	AppMag 5.570
+
+	Radius<rS>	0.783
+	SpectralType	"K3V"
+	AppMag	5.57
+	Temperature	4678
+
+	UniformRotation
+	{
+	    Period<d>	42.3
+	}
 	InfoURL "https://en.wikipedia.org/wiki/HD_219134"
 }
 
-# parameters from Kirkpatrick et al. (2021)
+# Parameters from Kirkpatrick et al. (2021)
 "WISE 0825+2805:WISE J082507.35+280548.5:GJ 11222"
 {
 	RA 126.280525
@@ -2788,8 +3213,11 @@ Barycenter "Gliese 644 B:Wolf 630 B"
 }
 
 # Söderhjelm, S. (1999), A&A 341, 121
-# "Visual binary orbits and masses post Hipparcos"
-# http://adsabs.harvard.edu/abs/1999A%26A...341..121S
+#   "Visual binary orbits and masses post Hipparcos"
+#   http://adsabs.harvard.edu/abs/1999A%26A...341..121S
+# Rotational elements and B's temperature from Strassmeier et al. (2023), A&A 674, id.A118
+#   "Zeeman Doppler imaging of ξ Boo A and B"
+#   https://ui.adsabs.harvard.edu/abs/2023A%26A...674A.118S/abstract
 Barycenter 72659 "XI Boo:37 Boo:Gliese 566:ADS 9413"
 {
 	RA 222.84746520 # mass ratio 0.94:0.67
@@ -2797,12 +3225,17 @@ Barycenter 72659 "XI Boo:37 Boo:Gliese 566:ADS 9413"
 	Distance 22.013 # B: 148.1793 +/- 0.0546 mas
 }
 
+# Radius and temperature from Karovicova et al. (2022), A&A 658, id.A47
+#   "Fundamental stellar parameters of benchmark stars from CHARA interferometry. II. Dwarf stars"
+#   https://ui.adsabs.harvard.edu/abs/2022A%26A...658A..47K/abstract
 1007221481 "XI Boo A:37 Boo A:Gliese 566 A:ADS 9413 A"
 {
-	OrbitBarycenter "XI Boo"
+	Radius<rS>	0.817
 	SpectralType "G7Ve"
 	AppMag 4.675
+	Temperature	5545
 
+	OrbitBarycenter "XI Boo"
 	EllipticalOrbit {
 		Period          151.6
 		SemiMajorAxis    13.87 # mass ratio 0.94:0.67
@@ -2812,14 +3245,22 @@ Barycenter 72659 "XI Boo:37 Boo:Gliese 566:ADS 9413"
 		ArgOfPericenter 158.75
 		MeanAnomaly     215.38
 	}
+	UniformRotation    # TODO: Assume closest alignment with orbital plane
+	{
+	    Period<d>	6.43
+		Inclination	0
+		AscendingNode	0
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Xi_Boötis"
 }
 
 2007221481 "XI Boo B:37 Boo B:Gliese 566 B:ADS 9413 B"
 {
-	OrbitBarycenter "XI Boo"
 	SpectralType "K5Ve"
 	AppMag 6.816
+	Temperature	4570
 
+	OrbitBarycenter "XI Boo"
 	EllipticalOrbit {
 		Period          151.6
 		SemiMajorAxis    19.47 # mass ratio 0.94:0.67
@@ -2829,6 +3270,13 @@ Barycenter 72659 "XI Boo:37 Boo:Gliese 566:ADS 9413"
 		ArgOfPericenter 338.75
 		MeanAnomaly     215.38
 	}
+	UniformRotation    # TODO: Assume closest alignment with orbital plane
+	{
+	    Period<d>	11.94
+		Inclination	0
+		AscendingNode	0
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Xi_Boötis"
 }
 
 "Gliese 299:Ross 619"
@@ -2843,11 +3291,11 @@ Barycenter 72659 "XI Boo:37 Boo:Gliese 566:ADS 9413"
 }
 
 # Tokovinin et al. (2015), AJ 150 (2), 50
-# "Speckle Interferometry at SOAR in 2014"
-# http://iopscience.iop.org/article/10.1088/0004-6256/150/2/50/meta
+#   "Speckle Interferometry at SOAR in 2014"
+#   http://iopscience.iop.org/article/10.1088/0004-6256/150/2/50/meta
 # Delfosse et al. (1999), A&A 344, 897
-# "New neighbours. I. 13 new companions to nearby M dwarfs"
-# http://adsabs.harvard.edu/abs/1999A&A...344..897D
+#   "New neighbours. I. 13 new companions to nearby M dwarfs"
+#   http://adsabs.harvard.edu/abs/1999A&A...344..897D
 Barycenter "GJ 3522:Giclas 41-14"
 {
 	RA 134.73639684 # mass ratio (0.19:0.17):0.17
@@ -3244,12 +3692,16 @@ Barycenter 12114 "Gliese 105 AC"
 	Distance 23.5599
 }
 
+# Radius and temperature from Mann et al. (2013), AJ 779 (2), id. 188
+# Rotation period from Donahue et al. (1996), AJ 466, p.384
 "Gliese 105 A"
 {
-	OrbitBarycenter "Gliese 105 AC"
-	SpectralType "K3V"
-	AppMag 5.81
+	Radius<rS>	0.7949
+	SpectralType	"K3V"
+	AppMag	5.81
+	Temperature	4704
 
+	OrbitBarycenter "Gliese 105 AC"
 	EllipticalOrbit {              # fully specified orientation
 		Period         76.107
 		SemiMajorAxis     1.9 # mass ratio 0.78:102.6J
@@ -3258,6 +3710,10 @@ Barycenter 12114 "Gliese 105 AC"
 		AscendingNode   344.9
 		ArgOfPericenter   8.3
 		MeanAnomaly     273.7
+	}
+	UniformRotation
+	{
+	    Period<d>	48.0
 	}
 }
 
@@ -3357,14 +3813,21 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	}
 }
 
+# Rotation period from Suárez Mascareño et al. (2015), MNRAS 452 (3), p.2745-2756
 "Gliese 667 C:CD-34 11626 C"
 {
 	RA 259.75125274
 	Dec -34.99779509
 	Distance 23.6232
-	SpectralType "M1.5V"
+
 	Radius 324000 # approx. for class
+	SpectralType "M1.5V"
 	AppMag 10.22
+
+	UniformRotation
+	{
+	    Period<d>	103.9
+	}
 	InfoURL "https://en.wikipedia.org/wiki/Gliese_667#Gliese_667_C"
 }
 
@@ -3405,28 +3868,57 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	InfoURL "https://en.wikipedia.org/wiki/2MASS_1507%E2%88%921627"
 }
 
-3765 # HD 4628
+# Radius and temperature from Boyajian et al. (2012), AJ 757 (2), id. 112
+# Rotation period from Brandenburg et al. (2017), AJ 845 (1), id. 79
+3765 # Gliese 33 / HD 4628
 {
 	RA 12.09910708
 	Dec 5.27553945
 	Distance 24.2505 # 134.4948 +/- 0.0578 mas
+
+	Radius<rS>	0.6954
 	SpectralType "K2.5V"
 	AppMag 5.74
+	Temperature	4950
+
+	UniformRotation
+	{
+	    Period<d>	38.5
+	}
 	InfoURL "https://en.wikipedia.org/wiki/HD_4628"
 }
 
 # Used Hipparcos parallax instead
+# Radius from Kjeldsen et al. (2008), AJ Letters 683 (2), pp. L175
+#   "Correcting Stellar Oscillation Frequencies for Near-Surface Effects"
+#   https://ui.adsabs.harvard.edu/abs/2008ApJ...683L.175K/abstract
+# Temperature from North et al. (2007), MNRAS: Letters 380 (1), pp. L80-L83
+#   "The radius and mass of the subgiant star β Hyi from interferometry and asteroseismology"
+#   https://ui.adsabs.harvard.edu/abs/2007MNRAS.380L..80N/abstract
+# Rotation period from Metcalfe et al. (2024), AJ 974 (1), id.31
+#   "TESS Asteroseismology of β Hydri: A Subgiant with a Born-again Dynamo"
+#   https://ui.adsabs.harvard.edu/abs/2024ApJ...974...31M/abstract
 2021 # Bet Hyi
 {
 	RA 6.48250499
 	Dec -77.25279547
 	Distance 24.327 # 134.07 +/- 0.11 mas
-	SpectralType "G0V"
-	AppMag 2.79
+
+	Radius<rS>	1.809
+	SpectralType	"G0V"
+	AppMag	2.79
+	Temperature	5872
+	
+	UniformRotation
+	{
+	    Period<d>	23.0
+		Inclination	0
+		AscendingNode	0
+	}
 	InfoURL "https://en.wikipedia.org/wiki/Beta_Hydri"
 }
 
-# parameters from Kirkpatrick et al. (2021)
+# Parameters from Kirkpatrick et al. (2021)
 "WISE 2000+3629:WISE J200050.19+362950.1:GJ 12908"
 {
 	RA 300.209094
@@ -3440,9 +3932,9 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 }
 
 # Parameters from Bond et al. (2020), ApJ 904 (2), 112
-# "Hubble Space Telescope Astrometry of the Metal-poor Visual Binary μ Cassiopeiae:
-# Dynamical Masses, Helium Content, and Age"
-# https://iopscience.iop.org/article/10.3847/1538-4357/abc172
+#   "Hubble Space Telescope Astrometry of the Metal-poor Visual Binary μ Cassiopeiae:
+#    Dynamical Masses, Helium Content, and Age"
+#   https://iopscience.iop.org/article/10.3847/1538-4357/abc172
 Barycenter 5336 "MU Cas:30 Cas:Gliese 53"
 {
 	RA 17.09474986
@@ -3452,11 +3944,12 @@ Barycenter 5336 "MU Cas:30 Cas:Gliese 53"
 
 "MU Cas A:30 Cas A:Gliese 53 A"
 {
-	OrbitBarycenter "MU Cas"
-	SpectralType "G5V"
-	AppMag 5.166
-	Radius 548900
+	Radius<rS> 0.789
+	SpectralType	"G5V"
+	AppMag	5.166
+	Temperature	5306
 
+	OrbitBarycenter "MU Cas"
 	EllipticalOrbit {	       # fully specified orientation
 		Period          21.568
 		SemiMajorAxis   1.4186 # mass ratio 0.7440:0.1728
@@ -3526,23 +4019,44 @@ Barycenter 83945 "GJ 3991:Giclas 203-47"
 	}
 }
 
-113283 # TW PsA (Fomalhaut B)
+# Radius and temperature from Demory et al. (2009), A&A 505 (1), 205
+# Rotation period from Wright et al. (2011), AJ 743 (1), id. 48
+113283 # Fomalhaut B / TW PsA / Gliese 879
 {
 	RA 344.10194140
 	Dec -31.56626896
 	Distance 24.7929 # 131.5525 +/- 0.0275 mas
-	SpectralType "K4Ve"
-	AppMag 6.48
+
+	Radius<rS>	0.629
+	SpectralType	"K4Ve"
+	AppMag	6.48
+	Temperature	4711
+
+	UniformRotation
+	{
+	    Period<d>	9.87
+	}
+	InfoURL "https://en.wikipedia.org/wiki/TW_Piscis_Austrini"
 }
 
 # Used Gaia DR2 parallax instead
-7981 # 107 Psc
+# Radius and temperature from Boyajian et al. (2013), AJ 771 (1), id. 40
+# Rotation period from Brandenburg et al. (2017), AJ 845 (1), id. 79
+7981 # 107 Psc / Gliese 68 / HD 10476
 {
 	RA 25.62258569
 	Dec 20.26551918
 	Distance 24.8046 # 131.4903 +/- 0.1515 mas
-	SpectralType "K1V"
-	AppMag 5.24
+
+	Radius<rS>	0.8101
+	SpectralType	"K1V"
+	AppMag	5.24
+	Temperature	5242
+
+	UniformRotation
+	{
+	    Period<d>	35.2
+	}
 	InfoURL "https://en.wikipedia.org/wiki/107_Piscium"
 }
 
@@ -3587,7 +4101,7 @@ Modify 65859 # Ross 490
 	AppMag 13.406
 }
 
-# parameters from Kirkpatrick et al. (2021)
+# Parameters from Kirkpatrick et al. (2021)
 "WISE 2354+0240:WISEA J235402.79+024014.1:GJ 13441"
 {
 	RA 358.512498
@@ -3599,10 +4113,10 @@ Modify 65859 # Ross 490
 	AbsMag 40 # extremely low
 }
 
-# apparent magnitude from Henry et al. (2006) AJ 132 (6), 2360
-# "The Solar Neighborhood. XVII. Parallax Results from the CTIOPI 0.9 m Program:
-# 20 New Members of the RECONS 10 Parsec Sample"
-# http://iopscience.iop.org/1538-3881/132/6/2360/pdf/1538-3881_132_6_2360.pdf
+# Apparent magnitude from Henry et al. (2006) AJ 132 (6), 2360
+#   "The Solar Neighborhood. XVII. Parallax Results from the CTIOPI 0.9 m Program:
+#    20 New Members of the RECONS 10 Parsec Sample"
+#   http://iopscience.iop.org/1538-3881/132/6/2360/pdf/1538-3881_132_6_2360.pdf
 "GJ 4248:LHS 3746:Luyten 499-56"
 {
 	RA 330.62692304
@@ -3613,31 +4127,43 @@ Modify 65859 # Ross 490
 	AppMag 11.76
 }
 
+# Rotation period from Pass et al. (2023), AJ 166 (1), id.16
 "Fomalhaut C:ALF PsA C:LP 876-10:GJ 13282"
 {
 	RA 342.02033817
 	Dec -24.36962742
 	Distance 25.0368 # 130.2707 +/- 0.0325 mas
-	SpectralType "M4.0Ve"
+
 	Radius 160000 # approx. for class
+	SpectralType "M4.0Ve"
 	AppMag 12.624
-	InfoURL "https://en.wikipedia.org/wiki/Fomalhaut_C"
-}
-
-# rotational parameters from Monnier et al. (2012), ApJL 761 (1), L3
-# "Resolving Vega and the Inclination Controversy with CHARA/MIRC"
-# https://arxiv.org/abs/1211.6055
-Modify 91262 # Vega
-{
-	Radius 1896000 # equatorial radius
-
-	SemiAxes [ 1 0.887 1 ] # equatorial radius 12.7% greater than polar
 
 	UniformRotation
 	{
-		Period         17.04
-		Inclination   150.91 # inclination (i) = 6.2
-		AscendingNode 208.14 # pole position angle = -58
+	    Period<d>	0.318
+		Inclination	0
+		AscendingNode	0
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Fomalhaut_C"
+}
+
+# Physical parameters from Monnier et al. (2012), ApJL 761 (1), L3
+#   "Resolving Vega and the Inclination Controversy with CHARA/MIRC"
+#   https://ui.adsabs.harvard.edu/abs/2012ApJ...761L...3M/abstract
+# Rotation period from Petit et al. (2022), A&A 666, id.A20
+#   "A decade-long magnetic monitoring of Vega"
+#   https://ui.adsabs.harvard.edu/abs/2022A%26A...666A..20P/abstract
+Modify 91262 # Vega
+{
+	Radius<rS>	2.726           # Equatorial radius: 2.726 ± 0.006 / Polar radius: 2.418 ± 0.012
+	SemiAxes	[ 1 0.8870 1 ]     # Flattening: 0.1130
+	Temperature	9360            # Surface-averaged temperature
+
+	UniformRotation
+	{
+		Period<d>     0.6798
+		Inclination   150.91    # inclination (i) = 6.2
+		AscendingNode 208.14    # pole position angle = -58
 	}
 }
 
@@ -3646,21 +4172,27 @@ Modify 12781 # Gliese 109
 	Radius 225000 # approx. for class
 }
 
-# Rotational parameters based on disk parameters, from
-# MacGregor et al. (2017), ApJ 842 (1), 8
-# "A Complete ALMA Map of the Fomalhaut Debris Disk"
-# https://arxiv.org/abs/1705.05867
+# Physical parameters from Hadjara et al. (2014), A&A 569, id.A45
+#   "Beyond the diffraction limit of optical/IR interferometers. II.
+#    Stellar parameters of rotating stars from differential phases"
+#   https://ui.adsabs.harvard.edu/abs/2014A%26A...569A..45H/abstract
 Modify 113368 # Fomalhaut 
 {
+	Radius<rS>	1.8             # Equatorial radius: 1.8 ± 0.2
+	SemiAxes	[ 1 0.98 1 ]    # Equatorial-to-polar radii ratio: 1.02 ± 0.11
+	Temperature	8760
+	
 	UniformRotation
 	{
-		Inclination    83.2  # rotation pole matches debris disk
-		AscendingNode  177.5 # inclination 65.6 deg, position angle 337.9 deg
+		Period          0.98    # Rotation velocity: 93 ± 7 km/s
+		Inclination     90	    # Inclination: 90 ± 9 degrees
+		AscendingNode   154     # POLE position angle: 65.6 ± 4.7 degrees (add 90 degrees to get AscendingNode)
  	}
 }
 
-#========================================================================
-# Nearby multiple star with poor Hipparcos parallax
+
+
+
 
 # Used Gaia DR2 parallax for B
 Barycenter 55203 "Alula Australis:XI UMa:53 UMa:Gliese 423:ADS 8119"
