@@ -6,21 +6,21 @@ file(GLOB TEXTURES_SOURCES "*.jpg" "*.png" "*.license")
 install(FILES ${TEXTURES_SOURCES} DESTINATION "${DATADIR}/textures" COMPONENT core)
 
 function(CreateResizedTexture target imgfile sizedir maxdim)
-  if(ImageMagick_magick_FOUND)
-      set(MAGICK_CMD "${ImageMagick_magick_EXECUTABLE}")
-  elseif(ImageMagick_convert_FOUND)
-      set(MAGICK_CMD "${ImageMagick_convert_EXECUTABLE}")
-  else()
-      message(FATAL_ERROR "ImageMagick command not found")
-  endif()
-
   get_filename_component(BASE_NAME "${imgfile}" NAME)
   set(OUTPUT_PATH "${CMAKE_CURRENT_BINARY_DIR}/${sizedir}_${BASE_NAME}")
   set(INSTALL_PATH "${DATADIR}/textures/${sizedir}")
 
   add_custom_command(
     OUTPUT "${OUTPUT_PATH}"
-    COMMAND "${MAGICK_CMD}" "${imgfile}" -resize "${maxdim}x${maxdim}" -define png:exclude-chunks=date,time "${OUTPUT_PATH}"
+    COMMAND
+      "${CMAKE_COMMAND}"
+      "-DINPUT_PATH=${imgfile}"
+      "-DOUTPUT_PATH=${OUTPUT_PATH}"
+      "-DMAXDIM=${maxdim}"
+      "-DImageMagick_magick_EXECUTABLE=${ImageMagick_magick_EXECUTABLE}"
+      "-DImageMagick_convert_EXECUTABLE=${ImageMagick_convert_EXECUTABLE}"
+      "-DImageMagick_identify_EXECUTABLE=${ImageMagick_identify_EXECUTABLE}"
+      -P "${PROJECT_SOURCE_DIR}/cmake/ResizeImage.cmake"
     DEPENDS "${imgfile}"
     VERBATIM
   )
