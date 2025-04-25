@@ -1,117 +1,687 @@
-# Comets
-"Halley:1P Halley" "Sol" 
+# Catalog of Comets for Celestia
+# Version 1.7.0
+#
+# All EllipticalOrbit data for comets below were retrieved from
+# NASA/JPL's Small Body Database System (SBDB) unless noted
+# otherwise:
+#
+# https://ssd/jpl.nasa.gov/tools/sbdb_lookup.html#/
+#
+# The lists were divided into three groups, the Periodic Comets
+# (<200 years), Long-Period Comets (200-1000 years) and
+# Non-Periodic Comets (>1,000 years). Their geometric albedos
+# were assumed to be 0.04 unless noted otherwise
+#
+# Due to the established system of naming comets after their
+# discoverers, a large number of these objects are namesakes of
+# one another (e.g. ATLAS, Lovejoy, McNaught, NEOWISE etc.) For 
+# this SSC file, we only select the most significant comets that
+# share the same formal name.
+#
+# Last update: 10 February 2025
+
+
+# Periodic Comets
+"1P Halley:Halley:P 1682 Q1:P 1758 Y1:P 1835 P1:P 1909 R1:P 1982 U1" "Sol" 
 { 
-	Class "comet" 
-	Mesh "halley.cmod"
-	Texture "asteroid.jpg" 
-	Radius 7.6 # maximum semi-axis
+	Class		"comet" 
+	Mesh		"halley.cmod"
+	Texture	"asteroid.jpg" 
+	Radius	 7.21					# D = 14.42 x 7.4 km
 	MeshCenter [ -0.338 1.303 0.230 ]
 
+	# Orbital parameters during its most recent perihelion is
+	# used (March 1986)
+	# https://ssd.jpl.nasa.gov/horizons/app.html#/
+
 	EllipticalOrbit 
-	{ 
-	Epoch        2449400.5      #1994 Feb 17 00:00UT
-	Period            75.31589 
-	SemiMajorAxis     17.834144 
-	Eccentricity       0.967143 
-	Inclination      162.262690 
-	AscendingNode     58.420081 
-	ArgOfPericenter  111.332485 
-	MeanAnomaly       38.384264 
+	{
+		Epoch        2446490.500000	# 1986-03-01, 00:00
+		Period            76.045514385599119578
+		SemiMajorAxis     17.94094685179662
+		Eccentricity       0.9672757898726535 
+		Inclination      162.2421962391025
+		AscendingNode     58.86005589158905 
+		ArgOfPericenter  111.8655597748925 
+		MeanAnomaly        0.2534454506522262
 	} 
 
-	# chaotic rotation, imperfectly defined: 
-	# this version from "The New Solar System", 4th Edition; Eds.
-	# JK Beatty, CC Petersen, A Chaikin 
+	# Chaotic rotation, imperfectly defined: 
+	# This version from "The New Solar System" (4th Ed.); Eds.
+	# J.K. Beatty, C.C Petersen, A. Chaikin
+
 	PrecessingRotation
 	{
-	Period             170          # 7.1 day axial rotation period 
-	Inclination         66    
-	PrecessionPeriod     0.010      # 3.7 day precession period 
+		Period			170.00	# P = 7.1 days
+		PrecessionPeriod	  0.01	# W = 3.7 days
+		Inclination		 66.00    
 	}
-
-	Albedo 0.04 
+	GeomAlbedo	 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Halley's_Comet"
 } 
 
-"Borrelly:19P Borrelly" "Sol" 
+"2P Encke:Encke:P 1786 B1:P 1795 V1:P 1805 U1:P 1818 W1:P 1822 L1" "Sol" 
 { 
-	Class "comet" 
-	Mesh "borrelly.cms" 
-	Texture "asteroid.jpg" 
-	Radius 2.2 
-
-	InfoURL "http://www.solarviews.com/eng/borrelly.htm"
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg" 
+	Radius	 2.40					# D = 4.2 km
 
 	EllipticalOrbit 
 	{ 
-	Epoch        2452174.5      # 2001 Sep 22 00:00UT
-	Period             6.86302 
-	SemiMajorAxis      3.611363 
-	Eccentricity       0.623908 
-	Inclination       30.324612 
-	AscendingNode     75.424869 
-	ArgOfPericenter  353.375385 
-	MeanAnomaly      358.956091 
+		Epoch        	2459778.500000	# 2022-Jul-18, 00:00
+		Period                3.306929418200257
+		SemiMajorAxis	      2.219615840608303
+		Eccentricity	      0.8482725906683406 
+		Inclination	     11.47161933834569
+		AscendingNode	    334.2766853943025
+		ArgOfPericenter	    187.0513231009979
+		MeanAnomaly	    222.6741878267107
+	} 
+
+	# Rotation period from Lowry (2007)
+	# https://doi.org/10.1016/j.icarus.2006.11.014
+
+	RotationPeriod	11.083
+	GeomAlbedo		 0.046
+	InfoURL	"https://en.wikipedia.org/wiki/Comet_Encke"
+} 
+
+"17P Holmes:Holmes:P 1892 V1:P 1899 L1:P 1964 O1" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg" 
+	Radius	 1.71					# D = 3.42 km
+
+	EllipticalOrbit 
+	{ 
+		Epoch        	2457680.500000	# 2016-Oct-19, 00:00
+		Period                6.905135023562981
+		SemiMajorAxis	      3.62612397801147
+		Eccentricity	      0.4301548244810638 
+		Inclination	     19.07035853006311
+		AscendingNode	    326.7738104542646
+		ArgOfPericenter	     24.7385060050165
+		MeanAnomaly	    133.7855814366874
+	} 
+
+	# Rotation period from Whipple (1984)
+	# https://doi.org/10.1016/0019-1035(84)90159-3
+
+	RotationPeriod	16.30
+	GeomAlbedo		 0.03
+	InfoURL	"https://en.wikipedia.org/wiki/Comet_Holmes"
+} 
+
+"19P Borrelly:Borrelly:P 1904 Y2:P 1911 S1" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"borrelly.cms" 
+	Texture	"asteroid.jpg" 
+	Radius	 2.40					# D = 4.2 km
+
+	EllipticalOrbit 
+	{ 
+		Epoch        	2459279.500000	# 2021-Mar-06, 00:00
+		Period                6.850480548747891
+		SemiMajorAxis	      3.606964684326838
+		Eccentricity	      0.6379142835777641 
+		Inclination	     29.3186623395529
+		AscendingNode	     74.30084258786506
+		ArgOfPericenter	    351.8616063839783
+		MeanAnomaly	    312.1229200779977
 	} 
 
 	UniformRotation
 	{
-	Period         25 
-	Inclination    90 
-	AscendingNode 315 
+		Period         25 
+		Inclination    90 
+		AscendingNode 315 
 	}
-
-	Albedo 0.04 
+	GeomAlbedo	 0.03
+	InfoURL	"https://en.wikipedia.org/wiki/19P/Borrelly"
 } 
 
-"Ikeya-Zhang:153P Ikeya-Zhang" "Sol" 
+"21P Giacobini-Zinner:Giacobini-Zinner:P 1900 Y1:P 1913 U1" "Sol" 
 { 
-	Class "comet" 
-	Texture "asteroid.jpg" 
-	Mesh "roughsphere.cms" 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg" 
+	Radius	 1.00					# D = 2.0 km
 
 	EllipticalOrbit 
 	{ 
-	Epoch        2452352.47847  # 2002 Mar 18 23:29UT
-	Period           367.181906 
-	SemiMajorAxis     51.276792 
-	Eccentricity       0.990111 
-	Inclination       28.1206 
-	AscendingNode     93.3718 
-	ArgOfPericenter   34.6666 
-	MeanAnomaly        0 
+		Epoch        	2458070.500000	# 2017-Nov-13, 00:00
+		Period                6.548873995488635
+		SemiMajorAxis	      3.500302848567133
+		Eccentricity	      0.7104704806622166 
+		Inclination	     32.00259232473731
+		AscendingNode	    195.4044801966872
+		ArgOfPericenter	    172.8124824274917
+		MeanAnomaly	    314.6585273385641
 	} 
 
-	# These are all made up (copied from Halley)
-	Radius           7.5 
+	# Actual rotation period is currently unknown
+	# (As of February 2025)
 
-	UniformRotation
-	{
-	Period 170 
-	}
-
-	Albedo 0.04 
+	RotationPeriod	 6.00
+	GeomAlbedo		 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/21P/Giacobini-Zinner"
 } 
 
-"Hale-Bopp:C1995 O1 Hale-Bopp" "Sol"
+"26P Grigg-Skjellerup:Grigg-Skjellerup:P 1808 C1:P 1902 O1:P 1922 K1:P 1927 F1" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg" 
+	Radius	 1.30					# D = 2.6 km
+
+	EllipticalOrbit 
+	{ 
+		Epoch        	2456017.500000	# 2012-Mar-31, 00:00
+		Period                5.259315586392263
+		SemiMajorAxis	      3.024224445052753
+		Eccentricity	      0.6396679618697105 
+		Inclination	     22.45511403015216
+		AscendingNode	    211.633966473815
+		ArgOfPericenter	      1.896085645552865
+		MeanAnomaly	    273.4178382900974
+	} 
+
+	# Actual rotation period is currently unknown
+	# (As of February 2025)
+
+	RotationPeriod	 6.00
+	GeomAlbedo		 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/26P/Grigg-Skjellerup"
+} 
+
+"29P Schwassmann-Wachmann:Schwassmann-Wachmann 1:P 1902 E1:P 1927 V1" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg" 
+	Radius	 30.2					# D = 60.40 km
+
+	EllipticalOrbit 
+	{ 
+		Epoch        	2457631.500000	# 2016-Aug-31, 00:00
+		Period               14.75425242735976
+		SemiMajorAxis	      6.015513024557499
+		Eccentricity	      0.04166604640078779 
+		Inclination	      9.37634487689952
+		AscendingNode	    312.4090392955372
+		ArgOfPericenter	     48.90792343360503
+		MeanAnomaly	    297.5561060173936
+	} 
+
+	# Rotation period from Ivanova (2012)
+	# https://arxiv.org/abs/2012.09007
+
+	RotationPeriod	290.400			# P = 12.1 days
+	GeomAlbedo		  0.033
+	InfoURL	"https://en.wikipedia.org/wiki/29P/Schwassmann-Wachmann"
+} 
+
+"46P Wirtanen:Wirtanen:P 1948 A1:P 1954 R2" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg" 
+	Radius	 0.60					# D = 1.2 km
+
+	EllipticalOrbit 
+	{ 
+		Epoch        	2458465.500000	# 2018-Dec-13, 00:00
+		Period                5.438847265757708
+		SemiMajorAxis	      3.092661874753647
+		Eccentricity	      0.6587550054889648 
+		Inclination	     11.7475487582537
+		AscendingNode	     82.15763392494087
+		ArgOfPericenter	    356.341071857073
+		MeanAnomaly	      0.01247351001231614
+	} 
+
+	# Rotation period from Meech (1997)
+	# https://ui.adsabs.harvard.edu/abs/1997A&A...326.1268M
+
+	RotationPeriod	 7.60
+	GeomAlbedo		 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/46P/Wirtanen"
+} 
+
+"55P Tempel-Tuttle:Tempel-Tuttle:P 1366 E1:P 1699 U1:P 1865 Y1:P 1965 M2:P 1997 E1" "Sol"
 {
-	Class "comet"
-	Mesh "asteroid.cms"
-	Texture "asteroid.jpg"
-	Radius 13
+	Class		"comet"
+	Mesh		"asteroid.cms"
+	Texture	"asteroid.jpg"
+	Radius	 1.80					# D = 3.6 km
 
 	EllipticalOrbit
 	{
-	Period          2523.4
-	PericenterDistance 0.914142
-	Eccentricity      0.995068
-	Inclination      89.4300
-	AscendingNode   282.4707
-	ArgOfPericenter 130.5887
-        MeanAnomaly       -0.007
-	Epoch       2450520.5
+		Epoch			2451040.500000	# 1998-Aug-15, 00:00
+		Period		     33.24178275837982
+		SemiMajorAxis	     10.3383382297577
+		Eccentricity	      0.905552720972412 
+		Inclination	    162.486575379434
+		AscendingNode	    235.270989149082
+		ArgOfPericenter	    172.5002736828059
+		MeanAnomaly	      4.97833968468816
+	}
+
+	# Rotation period from IAU Circular No. 6816 (1998)
+	# http://www.cbat.eps.harvard.edu/iauc/06800/06816.html
+
+	RotationPeriod	 15.31
+	GeomAlbedo		  0.06
+	InfoURL	"https://en.wikipedia.org/wiki/55P/Tempel-Tuttle"
+}
+
+"96P Machholz:Machholz 1:P 1986 J2" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg"
+	Radius	 3.20					# D = 6.4 km
+
+	EllipticalOrbit 
+	{ 
+		Epoch			2457952.500000	# 2017-Jul-18, 00:00
+		Period		      5.287538902681542
+		SemiMajorAxis	      3.03503415132119
+		Eccentricity	      0.9591604569014903 
+		Inclination	     58.1379341982923
+		AscendingNode	     94.25475500848404
+		ArgOfPericenter	     14.79291874358058
+		MeanAnomaly	    340.9939227088265
+	}
+
+	# Rotation period from IAU Circular No. 6816 (1998)
+	# https://arxiv.org/abs/1903.10500
+	
+	RotationPeriod	 4.096
+	GeomAlbedo		 0.040
+	InfoURL	"https://en.wikipedia.org/wiki/96P/Machholz"
+} 
+
+"109P Swift-Tuttle:Swift-Tuttle:P 1737 N1:P 1862 O1:P 1992 S2" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg" 
+	Radius	 13.00				# D = 26.0 km
+
+	EllipticalOrbit 
+	{ 
+		Epoch        	2450000.500000	# 1995-Oct-10, 00:00
+		Period              133.2818438401728
+		SemiMajorAxis	     26.0920694978266
+		Eccentricity	      0.963225755046038 
+		Inclination	    113.453816997171
+		AscendingNode	    139.3811920815948
+		ArgOfPericenter	    152.9821676305871
+		MeanAnomaly	      7.631696167124212
+	} 
+
+	# Rotation period from McDavid (1995)
+	# https://ui.adsabs.harvard.edu/abs/1995AAS...187.4209M
+
+	RotationPeriod	67.30				# P = 2.8 days
+	GeomAlbedo		 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Comet_Swift-Tuttle"
+} 
+
+"167P CINEOS:CINEOS:P 2004 PY42" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg" 
+	Radius	 33.085				# D = 66.17 km
+
+	EllipticalOrbit 
+	{ 
+		Epoch        	2453096.500000	# 2004-Apr-01, 00:00
+		Period               64.85546743889809
+		SemiMajorAxis	     16.14205890169403
+		Eccentricity	      0.2700193033402064 
+		Inclination	     19.12660376408597
+		AscendingNode	    295.837027398652
+		ArgOfPericenter	    343.6457775778229
+		MeanAnomaly	     16.52184361854798
+	} 
+
+	# Rotation period is currently unknown
+	# February 2025
+
+	RotationPeriod	 6.000
+	GeomAlbedo		 0.053
+	InfoURL	"https://en.wikipedia.org/wiki/167P/CINEOS"
+} 
+
+
+
+# Long-Period Comets
+"153P Ikeya-Zhang:Ikeya-Zhang:C 2002 C1:C 1661 C1" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg"
+	Radius	 1.765				# D = 3.53 km, guess
+
+	EllipticalOrbit 
+	{ 
+		Epoch			2452402.500000	# 2002-May-08, 00:00
+		Period		    365.4986961715122
+		SemiMajorAxis	     51.1193221677278
+		Eccentricity	      0.9900806570176691 
+		Inclination	     28.1209574068563
+		AscendingNode	     93.36945661875394
+		ArgOfPericenter	     34.66817865742473
+		MeanAnomaly	      0.134886581151805
+	}
+
+	# Rotation period from Manzini (2007)
+	# https://doi.org/10.1007/s11038-005-9062-6
+	
+	RotationPeriod	35.52				# P = 1.48 days
+	GeomAlbedo		 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/153P/Ikeya-Zhang"
+} 
+
+"C 1983 H1 (IRAS-Araki-Alcock):IRAS-Araki-Alcock:1983 VII:1983d" "Sol"
+{
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg"
+	Radius	 4.20					# D = 9.2 km
+
+	EllipticalOrbit 
+	{ 
+		Epoch			2445467.500000	# 1983-May-13, 00:00
+		Period		    970.6790526888775
+		SemiMajorAxis	     98.03435675076732
+		Eccentricity	      0.9898878208777039 
+		Inclination	     73.25137867780242
+		AscendingNode	     49.10245750540501
+		ArgOfPericenter	    192.8506889407098
+		MeanAnomaly	    359.9916183638424
+	}
+
+	# Rotation period from Goldstein (1984)
+	# https://doi.org/10.1086/113683
+	
+	RotationPeriod	 48.00			# P = 2.0 days
+	GeomAlbedo		  0.02
+	InfoURL	"https://en.wikipedia.org/wiki/C/1983_H1_(IRAS-Araki-Alcock)"
+} 
+
+
+
+# Non-Periodic Comets
+"C 1956 R1 (Arend-Roland):Arend-Roland:1956 III:1957h:Great Comet of 1957" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg"
+	Radius	 1.60					# D = 3.2 km, guess 
+
+	# Outbound elliptical barycentric orbit is used (1957)
+	# https://ssd.jpl.nasa.gov/horizons/app.html#/
+
+	OrbitFrame
+	{	EclipticJ2000	{ Center "SSB" }	}
+	EllipticalOrbit 
+	{ 
+		Epoch			2436028.500000	# 1957-Jul-09, 00:00
+		Period		  22559.617575934633351
+		SemiMajorAxis	    798.3835281410535
+		Eccentricity	      0.99996125289969054 
+		Inclination	    119.9247650472963
+		AscendingNode	    216.0308728148151
+		ArgOfPericenter	    308.5531356190100
+		MeanAnomaly	      0.004002187679796569
+	}
+
+	# Actual rotation period is unknown
+	# February 2025
+	
+	RotationPeriod	 6.00
+	GeomAlbedo		 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Comet_Donati"
+} 
+
+"C 1973 E1 (Kohoutek):Kohoutek:1973 XII:1973f" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg"
+	Radius	 2.10					# D = 4.2 km
+
+	# Outbound elliptical barycentric orbit is used (2500)
+	# https://ssd.jpl.nasa.gov/horizons/app.html#/
+
+	OrbitFrame
+	{	EclipticJ2000	{ Center "SSB" }	}
+	EllipticalOrbit 
+	{ 
+		Epoch			2634166.500000	# 2500-Jan-01, 00:00
+		Period		  78401.265492968188482
+		SemiMajorAxis	   1831.776407481045
+		Eccentricity	      0.9999221277468180 
+		Inclination	     14.20892450066592
+		AscendingNode	    258.3439730167626
+		ArgOfPericenter	     37.95842999569324
+		MeanAnomaly	      2.416925624045164
+	}
+
+	# Actual rotation period is unknown
+	# February 2025
+	
+	RotationPeriod	 6.00
+	GeomAlbedo		 0.67
+	InfoURL	"https://en.wikipedia.org/wiki/Comet_Kohoutek"
+} 
+
+"C 1995 O1 (Hale-Bopp):Hale-Bopp:Great Comet of 1997" "Sol"
+{
+	Class		"comet"
+	Mesh		"asteroid.cms"
+	Texture	"asteroid.jpg"
+	Radius	 30.00				# D = 30.0 km
+
+	EllipticalOrbit
+	{
+		Epoch			2459837.500000	# 2022-Sept-15, 00:00
+		Period		   2363.530468136978
+		SemiMajorAxis	    177.4333839117583
+		Eccentricity	      0.9949810027633206 
+		Inclination	     89.28759424740302
+		AscendingNode	    282.7334213961641
+		ArgOfPericenter	    130.4146670659176
+		MeanAnomaly	      3.878386339423241
 	}
 
 	# Estimate of rotation period from here: http://www.usafa.af.mil/dfp/research/astro/papers/icqpaper.htm
-	RotationPeriod  11.47
-	Albedo            0.1
+	RotationPeriod	11.47
+	GeomAlbedo		 0.07
+	InfoURL	"https://en.wikipedia.org/wiki/Comet_Hale-Bopp"
+}
+
+"C 1996 B2 (Hyakutake):Hyakutake:Great Comet of 1996" "Sol"
+{
+	Class		"comet"
+	Mesh		"asteroid.cms"
+	Texture	"asteroid.jpg"
+	Radius	 2.10					# D = 4.2 km
+
+	EllipticalOrbit
+	{
+		Epoch			2450157.500000	# 1996-Mar-15, 00:00
+		Period		  97942.59992726530
+		SemiMajorAxis	   2124.755444393889
+		Eccentricity	      0.9998916470450123 
+		Inclination	    124.9220493922234
+		AscendingNode	    188.045131992156
+		ArgOfPericenter	    130.1751209780967
+		MeanAnomaly	    359.9995230582502
+	}
+
+	# Rotation period from Schleicher (1998)
+	# https://doi.org/10.1006/icar.1997.5881
+
+	RotationPeriod	 6.23
+	GeomAlbedo		 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Comet_Hyakutake"
+}
+
+"C 2006 P1 (McNaught):McNaught:Great Comet of 2007" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg"
+	Radius	 12.50				# D = 25 km, dubious
+
+	# Inbound elliptical barycentric orbit is used (2007)
+	# https://ssd.jpl.nasa.gov/horizons/app.html#/
+
+	OrbitFrame
+	{	EclipticJ2000	{ Center "SSB" }	}
+	EllipticalOrbit 
+	{ 
+		Epoch			2454108.833333333 # 2007-Jan-8, 08:00
+		Period		  52697.478956626247964
+		SemiMajorAxis	   1405.562964747302
+		Eccentricity	      0.9998756212011907 
+		Inclination	     77.34750819822122
+		AscendingNode	    267.1068712282699
+		ArgOfPericenter	    155.0607305317392
+		MeanAnomaly	    359.9999174144606
+	}
+
+	# Actual rotation period is unknown
+	# February 2025
+	
+	RotationPeriod	 6.00
+	GeomAlbedo		 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Comet_McNaught"
+} 
+
+"C 2013 A1 (Siding Spring):Siding Spring" "Sol" 
+{ 
+	Class		"comet" 
+	Mesh		"asteroid.cms" 
+	Texture	"asteroid.jpg"
+	Radius	 0.275				# D = 0.55 km
+
+	# Outbound elliptical barycentric orbit is used (2016)
+	# https://ssd.jpl.nasa.gov/horizons/app.html#/
+
+	OrbitFrame
+	{	EclipticJ2000	{ Center "SSB" }	}
+	EllipticalOrbit 
+	{ 
+		Epoch			2457480.500000	# 2016-Apr-2, 00:00
+		Period		 313645.24322106631007
+		SemiMajorAxis	   4616.181571612909
+		Eccentricity	      0.9996968331654886 
+		Inclination	    128.9948715864994
+		AscendingNode	    301.0009245462045
+		ArgOfPericenter	      2.449604421603379
+		MeanAnomaly	      0.001648915313056205
+	}
+
+	# Rotation period is from Jet Propulsion Laboratory (2014)
+	# https://www.jpl.nasa.gov/news/news.php?feature=4366
+	
+	RotationPeriod	 8.00
+	GeomAlbedo		 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/C/2013_A1_(Siding_Spring)"
+} 
+
+"C 2014 UN271 (Bernardinelli-Bernstein):Bernardinelli-Bernstein" "Sol"
+{
+	Class		"comet"
+	Mesh		"roughsphere.cms"
+	Texture	"asteroid.jpg"
+	Radius	 68.50				# D = 137 km
+
+	EllipticalOrbit
+	{
+		Epoch			2458750.500000	# 2019-Sept-24, 00:00
+		Period		 300803.0639949109
+		SemiMajorAxis	   4489.342112465647
+		Eccentricity	      0.9975649080914114 
+		Inclination	     95.50034193311355
+		AscendingNode	    190.0157567404514
+		ArgOfPericenter	    326.4246675873162
+		MeanAnomaly	    359.9864173004243
+	}
+
+	# Rotation period from Ferrin (2022)
+	# http://astronomerstelegram.org/?read=15356
+
+	RotationPeriod	 494.400			# P = 20.6 days
+	GeomAlbedo		   0.033
+	InfoURL	"https://en.wikipedia.org/wiki/C/2014_UN271_(Bernardinelli-Bernstein)"
+}
+
+"C 2020 F3 (NEOWISE):NEOWISE:Great Comet of 2020" "Sol"
+{
+	Class		"comet"
+	Mesh		"asteroid.cms"
+	Texture	"asteroid.jpg"
+	Radius	 2.50					# D = 5.0 km
+
+	EllipticalOrbit
+	{
+		Epoch			2459036.500000	# 2020-Jul-06, 00:00
+		Period		   6787.091630382272
+		SemiMajorAxis	    358.4679565529321
+		Eccentricity	      0.9991780262531292 
+		Inclination	    128.9375027594809
+		AscendingNode	     61.01042818536988
+		ArgOfPericenter	     37.2786584481257
+		MeanAnomaly	      0.0003370720801246702
+	}
+
+	# Rotation period from Drahus (2020)
+	# http://astronomerstelegram.org/?read=13945
+
+	RotationPeriod	 7.58
+	GeomAlbedo		 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/Comet_NEOWISE"
+}
+ 
+"C 2023 A3 (Tsuchinshan-ATLAS):Tsuchinshan-ATLAS:Great Comet of 2024" "Sol"
+{
+	Class		"comet"
+	Mesh		"asteroid.cms"
+	Texture	"asteroid.jpg"
+	Radius	 1.60					# D = 3.2 km, dubious
+
+	# Comet is currently on a hyperbolic ejection trajectory
+	# since 1900. Inbound barycentric orbit is used (2024)
+	# https://ssd.jpl.nasa.gov/horizons/app.html#/
+
+	OrbitFrame
+	{	EclipticJ2000	{ Center "SSB" }	}
+	EllipticalOrbit
+	{
+		Epoch			2460570.625000	# 2024-Sept-17, 03:00
+		Period		  93847.454727929158253
+		SemiMajorAxis	   2065.08886494021
+		Eccentricity	      0.9998133246305106 
+		Inclination	    138.9767058917233
+		AscendingNode	     21.50257662712503
+		ArgOfPericenter	    309.3893250633092
+		MeanAnomaly	    359.99998857859469
+	}
+
+	# Actual rotation period is currently unknown
+	# February 2025
+
+	RotationPeriod	 6.00
+	GeomAlbedo		 0.04
+	InfoURL	"https://en.wikipedia.org/wiki/C/2023_A3_(Tsuchinshan-ATLAS)"
 }
