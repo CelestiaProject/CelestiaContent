@@ -146,6 +146,11 @@
 #   https://iopscience.iop.org/article/10.3847/1538-3881/acc067
 #   https://ui.adsabs.harvard.edu/abs/2023AJ....165..176L/abstract
 
+# Maldonado et al. (2022), A&A 663, id.A142
+#   "The GAPS programme at TNG. XXXIV. Activity-rotation, flux-flux relationships, and active-region evolution through stellar age"
+#   https://www.aanda.org/articles/aa/full_html/2022/07/aa43360-22/aa43360-22.html
+#   https://ui.adsabs.harvard.edu/abs/2022A%26A...663A.142M/abstract
+
 # Mann et al. (2013), AJ 779 (2), id. 188
 #   "Spectro-thermometry of M Dwarfs and Their Candidate Planets: Too Hot, Too Cool, or Just Right?"
 #   https://iopscience.iop.org/article/10.1088/0004-637X/779/2/188
@@ -190,6 +195,11 @@
 #   "Transition from spot to faculae domination. An alternate explanation for the dearth of intermediate Kepler rotation periods"
 #   https://www.aanda.org/articles/aa/full_html/2019/01/aa33754-18/aa33754-18.html
 #   https://ui.adsabs.harvard.edu/abs/2019A%26A...621A..21R/abstract
+
+# Saar and Osten (1997), MNRAS 284 (4), 803-810
+#   "Rotation, turbulence and evidence for magnetic fields in southern dwarfs"
+#   https://academic.oup.com/mnras/article/284/4/803/1097331
+#   https://ui.adsabs.harvard.edu/abs/1997MNRAS.284..803S/abstract
 
 # Segransan et al. (2000), A&A 364, 665
 #   "Accurate masses of very low mass stars. III. 16 new or improved masses"
@@ -4385,7 +4395,7 @@ Modify 113368 # Fomalhaut / Alf PsA
 {
 	RA	345.06283532
 	Dec	-22.52408921
-	Distance	26.850    # Gaia DR3: 121.472361 +/- 0.024887
+	Distance	26.8503    # Gaia DR3: 121.472361 +/- 0.024887
 
 	SpectralType	"K7Vk"
 	AppMag	7.869
@@ -4443,7 +4453,7 @@ Modify 113368 # Fomalhaut / Alf PsA
 {
 	RA	5.03560955
 	Dec	-64.86961714
-	Distance	28.073    # Gaia DR3: 116.182579 +/- 0.133362
+	Distance	28.0727    # Gaia DR3: 116.182579 +/- 0.133362
 
 	Radius<rS>	1.044
 	SpectralType	"F9.5V"
@@ -4603,13 +4613,70 @@ Barycenter 2026342520 "Alula Australis B:XI UMa B:53 UMa B:Gliese 423 B:ADS 8119
 
 # 41 Ara / 41 G. Ara
 
-# HD 192310
+99825 # HD 192310 / GJ 785
+{
+	RA	303.82866493
+	Dec	-27.03378081
+	Distance	28.7395    # Gaia DR3: 113.487180 +/- 0.051575
 
-# GJ 183 / HD 32147
+	SpectralType	"K2V"
+	AppMag	5.723
 
-# Gam Lep
+	InfoURL "https://en.wikipedia.org/wiki/HD_192310"
+}
 
-# AK Lep
+# Rotation period from Brandenburg et al. (2017), AJ 845 (1), id. 79
+23311 # GJ 183 / HD 32147
+{
+	RA	75.20661767
+	Dec	-5.75859896
+	Distance	28.8452    # Gaia DR3: 113.071459 +/- 0.022239
+
+	SpectralType	"K3V"
+	AppMag	6.21
+
+	UniformRotation
+	{
+	    Period<d>	48
+	}
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_183"
+}
+
+# Rotation period and inclination from Saar and Osten (1997), MNRAS 284 (4), 803-810
+1021965930 # AK Lep / Gam Lep B / GJ 216 B / HD 38392 / TYC 5930-2196-1
+{
+	RA	86.10910372
+	Dec	-22.42340451
+	Distance	29.0004    # Gaia DR3: 112.466065 +/- 0.022469
+
+	SpectralType	"K3V"
+	AppMag	6.15
+
+	UniformRotation
+	{
+	    Period<d>	17.3
+		Inclination     0
+		AscendingNode   0
+	}
+	InfoURL "https://en.wikipedia.org/wiki/AK_Leporis"
+}
+
+# Rotation period from Maldonado et al. (2022), A&A 663, id.A142
+27072 # Gam Lep A / 13 Lep / GJ 216 A / HD 38393
+{
+	RA	86.11439123
+	Dec	-22.45002336
+	Distance	29.0443    # Gaia DR3: 112.296028 +/- 0.145168
+
+	SpectralType	"F6V"
+	AppMag	3.60
+
+	UniformRotation
+	{
+	    Period<d>	6.21
+	}
+	InfoURL "https://en.wikipedia.org/wiki/"
+}
 
 # Radius and temperature from Rains et al. (2020), MNRAS 493 (2), p.2377-2394
 # Rotation period from Laliotis et al. (2023), AJ 165 (4), id.176
@@ -4751,7 +4818,17 @@ Barycenter 2026342520 "Alula Australis B:XI UMa B:53 UMa B:Gliese 423 B:ADS 8119
 	InfoURL "https://en.wikipedia.org/wiki/61_Ursae_Majoris"
 }
 
-# HD 151288
+82003 # HD 151288 / GJ 638
+{
+	RA	251.27624770
+	Dec	33.51092483
+	Distance	32.1142    # Gaia DR3: 101.561486 +/- 0.015033
+
+	SpectralType	"K5V"
+	AppMag	8.11
+
+	InfoURL "https://en.wikipedia.org/wiki/"
+}
 
 # Radius and temperature from Boyajian et al. (2012), AJ 757 (2), id. 112
 # Rotation period from Brandenburg et al. (2017), AJ 845 (1), id. 79
