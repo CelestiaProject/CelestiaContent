@@ -4403,6 +4403,7 @@ Modify 113368 # Fomalhaut / Alf PsA
 
 # Mu Her
 
+
 # Radius and temperature (lit. weighted mean) from Boyajian et al. (2013), AJ 771 (1), id. 40
 # Rotation period from Montesinos et al. (2016), A&A 593, id.A51
 61317 # Chara / Bet CVn / HD 109358    # It's me!
@@ -4675,7 +4676,7 @@ Barycenter 2026342520 "Alula Australis B:XI UMa B:53 UMa B:Gliese 423 B:ADS 8119
 	{
 	    Period<d>	6.21
 	}
-	InfoURL "https://en.wikipedia.org/wiki/"
+	InfoURL "https://en.wikipedia.org/wiki/Gamma_Leporis"
 }
 
 # Radius and temperature from Rains et al. (2020), MNRAS 493 (2), p.2377-2394
@@ -4827,7 +4828,7 @@ Barycenter 2026342520 "Alula Australis B:XI UMa B:53 UMa B:Gliese 423 B:ADS 8119
 	SpectralType	"K5V"
 	AppMag	8.11
 
-	InfoURL "https://en.wikipedia.org/wiki/"
+	InfoURL "https://en.wikipedia.org/wiki/Gliese_638"
 }
 
 # Radius and temperature from Boyajian et al. (2012), AJ 757 (2), id. 112
