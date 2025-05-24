@@ -41,7 +41,7 @@
 # Rings from Sickafoose et al. (2023), PSJ 4 (11), id.221
 # "Material around the Centaur (2060) Chiron from the 2018 November 28 UT Stellar Occultation"
 # https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..221S/abstract
-"2060 Chiron:Chiron:1977 UB:95P Chiron" "Sol"
+"2060 Chiron:Chiron:1977 UB:95P Chiron:P 1977 UB" "Sol"
 {
 	Class	"asteroid"
 	# Class	"comet"
