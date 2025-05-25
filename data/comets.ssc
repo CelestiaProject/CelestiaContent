@@ -65,7 +65,7 @@
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
 	Texture	"asteroid.jpg" 
-	Radius	 2.40					# D = 4.2 km
+	Radius	 2.40					# D = 4.8 km
 
 	EllipticalOrbit 
 	{ 
@@ -119,7 +119,7 @@
 	Class		"comet" 
 	Mesh		"borrelly.cms" 
 	Texture	"asteroid.jpg" 
-	Radius	 2.40					# D = 4.2 km
+	Radius	 2.40					# D = 4.8 km
 
 	EllipticalOrbit 
 	{ 
@@ -394,7 +394,7 @@
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
 	Texture	"asteroid.jpg"
-	Radius	 4.20					# D = 9.2 km
+	Radius	 4.60					# D = 9.2 km
 
 	EllipticalOrbit 
 	{ 
@@ -488,7 +488,7 @@
 	Class		"comet"
 	Mesh		"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	 30.00				# D = 30.0 km
+	Radius	 30.00				# D = 60.0 km
 
 	EllipticalOrbit
 	{
