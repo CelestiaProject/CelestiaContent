@@ -388,7 +388,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Class	"moon"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.485 0.469 0.446 ]
+	Color	[ 0.487 0.469 0.455 ]
 	BlendTexture	true
 	Radius	221.25
 	Mass<kg>	8.7e19
@@ -436,7 +436,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 {
 	Class	"dwarfplanet"
 	Texture	"icy.*"
-	Color	[ 0.662 0.674 0.69 ]
+	Color	[ 0.635 0.635 0.636 ]
 	BlendTexture	true
 	SemiAxes	[ 1050 840 537 ]
 	Mass<kg>	4.006e21
@@ -703,7 +703,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 {
 	Class	"dwarfplanet"
 	Texture	"icy.*"
-	Color	[ 0.504 0.444 0.341 ]
+	Color	[ 0.507 0.444 0.327 ]
 	BlendTexture	true
 	Radius	615
 	Mass<kg>	1.75e21
@@ -741,7 +741,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Class	"moon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.495 0.467 0.425 ]
+	Color	[ 0.495 0.468 0.445 ]
 	BlendTexture	true
 	Radius	100
 	OrbitFrame
@@ -849,7 +849,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 {
 	Class	"dwarfplanet"
 	Texture	"icy.*"
-	Color	[ 0.793 0.724 0.607 ]
+	Color	[ 0.818 0.731 0.576 ]
 	BlendTexture	true
 	Radius	497.5
 	EllipticalOrbit

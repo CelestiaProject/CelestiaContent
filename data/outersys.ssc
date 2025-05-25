@@ -47,7 +47,7 @@
 	# Class	"comet"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.459 0.459 0.458 ]
+	Color	[ 0.329 0.329 0.327 ]
 	BlendTexture	true
 	SemiAxes	[ 126 109 68 ]
 	EllipticalOrbit
@@ -90,7 +90,7 @@
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.328 0.317 0.286 ]
+	Color	[ 0.181 0.174 0.154 ]
 	BlendTexture	true
 	SemiAxes	[ 143.8 135.2 99.1 ]
 	EllipticalOrbit
@@ -129,7 +129,7 @@
 	Class	"asteroid"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.0 0.932 0.872 ]
+	Color	[ 1.0 0.923 0.844 ]
 	BlendTexture	true
 	Radius	54
 	EllipticalOrbit
@@ -156,7 +156,7 @@
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.392 0.37 0.335 ]
+	Color	[ 0.396 0.369 0.323 ]
 	BlendTexture	true
 	Radius	300
 	EllipticalOrbit
@@ -186,7 +186,7 @@
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.712 0.674 0.621 ]
+	Color	[ 0.622 0.584 0.521 ]
 	BlendTexture	true
 	Radius	502  # long-axis from occultation
 	SemiAxes	[ 1 0.6 0.432 ]  # hydrostatic equilibrium assumed
@@ -271,7 +271,7 @@ ReferencePoint "Huya System" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.492 0.465 0.418 ]
+	Color	[ 0.301 0.273 0.23 ]
 	BlendTexture	true
 	Radius	203
 	OrbitFrame
@@ -298,7 +298,7 @@ ReferencePoint "Huya System" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.492 0.465 0.418 ]  # assume same color as primary
+	Color	[ 0.301 0.273 0.23 ]  # assume same color as primary
 	BlendTexture	true
 	Radius	106.5
 	OrbitFrame
@@ -370,7 +370,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.502 0.463 0.404 ]  # assume equal albedo
+	Color	[ 0.508 0.462 0.391 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	136.0
 	OrbitFrame
@@ -409,7 +409,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.502 0.463 0.404 ]  # assume equal albedo
+	Color	[ 0.508 0.462 0.391 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	125.5
 	OrbitFrame
@@ -448,7 +448,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Class	"asteroid"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.502 0.463 0.404 ]  # assume equal albedo
+	Color	[ 0.508 0.462 0.391 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	66.0
 	OrbitFrame
@@ -490,7 +490,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.578 0.551 0.506 ]
+	Color	[ 0.585 0.55 0.502 ]
 	BlendTexture	true
 	Radius	384
 	EllipticalOrbit
@@ -528,7 +528,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.338 0.341 0.345 ]
+	Color	[ 0.341 0.341 0.334 ]
 	BlendTexture	true
 	Radius	423
 	EllipticalOrbit
@@ -559,7 +559,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Class	"moon"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.338 0.341 0.345 ]  # assume same color as primary
+	Color	[ 0.346 0.34 0.335 ]
 	BlendTexture	true
 	Radius	142
 	OrbitFrame
@@ -620,7 +620,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.549 0.519 0.48 ]
+	Color	[ 0.552 0.518 0.464 ]
 	BlendTexture	true
 	Radius	383  # equatorial
 	Oblateness	0.066  # projected
@@ -659,7 +659,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.517 0.481 0.448 ]
+	Color	[ 0.517 0.481 0.437 ]
 	BlendTexture	true
 	Radius	178
 	OrbitFrame
@@ -705,7 +705,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.519 0.517 0.509 ]
+	Color	[ 0.522 0.516 0.493 ]
 	BlendTexture	true
 	SemiAxes	[ 470 383 245 ]  # hydrostatic equilibrium assumed
 	Density	870  # 0.87 +/- 0.01 g cm-3
@@ -749,7 +749,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.645 0.617 0.574 ]
+	Color	[ 0.654 0.616 0.58 ]
 	BlendTexture	true
 	SemiAxes	[ 339 339 305.7 ]
 	EllipticalOrbit
@@ -783,7 +783,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.0 0.857 0.644 ]  # reddish
+	Color	[ 1.0 0.87 0.747 ]
 	BlendTexture	true
 	Radius	72
 	OrbitFrame
@@ -828,7 +828,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.325 0.328 0.328 ]
+	Color	[ 0.333 0.332 0.322 ]
 	BlendTexture	true
 	SemiAxes	[ 412 412 385 ]  # projected
 	EllipticalOrbit
@@ -861,7 +861,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.0 0.92 0.818 ]
+	Color	[ 0.739 0.711 0.673 ]
 	BlendTexture	true
 	Radius	235
 	EllipticalOrbit
@@ -922,7 +922,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.697 0.672 0.636 ]
+	Color	[ 0.699 0.672 0.646 ]
 	BlendTexture	true
 	Radius	371  # thermal measurement
 	OrbitFrame
@@ -954,7 +954,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.63 0.607 0.576 ]  # assume same color as primary
+	Color	[ 0.699 0.672 0.646 ]  # assume same color as primary
 	BlendTexture	true
 	Radius	93  # assume same albedo as primary
 	EllipticalOrbit  # estimated
@@ -973,7 +973,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.0 0.988 0.956 ]
+	Color	[ 0.526 0.519 0.485 ]
 	BlendTexture	true
 	Radius	280  # minimum radius
 	EllipticalOrbit
