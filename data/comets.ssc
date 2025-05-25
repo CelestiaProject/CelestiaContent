@@ -18,7 +18,24 @@
 # this SSC file, we only select the most significant comets that
 # share the same formal name.
 #
-# Last update: 10 February 2025
+# Dimensions for P/Halley is from Lamy et al. (2004), in Comets II, 223-264
+#   "The sizes, shapes, albedos, and colors of cometary nuclei"
+#   https://books.google.ca/books?id=AHF9ZraafV8C&pg=PA223
+#   https://ui.adsabs.harvard.edu/abs/2004come.book..223L/abstract
+# 
+# Radius for P/S–W–1 is from Schambeau et al. (2015), Icarus 260, 60-72
+#   "A new analysis of Spitzer observations of Comet 29P/Schwassmann-Wachmann 1"
+#   https://ui.adsabs.harvard.edu/abs/2015Icar..260...60S/abstract
+#
+# Radius for C/Kohoutek is from Odell (1976), Astronomical Society of the Pacific, Publications, 88, 342-348.
+#   "Physical processes in comet Kohoutek."
+#   https://ui.adsabs.harvard.edu/abs/1976PASP...88..342O/abstract
+# 
+# Surface-equivalent diameter for C/B–B from Lellouch et al. (2022), A&A 659, id.L1
+#   "Size and albedo of the largest detected Oort-cloud object: Comet C/2014 UN271 (Bernardinelli-Bernstein)"
+#   https://www.aanda.org/articles/aa/full_html/2022/03/aa43090-22/aa43090-22.html
+# 
+# Last update: 25 May 2025
 
 
 # Periodic Comets
@@ -29,6 +46,8 @@
 	Texture	"asteroid.jpg" 
 	Radius	 7.21					# D = 14.42 x 7.4 km
 	MeshCenter [ -0.338 1.303 0.230 ]
+	Color	[ 0.188 0.186 0.176 ]
+	BlendTexture	true
 
 	# Orbital parameters during its most recent perihelion is
 	# used (March 1986)
@@ -65,7 +84,9 @@
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
 	Texture	"asteroid.jpg" 
-	Radius	 2.40					# D = 4.2 km
+	Radius	 2.40					# D = 4.8 km
+	Color	[ 0.153 0.15 0.138 ]
+	BlendTexture	true
 
 	EllipticalOrbit 
 	{ 
@@ -93,6 +114,8 @@
 	Mesh		"asteroid.cms" 
 	Texture	"asteroid.jpg" 
 	Radius	 1.71					# D = 3.42 km
+	Color	[ 1.0 0.961 0.923 ]
+	BlendTexture	true
 
 	EllipticalOrbit 
 	{ 
@@ -119,7 +142,9 @@
 	Class		"comet" 
 	Mesh		"borrelly.cms" 
 	Texture	"asteroid.jpg" 
-	Radius	 2.40					# D = 4.2 km
+	Radius	 2.40					# D = 4.8 km
+	Color	[ 0.226 0.226 0.226 ]
+	BlendTexture	true
 
 	EllipticalOrbit 
 	{ 
@@ -149,6 +174,8 @@
 	Mesh		"asteroid.cms" 
 	Texture	"asteroid.jpg" 
 	Radius	 1.00					# D = 2.0 km
+	Color	[ 1.0 0.964 0.903 ]
+	BlendTexture	true
 
 	EllipticalOrbit 
 	{ 
@@ -190,7 +217,7 @@
 	} 
 
 	# Actual rotation period is currently unknown
-	# (As of February 2025)
+	# (As of May 2025)
 
 	RotationPeriod	 6.00
 	GeomAlbedo		 0.04
@@ -257,10 +284,12 @@
 	Mesh		"asteroid.cms"
 	Texture	"asteroid.jpg"
 	Radius	 1.80					# D = 3.6 km
+	Color	[ 0.23 0.219 0.206 ]
+	BlendTexture	true
 
 	EllipticalOrbit
 	{
-		Epoch			2451040.500000	# 1998-Aug-15, 00:00
+		Epoch		2451040.500000	# 1998-Aug-15, 00:00
 		Period		     33.24178275837982
 		SemiMajorAxis	     10.3383382297577
 		Eccentricity	      0.905552720972412 
@@ -284,10 +313,12 @@
 	Mesh		"asteroid.cms" 
 	Texture	"asteroid.jpg"
 	Radius	 3.20					# D = 6.4 km
+	Color	[ 0.952 0.978 1.0 ]
+	BlendTexture	true
 
 	EllipticalOrbit 
 	{ 
-		Epoch			2457952.500000	# 2017-Jul-18, 00:00
+		Epoch		2457952.500000	# 2017-Jul-18, 00:00
 		Period		      5.287538902681542
 		SemiMajorAxis	      3.03503415132119
 		Eccentricity	      0.9591604569014903 
@@ -351,8 +382,8 @@
 		MeanAnomaly	     16.52184361854798
 	} 
 
-	# Rotation period is currently unknown
-	# February 2025
+	# Actual rotation period is currently unknown
+	# (As of May 2025)
 
 	RotationPeriod	 6.000
 	GeomAlbedo		 0.053
@@ -371,7 +402,7 @@
 
 	EllipticalOrbit 
 	{ 
-		Epoch			2452402.500000	# 2002-May-08, 00:00
+		Epoch		2452402.500000	# 2002-May-08, 00:00
 		Period		    365.4986961715122
 		SemiMajorAxis	     51.1193221677278
 		Eccentricity	      0.9900806570176691 
@@ -394,7 +425,7 @@
 	Class		"comet" 
 	Mesh		"asteroid.cms" 
 	Texture	"asteroid.jpg"
-	Radius	 4.20					# D = 9.2 km
+	Radius	 4.60					# D = 9.2 km
 
 	EllipticalOrbit 
 	{ 
@@ -444,11 +475,11 @@
 	}
 
 	# Actual rotation period is unknown
-	# February 2025
+	# (As of May 2025)
 	
 	RotationPeriod	 6.00
 	GeomAlbedo		 0.04
-	InfoURL	"https://en.wikipedia.org/wiki/Comet_Donati"
+	InfoURL	"https://en.wikipedia.org/wiki/Comet_Arend-Roland"
 } 
 
 "C 1973 E1 (Kohoutek):Kohoutek:1973 XII:1973f" "Sol" 
@@ -488,7 +519,9 @@
 	Class		"comet"
 	Mesh		"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	 30.00				# D = 30.0 km
+	Radius	 30.00				# D = 60.0 km
+	Color	[ 0.48 0.473 0.437 ]
+	BlendTexture	true
 
 	EllipticalOrbit
 	{
@@ -604,7 +637,9 @@
 	Class		"comet"
 	Mesh		"roughsphere.cms"
 	Texture	"asteroid.jpg"
-	Radius	 68.50				# D = 137 km
+	Radius	 68.50				# D = 137 ± 17 km
+	Color	[ 0.367 0.369 0.373 ]
+	BlendTexture	true
 
 	EllipticalOrbit
 	{
@@ -679,7 +714,7 @@
 	}
 
 	# Actual rotation period is currently unknown
-	# February 2025
+	# (As of May 2025)
 
 	RotationPeriod	 6.00
 	GeomAlbedo		 0.04
