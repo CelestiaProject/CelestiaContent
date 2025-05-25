@@ -73,9 +73,9 @@
 
 
 # Mass from Mazarico et al. (2014), JGR 119 12, 2417-2436
-# "The gravity field, orientation, and ephemeris of Mercury
-# from MESSENGER observations after three years in orbit"
-# https://ui.adsabs.harvard.edu/abs/2014JGRE..119.2417M/abstract
+#   "The gravity field, orientation, and ephemeris of Mercury
+#   from MESSENGER observations after three years in orbit"
+#   https://ui.adsabs.harvard.edu/abs/2014JGRE..119.2417M/abstract
 "Mercury" "Sol"
 {
 	Class	"planet"
@@ -118,8 +118,8 @@
 }
 
 # Mass from Konopliv et al. (1999), Icarus 139 (1), 3-18
-# "Venus Gravity: 180th Degree and Order Model"
-# https://ui.adsabs.harvard.edu/abs/1999Icar..139....3K/abstract
+#   "Venus Gravity: 180th Degree and Order Model"
+#   https://ui.adsabs.harvard.edu/abs/1999Icar..139....3K/abstract
 "Venus" "Sol"
 {
 	Class	"planet"
@@ -170,10 +170,13 @@
 	LunarLambert	0.5
 	GeomAlbedo	0.672604
 	BondAlbedo	0.760
-	TempDiscrepancy	507.5
+	Emissivity	0.00933  # Mean surface temperature: 737 K
 	InfoURL	"https://en.wikipedia.org/wiki/Venus"
 }
 
+# Internal heat flux from Davies et al. (2013), GGG 14 (10), 4608-4622
+#   "Global map of solid Earth surface heat flow"
+#   https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/ggge.20271
 "Earth" "Sol"
 {
 	Class	"planet"
@@ -231,13 +234,18 @@
 	LunarLambert	0.5
 	GeomAlbedo	0.449576
 	BondAlbedo	0.306
-	TempDiscrepancy	33.5
+	Emissivity	0.605  # Mean surface temperature: 288 K
+	InternalHeatFlux	0.086
 	InfoURL	"https://en.wikipedia.org/wiki/Earth"
 }
 
 # Mass from Park et al. (2021), AJ 161 (3), id.105
-# "The JPL Planetary and Lunar Ephemerides DE440 and DE441"
-# https://ui.adsabs.harvard.edu/abs/2021AJ....161..105P/abstract
+#   "The JPL Planetary and Lunar Ephemerides DE440 and DE441"
+#   https://ui.adsabs.harvard.edu/abs/2021AJ....161..105P/abstract
+# Internal heat flux from Zhang et al. (2014), Acta Astronautica 99, 85-91
+#   "Lunar surface heat flow mapping from radioactive elements measured by Lunar Prospector"
+#   https://www.sciencedirect.com/science/article/pii/S0094576514000332?via%3Dihub
+#   https://ui.adsabs.harvard.edu/abs/2014AcAau..99...85Z/abstract
 "Moon:Earth I" "Sol/Earth"
 {
 	Class	"moon"
@@ -284,12 +292,20 @@
 	LunarLambert	1
 	GeomAlbedo	0.136
 	BondAlbedo	0.11
+	InternalHeatFlux	0.0183
 	InfoURL	"https://en.wikipedia.org/wiki/Moon"
 }
 
 # Mass from Klokočník et al. (2023), Icarus 406, 115729
-# "Gravity aspects for Mars"
-# https://ui.adsabs.harvard.edu/abs/2023Icar..40615729K/abstract
+#   "Gravity aspects for Mars"
+#   https://ui.adsabs.harvard.edu/abs/2023Icar..40615729K/abstract
+# Bond albedo from Creecy et al. (2022), PNAS 119 (21), id.e2121084119
+#   "Mars’ emitted energy and seasonal energy imbalance"
+#   https://www.pnas.org/doi/10.1073/pnas.2121084119
+#   Derived from absorbed energy and emitted energy, so likely already includes greenhouse effect.
+# Internal heat flux from Huang et al. (2022), PNAS 119 (42), id.e2204474119
+#   "Seismic detection of a deep mantle discontinuity within Mars by InSight"
+#   https://www.pnas.org/doi/10.1073/pnas.2204474119
 "Mars" "Sol"
 {
 	Class	"planet"
@@ -338,17 +354,17 @@
 
 	LunarLambert	0.5
 	GeomAlbedo	0.174821
-	BondAlbedo	0.290
-	TempDiscrepancy	2
+	BondAlbedo	0.241
+	InternalHeatFlux	0.0225
 	InfoURL	"https://en.wikipedia.org/wiki/Mars"
 }
 
 # Masses and densities of Phobos and Deimos from Ernst et al. (2023), Earth Planets Space 75, 103
-# "High-resolution shape models of Phobos and Deimos from stereophotoclinometry"
-# https://ui.adsabs.harvard.edu/abs/2023EP%26S...75..103E/abstract
+#   "High-resolution shape models of Phobos and Deimos from stereophotoclinometry"
+#   https://ui.adsabs.harvard.edu/abs/2023EP%26S...75..103E/abstract
 # Albedos of Phobos from Fornasier et al. (2024), A&A 686, A203
-# "Phobos photometric properties from Mars Express HRSC observations"
-# https://ui.adsabs.harvard.edu/abs/2024A%26A...686A.203F/abstract
+#   "Phobos photometric properties from Mars Express HRSC observations"
+#   https://ui.adsabs.harvard.edu/abs/2024A%26A...686A.203F/abstract
 "Phobos:Mars I" "Sol/Mars"
 {
 	Class	"moon"
@@ -389,8 +405,8 @@
 }
 
 # Albedos from Thomas et al. (1996), Icarus 123, p. 536-556
-# "The Surface of Deimos: Contribution of Materials and Processes to Its Unique Appearance"
-# https://ui.adsabs.harvard.edu/abs/1996Icar..123..536T/abstract
+#   "The Surface of Deimos: Contribution of Materials and Processes to Its Unique Appearance"
+#   https://ui.adsabs.harvard.edu/abs/1996Icar..123..536T/abstract
 "Deimos:Mars II" "Sol/Mars"
 {
 	Class	"moon"
@@ -433,6 +449,10 @@
 # Masses of Jupiter and major moons from Jacobson (2021) (personal comm.)
 # Jupiter's standard gravitational parameter available at https://ssd.jpl.nasa.gov/tools/gravity.html#/outerplanets
 # Moons' standard gravitational parameters available at https://ssd.jpl.nasa.gov/sats/phys_par/
+# Bond albedo and internal heat flux from Li et al. (2018), Nature Communications 9, id. 3709
+#   "Less absorbed solar energy and more internal heat for Jupiter"
+#   https://www.nature.com/articles/s41467-018-06107-2
+#   https://ui.adsabs.harvard.edu/abs/2018NatCo...9.3709L/abstract
 "Jupiter" "Sol"
 {
 	Class	"planet"
@@ -475,7 +495,7 @@
 	}
 	GeomAlbedo	0.510901
 	BondAlbedo	0.503
-	TempDiscrepancy	62.5  # for 1 bar level
+	InternalHeatFlux	7.485
 	Rings
 	{
 		Inner	122500
@@ -490,6 +510,9 @@ AltSurface "2018 (Hubble)" "Sol/Jupiter"
 	Texture	"jupiter-2018.*"
 }
 
+# Internal heat flux from Davies et al. (2015), Icarus 262, 67-78
+#   "Map of Io’s volcanic heat flow"
+#   https://ui.adsabs.harvard.edu/abs/2015Icar..262...67D/abstract
 "Io:Jupiter I" "Sol/Jupiter"
 {
 	Class	"moon"
@@ -536,7 +559,7 @@ AltSurface "2018 (Hubble)" "Sol/Jupiter"
 	LunarLambert	0.5
 	GeomAlbedo	0.63
 	BondAlbedo	0.56
-	TempDiscrepancy	11
+	InternalHeatFlux	2.529
 	InfoURL	"https://en.wikipedia.org/wiki/Io_(moon)"
 }
 
@@ -698,12 +721,12 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 }
 
 # Masses and densities from Jacobson (2022), AJ 164, 199
-# "The Orbits of the Main Saturnian Satellites,
-# the Saturnian System Gravity Field, and the Orientation of Saturn's Pole"
-# https://ui.adsabs.harvard.edu/abs/2022AJ....164..199J/abstract
-# Bond albedo from Wang et al. (2024), NatCo 15 (1), id.5045
-# "Cassini spacecraft reveals global energy imbalance of Saturn"
-# https://ui.adsabs.harvard.edu/abs/2024NatCo..15.5045W/abstract
+#   "The Orbits of the Main Saturnian Satellites,
+#   the Saturnian System Gravity Field, and the Orientation of Saturn's Pole"
+#   https://ui.adsabs.harvard.edu/abs/2022AJ....164..199J/abstract
+# Bond albedo and internal heat flux from Wang et al. (2024), NatCo 15 (1), id.5045
+#   "Cassini spacecraft reveals global energy imbalance of Saturn"
+#   https://ui.adsabs.harvard.edu/abs/2024NatCo..15.5045W/abstract
 "Saturn" "Sol"
 {
 	Class	"planet"
@@ -745,7 +768,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	}
 	GeomAlbedo	0.499740
 	BondAlbedo	0.41
-	TempDiscrepancy	52.5  # for 1 bar level
+	InternalHeatFlux	2.84
 	Rings
 	{
 		Inner	74510
@@ -843,7 +866,6 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	LunarLambert	0.5
 	GeomAlbedo	1.375
 	BondAlbedo	0.81
-	TempDiscrepancy	15.35
 	InfoURL	"https://en.wikipedia.org/wiki/Enceladus"
 }
 
@@ -983,8 +1005,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 }
 
 # CloudSpeed derived from Read and Lebonnois (2018), AREPS 46, 175
-# "Superrotation on Venus, on Titan, and Elsewhere"
-# https://ui.adsabs.harvard.edu/abs/2018AREPS..46..175R/abstract
+#   "Superrotation on Venus, on Titan, and Elsewhere"
+#   https://ui.adsabs.harvard.edu/abs/2018AREPS..46..175R/abstract
 "Titan:Saturn VI" "Sol/Saturn"
 {
 	Class	"moon"
@@ -1037,8 +1059,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 
 	LunarLambert 0.5
 	GeomAlbedo	0.21
-	BondAlbedo	0.27
-	TempDiscrepancy	11
+	BondAlbedo	0.265
+	Emissivity	0.583  # Greenhouse effect: 21 - 9 = 12 K
 	InfoURL	"https://en.wikipedia.org/wiki/Titan_(moon)"
 }
 
@@ -1179,10 +1201,15 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 }
 
 # Masses from Jacobson (2023)
-# "Update of the Orbits of the Regular Uranian Satellites and the Gravitational Field of the Uranian System"
-# https://ui.adsabs.harvard.edu/abs/2023DPS....5522102J/abstract
-# via French et al. (2024), arXiv:2401.04634
-# https://arxiv.org/abs/2401.04634
+#   "Update of the Orbits of the Regular Uranian Satellites and the Gravitational Field of the Uranian System"
+#   https://ui.adsabs.harvard.edu/abs/2023DPS....5522102J/abstract
+# via French et al. (2024), Icarus 411, id. 115957
+#   "The Uranus system from occultation observations (1977-2006): Rings, pole direction, gravity field, and masses of Cressida, Cordelia, and Ophelia"
+#   https://www.sciencedirect.com/science/article/pii/S0019103524000150?via%3Dihub
+#   https://ui.adsabs.harvard.edu/abs/2024Icar..41115957F/abstract
+# Bond albedo and internal heat flux from Irwin et al. (2025), arXiv:2502.18971
+#   "The bolometric Bond albedo and energy balance of Uranus"
+#   https://arxiv.org/abs/2502.18971
 "Uranus" "Sol"
 {
 	Class	"planet"
@@ -1223,8 +1250,8 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 		MeridianAngle	331.13
 	}
 	GeomAlbedo	0.437118
-	BondAlbedo	0.300
-	TempDiscrepancy	17.8  # for 1 bar level
+	BondAlbedo	0.349
+	InternalHeatFlux	0.089
 	Rings
 	{
 		Inner	37812
@@ -1235,9 +1262,9 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 }
 
 # Masses of major moons from Jacobson (2014), AJ 148, 76
-# "The Orbits of the Uranian Satellites and Rings, the Gravity Field
-# of the Uranian System, and the Orientation of the Pole of Uranus"
-# https://ui.adsabs.harvard.edu/abs/2014AJ....148...76J/abstract
+#   "The Orbits of the Uranian Satellites and Rings, the Gravity Field
+#   of the Uranian System, and the Orientation of the Pole of Uranus"
+#   https://ui.adsabs.harvard.edu/abs/2014AJ....148...76J/abstract
 "Miranda:Uranus V" "Sol/Uranus"
 {
 	Class	"moon"
@@ -1493,8 +1520,8 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 }
 
 # Masses from Brozović and Jacobson (2022), AJ 163, 241
-# "Orbits of the Irregular Satellites of Uranus and Neptune"
-# https://ui.adsabs.harvard.edu/abs/2022AJ....163..241B/abstract
+#   "Orbits of the Irregular Satellites of Uranus and Neptune"
+#   https://ui.adsabs.harvard.edu/abs/2022AJ....163..241B/abstract
 "Neptune" "Sol"
 {
 	Class	"planet"
@@ -1537,7 +1564,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	}
 	GeomAlbedo	0.409338
 	BondAlbedo	0.290
-	TempDiscrepancy	25.1  # for 1 bar level
+	InternalHeatFlux	0.433
 	Rings
 	{
 		Inner	40900
