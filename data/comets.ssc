@@ -189,10 +189,10 @@
 		MeanAnomaly	    314.6585273385641
 	}
 
-	# Actual rotation period is currently unknown
-	# (As of February 2025)
+	# Rotation period from Knight (2023)
+	# https://arxiv.org/abs/2304.09309
 
-	RotationPeriod	 6.00
+	RotationPeriod	 7.39
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/21P/Giacobini-Zinner"
 }
@@ -537,8 +537,10 @@
 		MeanAnomaly	      3.878386339423241
 	}
 
-	# Estimate of rotation period from here: http://www.usafa.af.mil/dfp/research/astro/papers/icqpaper.htm
-	RotationPeriod	11.47
+	# Rotation period from Knight (2023)
+	# https://arxiv.org/abs/2304.09309
+
+	RotationPeriod	11.35
 	GeomAlbedo		 0.07
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Hale-Bopp"
 }
@@ -626,8 +628,8 @@
 		MeanAnomaly	      0.001648915313056205
 	}
 
-	# Rotation period is from Jet Propulsion Laboratory (2014)
-	# https://www.jpl.nasa.gov/news/news.php?feature=4366
+	# Rotation period from Knight (2023)
+	# https://arxiv.org/abs/2304.09309
 	
 	RotationPeriod	 8.00
 	GeomAlbedo		 0.04
