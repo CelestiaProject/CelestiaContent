@@ -35,7 +35,11 @@
 #   "Size and albedo of the largest detected Oort-cloud object: Comet C/2014 UN271 (Bernardinelli-Bernstein)"
 #   https://www.aanda.org/articles/aa/full_html/2022/03/aa43090-22/aa43090-22.html
 # 
-# Last update: 25 May 2025
+# Radius for C/2023 A3 (Tsuchinshan–ATLAS) is from Liu et al. (2025), A&A 698, id.L95
+#   "Great comet C/2023 A3 (Tsuchinshan–ATLAS): Dust loss before perihelion"
+#   https://www.aanda.org/articles/aa/full_html/2025/06/aa54632-25/aa54632-25.html
+# 
+# Last update: 7 June 2025
 
 
 # Periodic Comets
@@ -697,7 +701,7 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	1.6					# D = 3.2 km, dubious
+	Radius	5.9					# D = 11.8 +/- 0.4 km, upper limit
 
 	# Comet is currently on a hyperbolic ejection trajectory
 	# since 1900. Inbound barycentric orbit is used (2024)
@@ -717,10 +721,10 @@
 		MeanAnomaly	    359.99998857859469
 	}
 
-	# Actual rotation period is currently unknown
-	# (As of May 2025)
+	# Rotation period from Moreno (2025)
+	# https://arxiv.org/abs/2504.01845
 
-	RotationPeriod	 6.00
+	RotationPeriod	 12.00
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/C/2023_A3_(Tsuchinshan-ATLAS)"
 }
