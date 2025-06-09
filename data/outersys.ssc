@@ -824,7 +824,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 # Color calculated with phase integral from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
 # "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
 # https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
-"(307261) 2002 MS4:2002 MS4" "Sol"
+"307261 Máni:Máni:2002 MS4" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
@@ -851,7 +851,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.1
-	InfoURL	"https://en.wikipedia.org/wiki/(307261)_2002_MS4"
+	InfoURL	"https://en.wikipedia.org/wiki/307261_Máni"
 }
 
 # Color derived from observations made by La Silla and PAN-STARRS 1 on 2010-04-06
