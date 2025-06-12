@@ -39,7 +39,7 @@
 #   "Great comet C/2023 A3 (Tsuchinshan–ATLAS): Dust loss before perihelion"
 #   https://www.aanda.org/articles/aa/full_html/2025/06/aa54632-25/aa54632-25.html
 # 
-# Last update: 7 June 2025
+# Last update: 12 June 2025
 
 
 # Periodic Comets
@@ -600,10 +600,10 @@
 		MeanAnomaly	    359.9999174144606
 	}
 
-	# Actual rotation period is unknown
-	# February 2025
+	# Rotation period from Kharchuk (2010)
+	# https://doi.org/10.3103/S0884591310060048
 	
-	RotationPeriod	 6.00
+	RotationPeriod	 21.00
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_McNaught"
 }
