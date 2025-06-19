@@ -44,6 +44,7 @@ set(DATA_SOURCES
   saturnmoons_locs.ssc
   uranusmoons_locs.ssc
   venus_locs.ssc
+  whitedwarfs.stc
   world-capitals.ssc
 )
 
