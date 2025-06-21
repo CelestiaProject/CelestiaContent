@@ -135,7 +135,7 @@
 		Mie	0.02
 		MieAsymmetry	-0.2
 		Rayleigh	[ 0.0031 0.0058 0.0120 ]
-		#Absorption	[ 0.0044 0.0040 0.0004 ]
+		# Absorption	[ 0.0044 0.0040 0.0004 ]  # 0.106 0.098 0.043
 		CloudHeight	48.5
 		CloudSpeed	90  # 90 degrees/day motion = 4 days super-rotation
 		CloudMap	"venus-clouds.*"
@@ -194,7 +194,7 @@
 		Height	100
 		Mie	0.0002
 		MieAsymmetry	-0.7
-		MieScaleHeight	8.5
+		MieScaleHeight	8.5  # Rayleigh scale height
 		Rayleigh	[ 0.0054 0.0081 0.0167 ]
 		Absorption	[ 0.0027 0.0017 0.0002 ]
 		CloudHeight	7
@@ -461,15 +461,15 @@
 	Radius	71492
 	Oblateness	0.06487
 	Mass<kg>	1.898124626e27
-	Atmosphere
+	Atmosphere  # upper clouds at 0.6 bar
 	{
 		Height	1000
 		Mie	0.0001
 		MieScaleHeight	28
 		MieAsymmetry	-0.15
-		Rayleigh	[ 0.00095 0.00145 0.00298 ]
-		Absorption	[ 0.00033 0.00010 0.00001 ]
-	}
+		Rayleigh	[ 0.00095 0.00145 0.00298 ]  # from optical thickness 0.17 at 500 nm
+		Absorption	[ 0.00033 0.00010 0.00001 ]  # total absorption 0.0301 0.0094 0.00002
+	}  # assuming 2 atmospheres of light travel
 	CustomOrbit	"vsop87-jupiter"
 
 	# Overridden by CustomOrbit
@@ -520,12 +520,6 @@ AltSurface "2018 (Hubble)" "Sol/Jupiter"
 	Color	[ 1.0 0.94191 0.70074 ]
 	SemiAxes	[ 1829.4 1819.4 1815.7 ]
 	Mass<kg>	8.92964876e22
-	Atmosphere
-	{
-		Height	500
-		Mie	0.000005
-		MieScaleHeight	50
-	}
 	CustomOrbit	"io"
 
 	# Overridden by CustomOrbit
@@ -735,13 +729,13 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Radius	60268
 	Oblateness	0.09796
 	Mass<kg>	5.683173701e26
-	Atmosphere
+	Atmosphere  # upper clouds at 0.4 bar
 	{
 		Height	1000
 		Mie	0.0001
 		MieScaleHeight	59.5
 		Rayleigh	[ 0.00068 0.00103 0.00213 ]
-		Absorption	[ 0.00016 0.00005 0.00001 ]
+		Absorption	[ 0.00016 0.00005 0.00001 ]  # total absorption: 0.0306 0.0102 0.0015
 	}
 	CustomOrbit	"vsop87-saturn"
 
@@ -1017,12 +1011,17 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	SemiAxes	[ 2575.15 2574.78 2574.47 ]
 	Mass<kg>	1.345180354e23
 	Density	1881.4
+
+	# Scale height is greater than in reality
+	# though the value might apply to ground level and not cloud tops
+	# reproduces Cassini views at low phase angles
+	# the visible scale height at high phase angles seems larger
 	Atmosphere
 	{
-		Height	950
-		Rayleigh	[ 0.00125 0.00176 0.00274 ]
+		Height	1000
+		Rayleigh	[ 0.00052 0.00096 0.00200 ]
 		MieScaleHeight	130
-		Absorption	[ 0.0001 0.0005 0.001 ]
+		Absorption	[ 0.00031 0.00139 0.00302 ]
 		CloudHeight	200
 		CloudSpeed	180  # degrees/day, 100 m/s wind speed
 		CloudMap	"titan-clouds.*"
