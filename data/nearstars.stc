@@ -1,3 +1,13 @@
+# SPDX-FileCopyrightText: 2004-2013 Grant Hutchison
+# SPDX-FileCopyrightText: 2006 Chris Laurel
+# SPDX-FileCopyrightText: 2010,2023 Andrew Tribick
+# SPDX-FileCopyrightText: 2019-2020 Luka Sato
+# SPDX-FileCopyrightText: 2020-2024 SevenSpheres
+# SPDX-FileCopyrightText: 2022-2024 Pedro J. Garcia
+# SPDX-FileCopyrightText: 2023-2025 AstroChara
+# SPDX-FileCopyrightText: 2023 Levin Li
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 # Nearby stars and star orbits out to 10 parsecs, supplementary
 # to Celestia's stars.dat.
 
@@ -35,7 +45,7 @@
 # the Earth.
 # For a few orbits the nature of the node is known - these are
 # marked with the phrase "fully specified orientation".
-# Barycenter positions are based on mass estimates from the papers themselves. The 
+# Barycenter positions are based on mass estimates from the papers themselves. The
 # values used are listed below.
 
 
@@ -267,7 +277,7 @@ Barycenter "Solar System Barycenter:SSB"
 	AbsMag	4.81
 	BoloCorrection	-0.08
 	Temperature	5772
-	
+
 	UniformRotation
 	{
 	    Period<d>	25.38
@@ -474,7 +484,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 	SpectralType "Y4"
 	AbsMag 40 # extremely low
 	Temperature	285
-	
+
 	InfoURL "https://en.wikipedia.org/wiki/WISE_0855%E2%88%920714"
 }
 
@@ -490,7 +500,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 	SpectralType	"M6V"
 	AppMag	13.507
 	Temperature	2657
-	
+
 	UniformRotation
 	{
 	    Period<d>	2.704
@@ -515,7 +525,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 	SpectralType	"M2V"
 	AppMag	7.520
 	Temperature	3532
-	
+
 	UniformRotation
 	{
 	    Period<d>	56.15
@@ -524,7 +534,7 @@ Barycenter "Luhman 16:WISE 1049-5319:WISE J104915.57-531906.1:GJ 11551"
 }
 
 # Parameters from Bond et al. (2017), ApJ 840 (2), 70
-#   "The Sirius System and Its Astrophysical Puzzles: Hubble Space Telescope and 
+#   "The Sirius System and Its Astrophysical Puzzles: Hubble Space Telescope and
 #    Ground-based Astrometry"
 #   https://iopscience.iop.org/article/10.3847/1538-4357/aa6af8
 #   https://ui.adsabs.harvard.edu/abs/2017ApJ...840...70B/abstract
@@ -591,7 +601,7 @@ Barycenter 32349 "Sirius:Dog Star:ALF CMa:9 CMa:Gliese 244:ADS 5423"
 #   https://iopscience.iop.org/article/10.3847/1538-4357/aac2c0
 #   https://ui.adsabs.harvard.edu/abs/2018ApJ...860...15M/abstract
 # Rotation periods and inclinations from Barnes et al. (2017), MNRAS 471 (1), 811
-#   "Surprisingly different star-spot distributions on the near equal-mass 
+#   "Surprisingly different star-spot distributions on the near equal-mass
 #    equal-rotation-rate stars in the M dwarf binary GJ 65 AB"
 #   https://academic.oup.com/mnras/article/471/1/811/3871365
 #   https://ui.adsabs.harvard.edu/abs/2017MNRAS.471..811B/abstract
@@ -671,7 +681,7 @@ Barycenter "Gliese 65:Luyten 726-8"
 	SpectralType "M3.5Ve"
 	AppMag 10.495
 	Temperature	3162
-	
+
 	UniformRotation
 	{
 	    Period<d>	2.848
@@ -1074,7 +1084,7 @@ Barycenter "EPS Ind:Gliese 845" # orbit of A & B components unknown
 	SpectralType	"K5V"
 	AppMag	4.69
 	Temperature	4649
-	
+
 	UniformRotation
 	{
 	    Period<d>	35.732
@@ -1605,7 +1615,7 @@ Barycenter "GJ 1245 A"
 {
 	RA	161.08527551
 	Dec	-61.20263830
-	Distance	15.7586 # 206.9698 +/- 0.0448 mas 
+	Distance	15.7586 # 206.9698 +/- 0.0448 mas
 	SpectralType "M5.0V"
 	AppMag 13.920
 	InfoURL "https://en.wikipedia.org/wiki/LHS_288"
@@ -1761,7 +1771,7 @@ Barycenter "Keid BC:OMI2 Eri BC:40 Eri BC:Gliese 166 BC"
 	Temperature	17200
 
 	OrbitBarycenter "Keid BC"
-	EllipticalOrbit {	
+	EllipticalOrbit {
 		Period         222.74
 		SemiMajorAxis    9.17 # mass ratio 0.573:0.2036
 		Eccentricity    0.451
@@ -2045,7 +2055,7 @@ Barycenter "GJ 1116"
 }
 
 # Parameters from Sahu et al. (2017), Science 356 (6342), 1046
-#   "Relativistic deflection of background starlight measures the mass of 
+#   "Relativistic deflection of background starlight measures the mass of
 #    a nearby white dwarf star"
 #   https://arxiv.org/abs/1706.02037
 #   https://ui.adsabs.harvard.edu/abs/2017Sci...356.1046S/abstract
@@ -2084,7 +2094,7 @@ Barycenter 21088 "Gliese 169.1:Stein 2051"
 #   "The Hawaii Infrared Parallax Program. I. Ultracool Binaries and the L/T Transition"
 #   http://iopscience.iop.org/article/10.1088/0067-0049/201/2/19/meta
 # Radius and temperature from Line et al. (2017), ApJ 848 (2), 83
-#   "Uniform Atmospheric Retrieval Analysis of Ultracool Dwarfs. II. Properties 
+#   "Uniform Atmospheric Retrieval Analysis of Ultracool Dwarfs. II. Properties
 #    of 11 T dwarfs"
 #   http://iopscience.iop.org/0004-637X/848/2/83/
 "2MASS 1114-2618:2MASS J11145133-2618235:GJ 11600"
@@ -2291,7 +2301,7 @@ Barycenter "Gliese 229 B:Luyten 668-21 B:LPM 230 B"
 	RA	293.09759805
 	Dec	69.65345106
 	Distance	18.7993 # 173.4939 +/- 0.0748 mas
-	
+
 	Radius<rS>	0.772
 	SpectralType	"K0V"
 	AppMag	4.680
@@ -2743,7 +2753,7 @@ Barycenter 99461 "Gliese 783:CD-36 13940:J Herschel 5173:HJ 5173" # orbit of A &
 	RA	302.8033 # matched to the same epoch as primary's coordinates
 	Dec	-36.1095 # using the latter's proper motions
 	Distance	19.6093
-	
+
 	Radius 180000 # approx. for class
 	SpectralType "M3.5V"
 	AppMag 11.50
@@ -2763,7 +2773,7 @@ Barycenter 99461 "Gliese 783:CD-36 13940:J Herschel 5173:HJ 5173" # orbit of A &
 	SpectralType	"G6V"
 	AppMag	4.27
 	Temperature	5368
-	
+
 	UniformRotation
 	{
 	    Period<d>	38.8
@@ -2976,7 +2986,7 @@ Barycenter 116132 "EQ Peg:Gliese 896:BD+19 5116"
 }
 
 # Parameters from Gonzalez-Alvarez et al. (2020), A&A 637, A93
-#   "The CARMENES search for exoplanets around M dwarfs. A super-Earth planet orbiting 
+#   "The CARMENES search for exoplanets around M dwarfs. A super-Earth planet orbiting
 #    HD 79211 (GJ 338 B)"
 #   https://arxiv.org/abs/2003.13052
 Barycenter "Gliese 338:Struve 1321:ADS 7251"
@@ -4046,7 +4056,7 @@ Barycenter 84709 "Gliese 667 AB:CD-34 11626 AB"
 	SpectralType	"G0V"
 	AppMag	2.79
 	Temperature	5872
-	
+
 	UniformRotation
 	{
 	    Period<d>	23.0
@@ -4097,7 +4107,7 @@ Barycenter 5336 "MU Cas:30 Cas:Gliese 53"
 		ArgOfPericenter 124.96
 		MeanAnomaly      46.34
 	}
-	
+
 	UniformRotation
 	{
 	    Period<d>	29.8
@@ -4334,7 +4344,7 @@ Modify 113368 # Fomalhaut / Alf PsA
 	Radius<rS>	1.8             # Equatorial radius: 1.8 ± 0.2
 	SemiAxes	[ 1 0.98 1 ]    # Equatorial-to-polar radii ratio: 1.02 ± 0.11
 	Temperature	8760
-	
+
 	UniformRotation
 	{
 		Period          0.98    # Rotation velocity = 93 ± 7 km/s
