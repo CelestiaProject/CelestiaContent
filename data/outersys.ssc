@@ -486,7 +486,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 # ""TNOs are Cool": A survey of the trans-Neptunian region. X.
 # Analysis of classical Kuiper belt objects from Herschel and Spitzer observations"
 # https://ui.adsabs.harvard.edu/abs/2014A%26A...564A..35V/abstract
-"(55565) 2002 AW197:2002 AW197" "Sol"
+"55565 Aya:Aya:2002 AW197" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
@@ -510,7 +510,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.112
-	InfoURL	"https://en.wikipedia.org/wiki/(55565)_2002_AW197"
+	InfoURL	"https://en.wikipedia.org/wiki/55565_Aya"
 }
 
 # Sizes from Grundy et al. (2019), Icarus 334, 62-78
@@ -701,7 +701,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 # ""TNOs are Cool": A survey of the trans-Neptunian region. XII.
 # Thermal light curves of Haumea, 2003 VS2 and 2003 AZ84 with Herschel/PACS"
 # https://ui.adsabs.harvard.edu/abs/2017A&A...604A..95S
-"(208996) 2003 AZ84:2003 AZ84" "Sol"
+"208996 Achlys:Achlys:2003 AZ84" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
@@ -735,7 +735,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.097
-	InfoURL	"https://en.wikipedia.org/wiki/(208996)_2003_AZ84"
+	InfoURL	"https://en.wikipedia.org/wiki/208996_Achlys"
 }
 
 # Size from Ortiz et al. (2019), eprint arXiv:1905.04335
