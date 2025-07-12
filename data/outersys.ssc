@@ -9,6 +9,10 @@
 # These are then scaled for albedo = 0.5 textures by dividing 0.735357 with them.
 # https://docs.google.com/spreadsheets/d/1POAssGnBsFBGyoevCkom8sHODIgdsn_s/edit
 
+# Orbits of primary bodies and barycenters around either the Sun or the
+# Solar System Barycenter (SSB) were queried from the Horizons system:
+# https://ssd.jpl.nasa.gov/horizons/
+
 # Orbits for satellites have been taken from Emelyanov & Drozdov (2020), MNRAS 494 (2), 2410
 # "Determination of the orbits of 62 moons of asteroids based on astrometric observations."
 # with exceptions being listed as comments over this file.
@@ -50,16 +54,20 @@
 	Color	[ 0.329 0.329 0.327 ]
 	BlendTexture	true
 	SemiAxes	[ 126 109 68 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2457000.5  # 2014 Dec 09
-		Period	50.367656524406
-		SemiMajorAxis	13.63836664794301
-		Eccentricity	0.3820988962489677
-		Inclination	6.93836227190589
-		AscendingNode	209.2780463186957
-		ArgOfPericenter	339.3496505871891
-		MeanAnomaly	134.5261255874151
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	50.45425905538089
+		SemiMajorAxis	13.66009987215255
+		Eccentricity	0.3809847389441021
+		Inclination	6.933611889008302
+		AscendingNode	209.3211014108095
+		ArgOfPericenter	339.4657053799355
+		MeanAnomaly	27.72209767709737
 	}
 	UniformRotation  # aligned with rings, ecliptic coordinates
 	{
@@ -93,16 +101,20 @@
 	Color	[ 0.181 0.174 0.154 ]
 	BlendTexture	true
 	SemiAxes	[ 143.8 135.2 99.1 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2458000.5  # 2017 Sept 04
-		Period	62.934615411961
-		SemiMajorAxis	15.821740368798
-		Eccentricity	0.172090627773
-		Inclination	23.382362400587
-		AscendingNode	300.416187483083
-		ArgOfPericenter	242.895770634609
-		MeanAnomaly	77.670023037241
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	62.60222264682847
+		SemiMajorAxis	15.77303091834199
+		Eccentricity	0.1712934452932046
+		Inclination	23.38664758325967
+		AscendingNode	300.4764696883996
+		ArgOfPericenter	241.8770167366896
+		MeanAnomaly	337.0949942257109
 	}
 	BodyFrame	{ EquatorJ2000 { } }
 	UniformRotation
@@ -132,16 +144,20 @@
 	Color	[ 1.0 0.923 0.844 ]
 	BlendTexture	true
 	Radius	54
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2458200.5  # 2018 Mar 23
-		Period	288.991711307239
-		SemiMajorAxis	43.710400891912
-		Eccentricity	0.06597077878
-		Inclination	2.186162143948
-		AscendingNode	359.407421030794
-		ArgOfPericenter	0.155188951253
-		MeanAnomaly	32.083132101851
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	291.0133240775001
+		SemiMajorAxis	43.93364487390396
+		Eccentricity	0.06939988798523856
+		Inclination	2.185544508933063
+		AscendingNode	359.4135924870519
+		ArgOfPericenter	2.838988939116845
+		MeanAnomaly	6.941076079597941
 	}
 	UniformRotation
 	{
@@ -159,16 +175,20 @@
 	Color	[ 0.396 0.369 0.323 ]
 	BlendTexture	true
 	Radius	300
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2457000.5  # 2014 Dec 09
-		Period	311.355238689112
-		SemiMajorAxis	45.937284248341
-		Eccentricity	0.107954342926
-		Inclination	12.037508936202
-		AscendingNode	49.989281303915
-		ArgOfPericenter	57.52567525546
-		MeanAnomaly	336.892338216847
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	309.0518938587759
+		SemiMajorAxis	45.73088354664556
+		Eccentricity	0.1034410662936516
+		Inclination	12.03564074392886
+		AscendingNode	49.98111994034111
+		ArgOfPericenter	57.43184126093715
+		MeanAnomaly	319.3583697039084
 	}
 	UniformRotation
 	{
@@ -190,16 +210,20 @@
 	BlendTexture	true
 	Radius	502  # long-axis from occultation
 	SemiAxes	[ 1 0.6 0.432 ]  # hydrostatic equilibrium assumed
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2458600.5  # 2019 Apr 27
-		Period	279.826385408313
-		SemiMajorAxis	42.781266787405
-		Eccentricity	0.054126386935
-		Inclination	17.219680092474
-		AscendingNode	97.369341977692
-		ArgOfPericenter	262.875078141022
-		MeanAnomaly	117.223797711347
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	281.2725427717175
+		SemiMajorAxis	42.9477298171352
+		Eccentricity	0.05393351779842136
+		Inclination	17.17509329526719
+		AscendingNode	97.29851993854105
+		ArgOfPericenter	267.2960252642638
+		MeanAnomaly	87.93488792117752
 	}
 	UniformRotation
 	{
@@ -225,16 +249,20 @@
 	Color	[ 0.342 0.316 0.277 ]
 	BlendTexture	true
 	Radius	308.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2458200.5  # 2018 Mar 23
-		Period	250.267192068746
-		SemiMajorAxis	39.712797304978
-		Eccentricity	0.242215549692
-		Inclination	19.580788128563
-		AscendingNode	70.991108341519
-		ArgOfPericenter	298.578486340711
-		MeanAnomaly	284.989387403958
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	248.0665229578189
+		SemiMajorAxis	39.49730154743512
+		Eccentricity	0.2440535039152455
+		Inclination	19.63023605259484
+		AscendingNode	71.03057889459807
+		ArgOfPericenter	299.8597254480305
+		MeanAnomaly	257.4104890036214
 	}
 	UniformRotation
 	{
@@ -247,16 +275,20 @@
 
 ReferencePoint "Huya System" "Sol"
 {
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2458600.5  # 2019 Apr 27
-		Period	251.421969003257
-		SemiMajorAxis	39.834864782384
-		Eccentricity	0.283442833541
-		Inclination	15.470167417658
-		AscendingNode	169.327766003688
-		ArgOfPericenter	68.273717081769
-		MeanAnomaly	5.794887299879
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	247.3272733571896
+		SemiMajorAxis	39.41879334362831
+		Eccentricity	0.2761746871389861
+		Inclination	15.47415843241552
+		AscendingNode	169.3273223857787
+		ArgOfPericenter	67.86120288860887
+		MeanAnomaly	338.0052530662332
 	}
 	# Make the orbit and label visible
 	Visible true
@@ -321,16 +353,20 @@ ReferencePoint "Huya System" "Sol"
 # https://ui.adsabs.harvard.edu/abs/2012A%26A...541A..93M/abstract
 ReferencePoint "Lempo System" "Sol"
 {
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2459000.5  # 2020 May 31
-		Period	247.19679115028
-		SemiMajorAxis	39.387318757017
-		Eccentricity	0.22455832984
-		Inclination	8.424461855429
-		AscendingNode	97.009607347932
-		ArgOfPericenter	294.394299538569
-		MeanAnomaly	7.806887967339
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	247.2776976692937
+		SemiMajorAxis	39.41352561594384
+		Eccentricity	0.2246836617176972
+		Inclination	8.414658247621224
+		AscendingNode	97.11525422843135
+		ArgOfPericenter	294.9759913302493
+		MeanAnomaly	337.6716728454998
 	}
 	# Make the orbit and label visible
 	Visible true
@@ -493,16 +529,20 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Color	[ 0.585 0.55 0.502 ]
 	BlendTexture	true
 	Radius	384
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2457000.5  # 2014 Dec 09
-		Period	327.45458650153
-		SemiMajorAxis	47.50747155598051
-		Eccentricity	0.1299130054972144
-		Inclination	24.33298092458305
-		AscendingNode	297.4107993216403
-		ArgOfPericenter	293.228355614586
-		MeanAnomaly	292.6022119780332
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	324.0185930364025
+		SemiMajorAxis	47.19564662137787
+		Eccentricity	0.1288912802906013
+		Inclination	24.38280084723755
+		AscendingNode	297.480986917323
+		ArgOfPericenter	295.9274588876453
+		MeanAnomaly	273.2798227146114
 	}
 	UniformRotation
 	{
@@ -531,16 +571,20 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Color	[ 0.341 0.341 0.334 ]
 	BlendTexture	true
 	Radius	423
-	EllipticalOrbit
+	OrbitFrame
 	{
-		Epoch	2458600.5  # 2019 Apr 27
-		Period	272.746950367937
-		SemiMajorAxis	42.056629776848
-		Eccentricity	0.108461545461
-		Inclination	23.921526737521
-		AscendingNode	279.893292403391
-		ArgOfPericenter	310.976065097087
-		MeanAnomaly	122.990298098042
+		EclipticJ2000	{ Center "SSB" }
+	}
+	EllipticalOrbit  # primary body solution
+	{
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	272.3000599109864
+		SemiMajorAxis	42.02946003986086
+		Eccentricity	0.1066677988940644
+		Inclination	23.93114857174348
+		AscendingNode	280.0947421579912
+		ArgOfPericenter	309.7425117575299
+		MeanAnomaly	98.83249713140768
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation  # assume coplanarity with satellite orbit
@@ -600,16 +644,20 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 # Retrieved on 2023-12-29.
 ReferencePoint "Varda-Ilmarë" "Sol"
 {
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2458600.5  # 2019 Apr 27
-		Period	313.172905368821
-		SemiMajorAxis	46.115896173605
-		Eccentricity	0.141526560086
-		Inclination	21.504104172455
-		AscendingNode	184.054354566194
-		ArgOfPericenter	180.060322195174
-		MeanAnomaly	273.863817291683
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	309.2032393685073
+		SemiMajorAxis	45.74581221342397
+		Eccentricity	0.1426114200198719
+		Inclination	21.51108837586643
+		AscendingNode	184.0972851643154
+		ArgOfPericenter	183.2090761116666
+		MeanAnomaly	248.1810047624323
 	}
 	# Make the orbit and label visible
 	Visible true
@@ -711,18 +759,18 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Density	870  # 0.87 +/- 0.01 g cm-3
 	OrbitFrame
 	{
-		EclipticJ2000    { Center "SSB" }
+		EclipticJ2000	{ Center "SSB" }
 	}
 	EllipticalOrbit
 	{
-		Epoch	2460000  # 2023 Feb 24, 12:00:00 UT
-		Period	247.805301535983
-		SemiMajorAxis	39.46956879045560
-		Eccentricity	0.1790397194042973
-		Inclination	13.56476295599303
-		AscendingNode	252.0296749702167
-		ArgOfPericenter	15.11759034164246
-		MeanAnomaly	238.1852609517349
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	247.7991843073797
+		SemiMajorAxis	39.46891923380872
+		Eccentricity	0.1790440875629972
+		Inclination	13.56505527753243
+		AscendingNode	252.0309374439046
+		ArgOfPericenter	15.12394431970204
+		MeanAnomaly	204.5459197138737
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
@@ -752,16 +800,20 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Color	[ 0.654 0.616 0.58 ]
 	BlendTexture	true
 	SemiAxes	[ 339 339 305.7 ]
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2458600.5  # 2019 Apr 27
-		Period	620.170586943397
-		SemiMajorAxis	72.722473453493
-		Eccentricity	0.484308985566
-		Inclination	23.377937957267
-		AscendingNode	131.094164373881
-		ArgOfPericenter	346.87585252865
-		MeanAnomaly	344.208559857227
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	628.9177436276161
+		SemiMajorAxis	73.43750009514187
+		Eccentricity	0.4887391826728011
+		Inclination	23.35736855320554
+		AscendingNode	131.17839454295
+		ArgOfPericenter	346.4333576250627
+		MeanAnomaly	333.5092645180115
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation  # approximately coplanar with satellite
@@ -831,16 +883,20 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Color	[ 0.333 0.332 0.322 ]
 	BlendTexture	true
 	SemiAxes	[ 412 412 385 ]  # projected
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2460200.5  # 2023-Sep-13.0
-		Period	270.0222533729419
-		SemiMajorAxis	41.77606882335311
-		Eccentricity	0.1467734977684897
-		Inclination	17.71228981040321
-		AscendingNode	216.2744923352801
-		ArgOfPericenter	213.3545769171915
-		MeanAnomaly	228.9927153126468
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	269.4630937148678
+		SemiMajorAxis	41.73702734140139
+		Eccentricity	0.1452892533051482
+		Inclination	17.69333610952009
+		AscendingNode	216.0751360568072
+		ArgOfPericenter	214.5764827965695
+		MeanAnomaly	195.9176462145012
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
@@ -864,16 +920,20 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Color	[ 0.739 0.711 0.673 ]
 	BlendTexture	true
 	Radius	235
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2458600.5  # 2019 Apr 27
-		Period	592.690238887424
-		SemiMajorAxis	70.558019446608
-		Eccentricity	0.539041175938
-		Inclination	29.461007837273
-		AscendingNode	346.212834481045
-		ArgOfPericenter	284.36092112018
-		MeanAnomaly	348.21494174118
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	577.3221816200545
+		SemiMajorAxis	69.364003075686
+		Eccentricity	0.5313889177176493
+		Inclination	29.46011730869261
+		AscendingNode	346.1863794149107
+		ArgOfPericenter	284.6986015353738
+		MeanAnomaly	335.7501191414372
 	}
 	UniformRotation
 	{
@@ -893,14 +953,14 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Radius	18  # maximum semi-axis
 	EllipticalOrbit
 	{
-		Epoch	2458484.5  # 2019 Jan 01 (New Horizons encounter)
-		Period	297.371052339075
-		SemiMajorAxis	44.55129423264393
-		Eccentricity	0.04097873475827028
-		Inclination	2.451769758298457
-		AscendingNode	158.9786644650622
-		ArgOfPericenter	174.6720281547497
-		MeanAnomaly	315.8844151813905
+		Epoch	2458484.732303241  # 2019 Jan 01 05:34:31 TDB (New Horizons encounter)
+		Period	297.3705728517183
+		SemiMajorAxis	44.55124634225967
+		Eccentricity	0.04096515756134208
+		Inclination	2.451831129511527
+		AscendingNode	158.9767652155288
+		ArgOfPericenter	174.6564493231953
+		MeanAnomaly	315.9005911094172
 	}
 	UniformRotation
 	{
@@ -927,18 +987,18 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Radius	371  # thermal measurement
 	OrbitFrame
 	{
-		EclipticJ2000    { Center "SSB" }
+		EclipticJ2000	{ Center "SSB" }
 	}
 	EllipticalOrbit
 	{
-		Epoch	2460000  # 2023 Feb 24, 12:00:00 UT
-		Period	450.430043803305
-		SemiMajorAxis	58.78595163437048
-		Eccentricity	0.3949023125379210
-		Inclination	33.12079722855020
-		AscendingNode	187.0529766576329
-		ArgOfPericenter	139.2055903333146
-		MeanAnomaly	216.5632292220261
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	450.4304815695852
+		SemiMajorAxis	58.78598972315042
+		Eccentricity	0.3948947540909976
+		Inclination	33.12056114676863
+		AscendingNode	187.0531983983662
+		ArgOfPericenter	139.2075189231244
+		MeanAnomaly	198.0573808609261
 	}
 	UniformRotation
 	{
@@ -976,16 +1036,20 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Color	[ 0.526 0.519 0.485 ]
 	BlendTexture	true
 	Radius	280  # minimum radius
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2457000.5  # 2014 Dec 09
-		Period	438.44713749626
-		SemiMajorAxis	57.71287256830396
-		Eccentricity	0.1094918923387402
-		Inclination	46.59497186792814
-		AscendingNode	252.3628385298381
-		ArgOfPericenter	281.6361935007498
-		MeanAnomaly	277.636302515104
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	435.5299168036099
+		SemiMajorAxis	57.48227935585414
+		Eccentricity	0.1075113568788882
+		Inclination	46.64088613246979
+		AscendingNode	252.3672378505755
+		ArgOfPericenter	283.5601276781185
+		MeanAnomaly	263.1244000059405
 	}
 	UniformRotation
 	{
