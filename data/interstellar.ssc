@@ -11,7 +11,7 @@
 # https://ssd/jpl.nasa.gov/tools/sbdb_lookup.html#/
 #
 # 
-# Last update: 4 July 2025
+# Last update: 18 July 2025
 
 
 "1I 'Oumuamua:'Oumuamua:A 2017 U1" "Sol"
@@ -92,7 +92,11 @@
 		ArgOfPericenter  127.7776677558638
 		MeanAnomaly     -893.5472819943519
 	}
-	RotationPeriod	6.0		# guess
+
+	# Rotation period from de la Fuente Marcos (2025)
+	# https://arxiv.org/abs/2507.12922
+
+	RotationPeriod	16.79			# P = 16.79 +/- 0.23 hours
 	LunarLambert	0.5
 	Albedo	0.04
 	InfoURL	"https://en.wikipedia.org/wiki/3I/ATLAS"
