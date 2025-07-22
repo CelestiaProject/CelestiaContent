@@ -47,7 +47,7 @@ Texture maps
 # Askaniy (https://www.deviantart.com/askaniy)
 
    Textures of Phobos, Jupiter, Ganymede, Saturn, Uranus, Puck, Neptune,
-   Triton, Pluto, Charon, Nix, Hydra, Ryugu, Bennu, and Arrokoth.
+   Triton, Pluto, Charon, Nix, Hydra, Mathilde, Eros, Ryugu, Bennu, and Arrokoth.
 
    Haumea's (fictional) ring texture is by Askaniy.
 
@@ -140,17 +140,13 @@ Texture maps
 
    Textures of Larissa (based on Phil Stooke's map) and Proteus.
 
-# Grant Hutchison
-
-   The Eros map is a shaded relief generated from the NEAR laser rangefinder.
-
 # Phil Stooke
 
    Janus, Prometheus and Epimetheus maps are from Phil Stooke.
 
    The Ida and Gaspra photomosaic maps are by Phil Stooke.
 
-   The Deimos map is from:
+   The Deimos and Itokawa maps are from:
       Stooke. P., Stooke Small Bodies Maps V3.0. MULTI-SA-MULTI-6-STOOKEMAPS-V3.0. NASA Planetary Data System, 2015.
       https://sbnarchive.psi.edu/pds3/multi_mission/MULTI_SA_MULTI_6_STOOKEMAPS_V3_0/document/00_map_guide.html
 
@@ -288,12 +284,15 @@ covered.
     https://doi.org/10.1186/s40623-023-01814-7
   (available at https://sbmt.jhuapl.edu/shared-files/)
 
-# The Mimas and Phoebe models are by Rob Gaskell:
+# The Mimas, Phoebe, Eros and Itokawa models are by Rob Gaskell:
     https://sbn.psi.edu/pds/resource/mimasshape.html
     https://sbn.psi.edu/pds/resource/phoebeshape.html
+    https://sbn.psi.edu/pds/resource/erosshape.html
+    https://sbn.psi.edu/pds/resource/itokawashape.html
 
-# 3D models of Amalthea, Thebe, Larissa, Proteus, Vesta, Ida, Gaspra and Halley
-  are derived from Phil Stooke's Cartography of Non-Spherical Worlds.
+# 3D models of Amalthea, Thebe, Larissa, Proteus, Ida, Gaspra, Mathilde and Halley
+  are derived from Phil Stooke's Cartography of Non-Spherical Worlds and the
+  Stooke Small Body Shape Models dataset at PDS.
     https://sbn.psi.edu/pds/resource/stkshape.html
 
 # Models of Pan, Daphnis, Atlas, Prometheus, Pandora, Epimetheus, Janus,
@@ -302,8 +301,6 @@ covered.
 
 # The Vesta model is from:
     https://sbn.psi.edu/pds/resource/dawn/dwnvfcshape.html
-
-# The 3D model of Eros was prepared from the NEAR laser rangefinder shape model.
 
 # The Puck model is by Askaniy.
 

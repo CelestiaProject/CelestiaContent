@@ -779,83 +779,142 @@
 	Albedo 0.2
 }
 
-
-"433 Eros:Eros:1898 DQ" "Sol"
+# Veverka et al. (1999), Icarus 140, p. 3-16
+# "NEAR Encounter with Asteroid 253 Mathilde: Overview"
+# https://ui.adsabs.harvard.edu/abs/1999Icar..140....3V/abstract
+# Albedos from Clark et al. (1999), Icarus 140, p. 53-65
+# "NEAR Photometry of Asteroid 253 Mathilde"
+# https://ui.adsabs.harvard.edu/abs/1999Icar..140...53C/abstract
+"253 Mathilde:Mathilde:1949 OL1:A915 TN" "Sol"
 {
-	Class "asteroid"
-	Mesh   "eros.cmod"
-	Texture "eros.*"
-	# NormalMap "erosbump2k.jpg"
-        Color [ 1.000 0.880 0.764 ]
-        # The texture is already tinted with the asteroid color
-	#BlendTexture true
-	Radius 16.3 # maximum semi-axis
-	MeshCenter [ -1.262 0.168 -0.164 ]
-
+	Class	"asteroid"
+	Mesh	"mathilde.cmod"
+	MeshCenter	[ 2.597 -1.09 -1.208 ]
+	Texture	"mathilde.*"
+	Color	[ 1.0 0.999 0.981 ]  # a000253.2.txt
+	BlendTexture	true
+	Radius	33  # maximum semi-axis
+	Mass<kg>	1.033e17
+	Density	1300
 	EllipticalOrbit
 	{
-	Epoch       2451171.0      # 1998 Dec 23 12:00UT (NEAR-Shoemaker encounter)
-	Period            1.761    # average
-	SemiMajorAxis     1.458261 # at epoch
-	Eccentricity      0.222885 # at epoch
-	Inclination      10.830143 # at epoch
-	AscendingNode   304.430882 # at epoch
-	ArgOfPericenter 178.613184 # at epoch
-	MeanAnomaly     208.403434 # at epoch
+		Epoch	2450627.039545  # 1997 Jun 27 12:55:54.5 UT (NEAR Shoemaker encounter)
+		Period	4.303410698090442
+		SemiMajorAxis	2.645674401413655
+		Eccentricity	0.2661815077254521
+		Inclination	6.708941148705455
+		AscendingNode	179.8685269969922
+		ArgOfPericenter	156.2069283788091
+		MeanAnomaly	15.64432975863683
 	}
-
+	BodyFrame	{ EquatorJ2000 {} }  # model's equator aligns with Earth's
 	UniformRotation
 	{
-	Period                5.270
-	Inclination          78.70
-	AscendingNode 	    107.23
-	MeridianAngle       338.165
+		Epoch	2450627.039545  # 1997 Jun 27 12:55:54.5 UT
+		Period	417.744
 	}
-
-	Albedo 0.16
+	LunarLambert	1
+	# GeomAlbedo	0.047
+	BondAlbedo	0.012
+	Reflectivity	0.013  # spherical albedo
+	InfoURL	"https://en.wikipedia.org/wiki/253_Mathilde"
 }
 
+# Color from spectrum of de León et al. (2010), A&A 517, A23
+# "Observations, compositional, and physical characterization of near-Earth and
+# Mars-crosser asteroids from a spectroscopic survey"
+# https://ui.adsabs.harvard.edu/abs/2010A%26A...517A..23D/abstract
+# Mass and density from Miller et al. (2002), Icarus 155, p. 3-17
+# "Determination of Shape, Gravity, and Rotational State of Asteroid 433 Eros"
+# https://www.researchgate.net/publication/229044233
+# Albedos from Li et al. (2004), Icarus 172, p. 415-431
+# "Photometric analysis of Eros from NEAR data"
+# https://ui.adsabs.harvard.edu/abs/2004Icar..172..415L/abstract
+"433 Eros:Eros:1898 DQ:1956 PC" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"eros.cmod"
+	MeshCenter	[ -1.236 0.0930 -0.1587 ]
+	Texture	"eros.*"
+	Color	[ 1.0 0.953 0.845 ]
+	Radius	17.0  # maximum semi-axis
+	Mass<kg>	6.6904e15
+	Density	2670
+	EllipticalOrbit
+	{
+		Epoch	2451170.5  # 1998 Dec 23 (NEAR Shoemaker encounter)
+		Period	1.761005306666823
+		SemiMajorAxis	1.458260039171223
+		Eccentricity	0.2228859004411999
+		Inclination	10.83014818019957
+		AscendingNode	304.4308924279122
+		ArgOfPericenter	178.6132291188158
+		MeanAnomaly	208.1235355573054
+	}
+
+	# Konopliv et al. (2002), Icarus 160, p. 289-299
+	# "A Global Solution for the Gravity Field, Rotation, Landmarks, and Ephemeris of Eros"
+	# https://sbnarchive.psi.edu/pds3/near/NEAR_A_RSS_1_5_EROS_FLYBY_V1_0/document/gravity/space01v5.pdf
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period	5.27025527
+		Inclination	72.768
+		AscendingNode	101.363
+		MeridianAngle	326.08
+	}
+	LunarLambert	0.9  # c = 0.1 (Kaasalainen et al. 2001, 2001Icar..153...37K)
+	# GeomAlbedo	0.23
+	Reflectivity	0.093  # Bond albedo at 550 nm
+	InfoURL	"https://en.wikipedia.org/wiki/433_Eros"
+}
+
+# Fujiwara et al. (2006), Science 312 (5778), p. 1330-1334
+# "The Rubble-Pile Asteroid Itokawa as Observed by Hayabusa"
+# https://www.researchgate.net/publication/7042075
+# Color from spectrum of Lowry et al. (2005), Icarus 176, p. 408-417
+# "Physical properties of Asteroid (25143) Itokawa—Target of the Hayabusa sample return mission"
+# https://ui.adsabs.harvard.edu/abs/2005Icar..176..408L/abstract
+# Albedos from Tatsumi et al. (2018), Icarus 311, p. 175-196
+# "Vis-NIR disk-integrated photometry of asteroid 25143 Itokawa around
+# opposition by AMICA/Hayabusa"
+# https://kar.kent.ac.uk/66973/1/Lowry_Vis-NIR%20Disk-integrated%20Photometry.pdf
 "25143 Itokawa:Itokawa:1998 SF36" "Sol"
 {
-    Class "asteroid"
+	Class	"asteroid"
+	Mesh	"itokawa.cmod"
+	MeshCenter	[ 0.0153 -0.0022 0.0025 ]  # X-axis offset based on the compressed-head model of 2019P&SS..174...32K
+	Texture	"itokawa.*"
+	Color	[ 1.0 0.955 0.892 ]
+	BlendTexture	true
+	Radius	0.275  # maximum semi-axis (osculating box)
+	Mass<kg>	3.51e10
+	Density	1900
+	EllipticalOrbit
+	{
+		Epoch	2453625.5  # 2005 Sept 12 (Hayabusa arrival)
+		Period	1.523231388645978
+		SemiMajorAxis	1.32384900129156
+		Eccentricity	0.2801215960660662
+		Inclination	1.622265724980934
+		AscendingNode	69.09459064367297
+		ArgOfPericenter	162.7594790402028
+		MeanAnomaly	310.6795031514429
+	}
 
-    Mesh "itokawa.cmod"
-    Radius 0.315
-
-    InfoURL "http://en.wikipedia.org/wiki/25143_Itokawa"
-
-    # Osculating elements from HORIZONS
-    EllipticalOrbit
-    {
-        Epoch             2453625.5 # 2005 Sep 12--Hayabusa arrival
-        Period 	          1.523231392
-        SemiMajorAxis     1.323849003
-        Eccentricity      0.2801215972
-        Inclination       1.622265921
-        AscendingNode    69.09461308
-        ArgOfPericenter 162.7594572
-        MeanAnomaly     310.6795025
-    }
-
-    # Retrograde rotation pole with RA 90.53 and Dec -66.30
-    # From "Pole and global shape of 25143 Itokawa",
-    # Demura et al, Science, 2 Jun 2006
-    BodyFrame { EquatorJ2000 {} }      
-    UniformRotation
-    {
-        Inclination    156.30
-        AscendingNode  180.53
-        Period          12.132
-    }
-
-    Color [ 1 0.96 0.80 ] # Approximation based on natural color images
-    LunarLambert 0.5      # Approximate a dusty surface
-
-    # Align model with Celestia's coordinate system
-#   Orientation [ 90 1 0 0 ]
-    Orientation [ 180 0 1 1 ]
-
-    Albedo 0.53
+	# https://sbnarchive.psi.edu/pds4/non_mission/gaskell.ast-itokawa.shape-model_V1_1/document/bundle_description.txt
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period	12.132381791
+		Inclination	157.02704
+		AscendingNode	180.02564
+		MeridianAngle	129.73
+	}
+	LunarLambert	1
+	# GeomAlbedo	0.27
+	Reflectivity	0.033  # V-band Bond albedo
+	InfoURL	"https://en.wikipedia.org/wiki/25143_Itokawa"
 }
 
 # Watanabe et al. (2019), Science 364 (6437), p. 268-272
