@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2019-2025 Thomas W. Tarrants
 # SPDX-License-Identifier: CC-BY-4.0
-# This .stc file was created by Thomas Tarrants on 4/Jul/2025,
+# This .stc file was created by Thomas Tarrants on 1/Aug/2025,
 # You can contact me for any reason at twtarrants@gmail.com.
 # 
 # This source information for this file has been gathered from numerous sources ranging from SIMBAD
@@ -4914,13 +4914,14 @@ Barycenter 1292 "GJ 3021"
 {
 	RA 130.24669
 	Dec -23.456277388889
-	Distance 49.5870881
+	Distance 49.5097085
 	AppMag 11.975
 	SpectralType "M3.5V"
-	Temperature 3510
+	Temperature 3496
+	Radius 280367
 	UniformRotation
 	{
-		Period 1512
+		Period 1380
 		Inclination 20.83272
 		AscendingNode 117.95919
 	}
@@ -5194,7 +5195,7 @@ Barycenter "GJ 3473"
 	Distance 30.9759004
 	AppMag 12.134 # From 2MASS JHK
 	SpectralType "M6V"
-	Temperature 3081
+	Temperature 3141
 	Radius 96702
 	UniformRotation
 	{
@@ -5635,13 +5636,13 @@ Barycenter "Gliese 458"
 	RA 185.750667916667
 	Dec 64.030823666667
 	Distance 59.9029699
-	AppMag 13.431
+	AppMag 11.59
 	SpectralType "M3V"
-	Temperature 3540
-	Radius 340893
+	Temperature 3563
+	Radius 336023
 	UniformRotation
 	{
-		Period 297.485262
+		Period 789.6
 		Inclination 28.28291
 		AscendingNode 177.49487
 	}
@@ -5728,6 +5729,23 @@ Barycenter "Gliese 458"
 		Period 24.48
 	}
 	InfoURL "http://arxiv.org/abs/2102.04385"
+}
+
+65143 "Gliese 508.2"
+{
+	RA 200.241864166667
+	Dec 34.278943361111
+	Distance 54.3327264
+	AppMag 10.61
+	SpectralType "M1V"
+	Temperature 3720
+	Radius 368721
+	UniformRotation
+	{
+		Period 864
+		Inclination 46.5927
+		AscendingNode -17.64612
+	}
 }
 
 67487 "Gliese 529:LHS 363"
@@ -6570,6 +6588,23 @@ Barycenter "GJ 9595 AB"
 		Period 856.8
 		Inclination 84.19032
 		AscendingNode 94.50347
+	}
+}
+
+109638 "GJ 9773"
+{
+	RA 333.14977
+	Dec 8.553225333333
+	Distance 51.8708456
+	AppMag 11.96
+	SpectralType "M3V"
+	Temperature 3528
+	Radius 251843
+	UniformRotation
+	{
+		Period 1344
+		Inclination 103.78387
+		AscendingNode 133.37563
 	}
 }
 
@@ -10193,39 +10228,6 @@ Barycenter 57172 "GJ 3683"
 	}
 }
 
-Barycenter 57443 "Gliese 442:HR 4523"
-{
-	RA 176.630410087732
-	Dec -40.499670946231
-	Distance 30.3059901
-}
-
-"Gliese 442 A:HR 4523 A:HD 102365 A"
-{
-	RA 176.629469291667
-	Dec -40.500353388889
-	Distance 30.3059901
-	AppMag 4.89
-	SpectralType "G2V"
-	Temperature 5650
-	UniformRotation
-	{
-		Period 600
-		Inclination 46.36245
-		AscendingNode 35.41458
-	}
-}
-
-"Gliese 442 B:HR 4523 B:HD 102365 B"
-{
-	RA 176.634575207725
-	Dec -40.496649616034
-	Distance 30.3059901
-	AppMag 15.43
-	SpectralType "M4V"
-	Temperature 3243
-}
-
 57735
 {
 	RA 177.58721
@@ -12949,6 +12951,48 @@ Barycenter 74653
 	Temperature 3866
 }
 
+Barycenter "HD 135344"
+{
+	RA 228.953088979391
+	Dec -37.151123418844
+	Distance 440.3111707
+}
+
+1016717324 "HD 135344 A"
+{
+	RA 228.953942916667
+	Dec -37.148814277778
+	Distance 440.1269773
+	AppMag 7.76
+	SpectralType "A0V"
+	Temperature 9540
+	Radius 1043550
+	UniformRotation
+	{
+		Period 600
+		Inclination 10.74664
+		AscendingNode 245.33121
+	}
+}
+
+1016767324 "HD 135344 B:SAO 206462"
+{
+	RA 228.951858333333
+	Dec -37.154451222222
+	Distance 440.3111707
+	AbsMag 3.428
+	SpectralType "F4Ve"
+	Temperature 6810
+	Radius 973980
+	SemiAxes [ 1 0.84 1 ]
+	UniformRotation
+	{
+		Period 3.84
+		Inclination 74.96528
+		AscendingNode 157.48131
+	}
+}
+
 74856
 {
 	RA 229.45169985804
@@ -14298,7 +14342,7 @@ Barycenter 80687 "Timir"
 	Radius 1041463
 	UniformRotation
 	{
-		Period 600
+		Period 302.949277
 		Inclination 102.10083
 		AscendingNode 247.31662
 	}
@@ -21975,8 +22019,8 @@ Barycenter 27253 "HR 1988"
 	UniformRotation
 	{
 		Period 167.976372
-		Inclination 88.38724
-		AscendingNode 87.49611
+		Inclination 88.25731
+		AscendingNode 88.84843
 	}
 }
 
@@ -22461,8 +22505,8 @@ Barycenter 1010245375 "HD 43629:TOI-880:TIC 34077285"
 	UniformRotation
 	{
 		Period 600
-		Inclination 77.34748
-		AscendingNode 115.24632
+		Inclination 90.28281
+		AscendingNode 92.02581
 	}
 }
 
@@ -25838,16 +25882,16 @@ Barycenter 53545 "BD+24 2291"
 {
 	RA 164.859599166667
 	Dec -56.623040916667
-	Distance 120.7873703
+	Distance 120.5659067
 	AppMag 8.62
 	SpectralType "K0.5V"
-	Temperature 5212
-	Radius 598302
+	Temperature 5097
+	Radius 603868
 	UniformRotation
 	{
-		Period 848.970717
-		Inclination 111.99348
-		AscendingNode 163.24768
+		Period 856.868119
+		Inclination 112.20559
+		AscendingNode 163.3634
 	}
 }
 
@@ -34083,8 +34127,8 @@ Barycenter "K2-76:EPIC 206432863:PHOI-10"
 	UniformRotation
 	{
 		Period 493.44
-		Inclination 76.86973
-		AscendingNode 57.35043
+		Inclination 76.70921
+		AscendingNode 55.97549
 	}
 }
 
@@ -72559,18 +72603,18 @@ Barycenter "Kepler-89"
 
 "Kepler-90:KOI-351:KIC 11442793"
 {
-	RA 284.433491666667
-	Dec 49.305161111111
-	Distance 2835.8933706
-	AppMag 13.783 # From 2MASS JHK
+	RA 284.433492916667
+	Dec 49.305137916667
+	Distance 2788.8507615
+	AppMag 13.896
 	SpectralType "F9"
 	Temperature 6013
 	Radius 744399
 	UniformRotation
 	{
 		Period 282.439424
-		Inclination 85.08205
-		AscendingNode 284.09087
+		Inclination 85.08136
+		AscendingNode 284.0911
 	}
 }
 
@@ -76506,6 +76550,53 @@ Barycenter "KMT-2020-BLG-0414L:MOA-2020-BLG-0109L"
 	}
 }
 
+Barycenter "KMT-2024-BLG-0404L:OGLE-2024-BLG-0378L"
+{
+	RA 271.147083333333
+	Dec -27.9535
+	Distance 23515.876651
+}
+
+"KMT-2024-BLG-0404L A:OGLE-2024-BLG-0378L A"
+{
+	OrbitBarycenter "KMT-2024-BLG-0404L"
+	AbsMag 25
+	SpectralType "T9"
+	Radius 69911
+	EllipticalOrbit
+	{
+		Epoch 2451544.5
+		Period 1.726199
+		SemiMajorAxis 0.659188
+		Inclination 90.09927
+		AscendingNode 95.55664
+		ArgOfPericenter 274.54025
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 90.09927
+		AscendingNode 95.55664
+	}
+}
+
+"KMT-2024-BLG-0404L B:OGLE-2024-BLG-0378L B"
+{
+	OrbitBarycenter "KMT-2024-BLG-0404L"
+	AbsMag 17.81
+	SpectralType "M7"
+	EllipticalOrbit
+	{
+		Epoch 2451544.5
+		Period 1.726199
+		SemiMajorAxis 0.190812
+		Inclination 90.09927
+		AscendingNode 95.55664
+		ArgOfPericenter 94.54025
+	}
+	InfoURL "http://arxiv.org/abs/2507.07326"
+}
+
 "KMT-2024-BLG-1044L"
 {
 	RA 271.564
@@ -77315,16 +77406,16 @@ Barycenter "KOI-959 A:KIC 10002261 A:LHS 6343 A"
 {
 	RA 124.53175625
 	Dec -68.312999861111
-	Distance 34.6464089
+	Distance 34.5994009
 	AppMag 11.685
 	SpectralType "M3V"
 	Temperature 3415
-	Radius 210797
+	Radius 219493
 	UniformRotation
 	{
-		Period 792
-		Inclination 101.25269
-		AscendingNode 122.20058
+		Period 1860
+		Inclination 101.49642
+		AscendingNode 122.20934
 	}
 }
 
@@ -78606,6 +78697,21 @@ Barycenter "LTT 3780"
 		Period 600
 		Inclination 89.06364
 		AscendingNode 95.68857
+	}
+}
+
+1009719246 "MP Mus:PDS 66"
+{
+	RA 200.531425833333
+	Dec -69.636727611111
+	Distance 319.2850816
+	AppMag 10.393
+	SpectralType "K1V"
+	UniformRotation
+	{
+		Period 600
+		Inclination 57.63663
+		AscendingNode 179.14987
 	}
 }
 
@@ -82792,6 +82898,23 @@ Barycenter "RIK 72:EPIC 205207894"
 	InfoURL "http://arxiv.org/abs/1901.05532"
 }
 
+1008043576 "Ross 176:TOI-4491:TIC 193336820"
+{
+	RA 305.688302083333
+	Dec 47.307738694444
+	Distance 151.6645338
+	AppMag 11.89
+	SpectralType "K7V"
+	Temperature 4041
+	Radius 395853
+	UniformRotation
+	{
+		Period 792
+		Inclination 77.25996
+		AscendingNode -56.91453
+	}
+}
+
 Barycenter 63510 "DT Vir:Gliese 494:Ross 458:Wolf 462"
 {
 	RA 195.193991066587
@@ -84196,8 +84319,8 @@ Barycenter "TOI-1248:TIC 232612416"
 
 Barycenter "TOI-1259:TIC 288735205"
 {
-	RA 282.104689758392
-	Dec 79.257486740217
+	RA 282.104676421623
+	Dec 79.257482362051
 	Distance 386.5278873
 }
 
@@ -84209,12 +84332,12 @@ Barycenter "TOI-1259:TIC 288735205"
 	AppMag 12.144
 	SpectralType "K4"
 	Temperature 4699
-	Radius 494643
+	Radius 497426
 	UniformRotation
 	{
-		Period 600
-		Inclination 85.58996
-		AscendingNode -78.79111
+		Period 640.8
+		Inclination 85.59206
+		AscendingNode 281.20934
 	}
 }
 
@@ -85728,7 +85851,7 @@ Barycenter 1007364266 "TOI-1759:TIC 408636441"
 	AppMag 11.93
 	SpectralType "M0V"
 	Temperature 4065
-	Radius 415333
+	Radius 438987
 	EllipticalOrbit
 	{
 		Epoch 2451544.5
@@ -85743,8 +85866,8 @@ Barycenter 1007364266 "TOI-1759:TIC 408636441"
 	UniformRotation
 	{
 		Period 855.6
-		Inclination 69.47239
-		AscendingNode 318.17192
+		Inclination 70.72001
+		AscendingNode 324.51152
 	}
 }
 
@@ -87734,6 +87857,23 @@ Barycenter "TOI-2384:TIC 382602147"
 		Period 600
 		Inclination 70.22172
 		AscendingNode 49.57968
+	}
+}
+
+11707 "TOI-2431:TIC 258804746"
+{
+	RA 37.7636675
+	Dec 8.381994416667
+	Distance 117.4423139
+	AppMag 10.686 # From 2MASS JHK
+	SpectralType "K4V"
+	Temperature 4109
+	Radius 452901
+	UniformRotation
+	{
+		Period 600
+		Inclination 70.61917
+		AscendingNode 23.28586
 	}
 }
 
@@ -92026,6 +92166,65 @@ Barycenter 1003461866 "TOI-5422:TIC 80611440"
 	}
 }
 
+Barycenter "TOI-5575:TIC 160162137"
+{
+	RA 241.24952625
+	Dec 85.204159416667
+	Distance 183.3934587
+}
+
+"TOI-5575 A:TIC 160162137 A"
+{
+	OrbitBarycenter "TOI-5575"
+	AppMag 17.01
+	SpectralType "M5V"
+	Temperature 3176
+	Radius 166968
+	EllipticalOrbit
+	{
+		Epoch 2458689.2666
+		Period 0.087809
+		SemiMajorAxis 0.029211
+		Eccentricity 0.187
+		Inclination 101.37073
+		AscendingNode 243.38091
+		ArgOfPericenter 185.63561
+		MeanAnomaly 300.83953
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 101.37073
+		AscendingNode -116.61909
+	}
+}
+
+"TOI-5575 b:TIC 160162137 b"
+{
+	OrbitBarycenter "TOI-5575"
+	AbsMag 25
+	SpectralType "T4"
+	Radius 59009
+	EllipticalOrbit
+	{
+		Epoch 2458689.2666
+		Period 0.087809
+		SemiMajorAxis 0.088789
+		Eccentricity 0.187
+		Inclination 101.37073
+		AscendingNode 243.38091
+		ArgOfPericenter 5.63561
+		MeanAnomaly 300.83953
+	}
+	UniformRotation
+	{
+		Period 600
+		Inclination 101.37073
+		AscendingNode -116.61909
+	}
+	InfoURL "http://arxiv.org/abs/2507.09461"
+}
+
 1000288497 "TOI-558:TIC 207110080"
 {
 	RA 42.291500416667
@@ -92432,6 +92631,23 @@ Barycenter 1023072655 "TOI-5786:TIC 40292751"
 	AbsMag 14.3
 	SpectralType "M5V"
 	InfoURL "http://arxiv.org/abs/2501.03803"
+}
+
+1004245741 "TOI-5795:TIC 151724385"
+{
+	RA 304.86872625
+	Dec -7.547531666667
+	Distance 526.908072
+	AppMag 10.71
+	SpectralType "G3V"
+	Temperature 5715
+	Radius 752747
+	UniformRotation
+	{
+		Period 600
+		Inclination 77.13114
+		AscendingNode -58.7199
+	}
 }
 
 "TOI-5799:TIC 328081248"
@@ -93042,14 +93258,14 @@ Barycenter "TOI-6508:TIC 142277868"
 	Dec -5.54612125
 	Distance 188.6811349
 	AppMag 14.54
-	SpectralType "M3"
-	Temperature 3433
-	Radius 245582
+	SpectralType "M2V"
+	Temperature 3521
+	Radius 299151
 	UniformRotation
 	{
 		Period 600
-		Inclination 112.56449
-		AscendingNode 163.42275
+		Inclination 112.30182
+		AscendingNode 162.12066
 	}
 }
 
@@ -94757,8 +94973,8 @@ Barycenter "UZ For"
 
 Barycenter "HD 284154"
 {
-	RA 61.316389921001
-	Dec 20.14392532033
+	RA 61.316389806176
+	Dec 20.14392522106
 	Distance 353.9826746
 }
 
@@ -98777,12 +98993,12 @@ Barycenter 1002046336 "WASP-68:HD 193334"
 	AppMag 9.87
 	SpectralType "K5"
 	Temperature 4700
-	Radius 565604
+	Radius 557256
 	UniformRotation
 	{
 		Period 553.68
-		Inclination 74.37083
-		AscendingNode 309.18431
+		Inclination 81.4445
+		AscendingNode 283.70149
 	}
 }
 
@@ -100154,7 +100370,7 @@ Barycenter 1015934652 "XO-7:TOI-1612:TIC 268403451"
 	InfoURL "http://arxiv.org/abs/1912.02821v1"
 }
 
-1007608998 "YSES 1:2MASS J13251211-6456207"
+1007608998 "YSES-1:2MASS J13251211-6456207"
 {
 	RA 201.300525416667
 	Dec -64.939080055556
@@ -100171,7 +100387,7 @@ Barycenter 1015934652 "XO-7:TOI-1612:TIC 268403451"
 	}
 }
 
-1022458984 "YSES 2:TIC 295777692"
+1022458984 "YSES-2:TIC 295777692"
 {
 	RA 171.980644166667
 	Dec -66.434583222222
