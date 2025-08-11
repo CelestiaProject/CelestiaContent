@@ -1013,7 +1013,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/532037_Chiminigagua"
 }
 
-"S 2018 (532037) 1" "Sol/2013 FY27"  # no provisional designation
+"Chiminigagua I:S 2018 (532037) 1" "Sol/532037 Chiminigagua"  # no provisional designation
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
@@ -1028,7 +1028,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.17  # assume same albedo as primary
-	InfoURL	"https://en.wikipedia.org/wiki/(532037)_2013_FY27#Satellite"
+	InfoURL	"https://en.wikipedia.org/wiki/532037_Chiminigagua#Satellite"
 }
 
 # Minimum radius from http://www.euraster.net/results/2021/index.html#0122--
@@ -1063,4 +1063,5 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	GeomAlbedo	0.099  # assume minimum radius
 	InfoURL	"https://en.wikipedia.org/wiki/(612911)_2004_XR190"
 }
+
 
