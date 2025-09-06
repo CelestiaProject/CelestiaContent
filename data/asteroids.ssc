@@ -86,8 +86,8 @@
 }
 
 # Mass and density from Li et al. (2023), AJ 166, 93
-# "Dynamical Masses of 20 Asteroids Determined with Gaia DR3 Asteroid Observations"
-# https://ui.adsabs.harvard.edu/abs/2023AJ....166...93L/abstract
+#   "Dynamical Masses of 20 Asteroids Determined with Gaia DR3 Asteroid Observations"
+#   https://ui.adsabs.harvard.edu/abs/2023AJ....166...93L/abstract
 "3 Juno:Juno" "Sol"
 {
 	Class	"asteroid"
@@ -125,11 +125,11 @@
 }
 
 # Park et al. (2025), Nature Astronomy 9, p. 824-834
-# "A small core in Vesta inferred from Dawn's observations"
-# https://ui.adsabs.harvard.edu/abs/2025NatAs...9..824P/abstract
+#   "A small core in Vesta inferred from Dawn's observations"
+#   https://ui.adsabs.harvard.edu/abs/2025NatAs...9..824P/abstract
 # Albedos from Li et al. (2013), Icarus 226, p. 1252-1274
-# "Global photometric properties of Asteroid (4) Vesta observed with Dawn Framing Camera"
-# https://ui.adsabs.harvard.edu/abs/2013Icar..226.1252L/abstract
+#   "Global photometric properties of Asteroid (4) Vesta observed with Dawn Framing Camera"
+#   https://ui.adsabs.harvard.edu/abs/2013Icar..226.1252L/abstract
 "4 Vesta:Vesta" "Sol"
 {
 	Class	"asteroid"
@@ -153,8 +153,8 @@
 	}
 
 	# Dawn-Claudia coordinate system from Li and Mafi (2013)
-	# "Body-Fixed Coordinate Systems for Asteroid (4) Vesta"
-	# https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVSPG_2/DOCUMENT/VESTA_COORDINATES/VESTA_COORDINATES_131018.HTM
+	#   "Body-Fixed Coordinate Systems for Asteroid (4) Vesta"
+	#   https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVSPG_2/DOCUMENT/VESTA_COORDINATES/VESTA_COORDINATES_131018.HTM
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
@@ -243,11 +243,11 @@
 }
 
 # Shepard et al. (2021), Planet. Sci. J. 2, 125
-# "Asteroid 16 Psyche: Shape, Features, and Global Map"
-# https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..125S/abstract
+#   "Asteroid 16 Psyche: Shape, Features, and Global Map"
+#   https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..125S/abstract
 # Mass and density from Farnocchia et al. (2024), AJ 168, 21
-# "Mass, Density, and Radius of Asteroid (16) Psyche from High-precision Astrometry"
-# https://ui.adsabs.harvard.edu/abs/2024AJ....168...21F/abstract
+#   "Mass, Density, and Radius of Asteroid (16) Psyche from High-precision Astrometry"
+#   https://ui.adsabs.harvard.edu/abs/2024AJ....168...21F/abstract
 "16 Psyche:Psyche" "Sol"
 {
 	Class	"asteroid"
@@ -285,9 +285,9 @@
 }
 
 # Mass, pole orientation and moon orbits from Beauvalet and Marchis (2014), Icarus 241, p. 13-25
-# "Multiple asteroid systems (45) Eugenia and (87) Sylvia:
-# Sensitivity to external and internal perturbations"
-# https://ui.adsabs.harvard.edu/abs/2014Icar..241...13B/abstract
+#   "Multiple asteroid systems (45) Eugenia and (87) Sylvia:
+#   Sensitivity to external and internal perturbations"
+#   https://ui.adsabs.harvard.edu/abs/2014Icar..241...13B/abstract
 "45 Eugenia:Eugenia:1941 BN" "Sol"
 {
 	Class	"asteroid"
@@ -393,8 +393,8 @@
 }
 
 # Carry et al. (2021), A&A 650, A129
-# "Evidence for differentiation of the most primitive small bodies"
-# https://ui.adsabs.harvard.edu/abs/2021A%26A...650A.129C/abstract
+#   "Evidence for differentiation of the most primitive small bodies"
+#   https://ui.adsabs.harvard.edu/abs/2021A%26A...650A.129C/abstract
 "87 Sylvia:Sylvia:A909 GA" "Sol"
 {
 	Class	"asteroid"
@@ -467,8 +467,8 @@
 }
 
 # Size and shape from Berthier et al. (2014), Icarus 239, p. 118-130
-# "Physical and dynamical properties of the main belt triple Asteroid (87) Sylvia"
-# https://ui.adsabs.harvard.edu/abs/2014Icar..239..118B/abstract
+#   "Physical and dynamical properties of the main belt triple Asteroid (87) Sylvia"
+#   https://ui.adsabs.harvard.edu/abs/2014Icar..239..118B/abstract
 "Romulus:87 Sylvia I:Sylvia I:S 2001 (87) 1" "Sol/Sylvia"
 {
 	Class	"minormoon"
@@ -506,8 +506,8 @@
 }
 
 # Fuksa et al. (2023), A&A 677, A189
-# "An advanced multipole model of the (130) Elektra quadruple system"
-# https://ui.adsabs.harvard.edu/abs/2023A%26A...677A.189F/abstract
+#   "An advanced multipole model of the (130) Elektra quadruple system"
+#   https://ui.adsabs.harvard.edu/abs/2023A%26A...677A.189F/abstract
 "130 Elektra:Elektra" "Sol"
 {
 	Class	"asteroid"
@@ -650,11 +650,11 @@
 }
 
 # Marchis et al. (2021), A&A 653, A57
-# "(216) Kleopatra, a low density critically rotating M-type asteroid"
-# https://ui.adsabs.harvard.edu/abs/2021A%26A...653A..57M/abstract
+#   "(216) Kleopatra, a low density critically rotating M-type asteroid"
+#   https://ui.adsabs.harvard.edu/abs/2021A%26A...653A..57M/abstract
 # Moon parameters from Brož et al. (2021), A&A 653, A56
-# "An advanced multipole model for (216) Kleopatra triple system"
-# https://ui.adsabs.harvard.edu/abs/2021A%26A...653A..56B/abstract
+#   "An advanced multipole model for (216) Kleopatra triple system"
+#   https://ui.adsabs.harvard.edu/abs/2021A%26A...653A..56B/abstract
 "216 Kleopatra:Kleopatra:A905 OA:A910 RA" "Sol"
 {
 	Class	"asteroid"
@@ -871,8 +871,8 @@
 "Dactyl:243 Ida I:Ida I:1993 (243) 1" "Sol/Ida"
 {
 	# Data for Dactyl taken from: 
-	# Petit et al.: The Long-Term Dynamics of Dactyl's Orbit
-	# (Icarus 1997: 130; 177-197) - linked in the InfoURL
+	#   Petit et al.: The Long-Term Dynamics of Dactyl's Orbit
+	#   (Icarus 1997: 130; 177-197) - linked in the InfoURL
 
 	InfoURL "http://www.lpl.arizona.edu/~hurfordt/research/papers/Icarus130.pdf"
 
@@ -905,11 +905,11 @@
 }
 
 # Veverka et al. (1999), Icarus 140, p. 3-16
-# "NEAR Encounter with Asteroid 253 Mathilde: Overview"
-# https://ui.adsabs.harvard.edu/abs/1999Icar..140....3V/abstract
+#   "NEAR Encounter with Asteroid 253 Mathilde: Overview"
+#   https://ui.adsabs.harvard.edu/abs/1999Icar..140....3V/abstract
 # Albedos from Clark et al. (1999), Icarus 140, p. 53-65
-# "NEAR Photometry of Asteroid 253 Mathilde"
-# https://ui.adsabs.harvard.edu/abs/1999Icar..140...53C/abstract
+#   "NEAR Photometry of Asteroid 253 Mathilde"
+#   https://ui.adsabs.harvard.edu/abs/1999Icar..140...53C/abstract
 "253 Mathilde:Mathilde:1949 OL1:A915 TN" "Sol"
 {
 	Class	"asteroid"
@@ -946,15 +946,15 @@
 }
 
 # Color from spectrum of de León et al. (2010), A&A 517, A23
-# "Observations, compositional, and physical characterization of near-Earth and
-# Mars-crosser asteroids from a spectroscopic survey"
-# https://ui.adsabs.harvard.edu/abs/2010A%26A...517A..23D/abstract
+#   "Observations, compositional, and physical characterization of near-Earth and
+#   Mars-crosser asteroids from a spectroscopic survey"
+#   https://ui.adsabs.harvard.edu/abs/2010A%26A...517A..23D/abstract
 # Mass and density from Miller et al. (2002), Icarus 155, p. 3-17
-# "Determination of Shape, Gravity, and Rotational State of Asteroid 433 Eros"
-# https://www.researchgate.net/publication/229044233
+#   "Determination of Shape, Gravity, and Rotational State of Asteroid 433 Eros"
+#   https://www.researchgate.net/publication/229044233
 # Albedos from Li et al. (2004), Icarus 172, p. 415-431
-# "Photometric analysis of Eros from NEAR data"
-# https://ui.adsabs.harvard.edu/abs/2004Icar..172..415L/abstract
+#   "Photometric analysis of Eros from NEAR data"
+#   https://ui.adsabs.harvard.edu/abs/2004Icar..172..415L/abstract
 "433 Eros:Eros:1898 DQ:1956 PC" "Sol"
 {
 	Class	"asteroid"
@@ -979,8 +979,8 @@
 	}
 
 	# Konopliv et al. (2002), Icarus 160, p. 289-299
-	# "A Global Solution for the Gravity Field, Rotation, Landmarks, and Ephemeris of Eros"
-	# https://sbnarchive.psi.edu/pds3/near/NEAR_A_RSS_1_5_EROS_FLYBY_V1_0/document/gravity/space01v5.pdf
+	#   "A Global Solution for the Gravity Field, Rotation, Landmarks, and Ephemeris of Eros"
+	#   https://sbnarchive.psi.edu/pds3/near/NEAR_A_RSS_1_5_EROS_FLYBY_V1_0/document/gravity/space01v5.pdf
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
@@ -996,15 +996,15 @@
 }
 
 # Fujiwara et al. (2006), Science 312, p. 1330-1334
-# "The Rubble-Pile Asteroid Itokawa as Observed by Hayabusa"
-# https://www.researchgate.net/publication/7042075
+#   "The Rubble-Pile Asteroid Itokawa as Observed by Hayabusa"
+#   https://www.researchgate.net/publication/7042075
 # Color from spectrum of Lowry et al. (2005), Icarus 176, p. 408-417
-# "Physical properties of Asteroid (25143) Itokawa—Target of the Hayabusa sample return mission"
-# https://ui.adsabs.harvard.edu/abs/2005Icar..176..408L/abstract
+#   "Physical properties of Asteroid (25143) Itokawa—Target of the Hayabusa sample return mission"
+#   https://ui.adsabs.harvard.edu/abs/2005Icar..176..408L/abstract
 # Albedos from Tatsumi et al. (2018), Icarus 311, p. 175-196
-# "Vis-NIR disk-integrated photometry of asteroid 25143 Itokawa around
-# opposition by AMICA/Hayabusa"
-# https://kar.kent.ac.uk/66973/1/Lowry_Vis-NIR%20Disk-integrated%20Photometry.pdf
+#   "Vis-NIR disk-integrated photometry of asteroid 25143 Itokawa around
+#   opposition by AMICA/Hayabusa"
+#   https://kar.kent.ac.uk/66973/1/Lowry_Vis-NIR%20Disk-integrated%20Photometry.pdf
 "25143 Itokawa:Itokawa:1998 SF36" "Sol"
 {
 	Class	"asteroid"
@@ -1044,15 +1044,15 @@
 }
 
 # Watanabe et al. (2019), Science 364 (6437), p. 268-272
-# "Hayabusa2 arrives at the carbonaceous asteroid 162173 Ryugu—A spinning top–shaped rubble pile"
-# https://ui.adsabs.harvard.edu/abs/2019Sci...364..268W/abstract
+#   "Hayabusa2 arrives at the carbonaceous asteroid 162173 Ryugu—A spinning top–shaped rubble pile"
+#   https://ui.adsabs.harvard.edu/abs/2019Sci...364..268W/abstract
 # Color from spectrum of Yokota et al. (2021), Planet. Sci. J. 2, 177
-# "Opposition Observations of 162173 Ryugu:
-# Normal Albedo Map Highlights Variations in Regolith Characteristics"
-# https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..177Y/abstract
+#   "Opposition Observations of 162173 Ryugu:
+#   Normal Albedo Map Highlights Variations in Regolith Characteristics"
+#   https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..177Y/abstract
 # Albedos from Tatsumi et al. (2020), A&A 639, A83
-# "Global photometric properties of (162173) Ryugu"
-# https://ui.adsabs.harvard.edu/abs/2020A%26A...639A..83T/abstract
+#   "Global photometric properties of (162173) Ryugu"
+#   https://ui.adsabs.harvard.edu/abs/2020A%26A...639A..83T/abstract
 "162173 Ryugu:Ryugu:1999 JU3" "Sol"
 {
 	Class	"asteroid"
@@ -1092,16 +1092,16 @@
 }
 
 # Color from spectrum of Le Corre et al. (2019), 50th LPSC, 2794
-# "Investigating Surface Color Variegation on Near-Earth Asteroid Bennu Using
-# OSIRIS-REx Mapcam Data"
-# https://ui.adsabs.harvard.edu/abs/2019LPI....50.2794L/abstract
+#   "Investigating Surface Color Variegation on Near-Earth Asteroid Bennu Using
+#   OSIRIS-REx Mapcam Data"
+#   https://ui.adsabs.harvard.edu/abs/2019LPI....50.2794L/abstract
 # Mass and density from Goossens et al. (2021), Planet. Sci. J. 2, 219
-# "Mass and Shape Determination of (101955) Bennu Using Differenced Data from
-# Multiple OSIRIS-REx Mission Phases"
-# https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..219G/abstract
+#   "Mass and Shape Determination of (101955) Bennu Using Differenced Data from
+#   Multiple OSIRIS-REx Mission Phases"
+#   https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..219G/abstract
 # Albedos from Li et al. (2021), Planet. Sci. J. 2, 117
-# "Spectrophotometric Modeling and Mapping of (101955) Bennu"
-# https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..117L/abstract
+#   "Spectrophotometric Modeling and Mapping of (101955) Bennu"
+#   https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..117L/abstract
 "101955 Bennu:Bennu:1999 RQ36" "Sol"
 {
 	Class	"asteroid"
@@ -1146,13 +1146,13 @@
 }
 
 # Mass, density and Dimorphos orbit from Naidu et al. (2024), Planet. Sci. J. 5, 74
-# "Orbital and Physical Characterization of Asteroid Dimorphos Following the DART Impact"
-# https://ui.adsabs.harvard.edu/abs/2024PSJ.....5...74N/abstract
+#   "Orbital and Physical Characterization of Asteroid Dimorphos Following the DART Impact"
+#   https://ui.adsabs.harvard.edu/abs/2024PSJ.....5...74N/abstract
 # Rotational parameters of Didymos and Dimorphos from Horizons system
 # Albedos from Rozitis et al. (2024), Planet. Sci. J. 5, 66
-# "Pre-impact Thermophysical Properties and the Yarkovsky Effect of NASA DART
-# Target (65803) Didymos"
-# https://ui.adsabs.harvard.edu/abs/2024PSJ.....5...66R/abstract
+#   "Pre-impact Thermophysical Properties and the Yarkovsky Effect of NASA DART
+#   Target (65803) Didymos"
+#   https://ui.adsabs.harvard.edu/abs/2024PSJ.....5...66R/abstract
 "65803 Didymos:Didymos:1996 GT" "Sol"
 {
 	Class	"asteroid"
@@ -1258,10 +1258,10 @@
 # Radar-imaged asteroids
 
 # Rozitis and Green (2014), A&A 568, A43
-# "Physical characterisation of near-Earth asteroid (1620) Geographos. Reconciling
-# radar and thermal-infrared observations"
-# https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..43R/abstract
-# (Light-curve, fixed diameter model used)
+#   "Physical characterisation of near-Earth asteroid (1620) Geographos. Reconciling
+#   radar and thermal-infrared observations"
+#   https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..43R/abstract
+#   (Light-curve, fixed diameter model used)
 "1620 Geographos:Geographos:1951 RA:1983 CY3" "Sol"
 {
 	Class	"asteroid"
@@ -1287,9 +1287,9 @@
 	}
 
 	# Ďurech et al. (2022), A&A 657, A5
-	# "Rotation acceleration of asteroids (10115) 1992 SK, (1685) Toro, and
-	# (1620) Geographos due to the YORP effect"
-	# https://ui.adsabs.harvard.edu/abs/2022A%26A...657A...5D/abstract
+	#   "Rotation acceleration of asteroids (10115) 1992 SK, (1685) Toro, and
+	#   (1620) Geographos due to the YORP effect"
+	#   https://ui.adsabs.harvard.edu/abs/2022A%26A...657A...5D/abstract
 	UniformRotation
 	{
 		Period	5.2233360
@@ -1303,8 +1303,8 @@
 }
 
 # Benner et al. (1999), Icarus 139, p. 309-327
-# "Radar Observations of Asteroid 2063 Bacchus"
-# https://echo.jpl.nasa.gov/asteroids/benner.etal.1999.bacchus.pdf
+#   "Radar Observations of Asteroid 2063 Bacchus"
+#   https://echo.jpl.nasa.gov/asteroids/benner.etal.1999.bacchus.pdf
 "2063 Bacchus:Bacchus:1977 HB" "Sol"
 {
 	Class	"asteroid"
@@ -1359,9 +1359,9 @@
 	}
 
 	# Zhao et al. (2015), MNRAS 450, 3620-3632
-	# "Orientation and rotational parameters of asteroid 4179 Toutatis:
-	# new insights from Chang′e-2's close flyby"
-	# https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.3620Z/abstract
+	#   "Orientation and rotational parameters of asteroid 4179 Toutatis:
+	#   new insights from Chang′e-2's close flyby"
+	#   https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.3620Z/abstract
 	PrecessingRotation
 	{
 		Epoch	2456274.854944  # 2012 Dec 13 08:30 UT
@@ -1378,8 +1378,8 @@
 }
 
 # Size from Hudson and Ostro (1994), Science 263 (5149), p.940-943
-# "Shape of Asteroid 4769 Castalia (1989 PB) from Inversion of Radar Images"
-# https://echo.jpl.nasa.gov/asteroids/hudson+ostro_1994_castalia.pdf
+#   "Shape of Asteroid 4769 Castalia (1989 PB) from Inversion of Radar Images"
+#   https://echo.jpl.nasa.gov/asteroids/hudson+ostro_1994_castalia.pdf
 "4769 Castalia:Castalia:1989 PB" "Sol"
 {
 	Class	"asteroid"
@@ -1402,9 +1402,9 @@
 	}
 
 	# Hudson and Ostro (1997), Icarus 130, p. 165-176
-	# "Constraints on Spin State and Hapke Parameters of Asteroid 4769 Castalia
-	# Using Lightcurves and a Radar-Derived Shape Model"
-	# https://echo.jpl.nasa.gov/asteroids/hudson+1997_cas_lcurves_icarus.pdf
+	#   "Constraints on Spin State and Hapke Parameters of Asteroid 4769 Castalia
+	#   Using Lightcurves and a Radar-Derived Shape Model"
+	#   https://echo.jpl.nasa.gov/asteroids/hudson+1997_cas_lcurves_icarus.pdf
 	UniformRotation
 	{
 		Period	4.089
@@ -1417,11 +1417,11 @@
 }
 
 # Hudson et al. (2000), Icarus 148, p. 37-51
-# "Radar Observations and Physical Model of Asteroid 6489 Golevka"
-# https://echo.jpl.nasa.gov/asteroids/6489_Golevka/hudson.etal.2000.golevka.pdf
+#   "Radar Observations and Physical Model of Asteroid 6489 Golevka"
+#   https://echo.jpl.nasa.gov/asteroids/6489_Golevka/hudson.etal.2000.golevka.pdf
 # Mass and density from Chesley et al. (2003), Science 302 (5651), p. 1739-1742
-# "Direct Detection of the Yarkovsky Effect by Radar Ranging to Asteroid 6489 Golevka"
-# https://echo.jpl.nasa.gov/asteroids/chesley+golevka.pdf
+#   "Direct Detection of the Yarkovsky Effect by Radar Ranging to Asteroid 6489 Golevka"
+#   https://echo.jpl.nasa.gov/asteroids/chesley+golevka.pdf
 "6489 Golevka:Golevka:1991 JX" "Sol"
 {
 	Class	"asteroid"
@@ -1457,15 +1457,15 @@
 }
 
 # Scheirich et al. (2021), Icarus 360, 114321
-# "A satellite orbit drift in binary near-Earth asteroids (66391) 1999 KW4 and
-# (88710) 2001 SL9 - Indication of the BYORP effect"
-# https://arxiv.org/abs/1912.06456
+#   "A satellite orbit drift in binary near-Earth asteroids (66391) 1999 KW4 and
+#   (88710) 2001 SL9 - Indication of the BYORP effect"
+#   https://arxiv.org/abs/1912.06456
 # Sizes, masses and Moshup rotational parameters from Ostro et al. (2006), Science 314, p. 1276-1280
-# "Radar Imaging of Binary Near-Earth Asteroid (66391) 1999 KW4"
-# https://www.researchgate.net/publication/6756119
+#   "Radar Imaging of Binary Near-Earth Asteroid (66391) 1999 KW4"
+#   https://www.researchgate.net/publication/6756119
 # Color from indices of Carbognani (2019), Minor Planet Bulletin 46, p. 444
-# "The Color Indices of the NEA (66391) 1999 KW4"
-# https://ui.adsabs.harvard.edu/abs/2019MPBu...46..444C/abstract
+#   "The Color Indices of the NEA (66391) 1999 KW4"
+#   https://ui.adsabs.harvard.edu/abs/2019MPBu...46..444C/abstract
 "66391 Moshup:Moshup:1999 KW4" "Sol"
 {
 	Class	"asteroid"
@@ -1537,12 +1537,12 @@
 }
 
 # Becker et al. (2015), Icarus 248, p. 499-515
-# "Physical modeling of triple near-Earth Asteroid (153591) 2001 SN263 from
-# radar and optical light curve observations"
-# https://ui.adsabs.harvard.edu/abs/2015Icar..248..499B/abstract
+#   "Physical modeling of triple near-Earth Asteroid (153591) 2001 SN263 from
+#   radar and optical light curve observations"
+#   https://ui.adsabs.harvard.edu/abs/2015Icar..248..499B/abstract
 # Masses and moon orbits from Fang et al. (2011), AJ 141, 154
-# "Orbits of Near-Earth Asteroid Triples 2001 SN263 and 1994 CC: Properties, Origin, and Evolution"
-# https://ui.adsabs.harvard.edu/abs/2011AJ....141..154F/abstract
+#   "Orbits of Near-Earth Asteroid Triples 2001 SN263 and 1994 CC: Properties, Origin, and Evolution"
+#   https://ui.adsabs.harvard.edu/abs/2011AJ....141..154F/abstract
 # Color from indices and geometric albedo from SsODNet: https://ssp.imcce.fr/forms/ssocard/2001_SN263
 "(153591) 2001 SN263:2001 SN263" "Sol"
 {
@@ -1649,8 +1649,8 @@
 }
 
 # Santana-Ros et al. (2025)
-# "Hayabusa2# mission target 1998 KY26 preview: a small optically bright rapid rotator"
-# https://www.researchsquare.com/article/rs-5821856/v1
+#   "Hayabusa2# mission target 1998 KY26 preview: a small optically bright rapid rotator"
+#   https://www.researchsquare.com/article/rs-5821856/v1
 "1998 KY26" "Sol"
 {
 	Class	"asteroid"
@@ -1687,8 +1687,8 @@
 
 # Parameters from SsODNet: https://ssp.imcce.fr/forms/ssocard/Celestia
 # Oblateness and pole orientation from Carry et al. (2024)
-# "Combined spin orientation and phase function of asteroids"
-# https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/687/A38
+#   "Combined spin orientation and phase function of asteroids"
+#   https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/687/A38
 "1252 Celestia:Celestia:1933 DG:1934 PA1" "Sol"
 {
 	Class	"asteroid"
