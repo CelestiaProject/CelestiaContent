@@ -15,7 +15,7 @@
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.296 0.279 0.204 ]
+	Color	[ 0.304 0.281 0.197 ]
 	BlendTexture	true
 	SemiAxes	[ 30 20 17 ]
 	OrbitFrame
@@ -77,7 +77,7 @@
 	Class	"minormoon"
 	Mesh	"amalthea.cmod"
 	Texture	"amalthea.*"
-	Color	[ 1.0 0.936 0.761 ]
+	Color	[ 1.0 0.915 0.727 ]
 	Radius	131
 	OrbitFrame
 	{
@@ -116,7 +116,7 @@
 	Mesh	"thebe.cmod"
 	Orientation	[ 1 180 0 0 ]
 	Texture	"asteroid.*"
-	Color	[ 0.218 0.206 0.169 ]
+	Color	[ 0.223 0.206 0.166 ]
 	BlendTexture	true
 	Radius	58
 	OrbitFrame
@@ -178,7 +178,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.305 0.305 0.309 ]
+	Color	[ 0.311 0.304 0.299 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	9
 	OrbitFrame
@@ -273,7 +273,7 @@
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.393 0.399 0.409 ]
+	Color	[ 0.397 0.398 0.396 ]  # Geometric albedo
 	BlendTexture	true
 	SemiAxes	[ 102.8 102.8 70.7 ]
 	Mass<kg>	4.2e18
@@ -306,7 +306,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.314 0.314 0.311 ]
+	Color	[ 0.32 0.314 0.299 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	19
 	OrbitFrame
@@ -338,7 +338,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.351 0.358 0.363 ]
+	Color	[ 0.355 0.358 0.351 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	39
 	OrbitFrame
@@ -610,7 +610,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.324 0.323 0.299 ]
+	Color	[ 0.321 0.327 0.282 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	14
 	OrbitFrame
@@ -732,7 +732,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.274 0.281 0.28 ]
+	Color	[ 0.276 0.282 0.268 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	3.5
 	OrbitFrame
@@ -1626,7 +1626,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.316 0.309 0.3 ]
+	Color	[ 0.324 0.308 0.288 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	23
 	OrbitFrame
@@ -1658,7 +1658,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.386 0.379 0.375 ]
+	Color	[ 0.394 0.379 0.362 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	3.5
 	OrbitFrame
@@ -1816,7 +1816,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.347 0.34 0.329 ]
+	Color	[ 0.356 0.339 0.316 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	19
 	OrbitFrame
@@ -2004,7 +2004,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.347 0.349 0.344 ]
+	Color	[ 0.35 0.35 0.33 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	29
 	OrbitFrame
@@ -2190,7 +2190,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.283 0.28 0.279 ]
+	Color	[ 0.29 0.279 0.27 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	2.5
 	OrbitFrame
@@ -3098,7 +3098,7 @@
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.426 0.414 0.396 ]
+	Color	[ 0.331 0.312 0.285 ]
 	BlendTexture	true
 	SemiAxes	[ 16.5 12.5 12.5 ]
 	OrbitFrame
@@ -3344,7 +3344,7 @@
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.381 0.371 0.346 ]
+	Color	[ 0.26 0.252 0.219 ]
 	BlendTexture	true
 	SemiAxes	[ 21 18 18 ]
 	OrbitFrame
