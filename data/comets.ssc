@@ -88,7 +88,7 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Color	[ 0.153 0.15 0.138 ]
+	Color	[ 0.154 0.151 0.137 ]
 	BlendTexture	true
 	Radius	2.4					# D = 4.8 km
 
@@ -117,7 +117,7 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Color	[ 1.0 0.961 0.923 ]
+	Color	[ 1.0 0.942 0.904 ]
 	BlendTexture	true
 	Radius	1.71					# D = 3.42 km
 
@@ -146,7 +146,7 @@
 	Class	"comet"
 	Mesh	"borrelly.cms"
 	Texture	"asteroid.jpg"
-	Color	[ 0.226 0.226 0.226 ]
+	Color	[ 0.225 0.226 0.227 ]
 	BlendTexture	true
 	Radius	2.4					# D = 4.8 km
 
@@ -177,7 +177,7 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Color	[ 1.0 0.964 0.903 ]
+	Color	[ 1.0 0.952 0.883 ]
 	BlendTexture	true
 	Radius	1.0					# D = 2.0 km
 
@@ -287,7 +287,7 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Color	[ 0.23 0.219 0.206 ]
+	Color	[ 0.235 0.219 0.204 ]
 	BlendTexture	true
 	Radius	1.8					# D = 3.6 km
 
@@ -316,7 +316,7 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Color	[ 0.952 0.978 1.0 ]
+	Color	[ 0.938 0.977 1.0 ]
 	BlendTexture	true
 	Radius	3.2					# D = 6.4 km
 
@@ -372,7 +372,7 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Color	[ 0.396 0.382 0.361 ]
+	Color	[ 0.402 0.382 0.358 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	33.085				# D = 66.17 +/- 22.9 km
 
@@ -525,7 +525,7 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Color	[ 0.48 0.473 0.437 ]
+	Color	[ 0.482 0.476 0.434 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	30				# D = 60 +/- 20 km
 
@@ -645,7 +645,7 @@
 	Class	"comet"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.jpg"
-	Color	[ 0.367 0.369 0.373 ]
+	Color	[ 0.366 0.369 0.373 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	68.5				# D = 137 +/- 17 km
 

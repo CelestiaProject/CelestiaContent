@@ -1663,7 +1663,7 @@ AltSurface "Limit of knowledge" "Sol/Neptune/Triton"
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.592 0.57 0.551 ]
+	Color	[ 0.616 0.566 0.551 ]
 	BlendTexture	true
 	SemiAxes	[ 199 168 153 ]
 	Mass<kg>	3e19
