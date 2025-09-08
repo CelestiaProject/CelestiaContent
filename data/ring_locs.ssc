@@ -330,12 +330,12 @@ Location "Adams Ring" "Sol/Neptune"
 #   "The size, shape, density and ring of the dwarf planet Haumea from a stellar occultation"
 #   https://ui.adsabs.harvard.edu/abs/2017Natur.550..219O/abstract
 
-Location "Haumea's Ring" "Sol/Haumea"
-{
-    LongLat [ 0 0 1237 ]  # Radius: 2287 km
-    Importance 700  # 10 times actual size
-    Type "Ring"
-}
+#Location "Haumea's Ring" "Sol/Haumea"
+#{
+#    LongLat [ 0 0 1237 ]  # Radius: 2287 km
+#    Importance 700  # 10 times actual size
+#    Type "Ring"
+#}
 
 # Quaoar's ring system
 #   Semi-major axis: 643 km
