@@ -1,3 +1,47 @@
+# Jupiter's ring system
+#   Equatorial radius: 71492 +/- 4 km
+# Miner et al. (2007), "Planetary Ring Systems", 73-82
+#   "Present knowledge of the Jupiter ring system"
+#   https://link.springer.com/chapter/10.1007/978-0-387-73981-6_6
+
+Location "Halo Ring" "Sol/Jupiter"
+{
+    LongLat [ 0 0 39500 ]
+    Importance 5500  # 0.25 times actual size
+    Type "Ring"
+}
+
+Location "Main Ring" "Sol/Jupiter"
+{
+    LongLat [ 0 0 54100 ]
+    Importance 28800  # 4 times actual size
+    Type "Ring"
+}
+
+Location "Inner Gossamer Ring" "Sol/Jupiter"
+{
+    LongLat [ 0 0 84100 ]
+    Importance 13200  # 0.25 times actual size
+    Type "Ring"
+}
+
+Location "Outer Gossamer Ring" "Sol/Jupiter"
+{
+    LongLat [ 0 0 132000 ]
+    Importance 10725  # 0.25 times actual size
+    Type "Ring"
+}
+
+# Saturn's ring system
+#   Equatorial radius: 60268 +/- 4 km
+
+Location "D Ring" "Sol/Saturn"
+{
+    LongLat [ 0 0 10500 ]
+    Size 7500
+    Type "Ring"
+}
+
 Location "Colombo Gap" "Sol/Saturn"
 {
     LongLat [ 0 0 17530 ]
@@ -138,310 +182,204 @@ Location "F Ring" "Sol/Saturn"
     Type "Ring"
 }
 
-Location "Colombo Gap" "Sol/Saturn"
-{
-    LongLat [ 180 0 17530 ]
-    Size 100
-    Type "Ring"
-}
+# Uranus's ring system
+#   Equatorial radius: 25559 +/- 4 km
+# French et al. (2024), Icarus 411, id. 115957
+#   "The Uranus system from occultation observations (1977-2006): Rings, pole direction, gravity field, and masses of Cressida, Cordelia, and Ophelia"
+#   https://www.sciencedirect.com/science/article/pii/S0019103524000150
+#   https://ui.adsabs.harvard.edu/abs/2024Icar..41115957F/abstract
+# Zeta, Nu, and Mu rings from Miner et al. (2007), "Planetary Ring Systems", 83-94
+#   "Present knowledge of the Uranus ring system"
+#   https://link.springer.com/chapter/10.1007/978-0-387-73981-6_7
 
-Location "C Ring" "Sol/Saturn"
+Location "Zeta Ring" "Sol/Uranus"
 {
-    LongLat [ 180 0 23000 ]
-    Size 17500
-    Type "Ring"
-}
-
-Location "Maxwell Gap" "Sol/Saturn"
-{
-    LongLat [ 180 0 27230 ]
-    Size 270
-    Type "Ring"
-}
-
-Location "Bond Gap" "Sol/Saturn"
-{
-    LongLat [ 180 0 28440 ]
-    Size 30
-    Type "Ring"
-}
-
-Location "Dawes Gap" "Sol/Saturn"
-{
-    LongLat [ 180 0 29940 ]
-    Size 20
-    Type "Ring"
-}
-
-Location "B Ring" "Sol/Saturn"
-{
-    LongLat [ 180 0 44500 ]
-    Size 25500
-    Type "Ring"
-}
-
-Location "Huygens Gap" "Sol/Saturn"
-{
-    LongLat [ 180 0 57410 ]
-    Size 440
-    Type "Ring"
-}
-
-Location "Herschel Gap" "Sol/Saturn"
-{
-    LongLat [ 180 0 57966 ]
-    Size 102
-    Type "Ring"
-}
-
-Location "Russell Gap" "Sol/Saturn"
-{
-    LongLat [ 180 0 58345 ]
-    Size 33
-    Type "Ring"
-}
-
-Location "Jeffreys Gap" "Sol/Saturn"
-{
-    LongLat [ 180 0 58682 ]
-    Size 38
-    Type "Ring"
-}
-
-Location "Kuiper Gap" "Sol/Saturn"
-{
-    LongLat [ 180 0 59136 ]
-    Size 3
-    Type "Ring"
-}
-
-Location "Laplace Gap" "Sol/Saturn"
-{
-    LongLat [ 180 0 59699 ]
-    Size 238
-    Type "Ring"
-}
-
-Location "Bessel Gap" "Sol/Saturn"
-{
-    LongLat [ 180 0 59973 ]
-    Size 10
-    Type "Ring"
-}
-
-Location "Barnard Gap" "Sol/Saturn"
-{
-    LongLat [ 180 0 60044 ]
-    Size 13
-    Type "Ring"
-}
-
-Location "Cassini Division" "Sol/Saturn"
-{
-    LongLat [ 180 0 59580 ]
-    Size 4700
-    Type "Ring"
-}
-
-Location "A Ring" "Sol/Saturn"
-{
-    LongLat [ 180 0 69200 ]
-    Size 14600
-    Type "Ring"
-}
-
-Location "Encke Gap" "Sol/Saturn"
-{
-    LongLat [ 180 0 73300 ]
-    Size 325
-    Type "Ring"
-}
-
-Location "Keeler Gap" "Sol/Saturn"
-{
-    LongLat [ 180 0 76260 ]
-    Size 35
-    Type "Ring"
-}
-
-Location "Roche Division" "Sol/Saturn"
-{
-    LongLat [ 180 0 78220 ]
-    Size 2600
-    Type "Ring"
-}
-
-Location "F Ring" "Sol/Saturn"
-{
-    LongLat [ 180 0 79950 ]
-    Size 500
+    LongLat [ 0 0 14000 ]
+    Size 3500
     Type "Ring"
 }
 
 Location "Ring 6" "Sol/Uranus"
 {
     LongLat [ 0 0 16278 ]
-    Importance 2000
+    Importance 2317  # 1000 times actual size
     Type "Ring"
 }
 
 Location "Ring 5" "Sol/Uranus"
 {
-    LongLat [ 0 0 16675 ]
-    Importance 2000
+    LongLat [ 0 0 16676 ]
+    Importance 2684  # 1000 times actual size
     Type "Ring"
 }
 
 Location "Ring 4" "Sol/Uranus"
 {
     LongLat [ 0 0 17012 ]
-    Importance 2000
+    Importance 3232  # 1000 times actual size
     Type "Ring"
 }
 
 Location "Alpha Ring" "Sol/Uranus"
 {
-    LongLat [ 0 0 19159 ]
-    Importance 2000
+    LongLat [ 0 0 19160 ]
+    Importance 7277  # 1000 times actual size
     Type "Ring"
 }
 
 Location "Beta Ring" "Sol/Uranus"
 {
     LongLat [ 0 0 20102 ]
-    Importance 2000
+    Importance 8516  # 1000 times actual size
     Type "Ring"
 }
 
 Location "Eta Ring" "Sol/Uranus"
 {
     LongLat [ 0 0 21617 ]
-    Importance 2000
+    Importance 2227  # 1000 times actual size
     Type "Ring"
 }
 
 Location "Gamma Ring" "Sol/Uranus"
 {
-    LongLat [ 0 0 22068 ]
-    Importance 2000
+    LongLat [ 0 0 22067 ]
+    Importance 3259  # 1000 times actual size
     Type "Ring"
 }
 
 Location "Delta Ring" "Sol/Uranus"
 {
     LongLat [ 0 0 22741 ]
-    Importance 2000
+    Importance 4977  # 1000 times actual size
     Type "Ring"
 }
 
 Location "Lambda Ring" "Sol/Uranus"
 {
-    LongLat [ 0 0 24465 ]
-    Importance 2000
+    LongLat [ 0 0 24468 ]
+    Importance 1000
     Type "Ring"
 }
 
 Location "Epsilon Ring" "Sol/Uranus"
 {
     LongLat [ 0 0 25590 ]
-    Importance 2000
+    Importance 11714.8  # 200 times actual size
     Type "Ring"
 }
 
-Location "Ring 6" "Sol/Uranus"
+Location "Nu Ring" "Sol/Uranus"
 {
-    LongLat [ 180 0 16278 ]
-    Importance 2000
+    LongLat [ 0 0 41700 ]
+    Size 3800
     Type "Ring"
 }
 
-Location "Ring 5" "Sol/Uranus"
+Location "Mu Ring" "Sol/Uranus"
 {
-    LongLat [ 180 0 16675 ]
-    Importance 2000
+    LongLat [ 0 0 72100 ]
+    Importance 1700  # 0.1 times actual size
     Type "Ring"
 }
 
-Location "Ring 4" "Sol/Uranus"
-{
-    LongLat [ 180 0 17012 ]
-    Importance 2000
-    Type "Ring"
-}
+# Neptune's ring system
+#   Equatorial radius: 24764 +/- 15 km
+# Miner et al. (2007), "Planetary Ring Systems", 95-104
+#   "Present knowledge of the Neptune ring system"
+#   https://link.springer.com/chapter/10.1007/978-0-387-73981-6_8
 
-Location "Alpha Ring" "Sol/Uranus"
+Location "Galle Ring" "Sol/Neptune"
 {
-    LongLat [ 180 0 19159 ]
-    Importance 2000
-    Type "Ring"
-}
-
-Location "Beta Ring" "Sol/Uranus"
-{
-    LongLat [ 180 0 20102 ]
-    Importance 2000
-    Type "Ring"
-}
-
-Location "Eta Ring" "Sol/Uranus"
-{
-    LongLat [ 180 0 21617 ]
-    Importance 2000
-    Type "Ring"
-}
-
-Location "Gamma Ring" "Sol/Uranus"
-{
-    LongLat [ 180 0 22068 ]
-    Importance 2000
-    Type "Ring"
-}
-
-Location "Delta Ring" "Sol/Uranus"
-{
-    LongLat [ 180 0 22741 ]
-    Importance 2000
-    Type "Ring"
-}
-
-Location "Lambda Ring" "Sol/Uranus"
-{
-    LongLat [ 180 0 24465 ]
-    Importance 2000
-    Type "Ring"
-}
-
-Location "Epsilon Ring" "Sol/Uranus"
-{
-    LongLat [ 180 0 25590 ]
-    Importance 2000
+    LongLat [ 0 0 17100 ]
+    Importance 4000  # 2 times actual size
     Type "Ring"
 }
 
 Location "Le Verrier Ring" "Sol/Neptune"
 {
-    LongLat [ 0 0 28430 ]
-    Importance 3000
+    LongLat [ 0 0 28400 ]
+    Importance 1100  # 10 times actual size
+    Type "Ring"
+}
+
+Location "Lassell Ring" "Sol/Neptune"
+{
+    LongLat [ 0 0 30400 ]
+    Importance 8000  # 2 times actual size
+    Type "Ring"
+}
+
+Location "Arago Ring" "Sol/Neptune"
+{
+    LongLat [ 0 0 32400 ]
+    Importance 1000  # >10 times actual size
     Type "Ring"
 }
 
 Location "Adams Ring" "Sol/Neptune"
 {
-    LongLat [ 0 0 38166 ]
-    Importance 2000
+    LongLat [ 0 0 38168 ]
+    Importance 10000  # Size: 15-50 km
     Type "Ring"
 }
 
-Location "Le Verrier Ring" "Sol/Neptune"
+# Haumea's ring system
+#   Semi-major axis: 1050 km
+# Ortiz et al. (2017), Nature 550 (7675), p. 219-223
+#   "The size, shape, density and ring of the dwarf planet Haumea from a stellar occultation"
+#   https://ui.adsabs.harvard.edu/abs/2017Natur.550..219O/abstract
+
+Location "Haumea's Ring" "Sol/Haumea"
 {
-    LongLat [ 180 0 28430 ]
-    Importance 3000
+    LongLat [ 0 0 1237 ]  # Radius: 2287 km
+    Importance 700  # 10 times actual size
     Type "Ring"
 }
 
-Location "Adams Ring" "Sol/Neptune"
+# Quaoar's ring system
+#   Semi-major axis: 643 km
+# Pereira et al. (2023), A&A 673, 14
+#   "The two rings of (50000) Quaoar"
+#   https://ui.adsabs.harvard.edu/abs/2023A%26A...673L...4P/abstract
+#   https://ui.adsabs.harvard.edu/abs/2024A%26A...683C...4P/abstract (Corrigendum)
+#   Widths derived via weighed averages of measurements in Corrigendum's Table 1.
+
+Location "Q2R" "Sol/Quaoar"
 {
-    LongLat [ 180 0 38166 ]
-    Importance 2000
+    LongLat [ 0 0 1877 ]  # Radius: 2520 km
+    Importance 515  # 50 times actual size
+    Type "Ring"
+}
+
+Location "Q1R" "Sol/Quaoar"
+{
+    LongLat [ 0 0 3414 ]  # Radius: 4057 km
+    Importance 829  # 10 times actual size
+    Type "Ring"
+}
+
+# 2060 Chiron's ring system
+
+
+
+# 10199 Chariklo's ring system
+#   Semi-major axis: 143.8 km
+# Morgado et al. (2021), A&A 652, A141
+#   "Refined physical parameters for Chariklo's body and rings
+#    from stellar occultations observed between 2013 and 2020"
+#   https://ui.adsabs.harvard.edu/abs/2021A%26A...652A.141M/abstract
+
+Location "C1R" "Sol/Chariklo"
+{
+    LongLat [ 0 0 242.1 ]  # Radius: 385.9 km
+    Importance 68.6  # 10 times actual size
+    Type "Ring"
+}
+
+Location "C2R" "Sol/Chariklo"
+{
+    LongLat [ 0 0 256.0 ]  # Radius: 399.8 km
+    Importance 11.7  # 100 times actual size
     Type "Ring"
 }
