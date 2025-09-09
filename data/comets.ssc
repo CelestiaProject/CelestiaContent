@@ -27,7 +27,11 @@
 #   "A new analysis of Spitzer observations of Comet 29P/Schwassmann-Wachmann 1"
 #   https://ui.adsabs.harvard.edu/abs/2015Icar..260...60S/abstract
 #
-# Radius for C/1973 E1 (Kohoutek) is from Odell (1976), Astronomical Society of the Pacific, Publications, 88, 342-348.
+# Radius for C/1956 R1 (Arend-Roland) and C/2006 P1 (McNaught) is from Fernandez (2012), MNRAS 423, 1674-1690
+#   "Magnitude and size distribution of long-period comets in Earth-crossing or approaching orbits"
+#   https://doi.org/10.1111/j.1365-2966.2012.20989.x
+#
+# Radius for C/1973 E1 (Kohoutek) is from Odell (1976), PASP 88, 342-348.
 #   "Physical processes in comet Kohoutek."
 #   https://ui.adsabs.harvard.edu/abs/1976PASP...88..342O/abstract
 # 
@@ -35,11 +39,11 @@
 #   "Size and albedo of the largest detected Oort-cloud object: Comet C/2014 UN271 (Bernardinelli-Bernstein)"
 #   https://www.aanda.org/articles/aa/full_html/2022/03/aa43090-22/aa43090-22.html
 # 
-# Radius for C/2023 A3 (Tsuchinshan–ATLAS) is from Liu et al. (2025), A&A 698, id.L95
+# Radius and mass for C/2023 A3 (Tsuchinshan–ATLAS) is from Liu et al. (2025), A&A 698, id.L95
 #   "Great comet C/2023 A3 (Tsuchinshan–ATLAS): Dust loss before perihelion"
 #   https://www.aanda.org/articles/aa/full_html/2025/06/aa54632-25/aa54632-25.html
-# 
-# Last update: 12 June 2025
+#
+# Last update: 9 September 2025
 
 
 # Periodic Comets
@@ -52,6 +56,10 @@
 	BlendTexture	true
 	Radius	7.21					# D = 14.42 x 7.4 km
 	MeshCenter	[ -0.338 1.303 0.230 ]
+	Mass<kg>	2.2e14
+
+	# Mass estimates from Rickman (1989)
+	# https://doi.org/10.1016/0273-1177(89)90241-X
 
 	# Orbital parameters during its most recent perihelion is
 	# used (March 1986)
@@ -91,6 +99,10 @@
 	Color	[ 0.154 0.151 0.137 ]
 	BlendTexture	true
 	Radius	2.4					# D = 4.8 km
+	Mass<kg>	9.2e13
+
+	# Mass estimates from Sosa (2009)
+	# https://doi.org/10.1111/j.1365-2966.2008.14183.x
 
 	EllipticalOrbit
 	{
@@ -98,10 +110,10 @@
 		Period                3.306929418200257
 		SemiMajorAxis	      2.219615840608303
 		Eccentricity	      0.8482725906683406
-		Inclination	     11.47161933834569
+		Inclination	         11.47161933834569
 		AscendingNode	    334.2766853943025
 		ArgOfPericenter	    187.0513231009979
-		MeanAnomaly	    222.6741878267107
+		MeanAnomaly	        222.6741878267107
 	}
 
 	# Rotation period from Lowry (2007)
@@ -127,10 +139,10 @@
 		Period                6.905135023562981
 		SemiMajorAxis	      3.62612397801147
 		Eccentricity	      0.4301548244810638
-		Inclination	     19.07035853006311
+		Inclination	         19.07035853006311
 		AscendingNode	    326.7738104542646
 		ArgOfPericenter	     24.7385060050165
-		MeanAnomaly	    133.7855814366874
+		MeanAnomaly	        133.7855814366874
 	}
 
 	# Rotation period from Whipple (1984)
@@ -149,6 +161,10 @@
 	Color	[ 0.225 0.226 0.227 ]
 	BlendTexture	true
 	Radius	2.4					# D = 4.8 km
+	Mass<kg>	2.7e12
+
+	# Mass estimates from Sosa (2009)
+	# https://doi.org/10.1111/j.1365-2966.2008.14183.x
 
 	EllipticalOrbit
 	{
@@ -156,10 +172,10 @@
 		Period                6.850480548747891
 		SemiMajorAxis	      3.606964684326838
 		Eccentricity	      0.6379142835777641
-		Inclination	     29.3186623395529
+		Inclination	         29.3186623395529
 		AscendingNode	     74.30084258786506
 		ArgOfPericenter	    351.8616063839783
-		MeanAnomaly	    312.1229200779977
+		MeanAnomaly	        312.1229200779977
 	}
 
 	UniformRotation
@@ -187,10 +203,10 @@
 		Period                6.548873995488635
 		SemiMajorAxis	      3.500302848567133
 		Eccentricity	      0.7104704806622166
-		Inclination	     32.00259232473731
+		Inclination	         32.00259232473731
 		AscendingNode	    195.4044801966872
 		ArgOfPericenter	    172.8124824274917
-		MeanAnomaly	    314.6585273385641
+		MeanAnomaly	        314.6585273385641
 	}
 
 	# Rotation period from Knight (2023)
@@ -214,10 +230,10 @@
 		Period                5.259315586392263
 		SemiMajorAxis	      3.024224445052753
 		Eccentricity	      0.6396679618697105
-		Inclination	     22.45511403015216
+		Inclination	         22.45511403015216
 		AscendingNode	    211.633966473815
 		ArgOfPericenter	      1.896085645552865
-		MeanAnomaly	    273.4178382900974
+		MeanAnomaly	        273.4178382900974
 	}
 
 	# Actual rotation period is currently unknown
@@ -241,10 +257,10 @@
 		Period               14.75425242735976
 		SemiMajorAxis	      6.015513024557499
 		Eccentricity	      0.04166604640078779
-		Inclination	      9.37634487689952
+		Inclination	          9.37634487689952
 		AscendingNode	    312.4090392955372
 		ArgOfPericenter	     48.90792343360503
-		MeanAnomaly	    297.5561060173936
+		MeanAnomaly	        297.5561060173936
 	}
 
 	# Rotation period from Ivanova (2012)
@@ -261,6 +277,10 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
 	Radius	0.6					# D = 1.2 km
+	Mass<kg>	3.3e11
+
+	# Mass estimates from Sosa (2009)
+	# https://doi.org/10.1111/j.1365-2966.2008.14183.x
 
 	EllipticalOrbit
 	{
@@ -268,10 +288,10 @@
 		Period                5.438847265757708
 		SemiMajorAxis	      3.092661874753647
 		Eccentricity	      0.6587550054889648
-		Inclination	     11.7475487582537
+		Inclination	         11.7475487582537
 		AscendingNode	     82.15763392494087
 		ArgOfPericenter	    356.341071857073
-		MeanAnomaly	      0.01247351001231614
+		MeanAnomaly	          0.01247351001231614
 	}
 
 	# Rotation period from Meech (1997)
@@ -290,17 +310,21 @@
 	Color	[ 0.235 0.219 0.204 ]
 	BlendTexture	true
 	Radius	1.8					# D = 3.6 km
+	Mass<kg>	1.2e13
+
+	# Mass estimates from Jewitt (2004)
+	# https://ui.adsabs.harvard.edu/abs/2004come.book..659J
 
 	EllipticalOrbit
 	{
-		Epoch		2451040.500000	# 1998-Aug-15, 00:00
-		Period		     33.24178275837982
+		Epoch			2451040.500000	# 1998-Aug-15, 00:00
+		Period		         33.24178275837982
 		SemiMajorAxis	     10.3383382297577
 		Eccentricity	      0.905552720972412
-		Inclination	    162.486575379434
+		Inclination	        162.486575379434
 		AscendingNode	    235.270989149082
 		ArgOfPericenter	    172.5002736828059
-		MeanAnomaly	      4.97833968468816
+		MeanAnomaly	          4.97833968468816
 	}
 
 	# Rotation period from IAU Circular No. 6816 (1998)
@@ -322,14 +346,14 @@
 
 	EllipticalOrbit
 	{
-		Epoch		2457952.500000	# 2017-Jul-18, 00:00
-		Period		      5.287538902681542
+		Epoch			2457952.500000	# 2017-Jul-18, 00:00
+		Period			      5.287538902681542
 		SemiMajorAxis	      3.03503415132119
 		Eccentricity	      0.9591604569014903
-		Inclination	     58.1379341982923
+		Inclination	         58.1379341982923
 		AscendingNode	     94.25475500848404
 		ArgOfPericenter	     14.79291874358058
-		MeanAnomaly	    340.9939227088265
+		MeanAnomaly	        340.9939227088265
 	}
 
 	# Rotation period from IAU Circular No. 6816 (1998)
@@ -353,10 +377,10 @@
 		Period              133.2818438401728
 		SemiMajorAxis	     26.0920694978266
 		Eccentricity	      0.963225755046038
-		Inclination	    113.453816997171
+		Inclination	        113.453816997171
 		AscendingNode	    139.3811920815948
 		ArgOfPericenter	    152.9821676305871
-		MeanAnomaly	      7.631696167124212
+		MeanAnomaly	          7.631696167124212
 	}
 
 	# Rotation period from McDavid (1995)
@@ -382,10 +406,10 @@
 		Period               64.85546743889809
 		SemiMajorAxis	     16.14205890169403
 		Eccentricity	      0.2700193033402064
-		Inclination	     19.12660376408597
+		Inclination	         19.12660376408597
 		AscendingNode	    295.837027398652
 		ArgOfPericenter	    343.6457775778229
-		MeanAnomaly	     16.52184361854798
+		MeanAnomaly	         16.52184361854798
 	}
 
 	# Actual rotation period is currently unknown
@@ -404,18 +428,18 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	1.765				# D = 3.53 km, guess
+	Radius	1.765				# D = 3.53 km
 
 	EllipticalOrbit
 	{
-		Epoch		2452402.500000	# 2002-May-08, 00:00
-		Period		    365.4986961715122
+		Epoch			2452402.500000	# 2002-May-08, 00:00
+		Period		        365.4986961715122
 		SemiMajorAxis	     51.1193221677278
 		Eccentricity	      0.9900806570176691
-		Inclination	     28.1209574068563
+		Inclination	         28.1209574068563
 		AscendingNode	     93.36945661875394
 		ArgOfPericenter	     34.66817865742473
-		MeanAnomaly	      0.134886581151805
+		MeanAnomaly	          0.134886581151805
 	}
 
 	# Rotation period from Manzini (2007)
@@ -436,13 +460,13 @@
 	EllipticalOrbit
 	{
 		Epoch			2445467.500000	# 1983-May-13, 00:00
-		Period		    970.6790526888775
+		Period		        970.6790526888775
 		SemiMajorAxis	     98.03435675076732
 		Eccentricity	      0.9898878208777039
-		Inclination	     73.25137867780242
+		Inclination	         73.25137867780242
 		AscendingNode	     49.10245750540501
 		ArgOfPericenter	    192.8506889407098
-		MeanAnomaly	    359.9916183638424
+		MeanAnomaly		    359.9916183638424
 	}
 
 	# Rotation period from Goldstein (1984)
@@ -461,7 +485,7 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	1.6					# D = 3.2 km, guess
+	Radius	 1.58					# D = 3.16 km, Equation 1 of Fernandez (2012)
 
 	# Outbound elliptical barycentric orbit is used (1957)
 	# https://ssd.jpl.nasa.gov/horizons/app.html#/
@@ -471,13 +495,13 @@
 	EllipticalOrbit
 	{
 		Epoch			2436028.500000	# 1957-Jul-09, 00:00
-		Period		  22559.617575934633351
+		Period			  22559.617575934633351
 		SemiMajorAxis	    798.3835281410535
 		Eccentricity	      0.99996125289969054
-		Inclination	    119.9247650472963
+		Inclination		    119.9247650472963
 		AscendingNode	    216.0308728148151
 		ArgOfPericenter	    308.5531356190100
-		MeanAnomaly	      0.004002187679796569
+		MeanAnomaly		      0.004002187679796569
 	}
 
 	# Actual rotation period is unknown
@@ -503,13 +527,13 @@
 	EllipticalOrbit
 	{
 		Epoch			2634166.500000	# 2500-Jan-01, 00:00
-		Period		  78401.265492968188482
+		Period			  78401.265492968188482
 		SemiMajorAxis	   1831.776407481045
 		Eccentricity	      0.9999221277468180
-		Inclination	     14.20892450066592
+		Inclination	 	     14.20892450066592
 		AscendingNode	    258.3439730167626
 		ArgOfPericenter	     37.95842999569324
-		MeanAnomaly	      2.416925624045164
+		MeanAnomaly		      2.416925624045164
 	}
 
 	# Actual rotation period is unknown
@@ -528,17 +552,21 @@
 	Color	[ 0.482 0.476 0.434 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	30				# D = 60 +/- 20 km
+	Mass<kg>	1.9e14
+
+	# Mass estimates from Sosa (2011)
+	# https://doi.org/10.1111/j.1365-2966.2011.19111.x
 
 	EllipticalOrbit
 	{
 		Epoch			2459837.500000	# 2022-Sept-15, 00:00
-		Period		   2363.530468136978
+		Period			   2363.530468136978
 		SemiMajorAxis	    177.4333839117583
 		Eccentricity	      0.9949810027633206
-		Inclination	     89.28759424740302
+		Inclination	 	     89.28759424740302
 		AscendingNode	    282.7334213961641
 		ArgOfPericenter	    130.4146670659176
-		MeanAnomaly	      3.878386339423241
+		MeanAnomaly	 	      3.878386339423241
 	}
 
 	# Rotation period from Knight (2023)
@@ -554,18 +582,22 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	2.1					# D = 4.2 km
+	Radius	 2.1					# D = 4.2 km
+	Mass<kg>	1.9e12
+
+	# Mass estimates from Sosa (2011)
+	# https://doi.org/10.1111/j.1365-2966.2011.19111.x
 
 	EllipticalOrbit
 	{
 		Epoch			2450157.500000	# 1996-Mar-15, 00:00
-		Period		  97942.59992726530
+		Period			  97942.59992726530
 		SemiMajorAxis	   2124.755444393889
 		Eccentricity	      0.9998916470450123
-		Inclination	    124.9220493922234
+		Inclination	 	    124.9220493922234
 		AscendingNode	    188.045131992156
 		ArgOfPericenter	    130.1751209780967
-		MeanAnomaly	    359.9995230582502
+		MeanAnomaly	 	    359.9995230582502
 	}
 
 	# Rotation period from Schleicher (1998)
@@ -581,7 +613,7 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	12.5				# D = 25 km, dubious
+	Radius	 1.58				# D = 3.16 km, Equation 1 of Fernandez (2012)
 
 	# Inbound elliptical barycentric orbit is used (2007)
 	# https://ssd.jpl.nasa.gov/horizons/app.html#/
@@ -591,13 +623,13 @@
 	EllipticalOrbit
 	{
 		Epoch			2454108.833333333 # 2007-Jan-8, 08:00
-		Period		  52697.478956626247964
+		Period			  52697.478956626247964
 		SemiMajorAxis	   1405.562964747302
 		Eccentricity	      0.9998756212011907
-		Inclination	     77.34750819822122
+		Inclination		     77.34750819822122
 		AscendingNode	    267.1068712282699
 		ArgOfPericenter	    155.0607305317392
-		MeanAnomaly	    359.9999174144606
+		MeanAnomaly		    359.9999174144606
 	}
 
 	# Rotation period from Kharchuk (2010)
@@ -613,7 +645,7 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	0.275				# D = 0.55 km
+	Radius	 0.275				# D = 0.55 km
 
 	# Outbound elliptical barycentric orbit is used (2016)
 	# https://ssd.jpl.nasa.gov/horizons/app.html#/
@@ -623,13 +655,13 @@
 	EllipticalOrbit
 	{
 		Epoch			2457480.500000	# 2016-Apr-2, 00:00
-		Period		 313645.24322106631007
+		Period			 313645.24322106631007
 		SemiMajorAxis	   4616.181571612909
 		Eccentricity	      0.9996968331654886
-		Inclination	    128.9948715864994
+		Inclination		    128.9948715864994
 		AscendingNode	    301.0009245462045
 		ArgOfPericenter	      2.449604421603379
-		MeanAnomaly	      0.001648915313056205
+		MeanAnomaly		      0.001648915313056205
 	}
 
 	# Rotation period from Knight (2023)
@@ -647,18 +679,22 @@
 	Texture	"asteroid.jpg"
 	Color	[ 0.366 0.369 0.373 ]  # Geometric albedo
 	BlendTexture	true
-	Radius	68.5				# D = 137 +/- 17 km
+	Radius	 68.5				# D = 137 +/- 17 km
+	Mass<kg>	4.5e17
+
+	# Mass estimates from NASA (2022)
+	# https://www.nasa.gov/feature/goddard/2022/hubble-confirms-largest-comet-nucleus-ever-seen
 
 	EllipticalOrbit
 	{
 		Epoch			2458750.500000	# 2019-Sept-24, 00:00
-		Period		 300803.0639949109
+		Period			 300803.0639949109
 		SemiMajorAxis	   4489.342112465647
 		Eccentricity	      0.9975649080914114
-		Inclination	     95.50034193311355
+		Inclination		     95.50034193311355
 		AscendingNode	    190.0157567404514
 		ArgOfPericenter	    326.4246675873162
-		MeanAnomaly	    359.9864173004243
+		MeanAnomaly		    359.9864173004243
 	}
 
 	# Rotation period from Ferrin (2022)
@@ -674,18 +710,18 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	2.5					# D = 5.0 km
+	Radius	 2.5					# D = 5.0 km
 
 	EllipticalOrbit
 	{
 		Epoch			2459036.500000	# 2020-Jul-06, 00:00
-		Period		   6787.091630382272
+		Period			   6787.091630382272
 		SemiMajorAxis	    358.4679565529321
 		Eccentricity	      0.9991780262531292
-		Inclination	    128.9375027594809
+		Inclination		    128.9375027594809
 		AscendingNode	     61.01042818536988
 		ArgOfPericenter	     37.2786584481257
-		MeanAnomaly	      0.0003370720801246702
+		MeanAnomaly		      0.0003370720801246702
 	}
 
 	# Rotation period from Drahus (2020)
@@ -701,7 +737,8 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	5.9					# D = 11.8 +/- 0.4 km, upper limit
+	Radius	 5.9					# D = 11.8 +/- 0.4 km, upper limit
+	Mass<kg>	4.3e14
 
 	# Comet is currently on a hyperbolic ejection trajectory
 	# since 1900. Inbound barycentric orbit is used (2024)
@@ -712,13 +749,13 @@
 	EllipticalOrbit
 	{
 		Epoch			2460570.625000	# 2024-Sept-17, 03:00
-		Period		  93847.454727929158253
+		Period			  93847.454727929158253
 		SemiMajorAxis	   2065.08886494021
 		Eccentricity	      0.9998133246305106
-		Inclination	    138.9767058917233
+		Inclination		    138.9767058917233
 		AscendingNode	     21.50257662712503
 		ArgOfPericenter	    309.3893250633092
-		MeanAnomaly	    359.99998857859469
+		MeanAnomaly		    359.99998857859469
 	}
 
 	# Rotation period from Moreno (2025)
@@ -728,3 +765,4 @@
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/C/2023_A3_(Tsuchinshan-ATLAS)"
 }
+
