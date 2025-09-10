@@ -683,10 +683,6 @@
 	Color	[ 0.366 0.369 0.373 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	 68.5				# D = 137 +/- 17 km
-	Mass<kg>	4.5e17
-
-	# Mass estimates from NASA (2022)
-	# https://www.nasa.gov/feature/goddard/2022/hubble-confirms-largest-comet-nucleus-ever-seen
 
 	EllipticalOrbit
 	{
@@ -768,5 +764,6 @@
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/C/2023_A3_(Tsuchinshan-ATLAS)"
 }
+
 
 
