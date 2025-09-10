@@ -1,0 +1,3363 @@
+# This file contains capital cities and 10 most populous cities (with population over 1 million).
+
+# Generated using data from SimpleMaps
+#   https://simplemaps.com/data/world-cities
+#   Licensed under the Creative Commons Attribution 4.0 license:
+#   https://creativecommons.org/licenses/by/4.0/.
+# Processed on 2025-09-10 by AstroChara.
+
+# Importance is determined with formula:
+#   Importance = 2 * e^(log2(population) / 4)
+
+Location "Kabul" "Sol/Earth"  # Afghanistan
+{
+    LongLat [ 69.1783 34.5253 0 ]
+    Importance 492.6824355305906
+    Type "City"
+}
+
+Location "Āqchah" "Sol/Earth"  # Afghanistan
+{
+    LongLat [ 66.1858 36.9114 0 ]
+    Importance 293.0495318461434
+    Type "City"
+}
+
+Location "Tirana" "Sol/Earth"  # Albania
+{
+    LongLat [ 19.8186 41.3272 0 ]
+    Importance 213.12096082391605
+    Type "City"
+}
+
+Location "Algiers" "Sol/Earth"  # Algeria
+{
+    LongLat [ 3.0872 36.7325 0 ]
+    Importance 397.9721074304666
+    Type "City"
+}
+
+Location "Pago Pago" "Sol/Earth"  # American Samoa
+{
+    LongLat [ -170.7046 -14.274 0 ]
+    Importance 60.20428662196134
+    Type "City"
+}
+
+Location "Andorra la Vella" "Sol/Earth"  # Andorra
+{
+    LongLat [ 1.5 42.5 0 ]
+    Importance 74.39548648239715
+    Type "City"
+}
+
+Location "Cacuaco" "Sol/Earth"  # Angola
+{
+    LongLat [ 13.2444 -8.8053 0 ]
+    Importance 318.91703069236434
+    Type "City"
+}
+
+Location "Luanda" "Sol/Earth"  # Angola
+{
+    LongLat [ 13.2344 -8.8383 0 ]
+    Importance 645.8444092329777
+    Type "City"
+}
+
+Location "The Valley" "Sol/Earth"  # Anguilla
+{
+    LongLat [ -63.0517 18.2208 0 ]
+    Importance 37.032858866205544
+    Type "City"
+}
+
+Location "Saint John’s" "Sol/Earth"  # Antigua and Barbuda
+{
+    LongLat [ -61.85 17.1167 0 ]
+    Importance 73.92298051359668
+    Type "City"
+}
+
+Location "Córdoba" "Sol/Earth"  # Argentina
+{
+    LongLat [ -64.1833 -31.4167 0 ]
+    Importance 381.7597045489401
+    Type "City"
+}
+
+Location "Rosario" "Sol/Earth"  # Argentina
+{
+    LongLat [ -60.6394 -32.9575 0 ]
+    Importance 318.6031884662232
+    Type "City"
+}
+
+Location "Buenos Aires" "Sol/Earth"  # Argentina
+{
+    LongLat [ -58.3814 -34.6036 0 ]
+    Importance 805.6901827498972
+    Type "City"
+}
+
+Location "Yerevan" "Sol/Earth"  # Armenia
+{
+    LongLat [ 44.5144 40.1814 0 ]
+    Importance 302.61912087110136
+    Type "City"
+}
+
+Location "Oranjestad" "Sol/Earth"  # Aruba
+{
+    LongLat [ -70.0358 12.5186 0 ]
+    Importance 81.02921412281445
+    Type "City"
+}
+
+Location "Canberra" "Sol/Earth"  # Australia
+{
+    LongLat [ 149.1269 -35.2931 0 ]
+    Importance 206.12168913569286
+    Type "City"
+}
+
+Location "Brisbane" "Sol/Earth"  # Australia
+{
+    LongLat [ 153.0281 -27.4678 0 ]
+    Importance 417.8859359056901
+    Type "City"
+}
+
+Location "Perth" "Sol/Earth"  # Australia
+{
+    LongLat [ 115.8597 -31.9558 0 ]
+    Importance 384.0416423989457
+    Type "City"
+}
+
+Location "Sydney" "Sol/Earth"  # Australia
+{
+    LongLat [ 151.2 -33.8667 0 ]
+    Importance 515.3445951072025
+    Type "City"
+}
+
+Location "Adelaide" "Sol/Earth"  # Australia
+{
+    LongLat [ 138.6 -34.9275 0 ]
+    Importance 328.35872126494303
+    Type "City"
+}
+
+Location "Melbourne" "Sol/Earth"  # Australia
+{
+    LongLat [ 144.9631 -37.8142 0 ]
+    Importance 522.5729543429821
+    Type "City"
+}
+
+Location "Vienna" "Sol/Earth"  # Austria
+{
+    LongLat [ 16.3725 48.2083 0 ]
+    Importance 389.24330004826083
+    Type "City"
+}
+
+Location "Baku" "Sol/Earth"  # Azerbaijan
+{
+    LongLat [ 49.8352 40.3667 0 ]
+    Importance 394.069065467759
+    Type "City"
+}
+
+Location "Nassau" "Sol/Earth"  # Bahamas, The
+{
+    LongLat [ -77.3503 25.0442 0 ]
+    Importance 183.0258536331755
+    Type "City"
+}
+
+Location "Manama" "Sol/Earth"  # Bahrain
+{
+    LongLat [ 50.5875 26.2233 0 ]
+    Importance 260.0947896641601
+    Type "City"
+}
+
+Location "Dhaka" "Sol/Earth"  # Bangladesh
+{
+    LongLat [ 90.3944 23.7289 0 ]
+    Importance 846.0309750487969
+    Type "City"
+}
+
+Location "Chattogram" "Sol/Earth"  # Bangladesh
+{
+    LongLat [ 91.8325 22.335 0 ]
+    Importance 410.8021456241424
+    Type "City"
+}
+
+Location "Gāzipura" "Sol/Earth"  # Bangladesh
+{
+    LongLat [ 90.3959 23.9234 0 ]
+    Importance 416.0823467406972
+    Type "City"
+}
+
+Location "Rangapukur" "Sol/Earth"  # Bangladesh
+{
+    LongLat [ 89.2147 25.5206 0 ]
+    Importance 295.06218012346574
+    Type "City"
+}
+
+Location "Bridgetown" "Sol/Earth"  # Barbados
+{
+    LongLat [ -59.6131 13.0969 0 ]
+    Importance 131.6218686327576
+    Type "City"
+}
+
+Location "Minsk" "Sol/Earth"  # Belarus
+{
+    LongLat [ 27.5586 53.9006 0 ]
+    Importance 374.18479350669713
+    Type "City"
+}
+
+Location "Brussels" "Sol/Earth"  # Belgium
+{
+    LongLat [ 4.3525 50.8467 0 ]
+    Importance 316.20952467830097
+    Type "City"
+}
+
+Location "Belmopan" "Sol/Earth"  # Belize
+{
+    LongLat [ -88.7639 17.2522 0 ]
+    Importance 39.8289188106809
+    Type "City"
+}
+
+Location "Cotonou" "Sol/Earth"  # Benin
+{
+    LongLat [ 2.4333 6.3667 0 ]
+    Importance 253.7670111021541
+    Type "City"
+}
+
+Location "Porto-Novo" "Sol/Earth"  # Benin
+{
+    LongLat [ 2.605 6.4972 0 ]
+    Importance 141.01540800100113
+    Type "City"
+}
+
+Location "Hamilton" "Sol/Earth"  # Bermuda
+{
+    LongLat [ -64.7819 32.2942 0 ]
+    Importance 22.82075081388178
+    Type "City"
+}
+
+Location "Thimphu" "Sol/Earth"  # Bhutan
+{
+    LongLat [ 89.6361 27.4722 0 ]
+    Importance 133.56053388777806
+    Type "City"
+}
+
+Location "La Paz" "Sol/Earth"  # Bolivia
+{
+    LongLat [ -68.1333 -16.4958 0 ]
+    Importance 193.69458928874545
+    Type "City"
+}
+
+Location "Sucre" "Sol/Earth"  # Bolivia
+{
+    LongLat [ -65.26 -19.0475 0 ]
+    Importance 189.0096221006962
+    Type "City"
+}
+
+Location "Santa Cruz de la Sierra" "Sol/Earth"  # Bolivia
+{
+    LongLat [ -63.1975 -17.7892 0 ]
+    Importance 441.45192781774904
+    Type "City"
+}
+
+Location "Sarajevo" "Sol/Earth"  # Bosnia and Herzegovina
+{
+    LongLat [ 18.4131 43.8564 0 ]
+    Importance 175.43657579664705
+    Type "City"
+}
+
+Location "Gaborone" "Sol/Earth"  # Botswana
+{
+    LongLat [ 25.9086 -24.6569 0 ]
+    Importance 173.30909735164315
+    Type "City"
+}
+
+Location "Recife" "Sol/Earth"  # Brazil
+{
+    LongLat [ -34.8808 -8.0539 0 ]
+    Importance 336.8392733187119
+    Type "City"
+}
+
+Location "Belém" "Sol/Earth"  # Brazil
+{
+    LongLat [ -48.5039 -1.4558 0 ]
+    Importance 319.01822877879
+    Type "City"
+}
+
+Location "Salvador" "Sol/Earth"  # Brazil
+{
+    LongLat [ -38.4928 -12.9831 0 ]
+    Importance 401.1938996325797
+    Type "City"
+}
+
+Location "Belo Horizonte" "Sol/Earth"  # Brazil
+{
+    LongLat [ -43.9419 -19.9281 0 ]
+    Importance 533.4886753831073
+    Type "City"
+}
+
+Location "São Paulo" "Sol/Earth"  # Brazil
+{
+    LongLat [ -46.6339 -23.5504 0 ]
+    Importance 905.3086208669766
+    Type "City"
+}
+
+Location "Curitiba" "Sol/Earth"  # Brazil
+{
+    LongLat [ -49.2719 -25.4297 0 ]
+    Importance 358.78864661715744
+    Type "City"
+}
+
+Location "Fortaleza" "Sol/Earth"  # Brazil
+{
+    LongLat [ -38.5275 -3.7275 0 ]
+    Importance 488.27452365668415
+    Type "City"
+}
+
+Location "Rio de Janeiro" "Sol/Earth"  # Brazil
+{
+    LongLat [ -43.2056 -22.9111 0 ]
+    Importance 727.5248875144291
+    Type "City"
+}
+
+Location "Brasília" "Sol/Earth"  # Brazil
+{
+    LongLat [ -47.8828 -15.7939 0 ]
+    Importance 144.22493463119574
+    Type "City"
+}
+
+Location "Porto Alegre" "Sol/Earth"  # Brazil
+{
+    LongLat [ -51.23 -30.0328 0 ]
+    Importance 323.65125957004767
+    Type "City"
+}
+
+Location "Guarulhos" "Sol/Earth"  # Brazil
+{
+    LongLat [ -46.5333 -23.4667 0 ]
+    Importance 322.94363218521477
+    Type "City"
+}
+
+Location "Bandar Seri Begawan" "Sol/Earth"  # Brunei
+{
+    LongLat [ 114.9422 4.8903 0 ]
+    Importance 99.0433169282047
+    Type "City"
+}
+
+Location "Sofia" "Sol/Earth"  # Bulgaria
+{
+    LongLat [ 23.3217 42.6979 0 ]
+    Importance 329.7895932268145
+    Type "City"
+}
+
+Location "Ouagadougou" "Sol/Earth"  # Burkina Faso
+{
+    LongLat [ -1.5275 12.3686 0 ]
+    Importance 436.94510700781285
+    Type "City"
+}
+
+Location "Nay Pyi Taw" "Sol/Earth"  # Burma
+{
+    LongLat [ 96.115 19.7475 0 ]
+    Importance 307.86019278452704
+    Type "City"
+}
+
+Location "Mandalay" "Sol/Earth"  # Burma
+{
+    LongLat [ 96.0844 21.9831 0 ]
+    Importance 322.47449245308934
+    Type "City"
+}
+
+Location "Rangoon" "Sol/Earth"  # Burma
+{
+    LongLat [ 96.16 16.795 0 ]
+    Importance 584.833262839505
+    Type "City"
+}
+
+Location "Gitega" "Sol/Earth"  # Burundi
+{
+    LongLat [ 29.925 -3.4283 0 ]
+    Importance 141.88865949782036
+    Type "City"
+}
+
+Location "Bujumbura" "Sol/Earth"  # Burundi
+{
+    LongLat [ 29.3667 -3.3833 0 ]
+    Importance 306.2217183246249
+    Type "City"
+}
+
+Location "Praia" "Sol/Earth"  # Cabo Verde
+{
+    LongLat [ -23.5092 14.9177 0 ]
+    Importance 106.81147828470164
+    Type "City"
+}
+
+Location "Phnom Penh" "Sol/Earth"  # Cambodia
+{
+    LongLat [ 104.921 11.5696 0 ]
+    Importance 383.2341484173702
+    Type "City"
+}
+
+Location "Douala" "Sol/Earth"  # Cameroon
+{
+    LongLat [ 9.7 4.05 0 ]
+    Importance 548.9910424292405
+    Type "City"
+}
+
+Location "Yaoundé" "Sol/Earth"  # Cameroon
+{
+    LongLat [ 11.5167 3.8667 0 ]
+    Importance 402.5534547531124
+    Type "City"
+}
+
+Location "Toronto" "Sol/Earth"  # Canada
+{
+    LongLat [ -79.3733 43.7417 0 ]
+    Importance 544.8183176590483
+    Type "City"
+}
+
+Location "Ottawa" "Sol/Earth"  # Canada
+{
+    LongLat [ -75.695 45.4247 0 ]
+    Importance 298.88066728128325
+    Type "City"
+}
+
+Location "Montréal" "Sol/Earth"  # Canada
+{
+    LongLat [ -73.5617 45.5089 0 ]
+    Importance 466.611440408126
+    Type "City"
+}
+
+Location "Vancouver" "Sol/Earth"  # Canada
+{
+    LongLat [ -123.1 49.25 0 ]
+    Importance 401.70098640706277
+    Type "City"
+}
+
+Location "Calgary" "Sol/Earth"  # Canada
+{
+    LongLat [ -114.0667 51.05 0 ]
+    Importance 321.3543784415837
+    Type "City"
+}
+
+Location "Edmonton" "Sol/Earth"  # Canada
+{
+    LongLat [ -113.4903 53.5344 0 ]
+    Importance 307.03452728946894
+    Type "City"
+}
+
+Location "George Town" "Sol/Earth"  # Cayman Islands
+{
+    LongLat [ -81.3811 19.295 0 ]
+    Importance 80.04579021447964
+    Type "City"
+}
+
+Location "Bangui" "Sol/Earth"  # Central African Republic
+{
+    LongLat [ 18.5628 4.3733 0 ]
+    Importance 279.69419906250283
+    Type "City"
+}
+
+Location "N’Djamena" "Sol/Earth"  # Chad
+{
+    LongLat [ 15.0447 12.1053 0 ]
+    Importance 270.0749377050108
+    Type "City"
+}
+
+Location "Santiago" "Sol/Earth"  # Chile
+{
+    LongLat [ -70.6506 -33.4372 0 ]
+    Importance 593.8239543513597
+    Type "City"
+}
+
+Location "Chongqing" "Sol/Earth"  # China
+{
+    LongLat [ 106.5504 29.5637 0 ]
+    Importance 717.8889373558271
+    Type "City"
+}
+
+Location "Linyi" "Sol/Earth"  # China
+{
+    LongLat [ 118.3564 35.1038 0 ]
+    Importance 688.7969130054071
+    Type "City"
+}
+
+Location "Dongguan" "Sol/Earth"  # China
+{
+    LongLat [ 113.752 23.021 0 ]
+    Importance 684.7810926791689
+    Type "City"
+}
+
+Location "Baoding" "Sol/Earth"  # China
+{
+    LongLat [ 115.464 38.874 0 ]
+    Importance 682.4735291610262
+    Type "City"
+}
+
+Location "Shanghai" "Sol/Earth"  # China
+{
+    LongLat [ 121.4747 31.2286 0 ]
+    Importance 919.0819876615985
+    Type "City"
+}
+
+Location "Shenzhen" "Sol/Earth"  # China
+{
+    LongLat [ 114.0596 22.5415 0 ]
+    Importance 821.2309371455705
+    Type "City"
+}
+
+Location "Chengdu" "Sol/Earth"  # China
+{
+    LongLat [ 104.0633 30.66 0 ]
+    Importance 768.256294994501
+    Type "City"
+}
+
+Location "Tianjin" "Sol/Earth"  # China
+{
+    LongLat [ 117.2054 39.1336 0 ]
+    Importance 678.2769955027868
+    Type "City"
+}
+
+Location "Guangzhou" "Sol/Earth"  # China
+{
+    LongLat [ 113.26 23.13 0 ]
+    Importance 957.1487464505801
+    Type "City"
+}
+
+Location "Xi’an" "Sol/Earth"  # China
+{
+    LongLat [ 108.9422 34.2611 0 ]
+    Importance 721.9862095427881
+    Type "City"
+}
+
+Location "Beijing" "Sol/Earth"  # China
+{
+    LongLat [ 116.3975 39.9067 0 ]
+    Importance 836.1694791625804
+    Type "City"
+}
+
+Location "Flying Fish Cove" "Sol/Earth"  # Christmas Island
+{
+    LongLat [ 105.6728 -10.4261 0 ]
+    Importance 28.613703213865893
+    Type "City"
+}
+
+Location "Barranquilla" "Sol/Earth"  # Colombia
+{
+    LongLat [ -74.8019 10.9833 0 ]
+    Importance 323.10243788047245
+    Type "City"
+}
+
+Location "Medellín" "Sol/Earth"  # Colombia
+{
+    LongLat [ -75.5906 6.2308 0 ]
+    Importance 407.7843788411672
+    Type "City"
+}
+
+Location "Cali" "Sol/Earth"  # Colombia
+{
+    LongLat [ -76.5222 3.4206 0 ]
+    Importance 425.08973500657464
+    Type "City"
+}
+
+Location "Bogotá" "Sol/Earth"  # Colombia
+{
+    LongLat [ -74.0722 4.7111 0 ]
+    Importance 618.6861229340493
+    Type "City"
+}
+
+Location "Moroni" "Sol/Earth"  # Comoros
+{
+    LongLat [ 43.256 -11.699 0 ]
+    Importance 67.49676275152063
+    Type "City"
+}
+
+Location "Brazzaville" "Sol/Earth"  # Congo (Brazzaville)
+{
+    LongLat [ 15.2667 -4.2667 0 ]
+    Importance 409.38927176498976
+    Type "City"
+}
+
+Location "Pointe-Noire" "Sol/Earth"  # Congo (Brazzaville)
+{
+    LongLat [ 11.8503 -4.7975 0 ]
+    Importance 331.1817992833523
+    Type "City"
+}
+
+Location "Mbuji-Mayi" "Sol/Earth"  # Congo (Kinshasa)
+{
+    LongLat [ 23.6 -6.15 0 ]
+    Importance 427.971331543444
+    Type "City"
+}
+
+Location "Mbandaka" "Sol/Earth"  # Congo (Kinshasa)
+{
+    LongLat [ 18.2558 0.0478 0 ]
+    Importance 310.4812590259247
+    Type "City"
+}
+
+Location "Bukavu" "Sol/Earth"  # Congo (Kinshasa)
+{
+    LongLat [ 28.8608 -2.5061 0 ]
+    Importance 305.2332651854265
+    Type "City"
+}
+
+Location "Kisangani" "Sol/Earth"  # Congo (Kinshasa)
+{
+    LongLat [ 25.2 0.5167 0 ]
+    Importance 300.1045619186369
+    Type "City"
+}
+
+Location "Tshikapa" "Sol/Earth"  # Congo (Kinshasa)
+{
+    LongLat [ 20.8 -6.4167 0 ]
+    Importance 292.46225650371326
+    Type "City"
+}
+
+Location "Kananga" "Sol/Earth"  # Congo (Kinshasa)
+{
+    LongLat [ 22.4488 -5.897 0 ]
+    Importance 372.7470610523203
+    Type "City"
+}
+
+Location "Lubumbashi" "Sol/Earth"  # Congo (Kinshasa)
+{
+    LongLat [ 27.4794 -11.6647 0 ]
+    Importance 359.7115665401145
+    Type "City"
+}
+
+Location "Kinshasa" "Sol/Earth"  # Congo (Kinshasa)
+{
+    LongLat [ 15.3119 -4.3219 0 ]
+    Importance 732.578329976754
+    Type "City"
+}
+
+Location "Avarua" "Sol/Earth"  # Cook Islands
+{
+    LongLat [ -159.771 -21.207 0 ]
+    Importance 39.86121739532608
+    Type "City"
+}
+
+Location "San José" "Sol/Earth"  # Costa Rica
+{
+    LongLat [ -84.08 9.9325 0 ]
+    Importance 341.20171376681776
+    Type "City"
+}
+
+Location "Zagreb" "Sol/Earth"  # Croatia
+{
+    LongLat [ 15.9772 45.8131 0 ]
+    Importance 265.18442828840017
+    Type "City"
+}
+
+Location "Havana" "Sol/Earth"  # Cuba
+{
+    LongLat [ -82.3589 23.1367 0 ]
+    Importance 380.6324784597592
+    Type "City"
+}
+
+Location "Willemstad" "Sol/Earth"  # Curaçao
+{
+    LongLat [ -68.935 12.108 0 ]
+    Importance 147.2008417000525
+    Type "City"
+}
+
+Location "Nicosia" "Sol/Earth"  # Cyprus
+{
+    LongLat [ 33.365 35.1725 0 ]
+    Importance 195.61996154591884
+    Type "City"
+}
+
+Location "Prague" "Sol/Earth"  # Czechia
+{
+    LongLat [ 14.4214 50.0875 0 ]
+    Importance 328.1402207057301
+    Type "City"
+}
+
+Location "Yopougon" "Sol/Earth"  # Côte d’Ivoire
+{
+    LongLat [ -4.0867 5.3748 0 ]
+    Importance 343.42716130985605
+    Type "City"
+}
+
+Location "Yamoussoukro" "Sol/Earth"  # Côte d’Ivoire
+{
+    LongLat [ -5.2742 6.8161 0 ]
+    Importance 197.78669040710886
+    Type "City"
+}
+
+Location "Abidjan" "Sol/Earth"  # Côte d’Ivoire
+{
+    LongLat [ -4.0267 5.3364 0 ]
+    Importance 520.6488168181919
+    Type "City"
+}
+
+Location "Copenhagen" "Sol/Earth"  # Denmark
+{
+    LongLat [ 12.5615 55.6805 0 ]
+    Importance 326.5581911716221
+    Type "City"
+}
+
+Location "Djibouti" "Sol/Earth"  # Djibouti
+{
+    LongLat [ 43.1481 11.5944 0 ]
+    Importance 243.26094560793837
+    Type "City"
+}
+
+Location "Roseau" "Sol/Earth"  # Dominica
+{
+    LongLat [ -61.3883 15.3014 0 ]
+    Importance 63.729157153064506
+    Type "City"
+}
+
+Location "Santo Domingo" "Sol/Earth"  # Dominican Republic
+{
+    LongLat [ -69.8933 18.4764 0 ]
+    Importance 304.8127984667284
+    Type "City"
+}
+
+Location "Santiago" "Sol/Earth"  # Dominican Republic
+{
+    LongLat [ -70.6889 19.4572 0 ]
+    Importance 324.5753560911011
+    Type "City"
+}
+
+Location "Quito" "Sol/Earth"  # Ecuador
+{
+    LongLat [ -78.5125 -0.22 0 ]
+    Importance 358.02531512722203
+    Type "City"
+}
+
+Location "Guayaquil" "Sol/Earth"  # Ecuador
+{
+    LongLat [ -79.8875 -2.19 0 ]
+    Importance 438.5424344666329
+    Type "City"
+}
+
+Location "Giza" "Sol/Earth"  # Egypt
+{
+    LongLat [ 31.2118 29.987 0 ]
+    Importance 543.0997985759983
+    Type "City"
+}
+
+Location "Shubrā al Khaymah" "Sol/Earth"  # Egypt
+{
+    LongLat [ 31.2422 30.1286 0 ]
+    Importance 294.4606749784196
+    Type "City"
+}
+
+Location "Cairo" "Sol/Earth"  # Egypt
+{
+    LongLat [ 31.2358 30.0444 0 ]
+    Importance 864.2138093726669
+    Type "City"
+}
+
+Location "Alexandria" "Sol/Earth"  # Egypt
+{
+    LongLat [ 29.8925 31.1975 0 ]
+    Importance 516.4713233774428
+    Type "City"
+}
+
+Location "San Salvador" "Sol/Earth"  # El Salvador
+{
+    LongLat [ -89.1914 13.6989 0 ]
+    Importance 340.84447716852395
+    Type "City"
+}
+
+Location "Malabo" "Sol/Earth"  # Equatorial Guinea
+{
+    LongLat [ 8.7744 3.7456 0 ]
+    Importance 188.32572283301982
+    Type "City"
+}
+
+Location "Asmara" "Sol/Earth"  # Eritrea
+{
+    LongLat [ 38.9411 15.3358 0 ]
+    Importance 287.8505001583797
+    Type "City"
+}
+
+Location "Tallinn" "Sol/Earth"  # Estonia
+{
+    LongLat [ 24.7453 59.4372 0 ]
+    Importance 248.13907291732662
+    Type "City"
+}
+
+Location "Lobamba" "Sol/Earth"  # Eswatini
+{
+    LongLat [ 31.2 -26.4667 0 ]
+    Importance 45.540702056879105
+    Type "City"
+}
+
+Location "Mbabane" "Sol/Earth"  # Eswatini
+{
+    LongLat [ 31.1333 -26.3167 0 ]
+    Importance 106.21293750178395
+    Type "City"
+}
+
+Location "Addis Ababa" "Sol/Earth"  # Ethiopia
+{
+    LongLat [ 38.74 9.03 0 ]
+    Importance 546.772504025841
+    Type "City"
+}
+
+Location "Stanley" "Sol/Earth"  # Falkland Islands (Islas Malvinas)
+{
+    LongLat [ -57.85 -51.7 0 ]
+    Importance 32.1719229632208
+    Type "City"
+}
+
+Location "Tórshavn" "Sol/Earth"  # Faroe Islands
+{
+    LongLat [ -6.7833 62.0 0 ]
+    Importance 61.47534653707157
+    Type "City"
+}
+
+Location "Suva" "Sol/Earth"  # Fiji
+{
+    LongLat [ 178.4333 -18.1333 0 ]
+    Importance 121.57850196895477
+    Type "City"
+}
+
+Location "Helsinki" "Sol/Earth"  # Finland
+{
+    LongLat [ 24.9375 60.1708 0 ]
+    Importance 326.02069968218365
+    Type "City"
+}
+
+Location "Paris" "Sol/Earth"  # France
+{
+    LongLat [ 2.3522 48.8567 0 ]
+    Importance 694.2687913934534
+    Type "City"
+}
+
+Location "Cayenne" "Sol/Earth"  # French Guiana
+{
+    LongLat [ -52.33 4.933 0 ]
+    Importance 106.75270481410023
+    Type "City"
+}
+
+Location "Papeete" "Sol/Earth"  # French Polynesia
+{
+    LongLat [ -149.5667 -17.5334 0 ]
+    Importance 140.45082707768785
+    Type "City"
+}
+
+Location "Libreville" "Sol/Earth"  # Gabon
+{
+    LongLat [ 9.4544 0.3901 0 ]
+    Importance 268.8634386908686
+    Type "City"
+}
+
+Location "Banjul" "Sol/Earth"  # Gambia, The
+{
+    LongLat [ -16.5786 13.4581 0 ]
+    Importance 212.1809140623969
+    Type "City"
+}
+
+Location "Gaza" "Sol/Earth"  # Gaza Strip
+{
+    LongLat [ 34.456 31.5069 0 ]
+    Importance 241.29734237846426
+    Type "City"
+}
+
+Location "Tbilisi" "Sol/Earth"  # Georgia
+{
+    LongLat [ 44.7925 41.7225 0 ]
+    Importance 303.7729845150753
+    Type "City"
+}
+
+Location "Hamburg" "Sol/Earth"  # Germany
+{
+    LongLat [ 10.0 53.55 0 ]
+    Importance 405.86901989077336
+    Type "City"
+}
+
+Location "Munich" "Sol/Earth"  # Germany
+{
+    LongLat [ 11.575 48.1375 0 ]
+    Importance 412.19704528947705
+    Type "City"
+}
+
+Location "Berlin" "Sol/Earth"  # Germany
+{
+    LongLat [ 13.405 52.52 0 ]
+    Importance 509.09157897268426
+    Type "City"
+}
+
+Location "Stuttgart" "Sol/Earth"  # Germany
+{
+    LongLat [ 9.18 48.7775 0 ]
+    Importance 422.3402447153411
+    Type "City"
+}
+
+Location "Cologne" "Sol/Earth"  # Germany
+{
+    LongLat [ 6.9528 50.9364 0 ]
+    Importance 300.73949253146895
+    Type "City"
+}
+
+Location "Kumasi" "Sol/Earth"  # Ghana
+{
+    LongLat [ -1.625 6.7 0 ]
+    Importance 476.86314518527723
+    Type "City"
+}
+
+Location "Tamale" "Sol/Earth"  # Ghana
+{
+    LongLat [ -0.8533 9.4075 0 ]
+    Importance 301.58083304609767
+    Type "City"
+}
+
+Location "Boankra" "Sol/Earth"  # Ghana
+{
+    LongLat [ -1.4051 6.6919 0 ]
+    Importance 451.17902179895464
+    Type "City"
+}
+
+Location "Domaa-Ahenkro" "Sol/Earth"  # Ghana
+{
+    LongLat [ -2.8735 7.2739 0 ]
+    Importance 291.79144653427744
+    Type "City"
+}
+
+Location "Accra" "Sol/Earth"  # Ghana
+{
+    LongLat [ -0.2067 5.5461 0 ]
+    Importance 225.898932983292
+    Type "City"
+}
+
+Location "Gibraltar" "Sol/Earth"  # Gibraltar
+{
+    LongLat [ -5.35 36.14 0 ]
+    Importance 86.1845377206791
+    Type "City"
+}
+
+Location "Athens" "Sol/Earth"  # Greece
+{
+    LongLat [ 23.7281 37.9842 0 ]
+    Importance 436.7646179895676
+    Type "City"
+}
+
+Location "Nuuk" "Sol/Earth"  # Greenland
+{
+    LongLat [ -51.7361 64.1767 0 ]
+    Importance 68.961491635084
+    Type "City"
+}
+
+Location "Saint George’s" "Sol/Earth"  # Grenada
+{
+    LongLat [ -61.75 12.05 0 ]
+    Importance 85.93800157615655
+    Type "City"
+}
+
+Location "Basse-Terre" "Sol/Earth"  # Guadeloupe
+{
+    LongLat [ -61.7055 16.0104 0 ]
+    Importance 15.778857198312895
+    Type "City"
+}
+
+Location "Hagåtña" "Sol/Earth"  # Guam
+{
+    LongLat [ 144.7504 13.4745 0 ]
+    Importance 24.594772467866843
+    Type "City"
+}
+
+Location "Guatemala City" "Sol/Earth"  # Guatemala
+{
+    LongLat [ -90.5133 14.6417 0 ]
+    Importance 434.39713666409443
+    Type "City"
+}
+
+Location "Saint Peter Port" "Sol/Earth"  # Guernsey
+{
+    LongLat [ -2.5368 49.4555 0 ]
+    Importance 69.80997924981614
+    Type "City"
+}
+
+Location "Conakry" "Sol/Earth"  # Guinea
+{
+    LongLat [ -13.7122 9.5092 0 ]
+    Importance 350.9134937138836
+    Type "City"
+}
+
+Location "Bissau" "Sol/Earth"  # Guinea-Bissau
+{
+    LongLat [ -15.5667 11.85 0 ]
+    Importance 225.9299081761881
+    Type "City"
+}
+
+Location "Georgetown" "Sol/Earth"  # Guyana
+{
+    LongLat [ -58.155 6.8011 0 ]
+    Importance 173.07907633675168
+    Type "City"
+}
+
+Location "Port-au-Prince" "Sol/Earth"  # Haiti
+{
+    LongLat [ -72.3386 18.5425 0 ]
+    Importance 290.45047623392827
+    Type "City"
+}
+
+Location "Comayagüela" "Sol/Earth"  # Honduras
+{
+    LongLat [ -87.21 14.098 0 ]
+    Importance 316.2463019747314
+    Type "City"
+}
+
+Location "Tegucigalpa" "Sol/Earth"  # Honduras
+{
+    LongLat [ -87.204 14.1057 0 ]
+    Importance 307.59844293113684
+    Type "City"
+}
+
+Location "Hong Kong" "Sol/Earth"  # Hong Kong
+{
+    LongLat [ 114.2 22.3 0 ]
+    Importance 602.0553769003269
+    Type "City"
+}
+
+Location "Kowloon" "Sol/Earth"  # Hong Kong
+{
+    LongLat [ 114.1833 22.3167 0 ]
+    Importance 381.86980366492867
+    Type "City"
+}
+
+Location "Budapest" "Sol/Earth"  # Hungary
+{
+    LongLat [ 19.0408 47.4983 0 ]
+    Importance 352.30171194909127
+    Type "City"
+}
+
+Location "Reykjavík" "Sol/Earth"  # Iceland
+{
+    LongLat [ -21.9425 64.1458 0 ]
+    Importance 143.53685506840785
+    Type "City"
+}
+
+Location "Kolkāta" "Sol/Earth"  # India
+{
+    LongLat [ 88.37 22.5675 0 ]
+    Importance 886.0075263468094
+    Type "City"
+}
+
+Location "Bangalore" "Sol/Earth"  # India
+{
+    LongLat [ 77.5917 12.9789 0 ]
+    Importance 782.0556486556576
+    Type "City"
+}
+
+Location "Mumbai" "Sol/Earth"  # India
+{
+    LongLat [ 72.8775 19.0761 0 ]
+    Importance 931.3299628704781
+    Type "City"
+}
+
+Location "Pune" "Sol/Earth"  # India
+{
+    LongLat [ 73.8567 18.5203 0 ]
+    Importance 624.0972790688952
+    Type "City"
+}
+
+Location "Hyderābād" "Sol/Earth"  # India
+{
+    LongLat [ 78.4747 17.3617 0 ]
+    Importance 681.2385376623675
+    Type "City"
+}
+
+Location "Ahmedabad" "Sol/Earth"  # India
+{
+    LongLat [ 72.5714 23.0225 0 ]
+    Importance 617.9730529111679
+    Type "City"
+}
+
+Location "New Delhi" "Sol/Earth"  # India
+{
+    LongLat [ 77.2089 28.6139 0 ]
+    Importance 176.97994790597318
+    Type "City"
+}
+
+Location "Sūrat" "Sol/Earth"  # India
+{
+    LongLat [ 72.84 21.205 0 ]
+    Importance 574.3572946220737
+    Type "City"
+}
+
+Location "Prayagraj" "Sol/Earth"  # India
+{
+    LongLat [ 81.8464 25.4358 0 ]
+    Importance 555.3107200340582
+    Type "City"
+}
+
+Location "Chennai" "Sol/Earth"  # India
+{
+    LongLat [ 80.275 13.0825 0 ]
+    Importance 723.3989835882602
+    Type "City"
+}
+
+Location "Delhi" "Sol/Earth"  # India
+{
+    LongLat [ 77.23 28.61 0 ]
+    Importance 1021.0406471049345
+    Type "City"
+}
+
+Location "Tangerang" "Sol/Earth"  # Indonesia
+{
+    LongLat [ 106.6403 -6.1703 0 ]
+    Importance 390.11111327340785
+    Type "City"
+}
+
+Location "Jakarta" "Sol/Earth"  # Indonesia
+{
+    LongLat [ 106.8275 -6.175 0 ]
+    Importance 1038.266044952471
+    Type "City"
+}
+
+Location "Semarang" "Sol/Earth"  # Indonesia
+{
+    LongLat [ 110.4225 -6.99 0 ]
+    Importance 347.3544664794338
+    Type "City"
+}
+
+Location "Depok" "Sol/Earth"  # Indonesia
+{
+    LongLat [ 106.8225 -6.394 0 ]
+    Importance 395.9046323548914
+    Type "City"
+}
+
+Location "Medan" "Sol/Earth"  # Indonesia
+{
+    LongLat [ 98.6739 3.5894 0 ]
+    Importance 464.62488148847854
+    Type "City"
+}
+
+Location "Surabaya" "Sol/Earth"  # Indonesia
+{
+    LongLat [ 112.7378 -7.2458 0 ]
+    Importance 574.9271208981816
+    Type "City"
+}
+
+Location "Bekasi" "Sol/Earth"  # Indonesia
+{
+    LongLat [ 107.0 -6.2333 0 ]
+    Importance 398.9911580589371
+    Type "City"
+}
+
+Location "Sangereng" "Sol/Earth"  # Indonesia
+{
+    LongLat [ 106.7181 -6.2889 0 ]
+    Importance 329.84625739149334
+    Type "City"
+}
+
+Location "Makassar" "Sol/Earth"  # Indonesia
+{
+    LongLat [ 119.4136 -5.1331 0 ]
+    Importance 324.16009921565455
+    Type "City"
+}
+
+Location "Palembang" "Sol/Earth"  # Indonesia
+{
+    LongLat [ 104.7556 -2.9861 0 ]
+    Importance 340.63877524111894
+    Type "City"
+}
+
+Location "Malang" "Sol/Earth"  # Indonesia
+{
+    LongLat [ 112.62 -7.98 0 ]
+    Importance 422.7488901776833
+    Type "City"
+}
+
+Location "Karaj" "Sol/Earth"  # Iran
+{
+    LongLat [ 50.9675 35.8292 0 ]
+    Importance 372.8674408075808
+    Type "City"
+}
+
+Location "Ahvāz" "Sol/Earth"  # Iran
+{
+    LongLat [ 48.6783 31.3047 0 ]
+    Importance 322.96288606912435
+    Type "City"
+}
+
+Location "Shīrāz" "Sol/Earth"  # Iran
+{
+    LongLat [ 52.5425 29.61 0 ]
+    Importance 342.99359983772064
+    Type "City"
+}
+
+Location "Tabrīz" "Sol/Earth"  # Iran
+{
+    LongLat [ 46.2992 38.0817 0 ]
+    Importance 342.4492678383019
+    Type "City"
+}
+
+Location "Eşfahān" "Sol/Earth"  # Iran
+{
+    LongLat [ 51.6703 32.6653 0 ]
+    Importance 388.99733251224853
+    Type "City"
+}
+
+Location "Qom" "Sol/Earth"  # Iran
+{
+    LongLat [ 50.8764 34.64 0 ]
+    Importance 311.7326117376052
+    Type "City"
+}
+
+Location "Tehran" "Sol/Earth"  # Iran
+{
+    LongLat [ 51.3897 35.6889 0 ]
+    Importance 758.7488886422288
+    Type "City"
+}
+
+Location "Mashhad" "Sol/Earth"  # Iran
+{
+    LongLat [ 59.5433 36.3264 0 ]
+    Importance 467.7437674702507
+    Type "City"
+}
+
+Location "Al Başrah" "Sol/Earth"  # Iraq
+{
+    LongLat [ 47.81 30.515 0 ]
+    Importance 323.10032958016853
+    Type "City"
+}
+
+Location "Baghdad" "Sol/Earth"  # Iraq
+{
+    LongLat [ 44.3661 33.3153 0 ]
+    Importance 562.9079267126208
+    Type "City"
+}
+
+Location "Mosul" "Sol/Earth"  # Iraq
+{
+    LongLat [ 43.1167 36.3667 0 ]
+    Importance 360.1180816457225
+    Type "City"
+}
+
+Location "Dublin" "Sol/Earth"  # Ireland
+{
+    LongLat [ -6.2603 53.3497 0 ]
+    Importance 241.62591498173788
+    Type "City"
+}
+
+Location "Douglas" "Sol/Earth"  # Isle of Man
+{
+    LongLat [ -4.4775 54.15 0 ]
+    Importance 80.28898688937235
+    Type "City"
+}
+
+Location "Jerusalem" "Sol/Earth"  # Israel
+{
+    LongLat [ 35.2256 31.7789 0 ]
+    Importance 284.95981260381626
+    Type "City"
+}
+
+Location "Milan" "Sol/Earth"  # Italy
+{
+    LongLat [ 9.19 45.4669 0 ]
+    Importance 325.5117188564493
+    Type "City"
+}
+
+Location "Rome" "Sol/Earth"  # Italy
+{
+    LongLat [ 12.4828 41.8931 0 ]
+    Importance 420.1656884724227
+    Type "City"
+}
+
+Location "Kingston" "Sol/Earth"  # Jamaica
+{
+    LongLat [ -76.7931 17.9714 0 ]
+    Importance 239.7437211413609
+    Type "City"
+}
+
+Location "Nagoya" "Sol/Earth"  # Japan
+{
+    LongLat [ 136.9 35.1833 0 ]
+    Importance 649.5827008284247
+    Type "City"
+}
+
+Location "Ōsaka" "Sol/Earth"  # Japan
+{
+    LongLat [ 135.5022 34.6939 0 ]
+    Importance 777.2631579290904
+    Type "City"
+}
+
+Location "Kyōto" "Sol/Earth"  # Japan
+{
+    LongLat [ 135.7683 35.0117 0 ]
+    Importance 334.77208687540315
+    Type "City"
+}
+
+Location "Kōbe" "Sol/Earth"  # Japan
+{
+    LongLat [ 135.1956 34.69 0 ]
+    Importance 339.495934737609
+    Type "City"
+}
+
+Location "Kawasaki" "Sol/Earth"  # Japan
+{
+    LongLat [ 139.7 35.5167 0 ]
+    Importance 340.2940328934614
+    Type "City"
+}
+
+Location "Sapporo" "Sol/Earth"  # Japan
+{
+    LongLat [ 141.3544 43.0619 0 ]
+    Importance 371.9004810718846
+    Type "City"
+}
+
+Location "Fukuoka" "Sol/Earth"  # Japan
+{
+    LongLat [ 130.4017 33.59 0 ]
+    Importance 393.17140970046574
+    Type "City"
+}
+
+Location "Yokohama" "Sol/Earth"  # Japan
+{
+    LongLat [ 139.6381 35.4442 0 ]
+    Importance 470.3584563541766
+    Type "City"
+}
+
+Location "Hiroshima" "Sol/Earth"  # Japan
+{
+    LongLat [ 132.4519 34.3914 0 ]
+    Importance 311.4387289826508
+    Type "City"
+}
+
+Location "Saitama" "Sol/Earth"  # Japan
+{
+    LongLat [ 139.6456 35.8614 0 ]
+    Importance 323.0369813514341
+    Type "City"
+}
+
+Location "Tokyo" "Sol/Earth"  # Japan
+{
+    LongLat [ 139.7495 35.687 0 ]
+    Importance 1081.3599622990162
+    Type "City"
+}
+
+Location "Saint Helier" "Sol/Earth"  # Jersey
+{
+    LongLat [ -2.11 49.1858 0 ]
+    Importance 85.74281838947711
+    Type "City"
+}
+
+Location "Amman" "Sol/Earth"  # Jordan
+{
+    LongLat [ 35.9328 31.9497 0 ]
+    Importance 481.409034817693
+    Type "City"
+}
+
+Location "Astana" "Sol/Earth"  # Kazakhstan
+{
+    LongLat [ 71.4222 51.1472 0 ]
+    Importance 299.8402143327901
+    Type "City"
+}
+
+Location "Almaty" "Sol/Earth"  # Kazakhstan
+{
+    LongLat [ 76.915 43.24 0 ]
+    Importance 389.5864862938114
+    Type "City"
+}
+
+Location "Shymkent" "Sol/Earth"  # Kazakhstan
+{
+    LongLat [ 69.5958 42.3167 0 ]
+    Importance 310.1298292698183
+    Type "City"
+}
+
+Location "Mombasa" "Sol/Earth"  # Kenya
+{
+    LongLat [ 39.6667 -4.05 0 ]
+    Importance 311.62418432441086
+    Type "City"
+}
+
+Location "Nairobi" "Sol/Earth"  # Kenya
+{
+    LongLat [ 36.8172 -1.2864 0 ]
+    Importance 541.2255948684319
+    Type "City"
+}
+
+Location "Tarawa" "Sol/Earth"  # Kiribati
+{
+    LongLat [ 173.0176 1.3382 0 ]
+    Importance 81.17582850018879
+    Type "City"
+}
+
+Location "Pyongyang" "Sol/Earth"  # Korea, North
+{
+    LongLat [ 125.7475 39.0167 0 ]
+    Importance 426.4184923557149
+    Type "City"
+}
+
+Location "Tongjin" "Sol/Earth"  # Korea, South
+{
+    LongLat [ 127.2 37.2333 0 ]
+    Importance 299.6402263443657
+    Type "City"
+}
+
+Location "Ulsan" "Sol/Earth"  # Korea, South
+{
+    LongLat [ 129.3167 35.55 0 ]
+    Importance 304.70318380771175
+    Type "City"
+}
+
+Location "Changwon" "Sol/Earth"  # Korea, South
+{
+    LongLat [ 128.6631 35.2708 0 ]
+    Importance 292.84030664775435
+    Type "City"
+}
+
+Location "Suwon" "Sol/Earth"  # Korea, South
+{
+    LongLat [ 127.0167 37.2667 0 ]
+    Importance 314.80789477024274
+    Type "City"
+}
+
+Location "Daejeon" "Sol/Earth"  # Korea, South
+{
+    LongLat [ 127.385 36.35 0 ]
+    Importance 335.7181932202038
+    Type "City"
+}
+
+Location "Busan" "Sol/Earth"  # Korea, South
+{
+    LongLat [ 129.075 35.18 0 ]
+    Importance 456.2416427184282
+    Type "City"
+}
+
+Location "Daegu" "Sol/Earth"  # Korea, South
+{
+    LongLat [ 128.6017 35.8717 0 ]
+    Importance 398.6882212284725
+    Type "City"
+}
+
+Location "Incheon" "Sol/Earth"  # Korea, South
+{
+    LongLat [ 126.6333 37.4833 0 ]
+    Importance 430.31465097637096
+    Type "City"
+}
+
+Location "Gwangju" "Sol/Earth"  # Korea, South
+{
+    LongLat [ 126.8486 35.1653 0 ]
+    Importance 336.934879125908
+    Type "City"
+}
+
+Location "Goyang" "Sol/Earth"  # Korea, South
+{
+    LongLat [ 126.8 37.65 0 ]
+    Importance 298.1841208102781
+    Type "City"
+}
+
+Location "Seoul" "Sol/Earth"  # Korea, South
+{
+    LongLat [ 126.9833 37.5667 0 ]
+    Importance 904.3176018407524
+    Type "City"
+}
+
+Location "Pristina" "Sol/Earth"  # Kosovo
+{
+    LongLat [ 21.1724 42.6666 0 ]
+    Importance 162.96943667179693
+    Type "City"
+}
+
+Location "Kuwait City" "Sol/Earth"  # Kuwait
+{
+    LongLat [ 47.9783 29.3697 0 ]
+    Importance 433.0941094142209
+    Type "City"
+}
+
+Location "Bishkek" "Sol/Earth"  # Kyrgyzstan
+{
+    LongLat [ 74.5667 42.8667 0 ]
+    Importance 306.3995846110952
+    Type "City"
+}
+
+Location "Vientiane" "Sol/Earth"  # Laos
+{
+    LongLat [ 102.63 17.98 0 ]
+    Importance 286.27826696149157
+    Type "City"
+}
+
+Location "Riga" "Sol/Earth"  # Latvia
+{
+    LongLat [ 24.1069 56.9475 0 ]
+    Importance 243.46027763809133
+    Type "City"
+}
+
+Location "Beirut" "Sol/Earth"  # Lebanon
+{
+    LongLat [ 35.5058 33.8981 0 ]
+    Importance 401.4138045561587
+    Type "City"
+}
+
+Location "Maseru" "Sol/Earth"  # Lesotho
+{
+    LongLat [ 27.48 -29.31 0 ]
+    Importance 198.47792228838748
+    Type "City"
+}
+
+Location "Monrovia" "Sol/Earth"  # Liberia
+{
+    LongLat [ -10.8014 6.3133 0 ]
+    Importance 294.06596698178987
+    Type "City"
+}
+
+Location "Tripoli" "Sol/Earth"  # Libya
+{
+    LongLat [ 13.1914 32.8872 0 ]
+    Importance 310.0246595684241
+    Type "City"
+}
+
+Location "Vaduz" "Sol/Earth"  # Liechtenstein
+{
+    LongLat [ 9.5222 47.1406 0 ]
+    Importance 45.164130161533656
+    Type "City"
+}
+
+Location "Vilnius" "Sol/Earth"  # Lithuania
+{
+    LongLat [ 25.28 54.6872 0 ]
+    Importance 239.96344292158003
+    Type "City"
+}
+
+Location "Luxembourg" "Sol/Earth"  # Luxembourg
+{
+    LongLat [ 6.1319 49.6117 0 ]
+    Importance 140.8670817870443
+    Type "City"
+}
+
+Location "Antananarivo" "Sol/Earth"  # Madagascar
+{
+    LongLat [ 47.525 -18.91 0 ]
+    Importance 318.53175964601877
+    Type "City"
+}
+
+Location "Lilongwe" "Sol/Earth"  # Malawi
+{
+    LongLat [ 33.7873 -13.9669 0 ]
+    Importance 290.66339536515494
+    Type "City"
+}
+
+Location "Kuala Lumpur" "Sol/Earth"  # Malaysia
+{
+    LongLat [ 101.698 3.1686 0 ]
+    Importance 642.2233614516017
+    Type "City"
+}
+
+Location "Putrajaya" "Sol/Earth"  # Malaysia
+{
+    LongLat [ 101.7019 2.914 0 ]
+    Importance 110.63848193972764
+    Type "City"
+}
+
+Location "Male" "Sol/Earth"  # Maldives
+{
+    LongLat [ 73.5089 4.1753 0 ]
+    Importance 140.95848039677514
+    Type "City"
+}
+
+Location "Bamako" "Sol/Earth"  # Mali
+{
+    LongLat [ -7.9922 12.6458 0 ]
+    Importance 490.7802140299873
+    Type "City"
+}
+
+Location "Valletta" "Sol/Earth"  # Malta
+{
+    LongLat [ 14.5125 35.8983 0 ]
+    Importance 223.94860300737417
+    Type "City"
+}
+
+Location "Majuro" "Sol/Earth"  # Marshall Islands
+{
+    LongLat [ 171.3833 7.0833 0 ]
+    Importance 82.37779320278612
+    Type "City"
+}
+
+Location "Fort-de-France" "Sol/Earth"  # Martinique
+{
+    LongLat [ -61.0667 14.6 0 ]
+    Importance 177.9953316871459
+    Type "City"
+}
+
+Location "Nouakchott" "Sol/Earth"  # Mauritania
+{
+    LongLat [ -15.9785 18.0858 0 ]
+    Importance 299.7205309247185
+    Type "City"
+}
+
+Location "Port Louis" "Sol/Earth"  # Mauritius
+{
+    LongLat [ 57.5042 -20.1644 0 ]
+    Importance 146.91507202113576
+    Type "City"
+}
+
+Location "Mamoudzou" "Sol/Earth"  # Mayotte
+{
+    LongLat [ 45.2278 -12.7806 0 ]
+    Importance 112.64521050445616
+    Type "City"
+}
+
+Location "Ecatepec" "Sol/Earth"  # Mexico
+{
+    LongLat [ -99.06 19.6097 0 ]
+    Importance 349.93604040381194
+    Type "City"
+}
+
+Location "Toluca" "Sol/Earth"  # Mexico
+{
+    LongLat [ -99.6569 19.2925 0 ]
+    Importance 404.6985636735241
+    Type "City"
+}
+
+Location "Juárez" "Sol/Earth"  # Mexico
+{
+    LongLat [ -106.485 31.745 0 ]
+    Importance 322.6112479573077
+    Type "City"
+}
+
+Location "Guadalajara" "Sol/Earth"  # Mexico
+{
+    LongLat [ -103.3475 20.6767 0 ]
+    Importance 540.5207025938221
+    Type "City"
+}
+
+Location "Mexicali" "Sol/Earth"  # Mexico
+{
+    LongLat [ -115.4678 32.6633 0 ]
+    Importance 302.2281799226341
+    Type "City"
+}
+
+Location "Tijuana" "Sol/Earth"  # Mexico
+{
+    LongLat [ -117.0333 32.525 0 ]
+    Importance 374.8027233330043
+    Type "City"
+}
+
+Location "Mexico City" "Sol/Earth"  # Mexico
+{
+    LongLat [ -99.1333 19.4333 0 ]
+    Importance 886.8444078188398
+    Type "City"
+}
+
+Location "Monterrey" "Sol/Earth"  # Mexico
+{
+    LongLat [ -100.3181 25.6844 0 ]
+    Importance 533.3543374555173
+    Type "City"
+}
+
+Location "Puebla" "Sol/Earth"  # Mexico
+{
+    LongLat [ -98.1833 19.0333 0 ]
+    Importance 343.83623221772444
+    Type "City"
+}
+
+Location "Zapopan" "Sol/Earth"  # Mexico
+{
+    LongLat [ -103.4 20.7167 0 ]
+    Importance 335.8224049450667
+    Type "City"
+}
+
+Location "León de los Aldama" "Sol/Earth"  # Mexico
+{
+    LongLat [ -101.6833 21.1167 0 ]
+    Importance 344.11485745819044
+    Type "City"
+}
+
+Location "Palikir" "Sol/Earth"  # Micronesia, Federated States of
+{
+    LongLat [ 158.1589 6.9172 0 ]
+    Importance 46.72258055745943
+    Type "City"
+}
+
+Location "Chisinau" "Sol/Earth"  # Moldova
+{
+    LongLat [ 28.8353 47.0228 0 ]
+    Importance 248.26861424374908
+    Type "City"
+}
+
+Location "Monaco" "Sol/Earth"  # Monaco
+{
+    LongLat [ 7.4167 43.7333 0 ]
+    Importance 88.30285354382232
+    Type "City"
+}
+
+Location "Ulaanbaatar" "Sol/Earth"  # Mongolia
+{
+    LongLat [ 106.9055 47.9214 0 ]
+    Importance 329.12527683614576
+    Type "City"
+}
+
+Location "Podgorica" "Sol/Earth"  # Montenegro
+{
+    LongLat [ 19.2628 42.4414 0 ]
+    Importance 154.69428236799698
+    Type "City"
+}
+
+Location "Plymouth" "Sol/Earth"  # Montserrat
+{
+    LongLat [ -62.2158 16.7064 0 ]
+    Importance 4.5888488815285156
+    Type "City"
+}
+
+Location "Brades" "Sol/Earth"  # Montserrat
+{
+    LongLat [ -62.2106 16.7928 0 ]
+    Importance 17.217105232217275
+    Type "City"
+}
+
+Location "Rabat" "Sol/Earth"  # Morocco
+{
+    LongLat [ -6.8416 34.0209 0 ]
+    Importance 238.6535469970931
+    Type "City"
+}
+
+Location "Tifariti" "Sol/Earth"  # Morocco
+{
+    LongLat [ -10.567 26.158 0 ]
+    Importance 35.9034674401161
+    Type "City"
+}
+
+Location "Fès" "Sol/Earth"  # Morocco
+{
+    LongLat [ -5.0033 34.0433 0 ]
+    Importance 303.18763525870173
+    Type "City"
+}
+
+Location "Tangier" "Sol/Earth"  # Morocco
+{
+    LongLat [ -5.8039 35.7767 0 ]
+    Importance 318.5516688921676
+    Type "City"
+}
+
+Location "Casablanca" "Sol/Earth"  # Morocco
+{
+    LongLat [ -7.5833 33.5333 0 ]
+    Importance 444.67731518325576
+    Type "City"
+}
+
+Location "Matola" "Sol/Earth"  # Mozambique
+{
+    LongLat [ 32.4667 -25.9667 0 ]
+    Importance 295.14563383977924
+    Type "City"
+}
+
+Location "Maputo" "Sol/Earth"  # Mozambique
+{
+    LongLat [ 32.5764 -25.9153 0 ]
+    Importance 305.25269738630743
+    Type "City"
+}
+
+Location "Windhoek" "Sol/Earth"  # Namibia
+{
+    LongLat [ 17.0836 -22.57 0 ]
+    Importance 215.3962309154088
+    Type "City"
+}
+
+Location "Yaren" "Sol/Earth"  # Nauru
+{
+    LongLat [ 166.925 -0.5456 0 ]
+    Importance 22.319510916710527
+    Type "City"
+}
+
+Location "Kathmandu" "Sol/Earth"  # Nepal
+{
+    LongLat [ 85.32 27.71 0 ]
+    Importance 274.6842803916916
+    Type "City"
+}
+
+Location "The Hague" "Sol/Earth"  # Netherlands
+{
+    LongLat [ 4.31 52.08 0 ]
+    Importance 234.93569147856832
+    Type "City"
+}
+
+Location "Amsterdam" "Sol/Earth"  # Netherlands
+{
+    LongLat [ 4.8936 52.3728 0 ]
+    Importance 335.88162417217336
+    Type "City"
+}
+
+Location "Tilburg" "Sol/Earth"  # Netherlands
+{
+    LongLat [ 5.0911 51.5572 0 ]
+    Importance 370.88997445505197
+    Type "City"
+}
+
+Location "Nouméa" "Sol/Earth"  # New Caledonia
+{
+    LongLat [ 166.4443 -22.2625 0 ]
+    Importance 157.94028955111904
+    Type "City"
+}
+
+Location "Wellington" "Sol/Earth"  # New Zealand
+{
+    LongLat [ 174.7772 -41.2889 0 ]
+    Importance 167.94708002635946
+    Type "City"
+}
+
+Location "Auckland" "Sol/Earth"  # New Zealand
+{
+    LongLat [ 174.7653 -36.8492 0 ]
+    Importance 335.297399081166
+    Type "City"
+}
+
+Location "Managua" "Sol/Earth"  # Nicaragua
+{
+    LongLat [ -86.2514 12.1364 0 ]
+    Importance 297.0976788396315
+    Type "City"
+}
+
+Location "Niamey" "Sol/Earth"  # Niger
+{
+    LongLat [ 2.1175 13.515 0 ]
+    Importance 337.4372426077171
+    Type "City"
+}
+
+Location "Kano" "Sol/Earth"  # Nigeria
+{
+    LongLat [ 8.5167 12.0 0 ]
+    Importance 490.6712029715802
+    Type "City"
+}
+
+Location "Ibadan" "Sol/Earth"  # Nigeria
+{
+    LongLat [ 3.9167 7.3964 0 ]
+    Importance 460.9074291164052
+    Type "City"
+}
+
+Location "Lagos" "Sol/Earth"  # Nigeria
+{
+    LongLat [ 3.3841 6.455 0 ]
+    Importance 804.4189164158956
+    Type "City"
+}
+
+Location "Port Harcourt" "Sol/Earth"  # Nigeria
+{
+    LongLat [ 7.0336 4.8242 0 ]
+    Importance 365.34175497430186
+    Type "City"
+}
+
+Location "Benin City" "Sol/Earth"  # Nigeria
+{
+    LongLat [ 5.6222 6.3333 0 ]
+    Importance 359.2464463991215
+    Type "City"
+}
+
+Location "Onitsha" "Sol/Earth"  # Nigeria
+{
+    LongLat [ 6.7833 6.1667 0 ]
+    Importance 336.35561301107134
+    Type "City"
+}
+
+Location "Abuja" "Sol/Earth"  # Nigeria
+{
+    LongLat [ 7.4833 9.0667 0 ]
+    Importance 470.91633887234616
+    Type "City"
+}
+
+Location "Awka" "Sol/Earth"  # Nigeria
+{
+    LongLat [ 7.0678 6.2069 0 ]
+    Importance 385.9773707276358
+    Type "City"
+}
+
+Location "Maiduguri" "Sol/Earth"  # Nigeria
+{
+    LongLat [ 13.1542 11.8372 0 ]
+    Importance 311.38959129062334
+    Type "City"
+}
+
+Location "Aba" "Sol/Earth"  # Nigeria
+{
+    LongLat [ 7.3667 5.1167 0 ]
+    Importance 307.83703143680566
+    Type "City"
+}
+
+Location "Shagamu" "Sol/Earth"  # Nigeria
+{
+    LongLat [ 3.65 6.8333 0 ]
+    Importance 305.1623190357995
+    Type "City"
+}
+
+Location "Alofi" "Sol/Earth"  # Niue
+{
+    LongLat [ -169.921 -19.056 0 ]
+    Importance 20.05631287644465
+    Type "City"
+}
+
+Location "Kingston" "Sol/Earth"  # Norfolk Island
+{
+    LongLat [ 167.9619 -29.0606 0 ]
+    Importance 16.388078713905827
+    Type "City"
+}
+
+Location "Skopje" "Sol/Earth"  # North Macedonia
+{
+    LongLat [ 21.4317 41.9961 0 ]
+    Importance 213.86164334958758
+    Type "City"
+}
+
+Location "Capitol Hill" "Sol/Earth"  # Northern Mariana Islands
+{
+    LongLat [ 145.7546 15.2137 0 ]
+    Importance 33.61845847317681
+    Type "City"
+}
+
+Location "Oslo" "Sol/Earth"  # Norway
+{
+    LongLat [ 10.7389 59.9133 0 ]
+    Importance 257.75835248080665
+    Type "City"
+}
+
+Location "Muscat" "Sol/Earth"  # Oman
+{
+    LongLat [ 58.5922 23.6139 0 ]
+    Importance 331.2488010080863
+    Type "City"
+}
+
+Location "Masqaţ" "Sol/Earth"  # Oman
+{
+    LongLat [ 58.5911 23.614 0 ]
+    Importance 354.83094476567607
+    Type "City"
+}
+
+Location "Hyderabad City" "Sol/Earth"  # Pakistan
+{
+    LongLat [ 68.3683 25.3792 0 ]
+    Importance 355.7731603373755
+    Type "City"
+}
+
+Location "Multan" "Sol/Earth"  # Pakistan
+{
+    LongLat [ 71.4697 30.1978 0 ]
+    Importance 365.82467242581544
+    Type "City"
+}
+
+Location "Peshawar" "Sol/Earth"  # Pakistan
+{
+    LongLat [ 71.5675 34.0144 0 ]
+    Importance 372.6337074993455
+    Type "City"
+}
+
+Location "Gujranwala" "Sol/Earth"  # Pakistan
+{
+    LongLat [ 74.19 32.1567 0 ]
+    Importance 376.48417821624184
+    Type "City"
+}
+
+Location "Rawalpindi" "Sol/Earth"  # Pakistan
+{
+    LongLat [ 73.0333 33.6 0 ]
+    Importance 381.20325177878084
+    Type "City"
+}
+
+Location "Faisalabad" "Sol/Earth"  # Pakistan
+{
+    LongLat [ 73.0911 31.4167 0 ]
+    Importance 444.0736928982659
+    Type "City"
+}
+
+Location "Islamabad" "Sol/Earth"  # Pakistan
+{
+    LongLat [ 73.0639 33.6931 0 ]
+    Importance 293.34431753676796
+    Type "City"
+}
+
+Location "Lahore" "Sol/Earth"  # Pakistan
+{
+    LongLat [ 74.3436 31.5497 0 ]
+    Importance 721.5212433014382
+    Type "City"
+}
+
+Location "Kotla Qasim Khan" "Sol/Earth"  # Pakistan
+{
+    LongLat [ 73.75 32.5833 0 ]
+    Importance 444.8488144484615
+    Type "City"
+}
+
+Location "Karachi" "Sol/Earth"  # Pakistan
+{
+    LongLat [ 67.01 24.86 0 ]
+    Importance 863.491463943795
+    Type "City"
+}
+
+Location "Quetta" "Sol/Earth"  # Pakistan
+{
+    LongLat [ 67.0 30.1833 0 ]
+    Importance 291.9182137470935
+    Type "City"
+}
+
+Location "Ngerulmud" "Sol/Earth"  # Palau
+{
+    LongLat [ 134.6242 7.5006 0 ]
+    Importance 15.084752129651728
+    Type "City"
+}
+
+Location "Panama City" "Sol/Earth"  # Panama
+{
+    LongLat [ -79.5347 8.9711 0 ]
+    Importance 278.7223931507259
+    Type "City"
+}
+
+Location "Port Moresby" "Sol/Earth"  # Papua New Guinea
+{
+    LongLat [ 147.1494 -9.4789 0 ]
+    Importance 192.8867608199583
+    Type "City"
+}
+
+Location "Asunción" "Sol/Earth"  # Paraguay
+{
+    LongLat [ -57.6435 -25.2945 0 ]
+    Importance 223.4787076401374
+    Type "City"
+}
+
+Location "Arequipa" "Sol/Earth"  # Peru
+{
+    LongLat [ -71.5369 -16.3989 0 ]
+    Importance 292.66159713215535
+    Type "City"
+}
+
+Location "Lima" "Sol/Earth"  # Peru
+{
+    LongLat [ -77.0375 -12.06 0 ]
+    Importance 677.142737741802
+    Type "City"
+}
+
+Location "Manila" "Sol/Earth"  # Philippines
+{
+    LongLat [ 120.9772 14.5958 0 ]
+    Importance 930.6435248642998
+    Type "City"
+}
+
+Location "Canagatan" "Sol/Earth"  # Philippines
+{
+    LongLat [ 121.8 18.0 0 ]
+    Importance 318.35256726569116
+    Type "City"
+}
+
+Location "Davao" "Sol/Earth"  # Philippines
+{
+    LongLat [ 125.6 7.07 0 ]
+    Importance 368.5085879181361
+    Type "City"
+}
+
+Location "Caloocan City" "Sol/Earth"  # Philippines
+{
+    LongLat [ 120.97 14.65 0 ]
+    Importance 350.4363632835468
+    Type "City"
+}
+
+Location "Quezon City" "Sol/Earth"  # Philippines
+{
+    LongLat [ 121.0475 14.65 0 ]
+    Importance 431.57636285911576
+    Type "City"
+}
+
+Location "Zamboanga City" "Sol/Earth"  # Philippines
+{
+    LongLat [ 122.0761 6.9042 0 ]
+    Importance 381.319137164746
+    Type "City"
+}
+
+Location "Adamstown" "Sol/Earth"  # Pitcairn Islands
+{
+    LongLat [ -130.0833 -25.0667 0 ]
+    Importance 8.018844975419638
+    Type "City"
+}
+
+Location "Warsaw" "Sol/Earth"  # Poland
+{
+    LongLat [ 21.0111 52.23 0 ]
+    Importance 376.55109027534627
+    Type "City"
+}
+
+Location "Lisbon" "Sol/Earth"  # Portugal
+{
+    LongLat [ -9.134 38.7122 0 ]
+    Importance 234.9948655279295
+    Type "City"
+}
+
+Location "San Juan" "Sol/Earth"  # Puerto Rico
+{
+    LongLat [ -66.061 18.3985 0 ]
+    Importance 361.4041609680873
+    Type "City"
+}
+
+Location "Doha" "Sol/Earth"  # Qatar
+{
+    LongLat [ 51.5333 25.2867 0 ]
+    Importance 310.31016198133494
+    Type "City"
+}
+
+Location "Saint-Denis" "Sol/Earth"  # Reunion
+{
+    LongLat [ 55.4481 -20.8789 0 ]
+    Importance 193.27340448309292
+    Type "City"
+}
+
+Location "Bucharest" "Sol/Earth"  # Romania
+{
+    LongLat [ 26.1039 44.4325 0 ]
+    Importance 400.88557742976997
+    Type "City"
+}
+
+Location "Kazan" "Sol/Earth"  # Russia
+{
+    LongLat [ 49.1089 55.7964 0 ]
+    Importance 317.08137698470523
+    Type "City"
+}
+
+Location "Ufa" "Sol/Earth"  # Russia
+{
+    LongLat [ 55.9475 54.7261 0 ]
+    Importance 304.82341519683996
+    Type "City"
+}
+
+Location "Rostov" "Sol/Earth"  # Russia
+{
+    LongLat [ 39.71 47.2225 0 ]
+    Importance 305.52141416890487
+    Type "City"
+}
+
+Location "Krasnodar" "Sol/Earth"  # Russia
+{
+    LongLat [ 38.9667 45.0333 0 ]
+    Importance 305.7817705070058
+    Type "City"
+}
+
+Location "Samara" "Sol/Earth"  # Russia
+{
+    LongLat [ 50.1408 53.2028 0 ]
+    Importance 307.5169546410564
+    Type "City"
+}
+
+Location "Nizhniy Novgorod" "Sol/Earth"  # Russia
+{
+    LongLat [ 44.0075 56.3269 0 ]
+    Importance 312.0904718838955
+    Type "City"
+}
+
+Location "Yekaterinburg" "Sol/Earth"  # Russia
+{
+    LongLat [ 60.6128 56.8356 0 ]
+    Importance 335.1931447376922
+    Type "City"
+}
+
+Location "Chelyabinsk" "Sol/Earth"  # Russia
+{
+    LongLat [ 61.3758 55.1547 0 ]
+    Importance 309.4621144558293
+    Type "City"
+}
+
+Location "Saint Petersburg" "Sol/Earth"  # Russia
+{
+    LongLat [ 30.3086 59.9375 0 ]
+    Importance 543.077439862361
+    Type "City"
+}
+
+Location "Moscow" "Sol/Earth"  # Russia
+{
+    LongLat [ 37.6175 55.7506 0 ]
+    Importance 816.3807749107277
+    Type "City"
+}
+
+Location "Novosibirsk" "Sol/Earth"  # Russia
+{
+    LongLat [ 82.95 55.05 0 ]
+    Importance 348.31541297636267
+    Type "City"
+}
+
+Location "Kigali" "Sol/Earth"  # Rwanda
+{
+    LongLat [ 30.0606 -1.9536 0 ]
+    Importance 307.51733820500675
+    Type "City"
+}
+
+Location "Gustavia" "Sol/Earth"  # Saint Barthelemy
+{
+    LongLat [ -62.8506 17.8979 0 ]
+    Importance 32.62248312319814
+    Type "City"
+}
+
+Location "Jamestown" "Sol/Earth"  # Saint Helena, Ascension, and Tristan da Cunha
+{
+    LongLat [ -5.7179 -15.9251 0 ]
+    Importance 21.393609299563668
+    Type "City"
+}
+
+Location "Basseterre" "Sol/Earth"  # Saint Kitts and Nevis
+{
+    LongLat [ -62.7333 17.3 0 ]
+    Importance 61.298527390412616
+    Type "City"
+}
+
+Location "Castries" "Sol/Earth"  # Saint Lucia
+{
+    LongLat [ -60.9894 14.0108 0 ]
+    Importance 111.82263566907574
+    Type "City"
+}
+
+Location "Marigot" "Sol/Earth"  # Saint Martin
+{
+    LongLat [ -63.0847 18.0706 0 ]
+    Importance 45.25593091694781
+    Type "City"
+}
+
+Location "Saint-Pierre" "Sol/Earth"  # Saint Pierre and Miquelon
+{
+    LongLat [ -56.1736 46.7817 0 ]
+    Importance 43.85167548941578
+    Type "City"
+}
+
+Location "Kingstown" "Sol/Earth"  # Saint Vincent and the Grenadines
+{
+    LongLat [ -61.225 13.1578 0 ]
+    Importance 60.77445708568319
+    Type "City"
+}
+
+Location "Apia" "Sol/Earth"  # Samoa
+{
+    LongLat [ -171.75 -13.8333 0 ]
+    Importance 87.95399743487165
+    Type "City"
+}
+
+Location "San Marino" "Sol/Earth"  # San Marino
+{
+    LongLat [ 12.4473 43.9346 0 ]
+    Importance 39.972114558724655
+    Type "City"
+}
+
+Location "São Tomé" "Sol/Earth"  # Sao Tome and Principe
+{
+    LongLat [ 6.7306 0.3361 0 ]
+    Importance 112.889860774133
+    Type "City"
+}
+
+Location "Medina" "Sol/Earth"  # Saudi Arabia
+{
+    LongLat [ 39.61 24.47 0 ]
+    Importance 330.4224215542815
+    Type "City"
+}
+
+Location "Jeddah" "Sol/Earth"  # Saudi Arabia
+{
+    LongLat [ 39.1728 21.5428 0 ]
+    Importance 509.7774313211276
+    Type "City"
+}
+
+Location "Riyadh" "Sol/Earth"  # Saudi Arabia
+{
+    LongLat [ 46.71 24.65 0 ]
+    Importance 595.789410055207
+    Type "City"
+}
+
+Location "Mecca" "Sol/Earth"  # Saudi Arabia
+{
+    LongLat [ 39.8261 21.4225 0 ]
+    Importance 401.80630272778427
+    Type "City"
+}
+
+Location "Dakar" "Sol/Earth"  # Senegal
+{
+    LongLat [ -17.432 14.6726 0 ]
+    Importance 332.69862088285254
+    Type "City"
+}
+
+Location "Belgrade" "Sol/Earth"  # Serbia
+{
+    LongLat [ 20.4569 44.8178 0 ]
+    Importance 311.40994196397213
+    Type "City"
+}
+
+Location "Victoria" "Sol/Earth"  # Seychelles
+{
+    LongLat [ 55.4525 -4.6231 0 ]
+    Importance 76.8009982242496
+    Type "City"
+}
+
+Location "Freetown" "Sol/Earth"  # Sierra Leone
+{
+    LongLat [ -13.2331 8.4833 0 ]
+    Importance 286.55160280553446
+    Type "City"
+}
+
+Location "Singapore" "Sol/Earth"  # Singapore
+{
+    LongLat [ 103.8 1.3 0 ]
+    Importance 556.2715579747963
+    Type "City"
+}
+
+Location "Philipsburg" "Sol/Earth"  # Sint Maarten
+{
+    LongLat [ -63.0458 18.0237 0 ]
+    Importance 30.415499620796282
+    Type "City"
+}
+
+Location "Bratislava" "Sol/Earth"  # Slovakia
+{
+    LongLat [ 17.1128 48.1447 0 ]
+    Importance 223.16712047978973
+    Type "City"
+}
+
+Location "Ljubljana" "Sol/Earth"  # Slovenia
+{
+    LongLat [ 14.5061 46.0514 0 ]
+    Importance 185.37891940469595
+    Type "City"
+}
+
+Location "Honiara" "Sol/Earth"  # Solomon Islands
+{
+    LongLat [ 159.95 -9.4333 0 ]
+    Importance 119.68921009411771
+    Type "City"
+}
+
+Location "Hargeysa" "Sol/Earth"  # Somalia
+{
+    LongLat [ 44.065 9.56 0 ]
+    Importance 311.62418432441086
+    Type "City"
+}
+
+Location "Mogadishu" "Sol/Earth"  # Somalia
+{
+    LongLat [ 45.3419 2.0392 0 ]
+    Importance 382.6249968710957
+    Type "City"
+}
+
+Location "Baidoa" "Sol/Earth"  # Somalia
+{
+    LongLat [ 43.65 3.1167 0 ]
+    Importance 311.62418432441086
+    Type "City"
+}
+
+Location "Cape Town" "Sol/Earth"  # South Africa
+{
+    LongLat [ 18.4239 -33.9253 0 ]
+    Importance 512.633059457546
+    Type "City"
+}
+
+Location "Pretoria" "Sol/Earth"  # South Africa
+{
+    LongLat [ 28.1881 -25.7461 0 ]
+    Importance 423.99430540903404
+    Type "City"
+}
+
+Location "Soweto" "Sol/Earth"  # South Africa
+{
+    LongLat [ 27.8585 -26.2678 0 ]
+    Importance 318.20903037491973
+    Type "City"
+}
+
+Location "Johannesburg" "Sol/Earth"  # South Africa
+{
+    LongLat [ 28.0456 -26.2044 0 ]
+    Importance 613.8235366034941
+    Type "City"
+}
+
+Location "Bloemfontein" "Sol/Earth"  # South Africa
+{
+    LongLat [ 26.2167 -29.1167 0 ]
+    Importance 178.5473443919791
+    Type "City"
+}
+
+Location "King Edward Point" "Sol/Earth"  # South Georgia And South Sandwich Islands
+{
+    LongLat [ -36.5 -54.2833 0 ]
+    Importance 4.5888488815285156
+    Type "City"
+}
+
+Location "Juba" "Sol/Earth"  # South Sudan
+{
+    LongLat [ 31.58 4.83 0 ]
+    Importance 220.40118962181538
+    Type "City"
+}
+
+Location "Barcelona" "Sol/Earth"  # Spain
+{
+    LongLat [ 2.1833 41.3833 0 ]
+    Importance 513.7814211602337
+    Type "City"
+}
+
+Location "Madrid" "Sol/Earth"  # Spain
+{
+    LongLat [ -3.7033 40.4169 0 ]
+    Importance 563.8260121654367
+    Type "City"
+}
+
+Location "Sevilla" "Sol/Earth"  # Spain
+{
+    LongLat [ -5.99 37.39 0 ]
+    Importance 301.99643233006145
+    Type "City"
+}
+
+Location "Valencia" "Sol/Earth"  # Spain
+{
+    LongLat [ -0.3764 39.47 0 ]
+    Importance 345.30511893523
+    Type "City"
+}
+
+Location "Sri Jayewardenepura Kotte" "Sol/Earth"  # Sri Lanka
+{
+    LongLat [ 79.9164 6.9 0 ]
+    Importance 134.09480954743117
+    Type "City"
+}
+
+Location "Colombo" "Sol/Earth"  # Sri Lanka
+{
+    LongLat [ 79.8333 6.9167 0 ]
+    Importance 263.4112271879779
+    Type "City"
+}
+
+Location "Omdurman" "Sol/Earth"  # Sudan
+{
+    LongLat [ 32.4629 15.6835 0 ]
+    Importance 423.3039295659874
+    Type "City"
+}
+
+Location "Khartoum" "Sol/Earth"  # Sudan
+{
+    LongLat [ 32.5265 15.6031 0 ]
+    Importance 614.0549381581357
+    Type "City"
+}
+
+Location "Paramaribo" "Sol/Earth"  # Suriname
+{
+    LongLat [ -55.2039 5.8522 0 ]
+    Importance 174.63565434032435
+    Type "City"
+}
+
+Location "Longyearbyen" "Sol/Earth"  # Svalbard
+{
+    LongLat [ 15.6333 78.2167 0 ]
+    Importance 29.578559295845206
+    Type "City"
+}
+
+Location "Stockholm" "Sol/Earth"  # Sweden
+{
+    LongLat [ 18.0547 59.3275 0 ]
+    Importance 291.32498695020564
+    Type "City"
+}
+
+Location "Bern" "Sol/Earth"  # Switzerland
+{
+    LongLat [ 7.4474 46.948 0 ]
+    Importance 141.5247950180002
+    Type "City"
+}
+
+Location "Damascus" "Sol/Earth"  # Syria
+{
+    LongLat [ 36.2981 33.502 0 ]
+    Importance 410.98159819300054
+    Type "City"
+}
+
+Location "Aleppo" "Sol/Earth"  # Syria
+{
+    LongLat [ 37.1681 36.2319 0 ]
+    Importance 374.9155245602617
+    Type "City"
+}
+
+Location "Tainan" "Sol/Earth"  # Taiwan
+{
+    LongLat [ 120.1833 22.9833 0 ]
+    Importance 364.7503831523042
+    Type "City"
+}
+
+Location "Kaohsiung" "Sol/Earth"  # Taiwan
+{
+    LongLat [ 120.2975 22.615 0 ]
+    Importance 419.5887831538034
+    Type "City"
+}
+
+Location "Taichung" "Sol/Earth"  # Taiwan
+{
+    LongLat [ 120.6794 24.1439 0 ]
+    Importance 425.73448115902926
+    Type "City"
+}
+
+Location "Taipei" "Sol/Earth"  # Taiwan
+{
+    LongLat [ 121.5625 25.0375 0 ]
+    Importance 405.76421647594816
+    Type "City"
+}
+
+Location "Dushanbe" "Sol/Earth"  # Tajikistan
+{
+    LongLat [ 68.78 38.5367 0 ]
+    Importance 342.92468363415554
+    Type "City"
+}
+
+Location "Dar es Salaam" "Sol/Earth"  # Tanzania
+{
+    LongLat [ 39.2803 -6.8161 0 ]
+    Importance 616.6626036755448
+    Type "City"
+}
+
+Location "Mwanza" "Sol/Earth"  # Tanzania
+{
+    LongLat [ 32.9 -2.5167 0 ]
+    Importance 302.4435156874672
+    Type "City"
+}
+
+Location "Ubungo" "Sol/Earth"  # Tanzania
+{
+    LongLat [ 39.2056 -6.7889 0 ]
+    Importance 300.6954948940719
+    Type "City"
+}
+
+Location "Dodoma" "Sol/Earth"  # Tanzania
+{
+    LongLat [ 35.7419 -6.1731 0 ]
+    Importance 264.94085680083276
+    Type "City"
+}
+
+Location "Bangkok" "Sol/Earth"  # Thailand
+{
+    LongLat [ 100.4942 13.7525 0 ]
+    Importance 827.7083085869865
+    Type "City"
+}
+
+Location "Chiang Mai" "Sol/Earth"  # Thailand
+{
+    LongLat [ 98.9986 18.7953 0 ]
+    Importance 311.43675998833066
+    Type "City"
+}
+
+Location "Dili" "Sol/Earth"  # Timor-Leste
+{
+    LongLat [ 125.5795 -8.5594 0 ]
+    Importance 169.64730424443354
+    Type "City"
+}
+
+Location "Lomé" "Sol/Earth"  # Togo
+{
+    LongLat [ 1.2153 6.1308 0 ]
+    Importance 337.7412088976713
+    Type "City"
+}
+
+Location "Nuku‘alofa" "Sol/Earth"  # Tonga
+{
+    LongLat [ -175.2 -21.1333 0 ]
+    Importance 79.9372812000993
+    Type "City"
+}
+
+Location "Port of Spain" "Sol/Earth"  # Trinidad and Tobago
+{
+    LongLat [ -61.5167 10.6667 0 ]
+    Importance 119.48767317550177
+    Type "City"
+}
+
+Location "Tunis" "Sol/Earth"  # Tunisia
+{
+    LongLat [ 10.1817 36.8064 0 ]
+    Importance 242.60092622891713
+    Type "City"
+}
+
+Location "Ankara" "Sol/Earth"  # Turkey
+{
+    LongLat [ 32.85 39.93 0 ]
+    Importance 552.2570524220149
+    Type "City"
+}
+
+Location "Bursa" "Sol/Earth"  # Turkey
+{
+    LongLat [ 29.05 40.1833 0 ]
+    Importance 438.92105890543075
+    Type "City"
+}
+
+Location "Antalya" "Sol/Earth"  # Turkey
+{
+    LongLat [ 30.7075 36.8874 0 ]
+    Importance 324.6256289411748
+    Type "City"
+}
+
+Location "Samsun" "Sol/Earth"  # Turkey
+{
+    LongLat [ 36.3336 41.2903 0 ]
+    Importance 325.6748951385852
+    Type "City"
+}
+
+Location "Kayseri" "Sol/Earth"  # Turkey
+{
+    LongLat [ 35.4875 38.7225 0 ]
+    Importance 332.3339573224483
+    Type "City"
+}
+
+Location "Adana" "Sol/Earth"  # Turkey
+{
+    LongLat [ 35.3213 37.0 0 ]
+    Importance 358.22338713336944
+    Type "City"
+}
+
+Location "Istanbul" "Sol/Earth"  # Turkey
+{
+    LongLat [ 28.955 41.0136 0 ]
+    Importance 764.3792058092421
+    Type "City"
+}
+
+Location "Diyarbakır" "Sol/Earth"  # Turkey
+{
+    LongLat [ 40.24 37.91 0 ]
+    Importance 360.0726312580451
+    Type "City"
+}
+
+Location "Gaziantep" "Sol/Earth"  # Turkey
+{
+    LongLat [ 37.3792 37.0628 0 ]
+    Importance 383.3030094667062
+    Type "City"
+}
+
+Location "Konya" "Sol/Earth"  # Turkey
+{
+    LongLat [ 32.4833 37.8667 0 ]
+    Importance 395.2853814921214
+    Type "City"
+}
+
+Location "İzmir" "Sol/Earth"  # Turkey
+{
+    LongLat [ 27.14 38.42 0 ]
+    Importance 431.8839042042355
+    Type "City"
+}
+
+Location "Ashgabat" "Sol/Earth"  # Turkmenistan
+{
+    LongLat [ 58.38 37.9375 0 ]
+    Importance 294.92540713498767
+    Type "City"
+}
+
+Location "Grand Turk" "Sol/Earth"  # Turks and Caicos Islands
+{
+    LongLat [ -71.139 21.459 0 ]
+    Importance 38.72458111812015
+    Type "City"
+}
+
+Location "Funafuti" "Sol/Earth"  # Tuvalu
+{
+    LongLat [ 179.2 -8.5167 0 ]
+    Importance 46.973066831875414
+    Type "City"
+}
+
+Location "Charlotte Amalie" "Sol/Earth"  # U.S. Virgin Islands
+{
+    LongLat [ -64.9331 18.342 0 ]
+    Importance 4.5888488815285156
+    Type "City"
+}
+
+Location "Kampala" "Sol/Earth"  # Uganda
+{
+    LongLat [ 32.5811 0.3136 0 ]
+    Importance 351.877611382649
+    Type "City"
+}
+
+Location "Odesa" "Sol/Earth"  # Ukraine
+{
+    LongLat [ 30.7081 46.492 0 ]
+    Importance 292.8966625723965
+    Type "City"
+}
+
+Location "Kyiv" "Sol/Earth"  # Ukraine
+{
+    LongLat [ 30.5233 50.45 0 ]
+    Importance 431.16863469892786
+    Type "City"
+}
+
+Location "Kharkiv" "Sol/Earth"  # Ukraine
+{
+    LongLat [ 36.2311 49.9925 0 ]
+    Importance 331.22492861912906
+    Type "City"
+}
+
+Location "Abu Dhabi" "Sol/Earth"  # United Arab Emirates
+{
+    LongLat [ 54.3667 24.4667 0 ]
+    Importance 336.35561301107134
+    Type "City"
+}
+
+Location "Dubai" "Sol/Earth"  # United Arab Emirates
+{
+    LongLat [ 55.2972 25.2631 0 ]
+    Importance 450.37187719456915
+    Type "City"
+}
+
+Location "Sharjah" "Sol/Earth"  # United Arab Emirates
+{
+    LongLat [ 55.3908 25.3575 0 ]
+    Importance 316.0407812318961
+    Type "City"
+}
+
+Location "London" "Sol/Earth"  # United Kingdom
+{
+    LongLat [ -0.1275 51.5072 0 ]
+    Importance 698.8157457860711
+    Type "City"
+}
+
+Location "Birmingham" "Sol/Earth"  # United Kingdom
+{
+    LongLat [ -1.9025 52.48 0 ]
+    Importance 411.3020641633533
+    Type "City"
+}
+
+Location "Los Angeles" "Sol/Earth"  # United States
+{
+    LongLat [ -118.4068 34.1141 0 ]
+    Importance 712.5346770878148
+    Type "City"
+}
+
+Location "Boston" "Sol/Earth"  # United States
+{
+    LongLat [ -71.0852 42.3188 0 ]
+    Importance 496.0728251493093
+    Type "City"
+}
+
+Location "Phoenix" "Sol/Earth"  # United States
+{
+    LongLat [ -112.0892 33.5722 0 ]
+    Importance 483.9023592707364
+    Type "City"
+}
+
+Location "New York" "Sol/Earth"  # United States
+{
+    LongLat [ -73.9249 40.6943 0 ]
+    Importance 841.1969938706328
+    Type "City"
+}
+
+Location "Atlanta" "Sol/Earth"  # United States
+{
+    LongLat [ -84.422 33.7628 0 ]
+    Importance 529.2393237979645
+    Type "City"
+}
+
+Location "Philadelphia" "Sol/Earth"  # United States
+{
+    LongLat [ -75.1339 40.0077 0 ]
+    Importance 546.5161396963896
+    Type "City"
+}
+
+Location "Dallas" "Sol/Earth"  # United States
+{
+    LongLat [ -96.7667 32.7935 0 ]
+    Importance 551.562773198861
+    Type "City"
+}
+
+Location "Houston" "Sol/Earth"  # United States
+{
+    LongLat [ -95.3885 29.786 0 ]
+    Importance 558.3901723370549
+    Type "City"
+}
+
+Location "Miami" "Sol/Earth"  # United States
+{
+    LongLat [ -80.2101 25.784 0 ]
+    Importance 560.63350266378
+    Type "City"
+}
+
+Location "Washington" "Sol/Earth"  # United States
+{
+    LongLat [ -77.0163 38.9047 0 ]
+    Importance 526.8472180268085
+    Type "City"
+}
+
+Location "Chicago" "Sol/Earth"  # United States
+{
+    LongLat [ -87.6866 41.8375 0 ]
+    Importance 631.0851391589123
+    Type "City"
+}
+
+Location "Montevideo" "Sol/Earth"  # Uruguay
+{
+    LongLat [ -56.1842 -34.9056 0 ]
+    Importance 354.79024058001306
+    Type "City"
+}
+
+Location "Namangan" "Sol/Earth"  # Uzbekistan
+{
+    LongLat [ 71.6683 41.0011 0 ]
+    Importance 292.8405157961836
+    Type "City"
+}
+
+Location "Tashkent" "Sol/Earth"  # Uzbekistan
+{
+    LongLat [ 69.2797 41.3111 0 ]
+    Importance 438.5975301171845
+    Type "City"
+}
+
+Location "Port-Vila" "Sol/Earth"  # Vanuatu
+{
+    LongLat [ 168.3167 -17.7333 0 ]
+    Importance 98.3488536940303
+    Type "City"
+}
+
+Location "Vatican City" "Sol/Earth"  # Vatican City
+{
+    LongLat [ 12.453 41.904 0 ]
+    Importance 22.538157412997954
+    Type "City"
+}
+
+Location "Caracas" "Sol/Earth"  # Venezuela
+{
+    LongLat [ -66.9036 10.4806 0 ]
+    Importance 445.9738623047414
+    Type "City"
+}
+
+Location "Valencia" "Sol/Earth"  # Venezuela
+{
+    LongLat [ -68.0 10.1833 0 ]
+    Importance 411.00631366874273
+    Type "City"
+}
+
+Location "Maracay" "Sol/Earth"  # Venezuela
+{
+    LongLat [ -67.5961 10.2469 0 ]
+    Importance 355.0715777187494
+    Type "City"
+}
+
+Location "Maracaibo" "Sol/Earth"  # Venezuela
+{
+    LongLat [ -71.6333 10.6333 0 ]
+    Importance 415.16364469806183
+    Type "City"
+}
+
+Location "Barquisimeto" "Sol/Earth"  # Venezuela
+{
+    LongLat [ -69.3347 10.0636 0 ]
+    Importance 315.3969396964839
+    Type "City"
+}
+
+Location "Haiphong" "Sol/Earth"  # Vietnam
+{
+    LongLat [ 106.6838 20.8651 0 ]
+    Importance 394.67247794233964
+    Type "City"
+}
+
+Location "Biên Hòa" "Sol/Earth"  # Vietnam
+{
+    LongLat [ 106.8167 10.95 0 ]
+    Importance 343.73715466803503
+    Type "City"
+}
+
+Location "Cần Thơ" "Sol/Earth"  # Vietnam
+{
+    LongLat [ 105.7833 10.0333 0 ]
+    Importance 315.08364988717074
+    Type "City"
+}
+
+Location "Ninh Bình" "Sol/Earth"  # Vietnam
+{
+    LongLat [ 105.8333 20.25 0 ]
+    Importance 302.6795883089735
+    Type "City"
+}
+
+Location "Hanoi" "Sol/Earth"  # Vietnam
+{
+    LongLat [ 105.85 21.0 0 ]
+    Importance 633.7040650151913
+    Type "City"
+}
+
+Location "Thủ Đức" "Sol/Earth"  # Vietnam
+{
+    LongLat [ 106.7609 10.8266 0 ]
+    Importance 293.23689899464426
+    Type "City"
+}
+
+Location "Ho Chi Minh City" "Sol/Earth"  # Vietnam
+{
+    LongLat [ 106.7019 10.7756 0 ]
+    Importance 777.4484542416199
+    Type "City"
+}
+
+Location "Road Town" "Sol/Earth"  # Virgin Islands, British
+{
+    LongLat [ -64.6167 18.4167 0 ]
+    Importance 60.250873691048405
+    Type "City"
+}
+
+Location "Mata-Utu" "Sol/Earth"  # Wallis and Futuna
+{
+    LongLat [ -176.1736 -13.2825 0 ]
+    Importance 24.40783036179374
+    Type "City"
+}
+
+Location "Sanaa" "Sol/Earth"  # Yemen
+{
+    LongLat [ 44.2064 15.3483 0 ]
+    Importance 408.68951550652827
+    Type "City"
+}
+
+Location "Lusaka" "Sol/Earth"  # Zambia
+{
+    LongLat [ 28.2833 -15.4167 0 ]
+    Importance 356.84110707359144
+    Type "City"
+}
+
+Location "Harare" "Sol/Earth"  # Zimbabwe
+{
+    LongLat [ 31.0522 -17.8292 0 ]
+    Importance 342.45956889976827
+    Type "City"
+}
