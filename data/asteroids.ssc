@@ -799,41 +799,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/704_Interamnia"
 }
 
-
-
-# Some of the asteroids visited by spacecraft
-"951 Gaspra:Gaspra:A913 YA" "Sol"
-{
-	Class "asteroid"
-	Mesh "gaspra.cmod"
-	Texture "gaspramosaic.*" # Phil Stooke
-	Color [ 1.000 0.883 0.769 ]
-	BlendTexture true
-	Radius    9.1 # maximum semi-axis
-	MeshCenter [ 1.540 -0.064 -0.118 ]
-
-	EllipticalOrbit
-	{
-	Epoch     2448559.0        # 1991 Oct 29 12:00UT (Galileo encounter)
-	Period          3.2837     # average
-	SemiMajorAxis   2.2096348  # at epoch
-	Eccentricity    0.1738752  # at epoch
-	Inclination     4.0975771  # at epoch
-	AscendingNode   253.445592 # at epoch
-	ArgOfPericenter 129.045896 # at epoch
-	MeanAnomaly     280.769206 # at epoch
-	}
-
-	UniformRotation
-	{
-	Period         7.042073
-	Inclination             69.28
-	AscendingNode 109.59
-	MeridianAngle        58.865
-	}
-
-	Albedo 0.1
-}
+# Asteroids visited by spacecraft
 
 "243 Ida:Ida:A910 CD" "Sol"
 {
@@ -945,10 +911,6 @@
 	InfoURL	"https://en.wikipedia.org/wiki/253_Mathilde"
 }
 
-# Color from spectrum of de León et al. (2010), A&A 517, A23
-#   "Observations, compositional, and physical characterization of near-Earth and
-#   Mars-crosser asteroids from a spectroscopic survey"
-#   https://ui.adsabs.harvard.edu/abs/2010A%26A...517A..23D/abstract
 # Mass and density from Miller et al. (2002), Icarus 155, p. 3-17
 #   "Determination of Shape, Gravity, and Rotational State of Asteroid 433 Eros"
 #   https://www.researchgate.net/publication/229044233
@@ -995,12 +957,82 @@
 	InfoURL	"https://en.wikipedia.org/wiki/433_Eros"
 }
 
+"951 Gaspra:Gaspra:A913 YA" "Sol"
+{
+	Class "asteroid"
+	Mesh "gaspra.cmod"
+	Texture "gaspramosaic.*" # Phil Stooke
+	Color [ 1.000 0.883 0.769 ]
+	BlendTexture true
+	Radius    9.1 # maximum semi-axis
+	MeshCenter [ 1.540 -0.064 -0.118 ]
+
+	EllipticalOrbit
+	{
+	Epoch     2448559.0        # 1991 Oct 29 12:00UT (Galileo encounter)
+	Period          3.2837     # average
+	SemiMajorAxis   2.2096348  # at epoch
+	Eccentricity    0.1738752  # at epoch
+	Inclination     4.0975771  # at epoch
+	AscendingNode   253.445592 # at epoch
+	ArgOfPericenter 129.045896 # at epoch
+	MeanAnomaly     280.769206 # at epoch
+	}
+
+	UniformRotation
+	{
+	Period         7.042073
+	Inclination             69.28
+	AscendingNode 109.59
+	MeridianAngle        58.865
+	}
+
+	Albedo 0.1
+}
+
+"4179 Toutatis:Toutatis:1989 AC:1934 CT" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"toutatis.cmod"
+	MeshCenter	[ 0.0355 -0.2374 -0.0126 ]
+	Texture	"asteroid.*"
+	Color	[ 0.443 0.429 0.399 ]  # a004179.sp30.txt
+	BlendTexture	true
+	Radius	2.177  # maximum semi-axis (2015AJ....149...21B)
+	EllipticalOrbit
+	{
+		Epoch	2456274.854944  # 2012 Dec 13 08:30 UT (Chang'e-2 encounter)
+		Period	4.032791881598598
+		SemiMajorAxis	2.533563178471555
+		Eccentricity	0.6300686358837205
+		Inclination	0.4466021121443737
+		AscendingNode	124.3993767073358
+		ArgOfPericenter	278.6907443034261
+		MeanAnomaly	6.763415127463227
+	}
+
+	# Zhao et al. (2015), MNRAS 450, 3620-3632
+	#   "Orientation and rotational parameters of asteroid 4179 Toutatis:
+	#   new insights from Chang′e-2's close flyby"
+	#   https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.3620Z/abstract
+	PrecessingRotation
+	{
+		Epoch	2456274.854944  # 2012 Dec 13 08:30 UT
+		Period	129.12
+		Inclination	133.62
+		AscendingNode	266.35
+		MeridianAngle	155.3
+		PrecessionPeriod<d>	7.40
+	}
+	LunarLambert	0.9
+	# GeomAlbedo	0.185  # Bach et al. (2019), 2019JKAS...52...71B
+	Reflectivity	0.066  # for G = 0.10
+	InfoURL	"https://en.wikipedia.org/wiki/4179_Toutatis"
+}
+
 # Fujiwara et al. (2006), Science 312, p. 1330-1334
 #   "The Rubble-Pile Asteroid Itokawa as Observed by Hayabusa"
 #   https://www.researchgate.net/publication/7042075
-# Color from spectrum of Lowry et al. (2005), Icarus 176, p. 408-417
-#   "Physical properties of Asteroid (25143) Itokawa—Target of the Hayabusa sample return mission"
-#   https://ui.adsabs.harvard.edu/abs/2005Icar..176..408L/abstract
 # Albedos from Tatsumi et al. (2018), Icarus 311, p. 175-196
 #   "Vis-NIR disk-integrated photometry of asteroid 25143 Itokawa around
 #   opposition by AMICA/Hayabusa"
@@ -1041,108 +1073,6 @@
 	# GeomAlbedo	0.27
 	Reflectivity	0.033  # V-band Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/25143_Itokawa"
-}
-
-# Watanabe et al. (2019), Science 364 (6437), p. 268-272
-#   "Hayabusa2 arrives at the carbonaceous asteroid 162173 Ryugu—A spinning top–shaped rubble pile"
-#   https://ui.adsabs.harvard.edu/abs/2019Sci...364..268W/abstract
-# Color from spectrum of Yokota et al. (2021), Planet. Sci. J. 2, 177
-#   "Opposition Observations of 162173 Ryugu:
-#   Normal Albedo Map Highlights Variations in Regolith Characteristics"
-#   https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..177Y/abstract
-# Albedos from Tatsumi et al. (2020), A&A 639, A83
-#   "Global photometric properties of (162173) Ryugu"
-#   https://ui.adsabs.harvard.edu/abs/2020A%26A...639A..83T/abstract
-"162173 Ryugu:Ryugu:1999 JU3" "Sol"
-{
-	Class	"asteroid"
-	Mesh	"ryugu.cmod"
-	MeshCenter	[ 0.0034 -0.0065 0.0037 ]
-	Texture	"ryugu.*"
-	Color	[ 0.991 0.986 1.0 ]
-	Radius	0.502  # equatorial
-	Mass<kg>	4.50e11
-	Density	1190
-	EllipticalOrbit
-	{
-		Epoch	2458296.5  # 2018 Jun 27 (Hayabusa2 arrival)
-		Period	1.297450864089996
-		SemiMajorAxis	1.189565823285059
-		Eccentricity	0.1902806796171645
-		Inclination	5.884020404884225
-		AscendingNode	251.5891716646982
-		ArgOfPericenter	211.4360584980608
-		MeanAnomaly	18.89661040321024
-	}
-
-	# N. Hirata (17 Nov 2020), "Ryugu Coordinate System Description"
-	# https://sbnarchive.psi.edu/pds4/hayabusa2/hyb2/document/Ryugu_Coordinate_System_Description.pdf
-	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation  # PCK ryugu_v10.tpc
-	{
-		Period	7.63262478738
-		Inclination	156.38741
-		AscendingNode	186.43112
-		MeridianAngle	274.16225
-	}
-	LunarLambert	1  # Lommel-Seeliger
-	# GeomAlbedo	0.040  # v-band
-	Reflectivity	0.014  # v-band (Bond albedo)
-	InfoURL	"https://en.wikipedia.org/wiki/162173_Ryugu"
-}
-
-# Color from spectrum of Le Corre et al. (2019), 50th LPSC, 2794
-#   "Investigating Surface Color Variegation on Near-Earth Asteroid Bennu Using
-#   OSIRIS-REx Mapcam Data"
-#   https://ui.adsabs.harvard.edu/abs/2019LPI....50.2794L/abstract
-# Mass and density from Goossens et al. (2021), Planet. Sci. J. 2, 219
-#   "Mass and Shape Determination of (101955) Bennu Using Differenced Data from
-#   Multiple OSIRIS-REx Mission Phases"
-#   https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..219G/abstract
-# Albedos from Li et al. (2021), Planet. Sci. J. 2, 117
-#   "Spectrophotometric Modeling and Mapping of (101955) Bennu"
-#   https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..117L/abstract
-"101955 Bennu:Bennu:1999 RQ36" "Sol"
-{
-	Class	"asteroid"
-	Mesh	"bennu.cmod"
-	MeshCenter	[ 0.0024 -0.0045 -0.0080 ]
-	Texture	"bennu.*"
-	Color	[ 0.994 0.995 1.0 ]
-	BlendTexture	true
-	Radius	0.282365  # maximum semi-axis (2019Natur.568...55L)
-	Mass<kg>	7.3304e10
-	Density	1191.57
-	EllipticalOrbit
-	{
-		Epoch	2458455.5  # 2018 Dec 03 (OSIRIS-REx arrival)
-		Period	1.194708319285171
-		SemiMajorAxis	1.12590683885532
-		Eccentricity	0.2037294643265029
-		Inclination	6.034298802514162
-		AscendingNode	2.018428729432062
-		ArgOfPericenter	66.30469211029241
-		MeanAnomaly	328.0138356636153
-	}
-
-	# O. Barnouin, M. Nolan (19 Aug 2021), "Bennu Coordinate System Description"
-	# https://sbnarchive.psi.edu/pds4/orex/orex.mission/document/Bennu_Coordinate_System_Description.pdf
-	# Since Bennu's rotation rate is accelerating due to the YORP effect, we
-	# model its rotation state as it was at epoch J2019, during OSIRIS-REx's stay
-	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation
-	{
-		Epoch	2458485  # 2019 Jan 01 12:00
-		Period	4.296005  # at epoch
-		Inclination	150.365
-		AscendingNode	175.459
-		MeridianAngle	19.64457  # at epoch
-	}
-	LunarLambert	1  # well-fit by Lommel-Seeliger function (2021PSJ.....2..124G)
-	# GeomAlbedo	0.046
-	BondAlbedo	0.025  # Zou et al. (2021), 2021Icar..35814183Z
-	Reflectivity	0.020  # Bond albedo at 0.55 µm
-	InfoURL	"https://en.wikipedia.org/wiki/101955_Bennu"
 }
 
 # Mass, density and Dimorphos orbit from Naidu et al. (2024), Planet. Sci. J. 5, 74
@@ -1255,6 +1185,100 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Dimorphos"
 }
 
+# Mass and density from Goossens et al. (2021), Planet. Sci. J. 2, 219
+#   "Mass and Shape Determination of (101955) Bennu Using Differenced Data from
+#   Multiple OSIRIS-REx Mission Phases"
+#   https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..219G/abstract
+# Albedos from Li et al. (2021), Planet. Sci. J. 2, 117
+#   "Spectrophotometric Modeling and Mapping of (101955) Bennu"
+#   https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..117L/abstract
+"101955 Bennu:Bennu:1999 RQ36" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"bennu.cmod"
+	MeshCenter	[ 0.0024 -0.0045 -0.0080 ]
+	Texture	"bennu.*"
+	Color	[ 0.994 0.995 1.0 ]
+	BlendTexture	true
+	Radius	0.282365  # maximum semi-axis (2019Natur.568...55L)
+	Mass<kg>	7.3304e10
+	Density	1191.57
+	EllipticalOrbit
+	{
+		Epoch	2458455.5  # 2018 Dec 03 (OSIRIS-REx arrival)
+		Period	1.194708319285171
+		SemiMajorAxis	1.12590683885532
+		Eccentricity	0.2037294643265029
+		Inclination	6.034298802514162
+		AscendingNode	2.018428729432062
+		ArgOfPericenter	66.30469211029241
+		MeanAnomaly	328.0138356636153
+	}
+
+	# O. Barnouin, M. Nolan (19 Aug 2021), "Bennu Coordinate System Description"
+	# https://sbnarchive.psi.edu/pds4/orex/orex.mission/document/Bennu_Coordinate_System_Description.pdf
+	# Since Bennu's rotation rate is accelerating due to the YORP effect, we
+	# model its rotation state as it was at epoch J2019, during OSIRIS-REx's stay
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Epoch	2458485  # 2019 Jan 01 12:00
+		Period	4.296005  # at epoch
+		Inclination	150.365
+		AscendingNode	175.459
+		MeridianAngle	19.64457  # at epoch
+	}
+	LunarLambert	1  # well-fit by Lommel-Seeliger function (2021PSJ.....2..124G)
+	# GeomAlbedo	0.046
+	BondAlbedo	0.025  # Zou et al. (2021), 2021Icar..35814183Z
+	Reflectivity	0.020  # Bond albedo at 0.55 µm
+	InfoURL	"https://en.wikipedia.org/wiki/101955_Bennu"
+}
+
+# Watanabe et al. (2019), Science 364 (6437), p. 268-272
+#   "Hayabusa2 arrives at the carbonaceous asteroid 162173 Ryugu—A spinning top–shaped rubble pile"
+#   https://ui.adsabs.harvard.edu/abs/2019Sci...364..268W/abstract
+# Albedos from Tatsumi et al. (2020), A&A 639, A83
+#   "Global photometric properties of (162173) Ryugu"
+#   https://ui.adsabs.harvard.edu/abs/2020A%26A...639A..83T/abstract
+"162173 Ryugu:Ryugu:1999 JU3" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"ryugu.cmod"
+	MeshCenter	[ 0.0034 -0.0065 0.0037 ]
+	Texture	"ryugu.*"
+	Color	[ 0.991 0.986 1.0 ]
+	Radius	0.502  # equatorial
+	Mass<kg>	4.50e11
+	Density	1190
+	EllipticalOrbit
+	{
+		Epoch	2458296.5  # 2018 Jun 27 (Hayabusa2 arrival)
+		Period	1.297450864089996
+		SemiMajorAxis	1.189565823285059
+		Eccentricity	0.1902806796171645
+		Inclination	5.884020404884225
+		AscendingNode	251.5891716646982
+		ArgOfPericenter	211.4360584980608
+		MeanAnomaly	18.89661040321024
+	}
+
+	# N. Hirata (17 Nov 2020), "Ryugu Coordinate System Description"
+	# https://sbnarchive.psi.edu/pds4/hayabusa2/hyb2/document/Ryugu_Coordinate_System_Description.pdf
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation  # PCK ryugu_v10.tpc
+	{
+		Period	7.63262478738
+		Inclination	156.38741
+		AscendingNode	186.43112
+		MeridianAngle	274.16225
+	}
+	LunarLambert	1  # Lommel-Seeliger
+	# GeomAlbedo	0.040  # v-band
+	Reflectivity	0.014  # v-band (Bond albedo)
+	InfoURL	"https://en.wikipedia.org/wiki/162173_Ryugu"
+}
+
 # Radar-imaged asteroids
 
 # Rozitis and Green (2014), A&A 568, A43
@@ -1335,46 +1359,6 @@
 	# GeomAlbedo	0.56
 	Reflectivity	0.25  # for G = 0.230
 	InfoURL	"https://en.wikipedia.org/wiki/2063_Bacchus"
-}
-
-"4179 Toutatis:Toutatis:1989 AC:1934 CT" "Sol"
-{
-	Class	"asteroid"
-	Mesh	"toutatis.cmod"
-	MeshCenter	[ 0.0355 -0.2374 -0.0126 ]
-	Texture	"asteroid.*"
-	Color	[ 0.443 0.429 0.399 ]  # a004179.sp30.txt
-	BlendTexture	true
-	Radius	2.177  # maximum semi-axis (2015AJ....149...21B)
-	EllipticalOrbit
-	{
-		Epoch	2456274.854944  # 2012 Dec 13 08:30 UT (Chang'e-2 encounter)
-		Period	4.032791881598598
-		SemiMajorAxis	2.533563178471555
-		Eccentricity	0.6300686358837205
-		Inclination	0.4466021121443737
-		AscendingNode	124.3993767073358
-		ArgOfPericenter	278.6907443034261
-		MeanAnomaly	6.763415127463227
-	}
-
-	# Zhao et al. (2015), MNRAS 450, 3620-3632
-	#   "Orientation and rotational parameters of asteroid 4179 Toutatis:
-	#   new insights from Chang′e-2's close flyby"
-	#   https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.3620Z/abstract
-	PrecessingRotation
-	{
-		Epoch	2456274.854944  # 2012 Dec 13 08:30 UT
-		Period	129.12
-		Inclination	133.62
-		AscendingNode	266.35
-		MeridianAngle	155.3
-		PrecessionPeriod<d>	7.40
-	}
-	LunarLambert	0.9
-	# GeomAlbedo	0.185  # Bach et al. (2019), 2019JKAS...52...71B
-	Reflectivity	0.066  # for G = 0.10
-	InfoURL	"https://en.wikipedia.org/wiki/4179_Toutatis"
 }
 
 # Size from Hudson and Ostro (1994), Science 263 (5149), p.940-943
@@ -1463,9 +1447,6 @@
 # Sizes, masses and Moshup rotational parameters from Ostro et al. (2006), Science 314, p. 1276-1280
 #   "Radar Imaging of Binary Near-Earth Asteroid (66391) 1999 KW4"
 #   https://www.researchgate.net/publication/6756119
-# Color from indices of Carbognani (2019), Minor Planet Bulletin 46, p. 444
-#   "The Color Indices of the NEA (66391) 1999 KW4"
-#   https://ui.adsabs.harvard.edu/abs/2019MPBu...46..444C/abstract
 "66391 Moshup:Moshup:1999 KW4" "Sol"
 {
 	Class	"asteroid"
