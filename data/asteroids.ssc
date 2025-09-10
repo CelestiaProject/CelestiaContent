@@ -1721,3 +1721,304 @@
 	Reflectivity	0.123  # for G_1 = 0.4628 and G_2 = 0.4984
 	InfoURL	"https://en.wikipedia.org/wiki/1252_Celestia"
 }
+
+# Notable Jupiter trojans
+# Parameters of Eurybates and Orus from Mottola et al. (2023), Planet. Sci. J. 4, 18
+#   "Shape Models of Lucy Targets (3548) Eurybates and (21900) Orus from
+#   Disk-integrated Photometry"
+#   https://ui.adsabs.harvard.edu/abs/2023PSJ.....4...18M/abstract
+
+# Brozović et al. (2024), AJ 167, 104
+#   "Orbit of the Patroclus–Menoetius Binary System and Predictions for the
+#   2024/2025 Mutual Events Season"
+#   https://ui.adsabs.harvard.edu/abs/2024AJ....167..104B/abstract
+ReferencePoint "Patroclus-Menoetius" "Sol"
+{
+	# Mass<kg>	1.424e18
+	# Density	1050
+	EllipticalOrbit  # system barycenter solution
+	{
+		Epoch	2463658.5  # 2033 Mar 02 (Lucy encounter)
+		Period	11.861982204  # Jupiter's mean period from Horizons
+		SemiMajorAxis	5.203231844757138
+		Eccentricity	0.1386909921477942
+		Inclination	22.06842876958184
+		AscendingNode	44.33919309268208
+		ArgOfPericenter	308.3656223722037
+		MeanAnomaly	263.5146093296045
+	}
+	# Make the orbit and label visible
+	Visible	true
+	Clickable	true
+}
+
+"617 Patroclus:Patroclus:1906 VY:1941 XC:1962 NB" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.237 0.234 0.227 ]
+	BlendTexture	true
+	SemiAxes	[ 63.5 58.5 49 ]
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/Patroclus-Menoetius" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2457900  # 2017 May 26 12:00 UT
+		Period	4.282754
+		SemiMajorAxis	303.7  # separation = 692.5 km, mass ratio approximate
+		Eccentricity	0.004
+		Inclination	164.1
+		AscendingNode	268.0
+		MeanLongitude	289.7  # Grundy et al. (2018); unrestricted orbit
+		LongOfPericenter	227  # Grundy et al. (2018); unrestricted orbit
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation  # to match orbit
+	{
+		Epoch	2457900  # 2017 May 26 12:00 UT
+		Inclination	164.1
+		AscendingNode	268.0
+		MeridianAngle	201.7
+	}
+	LunarLambert	0.9
+	# GeomAlbedo	0.045  # Mueller et al. (2010), 2010Icar..205..505M
+	Reflectivity	0.015  # for G_1 = 0.645036 and G_2 = 0.089212
+	InfoURL	"https://en.wikipedia.org/wiki/617_Patroclus"
+}
+
+"Menoetius:617 Patroclus I:Patroclus I:S 2001 (617) 1" "Sol/617 Patroclus"
+{
+	Class	"asteroid"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.237 0.234 0.227 ]
+	BlendTexture	true
+	SemiAxes	[ 58.5 54 45 ]
+	OrbitFrame
+	{
+		EquatorJ2000	{ Center "Sol/Patroclus-Menoetius" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2457900  # 2017 May 26 12:00 UT
+		Period	4.282754
+		SemiMajorAxis	388.8  # separation = 692.5 km, mass ratio approximate
+		Eccentricity	0.004
+		Inclination	164.1
+		AscendingNode	268.0
+		MeanLongitude	109.7  # Grundy et al. (2018); unrestricted orbit
+		LongOfPericenter	47  # Grundy et al. (2018); unrestricted orbit
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation  # to match orbit
+	{
+		Epoch	2457900  # 2017 May 26 12:00 UT
+		Inclination	164.1
+		AscendingNode	268.0
+		MeridianAngle	21.7
+	}
+	LunarLambert	0.9
+	# GeomAlbedo	0.045
+	Reflectivity	0.015
+	InfoURL	"https://en.wikipedia.org/wiki/617_Patroclus#Binary_system"
+}
+
+# Mass and density from Levison et al. (2025), Space Science Reviews 221, 63
+#   "NASA'S Lucy Mission to Trojan Asteroids:
+#   Unraveling the History of the Outer Solar System"
+#   https://ui.adsabs.harvard.edu/abs/2025SSRv..221...63L/abstract
+"3548 Eurybates:Eurybates:1973 SO:1954 CB:1957 JX:1978 EE5:1985 TZ" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.233 0.232 0.224 ]
+	BlendTexture	true
+	SemiAxes	[ 38.75 35.65 30.9 ]
+	Mass<kg>	1.4e17
+	Density	800  # Levison et al. (2025), 2025SSRv..221...63L
+	EllipticalOrbit
+	{
+		Epoch	2461629.5  # 2027 Aug 12 (Lucy encounter)
+		Period	11.861982204  # Jupiter's mean period from Horizons
+		SemiMajorAxis	5.220173926024283
+		Eccentricity	0.0899648697462596
+		Inclination	8.049061586825344
+		AscendingNode	43.55939315842431
+		ArgOfPericenter	28.76116866637875
+		MeanAnomaly	161.1839902008334
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period	8.7027283
+		Inclination	157
+		AscendingNode	97
+		MeridianAngle	229.156
+	}
+	LunarLambert	0.9
+	# GeomAlbedo	0.044
+	Reflectivity	0.015  # for G_1 = 0.862 and G_2 = -0.028
+	InfoURL	"https://en.wikipedia.org/wiki/3548_Eurybates"
+}
+
+"Queta:3548 Eurybates I:Eurybates I:S 2018 (3548) 1" "Sol/3548 Eurybates"
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.233 0.232 0.224 ]
+	BlendTexture	true
+	Radius	0.6  # Noll et al. (2020), 2020PSJ.....1...44N
+
+	# Noll et al. (2023), Space Science Reviews 219, 59
+	#   "Trojan Asteroid Satellites, Rings, and Activity"
+	#   https://ui.adsabs.harvard.edu/abs/2023SSRv..219...59N/abstract
+	#   (Additional parameters from Brown et al. 2021, 2021PSJ.....2..170B)
+	OrbitFrame	{ EclipticJ2000 {} }
+	EllipticalOrbit
+	{
+		Epoch	2458373.9064
+		Period	82.47
+		SemiMajorAxis	2321.2
+		Eccentricity	0.098
+		Inclination	155
+		AscendingNode	207
+		ArgOfPericenter	53
+		MeanAnomaly	345
+	}
+	UniformRotation
+	{
+		Period	8  # assumed
+	}
+	LunarLambert	0.9
+	# GeomAlbedo	0.044
+	Reflectivity	0.015
+	InfoURL	"https://en.wikipedia.org/wiki/3548_Eurybates#Satellite"
+}
+
+# Mottola et al. (2020), Planet. Sci. J. 1, 73
+#   "Convex Shape and Rotation Model of Lucy Target (11351) Leucus from
+#   Lightcurves and Occultations"
+#   https://ui.adsabs.harvard.edu/abs/2020PSJ.....1...73M/abstract
+"11351 Leucus:Leucus:1997 TS25:1996 VP39" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.234 0.229 0.223 ]
+	BlendTexture	true
+	SemiAxes	[ 30.4 19.6 13.9 ]
+	EllipticalOrbit
+	{
+		Epoch	2461879.5  # 2028 Apr 18 (Lucy encounter)
+		Period	11.861982204  # Jupiter's mean period from Horizons
+		SemiMajorAxis	5.315871758058607
+		Eccentricity	0.06417509974712261
+		Inclination	11.53980958211758
+		AscendingNode	251.0897456577109
+		ArgOfPericenter	162.0499233110517
+		MeanAnomaly	194.215139734238
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period	445.683
+		Inclination	32
+		AscendingNode	338
+		MeridianAngle	60.014
+	}
+	LunarLambert	0.9
+	# GeomAlbedo	0.043
+	Reflectivity	0.019  # for G_1 = 0.63 and G_2 = 0.23
+	InfoURL	"https://en.wikipedia.org/wiki/11351_Leucus"
+}
+
+# Levison et al. (2023), 55th DPS, 107.05
+#   "Interpreting the Stellar Occultations of (15094) Polymele – a Lucy Target"
+#   https://ui.adsabs.harvard.edu/abs/2023DPS....5510705L/abstract
+"15094 Polymele:Polymele:1999 WB2:1997 WR57" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.312 0.297 0.298 ]
+	BlendTexture	true
+	SemiAxes	[ 13.5 12.2 5.2 ]
+	EllipticalOrbit
+	{
+		Epoch	2461663.5  # 2027 Sept 15 (Lucy encounter)
+		Period	11.861982204  # Jupiter's mean period from Horizons
+		SemiMajorAxis	5.194492184539208
+		Eccentricity	0.09524566647805749
+		Inclination	12.97313108674064
+		AscendingNode	50.3338734485756
+		ArgOfPericenter	5.795343714956423
+		MeanAnomaly	182.0870298288778
+	}
+	UniformRotation
+	{
+		Period	11.5  # Levison et al. (2025), 2025SSRv..221...63L
+		Inclination	170.9
+		AscendingNode	321.8
+	}
+	LunarLambert	0.9
+	# GeomAlbedo	0.073
+	Reflectivity	0.032  # for G = 0.22 (2018AJ....155..245B)
+	InfoURL	"https://en.wikipedia.org/wiki/15094_Polymele"
+}
+
+"S 2022 (15094) 1:Shaun" "Sol/15094 Polymele"  # no provisional designation
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.312 0.297 0.298 ]
+	BlendTexture	true
+	Radius	2.5
+	EllipticalOrbit
+	{
+		Period	14.4  # for density = 1 g/cm^3
+		SemiMajorAxis	204.4
+	}
+	LunarLambert	0.9
+	# GeomAlbedo	0.073
+	Reflectivity	0.032
+	InfoURL	"https://en.wikipedia.org/wiki/15094_Polymele#Satellite"
+}
+
+"21900 Orus:Orus:1999 VQ10:1998 VD18" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.226 0.22 0.209 ]
+	BlendTexture	true
+	SemiAxes	[ 35.35 31.5 25.7 ]
+	EllipticalOrbit
+	{
+		Epoch	2462086.5  # 2028 Nov 11 (Lucy encounter)
+		Period	11.861982204  # Jupiter's mean period from Horizons
+		SemiMajorAxis	5.123400583160445
+		Eccentricity	0.03603683387678938
+		Inclination	8.468657355130759
+		AscendingNode	258.5489243205059
+		ArgOfPericenter	181.7521909133608
+		MeanAnomaly	173.3806225201824
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period	13.486190
+		Inclination	132
+		AscendingNode	144
+		MeridianAngle	17.413
+	}
+	LunarLambert	0.9
+	# GeomAlbedo	0.040
+	Reflectivity	0.018  # for G_1 = 0.689 and G_2 = 0.193
+	InfoURL	"https://en.wikipedia.org/wiki/21900_Orus"
+}
