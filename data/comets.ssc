@@ -26,7 +26,8 @@
 #   https://books.google.com/books?id=AHF9ZraafV8C&pg=PA223
 #   https://ui.adsabs.harvard.edu/abs/2004come.book..223L/abstract
 # 
-# Density estimates for 1P, 17P, 21P, 29P, C/1983 H1, C/1995 O1 and C/1996 B2 are from Paradowski (2022), Acta Astronomica 72, 141-159
+# Density estimates for 1P, 17P, 19P, 21P, 29P, C/1983 H1, C/1995 O1 and C/1996 B2
+# are from Paradowski (2022), Acta Astronomica 72, 141-159
 #  "A New Indirect Method of Determining Density of Cometary Nuclei"
 #   https://doi.org/10.32023/0001-5237/72.2.4
 # 
@@ -42,7 +43,8 @@
 #  "CCD photometry of comet 109P/Swift-Tuttle"
 #   https://ui.adsabs.harvard.edu/abs/1995A&A...297L..17O/abstract
 #
-# Radius for C/1956 R1 (Arend-Roland) and C/2006 P1 (McNaught) is from Fernandez (2012), MNRAS 423, 1674-1690
+# Radius for C/1956 R1 (Arend-Roland) and C/2006 P1 (McNaught) are from Fernandez (2012)
+# MNRAS 423, 1674-1690
 #  "Magnitude and size distribution of long-period comets in Earth-crossing or approaching orbits"
 #   https://doi.org/10.1111/j.1365-2966.2012.20989.x
 #
@@ -50,7 +52,7 @@
 #  "Physical processes in comet Kohoutek."
 #   https://ui.adsabs.harvard.edu/abs/1976PASP...88..342O/abstract
 # 
-# Surface-equivalent diameter for C/2014 UN271 (Bernardinelli-Bernstein) from Lellouch et al. (2022), A&A 659, id.L1
+# Surface-equivalent diameter for C/2014 UN271 (Bernardinelli-Bernstein) is from Lellouch et al. (2022), A&A 659, id.L1
 #  "Size and albedo of the largest detected Oort-cloud object: Comet C/2014 UN271 (Bernardinelli-Bernstein)"
 #   https://www.aanda.org/articles/aa/full_html/2022/03/aa43090-22/aa43090-22.html
 # 
@@ -177,7 +179,7 @@
 	BlendTexture	true
 	Radius	 2.4					# D = 4.8 km
 	Mass<kg>	2.7e12
-	Density	 50
+	Density	 440
 
 	EllipticalOrbit
 	{
@@ -779,3 +781,4 @@
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/C/2023_A3_(Tsuchinshan-ATLAS)"
 }
+
