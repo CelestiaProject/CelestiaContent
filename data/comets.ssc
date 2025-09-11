@@ -23,7 +23,7 @@
 #
 # Dimensions for 1P/Halley is from Lamy et al. (2004), in Comets II, 223-264
 #  "The sizes, shapes, albedos, and colors of cometary nuclei"
-#   https://books.google.ca/books?id=AHF9ZraafV8C&pg=PA223
+#   https://books.google.com/books?id=AHF9ZraafV8C&pg=PA223
 #   https://ui.adsabs.harvard.edu/abs/2004come.book..223L/abstract
 # 
 # Density estimates for 1P, 17P, 21P, 29P, C/1983 H1, C/1995 O1 and C/1996 B2 are from Paradowski (2022), Acta Astronomica 72, 141-159
@@ -779,8 +779,3 @@
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/C/2023_A3_(Tsuchinshan-ATLAS)"
 }
-
-
-
-
-
