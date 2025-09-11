@@ -26,8 +26,8 @@
 #   https://books.google.com/books?id=AHF9ZraafV8C&pg=PA223
 #   https://ui.adsabs.harvard.edu/abs/2004come.book..223L/abstract
 # 
-# Density estimates for 1P, 17P, 19P, 21P, 29P, C/1983 H1, C/1995 O1 and C/1996 B2
-# are from Paradowski (2022), Acta Astronomica 72, 141-159
+# Density estimates for 1P, 17P, 19P, 21P, 29P, C/1983 H1, C/1995 O1, C/1996 B2
+# and C/2013 A1 are from Paradowski (2022), Acta Astronomica 72, 141-159
 #  "A New Indirect Method of Determining Density of Cometary Nuclei"
 #   https://doi.org/10.32023/0001-5237/72.2.4
 # 
@@ -665,6 +665,7 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
 	Radius	 0.275				# D = 0.55 km
+	Density	 390
 
 	# Outbound elliptical barycentric orbit is used (2016)
 	# https://ssd.jpl.nasa.gov/horizons/app.html#/
@@ -781,4 +782,5 @@
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/C/2023_A3_(Tsuchinshan-ATLAS)"
 }
+
 
