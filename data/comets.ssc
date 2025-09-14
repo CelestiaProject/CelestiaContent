@@ -21,44 +21,21 @@
 # this SSC file, we only select the most significant comets that
 # share the same formal name.
 #
-# Dimensions for 1P/Halley is from Lamy et al. (2004), in Comets II, 223-264
-#  "The sizes, shapes, albedos, and colors of cometary nuclei"
-#   https://books.google.com/books?id=AHF9ZraafV8C&pg=PA223
-#   https://ui.adsabs.harvard.edu/abs/2004come.book..223L/abstract
 # 
 # Density estimates for 1P, 17P, 19P, 21P, 29P, C/1983 H1, C/1995 O1, C/1996 B2
 # and C/2013 A1 are from Paradowski (2022), Acta Astronomica 72, 141-159
 #  "A New Indirect Method of Determining Density of Cometary Nuclei"
 #   https://doi.org/10.32023/0001-5237/72.2.4
 # 
-# Mass and density estimates for 2P, 19P, and 46P are from Sosa et al. (2009)
+# Mass and density estimates for 2P, 19P, and 46P are from Sosa, et al. (2009)
 #  "Cometary masses derived from non-gravitational forces", MNRAS 393, 192-214
 #   https://doi.org/10.1111/j.1365-2966.2008.14183.x
-# 
-# Radius for 29P/Schwassmann-Wachmann 1 is from Schambeau et al. (2015), Icarus 260, 60-72
-#  "A new analysis of Spitzer observations of Comet 29P/Schwassmann-Wachmann 1"
-#   https://ui.adsabs.harvard.edu/abs/2015Icar..260...60S/abstract
-# 
-# Radius and mass for 109P/Swift-Tuttle is from O'Ceallaigh et al. (1995), A&A 297, pp. 17-20
-#  "CCD photometry of comet 109P/Swift-Tuttle"
-#   https://ui.adsabs.harvard.edu/abs/1995A&A...297L..17O/abstract
 #
-# Radius for C/1956 R1 (Arend-Roland) and C/2006 P1 (McNaught) are from Fernandez (2012)
-# MNRAS 423, 1674-1690
+# Radius for 153P, C/1956 R1 and C/2006 P1 are derived from Equation 1 of
+# Fernandez, et al. (2012), MNRAS 423, 1674-1690
 #  "Magnitude and size distribution of long-period comets in Earth-crossing or approaching orbits"
 #   https://doi.org/10.1111/j.1365-2966.2012.20989.x
 #
-# Radius for C/1973 E1 (Kohoutek) is from Odell (1976), PASP 88, 342-348.
-#  "Physical processes in comet Kohoutek."
-#   https://ui.adsabs.harvard.edu/abs/1976PASP...88..342O/abstract
-# 
-# Surface-equivalent diameter for C/2014 UN271 (Bernardinelli-Bernstein) is from Lellouch et al. (2022), A&A 659, id.L1
-#  "Size and albedo of the largest detected Oort-cloud object: Comet C/2014 UN271 (Bernardinelli-Bernstein)"
-#   https://www.aanda.org/articles/aa/full_html/2022/03/aa43090-22/aa43090-22.html
-# 
-# Radius, mass and density for C/2023 A3 (Tsuchinshan–ATLAS) is from Liu et al. (2025), A&A 698, id.L95
-#  "Great comet C/2023 A3 (Tsuchinshan–ATLAS): Dust loss before perihelion"
-#   https://www.aanda.org/articles/aa/full_html/2025/06/aa54632-25/aa54632-25.html
 #
 # Last update: 11 September 2025
 
@@ -75,6 +52,9 @@
 	MeshCenter	[ -0.338 1.303 0.230 ]
 	Mass<kg>	2.2e14
 	Density	 540
+
+	# Radius in kilometers from Lamy (2004)
+	# https://books.google.com/books?id=AHF9ZraafV8C&pg=PA223
 
 	# Mass estimates from Rickman (1989)
 	# https://doi.org/10.1016/0273-1177(89)90241-X
@@ -239,6 +219,10 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
 	Radius	1.3					# D = 2.6 km
+	Density	 600				# assumed
+
+	# Actual mass and density are currently unknown
+	# (As of September 2025)
 
 	EllipticalOrbit
 	{
@@ -267,6 +251,9 @@
 	Texture	"asteroid.jpg"
 	Radius	 30.2
 	Density	 540
+
+	# Radius in kilometers from Schambeau (2015)
+	# https://ui.adsabs.harvard.edu/abs/2015Icar..260...60S
 
 	EllipticalOrbit
 	{
@@ -324,8 +311,9 @@
 	Texture	"asteroid.jpg"
 	Color	[ 0.235 0.219 0.204 ]
 	BlendTexture	true
-	Radius	 1.8					# D = 3.6 km
+	Radius	 1.8				# D = 3.6 km
 	Mass<kg>	1.2e13
+	Density	 600				# assumed
 
 	# Mass estimates from Jewitt (2004)
 	# https://ui.adsabs.harvard.edu/abs/2004come.book..659J
@@ -358,6 +346,10 @@
 	Color	[ 0.938 0.977 1.0 ]
 	BlendTexture	true
 	Radius	3.2					# D = 6.4 km
+	Density	 600				# assumed
+
+	# Actual mass and density are currently unknown
+	# (As of September 2025)
 
 	EllipticalOrbit
 	{
@@ -371,7 +363,7 @@
 		MeanAnomaly	        340.9939227088265
 	}
 
-	# Rotation period from IAU Circular No. 6816 (1998)
+	# Rotation period from Eisner (2019)
 	# https://arxiv.org/abs/1903.10500
 	
 	RotationPeriod	 4.096
@@ -386,6 +378,10 @@
 	Texture	"asteroid.jpg"
 	Radius	 11.8				# D = 23.6 km
 	Mass<kg>	7e15
+	Density	 600				# assumed
+
+	# Radius and mass from O'Ceallaigh (1995)
+	# https://ui.adsabs.harvard.edu/abs/1995A&A...297L..17O
 
 	EllipticalOrbit
 	{
@@ -415,6 +411,10 @@
 	Color	[ 0.402 0.382 0.358 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	 33.085				# D = 66.17 +/- 22.9 km
+	Density	 600				# assumed
+
+	# Actual mass and density are currently unknown
+	# (As of September 2025)
 
 	EllipticalOrbit
 	{
@@ -444,7 +444,11 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	 1.765				# D = 3.53 km
+	Radius	 1.765				# D = 3.53 km, Equation 1 of Fernandez (2012)
+	Density	 600				# assumed
+
+	# Actual mass and density are currently unknown
+	# (As of September 2025)
 
 	EllipticalOrbit
 	{
@@ -502,7 +506,11 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	 1.58					# D = 3.16 km, Equation 1 of Fernandez (2012)
+	Radius	 1.58				# D = 3.16 km, Equation 1 of Fernandez (2012)
+	Density	 600				# assumed
+
+	# Actual mass and density are currently unknown
+	# (As of September 2025)
 
 	# Outbound elliptical barycentric orbit is used (1957)
 	# https://ssd.jpl.nasa.gov/horizons/app.html#/
@@ -535,6 +543,13 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
 	Radius	2.1
+	Density	 600				# assumed
+
+	# Radius in kilometers by Odell (1976)
+	# https://ui.adsabs.harvard.edu/abs/1976PASP...88..342O
+
+	# Actual mass and density are currently unknown
+	# (As of September 2025)
 
 	# Outbound elliptical barycentric orbit is used (2500)
 	# https://ssd.jpl.nasa.gov/horizons/app.html#/
@@ -633,6 +648,10 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
 	Radius	 1.58				# D = 3.16 km, Equation 1 of Fernandez (2012)
+	Density	 600				# assumed
+
+	# Actual mass and density are currently unknown
+	# (As of September 2025)
 
 	# Inbound elliptical barycentric orbit is used (2007)
 	# https://ssd.jpl.nasa.gov/horizons/app.html#/
@@ -700,6 +719,13 @@
 	Color	[ 0.366 0.369 0.373 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	 68.5				# D = 137 +/- 17 km
+	Density	 600				# assumed
+
+	# Radius in kilometers from Lellouch (2022)
+	# https://www.aanda.org/articles/aa/full_html/2022/03/aa43090-22/aa43090-22.html
+
+	# Actual mass and density are currently unknown
+	# (As of September 2025)
 
 	EllipticalOrbit
 	{
@@ -726,7 +752,11 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	 2.5					# D = 5.0 km
+	Radius	 2.5				# D = 5.0 km
+	Density	 600				# assumed
+
+	# Actual mass and density are currently unknown
+	# (As of September 2025)
 
 	EllipticalOrbit
 	{
@@ -757,6 +787,9 @@
 	Mass<kg>	4.3e14
 	Density	 500
 
+	# Radius, mass, and density from Liu (2025)
+	# https://www.aanda.org/articles/aa/full_html/2025/06/aa54632-25/aa54632-25.html
+
 	# Comet is currently on a hyperbolic ejection trajectory
 	# since 1900. Inbound barycentric orbit is used (2024)
 	# https://ssd.jpl.nasa.gov/horizons/app.html#/
@@ -782,5 +815,6 @@
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/C/2023_A3_(Tsuchinshan-ATLAS)"
 }
+
 
 
