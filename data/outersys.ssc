@@ -1,3 +1,8 @@
+# The default source for sizes and albedos is Müller et al. (2019)
+# "Trans-Neptunian objects and Centaurs at thermal wavelengths"
+# (chapter from "The Trans-Neptunian Solar System")
+# https://ui.adsabs.harvard.edu/abs/2020tnss.book..153M/abstract
+
 # Colors are mainly derived from B-V and V-R indices, most of which
 # come from the MBOSS compilation: http://www.eso.org/~ohainaut/MBOSS/
 # Centaur colors are derived from SMASS spectra: http://smass.mit.edu/smass.html
@@ -572,6 +577,146 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/55565_Aya"
 }
 
+# Sizes, density and albedo from Brown and Butler (2017), AJ 154, 19
+#   "The Density of Mid-sized Kuiper Belt Objects from ALMA Thermal Observations"
+#   https://ui.adsabs.harvard.edu/abs/2017AJ....154...19B/abstract
+# Mass and Tinia's orbit from http://www2.lowell.edu/users/grundy/tnbs/orbits.html
+"55637 Uni:Uni:2002 UX25" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 0.578 0.532 0.451 ]
+	BlendTexture	true
+	Radius	329.5
+	# Mass<kg>	123e18  # system mass
+	# Density	800
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	278.5364670688723
+		SemiMajorAxis	42.66876058381893
+		Eccentricity	0.1420774556810967
+		Inclination	19.43344830180177
+		AscendingNode	204.6284732002555
+		ArgOfPericenter	277.4576065451801
+		MeanAnomaly	274.4156281448926
+	}
+
+	# Rotation period from Thirouin (2013)
+	#   "Study of transneptunian objects using photometrics techniques and numerical simulations"
+	#   https://digibug.ugr.es/handle/10481/30832
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation  # assume alignment with satellite orbit
+	{
+		Period	6.55
+		Inclination	63.1
+		AscendingNode	206.1
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.10
+	InfoURL	"https://en.wikipedia.org/wiki/55637_Uni"
+}
+
+"Tinia:55637 Uni I:Uni I" "Sol/Uni"
+{
+	Class	"asteroid"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.578 0.532 0.451 ]  # assume same as primary
+	BlendTexture	true
+	Radius	115
+	OrbitFrame	{ EquatorJ2000 {} }
+	EllipticalOrbit
+	{
+		Epoch	2454000.0
+		Period	8.3095
+		SemiMajorAxis	4750
+		Eccentricity	0.18
+		Inclination	63.1
+		MeanLongitude	142.0
+		AscendingNode	206.1
+		LongOfPericenter	213
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation  # to match orbit
+	{
+		Epoch	2454000.0
+		Inclination	63.1
+		AscendingNode	206.1
+		MeridianAngle	115.9
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.10  # assume same as primary
+	InfoURL	"https://en.wikipedia.org/wiki/Tinia_(moon)"
+}
+
+"78799 Xewioso:Xewioso:2002 XW93" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.323 0.323 0.323 ]  # no color data
+	BlendTexture	true
+	Radius	282.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	229.464013820547
+		SemiMajorAxis	37.49716007668098
+		Eccentricity	0.2491034342023438
+		Inclination	14.35647543904455
+		AscendingNode	46.82981521306245
+		ArgOfPericenter	247.7536198760996
+		MeanAnomaly	114.5761918222783
+	}
+	UniformRotation
+	{
+		Period	9  # no measurement
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.038
+	InfoURL	"https://en.wikipedia.org/wiki/78799_Xewioso"
+}
+
+"90568 Goibniu:Goibniu:2004 GV9" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 0.492 0.46 0.404 ]
+	BlendTexture	true
+	Radius	340
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	271.4931715101741
+		SemiMajorAxis	41.94639028123139
+		Eccentricity	0.07668165178025158
+		Inclination	21.9825899162048
+		AscendingNode	250.6059313870576
+		ArgOfPericenter	292.1156151262193
+		MeanAnomaly	14.65304126542339
+	}
+	UniformRotation
+	{
+		Period	5.86  # Dotto et al. (2008), 2008A&A...490..829D
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.077
+	InfoURL	"https://en.wikipedia.org/wiki/90568_Goibniu"
+}
+
 # Sizes from Grundy et al. (2019), Icarus 334, 62-78
 # "Mutual orbit orientations of transneptunian binaries"
 # http://www2.lowell.edu/users/grundy/abstracts/2019.TNB_orbits.html
@@ -648,6 +793,73 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	LunarLambert	0.5
 	GeomAlbedo	0.042  # assume same albedo as primary
 	InfoURL	"https://en.wikipedia.org/wiki/Actaea_(moon)"
+}
+
+# Size and albedo from Farkas-Takács et al. (2020), A&A 638, A23
+#   "'TNOs are Cool': A survey of the trans-Neptunian region.
+#   XV. Physical characteristics of 23 resonant trans-Neptunian and scattered disk objects"
+#   https://ui.adsabs.harvard.edu/abs/2020A%26A...638A..23F/abstract
+"145451 Rumina:Rumina:2005 RM43" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.529 0.529 0.538 ]
+	BlendTexture	true
+	Radius	262
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	861.2576530536304
+		SemiMajorAxis	90.56159206719674
+		Eccentricity	0.6123375254617228
+		Inclination	28.75774328850087
+		AscendingNode	84.63622195725588
+		ArgOfPericenter	318.3151636319234
+		MeanAnomaly	357.9707670366877
+	}
+	UniformRotation
+	{
+		Period	6.71  # Thirouin et al. (2010), 2010A&A...522A..93T
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.102
+	InfoURL	"https://en.wikipedia.org/wiki/145451_Rumina"
+}
+
+"145452 Ritona:Ritona:2005 RN43" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 0.591 0.538 0.465 ]
+	BlendTexture	true
+	Radius	339.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	267.2745728729669
+		SemiMajorAxis	41.5107342705003
+		Eccentricity	0.02246247972016185
+		Inclination	19.26788957335959
+		AscendingNode	187.0011005465927
+		ArgOfPericenter	172.3634373305078
+		MeanAnomaly	319.1792152728446
+	}
+	UniformRotation
+	{
+		Period	6.946  # Hromakina et al. (2018), 2018MNRAS.474.2536H
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.107
+	InfoURL	"https://en.wikipedia.org/wiki/145452_Ritona"
 }
 
 # Varda's shape from Souami et al. (2020), A&A 643, A125
@@ -1064,5 +1276,36 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/(612911)_2004_XR190"
 }
 
-
-
+# Gerdes et al. (2017), ApJL 839, L15
+#   "Discovery and Physical Characterization of a Large Scattered Disk Object at 92 au"
+#   https://ui.adsabs.harvard.edu/abs/2017ApJ...839L..15G/abstract
+"2014 UZ224:DeeDee" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 0.638 0.592 0.556 ]
+	BlendTexture	true
+	Radius	317.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	1129.821086962011
+		SemiMajorAxis	108.5246607383175
+		Eccentricity	0.6467505763744339
+		Inclination	26.78460245749269
+		AscendingNode	131.0010599912059
+		ArgOfPericenter	29.42537432496529
+		MeanAnomaly	314.5872667303412
+	}
+	UniformRotation
+	{
+		Period	9  # no measurement
+	}
+	LunarLambert	0.5
+	GeomAlbedo	0.131
+	InfoURL	"https://en.wikipedia.org/wiki/2014_UZ224"
+}
