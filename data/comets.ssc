@@ -37,7 +37,7 @@
 #   https://doi.org/10.1111/j.1365-2966.2012.20989.x
 #
 #
-# Last update: 11 September 2025
+# Last update: 8 October 2025
 
 
 # Periodic Comets
@@ -218,11 +218,7 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	1.3					# D = 2.6 km
-	Density	 600				# assumed
-
-	# Actual mass and density are currently unknown
-	# (As of September 2025)
+	Radius	 1.3					# D = 2.6 km
 
 	EllipticalOrbit
 	{
@@ -236,11 +232,11 @@
 		MeanAnomaly	        273.4178382900974
 	}
 
-	# Actual rotation period is currently unknown
-	# (As of May 2025)
+	# Rotation period from Boehnhardt (1999)
+	# https://ui.adsabs.harvard.edu/abs/1999A&A...341..912B
 
-	RotationPeriod	 6.00
-	GeomAlbedo		 0.04
+	RotationPeriod	 12.00
+	GeomAlbedo		  0.04
 	InfoURL	"https://en.wikipedia.org/wiki/26P/Grigg-Skjellerup"
 }
 
@@ -313,7 +309,6 @@
 	BlendTexture	true
 	Radius	 1.8				# D = 3.6 km
 	Mass<kg>	1.2e13
-	Density	 600				# assumed
 
 	# Mass estimates from Jewitt (2004)
 	# https://ui.adsabs.harvard.edu/abs/2004come.book..659J
@@ -346,10 +341,6 @@
 	Color	[ 0.938 0.977 1.0 ]
 	BlendTexture	true
 	Radius	3.2					# D = 6.4 km
-	Density	 600				# assumed
-
-	# Actual mass and density are currently unknown
-	# (As of September 2025)
 
 	EllipticalOrbit
 	{
@@ -378,7 +369,6 @@
 	Texture	"asteroid.jpg"
 	Radius	 11.8				# D = 23.6 km
 	Mass<kg>	7e15
-	Density	 600				# assumed
 
 	# Radius and mass from O'Ceallaigh (1995)
 	# https://ui.adsabs.harvard.edu/abs/1995A&A...297L..17O
@@ -411,10 +401,6 @@
 	Color	[ 0.402 0.382 0.358 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	 33.085				# D = 66.17 +/- 22.9 km
-	Density	 600				# assumed
-
-	# Actual mass and density are currently unknown
-	# (As of September 2025)
 
 	EllipticalOrbit
 	{
@@ -445,10 +431,6 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
 	Radius	 1.765				# D = 3.53 km, Equation 1 of Fernandez (2012)
-	Density	 600				# assumed
-
-	# Actual mass and density are currently unknown
-	# (As of September 2025)
 
 	EllipticalOrbit
 	{
@@ -507,10 +489,6 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
 	Radius	 1.58				# D = 3.16 km, Equation 1 of Fernandez (2012)
-	Density	 600				# assumed
-
-	# Actual mass and density are currently unknown
-	# (As of September 2025)
 
 	# Outbound elliptical barycentric orbit is used (1957)
 	# https://ssd.jpl.nasa.gov/horizons/app.html#/
@@ -543,13 +521,9 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
 	Radius	2.1
-	Density	 600				# assumed
 
 	# Radius in kilometers by Odell (1976)
 	# https://ui.adsabs.harvard.edu/abs/1976PASP...88..342O
-
-	# Actual mass and density are currently unknown
-	# (As of September 2025)
 
 	# Outbound elliptical barycentric orbit is used (2500)
 	# https://ssd.jpl.nasa.gov/horizons/app.html#/
@@ -648,10 +622,6 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
 	Radius	 1.58				# D = 3.16 km, Equation 1 of Fernandez (2012)
-	Density	 600				# assumed
-
-	# Actual mass and density are currently unknown
-	# (As of September 2025)
 
 	# Inbound elliptical barycentric orbit is used (2007)
 	# https://ssd.jpl.nasa.gov/horizons/app.html#/
@@ -719,13 +689,9 @@
 	Color	[ 0.366 0.369 0.373 ]  # Geometric albedo
 	BlendTexture	true
 	Radius	 68.5				# D = 137 +/- 17 km
-	Density	 600				# assumed
 
 	# Radius in kilometers from Lellouch (2022)
 	# https://www.aanda.org/articles/aa/full_html/2022/03/aa43090-22/aa43090-22.html
-
-	# Actual mass and density are currently unknown
-	# (As of September 2025)
 
 	EllipticalOrbit
 	{
@@ -753,10 +719,6 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
 	Radius	 2.5				# D = 5.0 km
-	Density	 600				# assumed
-
-	# Actual mass and density are currently unknown
-	# (As of September 2025)
 
 	EllipticalOrbit
 	{
@@ -815,3 +777,4 @@
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/C/2023_A3_(Tsuchinshan-ATLAS)"
 }
+
