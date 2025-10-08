@@ -11,7 +11,7 @@
 # https://ssd/jpl.nasa.gov/tools/sbdb_lookup.html#/
 #
 # 
-# Last update: 18 July 2025
+# Last update: 8 October 2025
 
 
 "1I 'Oumuamua:'Oumuamua:A 2017 U1" "Sol"
@@ -33,11 +33,12 @@
 		ArgOfPericenter  241.8105360304898
 		MeanAnomaly       51.1576197938249
 	}
+
 	PrecessingRotation
 	{
-		Period	7.937
-		Inclination	85
-		PrecessionPeriod	0.001
+		Period				 7.937
+		Inclination			85
+		PrecessionPeriod	 0.001
 	}
 	Albedo	0.08
 	InfoURL	"https://en.wikipedia.org/wiki/1I/'Oumuamua"
@@ -50,7 +51,11 @@
 	Texture	"asteroid.*"
 	Color	[ 1.0 0.97765 0.92202 ]
 	BlendTexture	true
-	Radius	0.25
+	Radius	0.2			# D = 0.4 km (lower limit)
+
+	# Radius from Jewitt, et al. (2019)
+	# https://arxiv.org/abs/1910.02547
+
 	EllipticalOrbit
 	{
 		Epoch        2458853.500000	# 2020-01-05, 00:00:00
@@ -62,10 +67,14 @@
 		ArgOfPericenter  209.1236864378081
 		MeanAnomaly       34.4294703072178
 	}
+
+	# Rotation period from Bolin (2019)
+	# https://arxiv.org/abs/1912.07386
+
 	UniformRotation
 	{
-		Period	10
-		Inclination	43.4098752589067
+		Period			 10
+		Inclination		 43.4098752589067
 		AscendingNode	307.5267199953905
 	}
 	LunarLambert	0.5
@@ -80,7 +89,11 @@
 	Texture	"asteroid.*"
 	Color	[ 1.0 0.909 0.806 ]
 	BlendTexture	true
-	Radius	2.5
+	Radius	0.16			# D = 0.32 km (lower limit)
+
+	# Radius from Jewitt, et al. (2025)
+	# https://arxiv.org/abs/2508.02934
+
 	EllipticalOrbit
 	{
 		Epoch        2460857.500000	# 2025-07-01, 00:00:00
@@ -93,11 +106,12 @@
 		MeanAnomaly     -893.5472819943519
 	}
 
-	# Rotation period from de la Fuente Marcos (2025)
-	# https://arxiv.org/abs/2507.12922
+	# Rotation period from Santana-Ros, et al. (2025)
+	# https://arxiv.org/abs/2508.00808
 
-	RotationPeriod	16.79			# P = 16.79 +/- 0.23 hours
+	RotationPeriod	16.16			# P = 16.16 +/- 0.01 hours
 	LunarLambert	0.5
 	Albedo	0.04
 	InfoURL	"https://en.wikipedia.org/wiki/3I/ATLAS"
 }
+
