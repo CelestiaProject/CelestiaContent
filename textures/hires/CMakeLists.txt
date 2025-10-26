@@ -12,6 +12,8 @@ install(FILES ${HIRES_LICENSES} DESTINATION "${DATADIR}/textures/lores" COMPONEN
 add_custom_target(hires_downscale ALL)
 
 foreach(IMG IN LISTS HIRES_IMAGES)
-  CreateResizedTexture(hires_downscale "${IMG}" medres 2048)
-  CreateResizedTexture(hires_downscale "${IMG}" lores 1024)
+  if(NOT IMG MATCHES "normal")
+    CreateResizedTexture(hires_downscale "${IMG}" medres 2048)
+    CreateResizedTexture(hires_downscale "${IMG}" lores 1024)
+  endif()
 endforeach()
