@@ -11,5 +11,7 @@ install(FILES ${MEDRES_LICENSES} DESTINATION "${DATADIR}/textures/lores" COMPONE
 add_custom_target(medres_downscale ALL)
 
 foreach(IMG IN LISTS MEDRES_IMAGES)
-  CreateResizedTexture(medres_downscale "${IMG}" lores 1024)
+  if(NOT IMG MATCHES "normal")
+    CreateResizedTexture(medres_downscale "${IMG}" lores 1024)
+  endif()
 endforeach()
