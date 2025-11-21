@@ -1,6 +1,6 @@
 # Dwarf planets of the Solar System along with all known satellites.
 # Each object has all alternative designations.
-# Pluto is defined first, so that it will be selected by the "9" key.
+# Pluto is defined first, so that it will be selected by the '9' key.
 
 # Orbits of primary bodies and barycenters around either the Sun or the
 # Solar System Barycenter (SSB) were queried from the Horizons system:
@@ -8,7 +8,7 @@
 
 # Colors are obtained from Askaniy's TrueColorTools
 # (https://github.com/Askaniy/TrueColorTools), with the first entry for each
-# body being used. The "icy" textures are calibrated to an albedo of 0.8, and
+# body being used. The 'icy' textures are calibrated to an albedo of 0.8, and
 # objects which use it, in combination with BlendTexture, have their colors
 # divided by its brightness (0.906332) so that the resulting appearance matches
 # their albedo (spherical/Bond, if known; otherwise geometric). The asteroid
@@ -605,7 +605,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		Epoch	2459800.774453  # 2022 Aug 09 06:34:03.560 UT
+		Epoch	2459800.7744  # 2022 Aug 09 06:34 UT
 		Period	17.6999  # Table 34 (1 σ)
 		Inclination	35.0
 		AscendingNode	349.5
@@ -792,11 +792,12 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		ArgOfPericenter	206.9913021996599
 		MeanAnomaly	93.64998094826905
 	}
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation  # assume alignment with moon orbit
 	{
 		Period	22.40
-		Inclination	63.553
-		AscendingNode	35.972
+		Inclination	83.08
+		AscendingNode	31.99
 	}
 	LunarLambert	1
 	GeomAlbedo	0.14
