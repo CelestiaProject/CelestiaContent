@@ -1,64 +1,56 @@
-# The default source for sizes and albedos is Müller et al. (2019)
-# "Trans-Neptunian objects and Centaurs at thermal wavelengths"
-# (chapter from "The Trans-Neptunian Solar System")
-# https://ui.adsabs.harvard.edu/abs/2020tnss.book..153M/abstract
+# Distant, non-dwarf-planet objects beyond Jupiter's orbit, including satellites.
 
-# Colors are mainly derived from B-V and V-R indices, most of which
-# come from the MBOSS compilation: http://www.eso.org/~ohainaut/MBOSS/
-# Centaur colors are derived from SMASS spectra: http://smass.mit.edu/smass.html
-# They are converted to RGB values using Askaniy's TrueColorTools:
-# https://github.com/Askaniy/TrueColorTools
-# or FarGetaNik's color calculator:
-# https://docs.google.com/spreadsheets/d/1NvPGGiql5EdOUVTynE8CyoB9P4rSjblmzppyNGjR6bI/edit
-# or Matt Wronkiewicz's spectrum2rgb utility that is distributed with the Celestia source package.
-# These are then scaled for albedo = 0.5 textures by dividing 0.735357 with them.
-# https://docs.google.com/spreadsheets/d/1POAssGnBsFBGyoevCkom8sHODIgdsn_s/edit
+# The default source for sizes and albedos is Müller et al. (2019)
+#   "Trans-Neptunian objects and Centaurs at thermal wavelengths"
+#   (chapter from "The Trans-Neptunian Solar System")
+#   https://ui.adsabs.harvard.edu/abs/2020tnss.book..153M/abstract
 
 # Orbits of primary bodies and barycenters around either the Sun or the
 # Solar System Barycenter (SSB) were queried from the Horizons system:
 # https://ssd.jpl.nasa.gov/horizons/
 
-# Orbits for satellites have been taken from Emelyanov & Drozdov (2020), MNRAS 494 (2), 2410
-# "Determination of the orbits of 62 moons of asteroids based on astrometric observations."
-# with exceptions being listed as comments over this file.
-# In cases where the system barycenters have been defined as ReferencePoints, the
-# mass ratios (and thus relative semi-major axes) have been computed from the cube of
-# the component sizes, under the assumption of equal densities for both of them.
+# Colors are obtained from Askaniy's TrueColorTools
+# (https://github.com/Askaniy/TrueColorTools), with the first entry for each
+# body being used. These are then scaled for albedo = 0.4 textures by dividing
+# 0.735357 with them.
 
-# Satellites smaller than 200 km are classified as 'minormoon', otherwise they are moon.
-# Small satellites with mass ratio of over 1:25 relative to their parent are given their physical class instead.
+# In cases where the system barycenters have been defined as ReferencePoints,
+# the mass ratios (and thus relative semi-major axes) have been computed from
+# the cube of the component sizes, under the assumption of equal densities for
+# both of them.
+
+# Satellites with a radius smaller than 200 km are classified as 'minormoon',
+# otherwise they are 'moon'. Small satellites with mass ratio of over 1:25
+# relative to their parent (the Lagrange point instability threshold) are given
+# their physical class instead.
 
 # If no actual measurements are available, rotation periods are based on
-# Thirouin et al. (2014), A&A 569, A3
-# "Rotational properties of the binary and non-binary populations in the trans-Neptunian belt"
-# https://ui.adsabs.harvard.edu/abs/2014A%26A...569A...3T/abstract
-# TNOs: 9 hr for non-binary objects, 10 hr for binary objects.
+# Thirouin and Sheppard (2019), AJ 157, 228
+#   "Light Curves and Rotational Properties of the Pristine Cold Classical Kuiper Belt Objects"
+#   https://ui.adsabs.harvard.edu/abs/2019AJ....157..228T/abstract
+# and Thirouin et al. (2014), A&A 569, A3
+#   "Rotational properties of the binary and non-binary populations in the trans-Neptunian belt"
+#   https://ui.adsabs.harvard.edu/abs/2014A%26A...569A...3T/abstract
+# 9 h for cold classical objects, 8 h for other TNOs, 10 h for binary objects.
 
 
 # Notable centaurs
 
-# Ortiz et al. (2015), A&A 576, A18
-# "Possible ring material around centaur (2060) Chiron"
-# https://www.aanda.org/articles/aa/abs/2015/04/aa24461-14/aa24461-14.html
-# Shape and geometric albedo from Braga-Ribas et al. (2023), A&A 676, A72
-# "Constraints on (2060) Chiron's size, shape, and surrounding material from
-# the November 2018 and September 2019 stellar occultations"
-# https://ui.adsabs.harvard.edu/abs/2023A%26A...676A..72B/abstract
-# Orientation from Ortiz et al. (2023), A&A 676, L12
-# "Changing material around (2060) Chiron revealed by an occultation on December 15, 2022"
-# https://ui.adsabs.harvard.edu/abs/2023A%26A...676L..12O/abstract
-# Rings from Sickafoose et al. (2023), PSJ 4 (11), id.221
-# "Material around the Centaur (2060) Chiron from the 2018 November 28 UT Stellar Occultation"
-# https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..221S/abstract
+# Braga-Ribas et al. (2023), A&A 676, A72
+#   "Constraints on (2060) Chiron's size, shape, and surrounding material from
+#   the November 2018 and September 2019 stellar occultations"
+#   https://ui.adsabs.harvard.edu/abs/2023A%26A...676A..72B/abstract
 "2060 Chiron:Chiron:1977 UB:95P Chiron:P 1977 UB" "Sol"
 {
 	Class	"asteroid"
 	# Class	"comet"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.329 0.329 0.327 ]
+	Color	[ 0.459 0.459 0.458 ]
 	BlendTexture	true
 	SemiAxes	[ 126 109 68 ]
+	# Mass<kg>	4.8e18
+	# Density	1119  # hydrostatic equilibrium assumed
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "SSB" }
@@ -74,36 +66,43 @@
 		ArgOfPericenter	339.4657053799355
 		MeanAnomaly	27.72209767709737
 	}
-	UniformRotation  # aligned with rings, ecliptic coordinates
+
+	# Ring pole from Pereira et al. (2025), ApJL 992, L19
+	#   "The Rings of (2060) Chiron: Evidence of an Evolving System"
+	#   https://ui.adsabs.harvard.edu/abs/2025ApJ...992L..19P/abstract
+	UniformRotation
 	{
+		Epoch	2458735.462215  # 2019 Sept 08 23:04:26.20 UT
 		Period	5.917813
-		Inclination	72
-		AscendingNode	241
+		Inclination	70.1
+		AscendingNode	241.3
+		MeridianAngle	294  # derived from Fig. 6 of Braga-Ribas et al. (2023)
 	}
+
+	# Sickafoose et al. (2023), PSJ 4 (11), id.221
+	#   "Material around the Centaur (2060) Chiron from the 2018 November 28 UT Stellar Occultation"
+	#   https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..221S/abstract
 	Rings
 	{
 		Inner	341.66
 		Outer	353.77
 		Texture	"chiron-rings.*"
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.076  # main body
 	InfoURL	"https://en.wikipedia.org/wiki/2060_Chiron"
 }
 
 # Morgado et al. (2021), A&A 652, A141
-# "Refined physical parameters for Chariklo's body and rings
-# from stellar occultations observed between 2013 and 2020"
-# https://ui.adsabs.harvard.edu/abs/2021A%26A...652A.141M/abstract
-# Pole position from Leiva et al. (2017), AJ 154 (4), 159
-# "Size and Shape of Chariklo from Multi-epoch Stellar Occultations"
-# https://iopscience.iop.org/article/10.3847/1538-3881/aa8956
+#   "Refined physical parameters for Chariklo's body and rings
+#   from stellar occultations observed between 2013 and 2020"
+#   https://ui.adsabs.harvard.edu/abs/2021A%26A...652A.141M/abstract
 "10199 Chariklo:Chariklo:1997 CU26" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.181 0.174 0.154 ]
+	Color	[ 0.328 0.318 0.307 ]
 	BlendTexture	true
 	SemiAxes	[ 143.8 135.2 99.1 ]
 	OrbitFrame
@@ -121,12 +120,19 @@
 		ArgOfPericenter	241.8770167366896
 		MeanAnomaly	337.0949942257109
 	}
+
+	# Period and meridian angle from Margoti (2024)
+	#   "Determination of the three-dimensional shape of (50000) Quaoar by stellar
+	#   occultations using a genetic algorithm for minimization"
+	#   https://repositorio.utfpr.edu.br/jspui/handle/1/35286
 	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation
+	UniformRotation  # C1R pole
 	{
-		Period	7.004
-		Inclination	48.52
-		AscendingNode	241.3
+		Epoch	2456446.7681  # 2013 Jun 03 06:25 UT
+		Period	7.01485  # Table 2 (1 σ)
+		Inclination	48.19
+		AscendingNode	241.03
+		MeridianAngle	33  # Table 2 (1 σ)
 	}
 	Rings  # derived from ring radii and average widths by Morgado et al. (2021)
 	{
@@ -134,21 +140,22 @@
 		Outer	399.9
 		Texture	"chariklo-rings.*"
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.038  # main body
+	LunarLambert	1
+	GeomAlbedo	0.037  # main body
 	InfoURL	"https://en.wikipedia.org/wiki/10199_Chariklo"
 }
 
 # Notable trans-Neptunian objects
 
+# Size and albedo from https://www.johnstonsarchive.net/astro/tnoslist.html
 "15760 Albion:Albion:1992 QB1" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.0 0.923 0.844 ]
+	Color	[ 0.713 0.631 0.568 ]
 	BlendTexture	true
-	Radius	54
+	Radius	62.5
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "SSB" }
@@ -168,8 +175,8 @@
 	{
 		Period	9  # no measurement
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.2  # assumed
+	LunarLambert	1
+	GeomAlbedo	0.152  # assumed
 	InfoURL	"https://en.wikipedia.org/wiki/15760_Albion"
 }
 
@@ -177,7 +184,7 @@
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.396 0.369 0.323 ]
+	Color	[ 0.406 0.37 0.318 ]
 	BlendTexture	true
 	Radius	300
 	OrbitFrame
@@ -197,24 +204,26 @@
 	}
 	UniformRotation
 	{
-		Period	95.64
+		Period	8  # no measurement
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.050
 	InfoURL	"https://en.wikipedia.org/wiki/19521_Chaos"
 }
 
-# Fernández-Valenzuela et al. (2019), ApJL 883 (1), L21
-# "The Changing Rotational Light-curve Amplitude of Varuna and Evidence for a Close-in Satellite"
-# https://iopscience.iop.org/article/10.3847/2041-8213/ab40c2
+# Fernández-Valenzuela et al. (2019), ApJL 883, L21
+#   "The Changing Rotational Light-curve Amplitude of Varuna and Evidence for a Close-in Satellite"
+#   https://ui.adsabs.harvard.edu/abs/2019ApJ...883L..21F/abstract
+# Albedo from https://sendaiuchukan.jp/data/occult/RapportM2.pdf
 "20000 Varuna:Varuna:2000 WR106" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.622 0.584 0.521 ]
+	Color	[ 0.635 0.567 0.479 ]
 	BlendTexture	true
-	Radius	502  # long-axis from occultation
-	SemiAxes	[ 1 0.6 0.432 ]  # hydrostatic equilibrium assumed
+	Radius	550  # maximum semi-axis
+	SemiAxes	[ 1 0.6 0.432 ]  # b/a = 0.6, c/b = 0.72 (hydrostatic equilibrium assumed)
+	# Density	1100
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "SSB" }
@@ -236,23 +245,21 @@
 		Inclination	154
 		AscendingNode	143
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.127
+	LunarLambert	1
+	GeomAlbedo	0.12  # "brightest possible" solution from Figure 5.3
 	InfoURL	"https://en.wikipedia.org/wiki/20000_Varuna"
 }
 
 # Dimensions and orientation from https://www.asteroidoccultation.com/observations/Results/Reviewed/Data2020/20201013_28978_Ixion_Profile_fit.gif
-# Photometric color calculated with spectral data from Marchi et al. (2003), A&A 408, L17-L19
-# "Visible spectroscopy of the two largest known trans-Neptunian objects: Ixion and Quaoar"
-# https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..17M/abstract
-# Albedos from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
-# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
-# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
+# Albedos from Helfenstein and Verbiscer (2025), Planet. Sci. J. 6, 144
+#   "On Error Estimates for Hapke Photometric Model Parameters from
+#   Disk-integrated Phase Curves of Airless Planetary Bodies"
+#   https://ui.adsabs.harvard.edu/abs/2025PSJ.....6..144H/abstract
 "28978 Ixion:Ixion:2001 KX76" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.342 0.316 0.277 ]
+	Color	[ 0.326 0.292 0.248 ]
 	BlendTexture	true
 	SemiAxes	[ 378.45 378.45 342.45 ]  # projected
 	OrbitFrame
@@ -274,22 +281,22 @@
 	UniformRotation
 	{
 		Period	12.4
-		Inclination	65.1  # assume equator-on orientation on 2020 Oct 13
-		AscendingNode	72.2
+		Inclination	65.1  # assume equator-on orientation on 2020-10-13
+		AscendingNode	72.2  # position angle = 331.0°
 	}
-	LunarLambert	0.5
-	# GeomAlbedo	0.108
-	Reflectivity	0.037  # Bond albedo
+	LunarLambert	1
+	# GeomAlbedo	0.101
+	Reflectivity	0.032  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/28978_Ixion"
 }
 
 # Rommel et al. (2025), Planet. Sci. J. 6, 48
-# "Stellar Occultation Observations of (38628) Huya and Its Satellite:
-# A Detailed Look into the System"
-# https://ui.adsabs.harvard.edu/abs/2025PSJ.....6...48R/abstract
+#   "Stellar Occultation Observations of (38628) Huya and Its Satellite:
+#   A Detailed Look into the System"
+#   https://ui.adsabs.harvard.edu/abs/2025PSJ.....6...48R/abstract
 ReferencePoint "Huya System" "Sol"
 {
-	# Mass<kg>	45.2e18
+	# Mass<kg>	4.52e19
 	# Density	1073
 	OrbitFrame
 	{
@@ -316,21 +323,21 @@ ReferencePoint "Huya System" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.301 0.273 0.23 ]
+	Color	[ 0.522 0.463 0.388 ]
 	BlendTexture	true
 	SemiAxes	[ 218.05 218.05 187.5 ]
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Huya System" }
 	}
-	EllipticalOrbit  # best fit
+	EllipticalOrbit
 	{
 		Epoch	2452400.0  # 2002 May 05 12:00 UT
 		Period	3.46293
-		SemiMajorAxis	226
-		Eccentricity	0.034
+		SemiMajorAxis	226  # separation = 1898 km, assumed mass ratio = 1:7.38
+		Eccentricity	0.036
 		Inclination	65.8
-		ArgOfPericenter	280
+		ArgOfPericenter	281
 		AscendingNode	122.9
 		MeanAnomaly	147
 	}
@@ -340,51 +347,51 @@ ReferencePoint "Huya System" "Sol"
 		Inclination	65.8
 		AscendingNode	122.9
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.079
 	InfoURL	"https://en.wikipedia.org/wiki/38628_Huya"
 }
 
-"S 2012 (38628) 1" "Sol/Huya"  # no provisional designation
+"Huya moon" "Sol/Huya"  # no provisional designation
 {
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.301 0.273 0.23 ]  # assume same color as primary
+	Color	[ 0.522 0.463 0.388 ]  # assume same as primary
 	BlendTexture	true
 	Radius	106.5
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Huya System" }
 	}
-	EllipticalOrbit  # best fit
+	EllipticalOrbit
 	{
 		Epoch	2452400.0  # 2002 May 05 12:00 UT
 		Period	3.46293
-		SemiMajorAxis	1669
-		Eccentricity	0.034
+		SemiMajorAxis	1672  # separation = 1898 km, assumed mass ratio = 1:7.38
+		Eccentricity	0.036
 		Inclination	65.8
-		ArgOfPericenter	100
+		ArgOfPericenter	101
 		AscendingNode	122.9
 		MeanAnomaly	147
 	}
 	BodyFrame	{ EclipticJ2000 {} }
-	UniformRotation  # assume synchronous rotation
+	UniformRotation  # to match orbit
 	{
 		Epoch	2452400.0  # 2002 May 05 12:00 UT
 		Inclination	65.8
 		AscendingNode	122.9
-		MeridianAngle	67
+		MeridianAngle	68
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.079  # assume same albedo as primary
+	LunarLambert	1
+	GeomAlbedo	0.079  # assume same as primary
 	InfoURL	"https://en.wikipedia.org/wiki/Satellite_of_38628_Huya"
 }
 
 # Ragozzine et al. (2024), submitted to PSJ
-# "Beyond Point Masses. I.
-# New Non-Keplerian Modeling Tools Applied to Trans-Neptunian Triple (47171) Lempo"
-# https://ui.adsabs.harvard.edu/abs/2024arXiv240312785R/abstract
+#   "Beyond Point Masses.
+#   I. New Non-Keplerian Modeling Tools Applied to Trans-Neptunian Triple (47171) Lempo"
+#   https://arxiv.org/abs/2403.12785
 ReferencePoint "Lempo System" "Sol"
 {
 	OrbitFrame
@@ -413,16 +420,16 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	{
 		EclipticJ2000	{ Center "Sol/Lempo System" }
 	}
-	EllipticalOrbit  # best fit
+	EllipticalOrbit
 	{
 		Epoch	2453880.0  # 2006 May 24 12:00 UT
-		Period	50.49  # from SMA and masses
-		SemiMajorAxis	138  # mass ratio from median values
-		Eccentricity	0.2902
-		Inclination	59.524
-		ArgOfPericenter	178.53
-		AscendingNode	324.65
-		MeanAnomaly	190.43
+		Period	50.302  # Benecchi et al. (2010)
+		SemiMajorAxis	138  # separation = 7606 km
+		Eccentricity	0.2903
+		Inclination	59.652
+		ArgOfPericenter	178.30
+		AscendingNode	324.47
+		MeanAnomaly	190.90
 	}
 	# Make the orbit and label visible
 	Visible true
@@ -434,7 +441,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.508 0.462 0.391 ]  # assume equal albedo
+	Color	[ 0.533 0.462 0.36 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	136
 	Mass<kg>	5.725e18
@@ -443,26 +450,26 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	{
 		EclipticJ2000	{ Center "Sol/Lempo-Hiisi" }
 	}
-	EllipticalOrbit  # best fit
+	EllipticalOrbit
 	{
 		Epoch	2453880.0  # 2006 May 24 12:00 UT
-		Period	1.894  # from SMA and masses
-		SemiMajorAxis	486  # mass ratio from median values
-		Eccentricity	0.1084
-		Inclination	68.229
-		ArgOfPericenter	266.0
-		AscendingNode	324.89
-		MeanAnomaly	165.7
+		Period	1.9068  # Benecchi et al. (2010)
+		SemiMajorAxis	479  # separation = 838 km
+		Eccentricity	0.1230
+		Inclination	67.966
+		ArgOfPericenter	264.6
+		AscendingNode	324.11
+		MeanAnomaly	167.4
 	}
 	BodyFrame	{ EclipticJ2000 {} }
-	UniformRotation  # assume synchronous rotation
+	UniformRotation  # to match orbit
 	{
 		Epoch	2453880.0  # 2006 May 24 12:00 UT
-		Inclination	68.229
-		AscendingNode	324.89
-		MeridianAngle	251.7
+		Inclination	67.966
+		AscendingNode	324.11
+		MeridianAngle	252.0
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.079  # assume equal albedo
 	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo"
 }
@@ -472,7 +479,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.508 0.462 0.391 ]  # assume equal albedo
+	Color	[ 0.533 0.462 0.36 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	125.5
 	Mass<kg>	7.657e18
@@ -481,76 +488,70 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	{
 		EclipticJ2000	{ Center "Sol/Lempo-Hiisi" }
 	}
-	EllipticalOrbit  # best fit
+	EllipticalOrbit
 	{
 		Epoch	2453880.0  # 2006 May 24 12:00 UT
-		Period	1.894  # from SMA and masses
-		SemiMajorAxis	364  # mass ratio from median values
-		Eccentricity	0.1084
-		Inclination	68.229
-		ArgOfPericenter	86.0
-		AscendingNode	324.89
-		MeanAnomaly	165.7
+		Period	1.9068  # Benecchi et al. (2010)
+		SemiMajorAxis	359  # separation = 838 km
+		Eccentricity	0.1230
+		Inclination	67.966
+		ArgOfPericenter	84.6
+		AscendingNode	324.11
+		MeanAnomaly	167.4
 	}
 	BodyFrame	{ EclipticJ2000 {} }
-	UniformRotation  # assume synchronous rotation
+	UniformRotation  # to match orbit
 	{
 		Epoch	2453880.0  # 2006 May 24 12:00 UT
-		Inclination	68.229
-		AscendingNode	324.89
-		MeridianAngle	71.7
+		Inclination	67.966
+		AscendingNode	324.11
+		MeridianAngle	72.0
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.079  # assume equal albedo
 	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo#Hiisi"
 }
 
 "Paha:47171 Lempo I:Lempo I:1999 TC36 B" "Sol/Lempo"
 {
-	Class	"asteroid"
+	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.508 0.462 0.391 ]  # assume equal albedo
+	Color	[ 0.533 0.462 0.36 ]  # assume equal albedo
 	BlendTexture	true
 	Radius	66
-	Mass<kg>	0.248e18
+	Mass<kg>	2.48e17
 	Density	206
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Lempo System" }
 	}
-	EllipticalOrbit  # best fit
+	EllipticalOrbit
 	{
 		Epoch	2453880.0  # 2006 May 24 12:00 UT
-		Period	50.49  # from SMA and masses
-		SemiMajorAxis	7461  # mass ratio from median values
-		Eccentricity	0.2902
-		Inclination	59.524
-		ArgOfPericenter	358.53
-		AscendingNode	324.65
-		MeanAnomaly	190.43
+		Period	50.302  # Benecchi et al. (2010)
+		SemiMajorAxis	7468  # separation = 7606 km
+		Eccentricity	0.2903
+		Inclination	59.652
+		ArgOfPericenter	358.30
+		AscendingNode	324.47
+		MeanAnomaly	190.90
 	}
 	BodyFrame	{ EclipticJ2000 {} }
-	UniformRotation  # to match orbit plane
+	UniformRotation
 	{
 		Period	8  # assumed
-		Inclination	59.524
-		AscendingNode	324.65
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.079  # assume equal albedo
 	InfoURL	"https://en.wikipedia.org/wiki/47171_Lempo#Paha"
 }
 
-# Geometric albedo from Vilenius et al. (2014), A&A 564, A35
-# ""TNOs are Cool": A survey of the trans-Neptunian region. X.
-# Analysis of classical Kuiper belt objects from Herschel and Spitzer observations"
-# https://ui.adsabs.harvard.edu/abs/2014A%26A...564A..35V/abstract
 "55565 Aya:Aya:2002 AW197" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.585 0.55 0.502 ]
+	Color	[ 0.606 0.549 0.481 ]
 	BlendTexture	true
 	Radius	384
 	OrbitFrame
@@ -570,9 +571,9 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	}
 	UniformRotation
 	{
-		Period	8.86
+		Period	8.78  # Thirouin et al. (2010), 2010A&A...522A..93T
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.112
 	InfoURL	"https://en.wikipedia.org/wiki/55565_Aya"
 }
@@ -580,15 +581,15 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 # Sizes, density and albedo from Brown and Butler (2017), AJ 154, 19
 #   "The Density of Mid-sized Kuiper Belt Objects from ALMA Thermal Observations"
 #   https://ui.adsabs.harvard.edu/abs/2017AJ....154...19B/abstract
-# Mass and Tinia's orbit from http://www2.lowell.edu/users/grundy/tnbs/orbits.html
+# Mass from http://www2.lowell.edu/users/grundy/tnbs/orbits.html
 "55637 Uni:Uni:2002 UX25" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.578 0.532 0.451 ]
+	Color	[ 0.581 0.531 0.462 ]
 	BlendTexture	true
 	Radius	329.5
-	# Mass<kg>	123e18  # system mass
+	# Mass<kg>	1.23e20  # system mass
 	# Density	800
 	OrbitFrame
 	{
@@ -610,29 +611,30 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	#   "Study of transneptunian objects using photometrics techniques and numerical simulations"
 	#   https://digibug.ugr.es/handle/10481/30832
 	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation  # assume alignment with satellite orbit
+	UniformRotation  # assume alignment with moon orbit
 	{
 		Period	6.55
 		Inclination	63.1
 		AscendingNode	206.1
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.10
 	InfoURL	"https://en.wikipedia.org/wiki/55637_Uni"
 }
 
+# Orbit from http://www2.lowell.edu/users/grundy/tnbs/55637_2002_UX25.html
 "Tinia:55637 Uni I:Uni I" "Sol/Uni"
 {
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.578 0.532 0.451 ]  # assume same as primary
+	Color	[ 0.581 0.531 0.462 ]  # assume same as primary
 	BlendTexture	true
 	Radius	115
 	OrbitFrame	{ EquatorJ2000 {} }
 	EllipticalOrbit
 	{
-		Epoch	2454000.0
+		Epoch	2454000.0  # 2006 Sept 21 12:00
 		Period	8.3095
 		SemiMajorAxis	4750
 		Eccentricity	0.18
@@ -644,12 +646,12 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation  # to match orbit
 	{
-		Epoch	2454000.0
+		Epoch	2454000.0  # 2006 Sept 21 12:00
 		Inclination	63.1
 		AscendingNode	206.1
 		MeridianAngle	115.9
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.10  # assume same as primary
 	InfoURL	"https://en.wikipedia.org/wiki/Tinia_(moon)"
 }
@@ -679,9 +681,9 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	}
 	UniformRotation
 	{
-		Period	9  # no measurement
+		Period	8  # no measurement
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.038
 	InfoURL	"https://en.wikipedia.org/wiki/78799_Xewioso"
 }
@@ -712,86 +714,111 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	{
 		Period	5.86  # Dotto et al. (2008), 2008A&A...490..829D
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.077
 	InfoURL	"https://en.wikipedia.org/wiki/90568_Goibniu"
 }
 
-# Sizes from Grundy et al. (2019), Icarus 334, 62-78
-# "Mutual orbit orientations of transneptunian binaries"
-# http://www2.lowell.edu/users/grundy/abstracts/2019.TNB_orbits.html
-# Actaea's orbit from http://www2.lowell.edu/users/grundy/tnbs/orbits.html
-# Retrieved on 2023-12-31.
-# Rotation period from Thirouin et al. (2014), A&A 569, A3
-# "Rotational properties of the binary and non-binary populations in the trans-Neptunian belt"
-# https://ui.adsabs.harvard.edu/abs/2014A%26A...569A...3T/abstract
-# Geometric albedo from Brown and Butler (2017), AJ 154, no. 1, 19
-# "The Density of Mid-sized Kuiper Belt Objects from ALMA Thermal Observations"
-# https://ui.adsabs.harvard.edu/abs/2017AJ....154...19B/abstract
-"120347 Salacia:Salacia:2004 SB60" "Sol"
+# Sizes, albedos and density from Kiss et al., EPSC-DPS2025-905
+#   "ALMA submm measurements of the trans-Neptunian binary system satellites
+#   Ilmarë, Actaea, Hi’iaka and Namaka"
+#   https://meetingorganizer.copernicus.org/EPSC-DPS2025/EPSC-DPS2025-905.html
+# Mass, Salacia's rotation and mutual orbit from Collyer et al. (2025)
+#   "Synchronous Rotation in the (120347) Salacia-Actaea System"
+#   https://arxiv.org/abs/2509.02734
+ReferencePoint "Salacia-Actaea" "Sol"
 {
-	Class	"asteroid"
-	Texture	"asteroid.*"
-	Color	[ 0.341 0.341 0.334 ]
-	BlendTexture	true
-	Radius	423
+	# Mass<kg>	4.861e20
+	# Density	1450
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "SSB" }
 	}
-	EllipticalOrbit  # primary body solution
+	EllipticalOrbit  # system barycenter solution
 	{
 		Epoch	2451545.0  # 2000 Jan 01 12:00
-		Period	272.3000599109864
-		SemiMajorAxis	42.02946003986086
-		Eccentricity	0.1066677988940644
-		Inclination	23.93114857174348
-		AscendingNode	280.0947421579912
-		ArgOfPericenter	309.7425117575299
-		MeanAnomaly	98.83249713140768
+		Period	274.4920168217917
+		SemiMajorAxis	42.23582780996638
+		Eccentricity	0.1027427617664265
+		Inclination	23.94645482121152
+		AscendingNode	280.1822290328951
+		ArgOfPericenter	312.0541009625456
+		MeanAnomaly	96.75909381213326
 	}
-	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation  # assume coplanarity with satellite orbit
+	# Make the orbit and label visible
+	Visible true
+	Clickable true
+}
+
+"120347 Salacia:Salacia:2004 SB60" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 0.336 0.337 0.33 ]
+	BlendTexture	true
+	Radius	419
+	OrbitFrame
 	{
-		Period	6.5
-		Inclination	23.59
-		AscendingNode	45.2
+		EclipticJ2000	{ Center "Sol/Salacia-Actaea" }
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.042
+	EllipticalOrbit
+	{
+		Epoch	2454300.0  # 2007 Jul 18 12:00 UT
+		Period	5.49389
+		SemiMajorAxis	533  # separation = 5700 km, assumed mass ratio = 0.10
+		Eccentricity	0.008
+		Inclination	17.2
+		ArgOfPericenter	221
+		AscendingNode	108.9
+		MeanAnomaly	157
+	}
+	UniformRotation  # to match orbit
+	{
+		Epoch	2454300.0  # 2007 Jul 18 12:00 UT
+		# Period	131.8632  # measured (sidereal)
+		Period	131.85336
+		Inclination	17.2
+		AscendingNode	108.9
+		MeridianAngle	198
+	}
+	LunarLambert	1
+	GeomAlbedo	0.041
 	InfoURL	"https://en.wikipedia.org/wiki/120347_Salacia"
 }
 
 "Actaea:120347 Salacia I:Salacia I:S 2006 (120347) 1" "Sol/Salacia"
 {
-	Class	"moon"
+	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.346 0.34 0.335 ]
+	Color	[ 0.238 0.234 0.232 ]
 	BlendTexture	true
-	Radius	142
-	OrbitFrame	{ EquatorJ2000 {} }
+	Radius	196.5
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Salacia-Actaea" }
+	}
 	EllipticalOrbit
 	{
-		Epoch	2454300  # 2007 Jul 18 12:00 UT
+		Epoch	2454300.0  # 2007 Jul 18 12:00 UT
 		Period	5.49389
-		SemiMajorAxis	5730
-		Eccentricity	0.009
-		Inclination	23.5
-		MeanLongitude	303.8
-		AscendingNode	45
-		LongOfPericenter	130
+		SemiMajorAxis	5167  # separation = 5700 km, assumed mass ratio = 0.10
+		Eccentricity	0.008
+		Inclination	17.2
+		ArgOfPericenter	41
+		AscendingNode	108.9
+		MeanAnomaly	157
 	}
-	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation  # to match mutual orbit
+	BodyFrame	{ EclipticJ2000 {} }
+	UniformRotation  # to match orbit
 	{
-		Epoch	2454300  # 2007 Jul 18 12:00 UT
-		Inclination	23.59
-		AscendingNode	45.2
-		MeridianAngle	78.56
+		Epoch	2454300.0  # 2007 Jul 18 12:00 UT
+		Inclination	17.2
+		AscendingNode	108.9
+		MeridianAngle	18
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.042  # assume same albedo as primary
+	LunarLambert	1
+	GeomAlbedo	0.021
 	InfoURL	"https://en.wikipedia.org/wiki/Actaea_(moon)"
 }
 
@@ -804,7 +831,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.529 0.529 0.538 ]
+	Color	[ 0.539 0.529 0.515 ]
 	BlendTexture	true
 	Radius	262
 	OrbitFrame
@@ -826,7 +853,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	{
 		Period	6.71  # Thirouin et al. (2010), 2010A&A...522A..93T
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.102
 	InfoURL	"https://en.wikipedia.org/wiki/145451_Rumina"
 }
@@ -835,7 +862,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.591 0.538 0.465 ]
+	Color	[ 0.598 0.537 0.454 ]
 	BlendTexture	true
 	Radius	339.5
 	OrbitFrame
@@ -857,21 +884,16 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 	{
 		Period	6.946  # Hromakina et al. (2018), 2018MNRAS.474.2536H
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.107
 	InfoURL	"https://en.wikipedia.org/wiki/145452_Ritona"
 }
 
-# Varda's shape from Souami et al. (2020), A&A 643, A125
-# "A multi-chord stellar occultation by the large trans-Neptunian object (174567) Varda"
-# https://ui.adsabs.harvard.edu/abs/2020A%26A...643A.125S/abstract
-# Colors from Grundy et al. (2015), Icarus 257, p. 130-138
-# "The mutual orbit, mass, and density of the large transneptunian binary system Varda and Ilmarë"
-# https://ui.adsabs.harvard.edu/abs/2015Icar..257..130G/abstract
-# Orbital solution from http://www2.lowell.edu/users/grundy/tnbs/orbits.html
-# Retrieved on 2023-12-29.
+# Mass from http://www2.lowell.edu/users/grundy/tnbs/pae.html
 ReferencePoint "Varda-Ilmarë" "Sol"
 {
+	# Mass<kg>	2.68e20
+	# Density	1150
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "SSB" }
@@ -892,89 +914,101 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Clickable true
 }
 
+# Souami et al. (2020), A&A 643, A125
+#   "A multi-chord stellar occultation by the large trans-Neptunian object (174567) Varda"
+#   https://ui.adsabs.harvard.edu/abs/2020A%26A...643A.125S/abstract
 "174567 Varda:Varda:2003 MW12" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.552 0.518 0.464 ]
+	Color	[ 0.557 0.519 0.472 ]
 	BlendTexture	true
 	Radius	383  # equatorial
-	Oblateness	0.066  # projected
+	Oblateness	0.235  # 5.91 h period
+	# Density	1780
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Varda-Ilmarë" }
 	}
-	EllipticalOrbit
+	EllipticalOrbit  # orbit 1
 	{
-		Epoch	2455300.0  # 2010 Apr 13 12:00
-		Period	5.75080
-		SemiMajorAxis	400  # separation = 4800 km, assumed mass ratio = 1:10.98
-		Eccentricity	0.019
-		Inclination	100
-		MeanLongitude	276
-		AscendingNode	3
-		LongOfPericenter	140
+		Epoch	2455300.0  # 2010 Apr 13 12:00 UT
+		Period	5.75083
+		SemiMajorAxis	670  # separation = 4820 km, assumed mass ratio = 0.16
+		Eccentricity	0.017
+		Inclination	101.0
+		MeanLongitude	275.6
+		AscendingNode	3.0
+		LongOfPericenter	124
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
 		Period	5.91
-		Inclination	89
-		AscendingNode	358
+		Inclination	79  # B = -56°
+		AscendingNode	21  # position angle = 67°
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.099
 	InfoURL	"https://en.wikipedia.org/wiki/174567_Varda"
 }
 
+# Size and albedo from Kiss et al., EPSC-DPS2025-905
+#   "ALMA submm measurements of the trans-Neptunian binary system satellites
+#   Ilmarë, Actaea, Hi’iaka and Namaka"
+#   https://meetingorganizer.copernicus.org/EPSC-DPS2025/EPSC-DPS2025-905.html
+# Orbit from Grundy et al. (2015), Icarus 257, p. 130-138
+#   "The mutual orbit, mass, and density of the large transneptunian binary system Varda and Ilmarë"
+#   https://ui.adsabs.harvard.edu/abs/2015Icar..257..130G/abstract
+#   (Period, SMA and eccentricity from http://www2.lowell.edu/users/grundy/tnbs/174567_2003_MW12_Varda.html)
 "Ilmarë:174567 Varda I:Varda I" "Sol/Varda"
 {
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.517 0.481 0.437 ]
+	Color	[ 0.478 0.429 0.386 ]
 	BlendTexture	true
-	Radius	178
+	Radius	201.5
 	OrbitFrame
 	{
 		EquatorJ2000	{ Center "Sol/Varda-Ilmarë" }
 	}
-	EllipticalOrbit
+	EllipticalOrbit  # orbit 1
 	{
-		Epoch	2455300.0  # 2010 Apr 13 12:00
-		Period	5.75080
-		SemiMajorAxis	4400  # separation = 4800 km, assumed mass ratio = 1:10.98
-		Eccentricity	0.019
-		Inclination	100
-		MeanLongitude	96
-		AscendingNode	3
-		LongOfPericenter	320
+		Epoch	2455300.0  # 2010 Apr 13 12:00 UT
+		Period	5.75083
+		SemiMajorAxis	4150  # separation = 4820 km, assumed mass ratio = 0.16
+		Eccentricity	0.017
+		Inclination	101.0
+		MeanLongitude	95.6
+		AscendingNode	3.0
+		LongOfPericenter	304
 	}
 	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation  # to match mutual orbit
+	UniformRotation  # to match orbit
 	{
-		Epoch	2455300.0  # 2010 Apr 13 12:00
-		Inclination	100
-		AscendingNode	3
-		MeridianAngle	273
+		Epoch	2455300.0  # 2010 Apr 13 12:00 UT
+		Inclination	101.0
+		AscendingNode	3.0
+		MeridianAngle	272.6
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.085
+	LunarLambert	1
+	GeomAlbedo	0.068
 	InfoURL	"https://en.wikipedia.org/wiki/Ilmar%C3%AB_(moon)"
 }
 
-# Dias-Oliveira et al. (2017), AJ 154, 22
-# "Study of the Plutino Object (208996) 2003 AZ84 from Stellar
-# Occultations: Size, Shape, and Topographic Features"
-# https://ui.adsabs.harvard.edu/abs/2017AJ....154...22D/abstract
+# Dias-Oliveira et al. (2017), AJ 154 (1), 22
+#   "Study of the Plutino Object (208996) 2003 AZ84 from Stellar
+#   Occultations: Size, Shape, and Topographic Features"
+#   https://ui.adsabs.harvard.edu/abs/2017AJ....154...22D/abstract
 "208996 Achlys:Achlys:2003 AZ84" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.516 0.51 0.48 ]
+	Color	[ 0.514 0.509 0.5 ]
 	BlendTexture	true
 	SemiAxes	[ 470 383 245 ]  # hydrostatic equilibrium assumed
-	Density	870  # 0.87 +/- 0.01 g cm-3
+	# Density	870  # 0.87 +/- 0.01 g cm-3
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "SSB" }
@@ -990,34 +1024,34 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 		ArgOfPericenter	15.12394431970204
 		MeanAnomaly	204.5459197138737
 	}
-	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation
+	UniformRotation  # average of two occultations
 	{
-		Epoch	2456977.24874  # 2014-11-15, 17:58:11 UT
+		Epoch	2456977.2473  # 2014 Nov 15 17:55 UT
 		Period	6.7874  # Santos-Sanz et al. (2017), 2017A&A...604A..95S
-		Inclination	91
-		AscendingNode	350
-		MeridianAngle	10
+		Inclination	68  # B = 50°
+		AscendingNode	349  # P_p = 78°
+		MeridianAngle	326  # Q = 10° at epoch (light-time corrected)
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.094  # Ortiz et al. (2019), arXiv:1905.04335
 	InfoURL	"https://en.wikipedia.org/wiki/208996_Achlys"
 }
 
-# Size from Ortiz et al. (2019), eprint arXiv:1905.04335
-# "Stellar Occultations by Transneptunian objects: from Predictions to Observations
-# and Prospects for the Future"
-# https://arxiv.org/abs/1905.04335
-# Orientation from Benedetti-Rossi et al. (2016), AJ 152 (6), 156
-# "Results from the 2014 November 15th Multi-chord Stellar Occultation by the TNO (229762) 2007 UK126"
-# https://ui.adsabs.harvard.edu/abs/2016AJ....152..156B/abstract
+# Grundy et al. (2019), Icarus 334, p. 30-38
+#   "The mutual orbit, mass, and density of transneptunian binary Gǃkúnǁ'hòmdímà (229762 2007 UK126)"
+#   http://www2.lowell.edu/users/grundy/abstracts/2019.G-G.html
+# Dimensions and albedo from Ortiz et al. (2019), chapter from "The Trans-Neptunian Solar System"
+#   "Stellar Occultations by Transneptunian objects: from Predictions to Observations
+#   and Prospects for the Future"
+#   https://arxiv.org/abs/1905.04335
 "229762 G!kun||'homdima:G!kun||'homdima:2007 UK126" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.654 0.616 0.58 ]
+	Color	[ 0.677 0.616 0.533 ]
 	BlendTexture	true
 	SemiAxes	[ 339 339 305.7 ]
+	Mass<kg>	1.361e20  # system mass
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "SSB" }
@@ -1037,29 +1071,26 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	UniformRotation  # approximately coplanar with satellite
 	{
 		Period	11.05
-		Inclination	54
-		AscendingNode	109
+		Inclination	43.75
+		AscendingNode	110.6
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.142
 	InfoURL	"https://en.wikipedia.org/wiki/229762_G%C7%83k%C3%BAn%C7%81%CA%BCh%C3%B2md%C3%ADm%C3%A0"
 }
 
-# Orbit and radius ratio from Grundy et al. (2019), Icarus 334, p. 30-38
-# "The mutual orbit, mass, and density of transneptunian binary Gǃkúnǁ'hòmdímà (229762 2007 UK126)"
-# https://ui.adsabs.harvard.edu/abs/2019Icar..334...30G/abstract
 "G!o'e !Hu:229762 G!kun||'homdima I:G!kun||'homdima I" "Sol/G!kun||'homdima"
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 1.0 0.87 0.747 ]
+	Color	[ 0.745 0.6 0.505 ]
 	BlendTexture	true
-	Radius	72
+	Radius	71
 	OrbitFrame	{ EquatorJ2000 {} }
 	EllipticalOrbit
 	{
-		Epoch	2457000  # 2014 Dec 8 12:00 UT
+		Epoch	2457000.0  # 2014 Dec 08 12:00 UT
 		Period	11.31473
 		SemiMajorAxis	6035
 		Eccentricity	0.0236
@@ -1069,33 +1100,31 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 		LongOfPericenter	91
 	}
 	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation  # to match orbit plane
+	UniformRotation  # to match orbit
 	{
-		Epoch	2457000  # 2014 Dec 8 12:00 UT
+		Epoch	2457000.0  # 2014 Dec 08 12:00 UT
 		Inclination	43.75
 		AscendingNode	110.6
 		MeridianAngle	53.4
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.142  # assume equal albedo as primary
 	InfoURL	"https://en.wikipedia.org/wiki/229762_G%C7%83k%C3%BAn%C7%81%CA%BCh%C3%B2md%C3%ADm%C3%A0#Satellite"
 }
 
 # Rommel et al. (2023), A&A 678, A167
-# "A large topographic feature on the surface of the trans-Neptunian object
-# (307261) 2002 MS4 measured from stellar occultations"
-# https://ui.adsabs.harvard.edu/abs/2023A%26A...678A.167R/abstract
-# Rotation period from Peng (2023)
-# "Phase Dependent Variation in the Reflectivity of Kuiper Belt Object 2002 MS4"
-# https://dspace.library.uvic.ca/handle/1828/15363
-# Color calculated with phase integral from Verbiscer et al. (2022), Planet. Sci. J. 3, 95
-# "The Diverse Shapes of Dwarf Planet and Large KBO Phase Curves Observed from New Horizons"
-# https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...95V/abstract
+#   "A large topographic feature on the surface of the trans-Neptunian object
+#   (307261) 2002 MS4 measured from stellar occultations"
+#   https://ui.adsabs.harvard.edu/abs/2023A%26A...678A.167R/abstract
+# Albedos from Helfenstein and Verbiscer (2025), Planet. Sci. J. 6, 144
+#   "On Error Estimates for Hapke Photometric Model Parameters from
+#   Disk-integrated Phase Curves of Airless Planetary Bodies"
+#   https://ui.adsabs.harvard.edu/abs/2025PSJ.....6..144H/abstract
 "307261 Máni:Máni:2002 MS4" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.333 0.332 0.322 ]
+	Color	[ 0.329 0.328 0.317 ]
 	BlendTexture	true
 	SemiAxes	[ 412 412 385 ]  # projected
 	OrbitFrame
@@ -1113,29 +1142,31 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 		ArgOfPericenter	214.5764827965695
 		MeanAnomaly	195.9176462145012
 	}
+
+	# Rotation period from Peng (2023)
+	#   "Phase Dependent Variation in the Reflectivity of Kuiper Belt Object 2002 MS4"
+	#   https://dspace.library.uvic.ca/handle/1828/15363
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
 		Period	14.251
-		Inclination	120.8  # assume no inclination on 2023-08-08
-		AscendingNode	105.6
+		Inclination	121  # assume equator-on orientation on 2020-08-08
+		AscendingNode	106  # position angle = 121° ± 16°
 	}
-	LunarLambert	0.5
-	# GeomAlbedo	0.1
-	Reflectivity	0.04  # for phase integral = 0.40 ± 0.03
+	LunarLambert	1
+	# GeomAlbedo	0.105
+	Reflectivity	0.039  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/307261_Máni"
 }
 
-# Color derived from observations made by La Silla and PAN-STARRS 1 on 2010-04-06
-# https://www.minorplanetcenter.net/db_search/show_object?object_id=471143
 "471143 Dziewanna:Dziewanna:2010 EK139" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.739 0.711 0.673 ]
+	Color	[ 0.938 0.866 0.802 ]
 	BlendTexture	true
-	Radius	235
+	Radius	216.5
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "SSB" }
@@ -1153,20 +1184,27 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	}
 	UniformRotation
 	{
-		Period	7.07
+		Period	7.07  # Benecchi and Sheppard (2013), 2013AJ....145..124B
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.25
+	LunarLambert	1
+	GeomAlbedo	0.297
 	InfoURL	"https://en.wikipedia.org/wiki/471143_Dziewanna"
 }
 
-"486958 Arrokoth:Arrokoth:2014 MU69:Ultima Thule:1110113Y:PT1" "Sol"
+# Porter et al. (2024), "The Shape of (486958) Arrokoth"
+#   https://pdssbn.astro.umd.edu/holdings/pds4-nh_derived-v3.0/arrokoth_shapemodel_porter2024/porteretal2024b.pdf
+# Albedos and LunarLambert from Hofgartner et al. (2021), Icarus 356, 113723
+#   "Photometry of Kuiper belt object (486958) Arrokoth from New Horizons LORRI"
+#   https://ui.adsabs.harvard.edu/abs/2021Icar..35613723H/abstract
+"486958 Arrokoth:Arrokoth:2014 MU69:Ultima Thule:PT1" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"arrokoth.cmod"
-	Orientation	[ -50 0 1 0 ]
+	MeshCenter	[ -2.193 -0.0707 -0.5113 ]
 	Texture	"arrokoth.*"
-	Radius	18  # maximum semi-axis
+	Color	[ 1.0 0.884 0.766 ]
+	Radius	17.273  # maximum semi-axis
+	# Density	235  # Keane et al. (2022), 2022JGRE..12707068K
 	EllipticalOrbit
 	{
 		Epoch	2458484.732303241  # 2019 Jan 01 05:34:31 TDB (New Horizons encounter)
@@ -1178,27 +1216,31 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 		ArgOfPericenter	174.6564493231953
 		MeanAnomaly	315.9005911094172
 	}
+
+	# https://naif.jpl.nasa.gov/pub/naif/pds/data/nh-j_p_ss-spice-6-v1.0/nhsp_1000/data/pck/nh_arrokoth_002.tpc
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		Period	15.938
-		Inclination	98.18711913
-		AscendingNode	42.5072541
+		Period	15.445296
+		Inclination	115.5875063
+		AscendingNode	49.3685820
+		MeridianAngle	71.9541475
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.165
-	BondAlbedo	0.061
+	LunarLambert	0.970
+	# GeomAlbedo	0.21
+	Reflectivity	0.062  # Bond albedo at 610 nm
 	InfoURL	"https://en.wikipedia.org/wiki/486958_Arrokoth"
 }
 
-# Sheppard et al. (2018), AJ 156 (6), 270
-# "The Albedos, Sizes, Colors, and Satellites of Dwarf Planets
-# Compared with Newly Measured Dwarf Planet 2013 FY27"
-# https://ui.adsabs.harvard.edu/abs/2018AJ....156..270S/abstract
+# Sheppard et al. (2018), AJ 156, 270
+#   "The Albedos, Sizes, Colors, and Satellites of Dwarf Planets Compared with
+#   Newly Measured Dwarf Planet 2013 FY27"
+#   https://ui.adsabs.harvard.edu/abs/2018AJ....156..270S/abstract
 "532037 Chiminigagua:Chiminigagua:2013 FY27" "Sol"
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.699 0.672 0.646 ]
+	Color	[ 0.711 0.67 0.643 ]
 	BlendTexture	true
 	Radius	371  # thermal measurement
 	OrbitFrame
@@ -1218,19 +1260,19 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	}
 	UniformRotation
 	{
-		Period	9  # no measurement
+		Period	10  # no measurement
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.17
 	InfoURL	"https://en.wikipedia.org/wiki/532037_Chiminigagua"
 }
 
-"S 2018 (532037) 1" "Sol/532037 Chiminigagua"  # no provisional designation
+"Chiminigagua moon" "Sol/Chiminigagua"  # no provisional designation
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.699 0.672 0.646 ]  # assume same color as primary
+	Color	[ 0.711 0.67 0.643 ]  # assume same as primary
 	BlendTexture	true
 	Radius	93  # assume same albedo as primary
 	EllipticalOrbit  # estimated
@@ -1238,20 +1280,22 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 		Period	19
 		SemiMajorAxis	9800  # estimated minimum separation
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.17  # assume same albedo as primary
+	LunarLambert	1
+	GeomAlbedo	0.17  # assume same as primary
 	InfoURL	"https://en.wikipedia.org/wiki/532037_Chiminigagua#Satellite"
 }
 
-# Minimum radius from http://www.euraster.net/results/2021/index.html#0122--
+# Rommel (2022), "Determination of physical properties and topography of TNOs from
+#   stellar occultations and rotational light curves: the case of 2002 MS4 object"
+#   http://sistede.on.br:8080/handle/tede/149
 "(612911) 2004 XR190:2004 XR190" "Sol"
 {
 	Class	"asteroid"
-	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.526 0.519 0.485 ]
+	Color	[ 0.505 0.499 0.461 ]
 	BlendTexture	true
-	Radius	280  # minimum radius
+	Radius	358  # ellipse semi-major axis
+	Oblateness	0.32
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "SSB" }
@@ -1267,12 +1311,15 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 		ArgOfPericenter	283.5601276781185
 		MeanAnomaly	263.1244000059405
 	}
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		Period	9  # no measurement
+		Period	19.47
+		Inclination	38  # assume equator-on orientation on 2021-01-22
+		AscendingNode	279  # position angle = 35° ± 32°
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.099  # assume minimum radius
+	LunarLambert	1
+	GeomAlbedo	0.089  # from R-band albedo and MBOSS color indices
 	InfoURL	"https://en.wikipedia.org/wiki/(612911)_2004_XR190"
 }
 
@@ -1303,9 +1350,9 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	}
 	UniformRotation
 	{
-		Period	9  # no measurement
+		Period	8  # no measurement
 	}
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.131
 	InfoURL	"https://en.wikipedia.org/wiki/2014_UZ224"
 }
