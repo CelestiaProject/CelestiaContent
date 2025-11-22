@@ -1940,11 +1940,15 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 		ArgOfPericenter	5.795343714956423
 		MeanAnomaly	182.0870298288778
 	}
+
+	# https://naif.jpl.nasa.gov/pub/naif/LUCY/kernels/pck/polymele_v11.tpc
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		Period	11.5  # Levison et al. (2025), 2025SSRv..221...63L
-		Inclination	170.9
-		AscendingNode	321.8
+		Period	11.51443075
+		Inclination	157.77
+		AscendingNode	235.93
+		MeridianAngle	160.04
 	}
 	LunarLambert	0.9
 	# GeomAlbedo	0.073
@@ -1952,7 +1956,7 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/15094_Polymele"
 }
 
-"S 2022 (15094) 1:Shaun" "Sol/15094 Polymele"  # no provisional designation
+"Shaun" "Sol/15094 Polymele"  # no provisional designation
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
