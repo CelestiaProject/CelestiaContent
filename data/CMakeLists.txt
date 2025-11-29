@@ -8,42 +8,46 @@ endif()
 
 set(DATA_SOURCES
   asterisms.dat
-  boundaries.dat
-  hdxindex.dat
-  saoxindex.dat
-  starnames.dat
-  stars.dat
-  stars.dat.license
-  extrasolar.ssc
-  solarsys.ssc
-  charm2.stc
-  extrasolar.stc
-  nearstars.stc
-  revised.stc
-  spectbins.stc
-  visualbins.stc
-  asteroids_locs.ssc
   asteroids.ssc
+  asteroids_locs.ssc
+  boundaries.dat
+  charm2.stc
   comets.ssc
-  dwarfplanets_locs.ssc
   dwarfplanets.ssc
+  dwarfplanets_locs.ssc
   earth_locs.ssc
+  extrasolar.ssc
+  extrasolar.stc
   galaxies.dsc
   globulars.dsc
+  hdxindex.dat
+  hdxindex.dat.license
+  interstellar.ssc
   jupitermoons_locs.ssc
-  mars_locs.ssc
   marsmoons_locs.ssc
+  mars_locs.ssc
   merc_locs.ssc
   minormoons.ssc
   moon_locs.ssc
+  nearstars.stc
   neptunemoons_locs.ssc
   openclusters.dsc
   outersys.ssc
   pulsars.stc
+  revised.stc
   ring_locs.ssc
+  saoxindex.dat
+  saoxindex.dat.license
   saturnmoons_locs.ssc
+  solarsys.ssc
+  spectbins.stc
+  starnames.dat
+  starnames.dat.license
+  stars.dat
+  stars.dat.license
   uranusmoons_locs.ssc
   venus_locs.ssc
+  visualbins.stc
   whitedwarfs.stc
   world-capitals.ssc
 )
