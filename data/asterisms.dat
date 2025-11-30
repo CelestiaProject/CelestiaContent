@@ -1,65 +1,67 @@
 "Andromeda"
 [
-[ "BET And"  "UPS And" "Almach" ]
-[ "BET And" "DEL And" "ALF And" ]
-[ "BET And"  "MU And" "NU And" ]
-[ "UPS And" "51 And" ]
+[ "ALF And" "DEL And" "BET And" "GAM And" ]
+[ "OMI And" "IOT And" "PI And" "DEL And" "EPS And" "ZET And" "ETA And" ]
+[ "LAM And" "KAP And" "IOT And" ]
+[ "PI And" "BET And" "MU And" "NU And" "PHI And" "51 And" ]
 ]
 
 "Antlia"
 [
-[ "IOT Ant" "ALF Ant" "TET Ant" "EPS Ant" ]
+[ "EPS Ant" "ALF Ant" "IOT Ant" ]
 ]
 
 "Apus"
 [
-[ "BET Aps" "GAM Aps" "DEL1 Aps" "ALF Aps" ]
+[ "ALF Aps" "DEL1 Aps" "BET Aps" "GAM Aps" ]
 ]
 
 "Aquarius"
 [
-[ "88 Aqr" "DEL Aqr" "TAU Aqr" "LAM Aqr" "PHI Aqr" "ZET Aqr" "GAM Aqr" "ALF Aqr" "BET Aqr" "MU Aqr" "EPS Aqr" ]
-[ "ALF Aqr" "TET Aqr" "IOT Aqr" ]
+[ "EPS Aqr" "BET Aqr" "ALF Aqr" "TET Aqr" "LAM Aqr" "PHI Aqr" "PSI2 Aqr" "88 Aqr" ]
+[ "BET Aqr" "IOT Aqr" ]
+[ "ETA Aqr" "ZET Aqr" "PI Aqr" "ALF Aqr" "GAM Aqr" "ZET Aqr" ]
+[ "LAM Aqr" "TAU Aqr" "DEL Aqr" "PSI2 Aqr" "98 Aqr" ]
 ]
 
 "Aquila"
 [
-[ "EPS Aql" "ZET Aql" "GAM Aql" "ALF Aql" "BET Aql" "TET Aql" "ETA Aql" "DEL Aql" "ZET Aql" ]
-[ "DEL Aql" "LAM Aql" "12 Aql" ]
+[ "BET Aql" "ALF Aql" "GAM Aql" "DEL Aql" "LAM Aql" "12 Aql" ]
+[ "EPS Aql" "ZET Aql" "DEL Aql" "ETA Aql" "TET Aql" "IOT Aql" "LAM Aql" "ZET Aql" ]
 ]
 
 "Ara"
 [
-[ "DEL Ara" "GAM Ara" "BET Ara" "ALF Ara" "EPS1 Ara" "ZET Ara" "ETA Ara" ]
-[ "ZET Ara" "GAM Ara" ]
+[ "TET Ara" "ALF Ara" "EPS1 Ara" "ZET Ara" "ETA Ara" "DEL Ara" "GAM Ara" ]
+[ "ALF Ara" "BET Ara" ]
 ]
 
 "Aries"
 [
-[ "41 Ari" "ALF Ari" "BET Ari" "GAM Ari" ]
+[ "GAM Ari" "BET Ari" "ALF Ari" "41 Ari" ]
 ]
 
 "Auriga"
 [
 [ "ALF Aur" "DEL Aur" "BET Aur" "TET Aur" "BET Tau" "IOT Aur" "ETA Aur" "ALF Aur" ]
-[ "BET Aur" "ALF Aur" "EPS Aur" "ZET Aur" ]
+[ "BET Aur" "ALF Aur" "EPS Aur" "ZET Aur" "ETA Aur" ]
 ]
 
 "Boötes"
 [
-[ "GAM Boo" "BET Boo" "DEL Boo" "EPS Boo" "ALF Boo" "PI1 Boo" "ZET Boo" ]
-[ "UPS Boo" "TAU Boo" "ETA Boo" "ALF Boo" "RHO Boo" "GAM Boo" "LAM Boo" "KAP2 Boo"]
-[ "DEL Boo" "MU1 Boo" ]
+[ "TAU Boo" "ETA Boo" "ALF Boo" "RHO Boo" "GAM Boo" "LAM Boo" "KAP2 Boo" "TET Boo" "LAM Boo" ]
+[ "GAM Boo" "BET Boo" "DEL Boo" "EPS Boo" "ALF Boo" "ZET Boo" ]
 ]
 
 "Caelum"
 [
-[ "ALF Cae" "BET Cae" ]
+[ "DEL Cae" "ALF Cae" "BET Cae" "GAM Cae" ]
 ]
 
 "Camelopardalis"
 [
-[ "7 Cam" "BET Cam" "ALF Cam" "GAM Cam" ]
+[ "HD 21291" "HD 23475" "GAM Cam" "ALF Cam" "BET Cam" "7 Cam" ]
+[ "ALF Cam" "HD 42818" "HD 49878" ]
 ]
 
 "Cancer"
@@ -75,10 +77,8 @@
 
 "Canis Major"
 [
-[ "BET CMa" "ALF CMa" "IOT CMa" "GAM CMa" "TET CMa" "ALF CMa" ]
-[ "ALF CMa" "OMI2 CMa" "DEL CMa" "SIG CMa" "EPS CMa" "ZET CMa" ]
-[ "DEL CMa" "OME CMa" "ETA CMa" ]
-[ "OME CMa" "TAU CMa" ]
+[ "ETA CMa" "DEL CMa" "ALF CMa" "IOT CMa" "GAM CMa" "TET CMa" "IOT CMa" ]
+[ "ALF CMa" "BET CMa" "NU2 CMa" "OMI1 CMa" "EPS CMa" "DEL CMa" ]
 ]
 
 "Canis Minor"
@@ -88,41 +88,44 @@
 
 "Capricornus"
 [
-[ "ALF1 Cap" "BET Cap" "PSI Cap" "OME Cap" "24 Cap" "ZET Cap" "EPS Cap" "DEL Cap" "GAM Cap" "IOT Cap" "TET Cap" "BET Cap" ]
+[ "ALF2 Cap" "BET Cap" "PSI Cap" "OME Cap" "24 Cap" "ZET Cap" "EPS Cap" "DEL Cap" "GAM Cap" "TET Cap" "ALF2 Cap" ]
 ]
 
 "Carina"
 [
-[ "ALF Car" "HIP 31407" "CHI Car" "EPS Car" "IOT Car" "V337 Car" "PP Car" "TET Car" "OME Car" "BET Car" "UPS Car" ]
+[ "ALF Car" "BET Car" "OME Car" "TET Car" "p Car" "q Car" "IOT Car" "EPS Car" "CHI Car" "GAM Vel" ]
+[ "TET Car" "z Car" "y Car" "x Car" "HIP 53253" "p Car" ]
+[ "IOT Car" "DEL Vel" ]
 ]
 
 "Cassiopeia"
 [
-[ "EPS Cas" "DEL Cas" "GAM Cas" "ALF Cas" "BET Cas" ]
+[ "BET Cas" "ALF Cas" "GAM Cas" "DEL Cas" "EPS Cas" ]
 ]
 
 "Centaurus"
 [
-[ "IOT Cen" "HIP 65936" "NU Cen" ]
-[ "TET Cen" "NU Cen" ]
-[ "KAP Cen" "ETA Cen" "NU Cen" "MU Cen" "ZET Cen" "EPS Cen" "GAM Cen" "SIG Cen" "DEL Cen" "RHO Cen" "PI Cen" "LAM Cen" ]
-[ "BET Cen" "EPS Cen" "ALF Cen" ]
+[ "ALF Cen" "BET Cen" "EPS Cen" "ZET Cen" "UPS1 Cen" "PHI Cen" "CHI Cen" "PSI Cen" "TET Cen" "NU Cen" "MU Cen" "ZET Cen" "GAM Cen" "EPS Cen" ]
+[ "PHI Cen" "ETA Cen" "KAP Cen" ]
+[ "NU Cen" "HIP 65936" "IOT Cen" "l Cen" ]
+[ "GAM Cen" "SIG Cen" "DEL Cen" "PI Cen" ]
+[ "SIG Cen" "RHO Cen" "OMI1 Cen" ]
 ]
 
 "Cepheus"
 [
-[ "TET Cep" "ETA Cep" "ALF Cep" "BET Cep" "GAM Cep" "IOT Cep" "ZET Cep" "ALF Cep" ]
-[ "ZET Cep" "EPS Cep" "DEL Cep" ]
+[ "TET Cep" "ETA Cep" "ALF Cep" "BET Cep" "GAM Cep" "IOT Cep" "DEL Cep" "ZET Cep" "EPS Cep" "MU Cep" "ALF Cep" ]
+[ "BET Cep" "IOT Cep" ]
 ]
 
 "Cetus"
 [
-[ "GAM Cet" "ALF Cet" "LAM Cet" "MU Cet" "XI2 Cet" "NU Cet" "GAM Cet" "DEL Cet" "OMI Cet" "ZET Cet" "TET Cet" "ETA Cet" "IOT Cet" "BET Cet" "TAU Cet" "ZET Cet" ]
+[ "GAM Cet" "ALF Cet" "LAM Cet" "MU Cet" "XI2 Cet" "GAM Cet" "DEL Cet" "OMI Cet" "ZET Cet" "TAU Cet" "BET Cet" "IOT Cet" "ETA Cet" "TET Cet" "ZET Cet" ]
 ]
 
 "Chamaeleon"
 [
-[ "ALF Cha" "GAM Cha" "BET Cha" "DEL2 Cha" "TET Cha" "ALF Cha" ]
+[ "ALF Cha" "GAM Cha" "EPS Cha" "BET Cha" "DEL2 Cha" "GAM Cha" ]
 ]
 
 "Circinus"
@@ -132,7 +135,7 @@
 
 "Columba"
 [
-[ "EPS Col" "ALF Col" "BET Col" "GAM Col" "KAP Col" "DEL Col" ]
+[ "EPS Col" "ALF Col" "BET Col" "GAM Col" "DEL Col" ]
 [ "BET Col" "ETA Col" ]
 ]
 
@@ -143,7 +146,7 @@
 
 "Corona Australis"
 [
-[ "EPS CrA" "GAM CrA" "ALF CrA" "BET CrA" "DEL CrA" "ZET CrA" ]
+[ "GAM CrA" "ALF CrA" "BET CrA" "DEL CrA" "TET CrA" ]
 ]
 
 "Corona Borealis"
@@ -170,8 +173,8 @@
 
 "Cygnus"
 [
-[ "KAP Cyg" "IOT Cyg" "TET Cyg" "DEL Cyg" "GAM Cyg" "EPS Cyg" "ZET Cyg" ]
-[ "ALF Cyg" "GAM Cyg" "ETA Cyg" "BET Cyg" ]
+[ "ALF Cyg" "GAM Cyg" "BET Cyg" ]
+[ "KAP Cyg" "IOT Cyg" "OMI2 Cyg" "ALF Cyg" "NU Cyg" "ZET Cyg" "EPS Cyg" "GAM Cyg" "DEL Cyg" "IOT Cyg" ]
 ]
 
 "Delphinus"
@@ -181,24 +184,24 @@
 
 "Dorado"
 [
-[ "GAM Dor" "ALF Dor" "ZET Dor" "BET Dor" "DEL Dor" ]
-[ "BET Dor" ]
+[ "GAM Dor" "ALF Dor" "ZET Dor" "BET Dor" "DEL Dor" "HIP 27890" "BET Dor" "ALF Dor" ]
 ]
 
 "Draco"
 [
-[ "NU1 Dra" "BET Dra" "GAM Dra" "XI Dra" "NU1 Dra" ]
-[ "XI Dra" "DEL Dra" "EPS Dra" "CHI Dra" "ZET Dra" "ETA Dra" "TET Dra" "IOT Dra" "ALF Dra" "KAP Dra" "LAM Dra" ]
+[ "XI Dra" "NU1 Dra" "BET Dra" "GAM Dra" "XI Dra" "DEL Dra" "PHI Dra" "ZET Dra" "ETA Dra" "TET Dra" "IOT Dra" "ALF Dra" "KAP Dra" "LAM Dra" ]
+[ "DEL Dra" "EPS Dra" ]
+[ "PHI Dra" "CHI Dra" ]
 ]
 
 "Equuleus"
 [
-[ "DEL Equ" "BET Equ" "ALF Equ" "GAM Equ" ]
+[ "ALF Equ" "DEL Equ" "GAM Equ" ]
 ]
 
 "Eridanus"
 [
-[ "LAM Eri" "BET Eri" "OME Eri" "MU Eri" "NU Eri" "OMI1 Eri" "GAM Eri" "PI Eri" "DEL Eri" "EPS Eri" "ETA Eri" "TAU1 Eri" "TAU2 Eri" "TAU3 Eri" "TAU4 Eri" "TAU5 Eri" "TAU6 Eri" "TAU9 Eri" "UPS1 Eri" "UPS2 Eri" "43 Eri" "41 Eri" "HIP 17874" "HIP 17797" "82 Eri" "TET Eri" "IOT Eri" "HIP 12413" "KAP Eri" "PHI Eri" "CHI Eri" "ALF Eri" ]
+[ "BET Eri" "MU Eri" "NU Eri" "OMI1 Eri" "GAM Eri" "PI Eri" "DEL Eri" "EPS Eri" "ETA Eri" "PI Cet" "TAU1 Eri" "TAU3 Eri" "TAU4 Eri" "TAU5 Eri" "TAU6 Eri" "TAU8 Eri" "TAU9 Eri" "UPS1 Eri" "UPS2 Eri" "UPS3 Eri" "UPS4 Eri" "g Eri" "y Eri" "e Eri" "TET Eri" "IOT Eri" "HIP 12413" "KAP Eri" "CHI Eri" "ALF Eri" ]
 ]
 
 "Fornax"
@@ -209,29 +212,25 @@
 "Gemini"
 [
 [ "BET Gem" "UPS Gem" "DEL Gem" "ZET Gem" "GAM Gem" ]
-[ "1 Gem" "ETA Gem" "MU Gem" "EPS Gem" "TAU Gem" "RHO Gem" "ALF Gem" ]
-[ "DEL Gem" "LAM Gem" "51 Gem" "XI Gem"]
-[ "NU Gem" "EPS Gem" ]
-[ "TAU Gem" "TET Gem" ]
-[ "UPS Gem" "KAP Gem" ]
-[ "UPS Gem" "IOT Gem" "TAU Gem" ]
+[ "DEL Gem" "LAM Gem" "XI Gem"]
+[ "ALF Gem" "TAU Gem" "EPS Gem" "MU Gem" "ETA Gem" "1 Gem" ]
+[ "EPS Gem" "NU Gem" ]
+[ "TET Gem" "TAU Gem" "IOT Gem" "UPS Gem" "KAP Gem" ]
 ]
 
 "Grus"
 [
 [ "GAM Gru" "LAM Gru" "MU1 Gru" "DEL1 Gru" "BET Gru" "EPS Gru" "ZET Gru" ]
-[ "ALF Gru" "BET Gru" "IOT Gru" "TET Gru" ]
+[ "BET Gru" "ALF Gru" "DEL1 Gru" ]
 ]
 
 "Hercules"
 [
-[ "PI Her" "EPS Her" "ZET Her" ]
-[ "PHI Her" "SIG Her" "ETA Her" "ZET Her" "BET Her" "GAM Her" ]
-[ "BET Her" "ALF Her" ]
-[ "IOT Her" "TET Her" "RHO Her" "PI Her" "ETA Her" ]
-[ "EPS Her" "DEL Her" "LAM Her" "MU Her" "XI Her" "OMI Her" "NU Her" ]
-[ "OMI Her" "109 Her" "110 Her" "111 Her" ]
-[ "109 Her" "102 Her" ]
+[ "CHI Her" "PHI Her" "TAU Her" "SIG Her" "ETA Her" "ZET Her" "BET Her" "ALF Her" "DEL Her" "EPS Her" "PI Her" "RHO Her" "TET Her" "IOT Her" ]
+[ "ETA Her" "PI Her" ]
+[ "ZET Her" "EPS Her" ]
+[ "BET Her" "GAM Her" "OME Her" "29 Her" ]
+[ "DEL Her" "LAM Her" "MU Her" "XI Her" "OMI Her" ]
 ]
 
 "Horologium"
@@ -241,74 +240,71 @@
 
 "Hydra"
 [
-[ "GAM Hya" "BET Hya" "XI Hya" ]
-[ "PI Hya" "GAM Hya" ]
-[ "XI Hya" "NU Hya" "MU Hya" "LAM Hya" "UPS2 Hya" "UPS1 Hya" "ALF Hya" "IOT Hya" "TET Hya" "ZET Hya" "ETA Hya" "SIG Hya" "DEL Hya" "EPS Hya" "ZET Hya" ]
+[ "RHO Hya" "ETA Hya" "SIG Hya" "DEL Hya" "EPS Hya" "ZET Hya" "TET Hya" "IOT Hya" "ALF Hya" "UPS1 Hya" "UPS2 Hya" "LAM Hya" "MU Hya" "NU Hya" "ALF Crt" "BET Crt" "XI Hya" "BET Hya" "GAM Hya" "PI Hya" "58 Hya" ]
 ]
 
 "Hydrus"
 [
-[ "GAM Hyi" "BET Hyi" "ALF Hyi" "GAM Hyi" ]
+[ "ALF Hyi" "BET Hyi" "GAM Hyi" "ALF Hyi" ]
 ]
 
 "Indus"
 [
-[ "ALF Ind" "TET Ind" "DEL Ind" ]
-[ "TET Ind" "BET Ind" ]
+[ "ALF Ind" "TET Ind" "DEL Ind" "BET Ind" "ETA Ind" "ALF Ind" ]
 ]
 
 "Lacerta"
 [
-[ "1 Lac" "HIP 109754" "6 Lac" "2 Lac" "5 Lac" "4 Lac" "ALF Lac" "BET Lac" ]
+[ "1 Lac" "HIP 109754" "6 Lac" "11 Lac" "5 Lac" "ALF Lac" "BET Lac" "4 Lac" "5 Lac" "2 Lac" "6 Lac" ]
 ]
 
 "Leo"
 [
-[ "GAM1 Leo" "EPS Leo" "MU Leo" "ZET Leo" "GAM1 Leo" "ETA Leo" "ALF Leo" "TET Leo" "BET Leo" "DEL Leo" "GAM1 Leo" ]
-[ "ALF Leo" "OMI Leo" ]
-[ "TET Leo" "IOT Leo" "SIG Leo" ]
+[ "ALF Leo" "ETA Leo" "GAM Leo" "ZET Leo" "MU Leo" "EPS Leo" ]
+[ "MU Leo" "KAP Leo" "LAM Leo" "EPS Leo" "ETA Leo" "TET Leo" "BET Leo" "DEL Leo" "GAM Leo" ]
+[ "DEL Leo" "TET Leo" "IOT Leo" "SIG Leo" ] 
 ]
 
 "Leo Minor"
 [
-[ "46 LMi" "BET LMi" "21 LMi" ]
+[ "10 LMi" "21 LMi" "BET LMi" "46 LMi" "30 LMi" "21 LMi" ]
 ]
 
 "Lepus"
 [
-[ "MU Lep" "ALF Lep" "ZET Lep" "ETA Lep" ]
+[ "KAP Lep" "MU Lep" "ALF Lep" "ZET Lep" "ETA Lep" "TET Lep" "DEL Lep" "GAM Lep" "BET Lep" "EPS Lep" "MU Lep" "LAM Lep" ]
 [ "ALF Lep" "BET Lep" ]
-[ "DEL Lep" "GAM Lep" "BET Lep" "EPS Lep" ]
 ]
 
 "Libra"
 [
-[ "SIG Lib" "BET Lib" ]
-[ "48 Lib" "TET Lib" "ETA Lib" "GAM Lib" "BET Lib" "ALF2 Lib" "SIG Lib" "UPS Lib" "TAU Lib" ]
+[ "SIG Lib" "ALF2 Lib" "BET Lib" "GAM Lib" "UPS Lib" "TAU Lib" ]
+[ "ALF2 Lib" "GAM Lib" ]
 ]
 
 "Lupus"
 [
-[ "TET Lup" "ETA Lup" "GAM Lup" "EPS Lup" "KAP Lup" "ZET Lup" "ALF Lup" "BET Lup" "DEL Lup" "PHI1 Lup" "CHI Lup" ]
-[ "GAM Lup" "DEL Lup" ]
+[ "ALF Lup" "ZET Lup" "ETA Lup" "CHI Lup" "PHI1 Lup" "ETA Lup" "GAM Lup" "EPS Lup" "ZET Lup" ]
+[ "GAM Lup" "DEL Lup" "BET Lup" ]
 ]
 
 "Lynx"
 [
-[ "ALF Lyn" "38 Lyn" "31 Lyn" "21 Lyn" "15 Lyn" "2 Lyn" ]
+[ "ALF Lyn" "38 Lyn" "HIP 44700" "10 UMa" "31 Lyn" "21 Lyn" "15 Lyn" "2 Lyn" ]
 ]
 
 "Lyra"
 [
-[ "EPS1 Lyr" "ALF Lyr" "ZET1 Lyr" "BET Lyr" "GAM Lyr" "DEL1 Lyr" "ZET1 Lyr" ]
-[ "ALF Lyr" "KAP Lyr" ]
+[ "ALF Lyr" "EPS1 Lyr" "ZET1 Lyr" "DEL2 Lyr" "GAM Lyr" "BET Lyr" "ZET1 Lyr" "ALF Lyr" ]
 ]
 
+# Does not have IAU asterism lines
 "Mensa"
 [
 [ "ALF Men" "GAM Men" "ETA Men" "BET Men" ]
 ]
 
+# Does not have IAU asterism lines
 "Microscopium"
 [
 [ "TET1 Mic" "EPS Mic" "GAM Mic" "ALF Mic" ]
@@ -316,45 +312,46 @@
 
 "Monoceros"
 [
-[ "ZET Mon" "ALF Mon" "DEL Mon" "BET Mon" "GAM Mon" ]
-[ "DEL Mon" "18 Mon" "8 Mon" "13 Mon" ]
+[ "15 Mon" "13 Mon" "EPS Mon" "18 Mon" "DEL Mon" "ZET Mon" "ALF Mon" ]
+[ "DEL Mon" "BET Mon" "GAM Mon" ]
+[ "13 Mon" "18 Mon" ]
 ]
 
 "Musca"
 [
-[ "DEL Mus" "ALF Mus" "GAM Mus" ]
-[ "BET Mus" "ALF Mus" "EPS Mus" "MU Mus" ]
+[ "LAM Mus" "EPS Mus" "ALF Mus" "BET Mus" "DEL Mus" "GAM Mus" "ALF Mus" ]
 ]
 
 "Norma"
 [
-[ "EPS Nor" "GAM1 Nor" "GAM2 Nor" "ETA Nor" ]
+[ "DEL Nor" "EPS Nor" "GAM2 Nor" "ETA Nor" "DEL Nor" ]
 ]
 
 "Octans"
 [
-[ "DEL Oct" "NU Oct" "EPS Oct" "BET Oct" "DEL Oct" ]
+[ "DEL Oct" "NU Oct" "BET Oct" "DEL Oct" ]
 ]
 
 "Ophiuchus"
 [
-[ "KAP Oph" "ALF Oph" "BET Oph" "ETA Oph" ]
-[ "45 Oph" "TET Oph" "44 Oph" "XI Oph" "ETA Oph" "ZET Oph" "EPS Oph" "DEL Oph" "KAP Oph" ]
-[ "BET Oph" "GAM Oph" "67 Oph" "70 Oph" ]
-[ "GAM Oph" "NU Oph" ]
+[ "45 Oph" "TET Oph" "ETA Oph" "BET Oph" "ALF Oph" "KAP Oph" "ZET Oph" "PHI Oph" "CHI Oph" "PSI Oph" "RHO Oph" ]
+[ "BET Oph" "GAM Oph" "NU Oph" ]
+[ "KAP Oph" "LAM Oph" "DEL Oph" "EPS Oph" "UPS Oph" "ZET Oph" "ETA Oph" ]
 ]
 
 "Orion"
 [
-[ "XI Ori" "MU Ori" "ALF Ori" "ZET Ori" "KAP Ori" "BET Ori" "DEL Ori" "GAM Ori" "LAM Ori" "ALF Ori" ]
-[ "CHI2 Ori" "NU Ori" "XI Ori" "68 Ori" ]
-[ "GAM Ori" "PI3 Ori" "PI4 Ori" "PI5 Ori" "PI6 Ori" ]
-[ "PI3 Ori" "PI2 Ori" "PI1 Ori" ][ "ZET Ori" "EPS Ori" "DEL Ori" ]
+[ "BET Ori" "ETA Ori" "DEL Ori" "GAM Ori" "ALF Ori" "ZET Ori" "KAP Ori" ]
+[ "DEL Ori" "EPS Ori" "ZET Ori" ]
+[ "NU Ori" "CHI1 Ori" "CHI2 Ori" "XI Ori" ]
+[ "NU Ori" "MU Ori" "ALF Ori" "LAM Ori" "GAM Ori" "PI3 Ori" ]
+[ "11 Ori" "OMI2 Ori" "PI1 Ori" "PI2 Ori" "PI3 Ori" "PI4 Ori" "PI5 Ori" "PI6 Ori" ]
 ]
 
 "Pavo"
 [
-[ "ALF Pav" "BET Pav" "UPS Pav" "EPS Pav" "ZET Pav" "ETA Pav" "PI Pav" "XI Pav" "LAM Pav" "DEL Pav" "BET Pav" "GAM Pav" ]
+[ "ETA Pav" "PI Pav" "XI Pav" "LAM Pav" "DEL Pav" "ALF Pav" "GAM Pav" "BET Pav" "DEL Pav" "KAP Pav" "PI Pav" ]
+[ "ZET Pav" "DEL Pav" "EPS Pav" ]
 ]
 
 "Pegasus"
