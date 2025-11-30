@@ -32,8 +32,7 @@
 
 "Ara"
 [
-[ "TET Ara" "ALF Ara" "EPS1 Ara" "ZET Ara" "ETA Ara" "DEL Ara" "GAM Ara" ]
-[ "ALF Ara" "BET Ara" ]
+[ "TET Ara" "ALF Ara" "EPS1 Ara" "ZET Ara" "ETA Ara" "DEL Ara" "GAM Ara" "BET Ara" "ALF Ara" ]
 ]
 
 "Aries"
@@ -356,23 +355,22 @@
 
 "Pegasus"
 [
-[ "EPS Peg" "TET Peg" "ZET Peg" "XI Peg" "ALF Peg" "GAM Peg" ]
-[ "KAP Peg" "IOT Peg" "ETA Peg" "BET Peg" "MU Peg" "LAM Peg" "9 Peg" ]
-[ "ALF Peg" "BET Peg" ]
+[ "EPS Peg" "TET Peg" "ZET Peg" "ALF Peg" "GAM Peg" "ALF And" "BET Peg" "ALF Peg" ]
+[ "PI Peg" "ETA Peg" "BET Peg" "MU Peg" "LAM Peg" "IOT Peg" "KAP Peg" ]
 ]
 
 "Perseus"
 [
-[ "ALF Per" "GAM Per" "ETA Per" ]
-[ "ALF Per" "IOT Per" "KAP Per" "BET Per" "RHO Per" "20 Per" "16 Per" ]
-[ "ALF Per" "PSI Per" "DEL Per" "NU Per" "EPS Per" "XI Per" "ZET Per" "OMI Per" ]
-[ "DEL Per" "48 Per" "MU Per" "LAM Per" ]
-[ "IOT Per" "TET Per" ]
+[ "RHO Per" "BET Per" "KAP Per" "IOT Per" "TAU Per" "ETA Per" "GAM Per" "ALF Per" "DEL Per" "EPS Per" "XI Per" "ZET Per" "OMI Per" ]
+[ "TAU Per" "GAM Per" ]
+[ "ALF Per" "IOT Per" "TET Per" "PHI Per" ]
+[ "DEL Per" "48 Per" "MU Per" "b Per" "LAM Per" ]
+[ "BET Per" "EPS Per" ]
 ]
 
 "Phoenix"
 [
-[ "DEL Phe" "GAM Phe" "NU Phe" "BET Phe" "ALF Phe" "EPS Phe" "ETA Phe" "BET Phe" ]
+[ "BET Phe" "GAM Phe" "DEL Phe" "ZET Phe" "BET Phe" "EPS Phe" "ALF Phe" "BET Phe" ]
 ]
 
 "Pictor"
@@ -382,116 +380,108 @@
 
 "Pisces"
 [
-[ "TAU Psc" "UPS Psc" "PHI Psc" "ETA Psc" "OMI Psc" "ALF Psc" "NU Psc" "MU Psc" "EPS Psc" "DEL Psc" "OME Psc" "IOT Psc" "TET Psc" "GAM Psc" "KAP Psc" "LAM Psc" "IOT Psc" ]
+[ "PHI Psc" "TAU Psc" "UPS Psc" "PHI Psc" "ETA Psc" "OMI Psc" "ALF Psc" "NU Psc" "EPS Psc" "DEL Psc" "OME Psc" "IOT Psc" "TET Psc" "GAM Psc" "KAP Psc" "LAM Psc" "IOT Psc" ]
 ]
 
 "Piscis Austrinus"
 [
-[ "ALF PsA" "EPS PsA" "LAM PsA" "TET PsA" "IOT PsA" "MU PsA" "BET PsA" "GAM PsA" "DEL PsA" "ALF PsA" ]
+[ "MU PsA" "EPS PsA" "ALF PsA" "DEL PsA" "GAM PsA" "BET PsA" "MU PsA" "IOT PsA" "TET PsA" "MU PsA" ]
 ]
 
 "Puppis"
 [
-[ "XI Pup" "HIP 37229" "PI Pup" "NU Pup" "TAU Pup" "SIG Pup" "ZET Pup"
-  "Rho Pup" "11 Pup" "Xi Pup" ]
-[ "11 Pup" "16 Pup" ]
+[ "ALF Car" "NU Pup" "PI Pup" "HIP 36917" "HIP 37229" "XI Pup" "RHO Pup" "ZET Pup" "GAM Vel" ]
+[ "XI Pup" "OMI Pup" "3 Pup" "HIP 36917" ]
 ]
 
 "Pyxis"
 [
-[ "BET Pyx" "ALF Pyx" "GAM Pyx" ]
+[ "GAM Pyx" "ALF Pyx" "BET Pyx" "ZET Pup" ]
 ]
 
 "Reticulum"
 [
-[ "BET Ret" "ALF Ret" "EPS Ret" "IOT Ret" "DEL Ret" "BET Ret" ]
+[ "ALF Ret" "BET Ret" "DEL Ret" "EPS Ret" "ALF Ret" ]
 ]
 
 "Sagitta"
 [
-[ "ETA Sge" "GAM Sge" "DEL Sge" "BET Sge" ]
-[ "DEL Sge" "ALF Sge" ]
+[ "ALF Sge" "DEL Sge" "GAM Sge" ]
+[ "DEL Sge" "BET Sge" ]
 ]
 
 "Sagittarius"
 [
-[ "PHI Sgr" "DEL Sgr" ]
-[ "BET2 Sgr" "IOT Sgr" "ALF Sgr" ]
-[ "IOT Sgr" "TET1 Sgr" "TET2 Sgr" "62 Sgr" "59 Sgr" "52 Sgr" "PSI Sgr" "TAU Sgr" "ZET Sgr" "PHI Sgr" "SIG Sgr" "TAU Sgr" ]
-[ "SIG Sgr" "OMI Sgr" "PI Sgr" "53 Sgr" "RHO1 Sgr" ]
-[ "OMI Sgr" ]
-[ "PHI Sgr" "LAM Sgr" "MU Sgr" ]
-[ "LAM Sgr" "DEL Sgr" "EPS Sgr" "ETA Sgr" ]
-[ "DEL Sgr" "GAM Sgr" "3 Sgr" ]
-[ "ZET Sgr" "EPS Sgr" "GAM Sgr" ]
+[ "MU Sgr" "LAM Sgr" "PHI Sgr" "SIG Sgr" "TAU Sgr" "ZET Sgr" "EPS Sgr" "GAM Sgr" "DEL Sgr" "LAM Sgr" ]
+[ "ETA Sgr" "EPS Sgr" "DEL Sgr" "PHI Sgr" "ZET Sgr" ]
+[ "RHO1 Sgr" "PI Sgr" "OMI Sgr" "XI2 Sgr" "PI Sgr" ]
 ]
 
 "Scorpius"
 [
-[ "DEL Sco" "SIG Sco" "ALF Sco" "TAU Sco" "EPS Sco" "MU Sco" "ZET Sco" "ETA Sco" "TET Sco" "IOT1 Sco" "KAP Sco" "LAM Sco" ]
-[ "BET2 Sco" "OME1 Sco" "NU Sco" "11 Sco" "BET2 Sco" "DEL Sco" "PI Sco" "RHO Sco" ]
-[ "IOT1 Sco" "Fuyue" ]
+[ "DEL Sco" "SIG Sco" "ALF Sco" "TAU Sco" "EPS Sco" "MU1 Sco" "ZET2 Sco" "ETA Sco" "TET Sco" "IOT1 Sco" "KAP Sco" "UPS Sco" "LAM Sco" "G Sco" ]
+[ "NU Sco" "BET Sco" "DEL Sco" "PI Sco" "RHO Sco" ]
 ]
 
 "Sculptor"
 [
-[ "ALF Scl" "IOT Scl" "DEL Scl" "GAM Scl" "BET Scl" ]
+[ "ALF Scl" "DEL Scl" "GAM Scl" "BET Scl" ]
 ]
 
 "Scutum"
 [
-[ "BET Sct" "ALF Sct" "GAM Sct" ]
-[ "ALF Sct" "ZET Sct" ]
+[ "ALF Sct" "BET Sct" "DEL Sct" "GAM Sct" "ALF Sct" ]
 ]
 
 "Serpens Caput"
 [
-[ "MU Ser" "OME Ser" "EPS Ser" "ALF Ser" "DEL Ser" "BET Ser" "GAM Ser" "KAP Ser" "BET Ser" ]
+[ "DEL Oph" "MU Ser" "EPS Ser" "ALF Ser" "DEL Ser" "BET Ser" "IOT Ser" "KAP Ser" "GAM Ser" "BET Ser" ]
 ]
 
 "Serpens Cauda"
 [
-[ "NU Ser" "XI Ser" "OMI Ser" ]
-[ "OMI Ser" "ETA Ser" "TET Ser" ]
+[ "ETA Oph" "XI Ser" "NU Oph" "ETA Ser" "TET1 Ser" ]
 ]
 
 "Sextans"
 [
-[ "BET Sex" "ALF Sex" "GAM Sex" ]
+[ "GAM Sex" "ALF Sex" "BET Sex" "DEL Sex" ]
 ]
 
 "Taurus"
 [
-[ "BET Tau" "TAU Tau" "EPS Tau" "68 Tau" "DEL1 Tau" "GAM Tau" "TET2 Tau" "ALF Tau" "ZET Tau" ]
-[ "GAM Tau" "LAM Tau" "47 Tau" "MU Tau" "NU Tau" ]
-[ "LAM Tau" "5 Tau" "XI Tau" "OMI Tau" ]
-[ "ALF Tau" "EPS Tau" ]
+[ "BET Tau" "EPS Tau" "DEL1 Tau" "GAM Tau" "TET2 Tau" "ALF Tau" "ZET Tau" ]
+[ "GAM Tau" "LAM Tau" "XI Tau" "NU Tau" ]
+[ "XI Tau" "OMI Tau" "10 Tau" ]
 ]
 
 "Telescopium"
 [
-[ "ZET Tel" "ALF Tel" ]
-[ "ALF Tel" "EPS Tel" ]
+[ "EPS Tel" "ALF Tel" "ZET Tel" ]
 ]
 
 "Triangulum"
 [
-[ "ALF Tri" "EPS Tri" "BET Tri" "GAM Tri" "ALF Tri" ]
+[ "ALF Tri" "BET Tri" "GAM Tri" "ALF Tri" ]
 ]
 
 "Triangulum Australe"
 [
-[ "BET TrA" "EPS TrA" "GAM TrA" "ALF TrA" "BET TrA" ]
+[ "ALF TrA" "BET TrA" "EPS TrA" "GAM TrA" "ALF TrA" ]
 ]
 
 "Tucana"
 [
-[ "DEL Tuc" "ALF Tuc" "GAM Tuc" "EPS Tuc" "ZET Tuc" "BET Tuc" "GAM Tuc" ]
+[ "ALF Tuc" "GAM Tuc" "BET Tuc" "ZET Tuc" "EPS Tuc" "DEL Tuc" "ALF Tuc" ]
 ]
 
 "Ursa Major"
 [
 [ "ETA UMa" "ZET UMa" "EPS UMa" "DEL UMa" "GAM UMa" "BET UMa" "ALF UMa" "DEL UMa" ]
+[ "BET UMa" "UPS UMa" "OMI UMa" "23 UMa" "ALF UMa" ]
+[ "23 UMa" "UPS UMa" "TET UMa" "KAP UMa" "IOT UMa" ]
+[ "GAM UMa" "CHI UMa" "PSI UMa" "MU UMa" "LAM UMa" ]
+[ "CHI UMa" "NU UMa" "XI UMa" ]
 ]
 
 "Ursa Minor"
@@ -501,25 +491,22 @@
 
 "Vela"
 [
-[ "MU Vel" "HIP 51986" "HIP 50191" "PSI Vel" "LAM Vel" "HIP 42884" "HIP 42312" "GAM Vel" "DEL Vel" "KAP Vel" "PHI Vel" "MU Vel" ]
-[ "DEL Vel" ]
-[ "KAP Vel" ]
+[ "DEL Vel" "GAM Vel" "LAM Vel" "PSI Vel" "q Vel" "MU Vel" "PHI Vel" "KAP Vel" "DEL Vel" ]
 ]
 
 "Virgo"
 [
-[ "BET Vir" "ETA Vir" "GAM Vir" "DEL Vir" "EPS Vir" ]
-[ "DEL Vir" "ZET Vir" "ALF Vir" "TET Vir" "GAM Vir" ]
-[ "ZET Vir" "TAU Vir" "109 Vir" ]
-[ "ALF Vir" "KAP Vir" "IOT Vir" "MU Vir" ]
+[ "ETA Vir" "OMI Vir" "NU Vir" "BET Vir" "ETA Vir" "GAM Vir" "ZET Vir" ]
+[ "ALF Vir" "TET Vir" "GAM Vir" "DEL Vir" "EPS Vir" ]
+[ "109 Vir" "TAU Vir" "ZET Vir" "IOT Vir" "MU Vir" ]
 ]
 
 "Volans"
 [
-[ "ALF Vol" "BET Vol" "EPS Vol" "DEL Vol" "GAM Vol" "ZET Vol" "EPS Vol" ]
+[ "EPS Vol" "BET Vol" "ALF Vol" "EPS Vol" "GAM Vol" "DEL Vol" "EPS Vol" ]
 ]
 
 "Vulpecula"
 [
-[ "13 Vul" "ALF Vul" "1 Vul" ]
+[ "13 Vul" "ALF Vul" ]
 ]
