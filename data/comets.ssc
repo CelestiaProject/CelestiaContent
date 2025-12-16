@@ -31,13 +31,13 @@
 #  "Cometary masses derived from non-gravitational forces", MNRAS 393, 192-214
 #   https://doi.org/10.1111/j.1365-2966.2008.14183.x
 #
-# Radius for 153P, C/1956 R1 and C/2006 P1 are derived from Equation 1 of
+# Radius for C/1956 R1 and C/2006 P1 are derived from Equation 1 of
 # Fernandez, et al. (2012), MNRAS 423, 1674-1690
 #  "Magnitude and size distribution of long-period comets in Earth-crossing or approaching orbits"
 #   https://doi.org/10.1111/j.1365-2966.2012.20989.x
 #
 #
-# Last update: 8 October 2025
+# Last update: 22 November 2025
 
 
 # Periodic Comets
@@ -430,7 +430,10 @@
 	Class	"comet"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
-	Radius	 1.765				# D = 3.53 km, Equation 1 of Fernandez (2012)
+	Radius	 2.545				# D = 5.09 km
+
+	# Radius from Rondon (2025)
+	# https://doi.org/10.1093/mnras/staf454
 
 	EllipticalOrbit
 	{
@@ -777,4 +780,5 @@
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/C/2023_A3_(Tsuchinshan-ATLAS)"
 }
+
 
