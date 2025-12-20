@@ -147,11 +147,11 @@ Texture maps
 
    Janus, Prometheus and Epimetheus maps are from Phil Stooke.
 
-   The Ida and Gaspra photomosaic maps are by Phil Stooke.
-
    The Deimos and Itokawa maps are from:
       Stooke. P., Stooke Small Bodies Maps V3.0. MULTI-SA-MULTI-6-STOOKEMAPS-V3.0. NASA Planetary Data System, 2015.
       https://sbnarchive.psi.edu/pds3/multi_mission/MULTI_SA_MULTI_6_STOOKEMAPS_V3_0/document/00_map_guide.html
+
+# The Ida and Gaspra maps are by ItzImcool.
 
 # Venus's clouds are from Björn Jónsson, recolored by FarGetaNik.
 
@@ -295,10 +295,13 @@ covered.
     https://sbn.psi.edu/pds/resource/erosshape.html
     https://sbn.psi.edu/pds/resource/itokawashape.html
 
-# 3D models of Amalthea, Thebe, Larissa, Proteus, Ida, Gaspra, Mathilde and Halley
+# 3D models of Amalthea, Thebe, Larissa, Proteus, Gaspra, Mathilde and Halley
   are derived from Phil Stooke's Cartography of Non-Spherical Worlds and the
   Stooke Small Body Shape Models dataset at PDS.
     https://sbn.psi.edu/pds/resource/stkshape.html
+
+# The Ida model is derived from Peter Thomas' Small Body Optical Shape Models dataset:
+    https://sbn.psi.edu/pds/resource/oshape.html
 
 # Models of Pan, Daphnis, Atlas, Prometheus, Pandora, Epimetheus, Janus,
   Telesto, Calypso, Helene, and Hyperion are from:
@@ -325,7 +328,7 @@ covered.
     https://data.darts.isas.jaxa.jp/pub/hayabusa2/paper/Watanabe_2019/README.html
 
 # Bennu's model is a simplified version of the OLA v20 PTM shape model from NASA's
-# Scientific Visualization Studio: https://svs.gsfc.nasa.gov/5069
+  Scientific Visualization Studio: https://svs.gsfc.nasa.gov/5069
 
 # Models of Didymos and Dimorphos come from the DART Shapemodel Archive Bundle at PDS:
     https://doi.org/10.26007/96fn-p578

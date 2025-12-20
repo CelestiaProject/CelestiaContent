@@ -801,73 +801,87 @@
 
 # Asteroids visited by spacecraft
 
-"243 Ida:Ida:A910 CD" "Sol"
+# Belton et al. (1996), Icarus 120, 1-19
+#   "Galileo's Encounter with 243 Ida: An Overview of the Imaging Experiment"
+#   https://ui.adsabs.harvard.edu/abs/1996Icar..120....1B/abstract
+# Albedos from Helfenstein et al. (1996), Icarus 120, 48-65
+#   "Galileo Photometry of Asteroid 243 Ida"
+#   https://ui.adsabs.harvard.edu/abs/1996Icar..120...48H/abstract
+"243 Ida:Ida:1988 DB1:A910 CD" "Sol"
 {
-	Class "asteroid"
-	Mesh "ida.cmod"
-	Texture "idamosaic.*" # Phil Stooke
-        Color [ 1.000 0.901 0.815 ]
-	BlendTexture true
-	Radius    28.9 # maximum semi-axis
-	MeshCenter [ -1.424 -0.417 0.115 ]
-
+	Class	"asteroid"
+	Mesh	"ida.cmod"
+	MeshCenter	[ -1.41 -0.4397 0.1119 ]
+	Texture	"ida.*"
+	Color	[ 1.0 0.961 0.899 ]  # a000243.2.txt
+	BlendTexture	true
+	Radius	26.8  # maximum semi-axis
+	Mass<kg>	4.2e16
+	Density	2600
 	EllipticalOrbit
 	{
-	Epoch	  2449228.0        # 1993 Aug 28 12:00UT (Galileo encounter)
-	Period          4.8417     # mean
-	SemiMajorAxis   2.863731   # at epoch
-	Eccentricity    0.043109   # at epoch
-	Inclination     1.137110   # at epoch
-	AscendingNode   324.586055 # at epoch
-	ArgOfPericenter 113.017101 # at epoch
-        MeanAnomaly     131.594945 # at epoch
+		Epoch	2449228.203529  # 1993 Aug 28 16:52:04.7 UT (Galileo encounter)
+		Period	4.846254968888159
+		SemiMajorAxis	2.863729794821305
+		Eccentricity	0.0431099558008663
+		Inclination	1.137108514043375
+		AscendingNode	324.5863812051677
+		ArgOfPericenter	113.0168835472141
+		MeanAnomaly	131.6361442500825
 	}
-
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-	Period         4.633632
-	Inclination	     156.96
-	AscendingNode 352.77
-	MeridianAngle       359.46
+		Period	4.633632
+		Inclination	177.12
+		AscendingNode	258.76
+		MeridianAngle	274.05
 	}
-
-	Albedo 0.24
+	LunarLambert	0.9
+	# GeomAlbedo	0.206
+	BondAlbedo	0.081
+	Reflectivity	0.069  # spherical albedo
+	InfoURL	"https://en.wikipedia.org/wiki/243_Ida"
 }
 
-"Dactyl:243 Ida I:Ida I:1993 (243) 1" "Sol/Ida"
+"Dactyl:243 Ida I:Ida I:S 1993 (243) 1" "Sol/Ida"
 {
-	# Data for Dactyl taken from: 
-	#   Petit et al.: The Long-Term Dynamics of Dactyl's Orbit
-	#   (Icarus 1997: 130; 177-197) - linked in the InfoURL
+	Class	"minormoon"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.438 0.414 0.379 ]
+	BlendTexture	true
+	SemiAxes	[ 0.8 0.7 0.6 ]
 
-	InfoURL "http://www.lpl.arizona.edu/~hurfordt/research/papers/Icarus130.pdf"
-
-	Class "asteroid"
-	Texture "asteroid.jpg"
-	# Use the same color as for Ida--uncertain if this is correct
-        Color [ 1.000 0.901 0.815 ]
-	BlendTexture true
-	Mesh "roughsphere.cms"
-	Radius   0.7
-
+	# Orbit interpolated and rotated from Belton et al. (1996), Icarus 120, 185-199
+	#   "The Discovery and Orbit of 1993 (243)1 Dactyl"
+	#   https://ui.adsabs.harvard.edu/abs/1996Icar..120..185B/abstract
+	# for the period suggested by Petit et al. (1997), Icarus 130, 177-197
+	#   "The Long-Term Dynamics of Dactyl's Orbit"
+	#   http://web.archive.org/web/20160113005636/http://www.lpl.arizona.edu/~hurfordt/research/papers/Icarus130.pdf
 	EllipticalOrbit
 	{
-	Epoch	     2449228.2028  # 1993 Aug 28 16:52:05UT
-	Period             0.96534 # stable 5:1 resonant orbit (Petit et al.)
-	SemiMajorAxis     83.5     # stable 5:1 resonant orbit (Petit et al.)
-	Eccentricity       0.13    # stable 5:1 resonant orbit (Petit et al.)
-	LongOfPericenter 310       # stable pericenter at 90:E Ida longitude (Petit et al.)
-	AscendingNode     90       # VERY approximate - chosen to place Dactyl north 
-                                   # of Ida's equator, as seen at time of Galileo encounter
-	Inclination        8       # estimated at 7-9 degrees (Petit et al.)
+		Epoch	2449228.203529  # 1993 Aug 28 16:52:04.7 UT
+		Period	0.96534  # stable 5:1 resonant orbit (Petit et al.)
+		SemiMajorAxis	82.3
+		Eccentricity	0.15
+		Inclination	7.67
+		AscendingNode	33.30
+		ArgOfPericenter	303.12
+		MeanAnomaly	265.56
 	}
-
-	UniformRotation
+	UniformRotation  # to match orbit
 	{
-	MeridianAngle   123       # place prime meridian facing Ida
+		Epoch	2449228.203529  # 1993 Aug 28 16:52:04.7 UT
+		Inclination	7.67
+		AscendingNode	33.30
+		MeridianAngle	28.68
 	}
-
-	Albedo 0.2
+	LunarLambert	0.9
+	# GeomAlbedo	0.198
+	BondAlbedo	0.073
+	Reflectivity	0.063  # spherical albedo
+	InfoURL	"https://en.wikipedia.org/wiki/Dactyl_(moon)"
 }
 
 # Veverka et al. (1999), Icarus 140, p. 3-16
@@ -957,37 +971,42 @@
 	InfoURL	"https://en.wikipedia.org/wiki/433_Eros"
 }
 
-"951 Gaspra:Gaspra:A913 YA" "Sol"
+# Albedos from Helfenstein et al. (1994), Icarus 107, 37-60
+#   "Galileo Photometry of Asteroid 951 Gaspra"
+#   https://ui.adsabs.harvard.edu/abs/1994Icar..107...37H/abstract
+"951 Gaspra:Gaspra:1916 S45:1955 MG1:A913 YA" "Sol"
 {
-	Class "asteroid"
-	Mesh "gaspra.cmod"
-	Texture "gaspramosaic.*" # Phil Stooke
-	Color [ 1.000 0.883 0.769 ]
-	BlendTexture true
-	Radius    9.1 # maximum semi-axis
-	MeshCenter [ 1.540 -0.064 -0.118 ]
-
+	Class	"asteroid"
+	Mesh	"gaspra.cmod"
+	MeshCenter	[ 1.540 -0.064 -0.118 ]
+	Texture	"gaspra.*"
+	Color	[ 1.0 0.952 0.862 ]  # a000951.2.txt
+	BlendTexture	true
+	Radius	9.1  # maximum semi-axis
 	EllipticalOrbit
 	{
-	Epoch     2448559.0        # 1991 Oct 29 12:00UT (Galileo encounter)
-	Period          3.2837     # average
-	SemiMajorAxis   2.2096348  # at epoch
-	Eccentricity    0.1738752  # at epoch
-	Inclination     4.0975771  # at epoch
-	AscendingNode   253.445592 # at epoch
-	ArgOfPericenter 129.045896 # at epoch
-	MeanAnomaly     280.769206 # at epoch
+		Epoch	2448559.443035  # 1991 Oct 29 22:37 UT (Galileo encounter)
+		Period	3.284649836170897
+		SemiMajorAxis	2.209635220657096
+		Eccentricity	0.1738751722120656
+		Inclination	4.097580278581171
+		AscendingNode	253.4455078747746
+		ArgOfPericenter	129.0458605783739
+		MeanAnomaly	280.902236295622
 	}
-
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-	Period         7.042073
-	Inclination             69.28
-	AscendingNode 109.59
-	MeridianAngle        58.865
+		Period	7.042024  # Simonelli et al. (1995), 1995Icar..114..387S
+		Inclination	63.30
+		AscendingNode	99.47
+		MeridianAngle	109.06  # offset for correct orientation at the Galileo encounter
 	}
-
-	Albedo 0.1
+	LunarLambert	0.9
+	# GeomAlbedo	0.22
+	BondAlbedo	0.12
+	Reflectivity	0.1  # spherical albedo at SSI GRN filter (0.56 µm)
+	InfoURL	"https://en.wikipedia.org/wiki/951_Gaspra"
 }
 
 "4179 Toutatis:Toutatis:1989 AC:1934 CT" "Sol"
