@@ -937,7 +937,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	Texture	"icy.*"
 	Color	[ 0.851 0.732 0.555 ]
 	BlendTexture	true
-	Radius	497.5
+	Radius	453
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "SSB" }
