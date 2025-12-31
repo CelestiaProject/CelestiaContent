@@ -8,7 +8,7 @@ set(MIR_SOURCES
   textures/medres/dock.png
   textures/medres/docking_ring.png
   textures/medres/dockkr.png
-  textures/medres/metalwhite.png
+  textures/medres/metallwhite.png
   textures/medres/mir.png
   textures/medres/multi.png
   textures/medres/ODS_collar.png
