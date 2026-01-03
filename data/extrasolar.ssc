@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2019-2025 Thomas W. Tarrants
 # SPDX-License-Identifier: CC-BY-4.0
-# This .ssc file was created by Thomas Tarrants on 27/Oct/2025.
+# This .ssc file was created by Thomas Tarrants on 30/Nov/2025.
 # You can contact me for any reason at e-mail: twtarrants@gmail.com.
 # 
 # In cases where a transiting planet's radius has not been explicitly stated, it has been estimated from
@@ -1042,7 +1042,7 @@
 	Radius 11825
 	EllipticalOrbit
 	{
-		Epoch 2458870.692582
+		Epoch 2459554.20747
 		Period 0.00201655
 		SemiMajorAxis 0.0154
 		Eccentricity 0.028
@@ -1053,7 +1053,7 @@
 	}
 	UniformRotation
 	{
-		Period 17.594342
+		Period 17.594344
 		Inclination 103.05414
 		AscendingNode 123.6258
 	}
@@ -3272,7 +3272,7 @@
 	Oblateness 0.02
 	EllipticalOrbit
 	{
-		Epoch 2454159.4543
+		Epoch 2455111.612574
 		Period 0.00413133
 		SemiMajorAxis 0.0254
 		Inclination 27.41201
@@ -3328,7 +3328,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2454597.679
-		Period 0.00819803
+		Period 0.00819789
 		SemiMajorAxis 0.0436
 		Inclination 89.02977
 		AscendingNode 273.77386
@@ -3521,7 +3521,7 @@
 	Radius 101371
 	EllipticalOrbit
 	{
-		Epoch 2455257.4418
+		Epoch 2456551.29156
 		Period 0.01066978
 		SemiMajorAxis 0.0518
 		Eccentricity 0.047
@@ -3532,7 +3532,7 @@
 	}
 	UniformRotation
 	{
-		Period 92.307657
+		Period 92.307687
 		Inclination 91.83888
 		AscendingNode 94.26471
 	}
@@ -3551,7 +3551,7 @@
 	Radius 102420
 	EllipticalOrbit
 	{
-		Epoch 2457347.04314
+		Epoch 2458363.21037
 		Period 0.00477207
 		SemiMajorAxis 0.0281
 		Inclination 76.88315
@@ -3910,7 +3910,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2454283.1383
-		Period 0.01165328
+		Period 0.01165417
 		SemiMajorAxis 0.0583
 		Eccentricity 0.012
 		Inclination 117.93788
@@ -3920,7 +3920,7 @@
 	}
 	UniformRotation
 	{
-		Period 102.064456
+		Period 102.072222
 		Inclination 117.93788
 		AscendingNode 300.54597
 	}
@@ -4102,8 +4102,8 @@
 	Radius 97036
 	EllipticalOrbit
 	{
-		Epoch 2454400.19974
-		Period 0.01105521
+		Epoch 2455203.74446
+		Period 0.01105522
 		SemiMajorAxis 0.04947
 		Eccentricity 0.09
 		Inclination 92.87562
@@ -4113,7 +4113,7 @@
 	}
 	UniformRotation
 	{
-		Period 92.415252
+		Period 92.415318
 		Inclination 92.87562
 		AscendingNode 96.50299
 	}
@@ -4762,7 +4762,7 @@
 	Radius 12105
 	EllipticalOrbit
 	{
-		Epoch 2458097.77747
+		Epoch 2458204.731004
 		Period 0.01573169
 		SemiMajorAxis 0.0418
 		Inclination 106.3396
@@ -4789,8 +4789,8 @@
 	Radius 85921
 	EllipticalOrbit
 	{
-		Epoch 2458468.68524
-		Period 0.00835736
+		Epoch 2459689.69711
+		Period 0.00835737
 		SemiMajorAxis 0.04047
 		Inclination 88.51899
 		AscendingNode 86.68944
@@ -4816,8 +4816,8 @@
 	Radius 92772
 	EllipticalOrbit
 	{
-		Epoch 2458843.98731
-		Period 0.01010684
+		Epoch 2459726.265491
+		Period 0.01010687
 		SemiMajorAxis 0.0467
 		Eccentricity 0.346
 		Inclination 100.69963
@@ -4827,7 +4827,7 @@
 	}
 	UniformRotation
 	{
-		Period 50.452294
+		Period 50.452446
 		Inclination 100.69963
 		AscendingNode 106.51234
 	}
@@ -5709,7 +5709,7 @@
 	}
 	UniformRotation
 	{
-		Period 17.217664
+		Period 17.217665
 		Inclination 161.5028
 		AscendingNode 323.75488
 	}
@@ -6308,8 +6308,8 @@
 	Radius 13570
 	EllipticalOrbit
 	{
-		Epoch 2460159.312806
-		Period 0.00781146
+		Epoch 2458961.01079
+		Period 0.00781137
 		SemiMajorAxis 0.03165
 		Eccentricity 0.057
 		Inclination 109.52509
@@ -6319,7 +6319,7 @@
 	}
 	UniformRotation
 	{
-		Period 67.165622
+		Period 67.164819
 		Inclination 109.52509
 		AscendingNode 203.83146
 	}
@@ -6979,8 +6979,8 @@
 	Radius 7754
 	EllipticalOrbit
 	{
-		Epoch 2458517.999665
-		Period 0.01076129
+		Epoch 2459103.65998
+		Period 0.01076141
 		SemiMajorAxis 0.034
 		Inclination 108.13765
 		AscendingNode 140.71179
@@ -7767,7 +7767,7 @@
 	}
 	UniformRotation
 	{
-		Period 54.660799
+		Period 54.660801
 		Inclination 26.07274
 		AscendingNode 77.83024
 	}
@@ -9426,8 +9426,8 @@
 	Radius 9824
 	EllipticalOrbit
 	{
-		Epoch 2457126.69913
-		Period 0.00846797
+		Epoch 2459115.45636
+		Period 0.008468
 		SemiMajorAxis 0.03876
 		Inclination 71.47287
 		AscendingNode 344.86766
@@ -9940,7 +9940,7 @@
 	Radius 9741
 	EllipticalOrbit
 	{
-		Epoch 2457738.82586
+		Epoch 2457858.51423
 		Period 0.00330999
 		SemiMajorAxis 0.0189
 		Inclination 67.01782
@@ -9966,8 +9966,8 @@
 	Radius 7652
 	EllipticalOrbit
 	{
-		Epoch 2457742.19931
-		Period 0.00998796
+		Epoch 2457899.06955
+		Period 0.00998801
 		SemiMajorAxis 0.03895
 		Inclination 66.89723
 		AscendingNode 349.13254
@@ -10104,7 +10104,7 @@
 	Radius 33854
 	EllipticalOrbit
 	{
-		Epoch 2454957.8132067
+		Epoch 2455925.598126
 		Period 0.01338207
 		SemiMajorAxis 0.0532
 		Eccentricity 0.2577
@@ -10133,7 +10133,7 @@
 	Radius 50601
 	EllipticalOrbit
 	{
-		Epoch 2456716.5327
+		Epoch 2457041.051539
 		Period 0.00879687
 		SemiMajorAxis 0.0384
 		Inclination 130.33251
@@ -10160,8 +10160,8 @@
 	Radius 91304
 	EllipticalOrbit
 	{
-		Epoch 2455456.49826
-		Period 0.00798424
+		Epoch 2457007.93881
+		Period 0.00798423
 		SemiMajorAxis 0.0418
 		Eccentricity 0.007
 		Inclination 106.49264
@@ -10171,7 +10171,7 @@
 	}
 	UniformRotation
 	{
-		Period 69.969263
+		Period 69.96923
 		Inclination 106.49264
 		AscendingNode 119.93128
 	}
@@ -10219,7 +10219,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459729.706791
-		Period 0.01266985
+		Period 0.01266984
 		SemiMajorAxis 0.0594
 		Eccentricity 0.095
 		Inclination 96.2729
@@ -10229,7 +10229,7 @@
 	}
 	UniformRotation
 	{
-		Period 105.354102
+		Period 105.354067
 		Inclination 96.2729
 		AscendingNode 76.15355
 	}
@@ -10247,8 +10247,8 @@
 	Radius 70182
 	EllipticalOrbit
 	{
-		Epoch 2454638.56019
-		Period 0.02974265
+		Epoch 2458136.59214
+		Period 0.02974251
 		SemiMajorAxis 0.0964
 		Eccentricity 0.2
 		Inclination 68.73284
@@ -10258,7 +10258,7 @@
 	}
 	UniformRotation
 	{
-		Period 209.93859
+		Period 209.937606
 		Inclination 68.73284
 		AscendingNode 62.85667
 	}
@@ -10276,8 +10276,8 @@
 	Radius 83474
 	EllipticalOrbit
 	{
-		Epoch 2455027.59301
-		Period 0.00760019
+		Epoch 2457950.68753
+		Period 0.00760018
 		SemiMajorAxis 0.0405
 		Eccentricity 0.036
 		Inclination 76.07773
@@ -10287,7 +10287,7 @@
 	}
 	UniformRotation
 	{
-		Period 66.109127
+		Period 66.109109
 		Inclination 76.07773
 		AscendingNode 15.13539
 	}
@@ -10304,7 +10304,7 @@
 	Radius 62648
 	EllipticalOrbit
 	{
-		Epoch 2454801.16943
+		Epoch 2457168.694753
 		Period 0.02830537
 		SemiMajorAxis 0.0892
 		Eccentricity 0.416
@@ -10315,7 +10315,7 @@
 	}
 	UniformRotation
 	{
-		Period 115.702852
+		Period 115.702819
 		Inclination 92.18641
 		AscendingNode 340.16343
 	}
@@ -10356,24 +10356,23 @@
 	Texture "exo-class3.*"
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
-	Mass 62.292
-	Radius 49720
+	Mass 55.523
+	Radius 47963
 	EllipticalOrbit
 	{
 		Epoch 2454715.022802
 		Period 0.01508016
 		SemiMajorAxis 0.0559
-		Eccentricity 0.084
-		Inclination 62.56714
-		AscendingNode 122.35282
-		ArgOfPericenter 320.03758
-		MeanAnomaly 334.56092
+		Inclination 62.19823
+		AscendingNode 122.20068
+		ArgOfPericenter 320.10811
+		MeanAnomaly 330
 	}
 	UniformRotation
 	{
-		Period 126.820334
-		Inclination 62.56714
-		AscendingNode 122.35282
+		Period 132.192698
+		Inclination 62.19823
+		AscendingNode 122.20068
 	}
 	InfoURL "http://arxiv.org/abs/1007.4850"
 }
@@ -10418,7 +10417,7 @@
 	Radius 81027
 	EllipticalOrbit
 	{
-		Epoch 2458956.23792
+		Epoch 2459068.906048
 		Period 0.01542359
 		SemiMajorAxis 0.06814
 		Eccentricity 0.5172
@@ -10429,7 +10428,7 @@
 	}
 	UniformRotation
 	{
-		Period 45.408836
+		Period 45.408846
 		Inclination 98.5325
 		AscendingNode 237.23792
 	}
@@ -10475,7 +10474,7 @@
 	Radius 69398
 	EllipticalOrbit
 	{
-		Epoch 2456705.48183
+		Epoch 2458304.158616
 		Period 0.00787219
 		SemiMajorAxis 0.0361
 		Eccentricity 0.015
@@ -10486,7 +10485,7 @@
 	}
 	UniformRotation
 	{
-		Period 68.91457
+		Period 68.914593
 		Inclination 106.64813
 		AscendingNode 107.12052
 	}
@@ -10531,7 +10530,7 @@
 	Radius 78999
 	EllipticalOrbit
 	{
-		Epoch 2454996.41243
+		Epoch 2458617.71445
 		Period 0.01129224
 		SemiMajorAxis 0.05037
 		Eccentricity 0.228
@@ -10542,7 +10541,7 @@
 	}
 	UniformRotation
 	{
-		Period 75.233376
+		Period 75.233362
 		Inclination 115.76991
 		AscendingNode 167.93541
 	}
@@ -10560,7 +10559,7 @@
 	Radius 77951
 	EllipticalOrbit
 	{
-		Epoch 2456603.79429
+		Epoch 2458800.961039
 		Period 0.00879461
 		SemiMajorAxis 0.0414
 		Eccentricity 0.016
@@ -10589,7 +10588,7 @@
 	Radius 95638
 	EllipticalOrbit
 	{
-		Epoch 2454852.26528
+		Epoch 2458414.512844
 		Period 0.0033207
 		SemiMajorAxis 0.0232
 		Eccentricity 0.106
@@ -10600,7 +10599,7 @@
 	}
 	UniformRotation
 	{
-		Period 27.268808
+		Period 27.268807
 		Inclination 67.70038
 		AscendingNode 289.99728
 	}
@@ -10618,7 +10617,7 @@
 	Radius 86829
 	EllipticalOrbit
 	{
-		Epoch 2455800.7899
+		Epoch 2458495.05107
 		Period 0.00918616
 		SemiMajorAxis 0.0465
 		Eccentricity 0.067
@@ -10629,7 +10628,7 @@
 	}
 	UniformRotation
 	{
-		Period 78.413179
+		Period 78.413144
 		Inclination 77.19391
 		AscendingNode 107.38715
 	}
@@ -10647,7 +10646,7 @@
 	Radius 83194
 	EllipticalOrbit
 	{
-		Epoch 2457006.91299
+		Epoch 2458314.62104
 		Period 0.01000086
 		SemiMajorAxis 0.0466
 		Eccentricity 0.032
@@ -10658,7 +10657,7 @@
 	}
 	UniformRotation
 	{
-		Period 87.132205
+		Period 87.13219
 		Inclination 75.03379
 		AscendingNode 48.24945
 	}
@@ -10676,7 +10675,7 @@
 	Radius 45582
 	EllipticalOrbit
 	{
-		Epoch 2455304.65204
+		Epoch 2457197.474633
 		Period 0.01159344
 		SemiMajorAxis 0.04748
 		Eccentricity 0.124
@@ -10716,7 +10715,7 @@
 	}
 	UniformRotation
 	{
-		Period 70.37942
+		Period 70.379419
 		Inclination 86.33124
 		AscendingNode 211.53091
 	}
@@ -10734,7 +10733,7 @@
 	Radius 84732
 	EllipticalOrbit
 	{
-		Epoch 2458124.34308
+		Epoch 2458971.21837
 		Period 0.00891776
 		SemiMajorAxis 0.0434
 		Eccentricity 0.051
@@ -10745,7 +10744,7 @@
 	}
 	UniformRotation
 	{
-		Period 76.971665
+		Period 76.97166
 		Inclination 68.18133
 		AscendingNode 12.24379
 	}
@@ -10763,8 +10762,8 @@
 	Radius 77252
 	EllipticalOrbit
 	{
-		Epoch 2455838.59462
-		Period 0.01566975
+		Epoch 2457589.9469
+		Period 0.01566973
 		SemiMajorAxis 0.06667
 		Eccentricity 0.075
 		Inclination 92.60665
@@ -10774,7 +10773,7 @@
 	}
 	UniformRotation
 	{
-		Period 132.874396
+		Period 132.874262
 		Inclination 92.60665
 		AscendingNode 49.57129
 	}
@@ -10792,7 +10791,7 @@
 	Radius 57816
 	EllipticalOrbit
 	{
-		Epoch 2455694.72623
+		Epoch 2457411.371104
 		Period 0.00793905
 		SemiMajorAxis 0.03866
 		Inclination 102.01406
@@ -10819,7 +10818,7 @@
 	Radius 99693
 	EllipticalOrbit
 	{
-		Epoch 2455523.92157
+		Epoch 2458345.764417
 		Period 0.00769501
 		SemiMajorAxis 0.04114
 		Eccentricity 0.035
@@ -10830,7 +10829,7 @@
 	}
 	UniformRotation
 	{
-		Period 66.962202
+		Period 66.962208
 		Inclination 29.92361
 		AscendingNode 134.4487
 	}
@@ -10848,7 +10847,7 @@
 	Radius 74805
 	EllipticalOrbit
 	{
-		Epoch 2458169.941
+		Epoch 2459150.9749
 		Period 0.01370369
 		SemiMajorAxis 0.055
 		Eccentricity 0.245
@@ -10859,7 +10858,7 @@
 	}
 	UniformRotation
 	{
-		Period 87.952557
+		Period 87.952564
 		Inclination 89.3884
 		AscendingNode 271.41087
 	}
@@ -10878,7 +10877,7 @@
 	Oblateness 0.02
 	EllipticalOrbit
 	{
-		Epoch 2456209.25393
+		Epoch 2456819.856194
 		Period 0.0058864
 		SemiMajorAxis 0.0343
 		Eccentricity 0.0072
@@ -10889,7 +10888,7 @@
 	}
 	UniformRotation
 	{
-		Period 51.584153
+		Period 51.58415
 		Inclination 37.29062
 		AscendingNode 284.60324
 	}
@@ -10907,7 +10906,7 @@
 	Radius 127727
 	EllipticalOrbit
 	{
-		Epoch 2455110.92683
+		Epoch 2458508.965062
 		Period 0.0095126
 		SemiMajorAxis 0.0503
 		Eccentricity 0.148
@@ -10936,7 +10935,7 @@
 	Radius 79838
 	EllipticalOrbit
 	{
-		Epoch 2456462.14718
+		Epoch 2459013.98616
 		Period 0.01492854
 		SemiMajorAxis 0.0677
 		Eccentricity 0.441
@@ -10947,7 +10946,7 @@
 	}
 	UniformRotation
 	{
-		Period 56.532935
+		Period 56.532933
 		Inclination 77.87405
 		AscendingNode 300.38447
 	}
@@ -10965,8 +10964,8 @@
 	Radius 93121
 	EllipticalOrbit
 	{
-		Epoch 2456836.75811
-		Period 0.009984
+		Epoch 2458455.87507
+		Period 0.00998401
 		SemiMajorAxis 0.0498
 		Eccentricity 0.025
 		Inclination 101.87923
@@ -10976,7 +10975,7 @@
 	}
 	UniformRotation
 	{
-		Period 87.192772
+		Period 87.192818
 		Inclination 101.87923
 		AscendingNode 118.36477
 	}
@@ -10994,7 +10993,7 @@
 	Radius 90045
 	EllipticalOrbit
 	{
-		Epoch 2457334.53507
+		Epoch 2458442.869734
 		Period 0.00363408
 		SemiMajorAxis 0.02334
 		Eccentricity 0.063
@@ -11034,7 +11033,7 @@
 	}
 	UniformRotation
 	{
-		Period 65.809976
+		Period 65.809967
 		Inclination 87.34437
 		AscendingNode -77.69283
 	}
@@ -11052,8 +11051,8 @@
 	Radius 57677
 	EllipticalOrbit
 	{
-		Epoch 2457515.07748
-		Period 0.01270453
+		Epoch 2457733.172866
+		Period 0.01270452
 		SemiMajorAxis 0.0523
 		Eccentricity 0.067
 		Inclination 71.6138
@@ -11063,7 +11062,7 @@
 	}
 	UniformRotation
 	{
-		Period 108.445977
+		Period 108.445944
 		Inclination 71.6138
 		AscendingNode 36.04118
 	}
@@ -11081,8 +11080,8 @@
 	Radius 109830
 	EllipticalOrbit
 	{
-		Epoch 2455208.75049
-		Period 0.00970259
+		Epoch 2458819.95867
+		Period 0.0097026
 		SemiMajorAxis 0.0509
 		Inclination 99.01185
 		AscendingNode 108.99117
@@ -11108,7 +11107,7 @@
 	Radius 88787
 	EllipticalOrbit
 	{
-		Epoch 2454740.97205
+		Epoch 2457109.7776
 		Period 0.0083683
 		SemiMajorAxis 0.0446
 		Inclination 107.88856
@@ -11135,7 +11134,7 @@
 	Radius 120946
 	EllipticalOrbit
 	{
-		Epoch 2456414.9009
+		Epoch 2458924.31446
 		Period 0.0122032
 		SemiMajorAxis 0.0608
 		Inclination 70.16889
@@ -11162,7 +11161,7 @@
 	Radius 117800
 	EllipticalOrbit
 	{
-		Epoch 2458071.24389
+		Epoch 2458434.94055
 		Period 0.00737591
 		SemiMajorAxis 0.0426
 		Inclination 84.45735
@@ -11189,8 +11188,8 @@
 	Radius 89276
 	EllipticalOrbit
 	{
-		Epoch 2455952.52603
-		Period 0.01270876
+		Epoch 2459192.53042
+		Period 0.01270866
 		SemiMajorAxis 0.0575
 		Inclination 105.62632
 		AscendingNode 128.7089
@@ -11216,8 +11215,8 @@
 	Radius 89696
 	EllipticalOrbit
 	{
-		Epoch 2455997.37106
-		Period 0.0091244
+		Epoch 2458400.234208
+		Period 0.00912438
 		SemiMajorAxis 0.0443
 		Inclination 104.27769
 		AscendingNode 125.20291
@@ -11243,7 +11242,7 @@
 	Radius 86829
 	EllipticalOrbit
 	{
-		Epoch 2457284.0768
+		Epoch 2458419.59101
 		Period 0.01177602
 		SemiMajorAxis 0.0507
 		Eccentricity 0.044
@@ -11254,7 +11253,7 @@
 	}
 	UniformRotation
 	{
-		Period 102.043068
+		Period 102.043084
 		Inclination 110.23565
 		AscendingNode -145.03415
 	}
@@ -11301,8 +11300,8 @@
 	Radius 99693
 	EllipticalOrbit
 	{
-		Epoch 2455729.98612
-		Period 0.00856671
+		Epoch 2458445.95425
+		Period 0.00856672
 		SemiMajorAxis 0.0452
 		Eccentricity 0.049
 		Inclination 89.03285
@@ -11312,7 +11311,7 @@
 	}
 	UniformRotation
 	{
-		Period 74.029162
+		Period 74.029223
 		Inclination 89.03285
 		AscendingNode -88.10236
 	}
@@ -11330,8 +11329,8 @@
 	Radius 89766
 	EllipticalOrbit
 	{
-		Epoch 2455701.33646
-		Period 0.01221938
+		Epoch 2457558.00155
+		Period 0.0122194
 		SemiMajorAxis 0.0577
 		Eccentricity 0.123
 		Inclination 91.42253
@@ -11341,7 +11340,7 @@
 	}
 	UniformRotation
 	{
-		Period 98.186688
+		Period 98.186826
 		Inclination 91.42253
 		AscendingNode -93.88053
 	}
@@ -11440,8 +11439,8 @@
 	Radius 98784
 	EllipticalOrbit
 	{
-		Epoch 2457077.8963
-		Period 0.00736907
+		Epoch 2459459.92359
+		Period 0.00736908
 		SemiMajorAxis 0.0438
 		Inclination 138.06082
 		AscendingNode 29.80563
@@ -11467,7 +11466,7 @@
 	Radius 88088
 	EllipticalOrbit
 	{
-		Epoch 2455705.72567
+		Epoch 2457861.21529
 		Period 0.00763442
 		SemiMajorAxis 0.04075
 		Inclination 90.23229
@@ -11494,7 +11493,7 @@
 	Radius 90045
 	EllipticalOrbit
 	{
-		Epoch 2456526.3049
+		Epoch 2458724.19664
 		Period 0.00854758
 		SemiMajorAxis 0.0453
 		Inclination 59.38411
@@ -11504,7 +11503,7 @@
 	}
 	UniformRotation
 	{
-		Period 74.928043
+		Period 74.928122
 		Inclination 59.38411
 		AscendingNode 115.39245
 	}
@@ -11550,7 +11549,7 @@
 	Radius 70540
 	EllipticalOrbit
 	{
-		Epoch 2455852.1037
+		Epoch 2458770.91714
 		Period 0.00753894
 		SemiMajorAxis 0.03694
 		Inclination 73.61184
@@ -11578,8 +11577,8 @@
 	Radius 92143
 	EllipticalOrbit
 	{
-		Epoch 2457502.7149
-		Period 0.00537064
+		Epoch 2458687.5352
+		Period 0.00537063
 		SemiMajorAxis 0.03159
 		Inclination 70.33819
 		AscendingNode 19.99126
@@ -11588,7 +11587,7 @@
 	}
 	UniformRotation
 	{
-		Period 47.078995
+		Period 47.07897
 		Inclination 70.33819
 		AscendingNode 19.99126
 	}
@@ -11605,7 +11604,7 @@
 	Radius 65176
 	EllipticalOrbit
 	{
-		Epoch 2460216.95257
+		Epoch 2458845.206425
 		Period 0.01040343
 		SemiMajorAxis 0.03994
 		Inclination 94.04404
@@ -11615,7 +11614,7 @@
 	}
 	UniformRotation
 	{
-		Period 91.196487
+		Period 91.196466
 		Inclination 94.04404
 		AscendingNode 95.94358
 	}
@@ -11661,8 +11660,8 @@
 	Radius 102490
 	EllipticalOrbit
 	{
-		Epoch 2456553.61645
-		Period 0.00764088
+		Epoch 2458557.42921
+		Period 0.00764086
 		SemiMajorAxis 0.0423
 		Inclination 87.94958
 		AscendingNode 91.09458
@@ -11671,7 +11670,7 @@
 	}
 	UniformRotation
 	{
-		Period 66.979985
+		Period 66.979812
 		Inclination 87.94958
 		AscendingNode 91.09458
 	}
@@ -11689,7 +11688,7 @@
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2457159.6765
+		Epoch 2458979.06341
 		Period 0.00674961
 		SemiMajorAxis 0.0406
 		Inclination 66.67046
@@ -11716,8 +11715,8 @@
 	Radius 93121
 	EllipticalOrbit
 	{
-		Epoch 2457369.03094
-		Period 0.01098929
+		Epoch 2458850.13542
+		Period 0.01098928
 		SemiMajorAxis 0.04994
 		Inclination 84.2686
 		AscendingNode 66.83778
@@ -11726,7 +11725,7 @@
 	}
 	UniformRotation
 	{
-		Period 96.33211
+		Period 96.331999
 		Inclination 84.2686
 		AscendingNode 66.83778
 	}
@@ -11744,7 +11743,7 @@
 	Radius 78510
 	EllipticalOrbit
 	{
-		Epoch 2458618.54088
+		Epoch 2459459.36242
 		Period 0.01134012
 		SemiMajorAxis 0.05064
 		Inclination 86.06652
@@ -11754,7 +11753,7 @@
 	}
 	UniformRotation
 	{
-		Period 99.40745
+		Period 99.407475
 		Inclination 86.06652
 		AscendingNode -69.70532
 	}
@@ -11799,7 +11798,7 @@
 	Radius 114025
 	EllipticalOrbit
 	{
-		Epoch 2458360.94029
+		Epoch 2459698.68483
 		Period 0.0131274
 		SemiMajorAxis 0.06277
 		Inclination 73.89154
@@ -11827,7 +11826,7 @@
 	Radius 62850
 	EllipticalOrbit
 	{
-		Epoch 2457851.21119
+		Epoch 2459685.04073
 		Period 0.00520825
 		SemiMajorAxis 0.0301
 		Inclination 87.27162
@@ -11837,7 +11836,7 @@
 	}
 	UniformRotation
 	{
-		Period 45.655509
+		Period 45.655511
 		Inclination 87.27162
 		AscendingNode 70.88817
 	}
@@ -11855,7 +11854,7 @@
 	Radius 75015
 	EllipticalOrbit
 	{
-		Epoch 2457118.38979
+		Epoch 2459284.90927
 		Period 0.0072425
 		SemiMajorAxis 0.03772
 		Inclination 84.80568
@@ -11865,7 +11864,7 @@
 	}
 	UniformRotation
 	{
-		Period 63.487764
+		Period 63.487753
 		Inclination 84.80568
 		AscendingNode 73.83827
 	}
@@ -11911,7 +11910,7 @@
 	Radius 119058
 	EllipticalOrbit
 	{
-		Epoch 2457751.46354
+		Epoch 2458633.05455
 		Period 0.01097144
 		SemiMajorAxis 0.05387
 		Inclination 81.12464
@@ -11968,7 +11967,7 @@
 	Radius 111158
 	EllipticalOrbit
 	{
-		Epoch 2457258.79907
+		Epoch 2458622.98846
 		Period 0.00813713
 		SemiMajorAxis 0.04363
 		Inclination 111.78202
@@ -11978,7 +11977,7 @@
 	}
 	UniformRotation
 	{
-		Period 71.330064
+		Period 71.330122
 		Inclination 111.78202
 		AscendingNode 146.59183
 	}
@@ -11996,7 +11995,7 @@
 	Radius 149610
 	EllipticalOrbit
 	{
-		Epoch 2455961.38467
+		Epoch 2459289.97809
 		Period 0.01316934
 		SemiMajorAxis 0.06505
 		Inclination 98.60854
@@ -12023,7 +12022,7 @@
 	Radius 74945
 	EllipticalOrbit
 	{
-		Epoch 2456614.20355
+		Epoch 2458951.682856
 		Period 0.00629269
 		SemiMajorAxis 0.0296
 		Inclination 100.94979
@@ -12033,7 +12032,7 @@
 	}
 	UniformRotation
 	{
-		Period 55.161732
+		Period 55.161736
 		Inclination 100.94979
 		AscendingNode 116.18781
 	}
@@ -12051,7 +12050,7 @@
 	Radius 110739
 	EllipticalOrbit
 	{
-		Epoch 2458495.78818
+		Epoch 2459558.49759
 		Period 0.01310595
 		SemiMajorAxis 0.06629
 		Inclination 75.17489
@@ -12107,7 +12106,7 @@
 	Radius 123812
 	EllipticalOrbit
 	{
-		Epoch 2458439.57519
+		Epoch 2459133.8879
 		Period 0.00751355
 		SemiMajorAxis 0.04739
 		Inclination 24.75792
@@ -12134,7 +12133,7 @@
 	Radius 92352
 	EllipticalOrbit
 	{
-		Epoch 2455945.0839
+		Epoch 2458193.89133
 		Period 0.00842257
 		SemiMajorAxis 0.0439
 		Inclination 81.90441
@@ -12161,7 +12160,7 @@
 	Radius 97875
 	EllipticalOrbit
 	{
-		Epoch 2455473.14492
+		Epoch 2457336.4804
 		Period 0.01074007
 		SemiMajorAxis 0.053
 		Inclination 114.23485
@@ -12188,7 +12187,7 @@
 	Radius 91024
 	EllipticalOrbit
 	{
-		Epoch 2457901.9514
+		Epoch 2459201.26601
 		Period 0.00943588
 		SemiMajorAxis 0.0444
 		Eccentricity 0.12
@@ -12199,7 +12198,7 @@
 	}
 	UniformRotation
 	{
-		Period 76.126842
+		Period 76.126851
 		Inclination 111.417
 		AscendingNode 170.83143
 	}
@@ -12218,7 +12217,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2456457.88193
-		Period 0.00907008
+		Period 0.00907003
 		SemiMajorAxis 0.04491
 		Inclination 80.5554
 		AscendingNode 289.49117
@@ -12227,7 +12226,7 @@
 	}
 	UniformRotation
 	{
-		Period 79.508304
+		Period 79.507875
 		Inclination 80.5554
 		AscendingNode -70.50883
 	}
@@ -12246,7 +12245,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2457378.4191
-		Period 0.00990873
+		Period 0.0099087
 		SemiMajorAxis 0.04614
 		Inclination 82.40655
 		AscendingNode 285.97481
@@ -12255,7 +12254,7 @@
 	}
 	UniformRotation
 	{
-		Period 86.859922
+		Period 86.859682
 		Inclination 82.40655
 		AscendingNode -74.02519
 	}
@@ -12301,8 +12300,8 @@
 	Radius 84732
 	EllipticalOrbit
 	{
-		Epoch 2456824.3225
-		Period 0.00833417
+		Epoch 2458608.13764
+		Period 0.00833416
 		SemiMajorAxis 0.04057
 		Inclination 72.8535
 		AscendingNode 312.9482
@@ -12311,7 +12310,7 @@
 	}
 	UniformRotation
 	{
-		Period 73.05731
+		Period 73.057282
 		Inclination 72.8535
 		AscendingNode -47.0518
 	}
@@ -12411,8 +12410,8 @@
 	Radius 68504
 	EllipticalOrbit
 	{
-		Epoch 2457139.1672
-		Period 0.0445027
+		Epoch 2458992.20234
+		Period 0.04450292
 		SemiMajorAxis 0.1308
 		Eccentricity 0.119
 		Inclination 112.30041
@@ -12422,7 +12421,7 @@
 	}
 	UniformRotation
 	{
-		Period 359.515443
+		Period 359.517213
 		Inclination 112.30041
 		AscendingNode -167.43622
 	}
@@ -12441,7 +12440,7 @@
 	Oblateness 0.02
 	EllipticalOrbit
 	{
-		Epoch 2457089.90598
+		Epoch 2458602.213805
 		Period 0.00229389
 		SemiMajorAxis 0.01768
 		Inclination 110.8828
@@ -12451,7 +12450,7 @@
 	}
 	UniformRotation
 	{
-		Period 20.108249
+		Period 20.108252
 		Inclination 110.8828
 		AscendingNode 169.32947
 	}
@@ -12499,8 +12498,8 @@
 	Radius 78440
 	EllipticalOrbit
 	{
-		Epoch 2455954.58576
-		Period 0.00370741
+		Epoch 2457687.877584
+		Period 0.00370742
 		SemiMajorAxis 0.023
 		Inclination 104.94406
 		AscendingNode 177.12991
@@ -12581,7 +12580,7 @@
 	Radius 70862
 	EllipticalOrbit
 	{
-		Epoch 2457768.11264
+		Epoch 2458868.52863
 		Period 0.01293037
 		SemiMajorAxis 0.05025
 		Eccentricity 0.079
@@ -12592,7 +12591,7 @@
 	}
 	UniformRotation
 	{
-		Period 109.254351
+		Period 109.254295
 		Inclination 112.17508
 		AscendingNode 171.55511
 	}
@@ -12610,8 +12609,8 @@
 	Radius 130034
 	EllipticalOrbit
 	{
-		Epoch 2457072.85266
-		Period 0.00591517
+		Epoch 2458775.33703
+		Period 0.00591516
 		SemiMajorAxis 0.03397
 		Inclination 79.45257
 		AscendingNode 276.89209
@@ -12620,7 +12619,7 @@
 	}
 	UniformRotation
 	{
-		Period 51.852374
+		Period 51.852294
 		Inclination 79.45257
 		AscendingNode -83.10791
 	}
@@ -12638,7 +12637,7 @@
 	Radius 97526
 	EllipticalOrbit
 	{
-		Epoch 2458237.2874
+		Epoch 2459305.29725
 		Period 0.00369198
 		SemiMajorAxis 0.02547
 		Inclination 88.32027
@@ -12648,7 +12647,7 @@
 	}
 	UniformRotation
 	{
-		Period 32.363911
+		Period 32.36392
 		Inclination 88.32027
 		AscendingNode -93.70315
 	}
@@ -12666,8 +12665,8 @@
 	Radius 88088
 	EllipticalOrbit
 	{
-		Epoch 2456870.36872
-		Period 0.01176904
+		Epoch 2458869.24022
+		Period 0.01176905
 		SemiMajorAxis 0.05163
 		Inclination 109.87248
 		AscendingNode 206.70013
@@ -12676,7 +12675,7 @@
 	}
 	UniformRotation
 	{
-		Period 103.167437
+		Period 103.167514
 		Inclination 109.87248
 		AscendingNode -153.29987
 	}
@@ -12694,8 +12693,8 @@
 	Radius 122344
 	EllipticalOrbit
 	{
-		Epoch 2456867.4232
-		Period 0.00904145
+		Epoch 2459037.09606
+		Period 0.00904146
 		SemiMajorAxis 0.04735
 		Inclination 106.24502
 		AscendingNode 139.48191
@@ -12704,7 +12703,7 @@
 	}
 	UniformRotation
 	{
-		Period 79.257314
+		Period 79.257434
 		Inclination 106.24502
 		AscendingNode 139.48191
 	}
@@ -12722,8 +12721,8 @@
 	Radius 104866
 	EllipticalOrbit
 	{
-		Epoch 2457029.3374
-		Period 0.01269552
+		Epoch 2459018.63212
+		Period 0.01269555
 		SemiMajorAxis 0.0611
 		Inclination 110.01956
 		AscendingNode 191.39568
@@ -12732,7 +12731,7 @@
 	}
 	UniformRotation
 	{
-		Period 111.288912
+		Period 111.289162
 		Inclination 110.01956
 		AscendingNode -168.60432
 	}
@@ -12778,7 +12777,7 @@
 	Radius 87459
 	EllipticalOrbit
 	{
-		Epoch 2457851.8034
+		Epoch 2458528.86767
 		Period 0.01261021
 		SemiMajorAxis 0.05475
 		Inclination 82.62626
@@ -12788,7 +12787,7 @@
 	}
 	UniformRotation
 	{
-		Period 110.541098
+		Period 110.541101
 		Inclination 82.62626
 		AscendingNode -78.39404
 	}
@@ -12833,7 +12832,7 @@
 	Radius 82145
 	EllipticalOrbit
 	{
-		Epoch 2457912.20039
+		Epoch 2458810.54139
 		Period 0.0086909
 		SemiMajorAxis 0.04354
 		Inclination 63.85966
@@ -12843,7 +12842,7 @@
 	}
 	UniformRotation
 	{
-		Period 76.184438
+		Period 76.184414
 		Inclination 63.85966
 		AscendingNode 4.4716
 	}
@@ -12861,8 +12860,8 @@
 	Radius 114654
 	EllipticalOrbit
 	{
-		Epoch 2456960.1476
-		Period 0.00924835
+		Epoch 2458997.04333
+		Period 0.00924828
 		SemiMajorAxis 0.0478
 		Inclination 111.07515
 		AscendingNode 187.36683
@@ -12871,7 +12870,7 @@
 	}
 	UniformRotation
 	{
-		Period 81.07104
+		Period 81.070457
 		Inclination 111.07515
 		AscendingNode -172.63317
 	}
@@ -12917,7 +12916,7 @@
 	Radius 85991
 	EllipticalOrbit
 	{
-		Epoch 2458090.7093
+		Epoch 2459227.81456
 		Period 0.00698032
 		SemiMajorAxis 0.03727
 		Inclination 79.11305
@@ -12927,7 +12926,7 @@
 	}
 	UniformRotation
 	{
-		Period 61.189505
+		Period 61.189475
 		Inclination 79.11305
 		AscendingNode -69.24049
 	}
@@ -12945,8 +12944,8 @@
 	Radius 89626
 	EllipticalOrbit
 	{
-		Epoch 2457346.74007
-		Period 0.00576636
+		Epoch 2459082.21641
+		Period 0.00576635
 		SemiMajorAxis 0.03165
 		Inclination 60.06033
 		AscendingNode 356.9669
@@ -12955,7 +12954,7 @@
 	}
 	UniformRotation
 	{
-		Period 50.547886
+		Period 50.547832
 		Inclination 60.06033
 		AscendingNode -3.0331
 	}
@@ -12973,7 +12972,7 @@
 	Radius 102350
 	EllipticalOrbit
 	{
-		Epoch 2457899.5875
+		Epoch 2459254.41147
 		Period 0.00498563
 		SemiMajorAxis 0.03199
 		Inclination 77.40977
@@ -12983,7 +12982,7 @@
 	}
 	UniformRotation
 	{
-		Period 43.704034
+		Period 43.704006
 		Inclination 77.40977
 		AscendingNode -67.83234
 	}
@@ -13029,18 +13028,18 @@
 	Radius 42366
 	EllipticalOrbit
 	{
-		Epoch 2458006.80145
-		Period 0.0118591
+		Epoch 2458929.42463
+		Period 0.01185917
 		SemiMajorAxis 0.04913
-		Inclination 111.78555
+		Inclination 111.78556
 		AscendingNode 200.63963
 		ArgOfPericenter 75.07517
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Period 103.956878
-		Inclination 111.78555
+		Period 103.957466
+		Inclination 111.78556
 		AscendingNode -159.36037
 	}
 	InfoURL "http://arxiv.org/abs/2007.07135v1"
@@ -13057,8 +13056,8 @@
 	Radius 42925
 	EllipticalOrbit
 	{
-		Epoch 2457725.16042
-		Period 0.01197815
+		Epoch 2458762.0465
+		Period 0.01197822
 		SemiMajorAxis 0.05036
 		Eccentricity 0.112
 		Inclination 125.40495
@@ -13068,7 +13067,7 @@
 	}
 	UniformRotation
 	{
-		Period 97.641747
+		Period 97.642249
 		Inclination 125.40495
 		AscendingNode 19.57257
 	}
@@ -13086,7 +13085,7 @@
 	Radius 109760
 	EllipticalOrbit
 	{
-		Epoch 2457315.28338
+		Epoch 2458276.58768
 		Period 0.01253288
 		SemiMajorAxis 0.06007
 		Inclination 94.45365
@@ -13096,7 +13095,7 @@
 	}
 	UniformRotation
 	{
-		Period 109.863235
+		Period 109.863259
 		Inclination 94.45365
 		AscendingNode 107.371
 	}
@@ -13114,8 +13113,8 @@
 	Radius 71309
 	EllipticalOrbit
 	{
-		Epoch 2457086.8394
-		Period 0.00689043
+		Epoch 2458614.49177
+		Period 0.00689042
 		SemiMajorAxis 0.0362
 		Eccentricity 0.013
 		Inclination 90.57244
@@ -13125,7 +13124,7 @@
 	}
 	UniformRotation
 	{
-		Period 60.340282
+		Period 60.340248
 		Inclination 90.57244
 		AscendingNode 92.74594
 	}
@@ -13143,8 +13142,8 @@
 	Radius 110459
 	EllipticalOrbit
 	{
-		Epoch 2456962.676
-		Period 0.00893709
+		Epoch 2458144.34663
+		Period 0.00893711
 		SemiMajorAxis 0.04997
 		Inclination 90.45231
 		AscendingNode 96.89388
@@ -13153,7 +13152,7 @@
 	}
 	UniformRotation
 	{
-		Period 78.342566
+		Period 78.342732
 		Inclination 90.45231
 		AscendingNode 96.89388
 	}
@@ -13171,8 +13170,8 @@
 	Radius 92982
 	EllipticalOrbit
 	{
-		Epoch 2456795.724
-		Period 0.01148159
+		Epoch 2459152.56261
+		Period 0.01148162
 		SemiMajorAxis 0.0583
 		Eccentricity 0.38
 		Inclination 87.78184
@@ -13182,7 +13181,7 @@
 	}
 	UniformRotation
 	{
-		Period 52.145145
+		Period 52.145285
 		Inclination 87.78184
 		AscendingNode 96.10783
 	}
@@ -13200,8 +13199,8 @@
 	Radius 97875
 	EllipticalOrbit
 	{
-		Epoch 2456768.60734
-		Period 0.00627543
+		Epoch 2459003.40854
+		Period 0.00627544
 		SemiMajorAxis 0.03689
 		Inclination 92.92774
 		AscendingNode 104.09882
@@ -13210,7 +13209,7 @@
 	}
 	UniformRotation
 	{
-		Period 55.010448
+		Period 55.010479
 		Inclination 92.92774
 		AscendingNode 104.09882
 	}
@@ -13228,8 +13227,8 @@
 	Radius 82495
 	EllipticalOrbit
 	{
-		Epoch 2458039.86444
-		Period 0.01201602
+		Epoch 2458667.46963
+		Period 0.01201601
 		SemiMajorAxis 0.04944
 		Eccentricity 0.173
 		Inclination 85.67646
@@ -13239,7 +13238,7 @@
 	}
 	UniformRotation
 	{
-		Period 89.229628
+		Period 89.229596
 		Inclination 85.67646
 		AscendingNode 80.88995
 	}
@@ -13285,8 +13284,8 @@
 	Radius 89906
 	EllipticalOrbit
 	{
-		Epoch 2456731.19533
-		Period 0.01146509
+		Epoch 2458674.25151
+		Period 0.01146508
 		SemiMajorAxis 0.05511
 		Inclination 91.45137
 		AscendingNode 97.73389
@@ -13295,7 +13294,7 @@
 	}
 	UniformRotation
 	{
-		Period 100.502986
+		Period 100.502849
 		Inclination 91.45137
 		AscendingNode 97.73389
 	}
@@ -13313,7 +13312,7 @@
 	Radius 66485
 	EllipticalOrbit
 	{
-		Epoch 2457149.05166
+		Epoch 2458780.42735
 		Period 0.01298391
 		SemiMajorAxis 0.05272
 		Inclination 62.86387
@@ -13323,7 +13322,7 @@
 	}
 	UniformRotation
 	{
-		Period 113.816998
+		Period 113.816918
 		Inclination 62.86387
 		AscendingNode 4.69756
 	}
@@ -13340,7 +13339,7 @@
 	Radius 58137
 	EllipticalOrbit
 	{
-		Epoch 2457365.35804
+		Epoch 2458526.50814
 		Period 0.01074005
 		SemiMajorAxis 0.04269
 		Inclination 81.80851
@@ -13367,8 +13366,8 @@
 	Radius 52816
 	EllipticalOrbit
 	{
-		Epoch 2457100.55022
-		Period 0.00857403
+		Epoch 2458932.57529
+		Period 0.00857404
 		SemiMajorAxis 0.03769
 		Inclination 82.42952
 		AscendingNode 286.88882
@@ -13420,7 +13419,7 @@
 	Radius 63759
 	EllipticalOrbit
 	{
-		Epoch 2459198.51299
+		Epoch 2457135.96499
 		Period 0.01304146
 		SemiMajorAxis 0.0542
 		Eccentricity 0.019
@@ -13449,8 +13448,8 @@
 	Radius 78999
 	EllipticalOrbit
 	{
-		Epoch 2456870.34792
-		Period 0.01048515
+		Epoch 2457973.29953
+		Period 0.01048512
 		SemiMajorAxis 0.05046
 		Inclination 78.06938
 		AscendingNode 294.87449
@@ -13459,7 +13458,7 @@
 	}
 	UniformRotation
 	{
-		Period 91.912836
+		Period 91.912562
 		Inclination 78.06938
 		AscendingNode -65.12551
 	}
@@ -13477,8 +13476,8 @@
 	Radius 98575
 	EllipticalOrbit
 	{
-		Epoch 2457042.00405
-		Period 0.00916871
+		Epoch 2458974.302
+		Period 0.0091687
 		SemiMajorAxis 0.04639
 		Inclination 92.87813
 		AscendingNode 100.10063
@@ -13487,7 +13486,7 @@
 	}
 	UniformRotation
 	{
-		Period 80.372885
+		Period 80.372849
 		Inclination 92.87813
 		AscendingNode 100.10063
 	}
@@ -13505,7 +13504,7 @@
 	Radius 96617
 	EllipticalOrbit
 	{
-		Epoch 2456929.03039
+		Epoch 2459193.58023
 		Period 0.0037417
 		SemiMajorAxis 0.02498
 		Inclination 103.55373
@@ -13515,7 +13514,7 @@
 	}
 	UniformRotation
 	{
-		Period 32.799705
+		Period 32.799742
 		Inclination 103.55373
 		AscendingNode 133.61905
 	}
@@ -13533,7 +13532,7 @@
 	Radius 93681
 	EllipticalOrbit
 	{
-		Epoch 2457236.75653
+		Epoch 2459182.91449
 		Period 0.01055107
 		SemiMajorAxis 0.04753
 		Inclination 112.68598
@@ -13588,7 +13587,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2457413.13042
-		Period 0.01151047
+		Period 0.01151045
 		SemiMajorAxis 0.05412
 		Inclination 96.42616
 		AscendingNode 110.33198
@@ -13614,8 +13613,8 @@
 	Radius 118010
 	EllipticalOrbit
 	{
-		Epoch 2457788.0029
-		Period 0.01184065
+		Epoch 2459504.93468
+		Period 0.01184055
 		SemiMajorAxis 0.06043
 		Inclination 108.55835
 		AscendingNode 175.24299
@@ -13641,8 +13640,8 @@
 	Radius 79629
 	EllipticalOrbit
 	{
-		Epoch 2457778.49589
-		Period 0.00643565
+		Epoch 2459019.62252
+		Period 0.00643564
 		SemiMajorAxis 0.03493
 		Inclination 77.50744
 		AscendingNode 61.32324
@@ -13668,8 +13667,8 @@
 	Radius 76553
 	EllipticalOrbit
 	{
-		Epoch 2457463.2999
-		Period 0.0115485
+		Epoch 2459635.60928
+		Period 0.01154846
 		SemiMajorAxis 0.05798
 		Inclination 110.12558
 		AscendingNode 184.20107
@@ -13777,8 +13776,8 @@
 	Radius 83474
 	EllipticalOrbit
 	{
-		Epoch 2458015.72358
-		Period 0.00974901
+		Epoch 2458845.39299
+		Period 0.00974897
 		SemiMajorAxis 0.0471
 		Inclination 67.44438
 		AscendingNode 335.80594
@@ -13787,7 +13786,7 @@
 	}
 	UniformRotation
 	{
-		Period 85.459848
+		Period 85.459445
 		Inclination 67.44438
 		AscendingNode -24.19406
 	}
@@ -13833,8 +13832,8 @@
 	Radius 72148
 	EllipticalOrbit
 	{
-		Epoch 2455808.05158
-		Period 0.00897162
+		Epoch 2457554.6299
+		Period 0.00897161
 		SemiMajorAxis 0.04186
 		Inclination 74.22316
 		AscendingNode 308.09334
@@ -13843,7 +13842,7 @@
 	}
 	UniformRotation
 	{
-		Period 78.645211
+		Period 78.645142
 		Inclination 74.22316
 		AscendingNode -51.90666
 	}
@@ -13889,8 +13888,8 @@
 	Radius 117031
 	EllipticalOrbit
 	{
-		Epoch 2457769.82287
-		Period 0.01343982
+		Epoch 2458722.15032
+		Period 0.01343984
 		SemiMajorAxis 0.0656
 		Inclination 106.88714
 		AscendingNode 139.8155
@@ -13899,7 +13898,7 @@
 	}
 	UniformRotation
 	{
-		Period 117.813504
+		Period 117.813626
 		Inclination 106.88714
 		AscendingNode 139.8155
 	}
@@ -13917,7 +13916,7 @@
 	Radius 103398
 	EllipticalOrbit
 	{
-		Epoch 2457520.9613
+		Epoch 2458806.49825
 		Period 0.00850147
 		SemiMajorAxis 0.04511
 		Inclination 80.6798
@@ -13927,7 +13926,7 @@
 	}
 	UniformRotation
 	{
-		Period 74.523845
+		Period 74.523844
 		Inclination 80.6798
 		AscendingNode -73.85485
 	}
@@ -13974,8 +13973,8 @@
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2457796.88127
-		Period 0.00440569
+		Epoch 2457796.8820711
+		Period 0.0044057
 		SemiMajorAxis 0.03036
 		Inclination 105.34791
 		AscendingNode 172.34756
@@ -13984,7 +13983,7 @@
 	}
 	UniformRotation
 	{
-		Period 38.620294
+		Period 38.620405
 		Inclination 105.34791
 		AscendingNode 172.34756
 	}
@@ -14002,7 +14001,7 @@
 	Radius 89766
 	EllipticalOrbit
 	{
-		Epoch 2457410.4086
+		Epoch 2459393.58893
 		Period 0.00981854
 		SemiMajorAxis 0.05053
 		Inclination 60.99232
@@ -14012,7 +14011,7 @@
 	}
 	UniformRotation
 	{
-		Period 86.069362
+		Period 86.069285
 		Inclination 60.99232
 		AscendingNode 12.90298
 	}
@@ -14058,8 +14057,8 @@
 	Radius 39360
 	EllipticalOrbit
 	{
-		Epoch 2456528.29697
-		Period 0.00872092
+		Epoch 2458254.73673
+		Period 0.00872091
 		SemiMajorAxis 0.04012
 		Inclination 110.01898
 		AscendingNode 208.7063
@@ -14068,7 +14067,7 @@
 	}
 	UniformRotation
 	{
-		Period 76.44756
+		Period 76.447488
 		Inclination 110.01898
 		AscendingNode -151.2937
 	}
@@ -14086,8 +14085,8 @@
 	Radius 96757
 	EllipticalOrbit
 	{
-		Epoch 2456911.87486
-		Period 0.00516971
+		Epoch 2458924.7392
+		Period 0.00516972
 		SemiMajorAxis 0.03632
 		Inclination 89.50048
 		AscendingNode 112.78352
@@ -14138,7 +14137,7 @@
 	Radius 42508
 	EllipticalOrbit
 	{
-		Epoch 2458087.64782
+		Epoch 2458153.599365
 		Period 0.02006283
 		SemiMajorAxis 0.06652
 		Inclination 68.1344
@@ -15264,8 +15263,8 @@
 	Radius 27899
 	EllipticalOrbit
 	{
-		Epoch 2457569.01767
-		Period 0.05764961
+		Epoch 2458432.34121
+		Period 0.05764989
 		SemiMajorAxis 0.1565
 		Eccentricity 0.22
 		Inclination 116.09535
@@ -15275,7 +15274,7 @@
 	}
 	UniformRotation
 	{
-		Period 390.668499
+		Period 390.670373
 		Inclination 116.09535
 		AscendingNode 181.73975
 	}
@@ -15516,7 +15515,7 @@
 	Radius 13519
 	EllipticalOrbit
 	{
-		Epoch 2458572.39445
+		Epoch 2458994.2442
 		Period 0.01698473
 		SemiMajorAxis 0.0626
 		Eccentricity 0.091
@@ -16096,7 +16095,7 @@
 	Radius 29307
 	EllipticalOrbit
 	{
-		Epoch 2458629.909
+		Epoch 2459210.3235
 		Period 0.02787874
 		SemiMajorAxis 0.113
 		Eccentricity 0.2
@@ -16123,8 +16122,8 @@
 	Radius 13061
 	EllipticalOrbit
 	{
-		Epoch 2458570.101
-		Period 0.00695688
+		Epoch 2459146.7895
+		Period 0.00695543
 		SemiMajorAxis 0.035
 		Eccentricity 0.093
 		Inclination 111.56679
@@ -16134,7 +16133,7 @@
 	}
 	UniformRotation
 	{
-		Period 57.973117
+		Period 57.961011
 		Inclination 111.56679
 		AscendingNode -170.9807
 	}
@@ -18366,7 +18365,7 @@
 	Radius 13188
 	EllipticalOrbit
 	{
-		Epoch 2459136.5766
+		Epoch 2458969.39758
 		Period 0.03051414
 		SemiMajorAxis 0.163
 		Inclination 69.71149
@@ -20033,8 +20032,8 @@
 	Radius 50196
 	EllipticalOrbit
 	{
-		Epoch 2454597.70713
-		Period 0.00787376
+		Epoch 2458043.021499
+		Period 0.00787375
 		SemiMajorAxis 0.04288
 		Eccentricity 0.051
 		Inclination 95.99333
@@ -20044,7 +20043,7 @@
 	}
 	UniformRotation
 	{
-		Period 67.960607
+		Period 67.960536
 		Inclination 95.99333
 		AscendingNode 236.88437
 	}
@@ -20309,7 +20308,7 @@
 	Radius 19432
 	EllipticalOrbit
 	{
-		Epoch 2458994.2853
+		Epoch 2459040.7688
 		Period 0.03181577
 		SemiMajorAxis 0.1049
 		Eccentricity 0.046
@@ -22375,8 +22374,8 @@
 	Oblateness 0.04
 	EllipticalOrbit
 	{
-		Epoch 2454884.02817
-		Period 0.05808733
+		Epoch 2456581.344218
+		Period 0.05808744
 		SemiMajorAxis 0.1607
 		Eccentricity 0.691
 		Inclination 70.56896
@@ -22733,8 +22732,8 @@
 	Radius 19113
 	EllipticalOrbit
 	{
-		Epoch 2459037.8704
-		Period 0.0211172
+		Epoch 2459816.89223
+		Period 0.02111724
 		SemiMajorAxis 0.0787
 		Eccentricity 0.32
 		Inclination 65.67368
@@ -22744,7 +22743,7 @@
 	}
 	UniformRotation
 	{
-		Period 112.952123
+		Period 112.952328
 		Inclination 65.67368
 		AscendingNode 297.11874
 	}
@@ -23312,8 +23311,8 @@
 	Radius 29721
 	EllipticalOrbit
 	{
-		Epoch 2458661.06263
-		Period 0.04783379
+		Epoch 2459167.73077
+		Period 0.04783386
 		SemiMajorAxis 0.1322
 		Eccentricity 0.061
 		Inclination 80.46679
@@ -23323,7 +23322,7 @@
 	}
 	UniformRotation
 	{
-		Period 410.151361
+		Period 410.152018
 		Inclination 80.46679
 		AscendingNode -69.21827
 	}
@@ -23697,18 +23696,18 @@
 	Radius 12673
 	EllipticalOrbit
 	{
-		Epoch 2459037.3678
-		Period 0.04199205
-		SemiMajorAxis 0.10977
-		Inclination 78.70013
-		AscendingNode 296.41089
-		ArgOfPericenter 79.53765
+		Epoch 2459589.67451
+		Period 0.04200401
+		SemiMajorAxis 0.10979
+		Inclination 78.70015
+		AscendingNode 296.41102
+		ArgOfPericenter 79.53763
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 78.70013
-		AscendingNode -63.58911
+		Inclination 78.70015
+		AscendingNode -63.58898
 	}
 	InfoURL "http://arxiv.org/abs/2301.09865"
 }
@@ -23786,7 +23785,7 @@
 	}
 	UniformRotation
 	{
-		Period 53.240435
+		Period 53.240429
 		Inclination 72.82592
 		AscendingNode 286.09686
 	}
@@ -23994,7 +23993,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459443.54236
-		Period 0.02431301
+		Period 0.02431299
 		SemiMajorAxis 0.078
 		Eccentricity 0.031
 		Inclination 79.7868
@@ -24004,7 +24003,7 @@
 	}
 	UniformRotation
 	{
-		Period 211.905888
+		Period 211.905752
 		Inclination 79.7868
 		AscendingNode -60.25445
 	}
@@ -24358,8 +24357,8 @@
 	Radius 43764
 	EllipticalOrbit
 	{
-		Epoch 2458385.76
-		Period 0.05034434
+		Epoch 2458771.90259
+		Period 0.05034277
 		SemiMajorAxis 0.1523
 		Eccentricity 0.242
 		Inclination 73.25916
@@ -24369,7 +24368,7 @@
 	}
 	UniformRotation
 	{
-		Period 325.293177
+		Period 325.283005
 		Inclination 73.25916
 		AscendingNode 49.48752
 	}
@@ -24522,8 +24521,8 @@
 	Radius 104167
 	EllipticalOrbit
 	{
-		Epoch 2458739.17737
-		Period 0.00725595
+		Epoch 2459558.098917
+		Period 0.00725594
 		SemiMajorAxis 0.046
 		Eccentricity 0.00157
 		Inclination 122.22421
@@ -24533,7 +24532,7 @@
 	}
 	UniformRotation
 	{
-		Period 63.604747
+		Period 63.604616
 		Inclination 122.22421
 		AscendingNode 110.03337
 	}
@@ -24657,24 +24656,24 @@
 	NightTexture "exo-class5night.*"
 	Color [ 0.49 0.89 1 ]
 	GeomAlbedo 0.5
-	Mass 320.359
-	Radius 109201
+	Mass 323.537
+	Radius 113745
 	EllipticalOrbit
 	{
-		Epoch 2458338.61047
-		Period 0.00905944
-		SemiMajorAxis 0.0519
-		Eccentricity 0.047
-		Inclination 71.35488
-		AscendingNode 311.40105
-		ArgOfPericenter 168.87256
-		MeanAnomaly 1.81846
+		Epoch 2459182.37416
+		Period 0.00905921
+		SemiMajorAxis 0.05208
+		Eccentricity 0.03
+		Inclination 71.43616
+		AscendingNode 311.9299
+		ArgOfPericenter 179.70384
+		MeanAnomaly 351.52606
 	}
 	UniformRotation
 	{
-		Period 78.376082
-		Inclination 71.35488
-		AscendingNode -48.59895
+		Period 78.986508
+		Inclination 71.43616
+		AscendingNode -48.0701
 	}
 	InfoURL "http://arxiv.org/abs/1810.02341v1"
 }
@@ -25018,26 +25017,27 @@
 	NightTexture "exo-class4night.*"
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
-	Mass 4036.269
+	Mass 3527.763
 	Radius 102070
 	Oblateness 0.1
 	EllipticalOrbit
 	{
-		Epoch 2460440.819545
-		Period 5.74
-		SemiMajorAxis 3.53
-		Eccentricity 0.41
-		Inclination 61.8474
-		AscendingNode 64.31653
-		ArgOfPericenter 24.98195
+		Epoch 2459504.56
+		Period 6.28
+		SemiMajorAxis 3.74
+		Eccentricity 0.283
+		Inclination 51.99961
+		AscendingNode 50.20636
+		ArgOfPericenter 33.68484
+		MeanAnomaly 176.7663
 	}
 	UniformRotation
 	{
-		Period 3.905385
-		Inclination 61.8474
-		AscendingNode 64.31653
+		Period 4.177383
+		Inclination 51.99961
+		AscendingNode 50.20636
 	}
-	InfoURL "http://arxiv.org/abs/2208.04867"
+	InfoURL "m"
 }
 
 "HD 207229 Ab:b" "HD 207229 A"
@@ -25078,8 +25078,8 @@
 	Radius 14335
 	EllipticalOrbit
 	{
-		Epoch 2458658.78978
-		Period 0.01763452
+		Epoch 2458974.39967
+		Period 0.01763451
 		SemiMajorAxis 0.0629
 		Eccentricity 0.231
 		Inclination 69.04976
@@ -25089,7 +25089,7 @@
 	}
 	UniformRotation
 	{
-		Period 116.730338
+		Period 116.730273
 		Inclination 69.04976
 		AscendingNode -34.06489
 	}
@@ -25409,7 +25409,7 @@
 	Radius 96477
 	EllipticalOrbit
 	{
-		Epoch 2455015.49844
+		Epoch 2459407.335822
 		Period 0.00965024
 		SemiMajorAxis 0.04747
 		Eccentricity 0.014
@@ -25420,7 +25420,7 @@
 	}
 	UniformRotation
 	{
-		Period 84.494631
+		Period 84.494613
 		Inclination 75.72175
 		AscendingNode 328.26343
 	}
@@ -26673,7 +26673,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459083.5107
-		Period 0.01652147
+		Period 0.01652148
 		SemiMajorAxis 0.06356
 		Eccentricity 0.05
 		Inclination 64.11455
@@ -26683,7 +26683,7 @@
 	}
 	UniformRotation
 	{
-		Period 142.686551
+		Period 142.686575
 		Inclination 64.11455
 		AscendingNode -13.8193
 	}
@@ -27638,8 +27638,8 @@
 	Radius 11914
 	EllipticalOrbit
 	{
-		Epoch 2458370.1037
-		Period 0.08158108
+		Epoch 2458995.8497
+		Period 0.08158122
 		SemiMajorAxis 0.1646
 		Eccentricity 0.063
 		Inclination 103.57629
@@ -27649,7 +27649,7 @@
 	}
 	UniformRotation
 	{
-		Period 698.500602
+		Period 698.501751
 		Inclination 103.57629
 		AscendingNode 284.33274
 	}
@@ -27664,7 +27664,7 @@
 	Radius 12627
 	EllipticalOrbit
 	{
-		Epoch 2459798.46351
+		Epoch 2459359.84944
 		Period 0.02035355
 		SemiMajorAxis 0.0706
 		Inclination 79.54928
@@ -28159,8 +28159,8 @@
 	Radius 7900
 	EllipticalOrbit
 	{
-		Epoch 2459497.9102
-		Period 0.00758256
+		Epoch 2459841.32752
+		Period 0.00758245
 		SemiMajorAxis 0.02933
 		Eccentricity 0.039
 		Inclination 93.41185
@@ -28170,7 +28170,7 @@
 	}
 	UniformRotation
 	{
-		Period 65.867551
+		Period 65.86663
 		Inclination 93.41185
 		AscendingNode 95.80396
 	}
@@ -28186,8 +28186,8 @@
 	Radius 9767
 	EllipticalOrbit
 	{
-		Epoch 2459490.3646
-		Period 0.01562185
+		Epoch 2459741.43174
+		Period 0.0156224
 		SemiMajorAxis 0.04749
 		Eccentricity 0.038
 		Inclination 93.47032
@@ -28197,7 +28197,7 @@
 	}
 	UniformRotation
 	{
-		Period 135.764739
+		Period 135.769555
 		Inclination 93.47032
 		AscendingNode 96.38557
 	}
@@ -28243,8 +28243,8 @@
 	Radius 100672
 	EllipticalOrbit
 	{
-		Epoch 2458325.78297
-		Period 0.01129889
+		Epoch 2459171.799188
+		Period 0.01129885
 		SemiMajorAxis 0.0568
 		Inclination 64.80857
 		AscendingNode 7.57837
@@ -28270,8 +28270,8 @@
 	Radius 104097
 	EllipticalOrbit
 	{
-		Epoch 2459310.502979
-		Period 0.01158422
+		Epoch 2459373.969172
+		Period 0.01158417
 		SemiMajorAxis 0.058
 		Inclination 83.19434
 		AscendingNode 80.83936
@@ -28454,26 +28454,26 @@
 "HD 28109 b:TOI-282.04:b" "HIP 20295"
 {
 	Class "planet"
-	Texture "asteroid.*"
-	GeomAlbedo 0.11
-	Mass 18.496
-	Radius 27652
+	Texture "venuslike.*"
+	Mass 6.7
+	Radius 14010
 	EllipticalOrbit
 	{
 		Epoch 2458344.81772
-		Period 0.06267225
+		Period 0.06267149
 		SemiMajorAxis 0.1357
-		Inclination 78.13536
-		AscendingNode 67.04551
-		ArgOfPericenter 0.41136
-		MeanAnomaly 90
+		Eccentricity 0.0071
+		Inclination 78.15138
+		AscendingNode 67.04563
+		ArgOfPericenter 267.41133
+		MeanAnomaly 183.04281
 	}
 	UniformRotation
 	{
-		Inclination 78.13536
-		AscendingNode 67.04551
+		Period 549.212125
+		Inclination 78.15138
+		AscendingNode 67.04563
 	}
-	LunarLambert 1.0
 	InfoURL "http://arxiv.org/abs/2205.09046"
 }
 
@@ -28481,24 +28481,24 @@
 {
 	Class "planet"
 	Texture "venuslike.*"
-	Mass 7.943
+	Mass 10
 	Radius 26949
 	EllipticalOrbit
 	{
 		Epoch 2458377.80109
-		Period 0.15334207
+		Period 0.15332003
 		SemiMajorAxis 0.308
-		Eccentricity 0.06
-		Inclination 79.97213
-		AscendingNode 67.0589
-		ArgOfPericenter 310.40881
-		MeanAnomaly 135.42446
+		Eccentricity 0.0039
+		Inclination 79.95159
+		AscendingNode 67.05875
+		ArgOfPericenter 39.40884
+		MeanAnomaly 50.65333
 	}
 	UniformRotation
 	{
-		Period 1315.768251
-		Inclination 79.97213
-		AscendingNode 67.0589
+		Period 1343.880717
+		Inclination 79.95159
+		AscendingNode 67.05875
 	}
 	InfoURL "http://arxiv.org/abs/2205.09046"
 }
@@ -28507,22 +28507,24 @@
 {
 	Class "planet"
 	Texture "venuslike.*"
-	Mass 5.681
+	Mass 5.8
 	Radius 20706
 	EllipticalOrbit
 	{
 		Epoch 2458355.67324
-		Period 0.23069128
+		Period 0.23068419
 		SemiMajorAxis 0.411
-		Inclination 80.09152
-		AscendingNode 67.05976
-		ArgOfPericenter 0.40866
-		MeanAnomaly 90
+		Eccentricity 0.0054
+		Inclination 80.09314
+		AscendingNode 67.05977
+		ArgOfPericenter 288.40866
+		MeanAnomaly 161.80804
 	}
 	UniformRotation
 	{
-		Inclination 80.09152
-		AscendingNode 67.05976
+		Period 2021.823861
+		Inclination 80.09314
+		AscendingNode 67.05977
 	}
 	InfoURL "http://arxiv.org/abs/2205.09046"
 }
@@ -28788,7 +28790,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2457858.856818
-		Period 0.03057756
+		Period 0.03057751
 		SemiMajorAxis 0.0998
 		Eccentricity 0.277
 		Inclination 83.60529
@@ -28798,7 +28800,7 @@
 	}
 	UniformRotation
 	{
-		Period 182.165486
+		Period 182.165207
 		Inclination 83.60529
 		AscendingNode 74.89381
 	}
@@ -28844,8 +28846,8 @@
 	Radius 74106
 	EllipticalOrbit
 	{
-		Epoch 2458629.47972
-		Period 0.00933489
+		Epoch 2458919.29231
+		Period 0.00933486
 		SemiMajorAxis 0.0486
 		Eccentricity 0.072
 		Inclination 93.04551
@@ -28855,7 +28857,7 @@
 	}
 	UniformRotation
 	{
-		Period 79.360165
+		Period 79.359971
 		Inclination 93.04551
 		AscendingNode 96.9151
 	}
@@ -29040,7 +29042,7 @@
 	Radius 81796
 	EllipticalOrbit
 	{
-		Epoch 2458547.47449
+		Epoch 2459334.03639
 		Period 0.03076413
 		SemiMajorAxis 0.1038
 		Eccentricity 0.614
@@ -29914,7 +29916,7 @@
 	Radius 67115
 	EllipticalOrbit
 	{
-		Epoch 2459018.9225
+		Epoch 2459534.96705
 		Period 0.02354762
 		SemiMajorAxis 0.075
 		Eccentricity 0.031
@@ -30123,6 +30125,31 @@
 		AscendingNode 228.20626
 	}
 	InfoURL "http://arxiv.org/abs/2308.05994"
+}
+
+"HD 36481 Ab:TOI-128.01:b" "HIP 24718"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	NightTexture "venuslikenight.*"
+	GeomAlbedo 0.05
+	Radius 17648
+	EllipticalOrbit
+	{
+		Epoch 2458328.129344
+		Period 0.0135268
+		SemiMajorAxis 0.05825
+		Inclination 85.85177
+		AscendingNode 80.36997
+		ArgOfPericenter 345.94572
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 85.85177
+		AscendingNode 80.36997
+	}
+	InfoURL "http://arxiv.org/abs/2308.09617"
 }
 
 "HD 37124 b:b" "HIP 26381"
@@ -32212,7 +32239,7 @@
 	Radius 15609
 	EllipticalOrbit
 	{
-		Epoch 2458680.6994
+		Epoch 2458809.75022
 		Period 0.03925847
 		SemiMajorAxis 0.1202
 		Eccentricity 0.08
@@ -32943,7 +32970,7 @@
 	Radius 13411
 	EllipticalOrbit
 	{
-		Epoch 2458916.45286
+		Epoch 2459399.7924
 		Period 0.01946046
 		SemiMajorAxis 0.0682
 		Inclination 92.74627
@@ -32967,7 +32994,7 @@
 	Radius 23849
 	EllipticalOrbit
 	{
-		Epoch 2458844.05971
+		Epoch 2459460.37371
 		Period 0.05624582
 		SemiMajorAxis 0.1382
 		Inclination 101.67995
@@ -33049,18 +33076,18 @@
 	Radius 19049
 	EllipticalOrbit
 	{
-		Epoch 2458494.4462
-		Period 0.02465676
-		SemiMajorAxis 0.08279
-		Inclination 100.42898
-		AscendingNode 114.42663
-		ArgOfPericenter 78.14894
+		Epoch 2459264.44565
+		Period 0.0248018
+		SemiMajorAxis 0.08311
+		Inclination 100.43019
+		AscendingNode 114.43251
+		ArgOfPericenter 78.15001
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 100.42898
-		AscendingNode 114.42663
+		Inclination 100.43019
+		AscendingNode 114.43251
 	}
 	InfoURL "https://arxiv.org/abs/2110.06885"
 }
@@ -33074,17 +33101,17 @@
 	EllipticalOrbit
 	{
 		Epoch 2459231.828
-		Period 0.0585963
-		SemiMajorAxis 0.14743
-		Inclination 100.63131
-		AscendingNode 115.41508
-		ArgOfPericenter 78.32959
+		Period 0.05859156
+		SemiMajorAxis 0.14742
+		Inclination 100.6313
+		AscendingNode 115.41505
+		ArgOfPericenter 78.32958
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 100.63131
-		AscendingNode 115.41508
+		Inclination 100.6313
+		AscendingNode 115.41505
 	}
 	InfoURL "https://arxiv.org/abs/2110.06885"
 }
@@ -33931,8 +33958,8 @@
 	Radius 18030
 	EllipticalOrbit
 	{
-		Epoch 2458517.6901
-		Period 0.01751688
+		Epoch 2459035.93282
+		Period 0.01751693
 		SemiMajorAxis 0.0601
 		Eccentricity 0.105
 		Inclination 103.64766
@@ -33942,7 +33969,7 @@
 	}
 	UniformRotation
 	{
-		Period 144.015699
+		Period 144.016063
 		Inclination 103.64766
 		AscendingNode 125.51726
 	}
@@ -33957,8 +33984,8 @@
 	Radius 15099
 	EllipticalOrbit
 	{
-		Epoch 2459232.1685
-		Period 0.0516898
+		Epoch 2459779.6682
+		Period 0.05168877
 		SemiMajorAxis 0.1236
 		Eccentricity 0.068
 		Inclination 104.54872
@@ -33968,7 +33995,7 @@
 	}
 	UniformRotation
 	{
-		Period 440.876648
+		Period 440.867844
 		Inclination 104.54872
 		AscendingNode 127.00634
 	}
@@ -34788,8 +34815,8 @@
 	Radius 97875
 	EllipticalOrbit
 	{
-		Epoch 2458873.65344
-		Period 0.00878485
+		Epoch 2459470.47469
+		Period 0.00878497
 		SemiMajorAxis 0.04873
 		Inclination 110.44305
 		AscendingNode 128.20505
@@ -35061,23 +35088,80 @@
 	Class "planet"
 	Texture "venuslike.*"
 	GeomAlbedo 0.05
-	Radius 17454
+	Mass 8.5
+	Radius 17711
 	EllipticalOrbit
 	{
 		Epoch 2458872.341155
-		Period 0.0457496
-		SemiMajorAxis 0.1275
-		Inclination 109.75072
-		AscendingNode 145.91007
-		ArgOfPericenter 112.22856
-		MeanAnomaly 90
+		Period 0.04574916
+		SemiMajorAxis 0.12754
+		Eccentricity 0.05
+		Inclination 109.75041
+		AscendingNode 145.90864
+		ArgOfPericenter 34.22872
+		MeanAnomaly 166.76359
 	}
 	UniformRotation
 	{
-		Inclination 109.75072
-		AscendingNode 145.91007
+		Period 395.10942
+		Inclination 109.75041
+		AscendingNode 145.90864
 	}
 	InfoURL "http://arxiv.org/abs/2002.00691v2"
+}
+
+"HD 85426 c:c" "HIP 48443"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	GeomAlbedo 0.05
+	Mass 10.3
+	Radius 20336
+	EllipticalOrbit
+	{
+		Epoch 2459608
+		Period 0.09234771
+		SemiMajorAxis 0.20371
+		Eccentricity 0.06
+		Inclination 109.75041
+		AscendingNode 145.90864
+		ArgOfPericenter 255.22872
+		MeanAnomaly 312.34376
+	}
+	UniformRotation
+	{
+		Period 792.399524
+		Inclination 109.75041
+		AscendingNode 145.90864
+	}
+	InfoURL "http://arxiv.org/abs/2511.08473"
+}
+
+"HD 85426 d:d" "HIP 48443"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	GeomAlbedo 0.05
+	Mass 9.5
+	Radius 19390
+	EllipticalOrbit
+	{
+		Epoch 2459548
+		Period 0.24421629
+		SemiMajorAxis 0.38956
+		Eccentricity 0.15
+		Inclination 109.75041
+		AscendingNode 145.90864
+		ArgOfPericenter 320.22872
+		MeanAnomaly 257.97005
+	}
+	UniformRotation
+	{
+		Period 1885.456613
+		Inclination 109.75041
+		AscendingNode 145.90864
+	}
+	InfoURL "http://arxiv.org/abs/2511.08473"
 }
 
 "MASCARA-4 b:HD 85628 Ab:TOI-1924.01:bRing-1 b:b" "HD 85628 A"
@@ -35091,8 +35175,8 @@
 	Radius 105915
 	EllipticalOrbit
 	{
-		Epoch 2458909.66419
-		Period 0.00773195
+		Epoch 2459567.669406
+		Period 0.00773188
 		SemiMajorAxis 0.0474
 		Inclination 89.35717
 		AscendingNode 34.67774
@@ -35201,8 +35285,8 @@
 	Radius 13761
 	EllipticalOrbit
 	{
-		Epoch 2458543.2539
-		Period 0.01090875
+		Epoch 2459172.82934
+		Period 0.01090939
 		SemiMajorAxis 0.049
 		Eccentricity 0.05
 		Inclination 107.75805
@@ -35212,7 +35296,7 @@
 	}
 	UniformRotation
 	{
-		Period 94.212638
+		Period 94.218176
 		Inclination 107.75805
 		AscendingNode 143.83344
 	}
@@ -36681,7 +36765,7 @@
 	Radius 14609
 	EllipticalOrbit
 	{
-		Epoch 2458961.87639
+		Epoch 2457386.651753
 		Period 0.02598141
 		SemiMajorAxis 0.07986
 		Eccentricity 0.06
@@ -37697,7 +37781,7 @@
 	Oblateness 0.03
 	EllipticalOrbit
 	{
-		Epoch 2458326.10418
+		Epoch 2459540.54776016
 		Period 0.00268576
 		SemiMajorAxis 0.01782
 		Inclination 55.37357
@@ -38334,7 +38418,7 @@
 	InfoURL "http://aa.springer.de/bibs/0353003/2300l33/small.htm"
 }
 
-"TOI-6963.01:IRAS 04125+2902 Ab:b" "IRAS 04125+2902 A"
+"TOI-6963.01:TIDYE-1 b:IRAS 04125+2902 Ab:b" "IRAS 04125+2902 A"
 {
 	Class "planet"
 	Texture "exo-class3.*"
@@ -38344,19 +38428,19 @@
 	Oblateness 0.06
 	EllipticalOrbit
 	{
-		Epoch 2458821.8251
+		Epoch 2458641.8282
 		Period 0.02418885
 		SemiMajorAxis 0.077
-		Inclination 65.34992
-		AscendingNode 61.72317
-		ArgOfPericenter 99.3475
+		Inclination 68.77267
+		AscendingNode 60.54893
+		ArgOfPericenter 99.66448
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
 		Period 9.626058
-		Inclination 65.34992
-		AscendingNode 61.72317
+		Inclination 68.77267
+		AscendingNode 60.54893
 	}
 	InfoURL "https://www.nature.com/articles/s41586-024-08123-3"
 }
@@ -38600,7 +38684,7 @@
 	Radius 100672
 	EllipticalOrbit
 	{
-		Epoch 2457311.15178
+		Epoch 2457370.80298
 		Period 0.00907302
 		SemiMajorAxis 0.048
 		Inclination 84.21472
@@ -38756,7 +38840,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2457398.70433
-		Period 0.01592803
+		Period 0.01592772
 		SemiMajorAxis 0.0575
 		Inclination 67.93201
 		AscendingNode 17.21008
@@ -38836,7 +38920,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2456979.948
-		Period 0.01274582
+		Period 0.01274437
 		SemiMajorAxis 0.048
 		Inclination 68.6422
 		AscendingNode 333.29758
@@ -38982,7 +39066,7 @@
 	Radius 66738
 	EllipticalOrbit
 	{
-		Epoch 2457143.56042
+		Epoch 2458139.225432
 		Period 0.01419782
 		SemiMajorAxis 0.052
 		Inclination 103.73992
@@ -39282,8 +39366,8 @@
 	Radius 76133
 	EllipticalOrbit
 	{
-		Epoch 2457590.1491
-		Period 0.02512005
+		Epoch 2457810.315
+		Period 0.02511287
 		SemiMajorAxis 0.0915
 		Eccentricity 0.29
 		Inclination 111.15814
@@ -39293,7 +39377,7 @@
 	}
 	UniformRotation
 	{
-		Period 144.983163
+		Period 144.941699
 		Inclination 111.15814
 		AscendingNode 169.02526
 	}
@@ -39553,8 +39637,8 @@
 	Radius 84103
 	EllipticalOrbit
 	{
-		Epoch 2457588.2851
-		Period 0.01798576
+		Epoch 2457831.34574
+		Period 0.0179855
 		SemiMajorAxis 0.0575
 		Eccentricity 0.069
 		Inclination 112.37086
@@ -39564,7 +39648,7 @@
 	}
 	UniformRotation
 	{
-		Period 153.282864
+		Period 153.280652
 		Inclination 112.37086
 		AscendingNode 185.93001
 	}
@@ -40746,7 +40830,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2457083.77917
-		Period 0.05355986
+		Period 0.05355887
 		SemiMajorAxis 0.12422
 		Inclination 78.72865
 		AscendingNode 61.76839
@@ -40919,7 +41003,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2460426.128853
-		Period 0.09018371
+		Period 0.09018498
 		SemiMajorAxis 0.1429
 		Inclination 113.26942
 		AscendingNode 171.32945
@@ -41417,7 +41501,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2456829.22231
-		Period 0.02168186
+		Period 0.0216863
 		SemiMajorAxis 0.07487
 		Eccentricity 0.043
 		Inclination 66.64094
@@ -41427,7 +41511,7 @@
 	}
 	UniformRotation
 	{
-		Period 187.977511
+		Period 188.016012
 		Inclination 66.64094
 		AscendingNode 355.19187
 	}
@@ -41443,7 +41527,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2456829.1849
-		Period 0.03259685
+		Period 0.0325744
 		SemiMajorAxis 0.0982
 		Eccentricity 0.067
 		Inclination 67.48069
@@ -41453,7 +41537,7 @@
 	}
 	UniformRotation
 	{
-		Period 278.247051
+		Period 278.055414
 		Inclination 67.48069
 		AscendingNode 355.21184
 	}
@@ -41739,7 +41823,7 @@
 	Radius 15532
 	EllipticalOrbit
 	{
-		Epoch 2457213.5759
+		Epoch 2457966.02876
 		Period 0.02039704
 		SemiMajorAxis 0.07033
 		Inclination 112.11798
@@ -41762,7 +41846,7 @@
 	Radius 29307
 	EllipticalOrbit
 	{
-		Epoch 2457221.61179
+		Epoch 2457954.45472
 		Period 0.04666083
 		SemiMajorAxis 0.12211
 		Inclination 112.13897
@@ -42163,7 +42247,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2456988.471
-		Period 0.04243997
+		Period 0.04243524
 		SemiMajorAxis 0.1026
 		Inclination 67.89939
 		AscendingNode 337.58189
@@ -42991,8 +43075,8 @@
 	Radius 15023
 	EllipticalOrbit
 	{
-		Epoch 2458005.58237
-		Period 0.06670637
+		Epoch 2458127.40851
+		Period 0.06670891
 		SemiMajorAxis 0.15224
 		Eccentricity 0.062
 		Inclination 104.64948
@@ -43002,7 +43086,7 @@
 	}
 	UniformRotation
 	{
-		Period 571.561638
+		Period 571.583407
 		Inclination 104.64948
 		AscendingNode -127.54952
 	}
@@ -43019,7 +43103,7 @@
 	Radius 35040
 	EllipticalOrbit
 	{
-		Epoch 2458113.93994
+		Epoch 2458152.92414
 		Period 0.05336654
 		SemiMajorAxis 0.148
 		Eccentricity 0.48
@@ -43037,35 +43121,6 @@
 	InfoURL "http://arxiv.org/abs/1802.05277"
 }
 
-"K2-237 b:EPIC 229426032.01:TOI-1049.01:Gaia-TROI-166 b:b" "K2-237"
-{
-	Class "planet"
-	Texture "exo-class5.*"
-	NightTexture "exo-class5night.*"
-	Color [ 0.49 0.89 1 ]
-	GeomAlbedo 0.5
-	Mass 433.184
-	Radius 101021
-	EllipticalOrbit
-	{
-		Epoch 2457706.61618
-		Period 0.00719151
-		SemiMajorAxis 0.03602
-		Eccentricity 0.042
-		Inclination 5.5279
-		AscendingNode 268.05205
-		ArgOfPericenter 151.1586
-		MeanAnomaly 14.71255
-	}
-	UniformRotation
-	{
-		Period 62.380428
-		Inclination 5.5279
-		AscendingNode 268.05205
-	}
-	InfoURL "http://arxiv.org/abs/1801.07959v1"
-}
-
 "K2-238 b:EPIC 246067459.01:TOI-4520.01:b" "K2-238"
 {
 	Class "planet"
@@ -43077,8 +43132,8 @@
 	Radius 90884
 	EllipticalOrbit
 	{
-		Epoch 2457740.5036
-		Period 0.00877388
+		Epoch 2457984.06023
+		Period 0.00877396
 		SemiMajorAxis 0.046
 		Inclination 66.99306
 		AscendingNode 340.66575
@@ -43549,8 +43604,8 @@
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2457620.11054
-		Period 0.00954022
+		Epoch 2457714.193756
+		Period 0.00954021
 		SemiMajorAxis 0.02884
 		Eccentricity 0.69
 		Inclination 81.02533
@@ -43560,7 +43615,7 @@
 	}
 	UniformRotation
 	{
-		Period 13.556159
+		Period 13.55615
 		Inclination 81.02533
 		AscendingNode 61.31443
 	}
@@ -43877,8 +43932,8 @@
 	Radius 65749
 	EllipticalOrbit
 	{
-		Epoch 2458151.14394
-		Period 0.0318507
+		Epoch 2458558.31593
+		Period 0.03185071
 		SemiMajorAxis 0.1034
 		Eccentricity 0.239
 		Inclination 80.3515
@@ -43888,7 +43943,7 @@
 	}
 	UniformRotation
 	{
-		Period 207.17392
+		Period 207.173997
 		Inclination 80.3515
 		AscendingNode 163.26217
 	}
@@ -44060,7 +44115,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2457944.8393
-		Period 0.04023817
+		Period 0.04024143
 		SemiMajorAxis 0.1017
 		Eccentricity 0.043
 		Inclination 111.59446
@@ -44070,7 +44125,7 @@
 	}
 	UniformRotation
 	{
-		Period 348.857045
+		Period 348.885315
 		Inclination 111.59446
 		AscendingNode 155.8895
 	}
@@ -44114,7 +44169,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2457865.11032
-		Period 0.01692058
+		Period 0.01692065
 		SemiMajorAxis 0.07239
 		Inclination 86.6252
 		AscendingNode 75.68796
@@ -44782,7 +44837,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2457859.11316
-		Period 0.01312819
+		Period 0.0131276
 		SemiMajorAxis 0.0482
 		Inclination 85.6375
 		AscendingNode 78.67112
@@ -44928,8 +44983,8 @@
 	Radius 56730
 	EllipticalOrbit
 	{
-		Epoch 2458001.72138
-		Period 0.04077561
+		Epoch 2458061.29462
+		Period 0.04077532
 		SemiMajorAxis 0.1204
 		Eccentricity 0.45
 		Inclination 80.72686
@@ -44939,7 +44994,7 @@
 	}
 	UniformRotation
 	{
-		Period 150.11857
+		Period 150.117521
 		Inclination 80.72686
 		AscendingNode 234.07903
 	}
@@ -45007,8 +45062,8 @@
 	Radius 83194
 	EllipticalOrbit
 	{
-		Epoch 2458508.0943
-		Period 0.00892219
+		Epoch 2458938.26109
+		Period 0.0089222
 		SemiMajorAxis 0.04217
 		Eccentricity 0.066
 		Inclination 78.19469
@@ -45018,7 +45073,7 @@
 	}
 	UniformRotation
 	{
-		Period 76.219213
+		Period 76.219279
 		Inclination 78.19469
 		AscendingNode 61.15415
 	}
@@ -45165,7 +45220,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2457395.41405
-		Period 0.01101948
+		Period 0.01101955
 		SemiMajorAxis 0.0467
 		Inclination 67.97714
 		AscendingNode 20.43596
@@ -45416,7 +45471,7 @@
 	Radius 83614
 	EllipticalOrbit
 	{
-		Epoch 2457395.78391
+		Epoch 2457572.018282
 		Period 0.01122102
 		SemiMajorAxis 0.04986
 		Eccentricity 0.027
@@ -45427,7 +45482,7 @@
 	}
 	UniformRotation
 	{
-		Period 97.93511
+		Period 97.935068
 		Inclination 76.17982
 		AscendingNode 50.91671
 	}
@@ -45815,8 +45870,8 @@
 	Radius 74106
 	EllipticalOrbit
 	{
-		Epoch 2457191.70889
-		Period 0.00344381
+		Epoch 2456952.71787
+		Period 0.0034438
 		SemiMajorAxis 0.022
 		Inclination 99.10956
 		AscendingNode 238.61515
@@ -46598,19 +46653,19 @@
 	EllipticalOrbit
 	{
 		Epoch 2458097.395983
-		Period 0.04040873
-		SemiMajorAxis 0.12007
+		Period 0.04041034
+		SemiMajorAxis 0.12008
 		Eccentricity 0.02
-		Inclination 106.83544
-		AscendingNode 133.59282
-		ArgOfPericenter 288.46071
+		Inclination 106.83545
+		AscendingNode 133.59284
+		ArgOfPericenter 288.46072
 		MeanAnomaly 252.16459
 	}
 	UniformRotation
 	{
-		Period 353.374767
-		Inclination 106.83544
-		AscendingNode 133.59282
+		Period 353.388845
+		Inclination 106.83545
+		AscendingNode 133.59284
 	}
 	InfoURL "http://arxiv.org/abs/2108.05621"
 }
@@ -46625,18 +46680,18 @@
 	Radius 35996
 	EllipticalOrbit
 	{
-		Epoch 2458096.810228
-		Period 0.01400132
+		Epoch 2458158.1779
+		Period 0.01400097
 		SemiMajorAxis 0.06437
 		Inclination 106.7409
-		AscendingNode 131.5748
-		ArgOfPericenter 88.99954
+		AscendingNode 131.57476
+		ArgOfPericenter 88.99953
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
 		Inclination 106.7409
-		AscendingNode 131.5748
+		AscendingNode 131.57476
 	}
 	InfoURL "http://arxiv.org/abs/2108.05621"
 }
@@ -46775,8 +46830,8 @@
 	Radius 94380
 	EllipticalOrbit
 	{
-		Epoch 2457144.34683
-		Period 0.00820152
+		Epoch 2457839.334478
+		Period 0.0082016
 		SemiMajorAxis 0.04419
 		Inclination 100.39372
 		AscendingNode 116.93045
@@ -47460,7 +47515,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2456812.83943
-		Period 0.01462174
+		Period 0.014623
 		SemiMajorAxis 0.0555
 		Inclination 112.93706
 		AscendingNode 164.80975
@@ -49076,17 +49131,17 @@
 	EllipticalOrbit
 	{
 		Epoch 2457908.9613
-		Period 0.09196435
-		SemiMajorAxis 0.19874
+		Period 0.0919683
+		SemiMajorAxis 0.19875
 		Inclination 112.54484
-		AscendingNode 161.90239
-		ArgOfPericenter 92.57499
+		AscendingNode 161.90242
+		ArgOfPericenter 92.575
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
 		Inclination 112.54484
-		AscendingNode 161.90239
+		AscendingNode 161.90242
 	}
 	InfoURL "http://arXiv.org/abs/2203.02087"
 }
@@ -49124,17 +49179,17 @@
 	EllipticalOrbit
 	{
 		Epoch 2457908.9959
-		Period 0.00940581
+		Period 0.00940588
 		SemiMajorAxis 0.04049
 		Inclination 112.91835
-		AscendingNode 158.08974
-		ArgOfPericenter 93.95932
+		AscendingNode 158.08977
+		ArgOfPericenter 93.95933
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
 		Inclination 112.91835
-		AscendingNode 158.08974
+		AscendingNode 158.08977
 	}
 	InfoURL "http://arXiv.org/abs/2203.02087"
 }
@@ -49146,18 +49201,18 @@
 	Radius 29307
 	EllipticalOrbit
 	{
-		Epoch 2458010.3895
-		Period 0.06173691
+		Epoch 2458461.36655
+		Period 0.06173522
 		SemiMajorAxis 0.16828
 		Inclination 104.4329
-		AscendingNode 232.42297
+		AscendingNode 232.42295
 		ArgOfPericenter 83.00801
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
 		Inclination 104.4329
-		AscendingNode -127.57703
+		AscendingNode -127.57705
 	}
 	InfoURL "http://arXiv.org/abs/2203.02087"
 }
@@ -49939,8 +49994,8 @@
 	Radius 28224
 	EllipticalOrbit
 	{
-		Epoch 2456983.42298
-		Period 0.00780084
+		Epoch 2457037.55909
+		Period 0.00780091
 		SemiMajorAxis 0.03486
 		Inclination 68.87187
 		AscendingNode 329.42641
@@ -51079,8 +51134,8 @@
 	Radius 29307
 	EllipticalOrbit
 	{
-		Epoch 2457072.30232
-		Period 0.02663214
+		Epoch 2457334.9216
+		Period 0.02663003
 		SemiMajorAxis 0.0876
 		Inclination 80.77622
 		AscendingNode 68.00303
@@ -51420,8 +51475,8 @@
 	Radius 97805
 	EllipticalOrbit
 	{
-		Epoch 2457066.72045
-		Period 0.01140664
+		Epoch 2458966.53184
+		Period 0.01140658
 		SemiMajorAxis 0.0525
 		Inclination 88.43359
 		AscendingNode 279.97161
@@ -51447,8 +51502,8 @@
 	Radius 85921
 	EllipticalOrbit
 	{
-		Epoch 2455498.95898
-		Period 0.01296703
+		Epoch 2458430.67207
+		Period 0.01296702
 		SemiMajorAxis 0.06229
 		Inclination 156.46414
 		AscendingNode 48.4764
@@ -51474,8 +51529,8 @@
 	Radius 103084
 	EllipticalOrbit
 	{
-		Epoch 2458564.05392
-		Period 0.00911561
+		Epoch 2459283.21849
+		Period 0.00911558
 		SemiMajorAxis 0.04613
 		Inclination 98.95929
 		AscendingNode 114.96102
@@ -51502,7 +51557,7 @@
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2458136.78366
+		Epoch 2458796.667818
 		Period 0.00265296
 		SemiMajorAxis 0.02044
 		Inclination 78.19376
@@ -51529,8 +51584,8 @@
 	Radius 102699
 	EllipticalOrbit
 	{
-		Epoch 2459215.93795
-		Period 0.00843305
+		Epoch 2459483.913711
+		Period 0.00843307
 		SemiMajorAxis 0.04881
 		Inclination 139.24295
 		AscendingNode 319.33825
@@ -51583,8 +51638,8 @@
 	Radius 120037
 	EllipticalOrbit
 	{
-		Epoch 2459218.17799
-		Period 0.01262618
+		Epoch 2459001.42647
+		Period 0.01262624
 		SemiMajorAxis 0.0637
 		Inclination 80.97522
 		AscendingNode 293.70396
@@ -51610,8 +51665,8 @@
 	Radius 78300
 	EllipticalOrbit
 	{
-		Epoch 2455974.60356
-		Period 0.01126295
+		Epoch 2459734.594402
+		Period 0.0112629
 		SemiMajorAxis 0.05498
 		Eccentricity 0.185
 		Inclination 91.44359
@@ -51621,7 +51676,7 @@
 	}
 	UniformRotation
 	{
-		Period 81.82486
+		Period 81.824549
 		Inclination 91.44359
 		AscendingNode 89.529
 	}
@@ -51668,7 +51723,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459055.35238
-		Period 0.00989121
+		Period 0.00989123
 		SemiMajorAxis 0.05224
 		Inclination 82.99241
 		AscendingNode 304.87952
@@ -51694,7 +51749,7 @@
 	Radius 89836
 	EllipticalOrbit
 	{
-		Epoch 2457793.6013
+		Epoch 2459486.70451327
 		Period 0.00379645
 		SemiMajorAxis 0.02508
 		Inclination 57.53717
@@ -51748,7 +51803,7 @@
 	Radius 89137
 	EllipticalOrbit
 	{
-		Epoch 2458684.816347
+		Epoch 2459301.032162
 		Period 0.01519916
 		SemiMajorAxis 0.06971
 		Eccentricity 0.077
@@ -51803,7 +51858,7 @@
 	Radius 95079
 	EllipticalOrbit
 	{
-		Epoch 2458872.85409
+		Epoch 2458789.04901
 		Period 0.00740148
 		SemiMajorAxis 0.04126
 		Inclination 117.21653
@@ -51829,8 +51884,8 @@
 	Radius 116612
 	EllipticalOrbit
 	{
-		Epoch 2456193.29157
-		Period 0.00818506
+		Epoch 2458411.56561
+		Period 0.00818504
 		SemiMajorAxis 0.04317
 		Inclination 38.31688
 		AscendingNode 118.12191
@@ -51856,8 +51911,8 @@
 	Radius 71309
 	EllipticalOrbit
 	{
-		Epoch 2457124.50954
-		Period 0.02148003
+		Epoch 2458042.44742
+		Period 0.0214801
 		SemiMajorAxis 0.08
 		Eccentricity 0.22
 		Inclination 139.35828
@@ -51867,7 +51922,7 @@
 	}
 	UniformRotation
 	{
-		Period 145.561648
+		Period 145.562087
 		Inclination 139.35828
 		AscendingNode 227.86329
 	}
@@ -51912,7 +51967,7 @@
 	Radius 107174
 	EllipticalOrbit
 	{
-		Epoch 2458343.40408
+		Epoch 2459489.270919
 		Period 0.00748738
 		SemiMajorAxis 0.0434
 		Inclination 83.87638
@@ -51939,7 +51994,7 @@
 	Radius 110879
 	EllipticalOrbit
 	{
-		Epoch 2457986.46737
+		Epoch 2458638.52844
 		Period 0.00888181
 		SemiMajorAxis 0.04571
 		Eccentricity 0.035
@@ -51950,7 +52005,7 @@
 	}
 	UniformRotation
 	{
-		Period 77.289831
+		Period 77.289827
 		Inclination 89.39305
 		AscendingNode -81.92722
 	}
@@ -59011,7 +59066,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2455004.009119
-		Period 0.01215049
+		Period 0.01215048
 		SemiMajorAxis 0.0556
 		Eccentricity 0.01
 		Inclination 84.07967
@@ -59021,7 +59076,7 @@
 	}
 	UniformRotation
 	{
-		Period 106.447301
+		Period 106.447236
 		Inclination 84.07967
 		AscendingNode -75.18138
 	}
@@ -62287,7 +62342,7 @@
 	Radius 98295
 	EllipticalOrbit
 	{
-		Epoch 2454953.566
+		Epoch 2455787.7428571
 		Period 0.00482844
 		SemiMajorAxis 0.038
 		Inclination 73.15114
@@ -73374,23 +73429,24 @@
 "Kepler-1624 b:KOI-4928.01:TOI-4587.01:b" "Kepler-1624"
 {
 	Class "planet"
-	Texture "venuslike.*"
-	GeomAlbedo 0.05
-	Radius 14462
+	Texture "exo-class3.*"
+	Color [ 0.53 0.62 1 ]
+	GeomAlbedo 0.1
+	Radius 29307
 	EllipticalOrbit
 	{
-		Epoch 2454964.90925
+		Epoch 2456290.90198
 		Period 0.00900836
 		SemiMajorAxis 0.0238
-		Inclination 81.40735
-		AscendingNode 290.76724
-		ArgOfPericenter 149.21112
+		Inclination 84.19795
+		AscendingNode 289.09847
+		ArgOfPericenter 149.42028
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 81.40735
-		AscendingNode -69.23276
+		Inclination 84.19795
+		AscendingNode -70.90153
 	}
 	InfoURL "http://arxiv.org/abs/1605.02825v1"
 }
@@ -74515,8 +74571,9 @@
 "Kepler-1659 b:KOI-1599.02:b" "Kepler-1659"
 {
 	Class "planet"
-	Texture "venuslike.*"
-	GeomAlbedo 0.05
+	Texture "asteroid.*"
+	GeomAlbedo 0.11
+	Mass 9
 	Radius 12105
 	EllipticalOrbit
 	{
@@ -74535,6 +74592,7 @@
 		Inclination 80.33471
 		AscendingNode -64.31739
 	}
+	LunarLambert 1.0
 	InfoURL "https://arxiv.org/abs/1901.01435"
 }
 
@@ -74542,7 +74600,7 @@
 {
 	Class "planet"
 	Texture "venuslike.*"
-	GeomAlbedo 0.05
+	Mass 4.6
 	Radius 12105
 	EllipticalOrbit
 	{
@@ -76049,7 +76107,7 @@
 	}
 	UniformRotation
 	{
-		Period 35.657059
+		Period 35.657064
 		Inclination 80.15277
 		AscendingNode 295.9624
 	}
@@ -101787,7 +101845,7 @@
 	}
 	UniformRotation
 	{
-		Period 191.45385
+		Period 191.453879
 		Inclination 84.03725
 		AscendingNode -70.65905
 	}
@@ -102341,7 +102399,7 @@
 	Radius 68860
 	EllipticalOrbit
 	{
-		Epoch 2454970.26082
+		Epoch 2455710.718985
 		Period 0.02133964
 		SemiMajorAxis 0.069
 		Eccentricity 0.123
@@ -102352,7 +102410,7 @@
 	}
 	UniformRotation
 	{
-		Period 171.470912
+		Period 171.470917
 		Inclination 87.25508
 		AscendingNode -77.04853
 	}
@@ -104241,7 +104299,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2454955.90144
-		Period 0.00971515
+		Period 0.00971517
 		SemiMajorAxis 0.05064
 		Inclination 79.35808
 		AscendingNode 297.04623
@@ -111254,7 +111312,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2454967.27687
-		Period 0.01337584
+		Period 0.01337574
 		SemiMajorAxis 0.06246
 		Eccentricity 0.1
 		Inclination 85.51746
@@ -111264,7 +111322,7 @@
 	}
 	UniformRotation
 	{
-		Period 110.609526
+		Period 110.608698
 		Inclination 85.51746
 		AscendingNode -74.2611
 	}
@@ -117645,7 +117703,7 @@
 	Radius 24063
 	EllipticalOrbit
 	{
-		Epoch 2454971.009
+		Epoch 2455679.8194
 		Period 0.02853847
 		SemiMajorAxis 0.099
 		Inclination 86.05916
@@ -117672,7 +117730,7 @@
 	Radius 56541
 	EllipticalOrbit
 	{
-		Epoch 2454965.7413033
+		Epoch 2455703.05975
 		Period 0.06117175
 		SemiMajorAxis 0.165
 		Eccentricity 0.178
@@ -117700,7 +117758,7 @@
 	Radius 38927
 	EllipticalOrbit
 	{
-		Epoch 2454994.24
+		Epoch 2455809.04
 		Period 0.14871995
 		SemiMajorAxis 0.298
 		Inclination 86.69197
@@ -125107,7 +125165,7 @@
 	Radius 72008
 	EllipticalOrbit
 	{
-		Epoch 2458678.90907
+		Epoch 2459291.47999
 		Period 0.00467166
 		SemiMajorAxis 0.0269
 		Inclination 118.3601
@@ -125209,7 +125267,7 @@
 	Radius 8467
 	EllipticalOrbit
 	{
-		Epoch 2458367.27303
+		Epoch 2459245.6539
 		Period 0.01010452
 		SemiMajorAxis 0.0309
 		Eccentricity 0.002
@@ -125235,7 +125293,7 @@
 	Radius 10366
 	EllipticalOrbit
 	{
-		Epoch 2458362.74002
+		Epoch 2459174.86925
 		Period 0.02039898
 		SemiMajorAxis 0.0494
 		Eccentricity 0.006
@@ -125425,7 +125483,7 @@
 	Radius 8104
 	EllipticalOrbit
 	{
-		Epoch 2458389.2939
+		Epoch 2458226.84397
 		Period 0.01034344
 		SemiMajorAxis 0.027
 		Inclination 66.97097
@@ -125451,8 +125509,8 @@
 	Radius 11022
 	EllipticalOrbit
 	{
-		Epoch 2458399.93
-		Period 0.06772684
+		Epoch 2458103.084198
+		Period 0.06772681
 		SemiMajorAxis 0.0946
 		Inclination 66.98684
 		AscendingNode 12.08065
@@ -125461,7 +125519,7 @@
 	}
 	UniformRotation
 	{
-		Period 593.69352
+		Period 593.693184
 		Inclination 66.98684
 		AscendingNode 12.08065
 	}
@@ -125477,8 +125535,8 @@
 	Radius 7913
 	EllipticalOrbit
 	{
-		Epoch 2458786.75425
-		Period 0.00533754
+		Epoch 2459597.76239
+		Period 0.00533755
 		SemiMajorAxis 0.01848
 		Inclination 75.66796
 		AscendingNode 45.46762
@@ -125743,7 +125801,7 @@
 	Radius 8410
 	EllipticalOrbit
 	{
-		Epoch 2458325.72558
+		Epoch 2458793.74747
 		Period 0.00126743
 		SemiMajorAxis 0.00623
 		Inclination 66.4203
@@ -125899,12 +125957,13 @@
 	Radius 27188
 	EllipticalOrbit
 	{
-		Epoch 2457754.5
-		Period 0.04738461
+		Epoch 2458089.63066
+		Period 0.04738417
 		SemiMajorAxis 0.1185
 		Inclination 81.22079
 		AscendingNode 68.6319
 		ArgOfPericenter 91.13955
+		MeanAnomaly 90
 	}
 	UniformRotation
 	{
@@ -126094,8 +126153,8 @@
 	Radius 16565
 	EllipticalOrbit
 	{
-		Epoch 2457814.5643
-		Period 0.03791923
+		Epoch 2457925.3976
+		Period 0.03792878
 		SemiMajorAxis 0.0946
 		Inclination 80.49245
 		AscendingNode 66.53426
@@ -126238,7 +126297,7 @@
 	Radius 37867
 	EllipticalOrbit
 	{
-		Epoch 2458439.38421
+		Epoch 2458948.94103
 		Period 0.01109387
 		SemiMajorAxis 0.0417
 		Eccentricity 0.04
@@ -126249,7 +126308,7 @@
 	}
 	UniformRotation
 	{
-		Period 96.324076
+		Period 96.32404
 		Inclination 78.5485
 		AscendingNode 63.77242
 	}
@@ -126466,7 +126525,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459288.8713
-		Period 0.02257802
+		Period 0.022578
 		SemiMajorAxis 0.0653
 		Eccentricity 0.052
 		Inclination 113.05795
@@ -126476,7 +126535,7 @@
 	}
 	UniformRotation
 	{
-		Period 194.758501
+		Period 194.758336
 		Inclination 113.05795
 		AscendingNode 177.93319
 	}
@@ -126492,7 +126551,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459324.53478
-		Period 0.04288932
+		Period 0.04288952
 		SemiMajorAxis 0.1001
 		Eccentricity 0.089
 		Inclination 113.1101
@@ -126502,7 +126561,7 @@
 	}
 	UniformRotation
 	{
-		Period 358.898489
+		Period 358.900162
 		Inclination 113.1101
 		AscendingNode 178.00483
 	}
@@ -126558,7 +126617,7 @@
 		Inclination 74.44257
 		AscendingNode 51.38237
 	}
-	InfoURL "http://arxiv.org/abs/2409.11083"
+	InfoURL "http://arxiv.org/abs/2308.09617"
 }
 
 "LSPM J2116+0234 b:b" "LSPM J2116+0234"
@@ -126596,7 +126655,7 @@
 	Radius 7008
 	EllipticalOrbit
 	{
-		Epoch 2458412.58194
+		Epoch 2458899.91066
 		Period 0.00855277
 		SemiMajorAxis 0.02658
 		Inclination 67.07952
@@ -126731,7 +126790,7 @@
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2459767.54935
+		Epoch 2459108.25997
 		Period 0.00216855
 		SemiMajorAxis 0.01734
 		Inclination 58.64888
@@ -128328,8 +128387,8 @@
 	Radius 65672
 	EllipticalOrbit
 	{
-		Epoch 2457720.659396
-		Period 0.00724791
+		Epoch 2458652.51257
+		Period 0.00724793
 		SemiMajorAxis 0.0326
 		Eccentricity 0.016
 		Inclination 83.07581
@@ -128339,7 +128398,7 @@
 	}
 	UniformRotation
 	{
-		Period 63.43771
+		Period 63.437955
 		Inclination 83.07581
 		AscendingNode 80.955
 	}
@@ -128358,7 +128417,7 @@
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2457518.84377
+		Epoch 2460035.78864263
 		Period 0.00209964
 		SemiMajorAxis 0.0143
 		Inclination 90.74464
@@ -128435,8 +128494,8 @@
 	Radius 73267
 	EllipticalOrbit
 	{
-		Epoch 2458572.8549
-		Period 0.0206237
+		Epoch 2459627.4363
+		Period 0.0206235
 		SemiMajorAxis 0.0757
 		Inclination 112.70581
 		AscendingNode 174.94868
@@ -128462,8 +128521,8 @@
 	Radius 79838
 	EllipticalOrbit
 	{
-		Epoch 2458572.8247
-		Period 0.01127728
+		Epoch 2459643.78617
+		Period 0.01127743
 		SemiMajorAxis 0.0549
 		Eccentricity 0.086
 		Inclination 112.55117
@@ -128473,7 +128532,7 @@
 	}
 	UniformRotation
 	{
-		Period 94.653542
+		Period 94.654825
 		Inclination 112.55117
 		AscendingNode 174.82207
 	}
@@ -128626,8 +128685,8 @@
 	Radius 111508
 	EllipticalOrbit
 	{
-		Epoch 2457759.1261
-		Period 0.01235089
+		Epoch 2459292.90773
+		Period 0.01235077
 		SemiMajorAxis 0.063
 		Inclination 125.88274
 		AscendingNode 207.05733
@@ -128735,8 +128794,8 @@
 	Radius 84872
 	EllipticalOrbit
 	{
-		Epoch 2458100.6229
-		Period 0.00949454
+		Epoch 2458790.73108
+		Period 0.00949453
 		SemiMajorAxis 0.0479
 		Inclination 107.74066
 		AscendingNode 161.78856
@@ -129034,8 +129093,8 @@
 	Radius 51986
 	EllipticalOrbit
 	{
-		Epoch 2457740.35262
-		Period 0.00919093
+		Epoch 2458885.08672
+		Period 0.00919094
 		SemiMajorAxis 0.0382
 		Inclination 108.67192
 		AscendingNode 220.17452
@@ -129062,7 +129121,7 @@
 	Oblateness 0.02
 	EllipticalOrbit
 	{
-		Epoch 2457982.3785
+		Epoch 2459550.67941533
 		Period 0.00241494
 		SemiMajorAxis 0.01662
 		Inclination 76.54908
@@ -129089,8 +129148,8 @@
 	Radius 76203
 	EllipticalOrbit
 	{
-		Epoch 2457500.1783
-		Period 0.00684381
+		Epoch 2459657.40829
+		Period 0.00684377
 		SemiMajorAxis 0.035
 		Eccentricity 0.01
 		Inclination 70.02058
@@ -129100,7 +129159,7 @@
 	}
 	UniformRotation
 	{
-		Period 59.956826
+		Period 59.956495
 		Inclination 70.02058
 		AscendingNode -36.54359
 	}
@@ -129118,8 +129177,8 @@
 	Radius 74805
 	EllipticalOrbit
 	{
-		Epoch 2457671.81086
-		Period 0.01214311
+		Epoch 2459610.02835
+		Period 0.01214314
 		SemiMajorAxis 0.058
 		Eccentricity 0.06
 		Inclination 104.85757
@@ -129129,7 +129188,7 @@
 	}
 	UniformRotation
 	{
-		Period 104.195252
+		Period 104.195541
 		Inclination 104.85757
 		AscendingNode 134.46417
 	}
@@ -129255,8 +129314,8 @@
 	Radius 18202
 	EllipticalOrbit
 	{
-		Epoch 2458954.40942
-		Period 0.07554299
+		Epoch 2459340.69911
+		Period 0.0755431
 		SemiMajorAxis 0.1717
 		Inclination 103.95851
 		AscendingNode 231.57541
@@ -132786,8 +132845,8 @@
 	Radius 13577
 	EllipticalOrbit
 	{
-		Epoch 2458519.8068
-		Period 0.01716044
+		Epoch 2459384.7663
+		Period 0.01716036
 		SemiMajorAxis 0.068
 		Eccentricity 0.077
 		Inclination 90.58895
@@ -132797,7 +132856,7 @@
 	}
 	UniformRotation
 	{
-		Period 145.25846
+		Period 145.257732
 		Inclination 90.58895
 		AscendingNode 108.76887
 	}
@@ -133411,7 +133470,7 @@
 	Radius 81097
 	EllipticalOrbit
 	{
-		Epoch 2455647.633175
+		Epoch 2457980.733187
 		Period 0.00388781
 		SemiMajorAxis 0.02343
 		Inclination 84.32542
@@ -133439,8 +133498,8 @@
 	Oblateness 0.02
 	EllipticalOrbit
 	{
-		Epoch 2458247.90746
-		Period 0.00450464
+		Epoch 2459638.208236
+		Period 0.00450466
 		SemiMajorAxis 0.0286
 		Inclination 88.73438
 		AscendingNode 283.47743
@@ -133466,7 +133525,7 @@
 	Radius 79978
 	EllipticalOrbit
 	{
-		Epoch 2457173.98591
+		Epoch 2457153.928453
 		Period 0.00366083
 		SemiMajorAxis 0.02149
 		Inclination 111.72202
@@ -133522,7 +133581,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2457302.453004
-		Period 0.00686631
+		Period 0.00686626
 		SemiMajorAxis 0.03783
 		Inclination 68.45619
 		AscendingNode 356.36756
@@ -133548,7 +133607,7 @@
 	Radius 108502
 	EllipticalOrbit
 	{
-		Epoch 2458767.93317
+		Epoch 2459316.76367
 		Period 0.00494282
 		SemiMajorAxis 0.02861
 		Inclination 77.30254
@@ -133575,7 +133634,7 @@
 	Radius 77391
 	EllipticalOrbit
 	{
-		Epoch 2457489.3612
+		Epoch 2457941.41097
 		Period 0.00788309
 		SemiMajorAxis 0.04127
 		Inclination 67.53931
@@ -133602,8 +133661,8 @@
 	Radius 64300
 	EllipticalOrbit
 	{
-		Epoch 2458611.4968
-		Period 0.00959945
+		Epoch 2459379.354484
+		Period 0.00959946
 		SemiMajorAxis 0.045
 		Eccentricity 0.051
 		Inclination 109.30214
@@ -133613,7 +133672,7 @@
 	}
 	UniformRotation
 	{
-		Period 82.855515
+		Period 82.855562
 		Inclination 109.30214
 		AscendingNode 221.57324
 	}
@@ -133631,8 +133690,8 @@
 	Radius 118849
 	EllipticalOrbit
 	{
-		Epoch 2458043.32067
-		Period 0.00556344
+		Epoch 2458650.89581
+		Period 0.00556338
 		SemiMajorAxis 0.0352
 		Inclination 74.34639
 		AscendingNode 3.29617
@@ -133658,8 +133717,8 @@
 	Radius 89836
 	EllipticalOrbit
 	{
-		Epoch 2458210.8392
-		Period 0.01017014
+		Epoch 2459577.82937
+		Period 0.01017015
 		SemiMajorAxis 0.0474
 		Inclination 112.16774
 		AscendingNode 155.23873
@@ -133685,8 +133744,8 @@
 	Radius 70540
 	EllipticalOrbit
 	{
-		Epoch 2458227.75643
-		Period 0.00421829
+		Epoch 2459571.312603
+		Period 0.00421841
 		SemiMajorAxis 0.0234
 		Inclination 112.66905
 		AscendingNode 158.65657
@@ -134812,7 +134871,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459043.51289
-		Period 0.03347454
+		Period 0.03347457
 		SemiMajorAxis 0.09429
 		Eccentricity 0.088
 		Inclination 79.24478
@@ -134822,7 +134881,7 @@
 	}
 	UniformRotation
 	{
-		Period 280.400175
+		Period 280.40045
 		Inclination 79.24478
 		AscendingNode -67.36246
 	}
@@ -134866,7 +134925,7 @@
 	Radius 90884
 	EllipticalOrbit
 	{
-		Epoch 2459385.0123
+		Epoch 2459690.8805
 		Period 0.01116561
 		SemiMajorAxis 0.0561
 		Eccentricity 0.0247
@@ -134877,7 +134936,7 @@
 	}
 	UniformRotation
 	{
-		Period 97.520736
+		Period 97.520751
 		Inclination 109.94712
 		AscendingNode 153.75627
 	}
@@ -134967,7 +135026,7 @@
 	Radius 29096
 	EllipticalOrbit
 	{
-		Epoch 2459392.8147
+		Epoch 2459551.85
 		Period 0.01116678
 		SemiMajorAxis 0.0453
 		Eccentricity 0.05216
@@ -134995,7 +135054,7 @@
 	Radius 67461
 	EllipticalOrbit
 	{
-		Epoch 2459392.66995
+		Epoch 2459534.6151
 		Period 0.02285985
 		SemiMajorAxis 0.0731
 		Eccentricity 0.0398
@@ -135050,7 +135109,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2458688.717041
-		Period 0.01713142
+		Period 0.01713541
 		SemiMajorAxis 0.0669
 		Eccentricity 0.11
 		Inclination 111.53294
@@ -135060,7 +135119,7 @@
 	}
 	UniformRotation
 	{
-		Period 139.997251
+		Period 140.029871
 		Inclination 111.53294
 		AscendingNode 187.43862
 	}
@@ -135076,7 +135135,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2458686.072388
-		Period 0.03427617
+		Period 0.03427514
 		SemiMajorAxis 0.1062
 		Eccentricity 0.042
 		Inclination 111.63888
@@ -135086,7 +135145,7 @@
 	}
 	UniformRotation
 	{
-		Period 297.317687
+		Period 297.308805
 		Inclination 111.63888
 		AscendingNode 187.97247
 	}
@@ -135102,19 +135161,19 @@
 	EllipticalOrbit
 	{
 		Epoch 2458697.75172
-		Period 0.0514694
-		SemiMajorAxis 0.13939
+		Period 0.05145873
+		SemiMajorAxis 0.13937
 		Eccentricity 0.0425
-		Inclination 111.54558
-		AscendingNode 187.4331
-		ArgOfPericenter 90.91814
+		Inclination 111.54567
+		AscendingNode 187.43306
+		ArgOfPericenter 90.91812
 		MeanAnomaly 155.03983
 	}
 	UniformRotation
 	{
-		Period 446.342955
-		Inclination 111.54558
-		AscendingNode 187.4331
+		Period 446.250359
+		Inclination 111.54567
+		AscendingNode 187.43306
 	}
 	InfoURL "http://arxiv.org/abs/2210.09283"
 }
@@ -135128,7 +135187,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2458699.385254
-		Period 0.07204983
+		Period 0.07205446
 		SemiMajorAxis 0.174
 		Eccentricity 0.001
 		Inclination 111.51013
@@ -135138,7 +135197,7 @@
 	}
 	UniformRotation
 	{
-		Period 631.58501
+		Period 631.62557
 		Inclination 111.51013
 		AscendingNode 187.44856
 	}
@@ -135177,24 +135236,24 @@
 	Texture "exo-class3.*"
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
-	Mass 27.4
-	Radius 35646
+	Mass 28.286
+	Radius 36257
 	EllipticalOrbit
 	{
-		Epoch 2458702.8444
-		Period 0.01934198
+		Epoch 2459529.37849
+		Period 0.01934127
 		SemiMajorAxis 0.0696
 		Eccentricity 0.023
-		Inclination 70.41609
-		AscendingNode 19.83924
-		ArgOfPericenter 191.48539
+		Inclination 70.30378
+		AscendingNode 19.815
+		ArgOfPericenter 191.49354
 		MeanAnomaly 87.36463
 	}
 	UniformRotation
 	{
-		Period 169.015367
-		Inclination 70.41609
-		AscendingNode 19.83924
+		Period 169.009077
+		Inclination 70.30378
+		AscendingNode 19.815
 	}
 	InfoURL "http://arxiv.org/abs/2403.06240"
 }
@@ -135259,19 +135318,19 @@
 	Radius 106195
 	EllipticalOrbit
 	{
-		Epoch 2459481.51696
-		Period 0.00575822
+		Epoch 2459639.256141
+		Period 0.00575823
 		SemiMajorAxis 0.03652
 		Eccentricity 0.011
-		Inclination 82.35171
+		Inclination 82.3517
 		AscendingNode 296.54869
 		ArgOfPericenter 175.19998
 		MeanAnomaly 88.73952
 	}
 	UniformRotation
 	{
-		Period 50.439916
-		Inclination 82.35171
+		Period 50.440038
+		Inclination 82.3517
 		AscendingNode 296.54869
 	}
 	InfoURL "http://arxiv.org/abs/2205.01860"
@@ -135366,7 +135425,7 @@
 	Radius 15062
 	EllipticalOrbit
 	{
-		Epoch 2459169.23222
+		Epoch 2458758.05642
 		Period 0.00682269
 		SemiMajorAxis 0.02878
 		Inclination 71.90965
@@ -135390,8 +135449,8 @@
 	Radius 17329
 	EllipticalOrbit
 	{
-		Epoch 2458329.121491
-		Period 0.01390289
+		Epoch 2458420.52568
+		Period 0.01390287
 		SemiMajorAxis 0.0392
 		Inclination 68.0454
 		AscendingNode 329.71463
@@ -135536,8 +135595,8 @@
 	Radius 23648
 	EllipticalOrbit
 	{
-		Epoch 2458563.88838
-		Period 0.0663808
+		Epoch 2459291.2558
+		Period 0.06638067
 		SemiMajorAxis 0.1288
 		Eccentricity 0.087
 		Inclination 111.20085
@@ -135547,7 +135606,7 @@
 	}
 	UniformRotation
 	{
-		Period 556.599538
+		Period 556.598505
 		Inclination 111.20085
 		AscendingNode 154.77196
 	}
@@ -135738,7 +135797,7 @@
 	Radius 22362
 	EllipticalOrbit
 	{
-		Epoch 2458688.9653
+		Epoch 2459285.9327
 		Period 0.05107426
 		SemiMajorAxis 0.131
 		Inclination 85.58659
@@ -135864,7 +135923,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2458355.3552
-		Period 0.01274146
+		Period 0.01273571
 		SemiMajorAxis 0.05186
 		Eccentricity 0.194
 		Inclination 67.57201
@@ -135874,7 +135933,7 @@
 	}
 	UniformRotation
 	{
-		Period 90.99574
+		Period 90.95462
 		Inclination 67.57201
 		AscendingNode 25.18515
 	}
@@ -135890,7 +135949,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2458352.7582
-		Period 0.02505317
+		Period 0.02506493
 		SemiMajorAxis 0.0814
 		Eccentricity 0.066
 		Inclination 67.11906
@@ -135900,7 +135959,7 @@
 	}
 	UniformRotation
 	{
-		Period 214.020537
+		Period 214.121014
 		Inclination 67.11906
 		AscendingNode 25.06638
 	}
@@ -135997,7 +136056,7 @@
 	Radius 59476
 	EllipticalOrbit
 	{
-		Epoch 2458686.70048
+		Epoch 2459472.72377
 		Period 0.00952219
 		SemiMajorAxis 0.0407
 		Inclination 86.8852
@@ -136047,7 +136106,7 @@
 	Radius 13570
 	EllipticalOrbit
 	{
-		Epoch 2458689.9588
+		Epoch 2459423.2249
 		Period 0.05147601
 		SemiMajorAxis 0.1047
 		Inclination 113.02298
@@ -136074,8 +136133,8 @@
 	Radius 55755
 	EllipticalOrbit
 	{
-		Epoch 2458711.7477
-		Period 0.02233459
+		Epoch 2459503.04701
+		Period 0.02233464
 		SemiMajorAxis 0.0711
 		Eccentricity 0.105
 		Inclination 108.10567
@@ -136085,7 +136144,7 @@
 	}
 	UniformRotation
 	{
-		Period 183.624655
+		Period 183.625051
 		Inclination 108.10567
 		AscendingNode 185.5682
 	}
@@ -136101,8 +136160,8 @@
 	Radius 33534
 	EllipticalOrbit
 	{
-		Epoch 2458713.0253
-		Period 0.00907869
+		Epoch 2458968.36162
+		Period 0.00907865
 		SemiMajorAxis 0.0412
 		Eccentricity 0.338
 		Inclination 114.868
@@ -136112,7 +136171,7 @@
 	}
 	UniformRotation
 	{
-		Period 46.30711
+		Period 46.306929
 		Inclination 114.868
 		AscendingNode -161.15871
 	}
@@ -136209,8 +136268,8 @@
 	Radius 33384
 	EllipticalOrbit
 	{
-		Epoch 2458712.3587
-		Period 0.00739175
+		Epoch 2459344.11904
+		Period 0.00739173
 		SemiMajorAxis 0.0429
 		Eccentricity 0.064
 		Inclination 75.90374
@@ -136220,7 +136279,7 @@
 	}
 	UniformRotation
 	{
-		Period 63.24133
+		Period 63.241222
 		Inclination 75.90374
 		AscendingNode -49.49546
 	}
@@ -136354,7 +136413,7 @@
 	Radius 86060
 	EllipticalOrbit
 	{
-		Epoch 2458930.75532
+		Epoch 2459577.63245
 		Period 0.0107991
 		SemiMajorAxis 0.0497
 		Eccentricity 0.055
@@ -136365,7 +136424,7 @@
 	}
 	UniformRotation
 	{
-		Period 92.977009
+		Period 92.977047
 		Inclination 96.42801
 		AscendingNode -102.10527
 	}
@@ -136383,8 +136442,8 @@
 	Radius 58795
 	EllipticalOrbit
 	{
-		Epoch 2458929.58558
-		Period 0.01242208
+		Epoch 2459551.17385
+		Period 0.01242202
 		SemiMajorAxis 0.059
 		Eccentricity 0.032
 		Inclination 102.05039
@@ -136394,7 +136453,7 @@
 	}
 	UniformRotation
 	{
-		Period 108.226945
+		Period 108.226417
 		Inclination 102.05039
 		AscendingNode -116.62948
 	}
@@ -136439,8 +136498,8 @@
 	Radius 97596
 	EllipticalOrbit
 	{
-		Epoch 2458913.37033
-		Period 0.01292326
+		Epoch 2459687.4819
+		Period 0.01292318
 		SemiMajorAxis 0.0626
 		Eccentricity 0.073
 		Inclination 74.93316
@@ -136450,7 +136509,7 @@
 	}
 	UniformRotation
 	{
-		Period 109.773823
+		Period 109.773218
 		Inclination 74.93316
 		AscendingNode -39.47057
 	}
@@ -136810,24 +136869,23 @@
 {
 	Class "planet"
 	Texture "venuslike.*"
-	Mass 9
-	Radius 25229
+	Mass 9.5
+	Radius 24401
 	EllipticalOrbit
 	{
-		Epoch 2458745.9205
-		Period 0.03558439
-		SemiMajorAxis 0.108
-		Eccentricity 0.04
-		Inclination 67.01328
-		AscendingNode 353.3348
-		ArgOfPericenter 285.28466
-		MeanAnomaly 301.02826
+		Epoch 2458927.9392
+		Period 0.03558916
+		SemiMajorAxis 0.107
+		Inclination 67.02344
+		AscendingNode 353.32267
+		ArgOfPericenter 132.2894
+		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Period 308.966399
-		Inclination 67.01328
-		AscendingNode -6.6652
+		Period 311.97456
+		Inclination 67.02344
+		AscendingNode -6.67733
 	}
 	InfoURL "http://arxiv.org/abs/2207.03293"
 }
@@ -136836,24 +136894,23 @@
 {
 	Class "planet"
 	Texture "venuslike.*"
-	GeomAlbedo 0.05
-	Mass 11.1
-	Radius 21252
+	Mass 14
+	Radius 16628
 	EllipticalOrbit
 	{
-		Epoch 2459580.5
-		Period 0.08019165
-		SemiMajorAxis 0.185
-		Eccentricity 0.14
-		Inclination 67.01328
-		AscendingNode 353.3348
-		ArgOfPericenter 231.28466
+		Epoch 2458756.3525
+		Period 0.09462916
+		SemiMajorAxis 0.205
+		Inclination 66.84347
+		AscendingNode 353.53804
+		ArgOfPericenter 132.20502
+		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Period 628.820738
-		Inclination 67.01328
-		AscendingNode 353.3348
+		Period 829.5192
+		Inclination 66.84347
+		AscendingNode -6.46196
 	}
 	InfoURL "http://arxiv.org/abs/2207.03293"
 }
@@ -137213,8 +137270,8 @@
 	Radius 13150
 	EllipticalOrbit
 	{
-		Epoch 2458766.9269
-		Period 0.04252562
+		Epoch 2459465.88794
+		Period 0.04252558
 		SemiMajorAxis 0.08496
 		Inclination 67.74163
 		AscendingNode 17.34829
@@ -137281,24 +137338,52 @@
 {
 	Class "planet"
 	Texture "venuslike.*"
-	Mass 16.5
-	Radius 25177
+	Mass 18.05
+	Radius 27129
 	EllipticalOrbit
 	{
-		Epoch 2458765.605835
-		Period 0.01742396
-		SemiMajorAxis 0.06385
-		Inclination 67.30845
-		AscendingNode 15.32557
-		ArgOfPericenter 132.6027
-		MeanAnomaly 90
+		Epoch 2459694.66385
+		Period 0.017422
+		SemiMajorAxis 0.064
+		Eccentricity 0.041
+		Inclination 67.34271
+		AscendingNode 15.28521
+		ArgOfPericenter 183.11825
+		MeanAnomaly 36.58132
 	}
 	UniformRotation
 	{
-		Inclination 67.30845
-		AscendingNode 15.32557
+		Period 151.196118
+		Inclination 67.34271
+		AscendingNode 15.28521
 	}
 	InfoURL "http://arxiv.org/abs/2405.14786"
+}
+
+"TOI-1472 c:c" "TYC 3267-471-1"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	Mass 21.13
+	Radius 30452
+	EllipticalOrbit
+	{
+		Epoch 2459689.93567
+		Period 0.0425412
+		SemiMajorAxis 0.116
+		Eccentricity 0.172
+		Inclination 68.23655
+		AscendingNode 14.24318
+		ArgOfPericenter 297.71217
+		MeanAnomaly 303.59952
+	}
+	UniformRotation
+	{
+		Period 316.468369
+		Inclination 68.23655
+		AscendingNode 14.24318
+	}
+	InfoURL "https://doi.org/10.1093/mnras/staf1958"
 }
 
 "TOI-1478 b:TOI-1478.01:b" "TYC 5440-1407-1"
@@ -137312,8 +137397,8 @@
 	Radius 65817
 	EllipticalOrbit
 	{
-		Epoch 2458607.90338
-		Period 0.027872
+		Epoch 2459483.4079
+		Period 0.0278719
 		SemiMajorAxis 0.0903
 		Eccentricity 0.08
 		Inclination 97.56877
@@ -137323,7 +137408,7 @@
 	}
 	UniformRotation
 	{
-		Period 235.286057
+		Period 235.285156
 		Inclination 97.56877
 		AscendingNode 126.1158
 	}
@@ -137370,8 +137455,8 @@
 	Radius 105566
 	EllipticalOrbit
 	{
-		Epoch 2458765.325
-		Period 0.00562905
+		Epoch 2459653.523161
+		Period 0.00562906
 		SemiMajorAxis 0.0333
 		Eccentricity 0.04
 		Inclination 68.92702
@@ -137381,7 +137466,7 @@
 	}
 	UniformRotation
 	{
-		Period 48.875032
+		Period 48.875099
 		Inclination 68.92702
 		AscendingNode -21.75255
 	}
@@ -137399,7 +137484,7 @@
 	Oblateness 0.02
 	EllipticalOrbit
 	{
-		Epoch 2458766.120581
+		Epoch 2459616.588037
 		Period 0.00520907
 		SemiMajorAxis 0.0389
 		Inclination 128.51596
@@ -137426,8 +137511,8 @@
 	Radius 89906
 	EllipticalOrbit
 	{
-		Epoch 2458326.54771
-		Period 0.00570717
+		Epoch 2459435.522677
+		Period 0.00570716
 		SemiMajorAxis 0.03138
 		Inclination 75.69954
 		AscendingNode 76.30903
@@ -137453,8 +137538,8 @@
 	Radius 86620
 	EllipticalOrbit
 	{
-		Epoch 2458990.55302
-		Period 0.01459754
+		Epoch 2459523.72703
+		Period 0.01459751
 		SemiMajorAxis 0.06864
 		Eccentricity 0.036
 		Inclination 72.33495
@@ -137464,7 +137549,7 @@
 	}
 	UniformRotation
 	{
-		Period 126.974584
+		Period 126.974322
 		Inclination 72.33495
 		AscendingNode 39.69324
 	}
@@ -137518,6 +137603,32 @@
 		AscendingNode 56.80529
 	}
 	InfoURL "http://arxiv.org/abs/2209.03871"
+}
+
+"TOI-1648 b:TOI-1648.01:b" "TYC 4313-00157-1"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	Mass 7.4
+	Radius 16182
+	EllipticalOrbit
+	{
+		Epoch 2459925.3431
+		Period 0.02007283
+		SemiMajorAxis 0.0694
+		Eccentricity 0.178
+		Inclination 75.29285
+		AscendingNode 46.64902
+		ArgOfPericenter 68.39793
+		MeanAnomaly 157.56229
+	}
+	UniformRotation
+	{
+		Period 147.72313
+		Inclination 75.29285
+		AscendingNode 46.64902
+	}
+	InfoURL "https://doi.org/10.1093/mnras/staf1958"
 }
 
 "TOI-1669 c:TOI-1669.01:c" "TYC 4616-01481-1"
@@ -137687,8 +137798,8 @@
 	Radius 75923
 	EllipticalOrbit
 	{
-		Epoch 2458327.44174
-		Period 0.00617508
+		Epoch 2459520.57167
+		Period 0.00617506
 		SemiMajorAxis 0.03524
 		Inclination 58.68385
 		AscendingNode 16.78948
@@ -137763,17 +137874,17 @@
 	Radius 34701
 	EllipticalOrbit
 	{
-		Epoch 2458817.2664
-		Period 0.01032208
+		Epoch 2458998.23331
+		Period 0.01032209
 		SemiMajorAxis 0.04474
-		Inclination 87.46622
+		Inclination 87.46621
 		AscendingNode 89.53939
 		ArgOfPericenter 133.2147
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 87.46622
+		Inclination 87.46621
 		AscendingNode 89.53939
 	}
 	InfoURL "http://arxiv.org/abs/2209.06958"
@@ -137793,14 +137904,14 @@
 		Epoch 2459580.5
 		Period 1.07652293
 		SemiMajorAxis 0.9915
-		Inclination 87.46622
+		Inclination 87.46621
 		AscendingNode 89.53939
 		ArgOfPericenter 133.2147
 	}
 	UniformRotation
 	{
 		Period 12.479575
-		Inclination 87.46622
+		Inclination 87.46621
 		AscendingNode 89.53939
 	}
 	InfoURL "http://arxiv.org/abs/2209.06958v1"
@@ -137865,7 +137976,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459031.23007
-		Period 0.06648441
+		Period 0.06648421
 		SemiMajorAxis 0.164
 		Eccentricity 0.185
 		Inclination 74.87022
@@ -137875,7 +137986,7 @@
 	}
 	UniformRotation
 	{
-		Period 483.006548
+		Period 483.005156
 		Inclination 74.87022
 		AscendingNode 70.53515
 	}
@@ -137893,8 +138004,8 @@
 	Radius 67464
 	EllipticalOrbit
 	{
-		Epoch 2458326.9195
-		Period 0.02594719
+		Epoch 2459359.90284
+		Period 0.02594639
 		SemiMajorAxis 0.0913
 		Eccentricity 0.3805
 		Inclination 72.89123
@@ -137904,7 +138015,7 @@
 	}
 	UniformRotation
 	{
-		Period 117.674722
+		Period 117.671096
 		Inclination 72.89123
 		AscendingNode -47.64475
 	}
@@ -137945,8 +138056,8 @@
 	Radius 35202
 	EllipticalOrbit
 	{
-		Epoch 2458843.27427
-		Period 0.00955923
+		Epoch 2459485.69358
+		Period 0.00955894
 		SemiMajorAxis 0.0391
 		Eccentricity 0.057
 		Inclination 102.84685
@@ -137956,7 +138067,7 @@
 	}
 	UniformRotation
 	{
-		Period 82.193572
+		Period 82.191063
 		Inclination 102.84685
 		AscendingNode 117.273
 	}
@@ -138278,7 +138389,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2458760.26373
-		Period 0.01795365
+		Period 0.01795444
 		SemiMajorAxis 0.05927
 		Eccentricity 0.0068
 		Inclination 65.94895
@@ -138288,7 +138399,7 @@
 	}
 	UniformRotation
 	{
-		Period 157.338004
+		Period 157.344986
 		Inclination 65.94895
 		AscendingNode 6.60071
 	}
@@ -138303,8 +138414,8 @@
 	Radius 14660
 	EllipticalOrbit
 	{
-		Epoch 2458761.4267
-		Period 0.0272777
+		Epoch 2459249.538
+		Period 0.02727352
 		SemiMajorAxis 0.0782
 		Eccentricity 0.00038
 		Inclination 66.05268
@@ -138314,7 +138425,7 @@
 	}
 	UniformRotation
 	{
-		Period 239.116113
+		Period 239.079489
 		Inclination 66.05268
 		AscendingNode 6.77488
 	}
@@ -138355,8 +138466,8 @@
 	Radius 18724
 	EllipticalOrbit
 	{
-		Epoch 2458893.0016
-		Period 0.05671904
+		Epoch 2459037.9748
+		Period 0.05670041
 		SemiMajorAxis 0.1276
 		Eccentricity 0.00043
 		Inclination 66.11441
@@ -138366,7 +138477,7 @@
 	}
 	UniformRotation
 	{
-		Period 497.198568
+		Period 497.035273
 		Inclination 66.11441
 		AscendingNode 6.87824
 	}
@@ -138559,8 +138670,8 @@
 	Radius 44991
 	EllipticalOrbit
 	{
-		Epoch 2458358.118055
-		Period 0.0121922
+		Epoch 2459201.08028
+		Period 0.01240809
 		SemiMajorAxis 0.0539
 		Eccentricity 0.1543
 		Inclination 65.91718
@@ -138570,7 +138681,7 @@
 	}
 	UniformRotation
 	{
-		Period 93.477296
+		Period 95.132547
 		Inclination 65.91718
 		AscendingNode -10.12466
 	}
@@ -138588,8 +138699,8 @@
 	Radius 66945
 	EllipticalOrbit
 	{
-		Epoch 2458899.87076
-		Period 0.01016586
+		Epoch 2459349.15233
+		Period 0.01016582
 		SemiMajorAxis 0.04393
 		Eccentricity 0.061
 		Inclination 114.86694
@@ -138599,7 +138710,7 @@
 	}
 	UniformRotation
 	{
-		Period 87.167317
+		Period 87.166971
 		Inclination 114.86694
 		AscendingNode -173.51182
 	}
@@ -138750,8 +138861,8 @@
 	Radius 74106
 	EllipticalOrbit
 	{
-		Epoch 2459402.4575
-		Period 0.02621218
+		Epoch 2459469.47592
+		Period 0.02621201
 		SemiMajorAxis 0.1001
 		Eccentricity 0.13
 		Inclination 164.66671
@@ -138761,7 +138872,7 @@
 	}
 	UniformRotation
 	{
-		Period 208.582213
+		Period 208.580797
 		Inclination 164.66671
 		AscendingNode 289.74615
 	}
@@ -138939,8 +139050,8 @@
 	Radius 63109
 	EllipticalOrbit
 	{
-		Epoch 2458711.959171
-		Period 0.07964493
+		Epoch 2459439.21529
+		Period 0.07964476
 		SemiMajorAxis 0.1525
 		Eccentricity 0.485
 		Inclination 79.14301
@@ -138950,7 +139061,7 @@
 	}
 	UniformRotation
 	{
-		Period 261.775353
+		Period 261.774795
 		Inclination 79.14301
 		AscendingNode -62.87141
 	}
@@ -138969,7 +139080,7 @@
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2459085.91023
+		Epoch 2459668.11819
 		Period 0.00259187
 		SemiMajorAxis 0.01932
 		Inclination 86.58593
@@ -138996,19 +139107,19 @@
 	EllipticalOrbit
 	{
 		Epoch 2458256.1286
-		Period 0.28707461
+		Period 0.28711567
 		SemiMajorAxis 0.48
-		Eccentricity 0.09
-		Inclination 85.81163
-		AscendingNode 80.87471
-		ArgOfPericenter 356.97911
-		MeanAnomaly 89.73669
+		Eccentricity 0.105
+		Inclination 85.78044
+		AscendingNode 80.87088
+		ArgOfPericenter 72.07939
+		MeanAnomaly 20.1762
 	}
 	UniformRotation
 	{
 		Period 44.71273
-		Inclination 85.81163
-		AscendingNode 80.87471
+		Inclination 85.78044
+		AscendingNode 80.87088
 	}
 	InfoURL "http://arxiv.org/abs/2309.14915"
 }
@@ -139019,25 +139130,25 @@
 	Texture "exo-class2.*"
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
-	Mass 88.989
-	Radius 54725
+	Mass 82.95
+	Radius 53792
 	Oblateness 0.07
 	EllipticalOrbit
 	{
-		Epoch 2458256.14
-		Period 0.74932238
+		Epoch 2458262.35
+		Period 0.75227652
 		SemiMajorAxis 0.807
-		Eccentricity 0.096
-		Inclination 85.81163
-		AscendingNode 80.87471
-		ArgOfPericenter 14.97911
+		Eccentricity 0.151
+		Inclination 85.78044
+		AscendingNode 80.87088
+		ArgOfPericenter 76.67939
 		MeanAnomaly 192
 	}
 	UniformRotation
 	{
-		Period 18.663035
-		Inclination 85.81163
-		AscendingNode 80.87471
+		Period 18.54661
+		Inclination 85.78044
+		AscendingNode 80.87088
 	}
 	InfoURL "http://arxiv.org/abs/2309.14915"
 }
@@ -139213,7 +139324,7 @@
 	Radius 14449
 	EllipticalOrbit
 	{
-		Epoch 2458958.258
+		Epoch 2459441.57071
 		Period 0.02035752
 		SemiMajorAxis 0.06182
 		Inclination 105.93936
@@ -139352,7 +139463,7 @@
 	Radius 106265
 	EllipticalOrbit
 	{
-		Epoch 2460247.6612
+		Epoch 2459892.828189
 		Period 0.00409908
 		SemiMajorAxis 0.0271
 		Eccentricity 0.02
@@ -139781,7 +139892,7 @@
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2459378.45937
+		Epoch 2459486.727696
 		Period 0.00184113
 		SemiMajorAxis 0.01791
 		Inclination 107.08046
@@ -139884,7 +139995,7 @@
 	Radius 14016
 	EllipticalOrbit
 	{
-		Epoch 2459214.00322
+		Epoch 2459512.37588
 		Period 0.0214974
 		SemiMajorAxis 0.0533
 		Eccentricity 0.07
@@ -140017,8 +140128,8 @@
 	Radius 89556
 	EllipticalOrbit
 	{
-		Epoch 2458792.55575
-		Period 0.00924668
+		Epoch 2459620.00761
+		Period 0.0092467
 		SemiMajorAxis 0.05064
 		Eccentricity 0.057
 		Inclination 72.18697
@@ -140028,7 +140139,7 @@
 	}
 	UniformRotation
 	{
-		Period 79.506162
+		Period 79.50626
 		Inclination 72.18697
 		AscendingNode 26.9784
 	}
@@ -140046,7 +140157,7 @@
 	Radius 101581
 	EllipticalOrbit
 	{
-		Epoch 2458819.7308
+		Epoch 2459729.86237
 		Period 0.01046976
 		SemiMajorAxis 0.0513
 		Eccentricity 0.117
@@ -140057,7 +140168,7 @@
 	}
 	UniformRotation
 	{
-		Period 84.802214
+		Period 84.802236
 		Inclination 88.81654
 		AscendingNode 69.19364
 	}
@@ -140323,7 +140434,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459283.82747
-		Period 0.02190819
+		Period 0.02190827
 		SemiMajorAxis 0.0854
 		Eccentricity 0.174
 		Inclination 75.51677
@@ -140333,7 +140444,7 @@
 	}
 	UniformRotation
 	{
-		Period 162.397719
+		Period 162.398308
 		Inclination 75.51677
 		AscendingNode -55.69482
 	}
@@ -140351,8 +140462,8 @@
 	Radius 89626
 	EllipticalOrbit
 	{
-		Epoch 2459011.45704
-		Period 0.00966897
+		Epoch 2459445.84225
+		Period 0.00966896
 		SemiMajorAxis 0.05009
 		Inclination 61.68297
 		AscendingNode 22.51126
@@ -141495,8 +141606,8 @@
 	Oblateness 0.03
 	EllipticalOrbit
 	{
-		Epoch 2459205.0993
-		Period 0.02917361
+		Epoch 2459769.85029
+		Period 0.02917374
 		SemiMajorAxis 0.1167
 		Eccentricity 0.196
 		Inclination 89.59665
@@ -141551,8 +141662,8 @@
 	Radius 17457
 	EllipticalOrbit
 	{
-		Epoch 2458357.30548
-		Period 0.01351888
+		Epoch 2459571.98473
+		Period 0.01351876
 		SemiMajorAxis 0.05741
 		Inclination 65.36117
 		AscendingNode 350.18728
@@ -141748,8 +141859,8 @@
 	Radius 68163
 	EllipticalOrbit
 	{
-		Epoch 2459007.78085
-		Period 0.01638315
+		Epoch 2459755.7746
+		Period 0.01638319
 		SemiMajorAxis 0.0672
 		Inclination 84.49992
 		AscendingNode 286.99431
@@ -141775,8 +141886,8 @@
 	Radius 85082
 	EllipticalOrbit
 	{
-		Epoch 2459393.14532
-		Period 0.00818278
+		Epoch 2459984.92098
+		Period 0.00818279
 		SemiMajorAxis 0.04145
 		Inclination 89.22225
 		AscendingNode 85.19228
@@ -141913,7 +142024,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459332.21332
-		Period 0.01336338
+		Period 0.01336336
 		SemiMajorAxis 0.0607
 		Inclination 108.54215
 		AscendingNode 165.81847
@@ -141965,8 +142076,8 @@
 	Radius 17648
 	EllipticalOrbit
 	{
-		Epoch 2458381.84668
-		Period 0.01012378
+		Epoch 2459187.94803
+		Period 0.01012379
 		SemiMajorAxis 0.0345
 		Eccentricity 0.425
 		Inclination 81.58594
@@ -141976,7 +142087,7 @@
 	}
 	UniformRotation
 	{
-		Period 40.272454
+		Period 40.27251
 		Inclination 81.58594
 		AscendingNode 76.31077
 	}
@@ -141992,7 +142103,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2458461.01464
-		Period 0.00919896
+		Period 0.00919963
 		SemiMajorAxis 0.03197
 		Eccentricity 0.0167
 		Inclination 81.00729
@@ -142002,7 +142113,7 @@
 	}
 	UniformRotation
 	{
-		Period 80.503368
+		Period 80.509262
 		Inclination 81.00729
 		AscendingNode 69.88177
 	}
@@ -142017,8 +142128,8 @@
 	Radius 15004
 	EllipticalOrbit
 	{
-		Epoch 2458463.08056
-		Period 0.01549763
+		Epoch 2458802.71623
+		Period 0.01549778
 		SemiMajorAxis 0.04526
 		Eccentricity 0.0044
 		Inclination 80.83265
@@ -142028,7 +142139,7 @@
 	}
 	UniformRotation
 	{
-		Period 135.836461
+		Period 135.837733
 		Inclination 80.83265
 		AscendingNode 69.83067
 	}
@@ -142044,7 +142155,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2460346.477984
-		Period 0.03116205
+		Period 0.03115551
 		SemiMajorAxis 0.07215
 		Eccentricity 0.0066
 		Inclination 81.27568
@@ -142054,7 +142165,7 @@
 	}
 	UniformRotation
 	{
-		Period 273.095184
+		Period 273.037815
 		Inclination 81.27568
 		AscendingNode 69.9602
 	}
@@ -142146,7 +142257,7 @@
 	Radius 16883
 	EllipticalOrbit
 	{
-		Epoch 2459119.8264
+		Epoch 2458704.5116
 		Period 0.01093564
 		SemiMajorAxis 0.0269
 		Inclination 73.6287
@@ -142201,8 +142312,8 @@
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2459207.6864
-		Period 0.00537247
+		Epoch 2459678.63667
+		Period 0.00537246
 		SemiMajorAxis 0.03185
 		Inclination 90.50065
 		AscendingNode 92.16782
@@ -142229,7 +142340,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459023.44641
-		Period 0.01121722
+		Period 0.01106009
 		SemiMajorAxis 0.0493
 		Inclination 99.26759
 		AscendingNode 115.72957
@@ -142438,8 +142549,8 @@
 	Radius 82076
 	EllipticalOrbit
 	{
-		Epoch 2459373.83677
-		Period 0.00643549
+		Epoch 2459780.48366
+		Period 0.00643548
 		SemiMajorAxis 0.03386
 		Inclination 107.96408
 		AscendingNode 141.32202
@@ -142573,7 +142684,7 @@
 	Radius 102490
 	EllipticalOrbit
 	{
-		Epoch 2459071.1922
+		Epoch 2459527.66761
 		Period 0.01068172
 		SemiMajorAxis 0.0505
 		Inclination 111.50859
@@ -142626,17 +142737,17 @@
 	EllipticalOrbit
 	{
 		Epoch 2459309.1199
-		Period 0.00527558
+		Period 0.00527525
 		SemiMajorAxis 0.02625
-		Inclination 111.94278
-		AscendingNode 194.67745
-		ArgOfPericenter 76.58253
+		Inclination 111.94275
+		AscendingNode 194.67734
+		ArgOfPericenter 76.58249
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 111.94278
-		AscendingNode -165.32255
+		Inclination 111.94275
+		AscendingNode -165.32266
 	}
 	InfoURL "http://arxiv.org/abs/2301.09865"
 }
@@ -142859,6 +142970,31 @@
 	InfoURL "http://arxiv.org/abs/2401.05923"
 }
 
+"TOI-333 b:TOI-333.01:b" "TYC 8017-124-1"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	NightTexture "venuslikenight.*"
+	Mass 20.1
+	Radius 27140
+	EllipticalOrbit
+	{
+		Epoch 2458355.5759
+		Period 0.01036345
+		SemiMajorAxis 0.049
+		Inclination 66.28367
+		AscendingNode 352.15077
+		ArgOfPericenter 51.94483
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 66.28367
+		AscendingNode -7.84923
+	}
+	InfoURL "http://arxiv.org/abs/2511.13832v1"
+}
+
 "TOI-3331 b:TOI-3331.01:b" "TYC 7399-00615-1"
 {
 	Class "planet"
@@ -142897,7 +143033,7 @@
 	Oblateness 0.06
 	EllipticalOrbit
 	{
-		Epoch 2458529.3279
+		Epoch 2459687.42951
 		Period 0.04954241
 		SemiMajorAxis 0.153
 		Eccentricity 0.883
@@ -143196,7 +143332,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459662.10795
-		Period 0.01077771
+		Period 0.0107777
 		SemiMajorAxis 0.04194
 		Inclination 66.82215
 		AscendingNode 359.42822
@@ -143249,8 +143385,8 @@
 	Radius 81586
 	EllipticalOrbit
 	{
-		Epoch 2459108.0507
-		Period 0.00888727
+		Epoch 2460124.07371
+		Period 0.00888725
 		SemiMajorAxis 0.0456
 		Inclination 73.77575
 		AscendingNode 39.57513
@@ -143275,8 +143411,8 @@
 	Radius 67240
 	EllipticalOrbit
 	{
-		Epoch 2458806.68164
-		Period 0.024883
+		Epoch 2460033.629
+		Period 0.02488299
 		SemiMajorAxis 0.0813
 		Inclination 67.78896
 		AscendingNode 16.64565
@@ -143440,7 +143576,7 @@
 	Radius 32747
 	EllipticalOrbit
 	{
-		Epoch 2458861.49553
+		Epoch 2459754.37157
 		Period 0.01279873
 		SemiMajorAxis 0.043
 		Eccentricity 0.11
@@ -143497,7 +143633,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459502.7437
-		Period 0.00888245
+		Period 0.00888243
 		SemiMajorAxis 0.04611
 		Inclination 103.1714
 		AscendingNode 112.39412
@@ -143856,8 +143992,8 @@
 	Radius 37780
 	EllipticalOrbit
 	{
-		Epoch 2459000.0523
-		Period 0.01482451
+		Epoch 2459574.00514
+		Period 0.0148245
 		SemiMajorAxis 0.058
 		Eccentricity 0.03
 		Inclination 69.1073
@@ -143867,7 +144003,7 @@
 	}
 	UniformRotation
 	{
-		Period 129.253685
+		Period 129.253568
 		Inclination 69.1073
 		AscendingNode 21.17051
 	}
@@ -143998,7 +144134,7 @@
 	Radius 84662
 	EllipticalOrbit
 	{
-		Epoch 2458990.46651
+		Epoch 2459971.28508
 		Period 0.01040825
 		SemiMajorAxis 0.05222
 		Inclination 88.26904
@@ -144025,7 +144161,7 @@
 	Radius 104167
 	EllipticalOrbit
 	{
-		Epoch 2459031.080547
+		Epoch 2459422.70506
 		Period 0.01002063
 		SemiMajorAxis 0.051
 		Eccentricity 0.03
@@ -144054,7 +144190,7 @@
 	Radius 82984
 	EllipticalOrbit
 	{
-		Epoch 2458925.88211
+		Epoch 2459962.82564
 		Period 0.01113331
 		SemiMajorAxis 0.04823
 		Inclination 75.55315
@@ -144266,8 +144402,8 @@
 	Radius 15411
 	EllipticalOrbit
 	{
-		Epoch 2458333.4284
-		Period 0.02505462
+		Epoch 2459120.4359
+		Period 0.02505467
 		SemiMajorAxis 0.07882
 		Inclination 69.81998
 		AscendingNode 324.54214
@@ -144291,8 +144427,8 @@
 	Radius 8155
 	EllipticalOrbit
 	{
-		Epoch 2458627.538
-		Period 0.00134168
+		Epoch 2458791.21953
+		Period 0.0013417
 		SemiMajorAxis 0.0113
 		Inclination 82.83833
 		AscendingNode 80.02216
@@ -144682,8 +144818,8 @@
 	Radius 17966
 	EllipticalOrbit
 	{
-		Epoch 2459420.7578
-		Period 0.0031729
+		Epoch 2460016.43991
+		Period 0.00317297
 		SemiMajorAxis 0.0164
 		Inclination 75.44327
 		AscendingNode 311.18746
@@ -144723,6 +144859,31 @@
 		AscendingNode -57.24759
 	}
 	InfoURL "http://arxiv.org/abs/2507.01855"
+}
+
+"TOI-4495 b:TOI-4495.01:b" "TYC 2652-01348-1"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	NightTexture "venuslikenight.*"
+	GeomAlbedo 0.05
+	Radius 23127
+	EllipticalOrbit
+	{
+		Epoch 2459444.567326
+		Period 0.0141903
+		SemiMajorAxis 0.06194
+		Inclination 83.56599
+		AscendingNode 285.07625
+		ArgOfPericenter 149.6131
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 83.56599
+		AscendingNode 285.07625
+	}
+	InfoURL "http://arxiv.org/abs/2308.09617"
 }
 
 "TOI-4504 b:TOI-4504.02:b" "TOI-4504"
@@ -144891,7 +145052,7 @@
 	Radius 29307
 	EllipticalOrbit
 	{
-		Epoch 2458416.63407
+		Epoch 2458727.5673
 		Period 0.04480474
 		SemiMajorAxis 0.1208
 		Inclination 121.13322
@@ -145167,8 +145328,8 @@
 	Radius 72847
 	EllipticalOrbit
 	{
-		Epoch 2459549.126
-		Period 0.01983844
+		Epoch 2459773.73917
+		Period 0.01983737
 		SemiMajorAxis 0.0888
 		Eccentricity 0.325
 		Inclination 87.31229
@@ -145178,7 +145339,7 @@
 	}
 	UniformRotation
 	{
-		Period 104.735439
+		Period 104.729816
 		Inclination 87.31229
 		AscendingNode 76.58602
 	}
@@ -145414,8 +145575,8 @@
 	Radius 69212
 	EllipticalOrbit
 	{
-		Epoch 2458511.6418
-		Period 0.02828504
+		Epoch 2459286.47818
+		Period 0.02828517
 		SemiMajorAxis 0.097
 		Eccentricity 0.149
 		Inclination 97.23069
@@ -145425,7 +145586,7 @@
 	}
 	UniformRotation
 	{
-		Period 218.721201
+		Period 218.722236
 		Inclination 97.23069
 		AscendingNode 108.79909
 	}
@@ -146180,8 +146341,8 @@
 	Radius 59058
 	EllipticalOrbit
 	{
-		Epoch 2458470.1998
-		Period 0.01748829
+		Epoch 2459664.67987
+		Period 0.01748825
 		SemiMajorAxis 0.052
 		Inclination 95.13527
 		AscendingNode 101.43845
@@ -146286,7 +146447,7 @@
 	Radius 49528
 	EllipticalOrbit
 	{
-		Epoch 2458470.576777
+		Epoch 2459831.66723
 		Period 0.00637002
 		SemiMajorAxis 0.0296
 		Inclination 87.65348
@@ -146666,7 +146827,7 @@
 	Radius 76273
 	EllipticalOrbit
 	{
-		Epoch 2458893.81305
+		Epoch 2459012.53958
 		Period 0.0191209
 		SemiMajorAxis 0.0723
 		Eccentricity 0.151
@@ -146746,7 +146907,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459238.46284
-		Period 0.02951085
+		Period 0.02951081
 		SemiMajorAxis 0.0889
 		Eccentricity 0.023
 		Inclination 109.71224
@@ -146756,7 +146917,7 @@
 	}
 	UniformRotation
 	{
-		Period 257.873593
+		Period 257.873258
 		Inclination 109.71224
 		AscendingNode 145.54033
 	}
@@ -146879,8 +147040,8 @@
 	Radius 71309
 	EllipticalOrbit
 	{
-		Epoch 2458518.20381
-		Period 0.00452059
+		Epoch 2459315.70642
+		Period 0.00452058
 		SemiMajorAxis 0.02734
 		Eccentricity 0.072
 		Inclination 98.28661
@@ -146890,7 +147051,7 @@
 	}
 	UniformRotation
 	{
-		Period 38.431578
+		Period 38.43156
 		Inclination 98.28661
 		AscendingNode 118.36124
 	}
@@ -147804,8 +147965,8 @@
 	Radius 57607
 	EllipticalOrbit
 	{
-		Epoch 2458520.69176
-		Period 0.01752913
+		Epoch 2459295.39747
+		Period 0.01752917
 		SemiMajorAxis 0.0708
 		Inclination 101.80432
 		AscendingNode 117.89004
@@ -148010,6 +148171,33 @@
 		AscendingNode 120.26849
 	}
 	InfoURL "https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/staf1455/8245869"
+}
+
+"TOI-6448 b:TOI-6448.01:b" "TOI-6448"
+{
+	Class "planet"
+	Texture "exo-class3.*"
+	Color [ 0.53 0.62 1 ]
+	GeomAlbedo 0.1
+	Radius 66738
+	EllipticalOrbit
+	{
+		Epoch 2459214.6125
+		Period 0.04064143
+		SemiMajorAxis 0.132
+		Eccentricity 0.2
+		Inclination 97.72014
+		AscendingNode 108.51449
+		ArgOfPericenter 160.91806
+		MeanAnomaly 335.26612
+	}
+	UniformRotation
+	{
+		Period 286.867662
+		Inclination 97.72014
+		AscendingNode 108.51449
+	}
+	InfoURL "http://arxiv.org/abs/2511.10734"
 }
 
 "TOI-6478 b:TOI-6478.01:b" "TOI-6478"
@@ -148279,8 +148467,8 @@
 	Radius 29307
 	EllipticalOrbit
 	{
-		Epoch 2458546.4799
-		Period 0.00994819
+		Epoch 2459265.92853
+		Period 0.0099482
 		SemiMajorAxis 0.03829
 		Inclination 111.8067
 		AscendingNode 165.75528
@@ -148305,8 +148493,8 @@
 	Radius 32705
 	EllipticalOrbit
 	{
-		Epoch 2458544.523792
-		Period 0.00541327
+		Epoch 2459062.541166
+		Period 0.00541318
 		SemiMajorAxis 0.025
 		Inclination 110.60886
 		AscendingNode 161.10286
@@ -148414,8 +148602,8 @@
 	Radius 16565
 	EllipticalOrbit
 	{
-		Epoch 2458821.62181
-		Period 0.04394562
+		Epoch 2459174.7459
+		Period 0.0439455
 		SemiMajorAxis 0.0929
 		Eccentricity 0.068
 		Inclination 91.76186
@@ -148425,7 +148613,7 @@
 	}
 	UniformRotation
 	{
-		Period 374.82436
+		Period 374.823372
 		Inclination 91.76186
 		AscendingNode 96.4916
 	}
@@ -148707,22 +148895,24 @@
 	Texture "exo-class3.*"
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
-	Mass 7.945
-	Radius 45792
+	Mass 18.1
+	Radius 27188
 	EllipticalOrbit
 	{
 		Epoch 2460847.17609
-		Period 0.03150587
-		SemiMajorAxis 0.10055
-		Inclination 87.97458
-		AscendingNode 272.51736
-		ArgOfPericenter 58.98861
-		MeanAnomaly 90
+		Period 0.03154538
+		SemiMajorAxis 0.1019
+		Eccentricity 0.0572
+		Inclination 91.21952
+		AscendingNode 93.85745
+		ArgOfPericenter 36.94934
+		MeanAnomaly 354.74605
 	}
 	UniformRotation
 	{
-		Inclination 87.97458
-		AscendingNode -87.48264
+		Period 271.201539
+		Inclination 91.21952
+		AscendingNode 93.85745
 	}
 	InfoURL "http://arxiv.org/abs/2510.19162"
 }
@@ -148733,22 +148923,24 @@
 	Texture "exo-class3.*"
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
-	Mass 128.175
-	Radius 59150
+	Mass 131
+	Radius 59392
 	EllipticalOrbit
 	{
 		Epoch 2460830.759391
-		Period 0.06177799
-		SemiMajorAxis 0.15754
-		Inclination 88.429
-		AscendingNode 273.27331
-		ArgOfPericenter 58.96489
-		MeanAnomaly 90
+		Period 0.06177057
+		SemiMajorAxis 0.1595
+		Eccentricity 0.0091
+		Inclination 91.35916
+		AscendingNode 93.62542
+		ArgOfPericenter 128.04412
+		MeanAnomaly 264.03586
 	}
 	UniformRotation
 	{
-		Inclination 88.429
-		AscendingNode -86.72669
+		Period 541.211892
+		Inclination 91.35916
+		AscendingNode 93.62542
 	}
 	InfoURL "http://arxiv.org/abs/2510.19162"
 }
@@ -148759,22 +148951,25 @@
 	Texture "exo-class3.*"
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
-	Mass 245.609
-	Radius 65296
+	Mass 190
+	Radius 63136
+	Oblateness 0.05
 	EllipticalOrbit
 	{
 		Epoch 2460794.945415
-		Period 0.13394771
-		SemiMajorAxis 0.26397
-		Inclination 88.17295
-		AscendingNode 272.84746
-		ArgOfPericenter 58.97751
-		MeanAnomaly 90
+		Period 0.13392909
+		SemiMajorAxis 0.2672
+		Eccentricity 0.04
+		Inclination 90.81263
+		AscendingNode 93.81599
+		ArgOfPericenter 279.04475
+		MeanAnomaly 107.70285
 	}
 	UniformRotation
 	{
-		Inclination 88.17295
-		AscendingNode -87.15254
+		Period 12.790631
+		Inclination 90.81263
+		AscendingNode 93.81599
 	}
 	InfoURL "http://arxiv.org/abs/2510.19162"
 }
@@ -149103,8 +149298,8 @@
 	Radius 18642
 	EllipticalOrbit
 	{
-		Epoch 2458597.81419
-		Period 0.00381377
+		Epoch 2459170.32685
+		Period 0.00381376
 		SemiMajorAxis 0.02177
 		Inclination 102.89617
 		AscendingNode 219.743
@@ -149363,8 +149558,8 @@
 	Radius 74805
 	EllipticalOrbit
 	{
-		Epoch 2458475.689
-		Period 0.02909394
+		Epoch 2459123.91295
+		Period 0.0290941
 		SemiMajorAxis 0.092
 		Eccentricity 0.172
 		Inclination 97.45865
@@ -149374,7 +149569,7 @@
 	}
 	UniformRotation
 	{
-		Period 216.432765
+		Period 216.434007
 		Inclination 97.45865
 		AscendingNode 78.56315
 	}
@@ -149441,8 +149636,8 @@
 	Radius 81866
 	EllipticalOrbit
 	{
-		Epoch 2458628.35101
-		Period 0.01023818
+		Epoch 2459611.85687
+		Period 0.01023837
 		SemiMajorAxis 0.04666
 		Eccentricity 0.024
 		Inclination 102.02562
@@ -149452,7 +149647,7 @@
 	}
 	UniformRotation
 	{
-		Period 89.438744
+		Period 89.440457
 		Inclination 102.02562
 		AscendingNode -132.53463
 	}
@@ -149546,18 +149741,18 @@
 	Radius 15627
 	EllipticalOrbit
 	{
-		Epoch 2458625.2133
-		Period 0.03038643
+		Epoch 2459335.5692
+		Period 0.03038837
 		SemiMajorAxis 0.09095
-		Inclination 102.5884
-		AscendingNode 236.45351
+		Inclination 102.58843
+		AscendingNode 236.45353
 		ArgOfPericenter 28.56055
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 102.5884
-		AscendingNode -123.54649
+		Inclination 102.58843
+		AscendingNode -123.54647
 	}
 	InfoURL "http://arxiv.org/abs/2301.09865"
 }
@@ -149570,8 +149765,8 @@
 	Radius 24498
 	EllipticalOrbit
 	{
-		Epoch 2458441.579
-		Period 0.01183904
+		Epoch 2458861.0223
+		Period 0.01183895
 		SemiMajorAxis 0.04866
 		Eccentricity 0.34
 		Inclination 83.00468
@@ -149581,7 +149776,7 @@
 	}
 	UniformRotation
 	{
-		Period 60.063723
+		Period 60.063265
 		Inclination 83.00468
 		AscendingNode 77.33356
 	}
@@ -149597,7 +149792,7 @@
 	Radius 29307
 	EllipticalOrbit
 	{
-		Epoch 2458447.0563
+		Epoch 2459015.8088
 		Period 0.02780636
 		SemiMajorAxis 0.08598
 		Eccentricity 0.32
@@ -149904,7 +150099,7 @@
 	Radius 76832
 	EllipticalOrbit
 	{
-		Epoch 2456368.37915
+		Epoch 2457322.85268
 		Period 0.00829588
 		SemiMajorAxis 0.0393
 		Eccentricity 0.0059
@@ -149915,7 +150110,7 @@
 	}
 	UniformRotation
 	{
-		Period 72.706496
+		Period 72.706484
 		Inclination 71.01748
 		AscendingNode 256.78579
 	}
@@ -149934,7 +150129,7 @@
 	Radius 81726
 	EllipticalOrbit
 	{
-		Epoch 2455148.47118
+		Epoch 2455714.2416097
 		Period 0.00676417
 		SemiMajorAxis 0.03556
 		Inclination 92.29917
@@ -149989,8 +150184,8 @@
 	Radius 106405
 	EllipticalOrbit
 	{
-		Epoch 2455364.6085
-		Period 0.00973012
+		Epoch 2458168.65881
+		Period 0.00973013
 		SemiMajorAxis 0.0516
 		Inclination 93.67028
 		AscendingNode 259.54085
@@ -149999,7 +150194,7 @@
 	}
 	UniformRotation
 	{
-		Period 85.294238
+		Period 85.294291
 		Inclination 93.67028
 		AscendingNode 259.54085
 	}
@@ -150017,7 +150212,7 @@
 	Radius 84522
 	EllipticalOrbit
 	{
-		Epoch 2456833.6008
+		Epoch 2457774.827187
 		Period 0.00405817
 		SemiMajorAxis 0.02446
 		Inclination 82.05243
@@ -150074,16 +150269,16 @@
 		Epoch 2460676.5
 		Period 552.63950496
 		SemiMajorAxis 52
-		Inclination 51.79355
-		AscendingNode 87.61009
-		ArgOfPericenter 61.47463
-		MeanAnomaly 315
+		Inclination 58.78628
+		AscendingNode 100.97174
+		ArgOfPericenter 53.82862
+		MeanAnomaly 314.25627
 	}
 	UniformRotation
 	{
 		Period 18.776762
-		Inclination 51.79355
-		AscendingNode 87.61009
+		Inclination 58.78628
+		AscendingNode 100.97174
 	}
 	InfoURL "http://arxiv.org/abs/2506.19932"
 }
@@ -150917,7 +151112,7 @@
 	Radius 103748
 	EllipticalOrbit
 	{
-		Epoch 2455215.32701
+		Epoch 2457294.28313
 		Period 0.00689924
 		SemiMajorAxis 0.0382
 		Inclination 135.84309
@@ -150973,8 +151168,8 @@
 	Radius 118150
 	EllipticalOrbit
 	{
-		Epoch 2458500.5573
-		Period 0.00780119
+		Epoch 2459155.915193
+		Period 0.00780118
 		SemiMajorAxis 0.0457
 		Inclination 77.18167
 		AscendingNode 151.16806
@@ -151000,7 +151195,7 @@
 	Radius 98575
 	EllipticalOrbit
 	{
-		Epoch 2456297.36537
+		Epoch 2458470.303794
 		Period 0.00981713
 		SemiMajorAxis 0.0506
 		Inclination 66.54555
@@ -151055,7 +151250,7 @@
 	Radius 112067
 	EllipticalOrbit
 	{
-		Epoch 2456459.599285
+		Epoch 2457497.135821
 		Period 0.00253401
 		SemiMajorAxis 0.01978
 		Inclination 95.95145
@@ -151065,7 +151260,7 @@
 	}
 	UniformRotation
 	{
-		Epoch 2456459.599285
+		Epoch 2457497.135821
 		Inclination 95.95145
 		AscendingNode 248.52694
 		MeridianAngle 208.99865
@@ -151084,7 +151279,7 @@
 	Radius 79489
 	EllipticalOrbit
 	{
-		Epoch 2457805.170208
+		Epoch 2457950.868907
 		Period 0.00480604
 		SemiMajorAxis 0.02918
 		Inclination 111.80883
@@ -151110,8 +151305,8 @@
 	Radius 69951
 	EllipticalOrbit
 	{
-		Epoch 2456600.0765
-		Period 0.02155477
+		Epoch 2458190.40155
+		Period 0.0215548
 		SemiMajorAxis 0.075
 		Inclination 75.73383
 		AscendingNode 13.32234
@@ -151137,8 +151332,8 @@
 	Radius 76902
 	EllipticalOrbit
 	{
-		Epoch 2456649.54972
-		Period 0.02543384
+		Epoch 2457940.81962
+		Period 0.02543383
 		SemiMajorAxis 0.0917
 		Inclination 113.55862
 		AscendingNode 163.83271
@@ -151159,8 +151354,8 @@
 	Texture "exo-class3.*"
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
-	Mass 30.5
-	Radius 37684
+	Mass 33.021
+	Radius 39156
 	EllipticalOrbit
 	{
 		Epoch 2459958.747244
@@ -151275,7 +151470,7 @@
 	Radius 73057
 	EllipticalOrbit
 	{
-		Epoch 2456200.28683
+		Epoch 2457376.590254
 		Period 0.01019159
 		SemiMajorAxis 0.0439
 		Inclination 67.91621
@@ -151302,7 +151497,7 @@
 	Radius 86550
 	EllipticalOrbit
 	{
-		Epoch 2457934.73871
+		Epoch 2459876.83674
 		Period 0.0103447
 		SemiMajorAxis 0.0457
 		Inclination 75.72017
@@ -151383,7 +151578,7 @@
 	Radius 98505
 	EllipticalOrbit
 	{
-		Epoch 2457197.097459
+		Epoch 2457251.604213
 		Period 0.01243578
 		SemiMajorAxis 0.05885
 		Inclination 109.19689
@@ -151410,8 +151605,8 @@
 	Radius 93611
 	EllipticalOrbit
 	{
-		Epoch 2457242.33222
-		Period 0.00424032
+		Epoch 2458249.03575
+		Period 0.00424031
 		SemiMajorAxis 0.02851
 		Eccentricity 0.012
 		Inclination 72.86572
@@ -151421,7 +151616,7 @@
 	}
 	UniformRotation
 	{
-		Period 37.138517
+		Period 37.138506
 		Inclination 72.86572
 		AscendingNode -40.40818
 	}
@@ -151466,8 +151661,8 @@
 	Radius 71379
 	EllipticalOrbit
 	{
-		Epoch 2456533.82326
-		Period 0.02743778
+		Epoch 2458768.416527
+		Period 0.02743489
 		SemiMajorAxis 0.09459
 		Eccentricity 0.276
 		Inclination 93.41434
@@ -151477,7 +151672,7 @@
 	}
 	UniformRotation
 	{
-		Period 163.853925
+		Period 163.836634
 		Inclination 93.41434
 		AscendingNode 357.07301
 	}
@@ -151495,8 +151690,8 @@
 	Radius 100672
 	EllipticalOrbit
 	{
-		Epoch 2456787.81423
-		Period 0.01107746
+		Epoch 2457961.16877
+		Period 0.01107748
 		SemiMajorAxis 0.05453
 		Inclination 67.89976
 		AscendingNode 20.1763
@@ -151522,7 +151717,7 @@
 	Radius 94673
 	EllipticalOrbit
 	{
-		Epoch 2458924.8626
+		Epoch 2459307.332894
 		Period 0.00684409
 		SemiMajorAxis 0.03851
 		Inclination 74.12014
@@ -151532,7 +151727,7 @@
 	}
 	UniformRotation
 	{
-		Period 59.995308
+		Period 59.99531
 		Inclination 74.12014
 		AscendingNode 57.90844
 	}
@@ -151552,7 +151747,7 @@
 	Radius 131712
 	EllipticalOrbit
 	{
-		Epoch 2456722.378206
+		Epoch 2457368.4973
 		Period 0.00298814
 		SemiMajorAxis 0.02399
 		Inclination 35.9398
@@ -151562,7 +151757,7 @@
 	}
 	UniformRotation
 	{
-		Epoch 2456722.378206
+		Epoch 2457368.4973
 		Inclination 35.9398
 		AscendingNode 78.46087
 		MeridianAngle 198.56136
@@ -151582,7 +151777,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2456912.35261
-		Period 0.00988712
+		Period 0.00988711
 		SemiMajorAxis 0.0522
 		Eccentricity 0.059
 		Inclination 72.79299
@@ -151592,7 +151787,7 @@
 	}
 	UniformRotation
 	{
-		Period 84.896875
+		Period 84.896793
 		Inclination 72.79299
 		AscendingNode 59.34104
 	}
@@ -151611,7 +151806,7 @@
 	Radius 119688
 	EllipticalOrbit
 	{
-		Epoch 2457404.48798
+		Epoch 2458629.690691
 		Period 0.00349055
 		SemiMajorAxis 0.02571
 		Inclination 116.11523
@@ -151621,7 +151816,7 @@
 	}
 	UniformRotation
 	{
-		Epoch 2457404.48798
+		Epoch 2458629.690691
 		Inclination 116.11523
 		AscendingNode 16.09572
 		MeridianAngle 443.86058
@@ -151641,7 +151836,7 @@
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2459252.535529
+		Epoch 2458939.595724
 		Period 0.00468187
 		SemiMajorAxis 0.03024
 		Inclination 87.79062
@@ -151651,7 +151846,7 @@
 	}
 	UniformRotation
 	{
-		Period 41.041283
+		Period 41.041279
 		Inclination 87.79062
 		AscendingNode 102.58091
 	}
@@ -151669,8 +151864,8 @@
 	Radius 92772
 	EllipticalOrbit
 	{
-		Epoch 2456845.17082
-		Period 0.00815234
+		Epoch 2459096.27032
+		Period 0.00815235
 		SemiMajorAxis 0.0431
 		Inclination 81.61096
 		AscendingNode 283.7357
@@ -151679,7 +151874,7 @@
 	}
 	UniformRotation
 	{
-		Period 71.463384
+		Period 71.463457
 		Inclination 81.61096
 		AscendingNode -76.2643
 	}
@@ -151697,7 +151892,7 @@
 	Radius 86690
 	EllipticalOrbit
 	{
-		Epoch 2457173.60811
+		Epoch 2458421.488636
 		Period 0.00923381
 		SemiMajorAxis 0.0449
 		Inclination 68.10426
@@ -151707,7 +151902,7 @@
 	}
 	UniformRotation
 	{
-		Period 80.943581
+		Period 80.943595
 		Inclination 68.10426
 		AscendingNode -33.1001
 	}
@@ -151725,7 +151920,7 @@
 	Radius 67115
 	EllipticalOrbit
 	{
-		Epoch 2457758.5601
+		Epoch 2459123.407077
 		Period 0.00900421
 		SemiMajorAxis 0.0449
 		Inclination 77.3937
@@ -151735,7 +151930,7 @@
 	}
 	UniformRotation
 	{
-		Period 78.930924
+		Period 78.930893
 		Inclination 77.3937
 		AscendingNode 65.31654
 	}
@@ -151753,8 +151948,8 @@
 	Radius 90395
 	EllipticalOrbit
 	{
-		Epoch 2456776.62124
-		Period 0.01143891
+		Epoch 2458627.503255
+		Period 0.01143892
 		SemiMajorAxis 0.0484
 		Inclination 118.03401
 		AscendingNode 351.98298
@@ -151780,8 +151975,8 @@
 	Radius 65017
 	EllipticalOrbit
 	{
-		Epoch 2457027.4373
-		Period 0.01573756
+		Epoch 2458642.66427
+		Period 0.01573754
 		SemiMajorAxis 0.0628
 		Inclination 105.16011
 		AscendingNode 180.58757
@@ -151790,7 +151985,7 @@
 	}
 	UniformRotation
 	{
-		Period 137.95548
+		Period 137.95526
 		Inclination 105.16011
 		AscendingNode 180.58757
 	}
@@ -151808,8 +152003,8 @@
 	Radius 98365
 	EllipticalOrbit
 	{
-		Epoch 2455305.62823
-		Period 0.0119179
+		Epoch 2457473.42766
+		Period 0.01191789
 		SemiMajorAxis 0.0552
 		Inclination 101.52532
 		AscendingNode 130.65073
@@ -151834,7 +152029,7 @@
 	Radius 68321
 	EllipticalOrbit
 	{
-		Epoch 2458596.0348
+		Epoch 2458353.46406
 		Period 0.03162483
 		SemiMajorAxis 0.1012
 		Eccentricity 0.043
@@ -151845,7 +152040,7 @@
 	}
 	UniformRotation
 	{
-		Period 274.181078
+		Period 274.181111
 		Inclination 115.57119
 		AscendingNode 200.26203
 	}
@@ -151863,8 +152058,8 @@
 	Radius 85711
 	EllipticalOrbit
 	{
-		Epoch 2458282.2588
-		Period 0.01457088
+		Epoch 2459000.73076
+		Period 0.01457087
 		SemiMajorAxis 0.0608
 		Inclination 56.62691
 		AscendingNode 34.00392
@@ -151927,7 +152122,7 @@
 	}
 	UniformRotation
 	{
-		Period 170.9319
+		Period 170.931835
 		Inclination 108.09151
 		AscendingNode -140.45808
 	}
@@ -151975,7 +152170,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2457262.80855
-		Period 0.00595872
+		Period 0.00595873
 		SemiMajorAxis 0.0345
 		Inclination 73.06892
 		AscendingNode 309.84369
@@ -151984,7 +152179,7 @@
 	}
 	UniformRotation
 	{
-		Period 52.234154
+		Period 52.234187
 		Inclination 73.06892
 		AscendingNode -50.15631
 	}
@@ -152060,8 +152255,8 @@
 	Radius 90884
 	EllipticalOrbit
 	{
-		Epoch 2458606.9117
-		Period 0.00383677
+		Epoch 2460585.6563426
+		Period 0.00383676
 		SemiMajorAxis 0.0243
 		Inclination 97.84258
 		AscendingNode 262.42119
@@ -152087,8 +152282,8 @@
 	Radius 104866
 	EllipticalOrbit
 	{
-		Epoch 2456776.9055
-		Period 0.01427887
+		Epoch 2459473.24591
+		Period 0.01427888
 		SemiMajorAxis 0.0661
 		Inclination 103.7154
 		AscendingNode 351.80003
@@ -152197,7 +152392,7 @@
 	Radius 85012
 	EllipticalOrbit
 	{
-		Epoch 2455643.79792
+		Epoch 2457676.650366
 		Period 0.0061431
 		SemiMajorAxis 0.036
 		Eccentricity 0.087
@@ -152208,7 +152403,7 @@
 	}
 	UniformRotation
 	{
-		Period 51.509552
+		Period 51.509556
 		Inclination 136.24777
 		AscendingNode 242.696
 	}
@@ -152226,7 +152421,7 @@
 	Radius 96477
 	EllipticalOrbit
 	{
-		Epoch 2456912.35105
+		Epoch 2458546.856513
 		Period 0.00612179
 		SemiMajorAxis 0.0323
 		Eccentricity 0.047
@@ -152237,7 +152432,7 @@
 	}
 	UniformRotation
 	{
-		Period 52.961543
+		Period 52.961564
 		Inclination 75.08395
 		AscendingNode 56.57242
 	}
@@ -152255,8 +152450,8 @@
 	Radius 84592
 	EllipticalOrbit
 	{
-		Epoch 2457019.5953
-		Period 0.00906407
+		Epoch 2458175.01879
+		Period 0.00906411
 		SemiMajorAxis 0.0469
 		Inclination 81.34121
 		AscendingNode 71.35313
@@ -152283,7 +152478,7 @@
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2457007.7779
+		Epoch 2458588.48837
 		Period 0.00562045
 		SemiMajorAxis 0.0347
 		Inclination 101.55935
@@ -152337,8 +152532,8 @@
 	Radius 59424
 	EllipticalOrbit
 	{
-		Epoch 2457157.27493
-		Period 0.00623769
+		Epoch 2458312.38049
+		Period 0.00623768
 		SemiMajorAxis 0.0316
 		Inclination 70.79288
 		AscendingNode 315.36954
@@ -152364,7 +152559,7 @@
 	Radius 62920
 	EllipticalOrbit
 	{
-		Epoch 2456844.16526
+		Epoch 2459223.52249
 		Period 0.00484336
 		SemiMajorAxis 0.0261
 		Inclination 67.05715
@@ -152418,8 +152613,8 @@
 	Radius 77951
 	EllipticalOrbit
 	{
-		Epoch 2456562.595
-		Period 0.01260159
+		Epoch 2459190.76243
+		Period 0.01260163
 		SemiMajorAxis 0.0549
 		Inclination 65.79783
 		AscendingNode 356.98114
@@ -152428,7 +152623,7 @@
 	}
 	UniformRotation
 	{
-		Period 110.46552
+		Period 110.465868
 		Inclination 65.79783
 		AscendingNode -3.01886
 	}
@@ -152447,7 +152642,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2457957.48166
-		Period 0.02410278
+		Period 0.02410352
 		SemiMajorAxis 0.08215
 		Eccentricity 0.208
 		Inclination 81.28158
@@ -152457,7 +152652,7 @@
 	}
 	UniformRotation
 	{
-		Period 167.429758
+		Period 167.434931
 		Inclination 81.28158
 		AscendingNode 83.3012
 	}
@@ -152530,7 +152725,7 @@
 	Radius 99833
 	EllipticalOrbit
 	{
-		Epoch 2455890.4286
+		Epoch 2456479.50824
 		Period 0.01027269
 		SemiMajorAxis 0.0499
 		Inclination 106.26598
@@ -152557,8 +152752,8 @@
 	Radius 74805
 	EllipticalOrbit
 	{
-		Epoch 2457217.2614
-		Period 0.015453
+		Epoch 2458662.18076
+		Period 0.01545301
 		SemiMajorAxis 0.0694
 		Eccentricity 0.3775
 		Inclination 97.73162
@@ -152568,7 +152763,7 @@
 	}
 	UniformRotation
 	{
-		Period 70.682786
+		Period 70.682861
 		Inclination 97.73162
 		AscendingNode -96.60036
 	}
@@ -152587,7 +152782,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2457741.0081
-		Period 0.01241197
+		Period 0.01241196
 		SemiMajorAxis 0.055
 		Inclination 67.0833
 		AscendingNode 347.2415
@@ -152596,7 +152791,7 @@
 	}
 	UniformRotation
 	{
-		Period 108.803304
+		Period 108.803244
 		Inclination 67.0833
 		AscendingNode -12.7585
 	}
@@ -152614,7 +152809,7 @@
 	Radius 108362
 	EllipticalOrbit
 	{
-		Epoch 2453142.542
+		Epoch 2459294.53954
 		Period 0.00912419
 		SemiMajorAxis 0.048
 		Inclination 91.59675
@@ -152624,7 +152819,7 @@
 	}
 	UniformRotation
 	{
-		Period 79.982616
+		Period 79.98263
 		Inclination 91.59675
 		AscendingNode -84.14907
 	}
@@ -152724,8 +152919,8 @@
 	Radius 73057
 	EllipticalOrbit
 	{
-		Epoch 2457222.23863
-		Period 0.01081895
+		Epoch 2457826.835939
+		Period 0.01081893
 		SemiMajorAxis 0.0529
 		Inclination 111.68896
 		AscendingNode 198.64356
@@ -152751,7 +152946,7 @@
 	Radius 74805
 	EllipticalOrbit
 	{
-		Epoch 2457619.9195
+		Epoch 2459265.26862
 		Period 0.01001049
 		SemiMajorAxis 0.0517
 		Inclination 66.13785
@@ -152778,8 +152973,8 @@
 	Radius 96477
 	EllipticalOrbit
 	{
-		Epoch 2457668.0849
-		Period 0.01051444
+		Epoch 2458689.63686
+		Period 0.01051449
 		SemiMajorAxis 0.0538
 		Inclination 79.83889
 		AscendingNode 68.85917
@@ -152805,7 +153000,7 @@
 	Radius 70470
 	EllipticalOrbit
 	{
-		Epoch 2455732.07584
+		Epoch 2456399.45699
 		Period 0.00853827
 		SemiMajorAxis 0.0421
 		Inclination 97.60441
@@ -152832,8 +153027,8 @@
 	Radius 76413
 	EllipticalOrbit
 	{
-		Epoch 2457383.65494
-		Period 0.01031757
+		Epoch 2458879.7478
+		Period 0.01031758
 		SemiMajorAxis 0.04536
 		Inclination 88.0935
 		AscendingNode 87.07498
@@ -152842,7 +153037,7 @@
 	}
 	UniformRotation
 	{
-		Period 90.443844
+		Period 90.443864
 		Inclination 88.0935
 		AscendingNode 87.07498
 	}
@@ -152887,8 +153082,8 @@
 	Radius 70458
 	EllipticalOrbit
 	{
-		Epoch 2457701.3816
-		Period 0.02635094
+		Epoch 2458837.09316
+		Period 0.02635091
 		SemiMajorAxis 0.0871
 		Eccentricity 0.434
 		Inclination 111.82976
@@ -152898,7 +153093,7 @@
 	}
 	UniformRotation
 	{
-		Period 101.975603
+		Period 101.975478
 		Inclination 111.82976
 		AscendingNode 167.24724
 	}
@@ -152916,7 +153111,7 @@
 	Radius 84033
 	EllipticalOrbit
 	{
-		Epoch 2457918.462
+		Epoch 2459446.05704
 		Period 0.00440709
 		SemiMajorAxis 0.0266
 		Inclination 96.27939
@@ -152943,8 +153138,8 @@
 	Radius 78860
 	EllipticalOrbit
 	{
-		Epoch 2457747.6583
-		Period 0.00486553
+		Epoch 2458906.35171
+		Period 0.00486554
 		SemiMajorAxis 0.02818
 		Inclination 61.61278
 		AscendingNode 338.73255
@@ -152953,7 +153148,7 @@
 	}
 	UniformRotation
 	{
-		Period 42.651271
+		Period 42.651287
 		Inclination 61.61278
 		AscendingNode -21.26745
 	}
@@ -152971,8 +153166,8 @@
 	Radius 88088
 	EllipticalOrbit
 	{
-		Epoch 2457649.71142
-		Period 0.00948805
+		Epoch 2459070.56959
+		Period 0.00948804
 		SemiMajorAxis 0.04823
 		Inclination 65.26807
 		AscendingNode 351.96562
@@ -152981,7 +153176,7 @@
 	}
 	UniformRotation
 	{
-		Period 83.172216
+		Period 83.172142
 		Inclination 65.26807
 		AscendingNode -8.03438
 	}
@@ -152999,7 +153194,7 @@
 	Radius 43030
 	EllipticalOrbit
 	{
-		Epoch 2458540.74035
+		Epoch 2459155.85962
 		Period 0.0149036
 		SemiMajorAxis 0.0642
 		Inclination 108.31734
@@ -153027,7 +153222,7 @@
 	Oblateness 0.03
 	EllipticalOrbit
 	{
-		Epoch 2465592.18253
+		Epoch 2458612.4016
 		Period 0.00553582
 		SemiMajorAxis 0.0365
 		Inclination 74.49375
@@ -153054,7 +153249,7 @@
 	Radius 104866
 	EllipticalOrbit
 	{
-		Epoch 2457424.5278
+		Epoch 2459110.91369
 		Period 0.0113721
 		SemiMajorAxis 0.0519
 		Inclination 87.4238
@@ -153081,8 +153276,8 @@
 	Radius 91164
 	EllipticalOrbit
 	{
-		Epoch 2457697.0176
-		Period 0.01536321
+		Epoch 2458763.18827
+		Period 0.01536323
 		SemiMajorAxis 0.0681
 		Inclination 102.84546
 		AscendingNode 123.18685
@@ -153138,8 +153333,8 @@
 	Radius 76622
 	EllipticalOrbit
 	{
-		Epoch 2457802.3915
-		Period 0.00641966
+		Epoch 2459265.53377
+		Period 0.00641965
 		SemiMajorAxis 0.0337
 		Inclination 103.29335
 		AscendingNode 128.78992
@@ -153165,7 +153360,7 @@
 	Radius 68513
 	EllipticalOrbit
 	{
-		Epoch 2458059.8295
+		Epoch 2458693.72031
 		Period 0.01045482
 		SemiMajorAxis 0.0504
 		Inclination 111.96928
@@ -153192,7 +153387,7 @@
 	Radius 109760
 	EllipticalOrbit
 	{
-		Epoch 2457032.2617
+		Epoch 2459173.93855
 		Period 0.01499639
 		SemiMajorAxis 0.0694
 		Inclination 32.49527
@@ -153246,8 +153441,8 @@
 	Radius 84452
 	EllipticalOrbit
 	{
-		Epoch 2457143.78886
-		Period 0.00839231
+		Epoch 2458559.95607
+		Period 0.00839232
 		SemiMajorAxis 0.04403
 		Inclination 109.69312
 		AscendingNode 161.34269
@@ -153273,8 +153468,8 @@
 	Radius 105216
 	EllipticalOrbit
 	{
-		Epoch 2458234.1771
-		Period 0.01067502
+		Epoch 2459193.34636
+		Period 0.01067504
 		SemiMajorAxis 0.0535
 		Inclination 75.56364
 		AscendingNode 308.15706
@@ -153300,8 +153495,8 @@
 	Radius 110459
 	EllipticalOrbit
 	{
-		Epoch 2457994.3714
-		Period 0.00840992
+		Epoch 2459342.85724
+		Period 0.00840991
 		SemiMajorAxis 0.03957
 		Inclination 69.89304
 		AscendingNode 326.68371
@@ -153354,7 +153549,7 @@
 	Radius 83376
 	EllipticalOrbit
 	{
-		Epoch 2458375.169847
+		Epoch 2458793.174725
 		Period 0.00257756
 		SemiMajorAxis 0.02047
 		Eccentricity 0.00852
@@ -153365,7 +153560,7 @@
 	}
 	UniformRotation
 	{
-		Period 22.58502
+		Period 22.585021
 		Inclination 56.83271
 		AscendingNode 35.04229
 	}
@@ -153383,7 +153578,7 @@
 	Radius 90185
 	EllipticalOrbit
 	{
-		Epoch 2457763.3147
+		Epoch 2458663.360848
 		Period 0.00933406
 		SemiMajorAxis 0.048
 		Inclination 101.26947
@@ -153410,8 +153605,8 @@
 	Radius 82775
 	EllipticalOrbit
 	{
-		Epoch 2457747.66681
-		Period 0.01237373
+		Epoch 2459166.79292
+		Period 0.01237372
 		SemiMajorAxis 0.05427
 		Inclination 68.98852
 		AscendingNode 27.11929
@@ -153437,8 +153632,8 @@
 	Radius 59424
 	EllipticalOrbit
 	{
-		Epoch 2458018.66018
-		Period 0.00924568
+		Epoch 2458943.95572
+		Period 0.00924569
 		SemiMajorAxis 0.0451
 		Inclination 72.25659
 		AscendingNode 303.33665
@@ -153464,8 +153659,8 @@
 	Radius 102769
 	EllipticalOrbit
 	{
-		Epoch 2457796.1845
-		Period 0.01125743
+		Epoch 2459732.8256
+		Period 0.0112574
 		SemiMajorAxis 0.04632
 		Inclination 111.77077
 		AscendingNode 157.51331
@@ -153491,7 +153686,7 @@
 	Radius 92982
 	EllipticalOrbit
 	{
-		Epoch 2457630.008
+		Epoch 2459070.5284
 		Period 0.01418672
 		SemiMajorAxis 0.0627
 		Inclination 109.25618
@@ -153518,8 +153713,8 @@
 	Radius 87389
 	EllipticalOrbit
 	{
-		Epoch 2456935.982
-		Period 0.02570171
+		Epoch 2458597.5532
+		Period 0.02570131
 		SemiMajorAxis 0.0904
 		Eccentricity 0.24
 		Inclination 108.88269
@@ -153529,7 +153724,7 @@
 	}
 	UniformRotation
 	{
-		Period 166.807902
+		Period 166.805308
 		Inclination 108.88269
 		AscendingNode -146.97161
 	}
@@ -153547,8 +153742,8 @@
 	Radius 77601
 	EllipticalOrbit
 	{
-		Epoch 2456237.1195
-		Period 0.01376263
+		Epoch 2459494.4842
+		Period 0.01376262
 		SemiMajorAxis 0.06
 		Eccentricity 0.33
 		Inclination 79.10885
@@ -153558,7 +153753,7 @@
 	}
 	UniformRotation
 	{
-		Period 71.708314
+		Period 71.708285
 		Inclination 79.10885
 		AscendingNode 16.73127
 	}
@@ -153576,8 +153771,8 @@
 	Radius 114654
 	EllipticalOrbit
 	{
-		Epoch 2458769.9841
-		Period 0.01409422
+		Epoch 2459537.01832
+		Period 0.01409414
 		SemiMajorAxis 0.0653
 		Inclination 70.69921
 		AscendingNode 10.07297
@@ -153630,8 +153825,8 @@
 	Radius 111858
 	EllipticalOrbit
 	{
-		Epoch 2459016.434866
-		Period 0.007458
+		Epoch 2459065.46736
+		Period 0.00745799
 		SemiMajorAxis 0.0504
 		Inclination 24.1314
 		AscendingNode 172.93461
@@ -153670,7 +153865,7 @@
 	}
 	UniformRotation
 	{
-		Period 18.929737
+		Period 18.929732
 		Inclination 105.80022
 		AscendingNode 130.64359
 	}
@@ -153688,8 +153883,8 @@
 	Radius 80398
 	EllipticalOrbit
 	{
-		Epoch 2457799.1256
-		Period 0.01469611
+		Epoch 2459087.38943
+		Period 0.01469614
 		SemiMajorAxis 0.0663
 		Inclination 50.45238
 		AscendingNode 24.33551
@@ -153715,8 +153910,8 @@
 	Radius 85991
 	EllipticalOrbit
 	{
-		Epoch 2457271.3331
-		Period 0.00788139
+		Epoch 2459790.16891
+		Period 0.00788137
 		SemiMajorAxis 0.0408
 		Inclination 103.88473
 		AscendingNode 219.19622
@@ -153852,7 +154047,7 @@
 	Radius 75853
 	EllipticalOrbit
 	{
-		Epoch 2455097.75755
+		Epoch 2455573.398556
 		Period 0.00589246
 		SemiMajorAxis 0.03138
 		Inclination 130.45548
@@ -153879,7 +154074,7 @@
 	Radius 96477
 	EllipticalOrbit
 	{
-		Epoch 2455715.66591
+		Epoch 2458562.35009
 		Period 0.0134145
 		SemiMajorAxis 0.0581
 		Inclination 57.79933
@@ -153906,8 +154101,8 @@
 	Radius 84592
 	EllipticalOrbit
 	{
-		Epoch 2457660.73516
-		Period 0.01183437
+		Epoch 2458330.7238
+		Period 0.01183438
 		SemiMajorAxis 0.052
 		Inclination 68.2629
 		AscendingNode 343.73778
@@ -153933,7 +154128,7 @@
 	Radius 80957
 	EllipticalOrbit
 	{
-		Epoch 2455497.39967
+		Epoch 2457030.6052
 		Period 0.00967209
 		SemiMajorAxis 0.04698
 		Inclination 59.3899
@@ -153960,7 +154155,7 @@
 	Radius 67254
 	EllipticalOrbit
 	{
-		Epoch 2456333.00703
+		Epoch 2457943.608808
 		Period 0.0080614
 		SemiMajorAxis 0.0376
 		Inclination 66.88966
@@ -153970,7 +154165,7 @@
 	}
 	UniformRotation
 	{
-		Period 70.666256
+		Period 70.666257
 		Inclination 66.88966
 		AscendingNode 165.18709
 	}
@@ -153987,7 +154182,7 @@
 	Radius 91094
 	EllipticalOrbit
 	{
-		Epoch 2455402.12744
+		Epoch 2456387.7812
 		Period 0.00640991
 		SemiMajorAxis 0.03635
 		Inclination 112.19553
@@ -154014,7 +154209,7 @@
 	Radius 87179
 	EllipticalOrbit
 	{
-		Epoch 2456396.9176
+		Epoch 2458497.69453
 		Period 0.01030755
 		SemiMajorAxis 0.04819
 		Inclination 98.12467
@@ -154041,7 +154236,7 @@
 	Radius 85012
 	EllipticalOrbit
 	{
-		Epoch 2456631.49797
+		Epoch 2457450.20769
 		Period 0.00754715
 		SemiMajorAxis 0.03966
 		Eccentricity 0.00283
@@ -154052,7 +154247,7 @@
 	}
 	UniformRotation
 	{
-		Period 66.155132
+		Period 66.155165
 		Inclination 97.27715
 		AscendingNode 348.46546
 	}
@@ -154097,7 +154292,7 @@
 	Radius 52816
 	EllipticalOrbit
 	{
-		Epoch 2458356.41487
+		Epoch 2458415.25582
 		Period 0.0107398
 		SemiMajorAxis 0.04565
 		Eccentricity 0.03
@@ -154108,7 +154303,7 @@
 	}
 	UniformRotation
 	{
-		Period 93.63941
+		Period 93.639403
 		Inclination 94.27391
 		AscendingNode 336.15086
 	}
@@ -154126,7 +154321,7 @@
 	Radius 97316
 	EllipticalOrbit
 	{
-		Epoch 2455554.83317
+		Epoch 2457381.353164
 		Period 0.00505636
 		SemiMajorAxis 0.0313
 		Inclination 88.99841
@@ -154153,8 +154348,8 @@
 	Radius 107453
 	EllipticalOrbit
 	{
-		Epoch 2456183.80208
-		Period 0.0093248
+		Epoch 2457944.64622
+		Period 0.00932481
 		SemiMajorAxis 0.04657
 		Inclination 116.08819
 		AscendingNode 160.25348
@@ -154180,7 +154375,7 @@
 	Radius 85501
 	EllipticalOrbit
 	{
-		Epoch 2455779.06707
+		Epoch 2457771.84578
 		Period 0.00744329
 		SemiMajorAxis 0.0394
 		Eccentricity 0.018
@@ -154191,7 +154386,7 @@
 	}
 	UniformRotation
 	{
-		Period 65.121278
+		Period 65.121282
 		Inclination 68.66567
 		AscendingNode 358.73717
 	}
@@ -154211,7 +154406,7 @@
 	Oblateness 0.02
 	EllipticalOrbit
 	{
-		Epoch 2458791.414307
+		Epoch 2458518.16266
 		Period 0.00333982
 		SemiMajorAxis 0.02555
 		Inclination 159.16303
@@ -154238,7 +154433,7 @@
 	Radius 88368
 	EllipticalOrbit
 	{
-		Epoch 2454647.55358
+		Epoch 2459038.6385
 		Period 0.01182118
 		SemiMajorAxis 0.0524
 		Eccentricity 0.038
@@ -154249,7 +154444,7 @@
 	}
 	UniformRotation
 	{
-		Period 102.734265
+		Period 102.734246
 		Inclination 110.33431
 		AscendingNode 160.00553
 	}
@@ -154294,7 +154489,7 @@
 	Radius 94310
 	EllipticalOrbit
 	{
-		Epoch 2455531.4792
+		Epoch 2458203.005233
 		Period 0.0086559
 		SemiMajorAxis 0.0436
 		Inclination 84.39188
@@ -154321,7 +154516,7 @@
 	Radius 91653
 	EllipticalOrbit
 	{
-		Epoch 2456526.07935
+		Epoch 2457168.698136
 		Period 0.00420908
 		SemiMajorAxis 0.02624
 		Inclination 102.37089
@@ -154348,7 +154543,7 @@
 	Radius 79419
 	EllipticalOrbit
 	{
-		Epoch 2457524.4596
+		Epoch 2458569.08367
 		Period 0.0097946
 		SemiMajorAxis 0.04339
 		Inclination 107.56706
@@ -154375,8 +154570,8 @@
 	Radius 75434
 	EllipticalOrbit
 	{
-		Epoch 2459005.51241
-		Period 0.01881415
+		Epoch 2456992.04593
+		Period 0.0188142
 		SemiMajorAxis 0.07551
 		Eccentricity 0.0321
 		Inclination 105.18425
@@ -154386,7 +154581,7 @@
 	}
 	UniformRotation
 	{
-		Period 163.911435
+		Period 163.911805
 		Inclination 105.18425
 		AscendingNode 247.08047
 	}
@@ -154405,7 +154600,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2459783.5015
-		Period 0.01110269
+		Period 0.01110275
 		SemiMajorAxis 0.0486
 		Inclination 108.85807
 		AscendingNode 217.44266
@@ -154432,7 +154627,7 @@
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2455880.79492
+		Epoch 2456076.176644
 		Period 0.00366388
 		SemiMajorAxis 0.02239
 		Inclination 69.23557
@@ -154458,8 +154653,8 @@
 	Radius 66710
 	EllipticalOrbit
 	{
-		Epoch 2455764.3463
-		Period 0.00835703
+		Epoch 2457394.679231
+		Period 0.00835702
 		SemiMajorAxis 0.04
 		Inclination 104.49358
 		AscendingNode 195.13058
@@ -154468,7 +154663,7 @@
 	}
 	UniformRotation
 	{
-		Period 73.257696
+		Period 73.257643
 		Inclination 104.49358
 		AscendingNode 195.13058
 	}
@@ -154514,8 +154709,8 @@
 	Radius 61368
 	EllipticalOrbit
 	{
-		Epoch 2455650.56728
-		Period 0.01363912
+		Epoch 2457174.961996
+		Period 0.0136391
 		SemiMajorAxis 0.0547
 		Inclination 111.78906
 		AscendingNode 192.63468
@@ -154542,7 +154737,7 @@
 	Radius 72498
 	EllipticalOrbit
 	{
-		Epoch 2455528.869175
+		Epoch 2457650.409087
 		Period 0.00222717
 		SemiMajorAxis 0.01507
 		Eccentricity 0.00188
@@ -154553,7 +154748,7 @@
 	}
 	UniformRotation
 	{
-		Period 19.522961
+		Period 19.522963
 		Inclination 106.35068
 		AscendingNode 145.9607
 	}
@@ -154598,7 +154793,7 @@
 	Radius 75434
 	EllipticalOrbit
 	{
-		Epoch 2457501.35468
+		Epoch 2458929.9716
 		Period 0.00855873
 		SemiMajorAxis 0.04295
 		Inclination 53.43147
@@ -154625,8 +154820,8 @@
 	Radius 91583
 	EllipticalOrbit
 	{
-		Epoch 2456842.7141
-		Period 0.00391615
+		Epoch 2458164.37754
+		Period 0.00391614
 		SemiMajorAxis 0.02448
 		Inclination 68.01023
 		AscendingNode 310.24177
@@ -154689,7 +154884,7 @@
 	}
 	UniformRotation
 	{
-		Period 99.819365
+		Period 99.8194
 		Inclination 69.59869
 		AscendingNode 327.96421
 	}
@@ -154764,7 +154959,7 @@
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2456176.98991
+		Epoch 2458892.97779
 		Period 0.00586896
 		SemiMajorAxis 0.03444
 		Inclination 91.23894
@@ -154818,7 +155013,7 @@
 	Radius 81866
 	EllipticalOrbit
 	{
-		Epoch 2458355.50805
+		Epoch 2456678.225383
 		Period 0.0044584
 		SemiMajorAxis 0.02729
 		Eccentricity 0.005
@@ -154829,7 +155024,7 @@
 	}
 	UniformRotation
 	{
-		Period 39.076459
+		Period 39.076457
 		Inclination 73.80502
 		AscendingNode 348.37267
 	}
@@ -154847,7 +155042,7 @@
 	Radius 80607
 	EllipticalOrbit
 	{
-		Epoch 2457701.39451
+		Epoch 2458684.806211
 		Period 0.00535275
 		SemiMajorAxis 0.02945
 		Eccentricity 0.009
@@ -154858,7 +155053,7 @@
 	}
 	UniformRotation
 	{
-		Period 46.899434
+		Period 46.899436
 		Inclination 73.45278
 		AscendingNode 39.77945
 	}
@@ -154904,7 +155099,7 @@
 	Radius 75084
 	EllipticalOrbit
 	{
-		Epoch 2456284.48161
+		Epoch 2457386.6591
 		Period 0.00906186
 		SemiMajorAxis 0.04101
 		Inclination 71.50828
@@ -154959,7 +155154,7 @@
 	Radius 109690
 	EllipticalOrbit
 	{
-		Epoch 2458931.236409
+		Epoch 2459296.90287
 		Period 0.01011252
 		SemiMajorAxis 0.0497
 		Inclination 99.9734
@@ -154986,7 +155181,7 @@
 	Radius 93681
 	EllipticalOrbit
 	{
-		Epoch 2456720.37845
+		Epoch 2457381.2917
 		Period 0.01222623
 		SemiMajorAxis 0.0558
 		Inclination 111.22103
@@ -155013,8 +155208,8 @@
 	Radius 76343
 	EllipticalOrbit
 	{
-		Epoch 2455841.60939
-		Period 0.01264084
+		Epoch 2456441.82702
+		Period 0.01264082
 		SemiMajorAxis 0.05458
 		Inclination 114.00226
 		AscendingNode 182.19736
@@ -155040,8 +155235,8 @@
 	Radius 64038
 	EllipticalOrbit
 	{
-		Epoch 2456058.5491
-		Period 0.00777268
+		Epoch 2456524.131678
+		Period 0.00777253
 		SemiMajorAxis 0.0386
 		Inclination 107.17249
 		AscendingNode 224.27006
@@ -155067,8 +155262,8 @@
 	Radius 95778
 	EllipticalOrbit
 	{
-		Epoch 2458986.981902
-		Period 0.01373639
+		Epoch 2459298.04882
+		Period 0.01373638
 		SemiMajorAxis 0.0561
 		Inclination 90.51176
 		AscendingNode 273.37942
@@ -155093,8 +155288,8 @@
 	Radius 66118
 	EllipticalOrbit
 	{
-		Epoch 2455830.95559
-		Period 0.02168264
+		Epoch 2459695.71571
+		Period 0.02168265
 		SemiMajorAxis 0.0697
 		Eccentricity 0.1
 		Inclination 53.75561
@@ -155104,7 +155299,7 @@
 	}
 	UniformRotation
 	{
-		Period 179.301415
+		Period 179.301489
 		Inclination 53.75561
 		AscendingNode 338.243
 	}
@@ -155122,7 +155317,7 @@
 	Radius 85991
 	EllipticalOrbit
 	{
-		Epoch 2455591.28967
+		Epoch 2456239.963197
 		Period 0.00920192
 		SemiMajorAxis 0.0421
 		Eccentricity 0.054
@@ -155133,7 +155328,7 @@
 	}
 	UniformRotation
 	{
-		Period 79.276729
+		Period 79.276732
 		Inclination 75.60063
 		AscendingNode 342.2285
 	}
@@ -155151,8 +155346,8 @@
 	Radius 85641
 	EllipticalOrbit
 	{
-		Epoch 2458902.6003
-		Period 0.01178647
+		Epoch 2458906.90446
+		Period 0.01178646
 		SemiMajorAxis 0.0531
 		Inclination 150.28076
 		AscendingNode 124.99379
@@ -155178,7 +155373,7 @@
 	Radius 86690
 	EllipticalOrbit
 	{
-		Epoch 2456152.57714
+		Epoch 2457513.70875
 		Period 0.01055687
 		SemiMajorAxis 0.0514
 		Inclination 81.06667
@@ -155188,7 +155383,7 @@
 	}
 	UniformRotation
 	{
-		Period 92.541552
+		Period 92.541534
 		Inclination 81.06667
 		AscendingNode 79.05757
 	}
@@ -155206,7 +155401,7 @@
 	Radius 94380
 	EllipticalOrbit
 	{
-		Epoch 2458427.55327
+		Epoch 2459089.34399
 		Period 0.01207923
 		SemiMajorAxis 0.0581
 		Inclination 86.6098
@@ -155234,8 +155429,8 @@
 	Radius 99973
 	EllipticalOrbit
 	{
-		Epoch 2455921.6527
-		Period 0.01198656
+		Epoch 2458618.55188
+		Period 0.01198654
 		SemiMajorAxis 0.0574
 		Inclination 89.62326
 		AscendingNode 92.84939
@@ -155244,7 +155439,7 @@
 	}
 	UniformRotation
 	{
-		Period 105.07416
+		Period 105.073967
 		Inclination 89.62326
 		AscendingNode 92.84939
 	}
@@ -155289,8 +155484,8 @@
 	Radius 77741
 	EllipticalOrbit
 	{
-		Epoch 2456912.75129
-		Period 0.00632833
+		Epoch 2458877.458483
+		Period 0.00632832
 		SemiMajorAxis 0.0334
 		Inclination 105.64751
 		AscendingNode 129.63892
@@ -155316,7 +155511,7 @@
 	Radius 97176
 	EllipticalOrbit
 	{
-		Epoch 2455929.09615
+		Epoch 2458074.27406
 		Period 0.011187
 		SemiMajorAxis 0.0546
 		Inclination 111.53552
@@ -155326,7 +155521,7 @@
 	}
 	UniformRotation
 	{
-		Period 98.065248
+		Period 98.065232
 		Inclination 111.53552
 		AscendingNode 150.27416
 	}
@@ -155344,7 +155539,7 @@
 	Radius 76273
 	EllipticalOrbit
 	{
-		Epoch 2456618.0537
+		Epoch 2456724.18524
 		Period 0.01263358
 		SemiMajorAxis 0.051
 		Inclination 80.17842
@@ -155372,8 +155567,8 @@
 	Radius 86690
 	EllipticalOrbit
 	{
-		Epoch 2456064.86355
-		Period 0.01392005
+		Epoch 2456852.93247
+		Period 0.0139201
 		SemiMajorAxis 0.06206
 		Inclination 76.79389
 		AscendingNode 300.87236
@@ -155426,8 +155621,8 @@
 	Radius 78860
 	EllipticalOrbit
 	{
-		Epoch 2455446.63493
-		Period 0.01356507
+		Epoch 2459504.49547
+		Period 0.01356509
 		SemiMajorAxis 0.0617
 		Inclination 20.78103
 		AscendingNode 69.25852
@@ -155453,8 +155648,8 @@
 	Radius 81376
 	EllipticalOrbit
 	{
-		Epoch 2455736.50348
-		Period 0.0101657
+		Epoch 2456527.37691
+		Period 0.01016569
 		SemiMajorAxis 0.04853
 		Inclination 73.72024
 		AscendingNode 310.02029
@@ -155480,8 +155675,8 @@
 	Radius 104866
 	EllipticalOrbit
 	{
-		Epoch 2455738.84977
-		Period 0.00794983
+		Epoch 2459159.38886
+		Period 0.00794985
 		SemiMajorAxis 0.04631
 		Inclination 70.53995
 		AscendingNode 24.97561
@@ -155490,7 +155685,7 @@
 	}
 	UniformRotation
 	{
-		Period 69.688193
+		Period 69.68839
 		Inclination 70.53995
 		AscendingNode 24.97561
 	}
@@ -155508,7 +155703,7 @@
 	Radius 88787
 	EllipticalOrbit
 	{
-		Epoch 2455583.6529
+		Epoch 2458813.44716
 		Period 0.00606911
 		SemiMajorAxis 0.03708
 		Inclination 72.37584
@@ -155535,7 +155730,7 @@
 	Radius 82006
 	EllipticalOrbit
 	{
-		Epoch 2458327.67426
+		Epoch 2458850.84802
 		Period 0.01119041
 		SemiMajorAxis 0.05512
 		Inclination 70.52288
@@ -155562,7 +155757,7 @@
 	Radius 98155
 	EllipticalOrbit
 	{
-		Epoch 2457173.817156
+		Epoch 2457282.89704
 		Period 0.00585284
 		SemiMajorAxis 0.0334
 		Inclination 79.7301
@@ -155589,8 +155784,8 @@
 	Radius 91583
 	EllipticalOrbit
 	{
-		Epoch 2456016.2669
-		Period 0.00680137
+		Epoch 2457119.25061
+		Period 0.00680136
 		SemiMajorAxis 0.0377
 		Inclination 67.50342
 		AscendingNode 332.22026
@@ -155617,7 +155812,7 @@
 	Oblateness 0.02
 	EllipticalOrbit
 	{
-		Epoch 2459117.687167
+		Epoch 2459313.154379
 		Period 0.00495518
 		SemiMajorAxis 0.03304
 		Eccentricity 0.016
@@ -155628,7 +155823,7 @@
 	}
 	UniformRotation
 	{
-		Period 43.370531
+		Period 43.370512
 		Inclination 10.50341
 		AscendingNode 68.46507
 	}
@@ -155676,7 +155871,7 @@
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2456922.0975
+		Epoch 2458151.07717
 		Period 0.00595533
 		SemiMajorAxis 0.0415
 		Inclination 83.86874
@@ -155703,7 +155898,7 @@
 	Radius 110424
 	EllipticalOrbit
 	{
-		Epoch 2458160.186968
+		Epoch 2458603.336285
 		Period 0.01002709
 		SemiMajorAxis 0.05014
 		Inclination 123.60002
@@ -155730,7 +155925,7 @@
 	Radius 70492
 	EllipticalOrbit
 	{
-		Epoch 2459093.20574
+		Epoch 2458913.71401
 		Period 0.02233738
 		SemiMajorAxis 0.0801
 		Eccentricity 0.3044
@@ -155741,7 +155936,7 @@
 	}
 	UniformRotation
 	{
-		Period 124.361587
+		Period 124.361574
 		Inclination 139.05575
 		AscendingNode 213.99024
 	}
@@ -155839,7 +156034,7 @@
 	Radius 119688
 	EllipticalOrbit
 	{
-		Epoch 2456931.84438
+		Epoch 2458238.73841
 		Period 0.00740803
 		SemiMajorAxis 0.04477
 		Inclination 81.9915
@@ -155849,7 +156044,7 @@
 	}
 	UniformRotation
 	{
-		Period 64.93883
+		Period 64.938816
 		Inclination 81.9915
 		AscendingNode 70.75843
 	}
@@ -155919,7 +156114,7 @@
 	Radius 64410
 	EllipticalOrbit
 	{
-		Epoch 2457956.71194
+		Epoch 2457172.55019
 		Period 0.02333606
 		SemiMajorAxis 0.0778
 		Inclination 104.40259
@@ -155947,7 +156142,7 @@
 	EllipticalOrbit
 	{
 		Epoch 2456847.472867
-		Period 0.00727085
+		Period 0.00727084
 		SemiMajorAxis 0.039
 		Inclination 129.49389
 		AscendingNode 176.87994
@@ -155973,7 +156168,7 @@
 	Radius 96617
 	EllipticalOrbit
 	{
-		Epoch 2459010.7758
+		Epoch 2459191.91458
 		Period 0.01377586
 		SemiMajorAxis 0.06237
 		Inclination 95.3283
@@ -156000,7 +156195,7 @@
 	Radius 96827
 	EllipticalOrbit
 	{
-		Epoch 2457082.07656
+		Epoch 2458396.33927
 		Period 0.00460724
 		SemiMajorAxis 0.02946
 		Inclination 110.96071
@@ -156027,7 +156222,7 @@
 	Radius 113955
 	EllipticalOrbit
 	{
-		Epoch 2458005.5181
+		Epoch 2458486.05719
 		Period 0.01356332
 		SemiMajorAxis 0.06189
 		Inclination 74.39194
@@ -156054,7 +156249,7 @@
 	Radius 72707
 	EllipticalOrbit
 	{
-		Epoch 2456398.33771
+		Epoch 2457475.74774
 		Period 0.00918937
 		SemiMajorAxis 0.0427
 		Eccentricity 0.193
@@ -156065,7 +156260,7 @@
 	}
 	UniformRotation
 	{
-		Period 65.754484
+		Period 65.754472
 		Inclination 73.97252
 		AscendingNode -49.20532
 	}
@@ -156083,8 +156278,8 @@
 	Radius 113955
 	EllipticalOrbit
 	{
-		Epoch 2457003.152
-		Period 0.01072214
+		Epoch 2458068.37618
+		Period 0.01072215
 		SemiMajorAxis 0.0562
 		Inclination 76.84844
 		AscendingNode 305.63604
@@ -156110,8 +156305,8 @@
 	Radius 72008
 	EllipticalOrbit
 	{
-		Epoch 2456297.719
-		Period 0.0076621
+		Epoch 2459104.694327
+		Period 0.00766209
 		SemiMajorAxis 0.037
 		Inclination 63.62878
 		AscendingNode 356.40071
@@ -156137,7 +156332,7 @@
 	Radius 102140
 	EllipticalOrbit
 	{
-		Epoch 2456381.2834
+		Epoch 2458575.52943
 		Period 0.00595393
 		SemiMajorAxis 0.0348
 		Inclination 104.12686
@@ -156164,7 +156359,7 @@
 	Radius 111648
 	EllipticalOrbit
 	{
-		Epoch 2457492.286
+		Epoch 2459156.4021
 		Period 0.00748128
 		SemiMajorAxis 0.04211
 		Inclination 71.4118
@@ -156191,7 +156386,7 @@
 	Radius 120247
 	EllipticalOrbit
 	{
-		Epoch 2459039.335846
+		Epoch 2458739.12004
 		Period 0.01081506
 		SemiMajorAxis 0.055
 		Inclination 50.98906
@@ -156201,7 +156396,7 @@
 	}
 	UniformRotation
 	{
-		Period 94.804853
+		Period 94.804837
 		Inclination 50.98906
 		AscendingNode 115.21773
 	}
@@ -156245,7 +156440,7 @@
 	Radius 76762
 	EllipticalOrbit
 	{
-		Epoch 2458326.505909
+		Epoch 2458577.742511
 		Period 0.00598129
 		SemiMajorAxis 0.03416
 		Inclination 66.16739
@@ -156272,7 +156467,7 @@
 	Radius 83893
 	EllipticalOrbit
 	{
-		Epoch 2457963.84067
+		Epoch 2459378.471656
 		Period 0.00937784
 		SemiMajorAxis 0.0453
 		Inclination 63.34771
@@ -156299,7 +156494,7 @@
 	Radius 78999
 	EllipticalOrbit
 	{
-		Epoch 2457186.454
+		Epoch 2459041.573915
 		Period 0.00567491
 		SemiMajorAxis 0.03303
 		Inclination 65.36659
@@ -156326,7 +156521,7 @@
 	Radius 76902
 	EllipticalOrbit
 	{
-		Epoch 2456840.00365
+		Epoch 2457447.345161
 		Period 0.00811127
 		SemiMajorAxis 0.036
 		Inclination 74.98837
@@ -156353,8 +156548,8 @@
 	Radius 78860
 	EllipticalOrbit
 	{
-		Epoch 2459135.796019
-		Period 0.01574975
+		Epoch 2459107.03289
+		Period 0.01574971
 		SemiMajorAxis 0.0717
 		Inclination 72.0005
 		AscendingNode 41.07412
@@ -156836,7 +157031,7 @@
 	Radius 82775
 	EllipticalOrbit
 	{
-		Epoch 2455385.51978
+		Epoch 2456264.47533
 		Period 0.01079125
 		SemiMajorAxis 0.0488
 		Inclination 102.47468
@@ -156863,7 +157058,7 @@
 	Radius 69883
 	EllipticalOrbit
 	{
-		Epoch 2456923.17711
+		Epoch 2458390.674458
 		Period 0.00716183
 		SemiMajorAxis 0.03666
 		Inclination 94.97563
@@ -156974,7 +157169,7 @@
 	Radius 91374
 	EllipticalOrbit
 	{
-		Epoch 2457417.9876
+		Epoch 2458691.40475
 		Period 0.00873791
 		SemiMajorAxis 0.0477
 		Eccentricity 0.279
@@ -157003,7 +157198,7 @@
 	Radius 93681
 	EllipticalOrbit
 	{
-		Epoch 2455682.20389
+		Epoch 2458153.11815
 		Period 0.01129382
 		SemiMajorAxis 0.0555
 		Inclination 133.12152
@@ -157030,8 +157225,8 @@
 	Radius 72008
 	EllipticalOrbit
 	{
-		Epoch 2456864.3129
-		Period 0.01146546
+		Epoch 2457513.41573
+		Period 0.01146545
 		SemiMajorAxis 0.05148
 		Inclination 101.28495
 		AscendingNode 111.63747
@@ -157040,7 +157235,7 @@
 	}
 	UniformRotation
 	{
-		Period 100.506194
+		Period 100.506157
 		Inclination 101.28495
 		AscendingNode 111.63747
 	}
@@ -157058,7 +157253,7 @@
 	Radius 145415
 	EllipticalOrbit
 	{
-		Epoch 2458843.93943
+		Epoch 2459423.748229
 		Period 0.01030799
 		SemiMajorAxis 0.0815
 		Inclination 108.39679
@@ -157085,7 +157280,7 @@
 	Radius 95988
 	EllipticalOrbit
 	{
-		Epoch 2458779.5804
+		Epoch 2459567.216832
 		Period 0.00784157
 		SemiMajorAxis 0.04329
 		Eccentricity 0.038
@@ -157096,7 +157291,7 @@
 	}
 	UniformRotation
 	{
-		Period 68.148693
+		Period 68.148702
 		Inclination 93.46373
 		AscendingNode 279.01837
 	}
