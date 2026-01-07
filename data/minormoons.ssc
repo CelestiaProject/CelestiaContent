@@ -10,35 +10,68 @@
 
 # Minor moons of Jupiter
 
+# Thomas et al. (1998), Icarus 135, 360-371
+#   "The Small Inner Satellites of Jupiter"
+#   https://ui.adsabs.harvard.edu/abs/1998Icar..135..360T/abstract
+# Albedos of Metis, Amalthea and Thebe from Simonelli et al. (2000), Icarus 147, 353-365
+#   "Leading/Trailing Albedo Asymmetries of Thebe, Amalthea, and Metis"
+#   https://ui.adsabs.harvard.edu/abs/2000Icar..147..353S/abstract
+# Orbits of Metis and Adrastea from Porco et al. (2003), Science 299, 1541-1547
+#   "Cassini Imaging of Jupiter's Atmosphere, Satellites, and Rings"
+#   https://www.researchgate.net/publication/10867818
+# Orbits of Amalthea (some elements) and Thebe from Cooper et al. (2006), Icarus 181, 223-234
+#   "Cassini ISS astrometric observations of the inner jovian satellites, Amalthea and Thebe"
+#   https://ciclops.org/media/sp/2007/2673_7435_0.pdf
+
 "Metis:Jupiter XVI:S 1979 J 3" "Sol/Jupiter"
 {
 	Class	"minormoon"
-	Mesh	"roughsphere.cms"
-	Texture	"asteroid.*"
-	Color	[ 0.304 0.281 0.197 ]
+	Mesh	"metis.cmod"
+	MeshCenter	[ 0.0181 -0.0105 0 ]
+	Texture	"metis.*"
+	Color	[ 0.532 0.493 0.347 ]  # texture brightness: 0.4020 (color of trailing side)
 	BlendTexture	true
-	SemiAxes	[ 30 20 17 ]
+	Radius	30  # maximum semi-axis
 	OrbitFrame
 	{
-		EclipticJ2000	{ Center "Sol/Jupiter" }
+		TwoVector
+		{
+			Center	"Sol/Jupiter"
+			Primary
+			{
+				# Equator ascending node at epoch
+				Axis	"x"
+				ConstantVector	{ Vector [ 0.99942 -0.03403 0 ] Frame { EquatorJ2000 { Center "Sol/Jupiter" } } }
+			}
+			Secondary
+			{
+				# Rotation pole at epoch
+				Axis	"z"
+				ConstantVector	{ Vector [ -0.01465 -0.43042 0.90251 ] Frame { EquatorJ2000 { Center "Sol/Jupiter" } } }
+			}
+		}
 	}
 	EllipticalOrbit
 	{
-		Epoch	2451547.5  # 2000 Jan 04
-		Period	0.2947802
-		SemiMajorAxis	127960
+		Epoch	2451891.0  # 2000 Dec 12 12:00
+		Period	0.2947795
+		SemiMajorAxis	127979.8
 		Eccentricity	0.0002
-		Inclination	2.223400
-		AscendingNode	337.566894
-		ArgOfPericenter	3.698191
-		MeanAnomaly	356.055993
+		Inclination	0.06
+		AscendingNode	196
+		LongOfPericenter	110
+		MeanLongitude	80.13
 	}
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		MeridianAngle	366
+		Inclination	25.51
+		AscendingNode	358.05
+		MeridianAngle	346.09
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.061
+	LunarLambert	1
+	# GeomAlbedo	0.061
+	Reflectivity	0.030  # spherical albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Metis_(moon)"
 }
 
@@ -47,52 +80,95 @@
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
+	Color	[ 0.413 0.384 0.276 ]  # assume same as Metis
+	BlendTexture	true
 	SemiAxes	[ 10 8 7 ]
 	OrbitFrame
 	{
-		EclipticJ2000	{ Center "Sol/Jupiter" }
+		TwoVector
+		{
+			Center	"Sol/Jupiter"
+			Primary
+			{
+				# Equator ascending node at epoch
+				Axis	"x"
+				ConstantVector	{ Vector [ 0.99942 -0.03403 0 ] Frame { EquatorJ2000 { Center "Sol/Jupiter" } } }
+			}
+			Secondary
+			{
+				# Rotation pole at epoch
+				Axis	"z"
+				ConstantVector	{ Vector [ -0.01465 -0.43042 0.90251 ] Frame { EquatorJ2000 { Center "Sol/Jupiter" } } }
+			}
+		}
 	}
 	EllipticalOrbit
 	{
-		Epoch	2450600.5  # 1997 Jun 01
-		Period	0.2982614
-		SemiMajorAxis	128980
+		Epoch	2451891.0  # 2000 Dec 12 12:00
+		Period	0.2982599
+		SemiMajorAxis	128980.5
 		Eccentricity	0.0015
-		Inclination	2.208538
-		AscendingNode	338.099050
-		ArgOfPericenter	344.990296
-		MeanAnomaly	359.173664
+		Inclination	0.03
+		AscendingNode	191
+		LongOfPericenter	98
+		MeanLongitude	235.95
 	}
+	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		MeridianAngle	55
+		Inclination	25.51
+		AscendingNode	358.05
+		MeridianAngle	33.29
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.10
+	LunarLambert	1
+	# GeomAlbedo	0.10
+	Reflectivity	0.049  # assume same phase integral as Metis
 	InfoURL	"https://en.wikipedia.org/wiki/Adrastea_(moon)"
 }
 
+# Mass and density from Anderson et al. (2005), Science 308, 1291-1293
+#   "Amalthea's Density Is Less Than That of Water"
+#   https://www.researchgate.net/publication/7821822
 "Amalthea:Jupiter V" "Sol/Jupiter"
 {
 	Class	"minormoon"
 	Mesh	"amalthea.cmod"
+	MeshCenter	[ -0.4696 -0.0186 -0.1815 ]
 	Texture	"amalthea.*"
-	Color	[ 1.0 0.915 0.727 ]
-	Radius	131
+	Color	[ 0.357 0.330 0.262 ]  # texture brightness: 0.5934 (color of leading side)
+	BlendTexture	true
+	Radius	125  # maximum semi-axis
+	Mass<kg>	2.08e18
+	Density	857
 	OrbitFrame
 	{
-		EclipticJ2000	{ Center "Sol/Jupiter" }
+		TwoVector
+		{
+			Center	"Sol/Jupiter"
+			Primary
+			{
+				# Equator ascending node at epoch
+				Axis	"x"
+				ConstantVector	{ Vector [ 0.99942467 -0.03391641 0 ] Frame { EquatorJ2000 { Center "Sol/Jupiter" } } }
+			}
+			Secondary
+			{
+				# Rotation pole at epoch
+				Axis	"z"
+				ConstantVector	{ Vector [ -0.01460356 -0.43032717 0.90255485 ] Frame { EquatorJ2000 { Center "Sol/Jupiter" } } }
+			}
+		}
 	}
 	EllipticalOrbit
 	{
-		Epoch	2452583.5  # 2002 Nov 05
-		Period	0.49817943
-		SemiMajorAxis	181365.84
-		Eccentricity	0.00319
-		Inclination	1.961072
-		AscendingNode	330.184787
-		ArgOfPericenter	258.668062
-		MeanAnomaly	36.001500
+		Epoch	2452583.7639  # 2002 Nov 05 06:19 UT (Galileo encounter)
+		Period	0.4981794  # Cooper et al. (2006)
+		SemiMajorAxis	181994.604
+		Eccentricity	0.004478
+		Inclination	0.376247
+		AscendingNode	200.908738
+		ArgOfPericenter	302.804202
+		MeanAnomaly	313.601978
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	CustomRotation	"iau-amalthea"
@@ -105,8 +181,9 @@
 	#	MeridianAngle	231.67
 	# }
 
-	LunarLambert	0.5
-	GeomAlbedo	0.090
+	LunarLambert	1
+	# GeomAlbedo	0.090
+	Reflectivity	0.032  # spherical albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Amalthea_(moon)"
 }
 
@@ -114,32 +191,55 @@
 {
 	Class	"minormoon"
 	Mesh	"thebe.cmod"
-	Orientation	[ 1 180 0 0 ]
-	Texture	"asteroid.*"
-	Color	[ 0.223 0.206 0.166 ]
+	MeshCenter	[ 0.7093 -2.697 0.3400 ]
+	Texture	"thebe.*"
+	Color	[ 0.343 0.324 0.281 ]  # texture brightness: 0.4511 (color of leading side)
 	BlendTexture	true
-	Radius	58
+	Radius	58  # maximum semi-axis
 	OrbitFrame
 	{
-		EclipticJ2000	{ Center "Sol/Jupiter" }
+		TwoVector
+		{
+			Center	"Sol/Jupiter"
+			Primary
+			{
+				# Equator ascending node at epoch
+				Axis	"x"
+				ConstantVector	{ Vector [ 0.99942 -0.03403 0 ] Frame { EquatorJ2000 { Center "Sol/Jupiter" } } }
+			}
+			Secondary
+			{
+				# Rotation pole at epoch
+				Axis	"z"
+				ConstantVector	{ Vector [ -0.01465 -0.43042 0.90251 ] Frame { EquatorJ2000 { Center "Sol/Jupiter" } } }
+			}
+		}
 	}
 	EllipticalOrbit
 	{
-		Epoch	2451547.5  # 2000 Jan 04
+		Epoch	2451890.0  # 2000 Dec 11 12:00
 		Period	0.674536
-		SemiMajorAxis	221889
+		SemiMajorAxis	221889.0
 		Eccentricity	0.0175
-		Inclination	3.287041
-		AscendingNode	336.986660
-		ArgOfPericenter	37.994357
-		MeanAnomaly	66.589905
+		Inclination	1.076
+		AscendingNode	273.5
+		LongOfPericenter	74.4
+		MeanLongitude	355.69
 	}
-	UniformRotation
-	{
-		MeridianAngle	29.5
-	}
-	LunarLambert	0.5
-	GeomAlbedo	0.047
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-thebe"
+
+	# Overriden by CustomRotation
+	# UniformRotation
+	# {
+	#	Inclination	25.51
+	#	AscendingNode	358.05
+	#	MeridianAngle	8.56
+	# }
+
+	LunarLambert	1
+	# GeomAlbedo	0.047
+	Reflectivity	0.019  # spherical albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Thebe_(moon)"
 }
 
