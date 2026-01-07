@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: Celestia Development Team
 # SPDX-License-Identifier: GPL-2.0-or-later
 
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.10)
 
 # Normalize install(DESTINATION) paths
 if(POLICY CMP0177)
