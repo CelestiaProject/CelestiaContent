@@ -1,5 +1,10 @@
 # International Space Station
 #
+# SPDX-FileCopyrightText: 2008-2009 Chris Laurel
+# SPDX-FileCopyrightText: 2022 SevenSpheres
+# SPDX-FileCopyrightText: 2022-2026 DaveBowman2001
+# SPDX-License-Identifier: GPL-2.0-or-later
+#
 # This is a 3D representation of the ISS created by NASA-VTAD
 # on April 22, 2019
 #
@@ -17,6 +22,8 @@
 # Epoch 2024-Nov-20 (JD 2460634.5), i.e. the station's 26th
 # anniversary since launch
 # https://ssd.jpl.nasa.gov/horizons/app.html#/
+#
+# Last update: 8 January 2026
 
 "ISS:International Space Station" "Sol/Earth"
 {
@@ -68,3 +75,5 @@
 	}
 	InfoURL	"https://en.wikipedia.org/wiki/International_Space_Station"
 }
+
+
