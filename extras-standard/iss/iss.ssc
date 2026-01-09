@@ -1,7 +1,7 @@
 # International Space Station
 #
 # SPDX-FileCopyrightText: 2008-2026 Chris Laurel, DaveBowman2001, NASA and SevenSpheres
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: GPL-2.0-or-later
 #
 # This is a 3D representation of the ISS created by NASA-VTAD
 # on April 22, 2019
@@ -73,3 +73,4 @@
 	}
 	InfoURL	"https://en.wikipedia.org/wiki/International_Space_Station"
 }
+
