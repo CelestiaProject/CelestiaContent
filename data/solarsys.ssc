@@ -453,13 +453,16 @@
 #   "Less absorbed solar energy and more internal heat for Jupiter"
 #   https://www.nature.com/articles/s41467-018-06107-2
 #   https://ui.adsabs.harvard.edu/abs/2018NatCo...9.3709L/abstract
+# Size and shape from Galanti et al. (2026), Nature Astronomy (2026)
+#   "The size and shape of Jupiter"
+#   https://www.nature.com/articles/s41550-026-02777-x
 "Jupiter" "Sol"
 {
 	Class	"planet"
 	Texture	"jupiter.*"  # from 2000 by Cassini-Huygens
 	Color	[ 1.0 0.98663 0.91433 ]
-	Radius	71492
-	Oblateness	0.06487
+	Radius	71488
+	Oblateness	0.06498
 	Mass<kg>	1.898124626e27
 	Atmosphere  # upper clouds at 0.6 bar
 	{
