@@ -1651,13 +1651,6 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	InfoURL	"https://en.wikipedia.org/wiki/Triton_(moon)"
 }
 
-AltSurface "Limit of knowledge" "Sol/Neptune/Triton"
-{
-	Texture	"triton.*"
-	OverlayTexture	"triton-lok-mask.*"
-	LunarLambert	0.5
-}
-
 "Nereid:Neptune II" "Sol/Neptune"
 {
 	Class	"minormoon"
