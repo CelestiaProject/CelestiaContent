@@ -186,8 +186,7 @@
 	Color	[ 0.87572 0.91517 1.0 ]
 	SpecularColor	[ 0.50 0.44 0.40 ]
 	SpecularPower	120
-	Radius	6378.140
-	Oblateness	0.0033528
+	SemiAxes	[ 6378.1366 6378.1366 6356.7519 ]
 	Mass	1
 	Atmosphere
 	{
@@ -312,8 +311,7 @@
 	Texture	"mars.*"
 	NormalMap	"mars-normal.*"
 	Color	[ 1.0 0.79855 0.56429 ]
-	Radius	3396.2
-	Oblateness	0.00589
+	SemiAxes	[ 3396.19 3396.19 3376.20 ]
 	Mass<kg>	6.416908e23
 	Atmosphere
 	{
@@ -461,8 +459,7 @@
 	Class	"planet"
 	Texture	"jupiter.*"  # from 2000 by Cassini-Huygens
 	Color	[ 1.0 0.98663 0.91433 ]
-	Radius	71488
-	Oblateness	0.06498
+	SemiAxes	[ 71488 71488 66842 ]
 	Mass<kg>	1.898124626e27
 	Atmosphere  # upper clouds at 0.6 bar
 	{
@@ -729,8 +726,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Class	"planet"
 	Texture	"saturn.*"
 	Color	[ 1.0 0.9476 0.81514 ]
-	Radius	60268
-	Oblateness	0.09796
+	SemiAxes	[ 60268 60268 54364 ]
 	Mass<kg>	5.683173701e26
 	Atmosphere  # upper clouds at 0.4 bar
 	{
@@ -1217,8 +1213,7 @@ AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
 	Class	"planet"
 	Texture	"uranus.*"
 	Color	[ 0.86828 0.97 1.0 ]
-	Radius	25559
-	Oblateness	0.0229
+	SemiAxes	[ 25559 25559 24973 ]
 	Mass<kg>	8.680985721e25
 	Atmosphere
 	{
@@ -1529,8 +1524,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	Class	"planet"
 	Texture	"neptune.*"
 	Color	[ 0.78302 0.91535 1.0 ]
-	Radius	24764
-	Oblateness	0.0171
+	SemiAxes	[ 24764 24764 24341 ]
 	Mass<kg>	1.024092879e26
 	Atmosphere
 	{
