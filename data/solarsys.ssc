@@ -48,7 +48,8 @@
 # For most bodies, IAU rotational elements are used. These are implemented
 # internally by Celestia and selected by using a CustomRotation. The IAU
 # rotational elements are given here:
-#  http://astrogeology.usgs.gov/Projects/WGCCRE/
+#  https://www.iau.org/WG100/WG100/Home.aspx
+#  https://www.usgs.gov/centers/astrogeology-science-center/science/iau-wgccre
 #
 # UniformRotations are also listed for purely informational reasons; they are
 # overridden by CustomRotations (when present.)
