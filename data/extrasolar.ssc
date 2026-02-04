@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2019-2026 Thomas W. Tarrants
 # SPDX-License-Identifier: CC-BY-4.0
-# This .ssc file was created by Thomas Tarrants on 4/Jan/2026.
+# This .ssc file was created by Thomas Tarrants on 1/Feb/2026.
 # You can contact me for any reason at e-mail: twtarrants@gmail.com.
 # 
 # In cases where a transiting planet's radius has not been explicitly stated, it has been estimated from
@@ -50,7 +50,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 2151.618
-	Radius 80829
+	Radius 69663
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -78,7 +78,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 4914.714
-	Radius 77944
+	Radius 64798
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -107,7 +107,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 3523.727
-	Radius 79093
+	Radius 67190
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -159,7 +159,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3135.577
-	Radius 79500
+	Radius 67891
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -187,7 +187,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2828.567
-	Radius 79862
+	Radius 68450
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -215,7 +215,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2510.75
-	Radius 80282
+	Radius 69027
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -244,7 +244,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 558.404
-	Radius 85771
+	Radius 69870
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -273,7 +273,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2926.136
-	Radius 79743
+	Radius 68272
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -356,7 +356,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 512.32
-	Radius 86097
+	Radius 69558
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -385,7 +385,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 337.203
-	Radius 87696
+	Radius 67483
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -468,7 +468,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 632.455
-	Radius 85303
+	Radius 70253
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -496,7 +496,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 273.322
-	Radius 88510
+	Radius 66093
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -583,7 +583,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 3813.798
-	Radius 78818
+	Radius 66674
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -754,7 +754,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1271.266
-	Radius 82722
+	Radius 70885
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -811,7 +811,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1433.352
-	Radius 82286
+	Radius 70735
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -840,7 +840,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 2218.359
-	Radius 80720
+	Radius 69547
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -869,7 +869,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2002.244
-	Radius 81085
+	Radius 69916
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -897,7 +897,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 761.17
-	Radius 84610
+	Radius 70672
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -925,7 +925,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 151.916
-	Radius 90827
+	Radius 60971
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -953,7 +953,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 438.587
-	Radius 86688
+	Radius 68895
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -1039,7 +1039,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 72.462
-	Radius 64167
+	Radius 51924
 	EllipticalOrbit
 	{
 		Epoch 2460514.9
@@ -1094,7 +1094,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 276
-	Radius 88472
+	Radius 66163
 	EllipticalOrbit
 	{
 		Epoch 2455495.595
@@ -1122,7 +1122,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 56.6
-	Radius 55477
+	Radius 48261
 	EllipticalOrbit
 	{
 		Epoch 2455491.23
@@ -1150,7 +1150,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 48.5
-	Radius 50654
+	Radius 45808
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -1257,7 +1257,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 597.813
-	Radius 85514
+	Radius 70090
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -1310,7 +1310,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 19.33
-	Radius 29464
+	Radius 28590
 	EllipticalOrbit
 	{
 		Epoch 2455487.45
@@ -1393,7 +1393,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 616.564
-	Radius 85398
+	Radius 70182
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -1422,7 +1422,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 289.849
-	Radius 88282
+	Radius 66505
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -1451,7 +1451,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2336.587
-	Radius 80536
+	Radius 69339
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -1480,7 +1480,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 787.867
-	Radius 84482
+	Radius 70729
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -1508,7 +1508,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 289.849
-	Radius 88282
+	Radius 66505
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -1536,7 +1536,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 68.331
-	Radius 61986
+	Radius 51083
 	EllipticalOrbit
 	{
 		Epoch 2451547.2
@@ -1593,7 +1593,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1051.019
-	Radius 83417
+	Radius 70968
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -1702,7 +1702,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 25.5
-	Radius 34686
+	Radius 34245
 	EllipticalOrbit
 	{
 		Epoch 2455500
@@ -1728,7 +1728,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 17.9
-	Radius 28160
+	Radius 26949
 	EllipticalOrbit
 	{
 		Epoch 2455500
@@ -1756,7 +1756,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1027.818
-	Radius 83499
+	Radius 70965
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -1785,7 +1785,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 349.598
-	Radius 87557
+	Radius 67698
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -1845,7 +1845,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 4322.304
-	Radius 78386
+	Radius 65791
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -1903,7 +1903,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 1147.317
-	Radius 83096
+	Radius 70954
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -1932,7 +1932,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 460.834
-	Radius 86499
+	Radius 69120
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2010,7 +2010,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 425.874
-	Radius 86800
+	Radius 68755
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2091,7 +2091,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 20.7
-	Radius 30677
+	Radius 30025
 	EllipticalOrbit
 	{
 		Epoch 2459118.6
@@ -2253,7 +2253,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 2034.025
-	Radius 81029
+	Radius 69863
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2307,7 +2307,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 336.885
-	Radius 87700
+	Radius 67477
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2336,7 +2336,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 292.073
-	Radius 88252
+	Radius 66557
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2425,7 +2425,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 2224.715
-	Radius 80710
+	Radius 69536
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2453,7 +2453,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1334.829
-	Radius 82545
+	Radius 70833
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2481,7 +2481,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 3368.855
-	Radius 79250
+	Radius 67469
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -2509,7 +2509,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 174.799
-	Radius 90268
+	Radius 62360
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2537,7 +2537,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 429.052
-	Radius 86772
+	Radius 68791
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2566,7 +2566,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 289.213
-	Radius 88291
+	Radius 66490
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2594,7 +2594,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 540.288
-	Radius 85896
+	Radius 69755
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2622,7 +2622,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 508.506
-	Radius 86125
+	Radius 69529
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2650,7 +2650,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 199.589
-	Radius 89743
+	Radius 63578
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2708,7 +2708,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3305.291
-	Radius 79316
+	Radius 67583
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -2762,7 +2762,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 104.244
-	Radius 79495
+	Radius 56730
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -2817,7 +2817,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 15.37
-	Radius 25743
+	Radius 23604
 	EllipticalOrbit
 	{
 		Epoch 2458687.5
@@ -2844,7 +2844,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 206.581
-	Radius 89607
+	Radius 63878
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2872,7 +2872,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1639.933
-	Radius 81800
+	Radius 70476
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -2900,7 +2900,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 177.342
-	Radius 90211
+	Radius 62497
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -3068,7 +3068,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 6547.019
-	Radius 76966
+	Radius 62267
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -3096,7 +3096,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 21.612
-	Radius 31466
+	Radius 30916
 	EllipticalOrbit
 	{
 		Epoch 2455579.01962778
@@ -3123,7 +3123,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2589.886
-	Radius 80172
+	Radius 68884
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -3151,7 +3151,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3337.073
-	Radius 79283
+	Radius 67526
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -3179,7 +3179,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2494.859
-	Radius 80304
+	Radius 69056
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -3208,7 +3208,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 1372.967
-	Radius 82442
+	Radius 70798
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -3236,7 +3236,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 3400.636
-	Radius 79217
+	Radius 67411
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -3293,7 +3293,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1144.139
-	Radius 83106
+	Radius 70955
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -3686,7 +3686,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 5402.88
-	Radius 77620
+	Radius 64010
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -4287,7 +4287,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 17.142
-	Radius 27452
+	Radius 26012
 	EllipticalOrbit
 	{
 		Epoch 2459580.5
@@ -4425,7 +4425,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 9057.77
-	Radius 75875
+	Radius 58879
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -4454,7 +4454,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1922.79
-	Radius 81230
+	Radius 70047
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -4509,7 +4509,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1589.082
-	Radius 81914
+	Radius 70545
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -4538,7 +4538,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 2129.37
-	Radius 80866
+	Radius 69701
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -4566,7 +4566,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 311.46
-	Radius 88003
+	Radius 66985
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -4595,7 +4595,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 2316.882
-	Radius 80566
+	Radius 69374
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -4624,7 +4624,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 492.616
-	Radius 86246
+	Radius 69402
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -4652,7 +4652,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2285.1
-	Radius 80615
+	Radius 69430
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -4680,7 +4680,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 810.432
-	Radius 84377
+	Radius 70772
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -4708,7 +4708,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1055.151
-	Radius 83403
+	Radius 70968
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -4736,7 +4736,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2065.807
-	Radius 80974
+	Radius 69809
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -4924,7 +4924,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3750.234
-	Radius 78877
+	Radius 66787
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -4952,7 +4952,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 157.637
-	Radius 90680
+	Radius 61347
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -4979,7 +4979,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2097.589
-	Radius 80919
+	Radius 69755
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -5036,7 +5036,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 357.861
-	Radius 87467
+	Radius 67834
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -5064,7 +5064,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1662.498
-	Radius 81751
+	Radius 70444
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -5092,7 +5092,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 425.874
-	Radius 86800
+	Radius 68755
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -5244,7 +5244,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 222.472
-	Radius 89316
+	Radius 64505
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -5272,7 +5272,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 762.76
-	Radius 84602
+	Radius 70675
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -5434,7 +5434,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 92.993
-	Radius 74323
+	Radius 55296
 	EllipticalOrbit
 	{
 		Epoch 2454797.98
@@ -5462,7 +5462,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 74
-	Radius 64966
+	Radius 52221
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -5516,7 +5516,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 883.5
-	Radius 84057
+	Radius 70877
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -5778,7 +5778,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 36
-	Radius 42498
+	Radius 40718
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -5911,7 +5911,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 20.2
-	Radius 30238
+	Radius 29516
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -6017,7 +6017,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 301.926
-	Radius 88124
+	Radius 66781
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -6123,7 +6123,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 63.4
-	Radius 59311
+	Radius 49983
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -6149,7 +6149,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 16.2
-	Radius 26553
+	Radius 24773
 	EllipticalOrbit
 	{
 		Epoch 2452965.6
@@ -6176,7 +6176,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 413.161
-	Radius 86916
+	Radius 68606
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -6204,7 +6204,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 50.9
-	Radius 52115
+	Radius 46589
 	EllipticalOrbit
 	{
 		Epoch 2455285
@@ -6306,7 +6306,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 263.47
-	Radius 88653
+	Radius 65826
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -6335,7 +6335,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1053.244
-	Radius 83410
+	Radius 70968
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -6387,24 +6387,24 @@
 {
 	Class "planet"
 	Texture "venuslike.*"
-	Mass 3.34
-	Radius 13570
+	Mass 4.52
+	Radius 13831
 	EllipticalOrbit
 	{
-		Epoch 2458961.01079
+		Epoch 2458356.15322
 		Period 0.00781137
-		SemiMajorAxis 0.03165
+		SemiMajorAxis 0.0316
 		Eccentricity 0.057
-		Inclination 109.52509
-		AscendingNode 203.83146
-		ArgOfPericenter 102.93396
+		Inclination 109.26167
+		AscendingNode 204.02007
+		ArgOfPericenter 102.99658
 		MeanAnomaly 331
 	}
 	UniformRotation
 	{
-		Period 67.164819
-		Inclination 109.52509
-		AscendingNode 203.83146
+		Period 67.164821
+		Inclination 109.26167
+		AscendingNode 204.02007
 	}
 	InfoURL "http://arxiv.org/abs/2207.14121v1"
 }
@@ -6413,26 +6413,24 @@
 {
 	Class "planet"
 	Texture "venuslike.*"
-	Mass 17.1
-	Radius 27412
+	Mass 10
+	Radius 19985
 	EllipticalOrbit
 	{
-		Epoch 2457370.96
-		Period 0.03484953
-		SemiMajorAxis 0.08575
-		Eccentricity 0.16
-		Inclination 94.77579
-		AscendingNode 185.73661
-		ArgOfPericenter 319.66836
-		MeanAnomaly 68
+		Epoch 2458350.83
+		Period 0.04364326
+		SemiMajorAxis 0.0997
+		Inclination 109.26167
+		AscendingNode 204.02007
+		ArgOfPericenter 325.99658
+		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Period 264.678886
-		Inclination 94.77579
-		AscendingNode 185.73661
+		Inclination 109.26167
+		AscendingNode 204.02007
 	}
-	InfoURL "http://arxiv.org/abs/2207.14121v1"
+	InfoURL "http://arxiv.org/abs/2601.09330v1"
 }
 
 "GJ 3138 c:c" "HIP 10037"
@@ -6522,7 +6520,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 962.984
-	Radius 83739
+	Radius 70942
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -6550,7 +6548,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 813.61
-	Radius 84362
+	Radius 70778
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -6605,7 +6603,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 21.4
-	Radius 31284
+	Radius 30714
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -6632,7 +6630,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 797.719
-	Radius 84436
+	Radius 70749
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -6660,7 +6658,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 23.54
-	Radius 33090
+	Radius 32654
 	EllipticalOrbit
 	{
 		Epoch 2455638.7
@@ -6687,7 +6685,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 21.09
-	Radius 31016
+	Radius 30412
 	EllipticalOrbit
 	{
 		Epoch 2455687.8
@@ -6794,7 +6792,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2097.589
-	Radius 80919
+	Radius 69755
 	EllipticalOrbit
 	{
 		Epoch 2455622.7
@@ -7003,7 +7001,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 247.897
-	Radius 88891
+	Radius 65368
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -7032,7 +7030,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 244.719
-	Radius 88942
+	Radius 65268
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -7320,7 +7318,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 41.1
-	Radius 45947
+	Radius 43039
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -7453,7 +7451,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 34
-	Radius 41091
+	Radius 39689
 	EllipticalOrbit
 	{
 		Epoch 2458484.5
@@ -7630,7 +7628,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 56.27
-	Radius 55287
+	Radius 48171
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -7707,12 +7705,62 @@
 	InfoURL "http://arxiv.org/abs/2407.21167"
 }
 
+"GJ 4274 b:b" "GJ 4274"
+{
+	Class "planet"
+	Texture "asteroid.*"
+	GeomAlbedo 0.11
+	Mass 2.97
+	Radius 9776
+	EllipticalOrbit
+	{
+		Epoch 2460115.037
+		Period 0.00447337
+		SemiMajorAxis 0.0153
+		Inclination 110.19227
+		AscendingNode 161.28406
+		ArgOfPericenter 280.14575
+	}
+	UniformRotation
+	{
+		Inclination 110.19227
+		AscendingNode 161.28406
+	}
+	LunarLambert 1.0
+	InfoURL "https://www.aanda.org/articles/aa/full_html/2026/01/aa57666-25/aa57666-25.html"
+}
+
+"GJ 4274 c:c" "GJ 4274"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	GeomAlbedo 0.05
+	Mass 8.39
+	Radius 18022
+	EllipticalOrbit
+	{
+		Epoch 2460097.87
+		Period 0.19047228
+		SemiMajorAxis 0.186
+		Inclination 110.19227
+		AscendingNode 161.28406
+		ArgOfPericenter 280.14575
+	}
+	UniformRotation
+	{
+		Period 22.218211
+		Inclination 110.19227
+		AscendingNode 161.28406
+	}
+	InfoURL "https://www.aanda.org/articles/aa/full_html/2026/01/aa57666-25/aa57666-25.html"
+}
+
 "GJ 4276 b:b" "GJ 4276"
 {
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 16.57
-	Radius 26908
+	Radius 25270
 	EllipticalOrbit
 	{
 		Epoch 2457576.72
@@ -7889,8 +7937,8 @@
 	Texture "exo-class1.*"
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
-	Mass 1144.139
-	Radius 83106
+	Mass 1048.794
+	Radius 70968
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -7898,15 +7946,15 @@
 		Period 9.47022587
 		SemiMajorAxis 3.53
 		Eccentricity 0.146
-		Inclination 125.78762
-		AscendingNode 49.48086
-		ArgOfPericenter 155.7647
+		Inclination 121.45553
+		AscendingNode 39.77969
+		ArgOfPericenter 165.76758
 	}
 	UniformRotation
 	{
-		Period 5.972425
-		Inclination 125.78762
-		AscendingNode 49.48086
+		Period 6.261922
+		Inclination 121.45553
+		AscendingNode 39.77969
 	}
 	InfoURL "https://iopscience.iop.org/article/10.3847/1538-3881/ac8e05"
 }
@@ -8021,7 +8069,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1906.899
-	Radius 81259
+	Radius 70072
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -8230,7 +8278,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 20.5
-	Radius 30502
+	Radius 29823
 	EllipticalOrbit
 	{
 		Epoch 2454751.76
@@ -8282,7 +8330,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 21.6
-	Radius 31456
+	Radius 30905
 	EllipticalOrbit
 	{
 		Epoch 2455500
@@ -8338,7 +8386,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 81.997
-	Radius 69013
+	Radius 53636
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -8495,7 +8543,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1840.793
-	Radius 81386
+	Radius 70178
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -8523,7 +8571,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4287.98
-	Radius 78413
+	Radius 65849
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -8600,7 +8648,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 17.2
-	Radius 27506
+	Radius 26086
 	EllipticalOrbit
 	{
 		Epoch 2450592.7
@@ -8625,7 +8673,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 16
-	Radius 26359
+	Radius 24498
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -8785,7 +8833,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 109.965
-	Radius 82036
+	Radius 57377
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -8968,7 +9016,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 21.75
-	Radius 31584
+	Radius 31047
 	EllipticalOrbit
 	{
 		Epoch 2455210.18
@@ -9021,7 +9069,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 572.07
-	Radius 85680
+	Radius 69951
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -9073,7 +9121,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 16.1
-	Radius 26456
+	Radius 24636
 	EllipticalOrbit
 	{
 		Epoch 2455500
@@ -9099,7 +9147,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 15.9
-	Radius 26262
+	Radius 24359
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -9176,7 +9224,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 18.4
-	Radius 28621
+	Radius 27541
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -9204,7 +9252,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 254.253
-	Radius 88792
+	Radius 65560
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -9232,7 +9280,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 289.531
-	Radius 88286
+	Radius 66497
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -9260,7 +9308,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 314.638
-	Radius 87964
+	Radius 67050
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -9288,7 +9336,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1417.461
-	Radius 82327
+	Radius 70752
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -9343,7 +9391,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 235.3
-	Radius 89096
+	Radius 64960
 	EllipticalOrbit
 	{
 		Epoch 2450602.09311
@@ -9371,7 +9419,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 749.2
-	Radius 84669
+	Radius 70643
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -9398,7 +9446,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 16
-	Radius 26359
+	Radius 24498
 	EllipticalOrbit
 	{
 		Epoch 2450602.09311
@@ -9419,27 +9467,51 @@
 	InfoURL "http://arxiv.org/abs/1006.4244"
 }
 
+"Gliese 887 e:e" "HIP 114046"
+{
+	Class "planet"
+	Texture "asteroid.*"
+	GeomAlbedo 0.11
+	Mass 1.46
+	Radius 7137
+	EllipticalOrbit
+	{
+		Epoch 2461041.5
+		Period 0.01211472
+		SemiMajorAxis 0.0417
+		Inclination 97.44757
+		AscendingNode 189.07894
+		ArgOfPericenter 306.39463
+	}
+	UniformRotation
+	{
+		Inclination 97.44757
+		AscendingNode 189.07894
+	}
+	LunarLambert 1.0
+	InfoURL "https://www.aanda.org/component/article?access=doi&doi=10.1051/0004-6361/202554984"
+}
+
 "Gliese 887 b:b" "HIP 114046"
 {
 	Class "planet"
 	Texture "venuslike.*"
 	GeomAlbedo 0.05
-	Mass 6.9
-	Radius 16062
+	Mass 3.9
+	Radius 11477
 	EllipticalOrbit
 	{
-		Epoch 2455197.14
-		Period 0.02535734
-		SemiMajorAxis 0.0751
-		Eccentricity 0.083
+		Epoch 2458484.5
+		Period 0.0253577
+		SemiMajorAxis 0.0683
+		Eccentricity 0.14
 		Inclination 97.44757
 		AscendingNode 189.07894
-		ArgOfPericenter 312.12421
-		MeanAnomaly 74.876
+		ArgOfPericenter 124.01155
 	}
 	UniformRotation
 	{
-		Period 213.45427
+		Period 198.841748
 		Inclination 97.44757
 		AscendingNode 189.07894
 	}
@@ -9451,26 +9523,49 @@
 	Class "planet"
 	Texture "venuslike.*"
 	GeomAlbedo 0.05
-	Mass 10.2
-	Radius 20220
+	Mass 6.5
+	Radius 15506
 	EllipticalOrbit
 	{
-		Epoch 2456177.42
-		Period 0.05967201
-		SemiMajorAxis 0.12032
-		Eccentricity 0.265
+		Epoch 2458484.5
+		Period 0.05964134
+		SemiMajorAxis 0.121
+		Eccentricity 0.17
 		Inclination 97.44757
 		AscendingNode 189.07894
-		ArgOfPericenter 304.1028
-		MeanAnomaly 62.06921
+		ArgOfPericenter 146.92986
 	}
 	UniformRotation
 	{
-		Period 365.787332
+		Period 445.247958
 		Inclination 97.44757
 		AscendingNode 189.07894
 	}
 	InfoURL "http://arxiv.org/abs/1906.04644"
+}
+
+"Gliese 887 d:d" "HIP 114046"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	GeomAlbedo 0.05
+	Mass 6.1
+	Radius 14937
+	EllipticalOrbit
+	{
+		Epoch 2461041.5
+		Period 0.13900068
+		SemiMajorAxis 0.212
+		Inclination 97.44757
+		AscendingNode 189.07894
+		ArgOfPericenter 306.39463
+	}
+	UniformRotation
+	{
+		Inclination 97.44757
+		AscendingNode 189.07894
+	}
+	InfoURL "https://www.aanda.org/component/article?access=doi&doi=10.1051/0004-6361/202554984"
 }
 
 "Gliese 892 b:HD 219134 b:TOI-1469.01:b" "HIP 114622"
@@ -9559,7 +9654,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 16.526
-	Radius 26867
+	Radius 25212
 	EllipticalOrbit
 	{
 		Epoch 2455208.2
@@ -9587,7 +9682,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 98.523
-	Radius 76896
+	Radius 56030
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -9616,7 +9711,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 718.265
-	Radius 84826
+	Radius 70560
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -9644,7 +9739,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 3495.981
-	Radius 79121
+	Radius 67240
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -9750,7 +9845,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 33.54
-	Radius 40763
+	Radius 39441
 	EllipticalOrbit
 	{
 		Epoch 2458587.2
@@ -9831,7 +9926,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1589.082
-	Radius 81914
+	Radius 70545
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -9859,7 +9954,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1430.174
-	Radius 82294
+	Radius 70739
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -9966,7 +10061,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 454.478
-	Radius 86552
+	Radius 69058
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -10241,7 +10336,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 4830.81
-	Radius 78003
+	Radius 64936
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -10385,7 +10480,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 915.311
-	Radius 83926
+	Radius 70908
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -10498,7 +10593,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3255.229
-	Radius 79370
+	Radius 67674
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -10555,7 +10650,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 143.017
-	Radius 91069
+	Radius 60342
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -11323,7 +11418,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1271.266
-	Radius 82722
+	Radius 70885
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -11410,7 +11505,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 635.633
-	Radius 85284
+	Radius 70267
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -11498,15 +11593,15 @@
 		Epoch 2459459.92359
 		Period 0.00736908
 		SemiMajorAxis 0.0438
-		Inclination 138.06082
-		AscendingNode 29.80563
-		ArgOfPericenter 168.06143
+		Inclination 134.26374
+		AscendingNode 12.75783
+		ArgOfPericenter 156.53816
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 138.06082
-		AscendingNode 29.80563
+		Inclination 134.26374
+		AscendingNode 12.75783
 	}
 	InfoURL "http://arxiv.org/abs/1401.5460"
 }
@@ -13775,7 +13870,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4036.269
-	Radius 78622
+	Radius 66284
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -14370,6 +14465,34 @@
 	InfoURL "http://arxiv.org/abs/1503.00062v1"
 }
 
+"HD 100508 b:b" "HIP 56363"
+{
+	Class "planet"
+	Texture "exo-class1.*"
+	Color [ 0.96 0.96 1 ]
+	GeomAlbedo 0.5
+	Mass 381.38
+	Radius 68189
+	Oblateness 0.08
+	EllipticalOrbit
+	{
+		Epoch 2447556
+		Period 15.55373032
+		SemiMajorAxis 6.11
+		Eccentricity 0.42
+		Inclination 50.80266
+		AscendingNode 231.1541
+		ArgOfPericenter 133.25137
+	}
+	UniformRotation
+	{
+		Period 10.85687
+		Inclination 50.80266
+		AscendingNode 231.1541
+	}
+	InfoURL "http://arxiv.org/abs/2601.11280"
+}
+
 "HD 100546 b:b" "HIP 56379"
 {
 	Class "planet"
@@ -14377,7 +14500,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 524.397
-	Radius 86009
+	Radius 69646
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -14405,7 +14528,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 501.514
-	Radius 86178
+	Radius 69474
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -14434,7 +14557,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 368.667
-	Radius 87353
+	Radius 68003
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -14462,7 +14585,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1779.772
-	Radius 81506
+	Radius 70272
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -14543,7 +14666,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 25.099
-	Radius 34364
+	Radius 33932
 	EllipticalOrbit
 	{
 		Epoch 2454006.26
@@ -14570,7 +14693,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 23.899
-	Radius 33387
+	Radius 32957
 	EllipticalOrbit
 	{
 		Epoch 2454024.67
@@ -14597,7 +14720,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 21.399
-	Radius 31283
+	Radius 30713
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -14625,7 +14748,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 64.397
-	Radius 59859
+	Radius 50215
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -14653,7 +14776,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 95.345
-	Radius 75425
+	Radius 55615
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -14681,7 +14804,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 54.664
-	Radius 54352
+	Radius 47720
 	EllipticalOrbit
 	{
 		Epoch 2450942.9
@@ -14737,7 +14860,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 1875.117
-	Radius 81319
+	Radius 70123
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -14765,7 +14888,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 826.323
-	Radius 84305
+	Radius 70799
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -14793,7 +14916,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1875.117
-	Radius 81319
+	Radius 70123
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -14821,7 +14944,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 483.081
-	Radius 86320
+	Radius 69322
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -14849,7 +14972,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 113.9
-	Radius 83753
+	Radius 57795
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -14877,7 +15000,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1808.376
-	Radius 81449
+	Radius 70228
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -14933,7 +15056,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 31.146
-	Radius 39023
+	Radius 38076
 	EllipticalOrbit
 	{
 		Epoch 2454826
@@ -14959,7 +15082,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 197.046
-	Radius 89794
+	Radius 63464
 	EllipticalOrbit
 	{
 		Epoch 2455387.46
@@ -15014,7 +15137,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 918.49
-	Radius 83914
+	Radius 70911
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -15095,7 +15218,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 62.1
-	Radius 58592
+	Radius 49674
 	EllipticalOrbit
 	{
 		Epoch 2454167.3
@@ -15123,7 +15246,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 486.259
-	Radius 86295
+	Radius 69349
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -15151,7 +15274,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2661.395
-	Radius 80076
+	Radius 68754
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -15208,7 +15331,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 203.403
-	Radius 89669
+	Radius 63744
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -15235,7 +15358,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3178.165
-	Radius 79453
+	Radius 67814
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -15263,7 +15386,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 3623.108
-	Radius 78997
+	Radius 67013
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -15344,7 +15467,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3024.977
-	Radius 79626
+	Radius 68092
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -15372,7 +15495,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2701.44
-	Radius 80023
+	Radius 68682
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -15429,7 +15552,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 21.612
-	Radius 31466
+	Radius 30916
 	EllipticalOrbit
 	{
 		Epoch 2451553.08
@@ -15457,7 +15580,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 62.292
-	Radius 58699
+	Radius 49720
 	EllipticalOrbit
 	{
 		Epoch 2451553.08
@@ -15513,7 +15636,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 953.449
-	Radius 83776
+	Radius 70936
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -15674,7 +15797,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 715.087
-	Radius 84843
+	Radius 70551
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -15702,7 +15825,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 826.323
-	Radius 84305
+	Radius 70799
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -15729,7 +15852,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 397.271
-	Radius 87066
+	Radius 68406
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -15757,7 +15880,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 346.42
-	Radius 87592
+	Radius 67644
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -15785,7 +15908,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 273.004
-	Radius 88515
+	Radius 66085
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -15813,7 +15936,7 @@
 	Texture "venuslike.*"
 	NightTexture "venuslikenight.*"
 	Mass 17
-	Radius 27318
+	Radius 25831
 	EllipticalOrbit
 	{
 		Epoch 2455719.1
@@ -15840,7 +15963,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 24
-	Radius 33470
+	Radius 33042
 	EllipticalOrbit
 	{
 		Epoch 2455733
@@ -15867,7 +15990,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 950.271
-	Radius 83788
+	Radius 70934
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -15923,7 +16046,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 145.242
-	Radius 91007
+	Radius 60505
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -16230,7 +16353,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2598.468
-	Radius 80160
+	Radius 68868
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16258,7 +16381,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2374.089
-	Radius 80480
+	Radius 69272
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16286,7 +16409,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1398.392
-	Radius 82376
+	Radius 70772
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16344,7 +16467,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 2901.664
-	Radius 79772
+	Radius 68317
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -16373,7 +16496,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1086.932
-	Radius 83294
+	Radius 70967
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16402,7 +16525,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 1589.082
-	Radius 81914
+	Radius 70545
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16430,7 +16553,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1022.098
-	Radius 83520
+	Radius 70964
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16459,7 +16582,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 6299.44
-	Radius 77097
+	Radius 62633
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -16487,7 +16610,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 255.524
-	Radius 88773
+	Radius 65598
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16515,7 +16638,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1811.554
-	Radius 81443
+	Radius 70223
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16543,7 +16666,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 114.414
-	Radius 83975
+	Radius 57848
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16571,7 +16694,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 295.569
-	Radius 88206
+	Radius 66638
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16628,24 +16751,24 @@
 	Texture "exo-class1.*"
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
-	Mass 119
-	Radius 85942
+	Mass 117.592
+	Radius 58168
 	Oblateness 0.08
 	EllipticalOrbit
 	{
-		Epoch 2450454
-		Period 1.2183436
-		SemiMajorAxis 1.03666
-		Eccentricity 0.12
-		Inclination 58.27434
-		AscendingNode 45.64378
-		ArgOfPericenter 198.31424
+		Epoch 2452626
+		Period 2.87310062
+		SemiMajorAxis 1.05
+		Eccentricity 0.1
+		Inclination 119.4978
+		AscendingNode 104.16439
+		ArgOfPericenter 105.53949
 	}
 	UniformRotation
 	{
-		Period 19.151424
-		Inclination 58.27434
-		AscendingNode 45.64378
+		Period 19.131097
+		Inclination 119.4978
+		AscendingNode 104.16439
 	}
 	InfoURL "https://arxiv.org/abs/astro-ph/0310316"
 }
@@ -16656,24 +16779,24 @@
 	Texture "exo-class1.*"
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
-	Mass 377
-	Radius 87267
+	Mass 387.736
+	Radius 68278
 	Oblateness 0.08
 	EllipticalOrbit
 	{
-		Epoch 2455562.5
-		Period 2.86379192
-		SemiMajorAxis 1.8333
-		Eccentricity 0.06
-		Inclination 58.27434
-		AscendingNode 45.64378
-		ArgOfPericenter 285.31424
+		Epoch 2452697
+		Period 2.87310062
+		SemiMajorAxis 1.86
+		Eccentricity 0.02
+		Inclination 119.4978
+		AscendingNode 104.16439
+		ArgOfPericenter 40.53949
 	}
 	UniformRotation
 	{
-		Period 10.925306
-		Inclination 58.27434
-		AscendingNode 45.64378
+		Period 10.759685
+		Inclination 119.4978
+		AscendingNode 104.16439
 	}
 	InfoURL "http://arxiv.org/abs/1109.2497"
 }
@@ -16685,7 +16808,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 262.199
-	Radius 88672
+	Radius 65790
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16713,7 +16836,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 330.529
-	Radius 87773
+	Radius 67361
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16742,7 +16865,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 603.851
-	Radius 85476
+	Radius 70121
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16770,7 +16893,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2510.432
-	Radius 80282
+	Radius 69028
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16798,7 +16921,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 128.398
-	Radius 89877
+	Radius 59169
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16827,7 +16950,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1550.944
-	Radius 82001
+	Radius 70595
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16855,7 +16978,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2346.439
-	Radius 80521
+	Radius 69321
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16912,7 +17035,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2685.549
-	Radius 80044
+	Radius 68710
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16940,7 +17063,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 667.415
-	Radius 85101
+	Radius 70393
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -16967,7 +17090,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 403.627
-	Radius 87005
+	Radius 68488
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17025,7 +17148,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 669.322
-	Radius 85090
+	Radius 70400
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17053,7 +17176,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1871.939
-	Radius 81326
+	Radius 70128
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17110,7 +17233,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 55.3
-	Radius 54723
+	Radius 47900
 	EllipticalOrbit
 	{
 		Epoch 2453005.5
@@ -17166,7 +17289,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3527.763
-	Radius 79089
+	Radius 67183
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -17195,7 +17318,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 985.231
-	Radius 83655
+	Radius 70953
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17249,7 +17372,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 25.108
-	Radius 34371
+	Radius 33939
 	EllipticalOrbit
 	{
 		Epoch 2454370
@@ -17276,7 +17399,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 185.287
-	Radius 90037
+	Radius 62906
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17304,7 +17427,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1051.973
-	Radius 83414
+	Radius 70968
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17332,7 +17455,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2034.025
-	Radius 81029
+	Radius 69863
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17417,7 +17540,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 442.083
-	Radius 86657
+	Radius 68932
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17446,7 +17569,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 2204.693
-	Radius 80742
+	Radius 69571
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17474,7 +17597,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 468.461
-	Radius 86437
+	Radius 69191
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17530,7 +17653,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 26
-	Radius 35085
+	Radius 34626
 	Oblateness 0.01
 	EllipticalOrbit
 	{
@@ -17558,7 +17681,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 73.098
-	Radius 64498
+	Radius 52048
 	EllipticalOrbit
 	{
 		Epoch 2454092.24249742
@@ -17585,7 +17708,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 243.447
-	Radius 88962
+	Radius 65227
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17614,7 +17737,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 693.158
-	Radius 84959
+	Radius 70483
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17643,7 +17766,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3465.471
-	Radius 79151
+	Radius 67295
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -17720,7 +17843,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 945.186
-	Radius 83808
+	Radius 70931
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17748,7 +17871,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2281.287
-	Radius 80621
+	Radius 69436
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17827,7 +17950,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 612.432
-	Radius 85423
+	Radius 70162
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17856,7 +17979,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 75.323
-	Radius 65647
+	Radius 52469
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -17884,7 +18007,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 777.061
-	Radius 84533
+	Radius 70707
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17913,7 +18036,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 575.883
-	Radius 85655
+	Radius 69973
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17941,7 +18064,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 107.74
-	Radius 81055
+	Radius 57131
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -17969,7 +18092,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 27.332
-	Radius 36133
+	Radius 35598
 	EllipticalOrbit
 	{
 		Epoch 2456787.64512566
@@ -17996,7 +18119,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 635.633
-	Radius 85284
+	Radius 70267
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18024,7 +18147,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1204.207
-	Radius 82920
+	Radius 70928
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18052,7 +18175,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 314.956
-	Radius 87960
+	Radius 67057
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18081,7 +18204,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 797.719
-	Radius 84436
+	Radius 70749
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18109,7 +18232,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 346.102
-	Radius 87596
+	Radius 67639
 	EllipticalOrbit
 	{
 		Epoch 2456745.35
@@ -18137,7 +18260,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 699.196
-	Radius 84927
+	Radius 70502
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18165,7 +18288,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1051.973
-	Radius 83414
+	Radius 70968
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18222,7 +18345,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1970.462
-	Radius 81142
+	Radius 69969
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18250,7 +18373,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 473.547
-	Radius 86396
+	Radius 69238
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18278,7 +18401,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 454.478
-	Radius 86552
+	Radius 69058
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18306,7 +18429,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 152.552
-	Radius 90811
+	Radius 61014
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -18334,7 +18457,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 794.541
-	Radius 84451
+	Radius 70743
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18471,7 +18594,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 29.29
-	Radius 37636
+	Radius 36921
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -18629,7 +18752,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 44.8
-	Radius 48340
+	Radius 44499
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -18687,7 +18810,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 730.978
-	Radius 84761
+	Radius 70596
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18739,7 +18862,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 762.76
-	Radius 84602
+	Radius 70675
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18796,7 +18919,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1744.495
-	Radius 81578
+	Radius 70325
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18824,7 +18947,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 568.891
-	Radius 85701
+	Radius 69933
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18852,7 +18975,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 635.633
-	Radius 85284
+	Radius 70267
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18880,7 +19003,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 266.966
-	Radius 88602
+	Radius 65923
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -18909,7 +19032,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 50.851
-	Radius 52085
+	Radius 46573
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -18937,7 +19060,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 70.873
-	Radius 63335
+	Radius 51608
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -18991,7 +19114,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2434.474
-	Radius 80391
+	Radius 69164
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19073,7 +19196,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 274.593
-	Radius 88492
+	Radius 66126
 	EllipticalOrbit
 	{
 		Epoch 2455756.11
@@ -19101,7 +19224,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1630.399
-	Radius 81821
+	Radius 70489
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19130,7 +19253,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 889.886
-	Radius 84030
+	Radius 70884
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19187,7 +19310,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 572.07
-	Radius 85680
+	Radius 69951
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19215,7 +19338,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 141.428
-	Radius 91114
+	Radius 60223
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19244,7 +19367,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 420.153
-	Radius 86852
+	Radius 68689
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19273,7 +19396,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 387.736
-	Radius 87159
+	Radius 68278
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19301,7 +19424,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 219.293
-	Radius 89372
+	Radius 64386
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19328,7 +19451,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 82.632
-	Radius 69328
+	Radius 53740
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -19356,7 +19479,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 405.534
-	Radius 86987
+	Radius 68512
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19385,7 +19508,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3464.517
-	Radius 79152
+	Radius 67296
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -19413,7 +19536,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1433.352
-	Radius 82286
+	Radius 70735
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19441,7 +19564,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 603.851
-	Radius 85476
+	Radius 70121
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19497,7 +19620,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 514.863
-	Radius 86078
+	Radius 69577
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19553,7 +19676,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1382.502
-	Radius 82417
+	Radius 70788
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19611,7 +19734,6 @@
 	GeomAlbedo 0.5
 	Mass 5085.064
 	Radius 77827
-	Oblateness 0.07
 	EllipticalOrbit
 	{
 		Epoch 2457206
@@ -19623,7 +19745,7 @@
 	}
 	UniformRotation
 	{
-		Period 2.653004
+		Period 26.121889
 		Inclination 87.3588
 		AscendingNode 154.66776
 	}
@@ -19637,7 +19759,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 20.34
-	Radius 30362
+	Radius 29660
 	EllipticalOrbit
 	{
 		Epoch 2453156.30334299
@@ -19664,7 +19786,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1946.944
-	Radius 81185
+	Radius 70007
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19693,7 +19815,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 715.405
-	Radius 84841
+	Radius 70552
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19722,7 +19844,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 658.516
-	Radius 85151
+	Radius 70360
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19829,7 +19951,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 677.267
-	Radius 85046
+	Radius 70429
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -19858,7 +19980,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2084.876
-	Radius 80941
+	Radius 69777
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19886,7 +20008,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 385.194
-	Radius 87184
+	Radius 68243
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19914,7 +20036,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1613.554
-	Radius 81859
+	Radius 70512
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19943,7 +20065,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 730.978
-	Radius 84761
+	Radius 70596
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19971,7 +20093,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 270.144
-	Radius 88556
+	Radius 66009
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -19999,7 +20121,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 393.139
-	Radius 87106
+	Radius 68351
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20028,7 +20150,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1639.933
-	Radius 81800
+	Radius 70476
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20141,7 +20263,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4003.534
-	Radius 78650
+	Radius 66341
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -20169,7 +20291,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 985.231
-	Radius 83655
+	Radius 70953
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20197,7 +20319,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 50.851
-	Radius 52085
+	Radius 46573
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -20225,7 +20347,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 772.294
-	Radius 84556
+	Radius 70697
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20253,7 +20375,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 38.456
-	Radius 44182
+	Radius 41886
 	EllipticalOrbit
 	{
 		Epoch 2452772.86911312
@@ -20280,7 +20402,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1636.119
-	Radius 81809
+	Radius 70481
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20308,7 +20430,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 845.71
-	Radius 84219
+	Radius 70829
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20336,7 +20458,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 476.725
-	Radius 86370
+	Radius 69266
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20473,7 +20595,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 20.34
-	Radius 30362
+	Radius 29660
 	EllipticalOrbit
 	{
 		Epoch 2450546.249
@@ -20498,7 +20620,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 17.48
-	Radius 27769
+	Radius 26436
 	EllipticalOrbit
 	{
 		Epoch 2450543.32014924
@@ -20525,7 +20647,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 867.639
-	Radius 84124
+	Radius 70858
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20577,7 +20699,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 378.202
-	Radius 87254
+	Radius 68144
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20605,7 +20727,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 2892.13
-	Radius 79784
+	Radius 68334
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -20633,7 +20755,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1685.063
-	Radius 81703
+	Radius 70412
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20688,7 +20810,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 715.087
-	Radius 84843
+	Radius 70551
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20716,7 +20838,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 804.076
-	Radius 84406
+	Radius 70761
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20768,7 +20890,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 262.834
-	Radius 88663
+	Radius 65808
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20797,7 +20919,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 309.871
-	Radius 88023
+	Radius 66951
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20826,7 +20948,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 270.144
-	Radius 88556
+	Radius 66009
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20881,7 +21003,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1877.978
-	Radius 81314
+	Radius 70119
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20907,7 +21029,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 15.891
-	Radius 26253
+	Radius 24346
 	EllipticalOrbit
 	{
 		Epoch 2453478.16252543
@@ -20934,7 +21056,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2460.217
-	Radius 80353
+	Radius 69118
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -20986,7 +21108,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 3001.777
-	Radius 79653
+	Radius 68134
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -21015,7 +21137,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3098.711
-	Radius 79542
+	Radius 67958
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -21043,7 +21165,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 235.184
-	Radius 89098
+	Radius 64956
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21098,7 +21220,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 31.5
-	Radius 39284
+	Radius 38286
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -21127,7 +21249,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 38.138
-	Radius 43967
+	Radius 41740
 	EllipticalOrbit
 	{
 		Epoch 2455562.5
@@ -21154,7 +21276,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 572.07
-	Radius 85680
+	Radius 69951
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21309,7 +21431,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 4449.431
-	Radius 78286
+	Radius 65574
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -21390,7 +21512,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 357.861
-	Radius 87467
+	Radius 67834
 	EllipticalOrbit
 	{
 		Epoch 2456416.69
@@ -21418,7 +21540,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 589.55
-	Radius 85567
+	Radius 70047
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21447,7 +21569,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 258.385
-	Radius 88729
+	Radius 65682
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21476,7 +21598,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 673.771
-	Radius 85065
+	Radius 70417
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21504,7 +21626,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 314.638
-	Radius 87964
+	Radius 67050
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21532,7 +21654,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 296.841
-	Radius 88189
+	Radius 66667
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21560,7 +21682,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1150.496
-	Radius 83086
+	Radius 70953
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21588,7 +21710,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 174.163
-	Radius 90283
+	Radius 62325
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21617,7 +21739,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1875.117
-	Radius 81319
+	Radius 70123
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21645,7 +21767,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 251.711
-	Radius 88832
+	Radius 65484
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -21674,7 +21796,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 686.484
-	Radius 84995
+	Radius 70461
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21703,7 +21825,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 1811.554
-	Radius 81443
+	Radius 70223
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21731,7 +21853,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 146.196
-	Radius 90981
+	Radius 60573
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -21758,7 +21880,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 16.14
-	Radius 26495
+	Radius 24691
 	EllipticalOrbit
 	{
 		Epoch 2456280
@@ -21785,7 +21907,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4544.776
-	Radius 78213
+	Radius 65413
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -21813,7 +21935,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 918.49
-	Radius 83914
+	Radius 70911
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21841,7 +21963,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1965.059
-	Radius 81152
+	Radius 69978
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21870,7 +21992,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1207.703
-	Radius 82909
+	Radius 70926
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21898,7 +22020,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 443.99
-	Radius 86641
+	Radius 68951
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -21926,7 +22048,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 905.777
-	Radius 83965
+	Radius 70900
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22034,7 +22156,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2426.211
-	Radius 80403
+	Radius 69179
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -22063,7 +22185,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 5500.132
-	Radius 77559
+	Radius 63856
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -22119,7 +22241,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2154.796
-	Radius 80824
+	Radius 69657
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22147,7 +22269,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1938.681
-	Radius 81200
+	Radius 70021
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22175,7 +22297,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3591.326
-	Radius 79027
+	Radius 67069
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -22230,7 +22352,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 917.536
-	Radius 83917
+	Radius 70910
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22259,7 +22381,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2437.335
-	Radius 80387
+	Radius 69159
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22287,7 +22409,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 212.937
-	Radius 89488
+	Radius 64138
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22315,7 +22437,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 668.05
-	Radius 85097
+	Radius 70396
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22343,7 +22465,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1461.956
-	Radius 82215
+	Radius 70703
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22371,7 +22493,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 629.277
-	Radius 85322
+	Radius 70239
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22399,7 +22521,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2796.785
-	Radius 79901
+	Radius 68508
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22456,7 +22578,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 857.469
-	Radius 84168
+	Radius 70845
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22485,7 +22607,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3255.394
-	Radius 79369
+	Radius 67674
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -22542,7 +22664,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 175.435
-	Radius 90254
+	Radius 62395
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22597,7 +22719,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 476.725
-	Radius 86370
+	Radius 69266
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22624,7 +22746,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 276.5
-	Radius 88465
+	Radius 66175
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22649,21 +22771,20 @@
 	Class "planet"
 	Texture "venuslike.*"
 	GeomAlbedo 0.05
-	Mass 5.74
-	Radius 14411
+	Mass 5.36
+	Radius 13842
 	EllipticalOrbit
 	{
-		Epoch 2455502.9
-		Period 0.0177681
+		Epoch 2460624.06
+		Period 0.01777314
 		SemiMajorAxis 0.06296
-		Eccentricity 0.066
 		Inclination 93.78262
 		AscendingNode 93.20983
-		ArgOfPericenter 146.40769
+		ArgOfPericenter 257.40769
+		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Period 151.786752
 		Inclination 93.78262
 		AscendingNode 93.20983
 	}
@@ -22675,25 +22796,49 @@
 	Class "planet"
 	Texture "venuslike.*"
 	GeomAlbedo 0.05
-	Mass 9.18
-	Radius 19003
+	Mass 9.75
+	Radius 19689
 	EllipticalOrbit
 	{
-		Epoch 2455514.4
-		Period 0.04604819
-		SemiMajorAxis 0.11878
-		Eccentricity 0.111
+		Epoch 2460614.69
+		Period 0.04602984
+		SemiMajorAxis 0.11873
 		Inclination 93.78262
 		AscendingNode 93.20983
-		ArgOfPericenter 167.40769
+		ArgOfPericenter 257.40769
+		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Period 375.837901
 		Inclination 93.78262
 		AscendingNode 93.20983
 	}
 	InfoURL "http://arxiv.org/abs/1712.01046v1"
+}
+
+"HD 176986 d:d" "HIP 93540"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	GeomAlbedo 0.05
+	Mass 6.76
+	Radius 15869
+	EllipticalOrbit
+	{
+		Epoch 2460614.69
+		Period 0.16803833
+		SemiMajorAxis 0.28149
+		Inclination 93.78262
+		AscendingNode 93.20983
+		ArgOfPericenter 257.40769
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 93.78262
+		AscendingNode 93.20983
+	}
+	InfoURL "http://arxiv.org/abs/2601.20559"
 }
 
 "HD 177565 b:b" "HIP 93858"
@@ -22703,7 +22848,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 23.5
-	Radius 33057
+	Radius 32619
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -22732,7 +22877,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 47.672
-	Radius 50143
+	Radius 45527
 	EllipticalOrbit
 	{
 		Epoch 2450179
@@ -22759,7 +22904,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 473.547
-	Radius 86396
+	Radius 69238
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22814,7 +22959,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2550.159
-	Radius 80227
+	Radius 68956
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -22978,7 +23123,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 675.678
-	Radius 85055
+	Radius 70423
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23007,7 +23152,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1048.794
-	Radius 83425
+	Radius 70968
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23035,7 +23180,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 7216.659
-	Radius 76637
+	Radius 61309
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -23063,7 +23208,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 535.521
-	Radius 85929
+	Radius 69723
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23091,7 +23236,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3219.481
-	Radius 79408
+	Radius 67739
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -23119,7 +23264,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 921.668
-	Radius 83901
+	Radius 70914
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23173,7 +23318,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3177.529
-	Radius 79454
+	Radius 67815
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -23227,7 +23372,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 214.208
-	Radius 89465
+	Radius 64189
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23255,7 +23400,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 858.104
-	Radius 84165
+	Radius 70846
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23283,7 +23428,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 130.305
-	Radius 90661
+	Radius 59333
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -23311,7 +23456,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1103.141
-	Radius 83240
+	Radius 70965
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23339,7 +23484,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2220.266
-	Radius 80717
+	Radius 69544
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23393,7 +23538,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 98.523
-	Radius 76896
+	Radius 56030
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -23420,7 +23565,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 95.345
-	Radius 75425
+	Radius 55615
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -23447,7 +23592,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 143.017
-	Radius 91069
+	Radius 60342
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -23557,7 +23702,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 413.161
-	Radius 86916
+	Radius 68606
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23611,7 +23756,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 246.626
-	Radius 88911
+	Radius 65328
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23668,7 +23813,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 577.79
-	Radius 85643
+	Radius 69983
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23696,7 +23841,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1080.576
-	Radius 83316
+	Radius 70968
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23724,7 +23869,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 400.449
-	Radius 87035
+	Radius 68447
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23854,7 +23999,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 15.5
-	Radius 25871
+	Radius 23792
 	EllipticalOrbit
 	{
 		Epoch 2455500
@@ -23882,7 +24027,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1938.681
-	Radius 81200
+	Radius 70021
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23936,7 +24081,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 227
-	Radius 89236
+	Radius 64670
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23964,7 +24109,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 499.925
-	Radius 86190
+	Radius 69462
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -23992,7 +24137,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1137.783
-	Radius 83127
+	Radius 70957
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24020,7 +24165,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3219.481
-	Radius 79408
+	Radius 67739
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -24126,7 +24271,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 114.096
-	Radius 83838
+	Radius 57815
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -24183,7 +24328,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 915.311
-	Radius 83926
+	Radius 70908
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24211,7 +24356,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 207.534
-	Radius 89589
+	Radius 63918
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24240,7 +24385,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 693.793
-	Radius 84956
+	Radius 70485
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24269,7 +24414,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3561.769
-	Radius 79056
+	Radius 67122
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -24297,7 +24442,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1255.375
-	Radius 82768
+	Radius 70897
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -24326,7 +24471,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1493.737
-	Radius 82137
+	Radius 70666
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24354,7 +24499,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1078.669
-	Radius 83322
+	Radius 70968
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24382,7 +24527,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 251.075
-	Radius 88842
+	Radius 65465
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24439,7 +24584,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 43.223
-	Radius 47331
+	Radius 43897
 	EllipticalOrbit
 	{
 		Epoch 2451002.80936296
@@ -24518,7 +24663,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 546.644
-	Radius 85852
+	Radius 69797
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24546,7 +24691,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 381.38
-	Radius 87222
+	Radius 68189
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24603,7 +24748,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 5688.915
-	Radius 77444
+	Radius 63561
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -24631,7 +24776,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 603.851
-	Radius 85476
+	Radius 70121
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24659,7 +24804,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 664.236
-	Radius 85119
+	Radius 70382
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24686,7 +24831,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 584.782
-	Radius 85597
+	Radius 70022
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24797,7 +24942,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1430.174
-	Radius 82294
+	Radius 70739
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24825,7 +24970,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2253.001
-	Radius 80665
+	Radius 69486
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24852,7 +24997,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 17.162
-	Radius 27471
+	Radius 26037
 	EllipticalOrbit
 	{
 		Epoch 2449883.77
@@ -24879,7 +25024,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1466.723
-	Radius 82203
+	Radius 70698
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -24907,7 +25052,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 6324.548
-	Radius 77084
+	Radius 62595
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -24935,7 +25080,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 84.539
-	Radius 70266
+	Radius 54046
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -24963,7 +25108,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 124.584
-	Radius 88295
+	Radius 58831
 	EllipticalOrbit
 	{
 		Epoch 2453188.39904148
@@ -24990,7 +25135,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 457.974
-	Radius 86523
+	Radius 69092
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -25019,7 +25164,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 34.2
-	Radius 41233
+	Radius 39795
 	EllipticalOrbit
 	{
 		Epoch 2458484.5
@@ -25046,7 +25191,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 699.196
-	Radius 84927
+	Radius 70502
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -25094,7 +25239,7 @@
 		Inclination 51.99961
 		AscendingNode 50.20636
 	}
-	InfoURL "m"
+	InfoURL "http://arxiv.org/abs/2208.04867"
 }
 
 "HD 207229 Ab:b" "HD 207229 A"
@@ -25105,7 +25250,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 640.4
-	Radius 85256
+	Radius 70287
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -25265,7 +25410,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 472.847
-	Radius 86401
+	Radius 69231
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -25319,7 +25464,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 153.188
-	Radius 90794
+	Radius 61057
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -25348,7 +25493,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 101.701
-	Radius 78347
+	Radius 56426
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -25377,7 +25522,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 3146.383
-	Radius 79488
+	Radius 67871
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -25405,7 +25550,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 632.455
-	Radius 85303
+	Radius 70253
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -25433,7 +25578,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 363.9
-	Radius 87403
+	Radius 67930
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -25518,7 +25663,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4069.004
-	Radius 78594
+	Radius 66227
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -25546,7 +25691,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 153.1
-	Radius 90796
+	Radius 61051
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -25574,7 +25719,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 400.767
-	Radius 87032
+	Radius 68451
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -25603,7 +25748,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 594.317
-	Radius 85536
+	Radius 70072
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -25632,7 +25777,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1703.496
-	Radius 81664
+	Radius 70386
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -25661,7 +25806,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 212.937
-	Radius 89488
+	Radius 64138
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -25769,7 +25914,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 34.3
-	Radius 41304
+	Radius 39848
 	EllipticalOrbit
 	{
 		Epoch 2459425.13
@@ -25797,7 +25942,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 730.978
-	Radius 84761
+	Radius 70596
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -25825,7 +25970,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1655.824
-	Radius 81766
+	Radius 70454
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -25853,7 +25998,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1106.001
-	Radius 83230
+	Radius 70965
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -25961,7 +26106,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 65.9
-	Radius 60678
+	Radius 50555
 	EllipticalOrbit
 	{
 		Epoch 2458484.5
@@ -25988,7 +26133,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 384.558
-	Radius 87191
+	Radius 68234
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -26015,7 +26160,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 257.431
-	Radius 88744
+	Radius 65654
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -26146,7 +26291,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 32.099
-	Radius 39722
+	Radius 38635
 	EllipticalOrbit
 	{
 		Epoch 2455562.5
@@ -26173,7 +26318,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 78.183
-	Radius 67104
+	Radius 52986
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -26228,7 +26373,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 111.236
-	Radius 82593
+	Radius 57514
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -26392,7 +26537,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 156.684
-	Radius 90704
+	Radius 61286
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -26447,7 +26592,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 20.57
-	Radius 30563
+	Radius 29894
 	EllipticalOrbit
 	{
 		Epoch 2455528.41
@@ -26502,7 +26647,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1388.858
-	Radius 82401
+	Radius 70782
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -26557,7 +26702,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 166.536
-	Radius 90461
+	Radius 61893
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -26585,7 +26730,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 66.741
-	Radius 61133
+	Radius 50741
 	EllipticalOrbit
 	{
 		Epoch 2450360
@@ -26612,7 +26757,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3359.32
-	Radius 79260
+	Radius 67486
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -26640,7 +26785,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 240.587
-	Radius 89009
+	Radius 65135
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -26669,7 +26814,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 317.816
-	Radius 87925
+	Radius 67115
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -26697,7 +26842,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 616.564
-	Radius 85398
+	Radius 70182
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -26809,7 +26954,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 63.563
-	Radius 59401
+	Radius 50022
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -26837,7 +26982,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 381.38
-	Radius 87222
+	Radius 68189
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -26865,7 +27010,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1010.021
-	Radius 83564
+	Radius 70961
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -26894,7 +27039,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 982.053
-	Radius 83667
+	Radius 70951
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -26951,7 +27096,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 511.685
-	Radius 86102
+	Radius 69553
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -26979,7 +27124,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 495.794
-	Radius 86221
+	Radius 69428
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -27007,7 +27152,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 581.604
-	Radius 85618
+	Radius 70005
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -27034,23 +27179,22 @@
 	Texture "exo-class1.*"
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
-	Mass 1649.468
-	Radius 81780
+	Mass 1239.484
+	Radius 70907
 	Oblateness 0.08
 	EllipticalOrbit
 	{
-		Epoch 2451034
-		Period 40.77207392
-		SemiMajorAxis 10.8
-		Eccentricity 0.56
+		Epoch 2458650
+		Period 38.32169747
+		SemiMajorAxis 10.4
+		Eccentricity 0.54
 		Inclination 28.11229
 		AscendingNode 95.82653
-		ArgOfPericenter 328.21695
-		MeanAnomaly 176
+		ArgOfPericenter 328.91695
 	}
 	UniformRotation
 	{
-		Period 4.894724
+		Period 5.717947
 		Inclination 28.11229
 		AscendingNode 95.82653
 	}
@@ -27064,7 +27208,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 2463.078
-	Radius 80349
+	Radius 69113
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -27172,7 +27316,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 151
-	Radius 90852
+	Radius 60909
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -27200,7 +27344,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 3654.889
-	Radius 78966
+	Radius 66956
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -27228,7 +27372,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 217.069
-	Radius 89412
+	Radius 64300
 	EllipticalOrbit
 	{
 		Epoch 2453199.76
@@ -27281,7 +27425,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 673.771
-	Radius 85065
+	Radius 70417
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -27310,7 +27454,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 4338.195
-	Radius 78373
+	Radius 65763
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -27443,7 +27587,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 845.392
-	Radius 84220
+	Radius 70828
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -27472,7 +27616,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 489.437
-	Radius 86270
+	Radius 69376
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -27500,7 +27644,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 340.699
-	Radius 87656
+	Radius 67545
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -27529,7 +27673,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2099.178
-	Radius 80917
+	Radius 69753
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -27558,7 +27702,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 565.713
-	Radius 85722
+	Radius 69914
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -27773,7 +27917,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1252.197
-	Radius 82777
+	Radius 70899
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -27802,7 +27946,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1906.899
-	Radius 81259
+	Radius 70072
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -27831,7 +27975,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 2192.934
-	Radius 80761
+	Radius 69591
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -27859,7 +28003,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1684.427
-	Radius 81704
+	Radius 70413
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -27887,7 +28031,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 63.881
-	Radius 59576
+	Radius 50096
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -27916,7 +28060,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1589.082
-	Radius 81914
+	Radius 70545
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -28000,7 +28144,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2993.831
-	Radius 79662
+	Radius 68149
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -28028,7 +28172,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 244.719
-	Radius 88942
+	Radius 65268
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -28055,7 +28199,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 290.802
-	Radius 88269
+	Radius 66527
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -28159,7 +28303,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 797.719
-	Radius 84436
+	Radius 70749
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -28187,7 +28331,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 38.138
-	Radius 43967
+	Radius 41740
 	EllipticalOrbit
 	{
 		Epoch 2453000.79305117
@@ -28374,7 +28518,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 495.794
-	Radius 86221
+	Radius 69428
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -28431,7 +28575,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 234.549
-	Radius 89108
+	Radius 64934
 	EllipticalOrbit
 	{
 		Epoch 2453290.63
@@ -28459,7 +28603,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2063.582
-	Radius 80977
+	Radius 69813
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -28487,7 +28631,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1271.266
-	Radius 82722
+	Radius 70885
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -28593,7 +28737,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 4226.959
-	Radius 78463
+	Radius 65954
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -28622,7 +28766,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1906.899
-	Radius 81259
+	Radius 70072
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -28651,7 +28795,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 99.794
-	Radius 77478
+	Radius 56190
 	EllipticalOrbit
 	{
 		Epoch 2453007.83184897
@@ -28678,7 +28822,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1207.703
-	Radius 82909
+	Radius 70926
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -28815,7 +28959,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 315.274
-	Radius 87956
+	Radius 67063
 	EllipticalOrbit
 	{
 		Epoch 2456263.121
@@ -28871,7 +29015,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 540.288
-	Radius 85896
+	Radius 69755
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -28928,7 +29072,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1420.64
-	Radius 82319
+	Radius 70749
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -28956,7 +29100,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 807.254
-	Radius 84392
+	Radius 70767
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29009,7 +29153,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 21.5
-	Radius 31370
+	Radius 30810
 	EllipticalOrbit
 	{
 		Epoch 2459211.973939
@@ -29037,7 +29181,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 498.972
-	Radius 86197
+	Radius 69454
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29066,7 +29210,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 457.338
-	Radius 86528
+	Radius 69086
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29124,7 +29268,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1739.41
-	Radius 81589
+	Radius 70333
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29152,7 +29296,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2670.612
-	Radius 80064
+	Radius 68738
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29180,7 +29324,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1954.571
-	Radius 81171
+	Radius 69995
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29208,7 +29352,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 467.19
-	Radius 86447
+	Radius 69180
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29236,7 +29380,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 149.374
-	Radius 90895
+	Radius 60797
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -29290,7 +29434,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 572.07
-	Radius 85680
+	Radius 69951
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29344,7 +29488,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 158.908
-	Radius 90648
+	Radius 61428
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -29552,7 +29696,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 1042.438
-	Radius 83448
+	Radius 70967
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29581,7 +29725,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 657.88
-	Radius 85155
+	Radius 70357
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29635,7 +29779,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 476.725
-	Radius 86370
+	Radius 69266
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29663,7 +29807,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 63.563
-	Radius 59401
+	Radius 50022
 	EllipticalOrbit
 	{
 		Epoch 2455879.83295
@@ -29691,7 +29835,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 413.797
-	Radius 86910
+	Radius 68614
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29720,7 +29864,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 282.857
-	Radius 88377
+	Radius 66336
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29777,7 +29921,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 103.29
-	Radius 79066
+	Radius 56617
 	EllipticalOrbit
 	{
 		Epoch 2463025.41
@@ -29805,7 +29949,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 548.551
-	Radius 85838
+	Radius 69809
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29833,7 +29977,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 489.755
-	Radius 86268
+	Radius 69379
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29913,7 +30057,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 199.907
-	Radius 89737
+	Radius 63592
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -29997,7 +30141,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1192.13
-	Radius 82956
+	Radius 70935
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -30077,7 +30221,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 248.85
-	Radius 88876
+	Radius 65397
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -30188,7 +30332,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 213.573
-	Radius 89476
+	Radius 64163
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -30217,7 +30361,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 207.216
-	Radius 89595
+	Radius 63905
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -30245,7 +30389,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 221.2
-	Radius 89338
+	Radius 64457
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -30273,7 +30417,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 863.507
-	Radius 84142
+	Radius 70853
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -30302,7 +30446,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1013.835
-	Radius 83550
+	Radius 70962
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -30330,7 +30474,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 54.982
-	Radius 54538
+	Radius 47810
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -30359,7 +30503,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 122.677
-	Radius 87496
+	Radius 58655
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -30416,7 +30560,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 3298.935
-	Radius 79323
+	Radius 67595
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -30522,7 +30666,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 24.27
-	Radius 33691
+	Radius 33265
 	EllipticalOrbit
 	{
 		Epoch 2457375.58981035
@@ -30548,7 +30692,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 3178.165
-	Radius 79453
+	Radius 67814
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -30865,7 +31009,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 858.104
-	Radius 84165
+	Radius 70846
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -30893,7 +31037,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1366.293
-	Radius 82460
+	Radius 70804
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -30922,7 +31066,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 807.254
-	Radius 84392
+	Radius 70767
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -30950,7 +31094,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 5847.823
-	Radius 77350
+	Radius 63316
 	EllipticalOrbit
 	{
 		Epoch 2452434.88
@@ -30977,7 +31121,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 541.241
-	Radius 85889
+	Radius 69762
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31005,7 +31149,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 508.506
-	Radius 86125
+	Radius 69529
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31032,7 +31176,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 578.426
-	Radius 85638
+	Radius 69987
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31060,7 +31204,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 479.903
-	Radius 86345
+	Radius 69294
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31088,7 +31232,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 257.431
-	Radius 88744
+	Radius 65654
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31114,7 +31258,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 15.255
-	Radius 25630
+	Radius 23437
 	EllipticalOrbit
 	{
 		Epoch 2455170.2
@@ -31272,7 +31416,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 47.672
-	Radius 50143
+	Radius 45527
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -31300,7 +31444,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 44.494
-	Radius 48146
+	Radius 44384
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -31328,7 +31472,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 702.692
-	Radius 84908
+	Radius 70513
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31357,7 +31501,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 180.52
-	Radius 90141
+	Radius 62664
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31386,7 +31530,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2500.58
-	Radius 80296
+	Radius 69045
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31489,7 +31633,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 845.074
-	Radius 84222
+	Radius 70828
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -31518,7 +31662,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 184.334
-	Radius 90058
+	Radius 62859
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31546,7 +31690,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1875.117
-	Radius 81319
+	Radius 70123
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31627,7 +31771,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 568.891
-	Radius 85701
+	Radius 69933
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31655,7 +31799,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 60.163
-	Radius 57508
+	Radius 49196
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -31683,7 +31827,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 205.945
-	Radius 89620
+	Radius 63852
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31712,7 +31856,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 156.684
-	Radius 90704
+	Radius 61286
 	EllipticalOrbit
 	{
 		Epoch 2463712.95
@@ -31796,7 +31940,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 200.224
-	Radius 89731
+	Radius 63606
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31824,7 +31968,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 724.304
-	Radius 84795
+	Radius 70577
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31853,7 +31997,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1069.452
-	Radius 83354
+	Radius 70968
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31881,7 +32025,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 616.882
-	Radius 85396
+	Radius 70183
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31910,7 +32054,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 483.717
-	Radius 86315
+	Radius 69327
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31939,7 +32083,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 1271.266
-	Radius 82722
+	Radius 70885
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -31995,26 +32139,54 @@
 	Texture "exo-class2.*"
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
-	Mass 484.67
-	Radius 86307
+	Mass 2351.842
+	Radius 69312
 	Oblateness 0.08
 	EllipticalOrbit
 	{
-		Epoch 2456036.7
-		Period 2.13144422
-		SemiMajorAxis 1.814
-		Eccentricity 0.211
-		Inclination 23.23035
-		AscendingNode 328.25071
-		ArgOfPericenter 255.58754
+		Epoch 2452275.6
+		Period 2.16180698
+		SemiMajorAxis 1.87
+		Eccentricity 0.35
+		Inclination 16.77455
+		AscendingNode 59.49694
+		ArgOfPericenter 115.26358
 	}
 	UniformRotation
 	{
-		Period 9.529736
-		Inclination 23.23035
-		AscendingNode 328.25071
+		Period 4.035685
+		Inclination 16.77455
+		AscendingNode 59.49694
 	}
 	InfoURL "http://arxiv.org/abs/0810.5348"
+}
+
+"HD 48265 c:c" "HIP 31895"
+{
+	Class "planet"
+	Texture "exo-class1.*"
+	Color [ 0.96 0.96 1 ]
+	GeomAlbedo 0.5
+	Mass 1414.283
+	Radius 70756
+	Oblateness 0.08
+	EllipticalOrbit
+	{
+		Epoch 2446077
+		Period 28.5229295
+		SemiMajorAxis 10.4
+		Eccentricity 0.41
+		Inclination 90.20273
+		AscendingNode 294.68749
+		ArgOfPericenter 5.29111
+	}
+	UniformRotation
+	{
+		Period 5.321957
+		Inclination 90.20273
+		AscendingNode 294.68749
+	}
+	InfoURL "http://arxiv.org/abs/2601.11280"
 }
 
 "HD 48948 b:b" "HIP 32769"
@@ -32102,7 +32274,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 513.274
-	Radius 86090
+	Radius 69565
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32158,7 +32330,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 460.834
-	Radius 86499
+	Radius 69120
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32186,7 +32358,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 931.202
-	Radius 83863
+	Radius 70921
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32213,7 +32385,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1859.226
-	Radius 81350
+	Radius 70148
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32293,7 +32465,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 342.606
-	Radius 87635
+	Radius 67579
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32347,7 +32519,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 18.4
-	Radius 28621
+	Radius 27541
 	EllipticalOrbit
 	{
 		Epoch 2458431.8
@@ -32375,7 +32547,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 495.794
-	Radius 86221
+	Radius 69428
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32403,7 +32575,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 324.173
-	Radius 87848
+	Radius 67240
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32456,7 +32628,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1357.076
-	Radius 82485
+	Radius 70813
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32510,7 +32682,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 1826.173
-	Radius 81414
+	Radius 70200
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32539,7 +32711,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 451.617
-	Radius 86576
+	Radius 69029
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32567,7 +32739,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 104.879
-	Radius 79780
+	Radius 56804
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -32620,7 +32792,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1880.838
-	Radius 81309
+	Radius 70114
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32648,7 +32820,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2679.193
-	Radius 80053
+	Radius 68722
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32676,7 +32848,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2424.94
-	Radius 80405
+	Radius 69181
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32705,7 +32877,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2195.476
-	Radius 80757
+	Radius 69587
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32784,7 +32956,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2065.807
-	Radius 80974
+	Radius 69809
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32812,7 +32984,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1001.122
-	Radius 83596
+	Radius 70958
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32841,7 +33013,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2370.911
-	Radius 80484
+	Radius 69278
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -32869,7 +33041,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 9325.519
-	Radius 75778
+	Radius 58548
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -32947,7 +33119,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 27.7
-	Radius 36419
+	Radius 35855
 	EllipticalOrbit
 	{
 		Epoch 2459272.6
@@ -33000,7 +33172,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2707.479
-	Radius 80016
+	Radius 68671
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33130,7 +33302,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 169.396
-	Radius 90393
+	Radius 62058
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33206,7 +33378,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 17.8
-	Radius 28068
+	Radius 26829
 	EllipticalOrbit
 	{
 		Epoch 2458484.5
@@ -33233,7 +33405,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 813.61
-	Radius 84362
+	Radius 70778
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33262,7 +33434,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 162.404
-	Radius 90561
+	Radius 61645
 	EllipticalOrbit
 	{
 		Epoch 2451905.61
@@ -33290,7 +33462,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 411.572
-	Radius 86930
+	Radius 68587
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33318,7 +33490,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 645.167
-	Radius 85228
+	Radius 70307
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33346,7 +33518,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 4385.867
-	Radius 78335
+	Radius 65682
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -33375,7 +33547,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3478.819
-	Radius 79138
+	Radius 67271
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -33403,7 +33575,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 560.628
-	Radius 85756
+	Radius 69884
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33431,7 +33603,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 958.534
-	Radius 83756
+	Radius 70939
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33460,7 +33632,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1541.41
-	Radius 82024
+	Radius 70607
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33488,7 +33660,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2510.75
-	Radius 80282
+	Radius 69027
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33507,6 +33679,34 @@
 		AscendingNode 183.29186
 	}
 	InfoURL "http://arxiv.org/abs/1603.09391"
+}
+
+"HD 68475 b:b" "HIP 40051"
+{
+	Class "planet"
+	Texture "exo-class1.*"
+	Color [ 0.96 0.96 1 ]
+	GeomAlbedo 0.5
+	Mass 1639.933
+	Radius 70476
+	Oblateness 0.08
+	EllipticalOrbit
+	{
+		Epoch 2451564
+		Period 21.44284736
+		SemiMajorAxis 7.27
+		Eccentricity 0.62
+		Inclination 112.09038
+		AscendingNode 87.47365
+		ArgOfPericenter 211.77411
+	}
+	UniformRotation
+	{
+		Period 4.910184
+		Inclination 112.09038
+		AscendingNode 87.47365
+	}
+	InfoURL "http://arxiv.org/abs/2601.11280"
 }
 
 "Albmi:HD 68988 b:b" "HIP 40687"
@@ -33544,7 +33744,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4776.782
-	Radius 78042
+	Radius 65025
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -33573,7 +33773,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 982.053
-	Radius 83667
+	Radius 70951
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33651,7 +33851,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 18.433
-	Radius 28652
+	Radius 27580
 	EllipticalOrbit
 	{
 		Epoch 2453358
@@ -33678,7 +33878,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1239.484
-	Radius 82814
+	Radius 70907
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33706,7 +33906,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 92.167
-	Radius 73934
+	Radius 55181
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -33734,7 +33934,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 561.9
-	Radius 85748
+	Radius 69892
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33762,7 +33962,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 949.636
-	Radius 83791
+	Radius 70934
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33790,7 +33990,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1719.705
-	Radius 81630
+	Radius 70362
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -33819,7 +34019,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1321.481
-	Radius 82581
+	Radius 70845
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33847,7 +34047,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1398.392
-	Radius 82376
+	Radius 70772
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33901,7 +34101,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 118.546
-	Radius 85748
+	Radius 58262
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33930,7 +34130,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 810.432
-	Radius 84377
+	Radius 70772
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33958,7 +34158,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 774.837
-	Radius 84544
+	Radius 70702
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -33987,7 +34187,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 696.018
-	Radius 84944
+	Radius 70492
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34015,7 +34215,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 320.995
-	Radius 87886
+	Radius 67178
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34094,7 +34294,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 566.985
-	Radius 85714
+	Radius 69922
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34123,7 +34323,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3127.314
-	Radius 79510
+	Radius 67906
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -34151,7 +34351,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2597.832
-	Radius 80161
+	Radius 68870
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34180,7 +34380,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 22.247
-	Radius 32008
+	Radius 31510
 	EllipticalOrbit
 	{
 		Epoch 2455499
@@ -34207,7 +34407,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 127.127
-	Radius 89352
+	Radius 59058
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34263,7 +34463,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1716.209
-	Radius 81637
+	Radius 70367
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34291,7 +34491,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 333.389
-	Radius 87740
+	Radius 67414
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34320,7 +34520,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1430.174
-	Radius 82294
+	Radius 70739
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34348,7 +34548,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 810.432
-	Radius 84377
+	Radius 70772
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34376,7 +34576,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2698.262
-	Radius 80028
+	Radius 68687
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34430,7 +34630,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 994.766
-	Radius 83620
+	Radius 70956
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34457,7 +34657,7 @@
 	Texture "venuslike.*"
 	NightTexture "venuslikenight.*"
 	Mass 15.5
-	Radius 25871
+	Radius 23792
 	EllipticalOrbit
 	{
 		Epoch 2455927.5
@@ -34534,7 +34734,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 230.735
-	Radius 89172
+	Radius 64803
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34644,7 +34844,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 425.874
-	Radius 86800
+	Radius 68755
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34726,7 +34926,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1719.387
-	Radius 81630
+	Radius 70362
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34754,7 +34954,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1802.019
-	Radius 81462
+	Radius 70238
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34782,7 +34982,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1747.991
-	Radius 81571
+	Radius 70320
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34810,7 +35010,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2393.158
-	Radius 80451
+	Radius 69238
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34923,7 +35123,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 413.161
-	Radius 86916
+	Radius 68606
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34950,7 +35150,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1519.163
-	Radius 82076
+	Radius 70635
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -34979,7 +35179,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1525.519
-	Radius 82061
+	Radius 70627
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -35007,7 +35207,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 66.6
-	Radius 61057
+	Radius 50710
 	EllipticalOrbit
 	{
 		Epoch 2458484.5
@@ -35091,7 +35291,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 476.725
-	Radius 86370
+	Radius 69266
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -35119,7 +35319,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 216.115
-	Radius 89430
+	Radius 64263
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -35147,7 +35347,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 31.464
-	Radius 39257
+	Radius 38265
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -35283,7 +35483,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 644.532
-	Radius 85232
+	Radius 70304
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -35312,7 +35512,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2877.193
-	Radius 79802
+	Radius 68361
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -35395,7 +35595,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 143.017
-	Radius 91069
+	Radius 60342
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -35423,7 +35623,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 3909.143
-	Radius 78733
+	Radius 66506
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -35451,7 +35651,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 4210.433
-	Radius 78476
+	Radius 65983
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -35479,7 +35679,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1144.139
-	Radius 83106
+	Radius 70955
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -35537,7 +35737,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2142.083
-	Radius 80845
+	Radius 69679
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -35566,7 +35766,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 3877.361
-	Radius 78761
+	Radius 66562
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -35595,7 +35795,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1719.069
-	Radius 81631
+	Radius 70363
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -35623,7 +35823,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2511.704
-	Radius 80280
+	Radius 69025
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -35679,7 +35879,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 641.989
-	Radius 85246
+	Radius 70294
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -35736,7 +35936,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 3006.544
-	Radius 79648
+	Radius 68126
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -35765,7 +35965,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1703.496
-	Radius 81664
+	Radius 70386
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -35793,7 +35993,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1592.261
-	Radius 81907
+	Radius 70541
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -35819,7 +36019,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 18.116
-	Radius 28360
+	Radius 27207
 	EllipticalOrbit
 	{
 		Epoch 2454832.5
@@ -35844,7 +36044,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 352.776
-	Radius 87522
+	Radius 67751
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -35872,7 +36072,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1156.534
-	Radius 83067
+	Radius 70950
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -35901,7 +36101,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1156.852
-	Radius 83066
+	Radius 70950
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -35929,7 +36129,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 108.375
-	Radius 81336
+	Radius 57202
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36114,7 +36314,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 23.4
-	Radius 32974
+	Radius 32534
 	Oblateness 0.01
 	EllipticalOrbit
 	{
@@ -36142,7 +36342,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 219.929
-	Radius 89361
+	Radius 64410
 	EllipticalOrbit
 	{
 		Epoch 2454845.41
@@ -36170,7 +36370,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 569.527
-	Radius 85697
+	Radius 69937
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36199,7 +36399,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 168.443
-	Radius 90416
+	Radius 62004
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36227,7 +36427,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 378.837
-	Radius 87248
+	Radius 68153
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36308,7 +36508,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 381.38
-	Radius 87222
+	Radius 68189
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36336,7 +36536,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1261.731
-	Radius 82749
+	Radius 70892
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36364,7 +36564,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1592.261
-	Radius 81907
+	Radius 70541
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36418,7 +36618,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2459.9
-	Radius 80354
+	Radius 69118
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36446,7 +36646,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1461.956
-	Radius 82215
+	Radius 70703
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36474,7 +36674,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 391.232
-	Radius 87125
+	Radius 68326
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36503,7 +36703,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 225.65
-	Radius 89260
+	Radius 64621
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36633,7 +36833,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 362.311
-	Radius 87419
+	Radius 67905
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36661,7 +36861,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 794.541
-	Radius 84451
+	Radius 70743
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36793,7 +36993,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 42.1
-	Radius 46603
+	Radius 43450
 	EllipticalOrbit
 	{
 		Epoch 2458915.45
@@ -36821,7 +37021,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1112.358
-	Radius 83209
+	Radius 70963
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36875,7 +37075,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 572.07
-	Radius 85680
+	Radius 69951
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36902,7 +37102,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2149.075
-	Radius 80833
+	Radius 69667
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36930,7 +37130,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 740.512
-	Radius 84713
+	Radius 70621
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -36958,7 +37158,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 159.544
-	Radius 90632
+	Radius 61468
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -36986,7 +37186,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 269.191
-	Radius 88570
+	Radius 65983
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -37015,7 +37215,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 444.943
-	Radius 86633
+	Radius 68961
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -37043,7 +37243,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 3495.981
-	Radius 79121
+	Radius 67240
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -37097,7 +37297,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 495.794
-	Radius 86221
+	Radius 69428
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -37125,7 +37325,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 853.019
-	Radius 84187
+	Radius 70839
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -37204,7 +37404,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 116.003
-	Radius 84660
+	Radius 58010
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -37261,7 +37461,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 402.991
-	Radius 87011
+	Radius 68480
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -37290,7 +37490,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 187.512
-	Radius 89990
+	Radius 63016
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -37370,7 +37570,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 48.4
-	Radius 50592
+	Radius 45775
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -37587,7 +37787,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 437.951
-	Radius 86693
+	Radius 68888
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -37616,7 +37816,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4779.96
-	Radius 78039
+	Radius 65020
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -37696,7 +37896,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 762.76
-	Radius 84602
+	Radius 70675
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -37750,7 +37950,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 134.119
-	Radius 91327
+	Radius 59651
 	EllipticalOrbit
 	{
 		Epoch 2455792.29
@@ -37778,7 +37978,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 167.489
-	Radius 90438
+	Radius 61948
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -37806,7 +38006,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 159.544
-	Radius 90632
+	Radius 61468
 	EllipticalOrbit
 	{
 		Epoch 2458071.67
@@ -37889,7 +38089,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 134.119
-	Radius 91327
+	Radius 59651
 	EllipticalOrbit
 	{
 		Epoch 2456991.05
@@ -37917,7 +38117,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 247.579
-	Radius 88896
+	Radius 65358
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -37944,7 +38144,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 18.8
-	Radius 28986
+	Radius 28000
 	EllipticalOrbit
 	{
 		Epoch 2458484.5
@@ -38000,7 +38200,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 623.238
-	Radius 85358
+	Radius 70212
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -38164,8 +38364,8 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 2383.624
-	Radius 80465
-	Oblateness 0.08
+	Radius 67814
+	Oblateness 0.06
 	EllipticalOrbit
 	{
 		Epoch 2451117.08498843
@@ -38179,7 +38379,7 @@
 	}
 	UniformRotation
 	{
-		Period 4.006323
+		Period 3.376401
 		Inclination 88.03498
 		AscendingNode 267.5461
 	}
@@ -38194,8 +38394,8 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 2955.693
-	Radius 83893
-	Oblateness 0.08
+	Radius 76203
+	Oblateness 0.07
 	EllipticalOrbit
 	{
 		Epoch 2451117.08498843
@@ -38209,7 +38409,7 @@
 	}
 	UniformRotation
 	{
-		Period 3.751049
+		Period 3.407202
 		Inclination 88.03498
 		AscendingNode 267.5461
 	}
@@ -38224,8 +38424,8 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 2478.969
-	Radius 90884
-	Oblateness 0.09
+	Radius 83194
+	Oblateness 0.08
 	EllipticalOrbit
 	{
 		Epoch 2451117.08498843
@@ -38239,7 +38439,7 @@
 	}
 	UniformRotation
 	{
-		Period 4.4372
+		Period 4.061744
 		Inclination 88.03498
 		AscendingNode 267.5461
 	}
@@ -38283,7 +38483,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 464.012
-	Radius 86473
+	Radius 69150
 	EllipticalOrbit
 	{
 		Epoch 2458486.422
@@ -38311,7 +38511,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 676.949
-	Radius 85048
+	Radius 70428
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -38340,7 +38540,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2831.745
-	Radius 79858
+	Radius 68444
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -38369,7 +38569,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1106.001
-	Radius 83230
+	Radius 70965
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -38397,7 +38597,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2378.856
-	Radius 80472
+	Radius 69263
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -38425,7 +38625,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 5212.19
-	Radius 77743
+	Radius 64314
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -38453,7 +38653,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 5402.88
-	Radius 77620
+	Radius 64010
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -38481,7 +38681,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 2129.37
-	Radius 80866
+	Radius 69701
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -40194,7 +40394,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 30.8
-	Radius 38767
+	Radius 37867
 	EllipticalOrbit
 	{
 		Epoch 2458557.02
@@ -40220,7 +40420,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 23.3
-	Radius 32891
+	Radius 32447
 	EllipticalOrbit
 	{
 		Epoch 2458589.3
@@ -42082,7 +42282,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 349.598
-	Radius 87557
+	Radius 67698
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -47673,7 +47873,7 @@
 	Texture "venuslike.*"
 	NightTexture "venuslikenight.*"
 	Mass 15.23
-	Radius 25605
+	Radius 23400
 	EllipticalOrbit
 	{
 		Epoch 2458204.2649
@@ -50767,7 +50967,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1142
-	Radius 83113
+	Radius 70955
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -51501,7 +51701,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2669.658
-	Radius 80065
+	Radius 68739
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -51528,7 +51728,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 518.041
-	Radius 86055
+	Radius 69600
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -52021,7 +52221,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1179.099
-	Radius 82996
+	Radius 70941
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -52282,7 +52482,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 23.8
-	Radius 33305
+	Radius 32874
 	EllipticalOrbit
 	{
 		Epoch 2459945.5
@@ -62145,7 +62345,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1973.64
-	Radius 81136
+	Radius 69963
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -65723,7 +65923,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 36
-	Radius 42498
+	Radius 40718
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -65751,7 +65951,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 378
-	Radius 87257
+	Radius 68141
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -72394,7 +72594,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 97.887
-	Radius 76603
+	Radius 55948
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -74602,7 +74802,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 127.127
-	Radius 89352
+	Radius 59058
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -74787,7 +74987,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1586.54
-	Radius 81920
+	Radius 70549
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -82633,7 +82833,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 16.6
-	Radius 26937
+	Radius 25310
 	EllipticalOrbit
 	{
 		Epoch 2455562.5
@@ -82660,7 +82860,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 22.5
-	Radius 32221
+	Radius 31740
 	EllipticalOrbit
 	{
 		Epoch 2457754.5
@@ -85123,7 +85323,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 209.8
-	Radius 89546
+	Radius 64012
 	EllipticalOrbit
 	{
 		Epoch 2454957
@@ -89628,7 +89828,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 762.76
-	Radius 84602
+	Radius 70675
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -89832,7 +90032,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 68.648
-	Radius 62156
+	Radius 51150
 	EllipticalOrbit
 	{
 		Epoch 2455715
@@ -100660,7 +100860,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3523
-	Radius 79094
+	Radius 67191
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -101260,7 +101460,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 2320.06
-	Radius 80561
+	Radius 69368
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -101502,7 +101702,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 2188.802
-	Radius 80768
+	Radius 69598
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -101829,7 +102029,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 772.294
-	Radius 84556
+	Radius 70697
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -102772,7 +102972,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1433.352
-	Radius 82286
+	Radius 70735
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -102801,7 +103001,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 734.156
-	Radius 84745
+	Radius 70604
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -103055,7 +103255,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 115.05
-	Radius 84250
+	Radius 57913
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -103771,7 +103971,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 686.484
-	Radius 84995
+	Radius 70461
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -103799,7 +103999,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 298.747
-	Radius 88165
+	Radius 66710
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -105853,7 +106053,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 42.842
-	Radius 47084
+	Radius 43747
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -106695,7 +106895,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 2040
-	Radius 81018
+	Radius 69853
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -109884,7 +110084,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 260.61
-	Radius 88696
+	Radius 65745
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -110805,7 +111005,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 238.045
-	Radius 89050
+	Radius 65052
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -110834,7 +111034,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 86.446
-	Radius 71195
+	Radius 54343
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -115444,7 +115644,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 20.9
-	Radius 30851
+	Radius 30225
 	EllipticalOrbit
 	{
 		Epoch 2458484.5
@@ -117409,7 +117609,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 204.038
-	Radius 89656
+	Radius 63771
 	EllipticalOrbit
 	{
 		Epoch 2456293.5
@@ -117436,7 +117636,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1001.122
-	Radius 83596
+	Radius 70958
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -119659,7 +119859,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2831.745
-	Radius 79858
+	Radius 68444
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -121523,7 +121723,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4258.741
-	Radius 78437
+	Radius 65899
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -121551,7 +121751,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 6038.513
-	Radius 77241
+	Radius 63024
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -121576,7 +121776,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 16.118
-	Radius 26474
+	Radius 24660
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -121629,7 +121829,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1048.794
-	Radius 83425
+	Radius 70968
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -121656,7 +121856,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2224.715
-	Radius 80710
+	Radius 69536
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -121683,7 +121883,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 381.38
-	Radius 87222
+	Radius 68189
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -121710,7 +121910,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1452.421
-	Radius 82239
+	Radius 70714
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -121737,7 +121937,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 699.196
-	Radius 84927
+	Radius 70502
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -121764,7 +121964,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4922.977
-	Radius 77938
+	Radius 64784
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -121791,7 +121991,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 301.926
-	Radius 88124
+	Radius 66781
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -121818,7 +122018,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1249.019
-	Radius 82786
+	Radius 70901
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -121845,7 +122045,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 769.116
-	Radius 84571
+	Radius 70690
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -121872,7 +122072,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 245.037
-	Radius 88937
+	Radius 65278
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -121899,7 +122099,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 34
-	Radius 41091
+	Radius 39689
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -122001,7 +122201,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 762.76
-	Radius 84602
+	Radius 70675
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122028,7 +122228,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 23.5
-	Radius 33057
+	Radius 32619
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -122055,7 +122255,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 270.144
-	Radius 88556
+	Radius 66009
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122107,7 +122307,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2809.498
-	Radius 79885
+	Radius 68485
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122134,7 +122334,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 171
-	Radius 90356
+	Radius 62150
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122161,7 +122361,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 664.236
-	Radius 85119
+	Radius 70382
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122213,7 +122413,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 460.834
-	Radius 86499
+	Radius 69120
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122240,7 +122440,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 73.098
-	Radius 64498
+	Radius 52048
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -122267,7 +122467,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 670.593
-	Radius 85083
+	Radius 70405
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122294,7 +122494,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 60.385
-	Radius 57634
+	Radius 49252
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -122346,7 +122546,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1430.174
-	Radius 82294
+	Radius 70739
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122373,7 +122573,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 77.865
-	Radius 66943
+	Radius 52930
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -122400,7 +122600,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 622.92
-	Radius 85360
+	Radius 70211
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122452,7 +122652,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 179.566
-	Radius 90162
+	Radius 62615
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122479,7 +122679,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 387.736
-	Radius 87159
+	Radius 68278
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122506,7 +122706,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 85.81
-	Radius 70886
+	Radius 54245
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -122533,7 +122733,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3813.798
-	Radius 78818
+	Radius 66674
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -122560,7 +122760,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 365.489
-	Radius 87386
+	Radius 67954
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122587,7 +122787,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 5085.064
-	Radius 77827
+	Radius 64520
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -122639,7 +122839,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 575.248
-	Radius 85659
+	Radius 69969
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122666,7 +122866,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2447.187
-	Radius 80372
+	Radius 69141
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122693,7 +122893,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 381.38
-	Radius 87222
+	Radius 68189
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122743,7 +122943,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 15.5
-	Radius 25871
+	Radius 23792
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -122770,7 +122970,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 60.385
-	Radius 57634
+	Radius 49252
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -122797,7 +122997,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 29.875
-	Radius 38077
+	Radius 37295
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -122824,7 +123024,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 397.271
-	Radius 87066
+	Radius 68406
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122876,7 +123076,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1287.157
-	Radius 82677
+	Radius 70873
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122903,7 +123103,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 813.61
-	Radius 84362
+	Radius 70778
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -122955,7 +123155,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 197.046
-	Radius 89794
+	Radius 63464
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -122982,7 +123182,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 893.064
-	Radius 84017
+	Radius 70887
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -123009,7 +123209,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 368.667
-	Radius 87353
+	Radius 68003
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -123036,7 +123236,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 88.989
-	Radius 72421
+	Radius 54725
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -123054,6 +123254,33 @@
 		AscendingNode 93.9961
 	}
 	InfoURL "http://arxiv.org/abs/2204.02017v1"
+}
+
+"KMT-2020-BLG-0202L b:b" "KMT-2020-BLG-0202L"
+{
+	Class "planet"
+	Texture "exo-class1.*"
+	Color [ 0.96 0.96 1 ]
+	GeomAlbedo 0.5
+	Mass 3902.786
+	Radius 66518
+	Oblateness 0.07
+	EllipticalOrbit
+	{
+		Epoch 2461041.5
+		Period 9.39276726
+		SemiMajorAxis 4.17
+		Inclination 88.80369
+		AscendingNode 88.34717
+		ArgOfPericenter 271.04104
+	}
+	UniformRotation
+	{
+		Period 3.063764
+		Inclination 88.80369
+		AscendingNode 88.34717
+	}
+	InfoURL "http://arxiv.org/abs/2601.13450"
 }
 
 "KMT-2020-BLG-0414L Ab:b" "KMT-2020-BLG-0414L A"
@@ -123089,7 +123316,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3403.814
-	Radius 79214
+	Radius 67406
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -123116,7 +123343,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1897.364
-	Radius 81277
+	Radius 70088
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -123168,7 +123395,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 60.385
-	Radius 57634
+	Radius 49252
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -123195,7 +123422,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 66.741
-	Radius 61133
+	Radius 50741
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -123222,7 +123449,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 31.782
-	Radius 39490
+	Radius 38451
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -123249,7 +123476,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 38.19
-	Radius 44002
+	Radius 41764
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -123276,7 +123503,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 21
-	Radius 30938
+	Radius 30324
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -123303,7 +123530,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 143.017
-	Radius 91069
+	Radius 60342
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -123330,7 +123557,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 400.449
-	Radius 87035
+	Radius 68447
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -123382,7 +123609,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 79.454
-	Radius 67745
+	Radius 53207
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -123409,7 +123636,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 69.92
-	Radius 62831
+	Radius 51414
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -123436,7 +123663,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 413.161
-	Radius 86916
+	Radius 68606
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -123463,7 +123690,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 279.678
-	Radius 88421
+	Radius 66256
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -123488,7 +123715,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 19.05
-	Radius 29212
+	Radius 28281
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -123515,7 +123742,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 120.77
-	Radius 86693
+	Radius 58476
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -123542,7 +123769,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 61.27
-	Radius 58130
+	Radius 49472
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -123594,7 +123821,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 467.19
-	Radius 86447
+	Radius 69180
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -123621,7 +123848,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 38.138
-	Radius 43967
+	Radius 41740
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -123648,7 +123875,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 46
-	Radius 49099
+	Radius 44939
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -123675,7 +123902,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 232.006
-	Radius 89151
+	Radius 64847
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -123702,7 +123929,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 340.064
-	Radius 87664
+	Radius 67534
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -123729,7 +123956,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 22.247
-	Radius 32008
+	Radius 31510
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -123756,7 +123983,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 254.253
-	Radius 88792
+	Radius 65560
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -123808,7 +124035,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 163.04
-	Radius 90545
+	Radius 61684
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -123835,7 +124062,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 82.632
-	Radius 69328
+	Radius 53740
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -123860,7 +124087,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 15.4
-	Radius 25773
+	Radius 23648
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -123887,7 +124114,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 25.108
-	Radius 34371
+	Radius 33939
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -123914,7 +124141,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 355.954
-	Radius 87488
+	Radius 67803
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -123941,7 +124168,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 98.523
-	Radius 76896
+	Radius 56030
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -123968,7 +124195,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 26.379
-	Radius 35386
+	Radius 34909
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -123988,6 +124215,33 @@
 	InfoURL "http://arxiv.org/abs/2307.00753"
 }
 
+"KMT-2022-BLG-1551L b:b" "KMT-2022-BLG-1551L"
+{
+	Class "planet"
+	Texture "exo-class1.*"
+	Color [ 0.96 0.96 1 ]
+	GeomAlbedo 0.5
+	Mass 940.737
+	Radius 70928
+	Oblateness 0.08
+	EllipticalOrbit
+	{
+		Epoch 2461041.5
+		Period 4.7029937
+		SemiMajorAxis 2.29
+		Inclination 87.81399
+		AscendingNode 89.81776
+		ArgOfPericenter 274.03597
+	}
+	UniformRotation
+	{
+		Period 6.643494
+		Inclination 87.81399
+		AscendingNode 89.81776
+	}
+	InfoURL "http://arxiv.org/abs/2601.13450"
+}
+
 "KMT-2022-BLG-1787L b:b" "KMT-2022-BLG-1787L"
 {
 	Class "planet"
@@ -123995,7 +124249,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2110.301
-	Radius 80898
+	Radius 69734
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124022,7 +124276,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 549.823
-	Radius 85830
+	Radius 69817
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124049,7 +124303,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 111.236
-	Radius 82593
+	Radius 57514
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124076,7 +124330,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 476.725
-	Radius 86370
+	Radius 69266
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124103,7 +124357,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1582.726
-	Radius 81928
+	Radius 70554
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124130,7 +124384,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 279.678
-	Radius 88421
+	Radius 66256
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124157,7 +124411,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 83.7
-	Radius 69854
+	Radius 53913
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -124202,6 +124456,33 @@
 	InfoURL "http://arxiv.org/abs/2401.08904"
 }
 
+"KMT-2023-BLG-0466L b:b" "KMT-2023-BLG-0466L"
+{
+	Class "planet"
+	Texture "exo-class1.*"
+	Color [ 0.96 0.96 1 ]
+	GeomAlbedo 0.5
+	Mass 1032.904
+	Radius 70966
+	Oblateness 0.08
+	EllipticalOrbit
+	{
+		Epoch 2461041.5
+		Period 6.59024559
+		SemiMajorAxis 2.68
+		Inclination 88.65721
+		AscendingNode 99.99287
+		ArgOfPericenter 279.47409
+	}
+	UniformRotation
+	{
+		Period 6.314147
+		Inclination 88.65721
+		AscendingNode 99.99287
+	}
+	InfoURL "http://arxiv.org/abs/2601.13450"
+}
+
 "KMT-2023-BLG-0469L b:b" "KMT-2023-BLG-0469L"
 {
 	Class "planet"
@@ -124209,7 +124490,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 39.409
-	Radius 44824
+	Radius 42313
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -124236,7 +124517,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 219.293
-	Radius 89372
+	Radius 64386
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124263,7 +124544,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 38.774
-	Radius 44397
+	Radius 42030
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -124288,7 +124569,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 18.751
-	Radius 28942
+	Radius 27945
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -124315,7 +124596,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1900.543
-	Radius 81271
+	Radius 70083
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124367,7 +124648,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 200.224
-	Radius 89731
+	Radius 63606
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124394,7 +124675,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 343.242
-	Radius 87628
+	Radius 67590
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124444,7 +124725,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 16.35
-	Radius 26697
+	Radius 24976
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -124471,7 +124752,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 254.253
-	Radius 88792
+	Radius 65560
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124498,7 +124779,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 241.541
-	Radius 88993
+	Radius 65166
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124525,7 +124806,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3769.303
-	Radius 78859
+	Radius 66753
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -124550,7 +124831,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 17.3
-	Radius 27600
+	Radius 26212
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -124602,7 +124883,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 839.035
-	Radius 84248
+	Radius 70819
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124627,7 +124908,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 19.069
-	Radius 29229
+	Radius 28302
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -124654,7 +124935,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 336.885
-	Radius 87700
+	Radius 67477
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124706,7 +124987,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1395.214
-	Radius 82384
+	Radius 70775
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -124731,7 +125012,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 17.48
-	Radius 27769
+	Radius 26436
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -124749,6 +125030,60 @@
 		AscendingNode 94.64074
 	}
 	InfoURL "http://arxiv.org/abs/2509.05522"
+}
+
+"KMT-2025-BLG-0121L b:b" "KMT-2025-BLG-0121L"
+{
+	Class "planet"
+	Texture "exo-class1.*"
+	Color [ 0.96 0.96 1 ]
+	GeomAlbedo 0.5
+	Mass 2469.434
+	Radius 69101
+	Oblateness 0.08
+	EllipticalOrbit
+	{
+		Epoch 2461041.5
+		Period 6.77816703
+		SemiMajorAxis 3.05
+		Inclination 88.86414
+		AscendingNode 87.97772
+		ArgOfPericenter 270.57366
+	}
+	UniformRotation
+	{
+		Period 3.929979
+		Inclination 88.86414
+		AscendingNode 87.97772
+	}
+	InfoURL "http://arxiv.org/abs/2601.13450"
+}
+
+"KMT-2025-BLG-1616L b:b" "KMT-2025-BLG-1616L"
+{
+	Class "planet"
+	Texture "exo-class1.*"
+	Color [ 0.96 0.96 1 ]
+	GeomAlbedo 0.5
+	Mass 42.32
+	Radius 43539
+	Oblateness 0.04
+	EllipticalOrbit
+	{
+		Epoch 2461041.5
+		Period 3.96769359
+		SemiMajorAxis 1.6
+		Inclination 88.3392
+		AscendingNode 94.63326
+		ArgOfPericenter 276.56726
+	}
+	UniformRotation
+	{
+		Period 17.470647
+		Inclination 88.3392
+		AscendingNode 94.63326
+	}
+	InfoURL "http://arxiv.org/abs/2601.11469"
 }
 
 "KOBE-1 b:b" "HIP 5957"
@@ -124914,7 +125249,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 67.906
-	Radius 61759
+	Radius 50992
 	EllipticalOrbit
 	{
 		Epoch 2454984.751
@@ -125045,7 +125380,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 25.725
-	Radius 34866
+	Radius 34417
 	EllipticalOrbit
 	{
 		Epoch 2456658.5
@@ -125146,7 +125481,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 762.694
-	Radius 84603
+	Radius 70675
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -125356,7 +125691,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 20
-	Radius 30062
+	Radius 29307
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -125677,7 +126012,7 @@
 	Texture "venuslike.*"
 	NightTexture "venuslikenight.*"
 	Mass 16.8
-	Radius 27128
+	Radius 25572
 	EllipticalOrbit
 	{
 		Epoch 2450099.74
@@ -126094,6 +126429,33 @@
 	InfoURL "http://arxiv.org/abs/0704.2469"
 }
 
+"LP 102-241 Ab:NLTT 45468 Ab:b" "LP 102-241 A"
+{
+	Class "planet"
+	Texture "exo-class2.*"
+	Color [ 0.98 0.97 1 ]
+	GeomAlbedo 0.75
+	Mass 267.253
+	Radius 65931
+	EllipticalOrbit
+	{
+		Epoch 2451544.5
+		Period 0.02651882
+		SemiMajorAxis 0.06272
+		Eccentricity 0.257
+		Inclination 7.92761
+		AscendingNode 35.81998
+		ArgOfPericenter 217.33595
+	}
+	UniformRotation
+	{
+		Period 165.61587
+		Inclination 7.92761
+		AscendingNode 35.81998
+	}
+	InfoURL "http://arxiv.org/abs/2601.19996"
+}
+
 "LP 151-22 b:TOI-1467.01:b" "LP 151-22"
 {
 	Class "planet"
@@ -126126,7 +126488,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 6674.146
-	Radius 76901
+	Radius 62082
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -127172,7 +127534,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 543.466
-	Radius 85874
+	Radius 69776
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -127199,7 +127561,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 23.391
-	Radius 32967
+	Radius 32526
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -127226,7 +127588,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 775.472
-	Radius 84541
+	Radius 70704
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -127278,7 +127640,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 66
-	Radius 60732
+	Radius 50577
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -127305,7 +127667,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 826.323
-	Radius 84305
+	Radius 70799
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -127332,7 +127694,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3495.981
-	Radius 79121
+	Radius 67240
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -127359,7 +127721,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 171.621
-	Radius 90341
+	Radius 62184
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -127386,7 +127748,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 24.75
-	Radius 34082
+	Radius 33655
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -127413,7 +127775,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 85.81
-	Radius 70886
+	Radius 54245
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -127440,7 +127802,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 454.478
-	Radius 86552
+	Radius 69058
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -127467,7 +127829,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 28.92
-	Radius 37355
+	Radius 36680
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -127492,7 +127854,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 17
-	Radius 27318
+	Radius 25831
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -127517,7 +127879,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 18
-	Radius 28253
+	Radius 27069
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -127544,7 +127906,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 1525.519
-	Radius 82061
+	Radius 70627
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -127571,7 +127933,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2478.969
-	Radius 80327
+	Radius 69084
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -127598,7 +127960,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2669.658
-	Radius 80065
+	Radius 68739
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -127650,7 +128012,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 870.817
-	Radius 84111
+	Radius 70862
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -127677,7 +128039,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 21
-	Radius 30938
+	Radius 30324
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -127704,7 +128066,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 603.851
-	Radius 85476
+	Radius 70121
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -127731,7 +128093,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4449.431
-	Radius 78286
+	Radius 65574
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -127758,7 +128120,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 889.886
-	Radius 84030
+	Radius 70884
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -127785,7 +128147,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2860.348
-	Radius 79822
+	Radius 68392
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -127812,7 +128174,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 197.046
-	Radius 89794
+	Radius 63464
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -127864,7 +128226,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 123.628
-	Radius 87895
+	Radius 58743
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -127916,7 +128278,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 46
-	Radius 49099
+	Radius 44939
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -127968,7 +128330,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1140.961
-	Radius 83117
+	Radius 70956
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -128020,7 +128382,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 127.127
-	Radius 89352
+	Radius 59058
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -128047,7 +128409,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1175.921
-	Radius 83006
+	Radius 70942
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -128074,7 +128436,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 200.224
-	Radius 89731
+	Radius 63606
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -128101,7 +128463,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1589.082
-	Radius 81914
+	Radius 70545
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -128156,7 +128518,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 152.552
-	Radius 90811
+	Radius 61014
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -128185,7 +128547,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 524.397
-	Radius 86009
+	Radius 69646
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -128214,7 +128576,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 614.021
-	Radius 85414
+	Radius 70170
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -128243,7 +128605,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 695.065
-	Radius 84949
+	Radius 70489
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -128300,7 +128662,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3972.706
-	Radius 78677
+	Radius 66395
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -128358,7 +128720,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 7532.251
-	Radius 76493
+	Radius 60872
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -128385,7 +128747,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 572.07
-	Radius 85680
+	Radius 69951
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -128414,7 +128776,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 692.84
-	Radius 84961
+	Radius 70482
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -129453,7 +129815,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 924.846
-	Radius 83888
+	Radius 70916
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -129482,7 +129844,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 6848.309
-	Radius 76814
+	Radius 61831
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -129510,7 +129872,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 7530.026
-	Radius 76494
+	Radius 60875
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -129612,7 +129974,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 743.691
-	Radius 84697
+	Radius 70629
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -129639,7 +130001,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1039.26
-	Radius 83459
+	Radius 70967
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -129716,7 +130078,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 231.053
-	Radius 89167
+	Radius 64814
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -129743,7 +130105,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 86.128
-	Radius 71041
+	Radius 54294
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -129771,7 +130133,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 144
-	Radius 91042
+	Radius 60414
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -129798,7 +130160,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 80
-	Radius 68019
+	Radius 53301
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -129825,7 +130187,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 22.056
-	Radius 31846
+	Radius 31334
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -129852,7 +130214,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 56.584
-	Radius 55468
+	Radius 48257
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -129879,7 +130241,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1461.956
-	Radius 82215
+	Radius 70703
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -129906,7 +130268,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2497.907
-	Radius 80300
+	Radius 69050
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -129933,7 +130295,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 55.618
-	Radius 54908
+	Radius 47990
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -129960,7 +130322,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 162.086
-	Radius 90569
+	Radius 61626
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -129987,7 +130349,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 317.816
-	Radius 87925
+	Radius 67115
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130014,7 +130376,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2987.475
-	Radius 79670
+	Radius 68161
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -130041,7 +130403,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 46.083
-	Radius 49151
+	Radius 44969
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -130068,7 +130430,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 273.322
-	Radius 88510
+	Radius 66093
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130095,7 +130457,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 600.673
-	Radius 85496
+	Radius 70105
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130122,7 +130484,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 867.639
-	Radius 84124
+	Radius 70858
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130149,7 +130511,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 354.683
-	Radius 87501
+	Radius 67783
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130176,7 +130538,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 149.374
-	Radius 90895
+	Radius 60797
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -130203,7 +130565,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 53.075
-	Radius 53416
+	Radius 47255
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -130230,7 +130592,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 39
-	Radius 44550
+	Radius 42131
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -130257,7 +130619,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3996.651
-	Radius 78656
+	Radius 66353
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -130284,7 +130646,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 82.632
-	Radius 69328
+	Radius 53740
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -130337,7 +130699,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3022.435
-	Radius 79629
+	Radius 68097
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -130364,7 +130726,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 203.403
-	Radius 89669
+	Radius 63744
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130391,7 +130753,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 889.886
-	Radius 84030
+	Radius 70884
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130418,7 +130780,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 203.403
-	Radius 89669
+	Radius 63744
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130445,7 +130807,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1382.502
-	Radius 82417
+	Radius 70788
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130472,7 +130834,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 155.73
-	Radius 90728
+	Radius 61224
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -130499,7 +130861,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1169.565
-	Radius 83026
+	Radius 70945
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130526,7 +130888,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 56
-	Radius 55130
+	Radius 48096
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -130553,7 +130915,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 85
-	Radius 70491
+	Radius 54119
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -130580,7 +130942,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 295.887
-	Radius 88202
+	Radius 66645
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130607,7 +130969,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 228.828
-	Radius 89205
+	Radius 64735
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130634,7 +130996,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1239.484
-	Radius 82814
+	Radius 70907
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130661,7 +131023,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 21
-	Radius 30938
+	Radius 30324
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -130688,7 +131050,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 44.494
-	Radius 48146
+	Radius 44384
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -130715,7 +131077,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 794.541
-	Radius 84451
+	Radius 70743
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130740,7 +131102,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 17.9
-	Radius 28160
+	Radius 26949
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -130767,7 +131129,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 137.615
-	Radius 91223
+	Radius 59930
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -130820,7 +131182,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1303.048
-	Radius 82632
+	Radius 70861
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130847,7 +131209,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3877.361
-	Radius 78761
+	Radius 66562
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -130874,7 +131236,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1328.473
-	Radius 82562
+	Radius 70839
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -130901,7 +131263,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 136.661
-	Radius 91251
+	Radius 59855
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -130928,7 +131290,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 232.006
-	Radius 89151
+	Radius 64847
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -130955,7 +131317,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4258.741
-	Radius 78437
+	Radius 65899
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -131007,7 +131369,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 251.075
-	Radius 88842
+	Radius 65465
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -131034,7 +131396,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3813.798
-	Radius 78818
+	Radius 66674
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -131061,7 +131423,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 120.77
-	Radius 86693
+	Radius 58476
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -131088,7 +131450,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3651.711
-	Radius 78969
+	Radius 66962
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -131115,7 +131477,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 823.145
-	Radius 84319
+	Radius 70794
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -131191,7 +131553,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 60.9
-	Radius 57922
+	Radius 49381
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -131218,7 +131580,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 127.444
-	Radius 89483
+	Radius 59086
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -131245,7 +131607,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 130.305
-	Radius 90661
+	Radius 59333
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -131270,7 +131632,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 15.6
-	Radius 25969
+	Radius 23936
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -131322,7 +131684,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 162.086
-	Radius 90569
+	Radius 61626
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -131349,7 +131711,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 514.863
-	Radius 86078
+	Radius 69577
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -131376,7 +131738,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1757.525
-	Radius 81551
+	Radius 70306
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -131403,7 +131765,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 959.806
-	Radius 83751
+	Radius 70940
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -131430,7 +131792,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 508.506
-	Radius 86125
+	Radius 69529
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -131457,7 +131819,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1207.703
-	Radius 82909
+	Radius 70926
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -131484,7 +131846,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1875.117
-	Radius 81319
+	Radius 70123
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -131511,7 +131873,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3283.044
-	Radius 79340
+	Radius 67624
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -131563,7 +131925,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 238.362
-	Radius 89045
+	Radius 65062
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -131615,7 +131977,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 21.294
-	Radius 31192
+	Radius 30611
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -131667,7 +132029,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 44.494
-	Radius 48146
+	Radius 44384
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -131717,7 +132079,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 16.3
-	Radius 26649
+	Radius 24908
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -131744,7 +132106,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 20.1
-	Radius 30150
+	Radius 29412
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -131796,7 +132158,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 101.701
-	Radius 78347
+	Radius 56426
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -131873,7 +132235,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1430.174
-	Radius 82294
+	Radius 70739
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -131900,7 +132262,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 82.632
-	Radius 69328
+	Radius 53740
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -131927,7 +132289,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 282.857
-	Radius 88377
+	Radius 66336
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -131954,7 +132316,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 435.409
-	Radius 86715
+	Radius 68860
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132006,7 +132368,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 889.886
-	Radius 84030
+	Radius 70884
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132033,7 +132395,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 572.07
-	Radius 85680
+	Radius 69951
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132060,7 +132422,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 289.213
-	Radius 88291
+	Radius 66490
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132085,7 +132447,7 @@
 	Class "planet"
 	Texture "venuslike.*"
 	Mass 17.798
-	Radius 28065
+	Radius 26826
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -132138,7 +132500,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 63.563
-	Radius 59401
+	Radius 50022
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -132165,7 +132527,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 219.293
-	Radius 89372
+	Radius 64386
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132192,7 +132554,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 301.926
-	Radius 88124
+	Radius 66781
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132219,7 +132581,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 244.719
-	Radius 88942
+	Radius 65268
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132246,7 +132608,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3559.545
-	Radius 79058
+	Radius 67126
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -132273,7 +132635,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 308.282
-	Radius 88043
+	Radius 66918
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132300,7 +132662,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1398.392
-	Radius 82376
+	Radius 70772
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132327,7 +132689,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2262.853
-	Radius 80650
+	Radius 69469
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132354,7 +132716,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1976.818
-	Radius 81131
+	Radius 69958
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132381,7 +132743,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1036.082
-	Radius 83470
+	Radius 70966
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132408,7 +132770,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3248.084
-	Radius 79377
+	Radius 67687
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -132435,7 +132797,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1090.111
-	Radius 83283
+	Radius 70967
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132462,7 +132824,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1060.554
-	Radius 83384
+	Radius 70968
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132489,7 +132851,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4512.994
-	Radius 78237
+	Radius 65467
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -132568,7 +132930,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 556.179
-	Radius 85786
+	Radius 69857
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132595,7 +132957,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 699.196
-	Radius 84927
+	Radius 70502
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -132622,7 +132984,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 27.1
-	Radius 35952
+	Radius 35433
 	Oblateness 0.03
 	EllipticalOrbit
 	{
@@ -132649,7 +133011,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1385.68
-	Radius 82409
+	Radius 70785
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -132676,7 +133038,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 3972.706
-	Radius 78677
+	Radius 66395
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -132919,7 +133281,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 542.513
-	Radius 85880
+	Radius 69770
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132948,7 +133310,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 469.097
-	Radius 86431
+	Radius 69197
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -132977,7 +133339,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1160.348
-	Radius 83055
+	Radius 70949
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -133127,16 +133489,16 @@
 		Period 0.34124572
 		SemiMajorAxis 0.50276
 		Eccentricity 0.22
-		Inclination 53.9557
-		AscendingNode 71.55933
-		ArgOfPericenter 308.07569
+		Inclination 53.56499
+		AscendingNode 74.97525
+		ArgOfPericenter 307.55186
 		MeanAnomaly 104.79026
 	}
 	UniformRotation
 	{
 		Period 2312.486667
-		Inclination 53.9557
-		AscendingNode 71.55933
+		Inclination 53.56499
+		AscendingNode 74.97525
 	}
 	InfoURL "http://arxiv.org/abs/2203.01018"
 }
@@ -133147,24 +133509,24 @@
 	Texture "exo-class1.*"
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
-	Mass 3917.088
-	Radius 78726
+	Mass 3940.924
+	Radius 66451
 	Oblateness 0.07
 	EllipticalOrbit
 	{
-		Epoch 2450034.3971846
-		Period 5.71882272
-		SemiMajorAxis 3.311
-		Eccentricity 0.642
-		Inclination 40.45197
-		AscendingNode 2.80851
-		ArgOfPericenter 331.34154
+		Epoch 2458389
+		Period 5.71937029
+		SemiMajorAxis 3.24
+		Eccentricity 0.637
+		Inclination 37.13968
+		AscendingNode 7.87561
+		ArgOfPericenter 328.86863
 	}
 	UniformRotation
 	{
-		Period 3.057674
-		Inclination 40.45197
-		AscendingNode 2.80851
+		Period 3.047599
+		Inclination 37.13968
+		AscendingNode 7.87561
 	}
 	InfoURL "http://arxiv.org/abs/astro-ph/0112084"
 }
@@ -133256,7 +133618,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 2475.79
-	Radius 80331
+	Radius 69090
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -133284,7 +133646,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 486.259
-	Radius 86295
+	Radius 69349
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -133391,7 +133753,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 794.541
-	Radius 84451
+	Radius 70743
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -133688,7 +134050,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 286.035
-	Radius 88333
+	Radius 66414
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -133702,7 +134064,7 @@
 	}
 	UniformRotation
 	{
-		Period 12.696139
+		Period 12.69614
 		Inclination 44.44988
 		AscendingNode 92.32141
 	}
@@ -133799,7 +134161,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2669.658
-	Radius 80065
+	Radius 68739
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -134017,22 +134379,22 @@
 	Texture "venuslike.*"
 	NightTexture "venuslikenight.*"
 	GeomAlbedo 0.05
-	Mass 3.79
-	Radius 11286
+	Mass 3.71
+	Radius 11145
 	EllipticalOrbit
 	{
-		Epoch 2455498.5
-		Period 0.03545243
+		Epoch 2455496.721
+		Period 0.03532923
 		SemiMajorAxis 0.1061
-		Eccentricity 0.126
+		Eccentricity 0.082
 		Inclination 41.55638
 		AscendingNode 17.64685
-		ArgOfPericenter 239.89332
-		MeanAnomaly 76.15983
+		ArgOfPericenter 211.23482
+		MeanAnomaly 110.78582
 	}
 	UniformRotation
 	{
-		Period 283.70101
+		Period 297.679438
 		Inclination 41.55638
 		AscendingNode 17.64685
 	}
@@ -134045,23 +134407,22 @@
 	Texture "exo-class3.*"
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
-	Mass 331.832
-	Radius 87758
+	Mass 347.995
+	Radius 67671
 	Oblateness 0.01
 	EllipticalOrbit
 	{
-		Epoch 2456516.14
-		Period 0.10908895
+		Epoch 2455499.084
+		Period 0.10910062
 		SemiMajorAxis 0.21961
-		Eccentricity 0.0379
+		Eccentricity 0.046
 		Inclination 41.55638
 		AscendingNode 17.64685
-		ArgOfPericenter 152.78628
-		MeanAnomaly 177.49907
+		ArgOfPericenter 150.61588
 	}
 	UniformRotation
 	{
-		Period 31.720207
+		Period 27.332101
 		Inclination 41.55638
 		AscendingNode 17.64685
 	}
@@ -134074,54 +134435,25 @@
 	Texture "exo-class3.*"
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
-	Mass 28.2
-	Radius 36805
+	Mass 27.442
+	Radius 35675
 	EllipticalOrbit
 	{
-		Epoch 2455629.3
-		Period 0.27978097
-		SemiMajorAxis 0.4206
-		Eccentricity 0.096
+		Epoch 2455480.216
+		Period 0.27935934
+		SemiMajorAxis 0.42014
+		Eccentricity 0.048
 		Inclination 41.55638
 		AscendingNode 17.64685
-		ArgOfPericenter 250.20657
-		MeanAnomaly 69.56408
+		ArgOfPericenter 124.83278
 	}
 	UniformRotation
 	{
-		Period 2323.942489
+		Period 2415.467137
 		Inclination 41.55638
 		AscendingNode 17.64685
 	}
 	InfoURL "http://arxiv.org/abs/1607.00007"
-}
-
-"RHO CrB d:d" "HIP 78459"
-{
-	Class "planet"
-	Texture "exo-class3.*"
-	Color [ 0.53 0.62 1 ]
-	GeomAlbedo 0.1
-	Mass 21.6
-	Radius 31456
-	Oblateness 0.02
-	EllipticalOrbit
-	{
-		Epoch 2455583
-		Period 0.77262149
-		SemiMajorAxis 0.827
-		Inclination 41.55638
-		AscendingNode 17.64685
-		ArgOfPericenter 240.46628
-		MeanAnomaly 90
-	}
-	UniformRotation
-	{
-		Period 21.088264
-		Inclination 41.55638
-		AscendingNode 17.64685
-	}
-	InfoURL "http://arxiv.org/abs/2306.06888"
 }
 
 "RHO Ind b:b" "HIP 113137"
@@ -134131,7 +134463,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1334.829
-	Radius 82545
+	Radius 70833
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -134212,7 +134544,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2701.44
-	Radius 80023
+	Radius 68682
 	Oblateness 0.02
 	EllipticalOrbit
 	{
@@ -134321,7 +134653,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3308.47
-	Radius 79313
+	Radius 67578
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -134349,7 +134681,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1080.576
-	Radius 83316
+	Radius 70968
 	EllipticalOrbit
 	{
 		Epoch 2459580.5
@@ -134428,7 +134760,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4449.431
-	Radius 78286
+	Radius 65574
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -134535,7 +134867,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 397.271
-	Radius 87066
+	Radius 68406
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -134621,7 +134953,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 422.378
-	Radius 86831
+	Radius 68715
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -134847,7 +135179,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2548.888
-	Radius 80228
+	Radius 68958
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -135974,7 +136306,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 649.659
-	Radius 85202
+	Radius 70325
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -135992,6 +136324,30 @@
 		AscendingNode 202.51028
 	}
 	InfoURL "http://arxiv.org/abs/2111.14602"
+}
+
+"TOI-1243 b:TOI-1243.01:b" "TOI-1243"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	Mass 7.7
+	Radius 14844
+	EllipticalOrbit
+	{
+		Epoch 2459369.83103
+		Period 0.01275696
+		SemiMajorAxis 0.04377
+		Inclination 108.52809
+		AscendingNode 131.79256
+		ArgOfPericenter 144.35569
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 108.52809
+		AscendingNode 131.79256
+	}
+	InfoURL "http://arxiv.org/abs/2601.07414"
 }
 
 "TOI-1244 b:TOI-1244.01:b" "TYC 4421-473-1"
@@ -136122,7 +136478,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 25.6
-	Radius 34766
+	Radius 34322
 	EllipticalOrbit
 	{
 		Epoch 2460310.5
@@ -136463,7 +136819,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 26.7
-	Radius 35639
+	Radius 35144
 	EllipticalOrbit
 	{
 		Epoch 2459580.5
@@ -136571,7 +136927,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 84
-	Radius 70002
+	Radius 53961
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -136629,7 +136985,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 147
-	Radius 90959
+	Radius 60631
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -136830,7 +137186,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 74.369
-	Radius 65156
+	Radius 52290
 	Oblateness 0.05
 	EllipticalOrbit
 	{
@@ -136988,7 +137344,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 98.205
-	Radius 76749
+	Radius 55989
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -137941,7 +138297,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 182.109
-	Radius 90106
+	Radius 62746
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -138175,7 +138531,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 295.252
-	Radius 88210
+	Radius 66631
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -138384,7 +138740,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 2441
-	Radius 80381
+	Radius 69152
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -139409,7 +139765,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 82.95
-	Radius 69485
+	Radius 53792
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -140235,6 +140591,30 @@
 	InfoURL "http://arxiv.org/abs/2405.12637v1"
 }
 
+"TOI-2133 b:TOI-2133.01:b" "TOI-2133"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	GeomAlbedo 0.05
+	Radius 15099
+	EllipticalOrbit
+	{
+		Epoch 2458985.8831
+		Period 0.01047679
+		SemiMajorAxis 0.041
+		Inclination 93.87233
+		AscendingNode 261.68554
+		ArgOfPericenter 145.9759
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 93.87233
+		AscendingNode -98.31446
+	}
+	InfoURL "https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stag183/8442244"
+}
+
 "TOI-2134 b:TOI-2134.01:b" "TYC 3102-00069-1"
 {
 	Class "planet"
@@ -140704,7 +141084,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 119.817
-	Radius 86289
+	Radius 58385
 	EllipticalOrbit
 	{
 		Epoch 2459215.5
@@ -141014,7 +141394,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1782.95
-	Radius 81500
+	Radius 70267
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -141306,26 +141686,51 @@
 	InfoURL "http://arxiv.org/abs/2401.05923"
 }
 
+"TOI-237 c:c" "TOI-237"
+{
+	Class "planet"
+	Texture "asteroid.*"
+	GeomAlbedo 0.11
+	Radius 7683
+	EllipticalOrbit
+	{
+		Epoch 2459540.35059
+		Period 0.00477717
+		SemiMajorAxis 0.016
+		Inclination 66.35349
+		AscendingNode 351.80512
+		ArgOfPericenter 63.83815
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 66.35349
+		AscendingNode -8.19488
+	}
+	LunarLambert 1.0
+	InfoURL "http://arxiv.org/abs/2601.21774"
+}
+
 "TOI-237 b:TOI-237.01:b" "TOI-237"
 {
 	Class "planet"
 	Texture "asteroid.*"
 	GeomAlbedo 0.11
-	Radius 9174
+	Radius 8786
 	EllipticalOrbit
 	{
-		Epoch 2458355.24981
-		Period 0.01488323
-		SemiMajorAxis 0.0341
-		Inclination 66.51323
-		AscendingNode 352.15878
-		ArgOfPericenter 63.69675
+		Epoch 2458697.7208
+		Period 0.01488334
+		SemiMajorAxis 0.0346
+		Inclination 66.57812
+		AscendingNode 352.3017
+		ArgOfPericenter 63.63986
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 66.51323
-		AscendingNode -7.84122
+		Inclination 66.57812
+		AscendingNode -7.6983
 	}
 	LunarLambert 1.0
 	InfoURL "http://arxiv.org/abs/2010.15905v1"
@@ -142152,7 +142557,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2297.813
-	Radius 80595
+	Radius 69407
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -143844,7 +144249,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 669.322
-	Radius 85090
+	Radius 70400
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -143872,7 +144277,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 445.579
-	Radius 86627
+	Radius 68968
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -144400,7 +144805,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 692
-	Radius 84966
+	Radius 70479
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -144902,26 +145307,50 @@
 	InfoURL "http://arxiv.org/abs/2201.04140"
 }
 
-"TOI-4336 Ab:TOI-4336.01:b" "TOI-4336 A"
+"TOI-4336 Ac:c" "TOI-4336 A"
 {
 	Class "planet"
 	Texture "venuslike.*"
-	GeomAlbedo 0.05
-	Radius 13507
+	Mass 1.55
+	Radius 7970
 	EllipticalOrbit
 	{
-		Epoch 2459335.57319
-		Period 0.04472644
-		SemiMajorAxis 0.0872
-		Inclination 28.41898
-		AscendingNode 329.55737
-		ArgOfPericenter 342.31425
+		Epoch 2459333.2931
+		Period 0.0207728
+		SemiMajorAxis 0.05092
+		Inclination 28.50816
+		AscendingNode 329.4978
+		ArgOfPericenter 342.36662
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 28.41898
-		AscendingNode 329.55737
+		Inclination 28.50816
+		AscendingNode 329.4978
+	}
+	InfoURL "http://arxiv.org/abs/2601.21774"
+}
+
+"TOI-4336 Ab:TOI-4336.01:b" "TOI-4336 A"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	Mass 3.33
+	Radius 13615
+	EllipticalOrbit
+	{
+		Epoch 2459335.57275
+		Period 0.04472649
+		SemiMajorAxis 0.0849
+		Inclination 28.36412
+		AscendingNode 329.59421
+		ArgOfPericenter 342.28185
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 28.36412
+		AscendingNode 329.59421
 	}
 	InfoURL "http://arxiv.org/abs/2404.12722"
 }
@@ -144930,22 +145359,22 @@
 {
 	Class "planet"
 	Texture "venuslike.*"
-	GeomAlbedo 0.05
-	Radius 14437
+	Mass 7.3
+	Radius 14838
 	EllipticalOrbit
 	{
 		Epoch 2458654.53559
-		Period 0.0151629
-		SemiMajorAxis 0.05251
-		Inclination 70.34137
-		AscendingNode 321.61051
-		ArgOfPericenter 26.32519
+		Period 0.01516293
+		SemiMajorAxis 0.0519
+		Inclination 70.33208
+		AscendingNode 321.60563
+		ArgOfPericenter 26.32683
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 70.34137
-		AscendingNode -38.38949
+		Inclination 70.33208
+		AscendingNode -38.39437
 	}
 	InfoURL "http://arxiv.org/abs/2301.01370"
 }
@@ -144954,22 +145383,22 @@
 {
 	Class "planet"
 	Texture "venuslike.*"
-	GeomAlbedo 0.05
-	Radius 15386
+	Mass 4.8
+	Radius 14965
 	EllipticalOrbit
 	{
-		Epoch 2458659.34623
-		Period 0.02926411
+		Epoch 2458659.3486
+		Period 0.02926396
 		SemiMajorAxis 0.0814
-		Inclination 70.80297
-		AscendingNode 321.85226
-		ArgOfPericenter 26.24478
+		Inclination 70.7801
+		AscendingNode 321.84033
+		ArgOfPericenter 26.2487
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 70.80297
-		AscendingNode -38.14774
+		Inclination 70.7801
+		AscendingNode -38.15967
 	}
 	InfoURL "http://arxiv.org/abs/2301.01370"
 }
@@ -145216,27 +145645,56 @@
 	InfoURL "http://arxiv.org/abs/2507.01855"
 }
 
-"TOI-4495 b:TOI-4495.01:b" "TYC 2652-01348-1"
+"TOI-4495 b:TOI-4495.02:b" "TYC 2652-01348-1"
 {
 	Class "planet"
 	Texture "venuslike.*"
 	NightTexture "venuslikenight.*"
-	GeomAlbedo 0.05
-	Radius 23127
+	Mass 7.7
+	Radius 15819
 	EllipticalOrbit
 	{
-		Epoch 2459444.567326
-		Period 0.0141903
-		SemiMajorAxis 0.06194
-		Inclination 83.56599
-		AscendingNode 285.07625
-		ArgOfPericenter 149.6131
-		MeanAnomaly 90
+		Epoch 2458685.7738
+		Period 0.00702804
+		SemiMajorAxis 0.03957
+		Eccentricity 0.078
+		Inclination 86.71943
+		AscendingNode 285.89318
+		ArgOfPericenter 149.4976
+		MeanAnomaly 81.07093
 	}
 	UniformRotation
 	{
-		Inclination 83.56599
-		AscendingNode 285.07625
+		Period 59.436961
+		Inclination 86.71943
+		AscendingNode 285.89318
+	}
+	InfoURL "http://arxiv.org/abs/2601.02665"
+}
+
+"TOI-4495 c:TOI-4495.01:c" "TYC 2652-01348-1"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	NightTexture "venuslikenight.*"
+	Mass 23.2
+	Radius 25675
+	EllipticalOrbit
+	{
+		Epoch 2458687.8395
+		Period 0.0141903
+		SemiMajorAxis 0.06323
+		Eccentricity 0.023
+		Inclination 87.56328
+		AscendingNode 285.3957
+		ArgOfPericenter 149.52241
+		MeanAnomaly 87.36463
+	}
+	UniformRotation
+	{
+		Period 123.998602
+		Inclination 87.56328
+		AscendingNode 285.3957
 	}
 	InfoURL "http://arxiv.org/abs/2308.09617"
 }
@@ -145273,7 +145731,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 450.219
-	Radius 86588
+	Radius 69015
 	Oblateness 0.04
 	EllipticalOrbit
 	{
@@ -145356,22 +145814,22 @@
 	Class "planet"
 	Texture "venuslike.*"
 	NightTexture "venuslikenight.*"
-	GeomAlbedo 0.05
-	Radius 12054
+	Mass 4.7
+	Radius 11723
 	EllipticalOrbit
 	{
-		Epoch 2458410.9896
+		Epoch 2460312.4427
 		Period 0.00508885
-		SemiMajorAxis 0.0283
-		Inclination 120.06945
-		AscendingNode 306.0072
-		ArgOfPericenter 353.51939
+		SemiMajorAxis 0.0274
+		Inclination 120.51979
+		AscendingNode 305.94782
+		ArgOfPericenter 353.48944
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 120.06945
-		AscendingNode 306.0072
+		Inclination 120.51979
+		AscendingNode 305.94782
 	}
 	InfoURL "http://arxiv.org/abs/2102.06049"
 }
@@ -145380,22 +145838,22 @@
 {
 	Class "planet"
 	Texture "venuslike.*"
-	GeomAlbedo 0.05
-	Radius 19623
+	Mass 3.7
+	Radius 18667
 	EllipticalOrbit
 	{
-		Epoch 2458411.7982
-		Period 0.02516756
-		SemiMajorAxis 0.0823
-		Inclination 121.48567
-		AscendingNode 305.81855
-		ArgOfPericenter 353.42286
+		Epoch 2460314.6376
+		Period 0.02516759
+		SemiMajorAxis 0.0795
+		Inclination 121.11767
+		AscendingNode 305.86811
+		ArgOfPericenter 353.44861
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 121.48567
-		AscendingNode 305.81855
+		Inclination 121.11767
+		AscendingNode 305.86811
 	}
 	InfoURL "http://arxiv.org/abs/2102.06049"
 }
@@ -145404,21 +145862,22 @@
 {
 	Class "planet"
 	Texture "venuslike.*"
-	Radius 26249
+	Mass 10.2
+	Radius 25038
 	EllipticalOrbit
 	{
-		Epoch 2458727.5673
-		Period 0.04480474
-		SemiMajorAxis 0.1208
-		Inclination 121.13322
-		AscendingNode 305.86603
-		ArgOfPericenter 353.44753
+		Epoch 2460314.9694
+		Period 0.04480482
+		SemiMajorAxis 0.1168
+		Inclination 121.11765
+		AscendingNode 305.86812
+		ArgOfPericenter 353.44861
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 121.13322
-		AscendingNode 305.86603
+		Inclination 121.11765
+		AscendingNode 305.86812
 	}
 	InfoURL "http://arxiv.org/abs/2102.06049"
 }
@@ -145475,6 +145934,29 @@
 	}
 	LunarLambert 1.0
 	InfoURL "http://arxiv.org/abs/2308.09617"
+}
+
+"TOI-4529 b:TOI-4529.01:b" "TOI-4529"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	Radius 11277
+	EllipticalOrbit
+	{
+		Epoch 2459701.3329
+		Period 0.0160974
+		SemiMajorAxis 0.04999
+		Inclination 67.72098
+		AscendingNode 17.51434
+		ArgOfPericenter 96.00445
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 67.72098
+		AscendingNode 17.51434
+	}
+	InfoURL "http://arxiv.org/abs/2601.07414"
 }
 
 "HD 107244 b:TOI-4551.01:b" "TYC 6685-1023-1"
@@ -145567,7 +146049,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1833.801
-	Radius 81399
+	Radius 70188
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -147014,21 +147496,21 @@
 	Class "planet"
 	Texture "asteroid.*"
 	GeomAlbedo 0.11
-	Radius 7139
+	Radius 6307
 	EllipticalOrbit
 	{
-		Epoch 2459610.136957
-		Period 0.00710507
-		SemiMajorAxis 0.02914
-		Inclination 110.59664
-		AscendingNode 150.09009
-		ArgOfPericenter 114.10669
+		Epoch 2459348.07817
+		Period 0.00710383
+		SemiMajorAxis 0.02452
+		Inclination 111.16384
+		AscendingNode 148.71777
+		ArgOfPericenter 113.61755
 		MeanAnomaly 90
 	}
 	UniformRotation
 	{
-		Inclination 110.59664
-		AscendingNode 150.09009
+		Inclination 111.16384
+		AscendingNode 148.71777
 	}
 	LunarLambert 1.0
 	InfoURL "http://arxiv.org/abs/2308.09617"
@@ -147669,6 +148151,30 @@
 	InfoURL "http://arxiv.org/abs/2512.11971"
 }
 
+"TOI-5734 b:TOI-5734.01:b" "TYC 2464-00396-1"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	GeomAlbedo 0.05
+	Radius 17584
+	EllipticalOrbit
+	{
+		Epoch 2458848.6877
+		Period 0.01693146
+		SemiMajorAxis 0.0607
+		Inclination 98.4786
+		AscendingNode 108.9441
+		ArgOfPericenter 105.12778
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 98.4786
+		AscendingNode 108.9441
+	}
+	InfoURL "https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stag183/8442244"
+}
+
 "TOI-5736 b:TOI-5736.01:b" "TOI-5736"
 {
 	Class "planet"
@@ -147719,6 +148225,60 @@
 		AscendingNode -69.06503
 	}
 	InfoURL "http://arxiv.org/abs/2501.03803"
+}
+
+"TOI-5788 b:TOI-5788.02:b" "TYC 2640-00273-1"
+{
+	Class "planet"
+	Texture "asteroid.*"
+	GeomAlbedo 0.11
+	Mass 3.72
+	Radius 9735
+	EllipticalOrbit
+	{
+		Epoch 2459611.7425
+		Period 0.01736005
+		SemiMajorAxis 0.064
+		Eccentricity 0.061
+		Inclination 84.83181
+		AscendingNode 284.8554
+		ArgOfPericenter 240.36029
+		MeanAnomaly 354.69869
+	}
+	UniformRotation
+	{
+		Period 148.853941
+		Inclination 84.83181
+		AscendingNode -75.1446
+	}
+	LunarLambert 1.0
+	InfoURL "http://arxiv.org/abs/2601.14045"
+}
+
+"TOI-5788 c:TOI-5788.01:c" "TYC 2640-00273-1"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	Mass 6.4
+	Radius 14475
+	EllipticalOrbit
+	{
+		Epoch 2459608.591365
+		Period 0.04438977
+		SemiMajorAxis 0.1197
+		Eccentricity 0.048
+		Inclination 83.48353
+		AscendingNode 285.82886
+		ArgOfPericenter 292.26119
+		MeanAnomaly 306.57584
+	}
+	UniformRotation
+	{
+		Period 383.813978
+		Inclination 83.48353
+		AscendingNode -74.17114
+	}
+	InfoURL "http://arxiv.org/abs/2601.14045"
 }
 
 "HD 191785 Ab:TOI-5789 b:b" "HD 191785 A"
@@ -148002,6 +148562,31 @@
 	InfoURL "http://arxiv.org/abs/2510.11528"
 }
 
+"TOI-5938 b:TOI-5938.01:b" "TOI-5938"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	NightTexture "venuslikenight.*"
+	GeomAlbedo 0.05
+	Radius 24337
+	EllipticalOrbit
+	{
+		Epoch 2459820.1815
+		Period 0.0061887
+		SemiMajorAxis 0.0308
+		Inclination 78.05572
+		AscendingNode 300.87021
+		ArgOfPericenter 138.61923
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 78.05572
+		AscendingNode -59.12979
+	}
+	InfoURL "https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stag183/8442244"
+}
+
 "TOI-6000 b:TOI-6000.01:b" "TOI-6000"
 {
 	Class "planet"
@@ -148251,7 +148836,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 77.9
-	Radius 66961
+	Radius 52936
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -148960,6 +149545,35 @@
 	InfoURL "http://arxiv.org/abs/2306.16587"
 }
 
+"TOI-6692 b:TOI-6692.01:b" "TYC 9473-00833-1"
+{
+	Class "planet"
+	Texture "exo-class3.*"
+	Color [ 0.53 0.62 1 ]
+	GeomAlbedo 0.1
+	Mass 197.046
+	Radius 72847
+	Oblateness 0.07
+	EllipticalOrbit
+	{
+		Epoch 2459378.4174
+		Period 0.35900068
+		SemiMajorAxis 0.512
+		Eccentricity 0.537
+		Inclination 73.70595
+		AscendingNode 309.91073
+		ArgOfPericenter 189.89477
+		MeanAnomaly 337.06611
+	}
+	UniformRotation
+	{
+		Period 12.662863
+		Inclination 73.70595
+		AscendingNode -50.08927
+	}
+	InfoURL "http://arxiv.org/abs/2601.16357"
+}
+
 "TOI-6695 b:TOI-6695.01:b" "TYC 6570-01482-1"
 {
 	Class "planet"
@@ -148995,7 +149609,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 460.834
-	Radius 86499
+	Radius 69120
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -149015,6 +149629,31 @@
 		AscendingNode 127.64833
 	}
 	InfoURL "https://iopscience.iop.org/article/10.3847/1538-3881/adc44e"
+}
+
+"TOI-6716 b:TOI-6716.01:b" "TOI-6716"
+{
+	Class "planet"
+	Texture "asteroid.*"
+	GeomAlbedo 0.11
+	Radius 6256
+	EllipticalOrbit
+	{
+		Epoch 2459632.34484
+		Period 0.01291879
+		SemiMajorAxis 0.0319
+		Inclination 98.02868
+		AscendingNode 109.69861
+		ArgOfPericenter 37.4553
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 98.02868
+		AscendingNode 109.69861
+	}
+	LunarLambert 1.0
+	InfoURL "http://arxiv.org/abs/2601.05799"
 }
 
 "TOI-672 b:TOI-672.01:b" "TOI-672"
@@ -149233,6 +149872,30 @@
 	}
 	LunarLambert 1.0
 	InfoURL "http://arxiv.org/abs/2002.00952v1"
+}
+
+"TOI-7009 b:TOI-7009.01:b" "TOI-7009"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	GeomAlbedo 0.05
+	Radius 23636
+	EllipticalOrbit
+	{
+		Epoch 2460392.3627
+		Period 0.00635362
+		SemiMajorAxis 0.0287
+		Inclination 82.48891
+		AscendingNode 296.5168
+		ArgOfPericenter 166.47421
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 82.48891
+		AscendingNode -63.4832
+	}
+	InfoURL "https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stag183/8442244"
 }
 
 "TOI-7041 b:TOI-7041.01:b" "TYC 8463-00011-1"
@@ -149472,6 +150135,30 @@
 	InfoURL "http://arxiv.org/abs/2304.06655"
 }
 
+"TOI-7384 b:TOI-7384.01:b" "TOI-7384"
+{
+	Class "planet"
+	Texture "venuslike.*"
+	GeomAlbedo 0.05
+	Radius 22681
+	EllipticalOrbit
+	{
+		Epoch 2459565.10114
+		Period 0.01706783
+		SemiMajorAxis 0.0439
+		Inclination 86.20714
+		AscendingNode 83.13169
+		ArgOfPericenter 26.9089
+		MeanAnomaly 90
+	}
+	UniformRotation
+	{
+		Inclination 86.20714
+		AscendingNode 83.13169
+	}
+	InfoURL "http://arxiv.org/abs/2601.05799"
+}
+
 "TOI-7510 b:b" "TYC 8748-00944-1"
 {
 	Class "planet"
@@ -149588,7 +150275,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1287.157
-	Radius 82677
+	Radius 70873
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -150454,7 +151141,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3591.326
-	Radius 79027
+	Radius 67069
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -150818,7 +151505,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 120.77
-	Radius 86693
+	Radius 58476
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -150845,7 +151532,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 95.345
-	Radius 75425
+	Radius 55615
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -150873,7 +151560,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 818.377
-	Radius 84341
+	Radius 70786
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -150902,7 +151589,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 3178.165
-	Radius 79453
+	Radius 67814
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -150930,7 +151617,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2186.577
-	Radius 80771
+	Radius 69602
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -150957,7 +151644,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 2637.877
-	Radius 80107
+	Radius 68797
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -150985,7 +151672,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 104.879
-	Radius 79780
+	Radius 56804
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -151014,7 +151701,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1086.932
-	Radius 83294
+	Radius 70967
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -151102,7 +151789,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1937.727
-	Radius 81202
+	Radius 70022
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -151160,7 +151847,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 66.741
-	Radius 61133
+	Radius 50741
 	Oblateness 0.06
 	EllipticalOrbit
 	{
@@ -151189,7 +151876,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 403.627
-	Radius 87005
+	Radius 68488
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -151245,7 +151932,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 4443.074
-	Radius 78291
+	Radius 65585
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -151273,7 +151960,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 3257.619
-	Radius 79367
+	Radius 67670
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -151302,7 +151989,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 162.086
-	Radius 90569
+	Radius 61626
 	Oblateness 0.09
 	EllipticalOrbit
 	{
@@ -151330,7 +152017,7 @@
 	Color [ 0.98 0.97 1 ]
 	GeomAlbedo 0.75
 	Mass 8263.228
-	Radius 76182
+	Radius 59894
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -151358,7 +152045,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4767.247
-	Radius 78048
+	Radius 65041
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -151386,7 +152073,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 5085.064
-	Radius 77827
+	Radius 64520
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -151443,7 +152130,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2447.187
-	Radius 80372
+	Radius 69141
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -151471,7 +152158,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2002.244
-	Radius 81085
+	Radius 69916
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -151607,7 +152294,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 2320.06
-	Radius 80561
+	Radius 69368
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -151966,7 +152653,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 115
-	Radius 84228
+	Radius 57908
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -152719,7 +153406,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1639.933
-	Radius 81800
+	Radius 70476
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -152777,7 +153464,7 @@
 	Color [ 0 0.36 1 ]
 	GeomAlbedo 0.05
 	Mass 444.943
-	Radius 86633
+	Radius 68961
 	EllipticalOrbit
 	{
 		Epoch 2457201.03099
@@ -152805,7 +153492,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 222.472
-	Radius 89316
+	Radius 64505
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -153249,7 +153936,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 129.033
-	Radius 90139
+	Radius 59224
 	EllipticalOrbit
 	{
 		Epoch 2457931.4
@@ -155041,7 +155728,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 4926.155
-	Radius 77936
+	Radius 64779
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -155260,7 +155947,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1010.656
-	Radius 83561
+	Radius 70961
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -155508,7 +156195,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 394
-	Radius 87098
+	Radius 68363
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -155705,7 +156392,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 5196.299
-	Radius 77753
+	Radius 64340
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -156533,7 +157220,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 3019.257
-	Radius 79633
+	Radius 68103
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -157314,7 +158001,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 1684.427
-	Radius 81704
+	Radius 70413
 	Oblateness 0.07
 	EllipticalOrbit
 	{
@@ -157581,7 +158268,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 947.093
-	Radius 83800
+	Radius 70932
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -157664,7 +158351,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 82.632
-	Radius 69328
+	Radius 53740
 	EllipticalOrbit
 	{
 		Epoch 2456658.5
@@ -157691,7 +158378,7 @@
 	Color [ 0.53 0.62 1 ]
 	GeomAlbedo 0.1
 	Mass 441.765
-	Radius 86660
+	Radius 68928
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -157720,7 +158407,7 @@
 	Color [ 0.96 0.96 1 ]
 	GeomAlbedo 0.5
 	Mass 1179.099
-	Radius 82996
+	Radius 70941
 	Oblateness 0.08
 	EllipticalOrbit
 	{
@@ -157881,7 +158568,7 @@
 	InfoURL "http://arxiv.org/abs/1912.02821v1"
 }
 
-"YSES-1 b:TYC 8998-760-1 b:b" "TYC 8998-760-1"
+"TYC 8998-760-1 b:YSES 1 b:b" "TYC 8998-760-1"
 {
 	Class "planet"
 	Texture "exo-class5.*"
@@ -157911,7 +158598,7 @@
 	InfoURL "http://arxiv.org/abs/1912.04284"
 }
 
-"YSES-1 c:TYC 8998-760-1 c:c" "TYC 8998-760-1"
+"TYC 8998-760-1 c:YSES 1 c:c" "TYC 8998-760-1"
 {
 	Class "planet"
 	Texture "exo-class4.*"
