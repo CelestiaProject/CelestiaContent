@@ -519,6 +519,8 @@ AltSurface "2018 (Hubble)" "Sol/Jupiter"
 	Class	"moon"
 	Texture	"io.*"
 	Color	[ 1.0 0.94191 0.70074 ]
+	SpecularColor [ 1 1 1 ]
+	SpecularPower 30
 	SemiAxes	[ 1829.4 1819.4 1815.7 ]
 	Mass<kg>	8.92964876e22
 	CustomOrbit	"io"
