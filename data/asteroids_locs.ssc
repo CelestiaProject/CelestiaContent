@@ -1,4 +1,4 @@
-# 224 locations on Vesta, Eros, Gaspra, Ida and Itokawa.
+# 313 locations on Vesta, Ida, Mathilde, Eros, Gaspra, Itokawa, Didymos, Dimorphos, Bennu, Ryugu and Arrokoth.
 
 
 # 106 locations on Vesta.
@@ -742,6 +742,170 @@ Location "Vibidia" "Sol/Vesta"
 {
 	LongLat	[ -139.7 -26.96 0 ]
 	Size	7.1
+	Type	"AA"
+}
+
+
+# 23 locations on Mathilde.
+
+Location "Aachen" "Sol/Mathilde"
+{
+	LongLat	[ -60.9 9.2 0 ]
+	Size	4.8
+	Type	"AA"
+}
+
+Location "Baganur" "Sol/Mathilde"
+{
+	LongLat	[ 168.4 14.6 0 ]
+	Size	16.4
+	Type	"AA"
+}
+
+Location "Benham" "Sol/Mathilde"
+{
+	LongLat	[ 112.8 19 0 ]
+	Size	2.2
+	Type	"AA"
+}
+
+Location "Clackmannan" "Sol/Mathilde"
+{
+	LongLat	[ 99.2 18.9 0 ]
+	Size	2.8
+	Type	"AA"
+}
+
+Location "Damodar" "Sol/Mathilde"
+{
+	LongLat	[ 96.2 73 0 ]
+	Size	28.7
+	Type	"AA"
+}
+
+Location "Enugu" "Sol/Mathilde"
+{
+	LongLat	[ -151.6 -15.3 0 ]
+	Size	5.9
+	Type	"AA"
+}
+
+Location "Ishikari" "Sol/Mathilde"
+{
+	LongLat	[ 173.1 -66.2 0 ]
+	Size	29.3
+	Type	"AA"
+}
+
+Location "Jerada" "Sol/Mathilde"
+{
+	LongLat	[ -177.3 42.1 0 ]
+	Size	2.5
+	Type	"AA"
+}
+
+Location "Jixi" "Sol/Mathilde"
+{
+	LongLat	[ 103.5 -12.3 0 ]
+	Size	19.9
+	Type	"AA"
+}
+
+Location "Kalimantan" "Sol/Mathilde"
+{
+	LongLat	[ -123.7 -7.7 0 ]
+	Size	2.7
+	Type	"AA"
+}
+
+Location "Karoo" "Sol/Mathilde"
+{
+	LongLat	[ -98.4 33.5 0 ]
+	Size	33.4
+	Type	"AA"
+}
+
+Location "Kuznetsk" "Sol/Mathilde"
+{
+	LongLat	[ -88.9 -45.9 0 ]
+	Size	28.5
+	Type	"AA"
+}
+
+Location "Lorraine" "Sol/Mathilde"
+{
+	LongLat	[ -142.5 48.1 0 ]
+	Size	4.1
+	Type	"AA"
+}
+
+Location "Lublin" "Sol/Mathilde"
+{
+	LongLat	[ -156.8 55.3 0 ]
+	Size	6.5
+	Type	"AA"
+}
+
+Location "Maritsa" "Sol/Mathilde"
+{
+	LongLat	[ -151.5 44.6 0 ]
+	Size	2.4
+	Type	"AA"
+}
+
+Location "Matanuska" "Sol/Mathilde"
+{
+	LongLat	[ 142.7 27.3 0 ]
+	Size	2.9
+	Type	"AA"
+}
+
+Location "Mulgildie" "Sol/Mathilde"
+{
+	LongLat	[ -176.1 57.7 0 ]
+	Size	2.5
+	Type	"AA"
+}
+
+Location "Oaxaca" "Sol/Mathilde"
+{
+	LongLat	[ 173.7 38.7 0 ]
+	Size	5.2
+	Type	"AA"
+}
+
+Location "Otago" "Sol/Mathilde"
+{
+	LongLat	[ -164.5 23.7 0 ]
+	Size	7.9
+	Type	"AA"
+}
+
+Location "Quetta" "Sol/Mathilde"
+{
+	LongLat	[ -165.5 45.6 0 ]
+	Size	3.2
+	Type	"AA"
+}
+
+Location "Similkameen" "Sol/Mathilde"
+{
+	LongLat	[ -104.7 -13.5 0 ]
+	Size	3.4
+	Type	"AA"
+}
+
+Location "Teruel" "Sol/Mathilde"
+{
+	LongLat	[ -142.7 -28.1 0 ]
+	Size	7.6
+	Type	"AA"
+}
+
+Location "Zulia" "Sol/Mathilde"
+{
+	LongLat	[ -30.9 -39.5 0 ]
+	Size	12.3
 	Type	"AA"
 }
 
@@ -1579,4 +1743,488 @@ Location "LINEAR REGIO" "Sol/Itokawa"
 	LongLat [ 130 0 0 ]
 	Size 0.122
 	Type "RE"
+}
+
+
+# 2 locations on Didymos.
+
+Location "Carillon Saxum" "Sol/Didymos"
+{
+	LongLat	[ -48.3 -59 0 ]
+	Size	0.085
+	Type	"SA"
+}
+
+Location "Gong Saxum" "Sol/Didymos"
+{
+	LongLat	[ 1.9 5.8 0 ]
+	Size	0.022
+	Type	"SA"
+}
+
+
+# 11 locations on Dimorphos.
+
+Location "Atabaque Saxum" "Sol/Didymos/Dimorphos"
+{
+	LongLat	[ -96.8 -10.6 0 ]
+	Size	0.0065
+	Type	"SA"
+}
+
+Location "Bala" "Sol/Didymos/Dimorphos"
+{
+	LongLat	[ -96.3 -24.7 0 ]
+	Size	0.0056
+	Type	"AA"
+}
+
+Location "Bodhran Saxum" "Sol/Didymos/Dimorphos"
+{
+	LongLat	[ -95.5 -7 0 ]
+	Size	0.0061
+	Type	"SA"
+}
+
+Location "Bongo" "Sol/Didymos/Dimorphos"
+{
+	LongLat	[ -105.8 8.8 0 ]
+	Size	0.0011
+	Type	"AA"
+}
+
+Location "Caccavella Saxum" "Sol/Didymos/Dimorphos"
+{
+	LongLat	[ -97.9 -8.2 0 ]
+	Size	0.003
+	Type	"SA"
+}
+
+Location "Dhol Saxum" "Sol/Didymos/Dimorphos"
+{
+	LongLat	[ -167 6 0 ]
+	Size	0.015
+	Type	"SA"
+}
+
+Location "Marimba" "Sol/Didymos/Dimorphos"
+{
+	LongLat	[ -88.8 -12 0 ]
+	Size	0.0029
+	Type	"AA"
+}
+
+Location "Msondo" "Sol/Didymos/Dimorphos"
+{
+	LongLat	[ -84.9 -17.2 0 ]
+	Size	0.0052
+	Type	"AA"
+}
+
+Location "Naqqara" "Sol/Didymos/Dimorphos"
+{
+	LongLat	[ -129.2 -26.9 0 ]
+	Size	0.0088
+	Type	"AA"
+}
+
+Location "Pūniu Saxum" "Sol/Didymos/Dimorphos"
+{
+	LongLat	[ -120.2 -2.6 0 ]
+	Size	0.0001
+	Type	"SA"
+}
+
+Location "Tamboril" "Sol/Didymos/Dimorphos"
+{
+	LongLat	[ -88.1 -24.8 0 ]
+	Size	0.0047
+	Type	"AA"
+}
+
+
+# 36 locations on Bennu.
+
+Location "Aellopus Saxum" "Sol/Bennu"
+{
+	LongLat	[ -24.33 25.44 0 ]
+	Size	0.0057
+	Type	"SA"
+}
+
+Location "Aetos Saxum" "Sol/Bennu"
+{
+	LongLat	[ 150.36 3.46 0 ]
+	Size	0.0091
+	Type	"SA"
+}
+
+Location "Alicanto" "Sol/Bennu"
+{
+	LongLat	[ 111.93 -0.08 0 ]
+	Size	0.061
+	Type	"AA"
+}
+
+Location "Amihan Saxum" "Sol/Bennu"
+{
+	LongLat	[ -103.49 -17.96 0 ]
+	Size	0.033
+	Type	"SA"
+}
+
+Location "Benben Saxum" "Sol/Bennu"
+{
+	LongLat	[ 127.59 -45.86 0 ]
+	Size	0.052
+	Type	"SA"
+}
+
+Location "Boobrie Saxum" "Sol/Bennu"
+{
+	LongLat	[ -145.72 48.08 0 ]
+	Size	0.03
+	Type	"SA"
+}
+
+Location "Bralgah" "Sol/Bennu"
+{
+	LongLat	[ -35.01 -44.36 0 ]
+	Size	0.069
+	Type	"AA"
+}
+
+Location "Camulatz Saxum" "Sol/Bennu"
+{
+	LongLat	[ -100.35 -10.26 0 ]
+	Size	0.022
+	Type	"SA"
+}
+
+Location "Celaeno Saxum" "Sol/Bennu"
+{
+	LongLat	[ -24.77 18.42 0 ]
+	Size	0.008
+	Type	"SA"
+}
+
+Location "Ciinkwia Saxum" "Sol/Bennu"
+{
+	LongLat	[ -110.53 -4.97 0 ]
+	Size	0.021
+	Type	"SA"
+}
+
+Location "Dinewan" "Sol/Bennu"
+{
+	LongLat	[ -36.3 -41.4 0 ]
+	Size	0.01
+	Type	"AA"
+}
+
+Location "Dodo Saxum" "Sol/Bennu"
+{
+	LongLat	[ 64.42 -32.68 0 ]
+	Size	0.027
+	Type	"SA"
+}
+
+Location "Gamayun Saxum" "Sol/Bennu"
+{
+	LongLat	[ 105.45 9.86 0 ]
+	Size	0.019
+	Type	"SA"
+}
+
+Location "Gargoyle Saxum" "Sol/Bennu"
+{
+	LongLat	[ 92.48 4.59 0 ]
+	Size	0.018
+	Type	"SA"
+}
+
+Location "Gullinkambi Saxum" "Sol/Bennu"
+{
+	LongLat	[ 17.96 18.53 0 ]
+	Size	0.031
+	Type	"SA"
+}
+
+Location "Hokioi" "Sol/Bennu"
+{
+	LongLat	[ 41.78 55.07 0 ]
+	Size	0.028
+	Type	"AA"
+}
+
+Location "Huginn Saxum" "Sol/Bennu"
+{
+	LongLat	[ 43.25 -29.77 0 ]
+	Size	0.046
+	Type	"SA"
+}
+
+Location "Huhuk" "Sol/Bennu"
+{
+	LongLat	[ 152.3 -1.12 0 ]
+	Size	0.075
+	Type	"AA"
+}
+
+Location "Kongamato Saxum" "Sol/Bennu"
+{
+	LongLat	[ 66.31 5.03 0 ]
+	Size	0.019
+	Type	"SA"
+}
+
+Location "Lilitu" "Sol/Bennu"
+{
+	LongLat	[ 115.36 -26.13 0 ]
+	Size	0.028
+	Type	"AA"
+}
+
+Location "Minokawa" "Sol/Bennu"
+{
+	LongLat	[ -90.9 -8.79 0 ]
+	Size	0.1811
+	Type	"AA"
+}
+
+Location "Muninn Saxum" "Sol/Bennu"
+{
+	LongLat	[ 48.68 -29.34 0 ]
+	Size	0.028
+	Type	"SA"
+}
+
+Location "Ocypete Saxum" "Sol/Bennu"
+{
+	LongLat	[ -31.75 25.09 0 ]
+	Size	0.0056
+	Type	"SA"
+}
+
+Location "Odette Saxum" "Sol/Bennu"
+{
+	LongLat	[ -68.92 -44.86 0 ]
+	Size	0.019
+	Type	"SA"
+}
+
+Location "Odile Saxum" "Sol/Bennu"
+{
+	LongLat	[ -65.92 -42.74 0 ]
+	Size	0.025
+	Type	"SA"
+}
+
+Location "Ohnivak" "Sol/Bennu"
+{
+	LongLat	[ 125.67 -4.23 0 ]
+	Size	0.041
+	Type	"AA"
+}
+
+Location "Pegasus" "Sol/Bennu"
+{
+	LongLat	[ -30.17 23.53 0 ]
+	Size	0.014
+	Type	"AA"
+}
+
+Location "Pouakai Saxum" "Sol/Bennu"
+{
+	LongLat	[ 166.75 -40.45 0 ]
+	Size	0.0106
+	Type	"SA"
+}
+
+Location "Roc Saxum" "Sol/Bennu"
+{
+	LongLat	[ 25.36 -23.46 0 ]
+	Size	0.096
+	Type	"SA"
+}
+
+Location "Sampati" "Sol/Bennu"
+{
+	LongLat	[ 97.34 -19.02 0 ]
+	Size	0.011
+	Type	"AA"
+}
+
+Location "Simurgh Saxum" "Sol/Bennu"
+{
+	LongLat	[ 4.05 -25.32 0 ]
+	Size	0.04
+	Type	"SA"
+}
+
+Location "Strix Saxum" "Sol/Bennu"
+{
+	LongLat	[ 88.26 13.4 0 ]
+	Size	0.0053
+	Type	"SA"
+}
+
+Location "Thorondor Saxum" "Sol/Bennu"
+{
+	LongLat	[ 45.1 -47.94 0 ]
+	Size	0.061
+	Type	"SA"
+}
+
+Location "TLANUWA REGIO" "Sol/Bennu"
+{
+	LongLat	[ -98.3 -37.86 0 ]
+	Size	0.301
+	Type	"RE"
+}
+
+Location "Wuchowsen" "Sol/Bennu"
+{
+	LongLat	[ 88.13 11.78 0 ]
+	Size	0.02
+	Type	"AA"
+}
+
+Location "Wututu" "Sol/Bennu"
+{
+	LongLat	[ 84.34 -17.03 0 ]
+	Size	0.013
+	Type	"AA"
+}
+
+
+# 13 locations on Ryugu.
+
+Location "Brabo" "Sol/Ryugu"
+{
+	LongLat	[ -130.3 4.5 0 ]
+	Size	0.14
+	Type	"AA"
+}
+
+Location "Catafo Saxum" "Sol/Ryugu"
+{
+	LongLat	[ 0 -5.5 0 ]
+	Size	0.05
+	Type	"SA"
+}
+
+Location "Cendrillon" "Sol/Ryugu"
+{
+	LongLat	[ -9.5 31.9 0 ]
+	Size	0.22
+	Type	"AA"
+}
+
+Location "Ejima Saxum" "Sol/Ryugu"
+{
+	LongLat	[ 101.1 -32 0 ]
+	Size	0.07
+	Type	"SA"
+}
+
+Location "Horai Fossa" "Sol/Ryugu"
+{
+	LongLat	[ -63.4 32.1 0 ]
+	Size	0.33
+	Type	"FO"
+}
+
+Location "Kibidango" "Sol/Ryugu"
+{
+	LongLat	[ 50 -31.2 0 ]
+	Size	0.13
+	Type	"AA"
+}
+
+Location "Kintaro" "Sol/Ryugu"
+{
+	LongLat	[ 157.8 0.4 0 ]
+	Size	0.17
+	Type	"AA"
+}
+
+Location "Kolobok" "Sol/Ryugu"
+{
+	LongLat	[ -26.5 -1.5 0 ]
+	Size	0.18
+	Type	"AA"
+}
+
+Location "Momotaro" "Sol/Ryugu"
+{
+	LongLat	[ 51.9 -12.5 0 ]
+	Size	0.19
+	Type	"AA"
+}
+
+Location "Otohime Saxum" "Sol/Ryugu"
+{
+	LongLat	[ -85.6 -69.8 0 ]
+	Size	0.16
+	Type	"SA"
+}
+
+Location "Ryujin Dorsum" "Sol/Ryugu"
+{
+	LongLat	[ 180 0 0 ]
+	Size	3.2
+	Type	"DO"
+}
+
+Location "Tokoyo Fossa" "Sol/Ryugu"
+{
+	LongLat	[ 166.2 -50.5 0 ]
+	Size	0.56
+	Type	"FO"
+}
+
+Location "Urashima" "Sol/Ryugu"
+{
+	LongLat	[ 92.9 -8.1 0 ]
+	Size	0.29
+	Type	"AA"
+}
+
+
+# 5 locations on Arrokoth.
+
+Location "Akasa Collum" "Sol/Arrokoth"
+{
+	LongLat	[ 180 -36 0 ]
+	Size	9
+	Type	"CL"
+}
+
+Location "Ka'an Arcus" "Sol/Arrokoth"
+{
+	LongLat	[ 10 -35 0 ]
+	Size	9
+	Type	"AR"
+}
+
+Location "Sky" "Sol/Arrokoth"
+{
+	LongLat	[ -168 -16 0 ]
+	Size	6.8
+	Type	"AA"
+}
+
+Location "WEEYO LOBUS" "Sol/Arrokoth"
+{
+	LongLat	[ 180 -25 0 ]
+	Size	15.4
+	Type	"LO"
+}
+
+Location "WENU LOBUS" "Sol/Arrokoth"
+{
+	LongLat	[ 0 -90 0 ]
+	Size	21.6
+	Type	"LO"
 }
