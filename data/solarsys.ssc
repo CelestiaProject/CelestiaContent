@@ -1063,15 +1063,19 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	InfoURL	"https://en.wikipedia.org/wiki/Titan_(moon)"
 }
 
+# Size and density from Zubarev and Nadezhdina (2025), Icarus 429, 116440
+#   "Hyperion (S VII): Shape, mosaic and control point network"
+#   https://ui.adsabs.harvard.edu/abs/2025Icar..42916440Z/abstract
 "Hyperion:Saturn VII" "Sol/Saturn"
 {
 	Class	"minormoon"
 	Mesh	"hyperion.cmod"
+	MeshCenter	[ 3.792 2.103 4.191 ]
 	Texture	"hyperion.*"
-	Color	[ 1.0 0.968 0.902 ]
-	Radius	180.1
+	Color	[ 1.0 0.979 0.929 ]
+	Radius	180.9  # maximum semi-axis
 	Mass<kg>	5.5510e18
-	Density	538.6
+	Density	563
 	CustomOrbit	"hyperion"
 
 	# Overridden by CustomOrbit
@@ -1091,25 +1095,28 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	#	MeanAnomaly	70.603755
 	# }
 
-	# The rotation of Hyperion is chaotic; we don't attempt to model
-	# the rotation exactly, but instead use non-zero precession rate to
-	# make the rotation appear somewhat irregular.
+	# The rotation of Hyperion is chaotic; we use the spin state observed by Cassini
+	# at 2005 Sept 25, as reported in Thomas et al. (2007), Nature 448, 50-56
+	#   "Hyperion's sponge-like appearance" (supplementary information)
+	#   https://www.nature.com/articles/nature05779
+	# A forced precession component is modeled using the period from
+	# Black et al. (1995), Icarus 117, 149-161, "Hyperion: Rotational Dynamics"
+	#   https://ui.adsabs.harvard.edu/abs/1995Icar..117..149B/abstract
+	BodyFrame	{ EquatorJ2000 {} }
 	PrecessingRotation
 	{
-		Period	120
-		Inclination	61
-		AscendingNode	145
-		PrecessionPeriod	0.0192
+		Epoch	2453639.0  # 2005 Sept 25 12:00
+		Period	120  # 72 deg/day
+		Inclination	33.4
+		AscendingNode	45.1
+		MeridianAngle	115  # approx.
+		PrecessionPeriod<d>	320
 	}
-	LunarLambert	0.5
-	GeomAlbedo	0.3
+	LunarLambert	1  # lunar-like scattering
+	# GeomAlbedo	0.44  # Verbiscer et al. (2018), "Enceladus and the Icy Moons of Saturn", p. 325
+	BondAlbedo	0.33  # Howard et al. (2012), 2012Icar..220..268H
+	Reflectivity	0.29  # from bolometric albedo and spectrum
 	InfoURL	"https://en.wikipedia.org/wiki/Hyperion_(moon)"
-}
-
-AltSurface "Limit of knowledge" "Sol/Saturn/Hyperion"
-{
-	Texture	"hyperion-lok.*"
-	LunarLambert	0.5
 }
 
 "Iapetus:Saturn VIII" "Sol/Saturn"

@@ -5049,35 +5049,35 @@ Location "Zub Lacus" "Sol/Saturn/Titan"
 
 Location "Bahloo" "Sol/Saturn/Hyperion"
 {
-	LongLat	[ 164 36 0 ]
+	LongLat	[ 164 13 0 ]
 	Size	20
 	Type	"AA"
 }
 
 Location "Bond-Lassell Dorsum" "Sol/Saturn/Hyperion"
 {
-	LongLat	[ -143.5 48 0 ]
+	LongLat	[ 180 60 0 ]
 	Size	250
 	Type	"DO"
 }
 
 Location "Helios" "Sol/Saturn/Hyperion"
 {
-	LongLat	[ -132 71 0 ]
+	LongLat	[ -155 -55 0 ]
 	Size	60
 	Type	"AA"
 }
 
 Location "Jarilo" "Sol/Saturn/Hyperion"
 {
-	LongLat	[ 177 61 0 ]
+	LongLat	[ -167 25 0 ]
 	Size	30
 	Type	"AA"
 }
 
 Location "Meri" "Sol/Saturn/Hyperion"
 {
-	LongLat	[ -171 3 0 ]
+	LongLat	[ 162 -28 0 ]
 	Size	30
 	Type	"AA"
 }
