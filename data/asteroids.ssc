@@ -801,6 +801,48 @@
 
 # Asteroids visited by spacecraft
 
+# Sierks et al. (2011), Science 334, 487-490
+#   "Images of Asteroid 21 Lutetia: A Remnant Planetesimal from the Early Solar System"
+#   https://web.archive.org/web/20180430115517/https://dspace.mit.edu/bitstream/1721.1/110553/1/Sierks_2011_open_access.pdf
+"21 Lutetia:Lutetia" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"lutetia.cmod"
+	MeshCenter	[ 2.716 -4.092 -3.031 ]
+	Texture	"lutetia.*"  # brightness: 0.47526
+	Color	[ 0.650 0.629 0.602 ]
+	BlendTexture	true
+	Radius	60.5  # maximum semi-axis
+	Mass<kg>	1.700e18
+	Density	3400
+	EllipticalOrbit
+	{
+		Epoch	2455388.156939  # 2010 Jul 10 15:44:53.3 UT (Rosetta encounter)
+		Period	3.801937284798546
+		SemiMajorAxis	2.435928281038471
+		Eccentricity	0.1628637246254306
+		Inclination	3.063732671372809
+		AscendingNode	80.90012439238676
+		ArgOfPericenter	250.1879988966936
+		MeanAnomaly	230.8546557844331
+	}
+
+	# L. Jorda & J.-B. Vincent, "Rotational Parameters of (21) Lutetia"
+	# https://pdssbn.astro.umd.edu/holdings/ro-a-osinac_osiwac-5-lutetia-shape-v1.0/document/lutetia_rotation.pdf
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period	8.168270
+		Inclination	79.17
+		AscendingNode	141.80
+		MeridianAngle	289.50
+	}
+	LunarLambert	0.92  # estimated from Fig. 3.2 of Hasselmann et al. (2016), 2016Icar..267..135H
+	# GeomAlbedo	0.19
+	Reflectivity	0.073  # Bond albedo
+	InfoURL	"https://en.wikipedia.org/wiki/21_Lutetia"
+}
+
 # Belton et al. (1996), Icarus 120, 1-19
 #   "Galileo's Encounter with 243 Ida: An Overview of the Imaging Experiment"
 #   https://ui.adsabs.harvard.edu/abs/1996Icar..120....1B/abstract
@@ -1007,6 +1049,48 @@
 	BondAlbedo	0.12
 	Reflectivity	0.1  # spherical albedo at SSI GRN filter (0.56 µm)
 	InfoURL	"https://en.wikipedia.org/wiki/951_Gaspra"
+}
+
+# Jorda et al. (2012), Icarus 221, 1089-1100
+#   "Asteroid (2867) Steins: Shape, topography and global physical properties
+#   from OSIRIS observations"
+#   https://ui.adsabs.harvard.edu/abs/2012Icar..221.1089J/abstract
+# Albedos from Spjuth et al. (2012), Icarus 221, 1101-1118
+#   "Disk-resolved photometry of Asteroid (2867) Steins"
+#   https://ui.adsabs.harvard.edu/abs/2012Icar..221.1101S/abstract
+"2867 Steins:Steins:1969 VC:1954 QL:1979 FJ4:1980 VV1:1980 WB" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"steins.cmod"
+	MeshCenter	[ -0.2117 -0.0890 -0.1079 ]
+	Orientation	[ 135 0 1 0 ]  # approximate offset to IAU coordinate system
+	Texture	"steins.*"  # brightness: 0.64646
+	Color	[ 0.823 0.788 0.693 ]
+	BlendTexture	true
+	Radius	3.415  # maximum semi-axis
+	EllipticalOrbit
+	{
+		Epoch	2454715.277375  # 2008 Sept 05 18:38:20 UT (Rosetta encounter)
+		Period	3.633242254119409
+		SemiMajorAxis	2.363328556809945
+		Eccentricity	0.1462223082920988
+		Inclination	9.94493286133457
+		AscendingNode	55.52931588000944
+		ArgOfPericenter	250.5164928896344
+		MeanAnomaly	317.5210498791791
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period	6.04679  # Keller et al. (2010), 2010Sci...327..190K
+		Inclination	152
+		AscendingNode	181
+		MeridianAngle	78.31  # offset for correct orientation at the Rosetta encounter
+	}
+	LunarLambert	1
+	# GeomAlbedo	0.37  # extrapolated to 550 nm from Fig. 9
+	Reflectivity	0.22  # extrapolated to 550 nm from Fig. 9 (Bond albedo)
+	InfoURL	"https://en.wikipedia.org/wiki/2867_Steins"
 }
 
 "4179 Toutatis:Toutatis:1989 AC:1934 CT" "Sol"

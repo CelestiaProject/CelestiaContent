@@ -1,4 +1,4 @@
-# 313 locations on Vesta, Ida, Mathilde, Eros, Gaspra, Itokawa, Didymos, Dimorphos, Bennu, Ryugu and Arrokoth.
+# 374 locations on Vesta, Lutetia, Ida, Mathilde, Eros, Gaspra, Steins, Itokawa, Didymos, Dimorphos, Bennu, Ryugu and Arrokoth.
 
 
 # 106 locations on Vesta.
@@ -746,6 +746,446 @@ Location "Vibidia" "Sol/Vesta"
 }
 
 
+# 37 locations on Lutetia.
+
+Location "ACHAIA REGIO" "Sol/Lutetia"
+{
+	LongLat	[ -154 28 0 ]
+	Size	20
+	Type	"RE"
+}
+
+Location "BAETICA REGIO" "Sol/Lutetia"
+{
+	LongLat	[ -42 69 0 ]
+	Size	20
+	Type	"RE"
+}
+
+Location "Bagacum" "Sol/Lutetia"
+{
+	LongLat	[ 49 46 0 ]
+	Size	3.7
+	Type	"AA"
+}
+
+Location "Basilia" "Sol/Lutetia"
+{
+	LongLat	[ -176 73 0 ]
+	Size	3.5
+	Type	"AA"
+}
+
+Location "Bonna" "Sol/Lutetia"
+{
+	LongLat	[ 67 62 0 ]
+	Size	6
+	Type	"AA"
+}
+
+Location "Burdigala" "Sol/Lutetia"
+{
+	LongLat	[ -149 52 0 ]
+	Size	10
+	Type	"AA"
+}
+
+Location "Danuvius Labes" "Sol/Lutetia"
+{
+	LongLat	[ -27 70 0 ]
+	Size	20
+	Type	"LA"
+}
+
+Location "ETRURIA REGIO" "Sol/Lutetia"
+{
+	LongLat	[ -78 19 0 ]
+	Size	20
+	Type	"RE"
+}
+
+Location "Florentia" "Sol/Lutetia"
+{
+	LongLat	[ 137 23 0 ]
+	Size	10.9
+	Type	"AA"
+}
+
+Location "Gallicum Labes" "Sol/Lutetia"
+{
+	LongLat	[ -73 77 0 ]
+	Size	20
+	Type	"LA"
+}
+
+Location "Gaudiaco" "Sol/Lutetia"
+{
+	LongLat	[ 5 58 0 ]
+	Size	6.7
+	Type	"AA"
+}
+
+Location "Genua" "Sol/Lutetia"
+{
+	LongLat	[ 117 11 0 ]
+	Size	1.8
+	Type	"AA"
+}
+
+Location "Gerunda" "Sol/Lutetia"
+{
+	LongLat	[ 68 78 0 ]
+	Size	4.7
+	Type	"AA"
+}
+
+Location "Glana Rupes" "Sol/Lutetia"
+{
+	LongLat	[ 124 11 0 ]
+	Size	9.8
+	Type	"RU"
+}
+
+Location "GOLDSCHMIDT REGIO" "Sol/Lutetia"
+{
+	LongLat	[ 0 -65 0 ]
+	Size	20
+	Type	"RE"
+}
+
+Location "Hiberus Fossa" "Sol/Lutetia"
+{
+	LongLat	[ 33 46 0 ]
+	Size	12.8
+	Type	"FO"
+}
+
+Location "Lauriacum" "Sol/Lutetia"
+{
+	LongLat	[ 0 37 0 ]
+	Size	1.5
+	Type	"AA"
+}
+
+Location "Lugdunum" "Sol/Lutetia"
+{
+	LongLat	[ -141 10 0 ]
+	Size	17
+	Type	"AA"
+}
+
+Location "Massilia" "Sol/Lutetia"
+{
+	LongLat	[ 96 41 0 ]
+	Size	61
+	Type	"AA"
+}
+
+Location "NARBONENSIS REGIO" "Sol/Lutetia"
+{
+	LongLat	[ 101 34 0 ]
+	Size	20
+	Type	"RE"
+}
+
+Location "Nicaea" "Sol/Lutetia"
+{
+	LongLat	[ -179 43 0 ]
+	Size	21
+	Type	"AA"
+}
+
+Location "NORICUM REGIO" "Sol/Lutetia"
+{
+	LongLat	[ 10 41 0 ]
+	Size	20
+	Type	"RE"
+}
+
+Location "PANNONIA REGIO" "Sol/Lutetia"
+{
+	LongLat	[ 30 23 0 ]
+	Size	20
+	Type	"RE"
+}
+
+Location "Patavium" "Sol/Lutetia"
+{
+	LongLat	[ 52 31 0 ]
+	Size	9.3
+	Type	"AA"
+}
+
+Location "RAETIA REGIO" "Sol/Lutetia"
+{
+	LongLat	[ -55 -20 0 ]
+	Size	20
+	Type	"RE"
+}
+
+Location "Rhenus Rupes" "Sol/Lutetia"
+{
+	LongLat	[ -98 20 0 ]
+	Size	11.8
+	Type	"RU"
+}
+
+Location "Rhodanus Rimae" "Sol/Lutetia"
+{
+	LongLat	[ 39 53 0 ]
+	Size	10.8
+	Type	"RI"
+}
+
+Location "Roma" "Sol/Lutetia"
+{
+	LongLat	[ -117 13 0 ]
+	Size	19
+	Type	"AA"
+}
+
+Location "Salomacus" "Sol/Lutetia"
+{
+	LongLat	[ 109 11 0 ]
+	Size	7
+	Type	"AA"
+}
+
+Location "Salona" "Sol/Lutetia"
+{
+	LongLat	[ 37 32 0 ]
+	Size	7.1
+	Type	"AA"
+}
+
+Location "Sarnus Labes" "Sol/Lutetia"
+{
+	LongLat	[ -75 63 0 ]
+	Size	20
+	Type	"LA"
+}
+
+Location "Sequana Fossa" "Sol/Lutetia"
+{
+	LongLat	[ 106 57 0 ]
+	Size	7.9
+	Type	"FO"
+}
+
+Location "Syracusae" "Sol/Lutetia"
+{
+	LongLat	[ -32 39 0 ]
+	Size	7
+	Type	"AA"
+}
+
+Location "Tiberis Rimae" "Sol/Lutetia"
+{
+	LongLat	[ -131 33 0 ]
+	Size	27.4
+	Type	"RI"
+}
+
+Location "Ticinum Dorsum" "Sol/Lutetia"
+{
+	LongLat	[ 100 51 0 ]
+	Size	8.5
+	Type	"DO"
+}
+
+Location "Toletum" "Sol/Lutetia"
+{
+	LongLat	[ 161 87 0 ]
+	Size	6
+	Type	"AA"
+}
+
+Location "Turicum" "Sol/Lutetia"
+{
+	LongLat	[ 158 20 0 ]
+	Size	3.8
+	Type	"AA"
+}
+
+
+# 25 locations on Ida.
+
+Location "Afon" "Sol/Ida"
+{
+    LongLat [ 0 6.5 0 ]
+    Size 25.0
+    Type "AA"
+}
+
+Location "Atea" "Sol/Ida"
+{
+    LongLat [ -18.9 5.7 0 ]
+    Size 2.0
+    Type "AA"
+}
+
+Location "Azzurra" "Sol/Ida"
+{
+    LongLat [ -217.2 -30.5 0 ]
+    Size 9.6
+    Type "AA"
+}
+
+Location "Bilemot" "Sol/Ida"
+{
+    LongLat [ -29.2 27.8 0 ]
+    Size 1.8
+    Type "AA"
+}
+
+Location "Castellana" "Sol/Ida"
+{
+    LongLat [ -335.2 13.4 0 ]
+    Size 5.2
+    Type "AA"
+}
+
+Location "Choukoutien" "Sol/Ida"
+{
+    LongLat [ -23.6 -12.8 0 ]
+    Size 1.1
+    Type "AA"
+}
+
+Location "Fingal" "Sol/Ida"
+{
+    LongLat [ -39.9 13.2 0 ]
+    Size 1.5
+    Type "AA"
+}
+
+Location "Kartchner" "Sol/Ida"
+{
+    LongLat [ -179.0 7.0 0 ]
+    Size 0.9
+    Type "AA"
+}
+
+Location "Kazumura" "Sol/Ida"
+{
+    LongLat [ -41.1 32.0 0 ]
+    Size 2.1
+    Type "AA"
+}
+
+Location "Lascaux" "Sol/Ida"
+{
+    LongLat [ -161.2 -0.8 0 ]
+    Size 11.8
+    Type "AA"
+}
+
+Location "Lechuguilla" "Sol/Ida"
+{
+    LongLat [ -357.1 -7.9 0 ]
+    Size 1.5
+    Type "AA"
+}
+
+Location "Mammoth" "Sol/Ida"
+{
+    LongLat [ -180.3 18.3 0 ]
+    Size 10.2
+    Type "AA"
+}
+
+Location "Manjang" "Sol/Ida"
+{
+    LongLat [ -90.5 28.3 0 ]
+    Size 1.0
+    Type "AA"
+}
+
+Location "Orgnac" "Sol/Ida"
+{
+    LongLat [ -202.7 6.3 0 ]
+    Size 10.6
+    Type "AA"
+}
+
+Location "Padirac" "Sol/Ida"
+{
+    LongLat [ -5.2 4.3 0 ]
+    Size 1.9
+    Type "AA"
+}
+
+Location "Peacock" "Sol/Ida"
+{
+    LongLat [ -52.0 2.0 0 ]
+    Size 0.2
+    Type "AA"
+}
+
+Location "Postojna" "Sol/Ida"
+{
+    LongLat [ -359.9 42.9 0 ]
+    Size 6.0
+    Type "AA"
+}
+
+Location "Sterkfontein" "Sol/Ida"
+{
+    LongLat [ -54.1 4.1 0 ]
+    Size 4.7
+    Type "AA"
+}
+
+Location "Stiffe" "Sol/Ida"
+{
+    LongLat [ -126.5 27.9 0 ]
+    Size 1.5
+    Type "AA"
+}
+
+Location "Undara" "Sol/Ida"
+{
+    LongLat [ -113.8 -2.0 0 ]
+    Size 8.5
+    Type "AA"
+}
+
+Location "Viento" "Sol/Ida"
+{
+    LongLat [ -343.9 -12.2 0 ]
+    Size 1.6
+    Type "AA"
+}
+
+Location "PALISA REGIO" "Sol/Ida"
+{
+    LongLat [ -34 23 0 ]
+    Size 23
+    Type "RE"
+}
+
+Location "POLA REGIO" "Sol/Ida"
+{
+    LongLat [ -184 11 0 ]
+    Size 8
+    Type "RE"
+}
+
+Location "VIENNA REGIO" "Sol/Ida"
+{
+    LongLat [ -2 -8 0 ]
+    Size 13
+    Type "RE"
+}
+
+Location "Townsend Dorsum" "Sol/Ida"
+{
+    LongLat [ -30 -25 0 ]
+    Size 40
+    Type "DO"
+}
+
+
 # 23 locations on Mathilde.
 
 Location "Aachen" "Sol/Mathilde"
@@ -1441,181 +1881,174 @@ Location "YEATES REGIO" "Sol/Gaspra"
 }
 
 
-# 25 locations on Ida.
+# 24 locations on Steins.
 
-Location "Afon" "Sol/Ida"
+Location "Agate" "Sol/Steins"
 {
-    LongLat [ 0 6.5 0 ]
-    Size 25.0
-    Type "AA"
+	LongLat	[ 1.8 57.6 0 ]
+	Size	0.5
+	Type	"AA"
 }
 
-Location "Atea" "Sol/Ida"
+Location "Alexandrite" "Sol/Steins"
 {
-    LongLat [ -18.9 5.7 0 ]
-    Size 2.0
-    Type "AA"
+	LongLat	[ 20.7 -7 0 ]
+	Size	0.31
+	Type	"AA"
 }
 
-Location "Azzurra" "Sol/Ida"
+Location "Almandine" "Sol/Steins"
 {
-    LongLat [ -217.2 -30.5 0 ]
-    Size 9.6
-    Type "AA"
+	LongLat	[ 53.8 29.5 0 ]
+	Size	0.52
+	Type	"AA"
 }
 
-Location "Bilemot" "Sol/Ida"
+Location "Amazonite" "Sol/Steins"
 {
-    LongLat [ -29.2 27.8 0 ]
-    Size 1.8
-    Type "AA"
+	LongLat	[ 75.6 9.6 0 ]
+	Size	0.47
+	Type	"AA"
 }
 
-Location "Castellana" "Sol/Ida"
+Location "Amethyst" "Sol/Steins"
 {
-    LongLat [ -335.2 13.4 0 ]
-    Size 5.2
-    Type "AA"
+	LongLat	[ -16.8 28.9 0 ]
+	Size	0.45
+	Type	"AA"
 }
 
-Location "Choukoutien" "Sol/Ida"
+Location "Aquamarine" "Sol/Steins"
 {
-    LongLat [ -23.6 -12.8 0 ]
-    Size 1.1
-    Type "AA"
+	LongLat	[ 120.3 7.2 0 ]
+	Size	0.37
+	Type	"AA"
 }
 
-Location "Fingal" "Sol/Ida"
+Location "CHERNYKH REGIO" "Sol/Steins"
 {
-    LongLat [ -39.9 13.2 0 ]
-    Size 1.5
-    Type "AA"
+	LongLat	[ 60 -20 0 ]
+	Size	7.5
+	Type	"RE"
 }
 
-Location "Kartchner" "Sol/Ida"
+Location "Chrysoberyl" "Sol/Steins"
 {
-    LongLat [ -179.0 7.0 0 ]
-    Size 0.9
-    Type "AA"
+	LongLat	[ 29.6 -2 0 ]
+	Size	1.55
+	Type	"AA"
 }
 
-Location "Kazumura" "Sol/Ida"
+Location "Citrine" "Sol/Steins"
 {
-    LongLat [ -41.1 32.0 0 ]
-    Size 2.1
-    Type "AA"
+	LongLat	[ -19.4 13.7 0 ]
+	Size	0.61
+	Type	"AA"
 }
 
-Location "Lascaux" "Sol/Ida"
+Location "Diamond" "Sol/Steins"
 {
-    LongLat [ -161.2 -0.8 0 ]
-    Size 11.8
-    Type "AA"
+	LongLat	[ 13.4 -54.6 0 ]
+	Size	2.1
+	Type	"AA"
 }
 
-Location "Lechuguilla" "Sol/Ida"
+Location "Emerald" "Sol/Steins"
 {
-    LongLat [ -357.1 -7.9 0 ]
-    Size 1.5
-    Type "AA"
+	LongLat	[ 139.3 -3.9 0 ]
+	Size	0.52
+	Type	"AA"
 }
 
-Location "Mammoth" "Sol/Ida"
+Location "Garnet" "Sol/Steins"
 {
-    LongLat [ -180.3 18.3 0 ]
-    Size 10.2
-    Type "AA"
+	LongLat	[ -21.7 -8.6 0 ]
+	Size	0.39
+	Type	"AA"
 }
 
-Location "Manjang" "Sol/Ida"
+Location "Jade" "Sol/Steins"
 {
-    LongLat [ -90.5 28.3 0 ]
-    Size 1.0
-    Type "AA"
+	LongLat	[ -24.7 -18 0 ]
+	Size	0.26
+	Type	"AA"
 }
 
-Location "Orgnac" "Sol/Ida"
+Location "Lapis" "Sol/Steins"
 {
-    LongLat [ -202.7 6.3 0 ]
-    Size 10.6
-    Type "AA"
+	LongLat	[ -30.3 -31.5 0 ]
+	Size	0.44
+	Type	"AA"
 }
 
-Location "Padirac" "Sol/Ida"
+Location "Malachite" "Sol/Steins"
 {
-    LongLat [ -5.2 4.3 0 ]
-    Size 1.9
-    Type "AA"
+	LongLat	[ 49.9 11.8 0 ]
+	Size	0.47
+	Type	"AA"
 }
 
-Location "Peacock" "Sol/Ida"
+Location "Obsidian" "Sol/Steins"
 {
-    LongLat [ -52.0 2.0 0 ]
-    Size 0.2
-    Type "AA"
+	LongLat	[ 43.6 -10.6 0 ]
+	Size	0.51
+	Type	"AA"
 }
 
-Location "Postojna" "Sol/Ida"
+Location "Onyx" "Sol/Steins"
 {
-    LongLat [ -359.9 42.9 0 ]
-    Size 6.0
-    Type "AA"
+	LongLat	[ 8.9 10.9 0 ]
+	Size	1
+	Type	"AA"
 }
 
-Location "Sterkfontein" "Sol/Ida"
+Location "Opal" "Sol/Steins"
 {
-    LongLat [ -54.1 4.1 0 ]
-    Size 4.7
-    Type "AA"
+	LongLat	[ -22.2 1.1 0 ]
+	Size	0.4
+	Type	"AA"
 }
 
-Location "Stiffe" "Sol/Ida"
+Location "Peridot" "Sol/Steins"
 {
-    LongLat [ -126.5 27.9 0 ]
-    Size 1.5
-    Type "AA"
+	LongLat	[ -24 -25.1 0 ]
+	Size	0.27
+	Type	"AA"
 }
 
-Location "Undara" "Sol/Ida"
+Location "Sapphire" "Sol/Steins"
 {
-    LongLat [ -113.8 -2.0 0 ]
-    Size 8.5
-    Type "AA"
+	LongLat	[ 31.3 -31.3 0 ]
+	Size	0.6
+	Type	"AA"
 }
 
-Location "Viento" "Sol/Ida"
+Location "Topaz" "Sol/Steins"
 {
-    LongLat [ -343.9 -12.2 0 ]
-    Size 1.6
-    Type "AA"
+	LongLat	[ 0 -7.7 0 ]
+	Size	0.65
+	Type	"AA"
 }
 
-Location "PALISA REGIO" "Sol/Ida"
+Location "Tourmaline" "Sol/Steins"
 {
-    LongLat [ -34 23 0 ]
-    Size 23
-    Type "RE"
+	LongLat	[ -12.4 -20.9 0 ]
+	Size	0.22
+	Type	"AA"
 }
 
-Location "POLA REGIO" "Sol/Ida"
+Location "Turquoise" "Sol/Steins"
 {
-    LongLat [ -184 11 0 ]
-    Size 8
-    Type "RE"
+	LongLat	[ 113.4 -31.6 0 ]
+	Size	0.47
+	Type	"AA"
 }
 
-Location "VIENNA REGIO" "Sol/Ida"
+Location "Zircon" "Sol/Steins"
 {
-    LongLat [ -2 -8 0 ]
-    Size 13
-    Type "RE"
-}
-
-Location "Townsend Dorsum" "Sol/Ida"
-{
-    LongLat [ -30 -25 0 ]
-    Size 40
-    Type "DO"
+	LongLat	[ -25 -13.5 0 ]
+	Size	1.77
+	Type	"AA"
 }
 
 
