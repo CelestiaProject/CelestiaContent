@@ -1064,8 +1064,8 @@
 	Mesh	"steins.cmod"
 	MeshCenter	[ -0.2117 -0.0890 -0.1079 ]
 	Orientation	[ 135 0 1 0 ]  # approximate offset to IAU coordinate system
-	Texture	"steins.*"  # brightness: 0.64646
-	Color	[ 0.823 0.788 0.693 ]
+	Texture	"steins.*"  # brightness: 0.61735
+	Color	[ 0.862 0.825 0.726 ]
 	BlendTexture	true
 	Radius	3.415  # maximum semi-axis
 	EllipticalOrbit
