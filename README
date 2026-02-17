@@ -11,8 +11,8 @@ Scientific Data Base
 
     Database of globular clusters (globulars.dsc)
 
-    Database of visual and spectroscopic binaries (visualbins.stc,
-    spectbins.stc)
+    Database of visual and spectroscopic binaries (stars-visualbins.stc,
+    stars-spectbins.stc)
 
     World-capitals.ssc
 
@@ -23,12 +23,12 @@ Scientific Data Base
     (see: https://github.com/ajtribick/celestia-gaia-stardb);
     licensed under CC-BY-SA 4.0.
 
-    CHARM2 stellar radii (charm2.stc)
+    CHARM2 stellar radii (stars-charm2.stc)
 
     Open cluster catalog (openclusters.dsc)
 
 # LukeCEL
-    Complete update of nearstars.stc
+    Complete update of stars-near.stc
 
 # Thomas Tarrants (Sirius_Alpha)
     Updated exoplanet catalogue (extrasolar.stc, extrasolar.ssc)
