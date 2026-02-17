@@ -11,7 +11,6 @@ set(DATA_SOURCES
   asteroids.ssc
   asteroids_locs.ssc
   boundaries.dat
-  charm2.stc
   comets.ssc
   dwarfplanets.ssc
   dwarfplanets_locs.ssc
@@ -20,8 +19,6 @@ set(DATA_SOURCES
   extrasolar.stc
   galaxies.dsc
   globulars.dsc
-  hdxindex.dat
-  hdxindex.dat.license
   interstellar.ssc
   jupitermoons_locs.ssc
   marsmoons_locs.ssc
@@ -29,25 +26,28 @@ set(DATA_SOURCES
   merc_locs.ssc
   minormoons.ssc
   moon_locs.ssc
-  nearstars.stc
   neptunemoons_locs.ssc
   openclusters.dsc
   outersys.ssc
   pulsars.stc
-  revised.stc
   ring_locs.ssc
-  saoxindex.dat
-  saoxindex.dat.license
   saturnmoons_locs.ssc
   solarsys.ssc
-  spectbins.stc
   starnames.dat
   starnames.dat.license
+  stars-charm2.stc
+  stars-near.stc
+  stars-revised.stc
+  stars-spectbins.stc
+  stars-visualbins.stc
   stars.dat
   stars.dat.license
+  starxindex-hd.dat
+  starxindex-hd.dat.license
+  starxindex-sao.dat
+  starxindex-sao.dat.license
   uranusmoons_locs.ssc
   venus_locs.ssc
-  visualbins.stc
   whitedwarfs.stc
   world-capitals.ssc
 )
