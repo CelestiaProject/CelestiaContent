@@ -37,7 +37,7 @@
 #   https://doi.org/10.1111/j.1365-2966.2012.20989.x
 #
 #
-# Last update: 22 November 2025
+# Last update: 6 March 2026
 
 
 # Periodic Comets
@@ -643,10 +643,10 @@
 		MeanAnomaly		    359.9999174144606
 	}
 
-	# Rotation period from Kharchuk (2010)
-	# https://doi.org/10.3103/S0884591310060048
+	# Rotation period from Okoth (2026)
+	# https://arxiv.org/abs/2603.00389
 	
-	RotationPeriod	 21
+	RotationPeriod	 11.8
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_McNaught"
 }
@@ -780,5 +780,6 @@
 	GeomAlbedo		 0.04
 	InfoURL	"https://en.wikipedia.org/wiki/C/2023_A3_(Tsuchinshan-ATLAS)"
 }
+
 
 
