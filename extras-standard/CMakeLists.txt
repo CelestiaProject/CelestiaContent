@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: Celestia Development Team
 # SPDX-License-Identifier: GPL-2.0-or-later
 
+add_subdirectory(99942_apophis)
 add_subdirectory(apollo)
 add_subdirectory(cassini)
 add_subdirectory(galileo)

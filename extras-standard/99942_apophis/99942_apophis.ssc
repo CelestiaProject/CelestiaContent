@@ -1,0 +1,138 @@
+# Brozović et al. (2018), Icarus 300, 115-128
+#   "Goldstone and Arecibo radar observations of (99942) Apophis in 2012-2013"
+#   https://echo.jpl.nasa.gov/asteroids/brozovic.etal.apophis.2018.pdf
+# Rotation and precession periods from Lee et al. (2022), A&A 661, L3
+#   "Refinement of the convex shape model and tumbling spin state of
+#   (99942) Apophis using the 2020-2021 apparition data"
+#   https://ui.adsabs.harvard.edu/abs/2022A%26A...661L...3L/abstract
+"99942 Apophis:Apophis:2004 MN4" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"apophis.cmod"
+	MeshCenter	[ -0.0144 -0.0104 -0.0026 ]
+	Texture	"asteroid.*"
+	Color	[ 0.681 0.655 0.592 ]
+	BlendTexture	true
+	Radius	0.225  # maximum semi-axis (lower bound)
+	Timeline
+	[
+		{
+			Ending	2461771.5  # 2028 Jan 01
+			EllipticalOrbit
+			{
+				Epoch	2461771.5  # 2028 Jan 01
+				Period	0.8858225418949519
+				SemiMajorAxis	0.9223572143646787
+				Eccentricity	0.19119303651035563
+				Inclination	3.3411603165696278
+				AscendingNode	203.88565203376578
+				ArgOfPericenter	126.70637780154587
+				MeanAnomaly	90.66025867530743
+			}
+			BodyFrame
+			{
+				# Angular momentum vector points towards λ = 246.8°, β = -59.3°
+				TwoVector
+				{
+					Primary
+					{
+						Axis	"x"
+						ConstantVector	{ Vector [ 0.3387 0.7903 -0.5105 ] Frame { EclipticJ2000 {} } }
+					}
+					Secondary
+					{
+						Axis	"z"
+						ConstantVector	{ Vector [ -0.2011 -0.4693 -0.8599 ] Frame { EclipticJ2000 {} } }
+					}
+				}
+			}
+			PrecessingRotation
+			{
+				Epoch	2456284.676388  # 2012 Dec 23 04:14:00
+				Period	264.178
+				Inclination	17.8  # θ0
+				AscendingNode	133.8  # φ0
+				MeridianAngle	55.6  # ψ0
+				PrecessionPeriod<h>	-27.38547
+			}
+		}
+		{
+			Ending	2462867.5  # 2031 Jan 01
+			SampledTrajectory
+			{
+				Source	"99942_apophis.xyzv"
+				DoublePrecision	true
+				Interpolation	"cubic"
+			}
+			BodyFrame
+			{
+				# Angular momentum vector points towards λ = 246.8°, β = -59.3°
+				TwoVector
+				{
+					Primary
+					{
+						Axis	"x"
+						ConstantVector	{ Vector [ 0.3387 0.7903 -0.5105 ] Frame { EclipticJ2000 {} } }
+					}
+					Secondary
+					{
+						Axis	"z"
+						ConstantVector	{ Vector [ -0.2011 -0.4693 -0.8599 ] Frame { EclipticJ2000 {} } }
+					}
+				}
+			}
+			PrecessingRotation
+			{
+				Epoch	2456284.676388  # 2012 Dec 23 04:14:00
+				Period	264.178
+				Inclination	17.8  # θ0
+				AscendingNode	133.8  # φ0
+				MeridianAngle	55.6  # ψ0
+				PrecessionPeriod<h>	-27.38547
+			}
+		}
+		{
+			EllipticalOrbit
+			{
+				Epoch	2462867.5  # 2031 Jan 01
+				Period	1.158436226449951
+				SemiMajorAxis	1.1030183834892897
+				Eccentricity	0.18902907544671738
+				Inclination	2.22097364118824
+				AscendingNode	203.55081339531046
+				ArgOfPericenter	71.42070981715298
+				MeanAnomaly	121.90567085352633
+			}
+			BodyFrame
+			{
+				# Angular momentum vector points towards λ = 246.8°, β = -59.3°
+				TwoVector
+				{
+					Primary
+					{
+						Axis	"x"
+						ConstantVector	{ Vector [ 0.3387 0.7903 -0.5105 ] Frame { EclipticJ2000 {} } }
+					}
+					Secondary
+					{
+						Axis	"z"
+						ConstantVector	{ Vector [ -0.2011 -0.4693 -0.8599 ] Frame { EclipticJ2000 {} } }
+					}
+				}
+			}
+			PrecessingRotation
+			{
+				Epoch	2456284.676388  # 2012 Dec 23 04:14:00
+				Period	264.178
+				Inclination	17.8  # θ0
+				AscendingNode	133.8  # φ0
+				MeridianAngle	55.6  # ψ0
+				PrecessionPeriod<h>	-27.38547
+			}
+		}
+	]
+	LunarLambert	1
+	# GeomAlbedo	0.35
+	Reflectivity	0.16  # for assumed G = 0.24
+	InfoURL	"https://en.wikipedia.org/wiki/99942_Apophis"
+}
