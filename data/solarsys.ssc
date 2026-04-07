@@ -239,6 +239,10 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Earth"
 }
 
+# SemiAxes from Smith et al. (2017), Icarus 283, p. 70-91
+#   "Summary of the results from the lunar orbiter laser altimeter after seven years in lunar orbit"
+#   https://www.sciencedirect.com/science/article/abs/pii/S0019103516302810
+#   https://scixplorer.org/abs/2017Icar..283...70S/abstract
 # Mass from Park et al. (2021), AJ 161 (3), id.105
 #   "The JPL Planetary and Lunar Ephemerides DE440 and DE441"
 #   https://ui.adsabs.harvard.edu/abs/2021AJ....161..105P/abstract
@@ -252,8 +256,7 @@
 	Texture	"moon.*"
 	NormalMap	"moon-normal.*"
 	Color	[ 1.0 0.94582 0.865 ]
-	Radius	1738.14
-	Oblateness	0.00125
+	SemiAxes	[ 1737.8981 1737.8981 1735.6576 ]
 	Mass<kg>	7.345789248e22
 	CustomOrbit	"moon"
 
