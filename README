@@ -52,26 +52,21 @@ Texture maps
    Textures of Phobos, Jupiter, Ganymede, Saturn, Uranus, Puck, Neptune,
    Triton, Pluto, Charon, Nix, Hydra, Mathilde, Eros, Ryugu, Bennu, and Arrokoth.
 
-   Haumea's (fictional) ring texture is by Askaniy.
+   Titan's surface texture is based on the Cassini VIMS and ISS map from
+   B. Seignovert et al. at https://data.caltech.edu/records/8q9an-yt176, calibrated
+   to match visible-light panoramas of the Huygens landing site. The lakes
+   (and corresponding specular mask) are hand-painted from radar mosaics of the
+   polar areas.
+
+   The M star texture was hand-painted by Askaniy.
 
    The Callisto texture was made by Askaniy from JVV's texture.
 
 # FarGetaNik (https://www.deviantart.com/fargetanik)
 
    Stars:
-   O, B, A star textures derived from SDO images of a Sun without spots
-   F, G, K star textures derived from SDO images featuring spots
    L star texture derived from IR images of the Sun by SDO
-   White dwarf texture is a grayscale version of the A star texture
-
-   Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams.
-
-   M star texture based on images from the Swedish 1-m Solar Telescope (SST),
-   operated by the Institute for Solar Physics:
-      https://ttt.astro.su.se/isf/gallery/
-
-   The observers for the individual images used are Oddbjorn Engvold, Jun Elin Wiik,
-   Luc Rouppe van der Voort (Oslo); Dan Kiselman, Mats Löfdahl, Göran Scharmer, Kai Langhans, Mats Löfdahl (ISP)
+   (Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams.)
 
    T star texture derived from a fictional texture by John Van Vliet
 
@@ -110,13 +105,10 @@ Texture maps
 
    Jupiter's rings are derived from spacecraft imagery found on the NASA photojournal.
 
-   Io's surface texture is derived from USGS maps and JVV's map.
-
    Saturn's ring texture is a composite of data found on Björn Jónsson's site.
 
    Mimas, Enceladus, Tethys, Dione, Rhea, Iapetus textures are derived from enhanced color maps by Paul Schenk, found on
    the NASA photojounal. Rhea texture is based on an Albedo map by Björn Jónsson, details added from the JPL map.
-   Tethys and Dione normal maps are derived from models by Rob Gaskell.
 
    Phoebe is derived from a texture by JVV.
 
@@ -136,11 +128,22 @@ Texture maps
 
 # The Europa texture is by John van Vliet.
 
+   Tethys and Dione normal maps are derived by JVV from models by Rob Gaskell.
+
    Other textures derived from work by JVV are listed above.
 
 # Snowfall-The-Cat (https://www.deviantart.com/snowfall-the-cat)
 
    Textures of Larissa (based on Phil Stooke's map) and Proteus.
+
+# ItzImcool (https://www.deviantart.com/itzimcool)
+
+   Io's surface texture is derived from an USGS photomosaic, merged with projections
+   of JunoCam images by Gerald Eichstädt, Jason Perry and John Rogers, and retouched
+   by ItzImcool. The specular mask was hand-painted, matching the surface map.
+
+   The Metis, Amalthea, Thebe, Hyperion, Gaspra, Ida, Steins and Lutetia maps were
+   created from reprojections of spacecraft imagery.
 
 # Phil Stooke
 
@@ -149,9 +152,6 @@ Texture maps
    The Deimos and Itokawa maps are from:
       Stooke. P., Stooke Small Bodies Maps V3.0. MULTI-SA-MULTI-6-STOOKEMAPS-V3.0. NASA Planetary Data System, 2015.
       https://sbnarchive.psi.edu/pds3/multi_mission/MULTI_SA_MULTI_6_STOOKEMAPS_V3_0/document/00_map_guide.html
-
-# The Metis, Amalthea, Thebe, Hyperion, Gaspra, Ida, Steins and Lutetia maps are
-  by ItzImcool.
 
 # Venus's clouds are from Björn Jónsson, recolored by FarGetaNik.
 
@@ -164,15 +164,17 @@ Texture maps
   and further improved by nussun based on a NASA Earth Observatory image:
     https://earthobservatory.nasa.gov/features/NightLights/page3.php
 
-# Titan's surface texture is a composite of Cassini ISS and Radar maps from USGS,
-  created by FarGetaNik and further modified by Askaniy. Titan's specular texture
-  is by Askaniy. Titan's cloud texture is by Fridger Schrempp, based on resources
-  available from the imaging site (Ciclops) of the Cassini mission http://ciclops.org/
+# Titan's cloud texture is by ShadowDragon777, based on processed images from
+  Gordan Ugarković and Kevin M. Gill.
 
-# Chariklo's ring texture is by Zemlyanin.
+# Ring textures of Haumea, Quaoar, Chiron and Chariklo are by AstroChara.
 
-# The exoplanet textures (exo-classN and venuslike) and the asteroid.jpg
-  texture were created by cubicApocalypse, licensed under CC-BY 4.0.
+# The O, B, A, F, G, K star and white dwarf textures were created by MrSpace43
+  from Solar Dynamics Observatory (SDO) images, and calibrated to blackbody colors
+  by AstroChara.
+
+# The exoplanet textures (exo-classN, neptunelike, rocky and venuslike), asteroid.jpg
+  and icy.jpg were created by cubicApocalypse, licensed under CC-BY 4.0.
 
 # The icymoon.jpg texture was created by trappistplanets based on an image of Methone.
 
