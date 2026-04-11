@@ -47,10 +47,16 @@ Scientific Data Base
 Texture maps
 ------------
 
-# Askaniy (https://www.deviantart.com/askaniy)
+# Askaniy Anpilogov (https://www.deviantart.com/askaniy)
 
-   Textures of Phobos, Jupiter, Ganymede, Saturn, Uranus, Puck, Neptune,
-   Triton, Pluto, Charon, Nix, Hydra, Mathilde, Eros, Ryugu, Bennu, and Arrokoth.
+   Phobos' texture is a composite of two maps by Phil Stooke for surface details
+   and albedo features.
+
+   The Jupiter 2018 texture is a combination of the Hubble OPAL map and Juno poles
+   from Björn Jónsson's texture.
+
+   Ganymede's texture is derived from the USGS color map, with reprojections of
+   Juno images by Brian Swift added and gaps filled by Björn Jónsson's texture.
 
    Titan's surface texture is based on the Cassini VIMS and ISS map from
    B. Seignovert et al. at https://data.caltech.edu/records/8q9an-yt176, calibrated
@@ -58,9 +64,33 @@ Texture maps
    (and corresponding specular mask) are hand-painted from radar mosaics of the
    polar areas.
 
-   The M star texture was hand-painted by Askaniy.
+   Uranus' texture is a combination of the 2015 Hubble OPAL map and a map made from
+   Voyager 2 images by Björn Jónsson:
+      https://www.planetary.org/space-images/cylindrical-map-of-uranus-from-voyager-2-data
 
-   The Callisto texture was made by Askaniy from JVV's texture.
+   The Puck map was created from a processed Voyager 2 image.
+
+   Triton is derived from the USGS map.
+
+   Pluto's surface texture is a composite of a greyscale map by USGS and a NASA color map,
+   with maps by Björn Jónsson and Astra-Planetshine blended in.
+
+   The Nix and Hydra maps were created by reprojecting processed New Horizons images.
+
+   Mathilde's texture is derived from a map by Phil Stooke.
+
+   Eros' texture is a composite of a map by Phil Stooke and a map from the NEAR team:
+      https://sbnarchive.psi.edu/pds3/near/NEAR_A_MSI_5_DIM_EROS_ORBIT_V1_0/browse/basemaps/pngs/f4_16_00n000.png
+
+   Ryugu's texture is derived from the JAXA color map:
+      https://jlpeda.jaxa.jp/en/product/archive/detail_02/
+
+   Bennu's texture is derived from the USGS albedo map, with polar areas filled
+   by the shaded map.
+
+   The Arrokoth map was created from a composite image processed by Roman Tkachenko.
+
+   The M star texture was hand-painted by Askaniy.
 
 # FarGetaNik (https://www.deviantart.com/fargetanik)
 
@@ -119,7 +149,14 @@ Texture maps
       http://www.robingilbert.com/blog/2017-08-20-atlas-of-miranda/
    Normal map derived from a DEM by Paul Schenk
 
-   Pluto and Charon normal maps derived from the USGS DEMs.
+   Pluto normal map is derived from the USGS DEM.
+
+   Charon:
+   Texture is a composite of a color map by Steve Albers:
+      ftp://public.sos.noaa.gov/astronomy/charon/
+   and a refined greyscale map by USGS, with unexplored areas filled using a map created by Marc Buie
+   at Lowell Observatory, and recolored by Askaniy.
+   Normal map is derived from the USGS DEM.
 
    Vesta:
    Texture is a composite of individual color filter maps, gaps filled with a shaded texture improved by a normal map
@@ -128,17 +165,19 @@ Texture maps
 
 # The Europa texture is by John van Vliet.
 
+   The Callisto texture was made by Askaniy from JVV's texture.
+
    Tethys and Dione normal maps are derived by JVV from models by Rob Gaskell.
 
    Other textures derived from work by JVV are listed above.
 
-# Snowfall-The-Cat (https://www.deviantart.com/snowfall-the-cat)
+# Astra-Planetshine, formerly Snowfall-The-Cat (https://www.deviantart.com/astra-planetshine)
 
    Textures of Larissa (based on Phil Stooke's map) and Proteus.
 
 # ItzImcool (https://www.deviantart.com/itzimcool)
 
-   Io's surface texture is derived from an USGS photomosaic, merged with projections
+   Io's surface texture is derived from an USGS photomosaic, merged with reprojections
    of JunoCam images by Gerald Eichstädt, Jason Perry and John Rogers, and retouched
    by ItzImcool. The specular mask was hand-painted, matching the surface map.
 
@@ -153,7 +192,14 @@ Texture maps
       Stooke. P., Stooke Small Bodies Maps V3.0. MULTI-SA-MULTI-6-STOOKEMAPS-V3.0. NASA Planetary Data System, 2015.
       https://sbnarchive.psi.edu/pds3/multi_mission/MULTI_SA_MULTI_6_STOOKEMAPS_V3_0/document/00_map_guide.html
 
-# Venus's clouds are from Björn Jónsson, recolored by FarGetaNik.
+# Björn Jónsson (https://bjj.mmedia.is/)
+
+   Venus's clouds are from Björn Jónsson, recolored by FarGetaNik.
+
+   Jupiter's texture from Cassini and Juno data, recolored by Askaniy.
+   Originally available at: https://www.planetary.org/space-images/merged-cassini-and-juno
+
+   Textures for Saturn and Neptune, improved and recolored by Askaniy.
 
 # The textures for the Uranian satellites were created by Ivan Rivera from JPL
   data. His Celestia page is: http://bruckner.homelinux.net/celestia.html
