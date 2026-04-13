@@ -116,13 +116,6 @@ Texture maps
    Normal map derived from the BMNG datadet.
    Cloud Texture from the BMNG dataset
 
-   Moon:
-   Normal map derived from USGS DEM.
-   Surface texture derived from LRO map posted on the Celestial Matters forum:
-      http://forum.celestialmatters.org/viewtopic.php?f=2&t=800
-   Improved with the CGI Moon Kit
-      https://svs.gsfc.nasa.gov/4720
-
    Mars:
    Surface texture based on USGS Viking map, details are from Surveyor data:
       http://www.msss.com/mgcwg/mgm/
@@ -200,6 +193,9 @@ Texture maps
    Originally available at: https://www.planetary.org/space-images/merged-cassini-and-juno
 
    Textures for Saturn and Neptune, improved and recolored by Askaniy.
+
+# The Moon surface and normal maps are based on the CGI Moon Kit from NASA's
+  Scientific Visualization Studio at https://svs.gsfc.nasa.gov/4720.
 
 # The textures for the Uranian satellites were created by Ivan Rivera from JPL
   data. His Celestia page is: http://bruckner.homelinux.net/celestia.html
