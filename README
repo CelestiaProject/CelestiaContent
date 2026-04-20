@@ -385,8 +385,8 @@ covered.
 # The Ryugu model is from:
     https://data.darts.isas.jaxa.jp/pub/hayabusa2/paper/Watanabe_2019/README.html
 
-# Bennu's model is a simplified version of the OLA v20 PTM shape model from NASA's
-  Scientific Visualization Studio: https://svs.gsfc.nasa.gov/5069
+# Bennu uses the SPOv54 shape model from the OSIRIS-REx Altimetry Working Group:
+    https://arcnav.psi.edu/urn:nasa:pds:orex.altimetry:data_derived_altimetry_global_models
 
 # Models of Didymos and Dimorphos come from the DART Shapemodel Archive Bundle at PDS:
     https://doi.org/10.26007/96fn-p578

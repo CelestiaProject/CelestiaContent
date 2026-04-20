@@ -1298,12 +1298,12 @@
 "101955 Bennu:Bennu:1999 RQ36" "Sol"
 {
 	Class	"asteroid"
-	Mesh	"bennu.cmod"
-	MeshCenter	[ 0.0024 -0.0045 -0.0080 ]
-	Texture	"bennu.*"
-	Color	[ 0.994 0.995 1.0 ]
+	Mesh	"bennu.cmod"  # SPOv54 shape model
+	MeshCenter	[ 0.0030 -0.0035 -0.0049 ]
+	Texture	"bennu.*"  # brightness: 0.24708
+	Color	[ 0.621 0.627 0.636 ]
 	BlendTexture	true
-	Radius	0.282365  # maximum semi-axis (2019Natur.568...55L)
+	Radius	0.283955  # maximum semi-axis; from model extent
 	Mass<kg>	7.3304e10
 	Density	1191.57
 	EllipticalOrbit
@@ -1325,7 +1325,7 @@
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		Epoch	2458485  # 2019 Jan 01 12:00
+		Epoch	2458485.0  # 2019 Jan 01 12:00
 		Period	4.296005  # at epoch
 		Inclination	150.365
 		AscendingNode	175.459
@@ -1350,7 +1350,8 @@
 	Mesh	"ryugu.cmod"
 	MeshCenter	[ 0.0034 -0.0065 0.0037 ]
 	Texture	"ryugu.*"
-	Color	[ 0.991 0.986 1.0 ]
+	Color	[ 0.547 0.547 0.547 ]  # phase integral (v-band) = 0.338
+	BlendTexture	true
 	Radius	0.502  # equatorial
 	Mass<kg>	4.50e11
 	Density	1190
