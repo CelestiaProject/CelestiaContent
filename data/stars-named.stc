@@ -142,7 +142,7 @@ Barycenter "Paloma:2MASS J05243042+4244506:1RXS J052430.2+424449:RX J0524+42:TIC
 # Cataclysmic variables consist of an accretor primary and a donor secondary.
 "Paloma A:2MASS J05243042+4244506 A:1RXS J052430.2+424449 A:RX J0524+42 A:TIC 369210348 A"
 {
-	Radius<m> 7.4e6                     # R = (7.4 +0.4-0.3)e8 cm
+	Radius<cm> 7.4e8                    # R = (7.4 +0.4-0.3)e8 cm
 	SpectralType "D"                    # M = 0.74 +0.04-0.05 MSol
 	AppMag 17.163                       # actually total system V-band AppMag, converted from G-band
 
