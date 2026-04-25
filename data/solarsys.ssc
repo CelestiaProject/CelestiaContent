@@ -1229,7 +1229,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Class	"planet"
 	Texture	"uranus.*"
 	Color	[ 0.86828 0.97 1.0 ]
-	SemiAxes	[ 22556.6 22556.6 24968.6 ]
+	SemiAxes	[ 22556.6 22556.6 24968.7 ]
 	Mass<kg>	8.680985721e25
 	Atmosphere
 	{
