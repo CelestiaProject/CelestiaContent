@@ -36,6 +36,7 @@ set(DATA_SOURCES
   starnames.dat
   starnames.dat.license
   stars-charm2.stc
+  stars-named.stc
   stars-near.stc
   stars-revised.stc
   stars-spectbins.stc
