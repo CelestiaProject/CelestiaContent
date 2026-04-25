@@ -1221,12 +1221,15 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 # Bond albedo and internal heat flux from Irwin et al. (2025), arXiv:2502.18971
 #   "The bolometric Bond albedo and energy balance of Uranus"
 #   https://arxiv.org/abs/2502.18971
+# Size and shape from Mankovich et al. (2026), arXiv:2604.19863
+#   "Can radio occultations constrain Uranus or Neptune's internal rotation periods?"
+#   https://arxiv.org/abs/2604.19863
 "Uranus" "Sol"
 {
 	Class	"planet"
 	Texture	"uranus.*"
 	Color	[ 0.86828 0.97 1.0 ]
-	SemiAxes	[ 25559 25559 24973 ]
+	SemiAxes	[ 22556.6 22556.6 24968.7 ]
 	Mass<kg>	8.680985721e25
 	Atmosphere
 	{
@@ -1537,7 +1540,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	Class	"planet"
 	Texture	"neptune.*"
 	Color	[ 0.78302 0.91535 1.0 ]
-	SemiAxes	[ 24764 24764 24341 ]
+	SemiAxes	[ 24760.6 24760.6 24285.3 ]
 	Mass<kg>	1.024092879e26
 	Atmosphere
 	{
