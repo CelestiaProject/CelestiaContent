@@ -1,5 +1,5 @@
 # SPDX-FileCopyrightText: 2026 AstroChara
-# SPDX-FileCopyrightText: 2026 Pedro Garcia
+# SPDX-FileCopyrightText: 2026 Pedro J. Garcia
 # SPDX-License-Identifier: GPL-2.0-or-later
 
 # This file defines stars with proper names (whether IAU WGSN-approved or not)
@@ -84,7 +84,7 @@ Barycenter "Bajamar Star:Bajamar:2MASS J20555125+4352246"
 	Temperature 42750                   # ± 190; Table A.2
 
 	OrbitBarycenter "2MASS J20555125+4352246"
-	EllipticalOrbit
+	EllipticalOrbit                     # period-only orbit
 	{
 		Period<d>           13.38       # assuming variability in TESS data corresponds to orbital period
 		SemiMajorAxis        0.1631     # a = 0.5220 au (calculated, total system mass = 106.0 MSol); mass ratio = 2.2 ± 0.5
@@ -99,7 +99,7 @@ Barycenter "Bajamar Star:Bajamar:2MASS J20555125+4352246"
 	Extinction 10.4                     # should be the same as component A's
 
 	OrbitBarycenter "2MASS J20555125+4352246"
-	EllipticalOrbit
+	EllipticalOrbit                     # period-only orbit
 	{
 		Period<d>           13.38       # assuming variability in TESS data corresponds to orbital period
 		SemiMajorAxis        0.3589     # a = 0.5220 au (calculated, total system mass = 106.0 MSol); mass ratio = 2.2 ± 0.5
@@ -147,7 +147,7 @@ Barycenter "Paloma:2MASS J05243042+4244506:1RXS J052430.2+424449:RX J0524+42:TIC
 	AppMag 17.163                       # actually total system V-band AppMag, converted from G-band
 
 	OrbitBarycenter "2MASS J05243042+4244506"
-	EllipticalOrbit
+	EllipticalOrbit                     # period-only orbit
 	{
 		Epoch          2458836.9131
 		Period<min>        157.191      # ± 0.018; Table A.1
@@ -176,7 +176,7 @@ Barycenter "Paloma:2MASS J05243042+4244506:1RXS J052430.2+424449:RX J0524+42:TIC
 	Temperature 3470                    # placeholder
 
 	OrbitBarycenter "2MASS J05243042+4244506"
-	EllipticalOrbit
+	EllipticalOrbit                     # period-only orbit
 	{
 		Epoch          2458836.9131
 		Period<min>        157.191      # ± 0.018; Table A.1
