@@ -1,4 +1,6 @@
 # SPDX-FileCopyrightText: Perren et al. (2023), https://doi.org/10.1093/mnras/stad2826
+# SPDX-FileCopyrightText: 2020 SevenSpheres
+# SPDX-FileCopyrightText: 2023-2024, 2026 Elvis O. Mendes
 # SPDX-License-Identifier: CC-BY-4.0
 
 # Open clusters
