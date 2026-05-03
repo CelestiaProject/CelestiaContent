@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2008-2009 Fridger Schrempp
+# SPDX-FileCopyrightText: 2019 pirogronian
+# SPDX-FileCopyrightText: 2023-2024 Elvis O. Mendes
+# SPDX-FileCopyrightText: 2023 Andrew Tribick
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 # Globular clusters
 # Extracted by Elvis O. Mendes from "Fundamental parameters of Galactic
 # globular clusters" by Holger Baumgardt, Antonio Sollima, Michael Hilker,

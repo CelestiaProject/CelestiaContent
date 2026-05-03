@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2003, 2005 Chris Laurel
+# SPDX-FileCopyrightText: 2005-2008 Fridger Schrempp
+# SPDX-FileCopyrightText: 2021 SevenSpheres
+# SPDX-FileCopyrightText: 2025 Andrew Tribick
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 # Revised NGC and IC Catalog, Wolfgang Steinicke, January 6, 2006
 # http://www.ngcic.org/steinicke/default.htm
 #
