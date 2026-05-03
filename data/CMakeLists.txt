@@ -11,6 +11,7 @@ set(DATA_SOURCES
   asteroids.ssc
   asteroids_locs.ssc
   boundaries.dat
+  boundaries.dat.license
   comets.ssc
   dwarfplanets.ssc
   dwarfplanets_locs.ssc
