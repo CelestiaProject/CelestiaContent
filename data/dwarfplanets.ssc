@@ -537,7 +537,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/Namaka_(moon)"
 }
 
-# Dimensions, rotation and geometric albedo from Fernández-Valenzuela et al. (2025), Nature Communications 16, id. 10926
+# Fernández-Valenzuela et al. (2025), Nature Communications 16, id. 10926
 #   "Accurate geometric albedo, shape, and size of Hi’iaka from a stellar occultation"
 #   https://ui.adsabs.harvard.edu/abs/2025NatCo..1610926F/abstract
 "Hi'iaka:Haumea I:136108 Haumea I:S 2005 (2003 EL61) 1" "Sol/Haumea"
@@ -667,7 +667,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 
 # Color derived from HST photometry measured by domi9, ItzImcool and LunaTheSilly
 #   https://www.stsci.edu/hst-program-info/program/?program=11169
-# Dimensions and geometric albedo from Fernández-Valenzuela et al. (2026), ApJL 1002, L37
+# Fernández-Valenzuela et al. (2026), ApJL 1002, L37
 #   "Weywot, an Unusually Low-albedo Satellite in the Trans-Neptunian Region"
 #   https://iopscience.iop.org/article/10.3847/2041-8213/ae6076
 "Weywot:Quaoar I:50000 Quaoar I" "Sol/Quaoar"
