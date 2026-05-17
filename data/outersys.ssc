@@ -260,7 +260,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/20000_Varuna"
 }
 
-# Dimensions and orientation from Kilic et al. (2026), A&A 707, A70
+# Kilic et al. (2026), A&A 707, A70
 #   "Constraining the size, shape, and albedo of the large
 #   trans-Neptunian object (28978) Ixion with multi-chord 
 #   stellar occultations"
@@ -296,7 +296,6 @@
 	{
 		Period	12.4
 		Inclination	36  # assume equator-on orientation
-		# (position angles of the minor axis = 34.11° ± 15.70°, 35.25° ± 17.50°, and 31.35° ± 13.51°)
 		AscendingNode	38  # position angle = 110.97° +7.00° -6.54°
 	}
 	LunarLambert	1
