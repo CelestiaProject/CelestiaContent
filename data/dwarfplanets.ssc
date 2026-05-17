@@ -673,7 +673,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 "Weywot:Quaoar I:50000 Quaoar I" "Sol/Quaoar"
 {
 	Class	"moon"
-	Mesh	"asteroid.cms"
+	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.224 0.206 0.197 ]  # 2008-08-10 + 2008-08-15, c0f average
 	BlendTexture	true
