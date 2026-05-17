@@ -6,6 +6,7 @@
 # SPDX-FileCopyrightText: 2023-2025 AstroChara
 # SPDX-FileCopyrightText: 2025 DaveBowman2001
 # SPDX-FileCopyrightText: 2025 Pedro J. Garcia
+# SPDX-FileCopyrightText: 2026 LunaTheSilly
 # SPDX-License-Identifier: CC-BY-4.0
 
 # Distant, non-dwarf-planet objects beyond Jupiter's orbit, including satellites.
@@ -260,8 +261,12 @@
 	InfoURL	"https://en.wikipedia.org/wiki/20000_Varuna"
 }
 
-# Dimensions and orientation from https://www.asteroidoccultation.com/observations/Results/Reviewed/Data2020/20201013_28978_Ixion_Profile_fit.gif
-# Albedos from Helfenstein and Verbiscer (2025), Planet. Sci. J. 6, 144
+# Kilic et al. (2026), A&A 707, A70
+#   "Constraining the size, shape, and albedo of the large
+#   trans-Neptunian object (28978) Ixion with multi-chord 
+#   stellar occultations"
+#   https://ui.adsabs.harvard.edu/abs/2026A&A...707A..70K/abstract
+# Phase integral from Helfenstein and Verbiscer (2025), Planet. Sci. J. 6, 144
 #   "On Error Estimates for Hapke Photometric Model Parameters from
 #   Disk-integrated Phase Curves of Airless Planetary Bodies"
 #   https://ui.adsabs.harvard.edu/abs/2025PSJ.....6..144H/abstract
@@ -269,9 +274,9 @@
 {
 	Class	"asteroid"
 	Texture	"asteroid.*"
-	Color	[ 0.326 0.292 0.248 ]
+	Color	[ 0.305 0.270 0.230 ]
 	BlendTexture	true
-	SemiAxes	[ 378.45 378.45 342.45 ]  # projected
+	SemiAxes	[ 363.42 363.42 333.98 ]  # Fig. 2 (Global limb fit)
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "SSB" }
@@ -288,15 +293,15 @@
 		MeanAnomaly	257.4104890036214
 	}
 	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation
+	UniformRotation  # average of three occultations
 	{
 		Period	12.4
-		Inclination	65.1  # assume equator-on orientation on 2020-10-13
-		AscendingNode	72.2  # position angle = 331.0°
+		Inclination	36  # assume equator-on orientation
+		AscendingNode	38  # position angle = 110.97° +7.00° -6.54°
 	}
 	LunarLambert	1
-	# GeomAlbedo	0.101
-	Reflectivity	0.032  # Bond albedo
+	# GeomAlbedo	0.106
+	Reflectivity	0.033  # For qV = 0.315 +0.032 -0.014
 	InfoURL	"https://en.wikipedia.org/wiki/28978_Ixion"
 }
 
