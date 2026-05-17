@@ -292,11 +292,12 @@
 		MeanAnomaly	257.4104890036214
 	}
 	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation  # average of three occultations (Oct. 2020, Apr. 2021, Jun. 2022)
+	UniformRotation  # average of three occultations
 	{
 		Period	12.4
 		Inclination	36  # assume equator-on orientation
-		AscendingNode	38  # position angle = 110.97 +7.00 -6.54°
+		# (position angles of the minor axis = 34.11° ± 15.70°, 35.25° ± 17.50°, and 31.35° ± 13.51°)
+		AscendingNode	38  # position angle = 110.97° +7.00° -6.54°
 	}
 	LunarLambert	1
 	# GeomAlbedo	0.106
