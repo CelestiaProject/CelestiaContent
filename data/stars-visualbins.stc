@@ -5371,14 +5371,14 @@
      }
  }
 
- Barycenter 76952 "GAM CrB:8 CrB:ADS 9757 AB:CCDM J15427+2618A"
+ Barycenter 76952 "GAM CrB:8 CrB:ADS 9757 AB:CCDM J15427+2618A"  # WGSN contrived: asterism
  {
      RA       235.685992
      Dec       26.295514
      Distance 146.066726
  }
 
- 1016742036 "GAM CrB A:8 CrB A:ADS 9757 A:CCDM J15427+2618Aa"
+ 1016742036 "Baltesha:GAM CrB A:8 CrB A:ADS 9757 A:CCDM J15427+2618Aa"
  {
      OrbitBarycenter "GAM CrB"
      SpectralType    "B9V"
