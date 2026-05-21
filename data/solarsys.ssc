@@ -578,13 +578,6 @@ AltSurface "2018 (Hubble)" "Sol/Jupiter"
 	InfoURL	"https://en.wikipedia.org/wiki/Io_(moon)"
 }
 
-AltSurface "Limit of knowledge" "Sol/Jupiter/Io"
-{
-	Texture	"io.*"
-	OverlayTexture	"io-lok-mask.*"
-	LunarLambert	0.5
-}
-
 "Europa:Jupiter II" "Sol/Jupiter"
 {
 	Class	"moon"
