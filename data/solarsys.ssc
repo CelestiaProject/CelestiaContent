@@ -51,55 +51,69 @@
 # system body may be replaced by a SPICE kernel or a file of postion/velocity
 # samples. Detailed documentation on how to do this may be found on the
 # Celestia WikiBook:
-#    https://en.wikibooks.org/wiki/Celestia/Trajectories#CustomOrbit
+#   https://en.wikibooks.org/wiki/Celestia/Trajectories#CustomOrbit
 # It is also possible to use JPL's DE405 or DE406 ephemeris For the positions
 # of the planets, Moon, and Pluto. Details are here:
-#    https://en.wikibooks.org/wiki/Celestia/JPL_Ephemerides
+#   https://en.wikibooks.org/wiki/Celestia/JPL_Ephemerides
 # *******************
 #
 #
 # === Rotational Elements ===
 #
-# For most bodies, IAU rotational elements are used. These are implemented
-# internally by Celestia and selected by using a CustomRotation. The IAU
-# rotational elements are given here:
-#  https://www.iau.org/WG100/WG100/Home.aspx
-#  https://www.usgs.gov/centers/astrogeology-science-center/science/iau-wgccre
+# For most bodies, rotational elements recommended by the IAU WGCCRE are used.
+# These are implemented internally by Celestia and selected by using a
+# CustomRotation. The IAU rotational elements are taken from the 2015 report,
+# available at:
+#   https://www.iau.org/WG100/WG100/Home.aspx
+#   https://www.usgs.gov/centers/astrogeology-science-center/science/iau-wgccre
 #
 # UniformRotations are also listed for purely informational reasons; they are
-# overridden by CustomRotations (when present.)
-#
+# overridden by CustomRotations (when present).
 #
 # When alternate data sources are used for orbits or rotational elements, the
 # source is noted by a comment in the body definition.
 #
 #
+# === Sizes and Shapes ===
+#
+# Most bodies here are described as either spheres or ellipsoids. For these,
+# the Radius and SemiAxes parameters are used, respectively. If not otherwise
+# indicated by a source, these have been taken from the 2015 IAU WGCCRE report.
+#
+#
 # === Temperature, Albedo and Colors ===
+#
 # Bond albedo values were taken from the English Wikipedia, for Mars:
-# http://www.tak2000.com/data/planets/mars.htm
+#   http://www.tak2000.com/data/planets/mars.htm
 # Geometric albedo and colors of planets was calculated from the spectra
 # from this paper:
-# https://arxiv.org/abs/1609.05048
+#   https://arxiv.org/abs/1609.05048
 #
 #
 # === Masses ===
-# Masses for objects in this file are taken from the NASA planetary
-# factsheets at https://nssdc.gsfc.nasa.gov/planetary/planetfact.html
-# unless specified.
+#
+# Masses for objects in this file are taken from the JPL physical parameters
+# pages unless specified:
+#   https://ssd.jpl.nasa.gov/planets/phys_par.html
+#   https://ssd.jpl.nasa.gov/sats/phys_par/
+#
+# If the standard gravitational parameter GM is given instead, it is converted
+# to mass using the 2022 CODATA value of the gravitational constant G:
+# 6.67430(15) x 10^(-11) m^3 kg^(-1) s^(-2)
 
 
-# Mass from Mazarico et al. (2014), JGR 119 12, 2417-2436
-#   "The gravity field, orientation, and ephemeris of Mercury
-#   from MESSENGER observations after three years in orbit"
-#   https://ui.adsabs.harvard.edu/abs/2014JGRE..119.2417M/abstract
+# Mass from Konopliv et al. (2020), Icarus 335, 113386
+#   "The Mercury gravity field, orientation, love number, and ephemeris from the
+#   MESSENGER radiometric tracking data"
+#   https://ui.adsabs.harvard.edu/abs/2020Icar..33513386K/abstract
 "Mercury" "Sol"
 {
 	Class	"planet"
 	Texture	"mercury.*"
 	NormalMap	"mercury-normal.*"
 	Color	[ 1.0 0.95415 0.86031 ]
-	Radius	2439.7
-	Mass<kg>	3.3010009737e23
+	Radius	2439.4
+	Mass<kg>	3.30100e23  # GM = (22031.8685514 ± 0.0012) km^3/s^2
 	CustomOrbit	"vsop87-mercury"
 
 	# Overridden by CustomOrbit
@@ -121,10 +135,10 @@
 	# Overridden by CustomRotation
 	# UniformRotation
 	# {
-	#	Period	1407.509405
-	#	Inclination	28.55
-	#	AscendingNode	11.01
-	#	MeridianAngle	329.548
+	#	Period	1407.5075
+	#	Inclination	28.5845
+	#	AscendingNode	11.0103
+	#	MeridianAngle	329.5988
 	# }
 
 	LunarLambert	0.5
@@ -133,9 +147,6 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Mercury_(planet)"
 }
 
-# Mass from Konopliv et al. (1999), Icarus 139 (1), 3-18
-#   "Venus Gravity: 180th Degree and Order Model"
-#   https://ui.adsabs.harvard.edu/abs/1999Icar..139....3K/abstract
 "Venus" "Sol"
 {
 	Class	"planet"
@@ -143,7 +154,7 @@
 	NormalMap	"venus-normal.*"
 	Color	[ 0.98965 1.0 0.98452 ]
 	Radius	6051.8
-	Mass<kg>	4.86730581e24
+	Mass<kg>	4.86731e24
 	Atmosphere
 	{
 		Height	200
@@ -171,18 +182,17 @@
 	#	MeanAnomaly	50.11477187351476
 	# }
 
+	# Margot et al. (2021), Nature Astronomy 5, 676-683
+	#   "Spin state and moment of inertia of Venus"
+	#   https://ui.adsabs.harvard.edu/abs/2021NatAs...5..676M/abstract
 	BodyFrame	{ EquatorJ2000 {} }
-	CustomRotation	"iau-venus"
-
-	# Overridden by CustomRotation
-	# UniformRotation
-	# {
-	#	Period	5832.443616
-	#	Inclination	157.16
-	#	AscendingNode	182.76
-	#	MeridianAngle	19.80
-	# }
-
+	UniformRotation
+	{
+		Period	5832.5424
+		Inclination	157.1510
+		AscendingNode	182.7391
+		MeridianAngle	19.72
+	}
 	LunarLambert	0.5
 	GeomAlbedo	0.672604
 	BondAlbedo	0.760
@@ -203,7 +213,7 @@
 	SpecularColor	[ 0.50 0.44 0.40 ]
 	SpecularPower	120
 	SemiAxes	[ 6378.1366 6378.1366 6356.7519 ]
-	Mass	1
+	Mass<kg>	5.97217e24
 	Atmosphere
 	{
 		Height	100
@@ -254,13 +264,10 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Earth"
 }
 
-# SemiAxes from Smith et al. (2017), Icarus 283, p. 70-91
+# Size and shape from Smith et al. (2017), Icarus 283, p. 70-91
 #   "Summary of the results from the lunar orbiter laser altimeter after seven years in lunar orbit"
 #   https://ntrs.nasa.gov/citations/20160008718
 #   https://ui.adsabs.harvard.edu/abs/2017Icar..283...70S/abstract
-# Mass from Park et al. (2021), AJ 161 (3), id.105
-#   "The JPL Planetary and Lunar Ephemerides DE440 and DE441"
-#   https://ui.adsabs.harvard.edu/abs/2021AJ....161..105P/abstract
 # Internal heat flux from Zhang et al. (2014), Acta Astronautica 99, 85-91
 #   "Lunar surface heat flow mapping from radioactive elements measured by Lunar Prospector"
 #   https://www.sciencedirect.com/science/article/pii/S0094576514000332?via%3Dihub
@@ -272,7 +279,7 @@
 	NormalMap	"moon-normal.*"
 	Color	[ 1.0 0.94582 0.865 ]
 	SemiAxes	[ 1737.8981 1737.8981 1735.6576 ]
-	Mass<kg>	7.345789248e22
+	Mass<kg>	7.34579e22
 	CustomOrbit	"moon"
 
 	# Overridden by CustomOrbit
@@ -314,9 +321,12 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Moon"
 }
 
-# Mass from Klokočník et al. (2023), Icarus 406, 115729
-#   "Gravity aspects for Mars"
-#   https://ui.adsabs.harvard.edu/abs/2023Icar..40615729K/abstract
+
+# Martian system
+# Sizes and volumes of Phobos and Deimos from Ernst et al. (2023), Earth Planets Space 75, 103
+#   "High-resolution shape models of Phobos and Deimos from stereophotoclinometry"
+#   https://ui.adsabs.harvard.edu/abs/2023EP%26S...75..103E/abstract
+
 # Bond albedo from Creecy et al. (2022), PNAS 119 (21), id.e2121084119
 #   "Mars’ emitted energy and seasonal energy imbalance"
 #   https://www.pnas.org/doi/10.1073/pnas.2121084119
@@ -331,7 +341,7 @@
 	NormalMap	"mars-normal.*"
 	Color	[ 1.0 0.79855 0.56429 ]
 	SemiAxes	[ 3396.19 3396.19 3376.20 ]
-	Mass<kg>	6.416908e23
+	Mass<kg>	6.41691e23
 	Atmosphere
 	{
 		Height	80
@@ -363,10 +373,10 @@
 	# Overridden by CustomRotation
 	# UniformRotation
 	# {
-	#	Period	24.622962156
-	#	Inclination	37.11350
-	#	AscendingNode	47.68143
-	#	MeridianAngle	176.630
+	#	Period	24.6229621430470
+	#	Inclination	35.567484
+	#	AscendingNode	47.269202
+	#	MeridianAngle	176.049863
 	# }
 
 	LunarLambert	0.5
@@ -376,10 +386,10 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Mars"
 }
 
-# Masses and densities of Phobos and Deimos from Ernst et al. (2023), Earth Planets Space 75, 103
-#   "High-resolution shape models of Phobos and Deimos from stereophotoclinometry"
-#   https://ui.adsabs.harvard.edu/abs/2023EP%26S...75..103E/abstract
-# Albedos of Phobos from Fornasier et al. (2024), A&A 686, A203
+# Mass from Guo et al. (2026), MNRAS 548, stag578
+#   "Phobos' degree-1 ellipsoidal harmonic gravity field recovery from two Mars Express flybys"
+#   https://ui.adsabs.harvard.edu/abs/2026MNRAS.548ag578G/abstract
+# Albedos from Fornasier et al. (2024), A&A 686, A203
 #   "Phobos photometric properties from Mars Express HRSC observations"
 #   https://ui.adsabs.harvard.edu/abs/2024A%26A...686A.203F/abstract
 "Phobos:Mars I" "Sol/Mars"
@@ -390,9 +400,9 @@
 	Texture	"phobos.*"
 	Color	[ 1.0 0.987 0.942 ]
 	BlendTexture	true
-	Radius	13.048  # maximum semi-axis; from model extent
-	Mass<kg>	1.060e16
-	Density	1861
+	Radius	12.95  # maximum semi-axis
+	Mass<kg>	1.06373e16  # GM = (7.09962 ± 0.00197) x 10^5 m^3/s^2 (3-sigma)
+	Density	1868  # calculated from volume
 	EllipticalOrbit
 	{
 		Epoch	2460000  # 2023 Feb 24 12:00
@@ -410,9 +420,9 @@
 	# Overridden by CustomRotation
 	# UniformRotation
 	# {
-	#	Inclination	37.10
-	#	AscendingNode	47.68
-	#	MeridianAngle	35.06
+	#	Inclination	37.11372734
+	#	AscendingNode	47.67071657
+	#	MeridianAngle	34.9964842535
 	# }
 
 	LunarLambert	1  # Lommel-Seeliger
@@ -432,9 +442,9 @@
 	Texture	"deimos.*"
 	Color	[ 1.0 0.975 0.932 ]
 	BlendTexture	true
-	Radius	7.9851  # maximum semi-axis; from model extent
-	Mass<kg>	1.51e15
-	Density	1465
+	Radius	8.04  # maximum semi-axis
+	Mass<kg>	1.441e15  # GM = (9.62 ± 0.28) x 10^5 km^3/s^2
+	Density	1395  # calculated from volume
 	EllipticalOrbit
 	{
 		Epoch	2460000  # 2023 Feb 24 12:00
@@ -452,9 +462,9 @@
 	# Overridden by CustomRotation
 	# UniformRotation
 	# {
-	#	Inclination	36.48
-	#	AscendingNode	47.65
-	#	MeridianAngle	79.41
+	#	Inclination	36.49007967
+	#	AscendingNode	46.65705808
+	#	MeridianAngle	79.39932954
 	# }
 
 	LunarLambert	1  # Lommel-Seeliger
@@ -463,23 +473,23 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Deimos_(moon)"
 }
 
-# Masses of Jupiter and major moons from Jacobson (2021) (personal comm.)
-# Jupiter's standard gravitational parameter available at https://ssd.jpl.nasa.gov/tools/gravity.html#/outerplanets
-# Moons' standard gravitational parameters available at https://ssd.jpl.nasa.gov/sats/phys_par/
+
+# Jovian system
+
+# Size and shape from Galanti et al. (2026), Nature Astronomy 10, 493-501
+#   "The size and shape of Jupiter"
+#   https://www.nature.com/articles/s41550-026-02777-x
 # Bond albedo and internal heat flux from Li et al. (2018), Nature Communications 9, id. 3709
 #   "Less absorbed solar energy and more internal heat for Jupiter"
 #   https://www.nature.com/articles/s41467-018-06107-2
 #   https://ui.adsabs.harvard.edu/abs/2018NatCo...9.3709L/abstract
-# Size and shape from Galanti et al. (2026), Nature Astronomy (2026)
-#   "The size and shape of Jupiter"
-#   https://www.nature.com/articles/s41550-026-02777-x
 "Jupiter" "Sol"
 {
 	Class	"planet"
 	Texture	"jupiter.*"  # from 2000 by Cassini-Huygens
 	Color	[ 1.0 0.98663 0.91433 ]
 	SemiAxes	[ 71488 71488 66842 ]
-	Mass<kg>	1.898124626e27
+	Mass<kg>	1.898125e27
 	Atmosphere  # upper clouds at 0.6 bar
 	{
 		Height	1000
@@ -504,13 +514,14 @@
 	#	MeanAnomaly	18.81562670870565
 	# }
 
+	# Pole orientation from https://ssd.jpl.nasa.gov/tools/gravity.html#/outerplanets
 	BodyFrame	{ EclipticJ2000 {} }
 	UniformRotation
 	{
-		Period	9.92491250
-		Inclination	2.22
-		AscendingNode	337.80
-		MeridianAngle	305.38
+		Period	9.92492             # System III (radio emissions)
+		Inclination	2.216451        # J2000
+		AscendingNode	337.818458  # J2000
+		MeridianAngle	305.38      # correct System III prime meridian
 	}
 	GeomAlbedo	0.510901
 	BondAlbedo	0.503
@@ -529,6 +540,9 @@ AltSurface "2018 (Hubble)" "Sol/Jupiter"
 	Texture	"jupiter-2018.*"
 }
 
+# Size and shape from Oberst & Schuster (2004), JGR 109, E04003
+#   "Vertical control point network and global shape of Io"
+#   https://ui.adsabs.harvard.edu/abs/2004JGRE..109.4003O/abstract
 # Internal heat flux from Davies et al. (2015), Icarus 262, 67-78
 #   "Map of Io’s volcanic heat flow"
 #   https://ui.adsabs.harvard.edu/abs/2015Icar..262...67D/abstract
@@ -539,8 +553,8 @@ AltSurface "2018 (Hubble)" "Sol/Jupiter"
 	Color	[ 1.0 0.94191 0.70074 ]
 	SpecularColor [ 1 1 1 ]
 	SpecularPower 30
-	SemiAxes	[ 1829.4 1819.4 1815.7 ]
-	Mass<kg>	8.92964876e22
+	SemiAxes	[ 1831.1 1820.4 1816.6 ]
+	Mass<kg>	8.92965e22  # GM = (5959.91547 ± 0.00135) km^3/s^2
 	CustomOrbit	"io"
 
 	# Overridden by CustomOrbit
@@ -584,7 +598,7 @@ AltSurface "2018 (Hubble)" "Sol/Jupiter"
 	Texture	"europa.*"
 	Color	[ 1.0 0.95939 0.85366 ]
 	SemiAxes	[ 1562.6 1560.3 1559.5 ]
-	Mass<kg>	4.79857378e22
+	Mass<kg>	4.79857e22  # GM = (3202.71210 ± 0.00181) km^3/s^2
 	CustomOrbit	"europa"
 
 	# Overridden by CustomOrbit
@@ -628,13 +642,16 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Europa"
 	LunarLambert	0.5
 }
 
+# Size and shape from Nadezhdina et al. (2024), Planetary and Space Science 252, 105981
+#   "JunoPerijove 34: Update Ganymede 3D-control network and new DEMs study"
+#   https://ui.adsabs.harvard.edu/abs/2024P%26SS..25205981N/abstract
 "Ganymede:Jupiter III" "Sol/Jupiter"
 {
 	Class	"moon"
 	Texture	"ganymede.*"
 	Color	[ 1.0 0.96761 0.89281 ]
-	SemiAxes	[ 2634.5 2633 2631.5 ]
-	Mass<kg>	1.48147862e23
+	SemiAxes	[ 2635.74 2632.38 2629.28 ]
+	Mass<kg>	1.48148e23  # GM = (9887.83275 ± 0.00247) km^3/s^2
 	CustomOrbit	"ganymede"
 
 	# Overridden by CustomOrbit
@@ -683,8 +700,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Ganymede"
 	Class	"moon"
 	Texture	"callisto.*"
 	Color	[ 1.0 0.9573 0.86499 ]
-	SemiAxes	[ 2409.5 2409.5 2409 ]
-	Mass<kg>	1.07566088e23
+	Radius	2410.3
+	Mass<kg>	1.07566e23  # GM = (7179.28340 ± 0.00324) km^3/s^2
 	CustomOrbit	"callisto"
 
 	# Overridden by CustomOrbit
@@ -728,10 +745,13 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	LunarLambert	0.5
 }
 
-# Masses and densities from Jacobson (2022), AJ 164, 199
+
+# Saturnian system
+# Masses, densities of Mimas and Phoebe and Saturn's pole orientation from Jacobson (2022), AJ 164, 199
 #   "The Orbits of the Main Saturnian Satellites,
 #   the Saturnian System Gravity Field, and the Orientation of Saturn's Pole"
 #   https://ui.adsabs.harvard.edu/abs/2022AJ....164..199J/abstract
+
 # Bond albedo and internal heat flux from Wang et al. (2024), NatCo 15 (1), id.5045
 #   "Cassini spacecraft reveals global energy imbalance of Saturn"
 #   https://ui.adsabs.harvard.edu/abs/2024NatCo..15.5045W/abstract
@@ -741,7 +761,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Texture	"saturn.*"
 	Color	[ 1.0 0.9476 0.81514 ]
 	SemiAxes	[ 60268 60268 54364 ]
-	Mass<kg>	5.683173701e26
+	Mass<kg>	5.68317e26  # GM = (37931206.234 ± 0.726) km^3/s^2
 	Atmosphere  # upper clouds at 0.4 bar
 	{
 		Height	1000
@@ -765,13 +785,16 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	#	MeanAnomaly	320.4255571246729
 	# }
 
+	# Rotation period from Mankovich et al. (2023), Planet. Sci. Journal 4, 59
+	#   "Saturn's Seismic Rotation Revisited"
+	#   https://ui.adsabs.harvard.edu/abs/2023PSJ.....4...59M/abstract
 	BodyFrame	{ EclipticJ2000 {} }
 	UniformRotation
 	{
-		Period	10.560555555556
-		Inclination	28.049
-		AscendingNode	169.530
-		MeridianAngle	358.922
+		Period<min>	634.7
+		Inclination	28.054629
+		AscendingNode	169.524973
+		MeridianAngle	358.93  # correct System III prime meridian
 	}
 	GeomAlbedo	0.499740
 	BondAlbedo	0.41
@@ -785,13 +808,16 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	InfoURL	"https://en.wikipedia.org/wiki/Saturn"
 }
 
+# Size from Tajeddine et al. (2014), Science 346, 322-324
+#   "Constraints on Mimas’ interior from Cassini ISS libration measurements"
+#   https://ui.adsabs.harvard.edu/abs/2014Sci...346..322T/abstract
 "Mimas:Saturn I" "Sol/Saturn"
 {
 	Class	"moon"
 	Mesh	"mimas.cmod"
 	Texture	"mimas.*"
 	Color	[ 0.983 1.0 0.983 ]
-	Radius	207.8
+	Radius	206.60  # maximum semi-axis
 	Mass<kg>	3.75094e19
 	Density	1150.1
 	CustomOrbit	"mimas"
@@ -821,7 +847,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	# {
 	#	Inclination	6.48
 	#	AscendingNode	130.66
-	#	MeridianAngle	337.46
+	#	MeridianAngle	333.46
 	# }
 
 	LunarLambert	0.5
@@ -830,16 +856,17 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	InfoURL	"https://en.wikipedia.org/wiki/Mimas_(moon)"
 }
 
+# Size and shape from Thomas et al. (2016), Icarus 264, 37-47
+#   "Enceladus's measured physical libration requires a global subsurface ocean"
+#   https://ui.adsabs.harvard.edu/abs/2016Icar..264...37T/abstract
 "Enceladus:Saturn II" "Sol/Saturn"
 {
 	Class	"moon"
 	Texture	"enceladus.*"
 	# NormalMap	"enceladus-normal.*"
 	Color	[ 0.984 1.0 0.984 ]
-	Radius	252.1
-	SemiAxes	[ 1.018 0.9972 0.9849 ]
+	SemiAxes	[ 256.2 251.4 248.6 ]
 	Mass<kg>	1.080318e20
-	Density	1609.7
 	CustomOrbit	"enceladus"
 
 	# Overridden by CustomOrbit
@@ -867,7 +894,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	# {
 	#	Inclination	6.48
 	#	AscendingNode	130.66
-	#	MeridianAngle	2.82
+	#	MeridianAngle	6.32
 	# }
 
 	LunarLambert	0.5
@@ -882,9 +909,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Texture	"tethys.*"
 	NormalMap	"tethys-normal.*"
 	Color	[ 0.980 1.0 0.966 ]
-	SemiAxes	[ 538.4 528.7 526.3 ]
+	SemiAxes	[ 538.4 528.3 526.3 ]
 	Mass<kg>	6.174959e20
-	Density	984.0
 	CustomOrbit	"tethys"
 
 	# Overridden by CustomOrbit
@@ -912,7 +938,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	# {
 	#	Inclination	6.48
 	#	AscendingNode	130.66
-	#	MeridianAngle	10.45
+	#	MeridianAngle	8.95
 	# }
 
 	LunarLambert	0.5
@@ -927,9 +953,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Texture	"dione.*"
 	NormalMap	"dione-normal.*"
 	Color	[ 0.990 1.0 0.989 ]
-	SemiAxes	[ 564.4 561.3 559.6 ]
+	SemiAxes	[ 563.4 561.3 559.6 ]
 	Mass<kg>	1.0954868e21
-	Density	1478.1
 	CustomOrbit	"dione"
 
 	# Overridden by CustomOrbit
@@ -957,7 +982,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	# {
 	#	Inclination	6.48
 	#	AscendingNode	130.66
-	#	MeridianAngle	357.00
+	#	MeridianAngle	357.6
 	# }
 
 	LunarLambert	0.5
@@ -966,15 +991,18 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	InfoURL	"https://en.wikipedia.org/wiki/Dione_(moon)"
 }
 
+# Size and shape from Tortora et al. (2016), Icarus 264, 264-273
+#   "Rhea gravity field and interior modeling from Cassini data analysis"
+#   https://cris.unibo.it/handle/11585/581818
+#   https://ui.adsabs.harvard.edu/abs/2016Icar..264..264T/abstract
 "Rhea:Saturn V" "Sol/Saturn"
 {
 	Class	"moon"
 	Texture	"rhea.*"
 	# NormalMap	"rhea-normal.*"
 	Color	[ 1.0 0.98264 0.94056 ]
-	SemiAxes	[ 766.2 762.8 762.2 ]
+	SemiAxes	[ 765.68 763.60 762.86 ]
 	Mass<kg>	2.3064854e21
-	Density	1237.2
 	CustomOrbit	"rhea"
 
 	# Overridden by CustomOrbit
@@ -1011,9 +1039,9 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	InfoURL	"https://en.wikipedia.org/wiki/Rhea_(moon)"
 }
 
-# CloudSpeed derived from Read and Lebonnois (2018), AREPS 46, 175
-#   "Superrotation on Venus, on Titan, and Elsewhere"
-#   https://ui.adsabs.harvard.edu/abs/2018AREPS..46..175R/abstract
+# Size and shape from Corlies et al. (2017), Geophysical Research Letters 44, 11754-11761
+#   "Titan's Topography and Shape at the End of the Cassini Mission"
+#   https://ui.adsabs.harvard.edu/abs/2017GeoRL..4411754C/abstract
 "Titan:Saturn VI" "Sol/Saturn"
 {
 	Class	"moon"
@@ -1021,14 +1049,17 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 1.0 0.90773 0.72897 ]
 	SpecularColor	[ 0.50 0.44 0.40 ]
 	SpecularPower	1000
-	SemiAxes	[ 2575.15 2574.78 2574.47 ]
+	SemiAxes	[ 2575.164 2574.720 2574.314 ]
 	Mass<kg>	1.345180354e23
-	Density	1881.4
 
 	# Scale height is greater than in reality
 	# though the value might apply to ground level and not cloud tops
 	# reproduces Cassini views at low phase angles
 	# the visible scale height at high phase angles seems larger
+
+	# CloudSpeed derived from Read & Lebonnois (2018), AREPS 46, 175
+	#   "Superrotation on Venus, on Titan, and Elsewhere"
+	#   https://ui.adsabs.harvard.edu/abs/2018AREPS..46..175R/abstract
 	Atmosphere
 	{
 		Height	1000
@@ -1058,17 +1089,16 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	#	MeanAnomaly	163.436236
 	# }
 
+	# Meriggiola et al. (2016), Icarus 275, 183-192
+	#   "The rotational dynamics of Titan from Cassini RADAR images"
+	#   https://ui.adsabs.harvard.edu/abs/2016Icar..275..183M/abstract
 	BodyFrame	{ EquatorJ2000 {} }
-	CustomRotation	"iau-titan"
-
-	# Overridden by CustomRotation
-	# UniformRotation
-	# {
-	#	Inclination	6.06
-	#	AscendingNode	126.41
-	#	MeridianAngle	189.64
-	# }
-
+	UniformRotation  # pole location + spin rate case
+	{
+		Inclination	6.549
+		AscendingNode	129.45
+		MeridianAngle	189.64
+	}
 	LunarLambert 0.5
 	GeomAlbedo	0.21
 	BondAlbedo	0.265
@@ -1076,7 +1106,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	InfoURL	"https://en.wikipedia.org/wiki/Titan_(moon)"
 }
 
-# Size and density from Zubarev and Nadezhdina (2025), Icarus 429, 116440
+# Size and density from Zubarev & Nadezhdina (2025), Icarus 429, 116440
 #   "Hyperion (S VII): Shape, mosaic and control point network"
 #   https://ui.adsabs.harvard.edu/abs/2025Icar..42916440Z/abstract
 "Hyperion:Saturn VII" "Sol/Saturn"
@@ -1138,9 +1168,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Texture	"iapetus.*"
 	# NormalMap	"iapetus-normal.*"
 	Color	[ 0.993 1.0 0.976 ]
-	SemiAxes	[ 746 746 712 ]
+	SemiAxes	[ 745.7 745.7 712.1 ]
 	Mass<kg>	1.8056591e21
-	Density	1088.7
 	CustomOrbit	"iapetus"
 
 	# Overridden by CustomOrbit
@@ -1168,7 +1197,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	# {
 	#	Inclination	14.97
 	#	AscendingNode	48.16
-	#	MeridianAngle	350.20
+	#	MeridianAngle	355.2
 	# }
 
 	LunarLambert	0.5
@@ -1182,7 +1211,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Class	"minormoon"
 	Mesh	"phoebe.cmod"
 	Texture	"phoebe.*"
-	Radius	109.4
+	Radius	109.4  # maximum semi-axis
 	Mass<kg>	8.3123e18
 	Density	1642.8
 	OrbitFrame
@@ -1201,17 +1230,17 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		MeanAnomaly	31.167678
 	}
 
-	# Not used; IAU elements appear to be based on pre-Cassini
-	# information.
-	# CustomRotation "iau-phoebe"
-
+	# Period and meridian angle from Gomes-Júnior et al. (2020), MNRAS 492, 770-781
+	#   "The first observed stellar occultations by the irregular satellite
+	#   Phoebe (Saturn IX) and improved rotational period"
+	#   https://ui.adsabs.harvard.edu/abs/2020MNRAS.492..770G/abstract
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		Period	9.2735  # Bauer et al, Astrophysical Journal 2004; 610(2): L57-L60
-		Inclination	12.1  # Porco et al, Science 2005; 307: 1237-42
-		AscendingNode	86.6  # Porco et al, Science 2005; 307: 1237-42
-		MeridianAngle	100
+		Period	9.273653
+		Inclination	12.20
+		AscendingNode	86.90
+		MeridianAngle	125.56
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.081
@@ -1219,26 +1248,26 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	InfoURL	"https://en.wikipedia.org/wiki/Phoebe_(moon)"
 }
 
-# Masses from Jacobson (2023)
-#   "Update of the Orbits of the Regular Uranian Satellites and the Gravitational Field of the Uranian System"
-#   https://ui.adsabs.harvard.edu/abs/2023DPS....5522102J/abstract
-# via French et al. (2024), Icarus 411, id. 115957
-#   "The Uranus system from occultation observations (1977-2006): Rings, pole direction, gravity field, and masses of Cressida, Cordelia, and Ophelia"
-#   https://www.sciencedirect.com/science/article/pii/S0019103524000150?via%3Dihub
-#   https://ui.adsabs.harvard.edu/abs/2024Icar..41115957F/abstract
+
+# Uranian system
+# Masses and Uranus' pole orientation from Jacobson & Park (2025), AJ 169, 65
+#   "The Orbits of Uranus, Its Satellites and Rings, the Gravity Field of the
+#   Uranian System, and the Orientation of the Poles of Uranus and Its Satellites"
+#   https://ui.adsabs.harvard.edu/abs/2025AJ....169...65J/abstract
+
+# Size and shape from Mankovich et al. (2026), Planet. Sci. J. 7, 102
+#   "Can Radio Occultations Constrain Uranus or Neptune's Internal Rotation Periods?"
+#   https://ui.adsabs.harvard.edu/abs/2026PSJ.....7..102M/abstract
 # Bond albedo and internal heat flux from Irwin et al. (2025), arXiv:2502.18971
 #   "The bolometric Bond albedo and energy balance of Uranus"
 #   https://arxiv.org/abs/2502.18971
-# Size and shape from Mankovich et al. (2026), arXiv:2604.19863
-#   "Can radio occultations constrain Uranus or Neptune's internal rotation periods?"
-#   https://arxiv.org/abs/2604.19863
 "Uranus" "Sol"
 {
 	Class	"planet"
 	Texture	"uranus.*"
 	Color	[ 0.86828 0.97 1.0 ]
 	SemiAxes	[ 25556.6 25556.6 24968.7 ]
-	Mass<kg>	8.680985721e25
+	Mass<kg>	8.68099e25  # GM = (5793950.61 ± 2.16) km^3/s^2
 	Atmosphere
 	{
 		Height	500
@@ -1262,13 +1291,17 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	#	MeanAnomaly	142.8890153357523
 	# }
 
+	# Rotation period from Lamy et al. (2025), Nature Astronomy 9, 658-665
+	#   "A new rotation period and longitude system for Uranus"
+	#   https://www.researchsquare.com/article/rs-3876131/v1
+	#   https://ui.adsabs.harvard.edu/abs/2025NatAs...9..658L/abstract
 	BodyFrame	{ EclipticJ2000 {} }
 	UniformRotation
 	{
-		Period	17.24
-		Inclination	97.722
-		AscendingNode	167.647
-		MeridianAngle	331.13
+		Period	17.247864           # System III (magnetic field)
+		Inclination	97.724832       # J2000
+		AscendingNode	167.646661  # J2000
+		MeridianAngle	331.13      # correct System III prime meridian
 	}
 	GeomAlbedo	0.437118
 	BondAlbedo	0.349
@@ -1282,18 +1315,14 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	InfoURL	"https://en.wikipedia.org/wiki/Uranus"
 }
 
-# Masses of major moons from Jacobson (2014), AJ 148, 76
-#   "The Orbits of the Uranian Satellites and Rings, the Gravity Field
-#   of the Uranian System, and the Orientation of the Pole of Uranus"
-#   https://ui.adsabs.harvard.edu/abs/2014AJ....148...76J/abstract
 "Miranda:Uranus V" "Sol/Uranus"
 {
 	Class	"moon"
 	Texture	"miranda-lok.*"
 	# NormalMap	"miranda-normal.*"
 	Color	[ 0.98357 0.98913 1.0 ]
-	SemiAxes	[ 240 234.2 232.9 ]
-	Mass<kg>	6.293e19
+	SemiAxes	[ 240.4 234.2 232.9 ]
+	Mass<kg>	6.16e19  # GM = (4.11 ± 0.11) km^3/s^2
 	CustomOrbit	"miranda"
 
 	# Overridden by CustomOrbit
@@ -1343,7 +1372,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Miranda"
 	# NormalMap	"ariel-normal.*"
 	Color	[ 1.0 1.0 0.999 ]
 	SemiAxes	[ 581.1 577.9 577.7 ]
-	Mass<kg>	1.2331e21
+	Mass<kg>	1.2500e21  # GM = (83.43 ± 0.56) km^3/s^2
 	CustomOrbit	"ariel"
 
 	# Overridden by CustomOrbit
@@ -1387,14 +1416,18 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Ariel"
 	LunarLambert	0.5
 }
 
+# Size and geometric albedo from Assafin et al. (2023), MNRAS 526, 6193-6204
+#   "Kilometer-precise (UII) Umbriel physical properties from the multichord
+#   stellar occultation on 2020 September 21"
+#   https://ui.adsabs.harvard.edu/abs/2023MNRAS.526.6193A/abstract
 "Umbriel:Uranus II" "Sol/Uranus"
 {
 	Class	"moon"
 	Texture	"umbriel.*"
 	# NormalMap	"umbriel-normal.*"
 	Color	[ 1.0 0.99769 0.99749 ]
-	Radius	584.7
-	Mass<kg>	1.2885e21
+	Radius	582.4
+	Mass<kg>	1.2795e21  # GM = (85.40 ± 0.68) km^3/s^2
 	CustomOrbit	"umbriel"
 
 	# Overridden by CustomOrbit
@@ -1438,6 +1471,11 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Umbriel"
 	LunarLambert	0.5
 }
 
+# Size from Widemann et al. (2009), Icarus 199, 458-476
+#   "Titania's radius and an upper limit on its atmosphere from the
+#   September 8, 2001 stellar occultation"
+#   https://www.researchgate.net/publication/232260483
+#   https://ui.adsabs.harvard.edu/abs/2009Icar..199..458W/abstract
 "Titania:Uranus III" "Sol/Uranus"
 {
 	Class	"moon"
@@ -1445,7 +1483,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Umbriel"
 	# NormalMap	"titania-normal.*"
 	Color	[ 1.0 0.98945 0.97393 ]
 	Radius	788.4
-	Mass<kg>	3.4550e21
+	Mass<kg>	3.3382e21  # GM = (222.80 ± 1.45) km^3/s^2
 	CustomOrbit	"titania"
 
 	# Overridden by CustomOrbit
@@ -1496,7 +1534,7 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Titania"
 	# NormalMap	"oberon-normal.*"
 	Color	[ 1.0 0.98881 0.97178 ]
 	Radius	761.4
-	Mass<kg>	3.1104e21
+	Mass<kg>	3.2095e21  # GM = (214.21 ± 2.14) km^3/s^2
 	CustomOrbit	"oberon"
 
 	# Overridden by CustomOrbit
@@ -1540,16 +1578,19 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	LunarLambert	0.5
 }
 
-# Masses from Brozović and Jacobson (2022), AJ 163, 241
-#   "Orbits of the Irregular Satellites of Uranus and Neptune"
-#   https://ui.adsabs.harvard.edu/abs/2022AJ....163..241B/abstract
+
+# Neptunian system
+
+# Size and shape from Mankovich et al. (2026), Planet. Sci. J. 7, 102
+#   "Can Radio Occultations Constrain Uranus or Neptune's Internal Rotation Periods?"
+#   https://ui.adsabs.harvard.edu/abs/2026PSJ.....7..102M/abstract
 "Neptune" "Sol"
 {
 	Class	"planet"
 	Texture	"neptune.*"
 	Color	[ 0.78302 0.91535 1.0 ]
 	SemiAxes	[ 24760.6 24760.6 24285.3 ]
-	Mass<kg>	1.024092879e26
+	Mass<kg>	1.024092e26
 	Atmosphere
 	{
 		Height	500
@@ -1574,14 +1615,18 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	#	MeanAnomaly	266.1055972475706
 	# }
 
-	BodyFrame	{ EclipticJ2000 {} }
-	UniformRotation
-	{
-		Period	16.11
-		Inclination	28.03
-		AscendingNode	49.24
-		MeridianAngle	228.66
-	}
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-neptune"
+
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Period	15.96630  # System II (optical features)
+	#	Inclination	46.54
+	#	AscendingNode	29.36
+	#	MeridianAngle	249.978  # correct System II prime meridian
+	# }
+
 	GeomAlbedo	0.409338
 	BondAlbedo	0.290
 	InternalHeatFlux	0.433
@@ -1594,13 +1639,15 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	InfoURL	"https://en.wikipedia.org/wiki/Neptune"
 }
 
+# Size from Stooke (1994), Earth, Moon, and Planets 65, 31-54
+#   "The Surfaces of Larissa and Proteus"
+#   https://ui.adsabs.harvard.edu/abs/1994EM%26P...65...31S/abstract
 "Proteus:Neptune VIII:S 1989 N 1" "Sol/Neptune"
 {
 	Class	"moon"
 	Mesh	"proteus.cmod"
 	Texture	"proteus.*"
-	Radius	212
-	Mass<kg>	5e19
+	Radius	212  # maximum semi-axis
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Neptune" }
@@ -1619,23 +1666,25 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		Period	26.93555448
-		Inclination	47.09
-		AscendingNode	29.27
-		MeridianAngle	93.38
+		Inclination	47.57
+		AscendingNode	29.21
+		MeridianAngle	93.42
 	}
 	LunarLambert	0.5
 	GeomAlbedo	0.096
 	InfoURL	"https://en.wikipedia.org/wiki/Proteus_(moon)"
 }
 
+# Size and shape from Thomas (2000), Icarus 148, 587-588
+#   "The Shape of Triton from Limb Profiles"
+#   https://ui.adsabs.harvard.edu/abs/2000Icar..148..587T/abstract
 "Triton:Neptune I" "Sol/Neptune"
 {
 	Class	"moon"
 	Texture	"triton.*"
 	Color	[ 1.0 0.99024 0.96338 ]
 	SemiAxes	[ 1354.6 1352.8 1352.4 ]
-	Mass<kg>	2.1403e22
+	Mass<kg>	2.14029e22  # GM = (1428.49546 ± 0.61603) km^3/s^2
 	Atmosphere
 	{
 		Height	32
@@ -1672,6 +1721,9 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	InfoURL	"https://en.wikipedia.org/wiki/Triton_(moon)"
 }
 
+# Kiss et al. (2016), MNRAS 457, 2908-2917
+#   "Nereid from space: rotation, size and shape analysis from K2, Herschel and Spitzer observations"
+#   https://ui.adsabs.harvard.edu/abs/2016MNRAS.457.2908K/abstract
 "Nereid:Neptune II" "Sol/Neptune"
 {
 	Class	"minormoon"
@@ -1679,8 +1731,8 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 	Texture	"asteroid.*"
 	Color	[ 0.616 0.566 0.551 ]
 	BlendTexture	true
-	SemiAxes	[ 199 168 153 ]
-	Mass<kg>	3e19
+	Radius	172.5
+	SemiAxes	[ 1.140 1.006 0.872 ]  # a/b = 1.133, c/b = 0.867 (X = 0.133)
 	OrbitFrame
 	{
 		EclipticJ2000	{ Center "Sol/Neptune" }
@@ -1696,11 +1748,14 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
 		ArgOfPericenter	296.451886
 		MeanAnomaly	36.055860
 	}
+	BodyFrame	{ EclipticJ2000 {} }
 	UniformRotation
 	{
 		Period	11.594
+		Inclination	58
+		AscendingNode	50
 	}
 	LunarLambert	0.5
-	GeomAlbedo	0.155
+	GeomAlbedo	0.25
 	InfoURL	"https://en.wikipedia.org/wiki/Nereid_(moon)"
 }
