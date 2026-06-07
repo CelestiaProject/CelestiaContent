@@ -1318,9 +1318,10 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 "Miranda:Uranus V" "Sol/Uranus"
 {
 	Class	"moon"
-	Texture	"miranda-lok.*"
+	Texture	"miranda.*"  # brightness: 0.72348
 	# NormalMap	"miranda-normal.*"
-	Color	[ 0.98357 0.98913 1.0 ]
+	Color	[ 0.665 0.670 0.679 ]
+	BlendTexture	true
 	SemiAxes	[ 240.4 234.2 232.9 ]
 	Mass<kg>	6.16e19  # GM = (4.11 ± 0.11) km^3/s^2
 	CustomOrbit	"miranda"
@@ -1353,24 +1354,19 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	#	MeridianAngle	149.30
 	# }
 
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.32
 	BondAlbedo	0.28
 	InfoURL	"https://en.wikipedia.org/wiki/Miranda_(moon)"
 }
 
-AltSurface "Limit of knowledge" "Sol/Uranus/Miranda"
-{
-	Texture	"miranda-lok.*"
-	LunarLambert	0.5
-}
-
 "Ariel:Uranus I" "Sol/Uranus"
 {
 	Class	"moon"
-	Texture	"ariel.*"
+	Texture	"ariel.*"  # brightness: 0.74438
 	# NormalMap	"ariel-normal.*"
-	Color	[ 1.0 1.0 0.999 ]
+	Color	[ 0.702 0.694 0.683 ]
+	BlendTexture	true
 	SemiAxes	[ 581.1 577.9 577.7 ]
 	Mass<kg>	1.2500e21  # GM = (83.43 ± 0.56) km^3/s^2
 	CustomOrbit	"ariel"
@@ -1403,17 +1399,10 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Miranda"
 	#	MeridianAngle	23.78
 	# }
 
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.53
 	BondAlbedo	0.23
 	InfoURL	"https://en.wikipedia.org/wiki/Ariel_(moon)"
-}
-
-AltSurface "Limit of knowledge" "Sol/Uranus/Ariel"
-{
-	Texture	"ariel.*"
-	OverlayTexture	"ariel-lok-mask.*"
-	LunarLambert	0.5
 }
 
 # Size and geometric albedo from Assafin et al. (2023), MNRAS 526, 6193-6204
@@ -1423,9 +1412,10 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Ariel"
 "Umbriel:Uranus II" "Sol/Uranus"
 {
 	Class	"moon"
-	Texture	"umbriel.*"
+	Texture	"umbriel.*"  # brightness: 0.53202
 	# NormalMap	"umbriel-normal.*"
-	Color	[ 1.0 0.99769 0.99749 ]
+	Color	[ 0.657 0.654 0.644 ]
+	BlendTexture	true
 	Radius	582.4
 	Mass<kg>	1.2795e21  # GM = (85.40 ± 0.68) km^3/s^2
 	CustomOrbit	"umbriel"
@@ -1458,17 +1448,10 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Ariel"
 	#	MeridianAngle	71.95
 	# }
 
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.26
 	BondAlbedo	0.10
 	InfoURL	"https://en.wikipedia.org/wiki/Umbriel_(moon)"
-}
-
-AltSurface "Limit of knowledge" "Sol/Uranus/Umbriel"
-{
-	Texture	"umbriel.*"
-	OverlayTexture	"umbriel-lok-mask.*"
-	LunarLambert	0.5
 }
 
 # Size from Widemann et al. (2009), Icarus 199, 458-476
@@ -1479,9 +1462,10 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Umbriel"
 "Titania:Uranus III" "Sol/Uranus"
 {
 	Class	"moon"
-	Texture	"titania.*"
+	Texture	"titania.*"  # brightness: 0.61729
 	# NormalMap	"titania-normal.*"
-	Color	[ 1.0 0.98945 0.97393 ]
+	Color	[ 0.722 0.704 0.688 ]
+	BlendTexture	true
 	Radius	788.4
 	Mass<kg>	3.3382e21  # GM = (222.80 ± 1.45) km^3/s^2
 	CustomOrbit	"titania"
@@ -1514,25 +1498,19 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Umbriel"
 	#	MeridianAngle	102.26
 	# }
 
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.35
 	BondAlbedo	0.17
 	InfoURL	"https://en.wikipedia.org/wiki/Titania_(moon)"
 }
 
-AltSurface "Limit of knowledge" "Sol/Uranus/Titania"
-{
-	Texture	"titania.*"
-	OverlayTexture	"titania-lok-mask.*"
-	LunarLambert	0.5
-}
-
 "Oberon:Uranus IV" "Sol/Uranus"
 {
 	Class	"moon"
-	Texture	"oberon.*"
+	Texture	"oberon.*"  # brightness: 0.57708
 	# NormalMap	"oberon-normal.*"
-	Color	[ 1.0 0.98881 0.97178 ]
+	Color	[ 0.712 0.700 0.682 ]
+	BlendTexture	true
 	Radius	761.4
 	Mass<kg>	3.2095e21  # GM = (214.21 ± 2.14) km^3/s^2
 	CustomOrbit	"oberon"
@@ -1565,17 +1543,10 @@ AltSurface "Limit of knowledge" "Sol/Uranus/Titania"
 	#	MeridianAngle	173.23
 	# }
 
-	LunarLambert	0.5
+	LunarLambert	1
 	GeomAlbedo	0.31
 	BondAlbedo	0.14
 	InfoURL	"https://en.wikipedia.org/wiki/Oberon_(moon)"
-}
-
-AltSurface "Limit of knowledge" "Sol/Uranus/Oberon"
-{
-	Texture	"oberon.*"
-	OverlayTexture	"oberon-lok-mask.*"
-	LunarLambert	0.5
 }
 
 

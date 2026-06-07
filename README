@@ -144,11 +144,6 @@ Texture maps
 
    Uranus & Neptune's rings are composites of transparency data and Voyager imagery.
 
-   Miranda:
-   Texture by Robin Charles Gilbert and shading reduced with the normal map:
-      http://www.robingilbert.com/blog/2017-08-20-atlas-of-miranda/
-   Normal map derived from a DEM by Paul Schenk
-
    Pluto normal map is derived from the USGS DEM.
 
    Charon:
@@ -181,6 +176,11 @@ Texture maps
    of JunoCam images by Gerald Eichstädt, Jason Perry and John Rogers, and retouched
    by ItzImcool. The specular mask was hand-painted, matching the surface map.
 
+   The textures for the Uranian satellites were created from maps by Paul Schenk,
+   available at: https://repository.hou.usra.edu/handle/20.500.11753/1687
+   Extra coverage and details were added from images processed by Ted Stryk.
+   Umbriel is merged with a mosaic by Phil Stooke, posted at the Unmanned Spaceflight forum.
+
    The Metis, Amalthea, Thebe, Hyperion, Gaspra, Ida, Steins and Lutetia maps were
    created from reprojections of spacecraft imagery.
 
@@ -200,9 +200,6 @@ Texture maps
    Originally available at: https://www.planetary.org/space-images/merged-cassini-and-juno
 
    Textures for Saturn and Neptune, improved and recolored by Askaniy.
-
-# The textures for the Uranian satellites were created by Ivan Rivera from JPL
-  data. His Celestia page is: http://bruckner.homelinux.net/celestia.html
 
 # Earth's night texture created by FarGetaNik from the BMNG dataset and colored
   with a night texture by JVV, posted on the Celestia forum:
