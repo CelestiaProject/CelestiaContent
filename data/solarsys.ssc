@@ -46,6 +46,9 @@
 # Jacobson (1978), "An Analytical Ephemeris of the Uranian Satellites"
 # (Miranda, Ariel, Umbriel, Titania, and Oberon)
 #
+# The orbit of Triton is from Emelyanov and Samorodov (2015), MNRAS 454, 2205-2215
+# "Analytical theory of motion and new ephemeris of Triton from observations"
+#
 # **** IMPORTANT ****
 # For applications where more accuracy is required, the orbits of any solar
 # system body may be replaced by a SPICE kernel or a file of postion/velocity
@@ -1663,29 +1666,41 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		MieScaleHeight	8
 		Absorption	[ 0.00200 0.00200 0.00250 ]
 	}
+	CustomOrbit	"triton"
+
+	# Overridden by CustomOrbit
+	# OrbitFrame
+	# {
+	#	EclipticJ2000	{ Center "Sol/Neptune" }
+	# }
+	# EllipticalOrbit
+	# {
+	#	Epoch	2447763.5  # 1989 Aug 25 (Voyager 2 encounter)
+	#	Period	5.8768541
+	#	SemiMajorAxis	354759
+	#	Eccentricity	0.000016
+	#	Inclination	130.909204
+	#	AscendingNode	213.174202
+	#	ArgOfPericenter	278.113474
+	#	MeanAnomaly	349.996104
+	# }
+
 	OrbitFrame
 	{
-		EclipticJ2000	{ Center "Sol/Neptune" }
-	}
-	EllipticalOrbit
-	{
-		Epoch	2447763.5  # 1989 Aug 25
-		Period	5.8768541
-		SemiMajorAxis	354759
-		Eccentricity	0.000016
-		Inclination	130.909204
-		AscendingNode	213.174202
-		ArgOfPericenter	278.113474
-		MeanAnomaly	349.996104
+		EquatorJ2000	{ Center "Sol/Neptune" }
 	}
 	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation
-	{
-		Epoch	2447763.5  # 1989 Aug 25
-		Inclination	110.44
-		AscendingNode	206.17
-		MeridianAngle	77.41
-	}
+	CustomRotation	"iau-triton"
+
+	# Overridden by CustomRotation
+	# UniformRotation
+	# {
+	#	Epoch	2447763.5  # 1989 Aug 25 (Voyager 2 encounter)
+	#	Inclination	110.44
+	#	AscendingNode	206.17
+	#	MeridianAngle	77.41
+	# }
+
 	LunarLambert	0.5
 	GeomAlbedo	0.719
 	BondAlbedo	0.65
