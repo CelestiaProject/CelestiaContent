@@ -300,8 +300,8 @@
 		AscendingNode	38  # position angle = 110.97° +7.00° -6.54°
 	}
 	LunarLambert	1
-	# GeomAlbedo	0.106
-	Reflectivity	0.033  # For qV = 0.315 +0.032 -0.014
+	GeomAlbedo	0.106
+	SphAlbedo	0.033  # For qV = 0.315 +0.032 -0.014
 	InfoURL	"https://en.wikipedia.org/wiki/28978_Ixion"
 }
 
@@ -1169,8 +1169,8 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 		AscendingNode	106  # position angle = 121° ± 16°
 	}
 	LunarLambert	1
-	# GeomAlbedo	0.105
-	Reflectivity	0.039  # Bond albedo
+	GeomAlbedo	0.105
+	SphAlbedo	0.039  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/307261_Máni"
 }
 
@@ -1242,8 +1242,8 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 		MeridianAngle	71.9541475
 	}
 	LunarLambert	0.970
-	# GeomAlbedo	0.21
-	Reflectivity	0.062  # Bond albedo at 610 nm
+	GeomAlbedo	0.21
+	SphAlbedo	0.062  # Bond albedo at 610 nm
 	InfoURL	"https://en.wikipedia.org/wiki/486958_Arrokoth"
 }
 

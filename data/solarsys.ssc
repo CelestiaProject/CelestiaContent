@@ -429,8 +429,8 @@
 	# }
 
 	LunarLambert	1  # Lommel-Seeliger
-	# GeomAlbedo	0.0683  # disk-resolved, green filter (538 nm)
-	Reflectivity	0.0157  # green-filter Bond albedo
+	GeomAlbedo	0.0683  # disk-resolved, green filter (538 nm)
+	SphAlbedo	0.0157  # green-filter Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Phobos_(moon)"
 }
 
@@ -471,8 +471,8 @@
 	# }
 
 	LunarLambert	1  # Lommel-Seeliger
-	# GeomAlbedo	0.068
-	Reflectivity	0.027  # from geometric albedo and phase integral
+	GeomAlbedo	0.068
+	SphAlbedo	0.027  # from geometric albedo and phase integral
 	InfoURL	"https://en.wikipedia.org/wiki/Deimos_(moon)"
 }
 
@@ -1159,9 +1159,9 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		PrecessionPeriod<d>	320
 	}
 	LunarLambert	1  # lunar-like scattering
-	# GeomAlbedo	0.44  # Verbiscer et al. (2018), "Enceladus and the Icy Moons of Saturn", p. 325
+	GeomAlbedo	0.44  # Verbiscer et al. (2018), "Enceladus and the Icy Moons of Saturn", p. 325
 	BondAlbedo	0.33  # Howard et al. (2012), 2012Icar..220..268H
-	Reflectivity	0.29  # from bolometric albedo and spectrum
+	SphAlbedo	0.29  # from bolometric albedo and spectrum
 	InfoURL	"https://en.wikipedia.org/wiki/Hyperion_(moon)"
 }
 
