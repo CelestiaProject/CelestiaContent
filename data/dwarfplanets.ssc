@@ -109,8 +109,8 @@ ReferencePoint "Pluto-Charon" "Sol"
 		MeridianAngle	25.885858
 	}
 	LunarLambert	0.7  # Buratti et al. (2017), 2017Icar..287..207B
-	# GeomAlbedo	0.506
-	Reflectivity	0.402  # Bond albedo
+	GeomAlbedo	0.506
+	SphAlbedo	0.402  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Pluto"
 }
 
@@ -146,8 +146,8 @@ ReferencePoint "Pluto-Charon" "Sol"
 		MeridianAngle	205.885858
 	}
 	LunarLambert	0.9  # Buratti et al. (2019), 2019ApJ...874L...3B
-	# GeomAlbedo	0.408
-	Reflectivity	0.228  # Bond albedo
+	GeomAlbedo	0.408
+	SphAlbedo	0.228  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Charon_(moon)"
 }
 
@@ -220,8 +220,8 @@ ReferencePoint "Pluto-Charon" "Sol"
 		MeridianAngle	243.5722888
 	}
 	LunarLambert	1
-	# GeomAlbedo	0.56
-	Reflectivity	0.24  # Bond albedo
+	GeomAlbedo	0.56
+	SphAlbedo	0.24  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Nix_(moon)"
 }
 
@@ -294,8 +294,8 @@ ReferencePoint "Pluto-Charon" "Sol"
 		MeridianAngle	57.0724592
 	}
 	LunarLambert	0.5
-	# GeomAlbedo	0.83
-	Reflectivity	0.32  # Bond albedo
+	GeomAlbedo	0.83
+	SphAlbedo	0.32  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Hydra_(moon)"
 }
 
@@ -336,9 +336,8 @@ ReferencePoint "Pluto-Charon" "Sol"
 		MeridianAngle	170.309
 	}
 	LunarLambert	0.945  # from C_L parameter of Schröder et al. (2017), 2017Icar..288..201S
-	# GeomAlbedo	0.096
-	Reflectivity	0.037  # Bond albedo at 555 nm
-	BondAlbedo	0.037
+	GeomAlbedo	0.096
+	SphAlbedo	0.037  # Bond albedo at 555 nm
 	InfoURL	"https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)"
 }
 
@@ -488,8 +487,8 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		MeridianAngle	243.9  # ψ = 13.3° (light-time corrected)
 	}
 	LunarLambert	1
-	# GeomAlbedo	0.51
-	Reflectivity	0.23  # for phase integral = 0.454 +0.034 -0.047 (system)
+	GeomAlbedo	0.51
+	SphAlbedo	0.23  # for phase integral = 0.454 +0.034 -0.047 (system)
 	Rings
 	{
 		Inner	2252
@@ -532,8 +531,8 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		AscendingNode	23.725
 	}
 	LunarLambert	0.5
-	# GeomAlbedo	0.72  # approximate for H = 5.1
-	Reflectivity	0.33  # for phase integral = 0.454 +0.034 -0.047 (system)
+	GeomAlbedo	0.72  # approximate for H = 5.1
+	SphAlbedo	0.33  # for phase integral = 0.454 +0.034 -0.047 (system)
 	InfoURL	"https://en.wikipedia.org/wiki/Namaka_(moon)"
 }
 
@@ -570,8 +569,8 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		AscendingNode	8  # position angles = 112° ± 3° and 110° ± 10°
 	}
 	LunarLambert	0.5
-	# GeomAlbedo	0.74
-	Reflectivity	0.34  # for phase integral = 0.454 +0.034 -0.047 (system)
+	GeomAlbedo	0.74
+	SphAlbedo	0.34  # for phase integral = 0.454 +0.034 -0.047 (system)
 	InfoURL	"https://en.wikipedia.org/wiki/Hi'iaka_(moon)"
 }
 
@@ -631,8 +630,8 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		Texture	"quaoar-rings.*"
 	}
 	LunarLambert	1
-	# GeomAlbedo	0.124
-	Reflectivity	0.070  # for phase integral = 0.562 +0.020 -0.059
+	GeomAlbedo	0.124
+	SphAlbedo	0.070  # for phase integral = 0.562 +0.020 -0.059
 	InfoURL	"https://en.wikipedia.org/wiki/Quaoar"
 }
 
@@ -660,8 +659,8 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		AscendingNode	110
 	}
 	LunarLambert	1
-	# GeomAlbedo	0.036  # assume same as Weywot
-	Reflectivity	0.020  # assume same as Weywot
+	GeomAlbedo	0.036  # assume same as Weywot
+	SphAlbedo	0.020  # assume same as Weywot
 	InfoURL	"https://en.wikipedia.org/wiki/Quaoar#Second_moon"
 }
 
@@ -699,8 +698,8 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		MeridianAngle	356
 	}
 	LunarLambert	1
-	# GeomAlbedo	0.036  # RECON24 Included fit
-	Reflectivity	0.020  # for phase integral = 0.562 +0.020 -0.059 (assume same as Quaoar, based on Appendix A)
+	GeomAlbedo	0.036  # RECON24 Included fit
+	SphAlbedo	0.020  # for phase integral = 0.562 +0.020 -0.059 (assume same as Quaoar, based on Appendix A)
 	InfoURL	"https://en.wikipedia.org/wiki/Weywot_(moon)"
 }
 
@@ -737,8 +736,8 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		AscendingNode	15
 	}
 	LunarLambert	0.5
-	# GeomAlbedo	0.82
-	Reflectivity	0.62  # Bond albedo
+	GeomAlbedo	0.82
+	SphAlbedo	0.62  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Makemake"
 }
 
@@ -898,9 +897,9 @@ ReferencePoint "Orcus-Vanth" "Sol"
 		MeridianAngle	359.61
 	}
 	LunarLambert	0.5
-	# GeomAlbedo	0.94
-	Reflectivity	0.931  # V-band Bond albedo
+	GeomAlbedo	0.94
 	BondAlbedo	0.90  # Kiss et al. (2024), 2024ApJ...976L...9K
+	SphAlbedo	0.931  # V-band Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/Eris_(dwarf_planet)"
 }
 

@@ -88,8 +88,8 @@
 		MeridianAngle	41.7
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.155
-	Reflectivity	0.055  # for G_1 = 0.36 and G_2 = 0.250
+	GeomAlbedo	0.155
+	SphAlbedo	0.055  # for G_1 = 0.36 and G_2 = 0.250
 	InfoURL	"https://en.wikipedia.org/wiki/2_Pallas"
 }
 
@@ -127,8 +127,8 @@
 		MeridianAngle	290.3  # from DAMIT model 786
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.202
-	Reflectivity	0.103  # for G = 0.320
+	GeomAlbedo	0.202
+	SphAlbedo	0.103  # for G = 0.320
 	InfoURL	"https://en.wikipedia.org/wiki/3_Juno"
 }
 
@@ -172,9 +172,9 @@
 		MeridianAngle	75.39
 	}
 	LunarLambert	0.907  # from C_L parameter of Schröder et al. (2014), 2014P&SS..103...66S
-	# GeomAlbedo	0.38
+	GeomAlbedo	0.38
 	BondAlbedo	0.18  # bolometric
-	Reflectivity	0.20
+	SphAlbedo	0.20
 	InfoURL	"https://en.wikipedia.org/wiki/4_Vesta"
 }
 
@@ -209,8 +209,8 @@
 		MeridianAngle	217.5  # from DAMIT model 1854
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.279
-	Reflectivity	0.112  # for G_1 = 0.358278 and G_2 = 0.304418
+	GeomAlbedo	0.279
+	SphAlbedo	0.112  # for G_1 = 0.358278 and G_2 = 0.304418
 	InfoURL	"https://en.wikipedia.org/wiki/7_Iris"
 }
 
@@ -245,8 +245,8 @@
 		MeridianAngle	116.5
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.063
-	Reflectivity	0.022  # for G_1 = 0.76 and G_2 = 0.030
+	GeomAlbedo	0.063
+	SphAlbedo	0.022  # for G_1 = 0.76 and G_2 = 0.030
 	InfoURL	"https://en.wikipedia.org/wiki/10_Hygiea"
 }
 
@@ -287,8 +287,8 @@
 		MeridianAngle	270.4
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.16
-	Reflectivity	0.065  # for G_1 = 0.10 and G_2 = 0.440
+	GeomAlbedo	0.16
+	SphAlbedo	0.065  # for G_1 = 0.10 and G_2 = 0.440
 	InfoURL	"https://en.wikipedia.org/wiki/16_Psyche"
 }
 
@@ -327,8 +327,8 @@
 		MeridianAngle	7.2  # from DAMIT model 1812
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.065
-	Reflectivity	0.025  # for G = 0.130
+	GeomAlbedo	0.065
+	SphAlbedo	0.025  # for G = 0.130
 	InfoURL	"https://en.wikipedia.org/wiki/45_Eugenia"
 }
 
@@ -361,8 +361,8 @@
 		MeridianAngle	88
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.065
-	Reflectivity	0.025
+	GeomAlbedo	0.065
+	SphAlbedo	0.025
 	InfoURL	"https://en.wikipedia.org/wiki/45_Eugenia#S/2004_(45)_1"
 }
 
@@ -395,8 +395,8 @@
 		MeridianAngle	323
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.065
-	Reflectivity	0.025
+	GeomAlbedo	0.065
+	SphAlbedo	0.025
 	InfoURL	"https://en.wikipedia.org/wiki/45_Eugenia#Petit-Prince"
 }
 
@@ -434,8 +434,8 @@
 		MeridianAngle	169.7  # from DAMIT model 719
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.04  # Vernazza et al. (2021)
-	Reflectivity	0.016  # for G_1 = 0.251955 and G_2 = 0.344251
+	GeomAlbedo	0.04  # Vernazza et al. (2021)
+	SphAlbedo	0.016  # for G_1 = 0.251955 and G_2 = 0.344251
 	InfoURL	"https://en.wikipedia.org/wiki/87_Sylvia"
 }
 
@@ -469,8 +469,8 @@
 		MeridianAngle	82.2
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.04
-	Reflectivity	0.016
+	GeomAlbedo	0.04
+	SphAlbedo	0.016
 	InfoURL	"https://en.wikipedia.org/wiki/Remus_(moon)"
 }
 
@@ -508,8 +508,8 @@
 		MeridianAngle	351.0
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.04
-	Reflectivity	0.016
+	GeomAlbedo	0.04
+	SphAlbedo	0.016
 	InfoURL	"https://en.wikipedia.org/wiki/Romulus_(moon)"
 }
 
@@ -547,8 +547,8 @@
 		MeridianAngle	177.2  # from DAMIT model 1856
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.067  # Vernazza et al. (2021)
-	Reflectivity	0.024  # for G_1 = 0.60 and G_2 = 0.130
+	GeomAlbedo	0.067  # Vernazza et al. (2021)
+	SphAlbedo	0.024  # for G_1 = 0.60 and G_2 = 0.130
 	InfoURL	"https://en.wikipedia.org/wiki/130_Elektra"
 }
 
@@ -582,8 +582,8 @@
 		MeridianAngle	68.8
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.067
-	Reflectivity	0.024
+	GeomAlbedo	0.067
+	SphAlbedo	0.024
 	InfoURL	"https://en.wikipedia.org/wiki/130_Elektra#S/2014_(130)_1"
 }
 
@@ -617,8 +617,8 @@
 		MeridianAngle	58.3
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.067
-	Reflectivity	0.024
+	GeomAlbedo	0.067
+	SphAlbedo	0.024
 	InfoURL	"https://en.wikipedia.org/wiki/130_Elektra#Third_satellite"
 }
 
@@ -652,8 +652,8 @@
 		MeridianAngle	170.3
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.067
-	Reflectivity	0.024
+	GeomAlbedo	0.067
+	SphAlbedo	0.024
 	InfoURL	"https://en.wikipedia.org/wiki/130_Elektra#S/2003_(130)_1"
 }
 
@@ -694,8 +694,8 @@
 		MeridianAngle	42.2  # from DAMIT model 1826
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.152  # Vernazza et al. (2021)
-	Reflectivity	0.073  # for G = 0.280
+	GeomAlbedo	0.152  # Vernazza et al. (2021)
+	SphAlbedo	0.073  # for G = 0.280
 	InfoURL	"https://en.wikipedia.org/wiki/216_Kleopatra"
 }
 
@@ -730,8 +730,8 @@
 		MeridianAngle	166.745
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.152
-	Reflectivity	0.073
+	GeomAlbedo	0.152
+	SphAlbedo	0.073
 	InfoURL	"https://en.wikipedia.org/wiki/216_Kleopatra#Moons"
 }
 
@@ -766,8 +766,8 @@
 		MeridianAngle	215.403
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.152
-	Reflectivity	0.073
+	GeomAlbedo	0.152
+	SphAlbedo	0.073
 	InfoURL	"https://en.wikipedia.org/wiki/216_Kleopatra#Moons"
 }
 
@@ -802,8 +802,8 @@
 		MeridianAngle	36.4
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.067
-	Reflectivity	0.019  # for G = -0.02
+	GeomAlbedo	0.067
+	SphAlbedo	0.019  # for G = -0.02
 	InfoURL	"https://en.wikipedia.org/wiki/704_Interamnia"
 }
 
@@ -846,8 +846,8 @@
 		MeridianAngle	289.50
 	}
 	LunarLambert	0.92  # estimated from Fig. 3.2 of Hasselmann et al. (2016), 2016Icar..267..135H
-	# GeomAlbedo	0.19
-	Reflectivity	0.073  # Bond albedo
+	GeomAlbedo	0.19
+	SphAlbedo	0.073  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/21_Lutetia"
 }
 
@@ -888,9 +888,9 @@
 		MeridianAngle	274.05
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.206
+	GeomAlbedo	0.206
 	BondAlbedo	0.081
-	Reflectivity	0.069  # spherical albedo
+	SphAlbedo	0.069
 	InfoURL	"https://en.wikipedia.org/wiki/243_Ida"
 }
 
@@ -928,9 +928,9 @@
 		MeridianAngle	28.68
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.198
+	GeomAlbedo	0.198
 	BondAlbedo	0.073
-	Reflectivity	0.063  # spherical albedo
+	SphAlbedo	0.063
 	InfoURL	"https://en.wikipedia.org/wiki/Dactyl_(moon)"
 }
 
@@ -969,9 +969,9 @@
 		Period	417.744
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.047
+	GeomAlbedo	0.047
 	BondAlbedo	0.012
-	Reflectivity	0.013  # spherical albedo
+	SphAlbedo	0.013
 	InfoURL	"https://en.wikipedia.org/wiki/253_Mathilde"
 }
 
@@ -1016,8 +1016,8 @@
 		MeridianAngle	326.08
 	}
 	LunarLambert	0.9  # c = 0.1 (Kaasalainen et al. 2001, 2001Icar..153...37K)
-	# GeomAlbedo	0.23
-	Reflectivity	0.093  # Bond albedo at 550 nm
+	GeomAlbedo	0.23
+	SphAlbedo	0.093  # Bond albedo at 550 nm
 	InfoURL	"https://en.wikipedia.org/wiki/433_Eros"
 }
 
@@ -1053,9 +1053,9 @@
 		MeridianAngle	109.06  # offset for correct orientation at the Galileo encounter
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.22
+	GeomAlbedo	0.22
 	BondAlbedo	0.12
-	Reflectivity	0.1  # spherical albedo at SSI GRN filter (0.56 µm)
+	SphAlbedo	0.1  # SSI GRN filter (0.56 µm)
 	InfoURL	"https://en.wikipedia.org/wiki/951_Gaspra"
 }
 
@@ -1096,8 +1096,8 @@
 		MeridianAngle	78.31  # offset for correct orientation at the Rosetta encounter
 	}
 	LunarLambert	1
-	# GeomAlbedo	0.37  # extrapolated to 550 nm from Fig. 9
-	Reflectivity	0.22  # extrapolated to 550 nm from Fig. 9 (Bond albedo)
+	GeomAlbedo	0.37  # extrapolated to 550 nm from Fig. 9
+	SphAlbedo	0.22  # extrapolated to 550 nm from Fig. 9 (Bond albedo)
 	InfoURL	"https://en.wikipedia.org/wiki/2867_Steins"
 }
 
@@ -1136,8 +1136,8 @@
 		PrecessionPeriod<d>	7.40
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.185  # Bach et al. (2019), 2019JKAS...52...71B
-	Reflectivity	0.066  # for G = 0.10
+	GeomAlbedo	0.185  # Bach et al. (2019), 2019JKAS...52...71B
+	SphAlbedo	0.066  # for G = 0.10
 	InfoURL	"https://en.wikipedia.org/wiki/4179_Toutatis"
 }
 
@@ -1181,8 +1181,8 @@
 		MeridianAngle	129.73
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.27
-	Reflectivity	0.033  # V-band Bond albedo
+	GeomAlbedo	0.27
+	SphAlbedo	0.033  # V-band Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/25143_Itokawa"
 }
 
@@ -1223,8 +1223,8 @@
 		MeridianAngle	0.0
 	}
 	LunarLambert	0.95  # assumed same as Dimorphos
-	# GeomAlbedo	0.17
-	Reflectivity	0.07  # Bond albedo
+	GeomAlbedo	0.17
+	SphAlbedo	0.07  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/65803_Didymos"
 }
 
@@ -1291,8 +1291,8 @@
 		}
 	]
 	LunarLambert	0.95  # Buratti et al. (2024), 2024PSJ.....5...83B
-	# GeomAlbedo	0.19  # ~10% brighter than Didymos (2023LPICo2806.1659S)
-	Reflectivity	0.08
+	GeomAlbedo	0.19  # ~10% brighter than Didymos (2023LPICo2806.1659S)
+	SphAlbedo	0.08
 	InfoURL	"https://en.wikipedia.org/wiki/Dimorphos"
 }
 
@@ -1340,9 +1340,9 @@
 		MeridianAngle	19.64457  # at epoch
 	}
 	LunarLambert	1  # well-fit by Lommel-Seeliger function (2021PSJ.....2..124G)
-	# GeomAlbedo	0.046
+	GeomAlbedo	0.046
 	BondAlbedo	0.025  # Zou et al. (2021), 2021Icar..35814183Z
-	Reflectivity	0.020  # Bond albedo at 0.55 µm
+	SphAlbedo	0.020  # Bond albedo at 0.55 µm
 	InfoURL	"https://en.wikipedia.org/wiki/101955_Bennu"
 }
 
@@ -1386,8 +1386,8 @@
 		MeridianAngle	274.16225
 	}
 	LunarLambert	1  # Lommel-Seeliger
-	# GeomAlbedo	0.040  # v-band
-	Reflectivity	0.014  # v-band (Bond albedo)
+	GeomAlbedo	0.040  # v-band
+	SphAlbedo	0.014  # v-band (Bond albedo)
 	InfoURL	"https://en.wikipedia.org/wiki/162173_Ryugu"
 }
 
@@ -1433,8 +1433,8 @@
 		AscendingNode	146.7
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.168
-	Reflectivity	0.066  # for G = 0.15
+	GeomAlbedo	0.168
+	SphAlbedo	0.066  # for G = 0.15
 	InfoURL	"https://en.wikipedia.org/wiki/1620_Geographos"
 }
 
@@ -1468,8 +1468,8 @@
 		AscendingNode	114
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.56
-	Reflectivity	0.25  # for G = 0.230
+	GeomAlbedo	0.56
+	SphAlbedo	0.25  # for G = 0.230
 	InfoURL	"https://en.wikipedia.org/wiki/2063_Bacchus"
 }
 
@@ -1547,8 +1547,8 @@
 		AscendingNode	292
 	}
 	LunarLambert	0.77  # c = 0.3 (Kaasalainen et al. 2001, 2001Icar..153...37K)
-	# GeomAlbedo	0.151
-	Reflectivity	0.058  # for G = 0.138 (1997AJ....114.1234M)
+	GeomAlbedo	0.151
+	SphAlbedo	0.058  # for G = 0.138 (1997AJ....114.1234M)
 	InfoURL	"https://en.wikipedia.org/wiki/6489_Golevka"
 }
 
@@ -1590,8 +1590,8 @@
 		MeridianAngle	216  # x-axis on the plane of sky at epoch
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.162
-	Reflectivity	0.074  # for assumed G = 0.24
+	GeomAlbedo	0.162
+	SphAlbedo	0.074  # for assumed G = 0.24
 	InfoURL	"https://en.wikipedia.org/wiki/66391_Moshup"
 }
 
@@ -1624,8 +1624,8 @@
 		MeridianAngle	160.4
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.162
-	Reflectivity	0.074
+	GeomAlbedo	0.162
+	SphAlbedo	0.074
 	InfoURL	"https://en.wikipedia.org/wiki/Squannit_(moon)"
 }
 
@@ -1666,8 +1666,8 @@
 		AscendingNode	39
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.0405
-	Reflectivity	0.0097  # for G_1 = 0.28448 and G_2 = 0.140601
+	GeomAlbedo	0.0405
+	SphAlbedo	0.0097  # for G_1 = 0.28448 and G_2 = 0.140601
 	InfoURL	"https://en.wikipedia.org/wiki/(153591)_2001_SN263"
 }
 
@@ -1703,8 +1703,8 @@
 		MeridianAngle	1.251
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.0405
-	Reflectivity	0.0097
+	GeomAlbedo	0.0405
+	SphAlbedo	0.0097
 	InfoURL	"https://en.wikipedia.org/wiki/(153591)_2001_SN263#Trinary_system"
 }
 
@@ -1736,8 +1736,8 @@
 		Period	13.43
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.0405
-	Reflectivity	0.0097
+	GeomAlbedo	0.0405
+	SphAlbedo	0.0097
 	InfoURL	"https://en.wikipedia.org/wiki/(153591)_2001_SN263#Trinary_system"
 }
 
@@ -1771,8 +1771,8 @@
 		AscendingNode	126
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.52
-	Reflectivity	0.39  # for G_1 = -0.15 and G_2 = 1.0
+	GeomAlbedo	0.52
+	SphAlbedo	0.39  # for G_1 = -0.15 and G_2 = 1.0
 	InfoURL	"https://en.wikipedia.org/wiki/1998_KY26"
 }
 
@@ -1810,8 +1810,8 @@
 		AscendingNode	313.33
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.2042
-	Reflectivity	0.123  # for G_1 = 0.4628 and G_2 = 0.4984
+	GeomAlbedo	0.2042
+	SphAlbedo	0.123  # for G_1 = 0.4628 and G_2 = 0.4984
 	InfoURL	"https://en.wikipedia.org/wiki/1252_Celestia"
 }
 
@@ -1877,8 +1877,8 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 		MeridianAngle	201.7
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.045  # Mueller et al. (2010), 2010Icar..205..505M
-	Reflectivity	0.015  # for G_1 = 0.645036 and G_2 = 0.089212
+	GeomAlbedo	0.045  # Mueller et al. (2010), 2010Icar..205..505M
+	SphAlbedo	0.015  # for G_1 = 0.645036 and G_2 = 0.089212
 	InfoURL	"https://en.wikipedia.org/wiki/617_Patroclus"
 }
 
@@ -1914,8 +1914,8 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 		MeridianAngle	21.7
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.045
-	Reflectivity	0.015
+	GeomAlbedo	0.045
+	SphAlbedo	0.015
 	InfoURL	"https://en.wikipedia.org/wiki/617_Patroclus#Binary_system"
 }
 
@@ -1953,8 +1953,8 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 		MeridianAngle	229.156
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.044
-	Reflectivity	0.015  # for G_1 = 0.862 and G_2 = -0.028
+	GeomAlbedo	0.044
+	SphAlbedo	0.015  # for G_1 = 0.862 and G_2 = -0.028
 	InfoURL	"https://en.wikipedia.org/wiki/3548_Eurybates"
 }
 
@@ -1988,8 +1988,8 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 		Period	8  # assumed
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.044
-	Reflectivity	0.015
+	GeomAlbedo	0.044
+	SphAlbedo	0.015
 	InfoURL	"https://en.wikipedia.org/wiki/3548_Eurybates#Satellite"
 }
 
@@ -2025,8 +2025,8 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 		MeridianAngle	60.014
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.043
-	Reflectivity	0.019  # for G_1 = 0.63 and G_2 = 0.23
+	GeomAlbedo	0.043
+	SphAlbedo	0.019  # for G_1 = 0.63 and G_2 = 0.23
 	InfoURL	"https://en.wikipedia.org/wiki/11351_Leucus"
 }
 
@@ -2063,8 +2063,8 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 		MeridianAngle	160.04
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.073
-	Reflectivity	0.032  # for G = 0.22 (2018AJ....155..245B)
+	GeomAlbedo	0.073
+	SphAlbedo	0.032  # for G = 0.22 (2018AJ....155..245B)
 	InfoURL	"https://en.wikipedia.org/wiki/15094_Polymele"
 }
 
@@ -2082,8 +2082,8 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 		SemiMajorAxis	204.4
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.073
-	Reflectivity	0.032
+	GeomAlbedo	0.073
+	SphAlbedo	0.032
 	InfoURL	"https://en.wikipedia.org/wiki/15094_Polymele#Satellite"
 }
 
@@ -2115,7 +2115,7 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 		MeridianAngle	17.413
 	}
 	LunarLambert	0.9
-	# GeomAlbedo	0.040
-	Reflectivity	0.018  # for G_1 = 0.689 and G_2 = 0.193
+	GeomAlbedo	0.040
+	SphAlbedo	0.018  # for G_1 = 0.689 and G_2 = 0.193
 	InfoURL	"https://en.wikipedia.org/wiki/21900_Orus"
 }

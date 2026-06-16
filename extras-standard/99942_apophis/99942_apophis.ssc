@@ -132,7 +132,7 @@
 		}
 	]
 	LunarLambert	1
-	# GeomAlbedo	0.35
-	Reflectivity	0.16  # for assumed G = 0.24
+	GeomAlbedo	0.35
+	SphAlbedo	0.16  # for assumed G = 0.24
 	InfoURL	"https://en.wikipedia.org/wiki/99942_Apophis"
 }

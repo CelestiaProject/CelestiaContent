@@ -77,8 +77,8 @@
 		MeridianAngle	346.09
 	}
 	LunarLambert	1
-	# GeomAlbedo	0.061
-	Reflectivity	0.030  # spherical albedo
+	GeomAlbedo	0.061
+	SphAlbedo	0.030
 	InfoURL	"https://en.wikipedia.org/wiki/Metis_(moon)"
 }
 
@@ -128,8 +128,8 @@
 		MeridianAngle	33.29
 	}
 	LunarLambert	1
-	# GeomAlbedo	0.10
-	Reflectivity	0.049  # assume same phase integral as Metis
+	GeomAlbedo	0.10
+	SphAlbedo	0.049  # assume same phase integral as Metis
 	InfoURL	"https://en.wikipedia.org/wiki/Adrastea_(moon)"
 }
 
@@ -189,8 +189,8 @@
 	# }
 
 	LunarLambert	1
-	# GeomAlbedo	0.090
-	Reflectivity	0.032  # spherical albedo
+	GeomAlbedo	0.090
+	SphAlbedo	0.032
 	InfoURL	"https://en.wikipedia.org/wiki/Amalthea_(moon)"
 }
 
@@ -245,8 +245,8 @@
 	# }
 
 	LunarLambert	1
-	# GeomAlbedo	0.047
-	Reflectivity	0.019  # spherical albedo
+	GeomAlbedo	0.047
+	SphAlbedo	0.019
 	InfoURL	"https://en.wikipedia.org/wiki/Thebe_(moon)"
 }
 
