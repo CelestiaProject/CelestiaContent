@@ -1,15 +1,14 @@
 # asteroid.cms
 
 # Random chunk of rock used to represent various small moons and asteroids
-# suitable for objects below 150 km in size
+# suitable for objects below 200 km in size
 
 SphereDisplacementMesh
-
 {
-	Size		[ 1.0 0.6 0.75 ]
+	Size		[ 1.0 0.6 0.7 ]
 	NoiseOffset	[ 15 12 60 ]
 	FeatureHeight	0.3
-	Octaves		2
+	Octaves		1
 	Slices		100
 	Rings		50
 }

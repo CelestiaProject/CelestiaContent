@@ -412,7 +412,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 "Vanth:Orcus I:90482 Orcus I" "Sol/Orcus"
 {
 	Class	"moon"
-	Mesh	"roughsphere.cms"
+	Mesh	"sphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.554 0.524 0.508 ]
 	BlendTexture	true

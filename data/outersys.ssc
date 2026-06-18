@@ -336,7 +336,7 @@ ReferencePoint "Huya System" "Sol"
 "38628 Huya:Huya:2000 EB173" "Sol"
 {
 	Class	"asteroid"
-	Mesh	"roughsphere.cms"
+	Mesh	"sphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.522 0.463 0.388 ]
 	BlendTexture	true
@@ -674,7 +674,7 @@ ReferencePoint "Lempo-Hiisi" "Sol"
 "78799 Xewioso:Xewioso:2002 XW93" "Sol"
 {
 	Class	"asteroid"
-	Mesh	"roughsphere.cms"
+	Mesh	"sphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.323 0.323 0.323 ]  # no color data
 	BlendTexture	true
@@ -844,7 +844,7 @@ ReferencePoint "Salacia-Actaea" "Sol"
 "145451 Rumina:Rumina:2005 RM43" "Sol"
 {
 	Class	"asteroid"
-	Mesh	"roughsphere.cms"
+	Mesh	"sphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.539 0.529 0.515 ]
 	BlendTexture	true
@@ -979,7 +979,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 "Ilmarë:174567 Varda I:Varda I" "Sol/Varda"
 {
 	Class	"asteroid"
-	Mesh	"roughsphere.cms"
+	Mesh	"sphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.478 0.429 0.386 ]
 	BlendTexture	true
@@ -1177,7 +1177,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 "471143 Dziewanna:Dziewanna:2010 EK139" "Sol"
 {
 	Class	"asteroid"
-	Mesh	"roughsphere.cms"
+	Mesh	"sphere.cms"
 	Texture	"asteroid.*"
 	Color	[ 0.938 0.866 0.802 ]
 	BlendTexture	true

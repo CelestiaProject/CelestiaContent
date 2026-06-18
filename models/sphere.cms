@@ -1,0 +1,13 @@
+# sphere.cms
+
+# spherical chunk of rock for objects below hydrostatic equilibrium
+
+SphereDisplacementMesh
+{
+	Size [ 1.0 1.0 1.0 ]
+	NoiseOffset [ 17 42 45 ]
+	FeatureHeight  0.1
+	Octaves 4
+	Slices		100
+	Rings		50
+}
