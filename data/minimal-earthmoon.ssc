@@ -1,0 +1,46 @@
+# Minimal solar system: Earth + Moon, for cube-sphere renderer testing.
+
+"Earth" "Sol"
+{
+	Class	"planet"
+	Texture	"earth.*"
+	NightTexture	"earth-night.*"
+	NormalMap	"earth-normal.*"
+	Color	[ 0.87572 0.91517 1.0 ]
+	SpecularColor	[ 0.50 0.44 0.40 ]
+	SpecularPower	120
+	SemiAxes	[ 6378.1366 6378.1366 6356.7519 ]
+	Mass	1
+	Atmosphere
+	{
+		Bruneton	true
+		Height	100
+		Mie	0.0002
+		MieAsymmetry	-0.7
+		MieScaleHeight	8.5
+		Rayleigh	[ 0.0054 0.0081 0.0167 ]
+		Absorption	[ 0.0027 0.0017 0.0002 ]
+		CloudHeight	7
+		CloudMap	"earth-clouds.*"
+		CloudShadowDepth	1.0
+	}
+	CustomOrbit	"vsop87-earth"
+	BodyFrame	{ EclipticJ2000 {} }
+	CustomRotation	"earth-p03lp"
+}
+
+"Moon:Earth I" "Sol/Earth"
+{
+	Class	"moon"
+	Texture	"moon.*"
+	NormalMap	"moon-normal.*"
+	Color	[ 1.0 0.94582 0.865 ]
+	Radius	1738.14
+	Oblateness	0.00125
+	Mass<kg>	7.345789248e22
+	CustomOrbit	"moon"
+
+	OrbitFrame	{ EquatorJ2000 { Center "Sol/Earth" } }
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-moon"
+}
