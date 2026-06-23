@@ -220,11 +220,10 @@
 	Atmosphere
 	{
 		Height	100
-		Mie	0.0002
-		MieAsymmetry	-0.7
+		Mie	0.001
+		MieAsymmetry	-0.25
+		Rayleigh	[ 0.001 0.0025 0.006 ]
 		MieScaleHeight	8.5  # Rayleigh scale height
-		Rayleigh	[ 0.0054 0.0081 0.0167 ]
-		Absorption	[ 0.0027 0.0017 0.0002 ]
 		CloudHeight	7
 		CloudMap	"earth-clouds.*"
 		CloudShadowDepth	1.0
