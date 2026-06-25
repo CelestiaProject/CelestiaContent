@@ -6,6 +6,9 @@
 	Texture	"earth.*"
 	NightTexture	"earth-night.*"
 	NormalMap	"earth-normal.*"
+	HeightMap	"earth-height.*"
+	HeightMapMinElevation	0
+	HeightMapMaxElevation	13.85
 	Color	[ 0.87572 0.91517 1.0 ]
 	SpecularColor	[ 0.50 0.44 0.40 ]
 	SpecularPower	120
@@ -43,4 +46,53 @@
 	OrbitFrame	{ EquatorJ2000 { Center "Sol/Earth" } }
 	BodyFrame	{ EquatorJ2000 {} }
 	CustomRotation	"iau-moon"
+}
+
+"Uranus" "Sol"
+{
+	Class	"planet"
+	Texture	"uranus.*"
+	Color	[ 0.86828 0.97 1.0 ]
+	SemiAxes	[ 25556.6 25556.6 24968.7 ]
+	Mass<kg>	8.68099e25
+	Atmosphere
+	{
+		Height	500
+		Mie	0.0014
+		MieScaleHeight	27.7
+		MieAsymmetry	-0.1
+		Rayleigh	[ 0.00026 0.00048 0.00100 ]
+	}
+	CustomOrbit	"vsop87-uranus"
+	BodyFrame	{ EclipticJ2000 {} }
+	UniformRotation
+	{
+		Period	17.247864
+		Inclination	97.724832
+		AscendingNode	167.646661
+		MeridianAngle	331.13
+	}
+	Rings
+	{
+		Inner	37812
+		Outer	52392
+		Texture	"uranus-rings.*"
+	}
+}
+
+"Miranda:Uranus V" "Sol/Uranus"
+{
+	Class	"moon"
+	Texture	"miranda.*"
+	HeightMap	"miranda-height.*"
+	HeightMapMinElevation	0
+	HeightMapMaxElevation	10
+	Color	[ 0.665 0.670 0.679 ]
+	BlendTexture	true
+	SemiAxes	[ 240.4 234.2 232.9 ]
+	Mass<kg>	6.16e19
+	CustomOrbit	"miranda"
+	BodyFrame	{ EquatorJ2000 {} }
+	CustomRotation	"iau-miranda"
+	LunarLambert	1
 }
