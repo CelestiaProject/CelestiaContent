@@ -230,7 +230,8 @@
 		MieAsymmetry	-0.7
 		# Approximating absorption due to the ozone layer.
 		#   Concentration: 0.3 ppm
-		#   Absorption cross-section spectrum from Xsect
+		#   Absorption cross-section spectrum from the HITRAN database, processed by Luke Campbell.
+		#   https://hitran.org
 		Absorption	[ 0.0037 0.0025 0.0000 ]
 		CloudHeight	7
 		CloudMap	"earth-clouds.*"
