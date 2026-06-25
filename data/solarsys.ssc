@@ -220,11 +220,18 @@
 	Atmosphere
 	{
 		Height	100
+		# Bucholtz (1995), Applied Optics 34 (15), pp. 2765-2773
+		#   "Rayleigh-scattering calculations for the terrestrial atmosphere"
+		#   https://opg.optica.org/ao/abstract.cfm?uri=ao-34-15-2765 [Paywalled]
+		#   R = 0.68 μm, G = 0.55 μm, B = 0.44 μm
+		Rayleigh	[ 0.004847 0.01149 0.02870 ]
+		MieScaleHeight	8.5  # Rayleigh scale height
 		Mie	0.0002
 		MieAsymmetry	-0.7
-		MieScaleHeight	8.5  # Rayleigh scale height
-		Rayleigh	[ 0.0054 0.0081 0.0167 ]
-		Absorption	[ 0.0027 0.0017 0.0002 ]
+		# Approximating absorption due to the ozone layer.
+		#   Concentration: 0.3 ppm
+		#   Absorption cross-section spectrum from Xsect
+		Absorption	[ 0.0037 0.0025 0.0000 ]
 		CloudHeight	7
 		CloudMap	"earth-clouds.*"
 		CloudShadowDepth	1.0
