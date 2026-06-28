@@ -81,7 +81,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 	{
 		Height	130
 		Mie	0.00005
-		MieAsymmetry	-0.55
+		MieAsymmetry	0.55
 		Rayleigh	[ 0.00002 0.00003 0.00006 ]
 		MieScaleHeight	60
 	}
