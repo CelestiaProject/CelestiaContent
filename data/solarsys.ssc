@@ -225,7 +225,7 @@
 		#   "Rayleigh-scattering calculations for the terrestrial atmosphere"
 		#   https://opg.optica.org/ao/abstract.cfm?uri=ao-34-15-2765 [Paywalled]
 		#   R = 0.68 μm, G = 0.55 μm, B = 0.44 μm
-		# Currently, the values are multiplied by a fudge factor to correct appearance. 
+		# Currently, Rayleigh and Mie coefficients are multiplied by a fudge factor to correct appearance. 
 		#   Fudge factor: 1/π
 		#Rayleigh	[ 0.004847 0.01149 0.02870 ]
 		Rayleigh	[ 0.00154 0.00366 0.00914 ]
@@ -234,9 +234,10 @@
         # Bruneton & Neyret (2008), Special Issue: Proceedings of the 19th Eurographics Symposium on Rendering 27 (4), pp.1079-1086
         #   "Precomputed Atmospheric Scattering"
         #   https://inria.hal.science/inria-00288758/en
-        Mie    0.00157
-        MieHGAnisotropy    0.76
-        #MieScaleHeight    1.2  # the real Mie scale height
+        #Mie	0.01111
+        Mie	0.00050
+        MieHGAnisotropy	0.76
+        #MieScaleHeight	1.2  # the real Mie scale height
 
 		# Approximating absorption due to gases in Earth's atmosphere.
 		#   O2: 0.2095 (corrected with /1.004 to account for H2O)
