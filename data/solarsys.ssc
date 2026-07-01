@@ -236,7 +236,8 @@
         #   https://inria.hal.science/inria-00288758/en
         #Mie	0.01111
         Mie	0.00050
-        MieHGAnisotropy	0.76
+        #MieHGAnisotropy	0.76  # real Mie anisotropy, results in blinding sunsets
+        MieHGAnisotropy	0.61
         #MieScaleHeight	1.2  # the real Mie scale height
 
 		# Approximating absorption due to gases in Earth's atmosphere.
