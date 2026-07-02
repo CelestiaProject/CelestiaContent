@@ -371,10 +371,23 @@
 	Atmosphere
 	{
 		Height	80
-		Mie	0.003
-		MieScaleHeight	11.1
-		Rayleigh	[ 0.00022 0.00034 0.00070 ]
-		Absorption	[ 0.0020 0.0020 0.0030 ]
+
+		# Collienne et al. (2013), Workshop der GI-Fachgruppe VR/AR, pp. 97–108
+		#   "Physically Based Rendering of the Martian Atmosphere"
+		#   https://elib.dlr.de/86477/1/Collienne_GI_VRAR_2013.pdf
+		Rayleigh	[ 0.00634 0.00432 0.00183 ]
+		MieScaleHeight	11.1  # Rayleigh scale height
+
+		# Schneegans et al. (2024), COMPUTER GRAPHICS forum 43 (2)
+		#   "Physically Based Real-Time Rendering of Atmospheres using Mie Theory"
+		#   https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15010
+		#   https://elib.dlr.de/204028/1/v43i2_15_15010.pdf
+		# MieHGAnisotropy based on Chen-Chen et al. (2019), Icarus 330, p. 16-29
+		#   "Characterisation of Martian dust aerosol phase function from sky radiance measurements by MSL engineering cameras"
+		#   https://ui.adsabs.harvard.edu/abs/2019Icar..330...16C/abstract
+		Mie	0.00028
+		MieHGAnisotropy	0.76
+
 		CloudHeight	30
 		CloudMap	"mars-clouds.*"
 	}
