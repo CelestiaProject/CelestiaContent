@@ -382,7 +382,7 @@
 		#   "Physically Based Real-Time Rendering of Atmospheres using Mie Theory"
 		#   https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15010
 		#   https://elib.dlr.de/204028/1/v43i2_15_15010.pdf
-		# MieHGAnisotropy based on Chen-Chen et al. (2019), Icarus 330, p. 16-29
+		# MieHGAnisotropy from Chen-Chen et al. (2019), Icarus 330, p. 16-29
 		#   "Characterisation of Martian dust aerosol phase function from sky radiance measurements by MSL engineering cameras"
 		#   https://ui.adsabs.harvard.edu/abs/2019Icar..330...16C/abstract
 		Mie	0.00028
