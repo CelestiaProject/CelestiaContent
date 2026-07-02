@@ -234,9 +234,9 @@
         # Bruneton & Neyret (2008), Special Issue: Proceedings of the 19th Eurographics Symposium on Rendering 27 (4), pp.1079-1086
         #   "Precomputed Atmospheric Scattering"
         #   https://inria.hal.science/inria-00288758/en
-        #Mie	0.01111
+		# - Mie extinction coefficient (B{_M}{^e}) = 0.01 / 0.9
+		# - g = 0.76
         Mie	0.00050
-        #MieHGAnisotropy	0.76  # real Mie anisotropy, results in blinding sunsets
         MieHGAnisotropy	0.61
         #MieScaleHeight	1.2  # the real Mie scale height
 
