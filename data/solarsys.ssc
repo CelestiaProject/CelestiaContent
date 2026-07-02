@@ -163,7 +163,7 @@
 		Height	200
 		MieScaleHeight	27
 		Mie	0.02
-		MieAsymmetry	-0.2
+		MieHGAnisotropy	0.2
 		Rayleigh	[ 0.0031 0.0058 0.0120 ]
 		# Absorption	[ 0.0044 0.0040 0.0004 ]  # 0.106 0.098 0.043
 		CloudHeight	48.5
@@ -220,18 +220,34 @@
 	Atmosphere
 	{
 		Height	100
+
 		# Bucholtz (1995), Applied Optics 34 (15), 2765-2773
 		#   "Rayleigh-scattering calculations for the terrestrial atmosphere"
 		#   https://opg.optica.org/ao/abstract.cfm?uri=ao-34-15-2765 [Paywalled]
 		#   R = 0.68 μm, G = 0.55 μm, B = 0.44 μm
-		Rayleigh	[ 0.004847 0.01149 0.02870 ]
+		# Currently, Rayleigh and Mie coefficients are multiplied by a fudge factor to correct appearance. 
+		#   Fudge factor: 1/π
+		#Rayleigh	[ 0.004847 0.01149 0.02870 ]
+		Rayleigh	[ 0.00154 0.00366 0.00914 ]
 		MieScaleHeight	8.5  # Rayleigh scale height
-		Mie	0.0002
-		MieAsymmetry	-0.7
-		# Approximating absorption due to the ozone layer.
-		#   Concentration: 0.3 ppm
-		#   Absorption cross-section spectrum from Xsect
-		Absorption	[ 0.0037 0.0025 0.0000 ]
+
+        # Bruneton & Neyret (2008), Special Issue: Proceedings of the 19th Eurographics Symposium on Rendering 27 (4), pp.1079-1086
+        #   "Precomputed Atmospheric Scattering"
+        #   https://inria.hal.science/inria-00288758/en
+		# - Mie scattering coefficient (B{_M}{^s}) = 0.01 km^-1
+		# - g = 0.76
+        Mie	0.00045
+        MieHGAnisotropy	0.61
+        #MieScaleHeight	1.2  # the real Mie scale height
+
+		# Approximating absorption due to gases in Earth's atmosphere.
+		#   O2: 0.2095 (corrected with /1.004 to account for H2O)
+		#   H2O: 0.004
+		#   O3: 0.3e-6
+		# Absorption cross-section spectra from the HITRAN database, processed by Luke Campbell.
+		#   https://hitran.org
+		Absorption	[ 0.00407 0.00254 0.00001 ]
+
 		CloudHeight	7
 		CloudMap	"earth-clouds.*"
 		CloudShadowDepth	1.0
@@ -355,10 +371,23 @@
 	Atmosphere
 	{
 		Height	80
-		Mie	0.003
-		MieScaleHeight	11.1
-		Rayleigh	[ 0.00022 0.00034 0.00070 ]
-		Absorption	[ 0.0020 0.0020 0.0030 ]
+
+		# Collienne et al. (2013), Workshop der GI-Fachgruppe VR/AR, pp. 97–108
+		#   "Physically Based Rendering of the Martian Atmosphere"
+		#   https://elib.dlr.de/86477/1/Collienne_GI_VRAR_2013.pdf
+		Rayleigh	[ 0.00634 0.00432 0.00183 ]
+		MieScaleHeight	11.1  # Rayleigh scale height
+
+		# Schneegans et al. (2024), COMPUTER GRAPHICS forum 43 (2)
+		#   "Physically Based Real-Time Rendering of Atmospheres using Mie Theory"
+		#   https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15010
+		#   https://elib.dlr.de/204028/1/v43i2_15_15010.pdf
+		# MieHGAnisotropy from Chen-Chen et al. (2019), Icarus 330, p. 16-29
+		#   "Characterisation of Martian dust aerosol phase function from sky radiance measurements by MSL engineering cameras"
+		#   https://ui.adsabs.harvard.edu/abs/2019Icar..330...16C/abstract
+		Mie	0.00028
+		MieHGAnisotropy	0.76
+
 		CloudHeight	30
 		CloudMap	"mars-clouds.*"
 	}
@@ -505,7 +534,7 @@
 		Height	1000
 		Mie	0.0001
 		MieScaleHeight	28
-		MieAsymmetry	-0.15
+		MieHGAnisotropy	0.15
 		Rayleigh	[ 0.00095 0.00145 0.00298 ]  # from optical thickness 0.17 at 500 nm
 		Absorption	[ 0.00033 0.00010 0.00001 ]  # total absorption 0.0301 0.0094 0.00002
 	}  # assuming 2 atmospheres of light travel
@@ -1283,7 +1312,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		Height	500
 		Mie	0.0014
 		MieScaleHeight	27.7
-		MieAsymmetry	-0.1
+		MieHGAnisotropy	0.1
 		Rayleigh	[ 0.00026 0.00048 0.00100 ]
 	}
 	CustomOrbit	"vsop87-uranus"
@@ -1577,7 +1606,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		Height	500
 		Mie	0.002
 		MieScaleHeight	20.3
-		MieAsymmetry	-0.1
+		MieHGAnisotropy	0.1
 		Rayleigh	[ 0.00104 0.00193 0.00400 ]
 		Absorption	[ 0.00000 0.00050 0.00100 ]
 	}
