@@ -830,13 +830,14 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Radius	206.60  # maximum semi-axis
 	Mass<kg>	3.75094e19
 	Density	1150.1
+
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	CustomOrbit	"mimas"
 
 	# Overridden by CustomOrbit
-	# OrbitFrame
-	# {
-	#	EclipticJ2000	{ Center "Sol/Saturn" }
-	# }
 	# EllipticalOrbit
 	# {
 	#	Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -877,13 +878,14 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 0.984 1.0 0.984 ]
 	SemiAxes	[ 256.2 251.4 248.6 ]
 	Mass<kg>	1.080318e20
+
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	CustomOrbit	"enceladus"
 
 	# Overridden by CustomOrbit
-	# OrbitFrame
-	# {
-	#	EclipticJ2000	{ Center "Sol/Saturn" }
-	# }
 	# EllipticalOrbit
 	# {
 	#	Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -921,13 +923,14 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 0.980 1.0 0.966 ]
 	SemiAxes	[ 538.4 528.3 526.3 ]
 	Mass<kg>	6.174959e20
+
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	CustomOrbit	"tethys"
 
 	# Overridden by CustomOrbit
-	# OrbitFrame
-	# {
-	#	EclipticJ2000	{ Center "Sol/Saturn" }
-	# }
 	# EllipticalOrbit
 	# {
 	#	Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -965,13 +968,14 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 0.990 1.0 0.989 ]
 	SemiAxes	[ 563.4 561.3 559.6 ]
 	Mass<kg>	1.0954868e21
+
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	CustomOrbit	"dione"
 
 	# Overridden by CustomOrbit
-	# OrbitFrame
-	# {
-	#	EclipticJ2000	{ Center "Sol/Saturn" }
-	# }
 	# EllipticalOrbit
 	# {
 	#	Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -1013,13 +1017,14 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 1.0 0.98264 0.94056 ]
 	SemiAxes	[ 765.68 763.60 762.86 ]
 	Mass<kg>	2.3064854e21
+
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	CustomOrbit	"rhea"
 
 	# Overridden by CustomOrbit
-	# OrbitFrame
-	# {
-	#	EclipticJ2000	{ Center "Sol/Saturn" }
-	# }
 	# EllipticalOrbit
 	# {
 	#	Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -1080,13 +1085,14 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		CloudSpeed	180  # degrees/day, 100 m/s wind speed
 		CloudMap	"titan-clouds.*"
 	}
+
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	CustomOrbit	"titan"
 
 	# Overridden by CustomOrbit
-	# OrbitFrame
-	# {
-	#	EclipticJ2000	{ Center "Sol/Saturn" }
-	# }
 	# EllipticalOrbit
 	# {
 	#	Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -1129,13 +1135,14 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Radius	180.9  # maximum semi-axis
 	Mass<kg>	5.5510e18
 	Density	563
+
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	CustomOrbit	"hyperion"
 
 	# Overridden by CustomOrbit
-	# OrbitFrame
-	# {
-	#	EclipticJ2000	{ Center "Sol/Saturn" }
-	# }
 	# EllipticalOrbit
 	# {
 	#	Epoch	2451545.0  # 2000 Jan 01 12:00
@@ -1180,13 +1187,14 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 0.993 1.0 0.976 ]
 	SemiAxes	[ 745.7 745.7 712.1 ]
 	Mass<kg>	1.8056591e21
+
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "Sol/Saturn" }
+	}
 	CustomOrbit	"iapetus"
 
 	# Overridden by CustomOrbit
-	# OrbitFrame
-	# {
-	#	EclipticJ2000	{ Center "Sol/Saturn" }
-	# }
 	# EllipticalOrbit
 	# {
 	#	Epoch	2451545.0  # 2000 Jan 01 12:00
