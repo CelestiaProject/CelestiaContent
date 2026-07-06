@@ -1391,6 +1391,45 @@
 	InfoURL	"https://en.wikipedia.org/wiki/162173_Ryugu"
 }
 
+# Axis ratios and rotational parameters from Zhang et al. (2026)
+#   "Shape, regolith size and thickness, SMFe0 content, and spectral type of Tianwen-2 target asteroid (469219) Kamo‘oalewa"
+#   https://arxiv.org/abs/2603.28107
+# Diameter and geometric albedo from Sharkey et al. (2026)
+#   "JWST Characterization of Earth Quasi-Satellite (469219) Kamo'oalewa"
+#   https://arxiv.org/abs/2606.24017
+"469219 Kamo'oalewa:Kamo'oalewa:2016 HO3" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"roughsphere.cms"
+	Texture	"asteroid.jpg"
+	Color	[ 1.0 0.970 0.897 ]
+	BlendTexture	true
+	Radius<m>	9
+	SemiAxes	[ 1.378 0.923 0.786 ]
+	
+	EllipticalOrbit
+	{
+		Epoch	2461198.5  # 2026 Jun 7 (Tianwen-2 encounter)
+		Period	1.0011854290769422
+		SemiMajorAxis	1.0007931960323688
+		Eccentricity	0.10224825891954249
+		Inclination	7.80262190720022
+		AscendingNode	65.59323973775082
+		ArgOfPericenter	304.3718568724778
+		MeanAnomaly	241.4095717360578
+	}
+	BodyFrame	{ EclipticJ2000 {} }
+	UniformRotation
+	{
+		Period	0.461
+		Inclination	101.4
+		AscendingNode	224.7
+	}
+	LunarLambert	1
+	GeomAlbedo	0.59
+	InfoURL	"https://en.wikipedia.org/wiki/469219_Kamo%CA%BBoalewa"
+}
+
 # Radar-imaged asteroids
 
 # Rozitis and Green (2014), A&A 568, A43
