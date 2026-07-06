@@ -1402,7 +1402,7 @@
 {
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
-	Texture	"asteroid.jpg"
+	Texture	"asteroid.*"
 	Color	[ 1.0 0.970 0.897 ]
 	BlendTexture	true
 	Radius<m>	9
