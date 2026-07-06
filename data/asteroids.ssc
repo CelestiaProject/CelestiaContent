@@ -3,7 +3,8 @@
 # SPDX-FileCopyrightText: 2019 Askaniy Anpilogov
 # SPDX-FileCopyrightText: 2021, 2023 SevenSpheres
 # SPDX-FileCopyrightText: 2023-2026 Pedro J. Garcia
-# SPDX-FileCopyrightText: 2024-2025 AstroChara
+# SPDX-FileCopyrightText: 2024-2026 AstroChara
+# SPDX-FileCopyrightText: 2025-2026 SpaceExplorer
 # SPDX-License-Identifier: GPL-2.0-or-later
 
 # Some minor planets and their respective satellites, up to the orbit of
@@ -1418,7 +1419,6 @@
 		ArgOfPericenter	304.3718568724778
 		MeanAnomaly	241.4095717360578
 	}
-	BodyFrame	{ EclipticJ2000 {} }
 	UniformRotation
 	{
 		Period	0.461
