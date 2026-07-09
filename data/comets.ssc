@@ -39,8 +39,12 @@
 #  "Magnitude and size distribution of long-period comets in Earth-crossing or approaching orbits"
 #   https://doi.org/10.1111/j.1365-2966.2012.20989.x
 #
+# Bond and Geometric Albedos for 19P, 153P are from Rondon (2025), MNRAS 538, 2869-2904
+#  "Secular light curves of periodic comets observed by SWAN/SOHO"
+#   https://doi.org/10.1093/mnras/staf454
 #
-# Last update: 6 March 2026
+#
+# Last update: 9 July 2026
 
 
 # Periodic Comets
@@ -119,7 +123,8 @@
 	# https://doi.org/10.1016/j.icarus.2006.11.014
 
 	RotationPeriod	11.083
-	GeomAlbedo		 0.046
+	GeomAlbedo		 0.047
+    BondAlbedo       0.008
 	InfoURL	"https://en.wikipedia.org/wiki/Comet_Encke"
 }
 
@@ -182,7 +187,8 @@
 		Inclination    90 
 		AscendingNode 315 
 	}
-	GeomAlbedo	 0.03
+	GeomAlbedo	 0.072
+	BondAlbedo	 0.019
 	InfoURL	"https://en.wikipedia.org/wiki/19P/Borrelly"
 }
 
@@ -212,7 +218,8 @@
 	# https://arxiv.org/abs/2304.09309
 
 	RotationPeriod	 7.39
-	GeomAlbedo		 0.04
+	GeomAlbedo		 0.044
+	BondAlbedo		 0.012
 	InfoURL	"https://en.wikipedia.org/wiki/21P/Giacobini-Zinner"
 }
 
@@ -299,7 +306,8 @@
 	# https://ui.adsabs.harvard.edu/abs/1997A&A...326.1268M
 
 	RotationPeriod	 7.60
-	GeomAlbedo		 0.04
+	GeomAlbedo		 0.44
+	BondAlbedo		 0.4
 	InfoURL	"https://en.wikipedia.org/wiki/46P/Wirtanen"
 }
 
@@ -332,7 +340,8 @@
 	# http://www.cbat.eps.harvard.edu/iauc/06800/06816.html
 
 	RotationPeriod	 15.31
-	GeomAlbedo		  0.06
+	GeomAlbedo		  0.78
+	BondAlbedo		  0.7
 	InfoURL	"https://en.wikipedia.org/wiki/55P/Tempel-Tuttle"
 }
 
@@ -361,7 +370,8 @@
 	# https://arxiv.org/abs/1903.10500
 	
 	RotationPeriod	 4.096
-	GeomAlbedo		 0.040
+	GeomAlbedo		 0.044
+	BondAlbedo		 0.0112
 	InfoURL	"https://en.wikipedia.org/wiki/96P/Machholz"
 }
 
@@ -435,7 +445,7 @@
 	Texture	"asteroid.jpg"
 	Radius	 2.545				# D = 5.09 km
 
-	# Albedo and Radius from Rondon (2025)
+	# Radius from Rondon (2025)
 	# https://doi.org/10.1093/mnras/staf454
 
 	EllipticalOrbit
