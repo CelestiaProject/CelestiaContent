@@ -372,10 +372,7 @@
 	{
 		Height	80
 
-		# Collienne et al. (2013), Workshop der GI-Fachgruppe VR/AR, pp. 97–108
-		#   "Physically Based Rendering of the Martian Atmosphere"
-		#   https://elib.dlr.de/86477/1/Collienne_GI_VRAR_2013.pdf
-		Rayleigh	[ 0.00634 0.00432 0.00183 ]
+		Rayleigh	[ 0.002 0.0015 0.001 ]
 		MieScaleHeight	11.1  # Rayleigh scale height
 
 		# Schneegans et al. (2024), COMPUTER GRAPHICS forum 43 (2)
