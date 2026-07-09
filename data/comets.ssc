@@ -435,7 +435,7 @@
 	Texture	"asteroid.jpg"
 	Radius	 2.545				# D = 5.09 km
 
-	# Radius from Rondon (2025)
+	# BondAlbedo and Radius from Rondon (2025)
 	# https://doi.org/10.1093/mnras/staf454
 
 	EllipticalOrbit
@@ -454,7 +454,7 @@
 	# https://doi.org/10.1007/s11038-005-9062-6
 	
 	RotationPeriod	35.52				# P = 1.48 days
-	GeomAlbedo		 0.04
+	BondAlbedo		 0.12
 	InfoURL	"https://en.wikipedia.org/wiki/153P/Ikeya-Zhang"
 }
 
