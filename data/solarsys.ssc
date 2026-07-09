@@ -372,7 +372,7 @@
 	{
 		Height	80
 
-		Rayleigh	[ 0.002 0.0015 0.001 ]
+		Rayleigh	[ 0.003 0.0022 0.0015 ]
 		MieScaleHeight	11.1  # Rayleigh scale height
 
 		# Schneegans et al. (2024), COMPUTER GRAPHICS forum 43 (2)
