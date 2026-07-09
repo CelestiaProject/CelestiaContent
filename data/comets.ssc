@@ -39,7 +39,8 @@
 #  "Magnitude and size distribution of long-period comets in Earth-crossing or approaching orbits"
 #   https://doi.org/10.1111/j.1365-2966.2012.20989.x
 #
-# Bond and Geometric Albedos for 19P, 153P are from Rondon (2025), MNRAS 538, 2869-2904
+# Bond and Geometric Albedos for 2P, 19P, 21P, 46P, 55P, 96P, and 153P
+# are from Rondon (2025), MNRAS 538, 2869-2904
 #  "Secular light curves of periodic comets observed by SWAN/SOHO"
 #   https://doi.org/10.1093/mnras/staf454
 #
@@ -287,6 +288,7 @@
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.jpg"
 	Radius	 0.6					# D = 1.2 km
+	TailColor	[ 0.30 1.0 0.65 ]
 	Mass<kg>	3.3e11
 	Density	 400
 
@@ -339,7 +341,13 @@
 	# Rotation period from IAU Circular No. 6816 (1998)
 	# http://www.cbat.eps.harvard.edu/iauc/06800/06816.html
 
-	RotationPeriod	 15.31
+	UniformRotation
+	{
+		Period			 15.31
+		Inclination		162
+		AscendingNode	235
+	}
+
 	GeomAlbedo		  0.78
 	BondAlbedo		  0.7
 	InfoURL	"https://en.wikipedia.org/wiki/55P/Tempel-Tuttle"
@@ -369,7 +377,13 @@
 	# Rotation period from Eisner (2019)
 	# https://arxiv.org/abs/1903.10500
 	
-	RotationPeriod	 4.096
+	UniformRotation
+	{
+		Period			  4.096
+		Inclination		 82
+		AscendingNode	189
+	}
+
 	GeomAlbedo		 0.044
 	BondAlbedo		 0.0112
 	InfoURL	"https://en.wikipedia.org/wiki/96P/Machholz"
@@ -463,7 +477,13 @@
 	# Rotation period from Manzini (2007)
 	# https://doi.org/10.1007/s11038-005-9062-6
 	
-	RotationPeriod	35.52				# P = 1.48 days
+	UniformRotation
+	{
+		Period			 35.52			# P = 1.48 days
+		Inclination		 70
+		AscendingNode	322
+	}
+
 	BondAlbedo		 0.12
 	GeomAlbedo		 0.3
 	InfoURL	"https://en.wikipedia.org/wiki/153P/Ikeya-Zhang"
