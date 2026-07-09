@@ -1697,10 +1697,17 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Mass<kg>	2.14029e22  # GM = (1428.49546 ± 0.61603) km^3/s^2
 	Atmosphere
 	{
-		Height	32
-		Mie	0.0003
-		MieScaleHeight	8
-		Absorption	[ 0.00200 0.00200 0.00250 ]
+		Height	30
+
+		# Rayleigh scale height and Mie anisotropy from Gao & Ohno (2024)
+		#   "Clouds and Hazes in the Atmospheres of Triton and Pluto"
+		#   https://arxiv.org/abs/2411.12031
+		#   Mie anisotropy assumed to be the same as discrete component's.
+		Rayleigh	[ 0.0000016 0.0000037 0.0000093 ]
+		MieScaleHeight	16  # Rayleigh scale height
+		
+		Mie	0.00000007
+		MieHGAnisotropy	0.6
 	}
 	CustomOrbit	"triton"
 
