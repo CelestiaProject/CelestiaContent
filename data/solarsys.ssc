@@ -1092,16 +1092,18 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	# though the value might apply to ground level and not cloud tops
 	# reproduces Cassini views at low phase angles
 	# the visible scale height at high phase angles seems larger
-
-	# CloudSpeed derived from Read & Lebonnois (2018), AREPS 46, 175
-	#   "Superrotation on Venus, on Titan, and Elsewhere"
-	#   https://ui.adsabs.harvard.edu/abs/2018AREPS..46..175R/abstract
 	Atmosphere
 	{
 		Height	1000
-		Rayleigh	[ 0.00052 0.00096 0.00200 ]
-		MieScaleHeight	130
+
+		Rayleigh	[ 0.0000545 0.000129 0.0003218 ]
+		MieScaleHeight	150
+
 		Absorption	[ 0.00031 0.00139 0.00302 ]
+
+		# CloudSpeed derived from Read & Lebonnois (2018), AREPS 46, 175
+		#   "Superrotation on Venus, on Titan, and Elsewhere"
+		#   https://ui.adsabs.harvard.edu/abs/2018AREPS..46..175R/abstract
 		CloudHeight	200
 		CloudSpeed	180  # degrees/day, 100 m/s wind speed
 		CloudMap	"titan-clouds.*"
