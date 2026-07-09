@@ -169,8 +169,12 @@
 		Rayleigh	[ 0.0011651 0.002766 0.0069244 ]
 		MieScaleHeight	27
 		
-		Mie	0.01
-		MieHGAnisotropy	0.2
+		# Mie anisotropy from Satoh et al. (2009), JGR 114 (1), CiteID E00B37
+		#   "Cloud structure in Venus middle-to-lower atmosphere as inferred from VEX/VIRTIS 1.74 μm data"
+		#   https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2008JE003184
+		#   https://ui.adsabs.harvard.edu/abs/2009JGRE..114.0B37S/abstract
+		Mie	0.001
+		MieHGAnisotropy	0.6
 
 		# Absorption	[ 0.0044 0.0040 0.0004 ]  # 0.106 0.098 0.043
 
