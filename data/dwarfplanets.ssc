@@ -81,8 +81,11 @@ ReferencePoint "Pluto-Charon" "Sol"
 	{
 		Height	200
 
+		# Rayleigh coefficient multiplied by fudge factor to correct appearance.
+		#   Fudge factor: 3
 		Rayleigh	[ 0.0000009 0.0000022 0.0000055 ]
 		
+		# Mie coefficient hand-picked to fit Pluto images from New Horizons.
 		# Mie anisotropy from Hillier et al. (2021), PSJ 2 (1), id.11
 		#   "Characteristics of Pluto’s Haze and Surface from an Analytic Radiative Transfer Model"
 		#   https://iopscience.iop.org/article/10.3847/PSJ/abbdaf

@@ -165,6 +165,7 @@
 		# Rayleigh scattering coefficients are anchored to cloudtop altitudes, assumed to be 64 km.
 		# At 64 km, the coefficients are: [ 0.00154417 0.00366592 0.00917735 ]
 		# These are scaled to reach the surface.
+		#   Fudge factor: 1/π
 		Rayleigh	[ 0.0011651 0.002766 0.0069244 ]
 		MieScaleHeight	27
 		
@@ -232,7 +233,7 @@
 		#   "Rayleigh-scattering calculations for the terrestrial atmosphere"
 		#   https://opg.optica.org/ao/abstract.cfm?uri=ao-34-15-2765 [Paywalled]
 		#   R = 0.68 μm, G = 0.55 μm, B = 0.44 μm
-		# Currently, Rayleigh and Mie coefficients are multiplied by a fudge factor to correct appearance. 
+		# Currently, Rayleigh and Mie coefficients are multiplied by a fudge factor to correct appearance.
 		#   Fudge factor: 1/π
 		#Rayleigh	[ 0.004847 0.01149 0.02870 ]
 		Rayleigh	[ 0.00154 0.00366 0.00914 ]
@@ -379,7 +380,8 @@
 	{
 		Height	80
 
-		Rayleigh	[ 0.003 0.0022 0.0015 ]
+		# Rayleigh coefficients are hand-picked to emulate Martian daytime sky.
+		Rayleigh	[ 0.002 0.0015 0.001 ]
 		MieScaleHeight	11.1  # Rayleigh scale height
 
 		# Schneegans et al. (2024), COMPUTER GRAPHICS forum 43 (2)
@@ -390,7 +392,7 @@
 		#   "Characterisation of Martian dust aerosol phase function from sky radiance measurements by MSL engineering cameras"
 		#   https://ui.adsabs.harvard.edu/abs/2019Icar..330...16C/abstract
 		Mie	0.00028
-		MieHGAnisotropy	0.76
+		MieHGAnisotropy	0.673
 
 		CloudHeight	30
 		CloudMap	"mars-clouds.*"
@@ -1094,15 +1096,13 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	SpecularPower	1000
 	SemiAxes	[ 2575.164 2574.720 2574.314 ]
 	Mass<kg>	1.345180354e23
-
-	# Scale height is greater than in reality
-	# though the value might apply to ground level and not cloud tops
-	# reproduces Cassini views at low phase angles
-	# the visible scale height at high phase angles seems larger
 	Atmosphere
 	{
 		Height	1000
 
+		# Rayleigh coefficient multiplied by fudge factor to correct appearance.
+		#   Fudge factor: 1/400
+		# Scale height is arbitrary, but is larger than in reality.
 		Rayleigh	[ 0.0000545 0.000129 0.0003218 ]
 		MieScaleHeight	150
 
@@ -1703,8 +1703,10 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Mass<kg>	2.14029e22  # GM = (1428.49546 ± 0.61603) km^3/s^2
 	Atmosphere
 	{
-		Height	30
+		Height	100
 
+		# Rayleigh coefficient multiplied by fudge factor to correct appearance.
+		#   Fudge factor: 3
 		# Rayleigh scale height and Mie anisotropy from Gao & Ohno (2024)
 		#   "Clouds and Hazes in the Atmospheres of Triton and Pluto"
 		#   https://arxiv.org/abs/2411.12031
@@ -1712,6 +1714,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		Rayleigh	[ 0.0000016 0.0000037 0.0000093 ]
 		MieScaleHeight	16  # Rayleigh scale height
 		
+		# Mie coefficient scaled from Pluto's, using optical depth from Gao & Ohno (2024).
 		Mie	0.00000007
 		MieHGAnisotropy	0.6
 	}
