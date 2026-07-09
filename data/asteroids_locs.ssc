@@ -1,8 +1,11 @@
 # SPDX-FileCopyrightText: 2023 Askaniy Anpilogov
+# SPDX-FileCopyrightText: 2004, 2008-2009 Grant Hutchison
+# SPDX-FileCopyrightText: 2008 Chris Laurel
 # SPDX-FileCopyrightText: 2023, 2025-2026 Pedro J. Garcia
+# SPDX-FileCopyrightText: 2025 domi9
 # SPDX-License-Identifier: GPL-2.0-or-later
 
-# 374 locations on Vesta, Lutetia, Ida, Mathilde, Eros, Gaspra, Steins, Itokawa, Didymos, Dimorphos, Bennu, Ryugu and Arrokoth.
+# 382 locations on Vesta, Lutetia, Ida, Mathilde, Eros, Gaspra, Steins, Itokawa, Didymos, Dimorphos, Bennu, Dinkinesh, Selam, Ryugu and Arrokoth.
 
 
 # 106 locations on Vesta.
@@ -2532,6 +2535,68 @@ Location "Wututu" "Sol/Bennu"
 	LongLat	[ 84.34 -17.03 0 ]
 	Size	0.013
 	Type	"AA"
+}
+
+
+# 5 locations on Dinkinesh.
+
+Location "Bella Dorsum" "Sol/Dinkinesh"
+{
+	LongLat	[ -48.9 24.4 0 ]
+	Size	0.37
+	Type	"DO"
+}
+
+Location "Fab Dorsum" "Sol/Dinkinesh"
+{
+	LongLat	[ 325 -5 0 ]
+	Size	2.66
+	Type	"DO"
+}
+
+Location "Indah Fossa" "Sol/Dinkinesh"
+{
+	LongLat	[ 4.31 -8.52 0 ]
+	Size	0.49
+	Type	"FO"
+}
+
+Location "Sumak Fossa" "Sol/Dinkinesh"
+{
+	LongLat	[ -6 0 0 ]
+	Size	1.07
+	Type	"FO"
+}
+
+Location "Totoka Saxum" "Sol/Dinkinesh"
+{
+	LongLat	[ -3.1 2.3 0 ]
+	Size	0.009
+	Type	"SA"
+}
+
+
+# 3 locations on Selam.
+
+Location "LẸWA LOBUS" "Sol/Dinkinesh/Selam"
+{
+	LongLat	[ 220 0 0 ]
+	Size	0.29
+	Type	"LO"
+}
+
+Location "PIĘKNA LOBUS" "Sol/Dinkinesh/Selam"
+{
+	LongLat	[ 305 0 0 ]
+	Size	0.24
+	Type	"LO"
+}
+
+Location "Uwoduhi Dorsum" "Sol/Dinkinesh/Selam"
+{
+	LongLat	[ 340 0 0 ]
+	Size	0.2
+	Type	"DO"
 }
 
 

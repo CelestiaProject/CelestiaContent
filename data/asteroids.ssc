@@ -4,6 +4,7 @@
 # SPDX-FileCopyrightText: 2021, 2023 SevenSpheres
 # SPDX-FileCopyrightText: 2023-2026 Pedro J. Garcia
 # SPDX-FileCopyrightText: 2024-2026 AstroChara
+# SPDX-FileCopyrightText: 2024-2025 domi9
 # SPDX-FileCopyrightText: 2025-2026 SpaceExplorer
 # SPDX-License-Identifier: GPL-2.0-or-later
 
@@ -1345,6 +1346,80 @@
 	BondAlbedo	0.025  # Zou et al. (2021), 2021Icar..35814183Z
 	SphAlbedo	0.020  # Bond albedo at 0.55 µm
 	InfoURL	"https://en.wikipedia.org/wiki/101955_Bennu"
+}
+
+# Levison et al. (2024), Nature 629, 1015-1020
+#   "A contact binary satellite of the asteroid (152830) Dinkinesh"
+#   https://ui.adsabs.harvard.edu/abs/2024Natur.629.1015L/abstract
+# Size and density from Bierhaus et al. (2025), Planet. Sci. J. 6, 299
+#   "The Geology of a Small Main-belt S-class Binary Asteroid System:
+#   Dinkinesh and Its Contact Binary Satellite Selam as Observed by the Lucy Mission"
+#   https://ui.adsabs.harvard.edu/abs/2025PSJ.....6..299B/abstract
+# Pole orientation and spherical/Bond albedos from Jackson et al. (2025), Planet. Sci. J. 6, 168
+#   "Thermal-IR Observations of (152830) Dinkinesh during the Lucy Mission Flyby"
+#   https://ui.adsabs.harvard.edu/abs/2025PSJ.....6..168J/abstract
+"152830 Dinkinesh:Dinkinesh:1999 VD57:2004 HJ78:2007 CB63" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"dinkinesh.cmod"
+	Orientation	[ 11 0 1 0 ]
+	Texture	"dinkinesh.*"  # brightness: 0.61565
+	Color	[ 0.614 0.581 0.512 ]
+	BlendTexture	true
+	Radius	0.455  # maximum semi-axis
+	# Mass<kg>	4.95e11  # system mass
+	# Density	2220
+	EllipticalOrbit
+	{
+		Epoch	2460250.204968  # 2023 Nov 01 16:54 UT (Lucy encounter)
+		Period	3.244570881233216
+		SemiMajorAxis	2.191623974754082
+		Eccentricity	0.1121272072002222
+		Inclination	2.093522123142289
+		AscendingNode	21.38248709753523
+		ArgOfPericenter	66.78496360214777
+		MeanAnomaly	101.0214357562674
+	}
+	UniformRotation
+	{
+		Period	3.7387
+		Inclination	177.05
+		AscendingNode	185.53
+		MeridianAngle 310  # approximate
+	}
+	LunarLambert 1
+	GeomAlbedo	0.27  # McFadden et al. (2023), 2023ApJ...957L...2M
+	SphAlbedo	0.114  # rough-surface Bond albedo
+	BondAlbedo	0.15  # smooth-surface, used for thermophysical modeling
+	InfoURL	"https://en.wikipedia.org/wiki/152830_Dinkinesh"
+}
+
+"Selam:152830 Dinkinesh I:Dinkinesh I" "Sol/Dinkinesh"
+{
+	Class	"asteroid"
+	Mesh	"selam.cmod"
+	Orientation	[ -175 0 1 0 ]
+	Texture	"selam.*"  # brightness: 0.64162
+	Color	[ 0.589 0.557 0.491 ]
+	BlendTexture	true
+	Radius	0.26  # sum of maximum semi-axes of both lobes
+	EllipticalOrbit
+	{
+		Epoch	2460249.5  # 2023 Nov 01
+		Period<h>	52.67
+		SemiMajorAxis	3.11
+		Inclination	5  # approximate
+		MeanAnomaly	264  # approximate
+	}
+	UniformRotation
+	{
+		MeridianAngle	315  # approximate
+	}
+	LunarLambert 1
+	GeomAlbedo	0.27
+	SphAlbedo	0.114
+	BondAlbedo	0.15
+	InfoURL	"https://en.wikipedia.org/wiki/Selam_(moon)"
 }
 
 # Watanabe et al. (2019), Science 364 (6437), p. 268-272
