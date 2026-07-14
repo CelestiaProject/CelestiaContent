@@ -3,7 +3,7 @@
 # SPDX-FileCopyrightText: 2019, 2021 SevenSpheres
 # SPDX-FileCopyrightText: 2023 Andrew Tribick
 # SPDX-FileCopyrightText: 2023-2025 AstroChara
-# SPDX-FileCopyrightText: 2024-2025 Pedro J. Garcia
+# SPDX-FileCopyrightText: 2024-2026 Pedro J. Garcia
 # SPDX-FileCopyrightText: 2025-2026 LunaTheSilly
 # SPDX-License-Identifier: GPL-2.0-or-later
 
@@ -650,7 +650,7 @@ ReferencePoint "Orcus-Vanth" "Sol"
 # Proudfoot et al. (2025), ApJL 993, L38
 #   "Orbital Characterization of a Newly Discovered Small Satellite around Quaoar"
 #   https://iopscience.iop.org/article/10.3847/2041-8213/ae1585
-"Quaoar's second moon" "Sol/Quaoar"  # no provisional designation
+"Quaoar Gamma" "Sol/Quaoar"  # no provisional designation
 {
 	Class	"moon"
 	Mesh	"asteroid.cms"

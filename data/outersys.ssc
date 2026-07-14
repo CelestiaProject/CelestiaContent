@@ -5,7 +5,7 @@
 # SPDX-FileCopyrightText: 2021-2022 SevenSpheres
 # SPDX-FileCopyrightText: 2023-2025 AstroChara
 # SPDX-FileCopyrightText: 2025 DaveBowman2001
-# SPDX-FileCopyrightText: 2025 Pedro J. Garcia
+# SPDX-FileCopyrightText: 2025-2026 Pedro J. Garcia
 # SPDX-FileCopyrightText: 2026 LunaTheSilly
 # SPDX-License-Identifier: CC-BY-4.0
 
@@ -367,7 +367,7 @@ ReferencePoint "Huya System" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/38628_Huya"
 }
 
-"Huya moon" "Sol/Huya"  # no provisional designation
+"Huya B" "Sol/Huya"  # no provisional designation
 {
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
@@ -1282,7 +1282,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/532037_Chiminigagua"
 }
 
-"Chiminigagua moon" "Sol/Chiminigagua"  # no provisional designation
+"Chiminigagua Beta" "Sol/Chiminigagua"  # no provisional designation
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"

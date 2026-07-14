@@ -589,7 +589,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/130_Elektra#S/2014_(130)_1"
 }
 
-"S 2014 (130) 2" "Sol/Elektra"  # no provisional designation
+"S 2014 (130) 2" "Sol/Elektra"  # unofficial provisional designation
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
@@ -1785,7 +1785,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/(153591)_2001_SN263"
 }
 
-"2001 SN263 Gamma" "Sol/2001 SN263"
+"2001 SN263 Gamma" "Sol/2001 SN263"  # no provisional designation
 {
 	Class	"minormoon"
 	Mesh	"153591gamma.cmod"
@@ -1822,7 +1822,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/(153591)_2001_SN263#Trinary_system"
 }
 
-"2001 SN263 Beta" "Sol/2001 SN263"
+"2001 SN263 Beta" "Sol/2001 SN263"  # no provisional designation
 {
 	Class	"minormoon"
 	Mesh	"153591beta.cmod"
