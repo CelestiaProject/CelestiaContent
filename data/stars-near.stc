@@ -4172,7 +4172,7 @@ Barycenter 83945 "GJ 3991:Giclas 203-47"
 	EllipticalOrbit                     # radial velocity-only orbit
 	{
 		Period<d>           14.909777   # ± 0.00001
-		SemiMajorAxis        0.070	    # estimated from mass ratio 0.35:0.5
+		SemiMajorAxis        0.078      # estimated from mass ratio = (0.2714 +0.0066 –0.0065):0.6
 		Eccentricity         0.068
 		ArgOfPericenter    332.0
 		MeanAnomaly        348.6
@@ -4183,18 +4183,18 @@ Barycenter 83945 "GJ 3991:Giclas 203-47"
 	}
 }
 
-# Mass is assumed to be 0.5 solar masses (minimum mass).
+# Mass is assumed to be 0.6 solar masses, based on logg and white dwarf mass-radius relations.
 "GJ 3991 B:Giclas 203-47 B"
 {
 	SpectralType "D"
-	AbsMag 13.7                         # for a 0.5-solar-mass white dwarf
+	AbsMag 14.9
 	Temperature 5286
 
 	OrbitBarycenter "Giclas 203-47"
 	EllipticalOrbit                     # radial velocity-only orbit
 	{
 		Period<d>           14.909777   # ± 0.00001
-		SemiMajorAxis        0.038      # estimated from mass ratio = (0.2714 +0.0066 –0.0065):0.5
+		SemiMajorAxis        0.035      # estimated from mass ratio = (0.2714 +0.0066 –0.0065):0.6
 		Eccentricity         0.068
 		ArgOfPericenter    152.0
 		MeanAnomaly        348.6
