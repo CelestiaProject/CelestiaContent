@@ -4150,6 +4150,9 @@ Barycenter 5336 "MU Cas:30 Cas:Gliese 53"
 #   "A Global View of Post-interaction White Dwarf-main Sequence Binaries"
 #   https://iopscience.iop.org/article/10.1088/1538-3873/ae453b
 #   https://ui.adsabs.harvard.edu/abs/2026PASP..138c4202S/abstract
+# B's Temperature and A's rotation period from O’Brien et al. (2026), MNRAS 550 (2), stag1195
+#   "Direct detections of white dwarfs in four WD+dM post-common envelope binaries within 20 pc"
+#   https://academic.oup.com/mnras/article/550/2/stag1195/8733147
 Barycenter 83945 "GJ 3991:Giclas 203-47"
 {
 	RA 257.38347212
@@ -4174,12 +4177,13 @@ Barycenter 83945 "GJ 3991:Giclas 203-47"
 		ArgOfPericenter    332.0
 		MeanAnomaly        348.6
 	}
+	UniformRotation
+	{
+	    Period<d>          126.3        # tentative
+	}
 }
 
 # Mass is assumed to be 0.5 solar masses (minimum mass).
-# Temperature and rotation period from O’Brien et al. (2026), MNRAS 550 (2), stag1195
-#   "Direct detections of white dwarfs in four WD+dM post-common envelope binaries within 20 pc"
-#   https://academic.oup.com/mnras/article/550/2/stag1195/8733147
 "GJ 3991 B:Giclas 203-47 B"
 {
 	SpectralType "D"
@@ -4194,10 +4198,6 @@ Barycenter 83945 "GJ 3991:Giclas 203-47"
 		Eccentricity         0.068
 		ArgOfPericenter    152.0
 		MeanAnomaly        348.6
-	}
-	UniformRotation
-	{
-	    Period<d>          100          # approximate
 	}
 }
 
