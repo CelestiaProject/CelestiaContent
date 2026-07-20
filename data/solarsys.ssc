@@ -105,9 +105,18 @@
 # 6.67430(15) x 10^(-11) m^3 kg^(-1) s^(-2)
 # 
 # 
-# === Absorption color ===
-# Some bodies with atmospheres have Absorption.
-# Colors of absorption are obtained using TrueColorTools,
+# === Atmospheres ===
+# 
+# Rayleigh coefficients are calculated using the Rayleigh cross-section equation
+# Hansen & Travis (1974), Space Sci. Rev. 16, p. 527-610
+#   "Light scattering in planetary atmospheres"
+#   https://www.giss.nasa.gov/pubs/abs/ha09500o.html
+#   pp. 542-543, Equation 2.25
+# Refractive indices at standard conditions from RefractiveIndex.INFO
+#   https://refractiveindex.info
+# The wavelengths used are R = 680 nm, G = 550 nm, B = 440 nm.
+# 
+# Colors of Absorption are obtained using TrueColorTools,
 # using cross-section spectra from the HITRAN database:
 #   https://hitran.org
 # and processed by Luke Campbell.
@@ -178,8 +187,7 @@
 		#   "Cloud structure in Venus middle-to-lower atmosphere as inferred from VEX/VIRTIS 1.74 μm data"
 		#   https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2008JE003184
 		#   https://ui.adsabs.harvard.edu/abs/2009JGRE..114.0B37S/abstract
-		Mie	0.01
-		MieHGAnisotropy	0.6
+		#MieHGAnisotropy	0.6
 
 		CloudHeight	48.5
 		CloudSpeed	90  # 90 degrees/day motion = 4 days super-rotation
