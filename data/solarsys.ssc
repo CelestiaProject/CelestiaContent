@@ -189,7 +189,7 @@
 		#   https://ui.adsabs.harvard.edu/abs/2009JGRE..114.0B37S/abstract
 		#MieHGAnisotropy	0.6
 
-		CloudHeight	48.5
+		CloudHeight	65
 		CloudSpeed	90  # 90 degrees/day motion = 4 days super-rotation
 		CloudMap	"venus-clouds.*"
 	}
