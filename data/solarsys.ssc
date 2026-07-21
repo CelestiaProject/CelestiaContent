@@ -1122,10 +1122,11 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		#   CH4: 0.014
 		Absorption	[ 0.00751 0.00087 0.00001 ]
 
-		# CloudHeight uses optical limb altitude from Karkoschka & Lorenz (1997), Icarus 125 (2), pp. 369-379
+		# CloudHeight from Karkoschka & Lorenz (1997), Icarus 125 (2), pp. 369-379
 		#   "Latitudinal Variation of Aerosol Sizes Inferred from Titan's Shadow"
 		#   https://www.sciencedirect.com/science/article/abs/pii/S0019103596956213
 		#   https://ui.adsabs.harvard.edu/abs/1997Icar..125..369K/abstract
+		#   Uses optical limb altitude at southern region at 600-650 nm (~haze color).
 		# CloudSpeed derived from Read & Lebonnois (2018), AREPS 46, 175
 		#   "Superrotation on Venus, on Titan, and Elsewhere"
 		#   https://ui.adsabs.harvard.edu/abs/2018AREPS..46..175R/abstract
