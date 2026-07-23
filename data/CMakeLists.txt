@@ -53,3 +53,4 @@ set(DATA_SOURCES
 )
 
 install(FILES ${DATA_SOURCES} DESTINATION "${DATADIR}/data" COMPONENT core)
+install(FILES atmospheres/earth.atm DESTINATION "${DATADIR}/data/atmospheres" COMPONENT core)

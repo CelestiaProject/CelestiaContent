@@ -191,12 +191,21 @@
 	Mass	1
 	Atmosphere
 	{
-		Height	100
-		Mie	0.0002
-		MieAsymmetry	-0.7
-		MieScaleHeight	8.5  # Rayleigh scale height
-		Rayleigh	[ 0.0054 0.0081 0.0167 ]
-		Absorption	[ 0.0027 0.0017 0.0002 ]
+		Height	80
+
+		# CosmoScout-VR precomputed atmosphere data. The pack contains the phase,
+		# transmittance, indirect-illuminance, multiple-scattering,
+		# single-aerosols-scattering and theta-deviation LUTs.
+		BrunetonData	"data/atmospheres/earth.atm"
+
+		# Render metadata from CosmoScout's Earth dataset.
+		# Angles are in radians; illuminance is in lux.
+		SunIlluminance		[ 144809.5 129443.421875 127098.6484375 ]
+		SunAngularRadius		0.004654695745557547
+		ScatteringTextureNuSize	8
+		MaxSunZenithAngle	2.094395160675049
+		Refraction		true
+
 		CloudHeight	7
 		CloudMap	"earth-clouds.*"
 		CloudShadowDepth	1.0
