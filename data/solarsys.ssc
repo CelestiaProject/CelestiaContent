@@ -1724,17 +1724,15 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	{
 		Height	100
 
-		# Rayleigh coefficient multiplied by fudge factor to correct appearance.
-		#   Fudge factor: 3
 		# Rayleigh scale height and Mie anisotropy from Gao & Ohno (2024)
 		#   "Clouds and Hazes in the Atmospheres of Triton and Pluto"
 		#   https://arxiv.org/abs/2411.12031
 		#   Mie anisotropy assumed to be the same as discrete component's.
-		Rayleigh	[ 0.0000016 0.0000037 0.0000093 ]
+		Rayleigh	[ 0.0000005 0.0000012 0.0000031 ]
 		MieScaleHeight	16  # Rayleigh scale height
 		
 		# Mie coefficient scaled from Pluto's, using optical depth from Gao & Ohno (2024).
-		Mie	0.00000007
+		Mie	0.00000038
 		MieHGAnisotropy	0.6
 	}
 	CustomOrbit	"triton"
