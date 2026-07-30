@@ -937,14 +937,14 @@
      }
  }
 
- Barycenter 104858 "DEL Equ:7 Equ:Gliese 822:ADS 14773 AB:CCDM J21145+1001AB"
+ Barycenter 104858 "DEL Equ:7 Equ:Gliese 822:ADS 14773 AB:CCDM J21145+1001AB"  # WGSN contrived
  {
      RA       318.619959
      Dec       10.007719
      Distance  60.300795
  }
 
- "DEL Equ A:7 Equ A:Gliese 822 A:ADS 14773 A:CCDM J21145+1001A"
+ "Tepennekhet:DEL Equ A:7 Equ A:Gliese 822 A:ADS 14773 A:CCDM J21145+1001A"
  {
      OrbitBarycenter "Gliese 822"
      SpectralType    "F8V"
@@ -2415,14 +2415,14 @@
      }
  }
 
- Barycenter 104887 "TAU Cyg:65 Cyg:ADS 14787 AB:CCDM J21148+3803AB"
+ Barycenter 104887 "TAU Cyg:65 Cyg:ADS 14787 AB:CCDM J21148+3803AB"  # WGSN contrived: asterism
  {
      RA       318.697278
      Dec       38.044321
      Distance  66.348047
  }
 
- 1038763169 "TAU Cyg A:65 Cyg A:ADS 14787 A:CCDM J21148+3803A"
+ 1038763169 "Enduri Senggu:TAU Cyg A:65 Cyg A:ADS 14787 A:CCDM J21148+3803A"
  {
      OrbitBarycenter "TAU Cyg"
      SpectralType    "F1IV"   # lacking, used HIP data of the entire system!
