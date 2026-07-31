@@ -21,7 +21,7 @@
 # https://ui.adsabs.harvard.edu/abs/2021A%26A...654A..56V/abstract
 
 # In some cases, rotation parameters have been obtained from the IAUspin files
-# available at DAMIT: https://astro.troja.mff.cuni.cz/projects/damit/
+# available on DAMIT: https://damit.cuni.cz/projects/damit/
 
 # Asteroid colors are derived mainly from SMASS/MITHNEOS spectra
 # (http://smass.mit.edu/catalog.php), supplemented by spectra and color indices
@@ -292,6 +292,71 @@
 	GeomAlbedo	0.16
 	SphAlbedo	0.065  # for G_1 = 0.10 and G_2 = 0.440
 	InfoURL	"https://en.wikipedia.org/wiki/16_Psyche"
+}
+
+# Minker et al. (2026), accepted by A&A
+#   "Unmasking (44) Nysa: Evidence for a trilobate structure"
+#   https://arxiv.org/abs/2607.25786
+# Size and geometric albedo from Shepard et al. (2008), Icarus 195, 220-225
+#   "Radar observations of E-class Asteroids 44 Nysa and 434 Hungaria"
+#   https://echo.jpl.nasa.gov/asteroids/MBAs/shepard.etal.2008.nysa+hungaria.pdf
+#   https://ui.adsabs.harvard.edu/abs/2008Icar..195..220S/abstract
+"44 Nysa:Nysa:1977 CE" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"nysa.cmod"
+	MeshCenter	[ -5.589 -1.636 5.304 ]
+	Texture	"asteroid.*"
+	Color	[ 0.817 0.81 0.79 ]  # a000044.2.txt
+	BlendTexture	true
+	Radius	56.5  # maximum semi-axis
+	EllipticalOrbit
+	{
+		Epoch	2461200.5  # 2026 Jun 09
+		Period	3.770541974531025
+		SemiMajorAxis	2.422499624292143
+		Eccentricity	0.1496735116405386
+		Inclination	3.713137130620973
+		AscendingNode	131.4762396518531
+		ArgOfPericenter	343.8930847472048
+		MeanAnomaly	41.45745492537208
+	}
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation  # from DAMIT model 16324
+	{
+		Period	6.421418
+		Inclination	13
+		AscendingNode	214
+		MeridianAngle	249.8
+	}
+	LunarLambert	1
+	GeomAlbedo	0.44
+	SphAlbedo	0.25  # for G_1 = 0.05 and G_2 = 0.670
+	InfoURL	"https://en.wikipedia.org/wiki/44_Nysa"
+}
+
+"S 2026 (44) 1" "Sol/Nysa"  # unofficial provisional designation
+{
+	Class	"minormoon"
+	Mesh	"asteroid.cms"
+	Texture	"asteroid.*"
+	Color	[ 0.817 0.81 0.79 ]
+	BlendTexture	true
+	Radius	0.5
+	EllipticalOrbit
+	{
+		Epoch	2461086.415  # to match 2026-02-15 image position
+		Period	1.9385  # estimate
+		SemiMajorAxis	320  # to match projected separation
+	}
+	UniformRotation  # to match orbit
+	{
+		MeridianAngle	202
+	}
+	LunarLambert	1
+	GeomAlbedo	0.44
+	SphAlbedo	0.25
+	InfoURL	"https://en.wikipedia.org/wiki/44_Nysa#Satellite"
 }
 
 # Mass, pole orientation and moon orbits from Beauvalet and Marchis (2014), Icarus 241, p. 13-25
