@@ -345,8 +345,13 @@
 	Radius	0.5
 	EllipticalOrbit
 	{
-		Period	0.96  # estimate
-		SemiMajorAxis	180  # projected separation
+		Epoch	2461086.415  # to match 2026-02-15 image position
+		Period	1.9385  # estimate
+		SemiMajorAxis	320  # to match projected separation
+	}
+	UniformRotation  # to match orbit
+	{
+		MeridianAngle	202
 	}
 	LunarLambert	1
 	GeomAlbedo	0.44
