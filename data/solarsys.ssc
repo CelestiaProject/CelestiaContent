@@ -549,15 +549,22 @@
 	Color	[ 1.0 0.98663 0.91433 ]
 	SemiAxes	[ 71488 71488 66842 ]
 	Mass<kg>	1.898125e27
-	Atmosphere  # upper clouds at 0.6 bar
+
+	Atmosphere
 	{
-		Height	1000
-		Mie	0.0001
-		MieScaleHeight	28
-		MieHGAnisotropy	0.15
-		Rayleigh	[ 0.00095 0.00145 0.00298 ]  # from optical thickness 0.17 at 500 nm
-		Absorption	[ 0.00033 0.00010 0.00001 ]  # total absorption 0.0301 0.0094 0.00002
-	}  # assuming 2 atmospheres of light travel
+		Height	180
+
+		# Cloud-2 at 0.55 bar
+		# Irwin et al. (2026) preprint
+		#   "Cloud and ammonia vertical profiles in the equatorial atmosphere of Jupiter determined from visible to near-IR observations made by VLT/MUSE, Cassini/VIMS, IRTF/SpeX and Juno/JIRAM"
+		#   https://arxiv.org/abs/2607.25542
+		Rayleigh	[ 0.00111 0.00265 0.00665 ]
+		MieScaleHeight	18
+
+		# Approximating absorption due to gases in the atmosphere.
+		#   CH4: 0.0018
+		Absorption	[ 0.00024 0.00003 0.00000 ]
+	}
 	CustomOrbit	"vsop87-jupiter"
 
 	# Overridden by CustomOrbit
@@ -821,13 +828,18 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 1.0 0.9476 0.81514 ]
 	SemiAxes	[ 60268 60268 54364 ]
 	Mass<kg>	5.68317e26  # GM = (37931206.234 ± 0.726) km^3/s^2
-	Atmosphere  # upper clouds at 0.4 bar
+	Atmosphere
 	{
-		Height	1000
-		Mie	0.0001
-		MieScaleHeight	59.5
-		Rayleigh	[ 0.00068 0.00103 0.00213 ]
-		Absorption	[ 0.00016 0.00005 0.00001 ]  # total absorption: 0.0306 0.0102 0.0015
+		Height	330
+
+		# Tropopause at 0.15 bar
+		#   https://scixplorer.org/abs/2013Icar..225...93R/abstract
+		Rayleigh	[ 0.00052 0.00123 0.00309 ]
+		MieScaleHeight	33
+
+		# Approximating absorption due to gases in the atmosphere.
+		#   CH4: 0.0045
+		Absorption	[ 0.00027 0.00003 0.00000 ]
 	}
 	CustomOrbit	"vsop87-saturn"
 
@@ -1342,11 +1354,21 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Mass<kg>	8.68099e25  # GM = (5793950.61 ± 2.16) km^3/s^2
 	Atmosphere
 	{
-		Height	500
-		Mie	0.0014
-		MieScaleHeight	27.7
-		MieHGAnisotropy	0.1
-		Rayleigh	[ 0.00026 0.00048 0.00100 ]
+		Height	240
+
+		# Aerosol-2 at 1 bar
+		Rayleigh	[ 0.00346 0.00822 0.02067 ]
+		MieScaleHeight	24
+
+		# Mie coefficient from Irwin et al. (2022), JGR: Planets 127 (6), article id. e07189
+		#   "Hazy Blue Worlds: A Holistic Aerosol Model for Uranus and Neptune, Including Dark Spots"
+		#   https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JE007189
+		#   https://ui.adsabs.harvard.edu/abs/2022JGRE..12707189I/abstract
+		# Aerosol-3 opacity (τ_3) at 0.8 μm = 0.03
+		#   scaled by 2 (fudge to get opacity at 0.55 μm), divided by scale height = 24 km
+		Mie	0.0025
+
+		Absorption	[ 0.002 0.002 0.003 ]
 	}
 	CustomOrbit	"vsop87-uranus"
 
@@ -1636,12 +1658,22 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Mass<kg>	1.024092e26
 	Atmosphere
 	{
-		Height	500
-		Mie	0.002
-		MieScaleHeight	20.3
-		MieHGAnisotropy	0.1
-		Rayleigh	[ 0.00104 0.00193 0.00400 ]
-		Absorption	[ 0.00000 0.00050 0.00100 ]
+		Height	180
+
+		# Aerosol-2 at 1 bar
+		Rayleigh	[ 0.00349 0.00830 0.02086 ]
+		MieScaleHeight	18
+
+		# Mie coefficient from Irwin et al. (2022), JGR: Planets 127 (6), article id. e07189
+		#   "Hazy Blue Worlds: A Holistic Aerosol Model for Uranus and Neptune, Including Dark Spots"
+		#   https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JE007189
+		#   https://ui.adsabs.harvard.edu/abs/2022JGRE..12707189I/abstract
+		# Aerosol-3 opacity (τ_3) at 0.8 μm = 0.04
+		#   scaled by 2 (fudge to get opacity at 0.55 μm), divided by scale height = 18 km
+		Mie	0.0044
+		MieHGAnisotropy	0
+
+		Absorption	[ 0.003 0.003 0.004 ]
 	}
 	CustomOrbit	"vsop87-neptune"
 
