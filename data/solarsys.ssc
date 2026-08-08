@@ -549,14 +549,15 @@
 	Color	[ 1.0 0.98663 0.91433 ]
 	SemiAxes	[ 71488 71488 66842 ]
 	Mass<kg>	1.898125e27
+
+	# Atmosphere base: 0.55 bar (Cloud-2)
+	# Irwin et al. (2026) preprint
+	#   "Cloud and ammonia vertical profiles in the equatorial atmosphere of Jupiter determined from visible to near-IR observations made by VLT/MUSE, Cassini/VIMS, IRTF/SpeX and Juno/JIRAM"
+	#   https://arxiv.org/abs/2607.25542
 	Atmosphere
 	{
 		Height	170
 
-		# Cloud-2 at 0.55 bar
-		# Irwin et al. (2026) preprint
-		#   "Cloud and ammonia vertical profiles in the equatorial atmosphere of Jupiter determined from visible to near-IR observations made by VLT/MUSE, Cassini/VIMS, IRTF/SpeX and Juno/JIRAM"
-		#   https://arxiv.org/abs/2607.25542
 		Rayleigh	[ 0.00107 0.00254 0.00639 ]
 		MieScaleHeight	17.5
 
@@ -827,15 +828,16 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 1.0 0.9476 0.81514 ]
 	SemiAxes	[ 60268 60268 54364 ]
 	Mass<kg>	5.68317e26  # GM = (37931206.234 ± 0.726) km^3/s^2
+
+	# Atmosphere base: 0.15 bar (tropopause / top of tropospheric haze)
+	# Roman et al. (2013), Icarus 225 (1), p. 93-110
+	#   "Saturn's cloud structure inferred from Cassini ISS"
+	#   https://www.sciencedirect.com/science/article/abs/pii/S0019103513001255
+	#   https://scixplorer.org/abs/2013Icar..225...93R/abstract
 	Atmosphere
 	{
 		Height	340
 
-		# Tropopause at 0.15 bar
-		# Roman et al. (2013), Icarus 225 (1), p. 93-110
-		#   "Saturn's cloud structure inferred from Cassini ISS"
-		#   https://www.sciencedirect.com/science/article/abs/pii/S0019103513001255
-		#   https://scixplorer.org/abs/2013Icar..225...93R/abstract
 		Rayleigh	[ 0.00053 0.00126 0.00318 ]
 		MieScaleHeight	34
 
@@ -1354,18 +1356,20 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 0.86828 0.97 1.0 ]
 	SemiAxes	[ 25556.6 25556.6 24968.7 ]
 	Mass<kg>	8.68099e25  # GM = (5793950.61 ± 2.16) km^3/s^2
+
+	# Atmosphere base: 1 bar (Aerosol-2)
+	# Irwin et al. (2022), JGR: Planets 127 (6), article id. e07189
+	#   "Hazy Blue Worlds: A Holistic Aerosol Model for Uranus and Neptune, Including Dark Spots"
+	#   https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JE007189
+	#   https://ui.adsabs.harvard.edu/abs/2022JGRE..12707189I/abstract
 	Atmosphere
 	{
 		Height	240
 
-		# Aerosol-2 at 1 bar
 		Rayleigh	[ 0.00346 0.00822 0.02067 ]
 		MieScaleHeight	24
 
 		# Mie coefficient from Irwin et al. (2022), JGR: Planets 127 (6), article id. e07189
-		#   "Hazy Blue Worlds: A Holistic Aerosol Model for Uranus and Neptune, Including Dark Spots"
-		#   https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JE007189
-		#   https://ui.adsabs.harvard.edu/abs/2022JGRE..12707189I/abstract
 		# Aerosol-3 opacity (τ_3) at 0.8 μm = 0.03
 		#   scaled by 2 (fudge to get opacity at 0.55 μm), divided by scale height = 24 km
 		Mie	0.0025
@@ -1659,18 +1663,17 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Color	[ 0.78302 0.91535 1.0 ]
 	SemiAxes	[ 24760.6 24760.6 24285.3 ]
 	Mass<kg>	1.024092e26
+
+	# Atmosphere base: 1 bar (Aerosol-2)
+	# Irwin et al. (2022), JGR: Planets 127 (6), article id. e07189
 	Atmosphere
 	{
 		Height	180
 
-		# Aerosol-2 at 1 bar
 		Rayleigh	[ 0.00349 0.00830 0.02086 ]
 		MieScaleHeight	18
 
 		# Mie coefficient from Irwin et al. (2022), JGR: Planets 127 (6), article id. e07189
-		#   "Hazy Blue Worlds: A Holistic Aerosol Model for Uranus and Neptune, Including Dark Spots"
-		#   https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JE007189
-		#   https://ui.adsabs.harvard.edu/abs/2022JGRE..12707189I/abstract
 		# Aerosol-3 opacity (τ_3) at 0.8 μm = 0.04
 		#   scaled by 2 (fudge to get opacity at 0.55 μm), divided by scale height = 18 km
 		Mie	0.0044
