@@ -832,6 +832,9 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		Height	340
 
 		# Tropopause at 0.15 bar
+		# Roman et al. (2013), Icarus 225 (1), p. 93-110
+		#   "Saturn's cloud structure inferred from Cassini ISS"
+		#   https://www.sciencedirect.com/science/article/abs/pii/S0019103513001255
 		#   https://scixplorer.org/abs/2013Icar..225...93R/abstract
 		Rayleigh	[ 0.00053 0.00126 0.00318 ]
 		MieScaleHeight	34
@@ -1367,7 +1370,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		#   scaled by 2 (fudge to get opacity at 0.55 μm), divided by scale height = 24 km
 		Mie	0.0025
 
-		Absorption	[ 0.002 0.002 0.003 ]
+		# Absorption from haze, assuming Titan haze absorption.
+		Absorption	[ 0.0017 0.0019 0.0025 ]
 	}
 	CustomOrbit	"vsop87-uranus"
 
@@ -1671,7 +1675,8 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		#   scaled by 2 (fudge to get opacity at 0.55 μm), divided by scale height = 18 km
 		Mie	0.0044
 
-		Absorption	[ 0.003 0.003 0.004 ]
+		# Absorption from haze, assuming Titan haze absorption.
+		Absorption	[ 0.0029 0.0033 0.0044 ]
 	}
 	CustomOrbit	"vsop87-neptune"
 
