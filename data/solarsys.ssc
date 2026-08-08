@@ -552,14 +552,14 @@
 
 	Atmosphere
 	{
-		Height	180
+		Height	170
 
 		# Cloud-2 at 0.55 bar
 		# Irwin et al. (2026) preprint
 		#   "Cloud and ammonia vertical profiles in the equatorial atmosphere of Jupiter determined from visible to near-IR observations made by VLT/MUSE, Cassini/VIMS, IRTF/SpeX and Juno/JIRAM"
 		#   https://arxiv.org/abs/2607.25542
-		Rayleigh	[ 0.00111 0.00265 0.00665 ]
-		MieScaleHeight	18
+		Rayleigh	[ 0.00107 0.00254 0.00639 ]
+		MieScaleHeight	17.5
 
 		# Approximating absorption due to gases in the atmosphere.
 		#   CH4: 0.0018
@@ -830,15 +830,15 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 	Mass<kg>	5.68317e26  # GM = (37931206.234 ± 0.726) km^3/s^2
 	Atmosphere
 	{
-		Height	330
+		Height	340
 
 		# Tropopause at 0.15 bar
 		#   https://scixplorer.org/abs/2013Icar..225...93R/abstract
-		Rayleigh	[ 0.00052 0.00123 0.00309 ]
-		MieScaleHeight	33
+		Rayleigh	[ 0.00053 0.00126 0.00318 ]
+		MieScaleHeight	34
 
 		# Approximating absorption due to gases in the atmosphere.
-		#   CH4: 0.0045
+		#   CH4: 0.0044
 		Absorption	[ 0.00027 0.00003 0.00000 ]
 	}
 	CustomOrbit	"vsop87-saturn"
