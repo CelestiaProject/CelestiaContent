@@ -82,19 +82,24 @@ ReferencePoint "Pluto-Charon" "Sol"
 		Height	200
 
 		# Rayleigh coefficient multiplied by fudge factor to correct appearance.
-		#   Fudge factor: 3
-		Rayleigh	[ 0.0000009 0.0000022 0.0000055 ]
+		#   Fudge factor: 10
+		# Pluto's atmosphere is brighter over bright areas than dark areas.
+		#   the atmosphere colour is blueish, so probably not false positive caused by bloom.
+		#   might be due to backscattering from the surface?
+		Rayleigh	[ 0.0000031 0.0000074 0.0000184 ]
 		
 		# Mie coefficient hand-picked to fit Pluto images from New Horizons.
 		# Mie anisotropy from Hillier et al. (2021), PSJ 2 (1), id.11
 		#   "Characteristics of Pluto’s Haze and Surface from an Analytic Radiative Transfer Model"
 		#   https://iopscience.iop.org/article/10.3847/PSJ/abbdaf
 		#   https://ui.adsabs.harvard.edu/abs/2021PSJ.....2...11H/abstract
+		#   g = 0.83 (Table 4, between Blue and Red, skewed towards Blue)
+		#   multiplied by a fudge factor of 0.8.
 		# Haze scale height from Gladstone et al. (2016), Science 351 (6279), id.aad8866
 		#   "The atmosphere of Pluto as observed by New Horizons"
 		#   https://ui.adsabs.harvard.edu/abs/2016Sci...351.8866G/abstract
-		Mie	0.0000001
-		MieHGAnisotropy	0.83
+		Mie	0.0000008
+		MieHGAnisotropy	0.66
 		MieScaleHeight	50
 	}
 	OrbitFrame

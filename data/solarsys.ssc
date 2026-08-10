@@ -187,7 +187,8 @@
 		#   "Cloud structure in Venus middle-to-lower atmosphere as inferred from VEX/VIRTIS 1.74 μm data"
 		#   https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2008JE003184
 		#   https://ui.adsabs.harvard.edu/abs/2009JGRE..114.0B37S/abstract
-		#MieHGAnisotropy	0.6
+		Mie	0.5
+		MieHGAnisotropy	0.6
 
 		CloudHeight	65
 		CloudSpeed	90  # 90 degrees/day motion = 4 days super-rotation
@@ -561,6 +562,9 @@
 		Rayleigh	[ 0.00107 0.00254 0.00639 ]
 		MieScaleHeight	17.5
 
+		Mie	0.001
+		MieHGAnisotropy	0.6
+
 		# Approximating absorption due to gases in the atmosphere.
 		#   CH4: 0.0018
 		Absorption	[ 0.00024 0.00003 0.00000 ]
@@ -840,6 +844,9 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 
 		Rayleigh	[ 0.00053 0.00126 0.00318 ]
 		MieScaleHeight	34
+
+		Mie	0.001
+		MieHGAnisotropy	0.6
 
 		# Approximating absorption due to gases in the atmosphere.
 		#   CH4: 0.0044
@@ -1771,16 +1778,16 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		Height	100
 
 		# Rayleigh coefficient multiplied by fudge factor to correct appearance.
-		#   Fudge factor: 3
+		#   Fudge factor: 10
 		# Rayleigh scale height and Mie anisotropy from Gao & Ohno (2024)
 		#   "Clouds and Hazes in the Atmospheres of Triton and Pluto"
 		#   https://arxiv.org/abs/2411.12031
 		#   Mie anisotropy assumed to be the same as discrete component's.
-		Rayleigh	[ 0.0000016 0.0000037 0.0000093 ]
+		Rayleigh	[ 0.0000052 0.0000124 0.0000309 ]
 		MieScaleHeight	16  # Rayleigh scale height
 		
 		# Mie coefficient scaled from Pluto's, using optical depth from Gao & Ohno (2024).
-		Mie	0.00000007
+		Mie	0.000002
 		MieHGAnisotropy	0.6
 	}
 	CustomOrbit	"triton"
