@@ -1787,7 +1787,7 @@ AltSurface "Limit of knowledge" "Sol/Jupiter/Callisto"
 		MieScaleHeight	16  # Rayleigh scale height
 		
 		# Mie coefficient scaled from Pluto's, using optical depth from Gao & Ohno (2024).
-		Mie	0.00002
+		Mie	0.000002
 		MieHGAnisotropy	0.6
 	}
 	CustomOrbit	"triton"

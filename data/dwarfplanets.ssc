@@ -98,7 +98,7 @@ ReferencePoint "Pluto-Charon" "Sol"
 		# Haze scale height from Gladstone et al. (2016), Science 351 (6279), id.aad8866
 		#   "The atmosphere of Pluto as observed by New Horizons"
 		#   https://ui.adsabs.harvard.edu/abs/2016Sci...351.8866G/abstract
-		Mie	0.000008
+		Mie	0.0000008
 		MieHGAnisotropy	0.66
 		MieScaleHeight	50
 	}
