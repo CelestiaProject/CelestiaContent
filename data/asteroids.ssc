@@ -1532,41 +1532,60 @@
 	InfoURL	"https://en.wikipedia.org/wiki/162173_Ryugu"
 }
 
-# Axis ratios and rotational parameters from Zhang et al. (2026)
-#   "Shape, regolith size and thickness, SMFe0 content, and spectral type of Tianwen-2 target asteroid (469219) Kamo‘oalewa"
-#   https://arxiv.org/abs/2603.28107
 # Diameter and geometric albedo from Sharkey et al. (2026)
 #   "JWST Characterization of Earth Quasi-Satellite (469219) Kamo'oalewa"
 #   https://arxiv.org/abs/2606.24017
 "469219 Kamo'oalewa:Kamo'oalewa:2016 HO3" "Sol"
 {
 	Class	"asteroid"
-	Mesh	"roughsphere.cms"
-	Texture	"asteroid.*"
-	Color	[ 1.0 0.970 0.897 ]
+	Mesh	"kamooalewa.cmod"
+	Texture	"kamooalewa.*"  # brightness: 0.69274
+	Color	[ 0.962 0.932 0.860 ]
 	BlendTexture	true
-	Radius<m>	9
-	SemiAxes	[ 1.378 0.923 0.786 ]
-	
+	Radius	0.009
 	EllipticalOrbit
 	{
-		Epoch	2461198.5  # 2026 Jun 7 (Tianwen-2 encounter)
-		Period	1.0011854290769422
-		SemiMajorAxis	1.0007931960323688
-		Eccentricity	0.10224825891954249
-		Inclination	7.80262190720022
-		AscendingNode	65.59323973775082
-		ArgOfPericenter	304.3718568724778
-		MeanAnomaly	241.4095717360578
+		Epoch	2461225.5  # 2026 Jul 04 (Tianwen-2 arrival)
+		Period	1.0000174  # Earth's mean period from Horizons
+		SemiMajorAxis	1.000852143334589
+		Eccentricity	0.1022278506717837
+		Inclination	7.802369832033272
+		AscendingNode	65.59292048267373
+		ArgOfPericenter	304.3405001333282
+		MeanAnomaly	268.0202400918531
 	}
-	UniformRotation
+
+	# Rotation from Sun et al. (2026), submitted to ApJL
+	#   "The Non-Principal-Axis Rotation and Convex Shape Model of Earth Quasi-
+	#   Satellite and the Target of China's Tianwen-2 Mission (469219) Kamo`oalewa"
+	#   https://arxiv.org/abs/2608.00424
+	#   (Convex shape, non-mirror model)
+	BodyFrame
 	{
-		Period	0.461
-		Inclination	101.4
-		AscendingNode	224.7
+		# Angular momentum vector points towards λ = 227°, β = -42°
+		TwoVector
+		{
+			Primary
+			{
+				Axis	"x"
+				ConstantVector	{ Vector [ 0.456 0.489 -0.743 ] Frame { EclipticJ2000 {} } }
+			}
+			Secondary
+			{
+				Axis	"z"
+				ConstantVector	{ Vector [ -0.507 -0.544 -0.669 ] Frame { EclipticJ2000 {} } }
+			}
+		}
+	}
+	PrecessingRotation
+	{
+		Period<min>	49.66
+		Inclination	90  # guess
+		PrecessionPeriod<min>	-27.90  # rotation and precession have the same direction for LAM
 	}
 	LunarLambert	1
 	GeomAlbedo	0.59
+	SphAlbedo	0.37  # for assumed G = 0.5
 	InfoURL	"https://en.wikipedia.org/wiki/469219_Kamo%CA%BBoalewa"
 }
 
