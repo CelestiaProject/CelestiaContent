@@ -1253,10 +1253,15 @@
 	InfoURL	"https://en.wikipedia.org/wiki/25143_Itokawa"
 }
 
-# Mass, density and Dimorphos orbit from Naidu et al. (2024), Planet. Sci. J. 5, 74
-#   "Orbital and Physical Characterization of Asteroid Dimorphos Following the DART Impact"
-#   https://ui.adsabs.harvard.edu/abs/2024PSJ.....5...74N/abstract
-# Rotational parameters of Didymos and Dimorphos from Horizons system
+# Sizes and rotational parameters from coordinate system documents:
+#   https://doi.org/10.26007/30x0-fv64
+#   https://doi.org/10.26007/7312-sc96
+# Masses and densities from Makadia et al. (2026), Science Advances 12, eaea4259
+#   "Direct detection of an asteroid's heliocentric deflection: The Didymos system after DART"
+#   https://ui.adsabs.harvard.edu/abs/2026SciA...12a4259M/abstract
+# Rotation periods of Didymos from Ďurech et al. (2025), Planet. Sci. J. 6, 308
+#   "A Change of the Rotation Period of Asteroid (65803) Didymos Caused by the DART Impact"
+#   https://ui.adsabs.harvard.edu/abs/2025PSJ.....6..308D/abstract
 # Albedos from Rozitis et al. (2024), Planet. Sci. J. 5, 66
 #   "Pre-impact Thermophysical Properties and the Yarkovsky Effect of NASA DART
 #   Target (65803) Didymos"
@@ -1266,52 +1271,94 @@
 	Class	"asteroid"
 	Mesh	"didymos.cmod"
 	MeshCenter	[ 0.0058 0.0017 0.0027 ]  # zero COM-COF offset
-	Color	[ 1.0 0.984 0.917 ]  # au1996GT.7.txt
-	Radius	0.40912  # maximum semi-axis; from model extent
-	Mass<kg>	5.3e11
-	Density	2790
-	EllipticalOrbit
-	{
-		Epoch	2459849.469136173  # 2022 Sept 26 23:15:33.3653 TDB (DART impact)
-		Period	2.108600332759259
-		SemiMajorAxis	1.6443365575274
-		Eccentricity	0.383974100569891
-		Inclination	3.408697906621437
-		AscendingNode	73.11072642655509
-		ArgOfPericenter	319.4199521648271
-		MeanAnomaly	348.4035957798232
-	}
-	BodyFrame	{ EquatorJ2000 {} }
-	UniformRotation
-	{
-		Period	2.2600
-		Inclination	162.72455
-		AscendingNode	159.32686
-		MeridianAngle	0.0
-	}
-	LunarLambert	0.95  # assumed same as Dimorphos
+	Texture	"didymos.*"  # brightness: 0.61316
+	Color	[ 0.489 0.479 0.443 ]  # au1996GT.7.txt
+	BlendTexture	true
+	Radius	0.4095  # maximum semi-axis
+	Mass<kg>	5.3e11  # mass ratio = 0.0051 ± 0.0006
+	Density	2600
+
+	# Change in rotation period due to the DART impact on Dimorphos
+	Timeline
+	[
+		{
+			Ending	2459849.469136174
+			EllipticalOrbit  # primary body solution
+			{
+				Epoch	2459849.469136174  # 2022 Sept 26 23:15:33.3654 TDB (DART impact)
+				Period	2.108600305980007
+				SemiMajorAxis	1.644336543605336
+				Eccentricity	0.383974095146133
+				Inclination	3.408697915976467
+				AscendingNode	73.11072603324993
+				ArgOfPericenter	319.4199525571119
+				MeanAnomaly	348.4035956071044
+			}
+			BodyFrame	{ EquatorJ2000 {} }
+			UniformRotation
+			{
+				Epoch	2459849.469136174  # 2022 Sept 26 23:15:33.3654 TDB
+				Period	2.2603891
+				Inclination	163.0
+				AscendingNode	156.83
+				MeridianAngle	19.0  # propagated from J2000
+			}
+		}
+		{
+			EllipticalOrbit  # primary body solution
+			{
+				Epoch	2459849.469136174  # 2022 Sept 26 23:15:33.3654 TDB (DART impact)
+				Period	2.108600305980007
+				SemiMajorAxis	1.644336543605336
+				Eccentricity	0.383974095146133
+				Inclination	3.408697915976467
+				AscendingNode	73.11072603324993
+				ArgOfPericenter	319.4199525571119
+				MeanAnomaly	348.4035956071044
+			}
+			BodyFrame	{ EquatorJ2000 {} }
+			UniformRotation
+			{
+				Epoch	2459849.469136174  # 2022 Sept 26 23:15:33.3654 TDB
+				Period	2.260440
+				Inclination	163.0
+				AscendingNode	156.83
+				MeridianAngle	19.0  # propagated from J2000
+			}
+		}
+	]
+	LunarLambert	0.73  # assume same as Dimorphos
 	GeomAlbedo	0.17
 	SphAlbedo	0.07  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/65803_Didymos"
 }
 
+# Orbit from Naidu et al. (2024), Planet. Sci. J. 5, 74
+#   "Orbital and Physical Characterization of Asteroid Dimorphos Following the DART Impact"
+#   https://ui.adsabs.harvard.edu/abs/2024PSJ.....5...74N/abstract
 "Dimorphos:65803 Didymos I:Didymos I:Didymoon" "Sol/Didymos"
 {
 	Class	"minormoon"
 	Mesh	"dimorphos.cmod"  # v004 shape model
-	Color	[ 1.0 0.984 0.917 ]
-	Radius	0.088835  # maximum semi-axis; from model extent
+	Texture	"dimorphos.*"  # brightness: 0.82409
+	Color	[ 0.364 0.356 0.329 ]
+	BlendTexture	true
+	Radius	0.0895  # maximum semi-axis
+	Mass<kg>	2.7e9
+	Density	1540
+
+	# Orbit change due to DART impact
 	Timeline
 	[
 		{
-			Ending	2459849.469136173  # 2022 Sept 26 23:15:33.3653 TDB
+			Ending	2459849.469136174
 			OrbitFrame
 			{
 				EclipticJ2000	{ Center "Sol/Didymos" }
 			}
 			EllipticalOrbit
 			{
-				Epoch	2459849.469136173  # 2022 Sept 26 23:15:33.3653 TDB
+				Epoch	2459849.469136174  # 2022 Sept 26 23:15:33.3654 TDB
 				Period<h>	11.921493
 				SemiMajorAxis	1.189
 				Inclination	170.7
@@ -1321,10 +1368,10 @@
 			BodyFrame	{ EquatorJ2000 {} }
 			UniformRotation
 			{
-				Epoch	2459849.469136173  # 2022 Sept 26 23:15:33.3653 TDB
-				Inclination	162.72455
-				AscendingNode	159.32686
-				MeridianAngle	115.21857195
+				Epoch	2459849.469136174  # 2022 Sept 26 23:15:33.3654 TDB
+				Inclination	163.0
+				AscendingNode	156.83
+				MeridianAngle	112.8  # at epoch
 			}
 		}
 		{
@@ -1334,7 +1381,7 @@
 			}
 			EllipticalOrbit
 			{
-				Epoch	2459849.469136173  # 2022 Sept 26 23:15:33.3653 TDB
+				Epoch	2459849.469136174  # 2022 Sept 26 23:15:33.3654 TDB
 				Period<h>	11.3674
 				SemiMajorAxis	1.15729  # calculated so that apocenter matches pre-impact SMA
 				Eccentricity	0.0274
@@ -1343,23 +1390,26 @@
 				ArgOfPericenter	354  # align apocenter with pre-impact position
 				MeanAnomaly	180  # place Dimorphos at apocenter
 			}
-			BodyFrame	{ EquatorJ2000 {} }
 
 			# After impact, Dimorphos is in an excited rotation state, but the
-			# mean period is roughly synchronous with its orbit
-			# (Pravec et al. 2024, 2024Icar..41816138P)
+			# mean period is roughly synchronous with its orbit, per
+			# Pravec et al. (2024), Icarus 418, 116138
+			#   "Rotational lightcurves of Dimorphos and constraints on its
+			#   post-DART impact spin state"
+			#   https://ui.adsabs.harvard.edu/abs/2024Icar..41816138P/abstract
+			BodyFrame	{ EquatorJ2000 {} }
 			UniformRotation
 			{
-				Epoch	2459849.469136173  # 2022 Sept 26 23:15:33.3653 TDB
-				Inclination	162.72455
-				AscendingNode	159.32686
-				MeridianAngle	115.21857195
+				Epoch	2459849.469136174  # 2022 Sept 26 23:15:33.3654 TDB
+				Inclination	163.0
+				AscendingNode	156.83
+				MeridianAngle	112.8  # at epoch
 			}
 		}
 	]
-	LunarLambert	0.95  # Buratti et al. (2024), 2024PSJ.....5...83B
-	GeomAlbedo	0.19  # ~10% brighter than Didymos (2023LPICo2806.1659S)
-	SphAlbedo	0.08
+	LunarLambert	0.73  # A = 0.95 (Buratti et al. 2024, 2024PSJ.....5...83B)
+	GeomAlbedo	0.17
+	SphAlbedo	0.07
 	InfoURL	"https://en.wikipedia.org/wiki/Dimorphos"
 }
 
