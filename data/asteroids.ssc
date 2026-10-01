@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2004-2005, 2007-2009 Grant Hutchison
 # SPDX-FileCopyrightText: 2006-2008 Chris Laurel
 # SPDX-FileCopyrightText: 2019 Askaniy Anpilogov
-# SPDX-FileCopyrightText: 2021, 2023 SevenSpheres
+# SPDX-FileCopyrightText: 2021 SevenSpheres
 # SPDX-FileCopyrightText: 2023-2026 Pedro J. Garcia
 # SPDX-FileCopyrightText: 2024-2026 AstroChara
 # SPDX-FileCopyrightText: 2024-2025 domi9
@@ -15,14 +15,6 @@
 # (https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/) or queried from the
 # Horizons system (https://ssd.jpl.nasa.gov/horizons/).
 
-# Physical parameters of large asteroids are mainly taken from
-# Vernazza et al. (2021), A&A 654, A56, "VLT/SPHERE imaging survey of the
-# largest main-belt asteroids: Final results and synthesis"
-# https://ui.adsabs.harvard.edu/abs/2021A%26A...654A..56V/abstract
-
-# In some cases, rotation parameters have been obtained from the IAUspin files
-# available on DAMIT: https://damit.cuni.cz/projects/damit/
-
 # Asteroid colors are derived mainly from SMASS/MITHNEOS spectra
 # (http://smass.mit.edu/catalog.php), supplemented by spectra and color indices
 # from other sources. These have been converted to RGB values using Askaniy's
@@ -33,31 +25,42 @@
 # The default asteroid texture is calibrated to an albedo of 0.4, and objects
 # which use it (combined with BlendTexture) have their colors divided by its
 # brightness (0.665185), so that the resulting appearance matches their
-# spherical albedo. Since this quantity isn't well-known for most asteroids, it
-# has most often been calculated (A = pq) from the geometric albedo (p) and an
-# estimate of the phase integral (q), the latter obtained following Shevchenko
-# et al. (2019), A&A 626, A87, "Phase integral of asteroids"; that is, from
-# relations to the G or G_1 and G_2 phase parameters.
+# spherical albedo A. This quantity isn't reported for most asteroids, but it
+# can be calculated from the geometric albedo (p) and an estimate of the phase
+# integral (q): A = pq. The latter is obtained following
+# Shevchenko et al. (2019), A&A 626, id.A87, "Phase integral of asteroids"
+#   https://ui.adsabs.harvard.edu/abs/2019A%26A...626A..87S/abstract
+# that is, from relations for the HG or HG1G2 systems.
 
 # The main sources of phase parameters are, in order of preference:
 #
-# Shevchenko et al. (2022), A&A 666, A190, "Kharkiv database of asteroid
-# absolute magnitudes: Comparative analysis with other datasets"
-# https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/666/A190
+# Shevchenko et al. (2022), A&A 666, id.A190
+#   "Kharkiv database of asteroid absolute magnitudes:
+#   Comparative analysis with other datasets"
+#   https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/666/A190
 #
-# Pravec et al. (2012), Icarus 221, p. 365-387, "Absolute magnitudes of
-# asteroids and a revision of asteroid albedo estimates from WISE thermal
-# observations"
-# https://www.asu.cas.cz/~ppravec/pravecetal2012b.pdf
+# Lagerkvist et al. (1992), A&AS 94 (1), p. 43-71
+#   "Physical studies of asteroids.
+#   XXIV. Phase relations for 48 asteroids obtained with the Carlsberg Meridian Circle"
+#   https://ui.adsabs.harvard.edu/abs/1992A%26AS...94...43L/abstract
 #
-# Tholen, D.J., Ed. (2020). Asteroid Absolute Magnitudes V1.0.
-# urn:nasa:pds:compil.ast.magnitude-slope::1.0. NASA Planetary Data System;
-# https://doi.org/10.26033/93qf-8s07.
+# Lagerkvist & Magnusson (1990), A&AS 86 (2), p. 119-165
+#   "Analysis of asteroid lightcurves. II. Phase curves in a generalized HG-system"
+#   https://ui.adsabs.harvard.edu/abs/1992A%26AS...94...43L/abstract
 #
 # The SsODNet service via ssoCard (https://ssp.imcce.fr/forms/ssocard/)
 # has been used as well, and other references are cited where used.
 
+
 # Notable main-belt asteroids
+
+# Physical parameters are mainly taken from Vernazza et al. (2021), A&A 654, id.A56
+#   "VLT/SPHERE imaging survey of the largest main-belt asteroids:
+#   Final results and synthesis"
+#   https://ui.adsabs.harvard.edu/abs/2021A%26A...654A..56V/abstract
+
+# Some rotational parameters have been obtained from the IAUspin files available
+# at DAMIT: https://damit.cuni.cz/projects/damit/
 
 "2 Pallas:Pallas" "Sol"
 {
@@ -65,7 +68,7 @@
 	Mesh	"pallas.cmod"
 	MeshCenter	[ 4.014 -10.89 1.574 ]
 	Texture	"asteroid.*"
-	Color	[ 0.393 0.393 0.386 ]  # a000002.2.txt
+	Color	[ 0.393 0.393 0.386 ]
 	BlendTexture	true
 	Radius	284  # maximum semi-axis
 	Mass<kg>	204.2e18
@@ -89,13 +92,13 @@
 		AscendingNode	134
 		MeridianAngle	41.7
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.155
-	SphAlbedo	0.055  # for G_1 = 0.36 and G_2 = 0.250
+	SphAlbedo	0.055  # for G1 = 0.36 and G2 = 0.25
 	InfoURL	"https://en.wikipedia.org/wiki/2_Pallas"
 }
 
-# Mass and density from Li et al. (2023), AJ 166, 93
+# Mass and density from Li et al. (2023), AJ 166 (3), id.93
 #   "Dynamical Masses of 20 Asteroids Determined with Gaia DR3 Asteroid Observations"
 #   https://ui.adsabs.harvard.edu/abs/2023AJ....166...93L/abstract
 "3 Juno:Juno" "Sol"
@@ -104,7 +107,7 @@
 	Mesh	"juno.cmod"
 	MeshCenter	[ 1.518 -3.186 -0.7858 ]
 	Texture	"asteroid.*"
-	Color	[ 0.55 0.531 0.499 ]  # a000003.2.txt
+	Color	[ 0.495 0.476 0.447 ]
 	BlendTexture	true
 	Radius	144  # maximum semi-axis
 	Mass<kg>	2.75e19
@@ -128,16 +131,16 @@
 		AscendingNode	199
 		MeridianAngle	290.3  # from DAMIT model 786
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.202
-	SphAlbedo	0.103  # for G = 0.320
+	SphAlbedo	0.082  # for G = 0.17
 	InfoURL	"https://en.wikipedia.org/wiki/3_Juno"
 }
 
 # Park et al. (2025), Nature Astronomy 9, p. 824-834
 #   "A small core in Vesta inferred from Dawn's observations"
 #   https://ui.adsabs.harvard.edu/abs/2025NatAs...9..824P/abstract
-# Albedos from Li et al. (2013), Icarus 226, p. 1252-1274
+# Albedos from Li et al. (2013), Icarus 226 (2), p. 1252-1274
 #   "Global photometric properties of Asteroid (4) Vesta observed with Dawn Framing Camera"
 #   https://ui.adsabs.harvard.edu/abs/2013Icar..226.1252L/abstract
 "4 Vesta:Vesta" "Sol"
@@ -146,23 +149,23 @@
 	Mesh	"vesta.cmod"  # rotated to the Dawn-Claudia coordinate system
 	MeshCenter	[ 2.094 0.0485 5.415 ]
 	Texture	"vesta.*"
-	Color	[ 1.0 0.982 0.936 ]  # a000004.2.txt
+	Color	[ 1.0 0.979 0.934 ]
 	Radius	284.62  # maximum semi-axis
 	Mass<kg>	2.59028e20
 	Density	3460
-	EllipticalOrbit
+	EllipticalOrbit  # major body version
 	{
 		Epoch	2455758.5  # 2011 Jul 16 (Dawn arrival)
-		Period	3.62836006200365
-		SemiMajorAxis	2.361210923967098
-		Eccentricity	0.08832829093309318
-		Inclination	7.134622956266294
-		AscendingNode	103.9043071984041
-		ArgOfPericenter	149.8717478119385
-		MeanAnomaly	45.00136736483953
+		Period	3.628360077272586
+		SemiMajorAxis	2.361210930693959
+		Eccentricity	0.08832828997246957
+		Inclination	7.134622054675508
+		AscendingNode	103.904308659809
+		ArgOfPericenter	149.8717483228352
+		MeanAnomaly	45.00136554856663
 	}
 
-	# Dawn-Claudia coordinate system from Li and Mafi (2013)
+	# Dawn-Claudia coordinate system from Li & Mafi (2013)
 	#   "Body-Fixed Coordinate Systems for Asteroid (4) Vesta"
 	#   https://sbnarchive.psi.edu/pds3/dawn/fc/DWNVSPG_2/DOCUMENT/VESTA_COORDINATES/VESTA_COORDINATES_131018.HTM
 	BodyFrame	{ EquatorJ2000 {} }
@@ -173,7 +176,7 @@
 		AscendingNode	39.031
 		MeridianAngle	75.39
 	}
-	LunarLambert	0.907  # from C_L parameter of Schröder et al. (2014), 2014P&SS..103...66S
+	LunarLambert	0.830  # C_L parameter of Schröder et al., 2014P&SS..103...66S
 	GeomAlbedo	0.38
 	BondAlbedo	0.18  # bolometric
 	SphAlbedo	0.20
@@ -186,7 +189,7 @@
 	Mesh	"iris.cmod"
 	MeshCenter	[ -5.488 -2.657 2.734 ]
 	Texture	"asteroid.*"
-	Color	[ 0.578 0.553 0.508 ]  # a000007.2.txt
+	Color	[ 0.604 0.574 0.528 ]
 	BlendTexture	true
 	Radius	130  # maximum semi-axis
 	Mass<kg>	13.5e18
@@ -210,9 +213,9 @@
 		AscendingNode	99
 		MeridianAngle	217.5  # from DAMIT model 1854
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.279
-	SphAlbedo	0.112  # for G_1 = 0.358278 and G_2 = 0.304418
+	SphAlbedo	0.121  # for G = 0.21
 	InfoURL	"https://en.wikipedia.org/wiki/7_Iris"
 }
 
@@ -222,7 +225,7 @@
 	Mesh	"hygiea.cmod"
 	MeshCenter	[ 2.715 -6.39 1.142 ]
 	Texture	"asteroid.*"
-	Color	[ 0.239 0.238 0.233 ]  # a000010.2.txt
+	Color	[ 0.239 0.238 0.233 ]
 	BlendTexture	true
 	Radius	225  # maximum semi-axis
 	Mass<kg>	87.4e18
@@ -246,16 +249,16 @@
 		AscendingNode	49
 		MeridianAngle	116.5
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.063
-	SphAlbedo	0.022  # for G_1 = 0.76 and G_2 = 0.030
+	SphAlbedo	0.022  # for G1 = 0.76 and G2 = 0.03
 	InfoURL	"https://en.wikipedia.org/wiki/10_Hygiea"
 }
 
-# Shepard et al. (2021), Planet. Sci. J. 2, 125
+# Shepard et al. (2021), Planet. Sci. J. 2 (4), id.125
 #   "Asteroid 16 Psyche: Shape, Features, and Global Map"
 #   https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..125S/abstract
-# Mass and density from Farnocchia et al. (2024), AJ 168, 21
+# Mass and density from Farnocchia et al. (2024), AJ 168 (1), id.21
 #   "Mass, Density, and Radius of Asteroid (16) Psyche from High-precision Astrometry"
 #   https://ui.adsabs.harvard.edu/abs/2024AJ....168...21F/abstract
 "16 Psyche:Psyche" "Sol"
@@ -264,7 +267,7 @@
 	Mesh	"psyche.cmod"
 	MeshCenter	[ -1.19 -0.7639 -4.925 ]
 	Texture	"asteroid.*"
-	Color	[ 0.438 0.424 0.401 ]  # a000016.2.txt
+	Color	[ 0.44 0.424 0.401 ]
 	BlendTexture	true
 	Radius	139  # maximum semi-axis
 	Mass<kg>	2.399e19
@@ -288,16 +291,16 @@
 		AscendingNode	126.3
 		MeridianAngle	270.4
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.16
-	SphAlbedo	0.065  # for G_1 = 0.10 and G_2 = 0.440
+	SphAlbedo	0.065  # for G1 = 0.10 and G2 = 0.44
 	InfoURL	"https://en.wikipedia.org/wiki/16_Psyche"
 }
 
-# Minker et al. (2026), accepted by A&A
+# Minker et al. (2026), A&A 712, id.L26
 #   "Unmasking (44) Nysa: Evidence for a trilobate structure"
-#   https://arxiv.org/abs/2607.25786
-# Size and geometric albedo from Shepard et al. (2008), Icarus 195, 220-225
+#   https://ui.adsabs.harvard.edu/abs/2026A%26A...712L..26M/abstract
+# Size and geometric albedo from Shepard et al. (2008), Icarus 195 (1), p. 220-225
 #   "Radar observations of E-class Asteroids 44 Nysa and 434 Hungaria"
 #   https://echo.jpl.nasa.gov/asteroids/MBAs/shepard.etal.2008.nysa+hungaria.pdf
 #   https://ui.adsabs.harvard.edu/abs/2008Icar..195..220S/abstract
@@ -307,7 +310,7 @@
 	Mesh	"nysa.cmod"
 	MeshCenter	[ -5.589 -1.636 5.304 ]
 	Texture	"asteroid.*"
-	Color	[ 0.817 0.81 0.79 ]  # a000044.2.txt
+	Color	[ 0.817 0.81 0.79 ]
 	BlendTexture	true
 	Radius	56.5  # maximum semi-axis
 	EllipticalOrbit
@@ -331,7 +334,7 @@
 	}
 	LunarLambert	1
 	GeomAlbedo	0.44
-	SphAlbedo	0.25  # for G_1 = 0.05 and G_2 = 0.670
+	SphAlbedo	0.25  # for G1 = 0.05 and G2 = 0.67
 	InfoURL	"https://en.wikipedia.org/wiki/44_Nysa"
 }
 
@@ -359,7 +362,7 @@
 	InfoURL	"https://en.wikipedia.org/wiki/44_Nysa#Satellite"
 }
 
-# Mass, pole orientation and moon orbits from Beauvalet and Marchis (2014), Icarus 241, p. 13-25
+# Mass, pole orientation and moon orbits from Beauvalet & Marchis (2014), Icarus 241, p. 13-25
 #   "Multiple asteroid systems (45) Eugenia and (87) Sylvia:
 #   Sensitivity to external and internal perturbations"
 #   https://ui.adsabs.harvard.edu/abs/2014Icar..241...13B/abstract
@@ -369,7 +372,7 @@
 	Mesh	"eugenia.cmod"
 	MeshCenter	[ 0.1592 2.377 -0.3412 ]
 	Texture	"asteroid.*"
-	Color	[ 0.258 0.256 0.25 ]  # a000045.2.txt
+	Color	[ 0.259 0.258 0.252 ]
 	BlendTexture	true
 	Radius	126  # maximum semi-axis
 	Mass<kg>	5.6321e18
@@ -393,9 +396,9 @@
 		AscendingNode	211.11
 		MeridianAngle	7.2  # from DAMIT model 1812
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.065
-	SphAlbedo	0.025  # for G = 0.130
+	SphAlbedo	0.025  # for G = 0.135 (Harris et al., 1999Icar..142..173H)
 	InfoURL	"https://en.wikipedia.org/wiki/45_Eugenia"
 }
 
@@ -404,7 +407,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.258 0.256 0.25 ]
+	Color	[ 0.259 0.258 0.252 ]
 	BlendTexture	true
 	Radius	3
 	OrbitFrame	{ EquatorJ2000 {} }
@@ -427,7 +430,7 @@
 		AscendingNode	206.67
 		MeridianAngle	88
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.065
 	SphAlbedo	0.025
 	InfoURL	"https://en.wikipedia.org/wiki/45_Eugenia#S/2004_(45)_1"
@@ -438,7 +441,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.258 0.256 0.25 ]
+	Color	[ 0.259 0.258 0.252 ]
 	BlendTexture	true
 	Radius	3.5
 	OrbitFrame	{ EquatorJ2000 {} }
@@ -461,13 +464,13 @@
 		AscendingNode	201.93
 		MeridianAngle	323
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.065
 	SphAlbedo	0.025
 	InfoURL	"https://en.wikipedia.org/wiki/45_Eugenia#Petit-Prince"
 }
 
-# Carry et al. (2021), A&A 650, A129
+# Carry et al. (2021), A&A 650, id.A129
 #   "Evidence for differentiation of the most primitive small bodies"
 #   https://ui.adsabs.harvard.edu/abs/2021A%26A...650A.129C/abstract
 "87 Sylvia:Sylvia:A909 GA" "Sol"
@@ -476,7 +479,7 @@
 	Mesh	"sylvia.cmod"
 	MeshCenter	[ -0.1710 -2.655 -0.1451 ]
 	Texture	"asteroid.*"
-	Color	[ 0.201 0.197 0.191 ]  # a000087.2.txt
+	Color	[ 0.191 0.188 0.181 ]
 	BlendTexture	true
 	Radius	181.5  # maximum semi-axis; MPCD model
 	Mass<kg>	1.440e19
@@ -500,9 +503,9 @@
 		AscendingNode	104.3
 		MeridianAngle	169.7  # from DAMIT model 719
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.04  # Vernazza et al. (2021)
-	SphAlbedo	0.016  # for G_1 = 0.251955 and G_2 = 0.344251
+	SphAlbedo	0.014  # for G = 0.10
 	InfoURL	"https://en.wikipedia.org/wiki/87_Sylvia"
 }
 
@@ -511,7 +514,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.201 0.197 0.191 ]
+	Color	[ 0.191 0.188 0.181 ]
 	BlendTexture	true
 	Radius	5.15
 	Mass<kg>	7.8e14
@@ -535,9 +538,9 @@
 		AscendingNode	100.8
 		MeridianAngle	82.2
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.04
-	SphAlbedo	0.016
+	SphAlbedo	0.014
 	InfoURL	"https://en.wikipedia.org/wiki/Remus_(moon)"
 }
 
@@ -549,7 +552,7 @@
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.201 0.197 0.191 ]
+	Color	[ 0.191 0.188 0.181 ]
 	BlendTexture	true
 	# Radius	7.55
 	SemiAxes	[ 19 7 7 ]
@@ -574,13 +577,13 @@
 		AscendingNode	97.1
 		MeridianAngle	351.0
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.04
-	SphAlbedo	0.016
+	SphAlbedo	0.014
 	InfoURL	"https://en.wikipedia.org/wiki/Romulus_(moon)"
 }
 
-# Fuksa et al. (2023), A&A 677, A189
+# Fuksa et al. (2023), A&A 677, id.A189
 #   "An advanced multipole model of the (130) Elektra quadruple system"
 #   https://ui.adsabs.harvard.edu/abs/2023A%26A...677A.189F/abstract
 "130 Elektra:Elektra" "Sol"
@@ -589,7 +592,7 @@
 	Mesh	"elektra.cmod"
 	MeshCenter	[ -0.1315 -0.0109 2.624 ]
 	Texture	"asteroid.*"
-	Color	[ 0.255 0.253 0.238 ]  # a000130.2.txt
+	Color	[ 0.255 0.253 0.238 ]
 	BlendTexture	true
 	Radius	135  # maximum semi-axis; mean of two models
 	Mass<kg>	6.606e18
@@ -613,9 +616,9 @@
 		AscendingNode	184.5
 		MeridianAngle	177.2  # from DAMIT model 1856
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.067  # Vernazza et al. (2021)
-	SphAlbedo	0.024  # for G_1 = 0.60 and G_2 = 0.130
+	SphAlbedo	0.024  # for G1 = 0.60 and G2 = 0.13
 	InfoURL	"https://en.wikipedia.org/wiki/130_Elektra"
 }
 
@@ -648,7 +651,7 @@
 		AscendingNode	185.3
 		MeridianAngle	68.8
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.067
 	SphAlbedo	0.024
 	InfoURL	"https://en.wikipedia.org/wiki/130_Elektra#S/2014_(130)_1"
@@ -683,7 +686,7 @@
 		AscendingNode	107.1
 		MeridianAngle	58.3
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.067
 	SphAlbedo	0.024
 	InfoURL	"https://en.wikipedia.org/wiki/130_Elektra#Third_satellite"
@@ -718,16 +721,16 @@
 		AscendingNode	43.5
 		MeridianAngle	170.3
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.067
 	SphAlbedo	0.024
 	InfoURL	"https://en.wikipedia.org/wiki/130_Elektra#S/2003_(130)_1"
 }
 
-# Marchis et al. (2021), A&A 653, A57
+# Marchis et al. (2021), A&A 653, id.A57
 #   "(216) Kleopatra, a low density critically rotating M-type asteroid"
 #   https://ui.adsabs.harvard.edu/abs/2021A%26A...653A..57M/abstract
-# Moon parameters from Brož et al. (2021), A&A 653, A56
+# Moon parameters from Brož et al. (2021), A&A 653, id.A56
 #   "An advanced multipole model for (216) Kleopatra triple system"
 #   https://ui.adsabs.harvard.edu/abs/2021A%26A...653A..56B/abstract
 "216 Kleopatra:Kleopatra:A905 OA:A910 RA" "Sol"
@@ -736,7 +739,7 @@
 	Mesh	"kleopatra.cmod"
 	MeshCenter	[ 7.24 0.4550 -1.669 ]
 	Texture	"asteroid.*"
-	Color	[ 0.459 0.45 0.443 ]  # a000216.2.txt
+	Color	[ 0.454 0.444 0.437 ]
 	BlendTexture	true
 	Radius	133.5  # maximum semi-axis; MPCD model
 	Mass<kg>	2.97e18
@@ -760,9 +763,9 @@
 		AscendingNode	159.3
 		MeridianAngle	42.2  # from DAMIT model 1826
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.152  # Vernazza et al. (2021)
-	SphAlbedo	0.073  # for G = 0.280
+	SphAlbedo	0.071  # for G = 0.26
 	InfoURL	"https://en.wikipedia.org/wiki/216_Kleopatra"
 }
 
@@ -771,7 +774,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.459 0.45 0.443 ]
+	Color	[ 0.454 0.444 0.437 ]
 	BlendTexture	true
 	Radius	3.45
 	Mass<kg>	4e14
@@ -796,9 +799,9 @@
 		AscendingNode	162.920
 		MeridianAngle	166.745
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.152
-	SphAlbedo	0.073
+	SphAlbedo	0.071
 	InfoURL	"https://en.wikipedia.org/wiki/216_Kleopatra#Moons"
 }
 
@@ -807,7 +810,7 @@
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.459 0.45 0.443 ]
+	Color	[ 0.454 0.444 0.437 ]
 	BlendTexture	true
 	Radius	4.45
 	Mass<kg>	6e14
@@ -832,9 +835,9 @@
 		AscendingNode	162.954
 		MeridianAngle	215.403
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.152
-	SphAlbedo	0.073
+	SphAlbedo	0.071
 	InfoURL	"https://en.wikipedia.org/wiki/216_Kleopatra#Moons"
 }
 
@@ -844,7 +847,7 @@
 	Mesh	"interamnia.cmod"
 	MeshCenter	[ -2.784 -2.225 -6.122 ]
 	Texture	"asteroid.*"
-	Color	[ 0.216 0.218 0.221 ]  # a000704.2.txt
+	Color	[ 0.213 0.215 0.218 ]
 	BlendTexture	true
 	Radius	177  # maximum semi-axis
 	Mass<kg>	35.2e18
@@ -868,17 +871,19 @@
 		AscendingNode	163
 		MeridianAngle	36.4
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.067
-	SphAlbedo	0.019  # for G = -0.02
+	SphAlbedo	0.018  # for G = -0.03
 	InfoURL	"https://en.wikipedia.org/wiki/704_Interamnia"
 }
 
+
 # Asteroids visited by spacecraft
 
-# Sierks et al. (2011), Science 334, 487-490
+# Sierks et al. (2011), Science 334 (6055), pp. 487-490
 #   "Images of Asteroid 21 Lutetia: A Remnant Planetesimal from the Early Solar System"
-#   https://web.archive.org/web/20180430115517/https://dspace.mit.edu/bitstream/1721.1/110553/1/Sierks_2011_open_access.pdf
+#   https://dspace.mit.edu/server/api/core/bitstreams/23a8a102-7a26-43a7-a653-3fa05fe1409a/content
+#   https://ui.adsabs.harvard.edu/abs/2011Sci...334..487S/abstract
 "21 Lutetia:Lutetia" "Sol"
 {
 	Class	"asteroid"
@@ -912,16 +917,17 @@
 		AscendingNode	141.80
 		MeridianAngle	289.50
 	}
-	LunarLambert	0.92  # estimated from Fig. 3.2 of Hasselmann et al. (2016), 2016Icar..267..135H
+	LunarLambert	0.86  # estimated from Fig. 3.2 of Hasselmann et al., 2016Icar..267..135H
 	GeomAlbedo	0.19
 	SphAlbedo	0.073  # Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/21_Lutetia"
 }
 
-# Belton et al. (1996), Icarus 120, 1-19
+# Belton et al. (1996), Icarus 120 (1), pp. 1-19
 #   "Galileo's Encounter with 243 Ida: An Overview of the Imaging Experiment"
 #   https://ui.adsabs.harvard.edu/abs/1996Icar..120....1B/abstract
-# Albedos from Helfenstein et al. (1996), Icarus 120, 48-65
+# Size and rotational parameters from 2015 IAU WGCCRE report
+# Albedos from Helfenstein et al. (1996), Icarus 120 (1), pp. 48-65
 #   "Galileo Photometry of Asteroid 243 Ida"
 #   https://ui.adsabs.harvard.edu/abs/1996Icar..120...48H/abstract
 "243 Ida:Ida:1988 DB1:A910 CD" "Sol"
@@ -930,7 +936,7 @@
 	Mesh	"ida.cmod"
 	MeshCenter	[ -1.41 -0.4397 0.1119 ]
 	Texture	"ida.*"
-	Color	[ 1.0 0.961 0.899 ]  # a000243.2.txt
+	Color	[ 1.0 0.957 0.895 ]
 	BlendTexture	true
 	Radius	26.8  # maximum semi-axis
 	Mass<kg>	4.2e16
@@ -954,7 +960,7 @@
 		AscendingNode	258.76
 		MeridianAngle	274.05
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.206
 	BondAlbedo	0.081
 	SphAlbedo	0.069
@@ -966,16 +972,17 @@
 	Class	"minormoon"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.438 0.414 0.379 ]
+	Color	[ 0.441 0.414 0.379 ]
 	BlendTexture	true
 	SemiAxes	[ 0.8 0.7 0.6 ]
 
-	# Orbit interpolated and rotated from Belton et al. (1996), Icarus 120, 185-199
+	# Orbit interpolated and rotated from Belton et al. (1996), Icarus 120 (1), pp. 185-199
 	#   "The Discovery and Orbit of 1993 (243)1 Dactyl"
 	#   https://ui.adsabs.harvard.edu/abs/1996Icar..120..185B/abstract
-	# for the period suggested by Petit et al. (1997), Icarus 130, 177-197
+	# for the period suggested by Petit et al. (1997), Icarus 130 (1), pp. 177-197
 	#   "The Long-Term Dynamics of Dactyl's Orbit"
 	#   http://web.archive.org/web/20160113005636/http://www.lpl.arizona.edu/~hurfordt/research/papers/Icarus130.pdf
+	#   https://ui.adsabs.harvard.edu/abs/1997Icar..130..177P/abstract
 	EllipticalOrbit
 	{
 		Epoch	2449228.203529  # 1993 Aug 28 16:52:04.7 UT
@@ -994,17 +1001,17 @@
 		AscendingNode	33.30
 		MeridianAngle	28.68
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.198
 	BondAlbedo	0.073
 	SphAlbedo	0.063
 	InfoURL	"https://en.wikipedia.org/wiki/Dactyl_(moon)"
 }
 
-# Veverka et al. (1999), Icarus 140, p. 3-16
+# Veverka et al. (1999), Icarus 140 (1), pp. 3-16
 #   "NEAR Encounter with Asteroid 253 Mathilde: Overview"
 #   https://ui.adsabs.harvard.edu/abs/1999Icar..140....3V/abstract
-# Albedos from Clark et al. (1999), Icarus 140, p. 53-65
+# Albedos from Clark et al. (1999), Icarus 140 (1), pp. 53-65
 #   "NEAR Photometry of Asteroid 253 Mathilde"
 #   https://ui.adsabs.harvard.edu/abs/1999Icar..140...53C/abstract
 "253 Mathilde:Mathilde:1949 OL1:A915 TN" "Sol"
@@ -1013,21 +1020,21 @@
 	Mesh	"mathilde.cmod"
 	MeshCenter	[ 2.597 -1.09 -1.208 ]
 	Texture	"mathilde.*"
-	Color	[ 0.999 1.0 0.984 ]  # a000253.2.txt
+	Color	[ 0.999 1.0 0.984 ]
 	BlendTexture	true
 	Radius	33  # maximum semi-axis
 	Mass<kg>	1.033e17
 	Density	1300
-	EllipticalOrbit
+	EllipticalOrbit  # special solution (ID 2000253)
 	{
 		Epoch	2450627.039545  # 1997 Jun 27 12:55:54.5 UT (NEAR Shoemaker encounter)
-		Period	4.303410698090442
-		SemiMajorAxis	2.645674401413655
-		Eccentricity	0.2661815077254521
-		Inclination	6.708941148705455
-		AscendingNode	179.8685269969922
-		ArgOfPericenter	156.2069283788091
-		MeanAnomaly	15.64432975863683
+		Period	4.303410663251732
+		SemiMajorAxis	2.645674387134766
+		Eccentricity	0.2661814983802213
+		Inclination	6.708942895919493
+		AscendingNode	179.8684813252993
+		ArgOfPericenter	156.2069957415946
+		MeanAnomaly	15.64430798187906
 	}
 	BodyFrame	{ EquatorJ2000 {} }  # model's equator aligns with Earth's
 	UniformRotation
@@ -1035,17 +1042,21 @@
 		Epoch	2450627.039545  # 1997 Jun 27 12:55:54.5 UT
 		Period	417.744
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.047
 	BondAlbedo	0.012
 	SphAlbedo	0.013
 	InfoURL	"https://en.wikipedia.org/wiki/253_Mathilde"
 }
 
-# Mass and density from Miller et al. (2002), Icarus 155, p. 3-17
-#   "Determination of Shape, Gravity, and Rotational State of Asteroid 433 Eros"
-#   https://www.researchgate.net/publication/229044233
-# Albedos from Li et al. (2004), Icarus 172, p. 415-431
+# Size from Veverka et al. (2000), Science 289 (5487), pp. 2088-2097
+#   "NEAR at Eros: Imaging and Spectral Results"
+#   https://ui.adsabs.harvard.edu/abs/2000Sci...289.2088V/abstract
+# Mass and rotational parameters from Konopliv et al. (2002), Icarus 160 (2), p. 289-299
+#   "A Global Solution for the Gravity Field, Rotation, Landmarks, and Ephemeris of Eros"
+#   https://sbnarchive.psi.edu/pds3/near/NEAR_A_RSS_1_5_EROS_FLYBY_V1_0/document/gravity/space01v5.pdf
+#   https://ui.adsabs.harvard.edu/abs/2002Icar..160..289K/abstract
+# Albedos from Li et al. (2004), Icarus 172 (2), p. 415-431
 #   "Photometric analysis of Eros from NEAR data"
 #   https://ui.adsabs.harvard.edu/abs/2004Icar..172..415L/abstract
 "433 Eros:Eros:1898 DQ:1956 PC" "Sol"
@@ -1054,26 +1065,22 @@
 	Mesh	"eros.cmod"
 	MeshCenter	[ -1.236 0.0930 -0.1587 ]
 	Texture	"eros.*"
-	Color	[ 1.0 0.959 0.852 ]
+	Color	[ 1.0 0.953 0.848 ]
 	BlendTexture	true
-	Radius	17.0  # maximum semi-axis
-	Mass<kg>	6.6904e15
-	Density	2670
-	EllipticalOrbit
+	Radius	17.2  # maximum semi-axis
+	Mass<kg>	6.6864e15  # GM = (4.4627 ± 0.0001) x 10^-4 km^3/s^2
+	Density	2666  # calculated from volume of Gaskell et al., 2008M&PS...43.1049G
+	EllipticalOrbit  # special solution (ID 2000433)
 	{
-		Epoch	2451170.5  # 1998 Dec 23 (NEAR Shoemaker encounter)
-		Period	1.761005306666823
-		SemiMajorAxis	1.458260039171223
-		Eccentricity	0.2228859004411999
-		Inclination	10.83014818019957
-		AscendingNode	304.4308924279122
-		ArgOfPericenter	178.6132291188158
-		MeanAnomaly	208.1235355573054
+		Epoch	2451171.278738426  # 1998 Dec 23 18:41:23 TDB (NEAR Shoemaker encounter)
+		Period	1.76100734552858
+		SemiMajorAxis	1.458261164736658
+		Eccentricity	0.2228850204316418
+		Inclination	10.83013994994736
+		AscendingNode	304.4308766975156
+		ArgOfPericenter	178.6131593709767
+		MeanAnomaly	208.5594716712877
 	}
-
-	# Konopliv et al. (2002), Icarus 160, p. 289-299
-	#   "A Global Solution for the Gravity Field, Rotation, Landmarks, and Ephemeris of Eros"
-	#   https://sbnarchive.psi.edu/pds3/near/NEAR_A_RSS_1_5_EROS_FLYBY_V1_0/document/gravity/space01v5.pdf
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
@@ -1082,13 +1089,14 @@
 		AscendingNode	101.363
 		MeridianAngle	326.08
 	}
-	LunarLambert	0.9  # c = 0.1 (Kaasalainen et al. 2001, 2001Icar..153...37K)
+	LunarLambert	1
 	GeomAlbedo	0.23
 	SphAlbedo	0.093  # Bond albedo at 550 nm
 	InfoURL	"https://en.wikipedia.org/wiki/433_Eros"
 }
 
-# Albedos from Helfenstein et al. (1994), Icarus 107, 37-60
+# Size and rotational parameters from 2015 IAU WGCCRE report
+# Albedos from Helfenstein et al. (1994), Icarus 107 (1), p. 37-60
 #   "Galileo Photometry of Asteroid 951 Gaspra"
 #   https://ui.adsabs.harvard.edu/abs/1994Icar..107...37H/abstract
 "951 Gaspra:Gaspra:1916 S45:1955 MG1:A913 YA" "Sol"
@@ -1097,7 +1105,7 @@
 	Mesh	"gaspra.cmod"
 	MeshCenter	[ 1.540 -0.064 -0.118 ]
 	Texture	"gaspra.*"
-	Color	[ 1.0 0.952 0.862 ]  # a000951.2.txt
+	Color	[ 1.0 0.946 0.857 ]
 	BlendTexture	true
 	Radius	9.1  # maximum semi-axis
 	EllipticalOrbit
@@ -1114,23 +1122,23 @@
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		Period	7.042024  # Simonelli et al. (1995), 1995Icar..114..387S
+		Period	7.042024  # Simonelli et al., 1995Icar..114..387S
 		Inclination	63.30
 		AscendingNode	99.47
-		MeridianAngle	109.06  # offset for correct orientation at the Galileo encounter
+		MeridianAngle	109.06  # offset from original to keep orientation at encounter
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.22
 	BondAlbedo	0.12
 	SphAlbedo	0.1  # SSI GRN filter (0.56 µm)
 	InfoURL	"https://en.wikipedia.org/wiki/951_Gaspra"
 }
 
-# Jorda et al. (2012), Icarus 221, 1089-1100
-#   "Asteroid (2867) Steins: Shape, topography and global physical properties
-#   from OSIRIS observations"
+# Jorda et al. (2012), Icarus 221 (2), p. 1089-1100
+#   "Asteroid (2867) Steins:
+#   Shape, topography and global physical properties from OSIRIS observations"
 #   https://ui.adsabs.harvard.edu/abs/2012Icar..221.1089J/abstract
-# Albedos from Spjuth et al. (2012), Icarus 221, 1101-1118
+# Albedos from Spjuth et al. (2012), Icarus 221 (2), p. 1101-1118
 #   "Disk-resolved photometry of Asteroid (2867) Steins"
 #   https://ui.adsabs.harvard.edu/abs/2012Icar..221.1101S/abstract
 "2867 Steins:Steins:1969 VC:1954 QL:1979 FJ4:1980 VV1:1980 WB" "Sol"
@@ -1157,10 +1165,10 @@
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		Period	6.04679  # Keller et al. (2010), 2010Sci...327..190K
+		Period	6.04679  # Keller et al., 2010Sci...327..190K
 		Inclination	152
 		AscendingNode	181
-		MeridianAngle	78.31  # offset for correct orientation at the Rosetta encounter
+		MeridianAngle	78.31  # offset from original to keep orientation at encounter
 	}
 	LunarLambert	1
 	GeomAlbedo	0.37  # extrapolated to 550 nm from Fig. 9
@@ -1168,15 +1176,18 @@
 	InfoURL	"https://en.wikipedia.org/wiki/2867_Steins"
 }
 
+# Size from Bu et al. (2015), AJ 149 (1), article id. 21
+#   "New Insights of Asteroid 4179 Toutatis Using China Chang'e-2 Close Flyby Optical Measurements"
+#   https://ui.adsabs.harvard.edu/abs/2015AJ....149...21B/abstract
 "4179 Toutatis:Toutatis:1989 AC:1934 CT" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"toutatis.cmod"
 	MeshCenter	[ 0.0355 -0.2374 -0.0126 ]
 	Texture	"asteroid.*"
-	Color	[ 0.443 0.429 0.399 ]  # a004179.sp30.txt
+	Color	[ 0.445 0.429 0.399 ]
 	BlendTexture	true
-	Radius	2.177  # maximum semi-axis (2015AJ....149...21B)
+	Radius	2.177  # maximum semi-axis
 	EllipticalOrbit
 	{
 		Epoch	2456274.854944  # 2012 Dec 13 08:30 UT (Chang'e-2 encounter)
@@ -1189,41 +1200,64 @@
 		MeanAnomaly	6.763415127463227
 	}
 
-	# Zhao et al. (2015), MNRAS 450, 3620-3632
+	# Rotation from Zhao et al. (2015), MNRAS 450 (4), p.3620-3632
 	#   "Orientation and rotational parameters of asteroid 4179 Toutatis:
-	#   new insights from Chang′e-2's close flyby"
+	#   new insights from Chang'e-2's close flyby"
 	#   https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.3620Z/abstract
+	BodyFrame
+	{
+		# Angular momentum vector points towards λ = 180.2°, β = -54.75°
+		TwoVector
+		{
+			Primary
+			{
+				Axis	"x"
+				ConstantVector	{ Vector [ 0.8166 0.0029 -0.5771 ] Frame { EclipticJ2000 {} } }
+			}
+			Secondary
+			{
+				Axis	"z"
+				ConstantVector	{ Vector [ -0.5771 -0.002 -0.8166 ] Frame { EclipticJ2000 {} } }
+			}
+		}
+	}
 	PrecessingRotation
 	{
-		Epoch	2456274.854944  # 2012 Dec 13 08:30 UT
-		Period	129.12
-		Inclination	133.62
-		AscendingNode	266.35
-		MeridianAngle	155.3
-		PrecessionPeriod<d>	7.40
+		Epoch	2456274.854944     # 2012 Dec 13 08:30 UT
+		Period<d>	-5.38          # clockwise
+		Inclination	129.1          # beta = 27.6°
+		AscendingNode	235.7      # alpha = -20.1°
+		MeridianAngle	266.5      # gamma = 42.2°
+		PrecessionPeriod<d>	-7.40  # clockwise
 	}
-	LunarLambert	0.9
-	GeomAlbedo	0.185  # Bach et al. (2019), 2019JKAS...52...71B
-	SphAlbedo	0.066  # for G = 0.10
+	LunarLambert	1
+	GeomAlbedo	0.185  # Bach et al., 2019JKAS...52...71B
+	SphAlbedo	0.066  # for G = 0.10 (Spencer et al., 1995Icar..117...71S)
 	InfoURL	"https://en.wikipedia.org/wiki/4179_Toutatis"
 }
 
-# Fujiwara et al. (2006), Science 312, p. 1330-1334
+# Fujiwara et al. (2006), Science 312 (5778), pp. 1330-1334
 #   "The Rubble-Pile Asteroid Itokawa as Observed by Hayabusa"
 #   https://www.researchgate.net/publication/7042075
+#   https://ui.adsabs.harvard.edu/abs/2006Sci...312.1330F/abstract
 # Albedos from Tatsumi et al. (2018), Icarus 311, p. 175-196
 #   "Vis-NIR disk-integrated photometry of asteroid 25143 Itokawa around
 #   opposition by AMICA/Hayabusa"
 #   https://kar.kent.ac.uk/66973/1/Lowry_Vis-NIR%20Disk-integrated%20Photometry.pdf
+#   https://ui.adsabs.harvard.edu/abs/2018Icar..311..175T/abstract
+# X-axis offset from Kanamaru et al. (2019), Planetary and Space Science 174, p. 32-42
+#   "Density distribution of asteroid 25143 Itokawa based on smooth terrain shape"
+#   https://www.researchgate.net/publication/332991918
+#   https://ui.adsabs.harvard.edu/abs/2019P%26SS..174...32K/abstract
 "25143 Itokawa:Itokawa:1998 SF36" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"itokawa.cmod"
-	MeshCenter	[ 0.0153 -0.0022 0.0025 ]  # X-axis offset based on the compressed-head model of 2019P&SS..174...32K
+	MeshCenter	[ 0.0153 -0.0022 0.0025 ]  # compressed-head model
 	Texture	"itokawa.*"
-	Color	[ 1.0 0.956 0.888 ]
+	Color	[ 1.0 0.951 0.884 ]
 	BlendTexture	true
-	Radius	0.275  # maximum semi-axis (osculating box)
+	Radius	0.275  # maximum semi-axis; osculating box
 	Mass<kg>	3.51e10
 	Density	1900
 	EllipticalOrbit
@@ -1238,7 +1272,7 @@
 		MeanAnomaly	310.6795031514429
 	}
 
-	# https://sbnarchive.psi.edu/pds4/non_mission/gaskell.ast-itokawa.shape-model_V1_1/document/bundle_description.txt
+	# https://sbnarchive.psi.edu/pds3/hayabusa/HAY_A_AMICA_5_ITOKAWASHAPE_V1_0/catalog/dataset.cat
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
@@ -1247,7 +1281,7 @@
 		AscendingNode	180.02564
 		MeridianAngle	129.73
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.27
 	SphAlbedo	0.033  # V-band Bond albedo
 	InfoURL	"https://en.wikipedia.org/wiki/25143_Itokawa"
@@ -1256,13 +1290,13 @@
 # Sizes and rotational parameters from coordinate system documents:
 #   https://doi.org/10.26007/30x0-fv64
 #   https://doi.org/10.26007/7312-sc96
-# Masses and densities from Makadia et al. (2026), Science Advances 12, eaea4259
+# Masses and densities from Makadia et al. (2026), Science Advances 12 (10), eaea4259
 #   "Direct detection of an asteroid's heliocentric deflection: The Didymos system after DART"
 #   https://ui.adsabs.harvard.edu/abs/2026SciA...12a4259M/abstract
-# Rotation periods of Didymos from Ďurech et al. (2025), Planet. Sci. J. 6, 308
+# Rotation periods of Didymos from Ďurech et al. (2025), Planet. Sci. J. 6 (12), id.308
 #   "A Change of the Rotation Period of Asteroid (65803) Didymos Caused by the DART Impact"
 #   https://ui.adsabs.harvard.edu/abs/2025PSJ.....6..308D/abstract
-# Albedos from Rozitis et al. (2024), Planet. Sci. J. 5, 66
+# Albedos from Rozitis et al. (2024), Planet. Sci. J. 5 (3), id.66
 #   "Pre-impact Thermophysical Properties and the Yarkovsky Effect of NASA DART
 #   Target (65803) Didymos"
 #   https://ui.adsabs.harvard.edu/abs/2024PSJ.....5...66R/abstract
@@ -1272,7 +1306,7 @@
 	Mesh	"didymos.cmod"
 	MeshCenter	[ 0.0058 0.0017 0.0027 ]  # zero COM-COF offset
 	Texture	"didymos.*"  # brightness: 0.61316
-	Color	[ 0.489 0.479 0.443 ]  # au1996GT.7.txt
+	Color	[ 0.489 0.479 0.443 ]
 	BlendTexture	true
 	Radius	0.4095  # maximum semi-axis
 	Mass<kg>	5.3e11  # mass ratio = 0.0051 ± 0.0006
@@ -1333,13 +1367,14 @@
 	InfoURL	"https://en.wikipedia.org/wiki/65803_Didymos"
 }
 
-# Orbit from Naidu et al. (2024), Planet. Sci. J. 5, 74
+# Orbit from Naidu et al. (2024), Planet. Sci. J. 5 (3), id.74
 #   "Orbital and Physical Characterization of Asteroid Dimorphos Following the DART Impact"
 #   https://ui.adsabs.harvard.edu/abs/2024PSJ.....5...74N/abstract
 "Dimorphos:65803 Didymos I:Didymos I:Didymoon" "Sol/Didymos"
 {
 	Class	"minormoon"
 	Mesh	"dimorphos.cmod"  # v004 shape model
+	MeshCenter	[ -0.00063 0.00039 -0.00046 ]
 	Texture	"dimorphos.*"  # brightness: 0.82409
 	Color	[ 0.364 0.356 0.329 ]
 	BlendTexture	true
@@ -1393,7 +1428,7 @@
 
 			# After impact, Dimorphos is in an excited rotation state, but the
 			# mean period is roughly synchronous with its orbit, per
-			# Pravec et al. (2024), Icarus 418, 116138
+			# Pravec et al. (2024), Icarus 418, id.116138
 			#   "Rotational lightcurves of Dimorphos and constraints on its
 			#   post-DART impact spin state"
 			#   https://ui.adsabs.harvard.edu/abs/2024Icar..41816138P/abstract
@@ -1407,17 +1442,20 @@
 			}
 		}
 	]
-	LunarLambert	0.73  # A = 0.95 (Buratti et al. 2024, 2024PSJ.....5...83B)
+	LunarLambert	0.73  # A = 0.95 (Buratti et al., 2024PSJ.....5...83B)
 	GeomAlbedo	0.17
 	SphAlbedo	0.07
 	InfoURL	"https://en.wikipedia.org/wiki/Dimorphos"
 }
 
-# Mass and density from Goossens et al. (2021), Planet. Sci. J. 2, 219
+# Size and rotational parameters from Barnouin & Nolan (2021)
+#   "Bennu Coordinate System Description"
+#   https://sbnarchive.psi.edu/pds4/orex/orex.mission/document/Bennu_Coordinate_System_Description.pdf
+# Mass and density from Goossens et al. (2021), Planet. Sci. J. 2 (6), id.219
 #   "Mass and Shape Determination of (101955) Bennu Using Differenced Data from
 #   Multiple OSIRIS-REx Mission Phases"
 #   https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..219G/abstract
-# Albedos from Li et al. (2021), Planet. Sci. J. 2, 117
+# Albedos from Li et al. (2021), Planet. Sci. J. 2 (3), id.117
 #   "Spectrophotometric Modeling and Mapping of (101955) Bennu"
 #   https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..117L/abstract
 "101955 Bennu:Bennu:1999 RQ36" "Sol"
@@ -1428,10 +1466,10 @@
 	Texture	"bennu.*"  # brightness: 0.24708
 	Color	[ 0.621 0.627 0.636 ]
 	BlendTexture	true
-	Radius	0.283955  # maximum semi-axis; from model extent
+	Radius	0.283065  # maximum semi-axis
 	Mass<kg>	7.3304e10
 	Density	1191.57
-	EllipticalOrbit
+	EllipticalOrbit  # special solution
 	{
 		Epoch	2458455.5  # 2018 Dec 03 (OSIRIS-REx arrival)
 		Period	1.194708319285171
@@ -1443,8 +1481,6 @@
 		MeanAnomaly	328.0138356636153
 	}
 
-	# O. Barnouin, M. Nolan (19 Aug 2021), "Bennu Coordinate System Description"
-	# https://sbnarchive.psi.edu/pds4/orex/orex.mission/document/Bennu_Coordinate_System_Description.pdf
 	# Since Bennu's rotation rate is accelerating due to the YORP effect, we
 	# model its rotation state as it was at epoch J2019, during OSIRIS-REx's stay
 	BodyFrame	{ EquatorJ2000 {} }
@@ -1456,21 +1492,21 @@
 		AscendingNode	175.459
 		MeridianAngle	19.64457  # at epoch
 	}
-	LunarLambert	1  # well-fit by Lommel-Seeliger function (2021PSJ.....2..124G)
+	LunarLambert	1  # well-fit by Lommel-Seeliger function (Golish et al., 2021PSJ.....2..124G)
 	GeomAlbedo	0.046
-	BondAlbedo	0.025  # Zou et al. (2021), 2021Icar..35814183Z
+	BondAlbedo	0.025  # Zou et al., 2021Icar..35814183Z
 	SphAlbedo	0.020  # Bond albedo at 0.55 µm
 	InfoURL	"https://en.wikipedia.org/wiki/101955_Bennu"
 }
 
-# Levison et al. (2024), Nature 629, 1015-1020
+# Levison et al. (2024), Nature 629 (8014), pp. 1015-1020
 #   "A contact binary satellite of the asteroid (152830) Dinkinesh"
 #   https://ui.adsabs.harvard.edu/abs/2024Natur.629.1015L/abstract
-# Size and density from Bierhaus et al. (2025), Planet. Sci. J. 6, 299
+# Size and density from Bierhaus et al. (2025), Planet. Sci. J. 6 (12), id.299
 #   "The Geology of a Small Main-belt S-class Binary Asteroid System:
 #   Dinkinesh and Its Contact Binary Satellite Selam as Observed by the Lucy Mission"
 #   https://ui.adsabs.harvard.edu/abs/2025PSJ.....6..299B/abstract
-# Pole orientation and spherical/Bond albedos from Jackson et al. (2025), Planet. Sci. J. 6, 168
+# Pole orientation and spherical/Bond albedos from Jackson et al. (2025), Planet. Sci. J. 6 (7), id.168
 #   "Thermal-IR Observations of (152830) Dinkinesh during the Lucy Mission Flyby"
 #   https://ui.adsabs.harvard.edu/abs/2025PSJ.....6..168J/abstract
 "152830 Dinkinesh:Dinkinesh:1999 VD57:2004 HJ78:2007 CB63" "Sol"
@@ -1484,16 +1520,16 @@
 	Radius	0.455  # maximum semi-axis
 	# Mass<kg>	4.95e11  # system mass
 	# Density	2220
-	EllipticalOrbit
+	EllipticalOrbit  # special solution (ID 20152830)
 	{
-		Epoch	2460250.204968  # 2023 Nov 01 16:54 UT (Lucy encounter)
-		Period	3.244570881233216
-		SemiMajorAxis	2.191623974754082
-		Eccentricity	0.1121272072002222
-		Inclination	2.093522123142289
-		AscendingNode	21.38248709753523
-		ArgOfPericenter	66.78496360214777
-		MeanAnomaly	101.0214357562674
+		Epoch	2460250.205446  # 2023 Nov 01 16:54:41.3 UT (Lucy encounter)
+		Period	3.244570891590554
+		SemiMajorAxis	2.191623979418157
+		Eccentricity	0.1121271866985999
+		Inclination	2.093525419125051
+		AscendingNode	21.38251489191842
+		ArgOfPericenter	66.78493869410404
+		MeanAnomaly	101.0215751498539
 	}
 	UniformRotation
 	{
@@ -1503,7 +1539,7 @@
 		MeridianAngle 310  # approximate
 	}
 	LunarLambert 1
-	GeomAlbedo	0.27  # McFadden et al. (2023), 2023ApJ...957L...2M
+	GeomAlbedo	0.27  # McFadden et al., 2023ApJ...957L...2M
 	SphAlbedo	0.114  # rough-surface Bond albedo
 	BondAlbedo	0.15  # smooth-surface, used for thermophysical modeling
 	InfoURL	"https://en.wikipedia.org/wiki/152830_Dinkinesh"
@@ -1523,7 +1559,7 @@
 		Epoch	2460249.5  # 2023 Nov 01
 		Period<h>	52.67
 		SemiMajorAxis	3.11
-		Inclination	5  # approximate
+		Inclination	5    # approximate
 		MeanAnomaly	264  # approximate
 	}
 	UniformRotation
@@ -1537,10 +1573,13 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Selam_(moon)"
 }
 
-# Watanabe et al. (2019), Science 364 (6437), p. 268-272
-#   "Hayabusa2 arrives at the carbonaceous asteroid 162173 Ryugu—A spinning top–shaped rubble pile"
-#   https://ui.adsabs.harvard.edu/abs/2019Sci...364..268W/abstract
-# Albedos from Tatsumi et al. (2020), A&A 639, A83
+# Size and rotational parameters from Hirata (2020)
+#   "Ryugu Coordinate System Description"
+#   https://sbnarchive.psi.edu/pds4/hayabusa2/hyb2/document/Ryugu_Coordinate_System_Description.pdf
+# Mass and density from Gao et al. (2026), Nature Astronomy 10, p. 1292-1300
+#   "The shallow subsurface heterogeneities of asteroid Ryugu revealed by its gravity field"
+#   https://ui.adsabs.harvard.edu/abs/2026NatAs..10.1292G/abstract
+# Albedos from Tatsumi et al. (2020), A&A 639, id.A83
 #   "Global photometric properties of (162173) Ryugu"
 #   https://ui.adsabs.harvard.edu/abs/2020A%26A...639A..83T/abstract
 "162173 Ryugu:Ryugu:1999 JU3" "Sol"
@@ -1552,8 +1591,8 @@
 	Color	[ 0.547 0.547 0.547 ]  # phase integral (v-band) = 0.338
 	BlendTexture	true
 	Radius	0.502  # equatorial
-	Mass<kg>	4.50e11
-	Density	1190
+	Mass<kg>	4.4709e11  # GM = (29.840 ± 0.005) m^3/s^2
+	Density	1178
 	EllipticalOrbit
 	{
 		Epoch	2458296.5  # 2018 Jun 27 (Hayabusa2 arrival)
@@ -1565,9 +1604,6 @@
 		ArgOfPericenter	211.4360584980608
 		MeanAnomaly	18.89661040321024
 	}
-
-	# N. Hirata (17 Nov 2020), "Ryugu Coordinate System Description"
-	# https://sbnarchive.psi.edu/pds4/hayabusa2/hyb2/document/Ryugu_Coordinate_System_Description.pdf
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation  # PCK ryugu_v10.tpc
 	{
@@ -1576,7 +1612,7 @@
 		AscendingNode	186.43112
 		MeridianAngle	274.16225
 	}
-	LunarLambert	1  # Lommel-Seeliger
+	LunarLambert	1
 	GeomAlbedo	0.040  # v-band
 	SphAlbedo	0.014  # v-band (Bond albedo)
 	InfoURL	"https://en.wikipedia.org/wiki/162173_Ryugu"
@@ -1612,25 +1648,30 @@
 	#   (Convex shape, non-mirror model)
 	BodyFrame
 	{
-		# Angular momentum vector points towards λ = 227°, β = -42°
+		# Angular momentum vector points towards λ = 225°, β = -43°
 		TwoVector
 		{
 			Primary
 			{
 				Axis	"x"
-				ConstantVector	{ Vector [ 0.456 0.489 -0.743 ] Frame { EclipticJ2000 {} } }
+				ConstantVector	{ Vector [ 0.482 0.482 -0.731 ] Frame { EclipticJ2000 {} } }
 			}
 			Secondary
 			{
 				Axis	"z"
-				ConstantVector	{ Vector [ -0.507 -0.544 -0.669 ] Frame { EclipticJ2000 {} } }
+				ConstantVector	{ Vector [ -0.517 -0.517 -0.682 ] Frame { EclipticJ2000 {} } }
 			}
 		}
 	}
+
+	# Precession and rotation angles from https://damit.cuni.cz/projects/damit/tumblers/view/7
 	PrecessingRotation
 	{
+		Epoch	2461150.8
 		Period<min>	49.66
-		Inclination	90  # guess
+		Inclination	66  # mean
+		AscendingNode	8
+		MeridianAngle	82
 		PrecessionPeriod<min>	-27.90  # rotation and precession have the same direction for LAM
 	}
 	LunarLambert	1
@@ -1639,20 +1680,21 @@
 	InfoURL	"https://en.wikipedia.org/wiki/469219_Kamo%CA%BBoalewa"
 }
 
+
 # Radar-imaged asteroids
 
-# Rozitis and Green (2014), A&A 568, A43
-#   "Physical characterisation of near-Earth asteroid (1620) Geographos. Reconciling
-#   radar and thermal-infrared observations"
+# Rozitis & Green (2014), A&A 568, id.A43
+#   "Physical characterisation of near-Earth asteroid (1620) Geographos.
+#   Reconciling radar and thermal-infrared observations"
 #   https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..43R/abstract
-#   (Light-curve, fixed diameter model used)
+#   (Light-curve, fixed diameter model)
 "1620 Geographos:Geographos:1951 RA:1983 CY3" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"geographos.cmod"
 	MeshCenter	[ 0.1420 -0.0025 -0.0275 ]
 	Texture	"asteroid.*"
-	Color	[ 0.448 0.427 0.392 ]  # a001620.8.txt
+	Color	[ 0.508 0.482 0.443 ]
 	BlendTexture	true
 	Radius	2.52  # maximum semi-axis
 	SemiAxes	[ 1 1 0.767 ]
@@ -1660,17 +1702,17 @@
 	Density	2100
 	EllipticalOrbit
 	{
-		Epoch	2460200.5  # 2023 Sept 13
-		Period	1.390339926501523
-		SemiMajorAxis	1.245685841377485
-		Eccentricity	0.335516799313894
-		Inclination	13.33611530096958
-		AscendingNode	337.1718940324326
-		ArgOfPericenter	276.9535896835176
-		MeanAnomaly	5.842707534379361
+		Epoch	2449589.5  # 1994 Aug 25
+		Period	1.389829007000085
+		SemiMajorAxis	1.245380647823397
+		Eccentricity	0.3356987384528171
+		Inclination	13.3381548131213
+		AscendingNode	337.3726393602307
+		ArgOfPericenter	276.6737669762798
+		MeanAnomaly	41.96421450274698
 	}
 
-	# Ďurech et al. (2022), A&A 657, A5
+	# Ďurech et al. (2022), A&A 657, id.A5
 	#   "Rotation acceleration of asteroids (10115) 1992 SK, (1685) Toro, and
 	#   (1620) Geographos due to the YORP effect"
 	#   https://ui.adsabs.harvard.edu/abs/2022A%26A...657A...5D/abstract
@@ -1680,34 +1722,35 @@
 		Inclination	141.2
 		AscendingNode	146.7
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.168
-	SphAlbedo	0.066  # for G = 0.15
+	SphAlbedo	0.084  # for G_max = 0.31 (Magnusson et al., 1996Icar..123..227M)
 	InfoURL	"https://en.wikipedia.org/wiki/1620_Geographos"
 }
 
-# Benner et al. (1999), Icarus 139, p. 309-327
+# Benner et al. (1999), Icarus 139 (2), pp. 309-327
 #   "Radar Observations of Asteroid 2063 Bacchus"
 #   https://echo.jpl.nasa.gov/asteroids/benner.etal.1999.bacchus.pdf
+#   https://ui.adsabs.harvard.edu/abs/1999Icar..139..309B/abstract
 "2063 Bacchus:Bacchus:1977 HB" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"bacchus.cmod"
 	MeshCenter	[ -0.0067 -0.0020 0.0028 ]
 	Texture	"asteroid.*"
-	Color	[ 0.841 0.808 0.725 ]  # a002063.7.txt
+	Color	[ 0.549 0.523 0.467 ]
 	BlendTexture	true
 	Radius	0.555  # maximum semi-axis
 	EllipticalOrbit
 	{
-		Epoch	2460200.5  # 2023 Sept 13
-		Period	1.119515652536138
-		SemiMajorAxis	1.078155274470302
-		Eccentricity	0.3494463429049549
-		Inclination	9.431623422942975
-		AscendingNode	33.05928605322207
-		ArgOfPericenter	55.34924687001374
-		MeanAnomaly	250.3202253341755
+		Epoch	2450173.5  # 1996 Mar 31
+		Period	1.119388192756165
+		SemiMajorAxis	1.078073439055428
+		Eccentricity	0.3497083234789753
+		Inclination	9.429152863317489
+		AscendingNode	33.27410274045599
+		ArgOfPericenter	55.12694074821335
+		MeanAnomaly	61.22614295070247
 	}
 	UniformRotation
 	{
@@ -1715,78 +1758,83 @@
 		Inclination	116
 		AscendingNode	114
 	}
-	LunarLambert	0.9
-	GeomAlbedo	0.56
-	SphAlbedo	0.25  # for G = 0.230
+	LunarLambert	1
+	GeomAlbedo	0.222  # Fornasier et al., 2026Icar..45317072F
+	SphAlbedo	0.099  # for G = 0.23 (Pravec et al., 1998Icar..136..124P)
 	InfoURL	"https://en.wikipedia.org/wiki/2063_Bacchus"
 }
 
-# Size from Hudson and Ostro (1994), Science 263 (5149), p.940-943
+# Size from Hudson & Ostro (1994), Science 263 (5149), pp. 940-943
 #   "Shape of Asteroid 4769 Castalia (1989 PB) from Inversion of Radar Images"
 #   https://echo.jpl.nasa.gov/asteroids/hudson+ostro_1994_castalia.pdf
+#   https://ui.adsabs.harvard.edu/abs/1994Sci...263..940H/abstract
+# Rotation and albedos from Hudson et al. (1997), Icarus 130 (1), pp. 165-176
+#   "Constraints on Spin State and Hapke Parameters of Asteroid 4769 Castalia
+#   Using Lightcurves and a Radar-Derived Shape Model"
+#   https://echo.jpl.nasa.gov/asteroids/hudson+1997_cas_lcurves_icarus.pdf
+#   https://ui.adsabs.harvard.edu/abs/1997Icar..130..165H/abstract
+#   (Northern lower-bound model)
 "4769 Castalia:Castalia:1989 PB" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"castalia.cmod"
 	MeshCenter	[ -0.0456 -0.0347 -0.0178 ]
 	Texture	"asteroid.*"
-	Color	[ 0.525 0.522 0.527 ]  # from Gaia DR3 spectrum
+	Color	[ 0.47 0.443 0.402 ]  # S-type
 	BlendTexture	true
 	Radius	0.8  # maximum semi-axis
 	EllipticalOrbit
 	{
-		Epoch	2460200.5  # 2023 Sept 13
-		Period	1.096127161359326
-		SemiMajorAxis	1.06308622660304
-		Eccentricity	0.4831777004493031
-		Inclination	8.884914379659511
-		AscendingNode	325.5266137096851
-		ArgOfPericenter	121.428186379395
-		MeanAnomaly	324.4220828465544
+		Epoch	2447763.5  # 1989 Aug 25
+		Period	1.096970002690643
+		SemiMajorAxis	1.063631113640056
+		Eccentricity	0.483378947369016
+		Inclination	8.905669257591137
+		AscendingNode	325.836394669335
+		ArgOfPericenter	121.1062224169844
+		MeanAnomaly	303.1484546966428
 	}
-
-	# Hudson and Ostro (1997), Icarus 130, p. 165-176
-	#   "Constraints on Spin State and Hapke Parameters of Asteroid 4769 Castalia
-	#   Using Lightcurves and a Radar-Derived Shape Model"
-	#   https://echo.jpl.nasa.gov/asteroids/hudson+1997_cas_lcurves_icarus.pdf
 	UniformRotation
 	{
 		Period	4.089
 		Inclination	146
 		AscendingNode	343
 	}
-	LunarLambert	0.9
-	GeomAlbedo	0.0986  # SsODNet
+	LunarLambert	1
+	GeomAlbedo	0.17  # calculated from Hapke parameters
+	SphAlbedo	0.07  # calculated from Hapke parameters
 	InfoURL	"https://en.wikipedia.org/wiki/4769_Castalia"
 }
 
-# Hudson et al. (2000), Icarus 148, p. 37-51
+# Hudson et al. (2000), Icarus 148 (1), pp. 37-51
 #   "Radar Observations and Physical Model of Asteroid 6489 Golevka"
 #   https://echo.jpl.nasa.gov/asteroids/6489_Golevka/hudson.etal.2000.golevka.pdf
-# Mass and density from Chesley et al. (2003), Science 302 (5651), p. 1739-1742
+#   https://ui.adsabs.harvard.edu/abs/2000Icar..148...37H/abstract
+# Mass and density from Chesley et al. (2003), Science 302 (5651), pp. 1739-1742
 #   "Direct Detection of the Yarkovsky Effect by Radar Ranging to Asteroid 6489 Golevka"
 #   https://echo.jpl.nasa.gov/asteroids/chesley+golevka.pdf
+#   https://ui.adsabs.harvard.edu/abs/2003Sci...302.1739C/abstract
 "6489 Golevka:Golevka:1991 JX" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"golevka.cmod"
 	MeshCenter	[ -0.0289 -0.0111 -0.0331 ]
 	Texture	"asteroid.*"
-	Color	[ 0.428 0.401 0.351 ]  # a006489visir8.visir.txt
+	Color	[ 0.511 0.476 0.419 ]
 	BlendTexture	true
 	Radius	0.3425  # maximum semi-axis
 	Mass<kg>	2.1e11
 	Density	2700
-	EllipticalOrbit
+	EllipticalOrbit  # special solution
 	{
-		Epoch	2460200.5  # 2023 Sept 13
-		Period	3.920794186833659
-		SemiMajorAxis	2.486435678048829
-		Eccentricity	0.612549471264883
-		Inclination	2.266413796678444
-		AscendingNode	209.4722974722876
-		ArgOfPericenter	68.68591188827685
-		MeanAnomaly	51.40811788183258
+		Epoch	2451331.5  # 1999 Jun 02
+		Period	3.995005034616632
+		SemiMajorAxis	2.517712208378444
+		Eccentricity	0.5980884060228665
+		Inclination	2.292827818188318
+		AscendingNode	212.4089957518962
+		ArgOfPericenter	65.01286636336501
+		MeanAnomaly	354.8522458378336
 	}
 	UniformRotation
 	{
@@ -1794,40 +1842,41 @@
 		Inclination	135
 		AscendingNode	292
 	}
-	LunarLambert	0.77  # c = 0.3 (Kaasalainen et al. 2001, 2001Icar..153...37K)
+	LunarLambert	1
 	GeomAlbedo	0.151
-	SphAlbedo	0.058  # for G = 0.138 (1997AJ....114.1234M)
+	SphAlbedo	0.082  # for G_max = 0.370 (Mottola et al., 1997AJ....114.1234M)
 	InfoURL	"https://en.wikipedia.org/wiki/6489_Golevka"
 }
 
-# Scheirich et al. (2021), Icarus 360, 114321
+# Scheirich et al. (2021), Icarus 360, article id. 114321
 #   "A satellite orbit drift in binary near-Earth asteroids (66391) 1999 KW4 and
 #   (88710) 2001 SL9 - Indication of the BYORP effect"
-#   https://arxiv.org/abs/1912.06456
-# Sizes, masses and Moshup rotational parameters from Ostro et al. (2006), Science 314, p. 1276-1280
+#   https://ui.adsabs.harvard.edu/abs/2021Icar..36014321S/abstract
+# Sizes, masses and pole orientations from Ostro et al. (2006), Science 314 (5803), pp. 1276-1280
 #   "Radar Imaging of Binary Near-Earth Asteroid (66391) 1999 KW4"
 #   https://www.researchgate.net/publication/6756119
+#   https://ui.adsabs.harvard.edu/abs/2006Sci...314.1276O/abstract
 "66391 Moshup:Moshup:1999 KW4" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"moshup.cmod"
 	MeshCenter	[ 0.0144 0.0143 -0.0104 ]
 	Texture	"asteroid.*"
-	Color	[ 0.474 0.451 0.404 ]
+	Color	[ 0.474 0.452 0.4 ]
 	BlendTexture	true
 	Radius	0.766  # maximum semi-axis
 	Mass<kg>	2.353e12
 	Density	1970
 	EllipticalOrbit
 	{
-		Epoch	2460200.5  # 2023 Sept 13
-		Period	0.5148635960482710
-		SemiMajorAxis	0.6423760229399936
-		Eccentricity	0.6883780174838541
-		Inclination	38.88166385284021
-		AscendingNode	244.8980590317618
-		ArgOfPericenter	192.6454944346902
-		MeanAnomaly	251.1710689508431
+		Epoch	2452054.5  # 2001 May 25
+		Period	0.5147181433037254
+		SemiMajorAxis	0.6422550332821519
+		Eccentricity	0.6884855237534168
+		Inclination	38.90665345475585
+		AscendingNode	244.9429654329871
+		ArgOfPericenter	192.5915636575895
+		MeanAnomaly	133.9872599035312
 	}
 	UniformRotation
 	{
@@ -1837,7 +1886,7 @@
 		AscendingNode	56
 		MeridianAngle	216  # x-axis on the plane of sky at epoch
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.162
 	SphAlbedo	0.074  # for assumed G = 0.24
 	InfoURL	"https://en.wikipedia.org/wiki/66391_Moshup"
@@ -1849,7 +1898,7 @@
 	Mesh	"squannit.cmod"
 	MeshCenter	[ -0.0027 0.0032 0.0045 ]
 	Texture	"asteroid.*"
-	Color	[ 0.474 0.451 0.404 ]
+	Color	[ 0.483 0.451 0.396 ]  # redder than primary (Reddy et al., 2022Icar..37414790R); assume V-type
 	BlendTexture	true
 	Radius	0.37115  # maximum semi-axis; scaled by 130%
 	Mass<kg>	0.135e12
@@ -1859,19 +1908,19 @@
 		Epoch	2455305.0  # 2010 Apr 18 12:00
 		Period<h>	17.45763
 		SemiMajorAxis	2.548
-		Inclination	152.3
-		AscendingNode	59.6
+		Inclination	151.8
+		AscendingNode	55.8
 		MeanLongitude	40
 	}
 	BodyFrame	{ EclipticJ2000 {} }
 	UniformRotation  # to match orbit
 	{
 		Epoch	2455305.0  # 2010 Apr 18 12:00
-		Inclination	152.3
-		AscendingNode	59.6
-		MeridianAngle	160.4
+		Inclination	151.8
+		AscendingNode	55.8
+		MeridianAngle	164.2
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.162
 	SphAlbedo	0.074
 	InfoURL	"https://en.wikipedia.org/wiki/Squannit_(moon)"
@@ -1881,31 +1930,31 @@
 #   "Physical modeling of triple near-Earth Asteroid (153591) 2001 SN263 from
 #   radar and optical light curve observations"
 #   https://ui.adsabs.harvard.edu/abs/2015Icar..248..499B/abstract
-# Masses and moon orbits from Fang et al. (2011), AJ 141, 154
-#   "Orbits of Near-Earth Asteroid Triples 2001 SN263 and 1994 CC: Properties, Origin, and Evolution"
+# Masses and moon orbits from Fang et al. (2011), AJ 141 (5), article id. 154
+#   "Orbits of Near-Earth Asteroid Triples 2001 SN263 and 1994 CC:
+#   Properties, Origin, and Evolution"
 #   https://ui.adsabs.harvard.edu/abs/2011AJ....141..154F/abstract
-# Color from indices and geometric albedo from SsODNet: https://ssp.imcce.fr/forms/ssocard/2001_SN263
 "(153591) 2001 SN263:2001 SN263" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"153591alpha.cmod"
 	MeshCenter	[ -0.0179 -0.0683 0.0142 ]
 	Texture	"asteroid.*"
-	Color	[ 0.148 0.147 0.143 ]
+	Color	[ 0.155 0.166 0.155 ]
 	BlendTexture	true
 	Radius	1.45  # maximum semi-axis
 	Mass<kg>	917.466e10
 	Density	1100
 	EllipticalOrbit
 	{
-		Epoch	2460200.5  # 2023 Sept 13
-		Period	2.801152310394960
-		SemiMajorAxis	1.987096756250077
-		Eccentricity	0.480047300683622
-		Inclination	6.693696780337604
-		AscendingNode	325.7361492222867
-		ArgOfPericenter	173.0585632848529
-		MeanAnomaly	202.6542901661467
+		Epoch	2454516.5  # 2008 Feb 20
+		Period	2.800865601119042
+		SemiMajorAxis	1.986961162340068
+		Eccentricity	0.4781158989286026
+		Inclination	6.688986823219282
+		AscendingNode	325.9155246760698
+		ArgOfPericenter	172.476149906999
+		MeanAnomaly	3.140599599455283
 	}
 	UniformRotation
 	{
@@ -1913,9 +1962,9 @@
 		Inclination	170
 		AscendingNode	39
 	}
-	LunarLambert	0.9
-	GeomAlbedo	0.0405
-	SphAlbedo	0.0097  # for G_1 = 0.28448 and G_2 = 0.140601
+	LunarLambert	1
+	GeomAlbedo	0.048
+	SphAlbedo	0.011  # for G1 = 0.284 and G2 = 0.141
 	InfoURL	"https://en.wikipedia.org/wiki/(153591)_2001_SN263"
 }
 
@@ -1923,9 +1972,9 @@
 {
 	Class	"minormoon"
 	Mesh	"153591gamma.cmod"
-	MeshCenter	[ -0.0012 0 0.0029 ]
+	MeshCenter	[ -0.00121 -0.00044 0.00291 ]
 	Texture	"asteroid.*"
-	Color	[ 0.148 0.147 0.143 ]
+	Color	[ 0.155 0.166 0.155 ]
 	BlendTexture	true
 	Radius	0.27  # maximum semi-axis
 	Mass<kg>	9.773e10
@@ -1950,9 +1999,9 @@
 		AscendingNode	198.689
 		MeridianAngle	1.251
 	}
-	LunarLambert	0.9
-	GeomAlbedo	0.0405
-	SphAlbedo	0.0097
+	LunarLambert	1
+	GeomAlbedo	0.048
+	SphAlbedo	0.011
 	InfoURL	"https://en.wikipedia.org/wiki/(153591)_2001_SN263#Trinary_system"
 }
 
@@ -1962,7 +2011,7 @@
 	Mesh	"153591beta.cmod"
 	MeshCenter	[ 0.0036 0.0322 0.0333 ]
 	Texture	"asteroid.*"
-	Color	[ 0.148 0.147 0.143 ]
+	Color	[ 0.155 0.166 0.155 ]
 	BlendTexture	true
 	Radius	0.5  # maximum semi-axis
 	Mass<kg>	24.039e10
@@ -1983,46 +2032,52 @@
 	{
 		Period	13.43
 	}
-	LunarLambert	0.9
-	GeomAlbedo	0.0405
-	SphAlbedo	0.0097
+	LunarLambert	1
+	GeomAlbedo	0.048
+	SphAlbedo	0.011
 	InfoURL	"https://en.wikipedia.org/wiki/(153591)_2001_SN263#Trinary_system"
 }
 
-# Santana-Ros et al. (2025)
-#   "Hayabusa2# mission target 1998 KY26 preview: a small optically bright rapid rotator"
-#   https://www.researchsquare.com/article/rs-5821856/v1
+# Santana-Ros et al. (2025), Nature Communications 16 (1), id.8275
+#   "Hayabusa2 extended mission target asteroid 1998 KY26 is smaller and
+#   rotating faster than previously known"
+#   https://ui.adsabs.harvard.edu/abs/2025NatCo..16.8275S/abstract
+# Density and absorptivity from Farnocchia et al. (2025), ApJL 993 (1), id.L9
+#   "Radiation Forces and Trajectory of Hayabusa2♯ Target 1998 KY26"
+#   https://ui.adsabs.harvard.edu/abs/2025ApJ...993L...9F/abstract
 "1998 KY26" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"ky26.cmod"
 	MeshCenter	[ -0.000718 -0.000099 0.000556 ]
 	Texture	"asteroid.*"
-	Color	[ 1.0 0.973 0.941 ]  # 1.019 0.991 0.957
+	Color	[ 0.91 0.863 0.787 ]
 	BlendTexture	true
 	Radius	0.0055
+	Density	2800
 	EllipticalOrbit
 	{
-		Epoch	2460200.5  # 2023 Sept 13
-		Period	1.368895704598871
-		SemiMajorAxis	1.232843942556525
-		Eccentricity	0.2018497251180691
-		Inclination	1.481052378643162
-		AscendingNode	84.36633163981251
-		ArgOfPericenter	209.3742285931948
-		MeanAnomaly	143.5139517009646
+		Epoch	2460462.5  # 2024 Jun 01
+		Period	1.367230440292655
+		SemiMajorAxis	1.231843901681903
+		Eccentricity	0.2017508043349842
+		Inclination	1.488664134463548
+		AscendingNode	84.24110682307111
+		ArgOfPericenter	209.7556568309453
+		MeanAnomaly	331.9806886194114
 	}
 	UniformRotation
 	{
-		Period	0.089193
+		Period<min>	5.3516
 		Inclination	134
 		AscendingNode	126
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.52
-	SphAlbedo	0.39  # for G_1 = -0.15 and G_2 = 1.0
+	SphAlbedo	0.29  # absorptivity = 0.71
 	InfoURL	"https://en.wikipedia.org/wiki/1998_KY26"
 }
+
 
 # Other asteroids
 
@@ -2035,7 +2090,7 @@
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.614 0.577 0.522 ]  # a001252.2.txt
+	Color	[ 0.618 0.577 0.522 ]
 	BlendTexture	true
 	Radius	10.5075
 	Oblateness	0.18
@@ -2057,19 +2112,21 @@
 		Inclination	26.48
 		AscendingNode	313.33
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.2042
-	SphAlbedo	0.123  # for G_1 = 0.4628 and G_2 = 0.4984
+	SphAlbedo	0.123  # for G1 = 0.463 and G2 = 0.498
 	InfoURL	"https://en.wikipedia.org/wiki/1252_Celestia"
 }
 
+
 # Notable Jupiter trojans
-# Parameters of Eurybates and Orus from Mottola et al. (2023), Planet. Sci. J. 4, 18
+
+# Parameters of Eurybates and Orus from Mottola et al. (2023), Planet. Sci. J. 4 (1), id.18
 #   "Shape Models of Lucy Targets (3548) Eurybates and (21900) Orus from
 #   Disk-integrated Photometry"
 #   https://ui.adsabs.harvard.edu/abs/2023PSJ.....4...18M/abstract
 
-# Brozović et al. (2024), AJ 167, 104
+# Brozović et al. (2024), AJ 167 (3), id.104
 #   "Orbit of the Patroclus–Menoetius Binary System and Predictions for the
 #   2024/2025 Mutual Events Season"
 #   https://ui.adsabs.harvard.edu/abs/2024AJ....167..104B/abstract
@@ -2079,14 +2136,14 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 	# Density	1050
 	EllipticalOrbit  # system barycenter solution
 	{
-		Epoch	2463658.5  # 2033 Mar 02 (Lucy encounter)
+		Epoch	2463660.225801  # 2033 Mar 03 17:24 UT (Lucy encounter)
 		Period	11.861982204  # Jupiter's mean period from Horizons
-		SemiMajorAxis	5.203231844757138
-		Eccentricity	0.1386909921477942
-		Inclination	22.06842876958184
-		AscendingNode	44.33919309268208
-		ArgOfPericenter	308.3656223722037
-		MeanAnomaly	263.5146093296045
+		SemiMajorAxis	5.203228743646149
+		Eccentricity	0.1386927768261267
+		Inclination	22.06844257385398
+		AscendingNode	44.3392040756123
+		ArgOfPericenter	308.3657828220281
+		MeanAnomaly	263.6579417545673
 	}
 	# Make the orbit and label visible
 	Visible	true
@@ -2098,7 +2155,7 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.237 0.234 0.227 ]
+	Color	[ 0.198 0.196 0.189 ]
 	BlendTexture	true
 	SemiAxes	[ 63.5 58.5 49 ]
 	OrbitFrame
@@ -2107,35 +2164,35 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 	}
 	EllipticalOrbit
 	{
-		Epoch	2457900  # 2017 May 26 12:00 UT
-		Period	4.282754
+		Epoch	2453427.5  # 2005 Feb 26
+		Period	4.282753
 		SemiMajorAxis	303.7  # separation = 692.5 km, mass ratio approximate
 		Eccentricity	0.004
 		Inclination	164.1
 		AscendingNode	268.0
-		MeanLongitude	289.7  # Grundy et al. (2018); unrestricted orbit
-		LongOfPericenter	227  # Grundy et al. (2018); unrestricted orbit
+		ArgOfPericenter	89.1  # from state vectors
+		MeanAnomaly	181.7     # from state vectors
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation  # to match orbit
 	{
-		Epoch	2457900  # 2017 May 26 12:00 UT
+		Epoch	2453427.5  # 2005 Feb 26
 		Inclination	164.1
 		AscendingNode	268.0
-		MeridianAngle	201.7
+		MeridianAngle	90.8
 	}
-	LunarLambert	0.9
-	GeomAlbedo	0.045  # Mueller et al. (2010), 2010Icar..205..505M
-	SphAlbedo	0.015  # for G_1 = 0.645036 and G_2 = 0.089212
+	LunarLambert	1
+	GeomAlbedo	0.045  # Mueller et al., 2010Icar..205..505M
+	SphAlbedo	0.015  # for G = 0.075 (Warner et al., 2025MPBu...52..178W)
 	InfoURL	"https://en.wikipedia.org/wiki/617_Patroclus"
 }
 
-"Menoetius:617 Patroclus I:Patroclus I:S 2001 (617) 1" "Sol/617 Patroclus"
+"Menoetius:617 Patroclus I:Patroclus I:S 2001 (617) 1" "Sol/Patroclus"
 {
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.237 0.234 0.227 ]
+	Color	[ 0.198 0.196 0.189 ]
 	BlendTexture	true
 	SemiAxes	[ 58.5 54 45 ]
 	OrbitFrame
@@ -2144,30 +2201,30 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 	}
 	EllipticalOrbit
 	{
-		Epoch	2457900  # 2017 May 26 12:00 UT
-		Period	4.282754
+		Epoch	2453427.5  # 2005 Feb 26
+		Period	4.282753
 		SemiMajorAxis	388.8  # separation = 692.5 km, mass ratio approximate
 		Eccentricity	0.004
 		Inclination	164.1
 		AscendingNode	268.0
-		MeanLongitude	109.7  # Grundy et al. (2018); unrestricted orbit
-		LongOfPericenter	47  # Grundy et al. (2018); unrestricted orbit
+		ArgOfPericenter	269.1  # from state vectors
+		MeanAnomaly	181.7      # from state vectors
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation  # to match orbit
 	{
-		Epoch	2457900  # 2017 May 26 12:00 UT
+		Epoch	2453427.5  # 2005 Feb 26
 		Inclination	164.1
 		AscendingNode	268.0
-		MeridianAngle	21.7
+		MeridianAngle	270.8
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.045
 	SphAlbedo	0.015
 	InfoURL	"https://en.wikipedia.org/wiki/617_Patroclus#Binary_system"
 }
 
-# Mass and density from Levison et al. (2025), Space Science Reviews 221, 63
+# Mass and density from Levison et al. (2025), Space Science Reviews 221 (5), id.63
 #   "NASA'S Lucy Mission to Trojan Asteroids:
 #   Unraveling the History of the Outer Solar System"
 #   https://ui.adsabs.harvard.edu/abs/2025SSRv..221...63L/abstract
@@ -2176,21 +2233,21 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.233 0.232 0.224 ]
+	Color	[ 0.191 0.192 0.185 ]
 	BlendTexture	true
 	SemiAxes	[ 38.75 35.65 30.9 ]
 	Mass<kg>	1.4e17
-	Density	800  # Levison et al. (2025), 2025SSRv..221...63L
-	EllipticalOrbit
+	Density	800
+	EllipticalOrbit  # special solution (ID 920003548)
 	{
-		Epoch	2461629.5  # 2027 Aug 12 (Lucy encounter)
+		Epoch	2461629.345245  # 2027 Aug 11 20:16 UT (Lucy encounter)
 		Period	11.861982204  # Jupiter's mean period from Horizons
-		SemiMajorAxis	5.220173926024283
-		Eccentricity	0.0899648697462596
-		Inclination	8.049061586825344
-		AscendingNode	43.55939315842431
-		ArgOfPericenter	28.76116866637875
-		MeanAnomaly	161.1839902008334
+		SemiMajorAxis	5.220172776342067
+		Eccentricity	0.08996513167619305
+		Inclination	8.049062363711673
+		AscendingNode	43.55939463204749
+		ArgOfPericenter	28.76118246169308
+		MeanAnomaly	161.1711737864129
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
@@ -2200,25 +2257,27 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 		AscendingNode	97
 		MeridianAngle	229.156
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.044
-	SphAlbedo	0.015  # for G_1 = 0.862 and G_2 = -0.028
+	SphAlbedo	0.015  # for G1 = 0.862 and G2 = -0.028
 	InfoURL	"https://en.wikipedia.org/wiki/3548_Eurybates"
 }
 
-"Queta:3548 Eurybates I:Eurybates I:S 2018 (3548) 1" "Sol/3548 Eurybates"
+"Queta:3548 Eurybates I:Eurybates I:S 2018 (3548) 1" "Sol/Eurybates"
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.233 0.232 0.224 ]
+	Color	[ 0.191 0.192 0.185 ]
 	BlendTexture	true
-	Radius	0.6  # Noll et al. (2020), 2020PSJ.....1...44N
+	Radius	0.6  # Noll et al., 2020PSJ.....1...44N
 
-	# Noll et al. (2023), Space Science Reviews 219, 59
+	# Orbit from Noll et al. (2023), Space Science Reviews 219 (7), article id.59
 	#   "Trojan Asteroid Satellites, Rings, and Activity"
 	#   https://ui.adsabs.harvard.edu/abs/2023SSRv..219...59N/abstract
-	#   (Additional parameters from Brown et al. 2021, 2021PSJ.....2..170B)
+	# and Brown et al. (2021), Planet. Sci. J. 2 (5), id.170
+	#   "The Orbit and Density of the Jupiter Trojan Satellite System Eurybates-Queta"
+	#   https://ui.adsabs.harvard.edu/abs/2021PSJ.....2..170B/abstract
 	OrbitFrame	{ EclipticJ2000 {} }
 	EllipticalOrbit
 	{
@@ -2235,13 +2294,13 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 	{
 		Period	8  # assumed
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.044
 	SphAlbedo	0.015
 	InfoURL	"https://en.wikipedia.org/wiki/3548_Eurybates#Satellite"
 }
 
-# Mottola et al. (2020), Planet. Sci. J. 1, 73
+# Mottola et al. (2020), Planet. Sci. J. 1 (3), id.73
 #   "Convex Shape and Rotation Model of Lucy Target (11351) Leucus from
 #   Lightcurves and Occultations"
 #   https://ui.adsabs.harvard.edu/abs/2020PSJ.....1...73M/abstract
@@ -2250,19 +2309,19 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.234 0.229 0.223 ]
+	Color	[ 0.23 0.224 0.217 ]
 	BlendTexture	true
 	SemiAxes	[ 30.4 19.6 13.9 ]
-	EllipticalOrbit
+	EllipticalOrbit  # special solution (ID 20011351)
 	{
-		Epoch	2461879.5  # 2028 Apr 18 (Lucy encounter)
+		Epoch	2461880.314690  # 2028 Apr 18 19:32 UT (Lucy encounter)
 		Period	11.861982204  # Jupiter's mean period from Horizons
-		SemiMajorAxis	5.315871758058607
-		Eccentricity	0.06417509974712261
-		Inclination	11.53980958211758
-		AscendingNode	251.0897456577109
-		ArgOfPericenter	162.0499233110517
-		MeanAnomaly	194.215139734238
+		SemiMajorAxis	5.315877037962474
+		Eccentricity	0.06417427623115948
+		Inclination	11.53980206012952
+		AscendingNode	251.0897492031716
+		ArgOfPericenter	162.0489891238311
+		MeanAnomaly	194.2816839734231
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
@@ -2272,56 +2331,55 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 		AscendingNode	338
 		MeridianAngle	60.014
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.043
-	SphAlbedo	0.019  # for G_1 = 0.63 and G_2 = 0.23
+	SphAlbedo	0.019  # for G1 = 0.63 and G2 = 0.23
 	InfoURL	"https://en.wikipedia.org/wiki/11351_Leucus"
 }
 
-# Levison et al. (2023), 55th DPS, 107.05
+# Levison et al. (2023), 55th DPS, id. 107.05
 #   "Interpreting the Stellar Occultations of (15094) Polymele – a Lucy Target"
 #   https://ui.adsabs.harvard.edu/abs/2023DPS....5510705L/abstract
+# Geometric albedo and phase parameters from Buie et al. (2018), AJ 155 (6), article id. 245
+#   "Light Curves of Lucy Targets: Leucus and Polymele"
+#   https://ui.adsabs.harvard.edu/abs/2018AJ....155..245B/abstract
 "15094 Polymele:Polymele:1999 WB2:1997 WR57" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.312 0.297 0.298 ]
+	Color	[ 0.312 0.293 0.299 ]
 	BlendTexture	true
 	SemiAxes	[ 13.5 12.2 5.2 ]
-	EllipticalOrbit
+	EllipticalOrbit  # special solution (ID 920015094)
 	{
-		Epoch	2461663.5  # 2027 Sept 15 (Lucy encounter)
+		Epoch	2461663.638995  # 2027 Sept 15 03:19 UT (Lucy encounter)
 		Period	11.861982204  # Jupiter's mean period from Horizons
-		SemiMajorAxis	5.194492184539208
-		Eccentricity	0.09524566647805749
-		Inclination	12.97313108674064
-		AscendingNode	50.3338734485756
-		ArgOfPericenter	5.795343714956423
-		MeanAnomaly	182.0870298288778
+		SemiMajorAxis	5.19449307450493
+		Eccentricity	0.09524548451836148
+		Inclination	12.9731299847972
+		AscendingNode	50.33387278001979
+		ArgOfPericenter	5.795272480894892
+		MeanAnomaly	182.0986826593164
 	}
-
-	# https://naif.jpl.nasa.gov/pub/naif/LUCY/kernels/pck/polymele_v11.tpc
-	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
 	{
-		Period	11.51443075
-		Inclination	157.77
-		AscendingNode	235.93
-		MeridianAngle	160.04
+		Period	5.762  # Alarcon et al., 2026RNAAS..10..143A
+		Inclination	170.9
+		AscendingNode	321.8
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.073
-	SphAlbedo	0.032  # for G = 0.22 (2018AJ....155..245B)
+	SphAlbedo	0.032  # for G = 0.22
 	InfoURL	"https://en.wikipedia.org/wiki/15094_Polymele"
 }
 
-"Shaun" "Sol/15094 Polymele"  # no provisional designation
+"Shaun" "Sol/Polymele"  # no provisional designation
 {
 	Class	"minormoon"
 	Mesh	"asteroid.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.312 0.297 0.298 ]
+	Color	[ 0.312 0.293 0.299 ]
 	BlendTexture	true
 	Radius	2.5
 	EllipticalOrbit
@@ -2329,7 +2387,7 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 		Period	14.4  # for density = 1 g/cm^3
 		SemiMajorAxis	204.4
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.073
 	SphAlbedo	0.032
 	InfoURL	"https://en.wikipedia.org/wiki/15094_Polymele#Satellite"
@@ -2340,19 +2398,19 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 	Class	"asteroid"
 	Mesh	"roughsphere.cms"
 	Texture	"asteroid.*"
-	Color	[ 0.226 0.22 0.209 ]
+	Color	[ 0.219 0.213 0.201 ]
 	BlendTexture	true
 	SemiAxes	[ 35.35 31.5 25.7 ]
-	EllipticalOrbit
+	EllipticalOrbit  # special solution (ID 20021900)
 	{
-		Epoch	2462086.5  # 2028 Nov 11 (Lucy encounter)
+		Epoch	2462087.368162  # 2028 Nov 11 20:49 UT (Lucy encounter)
 		Period	11.861982204  # Jupiter's mean period from Horizons
-		SemiMajorAxis	5.123400583160445
-		Eccentricity	0.03603683387678938
-		Inclination	8.468657355130759
-		AscendingNode	258.5489243205059
-		ArgOfPericenter	181.7521909133608
-		MeanAnomaly	173.3806225201824
+		SemiMajorAxis	5.123402434934738
+		Eccentricity	0.03603636536437799
+		Inclination	8.468655186041673
+		AscendingNode	258.5489254511374
+		ArgOfPericenter	181.7509255304257
+		MeanAnomaly	173.4557707949972
 	}
 	BodyFrame	{ EquatorJ2000 {} }
 	UniformRotation
@@ -2362,8 +2420,8 @@ ReferencePoint "Patroclus-Menoetius" "Sol"
 		AscendingNode	144
 		MeridianAngle	17.413
 	}
-	LunarLambert	0.9
+	LunarLambert	1
 	GeomAlbedo	0.040
-	SphAlbedo	0.018  # for G_1 = 0.689 and G_2 = 0.193
+	SphAlbedo	0.018  # for G1 = 0.689 and G2 = 0.193
 	InfoURL	"https://en.wikipedia.org/wiki/21900_Orus"
 }
