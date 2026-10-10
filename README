@@ -181,8 +181,9 @@ Texture maps
    Extra coverage and details were added from images processed by Ted Stryk.
    Umbriel is merged with a mosaic by Phil Stooke, posted at the Unmanned Spaceflight forum.
 
-   The Metis, Amalthea, Thebe, Hyperion, Gaspra, Ida, Steins, Lutetia, Dinkinesh and Selam
-   maps were created from reprojections of spacecraft imagery.
+   The Metis, Amalthea, Thebe, Hyperion, Gaspra, Ida, Steins, Lutetia,
+   Dinkinesh, Selam and Donaldjohanson maps were created from reprojections of
+   spacecraft imagery.
 
    The Kamo'oalewa map was hand-painted. It is used in lieu of a mosaic from
    Tianwen-2 images due to their unclear license.
@@ -394,6 +395,9 @@ covered.
 
 # Models of Didymos and Dimorphos come from the DART Shapemodel Archive Bundle at PDS:
     https://doi.org/10.26007/96fn-p578
+
+# The Donaldjohanson model, originally in the Digital Shape Kernel (DSK) format, is from:
+    https://naif.jpl.nasa.gov/pub/naif/pds/pds4/lucy/lucy_spice/spice_kernels/dsk/
 
 # The Nysa model is originally available on DAMIT: https://damit.cuni.cz/projects/damit/
 

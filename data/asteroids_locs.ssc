@@ -5,7 +5,7 @@
 # SPDX-FileCopyrightText: 2025 domi9
 # SPDX-License-Identifier: GPL-2.0-or-later
 
-# 382 locations on Vesta, Lutetia, Ida, Mathilde, Eros, Gaspra, Steins, Itokawa, Didymos, Dimorphos, Bennu, Dinkinesh, Selam, Ryugu and Arrokoth.
+# 394 locations on Vesta, Lutetia, Ida, Mathilde, Eros, Gaspra, Steins, Itokawa, Donaldjohanson, Didymos, Dimorphos, Bennu, Dinkinesh, Selam, Ryugu and Arrokoth.
 
 
 # 106 locations on Vesta.
@@ -2183,6 +2183,93 @@ Location "LINEAR REGIO" "Sol/Itokawa"
 	LongLat [ 130 0 0 ]
 	Size 0.122
 	Type "RE"
+}
+
+
+# 12 locations on Donaldjohanson.
+
+Location "AFAR LOBUS" "Sol/Donaldjohanson"
+{
+	LongLat	[ 205 0 0 ]
+	Size	3.4
+	Type	"LO"
+}
+
+Location "Boxgrove Saxum" "Sol/Donaldjohanson"
+{
+	LongLat	[ -22.03 11.22 0 ]
+	Size	0.01
+	Type	"SA"
+}
+
+Location "Cashel Saxum" "Sol/Donaldjohanson"
+{
+	LongLat	[ -51.8 28.4 0 ]
+	Size	0.08
+	Type	"SA"
+}
+
+Location "HADAR REGIO" "Sol/Donaldjohanson"
+{
+	LongLat	[ -142 18 0 ]
+	Size	2.3
+	Type	"RE"
+}
+
+Location "Kennewick Saxum" "Sol/Donaldjohanson"
+{
+	LongLat	[ -39.4 14.2 0 ]
+	Size	0.1
+	Type	"SA"
+}
+
+Location "Luzia Dorsum" "Sol/Donaldjohanson"
+{
+	LongLat	[ -135 15 0 ]
+	Size	2
+	Type	"DO"
+}
+
+Location "MINATOGAWA REGIO" "Sol/Donaldjohanson"
+{
+	LongLat	[ -125 15 0 ]
+	Size	1.5
+	Type	"RE"
+}
+
+Location "Mungo" "Sol/Donaldjohanson"
+{
+	LongLat	[ -17.55 10.78 0 ]
+	Size	0.01
+	Type	"AA"
+}
+
+Location "Narmada" "Sol/Donaldjohanson"
+{
+	LongLat	[ -39.35 22.52 0 ]
+	Size	0.01
+	Type	"AA"
+}
+
+Location "Natunuku Dorsum" "Sol/Donaldjohanson"
+{
+	LongLat	[ -143.32 8.44 0 ]
+	Size	1.2
+	Type	"DO"
+}
+
+Location "OLDUVAI LOBUS" "Sol/Donaldjohanson"
+{
+	LongLat	[ 312.5 0 0 ]
+	Size	5.4
+	Type	"LO"
+}
+
+Location "Windover Collum" "Sol/Donaldjohanson"
+{
+	LongLat	[ -140 20 0 ]
+	Size	1.8
+	Type	"CL"
 }
 
 
