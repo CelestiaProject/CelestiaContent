@@ -1,17 +1,23 @@
-# Brozović et al. (2018), Icarus 300, 115-128
+# SPDX-FileCopyrightText: 2024 SpaceExplorer
+# SPDX-FileCopyrightText: 2026 Pedro J. Garcia
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+# Size and geometric albedo from Brozović et al. (2018), Icarus 300, p. 115-128
 #   "Goldstone and Arecibo radar observations of (99942) Apophis in 2012-2013"
 #   https://echo.jpl.nasa.gov/asteroids/brozovic.etal.apophis.2018.pdf
-# Rotation and precession periods from Lee et al. (2022), A&A 661, L3
-#   "Refinement of the convex shape model and tumbling spin state of
-#   (99942) Apophis using the 2020-2021 apparition data"
-#   https://ui.adsabs.harvard.edu/abs/2022A%26A...661L...3L/abstract
+#   https://ui.adsabs.harvard.edu/abs/2018Icar..300..115B/abstract
+# Rotation from Ďurech et al. (2026), A&A 709, id.A278
+#   "The spin state of asteroid Apophis and a prediction of its change during
+#   the 2029 close encounter with Earth"
+#   https://ui.adsabs.harvard.edu/abs/2026A%26A...709A.278D/abstract
+#   (Model A)
 "99942 Apophis:Apophis:2004 MN4" "Sol"
 {
 	Class	"asteroid"
 	Mesh	"apophis.cmod"
 	MeshCenter	[ -0.0144 -0.0104 -0.0026 ]
 	Texture	"asteroid.*"
-	Color	[ 0.681 0.655 0.592 ]
+	Color	[ 0.68 0.654 0.607 ]
 	BlendTexture	true
 	Radius	0.225  # maximum semi-axis (lower bound)
 	Timeline
@@ -31,29 +37,29 @@
 			}
 			BodyFrame
 			{
-				# Angular momentum vector points towards λ = 246.8°, β = -59.3°
+				# Angular momentum vector points towards λ = 246.8°, β = -87.2°
 				TwoVector
 				{
 					Primary
 					{
 						Axis	"x"
-						ConstantVector	{ Vector [ 0.3387 0.7903 -0.5105 ] Frame { EclipticJ2000 {} } }
+						ConstantVector	{ Vector [ 0.3935 0.918 -0.0488 ] Frame { EclipticJ2000 {} } }
 					}
 					Secondary
 					{
 						Axis	"z"
-						ConstantVector	{ Vector [ -0.2011 -0.4693 -0.8599 ] Frame { EclipticJ2000 {} } }
+						ConstantVector	{ Vector [ -0.0192 -0.0449 -0.9988 ] Frame { EclipticJ2000 {} } }
 					}
 				}
 			}
 			PrecessingRotation
 			{
-				Epoch	2456284.676388  # 2012 Dec 23 04:14:00
-				Period	264.178
-				Inclination	17.8  # θ0
-				AscendingNode	133.8  # φ0
-				MeridianAngle	55.6  # ψ0
-				PrecessionPeriod<h>	-27.38547
+				Epoch	2456300.555
+				Period	-262.168  # rotation angle ψ decreases with time (Fig. 3)
+				Inclination	19.9
+				AscendingNode	133
+				MeridianAngle	21
+				PrecessionPeriod<h>	-27.37430  # precession angle ϕ increases with time (Fig. 3)
 			}
 		}
 		{
@@ -66,29 +72,29 @@
 			}
 			BodyFrame
 			{
-				# Angular momentum vector points towards λ = 246.8°, β = -59.3°
+				# Angular momentum vector points towards λ = 246.8°, β = -87.2°
 				TwoVector
 				{
 					Primary
 					{
 						Axis	"x"
-						ConstantVector	{ Vector [ 0.3387 0.7903 -0.5105 ] Frame { EclipticJ2000 {} } }
+						ConstantVector	{ Vector [ 0.3935 0.918 -0.0488 ] Frame { EclipticJ2000 {} } }
 					}
 					Secondary
 					{
 						Axis	"z"
-						ConstantVector	{ Vector [ -0.2011 -0.4693 -0.8599 ] Frame { EclipticJ2000 {} } }
+						ConstantVector	{ Vector [ -0.0192 -0.0449 -0.9988 ] Frame { EclipticJ2000 {} } }
 					}
 				}
 			}
 			PrecessingRotation
 			{
-				Epoch	2456284.676388  # 2012 Dec 23 04:14:00
-				Period	264.178
-				Inclination	17.8  # θ0
-				AscendingNode	133.8  # φ0
-				MeridianAngle	55.6  # ψ0
-				PrecessionPeriod<h>	-27.38547
+				Epoch	2456300.555
+				Period	-262.168  # rotation angle ψ decreases with time (Fig. 3)
+				Inclination	19.9
+				AscendingNode	133
+				MeridianAngle	21
+				PrecessionPeriod<h>	-27.37430  # precession angle ϕ increases with time (Fig. 3)
 			}
 		}
 		{
@@ -105,29 +111,29 @@
 			}
 			BodyFrame
 			{
-				# Angular momentum vector points towards λ = 246.8°, β = -59.3°
+				# Angular momentum vector points towards λ = 246.8°, β = -87.2°
 				TwoVector
 				{
 					Primary
 					{
 						Axis	"x"
-						ConstantVector	{ Vector [ 0.3387 0.7903 -0.5105 ] Frame { EclipticJ2000 {} } }
+						ConstantVector	{ Vector [ 0.3935 0.918 -0.0488 ] Frame { EclipticJ2000 {} } }
 					}
 					Secondary
 					{
 						Axis	"z"
-						ConstantVector	{ Vector [ -0.2011 -0.4693 -0.8599 ] Frame { EclipticJ2000 {} } }
+						ConstantVector	{ Vector [ -0.0192 -0.0449 -0.9988 ] Frame { EclipticJ2000 {} } }
 					}
 				}
 			}
 			PrecessingRotation
 			{
-				Epoch	2456284.676388  # 2012 Dec 23 04:14:00
-				Period	264.178
-				Inclination	17.8  # θ0
-				AscendingNode	133.8  # φ0
-				MeridianAngle	55.6  # ψ0
-				PrecessionPeriod<h>	-27.38547
+				Epoch	2456300.555
+				Period	-262.168  # rotation angle ψ decreases with time (Fig. 3)
+				Inclination	19.9
+				AscendingNode	133
+				MeridianAngle	21
+				PrecessionPeriod<h>	-27.37430  # precession angle ϕ increases with time (Fig. 3)
 			}
 		}
 	]
