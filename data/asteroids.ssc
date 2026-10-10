@@ -1287,6 +1287,69 @@
 	InfoURL	"https://en.wikipedia.org/wiki/25143_Itokawa"
 }
 
+# Marchi et al. (2026), Science 392 (6804), pp. 1287-1291
+#   "The Lucy flyby of (52246) Donaldjohanson: A bilobed asteroid with tumbling rotation"
+#   https://ora.ox.ac.uk/objects/uuid:1b5b32c4-41d7-4ea5-aeff-61dd2b374dae
+#   https://ui.adsabs.harvard.edu/abs/2026Sci...392.1287M/abstract
+"52246 Donaldjohanson:Donaldjohanson:1981 EQ5:1998 YF26" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"donaldjohanson.cmod"
+	MeshCenter	[ -0.2925 -0.0177 -0.0558 ]
+	Texture	"donaldjohanson.*"  # brightness: 0.86243
+	Color	[ 0.175 0.168 0.158 ]
+	BlendTexture	true
+	Radius	4.4  # maximum semi-axis
+	EllipticalOrbit  # special solution (ID 20052246)
+	{
+		Epoch	2460786.244736  # 2025 Apr 20 17:51:16 UT (Lucy encounter)
+		Period	3.679187898778141
+		SemiMajorAxis	2.383211086846854
+		Eccentricity	0.186953475156367
+		Inclination	4.42555397916343
+		AscendingNode	262.7769932947548
+		ArgOfPericenter	212.7955985288054
+		MeanAnomaly	36.98377287770851
+	}
+	BodyFrame
+	{
+		# Angular momentum vector points towards RA = 272.0°, Dec = 66.7°
+		TwoVector
+		{
+			Primary
+			{
+				Axis	"x"
+				ConstantVector	{ Vector [ 0.9994 0.0349 0 ] Frame { EquatorJ2000 {} } }
+			}
+			Secondary
+			{
+				Axis	"z"
+				ConstantVector	{ Vector [ 0.0138 -0.3953 0.9184 ] Frame { EquatorJ2000 {} } }
+			}
+		}
+	}
+
+	# Orientation at encounter epoch from Mottola & Preusker (2025)
+	#   "Donaldjohanson Coordinate System Description"
+	#   https://pdssbn.astro.umd.edu/holdings/pds4-lucy.mission:document-v2.0/Donaldjohanson_Coordinate_System_Description_v1.pdf
+	# Constants are originally given in the equatorial frame.
+	PrecessingRotation
+	{
+		# Rotation and precession have opposite directions for short-axis mode
+		# (SAM); rotation rate is negative
+		Epoch	2460786.244736  # 2025 Apr 20 17:51:16 UT
+		Period	-637.0
+		Inclination	30.2      # Dec = 50.95721 deg
+		AscendingNode	86.9  # RA = 324.66115 deg
+		MeridianAngle	1.6   # W0 = 293.17865 deg (epoch J2000)
+		PrecessionPeriod<h>	-180.7
+	}
+	LunarLambert	1
+	GeomAlbedo	0.045  # Masiero et al., 2021PSJ.....2..162M
+	SphAlbedo	0.018  # for G1 = 0.63 and G2 = 0.18
+	InfoURL	"https://en.wikipedia.org/wiki/52246_Donaldjohanson"
+}
+
 # Sizes and rotational parameters from coordinate system documents:
 #   https://doi.org/10.26007/30x0-fv64
 #   https://doi.org/10.26007/7312-sc96
