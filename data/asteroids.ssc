@@ -1511,6 +1511,47 @@
 	InfoURL	"https://en.wikipedia.org/wiki/Dimorphos"
 }
 
+# Size from https://www.hayabusa2.jaxa.jp/topics/20260705_flyby/
+# Geometric albedo and phase parameters from Fornasier et al. (2024), A&A 688, id.L7
+#   "Size, albedo, and rotational period of the Hayabusa2# target (98943) 2001 CC21"
+#   https://ui.adsabs.harvard.edu/abs/2024A%26A...688L...7F/abstract
+"98943 Torifune:Torifune:2001 CC21:1982 VE13" "Sol"
+{
+	Class	"asteroid"
+	Mesh	"torifune.cmod"
+	Orientation	[ 26.4 0.532 -0.777 0.336 ]  # align principal axes
+	Texture	"torifune.*"  # brightness: 0.78964
+	Color	[ 0.442 0.419 0.384 ]
+	BlendTexture	true
+	Radius	0.42  # maximum semi-axis
+	EllipticalOrbit
+	{
+		Epoch	2461226.896638  # 2026 Jul 05 09:30:00.31 UT (Hayabusa2# encounter)
+		Period	1.048677564043263
+		SemiMajorAxis	1.032180974013007
+		Eccentricity	0.219169623431516
+		Inclination	4.808321374729034
+		AscendingNode	75.35575774781594
+		ArgOfPericenter	179.4153260259591
+		MeanAnomaly	353.512690765627
+	}
+
+	# Fatka et al. (2026), Icarus 460, id.117266
+	#   "Refined rotational state and shape model of (98943) Torifune ahead of the Hayabusa2# flyby"
+	#   https://ui.adsabs.harvard.edu/abs/2026Icar..46017266F/abstract
+	UniformRotation
+	{
+		Period	5.0215221
+		Inclination	6
+		AscendingNode	44
+		MeridianAngle	180  # approximate
+	}
+	LunarLambert	1
+	GeomAlbedo	0.216
+	SphAlbedo	0.090  # for G1 = 0.2588 and G2 = 0.3721
+	InfoURL	"https://en.m.wikipedia.org/wiki/98943_Torifune"
+}
+
 # Size and rotational parameters from Barnouin & Nolan (2021)
 #   "Bennu Coordinate System Description"
 #   https://sbnarchive.psi.edu/pds4/orex/orex.mission/document/Bennu_Coordinate_System_Description.pdf
