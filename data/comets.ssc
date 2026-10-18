@@ -2,25 +2,27 @@
 # SPDX-FileCopyrightText: 2007, 2009 Chris Laurel
 # SPDX-FileCopyrightText: 2025-2026 DaveBowman2001
 # SPDX-FileCopyrightText: 2025 AstroChara
+# SPDX-FileCopyrightText: 2026 Pedro J. Garcia
 # SPDX-License-Identifier: GPL-2.0-or-later
 
 # Catalog of Comets for Celestia
 # Version 1.7.0
 #
 # All EllipticalOrbit data for comets below were retrieved from
-# NASA/JPL's Small Body Database System (SBDB) unless noted
-# otherwise:
+# NASA/JPL's Small Body Database System (SBDB) or the Horizons system
+# unless noted otherwise:
 #
 # https://ssd/jpl.nasa.gov/tools/sbdb_lookup.html#/
+# https://ssd.jpl.nasa.gov/horizons/
 #
 # The lists were divided into three groups, the Periodic Comets
 # (<200 years), Long-Period Comets (200-1000 years) and
 # Non-Periodic Comets (>1,000 years). Their geometric albedos
-# were assumed to be 0.04 unless noted otherwise
+# were assumed to be 0.04 unless noted otherwise.
 #
 # Due to the established system of naming comets after their
 # discoverers, a large number of these objects are namesakes of
-# one another (e.g. ATLAS, Lovejoy, McNaught, NEOWISE etc.) For 
+# one another (e.g. ATLAS, Lovejoy, McNaught, NEOWISE etc.) For
 # this SSC file, we only select the most significant comets that
 # share the same formal name.
 #
@@ -45,7 +47,7 @@
 #   https://doi.org/10.1093/mnras/staf454
 #
 #
-# Last update: 9 July 2026
+# Last update: 13 October 2026
 
 
 # Periodic Comets
@@ -351,6 +353,59 @@
 	GeomAlbedo		  0.78
 	BondAlbedo		  0.7
 	InfoURL	"https://en.wikipedia.org/wiki/55P/Tempel-Tuttle"
+}
+
+# Size from Jorda et al. (2016), Icarus 277, p. 257-278
+#  "The global shape, density and rotation of Comet 67P/Churyumov-Gerasimenko
+#   from preperihelion Rosetta/OSIRIS observations"
+#   https://ui.adsabs.harvard.edu/abs/2016Icar..277..257J/abstract
+# Mass and density from Pätzold et al. (2019), MNRAS 483 (2), p.2337-2346
+#  "The Nucleus of comet 67P/Churyumov-Gerasimenko -
+#   Part I: The global view - nucleus mass, mass-loss, porosity, and implications"
+#   https://ui.adsabs.harvard.edu/abs/2019MNRAS.483.2337P/abstract
+"67P Churyumov-Gerasimenko:Churyumov-Gerasimenko:P 1969 R1:P 1975 P1" "Sol"
+{
+	Class	"comet"
+	Mesh	"67p.cmod"	# NAVCAM-ESA model
+	MeshCenter	[ 0.0783 0.0335 -0.0958 ]
+	Texture	"67p.*"
+	Color	[ 0.451 0.422 0.433 ]	# calibrate to spherical albedo
+	BlendTexture	true
+	Radius	 2.17	# maximum semi-axis
+	Mass<kg>	9.982e12	# pre-perihelion
+	Density	 537.8
+
+	EllipticalOrbit	# special solution (ID 1000012)
+	{
+		Epoch			2456875.5	# 2014-Aug-06 (Rosetta arrival)
+		Period			      6.444636522141629
+		SemiMajorAxis	      3.463061072582565
+		Eccentricity	      0.6410215736667755
+		Inclination		      7.040641689791556
+		AscendingNode	     50.14709747094515
+		ArgOfPericenter	     12.77976848642103
+		MeanAnomaly		    303.0992165235814
+	}
+
+	# Scholten et al. (2015), "Reference frames and mapping schemes of comet 67P"
+	#   https://pdssbn.astro.umd.edu/holdings/ro-c-multi-5-67p-shape-v1.0/document/cheops_ref_frame_v1.pdf
+	# Rotational parameters are valid from August to September 2014.
+	# There is a precession-like motion with a half-cone angle of 0.14°,
+	# not modeled here.
+
+	BodyFrame	{ EquatorJ2000 {} }
+	UniformRotation
+	{
+		Period			 12.4041
+		Inclination		 25.89
+		AscendingNode	159.54
+		MeridianAngle	114.69
+	}
+
+	LunarLambert	1
+	GeomAlbedo		0.062	# 0.55 μm (Ciarniello et al., 2015A&A...583A..31C)
+	SphAlbedo		0.0123	# Bond albedo at 535 nm (Fornasier et al., 2015A&A...583A..30F)
+	InfoURL	"https://en.wikipedia.org/wiki/67P/Churyumov-Gerasimenko"
 }
 
 "96P Machholz:Machholz 1:P 1986 J2" "Sol" 

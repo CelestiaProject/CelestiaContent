@@ -182,8 +182,8 @@ Texture maps
    Umbriel is merged with a mosaic by Phil Stooke, posted at the Unmanned Spaceflight forum.
 
    The Metis, Amalthea, Thebe, Hyperion, Gaspra, Ida, Steins, Lutetia,
-   Dinkinesh, Selam, Donaldjohanson and Torifune maps were created from
-   reprojections of spacecraft imagery.
+   Churyumov-Gerasimenko, Dinkinesh, Selam, Donaldjohanson and Torifune maps
+   were created from reprojections of spacecraft imagery.
 
    The Kamo'oalewa map was hand-painted. It is used in lieu of a mosaic from
    Tianwen-2 images due to their unclear license.
@@ -377,9 +377,8 @@ covered.
     https://pdssbn.astro.umd.edu/holdings/ro-a-osinac_osiwac-5-steins-shape-v1.0/dataset.shtml
     https://pdssbn.astro.umd.edu/holdings/ro-a-osinac_osiwac-5-lutetia-shape-v1.0/dataset.shtml
 
-# The Metis, Dinkinesh, Selam, Kamo'oalewa and Torifune models are by ItzImcool.
-
-# The Puck model is by Askaniy.
+# The 3D model of 67P/Churyumov-Gerasimenko was produced by ESA in 2015 from
+  Rosetta NAVCAM images, and is licensed under CC BY-SA IGO 3.0.
 
 # The Nix and Hydra models are by Simon Porter:
     https://figshare.com/articles/online_resource/Shape_Model_of_Nix/12779948
@@ -408,3 +407,7 @@ covered.
     https://doi.org/10.1051/0004-6361/202141781
   The original models are available here:
     https://observations.lam.fr/astero/
+
+# The Metis, Dinkinesh, Selam, Kamo'oalewa and Torifune models are by ItzImcool.
+
+# The Puck model is by Askaniy.
