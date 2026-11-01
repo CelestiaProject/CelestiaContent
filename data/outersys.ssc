@@ -3,7 +3,7 @@
 # SPDX-FileCopyrightText: 2019 Askaniy Anpilogov
 # SPDX-FileCopyrightText: 2020 LukeCEL
 # SPDX-FileCopyrightText: 2021-2022 SevenSpheres
-# SPDX-FileCopyrightText: 2023-2025 AstroChara
+# SPDX-FileCopyrightText: 2023-2026 AstroChara
 # SPDX-FileCopyrightText: 2025 DaveBowman2001
 # SPDX-FileCopyrightText: 2025-2026 Pedro J. Garcia
 # SPDX-FileCopyrightText: 2026 LunaTheSilly
@@ -1370,4 +1370,38 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	LunarLambert	1
 	GeomAlbedo	0.131
 	InfoURL	"https://en.wikipedia.org/wiki/2014_UZ224"
+}
+
+# Holman et al. (2026), arxiv:2610.38693
+#   "2026 ED138: A Large Trans-Neptunian Object in Early Rubin Observatory Data, and How Many More May Remain"
+#   https://arxiv.org/abs/2610.38693
+"2026 ED138" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 0.677 0.656 0.618 ]
+	BlendTexture	true
+	Radius	382  # assuming GeomAlbedo of 0.16
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	282.6827514209560
+		SemiMajorAxis	43.09116072304309
+		Eccentricity	0.1387279018756976
+		Inclination	24.43365938141706
+		AscendingNode	322.6071836144670
+		ArgOfPericenter	168.7024615831217
+		MeanAnomaly	93.90254519671147
+	}
+	UniformRotation
+	{
+		Period	8  # no measurement
+	}
+	LunarLambert	1
+	GeomAlbedo	0.16  # estimated by Zelario using H vs albedo spline fit
+	InfoURL	"https://en.wikipedia.org/wiki/2026_ED138"
 }
