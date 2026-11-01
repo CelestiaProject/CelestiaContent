@@ -1402,6 +1402,6 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 		Period	8  # no measurement
 	}
 	LunarLambert	1
-	GeomAlbedo	0.16  # estimated by Zelario
+	GeomAlbedo	0.16  # estimated by Zelario using H vs albedo spline fit
 	InfoURL	"https://en.wikipedia.org/wiki/2026_ED138"
 }
