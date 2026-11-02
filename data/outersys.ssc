@@ -1324,7 +1324,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 		# Rayleigh coefficient multiplied by fudge factor to make the atmosphere visible.
 		#   Fudge factor: 1000
 		# Rayleigh scale height assumes pure nitrogen atmosphere and object density of 1 g cm^-3.
-		#   It is divided by 10 to prevent the atmosphere from being too tall.
+		#   Divided by 10 to prevent the atmosphere from being too tall.
 		Rayleigh	[ 0.000004372 0.000010342 0.000025777 ]
 		MieScaleHeight	21.2  # Rayleigh scale height / 10
 	}
