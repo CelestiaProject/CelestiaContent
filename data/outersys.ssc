@@ -1300,7 +1300,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/532037_Chiminigagua#Satellite"
 }
 
-# Radius from Arimatsu et al. (2026), Nature Astronomy 10, 980-987
+# Radius and atmosphere from Arimatsu et al. (2026), Nature Astronomy 10, 980-987
 #   "Detection of an atmosphere on a trans-Neptunian object beyond Pluto"
 #   https://www.nature.com/articles/s41550-026-02846-1
 #   https://scixplorer.org/abs/2026NatAs..10..980A/abstract
@@ -1319,14 +1319,14 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	Radius	235
 	Atmosphere
 	{
-		Height	210
+		Height	280
 
 		# Rayleigh coefficient multiplied by fudge factor to make the atmosphere visible.
 		#   Fudge factor: 1000
-		# Rayleigh scale height assumes pure nitrogen atmosphere and object density of 1 g cm^-3.
+		# Rayleigh scale height assumes pure nitrogen atmosphere and object density of 1.5 g cm^-3.
 		#   Divided by 10 to prevent the atmosphere from being too tall.
-		Rayleigh	[ 0.000004372 0.000010342 0.000025777 ]
-		MieScaleHeight	21.2  # Rayleigh scale height / 10
+		Rayleigh	[ 0.000005158 0.000012203 0.000030417 ]
+		MieScaleHeight	28.3  # Rayleigh scale height / 5
 	}
 	OrbitFrame
 	{
