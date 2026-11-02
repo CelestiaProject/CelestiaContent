@@ -1300,6 +1300,58 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	InfoURL	"https://en.wikipedia.org/wiki/532037_Chiminigagua#Satellite"
 }
 
+# Radius and atmosphere from Arimatsu et al. (2026), Nature Astronomy 10, 980-987
+#   "Detection of an atmosphere on a trans-Neptunian object beyond Pluto"
+#   https://www.nature.com/articles/s41550-026-02846-1
+#   https://scixplorer.org/abs/2026NatAs..10..980A/abstract
+# Atmosphere based on Wong et al. (2026), ApJL 1005 (2), id.L42
+#   "Constraints on the Atmospheric Composition of 2002 XV93 from JWST Spectroscopy"
+#   https://iopscience.iop.org/article/10.3847/2041-8213/ae8016
+# Planetary absolute magnitude (H) from Tegler et al. (2016), AJ 152 (6), id.210
+#   "Two Color Populations of Kuiper Belt and Centaur Objects and the Smaller Orbital Inclinations of Red Centaur Objects"
+#   https://iopscience.iop.org/article/10.3847/0004-6256/152/6/210
+"(612533) 2002 XV93:2002 XV93" "Sol"
+{
+	Class	"asteroid"
+	Texture	"asteroid.*"
+	Color	[ 0.532 0.533 0.523 ]
+	BlendTexture	true
+	Radius	235
+	Atmosphere
+	{
+		Height	280
+
+		# Rayleigh coefficient multiplied by fudge factor to make the atmosphere visible.
+		#   Fudge factor: 1000
+		# Rayleigh scale height assumes pure nitrogen atmosphere and object density of 1.5 g cm^-3.
+		#   Divided by 5 to prevent the atmosphere from being too tall.
+		Rayleigh	[ 0.000005158 0.000012203 0.000030417 ]
+		MieScaleHeight	28.3
+	}
+	OrbitFrame
+	{
+		EclipticJ2000	{ Center "SSB" }
+	}
+	EllipticalOrbit
+	{
+		Epoch	2451545.0  # 2000 Jan 01 12:00
+		Period	246.277180079066
+		SemiMajorAxis	39.30713897334407
+		Eccentricity	0.1247335348398348
+		Inclination	13.27074094949952
+		AscendingNode	19.04582888726834
+		ArgOfPericenter	164.6613957833046
+		MeanAnomaly	257.3665638786650
+	}
+	UniformRotation
+	{
+		Period	8  # no measurement
+	}
+	LunarLambert	1
+	GeomAlbedo	0.103  # calculated from H = 4.73 and new radius
+	InfoURL	"https://en.wikipedia.org/wiki/(612533)_2002_XV93"
+}
+
 # Rommel (2022), "Determination of physical properties and topography of TNOs from
 #   stellar occultations and rotational light curves: the case of 2002 MS4 object"
 #   http://sistede.on.br:8080/handle/tede/149
@@ -1389,7 +1441,7 @@ ReferencePoint "Varda-Ilmarë" "Sol"
 	EllipticalOrbit
 	{
 		Epoch	2451545.0  # 2000 Jan 01 12:00
-		Period	282.6827514209560
+		Period	282.682751420956
 		SemiMajorAxis	43.09116072304309
 		Eccentricity	0.1387279018756976
 		Inclination	24.43365938141706
