@@ -10,15 +10,51 @@ concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}"
   cancel-in-progress: true
 
+env:
+  BUILD_TYPE: Release
+
 jobs:
-  licenses:
-    name: "Licenses"
+  install:
+    name: "Check installer"
     strategy:
       fail-fast: true
     runs-on: ubuntu-latest
     steps:
     - name: Checkout source code
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y gettext imagemagick
+
+    - name: Configure
+      run: |
+        cmake -B ${{github.workspace}}/build \
+              -DCMAKE_INSTALL_PREFIX="${{github.workspace}}/install" \
+              -DENABLE_NLS=ON
+
+    - name: build
+      run: |
+        cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
+
+    - name: install
+      run: |
+        cmake --install ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
+
+  validation_checks:
+    name: "Validation checks"
+    strategy:
+      fail-fast: true
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout source code
+      uses: actions/checkout@v6
+
+    - name: Validate Unicode
+      working-directory: ${{github.workspace}}
+      run: |
+        python3 checks/checkunicode.py
 
     - name: Validate licenses (pull request)
       if: github.event_name == 'pull_request'
@@ -58,17 +94,3 @@ jobs:
       working-directory: ${{github.workspace}}
       run: |
         python3 -m pipx run reuse lint
-
-  unicode:
-    name: "Unicode"
-    strategy:
-      fail-fast: true
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout source code
-      uses: actions/checkout@v5
-
-    - name: Validate Unicode
-      working-directory: ${{github.workspace}}
-      run: |
-        python3 checks/checkunicode.py
