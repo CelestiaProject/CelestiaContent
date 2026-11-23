@@ -448,14 +448,14 @@
      }
  }
 
- Barycenter 14328 "GAM Per:23 Per:ADS 2324 AP:CCDM J03048+5331AP"
+ Barycenter 14328 "Shugi-Enmesharra:GAM Per:23 Per:ADS 2324 AP:CCDM J03048+5331AP"
  {
      RA        46.199126
      Dec       53.506450
      Distance 243.226696
  }
  
- "GAM Per A:23 Per A:ADS 2324 A:CCDM J03048+5331A" 
+ "Shugi:GAM Per A:23 Per A:ADS 2324 A:CCDM J03048+5331A" 
  {
      OrbitBarycenter "GAM Per"
      SpectralType    "G8III"                                          
@@ -472,7 +472,7 @@
      }
  }
 
- "GAM Per B:23 Per B:ADS 2324 P:CCDM J03048+5331P" 
+ "Enmesharra:GAM Per B:23 Per B:ADS 2324 P:CCDM J03048+5331P" 
  {
      OrbitBarycenter "GAM Per"
      SpectralType    "A3V"                                            
